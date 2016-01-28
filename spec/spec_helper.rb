@@ -16,16 +16,13 @@
 # users commonly want.
 #
 # See http://rubydoc.info/gems/rspec-core/RSpec/Core/Configuration
-require_relative 'support/controller_helpers'
-require 'devise'
+
+
+
+# require_relative 'support/controller_helpers'
+
 RSpec.configure do |config|
 
-  config.include ControllerHelpers, type: :controller
-  Warden.test_mode!
-
-  config.after do
-    Warden.test_reset!
-  end
 
   
   # rspec-expectations config goes here. You can use an alternate

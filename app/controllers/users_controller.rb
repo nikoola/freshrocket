@@ -1,9 +1,6 @@
-class ProductsController < ApplicationController
+class UsersController < ApplicationController
 
-	before_action :set_product, only: [:show, :update, :destroy]
-
-
-	# before_action :for_admins, only: [:create, :update, :destroy]
+	before_action :for_admins, only: [:create, :update, :destroy]
 
 
 	# GET /products or products.json
@@ -18,15 +15,16 @@ class ProductsController < ApplicationController
 		render json: @product
 	end
 
-	# POST /products
+	# POST /users
 	def create
-		@product = Product.new(product_params)
-		if @product.save
-			render json: @product, status: :created, location: @product
+		user = User.new(user_params)
+		if user.save && user.create_login(login_params)
+			head 200
 		else
-			render json: @product.errors, status: :unprocessable_entity
+			head 422 # you'd actually want to return validation errors here
 		end
 	end
+
 
 	# PATCH/PUT /products/1
 	def update
@@ -46,13 +44,16 @@ class ProductsController < ApplicationController
 		head 200
 	end
 
+
+
 	private
 
-		def set_product
-			@product = Product.find(params[:id])
+		def user_params
+			params.require(:user).permit! #TODO
 		end
 
-		def product_params
-			params[:product].permit! #TODO
+		def login_params
+			params.require(:user).permit(:identification, :password, :password_confirmation)
 		end
+
 end

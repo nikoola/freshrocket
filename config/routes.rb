@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  mount_devise_token_auth_for 'User', at: 'auth'
 
   resources :products,   only: [:index, :show, :create, :update, :destroy]
   resources :line_items, only: [:index, :show, :create, :update, :destroy]

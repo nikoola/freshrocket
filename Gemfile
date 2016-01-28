@@ -18,6 +18,7 @@ group :development, :test do
   gem 'vcr'
 
   gem 'pry'
+  gem 'pry-rescue'
 end
 
 group :development do
@@ -34,16 +35,15 @@ end
 
 group :test do
   gem 'airborne'
+  gem 'database_cleaner'
 end
 
 
-gem 'devise'
-gem 'omniauth'
-
-gem 'omniauth-facebook'
-
-gem 'omniauth-google-oauth2'
-gem 'google-api-client'
 
 
 gem 'paperclip'
+
+
+gem 'devise'
+gem 'devise_token_auth' # Token based authentication for Rails JSON APIs
+gem 'omniauth' # required for devise_token_auth

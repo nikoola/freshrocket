@@ -5,15 +5,11 @@ RSpec.describe 'Products', type: :request do
 	let(:valid_params)   { {title: 'fish', price: '3.0', inventory_count: 2, city_id: 1} }
 	let(:invalid_params) { {title: 'fish', price: nil} } #price: nil is so that it's invalid on update
 
-
 	before(:each) do
-		@city = City.create name: 'New York'
-		City.create name: 'Amsterdam'
+		# ApplicationController.any_instance.stub(:for_admins).and_return(true) #not in before(:all) because stubs are cleared after each example
+		@product = FactoryGirl.create :product
 
-		@product = Product.create valid_params
-
-		@product_not_in_stock = Product.create(valid_params)
-		@product_not_in_stock.update inventory_count: 0
+		@product_not_in_stock = FactoryGirl.create :product, inventory_count: 0
 	end
 
 	describe 'GET /products' do
