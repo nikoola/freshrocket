@@ -148,6 +148,8 @@ GEM
     pry-rescue (1.4.2)
       interception (>= 0.5)
       pry
+    pundit (1.1.0)
+      activesupport (>= 3.0.0)
     rack (1.6.4)
     rack-test (0.6.3)
       rack (>= 1.0)
@@ -254,6 +256,7 @@ DEPENDENCIES
   pry
   pry-rails
   pry-rescue
+  pundit
   railroady
   rails (= 4.2.5)
   rails-api

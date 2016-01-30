@@ -6,9 +6,13 @@ ___why token-based?
 
 
 client-side will keep access_token at localstorage
+The authentication information should be included by the client in the headers of each request.
 
-change auth to 'https://github.com/lynndylanhurley/devise_token_auth' for security? 
-you would usually store the token in localStorage or so if your client is a browser.
+
+___why are the new routes included if this gem doesnt use them? #https://github.com/lynndylanhurley/devise_token_auth#why-are-the-new-routes-included-if-this-gem-doesnt-use-them
+
+Removing the new routes will require significant modifications to devise. If the inclusion of the new routes is causing your app any problems, post an issue in the issue tracker and it will be addressed ASAP.
+
 
 ___how to set up angular + rails?
 	'https://www.airpair.com/ruby-on-rails/posts/authentication-with-angularjs-and-ruby-on-rails'

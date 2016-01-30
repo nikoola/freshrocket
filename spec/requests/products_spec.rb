@@ -5,8 +5,12 @@ RSpec.describe 'Products', type: :request do
 	let(:valid_params)   { {title: 'fish', price: '3.0', inventory_count: 2, city_id: 1} }
 	let(:invalid_params) { {title: 'fish', price: nil} } #price: nil is so that it's invalid on update
 
+	before(:all) do
+		@admin_user = FactoryGirl.create :admin_user
+		@admin_user_auth_headers = @admin_user.create_new_auth_token
+	end
+
 	before(:each) do
-		# ApplicationController.any_instance.stub(:for_admins).and_return(true) #not in before(:all) because stubs are cleared after each example
 		@product = FactoryGirl.create :product
 
 		@product_not_in_stock = FactoryGirl.create :product, inventory_count: 0
@@ -48,19 +52,20 @@ RSpec.describe 'Products', type: :request do
 
 	it 'GET /products/1' do
 		get product_path(@product)
-		expect_json valid_params
+		expect_status 200
+		expect_json_keys [:id, :title, :price, :created_at, :updated_at, :image_file_name, :image_content_type, :image_file_size, :image_updated_at, :inventory_count, :city_id]
 	end
 
 
 	describe 'POST /products' do
 		it 'with valid params' do
-			post products_path, { product: valid_params } 
+			post products_path, { product: valid_params }, @admin_user_auth_headers
 			expect_json valid_params
 		end
 
 		it 'with invalid params' do
 			product = Product.new invalid_params
-			post products_path, { product: invalid_params } 
+			post products_path, { product: invalid_params }, @admin_user_auth_headers
 
 			expect_json product.errors.messages
 		end
@@ -68,20 +73,20 @@ RSpec.describe 'Products', type: :request do
 
 	describe 'PATCH/PUT /products/1' do
 		it 'with valid params' do
-			put product_path(@product), { product: valid_params } 
+			put product_path(@product), { product: valid_params }, @admin_user_auth_headers
 			expect(response.status == 200) #yes, I know about have_http_status(200). I just prefer this one.
 		end
 
 		it 'with invalid_params' do
 			product = Product.new invalid_params
 
-			put product_path(@product), { product: invalid_params } 
+			put product_path(@product), { product: invalid_params }, @admin_user_auth_headers
 			expect_json product.errors.messages
 		end
 	end
 
 	it 'DELETE /products/1' do
-		delete product_path(@product)
+		delete product_path(@product), @admin_user_auth_headers
 		expect(response.status == 200)
 	end
 

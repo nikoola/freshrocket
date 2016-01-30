@@ -34,7 +34,7 @@ group :development do
 end
 
 group :test do
-  gem 'airborne'
+  gem 'airborne' #expect_json
   gem 'database_cleaner'
 end
 
@@ -47,3 +47,7 @@ gem 'paperclip'
 gem 'devise'
 gem 'devise_token_auth' # Token based authentication for Rails JSON APIs
 gem 'omniauth' # required for devise_token_auth
+
+
+gem 'pundit'
+

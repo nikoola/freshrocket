@@ -5,23 +5,25 @@ class User < ActiveRecord::Base
           :omniauthable
   include DeviseTokenAuth::Concerns::User
 
-  # before_save -> { skip_confirmation! } #no devise :confirmable
-
 	has_many :orders
 
-  has_one :login
 
 
-	# # validates_presence_of :phone 
-	# validates_inclusion_of :role, in: ['client', 'admin']
+	validates_presence_of :phone, :role
+	validates_inclusion_of :role, in: ['client', 'admin'] #enum sucks
 
-	# def client?
-	# 	self.role == 'client'
-	# end
+	before_validation :default_values
+	def default_values
+	  self.role ||= 'client'
+	end
 
-	# def admin?
-	# 	self.role == 'admin'
-	# end
+
+	def client?
+		self.role == 'client'
+	end
+	def admin?
+		self.role == 'admin'
+	end
 
 end
 

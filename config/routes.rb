@@ -1,22 +1,44 @@
 Rails.application.routes.draw do
   mount_devise_token_auth_for 'User', at: 'auth'
 
+  resources :users,      only: [:index, :show, :create, :update, :destroy]
   resources :products,   only: [:index, :show, :create, :update, :destroy]
-  resources :line_items, only: [:index, :show, :create, :update, :destroy]
-  resources :orders,     only: [:index, :show, :create, :update, :destroy]
+
+  resources :orders,     only: [:index, :show, :create, :update, :destroy] #fix line_items from orders too
 
 
 
+  # ___for everyone 
+
+  # # no authentication needed.
+  # resources :products,   only: [:index, :show]
 
 
-  # The priority is based upon order of creation: first created -> highest priority.
-  # See how all your routes lay out with "rake routes".
+  # resource :user do #only client's own
+  #   resources :orders,    only: [:index, :show, :create, :update, :destroy] 
+  # end
 
-  # You can have the root of your site routed with "root"
-  # root 'welcome#index'
 
-  # Example of regular route:
-  #   get 'products/:id' => 'catalog#view'
+  # namespace :admin do #admins see in admin panel 
+  # #under /admin we will only have the urls that require admin account.
+  #   resources :products,    only: [:create, :update, :destroy]
+  #   resources :orders,      only: [:index, :show, :create, :update, :destroy]
+  # end
+
+
+  # guest -> client -> admin. admin can use whatever urls.
+
+
+
+# models/orders/line_item.rb
+# models/order.rb
+
+
+
+# I don't need a line_item controller, I'll interact with line_items through orders.
+
+
+
 
   # Example of named route that can be invoked with purchase_url(id: product.id)
   #   get 'products/:id/purchase' => 'catalog#purchase', as: :purchase

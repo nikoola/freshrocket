@@ -1,59 +1,65 @@
 class UsersController < ApplicationController
 
-	before_action :for_admins, only: [:create, :update, :destroy]
+	before_action :set_user, only: [:show, :update, :destroy]
+	before_action :authenticate_user!
 
-
-	# GET /products or products.json
+	# GET /users
 	def index
-		@products = Product.filter params.slice(:city_id, :in_stock)
-
-		render json: @products
+		authorize User #unable to find policy of nil (if nil)
+		@users = User.all
+		render json: @users
 	end
 
-	# GET /products/1
+	# GET /users/1
 	def show
-		render json: @product
+		authorize @user
+		render json: @user
 	end
 
 	# POST /users
 	def create
-		user = User.new(user_params)
-		if user.save && user.create_login(login_params)
-			head 200
+		authorize User
+		@user = User.new(user_params)
+		if @user.save
+			render json: @user, status: :created, location: @user
 		else
-			head 422 # you'd actually want to return validation errors here
+			render json: @user.errors, status: :unprocessable_entity
 		end
 	end
 
-
-	# PATCH/PUT /products/1
+	# PATCH/PUT /users/1
 	def update
-		@product = Product.find(params[:id])
+		authorize User
 
-		if @product.update(product_params)
+		@user = User.find(params[:id])
+
+		if @user.update(user_params)
 			head 200
 		else
-			render json: @product.errors, status: :unprocessable_entity
+			render json: @user.errors, status: :unprocessable_entity
 		end
 	end
 
-	# DELETE /products/1
+	# DELETE /users/1
 	def destroy
-		@product.destroy
-
+		authorize User
+		@user.destroy
 		head 200
 	end
 
-
-
 	private
 
-		def user_params
-			params.require(:user).permit! #TODO
+		def set_user
+			@user = User.find(params[:id])
 		end
 
-		def login_params
-			params.require(:user).permit(:identification, :password, :password_confirmation)
+		def user_params
+			params.require(:user).permit!.except(:role) #TODO
 		end
+
+
+
+
+
 
 end
