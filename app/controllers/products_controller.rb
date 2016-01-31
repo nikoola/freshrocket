@@ -16,36 +16,6 @@ class ProductsController < ApplicationController
 		render json: @product
 	end
 
-	# POST /products
-	def create
-		authorize Product
-		@product = Product.new(product_params)
-		if @product.save
-			render json: @product, status: :created, location: @product
-		else
-			render json: @product.errors, status: :unprocessable_entity
-		end
-	end
-
-	# PATCH/PUT /products/1
-	def update
-		authorize Product
-		@product = Product.find(params[:id])
-
-		if @product.update(product_params)
-			head 200
-		else
-			render json: @product.errors, status: :unprocessable_entity
-		end
-	end
-
-	# DELETE /products/1
-	def destroy
-		authorize Product
-		@product.destroy
-
-		head 200
-	end
 
 	private
 

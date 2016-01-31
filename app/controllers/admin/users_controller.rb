@@ -1,4 +1,4 @@
-class UsersController < ApplicationController
+class Admin::UsersController < ApplicationController
 
 	before_action :set_user, only: [:show, :update, :destroy]
 	before_action :authenticate_user!
@@ -21,7 +21,7 @@ class UsersController < ApplicationController
 		authorize User
 		@user = User.new(user_params)
 		if @user.save
-			render json: @user, status: :created, location: @user
+			render json: @user, status: :created, location: admin_user_path(@user)
 		else
 			render json: @user.errors, status: :unprocessable_entity
 		end
@@ -34,7 +34,7 @@ class UsersController < ApplicationController
 		@user = User.find(params[:id])
 
 		if @user.update(user_params)
-			head 200
+			render json: @user, status: 200
 		else
 			render json: @user.errors, status: :unprocessable_entity
 		end

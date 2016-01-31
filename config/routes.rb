@@ -1,29 +1,29 @@
 Rails.application.routes.draw do
-  mount_devise_token_auth_for 'User', at: 'auth'
 
-  resources :users,      only: [:index, :show, :create, :update, :destroy]
-  resources :products,   only: [:index, :show, :create, :update, :destroy]
+  # resources :users,      only: [:index, :show, :create, :update, :destroy]
+  # resources :products,   only: [:index, :show, :create, :update, :destroy]
 
-  resources :orders,     only: [:index, :show, :create, :update, :destroy] #fix line_items from orders too
-
+  # resources :orders,     only: [:index, :show, :create, :update, :destroy] #fix line_items from orders too
 
 
-  # ___for everyone 
+  # having resources :users do only means we are getting user id in nested routes.
 
-  # # no authentication needed.
-  # resources :products,   only: [:index, :show]
-
-
-  # resource :user do #only client's own
-  #   resources :orders,    only: [:index, :show, :create, :update, :destroy] 
-  # end
+  # no authentication needed.
+  resources :products,   only: [:index, :show]
 
 
-  # namespace :admin do #admins see in admin panel 
-  # #under /admin we will only have the urls that require admin account.
-  #   resources :products,    only: [:create, :update, :destroy]
-  #   resources :orders,      only: [:index, :show, :create, :update, :destroy]
-  # end
+  mount_devise_token_auth_for 'User', at: 'auth' #this is for compatibility with ng
+  resource :user, module: 'client', path: :client, as: :client, only: [:show] do
+    resources :orders,    only: [:index, :show, :create, :update, :destroy]
+  end
+
+
+  namespace :admin do #admins see in admin panel
+  #under /admin we will only have the urls that require admin account.
+    resources :products,    only: [:create, :update, :destroy]
+    resources :orders,      only: [:index, :show, :create, :update, :destroy]
+    resources :users,       only: [:index, :show, :create, :update, :destroy]
+  end
 
 
   # guest -> client -> admin. admin can use whatever urls.

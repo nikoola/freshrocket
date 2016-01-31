@@ -148,8 +148,6 @@ GEM
     pry-rescue (1.4.2)
       interception (>= 0.5)
       pry
-    pundit (1.1.0)
-      activesupport (>= 3.0.0)
     rack (1.6.4)
     rack-test (0.6.3)
       rack (>= 1.0)
@@ -185,6 +183,8 @@ GEM
     rb-fsevent (0.9.7)
     rb-inotify (0.9.5)
       ffi (>= 0.5.0)
+    regulator (0.1.3)
+      activesupport (>= 3.0.0)
     responders (2.1.1)
       railties (>= 4.2.0, < 5.1)
     rest-client (1.8.0)
@@ -256,10 +256,10 @@ DEPENDENCIES
   pry
   pry-rails
   pry-rescue
-  pundit
   railroady
   rails (= 4.2.5)
   rails-api
+  regulator
   rspec-rails
   spring
   spring-commands-rspec

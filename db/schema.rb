@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20160128193732) do
+ActiveRecord::Schema.define(version: 20160127185540) do
 
   create_table "cities", force: :cascade do |t|
     t.string "name"
@@ -21,7 +21,7 @@ ActiveRecord::Schema.define(version: 20160128193732) do
     t.integer "order_id"
     t.integer "product_id"
     t.integer "amount"
-    t.decimal "fixed_price"
+    t.decimal "fixed_price", precision: 8, scale: 2
   end
 
   add_index "line_items", ["order_id"], name: "index_line_items_on_order_id"
@@ -30,18 +30,19 @@ ActiveRecord::Schema.define(version: 20160128193732) do
   create_table "orders", force: :cascade do |t|
     t.integer  "user_id"
     t.string   "status"
-    t.decimal  "fixed_price"
-    t.datetime "created_at",  null: false
-    t.datetime "updated_at",  null: false
+    t.decimal  "fixed_price", precision: 8, scale: 2
+    t.datetime "created_at",                          null: false
+    t.datetime "updated_at",                          null: false
+    t.text     "comment"
   end
 
   add_index "orders", ["user_id"], name: "index_orders_on_user_id"
 
   create_table "products", force: :cascade do |t|
     t.string   "title"
-    t.decimal  "price"
-    t.datetime "created_at",         null: false
-    t.datetime "updated_at",         null: false
+    t.decimal  "price",              precision: 8, scale: 2
+    t.datetime "created_at",                                 null: false
+    t.datetime "updated_at",                                 null: false
     t.string   "image_file_name"
     t.string   "image_content_type"
     t.integer  "image_file_size"
@@ -53,6 +54,9 @@ ActiveRecord::Schema.define(version: 20160128193732) do
   add_index "products", ["city_id"], name: "index_products_on_city_id"
 
   create_table "users", force: :cascade do |t|
+    t.string   "email"
+    t.string   "phone"
+    t.string   "role"
     t.string   "provider",               default: "email", null: false
     t.string   "uid",                    default: "",      null: false
     t.string   "encrypted_password",     default: "",      null: false
@@ -64,9 +68,6 @@ ActiveRecord::Schema.define(version: 20160128193732) do
     t.datetime "last_sign_in_at"
     t.string   "current_sign_in_ip"
     t.string   "last_sign_in_ip"
-    t.string   "email"
-    t.string   "phone"
-    t.string   "role"
     t.text     "tokens"
     t.datetime "created_at"
     t.datetime "updated_at"

@@ -57,44 +57,4 @@ RSpec.describe 'Products', type: :request do
 	end
 
 
-	describe 'POST /products' do
-		it 'with valid params' do
-			post products_path, { product: valid_params }, @admin_user_auth_headers
-			expect_json valid_params
-		end
-
-		it 'with invalid params' do
-			product = Product.new invalid_params
-			post products_path, { product: invalid_params }, @admin_user_auth_headers
-
-			expect_json product.errors.messages
-		end
-	end
-
-	describe 'PATCH/PUT /products/1' do
-		it 'with valid params' do
-			put product_path(@product), { product: valid_params }, @admin_user_auth_headers
-			expect(response.status == 200) #yes, I know about have_http_status(200). I just prefer this one.
-		end
-
-		it 'with invalid_params' do
-			product = Product.new invalid_params
-
-			put product_path(@product), { product: invalid_params }, @admin_user_auth_headers
-			expect_json product.errors.messages
-		end
-	end
-
-	it 'DELETE /products/1' do
-		delete product_path(@product), @admin_user_auth_headers
-		expect(response.status == 200)
-	end
-
-
-
-
-
-
-
-
 end

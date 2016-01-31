@@ -27,3 +27,4 @@ class User < ActiveRecord::Base
 
 end
 
+# inventory_count --
