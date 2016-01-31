@@ -4,11 +4,6 @@ RSpec.describe "Users", type: :request do
 
 	describe 'Authentication' do
 
-		before(:all) do
-			@admin_user = FactoryGirl.create :admin_user
-			@admin_user_auth_headers = @admin_user.create_new_auth_token
-		end
-
 		before(:each) do
 			@user = FactoryGirl.create :user
 			@auth_headers = @user.create_new_auth_token #as if we signed in and remembered them already

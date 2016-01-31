@@ -4,13 +4,11 @@ RSpec.describe "Users", type: :request do
 
 
 	before(:all) do
-		@admin_user = FactoryGirl.create :admin_user
-		@admin_user_auth_headers = @admin_user.create_new_auth_token
-	end
-
-	before(:each) do
 		@user = FactoryGirl.create :user
-		@auth_headers = @user.create_new_auth_token #as if we signed in and remembered them already
+		@auth_headers = @user.create_new_auth_token
+
+		@user_with_users_ability = FactoryGirl.create :user, abilities: [:users]
+		@auth_headers_with_users_ability = @user_with_users_ability.create_new_auth_token #as if we signed in and remembered them already
 	end
 
 
@@ -26,8 +24,8 @@ RSpec.describe "Users", type: :request do
 		end
 
 		it 'authenticated :admin user - 200' do
-			@user = FactoryGirl.create :admin_user
-			get admin_users_path, {}, @user.create_new_auth_token
+
+			get admin_users_path, {}, @auth_headers_with_users_ability
 			
 			expect_status 200
 
@@ -50,9 +48,7 @@ RSpec.describe "Users", type: :request do
 		end
 
 		it 'authenticated :admin user - 200' do
-			@user = FactoryGirl.create :admin_user
-			get admin_user_path(@user), {}, @user.create_new_auth_token
-			
+			get admin_user_path(@user), {}, @auth_headers_with_users_ability
 			expect_status 200
 		end
 	end
@@ -60,13 +56,13 @@ RSpec.describe "Users", type: :request do
 	describe 'POST admin/users' do
 
 		it 'by admin, with valid params: user created' do
-			post admin_users_path, {user: FactoryGirl.attributes_for(:user)} , @admin_user_auth_headers
+			post admin_users_path, {user: FactoryGirl.attributes_for(:user)} , @auth_headers_with_users_ability
 			expect_status 201
 			expect_json_keys :id, :provider, :uid, :email, :phone, :role, :created_at, :updated_at
 		end
 
 		it 'by admin, with invalid params: errors returned' do
-			post admin_users_path, {user: FactoryGirl.attributes_for(:user, phone: nil)} , @admin_user_auth_headers
+			post admin_users_path, {user: FactoryGirl.attributes_for(:user, phone: nil)} , @auth_headers_with_users_ability
 			expect_status 422
 			expect_json :phone=>["can't be blank"]
 		end
@@ -75,20 +71,60 @@ RSpec.describe "Users", type: :request do
 
 	describe 'PUT admin/users/1' do
 		it 'by admin, with valid params: user updated' do
-			put admin_user_path(@user), {user: {role: :admin}}, @admin_user_auth_headers
+			put admin_user_path(@user), {user: {role: :admin}}, @auth_headers_with_users_ability
 			expect_status 200
 		end
-
-		# it 'admin can update other user roles to admin'
 	end
 
 	describe 'DELETE admin/users/1' do
 		it 'by admin: user deleted' do
-			delete admin_user_path(@user), {}, @admin_user_auth_headers
+			delete admin_user_path(@user), {}, @auth_headers_with_users_ability
 			expect_status 200
 		end
 	end
 
 
 
+
+	describe 'GET admin/users/1/list_abilities' do
+		it 'returns resources first user can and cant edit' do
+			@user.ability_list = ['users']
+			@user.save; @user.reload; #only appears on reload in .abilities list
+			get "/admin/users/#{@user.id}/list_abilities", {}, @auth_headers_with_users_ability
+			expect_json({:abilities=>{:orders=>0, :products=>0, :users=>1}})
+		end
+	end
+
+
+	describe 'PUT admin/users/1/update_abilities' do
+		describe 'user with :users ability' do
+			it 'with valid params: updates abilities' do
+				put "/admin/users/#{@user.id}/update_abilities", {abilities: {'users' => 1, 'products' => 0, 'orders' => 0}}, @auth_headers_with_users_ability
+				expect(@user.abilities.map(&:name)).to match_array(['users'])
+			end
+
+			it 'with invalid params: returns errors' do
+				put "/admin/users/#{@user.id}/update_abilities", {abilities: {'lalala' => 1}}, @auth_headers_with_users_ability
+
+				expect_status 422
+				expect_json :abilities=>["lalala is not a valid ability"]
+			end
+		end
+
+		describe 'user without :users ability' do
+			it 'with valid params' do
+				put "/admin/users/#{@user.id}/update_abilities", {abilities: {'users' => 1, 'products' => 0, 'orders' => 0}}, @auth_headers
+				expect_status 401
+			end
+		end
+	end
+
 end
+
+
+
+
+
+
+
+

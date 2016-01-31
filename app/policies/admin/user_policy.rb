@@ -7,23 +7,31 @@ class Admin::UserPolicy
 	end
 
 	def index?
-		@current_user.admin?
+		@current_user.has_abillity? 'users'
 	end
 
-	def show? #allow self users too as they don't have the registration#show in default ng routes
-		@current_user.admin?
+	def show?
+		@current_user.has_abillity? 'users'
 	end
 
 	def create?
-		@current_user.admin?
+		@current_user.has_abillity? 'users'
 	end
 
 	def update?
-		@current_user.admin?
+		@current_user.has_abillity? 'users'
 	end
 
 	def destroy?
-		@current_user.admin?
+		@current_user.has_abillity? 'users'
+	end
+
+	def update_abilities? 
+		@current_user.has_abillity? 'users'
+	end
+
+	def list_abilities?
+		@current_user.has_abillity? 'users'
 	end
 
 end

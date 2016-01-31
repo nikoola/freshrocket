@@ -10,15 +10,13 @@ gem 'sqlite3'
 gem 'rails-api'
 
 group :development, :test do
-  gem 'rspec-rails'
-  gem 'factory_girl_rails'
-  gem 'capybara'
-  gem 'guard-rspec'
-  gem 'spring-commands-rspec'
-  gem 'vcr'
+	gem 'rspec-rails'
+	gem 'factory_girl_rails'
 
-  gem 'pry'
-  gem 'pry-rescue'
+	gem 'spring-commands-rspec'
+
+	gem 'pry'
+	gem 'pry-rescue'
 end
 
 group :development do
@@ -29,13 +27,13 @@ group :development do
 
 	
 	gem 'spring' # Spring speeds up development by keeping your application running in the background.
-  
-  gem 'railroady' #RailRoady generates Rails 3/4 model (ActiveRecord, Mongoid, Datamapper) and controller UML diagrams. rake diagram:all
+	
+	gem 'railroady' #RailRoady generates Rails 3/4 model (ActiveRecord, Mongoid, Datamapper) and controller UML diagrams. rake diagram:all
 end
 
 group :test do
-  gem 'airborne' #expect_json
-  gem 'database_cleaner'
+	gem 'airborne' #expect_json
+	gem 'database_cleaner'
 end
 
 
@@ -48,6 +46,6 @@ gem 'devise'
 gem 'devise_token_auth' # Token based authentication for Rails JSON APIs
 gem 'omniauth' # required for devise_token_auth
 
-gem 'regulator'
-# gem 'pundit'
+gem 'regulator' # like pundit, but allows policy namespacing.
 
+gem 'acts-as-taggable-on'

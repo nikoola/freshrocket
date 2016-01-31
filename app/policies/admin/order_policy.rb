@@ -7,23 +7,23 @@ class Admin::OrderPolicy
 	end
 
 	def index?
-		@current_user.admin?
+		@current_user.has_abillity? 'orders'
 	end
 
 	def show? 
-		@current_user.admin?
+		@current_user.has_abillity? 'orders'
 	end
 
 	def create?
-		@current_user.admin?
+		@current_user.has_abillity? 'orders'
 	end
 
 	def update?
-		@current_user.admin?
+		@current_user.has_abillity? 'orders'
 	end
 
 	def destroy?
-		@current_user.admin?
+		@current_user.has_abillity? 'orders'
 	end
 
 end

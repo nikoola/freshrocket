@@ -1,29 +1,43 @@
 class User < ActiveRecord::Base
-  # Include default devise modules.
-  devise :database_authenticatable, :registerable,
-          :recoverable, :rememberable, :trackable, :validatable,
-          :omniauthable
-  include DeviseTokenAuth::Concerns::User
+
+	devise :database_authenticatable, :registerable,
+					:recoverable, :rememberable, :trackable, :validatable,
+					:omniauthable
+	include DeviseTokenAuth::Concerns::User
 
 	has_many :orders
+	validates_presence_of :phone
+
+
+	acts_as_taggable_on :abilities
+
+	VALID_ABILITY_NAMES = %w(orders products users) #why tags and not create separate roles table? because it's nice to keep app logic in app.
+	validate :validate_abilities
 
 
 
-	validates_presence_of :phone, :role
-	validates_inclusion_of :role, in: ['client', 'admin'] #enum sucks
-
-	before_validation :default_values
-	def default_values
-	  self.role ||= 'client'
+	def has_abillity? tag_name
+		self.abilities.any? { |ability| ability.name == tag_name.to_s }
 	end
 
 
-	def client?
-		self.role == 'client'
-	end
-	def admin?
-		self.role == 'admin'
-	end
+
+
+
+	private
+
+		def validate_abilities
+			invalid_abilities = self.ability_list - VALID_ABILITY_NAMES
+			invalid_abilities.each do |ability|
+				errors.add(:abilities, ability + ' is not a valid ability')
+			end
+		end
+
+
+
+
+
+
 
 end
 

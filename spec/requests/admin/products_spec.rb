@@ -6,13 +6,12 @@ RSpec.describe 'Products', type: :request do
 	let(:invalid_params) { {title: 'fish', price: nil} } #price: nil is so that it's invalid on update
 
 	before(:all) do
-		@admin_user = FactoryGirl.create :admin_user
+		@admin_user = FactoryGirl.create :user, abilities: [:products, :users]
 		@admin_user_auth_headers = @admin_user.create_new_auth_token
 	end
 
 	before(:each) do
 		@product = FactoryGirl.create :product
-
 		@product_not_in_stock = FactoryGirl.create :product, inventory_count: 0
 	end
 

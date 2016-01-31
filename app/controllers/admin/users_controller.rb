@@ -1,6 +1,6 @@
 class Admin::UsersController < ApplicationController
 
-	before_action :set_user, only: [:show, :update, :destroy]
+	before_action :set_user, only: [:show, :update, :destroy, :update_abilities, :list_abilities]
 	before_action :authenticate_user!
 
 	# GET /users
@@ -31,8 +31,6 @@ class Admin::UsersController < ApplicationController
 	def update
 		authorize User
 
-		@user = User.find(params[:id])
-
 		if @user.update(user_params)
 			render json: @user, status: 200
 		else
@@ -45,6 +43,40 @@ class Admin::UsersController < ApplicationController
 		authorize User
 		@user.destroy
 		head 200
+	end
+
+
+	def list_abilities
+		authorize User
+		hash = {}
+
+		User::VALID_ABILITY_NAMES.each do |ability_name|
+			hash[ability_name] = @user.has_abillity?(ability_name) ? 1 : 0
+		end
+
+		render json: {abilities: hash}, status: 200
+	end
+
+	def update_abilities
+		authorize User
+
+		params[:abilities].each do |ability_name, value|
+			case value
+			when '0'
+				@user.ability_list.remove(ability_name)
+			when '1'
+				@user.ability_list.add(ability_name)
+			else
+				render json: 'value should be 1 or 0', status: :unprocessable_entity
+			end
+		end
+
+		if @user.save
+			head 200
+		else
+			render json: @user.errors, status: :unprocessable_entity
+		end
+
 	end
 
 	private

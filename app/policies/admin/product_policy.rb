@@ -7,15 +7,15 @@ class Admin::ProductPolicy
 	end
 
 	def create?
-		@current_user.admin?
+		@current_user.has_abillity? 'products'
 	end
 
 	def update?
-		@current_user.admin?
+		@current_user.has_abillity? 'products'
 	end
 
 	def destroy?
-		@current_user.admin?
+		@current_user.has_abillity? 'products'
 	end
 
 end

@@ -8,9 +8,17 @@ FactoryGirl.define do
 		phone                 '+79173332221'
 		role                  :client
 
-		factory :admin_user do
-		  role                :admin
+
+		transient do
+			abilities           []
 		end
+
+		after(:create) do |user, evaluator|
+		  user.ability_list = evaluator.abilities
+		  user.save; user.reload
+		end
+
+
 
 	end
 end
