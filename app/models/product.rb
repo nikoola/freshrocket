@@ -25,10 +25,17 @@ class Product < ActiveRecord::Base
 		true_or_false ? where('inventory_count > ?', 0) : where(inventory_count: 0) 
 	}
 	scope :category_id,  -> (category_id) { includes(:categories).where('categories.id': category_id) }
-	# scope :starts_with, -> (name) { where("name like ?", "#{name}%")}
-
-	# Product.where()
 
 
-# Order include its line_items
+
+
+
+
+
+
+
+
+
+
+
 end

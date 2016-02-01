@@ -19,26 +19,15 @@ describe Category, type: :model do
 	it 'accepts nested categories_products_joins' do
 		city = City.create! name: 'Springfield'
 		product = Product.create!(FactoryGirl.attributes_for :product, city_id: city.id)
+
 		product.update!({ categories_products_joins_attributes: [
 			{category_id: @category_1.id},
 			{category_id: @category_2.id}
 		] })
 
 		expect(product.reload.categories.pluck(:id)).to match_array([@category_1.id, @category_2.id])
-
-		# product.update!({ categories_products_joins_attributes: [
-		# 	{}
-
-		# ] })
-
-# binding.pry
-
-
 	end
-# delete one line_item
-# add one line_item
-# add multiple line_items
-# delete multiple line items
+
 
 
 
