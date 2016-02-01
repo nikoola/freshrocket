@@ -26,4 +26,8 @@ class Admin::OrderPolicy
 		@current_user.has_abillity? 'orders'
 	end
 
+	def update_status?
+		@current_user.has_abillity? 'orders'
+	end
+
 end

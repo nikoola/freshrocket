@@ -13,12 +13,6 @@ RSpec.describe "Users", type: :request do
 		@admin_user_auth_headers = @admin_user.create_new_auth_token
 	end
 
-	before(:each) do
-		@user = FactoryGirl.create :user
-		@auth_headers = @user.create_new_auth_token #as if we signed in and remembered them already
-	end
-
-
 	describe 'GET admin/orders' do
 		it 'nonauthenticated - 401' do
 			get '/admin/orders'
@@ -84,6 +78,43 @@ RSpec.describe "Users", type: :request do
 			delete admin_order_path(@order), {}, @admin_user_auth_headers
 			expect_status 200
 		end
+	end
+
+	describe 'PUT /admin/orders/1/update_status' do
+		before(:each) do
+			@order = FactoryGirl.create :order, user_id: @user.id
+		end
+
+		it 'approves confirmed order' do
+			@order.confirm!
+
+			put "/admin/orders/#{@order.id}/update_status", {order: {action: 'approve'}}, @admin_user_auth_headers
+			expect_status 200
+			expect(@order.reload.status).to eq('approved')
+		end
+
+		it 'admin cant confirm order she doesnt own' do
+			put "/admin/orders/#{@order.id}/update_status", {order: {action: 'confirm'}}, @admin_user_auth_headers
+			expect_status 401
+			expect_json :error=>"this user can't confirm order"
+		end
+
+		it 'updates approved to dispatched' do
+			@order.confirm!
+			@order.approve!
+
+			put "/admin/orders/#{@order.id}/update_status", {order: {action: 'dispatch'}}, @admin_user_auth_headers
+			expect_status 200
+			expect(@order.reload.status).to eq('dispatched')
+		end
+
+
+
+
+
+
+
+
 	end
 
 

@@ -34,7 +34,7 @@ RSpec.describe 'Products', type: :request do
 	describe 'PATCH/PUT admin/products/1' do
 		it 'with valid params' do
 			put admin_product_path(@product), { product: valid_params }, @admin_user_auth_headers
-			expect(response.status == 200) #yes, I know about have_http_status(200). I just prefer this one.
+			expect_status 200
 		end
 
 		it 'with invalid_params' do

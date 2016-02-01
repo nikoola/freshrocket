@@ -12,20 +12,25 @@ describe Order, type: :model do
 	end
 
 
-	it '.set_fixed_price' do
-		order = @user.orders.create({ line_items_attributes: [{product_id: @product.id, amount: 2}, {product_id: @product_2.id, amount: 3}] })
+	describe 'remembers line items and product prices' do
+		it '.set_fixed_price' do
+			order = @user.orders.create({ line_items_attributes: [{product_id: @product.id, amount: 2}, {product_id: @product_2.id, amount: 3}] })
 
-		expect(order).to be_valid
-		expect(order.fixed_price).to eq(62.0)
+			expect(order).to be_valid
+			expect(order.fixed_price).to eq(62.0)
+		end
+
+		it 'fixed price updated on update' do
+			line_item_id = @order.line_items.first.id
+			@order.update({line_items_attributes: {id: line_item_id, amount: 10}})
+
+			sum = @order.line_items.map(&:set_fixed_price).reduce {|sum, n| sum + n}
+			expect(@order.fixed_price).to eq(sum)
+		end
 	end
 
-
-	it 'fixed price updated on update' do
-		line_item_id = @order.line_items.first.id
-		@order.update({line_items_attributes: {id: line_item_id, amount: 10}})
-
-		sum = @order.line_items.map(&:set_fixed_price).reduce {|sum, n| sum + n}
-		expect(@order.fixed_price).to eq(sum)
+	it '' do
+		# binding.pry
 	end
 
 

@@ -1,6 +1,6 @@
 module Admin
 	class OrdersController < ApplicationController
-		before_action :set_order, only: [:show, :update, :destroy]
+		before_action :set_order, only: [:show, :update, :destroy, :update_status]
 		before_action :authenticate_user!, -> { authorize Order }
 
 		# GET /orders
@@ -40,8 +40,22 @@ module Admin
 		# DELETE /orders/1
 		def destroy
 			@order.destroy
-
 			head 200
+		end
+
+		def update_status
+			action = params[:order][:action]
+
+			if action.to_sym.in? [:approve, :dispatch, :deliver, :cancel]
+				if @order.update_status action
+					head 200
+				else
+					render json: @order.errors, status: :unprocessable_entity
+				end
+			else
+				render json: {error: "this user can't #{action} order"}, status: 401
+			end
+
 		end
 
 		private

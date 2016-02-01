@@ -4,6 +4,5 @@ FactoryGirl.define do
 		price           3.0
 		inventory_count 2
 		association     :city
-
 	end
 end

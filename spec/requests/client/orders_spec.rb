@@ -6,7 +6,6 @@ RSpec.describe 'Orders', type: :request do
 		@user = FactoryGirl.create :user
 		@auth_headers = @user.create_new_auth_token
 
-		@product = FactoryGirl.create :product
 		@order = FactoryGirl.create :order, user_id: @user.id
 	end
 
@@ -36,10 +35,11 @@ RSpec.describe 'Orders', type: :request do
 
 	describe 'POST client/orders' do
 		it 'with valid params' do
-			post '/client/orders', { order: { line_items_attributes: [{product_id: @product.id, amount: 100}] } }, @auth_headers
+			product = FactoryGirl.create :product
+			post '/client/orders', { order: { line_items_attributes: [{product_id: product.id, amount: 100}] } }, @auth_headers
 
 			expect_status 201
-			expect_json fixed_price: (@product.price * 100).to_s
+			expect_json fixed_price: (product.price * 100).to_s
 		end
 	end
 
@@ -82,10 +82,44 @@ RSpec.describe 'Orders', type: :request do
 
 	it 'DELETE /client/orders/1' do
 		delete "/client/orders/#{@order.id}", {}, @auth_headers
-
 		expect_status 200
 	end
 
+
+	describe 'PUT /client/orders/1/update_status' do
+		before(:each) do
+			@order = FactoryGirl.create :order, user_id: @user.id
+		end
+
+		it 'client confirms order' do
+			put "/client/orders/#{@order.id}/update_status", { order: { action: 'confirm' } }, @auth_headers
+			expect_status 200
+			expect(@order.reload.status).to eq('confirmed')
+		end
+
+		it 'client cant approve order' do
+			put "/client/orders/#{@order.id}/update_status", { order: { action: 'approve' } }, @auth_headers
+			expect_status 401
+			expect(@order.reload.status).to eq('unconfirmed')
+			expect_json error: "this user can't approve order"
+		end
+
+		it 'if order is approved it cant be confirmed' do
+			@order.confirm; @order.approve; @order.save
+			put "/client/orders/#{@order.id}/update_status", { order: { action: 'confirm' } }, @auth_headers
+			expect_status 422
+			expect(@order.reload.status).to eq('approved')
+			expect_json :status=>["status cannot transition from approved to confirm"]
+		end
+
+		it 'admin user gets 404 error (because we cant find this order in his orders)' do
+			@admin = FactoryGirl.create :user, abilities: ['orders']
+			@admin_auth_headers = @admin.create_new_auth_token
+			put "/client/orders/#{@order.id}/update_status", { order: { action: 'confirm' } }, @admin_auth_headers
+
+			expect_status 404
+		end
+	end
 
 
 

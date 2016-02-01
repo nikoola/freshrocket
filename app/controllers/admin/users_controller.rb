@@ -1,24 +1,21 @@
 class Admin::UsersController < ApplicationController
 
 	before_action :set_user, only: [:show, :update, :destroy, :update_abilities, :list_abilities]
-	before_action :authenticate_user!
+	before_action :authenticate_user!, -> { authorize User }
 
 	# GET /users
 	def index
-		authorize User #unable to find policy of nil (if nil)
 		@users = User.all
 		render json: @users
 	end
 
 	# GET /users/1
 	def show
-		authorize @user
 		render json: @user
 	end
 
 	# POST /users
 	def create
-		authorize User
 		@user = User.new(user_params)
 		if @user.save
 			render json: @user, status: :created, location: admin_user_path(@user)
@@ -29,7 +26,6 @@ class Admin::UsersController < ApplicationController
 
 	# PATCH/PUT /users/1
 	def update
-		authorize User
 
 		if @user.update(user_params)
 			render json: @user, status: 200
@@ -40,14 +36,12 @@ class Admin::UsersController < ApplicationController
 
 	# DELETE /users/1
 	def destroy
-		authorize User
 		@user.destroy
 		head 200
 	end
 
 
 	def list_abilities
-		authorize User
 		hash = {}
 
 		User::VALID_ABILITY_NAMES.each do |ability_name|
@@ -58,7 +52,6 @@ class Admin::UsersController < ApplicationController
 	end
 
 	def update_abilities
-		authorize User
 
 		params[:abilities].each do |ability_name, value|
 			case value

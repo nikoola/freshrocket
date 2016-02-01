@@ -49,3 +49,5 @@ gem 'omniauth' # required for devise_token_auth
 gem 'regulator' # like pundit, but allows policy namespacing.
 
 gem 'acts-as-taggable-on'
+
+gem 'aasm'

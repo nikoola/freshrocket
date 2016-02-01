@@ -4,19 +4,31 @@ Rails.application.routes.draw do
 	# having resources :users do only means we are getting user id in nested routes.
 
 	# no authentication needed.
+	resources :categories, only: [:index]
 	resources :products,   only: [:index, :show]
+
 
 
 	mount_devise_token_auth_for 'User', at: 'auth' #this is for compatibility with ng
 	resource :user, module: 'client', path: :client, as: :client, only: [:show] do
-		resources :orders,    only: [:index, :show, :create, :update, :destroy]
+		resources :orders,    only: [:index, :show, :create, :update, :destroy] do #TODO can only destroy if order.condirmed? or order.unconfirmed?
+			member {
+				put :update_status
+			}
+		end
 	end
 
 
 	namespace :admin do #admins see in admin panel
 	#under /admin we will only have the urls that require admin account.
+		resources :categories,  only: [:create, :update, :destroy] #no need for show
 		resources :products,    only: [:create, :update, :destroy]
-		resources :orders,      only: [:index, :show, :create, :update, :destroy]
+		resources :orders,      only: [:index, :show, :create, :update, :destroy] do
+			member {
+				put :update_status     # status: ''
+				get :may_update_status # status: ''
+			}
+		end
 		resources :users,       only: [:index, :show, :create, :update, :destroy] do
 			member {
 				put :update_abilities #update abilities for a user

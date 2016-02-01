@@ -1,14 +1,16 @@
 class Admin::ProductsController < ApplicationController
 
 	before_action :set_product, only: [:show, :update, :destroy]
-	before_action :authenticate_user!, only: [:create, :update, :destroy]
+	before_action :authenticate_user!, -> { authorize Product }
 
 
 
-	# POST /products
+	# POST /admin/products
 	def create
-		authorize Product
+		# @categories = Category.where(id: params[:product_params][:category_ids])
+		
 		@product = Product.new(product_params)
+		# @product.categories = @categories
 		if @product.save
 			render json: @product, status: :created, location: @product
 		else
@@ -16,9 +18,8 @@ class Admin::ProductsController < ApplicationController
 		end
 	end
 
-	# PATCH/PUT /products/1
+	# PATCH/PUT /admin/products/1
 	def update
-		authorize Product
 		@product = Product.find(params[:id])
 
 		if @product.update(product_params)
@@ -28,9 +29,8 @@ class Admin::ProductsController < ApplicationController
 		end
 	end
 
-	# DELETE /products/1
+	# DELETE /admin/products/1
 	def destroy
-		authorize Product
 		@product.destroy
 
 		head 200
@@ -38,11 +38,12 @@ class Admin::ProductsController < ApplicationController
 
 	private
 
+
 		def set_product
 			@product = Product.find(params[:id])
 		end
 
 		def product_params
-			params.require(:product).permit! #TODO
+			params.require(:product).permit(:title, :price, :inventory_count, :city_id, category_ids: [])
 		end
 end

@@ -1,7 +1,7 @@
 require 'rails_helper'
 
 
-describe Order, type: :model do
+describe LineItem, type: :model do
 
 	before(:each) do
 		@order = FactoryGirl.create :order
