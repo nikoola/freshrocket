@@ -4,7 +4,7 @@ class Order < ActiveRecord::Base
 
 	belongs_to :user
 	has_many :line_items, inverse_of: :order, dependent: :destroy #so that on nested attrs order id in line_item is set
-	# has_many   :products, through: :line_items
+
 
 	accepts_nested_attributes_for :line_items, allow_destroy: true
 
@@ -14,6 +14,9 @@ class Order < ActiveRecord::Base
 
 
 	before_save :set_fixed_price, :if => :unconfirmed? 
+
+	include Filterable
+	scope :status,  -> (status) { where status: status }
 
 
 	aasm column: :status do
@@ -57,6 +60,9 @@ class Order < ActiveRecord::Base
 			errors.add(:status, "status of #{action} is not valid.  Legal values are #{aasm.states.map(&:name).join(", ")}"); false
 		end
 	end
+
+
+
 
 
 

@@ -1,13 +1,9 @@
 
-
-# Object.class_eval do
-# 	def jsonize
-# 		binding.pry
-# 		JSON.parse self.to_json
-# 	end
-# end
-
-
+Array.class_eval do
+	def pluck(key)
+		map { |h| h[key] }
+	end
+end
 
 
 

@@ -3,19 +3,19 @@ module Admin
 		before_action :set_order, only: [:show, :update, :destroy, :update_status]
 		before_action :authenticate_user!, -> { authorize Order }
 
-		# GET /orders
+		# GET /admin/orders
 		def index
-			@orders = Order.filter params.slice(:user_id, :status)
+			@orders = Order.filter params.slice(:user_id, :status, :limit, :offset)
 
 			render json: @orders
 		end
 
-		# GET /orders/1
+		# GET /admin/orders/1
 		def show
 			render json: @order
 		end
 
-		# POST /orders
+		# POST /admin/orders
 		def create
 			@order = Order.new(order_params)
 
@@ -26,7 +26,7 @@ module Admin
 			end
 		end
 
-		# PATCH/PUT /orders/1
+		# PATCH/PUT /admin/orders/1
 		def update
 			@order = Order.find(params[:id])
 
@@ -37,7 +37,7 @@ module Admin
 			end
 		end
 
-		# DELETE /orders/1
+		# DELETE /admin/orders/1
 		def destroy
 			@order.destroy
 			head 200
@@ -69,6 +69,8 @@ module Admin
 					:status, :comment,
 					line_items_attributes: [:_destroy, :id, :amount, :product_id]
 				])
+
+				#no user_id, no use case when admin would need to change the order's user
 			end
 	end
 

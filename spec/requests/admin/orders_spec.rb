@@ -32,6 +32,16 @@ RSpec.describe "Users", type: :request do
 			returned_ids = json_body.map { |a| a[:id] }
 			expect(returned_ids).to eq(Order.pluck(:id))
 		end
+
+		it '?limit=5&offset=10&status=confirmed' do
+			FactoryGirl.create_list :order, 10, status: 'confirmed'
+			FactoryGirl.create_list :order, 10, status: 'delivered'
+			get '/admin/orders?limit=5&offset=3&status=confirmed', @admin_user_auth_headers
+
+			expect(json_body.count).to eq(5)
+			expect(json_body.pluck(:status)).to all(eq 'confirmed')
+		end
+
 	end
 
 	describe 'GET admin/orders/1' do
