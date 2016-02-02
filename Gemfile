@@ -39,8 +39,8 @@ end
 
 
 
-gem 'paperclip'
-
+gem 'carrierwave'
+gem 'mini_magick'
 
 gem 'devise'
 gem 'devise_token_auth' # Token based authentication for Rails JSON APIs

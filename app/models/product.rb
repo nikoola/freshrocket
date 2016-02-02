@@ -6,14 +6,13 @@ class Product < ActiveRecord::Base
 	
 	accepts_nested_attributes_for :categories_products_joins, allow_destroy: true
 
+	mount_uploader :image, ImageUploader
 
 
 	has_many :orders, through: :line_items #no dependent destroy
 
 	belongs_to :city
 
-	has_attached_file :image, styles: { medium: "300x300>", thumb: "100x100>" }, default_url: "/images/:style/missing.png"
-	validates_attachment_content_type :image, content_type: /\Aimage\/.*\Z/
 
 	validates_presence_of :price, :title, :inventory_count, :city
 	#city has to be created _before_ assigning its id to product.
@@ -27,10 +26,14 @@ class Product < ActiveRecord::Base
 	scope :category_id,  -> (category_id) { includes(:categories).where('categories.id': category_id) }
 
 
+	validates_processing_of :image  # Makes the record invalid if the file couldn't be processed
+	validate :image_size_validation
 
 
-
-
+	private
+	  def image_size_validation
+	    errors[:image] << "should be less than 500KB" if image.size > 0.5.megabytes #TODO actual sizes
+	  end
 
 
 

@@ -9,8 +9,8 @@ class SetupSchema < ActiveRecord::Migration
     t.integer "category_id", null: false
   end
 
-  add_index :categories_products_joins, :product_id
-  add_index :categories_products_joins, :category_id
+  add_index "categories_products_joins", ["category_id"], name: "index_categories_products_joins_on_category_id"
+  add_index "categories_products_joins", ["product_id"], name: "index_categories_products_joins_on_product_id"
 
   create_table "cities", force: :cascade do |t|
     t.string "name"
@@ -42,10 +42,6 @@ class SetupSchema < ActiveRecord::Migration
     t.decimal  "price",              precision: 8, scale: 2
     t.datetime "created_at",                                 null: false
     t.datetime "updated_at",                                 null: false
-    t.string   "image_file_name"
-    t.string   "image_content_type"
-    t.integer  "image_file_size"
-    t.datetime "image_updated_at"
     t.integer  "inventory_count"
     t.integer  "city_id"
   end

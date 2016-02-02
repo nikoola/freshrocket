@@ -26,7 +26,7 @@ class Order < ActiveRecord::Base
 		state :dispatched
 		state :delivered
 
-		state :canceled	
+		state :canceled
 
 		event :confirm do
 			transitions :from => :unconfirmed, :to => :confirmed

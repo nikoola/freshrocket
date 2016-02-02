@@ -5,7 +5,7 @@ class User < ActiveRecord::Base
 					:omniauthable
 	include DeviseTokenAuth::Concerns::User
 
-	has_many :orders
+	has_many :orders, dependent: :destroy
 	validates_presence_of :phone
 
 
@@ -41,4 +41,4 @@ class User < ActiveRecord::Base
 
 end
 
-# inventory_count --
+# TODO inventory_count --

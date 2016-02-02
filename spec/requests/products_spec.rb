@@ -55,7 +55,7 @@ RSpec.describe 'Products', type: :request do
 		@product = FactoryGirl.create(:product)
 		get product_path(@product)
 		expect_status 200
-		expect_json_keys [:id, :title, :price, :created_at, :updated_at, :image_file_name, :image_content_type, :image_file_size, :image_updated_at, :inventory_count, :city_id]
+		expect_json_keys [:id, :title, :price, :created_at, :updated_at, :inventory_count, :city_id]
 	end
 
 
