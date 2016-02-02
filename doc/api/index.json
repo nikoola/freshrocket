@@ -1,0 +1,30 @@
+{
+  "resources": [
+    {
+      "name": "Products",
+      "examples": [
+        {
+          "description": "get all products",
+          "link": "products/get_all_products.json",
+          "groups": "all",
+          "route": "/products",
+          "method": "get"
+        },
+        {
+          "description": "get filtered products",
+          "link": "products/get_filtered_products.json",
+          "groups": "all",
+          "route": "/products",
+          "method": "get"
+        },
+        {
+          "description": "returns product",
+          "link": "products/returns_product.json",
+          "groups": "all",
+          "route": "/products/:id",
+          "method": "get"
+        }
+      ]
+    }
+  ]
+}

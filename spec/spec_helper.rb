@@ -19,8 +19,6 @@
 
 
 
-# require_relative 'support/controller_helpers'
-
 RSpec.configure do |config|
 
 

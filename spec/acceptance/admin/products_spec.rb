@@ -29,6 +29,20 @@ RSpec.describe 'Products', type: :request do
 
 			expect_json product.errors.messages
 		end
+
+		it 'creates product with image' do
+			image = '/home/lakesare/Desktop/rivo/spec/files/hi.jpg'
+			file = Rack::Test::UploadedFile.new image, "image/jpeg"
+			valid_params_with_image = valid_params.merge({image: file})
+
+			post admin_products_path, { product: valid_params_with_image }, @admin_user_auth_headers
+
+			product = Product.last
+			path_to_image = "/uploads/product/image/#{product.id}/hi.jpg"
+			expect(product.image.url).to eq(path_to_image)
+
+			FileUtils.rm_rf(Rails.root.to_s + '/public/uploads/product/image/#{product.id}')
+		end
 	end
 
 	describe 'PATCH/PUT admin/products/1' do

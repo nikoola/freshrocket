@@ -17,6 +17,9 @@ group :development, :test do
 
 	gem 'pry'
 	gem 'pry-rescue'
+	
+	gem 'rspec_api_documentation'
+	gem 'apitome', git: 'git@github.com:modeset/apitome.git' #from master, because otherwise gsub error
 end
 
 group :development do
@@ -34,6 +37,7 @@ end
 group :test do
 	gem 'airborne' #expect_json
 	gem 'database_cleaner'
+
 end
 
 

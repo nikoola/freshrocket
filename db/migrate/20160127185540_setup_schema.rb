@@ -44,6 +44,7 @@ class SetupSchema < ActiveRecord::Migration
     t.datetime "updated_at",                                 null: false
     t.integer  "inventory_count"
     t.integer  "city_id"
+    t.string   "image"
   end
 
   add_index "products", ["city_id"], name: "index_products_on_city_id"
@@ -91,7 +92,6 @@ class SetupSchema < ActiveRecord::Migration
   add_index "users", ["email"], name: "index_users_on_email"
   add_index "users", ["reset_password_token"], name: "index_users_on_reset_password_token", unique: true
   add_index "users", ["uid", "provider"], name: "index_users_on_uid_and_provider", unique: true
-
 
 
 end

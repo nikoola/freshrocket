@@ -29,6 +29,12 @@ class Product < ActiveRecord::Base
 	validates_processing_of :image  # Makes the record invalid if the file couldn't be processed
 	validate :image_size_validation
 
+	# def as_json(options={})
+	# 	super(methods: :'image.url')
+	# end
+
+
+
 
 	private
 	  def image_size_validation

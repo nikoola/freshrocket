@@ -1,7 +1,6 @@
 
 class Category < ActiveRecord::Base
 
-	has_many :users, through: :orders
 
 	has_many :categories_products_joins
 	has_many :products, through: :categories_products_joins, dependent: :destroy
