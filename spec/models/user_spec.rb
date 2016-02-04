@@ -7,7 +7,7 @@ describe User, type: :model do
 		@user = FactoryGirl.create :user
 	end
 
-	describe 'abilities (roles)' do
+	describe 'abilities' do
 		it 'saves if properly set' do
 			@user.ability_list = ['orders', 'products']
 			@user.save; @user.reload

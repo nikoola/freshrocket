@@ -1,0 +1,48 @@
+{
+  "resource": "Orders",
+  "http_method": "GET",
+  "route": "/client/orders",
+  "description": "get all current user's orders",
+  "explanation": null,
+  "parameters": [
+
+  ],
+  "response_fields": [
+
+  ],
+  "requests": [
+    {
+      "request_method": "GET",
+      "request_path": "/client/orders",
+      "request_body": null,
+      "request_headers": {
+        "Access-Token": "fVER3DcOr6KcWjZQJoz09A",
+        "Token-Type": "Bearer",
+        "Client": "S5qMWOlq9wu_C26gCvKEKQ",
+        "Expiry": "1455754187",
+        "Uid": "hi_54@hi.com",
+        "Host": "example.org",
+        "Cookie": ""
+      },
+      "request_query_parameters": {
+      },
+      "request_content_type": null,
+      "response_status": 200,
+      "response_status_text": "OK",
+      "response_body": "[\n  {\n    \"id\": 3,\n    \"user_id\": 3,\n    \"status\": \"unconfirmed\",\n    \"fixed_price\": \"27.0\",\n    \"created_at\": \"2016-02-04T00:09:47.742Z\",\n    \"updated_at\": \"2016-02-04T00:09:47.742Z\",\n    \"comment\": null\n  }\n]",
+      "response_headers": {
+        "X-Frame-Options": "SAMEORIGIN",
+        "X-XSS-Protection": "1; mode=block",
+        "X-Content-Type-Options": "nosniff",
+        "Content-Type": "application/json; charset=utf-8",
+        "ETag": "W/\"0bdc5c096b46f43ab50cf5db28469aeb\"",
+        "Cache-Control": "max-age=0, private, must-revalidate",
+        "X-Request-Id": "32457b91-bb36-4d77-9578-5dccb1368e5f",
+        "X-Runtime": "0.090141",
+        "Content-Length": "161"
+      },
+      "response_content_type": "application/json; charset=utf-8",
+      "curl": "curl \"http://localhost:3000/client/orders\" -X GET \\\n\t-H \"Access-Token: fVER3DcOr6KcWjZQJoz09A\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: S5qMWOlq9wu_C26gCvKEKQ\" \\\n\t-H \"Expiry: 1455754187\" \\\n\t-H \"Uid: hi_54@hi.com\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
+    }
+  ]
+}

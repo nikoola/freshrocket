@@ -1,0 +1,48 @@
+{
+  "resource": "Products",
+  "http_method": "DELETE",
+  "route": "/admin/products/:id",
+  "description": "delete product",
+  "explanation": null,
+  "parameters": [
+
+  ],
+  "response_fields": [
+
+  ],
+  "requests": [
+    {
+      "request_method": "DELETE",
+      "request_path": "/admin/products/1",
+      "request_body": null,
+      "request_headers": {
+        "Access-Token": "ubrt_R-XByP0EbdmA6toow",
+        "Token-Type": "Bearer",
+        "Client": "AV122eOR76ZvHt9pYHi8dg",
+        "Expiry": "1455754182",
+        "Uid": "hi_31@hi.com",
+        "Host": "example.org",
+        "Content-Type": "application/x-www-form-urlencoded",
+        "Cookie": ""
+      },
+      "request_query_parameters": {
+      },
+      "request_content_type": "application/x-www-form-urlencoded",
+      "response_status": 200,
+      "response_status_text": "OK",
+      "response_body": null,
+      "response_headers": {
+        "X-Frame-Options": "SAMEORIGIN",
+        "X-XSS-Protection": "1; mode=block",
+        "X-Content-Type-Options": "nosniff",
+        "Content-Type": "text/html",
+        "Cache-Control": "no-cache",
+        "X-Request-Id": "ad8cd2a3-3e56-4e2a-b194-53212cfe2344",
+        "X-Runtime": "0.097747",
+        "Content-Length": "0"
+      },
+      "response_content_type": "text/html",
+      "curl": "curl \"http://localhost:3000/admin/products/1\" -d '' -X DELETE \\\n\t-H \"Access-Token: ubrt_R-XByP0EbdmA6toow\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: AV122eOR76ZvHt9pYHi8dg\" \\\n\t-H \"Expiry: 1455754182\" \\\n\t-H \"Uid: hi_31@hi.com\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+    }
+  ]
+}

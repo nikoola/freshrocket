@@ -1,0 +1,49 @@
+{
+  "resource": "Authentication",
+  "http_method": "DELETE",
+  "route": "/auth/sign_out",
+  "description": "sign out",
+  "explanation": null,
+  "parameters": [
+
+  ],
+  "response_fields": [
+
+  ],
+  "requests": [
+    {
+      "request_method": "DELETE",
+      "request_path": "/auth/sign_out",
+      "request_body": null,
+      "request_headers": {
+        "Access-Token": "1s9CAZjP2MxT-KkIH5cE9w",
+        "Token-Type": "Bearer",
+        "Client": "fgfG5L5tX8fF7bf_2z_S9A",
+        "Expiry": "1455754185",
+        "Uid": "hi_51@hi.com",
+        "Host": "example.org",
+        "Content-Type": "application/x-www-form-urlencoded",
+        "Cookie": ""
+      },
+      "request_query_parameters": {
+      },
+      "request_content_type": "application/x-www-form-urlencoded",
+      "response_status": 200,
+      "response_status_text": "OK",
+      "response_body": "{\n  \"success\": true\n}",
+      "response_headers": {
+        "X-Frame-Options": "SAMEORIGIN",
+        "X-XSS-Protection": "1; mode=block",
+        "X-Content-Type-Options": "nosniff",
+        "Content-Type": "application/json; charset=utf-8",
+        "ETag": "W/\"7363e85fe9edee6f053a4b319588c086\"",
+        "Cache-Control": "max-age=0, private, must-revalidate",
+        "X-Request-Id": "e9bd111b-6b71-400f-a99e-fee9c228fe37",
+        "X-Runtime": "0.075473",
+        "Content-Length": "16"
+      },
+      "response_content_type": "application/json; charset=utf-8",
+      "curl": "curl \"http://localhost:3000/auth/sign_out\" -d '' -X DELETE \\\n\t-H \"Access-Token: 1s9CAZjP2MxT-KkIH5cE9w\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: fgfG5L5tX8fF7bf_2z_S9A\" \\\n\t-H \"Expiry: 1455754185\" \\\n\t-H \"Uid: hi_51@hi.com\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+    }
+  ]
+}

@@ -1,13 +1,11 @@
 FactoryGirl.define do
 
 	factory :user do
-		sequence(:email)       { |i| "hi_#{i}@hi.com" }
+		sequence(:email)       { |i| i.to_s + Faker::Internet.email }
 		password              'secrety_bickety'
 		password_confirmation 'secrety_bickety'
 
-		phone                 '+79173332221'
-		role                  :client
-
+		phone                 { Faker::PhoneNumber.cell_phone }
 
 		transient do
 			abilities           []

@@ -1,0 +1,49 @@
+{
+  "resource": "Users",
+  "http_method": "DELETE",
+  "route": "/auth",
+  "description": "user deletes self",
+  "explanation": null,
+  "parameters": [
+
+  ],
+  "response_fields": [
+
+  ],
+  "requests": [
+    {
+      "request_method": "DELETE",
+      "request_path": "/auth",
+      "request_body": null,
+      "request_headers": {
+        "Access-Token": "OPK2mHk98fWbD81HtiEMrg",
+        "Token-Type": "Bearer",
+        "Client": "Ba39xdb_tNYxvC6x9B9Q9Q",
+        "Expiry": "1455754190",
+        "Uid": "hi_70@hi.com",
+        "Host": "example.org",
+        "Content-Type": "application/x-www-form-urlencoded",
+        "Cookie": ""
+      },
+      "request_query_parameters": {
+      },
+      "request_content_type": "application/x-www-form-urlencoded",
+      "response_status": 200,
+      "response_status_text": "OK",
+      "response_body": "{\n  \"status\": \"success\",\n  \"message\": \"Account with UID 'hi_70@hi.com' has been destroyed.\"\n}",
+      "response_headers": {
+        "X-Frame-Options": "SAMEORIGIN",
+        "X-XSS-Protection": "1; mode=block",
+        "X-Content-Type-Options": "nosniff",
+        "Content-Type": "application/json; charset=utf-8",
+        "ETag": "W/\"82f5e5596c43553e226edfe783c41441\"",
+        "Cache-Control": "max-age=0, private, must-revalidate",
+        "X-Request-Id": "ccf5300a-ec7c-4a6c-91b2-c22036383469",
+        "X-Runtime": "0.073478",
+        "Content-Length": "84"
+      },
+      "response_content_type": "application/json; charset=utf-8",
+      "curl": "curl \"http://localhost:3000/auth\" -d '' -X DELETE \\\n\t-H \"Access-Token: OPK2mHk98fWbD81HtiEMrg\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: Ba39xdb_tNYxvC6x9B9Q9Q\" \\\n\t-H \"Expiry: 1455754190\" \\\n\t-H \"Uid: hi_70@hi.com\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+    }
+  ]
+}

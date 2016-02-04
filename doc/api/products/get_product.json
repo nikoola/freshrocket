@@ -2,7 +2,7 @@
   "resource": "Products",
   "http_method": "GET",
   "route": "/products/:id",
-  "description": "returns product",
+  "description": "get product",
   "explanation": null,
   "parameters": [
 
@@ -24,16 +24,16 @@
       "request_content_type": null,
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\n  \"id\": 22,\n  \"title\": \"fish\",\n  \"price\": \"3.0\",\n  \"created_at\": \"2016-02-02T22:35:47.992Z\",\n  \"updated_at\": \"2016-02-02T22:35:47.992Z\",\n  \"inventory_count\": 2,\n  \"city_id\": 14,\n  \"image\": {\n    \"url\": \"uploads/product/image/default.png\"\n  }\n}",
+      "response_body": "{\n  \"id\": 22,\n  \"title\": \"fish\",\n  \"price\": \"3.0\",\n  \"created_at\": \"2016-02-04T00:09:54.030Z\",\n  \"updated_at\": \"2016-02-04T00:09:54.030Z\",\n  \"inventory_count\": 2,\n  \"city_id\": 14,\n  \"image\": {\n    \"url\": \"uploads/product/image/default.png\"\n  }\n}",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"cd77a316fc6fd3ba8976a1cca57c3bc6\"",
+        "ETag": "W/\"5cbf4e50912f878e5905b2147d86abcd\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "X-Request-Id": "41de229f-01f5-4b19-a4aa-6a9ebff0573f",
-        "X-Runtime": "0.002309",
+        "X-Request-Id": "327931ab-8460-4894-9127-9136fa4107e0",
+        "X-Runtime": "0.001824",
         "Content-Length": "203"
       },
       "response_content_type": "application/json; charset=utf-8",

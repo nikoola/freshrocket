@@ -1,0 +1,54 @@
+{
+  "resource": "Products",
+  "http_method": "PUT",
+  "route": "/admin/categories/:id",
+  "description": "update category",
+  "explanation": null,
+  "parameters": [
+    {
+      "require": true,
+      "scope": "category",
+      "name": "name",
+      "description": "name of a category"
+    }
+  ],
+  "response_fields": [
+
+  ],
+  "requests": [
+    {
+      "request_method": "PUT",
+      "request_path": "/admin/categories/1",
+      "request_body": "category[name]=hollywood",
+      "request_headers": {
+        "Access-Token": "_--JoqalaEmHuzGx2-Vebg",
+        "Token-Type": "Bearer",
+        "Client": "4XuswlUZkG744krFVI9rdg",
+        "Expiry": "1455754178",
+        "Uid": "hi_3@hi.com",
+        "Host": "example.org",
+        "Content-Type": "application/x-www-form-urlencoded",
+        "Cookie": ""
+      },
+      "request_query_parameters": {
+      },
+      "request_content_type": "application/x-www-form-urlencoded",
+      "response_status": 200,
+      "response_status_text": "OK",
+      "response_body": "{\n  \"id\": 1,\n  \"name\": \"hollywood\"\n}",
+      "response_headers": {
+        "X-Frame-Options": "SAMEORIGIN",
+        "X-XSS-Protection": "1; mode=block",
+        "X-Content-Type-Options": "nosniff",
+        "Content-Type": "application/json; charset=utf-8",
+        "ETag": "W/\"be9c11934f711c5c60befcf5e859f563\"",
+        "Cache-Control": "max-age=0, private, must-revalidate",
+        "X-Request-Id": "f646c370-b88d-471b-a33e-6d8abe1a7898",
+        "X-Runtime": "0.092436",
+        "Content-Length": "27"
+      },
+      "response_content_type": "application/json; charset=utf-8",
+      "curl": "curl \"http://localhost:3000/admin/categories/1\" -d 'category[name]=hollywood' -X PUT \\\n\t-H \"Access-Token: _--JoqalaEmHuzGx2-Vebg\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: 4XuswlUZkG744krFVI9rdg\" \\\n\t-H \"Expiry: 1455754178\" \\\n\t-H \"Uid: hi_3@hi.com\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+    }
+  ]
+}

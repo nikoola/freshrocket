@@ -1,0 +1,82 @@
+{
+  "resource": "Products",
+  "http_method": "PUT",
+  "route": "/admin/products/:id",
+  "description": "update product",
+  "explanation": null,
+  "parameters": [
+    {
+      "scope": "product",
+      "required": true,
+      "name": "title",
+      "description": ""
+    },
+    {
+      "scope": "product",
+      "required": true,
+      "name": "price",
+      "description": ""
+    },
+    {
+      "scope": "product",
+      "required": true,
+      "name": "inventory_count",
+      "description": "amount of product in stock"
+    },
+    {
+      "scope": "product",
+      "required": true,
+      "name": "city_id",
+      "description": "product served at city"
+    },
+    {
+      "scope": "product",
+      "name": "image",
+      "description": "Product image"
+    },
+    {
+      "scope": "product",
+      "name": "category_ids",
+      "description": "array of ids of categories product belongs to"
+    }
+  ],
+  "response_fields": [
+
+  ],
+  "requests": [
+    {
+      "request_method": "PUT",
+      "request_path": "/admin/products/1",
+      "request_body": "product[title]=hi",
+      "request_headers": {
+        "Access-Token": "DnDj-LeR5A8r07bBRQEoqw",
+        "Token-Type": "Bearer",
+        "Client": "YhPaHtaFET7vcO36Gz9xxg",
+        "Expiry": "1455754182",
+        "Uid": "hi_29@hi.com",
+        "Host": "example.org",
+        "Content-Type": "application/x-www-form-urlencoded",
+        "Cookie": ""
+      },
+      "request_query_parameters": {
+      },
+      "request_content_type": "application/x-www-form-urlencoded",
+      "response_status": 200,
+      "response_status_text": "OK",
+      "response_body": "{\n  \"id\": 1,\n  \"title\": \"hi\",\n  \"price\": \"3.0\",\n  \"created_at\": \"2016-02-04T00:09:42.290Z\",\n  \"updated_at\": \"2016-02-04T00:09:42.463Z\",\n  \"inventory_count\": 2,\n  \"city_id\": 1,\n  \"image\": {\n    \"url\": \"uploads/product/image/default.png\"\n  }\n}",
+      "response_headers": {
+        "X-Frame-Options": "SAMEORIGIN",
+        "X-XSS-Protection": "1; mode=block",
+        "X-Content-Type-Options": "nosniff",
+        "Content-Type": "application/json; charset=utf-8",
+        "ETag": "W/\"be1c01bf2fc41624ad49fa778b05f1b1\"",
+        "Cache-Control": "max-age=0, private, must-revalidate",
+        "X-Request-Id": "29e68add-094e-4667-b312-7ca14e233bd7",
+        "X-Runtime": "0.084431",
+        "Content-Length": "199"
+      },
+      "response_content_type": "application/json; charset=utf-8",
+      "curl": "curl \"http://localhost:3000/admin/products/1\" -d 'product[title]=hi' -X PUT \\\n\t-H \"Access-Token: DnDj-LeR5A8r07bBRQEoqw\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: YhPaHtaFET7vcO36Gz9xxg\" \\\n\t-H \"Expiry: 1455754182\" \\\n\t-H \"Uid: hi_29@hi.com\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+    }
+  ]
+}

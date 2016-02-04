@@ -1,0 +1,48 @@
+{
+  "resource": "Users",
+  "http_method": "GET",
+  "route": "/client",
+  "description": "user gets self",
+  "explanation": "status 401 if user unauthenticated",
+  "parameters": [
+
+  ],
+  "response_fields": [
+
+  ],
+  "requests": [
+    {
+      "request_method": "GET",
+      "request_path": "/client",
+      "request_body": null,
+      "request_headers": {
+        "Access-Token": "eIrEAPhcLNMhVUONVrdFRg",
+        "Token-Type": "Bearer",
+        "Client": "aM9CFkDQlyk2lenisiQOCQ",
+        "Expiry": "1455754190",
+        "Uid": "hi_73@hi.com",
+        "Host": "example.org",
+        "Cookie": ""
+      },
+      "request_query_parameters": {
+      },
+      "request_content_type": null,
+      "response_status": 200,
+      "response_status_text": "OK",
+      "response_body": "{\n  \"id\": 3,\n  \"email\": \"hi_73@hi.com\",\n  \"phone\": \"+79173332221\",\n  \"provider\": \"email\",\n  \"uid\": \"hi_73@hi.com\",\n  \"created_at\": \"2016-02-04T00:09:50.603Z\",\n  \"updated_at\": \"2016-02-04T00:09:50.681Z\"\n}",
+      "response_headers": {
+        "X-Frame-Options": "SAMEORIGIN",
+        "X-XSS-Protection": "1; mode=block",
+        "X-Content-Type-Options": "nosniff",
+        "Content-Type": "application/json; charset=utf-8",
+        "ETag": "W/\"37e58ace36ba363342e22db1eaa61abf\"",
+        "Cache-Control": "max-age=0, private, must-revalidate",
+        "X-Request-Id": "e4073d8b-6d9e-4558-8179-519116a1d304",
+        "X-Runtime": "0.083436",
+        "Content-Length": "174"
+      },
+      "response_content_type": "application/json; charset=utf-8",
+      "curl": "curl \"http://localhost:3000/client\" -X GET \\\n\t-H \"Access-Token: eIrEAPhcLNMhVUONVrdFRg\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: aM9CFkDQlyk2lenisiQOCQ\" \\\n\t-H \"Expiry: 1455754190\" \\\n\t-H \"Uid: hi_73@hi.com\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
+    }
+  ]
+}

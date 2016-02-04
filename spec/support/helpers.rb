@@ -12,14 +12,19 @@ module Helpers
 
 	def json #hash
 		parsed = JSON.parse(response_body)
-		parsed.symbolize_keys!
+		parsed.deep_symbolize_keys!
 	end
 
 	def jsons #array of hashes
 		parsed = JSON.parse(response_body)
-		parsed.each { |a| a.symbolize_keys! }
+		parsed.each { |a| a.deep_symbolize_keys! }
 	end
 	
+
+
+
+
+
 end
 
 

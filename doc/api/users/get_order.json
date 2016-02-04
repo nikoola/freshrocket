@@ -1,0 +1,48 @@
+{
+  "resource": "Users",
+  "http_method": "GET",
+  "route": "/admin/orders/:id",
+  "description": "get order",
+  "explanation": "user with :order ability can get any order",
+  "parameters": [
+
+  ],
+  "response_fields": [
+
+  ],
+  "requests": [
+    {
+      "request_method": "GET",
+      "request_path": "/admin/orders/1",
+      "request_body": null,
+      "request_headers": {
+        "Access-Token": "anC9Rq9um6FrhcOzGLCj9Q",
+        "Token-Type": "Bearer",
+        "Client": "51LSw5Hrb9xY_Iz7dO5K2g",
+        "Expiry": "1455754180",
+        "Uid": "hi_19@hi.com",
+        "Host": "example.org",
+        "Cookie": ""
+      },
+      "request_query_parameters": {
+      },
+      "request_content_type": null,
+      "response_status": 200,
+      "response_status_text": "OK",
+      "response_body": "{\n  \"id\": 1,\n  \"user_id\": 1,\n  \"status\": \"unconfirmed\",\n  \"fixed_price\": \"27.0\",\n  \"created_at\": \"2016-02-04T00:09:40.603Z\",\n  \"updated_at\": \"2016-02-04T00:09:40.603Z\",\n  \"comment\": null\n}",
+      "response_headers": {
+        "X-Frame-Options": "SAMEORIGIN",
+        "X-XSS-Protection": "1; mode=block",
+        "X-Content-Type-Options": "nosniff",
+        "Content-Type": "application/json; charset=utf-8",
+        "ETag": "W/\"6c52383d5ec320b6569ccea485beb406\"",
+        "Cache-Control": "max-age=0, private, must-revalidate",
+        "X-Request-Id": "8f884182-1241-480c-a1b8-33dd3e72e084",
+        "X-Runtime": "0.095920",
+        "Content-Length": "159"
+      },
+      "response_content_type": "application/json; charset=utf-8",
+      "curl": "curl \"http://localhost:3000/admin/orders/1\" -X GET \\\n\t-H \"Access-Token: anC9Rq9um6FrhcOzGLCj9Q\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: 51LSw5Hrb9xY_Iz7dO5K2g\" \\\n\t-H \"Expiry: 1455754180\" \\\n\t-H \"Uid: hi_19@hi.com\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
+    }
+  ]
+}

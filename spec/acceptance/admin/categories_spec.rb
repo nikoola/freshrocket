@@ -1,51 +1,58 @@
 require 'rails_helper'
 
-RSpec.describe 'Products', type: :request do
+resource 'Products', type: :request do
 
-	before(:all) do
-		@admin_user = FactoryGirl.create :user, abilities: ['categories']
-		@admin_user_auth_headers = @admin_user.create_new_auth_token
-	end
+	let(:user) { FactoryGirl.create :user, abilities: ['categories'] }
+	let(:auth_headers) { user.create_new_auth_token }
 
-	before(:each) do
-		@category = FactoryGirl.create :category
-	end
+	include_context 'shared_headers'
 
+	let(:category) { FactoryGirl.create :category }
 
+	post '/admin/categories' do
+		parameter :name, 'name of a category', require: true, scope: :category
 
-	describe 'POST admin/categories' do
-		it 'with valid params: creates category' do
-			post admin_categories_path, { category: {name: 'breakfasts'} }, @admin_user_auth_headers
+		example 'create category' do
+			do_request({ category: {name: 'breakfasts'} })
 
-			expect_status 201
-			expect_json_keys [:id, :name]
-			expect_json :name=>"breakfasts"
+			expect(status).to eq(201)
+			expect(json).to include :id, :name
 		end
 
-		it 'with invalid params' do
-			post admin_categories_path, { category: {name: nil} }, @admin_user_auth_headers
+		example 'create category: invalid params' do
+			do_request({ category: {name: nil} })
 
-			expect_json :name=>["can't be blank"]
+			expect(status).to eq(422)
+			expect(json).to include :name => ["can't be blank"]
 		end
 	end
 
-	describe 'PATCH/PUT admin/categories/1' do
-		it 'with valid params' do
-			put admin_category_path(@category), { category: {name: 'hollywood'} }, @admin_user_auth_headers
-			expect_status 200
-			expect_json_keys [:id, :name]
+	put '/admin/categories/:id' do
+		parameter :name, 'name of a category', require: true, scope: :category
+
+		example 'update category' do
+			do_request({ id: category.id, category: {name: 'hollywood'} })
+
+			expect(status).to eq(200)
+			expect(json).to include :id, :name
 		end
 
-		it 'with invalid_params' do
-			put admin_category_path(@category), { category: {name: nil} }, @admin_user_auth_headers
-			expect_status 422
-			expect_json :name=>["can't be blank"]
+
+		it 'update category: with invalid params' do
+			do_request({ id: category.id, category: {name: nil} })
+
+			expect(status).to eq(422)
+			expect(json).to include :name=>["can't be blank"]
 		end
 	end
 
-	it 'DELETE admin/categories/1' do
-		delete admin_category_path(@category), @admin_user_auth_headers
-		expect_status 200
+	delete '/admin/categories/:id' do
+		it 'delete category' do
+			do_request({ id: category.id })
+
+			expect(status).to eq(200)
+		end
+
 	end
 
 

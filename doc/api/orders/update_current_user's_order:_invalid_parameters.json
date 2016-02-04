@@ -1,0 +1,70 @@
+{
+  "resource": "Orders",
+  "http_method": "PUT",
+  "route": "client/orders/:id",
+  "description": "update current user's order: invalid parameters",
+  "explanation": "order must have at least one line item",
+  "parameters": [
+    {
+      "scope": "order",
+      "name": "comment",
+      "description": "comment to the order"
+    },
+    {
+      "scope": [
+        "order",
+        "line_items_attributes"
+      ],
+      "required": true,
+      "name": "product_id",
+      "description": "id of a product in a cart"
+    },
+    {
+      "scope": [
+        "order",
+        "line_items_attributes"
+      ],
+      "required": true,
+      "name": "amount",
+      "description": "amount of this product in a cart"
+    }
+  ],
+  "response_fields": [
+
+  ],
+  "requests": [
+    {
+      "request_method": "PUT",
+      "request_path": "client/orders/3",
+      "request_body": "order[comment]=hi&order[line_items_attributes][][id]=7&order[line_items_attributes][][amount]",
+      "request_headers": {
+        "Access-Token": "NAH6so8XsLCzJK6C2aIRrQ",
+        "Token-Type": "Bearer",
+        "Client": "dgvfNOa8j6yhxoWTeZzGnw",
+        "Expiry": "1455754188",
+        "Uid": "hi_59@hi.com",
+        "Host": "example.org",
+        "Content-Type": "application/x-www-form-urlencoded",
+        "Cookie": ""
+      },
+      "request_query_parameters": {
+      },
+      "request_content_type": "application/x-www-form-urlencoded",
+      "response_status": 422,
+      "response_status_text": "Unprocessable Entity",
+      "response_body": "{\n  \"line_items.amount\": [\n    \"can't be blank\"\n  ],\n  \"line_items\": [\n    \"is invalid\"\n  ]\n}",
+      "response_headers": {
+        "X-Frame-Options": "SAMEORIGIN",
+        "X-XSS-Protection": "1; mode=block",
+        "X-Content-Type-Options": "nosniff",
+        "Content-Type": "application/json; charset=utf-8",
+        "Cache-Control": "no-cache",
+        "X-Request-Id": "7ac0e1a9-12e7-4429-935e-36aa14ff5dc1",
+        "X-Runtime": "0.088272",
+        "Content-Length": "68"
+      },
+      "response_content_type": "application/json; charset=utf-8",
+      "curl": "curl \"http://localhost:3000client/orders/3\" -d 'order[comment]=hi&order[line_items_attributes][][id]=7&order[line_items_attributes][][amount]' -X PUT \\\n\t-H \"Access-Token: NAH6so8XsLCzJK6C2aIRrQ\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: dgvfNOa8j6yhxoWTeZzGnw\" \\\n\t-H \"Expiry: 1455754188\" \\\n\t-H \"Uid: hi_59@hi.com\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+    }
+  ]
+}

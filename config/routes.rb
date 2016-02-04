@@ -24,13 +24,13 @@ Rails.application.routes.draw do
 	#under /admin we will only have the urls that require admin account.
 		resources :categories,  only: [:create, :update, :destroy] #no need for show
 		resources :products,    only: [:create, :update, :destroy]
-		resources :orders,      only: [:index, :show, :create, :update, :destroy] do
+		resources :orders,      only: [:index, :show] do
 			member {
 				put :update_status     # status: ''
-				get :may_update_status # status: ''
+				# get :may_update_status # status: ''
 			}
 		end
-		resources :users,       only: [:index, :show, :create, :update, :destroy] do
+		resources :users,       only: [:index, :show, :update, :destroy] do
 			member {
 				put :update_abilities #update abilities for a user
 				get :list_abilities   #see user abilities

@@ -1,0 +1,48 @@
+{
+  "resource": "Users",
+  "http_method": "GET",
+  "route": "/admin/users/:id/list_abilities",
+  "description": "get resources user can and cant edit",
+  "explanation": null,
+  "parameters": [
+
+  ],
+  "response_fields": [
+
+  ],
+  "requests": [
+    {
+      "request_method": "GET",
+      "request_path": "/admin/users/1/list_abilities",
+      "request_body": null,
+      "request_headers": {
+        "Access-Token": "pw3G4gaqPBwOdcKmuunuIg",
+        "Token-Type": "Bearer",
+        "Client": "B0iUXy4No3eFkaEyn8UVXw",
+        "Expiry": "1455754184",
+        "Uid": "hi_44@hi.com",
+        "Host": "example.org",
+        "Cookie": ""
+      },
+      "request_query_parameters": {
+      },
+      "request_content_type": null,
+      "response_status": 200,
+      "response_status_text": "OK",
+      "response_body": "{\n  \"abilities\": {\n    \"orders\": 0,\n    \"products\": 0,\n    \"users\": 1,\n    \"categories\": 0\n  }\n}",
+      "response_headers": {
+        "X-Frame-Options": "SAMEORIGIN",
+        "X-XSS-Protection": "1; mode=block",
+        "X-Content-Type-Options": "nosniff",
+        "Content-Type": "application/json; charset=utf-8",
+        "ETag": "W/\"b14a8c0d7c733fa86cf523db689b8165\"",
+        "Cache-Control": "max-age=0, private, must-revalidate",
+        "X-Request-Id": "f8c08e07-227d-455d-9d2b-df8b3c7e9847",
+        "X-Runtime": "0.083523",
+        "Content-Length": "64"
+      },
+      "response_content_type": "application/json; charset=utf-8",
+      "curl": "curl \"http://localhost:3000/admin/users/1/list_abilities\" -X GET \\\n\t-H \"Access-Token: pw3G4gaqPBwOdcKmuunuIg\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: B0iUXy4No3eFkaEyn8UVXw\" \\\n\t-H \"Expiry: 1455754184\" \\\n\t-H \"Uid: hi_44@hi.com\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
+    }
+  ]
+}

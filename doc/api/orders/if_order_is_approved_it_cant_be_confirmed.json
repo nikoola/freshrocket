@@ -1,0 +1,53 @@
+{
+  "resource": "Orders",
+  "http_method": "PUT",
+  "route": "/client/orders/:id/update_status",
+  "description": "if order is approved it cant be confirmed",
+  "explanation": null,
+  "parameters": [
+    {
+      "scope": "order",
+      "required": true,
+      "name": "action",
+      "description": "only confirm is possible for this route (for client)"
+    }
+  ],
+  "response_fields": [
+
+  ],
+  "requests": [
+    {
+      "request_method": "PUT",
+      "request_path": "/client/orders/3/update_status",
+      "request_body": "order[action]=confirm",
+      "request_headers": {
+        "Access-Token": "Y_0I7OAk7metzwlExxwtCw",
+        "Token-Type": "Bearer",
+        "Client": "8m-qK9kBoY7MO-Ky7C5OAA",
+        "Expiry": "1455754189",
+        "Uid": "hi_63@hi.com",
+        "Host": "example.org",
+        "Content-Type": "application/x-www-form-urlencoded",
+        "Cookie": ""
+      },
+      "request_query_parameters": {
+      },
+      "request_content_type": "application/x-www-form-urlencoded",
+      "response_status": 422,
+      "response_status_text": "Unprocessable Entity",
+      "response_body": "{\n  \"status\": [\n    \"status cannot transition from approved to confirm\"\n  ]\n}",
+      "response_headers": {
+        "X-Frame-Options": "SAMEORIGIN",
+        "X-XSS-Protection": "1; mode=block",
+        "X-Content-Type-Options": "nosniff",
+        "Content-Type": "application/json; charset=utf-8",
+        "Cache-Control": "no-cache",
+        "X-Request-Id": "9193fd7d-69d0-49a0-8108-1f6ccd6849ac",
+        "X-Runtime": "0.076019",
+        "Content-Length": "64"
+      },
+      "response_content_type": "application/json; charset=utf-8",
+      "curl": "curl \"http://localhost:3000/client/orders/3/update_status\" -d 'order[action]=confirm' -X PUT \\\n\t-H \"Access-Token: Y_0I7OAk7metzwlExxwtCw\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: 8m-qK9kBoY7MO-Ky7C5OAA\" \\\n\t-H \"Expiry: 1455754189\" \\\n\t-H \"Uid: hi_63@hi.com\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+    }
+  ]
+}

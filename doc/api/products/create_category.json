@@ -1,0 +1,54 @@
+{
+  "resource": "Products",
+  "http_method": "POST",
+  "route": "/admin/categories",
+  "description": "create category",
+  "explanation": null,
+  "parameters": [
+    {
+      "require": true,
+      "scope": "category",
+      "name": "name",
+      "description": "name of a category"
+    }
+  ],
+  "response_fields": [
+
+  ],
+  "requests": [
+    {
+      "request_method": "POST",
+      "request_path": "/admin/categories",
+      "request_body": "category[name]=breakfasts",
+      "request_headers": {
+        "Access-Token": "7GzqMvOw9_QQbZ4S9bBSIg",
+        "Token-Type": "Bearer",
+        "Client": "F1Bd537y5cBhi5Hc_3NbfA",
+        "Expiry": "1455754178",
+        "Uid": "hi_1@hi.com",
+        "Host": "example.org",
+        "Content-Type": "application/x-www-form-urlencoded",
+        "Cookie": ""
+      },
+      "request_query_parameters": {
+      },
+      "request_content_type": "application/x-www-form-urlencoded",
+      "response_status": 201,
+      "response_status_text": "Created",
+      "response_body": "{\n  \"id\": 1,\n  \"name\": \"breakfasts\"\n}",
+      "response_headers": {
+        "X-Frame-Options": "SAMEORIGIN",
+        "X-XSS-Protection": "1; mode=block",
+        "X-Content-Type-Options": "nosniff",
+        "Content-Type": "application/json; charset=utf-8",
+        "ETag": "W/\"2b3c22434110df6847ad4af2bbf515fb\"",
+        "Cache-Control": "max-age=0, private, must-revalidate",
+        "X-Request-Id": "9183195a-838f-4ae5-9660-da1cd8ac3f38",
+        "X-Runtime": "0.138479",
+        "Content-Length": "28"
+      },
+      "response_content_type": "application/json; charset=utf-8",
+      "curl": "curl \"http://localhost:3000/admin/categories\" -d 'category[name]=breakfasts' -X POST \\\n\t-H \"Access-Token: 7GzqMvOw9_QQbZ4S9bBSIg\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: F1Bd537y5cBhi5Hc_3NbfA\" \\\n\t-H \"Expiry: 1455754178\" \\\n\t-H \"Uid: hi_1@hi.com\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+    }
+  ]
+}

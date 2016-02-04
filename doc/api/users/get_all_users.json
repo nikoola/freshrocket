@@ -1,0 +1,48 @@
+{
+  "resource": "Users",
+  "http_method": "GET",
+  "route": "/admin/users",
+  "description": "get all users",
+  "explanation": null,
+  "parameters": [
+
+  ],
+  "response_fields": [
+
+  ],
+  "requests": [
+    {
+      "request_method": "GET",
+      "request_path": "/admin/users",
+      "request_body": null,
+      "request_headers": {
+        "Access-Token": "8SJHC1Cc3DCcpGaKs4Gsyg",
+        "Token-Type": "Bearer",
+        "Client": "IdSmuFU8SCbuWw11dbeKkw",
+        "Expiry": "1455754183",
+        "Uid": "hi_33@hi.com",
+        "Host": "example.org",
+        "Cookie": ""
+      },
+      "request_query_parameters": {
+      },
+      "request_content_type": null,
+      "response_status": 200,
+      "response_status_text": "OK",
+      "response_body": "[\n  {\n    \"id\": 1,\n    \"email\": \"hi_33@hi.com\",\n    \"phone\": \"+79173332221\",\n    \"provider\": \"email\",\n    \"uid\": \"hi_33@hi.com\",\n    \"created_at\": \"2016-02-04T00:09:43.063Z\",\n    \"updated_at\": \"2016-02-04T00:09:43.147Z\"\n  }\n]",
+      "response_headers": {
+        "X-Frame-Options": "SAMEORIGIN",
+        "X-XSS-Protection": "1; mode=block",
+        "X-Content-Type-Options": "nosniff",
+        "Content-Type": "application/json; charset=utf-8",
+        "ETag": "W/\"131fe16c9e2e27c765b4d3daaa68b49f\"",
+        "Cache-Control": "max-age=0, private, must-revalidate",
+        "X-Request-Id": "5537f447-bd53-4bde-a129-fc1d19f6770d",
+        "X-Runtime": "0.079403",
+        "Content-Length": "176"
+      },
+      "response_content_type": "application/json; charset=utf-8",
+      "curl": "curl \"http://localhost:3000/admin/users\" -X GET \\\n\t-H \"Access-Token: 8SJHC1Cc3DCcpGaKs4Gsyg\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: IdSmuFU8SCbuWw11dbeKkw\" \\\n\t-H \"Expiry: 1455754183\" \\\n\t-H \"Uid: hi_33@hi.com\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
+    }
+  ]
+}

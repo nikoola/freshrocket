@@ -1,0 +1,53 @@
+{
+  "resource": "Users",
+  "http_method": "PUT",
+  "route": "/admin/orders/:id/update_status",
+  "description": "approve confirmed order",
+  "explanation": null,
+  "parameters": [
+    {
+      "scope": "order",
+      "required": true,
+      "name": "action",
+      "description": ":approve, :dispatch, :deliver, :cancel"
+    }
+  ],
+  "response_fields": [
+
+  ],
+  "requests": [
+    {
+      "request_method": "PUT",
+      "request_path": "/admin/orders/1/update_status",
+      "request_body": "order[action]=approve",
+      "request_headers": {
+        "Access-Token": "sZIXLWFZE0azJIxCFv4PJQ",
+        "Token-Type": "Bearer",
+        "Client": "Da21wb07GqtDTYvEzNS73w",
+        "Expiry": "1455754181",
+        "Uid": "hi_21@hi.com",
+        "Host": "example.org",
+        "Content-Type": "application/x-www-form-urlencoded",
+        "Cookie": ""
+      },
+      "request_query_parameters": {
+      },
+      "request_content_type": "application/x-www-form-urlencoded",
+      "response_status": 200,
+      "response_status_text": "OK",
+      "response_body": null,
+      "response_headers": {
+        "X-Frame-Options": "SAMEORIGIN",
+        "X-XSS-Protection": "1; mode=block",
+        "X-Content-Type-Options": "nosniff",
+        "Content-Type": "text/html",
+        "Cache-Control": "no-cache",
+        "X-Request-Id": "26216750-a49f-44fc-a97b-b11b7ddac1f3",
+        "X-Runtime": "0.106010",
+        "Content-Length": "0"
+      },
+      "response_content_type": "text/html",
+      "curl": "curl \"http://localhost:3000/admin/orders/1/update_status\" -d 'order[action]=approve' -X PUT \\\n\t-H \"Access-Token: sZIXLWFZE0azJIxCFv4PJQ\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: Da21wb07GqtDTYvEzNS73w\" \\\n\t-H \"Expiry: 1455754181\" \\\n\t-H \"Uid: hi_21@hi.com\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+    }
+  ]
+}

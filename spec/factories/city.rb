@@ -1,5 +1,5 @@
 FactoryGirl.define do
 	factory :city do
-		sequence(:name) { |i| "New York #{i}" }
+		sequence(:name) { |i| Faker::Address.city }
 	end
 end

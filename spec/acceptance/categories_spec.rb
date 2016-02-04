@@ -1,24 +1,26 @@
 require 'rails_helper'
 
-RSpec.describe 'Categories', type: :request do
+resource 'Categories', type: :request do
 
-	before(:each) do
-		@category = FactoryGirl.create :category
+	before(:all) do
+		@category = FactoryGirl.create_list :category, 3
 	end
 
-	describe 'GET /categories' do
-		it 'with no params' do
-			get categories_path
 
-			names_from_json = json_body.map {|a| a[:name]}
-			names_from_db   = Category.pluck(:name)
+	get '/categories' do
+		parameter :city_id,  'get categories that have products with :city_id'
+		parameter :in_stock, 'get categories that have products :in_stock'
 
-			expect(names_from_json).to eq(names_from_db)
+		example_request 'get all categories' do
+			returned_ids = jsons.pluck(:id)
+			expected_ids = Category.pluck(:id)
+
+			expect(returned_ids).to match_array(expected_ids)
+			expect(status).to eq(200)
 		end
 
-		it 'GET /categories?city_id=1&in_stock=false' do
-			get '/categories?city_id=1&in_stock=false', {}
-			#TODO beter test may be needed
+		it 'get filtered categories', document: false do
+			get '/categories?city_id=1&in_stock=false'
 			expect_status 200
 		end
 

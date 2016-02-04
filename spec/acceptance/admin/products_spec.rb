@@ -1,41 +1,52 @@
 require 'rails_helper'
 
-RSpec.describe 'Products', type: :request do
+resource 'Products', type: :request do
 
-	let(:valid_params)   { {title: 'fish', price: '3.0', inventory_count: 2, city_id: 1} }
+	let(:city)           { FactoryGirl.create :city }
+	let(:valid_params)   { {title: 'fish', price: '3.0', inventory_count: 2, city_id: city.id} }
 	let(:invalid_params) { {title: 'fish', price: nil} } #price: nil is so that it's invalid on update
 
-	before(:all) do
-		@admin_user = FactoryGirl.create :user, abilities: [:products, :users]
-		@admin_user_auth_headers = @admin_user.create_new_auth_token
-	end
+	let(:user) { FactoryGirl.create :user, abilities: [:products, :users] }
+	let(:auth_headers) { user.create_new_auth_token }
 
-	before(:each) do
-		@product = FactoryGirl.create :product
-		@product_not_in_stock = FactoryGirl.create :product, inventory_count: 0
-	end
+	include_context 'shared_headers'
+
+	let(:product) { FactoryGirl.create :product }
+	let(:product_not_in_stock) { FactoryGirl.create :product, inventory_count: 0 }
 
 
-
-	describe 'POST admin/products' do
-		it 'with valid params: creates product' do
-			post admin_products_path, { product: valid_params }, @admin_user_auth_headers
-			expect_json valid_params
+	post '/admin/products' do
+		with_options scope: :product do
+			parameter :title, '', required: true
+			parameter :price, '', required: true
+			parameter :inventory_count, 'amount of product in stock', required: true
+			parameter :city_id, 'product served at city', required: true
+			parameter :image
+			parameter :category_ids, 'array of ids of categories product belongs to'
 		end
 
-		it 'with invalid params' do
+		example 'create product' do
+			do_request({ product: valid_params })
+
+			expect(status).to eq(201)
+			expect(json.keys).to include :id, :title, :price, :created_at, :updated_at, :inventory_count, :city_id, :image
+		end
+
+		example 'create product: invalid params' do
 			product = Product.new invalid_params
-			post admin_products_path, { product: invalid_params }, @admin_user_auth_headers
 
-			expect_json product.errors.messages
+			do_request({ product: invalid_params })
+
+			expect(status).to eq(422)
+			expect(json).to include({:price=>["can't be blank"]})
 		end
 
-		it 'creates product with image' do
+		it 'creates product with image', document: false do
 			image = '/home/lakesare/Desktop/rivo/spec/files/hi.jpg'
 			file = Rack::Test::UploadedFile.new image, "image/jpeg"
 			valid_params_with_image = valid_params.merge({image: file})
 
-			post admin_products_path, { product: valid_params_with_image }, @admin_user_auth_headers
+			post admin_products_path, { product: valid_params_with_image }, auth_headers
 
 			product = Product.last
 			path_to_image = "/uploads/product/image/#{product.id}/hi.jpg"
@@ -45,30 +56,46 @@ RSpec.describe 'Products', type: :request do
 		end
 	end
 
-	describe 'PATCH/PUT admin/products/1' do
-		it 'with valid params' do
-			put admin_product_path(@product), { product: valid_params }, @admin_user_auth_headers
-			expect_status 200
+	put '/admin/products/:id' do
+		with_options scope: :product do
+			parameter :title, '', required: true
+			parameter :price, '', required: true
+			parameter :inventory_count, 'amount of product in stock', required: true
+			parameter :city_id, 'product served at city', required: true
+			parameter :image
+			parameter :category_ids, 'array of ids of categories product belongs to'
 		end
 
-		it 'with invalid_params' do
-			product = Product.new invalid_params
+		example 'update product' do
+			do_request({ 
+				id: product.id, 
+				product: { 
+					title: 'hi' 
+				} 
+			})
 
-			put admin_product_path(@product), { product: invalid_params }, @admin_user_auth_headers
-			expect_json product.errors.messages
+			expect(status).to eq(200)
+		end
+
+		example 'update product: invalid_params' do
+			do_request({ 
+				id: product.id, 
+				product: {
+					title: nil 
+				}
+			})
+
+			expect(status).to eq(422)
 		end
 	end
 
-	it 'DELETE admin/products/1' do
-		delete admin_product_path(@product), @admin_user_auth_headers
-		expect(response.status == 200)
+	delete '/admin/products/:id' do
+		it 'delete product' do
+			do_request(id: product.id)
+			
+			expect(status).to eq(200)
+		end
 	end
-
-
-
-
-
-
 
 
 end

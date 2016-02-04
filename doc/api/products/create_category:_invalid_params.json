@@ -1,0 +1,53 @@
+{
+  "resource": "Products",
+  "http_method": "POST",
+  "route": "/admin/categories",
+  "description": "create category: invalid params",
+  "explanation": null,
+  "parameters": [
+    {
+      "require": true,
+      "scope": "category",
+      "name": "name",
+      "description": "name of a category"
+    }
+  ],
+  "response_fields": [
+
+  ],
+  "requests": [
+    {
+      "request_method": "POST",
+      "request_path": "/admin/categories",
+      "request_body": "category[name]",
+      "request_headers": {
+        "Access-Token": "Ov0R1MWo1tU5EsFXBLNbMw",
+        "Token-Type": "Bearer",
+        "Client": "zW_Wv4AYnXjyNctok5cJxw",
+        "Expiry": "1455754178",
+        "Uid": "hi_2@hi.com",
+        "Host": "example.org",
+        "Content-Type": "application/x-www-form-urlencoded",
+        "Cookie": ""
+      },
+      "request_query_parameters": {
+      },
+      "request_content_type": "application/x-www-form-urlencoded",
+      "response_status": 422,
+      "response_status_text": "Unprocessable Entity",
+      "response_body": "{\n  \"name\": [\n    \"can't be blank\"\n  ]\n}",
+      "response_headers": {
+        "X-Frame-Options": "SAMEORIGIN",
+        "X-XSS-Protection": "1; mode=block",
+        "X-Content-Type-Options": "nosniff",
+        "Content-Type": "application/json; charset=utf-8",
+        "Cache-Control": "no-cache",
+        "X-Request-Id": "6e82cbdc-efea-4122-a45a-aac0dc4bdc01",
+        "X-Runtime": "0.104079",
+        "Content-Length": "27"
+      },
+      "response_content_type": "application/json; charset=utf-8",
+      "curl": "curl \"http://localhost:3000/admin/categories\" -d 'category[name]' -X POST \\\n\t-H \"Access-Token: Ov0R1MWo1tU5EsFXBLNbMw\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: zW_Wv4AYnXjyNctok5cJxw\" \\\n\t-H \"Expiry: 1455754178\" \\\n\t-H \"Uid: hi_2@hi.com\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+    }
+  ]
+}

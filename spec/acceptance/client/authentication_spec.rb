@@ -1,31 +1,41 @@
 require 'rails_helper'
 
-RSpec.describe 'Authentication', type: :request do
-	before(:all) do
-		@user = FactoryGirl.create :user
+resource 'Authentication', type: :request do
 
-		@auth_headers = @user.create_new_auth_token #sign in returns auth headers too.
-			# {"access-token"=>"0C887ZJBsQDhbvtUBJGRCw",
-			# "token-type"=>"Bearer",
-			# "client"=>"GezxWt5pHJkiMO7_R5fbhQ",
-			# "expiry"=>"1455228520",
-			# "uid"=>"a@hi.com"}
+	let(:user) { FactoryGirl.create :user }
+	let(:auth_headers) { user.create_new_auth_token }
+
+	post '/auth/sign_in' do
+		parameter :email,    "registered user's email",    required: true
+		parameter :password, "registered user's password", required: true
+
+		it 'sign in' do
+			explanation 'returns "access-token", "token-type", "client", "expiry", "uid" in response headers, which we can then use to access protected resources'
+			do_request email: user.email, password: user.password
+
+			expect(status).to eq 200
+			expect(json[:data].keys).to include :id, :email, :phone, :provider, :uid
+			expect(response_headers).to include("access-token", "token-type", "client", "expiry", "uid")
+		end
 	end
 
+	delete '/auth/sign_out' do
+		describe 'signed in' do
+			include_context 'shared_headers'
+			it 'sign out' do
+				do_request
 
-	it 'sign in' do
-		post '/auth/sign_in', { email: @user.email, password: @user.password }
+				expect(status).to eq(200)
+				expect(json).to include success: true
+			end
+		end
 
-		expect_json({:data=>{:provider=>"email", :uid=>@user.email, :email=>@user.email}})
-		expect_status 200
+		it 'sign out: if not signed in' do
+			do_request
 
-		expect(response.headers).to include("access-token", "token-type", "client", "expiry", "uid")
-	end
-
-	it 'sign out' do
-		delete '/auth/sign_out', @auth_headers
-		expect_json success: true
-		expect_status 200
+			expect(status).to eq(404)
+			expect(json).to include :errors=>["User was not found or was not logged in."]
+		end
 	end
 
 

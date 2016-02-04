@@ -68,7 +68,7 @@ module Client
 					line_items_attributes: [:_destroy, :id, :amount, :product_id]
 				])
 
-				# no :fixed_price.
+				# no :fixed_price, :status, :user_id
 			end
 	end
 end

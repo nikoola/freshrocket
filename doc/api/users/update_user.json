@@ -1,0 +1,53 @@
+{
+  "resource": "Users",
+  "http_method": "PUT",
+  "route": "/admin/users/:id",
+  "description": "update user",
+  "explanation": null,
+  "parameters": [
+    {
+      "scope": "user",
+      "name": "phone",
+      "description": "User phone"
+    }
+  ],
+  "response_fields": [
+
+  ],
+  "requests": [
+    {
+      "request_method": "PUT",
+      "request_path": "/admin/users/1",
+      "request_body": "user[phone]=%2B743278789789",
+      "request_headers": {
+        "Access-Token": "S8bUAC1piv031bNxxUG0-A",
+        "Token-Type": "Bearer",
+        "Client": "bnTgo68Lkps-FiXR6Im_ng",
+        "Expiry": "1455754183",
+        "Uid": "hi_40@hi.com",
+        "Host": "example.org",
+        "Content-Type": "application/x-www-form-urlencoded",
+        "Cookie": ""
+      },
+      "request_query_parameters": {
+      },
+      "request_content_type": "application/x-www-form-urlencoded",
+      "response_status": 200,
+      "response_status_text": "OK",
+      "response_body": "{\n  \"id\": 1,\n  \"email\": \"hi_39@hi.com\",\n  \"phone\": \"+743278789789\",\n  \"provider\": \"email\",\n  \"uid\": \"hi_39@hi.com\",\n  \"created_at\": \"2016-02-04T00:09:43.693Z\",\n  \"updated_at\": \"2016-02-04T00:09:43.896Z\"\n}",
+      "response_headers": {
+        "X-Frame-Options": "SAMEORIGIN",
+        "X-XSS-Protection": "1; mode=block",
+        "X-Content-Type-Options": "nosniff",
+        "Content-Type": "application/json; charset=utf-8",
+        "ETag": "W/\"4fd8d9a4e9eb957a620e795b4c3023bf\"",
+        "Cache-Control": "max-age=0, private, must-revalidate",
+        "X-Request-Id": "6dfc81cd-42f2-45bf-ba70-739d02abee0a",
+        "X-Runtime": "0.094025",
+        "Content-Length": "175"
+      },
+      "response_content_type": "application/json; charset=utf-8",
+      "curl": "curl \"http://localhost:3000/admin/users/1\" -d 'user[phone]=%2B743278789789' -X PUT \\\n\t-H \"Access-Token: S8bUAC1piv031bNxxUG0-A\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: bnTgo68Lkps-FiXR6Im_ng\" \\\n\t-H \"Expiry: 1455754183\" \\\n\t-H \"Uid: hi_40@hi.com\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+    }
+  ]
+}
