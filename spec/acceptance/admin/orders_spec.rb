@@ -38,8 +38,8 @@ resource 'Users', type: :request do
 		end
 
 		example 'get filtered orders' do
-			FactoryGirl.create_list :order, 6, status: 'confirmed'
-			FactoryGirl.create_list :order, 2, status: 'delivered'
+			# FactoryGirl.create_list :order, 6, status: 'confirmed'
+			# FactoryGirl.create_list :order, 2, status: 'delivered'
 
 			do_request limit: 5, offset: 2, status: 'confirmed'
 

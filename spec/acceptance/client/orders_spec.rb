@@ -120,7 +120,7 @@ resource 'Orders', type: :request do
 			})
 
 			expect(status).to eq(422)
-			expect(json).to include(:"line_items.amount"=>["can't be blank"], :line_items=>["is invalid"])
+			expect(json).to include(:"line_items.amount"=>["can't be blank", "is not a number"], :line_items=>["is invalid"])
 		end
 
 	end
@@ -167,8 +167,7 @@ resource 'Orders', type: :request do
 		end
 
 		example 'if order is approved it cant be confirmed' do
-			user_order.confirm; user_order.approve; user_order.save
-
+			user_order.confirm!; user_order.approve!;
 			do_request({
 				id: user_order.id,
 				order: { 

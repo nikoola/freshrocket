@@ -16,6 +16,7 @@ class Product < ActiveRecord::Base
 
 	validates_presence_of :price, :title, :inventory_count, :city
 	#city has to be created _before_ assigning its id to product.
+	validates_numericality_of :inventory_count, greater_than_or_equal_to: 0, only_integer: true
 
 
 	include Filterable
