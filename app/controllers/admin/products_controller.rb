@@ -31,7 +31,7 @@ class Admin::ProductsController < ApplicationController
 
 	# DELETE /admin/products/1
 	def destroy
-		@product.destroy
+		@product.destroy_or_disable
 
 		head 200
 	end

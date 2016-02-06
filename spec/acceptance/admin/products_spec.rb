@@ -90,11 +90,22 @@ resource 'Products', type: :request do
 	end
 
 	delete '/admin/products/:id' do
-		it 'delete product' do
+		example 'delete product' do
+			explanation "deletes product if it's not in any order, disables it (inventory_count: 0) otherwise"
 			do_request(id: product.id)
 			
 			expect(status).to eq(200)
+			expect(Product.find_by(id: product.id)).to be_nil
 		end
+
+		it 'disable product', document: false do
+			product_in_order = FactoryGirl.create(:order).line_items.first.product
+			do_request(id: product_in_order.id)
+
+			expect(status).to eq(200)
+			expect(Product.find_by(id: product_in_order.id).inventory_count).to eq(0)
+		end
+
 	end
 
 

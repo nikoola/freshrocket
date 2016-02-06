@@ -5,7 +5,7 @@ class User < ActiveRecord::Base
 					:omniauthable
 	include DeviseTokenAuth::Concerns::User
 
-	has_many :orders, dependent: :destroy
+	has_many :orders, dependent: :destroy #TODO should we be able to delete users?
 	validates_presence_of :phone
 
 
@@ -40,5 +40,3 @@ class User < ActiveRecord::Base
 
 
 end
-
-# TODO inventory_count --

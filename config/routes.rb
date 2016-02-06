@@ -12,7 +12,7 @@ Rails.application.routes.draw do
 
 	mount_devise_token_auth_for 'User', at: 'auth' #this is for compatibility with ng
 	resource :user, module: 'client', path: :client, as: :client, only: [:show] do
-		resources :orders,    only: [:index, :show, :create, :update, :destroy] do #TODO can only destroy if order.condirmed? or order.unconfirmed?
+		resources :orders,    only: [:index, :show, :create, :update] do #TODO can only destroy if order.condirmed? or order.unconfirmed?
 			member {
 				put :update_status
 			}

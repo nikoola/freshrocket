@@ -126,13 +126,13 @@ resource 'Orders', type: :request do
 	end
 
 
-	delete '/client/orders/:id' do
-		example 'delete order' do
-			do_request id: user_order.id
+	# delete '/client/orders/:id' do
+	# 	example 'delete order' do
+	# 		do_request id: user_order.id
 
-			expect(status).to eq(200)
-		end
-	end
+	# 		expect(status).to eq(200)
+	# 	end
+	# end
 
 
 	put '/client/orders/:id/update_status' do

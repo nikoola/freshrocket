@@ -34,11 +34,11 @@ module Client
 			end
 		end
 
-		# DELETE /client/orders/1
-		def destroy #only if order.unconfirmed?
-			@order.destroy
-			head 200
-		end
+		# # DELETE /client/orders/1
+		# def destroy #only if order.unconfirmed?
+		# 	@order.destroy
+		# 	head 200
+		# end
 
 		def update_status #@order must be current_user's
 			action = params[:order][:action]

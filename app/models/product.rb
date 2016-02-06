@@ -8,7 +8,7 @@ class Product < ActiveRecord::Base
 
 	mount_uploader :image, ImageUploader
 
-
+	has_many :line_items
 	has_many :orders, through: :line_items #no dependent destroy
 
 	belongs_to :city
@@ -30,9 +30,18 @@ class Product < ActiveRecord::Base
 	validates_processing_of :image  # Makes the record invalid if the file couldn't be processed
 	validate :image_size_validation
 
-	# def as_json(options={})
-	# 	super(methods: :'image.url')
-	# end
+
+
+
+	def destroy_or_disable
+		self.orders.any? ? disable : destroy
+	end
+
+	def disable
+		update inventory_count: 0
+	end
+
+
 
 
 

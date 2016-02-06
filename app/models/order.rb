@@ -4,6 +4,7 @@ class Order < ActiveRecord::Base
 
 	belongs_to :user
 	has_many :line_items, inverse_of: :order, dependent: :destroy #so that on nested attrs order id in line_item is set
+	has_many :products, through: :line_items #for testing
 
 
 	accepts_nested_attributes_for :line_items, allow_destroy: true #Note that the :autosave option is automatically enabled on every association that #accepts_nested_attributes_for is used for
