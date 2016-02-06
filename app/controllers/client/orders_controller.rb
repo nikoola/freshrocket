@@ -44,7 +44,8 @@ module Client
 			action = params[:order][:action]
 			# binding.pry
 			if action.to_sym == :confirm
-				if @order.update_status action
+				@order.update_status action
+				if @order.errors.empty?
 					head 200
 				else
 					render json: @order.errors, status: :unprocessable_entity

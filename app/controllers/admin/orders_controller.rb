@@ -47,7 +47,8 @@ module Admin
 			action = params[:order][:action]
 
 			if action.to_sym.in? [:approve, :dispatch, :deliver, :cancel]
-				if @order.update_status action
+				@order.update_status action
+				if @order.errors.blank?
 					head 200
 				else
 					render json: @order.errors, status: :unprocessable_entity
@@ -66,7 +67,7 @@ module Admin
 
 			def order_params
 				params[:order].permit([
-					:status, :comment,
+					:comment,
 					line_items_attributes: [:_destroy, :id, :amount, :product_id]
 				])
 

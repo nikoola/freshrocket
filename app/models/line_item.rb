@@ -2,7 +2,7 @@ class LineItem < ActiveRecord::Base
 	#doesn't exist out of order context
 
 	belongs_to :order
-	belongs_to :product
+	belongs_to :product, autosave: true
 
 	validates :order, :product, :amount, presence: true #no :fixed_price, as it's controlled by order
 
@@ -13,7 +13,6 @@ class LineItem < ActiveRecord::Base
 		self.fixed_price = self.product.price * self.amount
 	end
 
-	validates_associated :product
 
 
 

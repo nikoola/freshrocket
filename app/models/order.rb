@@ -5,8 +5,6 @@ class Order < ActiveRecord::Base
 	belongs_to :user
 	has_many :line_items, inverse_of: :order, dependent: :destroy #so that on nested attrs order id in line_item is set
 
-	has_many :products, through: :line_items #for validations
-
 
 	accepts_nested_attributes_for :line_items, allow_destroy: true #Note that the :autosave option is automatically enabled on every association that #accepts_nested_attributes_for is used for
 
@@ -20,6 +18,7 @@ class Order < ActiveRecord::Base
 	scope :status,  -> (status) { where status: status }
 
 
+	# Saving includes running all validations on the Job class.
 	aasm column: :status, no_direct_assignment: true, whiny_transitions: false do
 		state :unconfirmed, :initial => true
 		state :confirmed
@@ -30,9 +29,6 @@ class Order < ActiveRecord::Base
 		state :canceled
 
 		event :confirm do
-			# guard do
-			# 	change_stock :minus
-			# end
 			transitions :from => :unconfirmed, :to => :confirmed, guard: :decrease_stock
 		end
 		event :approve do
@@ -45,52 +41,75 @@ class Order < ActiveRecord::Base
 			transitions :from => :dispatched, :to => :delivered
 		end
 		event :cancel do
-			# guard do
-			# 	change_stock :plus
-			# end
-			transitions :from => [:confirmed, :approved], :to => :canceled
+			transitions :from => [:confirmed, :approved], :to => :canceled, after: :increase_stock
 		end
 	end
 
 
 
-	validates_associated :line_items
 
 
 
 	def decrease_stock
+
+		# http://stackoverflow.com/a/19549322/3192470 why requires_new ?
+		Order.transaction(requires_new: true) do # transaction only rolls back if an exception is raised
+			line_items.each do |line_item|
+
+				product = line_item.product
+
+				amount_wanted  = line_item.amount
+				amount_present = product.inventory_count
+
+				unless product.update(inventory_count: amount_present - amount_wanted)
+					errors.add(
+						"stock shortage", 
+						{
+							"product.inventory_count": amount_present, 
+							"line_item.amount": amount_wanted, 
+							"product.id": product.id, 
+							"line_item.id": line_item.id
+						}
+					)
+				end
+
+			end
+
+			raise ActiveRecord::Rollback if errors.present? # rollback all if at least one product failed
+		end
+
+		errors.empty? # for state machine's :confirm guard
+	end
+
+
+	def increase_stock
 		line_items.each do |line_item|
 			product = line_item.product
 
-			of_product_in_order = line_item.amount
+			amount_to_return = line_item.amount
+			amount_present   = product.inventory_count
 
-			if product.inventory_count < of_product_in_order
-				errors.add("products", {"product.inventory_count": product.inventory_count, "line_item.amount": line_item.amount, "product.id": product.id})
-			else
-				product.inventory_count -= of_product_in_order
-			end
-		end
-
-		if errors.empty?
-			save #can return false too
-		else
-			false
+			product.update(inventory_count: amount_present + amount_to_return)
 		end
 	end
+
+
+
+
+
+
 
 
 
 
 	def update_status action # :confirm, :approve, :dispatch, :deliver, :cancel
 		if self.respond_to?("may_#{action}?")
-			if self.send("may_#{action}?")
-				self.send(action + '!')
-				save
-			else
-				errors.add(:status, "status cannot transition from #{status} to #{action}"); false
+			# if self.send("may_#{action}?") #calls guards too TODO! we'll be calling guards twice then.
+			unless self.send(action + '!')
+				errors.add(:status, "status cannot transition from #{status} to #{action}")
 			end
 		else
-			errors.add(:status, "status of #{action} is not valid.  Legal values are #{aasm.states.map(&:name).join(", ")}"); false
+			errors.add(:status, "status of #{action} is not valid.  Legal values are #{aasm.states.map(&:name).join(", ")}")
 		end
 	end
 

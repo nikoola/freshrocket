@@ -120,7 +120,7 @@ resource 'Orders', type: :request do
 			})
 
 			expect(status).to eq(422)
-			expect(json).to include(:"line_items.amount"=>["can't be blank", "is not a number"], :line_items=>["is invalid"])
+			expect(json).to include(:"line_items.amount"=>["can't be blank", "is not a number"])
 		end
 
 	end
@@ -136,7 +136,7 @@ resource 'Orders', type: :request do
 
 
 	put '/client/orders/:id/update_status' do
-		parameter :action, 'only confirm is possible for this route (for client)', scope: :order, required: true
+		parameter :action, 'only :confirm is possible for this route (for client)', scope: :order, required: true
 
 		example 'client confirms order' do
 
@@ -187,6 +187,46 @@ resource 'Orders', type: :request do
 
 			expect_status 404
 		end
+
+		example "client can't confirm order if products are out of stock" do
+			product = FactoryGirl.create :product, inventory_count: 0
+
+			order = Order.create({
+				user_id: user.id,
+				line_items_attributes: [
+					{ product_id: product.id, amount: 5 }
+				]
+			})
+
+			do_request({
+				id: order.id,
+				order: { 
+					action: 'confirm' 
+				}
+			})
+
+			expect(status).to eq(422)
+			expect(user_order.reload.status).to eq('unconfirmed')
+			expect(product.inventory_count).to eq(0)
+
+
+			expect(json.keys).to include(:'stock shortage')
+
+			expect(json).to eq({
+				:"stock shortage"=>[{
+					:"product.inventory_count"=>0, 
+					:"line_item.amount"=>5, 
+					:"product.id"=>product.id, 
+					:"line_item.id"=>order.line_items.first.id}], 
+				:status=>["status cannot transition from unconfirmed to confirm"]
+			})
+
+		
+
+		end
+
+
+
 	end
 
 
