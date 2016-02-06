@@ -217,8 +217,8 @@ resource 'Orders', type: :request do
 					:"product.inventory_count"=>0, 
 					:"line_item.amount"=>5, 
 					:"product.id"=>product.id, 
-					:"line_item.id"=>order.line_items.first.id}], 
-				:status=>["status cannot transition from unconfirmed to confirm"]
+					:"line_item.id"=>order.line_items.first.id
+				}]
 			})
 
 		

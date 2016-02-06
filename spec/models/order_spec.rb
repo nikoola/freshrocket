@@ -67,7 +67,7 @@ describe Order, type: :model do
 
 		describe 'confirm!' do
 			it 'changes inventory count: failure' do
-				expect(order.confirm!).to be(false)
+				expect(order.confirm!).to be(nil) #unsuccessful, since :after transaction failed witk ROLLBACK 
 
 				parsed_errors = JSON.parse order.errors.to_json
 

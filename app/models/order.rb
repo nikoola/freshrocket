@@ -29,7 +29,7 @@ class Order < ActiveRecord::Base
 		state :canceled
 
 		event :confirm do
-			transitions :from => :unconfirmed, :to => :confirmed, guard: :decrease_stock
+			transitions :from => :unconfirmed, :to => :confirmed, after: :decrease_stock
 		end
 		event :approve do
 			transitions :from => :confirmed, :to => :approved
@@ -53,32 +53,30 @@ class Order < ActiveRecord::Base
 	def decrease_stock
 
 		# http://stackoverflow.com/a/19549322/3192470 why requires_new ?
-		Order.transaction(requires_new: true) do # transaction only rolls back if an exception is raised
-			line_items.each do |line_item|
+		# Order.transaction(requires_new: true) do # transaction only rolls back if an exception is raised
+		line_items.each do |line_item|
 
-				product = line_item.product
+			product = line_item.product
 
-				amount_wanted  = line_item.amount
-				amount_present = product.inventory_count
+			amount_wanted  = line_item.amount
+			amount_present = product.inventory_count
 
-				unless product.update(inventory_count: amount_present - amount_wanted)
-					errors.add(
-						"stock shortage", 
-						{
-							"product.inventory_count": amount_present, 
-							"line_item.amount": amount_wanted, 
-							"product.id": product.id, 
-							"line_item.id": line_item.id
-						}
-					)
-				end
-
+			unless product.update(inventory_count: amount_present - amount_wanted)
+				errors.add(
+					"stock shortage", 
+					{
+						"product.inventory_count": amount_present, 
+						"line_item.amount": amount_wanted, 
+						"product.id": product.id, 
+						"line_item.id": line_item.id
+					}
+				)
 			end
 
-			raise ActiveRecord::Rollback if errors.present? # rollback all if at least one product failed
 		end
 
-		errors.empty? # for state machine's :confirm guard
+		raise ActiveRecord::Rollback if errors.present? # rollback all if at least one product failed
+		# end
 	end
 
 
@@ -104,8 +102,9 @@ class Order < ActiveRecord::Base
 
 	def update_status action # :confirm, :approve, :dispatch, :deliver, :cancel
 		if self.respond_to?("may_#{action}?")
-			# if self.send("may_#{action}?") #calls guards too TODO! we'll be calling guards twice then.
-			unless self.send(action + '!')
+			if self.send("may_#{action}?") #calls guards too TODO! we'll be calling guards twice then.
+				self.send(action + '!')
+			else
 				errors.add(:status, "status cannot transition from #{status} to #{action}")
 			end
 		else
@@ -113,7 +112,9 @@ class Order < ActiveRecord::Base
 		end
 	end
 
-
+# Since version 3.0.13 AASM supports ActiveRecord transactions. So whenever a transition callback or the state update fails, all changes to any database record are rolled back. Mongodb does not support transactions.
+# !!!
+# there are transactions already.
 
 
 
