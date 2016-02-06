@@ -5,7 +5,7 @@ module Admin
 
 		# GET /admin/orders
 		def index
-			@orders = Order.filter params.slice(:user_id, :status, :limit, :offset)
+			@orders = Order.filter params.slice(:city_id, :user_id, :status, :limit, :offset)
 
 			render json: @orders
 		end

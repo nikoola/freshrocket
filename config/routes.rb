@@ -30,12 +30,13 @@ Rails.application.routes.draw do
 				# get :may_update_status # status: ''
 			}
 		end
-		resources :users,       only: [:index, :show, :update, :destroy] do
+		resources :users,       only: [:index, :show, :update] do
 			member {
 				put :update_abilities #update abilities for a user
 				get :list_abilities   #see user abilities
 			}
 		end
+		resource :settings, only: [:show, :update]
 	end
 
 

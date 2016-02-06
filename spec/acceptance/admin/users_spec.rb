@@ -83,12 +83,12 @@ resource 'Users', type: :request do
 		end
 	end
 
-	delete '/admin/users/:id' do
-		example 'delete user' do
-			do_request({id: prohibited_user.id})
-			expect(status).to eq(200)
-		end
-	end
+	# delete '/admin/users/:id' do
+	# 	example 'delete user' do
+	# 		do_request({id: prohibited_user.id})
+	# 		expect(status).to eq(200)
+	# 	end
+	# end
 
 
 
@@ -98,7 +98,7 @@ resource 'Users', type: :request do
 			prohibited_user.ability_list = ['users']
 			prohibited_user.save; prohibited_user.reload; #only appears on reload in .abilities list
 			do_request({id: prohibited_user.id})
-			expect(json).to eq(:abilities=>{:orders=>0, :products=>0, :users=>1, :categories=>0})
+			expect(json[:abilities]).to include(:orders=>0, :products=>0, :users=>1, :categories=>0, :settings=>0)
 		end
 	end
 

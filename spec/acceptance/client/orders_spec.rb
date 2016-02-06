@@ -36,7 +36,7 @@ resource 'Orders', type: :request do
 			do_request id: user_order.id
 
 			expect(status).to eq(200)
-			expect(json.keys).to match_array([:id, :user_id, :status, :fixed_price, :comment, :created_at, :updated_at])
+			expect(json.keys).to include :comment, :created_at, :delivery_date, :delivery_time, :fixed_price, :id, :status, :updated_at, :user_id
 		end
 	end
 
@@ -44,7 +44,9 @@ resource 'Orders', type: :request do
 
 	post 'client/orders' do
 		with_options :scope => :order do
-			parameter :comment, 'comment to the order'
+			parameter :comment,       'comment to the order'
+			parameter :delivery_date, 'date client wants their delivery on'
+			parameter :delivery_time, "['morning', 'noon', 'evening']"
 		end
 
 		with_options :scope => [:order, :line_items_attributes], :required => true do
@@ -58,7 +60,9 @@ resource 'Orders', type: :request do
 
 		example_request "create current user's order" do
 			expect(status).to eq(201)
-			expect(json).to include(fixed_price: (product.price * 100).to_s)
+			
+			tax_coefficient = Setting.i.tax_in_percentage / 100 + 1
+			expect(json).to include(fixed_price: (product.price * 100 * tax_coefficient).to_s)
 		end
 	end
 
@@ -66,6 +70,8 @@ resource 'Orders', type: :request do
 
 		with_options :scope => :order do
 			parameter :comment, 'comment to the order'
+			parameter :delivery_date, 'date client wants their delivery on'
+			parameter :delivery_time, "['morning', 'noon', 'evening']. time is limited between 7 am to 9 pm only, mention this in frontend"
 		end
 
 		with_options :scope => [:order, :line_items_attributes], :required => true do

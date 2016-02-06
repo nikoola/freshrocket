@@ -47,9 +47,11 @@ end
 gem 'carrierwave'
 gem 'mini_magick'
 
-gem 'devise'
+# gem 'devise'
 gem 'devise_token_auth' # Token based authentication for Rails JSON APIs
 gem 'omniauth' # required for devise_token_auth
+gem 'omniauth-facebook'
+
 
 gem 'regulator' # like pundit, but allows policy namespacing.
 

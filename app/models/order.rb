@@ -12,12 +12,16 @@ class Order < ActiveRecord::Base
 	validates_presence_of :user
 	validate :has_line_items?
 
+	DELIVERY_TIMES = ['morning', 'noon', 'evening']
+	validates_inclusion_of :delivery_time, in: DELIVERY_TIMES, allow_blank: true, message: "%{value} is not permitted. can be #{DELIVERY_TIMES}"
+
 
 	before_save :set_fixed_price, :if => :unconfirmed? 
 
 	include Filterable
-	scope :status,  -> (status) { where status: status }
-
+	scope :status,  -> (status)  { where status: status }
+	scope :city_id, -> (city_id) { where city_id: city_id }
+	scope :user_id, -> (city_id) { where user_id: city_id }
 
 	# Saving includes running all validations on the Job class.
 	aasm column: :status, no_direct_assignment: true, whiny_transitions: false do
@@ -51,6 +55,8 @@ class Order < ActiveRecord::Base
 
 
 
+
+	# Since version 3.0.13 AASM supports ActiveRecord transactions. So whenever a transition callback or the state update fails, all changes to any database record are rolled back. Mongodb does not support transactions.
 	def decrease_stock
 
 		# http://stackoverflow.com/a/19549322/3192470 why requires_new ?
@@ -93,14 +99,6 @@ class Order < ActiveRecord::Base
 	end
 
 
-
-
-
-
-
-
-
-
 	def update_status action # :confirm, :approve, :dispatch, :deliver, :cancel
 		if self.respond_to?("may_#{action}?")
 			if self.send("may_#{action}?") #calls guards too TODO! we'll be calling guards twice then.
@@ -113,18 +111,6 @@ class Order < ActiveRecord::Base
 		end
 	end
 
-# Since version 3.0.13 AASM supports ActiveRecord transactions. So whenever a transition callback or the state update fails, all changes to any database record are rolled back. Mongodb does not support transactions.
-# !!!
-# there are transactions already.
-
-
-
-
-
-
-
-
-
 
 
 
@@ -136,8 +122,18 @@ class Order < ActiveRecord::Base
 
 		def set_fixed_price
 			#nested attributes are validated first
-			self.fixed_price = self.line_items.map(&:set_fixed_price).reduce {|sum, n| sum + n}
+			self.fixed_price = tax_coefficient * calculated_line_items_cost
 			# self.fixed_price = self.line_items.sum(:fixed_price) #0! ahh, they are not in database yet, and sum's a db method
+		end
+
+		def tax_coefficient
+			1 +  Setting.i.tax_in_percentage / 100
+		end
+
+		def calculated_line_items_cost
+			line_items.map do |li| 
+				li.fixed_price = li.product.price * li.amount #they are saved, yes, all fine.
+			end.reduce { |sum, n| sum + n }
 		end
 
 end

@@ -1,7 +1,9 @@
 RSpec.configure do |config|
 
+
+  # {except: ['settings']} because it's a singleton class, and we define it's first row on load.
   config.before(:suite) do
-    DatabaseCleaner.clean_with(:truncation)
+    DatabaseCleaner.clean_with :truncation, {except: ['settings']}
   end
 
   config.before(:each) do
@@ -9,7 +11,7 @@ RSpec.configure do |config|
   end
 
   config.before(:each, :js => true) do
-    DatabaseCleaner.strategy = :truncation
+    DatabaseCleaner.strategy = :truncation, {except: ['settings']}
   end
 
   config.before(:each) do

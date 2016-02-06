@@ -34,11 +34,11 @@ class Admin::UsersController < ApplicationController
 		end
 	end
 
-	# DELETE /users/1
-	def destroy
-		@user.destroy
-		head 200
-	end
+	# # DELETE /users/1
+	# def destroy
+	# 	@user.destroy
+	# 	head 200
+	# end
 
 
 	def list_abilities

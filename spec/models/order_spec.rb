@@ -20,7 +20,9 @@ describe Order, type: :model do
 			})
 
 			expect(order).to be_valid
-			expect(order.fixed_price).to eq(62.0)
+
+			tax_coefficient = Setting.i.tax_in_percentage / 100 + 1
+			expect(order.fixed_price).to eq(62.0 * tax_coefficient )
 		end
 
 		it 'fixed price updated on order update' do
@@ -35,6 +37,9 @@ describe Order, type: :model do
 				line_item_price = line_item.product.price * line_item.amount
 				order_price += line_item_price
 			end
+
+			tax_coefficient = Setting.i.tax_in_percentage / 100 + 1
+			order_price *= tax_coefficient
 
 			expect(order.fixed_price).to eq(order_price)
 		end

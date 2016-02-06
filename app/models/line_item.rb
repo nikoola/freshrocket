@@ -8,12 +8,5 @@ class LineItem < ActiveRecord::Base
 
 	validates_numericality_of :amount, greater_than_or_equal_to: 0, only_integer: true
 
-	
-	def set_fixed_price
-		self.fixed_price = self.product.price * self.amount
-	end
-
-
-
 
 end
