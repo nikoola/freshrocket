@@ -70,7 +70,20 @@ resource 'Users', type: :request do
 			do_request({id: order.id})
 			
 			expect(status).to eq(200)
-			expect(json).to include(:id, :user_id, :status, :fixed_price, :created_at, :updated_at, :comment)
+			expect(json.keys).to include(
+				:id,
+				:user_id,
+				:status,
+				:created_at,
+				:updated_at,
+				:comment,
+				:delivery_date,
+				:delivery_time,
+				:pure_product_price,
+				:tax,
+				:delivery_charge,
+				:total_price
+			)
 		end
 	end
 

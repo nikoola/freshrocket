@@ -41,7 +41,7 @@ class Setting < ActiveRecord::Base
 			Setting.first || Setting.create(default_settings)
 		end
 		alias_method :i, :instance
-
+		alias_method :s, :instance #like Setting.s
 		# def define_singleton_methods
 		# 	column_names.each do |column_name|
 		# 		define_singleton_method column_name do

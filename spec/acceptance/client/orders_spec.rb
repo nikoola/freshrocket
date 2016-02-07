@@ -36,7 +36,19 @@ resource 'Orders', type: :request do
 			do_request id: user_order.id
 
 			expect(status).to eq(200)
-			expect(json.keys).to include :comment, :created_at, :delivery_date, :delivery_time, :fixed_price, :id, :status, :updated_at, :user_id
+			expect(json.keys).to include :comment,
+				:id,
+				:user_id,
+				:status,
+				:created_at,
+				:updated_at,
+				:comment,
+				:delivery_date,
+				:delivery_time,
+				:pure_product_price,
+				:tax,
+				:delivery_charge,
+				:total_price
 		end
 	end
 
@@ -54,15 +66,18 @@ resource 'Orders', type: :request do
 			parameter :amount, 'amount of this product in a cart'
 		end
 
-		let(:raw_post) do
-			{ order: { line_items_attributes: [{product_id: product.id, amount: 100}] } }
-		end #TODO if possible. generates ugly body.
+		example "create current user's order" do
+			do_request( 
+				order: { 
+					line_items_attributes: [
+						{ product_id: product.id, amount: 1000 }
+					]
+				}
+			)
 
-		example_request "create current user's order" do
 			expect(status).to eq(201)
-			
-			tax_coefficient = Setting.i.tax_in_percentage / 100 + 1
-			expect(json).to include(fixed_price: (product.price * 100 * tax_coefficient).to_s)
+		
+			expect(json).to include :delivery_charge=>"0.0"
 		end
 	end
 

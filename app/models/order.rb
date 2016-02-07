@@ -16,7 +16,7 @@ class Order < ActiveRecord::Base
 	validates_inclusion_of :delivery_time, in: DELIVERY_TIMES, allow_blank: true, message: "%{value} is not permitted. can be #{DELIVERY_TIMES}"
 
 
-	before_save :set_fixed_price, :if => :unconfirmed? 
+	before_save :set_order_pricing, on: :create #TODO decrease_stock
 
 	include Filterable
 	scope :status,  -> (status)  { where status: status }
@@ -113,28 +113,22 @@ class Order < ActiveRecord::Base
 
 
 
-
-
 	private
 		def has_line_items?
 			errors.add(:order, 'must add at least one line item') if self.line_items.blank?
 		end
 
-		def set_fixed_price
-			#nested attributes are validated first
-			self.fixed_price = tax_coefficient * calculated_line_items_cost
-			# self.fixed_price = self.line_items.sum(:fixed_price) #0! ahh, they are not in database yet, and sum's a db method
+		def set_order_pricing
+			pricing = CalculateOrderPrice.new self
+
+			self.pure_product_price = pricing.pure_product_price
+			self.tax                = pricing.tax
+			self.delivery_charge    = pricing.delivery_charge
+
+			self.total_price        = pricing.total
 		end
 
-		def tax_coefficient
-			1 +  Setting.i.tax_in_percentage / 100
-		end
 
-		def calculated_line_items_cost
-			line_items.map do |li| 
-				li.fixed_price = li.product.price * li.amount #they are saved, yes, all fine.
-			end.reduce { |sum, n| sum + n }
-		end
 
 end
 
