@@ -37,17 +37,17 @@
       "request_content_type": null,
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "[\n  {\n    \"id\": 11,\n    \"title\": \"fish\",\n    \"price\": \"3.0\",\n    \"created_at\": \"2016-02-04T00:09:51.853Z\",\n    \"updated_at\": \"2016-02-04T00:09:51.853Z\",\n    \"inventory_count\": 2,\n    \"city_id\": 8,\n    \"image\": {\n      \"url\": \"uploads/product/image/default.png\"\n    }\n  },\n  {\n    \"id\": 12,\n    \"title\": \"fish\",\n    \"price\": \"3.0\",\n    \"created_at\": \"2016-02-04T00:09:51.964Z\",\n    \"updated_at\": \"2016-02-04T00:09:51.964Z\",\n    \"inventory_count\": 2,\n    \"city_id\": 8,\n    \"image\": {\n      \"url\": \"uploads/product/image/default.png\"\n    }\n  },\n  {\n    \"id\": 13,\n    \"title\": \"fish\",\n    \"price\": \"3.0\",\n    \"created_at\": \"2016-02-04T00:09:52.053Z\",\n    \"updated_at\": \"2016-02-04T00:09:52.053Z\",\n    \"inventory_count\": 2,\n    \"city_id\": 8,\n    \"image\": {\n      \"url\": \"uploads/product/image/default.png\"\n    }\n  }\n]",
+      "response_body": "[\n  {\n    \"id\": 11,\n    \"city_id\": 8,\n    \"title\": \"fish\",\n    \"price\": \"3.0\",\n    \"created_at\": \"2016-02-08T17:24:23.992Z\",\n    \"updated_at\": \"2016-02-08T17:24:23.992Z\",\n    \"inventory_count\": 20,\n    \"image_url\": \"uploads/product/image/default.png\"\n  },\n  {\n    \"id\": 12,\n    \"city_id\": 8,\n    \"title\": \"fish\",\n    \"price\": \"3.0\",\n    \"created_at\": \"2016-02-08T17:24:24.136Z\",\n    \"updated_at\": \"2016-02-08T17:24:24.136Z\",\n    \"inventory_count\": 20,\n    \"image_url\": \"uploads/product/image/default.png\"\n  },\n  {\n    \"id\": 13,\n    \"city_id\": 8,\n    \"title\": \"fish\",\n    \"price\": \"3.0\",\n    \"created_at\": \"2016-02-08T17:24:24.280Z\",\n    \"updated_at\": \"2016-02-08T17:24:24.280Z\",\n    \"inventory_count\": 20,\n    \"image_url\": \"uploads/product/image/default.png\"\n  }\n]",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"53d7b2c20601f014c53714db8d6477bd\"",
+        "ETag": "W/\"993f9b9d0d03d9e9f77249b59c205f5d\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "X-Request-Id": "318d01bd-9665-4535-a166-28b54b2855c8",
-        "X-Runtime": "0.003910",
-        "Content-Length": "610"
+        "X-Request-Id": "1bebb7a3-d70c-4d2c-bae2-8d9da9cb0c94",
+        "X-Runtime": "0.004539",
+        "Content-Length": "601"
       },
       "response_content_type": "application/json; charset=utf-8",
       "curl": "curl \"http://localhost:3000/products?category_id=5&in_stock=true\" -X GET \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""

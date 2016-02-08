@@ -23,7 +23,7 @@
     {
       "request_method": "POST",
       "request_path": "/auth/sign_in",
-      "request_body": "email=hi_50%40hi.com&password=secrety_bickety",
+      "request_body": "email=46kylee_gulgowski%40homenick.name&password=secrety_bickety",
       "request_headers": {
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
@@ -34,25 +34,25 @@
       "request_content_type": "application/x-www-form-urlencoded",
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\n  \"data\": {\n    \"id\": 1,\n    \"email\": \"hi_50@hi.com\",\n    \"phone\": \"+79173332221\",\n    \"provider\": \"email\",\n    \"uid\": \"hi_50@hi.com\"\n  }\n}",
+      "response_body": "{\n  \"data\": {\n    \"id\": 1,\n    \"email\": \"46kylee_gulgowski@homenick.name\",\n    \"phone\": \"1-711-079-4274\",\n    \"provider\": \"email\",\n    \"uid\": \"46kylee_gulgowski@homenick.name\"\n  }\n}",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
-        "access-token": "ykRgEHeg7RHIjw3mLcrWDA",
+        "access-token": "DKkB08A0YAnFJtTJLXGCBQ",
         "token-type": "Bearer",
-        "client": "fXY9gCdXtZcrBkO5vjEt3w",
-        "expiry": "1455754185",
-        "uid": "hi_50@hi.com",
+        "client": "LXJTGD5eG-bW9Hl2wyfV1A",
+        "expiry": "1456161856",
+        "uid": "46kylee_gulgowski@homenick.name",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"09eda22fe0ae9e9d845ecd4a1a794f0f\"",
+        "ETag": "W/\"5567a0b8eb7bd5ee0273c8a49f0e41f4\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "X-Request-Id": "fc81e17c-334c-4c3c-b8f4-08468b28db9f",
-        "X-Runtime": "0.159341",
-        "Content-Length": "103"
+        "X-Request-Id": "14c25bfa-d15b-4743-af41-7d5fb49b8721",
+        "X-Runtime": "0.156406",
+        "Content-Length": "143"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/auth/sign_in\" -d 'email=hi_50%40hi.com&password=secrety_bickety' -X POST \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/auth/sign_in\" -d 'email=46kylee_gulgowski%40homenick.name&password=secrety_bickety' -X POST \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

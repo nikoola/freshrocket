@@ -32,8 +32,9 @@
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "application/json; charset=utf-8",
         "Cache-Control": "no-cache",
-        "X-Request-Id": "bd7f43a6-eb2e-44a3-9d73-5b8e14218cb4",
-        "X-Runtime": "0.002199",
+        "Set-Cookie": "_session_id=bFFEZ2V6VFVaOFRpNHA0U0hRUlduU1ZKNTRMOVdPQ2pkYnAxMDZ1NVc4UkRhNytHN05acmN5TDk0NENpVDhuLzNkQTRsMDF3KzBRZU5QTWN5TkI4a2c9PS0tdElqUXpkcGQ5MlQxZ3p3bmE1enRNQT09--4b4ca5f9c35a5ae7169fdc62ba41af49beaa3332; path=/; HttpOnly",
+        "X-Request-Id": "12d8b5ca-99b4-4795-ac05-432023410be8",
+        "X-Runtime": "0.001603",
         "Content-Length": "55"
       },
       "response_content_type": "application/json; charset=utf-8",

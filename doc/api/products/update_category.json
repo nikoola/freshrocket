@@ -21,11 +21,11 @@
       "request_path": "/admin/categories/1",
       "request_body": "category[name]=hollywood",
       "request_headers": {
-        "Access-Token": "_--JoqalaEmHuzGx2-Vebg",
+        "Access-Token": "q-oBw02MbidKB_jiXpp6Qw",
         "Token-Type": "Bearer",
-        "Client": "4XuswlUZkG744krFVI9rdg",
-        "Expiry": "1455754178",
-        "Uid": "hi_3@hi.com",
+        "Client": "42hHaonuhHVxLPZ5N8NQ-w",
+        "Expiry": "1456161850",
+        "Uid": "3kayli.donnelly@koch.name",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -43,12 +43,13 @@
         "Content-Type": "application/json; charset=utf-8",
         "ETag": "W/\"be9c11934f711c5c60befcf5e859f563\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "X-Request-Id": "f646c370-b88d-471b-a33e-6d8abe1a7898",
-        "X-Runtime": "0.092436",
+        "Set-Cookie": "_session_id=NFpJaWRFSzlPR0F4RzZDUDMyK2Y3bXlRRFZUTHJWRFhCQ0hKTmlOTmQ4aW1TZWkrZHJON0VOK0t6R2MyYVNENy9JWHBaN2VEY1RYU1diVUxiNE1VckZUdlQyZk96YlNYWm16VnVPQTZBTTNDa0NrMWl0bmZOZWU1ekluRnMxRW9EQ0JOUGpna2ppbGxKRVdwM3J3M2Q3aEZtVTQ5TDh6TGpZenE2d3VxZUR1ZkdVRVZqaVI1UXh5VmQxek9oZnBMLS1DNHM5UDNRTGlRSWZPVEUwU2wxWFNnPT0%3D--4a959ab8303bd2b70960582fc609ee9af5ea43a9; path=/; HttpOnly",
+        "X-Request-Id": "516d0cdc-f034-4e64-b787-459a66bdda1f",
+        "X-Runtime": "0.078223",
         "Content-Length": "27"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/admin/categories/1\" -d 'category[name]=hollywood' -X PUT \\\n\t-H \"Access-Token: _--JoqalaEmHuzGx2-Vebg\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: 4XuswlUZkG744krFVI9rdg\" \\\n\t-H \"Expiry: 1455754178\" \\\n\t-H \"Uid: hi_3@hi.com\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/admin/categories/1\" -d 'category[name]=hollywood' -X PUT \\\n\t-H \"Access-Token: q-oBw02MbidKB_jiXpp6Qw\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: 42hHaonuhHVxLPZ5N8NQ-w\" \\\n\t-H \"Expiry: 1456161850\" \\\n\t-H \"Uid: 3kayli.donnelly@koch.name\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

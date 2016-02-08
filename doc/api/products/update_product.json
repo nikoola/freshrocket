@@ -49,11 +49,11 @@
       "request_path": "/admin/products/1",
       "request_body": "product[title]=hi",
       "request_headers": {
-        "Access-Token": "DnDj-LeR5A8r07bBRQEoqw",
+        "Access-Token": "CaXaf-S0zYlUPr6QUin7vg",
         "Token-Type": "Bearer",
-        "Client": "YhPaHtaFET7vcO36Gz9xxg",
-        "Expiry": "1455754182",
-        "Uid": "hi_29@hi.com",
+        "Client": "GyukuM3Moj5WV-AXOd1ViQ",
+        "Expiry": "1456161853",
+        "Uid": "21pietro.tremblay@pfeffer.biz",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -63,20 +63,21 @@
       "request_content_type": "application/x-www-form-urlencoded",
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\n  \"id\": 1,\n  \"title\": \"hi\",\n  \"price\": \"3.0\",\n  \"created_at\": \"2016-02-04T00:09:42.290Z\",\n  \"updated_at\": \"2016-02-04T00:09:42.463Z\",\n  \"inventory_count\": 2,\n  \"city_id\": 1,\n  \"image\": {\n    \"url\": \"uploads/product/image/default.png\"\n  }\n}",
+      "response_body": "{\n  \"id\": 1,\n  \"city_id\": 1,\n  \"title\": \"hi\",\n  \"price\": \"3.0\",\n  \"created_at\": \"2016-02-08T17:24:13.114Z\",\n  \"updated_at\": \"2016-02-08T17:24:13.277Z\",\n  \"inventory_count\": 20,\n  \"image_url\": \"uploads/product/image/default.png\"\n}",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"be1c01bf2fc41624ad49fa778b05f1b1\"",
+        "ETag": "W/\"806f7bc75e73dfc32b1ec22d56b83bc2\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "X-Request-Id": "29e68add-094e-4667-b312-7ca14e233bd7",
-        "X-Runtime": "0.084431",
-        "Content-Length": "199"
+        "Set-Cookie": "_session_id=azdmcDVFcEIxamNGQnR3SDl2bHV3aWlsbUgvS1U2QXUrRE1haWZPQkovRWJVZ08wZ2JNWUxqQzZuQTB0UHRrdHNaNjljT25hbnUrOU9RNzFqMzJ3RStvVW9JU09zbTNsTG4xUVMwR2NFY0ZXSlR0ajlsWDZNZWJIOEZNRFlGcGx2QVFHd2xrbUZFZ2NQY1AxL1JTNXY4c1UvbzVUZGdTUHk0aW5RdHoxaVZUNldPeUJyTjhkQ1lMNElOTkV2QkxmLS1CbGU3TU1uZ1F6YTVVZnZzRENnQUFRPT0%3D--aa59922b461b3aa1f95836287843a2f92b7b1dc5; path=/; HttpOnly",
+        "X-Request-Id": "b400aa7e-878f-4f20-b042-7eaf1f0cd3f9",
+        "X-Runtime": "0.078750",
+        "Content-Length": "196"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/admin/products/1\" -d 'product[title]=hi' -X PUT \\\n\t-H \"Access-Token: DnDj-LeR5A8r07bBRQEoqw\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: YhPaHtaFET7vcO36Gz9xxg\" \\\n\t-H \"Expiry: 1455754182\" \\\n\t-H \"Uid: hi_29@hi.com\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/admin/products/1\" -d 'product[title]=hi' -X PUT \\\n\t-H \"Access-Token: CaXaf-S0zYlUPr6QUin7vg\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: GyukuM3Moj5WV-AXOd1ViQ\" \\\n\t-H \"Expiry: 1456161853\" \\\n\t-H \"Uid: 21pietro.tremblay@pfeffer.biz\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

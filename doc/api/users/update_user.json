@@ -20,11 +20,11 @@
       "request_path": "/admin/users/1",
       "request_body": "user[phone]=%2B743278789789",
       "request_headers": {
-        "Access-Token": "S8bUAC1piv031bNxxUG0-A",
+        "Access-Token": "L5X1cAdeiX6QJ18x4qdDqA",
         "Token-Type": "Bearer",
-        "Client": "bnTgo68Lkps-FiXR6Im_ng",
-        "Expiry": "1455754183",
-        "Uid": "hi_40@hi.com",
+        "Client": "jjRk9esKERdzIP2Qg6RUCg",
+        "Expiry": "1456161855",
+        "Uid": "38luciano@mohr.biz",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -34,20 +34,21 @@
       "request_content_type": "application/x-www-form-urlencoded",
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\n  \"id\": 1,\n  \"email\": \"hi_39@hi.com\",\n  \"phone\": \"+743278789789\",\n  \"provider\": \"email\",\n  \"uid\": \"hi_39@hi.com\",\n  \"created_at\": \"2016-02-04T00:09:43.693Z\",\n  \"updated_at\": \"2016-02-04T00:09:43.896Z\"\n}",
+      "response_body": "{\n  \"id\": 1,\n  \"email\": \"37darrion_denesik@damore.info\",\n  \"phone\": \"+743278789789\",\n  \"provider\": \"email\",\n  \"uid\": \"37darrion_denesik@damore.info\",\n  \"created_at\": \"2016-02-08T17:24:15.298Z\"\n}",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"4fd8d9a4e9eb957a620e795b4c3023bf\"",
+        "ETag": "W/\"f360d22d0faa12746a51630a7949cf4e\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "X-Request-Id": "6dfc81cd-42f2-45bf-ba70-739d02abee0a",
-        "X-Runtime": "0.094025",
-        "Content-Length": "175"
+        "Set-Cookie": "_session_id=L28yekdlbitOWDhnSHp0dUJRaW8rN0dCTXdXR2NWcUYwQ205OWlFTFpjd1BWMTBoaUxwWHNXTzgrOEU4Y0k2NFk2c2hrUHZCdlNJTllOa01LYW14TXZpUjNxdmQ3VDlPWVMxSytIejRvL0RvV0FGdGFUZnVVaGkra3UwT3pKeUpRclRwdE1TK3FNY3BFbGpFK0VFM0RpZ2FHektlWkxJdTdVK2Z6MFJTZzVybTlJYmJCS2NJUU9EdGtwRFlCVFFKLS10a0RUNXhJWkpEc2ZCNHF4bFF3aE5RPT0%3D--d753919a7f3118f0439f8f34af33f4d33779369d; path=/; HttpOnly",
+        "X-Request-Id": "e8f9f547-00ea-44ae-9b4e-5f98133588a1",
+        "X-Runtime": "0.080327",
+        "Content-Length": "169"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/admin/users/1\" -d 'user[phone]=%2B743278789789' -X PUT \\\n\t-H \"Access-Token: S8bUAC1piv031bNxxUG0-A\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: bnTgo68Lkps-FiXR6Im_ng\" \\\n\t-H \"Expiry: 1455754183\" \\\n\t-H \"Uid: hi_40@hi.com\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/admin/users/1\" -d 'user[phone]=%2B743278789789' -X PUT \\\n\t-H \"Access-Token: L5X1cAdeiX6QJ18x4qdDqA\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: jjRk9esKERdzIP2Qg6RUCg\" \\\n\t-H \"Expiry: 1456161855\" \\\n\t-H \"Uid: 38luciano@mohr.biz\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

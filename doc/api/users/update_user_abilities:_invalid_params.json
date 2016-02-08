@@ -20,11 +20,11 @@
       "request_path": "/admin/users/1/update_abilities",
       "request_body": "abilities[lalala]=1",
       "request_headers": {
-        "Access-Token": "6xkKLg858j-NEQeAjxUzGA",
+        "Access-Token": "G7Ckb0-puIHpodLqbwXZ4g",
         "Token-Type": "Bearer",
-        "Client": "trkbxdOiGicsczWG184G8Q",
-        "Expiry": "1455754184",
-        "Uid": "hi_48@hi.com",
+        "Client": "KaHg769mMPx9IwggBEzFlw",
+        "Expiry": "1456161855",
+        "Uid": "44dudley@mills.net",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -41,12 +41,13 @@
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "application/json; charset=utf-8",
         "Cache-Control": "no-cache",
-        "X-Request-Id": "83fad8cf-7410-4535-8b85-0d2898a78086",
-        "X-Runtime": "0.081302",
+        "Set-Cookie": "_session_id=cHFTTmFRYUlEbUw4V0I4bXA1czY1Umw0cmwwYW9ZVHFOWDJYa2l5VmVDNUxla2tSV09FSGVPeGcrWGlyL1daQ2hPeFpGaXV6elJ2MTRPSUhEdFlKaFd5MWJBYk1MWlRMaStWRnlRL3QyNTlBbjl2WWpHYjRwRXl6S2toeVVwK3E0Q1hjcmU3QWVlb25TSUNJSVVLa2xJSzV3ZWNHQTMvdGhxREMycFVmclFSTEpDRFpCWWJtR2k5QXZCTVo5TkErLS0zVVFVcEdnckk2MjhGMTBaMThDY2xBPT0%3D--0ecd54389f69939700e74285fd57b1f2f8098b52; path=/; HttpOnly",
+        "X-Request-Id": "3311e53d-91eb-4736-8127-a20a349b1436",
+        "X-Runtime": "0.077586",
         "Content-Length": "47"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/admin/users/1/update_abilities\" -d 'abilities[lalala]=1' -X PUT \\\n\t-H \"Access-Token: 6xkKLg858j-NEQeAjxUzGA\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: trkbxdOiGicsczWG184G8Q\" \\\n\t-H \"Expiry: 1455754184\" \\\n\t-H \"Uid: hi_48@hi.com\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/admin/users/1/update_abilities\" -d 'abilities[lalala]=1' -X PUT \\\n\t-H \"Access-Token: G7Ckb0-puIHpodLqbwXZ4g\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: KaHg769mMPx9IwggBEzFlw\" \\\n\t-H \"Expiry: 1456161855\" \\\n\t-H \"Uid: 44dudley@mills.net\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

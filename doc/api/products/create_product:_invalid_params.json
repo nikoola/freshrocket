@@ -49,11 +49,11 @@
       "request_path": "/admin/products",
       "request_body": "product[title]=fish&product[price]",
       "request_headers": {
-        "Access-Token": "aDhFR2c80CKUOqwoXSjPqA",
+        "Access-Token": "ehphBLuBH1t6pAwZA_82FQ",
         "Token-Type": "Bearer",
-        "Client": "CwVvnSHiNEqdcu-NvZoSBQ",
-        "Expiry": "1455754181",
-        "Uid": "hi_27@hi.com",
+        "Client": "9JrS2WlaXsW-SxkuNuQz9w",
+        "Expiry": "1456161852",
+        "Uid": "19earlene@nienow.org",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -63,19 +63,20 @@
       "request_content_type": "application/x-www-form-urlencoded",
       "response_status": 422,
       "response_status_text": "Unprocessable Entity",
-      "response_body": "{\n  \"price\": [\n    \"can't be blank\"\n  ],\n  \"inventory_count\": [\n    \"can't be blank\"\n  ],\n  \"city\": [\n    \"can't be blank\"\n  ]\n}",
+      "response_body": "{\n  \"price\": [\n    \"can't be blank\"\n  ],\n  \"inventory_count\": [\n    \"can't be blank\",\n    \"is not a number\"\n  ],\n  \"city\": [\n    \"can't be blank\"\n  ]\n}",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "application/json; charset=utf-8",
         "Cache-Control": "no-cache",
-        "X-Request-Id": "54cc8e0a-f841-4775-9447-95cbd47de371",
-        "X-Runtime": "0.085808",
-        "Content-Length": "91"
+        "Set-Cookie": "_session_id=bE1UU25DUGZSQlEzSm01aDZmWStkcytyQjhnelVEUWNqRjZTNTZHYUduYjhYR1g3ZjcxUGxnU28zaEhPU1NMbFVYazYzcVEzSUJNMER1emJKQ01wQ25teDJlU3hDb3pYaDIvVVNqUUsvcW1KaHgwVkMvZWZLYlpLQklJNGFIb1ZyTytzRDVGMHRXNnQ3YWFTMWxSTGNNVTlMcndWT1lJankwVEE2c3cxazZoRW9XOVlJNC9Zd2dXZ3NxcTlHYlVpLS0xbFlaRldXalF4NnkrdFpVRVZpd2tBPT0%3D--747a090b88887714e6b2f3677d9416af38cbdbf5; path=/; HttpOnly",
+        "X-Request-Id": "e32e9198-0880-4ea4-9389-796f2b7db80f",
+        "X-Runtime": "0.079243",
+        "Content-Length": "109"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/admin/products\" -d 'product[title]=fish&product[price]' -X POST \\\n\t-H \"Access-Token: aDhFR2c80CKUOqwoXSjPqA\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: CwVvnSHiNEqdcu-NvZoSBQ\" \\\n\t-H \"Expiry: 1455754181\" \\\n\t-H \"Uid: hi_27@hi.com\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/admin/products\" -d 'product[title]=fish&product[price]' -X POST \\\n\t-H \"Access-Token: ehphBLuBH1t6pAwZA_82FQ\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: 9JrS2WlaXsW-SxkuNuQz9w\" \\\n\t-H \"Expiry: 1456161852\" \\\n\t-H \"Uid: 19earlene@nienow.org\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

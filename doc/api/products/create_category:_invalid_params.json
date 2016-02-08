@@ -21,11 +21,11 @@
       "request_path": "/admin/categories",
       "request_body": "category[name]",
       "request_headers": {
-        "Access-Token": "Ov0R1MWo1tU5EsFXBLNbMw",
+        "Access-Token": "_ol65las7-Ju8XDIT8PvpA",
         "Token-Type": "Bearer",
-        "Client": "zW_Wv4AYnXjyNctok5cJxw",
-        "Expiry": "1455754178",
-        "Uid": "hi_2@hi.com",
+        "Client": "qU4LsiasH0Z7fT5vBDM6gA",
+        "Expiry": "1456161850",
+        "Uid": "2abigale.dach@bogisich.org",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -42,12 +42,13 @@
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "application/json; charset=utf-8",
         "Cache-Control": "no-cache",
-        "X-Request-Id": "6e82cbdc-efea-4122-a45a-aac0dc4bdc01",
-        "X-Runtime": "0.104079",
+        "Set-Cookie": "_session_id=cUhVdyszTmRGRE1aVmFOSFpXMitCSEU5ZUtsUi9ZTW9wUU9FMTZFZUZhM0xXT0pVS2FjdC9kNlNkQzZqWHlHNG5oaUFDSE5LWGNmRElhVXlVWmZsSDFJTlEzT09rRWptME16eExXSDFEcS9OZGxRZzZpaldnT2xkZVgvVnpoV0VvM20vUjIvWGt1U0o2SkVERDNuOGI2VFM5RHBtMGI5czQxaDluRkNnSnVSMzdweVhZa0V5S0Q3U3loVkhRSGczLS0zWjluM1BYZktoVjJ0eWNua1FuSkFRPT0%3D--a52109467dea540dc2b941073e1afd6e27ab1645; path=/; HttpOnly",
+        "X-Request-Id": "729973a3-4b0a-450e-97e8-55eb80d9dd57",
+        "X-Runtime": "0.078247",
         "Content-Length": "27"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/admin/categories\" -d 'category[name]' -X POST \\\n\t-H \"Access-Token: Ov0R1MWo1tU5EsFXBLNbMw\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: zW_Wv4AYnXjyNctok5cJxw\" \\\n\t-H \"Expiry: 1455754178\" \\\n\t-H \"Uid: hi_2@hi.com\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/admin/categories\" -d 'category[name]' -X POST \\\n\t-H \"Access-Token: _ol65las7-Ju8XDIT8PvpA\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: qU4LsiasH0Z7fT5vBDM6gA\" \\\n\t-H \"Expiry: 1456161850\" \\\n\t-H \"Uid: 2abigale.dach@bogisich.org\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

@@ -16,11 +16,11 @@
       "request_path": "/client",
       "request_body": null,
       "request_headers": {
-        "Access-Token": "eIrEAPhcLNMhVUONVrdFRg",
+        "Access-Token": "Iojo2n5vdCaA0IBjuajA_g",
         "Token-Type": "Bearer",
-        "Client": "aM9CFkDQlyk2lenisiQOCQ",
-        "Expiry": "1455754190",
-        "Uid": "hi_73@hi.com",
+        "Client": "l0yU7ZchgmKnUAjLRnkTKg",
+        "Expiry": "1456161862",
+        "Uid": "69thea.jenkins@luettgenklein.name",
         "Host": "example.org",
         "Cookie": ""
       },
@@ -29,20 +29,21 @@
       "request_content_type": null,
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\n  \"id\": 3,\n  \"email\": \"hi_73@hi.com\",\n  \"phone\": \"+79173332221\",\n  \"provider\": \"email\",\n  \"uid\": \"hi_73@hi.com\",\n  \"created_at\": \"2016-02-04T00:09:50.603Z\",\n  \"updated_at\": \"2016-02-04T00:09:50.681Z\"\n}",
+      "response_body": "{\n  \"id\": 3,\n  \"email\": \"69thea.jenkins@luettgenklein.name\",\n  \"phone\": \"1-996-224-6107\",\n  \"provider\": \"email\",\n  \"uid\": \"69thea.jenkins@luettgenklein.name\",\n  \"created_at\": \"2016-02-08T17:24:22.179Z\"\n}",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"37e58ace36ba363342e22db1eaa61abf\"",
+        "ETag": "W/\"ef76ac0780a64a4cd10f58128aeae099\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "X-Request-Id": "e4073d8b-6d9e-4558-8179-519116a1d304",
-        "X-Runtime": "0.083436",
-        "Content-Length": "174"
+        "Set-Cookie": "_session_id=SnkzamhvSVk4clNjeWJmR2o3bFZLZ2kxd3M1cEtvOTRSOEFiVU92SElySjR0NU5sN0FkdFNKSUF5QUUza3Y4bW1rWG0zbmpxM3F6L3pNeDhxc2VvWnFJZWhKWUtmM0JJTFRzOVlZZlhrQXBtR3hNQWV6NFpISk5Dbm03OHZYc084NGpVYnpzQjZ4ZERpVkpMRWpOVHh2dEJiVU1GS1YxbUFvQ3ZOb3V1TnhKa05sMklwYkZROEEwaHo0eDdKcVpULS1SOTlodklXU1NmSS8vcGl1RWZyV0FBPT0%3D--1a3fbbdff97f2e5ba2e36d0d616899a68c2b5bf5; path=/; HttpOnly",
+        "X-Request-Id": "64221c0d-9d6c-437f-8934-80e218c7bad5",
+        "X-Runtime": "0.078158",
+        "Content-Length": "178"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/client\" -X GET \\\n\t-H \"Access-Token: eIrEAPhcLNMhVUONVrdFRg\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: aM9CFkDQlyk2lenisiQOCQ\" \\\n\t-H \"Expiry: 1455754190\" \\\n\t-H \"Uid: hi_73@hi.com\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/client\" -X GET \\\n\t-H \"Access-Token: Iojo2n5vdCaA0IBjuajA_g\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: l0yU7ZchgmKnUAjLRnkTKg\" \\\n\t-H \"Expiry: 1456161862\" \\\n\t-H \"Uid: 69thea.jenkins@luettgenklein.name\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

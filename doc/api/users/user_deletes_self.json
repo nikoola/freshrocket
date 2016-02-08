@@ -16,11 +16,11 @@
       "request_path": "/auth",
       "request_body": null,
       "request_headers": {
-        "Access-Token": "OPK2mHk98fWbD81HtiEMrg",
+        "Access-Token": "hbrKOnE_nS62RWv1af2-Og",
         "Token-Type": "Bearer",
-        "Client": "Ba39xdb_tNYxvC6x9B9Q9Q",
-        "Expiry": "1455754190",
-        "Uid": "hi_70@hi.com",
+        "Client": "y6RP11YfTxd92vTZ49WM5A",
+        "Expiry": "1456161861",
+        "Uid": "66mireya_hauck@grimes.name",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -30,20 +30,21 @@
       "request_content_type": "application/x-www-form-urlencoded",
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\n  \"status\": \"success\",\n  \"message\": \"Account with UID 'hi_70@hi.com' has been destroyed.\"\n}",
+      "response_body": "{\n  \"status\": \"success\",\n  \"message\": \"Account with UID '66mireya_hauck@grimes.name' has been destroyed.\"\n}",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"82f5e5596c43553e226edfe783c41441\"",
+        "ETag": "W/\"25e5955d7896fed8047e3c945ea97d59\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "X-Request-Id": "ccf5300a-ec7c-4a6c-91b2-c22036383469",
-        "X-Runtime": "0.073478",
-        "Content-Length": "84"
+        "Set-Cookie": "_session_id=amxmaTJZNjZwWkZpRllQN2Q2d3V6c3ptTXNNQWhwaFhENUtTb0kvUjVtSzdZbktKeUg0UWN3YmhxQVhpYi9TTXhkdU9KWUcxYUw2Yi9NOGViRHZjRWZXZnBhMTM2SzY2WDRMN0IwWWRrdld5dkIwTHNmbTIrOWJBaEhsTDg0RUZjdzR0N20xY0xPTElmcDE4TXlqdHcrdzBrVkVoNCtqNkpwSmttckJsRHBQdlFqTWtMMGJpMXdSUnR5UkFoZFhFLS02WWJSTi9oTjg4MDVlQ1loSFdQcUlRPT0%3D--0e1d80508ddff3bea085c0ea2596bde42561ebdc; path=/; HttpOnly",
+        "X-Request-Id": "deb0dbb0-c5c6-46bd-af88-ed679a923236",
+        "X-Runtime": "0.069739",
+        "Content-Length": "98"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/auth\" -d '' -X DELETE \\\n\t-H \"Access-Token: OPK2mHk98fWbD81HtiEMrg\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: Ba39xdb_tNYxvC6x9B9Q9Q\" \\\n\t-H \"Expiry: 1455754190\" \\\n\t-H \"Uid: hi_70@hi.com\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/auth\" -d '' -X DELETE \\\n\t-H \"Access-Token: hbrKOnE_nS62RWv1af2-Og\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: y6RP11YfTxd92vTZ49WM5A\" \\\n\t-H \"Expiry: 1456161861\" \\\n\t-H \"Uid: 66mireya_hauck@grimes.name\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

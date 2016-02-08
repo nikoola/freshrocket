@@ -11,6 +11,16 @@
       "description": "comment to the order"
     },
     {
+      "scope": "order",
+      "name": "delivery_date",
+      "description": "date client wants their delivery on"
+    },
+    {
+      "scope": "order",
+      "name": "delivery_time",
+      "description": "['morning', 'noon', 'evening']. time is limited between 7 am to 9 pm only, mention this in frontend"
+    },
+    {
       "scope": [
         "order",
         "line_items_attributes"
@@ -38,11 +48,11 @@
       "request_path": "client/orders/3",
       "request_body": "order[comment]=hi&order[line_items_attributes][][id]=7&order[line_items_attributes][][_destroy]=true",
       "request_headers": {
-        "Access-Token": "p8aTH4qOxTjMtfxZ4IZifw",
+        "Access-Token": "v34DPRSdlZxc22zocWLoxA",
         "Token-Type": "Bearer",
-        "Client": "gOutifDLUDD5wtj6VWbhdw",
-        "Expiry": "1455754188",
-        "Uid": "hi_58@hi.com",
+        "Client": "4qzPMS3gpxLYQ4_zilsY1A",
+        "Expiry": "1456161860",
+        "Uid": "54jaycee_gibson@keeblerhoppe.com",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -52,20 +62,21 @@
       "request_content_type": "application/x-www-form-urlencoded",
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\n  \"id\": 3,\n  \"user_id\": 3,\n  \"status\": \"unconfirmed\",\n  \"fixed_price\": \"27.0\",\n  \"created_at\": \"2016-02-04T00:09:48.389Z\",\n  \"updated_at\": \"2016-02-04T00:09:48.538Z\",\n  \"comment\": \"hi\"\n}",
+      "response_body": "{\n  \"id\": 3,\n  \"user_id\": 3,\n  \"status\": \"unconfirmed\",\n  \"created_at\": \"2016-02-08T17:24:20.080Z\",\n  \"comment\": \"hi\",\n  \"delivery_date\": null,\n  \"delivery_time\": null,\n  \"pure_product_price\": \"27.0\",\n  \"tax\": \"1.35\",\n  \"delivery_charge\": \"200.0\",\n  \"total_price\": \"228.35\",\n  \"line_items\": [\n    {\n      \"id\": 8,\n      \"order_id\": 3,\n      \"product_id\": 8,\n      \"amount\": 3,\n      \"fixed_price\": \"9.0\"\n    },\n    {\n      \"id\": 9,\n      \"order_id\": 3,\n      \"product_id\": 9,\n      \"amount\": 3,\n      \"fixed_price\": \"9.0\"\n    }\n  ]\n}",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"39c7f42a9cd193977d067d194f15db50\"",
+        "ETag": "W/\"b47af2cfebebac0a066001d0c859dc83\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "X-Request-Id": "ccbff3e5-92e2-444e-a06b-c20922d81bda",
-        "X-Runtime": "0.082484",
-        "Content-Length": "159"
+        "Set-Cookie": "_session_id=aHNML2dzRmg4eWhHUVJtV1MyZGRhbllpQTlIaHlWRGROWVdXdGJsMFdKQkxkL2ZJQ2Z2T0Vla2F1WlcwbUUxUUVHZ0g1ODBSSjA1UVBtN1NlZ0VoZ3F1RjFqK3RZc2dGb0o3MitNa3c5T3Y0d3J6bkw0b2QvUndRVGNUT05wbXdpNnFtcGRSNjRYVUFhQ0ZLVysvYUN0OHh5dEprRG9QY1FuZnlVL25SK1FRVnJBZzZnWko0YlBmaGpqSjVNS0xJLS1JdTRKK3N1eS9qSXNUUkxtQ2kwdUZBPT0%3D--7d852eb560c3759b2a2dd326d4849597bcf6bb84; path=/; HttpOnly",
+        "X-Request-Id": "04a9e160-6298-424d-8b93-ae9ef12a7ea1",
+        "X-Runtime": "0.080977",
+        "Content-Length": "381"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000client/orders/3\" -d 'order[comment]=hi&order[line_items_attributes][][id]=7&order[line_items_attributes][][_destroy]=true' -X PUT \\\n\t-H \"Access-Token: p8aTH4qOxTjMtfxZ4IZifw\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: gOutifDLUDD5wtj6VWbhdw\" \\\n\t-H \"Expiry: 1455754188\" \\\n\t-H \"Uid: hi_58@hi.com\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000client/orders/3\" -d 'order[comment]=hi&order[line_items_attributes][][id]=7&order[line_items_attributes][][_destroy]=true' -X PUT \\\n\t-H \"Access-Token: v34DPRSdlZxc22zocWLoxA\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: 4qzPMS3gpxLYQ4_zilsY1A\" \\\n\t-H \"Expiry: 1456161860\" \\\n\t-H \"Uid: 54jaycee_gibson@keeblerhoppe.com\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

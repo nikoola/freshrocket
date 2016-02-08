@@ -11,6 +11,16 @@
       "description": "comment to the order"
     },
     {
+      "scope": "order",
+      "name": "delivery_date",
+      "description": "date client wants their delivery on"
+    },
+    {
+      "scope": "order",
+      "name": "delivery_time",
+      "description": "['morning', 'noon', 'evening']. time is limited between 7 am to 9 pm only, mention this in frontend"
+    },
+    {
       "scope": [
         "order",
         "line_items_attributes"
@@ -38,11 +48,11 @@
       "request_path": "client/orders/3",
       "request_body": "order[comment]=hi&order[line_items_attributes][][id]=7&order[line_items_attributes][][amount]",
       "request_headers": {
-        "Access-Token": "NAH6so8XsLCzJK6C2aIRrQ",
+        "Access-Token": "TdqTbH0D6Zf6bGr_6BkhxQ",
         "Token-Type": "Bearer",
-        "Client": "dgvfNOa8j6yhxoWTeZzGnw",
-        "Expiry": "1455754188",
-        "Uid": "hi_59@hi.com",
+        "Client": "WSPtV4amqe6y84oXzLHADQ",
+        "Expiry": "1456161860",
+        "Uid": "55eldora.fahey@hickle.biz",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -52,19 +62,20 @@
       "request_content_type": "application/x-www-form-urlencoded",
       "response_status": 422,
       "response_status_text": "Unprocessable Entity",
-      "response_body": "{\n  \"line_items.amount\": [\n    \"can't be blank\"\n  ],\n  \"line_items\": [\n    \"is invalid\"\n  ]\n}",
+      "response_body": "{\n  \"line_items.amount\": [\n    \"can't be blank\",\n    \"is not a number\"\n  ]\n}",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "application/json; charset=utf-8",
         "Cache-Control": "no-cache",
-        "X-Request-Id": "7ac0e1a9-12e7-4429-935e-36aa14ff5dc1",
-        "X-Runtime": "0.088272",
-        "Content-Length": "68"
+        "Set-Cookie": "_session_id=MTJ4Q0JYRFNGTmtSQ2hvSnJMMXQwQk84dXNqZWNDNFRLZitpSzc4alVCbHZ5V0hzNGgzR1hUNzg3UWovSzRJSjgwaHkxOEM3WVcwMGQrNDVacXhVVDFVZGdkZWo1SjUzSmxFZnZzRU5qYk9OODYySUNBWFQ5VWtCUmxibW1zOFZOV2c5VnVFVG1DMWFRWmVCZVp6dFhnY2k1QlFNdTh6L2IwSXBkUnRsd0hPVHVvZ2x5NERqSDFBN0FVWkxCdHFPLS1LeDErVGg5OGlsemM3ZzVIaDF2UmFnPT0%3D--14330da1982ac27f811856bc46a4d99c5bc83dcc; path=/; HttpOnly",
+        "X-Request-Id": "6bf4e2d7-44a2-4b1a-96f0-c8ec45a02fbf",
+        "X-Runtime": "0.077796",
+        "Content-Length": "58"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000client/orders/3\" -d 'order[comment]=hi&order[line_items_attributes][][id]=7&order[line_items_attributes][][amount]' -X PUT \\\n\t-H \"Access-Token: NAH6so8XsLCzJK6C2aIRrQ\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: dgvfNOa8j6yhxoWTeZzGnw\" \\\n\t-H \"Expiry: 1455754188\" \\\n\t-H \"Uid: hi_59@hi.com\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000client/orders/3\" -d 'order[comment]=hi&order[line_items_attributes][][id]=7&order[line_items_attributes][][amount]' -X PUT \\\n\t-H \"Access-Token: TdqTbH0D6Zf6bGr_6BkhxQ\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: WSPtV4amqe6y84oXzLHADQ\" \\\n\t-H \"Expiry: 1456161860\" \\\n\t-H \"Uid: 55eldora.fahey@hickle.biz\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

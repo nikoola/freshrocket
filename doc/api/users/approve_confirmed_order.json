@@ -21,11 +21,11 @@
       "request_path": "/admin/orders/1/update_status",
       "request_body": "order[action]=approve",
       "request_headers": {
-        "Access-Token": "sZIXLWFZE0azJIxCFv4PJQ",
+        "Access-Token": "xY9n6UpGPatdVQL1GtkiVw",
         "Token-Type": "Bearer",
-        "Client": "Da21wb07GqtDTYvEzNS73w",
-        "Expiry": "1455754181",
-        "Uid": "hi_21@hi.com",
+        "Client": "AMP4RnFczjVT7tZhg9zr2A",
+        "Expiry": "1456161852",
+        "Uid": "13ransom.daniel@murray.com",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -42,12 +42,13 @@
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "text/html",
         "Cache-Control": "no-cache",
-        "X-Request-Id": "26216750-a49f-44fc-a97b-b11b7ddac1f3",
-        "X-Runtime": "0.106010",
+        "Set-Cookie": "_session_id=M3FVd3dReDdYQklsblZab3VSTkpZcW56SmEvWDJjR09lSWxCSnR4bVV5ZjBTNVViZkRMY0lBQmk5ZEF1T0xydU5VKzdLY2VldHphbXhZNmJWUFl4VTAvVjRXcjBWY2hOYk83OHRVZlljTVZGM29RVkwzUnpJRDlha0pUTkY3cXpUUkV4ZitTbW9lSndQRUtTOE9VZXkyR1hTSEZ1UURKOUFUY3BZcDhNK3RoYjlOdW4zdEVmZThwemViOGZGZkRpLS1MQXNzdExlL3FNV2FQUmNnQWZWL0hRPT0%3D--211e62264ed978ee79c2cff0f24a0656b33c8869; path=/; HttpOnly",
+        "X-Request-Id": "b03124f9-a2e6-4980-b2cc-c65e492b54dd",
+        "X-Runtime": "0.093531",
         "Content-Length": "0"
       },
       "response_content_type": "text/html",
-      "curl": "curl \"http://localhost:3000/admin/orders/1/update_status\" -d 'order[action]=approve' -X PUT \\\n\t-H \"Access-Token: sZIXLWFZE0azJIxCFv4PJQ\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: Da21wb07GqtDTYvEzNS73w\" \\\n\t-H \"Expiry: 1455754181\" \\\n\t-H \"Uid: hi_21@hi.com\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/admin/orders/1/update_status\" -d 'order[action]=approve' -X PUT \\\n\t-H \"Access-Token: xY9n6UpGPatdVQL1GtkiVw\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: AMP4RnFczjVT7tZhg9zr2A\" \\\n\t-H \"Expiry: 1456161852\" \\\n\t-H \"Uid: 13ransom.daniel@murray.com\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

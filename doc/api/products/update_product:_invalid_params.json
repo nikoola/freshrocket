@@ -49,11 +49,11 @@
       "request_path": "/admin/products/1",
       "request_body": "product[title]",
       "request_headers": {
-        "Access-Token": "jPEfAaHs6-wPsyJUZHlfOg",
+        "Access-Token": "6-NH-nDwXC31eMgfCyzo4w",
         "Token-Type": "Bearer",
-        "Client": "ctfSakeaH8NMszEk9hgPwQ",
-        "Expiry": "1455754182",
-        "Uid": "hi_30@hi.com",
+        "Client": "hgHNpTfPxDvRxUjbyumyQA",
+        "Expiry": "1456161853",
+        "Uid": "22lue_koch@hellerratke.com",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -70,12 +70,13 @@
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "application/json; charset=utf-8",
         "Cache-Control": "no-cache",
-        "X-Request-Id": "f238247d-70af-458c-8a02-a8e80d386b0e",
-        "X-Runtime": "0.078526",
+        "Set-Cookie": "_session_id=Y1psSDFOOHQyUW9jNTdVSHl2Ymt5ekpUcmZOeXBKTlBoQTR1cnk5NUVabzFZUDMrTEM3b2ttQmtWTGNpelJoRXllWXBhNkR4cm85OUFVdStvbEVCTzJ3RWp4c2FhS2VpVHlCUUptVnBtdlNad1FWMTVqZDJ6QnUvU0FzaGZhQXJnc09teTc0R0VGeUM1V21GUUVEL05WYVAyV252MUFlNzczQzJaN2xzNnFxV0ZFc0daSWhkRmJsZTVjZFpST0dHLS1tajk0SUE5bHIzNU1iYXpBR3RXQlVBPT0%3D--0d2f00c7d7ffa51ed89c9b2c193a0ce933ac2420; path=/; HttpOnly",
+        "X-Request-Id": "bd263647-7f49-4538-9dc5-2180f47f9cc6",
+        "X-Runtime": "0.077802",
         "Content-Length": "28"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/admin/products/1\" -d 'product[title]' -X PUT \\\n\t-H \"Access-Token: jPEfAaHs6-wPsyJUZHlfOg\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: ctfSakeaH8NMszEk9hgPwQ\" \\\n\t-H \"Expiry: 1455754182\" \\\n\t-H \"Uid: hi_30@hi.com\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/admin/products/1\" -d 'product[title]' -X PUT \\\n\t-H \"Access-Token: 6-NH-nDwXC31eMgfCyzo4w\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: hgHNpTfPxDvRxUjbyumyQA\" \\\n\t-H \"Expiry: 1456161853\" \\\n\t-H \"Uid: 22lue_koch@hellerratke.com\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

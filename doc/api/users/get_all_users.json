@@ -16,11 +16,11 @@
       "request_path": "/admin/users",
       "request_body": null,
       "request_headers": {
-        "Access-Token": "8SJHC1Cc3DCcpGaKs4Gsyg",
+        "Access-Token": "5ugXTOa2mZqtB9XRwXRXIA",
         "Token-Type": "Bearer",
-        "Client": "IdSmuFU8SCbuWw11dbeKkw",
-        "Expiry": "1455754183",
-        "Uid": "hi_33@hi.com",
+        "Client": "7_S-vspmI7G91mHDFWZgHQ",
+        "Expiry": "1456161854",
+        "Uid": "31ona.strosin@raynor.info",
         "Host": "example.org",
         "Cookie": ""
       },
@@ -29,20 +29,21 @@
       "request_content_type": null,
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "[\n  {\n    \"id\": 1,\n    \"email\": \"hi_33@hi.com\",\n    \"phone\": \"+79173332221\",\n    \"provider\": \"email\",\n    \"uid\": \"hi_33@hi.com\",\n    \"created_at\": \"2016-02-04T00:09:43.063Z\",\n    \"updated_at\": \"2016-02-04T00:09:43.147Z\"\n  }\n]",
+      "response_body": "[\n  {\n    \"id\": 1,\n    \"email\": \"31ona.strosin@raynor.info\",\n    \"phone\": \"(313) 464-8417\",\n    \"provider\": \"email\",\n    \"uid\": \"31ona.strosin@raynor.info\",\n    \"created_at\": \"2016-02-08T17:24:14.715Z\"\n  }\n]",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"131fe16c9e2e27c765b4d3daaa68b49f\"",
+        "ETag": "W/\"76caa23bbd4d5c5f5a91331cb63baae8\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "X-Request-Id": "5537f447-bd53-4bde-a129-fc1d19f6770d",
-        "X-Runtime": "0.079403",
-        "Content-Length": "176"
+        "Set-Cookie": "_session_id=YXhwVWtJdGUyZzl3MzhwcEV2UTB3STgzUHdoNWY0NWJKdmRyQ3NxNEJDblpiZ3dGcTFhQ01GTy9Nelp0SVgvQVM5ekd0OHNEMnkzVVptTGRONUJaS2lTN2Q3T2VoblhmOFovcDUxU05zalR3UjhlcWxoaTFnK0ZqZlB0NzdNNElmaU9kS2N4Y0QxTkNobjE3b1lDa3ZQdHFCemE2dFB5bnczbkRtTXRzc2VEYW9BQlpaYmhKb1BBblFzNTBKSVhYLS1ORnQ3Zk5SMjlSM2srYzZRYzY4bk93PT0%3D--d8683b4323b564654b0b9de9e07de940a855bca2; path=/; HttpOnly",
+        "X-Request-Id": "c2831b98-a225-45e2-aad4-bc6d4f022e82",
+        "X-Runtime": "0.077770",
+        "Content-Length": "164"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/admin/users\" -X GET \\\n\t-H \"Access-Token: 8SJHC1Cc3DCcpGaKs4Gsyg\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: IdSmuFU8SCbuWw11dbeKkw\" \\\n\t-H \"Expiry: 1455754183\" \\\n\t-H \"Uid: hi_33@hi.com\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/admin/users\" -X GET \\\n\t-H \"Access-Token: 5ugXTOa2mZqtB9XRwXRXIA\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: 7_S-vspmI7G91mHDFWZgHQ\" \\\n\t-H \"Expiry: 1456161854\" \\\n\t-H \"Uid: 31ona.strosin@raynor.info\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

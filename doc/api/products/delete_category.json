@@ -16,11 +16,11 @@
       "request_path": "/admin/categories/1",
       "request_body": null,
       "request_headers": {
-        "Access-Token": "Ib81R1_A4-fFLzQAmBpRVg",
+        "Access-Token": "1PSaO145K11WTs9QRie_NA",
         "Token-Type": "Bearer",
-        "Client": "U8OImV3j9LWPFAwMl9BQWA",
-        "Expiry": "1455754179",
-        "Uid": "hi_5@hi.com",
+        "Client": "rokJuUl50YQNB0c6-OjJEA",
+        "Expiry": "1456161851",
+        "Uid": "5oceane@macejkovic.biz",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -37,12 +37,13 @@
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "text/html",
         "Cache-Control": "no-cache",
-        "X-Request-Id": "f8b25cbd-f923-4c15-aeda-bc109e36e96a",
-        "X-Runtime": "0.120629",
+        "Set-Cookie": "_session_id=Smp4WGVGVjRZTmdQUGxTSnN3TFFrbUZLbGZMUGdadkJBOHA0dnZoOU5YeStXQzMraDVmVC9VTHVlU2xDNGpFTHhjUzRqaDg4dmlxeFVNTzFWcExPNGJYdkVBMnRyQzRHWUxpS0Z5R0JNM2IwNWFyeDVBTXVUdFhENHRUcTVpMDAzUUZHRkczWlYrNjJMTmpZL1pNTXZvU0o2M1JtbVZPS1BqWlh4bitreDl1aUdRMm52MHNFUGdtRkFPUFFiL085LS1YcnZoTGdMN1FaWVY1bjBpcmFjbEdBPT0%3D--bed18a2053004d2637739e23fefc5aae9f5a74d9; path=/; HttpOnly",
+        "X-Request-Id": "f3684278-6428-44be-ae44-82aff2a6609a",
+        "X-Runtime": "0.079109",
         "Content-Length": "0"
       },
       "response_content_type": "text/html",
-      "curl": "curl \"http://localhost:3000/admin/categories/1\" -d '' -X DELETE \\\n\t-H \"Access-Token: Ib81R1_A4-fFLzQAmBpRVg\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: U8OImV3j9LWPFAwMl9BQWA\" \\\n\t-H \"Expiry: 1455754179\" \\\n\t-H \"Uid: hi_5@hi.com\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/admin/categories/1\" -d '' -X DELETE \\\n\t-H \"Access-Token: 1PSaO145K11WTs9QRie_NA\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: rokJuUl50YQNB0c6-OjJEA\" \\\n\t-H \"Expiry: 1456161851\" \\\n\t-H \"Uid: 5oceane@macejkovic.biz\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

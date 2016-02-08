@@ -11,6 +11,16 @@
       "description": "comment to the order"
     },
     {
+      "scope": "order",
+      "name": "delivery_date",
+      "description": "date client wants their delivery on"
+    },
+    {
+      "scope": "order",
+      "name": "delivery_time",
+      "description": "['morning', 'noon', 'evening']"
+    },
+    {
       "scope": [
         "order",
         "line_items_attributes"
@@ -36,13 +46,13 @@
     {
       "request_method": "POST",
       "request_path": "client/orders",
-      "request_body": "order[line_items_attributes][][product_id]=10&order[line_items_attributes][][amount]=100",
+      "request_body": "order[line_items_attributes][][product_id]=10&order[line_items_attributes][][amount]=1000",
       "request_headers": {
-        "Access-Token": "DcCvTZCsiHI6B_wcUUAyXA",
+        "Access-Token": "A5NxsR7b9MvpTG6h-deU5g",
         "Token-Type": "Bearer",
-        "Client": "vfVAxBKfNIoudQxieUNrpA",
-        "Expiry": "1455754188",
-        "Uid": "hi_57@hi.com",
+        "Client": "tqanpSxuX3-3PMWGkp3Ekg",
+        "Expiry": "1456161859",
+        "Uid": "53aletha_bernhard@green.biz",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -52,21 +62,22 @@
       "request_content_type": "application/x-www-form-urlencoded",
       "response_status": 201,
       "response_status_text": "Created",
-      "response_body": "{\n  \"id\": 4,\n  \"user_id\": 3,\n  \"status\": \"unconfirmed\",\n  \"fixed_price\": \"300.0\",\n  \"created_at\": \"2016-02-04T00:09:48.347Z\",\n  \"updated_at\": \"2016-02-04T00:09:48.347Z\",\n  \"comment\": null\n}",
+      "response_body": "{\n  \"id\": 4,\n  \"user_id\": 3,\n  \"status\": \"unconfirmed\",\n  \"created_at\": \"2016-02-08T17:24:20.031Z\",\n  \"comment\": null,\n  \"delivery_date\": null,\n  \"delivery_time\": null,\n  \"pure_product_price\": \"3000.0\",\n  \"tax\": \"150.0\",\n  \"delivery_charge\": \"0.0\",\n  \"total_price\": \"3150.0\",\n  \"line_items\": [\n    {\n      \"id\": 10,\n      \"order_id\": 4,\n      \"product_id\": 10,\n      \"amount\": 1000,\n      \"fixed_price\": \"3000.0\"\n    }\n  ]\n}",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
         "Location": "/client/orders/4",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"2b6958b2b5a2ea850b6269e23ff6a182\"",
+        "ETag": "W/\"b8163d4302723b5e5480fd99f298dbd0\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "X-Request-Id": "59e870f3-00f5-4561-9028-31be81d0d7de",
-        "X-Runtime": "0.080353",
-        "Content-Length": "160"
+        "Set-Cookie": "_session_id=dWh6cXJqMU9RVUYvUG9QRXQzMjJuWDhCQnRsN0J4NWVneUFZQTltSkcvU09qeTV2czlsWGdhaGo0eVZ4MzlFWFczL053bXFMcWhvVmVEYjhqOU9kMzEwMW44NWdMNU1xdnFRV2NHM1BEdU5xblVWbWJheVZ6eDUzRDFDZHd3UTZnTE1uN2VLWmRwOVpSeGYrbzJnaU9oOWhKeXVtdDdEVHFjSFlRVlVwcy9JbTZlRDUxclZUc2pjYVM4bFZ5NHZrLS1YY2Z6eFZSOEVEdy96MWUybWFwWVNBPT0%3D--50516c5b4e2b5695fa473e66e8a7b9eadae82ffe; path=/; HttpOnly",
+        "X-Request-Id": "0c2b6c40-66c6-4d26-8dd1-6873c7581efe",
+        "X-Runtime": "0.080449",
+        "Content-Length": "322"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000client/orders\" -d 'order[line_items_attributes][][product_id]=10&order[line_items_attributes][][amount]=100' -X POST \\\n\t-H \"Access-Token: DcCvTZCsiHI6B_wcUUAyXA\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: vfVAxBKfNIoudQxieUNrpA\" \\\n\t-H \"Expiry: 1455754188\" \\\n\t-H \"Uid: hi_57@hi.com\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000client/orders\" -d 'order[line_items_attributes][][product_id]=10&order[line_items_attributes][][amount]=1000' -X POST \\\n\t-H \"Access-Token: A5NxsR7b9MvpTG6h-deU5g\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: tqanpSxuX3-3PMWGkp3Ekg\" \\\n\t-H \"Expiry: 1456161859\" \\\n\t-H \"Uid: 53aletha_bernhard@green.biz\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

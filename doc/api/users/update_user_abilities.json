@@ -20,11 +20,11 @@
       "request_path": "/admin/users/1/update_abilities",
       "request_body": "abilities[users]=1&abilities[products]=0&abilities[orders]=0&abilities[categories]=0",
       "request_headers": {
-        "Access-Token": "bb_8xDnNg7hruQLVVKoxBg",
+        "Access-Token": "xzLC5OMT7cTih7wDGZdluQ",
         "Token-Type": "Bearer",
-        "Client": "UnjppcOuFLRmzmj2o3Xn8Q",
-        "Expiry": "1455754184",
-        "Uid": "hi_46@hi.com",
+        "Client": "K0yEQV424oksLya0HdRC6g",
+        "Expiry": "1456161855",
+        "Uid": "42warren.watsica@powlowski.info",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -41,12 +41,13 @@
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "text/html",
         "Cache-Control": "no-cache",
-        "X-Request-Id": "e17d61d6-cee8-4ce0-b50f-3d325ec7a437",
-        "X-Runtime": "0.090500",
+        "Set-Cookie": "_session_id=MEtKUGFmdnVpOHZScTFQcHpMeEU3Qk9oYkhwbWxLalcwTUZlVThJQjdUd3RtbDB6RmJwK3pNRHd4SElUbG5JdXRrVS9mbVNvVmthelFYU1pRMGI3bHU2ZnJFZktOZ1pteUpzK1FIWW9vakVHLzN2WThBYmx0UWNFSTBpQlV4TGZPc2xLREtEOS9lNlRXNmhWVTFyb28xb29BTXpLLzNvbzh6K3dBVzJKVXpxLzIrVTl5d0Y5SVFGc1VOQ2JtSXZyLS1QTHd1VnVPNUk0UGQ3a3hNOEtRZFh3PT0%3D--d11f6a02dddc1775e97dcc2103fcbcb902397fe9; path=/; HttpOnly",
+        "X-Request-Id": "06fb2e83-653e-40b7-84e6-9248943b4cb4",
+        "X-Runtime": "0.086627",
         "Content-Length": "0"
       },
       "response_content_type": "text/html",
-      "curl": "curl \"http://localhost:3000/admin/users/1/update_abilities\" -d 'abilities[users]=1&abilities[products]=0&abilities[orders]=0&abilities[categories]=0' -X PUT \\\n\t-H \"Access-Token: bb_8xDnNg7hruQLVVKoxBg\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: UnjppcOuFLRmzmj2o3Xn8Q\" \\\n\t-H \"Expiry: 1455754184\" \\\n\t-H \"Uid: hi_46@hi.com\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/admin/users/1/update_abilities\" -d 'abilities[users]=1&abilities[products]=0&abilities[orders]=0&abilities[categories]=0' -X PUT \\\n\t-H \"Access-Token: xzLC5OMT7cTih7wDGZdluQ\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: K0yEQV424oksLya0HdRC6g\" \\\n\t-H \"Expiry: 1456161855\" \\\n\t-H \"Uid: 42warren.watsica@powlowski.info\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

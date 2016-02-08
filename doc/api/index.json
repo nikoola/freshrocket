@@ -42,6 +42,13 @@
       "name": "Orders",
       "examples": [
         {
+          "description": "client can't confirm order if products are out of stock",
+          "link": "orders/client_can't_confirm_order_if_products_are_out_of_stock.json",
+          "groups": "all",
+          "route": "/client/orders/:id/update_status",
+          "method": "put"
+        },
+        {
           "description": "client cant approve order",
           "link": "orders/client_cant_approve_order.json",
           "groups": "all",
@@ -61,13 +68,6 @@
           "groups": "all",
           "route": "client/orders",
           "method": "post"
-        },
-        {
-          "description": "delete order",
-          "link": "orders/delete_order.json",
-          "groups": "all",
-          "route": "/client/orders/:id",
-          "method": "delete"
         },
         {
           "description": "get all current user's orders",
@@ -234,13 +234,6 @@
           "method": "post"
         },
         {
-          "description": "delete user",
-          "link": "users/delete_user.json",
-          "groups": "all",
-          "route": "/admin/users/:id",
-          "method": "delete"
-        },
-        {
           "description": "get all users",
           "link": "users/get_all_users.json",
           "groups": "all",
@@ -267,6 +260,20 @@
           "groups": "all",
           "route": "/admin/users/:id/list_abilities",
           "method": "get"
+        },
+        {
+          "description": "update settings",
+          "link": "users/update_settings.json",
+          "groups": "all",
+          "route": "/admin/settings",
+          "method": "put"
+        },
+        {
+          "description": "update settings: invalid params",
+          "link": "users/update_settings:_invalid_params.json",
+          "groups": "all",
+          "route": "/admin/settings",
+          "method": "put"
         },
         {
           "description": "update user",

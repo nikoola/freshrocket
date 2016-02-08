@@ -3,7 +3,7 @@
   "http_method": "DELETE",
   "route": "/admin/products/:id",
   "description": "delete product",
-  "explanation": null,
+  "explanation": "deletes product if it's not in any order, disables it (inventory_count: 0) otherwise",
   "parameters": [
 
   ],
@@ -16,11 +16,11 @@
       "request_path": "/admin/products/1",
       "request_body": null,
       "request_headers": {
-        "Access-Token": "ubrt_R-XByP0EbdmA6toow",
+        "Access-Token": "T8nGgGoc4eRIQbiUPq46bA",
         "Token-Type": "Bearer",
-        "Client": "AV122eOR76ZvHt9pYHi8dg",
-        "Expiry": "1455754182",
-        "Uid": "hi_31@hi.com",
+        "Client": "uUgKbtApjkaJR16ucgxzuQ",
+        "Expiry": "1456161853",
+        "Uid": "23idell@jenkinsprice.net",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -37,12 +37,13 @@
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "text/html",
         "Cache-Control": "no-cache",
-        "X-Request-Id": "ad8cd2a3-3e56-4e2a-b194-53212cfe2344",
-        "X-Runtime": "0.097747",
+        "Set-Cookie": "_session_id=QkMwMjVpOTV0VWxtKzJqTzhpYjhmY21TNUdMVk5kOHVoRWdmcTc4RFVteFRoM1VqajZrNUZhdk44bGxuclFQOHBDOXhqOVpMZWtFU1Y0TDRlT2Q2ZDZ0L001dzM0NzdWNDVBRUdIbDZxUGduV2laVWtqM2ZmdWUyeFpvYW9aY00xTDZTZXZoZ2xVSndxTVlCb1YxZUJKYzl3bmFCcEp4V3Exclo3b2VFb3R0dUdtNWFGQzF5clNKR05tM29KTXZWLS1oWFRtNDJXMFlkYnMrNWEzcWFNVHp3PT0%3D--6912a6dec8c6d9d35678fe350f0686adf263f0b3; path=/; HttpOnly",
+        "X-Request-Id": "ae8f8489-da5a-475f-9332-68a70b105b5b",
+        "X-Runtime": "0.080465",
         "Content-Length": "0"
       },
       "response_content_type": "text/html",
-      "curl": "curl \"http://localhost:3000/admin/products/1\" -d '' -X DELETE \\\n\t-H \"Access-Token: ubrt_R-XByP0EbdmA6toow\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: AV122eOR76ZvHt9pYHi8dg\" \\\n\t-H \"Expiry: 1455754182\" \\\n\t-H \"Uid: hi_31@hi.com\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/admin/products/1\" -d '' -X DELETE \\\n\t-H \"Access-Token: T8nGgGoc4eRIQbiUPq46bA\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: uUgKbtApjkaJR16ucgxzuQ\" \\\n\t-H \"Expiry: 1456161853\" \\\n\t-H \"Uid: 23idell@jenkinsprice.net\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

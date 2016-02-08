@@ -16,11 +16,11 @@
       "request_path": "/auth",
       "request_body": "phone",
       "request_headers": {
-        "Access-Token": "gy8Zw2DY-XHj8L--Cn212Q",
+        "Access-Token": "CIjTfNkYeCYh_bzuL66NAA",
         "Token-Type": "Bearer",
-        "Client": "sPE9GDKXInFwaAq4-RCPqQ",
-        "Expiry": "1455754190",
-        "Uid": "hi_72@hi.com",
+        "Client": "fwjMOvH5O_qr68B1a5-png",
+        "Expiry": "1456161862",
+        "Uid": "68mollie@streich.name",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -37,12 +37,13 @@
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "application/json; charset=utf-8",
         "Cache-Control": "no-cache",
-        "X-Request-Id": "e521e613-f492-4d5d-8337-b011092cfb9b",
-        "X-Runtime": "0.072579",
+        "Set-Cookie": "_session_id=REU0a1Rha2dzanRWSTI0eXJFQ0JVQVRaRXVocVNETmx5alVhNU91dHBjK1FrRm53U1JheFByWEU2azg1ZGljaDdzTk9lY1NVNFc1UDdQdUp6b3BLRm5LWUVNNGJGdStMcDFoRmtINlZyVmhnZTJKY0tWTFg4ZC9OenptU0wxVjhUTVMrb1piaCtLSzNkOHJzYUs1OWprWWJlV3YzR2dlVEYzVjhhSkNlNUZNQVVHZXV2Z3liUnE3MjJkNXhCamY3LS1RYzZsd2c1T09TNEpqY3cwaW9ldEdnPT0%3D--0530b051e8baed034a988ef205fd5961342c3f78; path=/; HttpOnly",
+        "X-Request-Id": "11cc8378-c4c6-42ed-bf36-102dc4a7c815",
+        "X-Runtime": "0.070830",
         "Content-Length": "97"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/auth\" -d 'phone' -X PUT \\\n\t-H \"Access-Token: gy8Zw2DY-XHj8L--Cn212Q\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: sPE9GDKXInFwaAq4-RCPqQ\" \\\n\t-H \"Expiry: 1455754190\" \\\n\t-H \"Uid: hi_72@hi.com\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/auth\" -d 'phone' -X PUT \\\n\t-H \"Access-Token: CIjTfNkYeCYh_bzuL66NAA\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: fwjMOvH5O_qr68B1a5-png\" \\\n\t-H \"Expiry: 1456161862\" \\\n\t-H \"Uid: 68mollie@streich.name\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

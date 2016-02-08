@@ -16,11 +16,11 @@
       "request_path": "/admin/users/1",
       "request_body": null,
       "request_headers": {
-        "Access-Token": "HkdjlgMCJDyacqiVTikfxQ",
+        "Access-Token": "ZHeVo_M8BZASI9-s2uAxxQ",
         "Token-Type": "Bearer",
-        "Client": "UKw7cw5-ImvTpFCX5ANX8w",
-        "Expiry": "1455754183",
-        "Uid": "hi_38@hi.com",
+        "Client": "8PYgH9F1O6xz_VjkOH4FbA",
+        "Expiry": "1456161855",
+        "Uid": "36mireya@luettgen.org",
         "Host": "example.org",
         "Cookie": ""
       },
@@ -29,20 +29,21 @@
       "request_content_type": null,
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\n  \"id\": 1,\n  \"email\": \"hi_37@hi.com\",\n  \"phone\": \"+79173332221\",\n  \"provider\": \"email\",\n  \"uid\": \"hi_37@hi.com\",\n  \"created_at\": \"2016-02-04T00:09:43.469Z\",\n  \"updated_at\": \"2016-02-04T00:09:43.477Z\"\n}",
+      "response_body": "{\n  \"id\": 1,\n  \"email\": \"35colleen.cremin@mcdermott.net\",\n  \"phone\": \"1-405-053-6670\",\n  \"provider\": \"email\",\n  \"uid\": \"35colleen.cremin@mcdermott.net\",\n  \"created_at\": \"2016-02-08T17:24:15.112Z\"\n}",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"a862b26bda358ce6d9f15eb07a0d41e5\"",
+        "ETag": "W/\"e97ea46cf1a32832819c3fefed50a372\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "X-Request-Id": "ff208be0-e099-4e38-b368-13518de6b48e",
-        "X-Runtime": "0.089476",
-        "Content-Length": "174"
+        "Set-Cookie": "_session_id=NzdCZ0ZCTExxWEJtc1lMQm9CQkUwQzRPak93UUhqU1E1bC9RTDRPT0ROVXpSUmJyUWxIbkw1V01ZZjZwTG56ZnZUZVhpamJFaDV4OTEvaUVrSFcvYjRIQm95T3d1L041dDFtcDRUR3RlbWIzYzlzSnEwSTVya3FqeHhqL2UxOGJQdnc3S2dIcEtEN1dyMnE3Wmt0VGw3V1RJY1ZqajF2UUk0UEdZWW9OZEt6VGg3UWlkMEJDNkhFdHpXeEwyY2dPLS1SMFVTdlZFdUlRYlMyT1RiVEpUM3NRPT0%3D--8cc798e2cd2afe5867964f35be2a7d7b949868d2; path=/; HttpOnly",
+        "X-Request-Id": "261ac6ff-47f7-4c88-92ad-be2b432c1d06",
+        "X-Runtime": "0.075151",
+        "Content-Length": "172"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/admin/users/1\" -X GET \\\n\t-H \"Access-Token: HkdjlgMCJDyacqiVTikfxQ\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: UKw7cw5-ImvTpFCX5ANX8w\" \\\n\t-H \"Expiry: 1455754183\" \\\n\t-H \"Uid: hi_38@hi.com\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/admin/users/1\" -X GET \\\n\t-H \"Access-Token: ZHeVo_M8BZASI9-s2uAxxQ\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: 8PYgH9F1O6xz_VjkOH4FbA\" \\\n\t-H \"Expiry: 1456161855\" \\\n\t-H \"Uid: 36mireya@luettgen.org\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

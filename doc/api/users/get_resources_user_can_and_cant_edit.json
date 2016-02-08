@@ -16,11 +16,11 @@
       "request_path": "/admin/users/1/list_abilities",
       "request_body": null,
       "request_headers": {
-        "Access-Token": "pw3G4gaqPBwOdcKmuunuIg",
+        "Access-Token": "cfn5eCzdk4HSsUi4pGYnYA",
         "Token-Type": "Bearer",
-        "Client": "B0iUXy4No3eFkaEyn8UVXw",
-        "Expiry": "1455754184",
-        "Uid": "hi_44@hi.com",
+        "Client": "WkXFRE-bbTUmdpJXJafhQw",
+        "Expiry": "1456161855",
+        "Uid": "40zion@ritchie.net",
         "Host": "example.org",
         "Cookie": ""
       },
@@ -29,20 +29,21 @@
       "request_content_type": null,
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\n  \"abilities\": {\n    \"orders\": 0,\n    \"products\": 0,\n    \"users\": 1,\n    \"categories\": 0\n  }\n}",
+      "response_body": "{\n  \"abilities\": {\n    \"orders\": 0,\n    \"products\": 0,\n    \"users\": 1,\n    \"categories\": 0,\n    \"settings\": 0\n  }\n}",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"b14a8c0d7c733fa86cf523db689b8165\"",
+        "ETag": "W/\"a7c1ca5abd0df00a2967caf37dd75322\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "X-Request-Id": "f8c08e07-227d-455d-9d2b-df8b3c7e9847",
-        "X-Runtime": "0.083523",
-        "Content-Length": "64"
+        "Set-Cookie": "_session_id=dzM5Y2xVUlc2Y3dTVTBPeVNRa3ZBdEJHQjFZNEU3VVlvek95RDMvQStpNDNHWWhJek9odDBUNURBeXhhQjNNSDVxaVM2d3R4ZnJuWkk4VGh2c1pVWXVqSVViajVSWUtCOHBsQko0VzdYNkZUdmJvbmhubytpK3c0MStyemk4YlJUemdjTWlYcjVUbDZJK1VOYm54ZDBHdWhBUTgwcmJqNW4yVFVXTjJQLy9pUHBraW11RjFZdjFGalk1QVdqQWh6LS1zMXVlemRlK2VsVnM0bC8rLzRWeXJ3PT0%3D--0258472a535ca8509adba8b91216db720c7c6ce4; path=/; HttpOnly",
+        "X-Request-Id": "80b50d37-3eda-48bb-a745-671c179df29c",
+        "X-Runtime": "0.076819",
+        "Content-Length": "77"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/admin/users/1/list_abilities\" -X GET \\\n\t-H \"Access-Token: pw3G4gaqPBwOdcKmuunuIg\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: B0iUXy4No3eFkaEyn8UVXw\" \\\n\t-H \"Expiry: 1455754184\" \\\n\t-H \"Uid: hi_44@hi.com\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/admin/users/1/list_abilities\" -X GET \\\n\t-H \"Access-Token: cfn5eCzdk4HSsUi4pGYnYA\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: WkXFRE-bbTUmdpJXJafhQw\" \\\n\t-H \"Expiry: 1456161855\" \\\n\t-H \"Uid: 40zion@ritchie.net\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

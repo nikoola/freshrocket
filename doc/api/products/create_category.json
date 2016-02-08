@@ -21,11 +21,11 @@
       "request_path": "/admin/categories",
       "request_body": "category[name]=breakfasts",
       "request_headers": {
-        "Access-Token": "7GzqMvOw9_QQbZ4S9bBSIg",
+        "Access-Token": "J2EgOHuN3BRmvWuGBLk0mA",
         "Token-Type": "Bearer",
-        "Client": "F1Bd537y5cBhi5Hc_3NbfA",
-        "Expiry": "1455754178",
-        "Uid": "hi_1@hi.com",
+        "Client": "VSJUDVsKqxDWPHAPNj7Vew",
+        "Expiry": "1456161850",
+        "Uid": "1sylvester.jacobi@dubuque.info",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -43,12 +43,13 @@
         "Content-Type": "application/json; charset=utf-8",
         "ETag": "W/\"2b3c22434110df6847ad4af2bbf515fb\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "X-Request-Id": "9183195a-838f-4ae5-9660-da1cd8ac3f38",
-        "X-Runtime": "0.138479",
+        "Set-Cookie": "_session_id=dDhuS2JsTUk2a0MyM2dFT0JKb2V2VHU1UWFIZWUySjlPc0pmVzhHNHRsbUVZNXN5QTZWaURjNkNyaXEvczdRRU54eW1NVG9HeU5tYjRTTG5NUEZVTlVpT1FXalZLQ0tJUnoybGdsZWRYZFN3SEhQbFMvQ1owYitSdUpBKzZWZWlPbGYrenYrSFcyOXNMOVRpUW00T1FBM28rVHY1OER3VUlqVnFhUFJaV3c1ZkZOenRrdERmZlhSNDZmZ2sySmE4LS1uOXhaYWVwc1VBeHpweUZ4SHJLK0JRPT0%3D--b60576f240a4b325fb157da2270b871fe00d9e11; path=/; HttpOnly",
+        "X-Request-Id": "3e325af5-859d-4932-aa62-fed9dcd484af",
+        "X-Runtime": "0.117928",
         "Content-Length": "28"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/admin/categories\" -d 'category[name]=breakfasts' -X POST \\\n\t-H \"Access-Token: 7GzqMvOw9_QQbZ4S9bBSIg\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: F1Bd537y5cBhi5Hc_3NbfA\" \\\n\t-H \"Expiry: 1455754178\" \\\n\t-H \"Uid: hi_1@hi.com\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/admin/categories\" -d 'category[name]=breakfasts' -X POST \\\n\t-H \"Access-Token: J2EgOHuN3BRmvWuGBLk0mA\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: VSJUDVsKqxDWPHAPNj7Vew\" \\\n\t-H \"Expiry: 1456161850\" \\\n\t-H \"Uid: 1sylvester.jacobi@dubuque.info\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

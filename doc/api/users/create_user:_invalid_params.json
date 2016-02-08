@@ -14,13 +14,13 @@
     {
       "request_method": "POST",
       "request_path": "/auth",
-      "request_body": "email=hi_68%40hi.com&password=secrety_bickety&password_confirmation=secrety_bickety&phone",
+      "request_body": "email=64arnold.gorczany%40blanda.com&password=secrety_bickety&password_confirmation=secrety_bickety&phone",
       "request_headers": {
-        "Access-Token": "dc8ehjREl51NrUitNKIMQg",
+        "Access-Token": "ermyijh4okaV-iF05CHJVg",
         "Token-Type": "Bearer",
-        "Client": "KlJRGuBesHCw_x9kFZjJGw",
-        "Expiry": "1455754190",
-        "Uid": "hi_69@hi.com",
+        "Client": "q5_xPnURgNgEg06oVSk8XQ",
+        "Expiry": "1456161861",
+        "Uid": "65nona_mitchell@rohan.name",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -30,19 +30,19 @@
       "request_content_type": "application/x-www-form-urlencoded",
       "response_status": 403,
       "response_status_text": "Forbidden",
-      "response_body": "{\n  \"status\": \"error\",\n  \"data\": {\n    \"id\": null,\n    \"email\": \"hi_68@hi.com\",\n    \"phone\": null,\n    \"provider\": \"email\",\n    \"uid\": \"\",\n    \"created_at\": null,\n    \"updated_at\": null\n  },\n  \"errors\": {\n    \"phone\": [\n      \"can't be blank\"\n    ],\n    \"full_messages\": [\n      \"Phone can't be blank\"\n    ]\n  }\n}",
+      "response_body": "{\n  \"status\": \"error\",\n  \"data\": {\n    \"id\": null,\n    \"email\": \"64arnold.gorczany@blanda.com\",\n    \"phone\": null,\n    \"provider\": \"email\",\n    \"uid\": \"\",\n    \"created_at\": null,\n    \"updated_at\": null\n  },\n  \"errors\": {\n    \"phone\": [\n      \"can't be blank\"\n    ],\n    \"full_messages\": [\n      \"Phone can't be blank\"\n    ]\n  }\n}",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "application/json; charset=utf-8",
         "Cache-Control": "no-cache",
-        "X-Request-Id": "460cf675-2f04-4895-9916-8db2ccb37edc",
-        "X-Runtime": "0.006779",
-        "Content-Length": "216"
+        "X-Request-Id": "97694a42-a1bc-48d6-8087-1a103e6656a8",
+        "X-Runtime": "0.006776",
+        "Content-Length": "232"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/auth\" -d 'email=hi_68%40hi.com&password=secrety_bickety&password_confirmation=secrety_bickety&phone' -X POST \\\n\t-H \"Access-Token: dc8ehjREl51NrUitNKIMQg\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: KlJRGuBesHCw_x9kFZjJGw\" \\\n\t-H \"Expiry: 1455754190\" \\\n\t-H \"Uid: hi_69@hi.com\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/auth\" -d 'email=64arnold.gorczany%40blanda.com&password=secrety_bickety&password_confirmation=secrety_bickety&phone' -X POST \\\n\t-H \"Access-Token: ermyijh4okaV-iF05CHJVg\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: q5_xPnURgNgEg06oVSk8XQ\" \\\n\t-H \"Expiry: 1456161861\" \\\n\t-H \"Uid: 65nona_mitchell@rohan.name\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

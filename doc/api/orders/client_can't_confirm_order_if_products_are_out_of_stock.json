@@ -1,0 +1,54 @@
+{
+  "resource": "Orders",
+  "http_method": "PUT",
+  "route": "/client/orders/:id/update_status",
+  "description": "client can't confirm order if products are out of stock",
+  "explanation": null,
+  "parameters": [
+    {
+      "scope": "order",
+      "required": true,
+      "name": "action",
+      "description": "only :confirm is possible for this route (for client)"
+    }
+  ],
+  "response_fields": [
+
+  ],
+  "requests": [
+    {
+      "request_method": "PUT",
+      "request_path": "/client/orders/4/update_status",
+      "request_body": "order[action]=confirm",
+      "request_headers": {
+        "Access-Token": "lihJakGeO690HkYIyQg0HA",
+        "Token-Type": "Bearer",
+        "Client": "1lFuhouhIA6Xgz_S07qgYQ",
+        "Expiry": "1456161861",
+        "Uid": "61gregg_jacobi@yundtdonnelly.net",
+        "Host": "example.org",
+        "Content-Type": "application/x-www-form-urlencoded",
+        "Cookie": ""
+      },
+      "request_query_parameters": {
+      },
+      "request_content_type": "application/x-www-form-urlencoded",
+      "response_status": 422,
+      "response_status_text": "Unprocessable Entity",
+      "response_body": "{\n  \"stock shortage\": [\n    {\n      \"product.inventory_count\": 0,\n      \"line_item.amount\": 5,\n      \"product.id\": 10,\n      \"line_item.id\": 10\n    }\n  ]\n}",
+      "response_headers": {
+        "X-Frame-Options": "SAMEORIGIN",
+        "X-XSS-Protection": "1; mode=block",
+        "X-Content-Type-Options": "nosniff",
+        "Content-Type": "application/json; charset=utf-8",
+        "Cache-Control": "no-cache",
+        "Set-Cookie": "_session_id=WGJYeXcwWjNqNUlqMnVuenJya3ZvclVsZVI4N3BKaHJ6WlU5bUZNak85Z0lCZENlOVVaRndDcDZpK2tRK0pYMVRDdWpZY2E1MHo5bWFmdFZKaGZGd21YZ0hFNCtieTF0NEtTRVNEdEQrbFZQeXdtVTkrVUs0dDl2WDlMVzZVV0ZMNTlmZThZRllpYWNRTTBJNU5OblBMTG5zS1hwaFlISVYxb3JmVnN5UjlhRVNtQ2hvOXkwSFloUmhRNFJ4NTR0LS1VQ3lUNG1qZ2h1Mlh2VmRhWWJVblR3PT0%3D--ace56ab9ba56af3688e92520464545f8cc6e873b; path=/; HttpOnly",
+        "X-Request-Id": "24d888af-da39-4425-8e5d-6ed28ab8407a",
+        "X-Runtime": "0.076821",
+        "Content-Length": "105"
+      },
+      "response_content_type": "application/json; charset=utf-8",
+      "curl": "curl \"http://localhost:3000/client/orders/4/update_status\" -d 'order[action]=confirm' -X PUT \\\n\t-H \"Access-Token: lihJakGeO690HkYIyQg0HA\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: 1lFuhouhIA6Xgz_S07qgYQ\" \\\n\t-H \"Expiry: 1456161861\" \\\n\t-H \"Uid: 61gregg_jacobi@yundtdonnelly.net\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+    }
+  ]
+}
