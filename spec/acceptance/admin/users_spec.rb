@@ -44,7 +44,7 @@ resource 'Users', type: :request do
 			expect_status 401
 		end
 
-		example 'authenticated :admin user - 200' do
+		example 'get user' do
 			do_request({id: prohibited_user.id})
 			expect(status).to eq(200)
 		end

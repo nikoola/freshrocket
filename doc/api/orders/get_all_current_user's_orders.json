@@ -16,11 +16,11 @@
       "request_path": "/client/orders",
       "request_body": null,
       "request_headers": {
-        "Access-Token": "vpETNJ4tZG2LB2dp2tcPSQ",
+        "Access-Token": "OoHT9hhYeniIuCjEILZ_QA",
         "Token-Type": "Bearer",
-        "Client": "1DMkE2nZhfZDoL5PfsLIIg",
-        "Expiry": "1456161859",
-        "Uid": "50gage@damore.net",
+        "Client": "Nk_4SsiRB9N_gcEkVXKSPA",
+        "Expiry": "1456162474",
+        "Uid": "50patience@mantemacgyver.biz",
         "Host": "example.org",
         "Cookie": ""
       },
@@ -29,21 +29,21 @@
       "request_content_type": null,
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "[\n  {\n    \"id\": 3,\n    \"user_id\": 3,\n    \"status\": \"unconfirmed\",\n    \"created_at\": \"2016-02-08T17:24:19.465Z\",\n    \"comment\": null,\n    \"delivery_date\": null,\n    \"delivery_time\": null,\n    \"pure_product_price\": \"27.0\",\n    \"tax\": \"1.35\",\n    \"delivery_charge\": \"200.0\",\n    \"total_price\": \"228.35\",\n    \"line_items\": [\n      {\n        \"id\": 7,\n        \"order_id\": 3,\n        \"product_id\": 7,\n        \"amount\": 3,\n        \"fixed_price\": \"9.0\"\n      },\n      {\n        \"id\": 8,\n        \"order_id\": 3,\n        \"product_id\": 8,\n        \"amount\": 3,\n        \"fixed_price\": \"9.0\"\n      },\n      {\n        \"id\": 9,\n        \"order_id\": 3,\n        \"product_id\": 9,\n        \"amount\": 3,\n        \"fixed_price\": \"9.0\"\n      }\n    ]\n  }\n]",
+      "response_body": "[\n  {\n    \"id\": 3,\n    \"user_id\": 3,\n    \"status\": \"unconfirmed\",\n    \"created_at\": \"2016-02-08T17:34:34.370Z\",\n    \"comment\": null,\n    \"delivery_date\": null,\n    \"delivery_time\": null,\n    \"pure_product_price\": \"27.0\",\n    \"tax\": \"1.35\",\n    \"delivery_charge\": \"200.0\",\n    \"total_price\": \"228.35\",\n    \"line_items\": [\n      {\n        \"id\": 7,\n        \"order_id\": 3,\n        \"product_id\": 7,\n        \"amount\": 3,\n        \"fixed_price\": \"9.0\"\n      },\n      {\n        \"id\": 8,\n        \"order_id\": 3,\n        \"product_id\": 8,\n        \"amount\": 3,\n        \"fixed_price\": \"9.0\"\n      },\n      {\n        \"id\": 9,\n        \"order_id\": 3,\n        \"product_id\": 9,\n        \"amount\": 3,\n        \"fixed_price\": \"9.0\"\n      }\n    ]\n  }\n]",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"c131451fcc68c6671c8144e550b45b68\"",
+        "ETag": "W/\"9e4599c0f78525cd8fc1e63d6b95b58d\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=bHdYODhmSmx0aHVoN2I4RVphT1BYaWt2MHVVdUpMaTFDSnM1NXJUTXlxN2sxbHZYMzkySHY0NVBVckd3d2Vmb0RDS0xDeUxvQWVyYy8vaXJrb29lNG9LbFJIMjIvLzZaWTVWOGk0MzlQSE44b3JEcE9HeDVUbi9mRllkamRvL1UrUjZlU3FaL1VrSUpKajR2eG0vWG9LanhJV1BZenRkUG1KMlF1dG10MEZwNjFlQUNUVU54STZJa3JWRHk2bEdaLS10TjJWeDNJaFhaelI3ZnZsUVZqdEt3PT0%3D--81688b14a39638d9dabd94aa3fb1c245d5aaf563; path=/; HttpOnly",
-        "X-Request-Id": "99ac15d8-667d-45f6-bab3-572753efe702",
-        "X-Runtime": "0.087463",
+        "Set-Cookie": "_session_id=cGJ0VEMwbWNaNCswNi9WSFM4R0UzNndrZFBtZXowZkpyaVZwdGF4eGVTRkE2LzcvekQ1NWtiWDczT1hQaWNMblNDc3huMndTNmZWekJJejc3Mjk1Umk3RUp2RWJzWTQ5RVFrR0tBVkhPTG0rMEpvQXA5NlhjU2tHZ2NnSXNwdVgzUFBDZFR1S09HbHZzcEw2SnZWcG5XV0cyaGRaVzl5Tmc0Ykx0Y1ViSS9kQk8rNHpubmdCbW8wZDE4NHlXRVFCLS1JSEkrQzNuZWNuQVk4bTI4TkRUT1FBPT0%3D--069664a24e71ab428e008cd8e7c8b2c17b7a3099; path=/; HttpOnly",
+        "X-Request-Id": "c80e8dc3-c078-4aff-9f49-994b7c4a877c",
+        "X-Runtime": "0.086741",
         "Content-Length": "451"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/client/orders\" -X GET \\\n\t-H \"Access-Token: vpETNJ4tZG2LB2dp2tcPSQ\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: 1DMkE2nZhfZDoL5PfsLIIg\" \\\n\t-H \"Expiry: 1456161859\" \\\n\t-H \"Uid: 50gage@damore.net\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/client/orders\" -X GET \\\n\t-H \"Access-Token: OoHT9hhYeniIuCjEILZ_QA\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: Nk_4SsiRB9N_gcEkVXKSPA\" \\\n\t-H \"Expiry: 1456162474\" \\\n\t-H \"Uid: 50patience@mantemacgyver.biz\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

@@ -16,11 +16,11 @@
       "request_path": "/client",
       "request_body": null,
       "request_headers": {
-        "Access-Token": "Iojo2n5vdCaA0IBjuajA_g",
+        "Access-Token": "l49B6dI1GrPrQ7sLWCm5iA",
         "Token-Type": "Bearer",
-        "Client": "l0yU7ZchgmKnUAjLRnkTKg",
-        "Expiry": "1456161862",
-        "Uid": "69thea.jenkins@luettgenklein.name",
+        "Client": "pmnS7Pv05-SIXBI9yPshcA",
+        "Expiry": "1456162477",
+        "Uid": "69alexandrea@bechtelar.info",
         "Host": "example.org",
         "Cookie": ""
       },
@@ -29,21 +29,21 @@
       "request_content_type": null,
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\n  \"id\": 3,\n  \"email\": \"69thea.jenkins@luettgenklein.name\",\n  \"phone\": \"1-996-224-6107\",\n  \"provider\": \"email\",\n  \"uid\": \"69thea.jenkins@luettgenklein.name\",\n  \"created_at\": \"2016-02-08T17:24:22.179Z\"\n}",
+      "response_body": "{\n  \"id\": 3,\n  \"email\": \"69alexandrea@bechtelar.info\",\n  \"phone\": \"186-757-1873\",\n  \"provider\": \"email\",\n  \"uid\": \"69alexandrea@bechtelar.info\",\n  \"created_at\": \"2016-02-08T17:34:37.103Z\"\n}",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"ef76ac0780a64a4cd10f58128aeae099\"",
+        "ETag": "W/\"6c85bb6f0ab29b11b28346dbbb89ae01\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=SnkzamhvSVk4clNjeWJmR2o3bFZLZ2kxd3M1cEtvOTRSOEFiVU92SElySjR0NU5sN0FkdFNKSUF5QUUza3Y4bW1rWG0zbmpxM3F6L3pNeDhxc2VvWnFJZWhKWUtmM0JJTFRzOVlZZlhrQXBtR3hNQWV6NFpISk5Dbm03OHZYc084NGpVYnpzQjZ4ZERpVkpMRWpOVHh2dEJiVU1GS1YxbUFvQ3ZOb3V1TnhKa05sMklwYkZROEEwaHo0eDdKcVpULS1SOTlodklXU1NmSS8vcGl1RWZyV0FBPT0%3D--1a3fbbdff97f2e5ba2e36d0d616899a68c2b5bf5; path=/; HttpOnly",
-        "X-Request-Id": "64221c0d-9d6c-437f-8934-80e218c7bad5",
-        "X-Runtime": "0.078158",
-        "Content-Length": "178"
+        "Set-Cookie": "_session_id=dGVmNzRHU1plVTJuNDFLM3Z3dWJxOHAyaHVyVm5KblpsRnZtT3VEZ1R3dGRLbzBabGN0SjkwMkwva00wK2lSUlZ1Rk5sSlJ6UVczZnQ5WmkrRU9CamlsNWJ2eFNwYU5qazlmYks1S3dWczU3LzROWVFOZTd0YnpxaHlFNHJRRFE4Vnp0RVZWUkpDSldFNWVOYi9BZ08wTHU2U2NVWkJtWVNZekxZZFJKRVdqeFlpK2w1aGlRREFvMENjRjAyUEZzLS1JdXlwNlVhZTZEdUtUUmhLcWtNM3hnPT0%3D--a956c0280af531c44fae5df147ddf6e10d91b3e3; path=/; HttpOnly",
+        "X-Request-Id": "0027dc66-e54a-4799-8f3b-d1070b2d7af0",
+        "X-Runtime": "0.078839",
+        "Content-Length": "164"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/client\" -X GET \\\n\t-H \"Access-Token: Iojo2n5vdCaA0IBjuajA_g\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: l0yU7ZchgmKnUAjLRnkTKg\" \\\n\t-H \"Expiry: 1456161862\" \\\n\t-H \"Uid: 69thea.jenkins@luettgenklein.name\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/client\" -X GET \\\n\t-H \"Access-Token: l49B6dI1GrPrQ7sLWCm5iA\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: pmnS7Pv05-SIXBI9yPshcA\" \\\n\t-H \"Expiry: 1456162477\" \\\n\t-H \"Uid: 69alexandrea@bechtelar.info\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

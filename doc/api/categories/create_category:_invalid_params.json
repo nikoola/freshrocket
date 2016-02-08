@@ -1,5 +1,5 @@
 {
-  "resource": "Products",
+  "resource": "Categories",
   "http_method": "POST",
   "route": "/admin/categories",
   "description": "create category: invalid params",
@@ -21,11 +21,11 @@
       "request_path": "/admin/categories",
       "request_body": "category[name]",
       "request_headers": {
-        "Access-Token": "_ol65las7-Ju8XDIT8PvpA",
+        "Access-Token": "CYXZ_wEk4tsx081p0ut_Mw",
         "Token-Type": "Bearer",
-        "Client": "qU4LsiasH0Z7fT5vBDM6gA",
-        "Expiry": "1456161850",
-        "Uid": "2abigale.dach@bogisich.org",
+        "Client": "8WlX0hjEadCu_MMqgoJIiw",
+        "Expiry": "1456162466",
+        "Uid": "2jazmyn@bogan.net",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -42,13 +42,13 @@
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "application/json; charset=utf-8",
         "Cache-Control": "no-cache",
-        "Set-Cookie": "_session_id=cUhVdyszTmRGRE1aVmFOSFpXMitCSEU5ZUtsUi9ZTW9wUU9FMTZFZUZhM0xXT0pVS2FjdC9kNlNkQzZqWHlHNG5oaUFDSE5LWGNmRElhVXlVWmZsSDFJTlEzT09rRWptME16eExXSDFEcS9OZGxRZzZpaldnT2xkZVgvVnpoV0VvM20vUjIvWGt1U0o2SkVERDNuOGI2VFM5RHBtMGI5czQxaDluRkNnSnVSMzdweVhZa0V5S0Q3U3loVkhRSGczLS0zWjluM1BYZktoVjJ0eWNua1FuSkFRPT0%3D--a52109467dea540dc2b941073e1afd6e27ab1645; path=/; HttpOnly",
-        "X-Request-Id": "729973a3-4b0a-450e-97e8-55eb80d9dd57",
-        "X-Runtime": "0.078247",
+        "Set-Cookie": "_session_id=S2dUWWJpVFhsNVVlVnZmbXp6N0hZa1BpUDZxeXE1WTFQQTI2bjN2OEhJdDFGVC9SMFlsNVp4WWRXS0k2YjBNTkVPZTltaGRLNUE2R0UzbDBIQjRrVWsrSVFBaXNjd2Z2UUhRMHE0VHE3YkYzMEFEWTFNejBFeU5yN2kxaExwZlgzQkl0QUtlalh6UGFreit5UVhEMnJlKzNHcGxLZkxPUldHU0k3d0JLY0ZaQWwxUkNjS3BhblUrSi8zVlJMYXQ5LS1ZejFnMy96OWhEUW9PRXJpYk1idW53PT0%3D--f3e0e90bf9bdee859e0e08a76b1a65871e555ff2; path=/; HttpOnly",
+        "X-Request-Id": "c0828f07-72d0-4f51-a408-ff2d06a103ce",
+        "X-Runtime": "0.078038",
         "Content-Length": "27"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/admin/categories\" -d 'category[name]' -X POST \\\n\t-H \"Access-Token: _ol65las7-Ju8XDIT8PvpA\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: qU4LsiasH0Z7fT5vBDM6gA\" \\\n\t-H \"Expiry: 1456161850\" \\\n\t-H \"Uid: 2abigale.dach@bogisich.org\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/admin/categories\" -d 'category[name]' -X POST \\\n\t-H \"Access-Token: CYXZ_wEk4tsx081p0ut_Mw\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: 8WlX0hjEadCu_MMqgoJIiw\" \\\n\t-H \"Expiry: 1456162466\" \\\n\t-H \"Uid: 2jazmyn@bogan.net\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

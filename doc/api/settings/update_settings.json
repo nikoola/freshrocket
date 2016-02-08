@@ -1,5 +1,5 @@
 {
-  "resource": "Users",
+  "resource": "Settings",
   "http_method": "PUT",
   "route": "/admin/settings",
   "description": "update settings",
@@ -30,11 +30,11 @@
       "request_path": "/admin/settings",
       "request_body": "settings[tax_in_percentage]=99.0&settings[default_delivery_cost]=115",
       "request_headers": {
-        "Access-Token": "nHlTMjnmAIzL_bh1OW32lQ",
+        "Access-Token": "TMQYO33wo-AZzONZ_Rqepw",
         "Token-Type": "Bearer",
-        "Client": "IYOM3qMJlvChsbwJp1tBIQ",
-        "Expiry": "1456161854",
-        "Uid": "28virgie@halvorsonvandervort.net",
+        "Client": "O7ZPaUzpfJ7drR0qmsT_Ew",
+        "Expiry": "1456162469",
+        "Uid": "28ford_cruickshank@gloverreichel.com",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -52,13 +52,13 @@
         "Content-Type": "application/json; charset=utf-8",
         "ETag": "W/\"4ddda431891f4279fd1337c4e6d39d32\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=VFhoVHA0WnczcmRkbE1nR0lZNS9yN0RCb0JXcWorVmxVNDhlYzY2cXpPZ0JDN3RWSnhiZDJ3ZlR2eTdaTXozZGNuS2RVTGtNUzFEMjJLWW9weEIwM04zUlo4UytiWkNlL05rdFdwSDhTYkxsSFhrZlgvYjdLT2czTk5NSy9pUS9WZlRyYjZWenRmTmtIOUgwZkpNcnRueVFJRFhQY2d4N0diazFLZTJhMmxTM1VFN3IzM2hrZUE4cmE1Q2dMdFVhLS1rSlorcURPOVdqSHFIcmcxWC9uL0dRPT0%3D--86e72fde4783f75f8b9b554b80b3dabd2182012c; path=/; HttpOnly",
-        "X-Request-Id": "21d219b2-1e9f-4d27-b1d6-7629f15fc321",
-        "X-Runtime": "0.076664",
+        "Set-Cookie": "_session_id=T2diVFk0dHNOaDlWUHNBNDg0MXBNZ0MzVXNnVFk4U25Ya3ZPdVRvZ0c3TUtURVNmMmpCcW9naHMwQ1c2Vjl3WXVsZEVhcVJuTWIrLzVwemN6djBDL25GaXJNVUhOc2x2QS9STURMV29Rd2VxZ1VoOURNUE0vN0o3MG84Tzc0QThRcGFoRWgwa01PdW5jbDF0OGMwcEdhbVBvQzVhUTRpU29QN3JKd0dMTUJpM1VaRzcwZzVrS0ZxcHlyMTNJUW9PLS1NMHMvNE91NThJcGJ3Uk80UTNLaGFRPT0%3D--a878bbd7c97d770594f94d6b8bda5b48cd78127a; path=/; HttpOnly",
+        "X-Request-Id": "2439f2c6-1dff-4d3d-8c32-f8689f28365d",
+        "X-Runtime": "0.083152",
         "Content-Length": "101"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/admin/settings\" -d 'settings[tax_in_percentage]=99.0&settings[default_delivery_cost]=115' -X PUT \\\n\t-H \"Access-Token: nHlTMjnmAIzL_bh1OW32lQ\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: IYOM3qMJlvChsbwJp1tBIQ\" \\\n\t-H \"Expiry: 1456161854\" \\\n\t-H \"Uid: 28virgie@halvorsonvandervort.net\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/admin/settings\" -d 'settings[tax_in_percentage]=99.0&settings[default_delivery_cost]=115' -X PUT \\\n\t-H \"Access-Token: TMQYO33wo-AZzONZ_Rqepw\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: O7ZPaUzpfJ7drR0qmsT_Ew\" \\\n\t-H \"Expiry: 1456162469\" \\\n\t-H \"Uid: 28ford_cruickshank@gloverreichel.com\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

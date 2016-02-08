@@ -16,11 +16,11 @@
       "request_path": "/admin/users",
       "request_body": null,
       "request_headers": {
-        "Access-Token": "5ugXTOa2mZqtB9XRwXRXIA",
+        "Access-Token": "_9qbr2Ty--ODC2OtPibEzw",
         "Token-Type": "Bearer",
-        "Client": "7_S-vspmI7G91mHDFWZgHQ",
-        "Expiry": "1456161854",
-        "Uid": "31ona.strosin@raynor.info",
+        "Client": "peVWeLkO61cKoZgBr9X4GQ",
+        "Expiry": "1456162470",
+        "Uid": "31roel.glover@brown.biz",
         "Host": "example.org",
         "Cookie": ""
       },
@@ -29,21 +29,21 @@
       "request_content_type": null,
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "[\n  {\n    \"id\": 1,\n    \"email\": \"31ona.strosin@raynor.info\",\n    \"phone\": \"(313) 464-8417\",\n    \"provider\": \"email\",\n    \"uid\": \"31ona.strosin@raynor.info\",\n    \"created_at\": \"2016-02-08T17:24:14.715Z\"\n  }\n]",
+      "response_body": "[\n  {\n    \"id\": 1,\n    \"email\": \"31roel.glover@brown.biz\",\n    \"phone\": \"992-175-6180\",\n    \"provider\": \"email\",\n    \"uid\": \"31roel.glover@brown.biz\",\n    \"created_at\": \"2016-02-08T17:34:30.241Z\"\n  }\n]",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"76caa23bbd4d5c5f5a91331cb63baae8\"",
+        "ETag": "W/\"35c90d8c231a4052d045889665ecd669\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=YXhwVWtJdGUyZzl3MzhwcEV2UTB3STgzUHdoNWY0NWJKdmRyQ3NxNEJDblpiZ3dGcTFhQ01GTy9Nelp0SVgvQVM5ekd0OHNEMnkzVVptTGRONUJaS2lTN2Q3T2VoblhmOFovcDUxU05zalR3UjhlcWxoaTFnK0ZqZlB0NzdNNElmaU9kS2N4Y0QxTkNobjE3b1lDa3ZQdHFCemE2dFB5bnczbkRtTXRzc2VEYW9BQlpaYmhKb1BBblFzNTBKSVhYLS1ORnQ3Zk5SMjlSM2srYzZRYzY4bk93PT0%3D--d8683b4323b564654b0b9de9e07de940a855bca2; path=/; HttpOnly",
-        "X-Request-Id": "c2831b98-a225-45e2-aad4-bc6d4f022e82",
-        "X-Runtime": "0.077770",
-        "Content-Length": "164"
+        "Set-Cookie": "_session_id=NHByeDZwNXp6dlpPRVo5UWFjK0VFNXpDWHRKbmxoaU1YeFZTTm9xYUtpOEFuNUdTbkgzRGhGS1BoTkhZanFLZ3BIQ25PVklCbnRhdCszMHdPR3VEcXBJZms1eVBneThqV1dXeHhLSVlXOW0xZXcrOGsyeFVYZDBYVVJiQTgvZ3dqNFhWNjRWOTdaR28rclZ1czNMU3ZhNVkzQVl3aVc4T2I3TEQwN0p2UkV6THBSclIwbW9pQnA0UGtZR1FaUExsLS15UWxPR3NrR0xiZHl3Mm5QdDZkNWFRPT0%3D--fead8742b5f5651014cca1eca79f3d38233836fb; path=/; HttpOnly",
+        "X-Request-Id": "221d3011-6d62-46f1-924a-98db3b32f483",
+        "X-Runtime": "0.081398",
+        "Content-Length": "158"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/admin/users\" -X GET \\\n\t-H \"Access-Token: 5ugXTOa2mZqtB9XRwXRXIA\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: 7_S-vspmI7G91mHDFWZgHQ\" \\\n\t-H \"Expiry: 1456161854\" \\\n\t-H \"Uid: 31ona.strosin@raynor.info\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/admin/users\" -X GET \\\n\t-H \"Access-Token: _9qbr2Ty--ODC2OtPibEzw\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: peVWeLkO61cKoZgBr9X4GQ\" \\\n\t-H \"Expiry: 1456162470\" \\\n\t-H \"Uid: 31roel.glover@brown.biz\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

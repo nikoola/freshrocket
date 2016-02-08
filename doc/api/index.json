@@ -30,17 +30,59 @@
       "name": "Categories",
       "examples": [
         {
+          "description": "create category",
+          "link": "categories/create_category.json",
+          "groups": "all",
+          "route": "/admin/categories",
+          "method": "post"
+        },
+        {
+          "description": "create category: invalid params",
+          "link": "categories/create_category:_invalid_params.json",
+          "groups": "all",
+          "route": "/admin/categories",
+          "method": "post"
+        },
+        {
+          "description": "delete category",
+          "link": "categories/delete_category.json",
+          "groups": "all",
+          "route": "/admin/categories/:id",
+          "method": "delete"
+        },
+        {
           "description": "get all categories",
           "link": "categories/get_all_categories.json",
           "groups": "all",
           "route": "/categories",
           "method": "get"
+        },
+        {
+          "description": "update category",
+          "link": "categories/update_category.json",
+          "groups": "all",
+          "route": "/admin/categories/:id",
+          "method": "put"
+        },
+        {
+          "description": "update category: with invalid params",
+          "link": "categories/update_category:_with_invalid_params.json",
+          "groups": "all",
+          "route": "/admin/categories/:id",
+          "method": "put"
         }
       ]
     },
     {
       "name": "Orders",
       "examples": [
+        {
+          "description": "approve confirmed order",
+          "link": "orders/approve_confirmed_order.json",
+          "groups": "all",
+          "route": "/admin/orders/:id/update_status",
+          "method": "put"
+        },
         {
           "description": "client can't confirm order if products are out of stock",
           "link": "orders/client_can't_confirm_order_if_products_are_out_of_stock.json",
@@ -84,6 +126,20 @@
           "method": "get"
         },
         {
+          "description": "get filtered orders",
+          "link": "orders/get_filtered_orders.json",
+          "groups": "all",
+          "route": "/admin/orders",
+          "method": "get"
+        },
+        {
+          "description": "get order",
+          "link": "orders/get_order.json",
+          "groups": "all",
+          "route": "/admin/orders/:id",
+          "method": "get"
+        },
+        {
           "description": "if order is approved it cant be confirmed",
           "link": "orders/if_order_is_approved_it_cant_be_confirmed.json",
           "groups": "all",
@@ -110,20 +166,6 @@
       "name": "Products",
       "examples": [
         {
-          "description": "create category",
-          "link": "products/create_category.json",
-          "groups": "all",
-          "route": "/admin/categories",
-          "method": "post"
-        },
-        {
-          "description": "create category: invalid params",
-          "link": "products/create_category:_invalid_params.json",
-          "groups": "all",
-          "route": "/admin/categories",
-          "method": "post"
-        },
-        {
           "description": "create product",
           "link": "products/create_product.json",
           "groups": "all",
@@ -136,13 +178,6 @@
           "groups": "all",
           "route": "/admin/products",
           "method": "post"
-        },
-        {
-          "description": "delete category",
-          "link": "products/delete_category.json",
-          "groups": "all",
-          "route": "/admin/categories/:id",
-          "method": "delete"
         },
         {
           "description": "delete product",
@@ -173,20 +208,6 @@
           "method": "get"
         },
         {
-          "description": "update category",
-          "link": "products/update_category.json",
-          "groups": "all",
-          "route": "/admin/categories/:id",
-          "method": "put"
-        },
-        {
-          "description": "update category: with invalid params",
-          "link": "products/update_category:_with_invalid_params.json",
-          "groups": "all",
-          "route": "/admin/categories/:id",
-          "method": "put"
-        },
-        {
           "description": "update product",
           "link": "products/update_product.json",
           "groups": "all",
@@ -203,15 +224,27 @@
       ]
     },
     {
-      "name": "Users",
+      "name": "Settings",
       "examples": [
         {
-          "description": "approve confirmed order",
-          "link": "users/approve_confirmed_order.json",
+          "description": "update settings",
+          "link": "settings/update_settings.json",
           "groups": "all",
-          "route": "/admin/orders/:id/update_status",
+          "route": "/admin/settings",
           "method": "put"
         },
+        {
+          "description": "update settings: invalid params",
+          "link": "settings/update_settings:_invalid_params.json",
+          "groups": "all",
+          "route": "/admin/settings",
+          "method": "put"
+        }
+      ]
+    },
+    {
+      "name": "Users",
+      "examples": [
         {
           "description": "authenticated :admin user - 200",
           "link": "users/authenticated_:admin_user_-_200.json",
@@ -241,39 +274,11 @@
           "method": "get"
         },
         {
-          "description": "get filtered orders",
-          "link": "users/get_filtered_orders.json",
-          "groups": "all",
-          "route": "/admin/orders",
-          "method": "get"
-        },
-        {
-          "description": "get order",
-          "link": "users/get_order.json",
-          "groups": "all",
-          "route": "/admin/orders/:id",
-          "method": "get"
-        },
-        {
           "description": "get resources user can and cant edit",
           "link": "users/get_resources_user_can_and_cant_edit.json",
           "groups": "all",
           "route": "/admin/users/:id/list_abilities",
           "method": "get"
-        },
-        {
-          "description": "update settings",
-          "link": "users/update_settings.json",
-          "groups": "all",
-          "route": "/admin/settings",
-          "method": "put"
-        },
-        {
-          "description": "update settings: invalid params",
-          "link": "users/update_settings:_invalid_params.json",
-          "groups": "all",
-          "route": "/admin/settings",
-          "method": "put"
         },
         {
           "description": "update user",

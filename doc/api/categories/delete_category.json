@@ -1,0 +1,49 @@
+{
+  "resource": "Categories",
+  "http_method": "DELETE",
+  "route": "/admin/categories/:id",
+  "description": "delete category",
+  "explanation": null,
+  "parameters": [
+
+  ],
+  "response_fields": [
+
+  ],
+  "requests": [
+    {
+      "request_method": "DELETE",
+      "request_path": "/admin/categories/1",
+      "request_body": null,
+      "request_headers": {
+        "Access-Token": "5ubhBkySORZytJ-L_1q8oA",
+        "Token-Type": "Bearer",
+        "Client": "omF4vVuxglezEnXDnclAjg",
+        "Expiry": "1456162466",
+        "Uid": "5berneice@dare.com",
+        "Host": "example.org",
+        "Content-Type": "application/x-www-form-urlencoded",
+        "Cookie": ""
+      },
+      "request_query_parameters": {
+      },
+      "request_content_type": "application/x-www-form-urlencoded",
+      "response_status": 200,
+      "response_status_text": "OK",
+      "response_body": null,
+      "response_headers": {
+        "X-Frame-Options": "SAMEORIGIN",
+        "X-XSS-Protection": "1; mode=block",
+        "X-Content-Type-Options": "nosniff",
+        "Content-Type": "text/html",
+        "Cache-Control": "no-cache",
+        "Set-Cookie": "_session_id=YjJXeXRaOUs1SHdJOVhsVFNWc2w4UGU4TTlZdlhaNUI2RXZ5SVR1bjIrczFNemk4N250cjlZaEpSNHQ1aWgrQjlNRkdkREZyWDZKUFZwbEhkVzFMdVo1Y3lkaE5IQUJsNXBOelBmWGZoUjZ0NnRIK044VGFzZGluZWZPVWJmaVFKWTZFTDlZdmd6M0xoZDdqTGU0TllQaHNyRk1pUHIxL3Zkck5LbWt5d3p2eGV6SmhUZlJFL0d5aGxHZFVYSXgvLS1adFVmdFlwMGZNOEk1ekR1QXlaUVNBPT0%3D--b317c60e3d93face6b7d322d7d0645d42f4ca67d; path=/; HttpOnly",
+        "X-Request-Id": "b0322b0e-edff-48bd-a9f1-32405dec57db",
+        "X-Runtime": "0.080865",
+        "Content-Length": "0"
+      },
+      "response_content_type": "text/html",
+      "curl": "curl \"http://localhost:3000/admin/categories/1\" -d '' -X DELETE \\\n\t-H \"Access-Token: 5ubhBkySORZytJ-L_1q8oA\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: omF4vVuxglezEnXDnclAjg\" \\\n\t-H \"Expiry: 1456162466\" \\\n\t-H \"Uid: 5berneice@dare.com\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+    }
+  ]
+}

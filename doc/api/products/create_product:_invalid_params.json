@@ -49,11 +49,11 @@
       "request_path": "/admin/products",
       "request_body": "product[title]=fish&product[price]",
       "request_headers": {
-        "Access-Token": "ehphBLuBH1t6pAwZA_82FQ",
+        "Access-Token": "uhFpLNhLhGsbdPcpm36_-A",
         "Token-Type": "Bearer",
-        "Client": "9JrS2WlaXsW-SxkuNuQz9w",
-        "Expiry": "1456161852",
-        "Uid": "19earlene@nienow.org",
+        "Client": "ijWsqixSQmD_-yVkCK5AeA",
+        "Expiry": "1456162468",
+        "Uid": "19brielle@sanford.info",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -70,13 +70,13 @@
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "application/json; charset=utf-8",
         "Cache-Control": "no-cache",
-        "Set-Cookie": "_session_id=bE1UU25DUGZSQlEzSm01aDZmWStkcytyQjhnelVEUWNqRjZTNTZHYUduYjhYR1g3ZjcxUGxnU28zaEhPU1NMbFVYazYzcVEzSUJNMER1emJKQ01wQ25teDJlU3hDb3pYaDIvVVNqUUsvcW1KaHgwVkMvZWZLYlpLQklJNGFIb1ZyTytzRDVGMHRXNnQ3YWFTMWxSTGNNVTlMcndWT1lJankwVEE2c3cxazZoRW9XOVlJNC9Zd2dXZ3NxcTlHYlVpLS0xbFlaRldXalF4NnkrdFpVRVZpd2tBPT0%3D--747a090b88887714e6b2f3677d9416af38cbdbf5; path=/; HttpOnly",
-        "X-Request-Id": "e32e9198-0880-4ea4-9389-796f2b7db80f",
-        "X-Runtime": "0.079243",
+        "Set-Cookie": "_session_id=aU96YktJRnV4MXlsWnh2MFpVYXZQV29RM3oxbnc5aitEMEliVVk1aDI5ejJkcnovQ01lKzl4MVVhais5b0liaElIMzUwLzlRenc2UU5YSlNqaUtVVnZmL0U2dXBweGtGVkcxdWM2WG0zNjVpSEpndmtsM25sVlhyUENrY2VSeE5Od0Fqc2ZFdDNuMlNmNzcrT3d1OE9WbzE5Yk1PdWFEZVNPelR4YXZkaHFKejUxQTByUFhGWnc1cmdPN2grd05aLS1FaUhUUGdBbnhMVVpWV1l4SXRoY3F3PT0%3D--2d15e04b686485772726095451182a2fc3a31d24; path=/; HttpOnly",
+        "X-Request-Id": "83fb4c5d-8b34-4097-b3b1-5f0486f55357",
+        "X-Runtime": "0.078492",
         "Content-Length": "109"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/admin/products\" -d 'product[title]=fish&product[price]' -X POST \\\n\t-H \"Access-Token: ehphBLuBH1t6pAwZA_82FQ\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: 9JrS2WlaXsW-SxkuNuQz9w\" \\\n\t-H \"Expiry: 1456161852\" \\\n\t-H \"Uid: 19earlene@nienow.org\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/admin/products\" -d 'product[title]=fish&product[price]' -X POST \\\n\t-H \"Access-Token: uhFpLNhLhGsbdPcpm36_-A\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: ijWsqixSQmD_-yVkCK5AeA\" \\\n\t-H \"Expiry: 1456162468\" \\\n\t-H \"Uid: 19brielle@sanford.info\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

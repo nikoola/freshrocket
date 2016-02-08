@@ -16,11 +16,11 @@
       "request_path": "/auth",
       "request_body": "phone",
       "request_headers": {
-        "Access-Token": "CIjTfNkYeCYh_bzuL66NAA",
+        "Access-Token": "ywOrEq34ijYtHyq_lNIsgQ",
         "Token-Type": "Bearer",
-        "Client": "fwjMOvH5O_qr68B1a5-png",
-        "Expiry": "1456161862",
-        "Uid": "68mollie@streich.name",
+        "Client": "4ZiSQpnGZUzVYfewcu362g",
+        "Expiry": "1456162477",
+        "Uid": "68tiana@ebert.net",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -37,13 +37,13 @@
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "application/json; charset=utf-8",
         "Cache-Control": "no-cache",
-        "Set-Cookie": "_session_id=REU0a1Rha2dzanRWSTI0eXJFQ0JVQVRaRXVocVNETmx5alVhNU91dHBjK1FrRm53U1JheFByWEU2azg1ZGljaDdzTk9lY1NVNFc1UDdQdUp6b3BLRm5LWUVNNGJGdStMcDFoRmtINlZyVmhnZTJKY0tWTFg4ZC9OenptU0wxVjhUTVMrb1piaCtLSzNkOHJzYUs1OWprWWJlV3YzR2dlVEYzVjhhSkNlNUZNQVVHZXV2Z3liUnE3MjJkNXhCamY3LS1RYzZsd2c1T09TNEpqY3cwaW9ldEdnPT0%3D--0530b051e8baed034a988ef205fd5961342c3f78; path=/; HttpOnly",
-        "X-Request-Id": "11cc8378-c4c6-42ed-bf36-102dc4a7c815",
-        "X-Runtime": "0.070830",
+        "Set-Cookie": "_session_id=bml3eENNRG91ZiswOFczeUl0T0lXb2t0b3RPcFBlMEdOOXdSVlFGQXMveDUrbHB6TElpU0psVDV0S3lCb2M4ekpjMVl1NmoraW9uVm0rL3JGRG1kUDl4MlViNG1HMVRXTDRxVThxekVhOW5BaFRjSnBvUnF1QjY1SFZvcTVDUFYvU2ViTy9FMU1QTlA2VFFUdnpNQWxTZFFGeVdNWDdZSWlPeUx1K1FiSzFFOW1jaU1zWGN5REM4aGQ3VTdxSFpjLS1qNGxDQjRJbnJCN1BaNFFrRzhLQ0dnPT0%3D--9403ac2c9915da3efcf4a1a04309eb11c0dcf625; path=/; HttpOnly",
+        "X-Request-Id": "39620d8b-e72c-4fe1-9993-0c4358623832",
+        "X-Runtime": "0.071126",
         "Content-Length": "97"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/auth\" -d 'phone' -X PUT \\\n\t-H \"Access-Token: CIjTfNkYeCYh_bzuL66NAA\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: fwjMOvH5O_qr68B1a5-png\" \\\n\t-H \"Expiry: 1456161862\" \\\n\t-H \"Uid: 68mollie@streich.name\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/auth\" -d 'phone' -X PUT \\\n\t-H \"Access-Token: ywOrEq34ijYtHyq_lNIsgQ\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: 4ZiSQpnGZUzVYfewcu362g\" \\\n\t-H \"Expiry: 1456162477\" \\\n\t-H \"Uid: 68tiana@ebert.net\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

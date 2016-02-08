@@ -23,7 +23,7 @@
     {
       "request_method": "POST",
       "request_path": "/auth/sign_in",
-      "request_body": "email=46kylee_gulgowski%40homenick.name&password=secrety_bickety",
+      "request_body": "email=46denis.batz%40carrollblock.org&password=secrety_bickety",
       "request_headers": {
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
@@ -34,25 +34,25 @@
       "request_content_type": "application/x-www-form-urlencoded",
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\n  \"data\": {\n    \"id\": 1,\n    \"email\": \"46kylee_gulgowski@homenick.name\",\n    \"phone\": \"1-711-079-4274\",\n    \"provider\": \"email\",\n    \"uid\": \"46kylee_gulgowski@homenick.name\"\n  }\n}",
+      "response_body": "{\n  \"data\": {\n    \"id\": 1,\n    \"email\": \"46denis.batz@carrollblock.org\",\n    \"phone\": \"264.058.7958\",\n    \"provider\": \"email\",\n    \"uid\": \"46denis.batz@carrollblock.org\"\n  }\n}",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
-        "access-token": "DKkB08A0YAnFJtTJLXGCBQ",
+        "access-token": "T6MQSvEUY1za8zpcyoviKA",
         "token-type": "Bearer",
-        "client": "LXJTGD5eG-bW9Hl2wyfV1A",
-        "expiry": "1456161856",
-        "uid": "46kylee_gulgowski@homenick.name",
+        "client": "pWR6B02TOjxpS71OZQHlOA",
+        "expiry": "1456162472",
+        "uid": "46denis.batz@carrollblock.org",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"5567a0b8eb7bd5ee0273c8a49f0e41f4\"",
+        "ETag": "W/\"6f7351466fd71b4f15597eb201b0e530\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "X-Request-Id": "14c25bfa-d15b-4743-af41-7d5fb49b8721",
-        "X-Runtime": "0.156406",
-        "Content-Length": "143"
+        "X-Request-Id": "2b2f31a7-ded3-4ef4-aac1-6231a420ce19",
+        "X-Runtime": "0.156673",
+        "Content-Length": "137"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/auth/sign_in\" -d 'email=46kylee_gulgowski%40homenick.name&password=secrety_bickety' -X POST \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/auth/sign_in\" -d 'email=46denis.batz%40carrollblock.org&password=secrety_bickety' -X POST \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

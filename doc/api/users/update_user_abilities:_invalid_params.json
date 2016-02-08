@@ -20,11 +20,11 @@
       "request_path": "/admin/users/1/update_abilities",
       "request_body": "abilities[lalala]=1",
       "request_headers": {
-        "Access-Token": "G7Ckb0-puIHpodLqbwXZ4g",
+        "Access-Token": "r0jUTluSbVoMyXWj6wAcAQ",
         "Token-Type": "Bearer",
-        "Client": "KaHg769mMPx9IwggBEzFlw",
-        "Expiry": "1456161855",
-        "Uid": "44dudley@mills.net",
+        "Client": "VFPOqud6KOm3PX6OHnFw8A",
+        "Expiry": "1456162471",
+        "Uid": "44keith@schmitt.info",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -41,13 +41,13 @@
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "application/json; charset=utf-8",
         "Cache-Control": "no-cache",
-        "Set-Cookie": "_session_id=cHFTTmFRYUlEbUw4V0I4bXA1czY1Umw0cmwwYW9ZVHFOWDJYa2l5VmVDNUxla2tSV09FSGVPeGcrWGlyL1daQ2hPeFpGaXV6elJ2MTRPSUhEdFlKaFd5MWJBYk1MWlRMaStWRnlRL3QyNTlBbjl2WWpHYjRwRXl6S2toeVVwK3E0Q1hjcmU3QWVlb25TSUNJSVVLa2xJSzV3ZWNHQTMvdGhxREMycFVmclFSTEpDRFpCWWJtR2k5QXZCTVo5TkErLS0zVVFVcEdnckk2MjhGMTBaMThDY2xBPT0%3D--0ecd54389f69939700e74285fd57b1f2f8098b52; path=/; HttpOnly",
-        "X-Request-Id": "3311e53d-91eb-4736-8127-a20a349b1436",
-        "X-Runtime": "0.077586",
+        "Set-Cookie": "_session_id=QUtOdTJtRGVheFFFem82Uk5NYTNSRUZTV05MYVFTUDNVbEprQ3JsTkRrbHNRZDV1Q0Jtb0p6Q0ZNcjhKN242QVNudVBMMGhMUGVnWHVLVHNBSmtiYkVFSFJua0JWN1lmNlgyS1RsOFUrK3pNZXF5TW1mQ0ZWVU1TY1ZLenNycno4T2tsV3gwb3pSMHZxaDdtOGQ4NEpNbStTWWRxTitQeEJ6dXBTVnU0bjk3WXgxMTVIL0o2NDFWM3Q2K3ZOYkxmLS1Wbk5uZWljOG5PeDRYNzRVUVZHbG9nPT0%3D--37772ae3385b19bccb4c76b44caeaf7b3723a105; path=/; HttpOnly",
+        "X-Request-Id": "44e59b57-0e6b-4841-adac-400f4366d2b4",
+        "X-Runtime": "0.076779",
         "Content-Length": "47"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/admin/users/1/update_abilities\" -d 'abilities[lalala]=1' -X PUT \\\n\t-H \"Access-Token: G7Ckb0-puIHpodLqbwXZ4g\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: KaHg769mMPx9IwggBEzFlw\" \\\n\t-H \"Expiry: 1456161855\" \\\n\t-H \"Uid: 44dudley@mills.net\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/admin/users/1/update_abilities\" -d 'abilities[lalala]=1' -X PUT \\\n\t-H \"Access-Token: r0jUTluSbVoMyXWj6wAcAQ\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: VFPOqud6KOm3PX6OHnFw8A\" \\\n\t-H \"Expiry: 1456162471\" \\\n\t-H \"Uid: 44keith@schmitt.info\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

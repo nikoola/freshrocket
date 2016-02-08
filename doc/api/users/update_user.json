@@ -20,11 +20,11 @@
       "request_path": "/admin/users/1",
       "request_body": "user[phone]=%2B743278789789",
       "request_headers": {
-        "Access-Token": "L5X1cAdeiX6QJ18x4qdDqA",
+        "Access-Token": "vbR--tQfg7QSsvNxiy37Nw",
         "Token-Type": "Bearer",
-        "Client": "jjRk9esKERdzIP2Qg6RUCg",
-        "Expiry": "1456161855",
-        "Uid": "38luciano@mohr.biz",
+        "Client": "F3dBdw0xDBpkv6zAIWeCRQ",
+        "Expiry": "1456162470",
+        "Uid": "38coy@romaguera.info",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -34,21 +34,21 @@
       "request_content_type": "application/x-www-form-urlencoded",
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\n  \"id\": 1,\n  \"email\": \"37darrion_denesik@damore.info\",\n  \"phone\": \"+743278789789\",\n  \"provider\": \"email\",\n  \"uid\": \"37darrion_denesik@damore.info\",\n  \"created_at\": \"2016-02-08T17:24:15.298Z\"\n}",
+      "response_body": "{\n  \"id\": 1,\n  \"email\": \"37marques@dare.biz\",\n  \"phone\": \"+743278789789\",\n  \"provider\": \"email\",\n  \"uid\": \"37marques@dare.biz\",\n  \"created_at\": \"2016-02-08T17:34:30.842Z\"\n}",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"f360d22d0faa12746a51630a7949cf4e\"",
+        "ETag": "W/\"71d3070b341fb861943689325dc60328\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=L28yekdlbitOWDhnSHp0dUJRaW8rN0dCTXdXR2NWcUYwQ205OWlFTFpjd1BWMTBoaUxwWHNXTzgrOEU4Y0k2NFk2c2hrUHZCdlNJTllOa01LYW14TXZpUjNxdmQ3VDlPWVMxSytIejRvL0RvV0FGdGFUZnVVaGkra3UwT3pKeUpRclRwdE1TK3FNY3BFbGpFK0VFM0RpZ2FHektlWkxJdTdVK2Z6MFJTZzVybTlJYmJCS2NJUU9EdGtwRFlCVFFKLS10a0RUNXhJWkpEc2ZCNHF4bFF3aE5RPT0%3D--d753919a7f3118f0439f8f34af33f4d33779369d; path=/; HttpOnly",
-        "X-Request-Id": "e8f9f547-00ea-44ae-9b4e-5f98133588a1",
-        "X-Runtime": "0.080327",
-        "Content-Length": "169"
+        "Set-Cookie": "_session_id=eU0yaVY1NzdUVklhYzliTFlxeTYzOUZHZnI3NXQyN0lrYi9uQncrSmVZS0wyNTBwU1pidHprL0xZa1ptb05zUER2bzVsZ2VUeC96YVNONGdEZ1ZTNTMwQ1ljNWFrMjZwVTJRNjk4bDJtOVV1ck0vNG9YZXlrYnA3SEZaMXA5aFd3VjhrSXI1cFg3ZEI5VDBmYkdWVURwYnBudHR2SHJKYnUreWJROSt5N1JwVmp5SVBuUEZBVnV1QlQ2NGpnM3BFLS1BVGlta1JnTFB4bkpWdVREYlQ2dnpBPT0%3D--a9549864d96cef62835fc47732bf4e2ff251ef55; path=/; HttpOnly",
+        "X-Request-Id": "55fb8c5b-c41f-42d5-b27e-65d2dcb8b8c7",
+        "X-Runtime": "0.088539",
+        "Content-Length": "147"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/admin/users/1\" -d 'user[phone]=%2B743278789789' -X PUT \\\n\t-H \"Access-Token: L5X1cAdeiX6QJ18x4qdDqA\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: jjRk9esKERdzIP2Qg6RUCg\" \\\n\t-H \"Expiry: 1456161855\" \\\n\t-H \"Uid: 38luciano@mohr.biz\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/admin/users/1\" -d 'user[phone]=%2B743278789789' -X PUT \\\n\t-H \"Access-Token: vbR--tQfg7QSsvNxiy37Nw\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: F3dBdw0xDBpkv6zAIWeCRQ\" \\\n\t-H \"Expiry: 1456162470\" \\\n\t-H \"Uid: 38coy@romaguera.info\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

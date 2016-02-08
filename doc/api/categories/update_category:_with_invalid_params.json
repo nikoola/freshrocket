@@ -1,5 +1,5 @@
 {
-  "resource": "Products",
+  "resource": "Categories",
   "http_method": "PUT",
   "route": "/admin/categories/:id",
   "description": "update category: with invalid params",
@@ -21,11 +21,11 @@
       "request_path": "/admin/categories/1",
       "request_body": "category[name]",
       "request_headers": {
-        "Access-Token": "QsEc2JTarR7VokWbPs2tiQ",
+        "Access-Token": "RIeca03vtuDXoYBsjD-hVw",
         "Token-Type": "Bearer",
-        "Client": "kqGtLzirsQU0MUmEXPksHw",
-        "Expiry": "1456161850",
-        "Uid": "4ettie_goldner@kirlindaugherty.com",
+        "Client": "7Ji7MuQN_LlMQDluJrU3DQ",
+        "Expiry": "1456162466",
+        "Uid": "4katheryn@watsicaherzog.biz",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -42,13 +42,13 @@
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "application/json; charset=utf-8",
         "Cache-Control": "no-cache",
-        "Set-Cookie": "_session_id=RkhFTURiYjlNODRGQ3MrMDgxdnRIRDRCbmN4dGpJaGVpSUlMWHo0UzBmOWh1MjZEL0tUZEYrVldTVnBpMndXUk0wd2tKMnQ0V0I1b3BBU2xQSk1pRS9WcU9Fb0pJWEZtRERNb01PV1BaU1JnWVpzcnZHT1BzM1V4emFnNnlDVXZBeXFhZUxLNVFES0RIQk5YUGhlbGRrRmRmb3N2ZWVjWWh1L1B4SkxJUjZZcFVoNG5vY0N1cEtiWTlEbEdXTTVFLS15ckg2cTBmTVp6dlZPK0JJTE1tVFhRPT0%3D--d54affddf5f6b0ea05d46531db5dd2c812acec84; path=/; HttpOnly",
-        "X-Request-Id": "7d29efca-957e-4a2e-b79a-318a2542843e",
-        "X-Runtime": "0.077884",
+        "Set-Cookie": "_session_id=VmE5SEd5RGt2L0p0R1NCbEdtWmtZKzY4eXVFdWZBeXdlZlVQWGdqT1RhZjAwS0FhaVdlUGxEM1Mwb1U0U0VVT2NrZzVlQm9mQURwK08zdk16LzZ5a29oU2YxMzBjZEVPWVpuMEJGazZuRkVicWdOa2JCKzVpTU4xUXBTWGZYYkJEdUluekpmL3ZkdzRTL25yOWFTVjVqNWthdU5vQ1hxQ0ppWTdTQjA2NUtPdDVaZzdwRzJuUHhiOE41ZHMzblpxLS1kV0I1ZmVsb0V6Z2k4R0RhVFI0U3hRPT0%3D--5c9ab520a626ad6620c69fbd5bc433ac128c7c79; path=/; HttpOnly",
+        "X-Request-Id": "285f2374-5a25-4803-9502-ed9da7f7c0be",
+        "X-Runtime": "0.076698",
         "Content-Length": "27"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/admin/categories/1\" -d 'category[name]' -X PUT \\\n\t-H \"Access-Token: QsEc2JTarR7VokWbPs2tiQ\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: kqGtLzirsQU0MUmEXPksHw\" \\\n\t-H \"Expiry: 1456161850\" \\\n\t-H \"Uid: 4ettie_goldner@kirlindaugherty.com\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/admin/categories/1\" -d 'category[name]' -X PUT \\\n\t-H \"Access-Token: RIeca03vtuDXoYBsjD-hVw\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: 7Ji7MuQN_LlMQDluJrU3DQ\" \\\n\t-H \"Expiry: 1456162466\" \\\n\t-H \"Uid: 4katheryn@watsicaherzog.biz\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }
