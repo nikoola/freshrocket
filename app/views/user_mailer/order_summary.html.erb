@@ -1,0 +1,33 @@
+
+Your order number is: <%= @order.id %>
+
+You ordered the following:
+
+<table>
+	<thead>
+		<tr>
+			<th>product title</th>
+			<th>amount</th>			
+		</tr>
+	</thead>
+	<tbody>
+		<% @order.line_items.each do |line_item| %>
+				<tr>
+					<td><%= line_item.product.title %></td>
+					<td><%= line_item.amount %></td>				
+				</tr>
+		<% end %>
+	</tbody>
+</table>
+
+
+
+Your order will be delivered shortly
+
+<%= @order.delivery_date %>
+<%= @order.delivery_time %>
+
+
+
+
+

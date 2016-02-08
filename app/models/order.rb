@@ -16,7 +16,7 @@ class Order < ActiveRecord::Base
 	validates_inclusion_of :delivery_time, in: DELIVERY_TIMES, allow_blank: true, message: "%{value} is not permitted. can be #{DELIVERY_TIMES}"
 
 
-	before_save :set_order_pricing, on: :create #TODO decrease_stock
+	before_save :set_order_pricing, if: :unconfirmed? #TODO decrease_stock maybe?
 
 	include Filterable
 	scope :status,  -> (status)  { where status: status }
@@ -37,7 +37,7 @@ class Order < ActiveRecord::Base
 			transitions :from => :unconfirmed, :to => :confirmed, after: :decrease_stock
 		end
 		event :approve do
-			transitions :from => :confirmed, :to => :approved
+			transitions :from => :confirmed, :to => :approved, after: :send_order_summary
 		end
 		event :dispatch do
 			transitions :from => :approved, :to => :dispatched
@@ -126,6 +126,10 @@ class Order < ActiveRecord::Base
 			self.delivery_charge    = pricing.delivery_charge
 
 			self.total_price        = pricing.total
+		end
+
+		def send_order_summary
+			UserMailer.order_summary(self).deliver_later
 		end
 
 

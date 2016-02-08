@@ -58,3 +58,4 @@ gem 'regulator' # like pundit, but allows policy namespacing.
 gem 'acts-as-taggable-on'
 
 gem 'aasm'
+gem 'sidekiq'
