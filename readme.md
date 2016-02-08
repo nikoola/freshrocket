@@ -1,0 +1,12 @@
+
+setting up:
+
+	redis-server
+
+
+
+
+
+
+
+

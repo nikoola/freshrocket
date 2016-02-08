@@ -77,7 +77,7 @@ resource 'Users', type: :request do
 			explanation 'status 401 if user unauthenticated'
 
 			expect(status).to eq(200)
-			expect(json.keys).to include :id, :provider, :uid, :email, :phone, :created_at, :updated_at
+			expect(json.keys).to include :id, :provider, :uid, :email, :phone, :created_at
 		end
 
 		it 'unauthenticated user - 401', document: false do

@@ -29,7 +29,7 @@ resource 'Products', type: :request do
 			do_request({ product: valid_params })
 
 			expect(status).to eq(201)
-			expect(json.keys).to include :id, :title, :price, :created_at, :updated_at, :inventory_count, :city_id, :image
+			expect(json.keys).to include :id, :title, :price, :created_at, :updated_at, :inventory_count, :image_url
 		end
 
 		example 'create product: invalid params' do

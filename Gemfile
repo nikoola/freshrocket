@@ -59,3 +59,8 @@ gem 'acts-as-taggable-on'
 
 gem 'aasm'
 gem 'sidekiq'
+
+
+gem 'active_model_serializers'
+
+

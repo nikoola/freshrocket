@@ -5,13 +5,13 @@ class Admin::SettingsController < ApplicationController
 
 	# GET /admin/settings
 	def show
-		render json: Setting.instance, status: 200
+		render json: Setting.s, status: 200
 	end
 
 
 	# PATCH/PUT /admin/settings
 	def update
-		settings = Setting.instance
+		settings = Setting.s
 		if settings.update settings_params
 			render json: settings, status: 200
 		else

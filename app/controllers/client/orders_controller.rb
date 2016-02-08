@@ -65,7 +65,7 @@ module Client
 
 			def order_params
 				params.require(:order).permit([
-					:comment,
+					:comment, :delivery_date, :delivery_time,
 					line_items_attributes: [:_destroy, :id, :amount, :product_id]
 				])
 

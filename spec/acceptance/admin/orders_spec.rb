@@ -75,14 +75,14 @@ resource 'Users', type: :request do
 				:user_id,
 				:status,
 				:created_at,
-				:updated_at,
 				:comment,
 				:delivery_date,
 				:delivery_time,
 				:pure_product_price,
 				:tax,
 				:delivery_charge,
-				:total_price
+				:total_price,
+				:line_items
 			)
 		end
 	end

@@ -12,6 +12,7 @@ module Admin
 
 		# GET /admin/orders/1
 		def show
+			# binding.pry
 			render json: @order
 		end
 
@@ -67,7 +68,7 @@ module Admin
 
 			def order_params
 				params[:order].permit([
-					:comment,
+					:comment, :delivery_date, :delivery_time,
 					line_items_attributes: [:_destroy, :id, :amount, :product_id]
 				])
 
