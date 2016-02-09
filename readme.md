@@ -18,7 +18,9 @@ to see docs:
 	and go to http://localhost:3000/api/docs
 
 
+for rails developer:
 
+	rails g serializer delivery #use `spring stop` if stuck
 
 
 

@@ -8,11 +8,26 @@ class User < ActiveRecord::Base
 	has_many :orders, dependent: :destroy #TODO should we be able to delete users?
 	validates_presence_of :phone
 
+	has_many :deliveries, foreign_key: 'delivery_boy_id'#, inverse_of: :delivery_boy #for users with delivery_boy ability
+
 
 	acts_as_taggable_on :abilities
 
-	VALID_ABILITY_NAMES = %w(orders products users categories settings) #why tags and not create separate roles table? because it's nice to keep app logic in app.
+	VALID_ABILITY_NAMES = %w(orders products users categories settings delivery_boy) #why tags and not create separate roles table? because it's nice to keep app logic in app.
 	validate :validate_abilities
+
+
+	include Filterable
+	scope :email_includes, -> (text)    { where("email like ?", "%#{text}%") }
+	scope :phone_includes, -> (text)    { where("phone like ?", "%#{text}%") }
+	scope :has_abillity,   -> (ability) { tagged_with(ability) }
+
+
+
+
+
+
+
 
 
 

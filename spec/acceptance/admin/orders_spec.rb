@@ -76,8 +76,6 @@ resource 'Orders', type: :request do
 				:status,
 				:created_at,
 				:comment,
-				:delivery_date,
-				:delivery_time,
 				:pure_product_price,
 				:tax,
 				:delivery_charge,

@@ -7,7 +7,7 @@ gem 'rails', '4.2.5'
 gem 'sqlite3'
 
 
-gem 'rails-api'
+# gem 'rails-api'
 
 group :development, :test do
 	gem 'rspec-rails'
@@ -17,6 +17,7 @@ group :development, :test do
 
 	gem 'pry'
 	gem 'pry-rescue'
+	gem 'pry-rails'
 	
 	gem 'rspec_api_documentation'
 	gem 'apitome', git: 'git@github.com:modeset/apitome.git' #from master, because otherwise gsub error
@@ -24,10 +25,8 @@ group :development, :test do
 end
 
 group :development do
-
 	gem 'better_errors'
 	gem 'binding_of_caller' #for better errors console
-	gem 'pry-rails'
 
 	
 	gem 'spring' # Spring speeds up development by keeping your application running in the background.
@@ -53,7 +52,7 @@ gem 'omniauth' # required for devise_token_auth
 gem 'omniauth-facebook'
 
 
-gem 'regulator' # like pundit, but allows policy namespacing.
+# gem 'regulator' # like pundit, but allows policy namespacing.
 
 gem 'acts-as-taggable-on'
 

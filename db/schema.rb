@@ -29,6 +29,13 @@ ActiveRecord::Schema.define(version: 20160127185540) do
     t.string "name"
   end
 
+  create_table "deliveries", force: :cascade do |t|
+    t.integer "order_id"
+    t.date    "wanted_date"
+    t.string  "wanted_time"
+    t.integer "delivery_boy_id"
+  end
+
   create_table "line_items", force: :cascade do |t|
     t.integer "order_id"
     t.integer "product_id"
@@ -42,15 +49,13 @@ ActiveRecord::Schema.define(version: 20160127185540) do
   create_table "orders", force: :cascade do |t|
     t.integer  "user_id"
     t.string   "status"
-    t.datetime "created_at",                                 null: false
-    t.datetime "updated_at",                                 null: false
     t.text     "comment"
-    t.date     "delivery_date"
-    t.string   "delivery_time"
     t.decimal  "pure_product_price", precision: 8, scale: 2
     t.decimal  "tax",                precision: 8, scale: 2
     t.decimal  "delivery_charge",    precision: 8, scale: 2
     t.decimal  "total_price",        precision: 8, scale: 2
+    t.datetime "created_at",                                 null: false
+    t.datetime "updated_at",                                 null: false
   end
 
   add_index "orders", ["user_id"], name: "index_orders_on_user_id"

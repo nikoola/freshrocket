@@ -1,7 +1,7 @@
 module Admin
-	class CategoriesController < ApplicationController
+	class CategoriesController < BaseController
 		before_action :set_category, only: [:update, :destroy]
-		before_action :authenticate_user!, -> { authorize Category }
+		before_action -> { authorize 'categories' }
 
 
 		# POST /admin/categories

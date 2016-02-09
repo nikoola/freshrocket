@@ -42,8 +42,6 @@ resource 'Orders', type: :request do
 				:status,
 				:created_at,
 				:comment,
-				:delivery_date,
-				:delivery_time,
 				:pure_product_price,
 				:tax,
 				:delivery_charge,
@@ -56,8 +54,6 @@ resource 'Orders', type: :request do
 	post 'client/orders' do
 		with_options :scope => :order do
 			parameter :comment,       'comment to the order'
-			parameter :delivery_date, 'date client wants their delivery on'
-			parameter :delivery_time, "['morning', 'noon', 'evening']"
 		end
 
 		with_options :scope => [:order, :line_items_attributes], :required => true do
@@ -65,12 +61,20 @@ resource 'Orders', type: :request do
 			parameter :amount, 'amount of this product in a cart'
 		end
 
+		with_options :scope => [:order, :delivery_attributes] do
+			parameter :wanted_date, 'date client wants their delivery on'
+			parameter :wanted_time, "['morning', 'noon', 'evening'] time is limited between 7 am to 9 pm only, mention this in frontend"
+		end
+
 		example "create current user's order" do
 			do_request( 
 				order: { 
 					line_items_attributes: [
 						{ product_id: product.id, amount: 1000 }
-					]
+					],
+					delivery_attributes: {
+						wanted_date: Time.now
+					}
 				}
 			)
 
@@ -84,13 +88,16 @@ resource 'Orders', type: :request do
 
 		with_options :scope => :order do
 			parameter :comment, 'comment to the order'
-			parameter :delivery_date, 'date client wants their delivery on'
-			parameter :delivery_time, "['morning', 'noon', 'evening']. time is limited between 7 am to 9 pm only, mention this in frontend"
 		end
 
 		with_options :scope => [:order, :line_items_attributes], :required => true do
 			parameter :product_id, 'id of a product in a cart'
 			parameter :amount, 'amount of this product in a cart'
+		end
+
+		with_options :scope => [:order, :delivery_attributes] do
+			parameter :wanted_date, 'date client wants their delivery on'
+			parameter :wanted_time, "['morning', 'noon', 'evening'] time is limited between 7 am to 9 pm only, mention this in frontend"
 		end
 
 		let!(:line_item_id) { user_order.line_items.first.id }
@@ -110,7 +117,7 @@ resource 'Orders', type: :request do
 				order: { 
 					comment: 'hi',
 					line_items_attributes: [
-						{ 
+						{
 							id: line_item_id, 
 							_destroy: true 
 						}

@@ -1,7 +1,6 @@
 
 class ApplicationController < ActionController::Base
 	include DeviseTokenAuth::Concerns::SetUserByToken
-	include Regulator
 
 	protect_from_forgery with: :exception
 
@@ -23,11 +22,12 @@ class ApplicationController < ActionController::Base
 			# http://stackoverflow.com/questions/19791531/how-to-specify-devise-parameter-sanitizer-for-edit-action
 		end
 
-
-	rescue_from Regulator::NotAuthorizedError, with: :user_not_authorized
 	private
-		def user_not_authorized
-			render json: {}, status: 401
+
+		def authorize ability
+			unless current_user.has_abillity? ability
+				render json: {}, status: 401
+			end
 		end
 
 

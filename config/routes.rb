@@ -40,6 +40,16 @@ Rails.application.routes.draw do
 	end
 
 
+
+	namespace :delivery_boy do
+		resources :deliveries, only: [:index] do
+			member {
+				put :update_status
+			}
+		end
+	end
+
+
 	# guest -> client -> admin. admin can use whatever urls.
 
 

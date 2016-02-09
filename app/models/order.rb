@@ -2,18 +2,20 @@ class Order < ActiveRecord::Base
 	include AASM
 	include Filterable
 
+	has_one :delivery
+
 	belongs_to :user
 	has_many :line_items, inverse_of: :order, dependent: :destroy #so that on nested attrs order id in line_item is set
 	has_many :products, through: :line_items #for testing
 
 
 	accepts_nested_attributes_for :line_items, allow_destroy: true #Note that the :autosave option is automatically enabled on every association that #accepts_nested_attributes_for is used for
+	accepts_nested_attributes_for :delivery
 
 	validates_presence_of :user
 	validate :has_line_items?
 
-	DELIVERY_TIMES = ['morning', 'noon', 'evening']
-	validates_inclusion_of :delivery_time, in: DELIVERY_TIMES, allow_blank: true, message: "%{value} is not permitted. can be #{DELIVERY_TIMES}"
+
 
 
 	before_save :set_order_pricing, if: :unconfirmed? #TODO decrease_stock maybe?

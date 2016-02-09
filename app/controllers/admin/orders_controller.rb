@@ -1,7 +1,7 @@
 module Admin
-	class OrdersController < ApplicationController
+	class OrdersController < BaseController
 		before_action :set_order, only: [:show, :update, :destroy, :update_status]
-		before_action :authenticate_user!, -> { authorize Order }
+		before_action -> { authorize 'orders' }
 
 		# GET /admin/orders
 		def index
@@ -47,7 +47,7 @@ module Admin
 		def update_status
 			action = params[:order][:action]
 
-			if action.to_sym.in? [:approve, :dispatch, :deliver, :cancel]
+			if action.to_sym.in? [:approve, :dispatch, :cancel]
 				@order.update_status action
 				if @order.errors.blank?
 					head 200
@@ -68,7 +68,8 @@ module Admin
 
 			def order_params
 				params[:order].permit([
-					:comment, :delivery_date, :delivery_time,
+					:comment,
+					delivery_attributes: [:id, :wanted_date, :wanted_time, :order_id],
 					line_items_attributes: [:_destroy, :id, :amount, :product_id]
 				])
 

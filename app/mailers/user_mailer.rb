@@ -1,11 +1,11 @@
 class UserMailer < ApplicationMailer
-  default from: 'notifications@example.com'
+	default from: 'notifications@example.com'
 
-  def order_summary(order)
-    @order = order
+	def order_summary(order)
+		@order = order
 
-    mail(to: @order.user.email, subject: 'Your order has been approved')
-  end
+		mail(to: @order.user.email, subject: 'Your order has been approved')
+	end
 end
 
 
