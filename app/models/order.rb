@@ -47,7 +47,7 @@ class Order < ActiveRecord::Base
 		end
 		event :dispatch do
 			transitions :from => :approved, :to => :dispatched, 
-				guard: :delivery_ready?
+				guard: :delivery_boy_assigned?
 		end
 		event :deliver do
 			transitions :from => :dispatched, :to => :delivered
@@ -61,26 +61,6 @@ class Order < ActiveRecord::Base
 
 	DELIVERY_TIMES = ['morning', 'noon', 'evening']
 	validates_inclusion_of :wanted_time, in: DELIVERY_TIMES, allow_blank: true, message: "%{value} is not permitted. can be #{DELIVERY_TIMES}"
-
-
-	# def ready_to_be_passed_to_delivery_boy?
-	# 	delivery_boy.present?
-	# end
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -164,7 +144,7 @@ class Order < ActiveRecord::Base
 		end
 
 
-		def delivery_ready?
+		def delivery_boy_assigned?
 			if delivery_boy
 				true
 			else

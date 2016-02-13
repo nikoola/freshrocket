@@ -27,7 +27,6 @@ Rails.application.routes.draw do
 		resources :orders,      only: [:index, :show] do
 			member {
 				put :update_status     # status: ''
-				# get :may_update_status # status: ''
 			}
 		end
 		resources :users,       only: [:index, :show, :update] do
@@ -43,8 +42,7 @@ Rails.application.routes.draw do
 
 	namespace :deliver do
 		resource  :delivery_boy, only: [:update]
-		resources :deliveries,   only: [:index]
-		resources :orders,       only: [] do #TODO scope
+		resources :orders,       only: [:index] do
 			member {
 				put :update_status
 			}
@@ -52,7 +50,6 @@ Rails.application.routes.draw do
 	end
 
 
-	# guest -> client -> admin. admin can use whatever urls.
 
 
 

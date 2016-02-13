@@ -8,7 +8,7 @@ class User < ActiveRecord::Base
 					:omniauthable
 	include DeviseTokenAuth::Concerns::User
 
-	belongs_to :city #for delivery boys to be found based on their location. and for users to be given default city on log in.
+	belongs_to :city
 
 	has_many :orders, dependent: :destroy #TODO should we be able to delete users?
 	validates_presence_of :phone

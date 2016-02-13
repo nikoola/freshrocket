@@ -3,10 +3,17 @@ module Deliver
 		before_action :set_order, only: [:update_status]
 		
 
-		def update_status #@order must be current_user's
+		def index
+			@orders = current_user.delivery_boy.orders.filter params.slice(:status)
+
+			render json: @orders
+		end
+
+
+		def update_status
 			action = params[:order][:action]
 
-			if action.to_sym == :deliver
+			if action.to_sym.in? [:deliver]
 				@order.update_status action
 				if @order.errors.empty?
 					head 200
@@ -16,6 +23,7 @@ module Deliver
 			else
 				render json: {error: "this user can't #{action} order"}, status: 401
 			end
+
 		end
 
 
@@ -23,15 +31,15 @@ module Deliver
 		private
 
 			def set_order
-				head status: 404 unless @order = current_user.orders_to_deliver.find_by(id: params[:id])
+				head status: 404 unless @order = current_user.delivery_boy.orders.find_by(id: params[:id])
 			end
 
 			def order_params
-				params.require(:order).permit([
-					:comment,
-					delivery_attributes: [:id, :wanted_date, :wanted_time],
-					line_items_attributes: [:_destroy, :id, :amount, :product_id]
-				])
+				# params.require(:order).permit([
+				# 	:comment,
+				# 	delivery_attributes: [:id, :wanted_date, :wanted_time],
+				# 	line_items_attributes: [:_destroy, :id, :amount, :product_id]
+				# ])
 
 				# no :fixed_price, :status, :user_id
 			end

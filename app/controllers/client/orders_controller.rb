@@ -43,7 +43,7 @@ module Client
 		def update_status #@order must be current_user's
 			action = params[:order][:action]
 			# binding.pry
-			if action.to_sym == :confirm
+			if action.to_sym.in? [:confirm]
 				@order.update_status action
 				if @order.errors.empty?
 					head 200

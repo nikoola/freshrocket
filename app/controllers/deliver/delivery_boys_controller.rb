@@ -1,6 +1,6 @@
 module Deliver
 	class DeliveryBoysController < BaseController
-		before_action :set_delivery_boy, only: [:update_status]
+		before_action :set_delivery_boy, only: [:update]
 
 		def update #@delivery_boy must be current_user's
 
