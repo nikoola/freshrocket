@@ -120,11 +120,27 @@ resource 'Users', type: :request do
 				expect(prohibited_user.abilities.map(&:name)).to match_array(['users'])
 			end
 
-			it 'update user abilities: invalid params' do
+			example 'update user abilities: invalid params' do
 				do_request(id: prohibited_user.id, abilities: {'lalala' => 1})
 
 				expect(status).to eq(422)
 				expect(json).to include(:abilities=>["lalala is not a valid ability"])
+			end
+
+			it 'adding :delivery_boy ability creates :delivery_boy', document: false do
+				do_request(id: prohibited_user.id, abilities: {'delivery_boy' => 1})
+
+				expect(status).to eq(200)
+				expect(DeliveryBoy.last.user_id).to eq(prohibited_user.id)
+			end
+
+			it 'deleting :delivery_boy ability makes :delivery_boy fired', document: false do
+				do_request(id: prohibited_user.id, abilities: {'delivery_boy' => 1})
+				do_request(id: prohibited_user.id, abilities: {'delivery_boy' => 0})
+
+				expect(status).to eq(200)
+				expect(DeliveryBoy.last.user_id).to eq(prohibited_user.id)
+				expect(DeliveryBoy.last.status).to eq('fired')
 			end
 		end
 
@@ -134,6 +150,8 @@ resource 'Users', type: :request do
 				expect_status 401
 			end
 		end
+
+
 	end
 
 end

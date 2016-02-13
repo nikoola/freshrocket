@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20160127185540) do
+ActiveRecord::Schema.define(version: 20160127185541) do
 
   create_table "categories", force: :cascade do |t|
     t.string "name"
@@ -29,11 +29,11 @@ ActiveRecord::Schema.define(version: 20160127185540) do
     t.string "name"
   end
 
-  create_table "deliveries", force: :cascade do |t|
-    t.integer "order_id"
-    t.date    "wanted_date"
-    t.string  "wanted_time"
-    t.integer "delivery_boy_id"
+  create_table "delivery_boys", force: :cascade do |t|
+    t.integer "user_id"
+    t.string  "lat"
+    t.string  "long"
+    t.string  "status"
   end
 
   create_table "line_items", force: :cascade do |t|
@@ -56,6 +56,9 @@ ActiveRecord::Schema.define(version: 20160127185540) do
     t.decimal  "total_price",        precision: 8, scale: 2
     t.datetime "created_at",                                 null: false
     t.datetime "updated_at",                                 null: false
+    t.date     "wanted_date"
+    t.string   "wanted_time"
+    t.integer  "delivery_boy_id"
   end
 
   add_index "orders", ["user_id"], name: "index_orders_on_user_id"
@@ -99,6 +102,7 @@ ActiveRecord::Schema.define(version: 20160127185540) do
   add_index "tags", ["name"], name: "index_tags_on_name", unique: true
 
   create_table "users", force: :cascade do |t|
+    t.integer  "city_id"
     t.string   "email"
     t.string   "phone"
     t.string   "provider",               default: "email", null: false

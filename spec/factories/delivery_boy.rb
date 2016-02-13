@@ -1,10 +1,11 @@
 FactoryGirl.define do
-	factory :delivery do
+	factory :delivery_boy do
 
-		wanted_date Time.now
-		wanted_time 'morning'
-		association :order
-		association :user #delivery_boy
+		lat '23432'
+		long '432432'
+		status 'available'
+		association :user
+
 
 	end
 end

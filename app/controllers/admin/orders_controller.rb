@@ -67,9 +67,8 @@ module Admin
 			end
 
 			def order_params
-				params[:order].permit([
-					:comment,
-					delivery_attributes: [:id, :wanted_date, :wanted_time, :order_id],
+				params.require(:order).permit([
+					:comment, :wanted_date, :wanted_time,
 					line_items_attributes: [:_destroy, :id, :amount, :product_id]
 				])
 

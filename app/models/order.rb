@@ -2,15 +2,17 @@ class Order < ActiveRecord::Base
 	include AASM
 	include Filterable
 
-	has_one :delivery
 
 	belongs_to :user
+	belongs_to :delivery_boy
+
+
+	
 	has_many :line_items, inverse_of: :order, dependent: :destroy #so that on nested attrs order id in line_item is set
 	has_many :products, through: :line_items #for testing
 
 
 	accepts_nested_attributes_for :line_items, allow_destroy: true #Note that the :autosave option is automatically enabled on every association that #accepts_nested_attributes_for is used for
-	accepts_nested_attributes_for :delivery
 
 	validates_presence_of :user
 	validate :has_line_items?
@@ -36,21 +38,48 @@ class Order < ActiveRecord::Base
 		state :canceled
 
 		event :confirm do
-			transitions :from => :unconfirmed, :to => :confirmed, after: :decrease_stock
+			transitions :from => :unconfirmed, :to => :confirmed, 
+				after: :decrease_stock
 		end
 		event :approve do
-			transitions :from => :confirmed, :to => :approved, after: :send_order_summary
+			transitions :from => :confirmed, :to => :approved, 
+				after: :send_order_summary
 		end
 		event :dispatch do
-			transitions :from => :approved, :to => :dispatched
+			transitions :from => :approved, :to => :dispatched, 
+				guard: :delivery_ready?
 		end
 		event :deliver do
 			transitions :from => :dispatched, :to => :delivered
 		end
 		event :cancel do
-			transitions :from => [:confirmed, :approved], :to => :canceled, after: :increase_stock
+			transitions :from => [:confirmed, :approved], :to => :canceled, 
+				after: :increase_stock
 		end
 	end
+
+
+	DELIVERY_TIMES = ['morning', 'noon', 'evening']
+	validates_inclusion_of :wanted_time, in: DELIVERY_TIMES, allow_blank: true, message: "%{value} is not permitted. can be #{DELIVERY_TIMES}"
+
+
+	# def ready_to_be_passed_to_delivery_boy?
+	# 	delivery_boy.present?
+	# end
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -134,6 +163,16 @@ class Order < ActiveRecord::Base
 			UserMailer.order_summary(self).deliver_later
 		end
 
+
+		def delivery_ready?
+			if delivery_boy
+				true
+			else
+				errors.add(:order, 'needs to be assigned to some delivery boy before dispatching')
+				false
+			end
+
+		end
 
 
 end

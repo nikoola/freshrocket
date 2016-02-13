@@ -79,7 +79,6 @@ resource 'Orders', type: :request do
 			)
 
 			expect(status).to eq(201)
-		
 			expect(json).to include :delivery_charge=>"0.0"
 		end
 	end

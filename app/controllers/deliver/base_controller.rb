@@ -1,4 +1,4 @@
-module DeliveryBoy
+module Deliver
 	class BaseController < ::ApplicationController
 
 		before_action :authenticate_user!

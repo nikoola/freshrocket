@@ -126,6 +126,19 @@ describe Order, type: :model do
 			end
 		end
 
+		describe 'dispatch!' do
+			it 'fails if no delivery_boy' do
+				order = FactoryGirl.create :order
+				order.confirm!
+				order.approve!
+
+				expect(order.dispatch!).to be(false)
+				expect(order.status).to eq('approved')
+				expect(order.errors.messages).to include(order: ["needs to be assigned to some delivery boy before dispatching"])
+			end
+		end
+
+
 
 	end
 

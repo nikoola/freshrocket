@@ -22,5 +22,7 @@ for rails developer:
 
 	rails g serializer delivery #use `spring stop` if stuck
 
+	always add user ability through user.add_ability 'orders' to run callbacks.
+
 
 

@@ -134,9 +134,23 @@ resource 'Orders', type: :request do
 			order.confirm!
 			order.approve!
 
+			order.delivery_boy = FactoryGirl.create :delivery_boy
+			order.save
+
 			put "/admin/orders/#{order.id}/update_status", {order: {action: 'dispatch'}}, auth_headers
 			expect_status 200
 			expect(order.reload.status).to eq('dispatched')
+		end
+
+		it 'cant update to dispatched if delivery has no delivery_boy' do
+			order.confirm!
+			order.approve!
+
+			do_request({ id: order.id, order: {action: 'dispatch'} })
+
+			expect(status).to eq(422)
+			expect(order.reload.status).to eq('approved')
+			expect(json).to include({:order=>["needs to be assigned to some delivery boy before dispatching"], :status=>["status cannot transition from approved to dispatch"]})
 		end
 
 

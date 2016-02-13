@@ -44,27 +44,15 @@ module Admin
 
 
 		def list_abilities
-			hash = {}
-
-			User::VALID_ABILITY_NAMES.each do |ability_name|
-				hash[ability_name] = @user.has_abillity?(ability_name) ? 1 : 0
-			end
+			manipulation = ManipulateUserAbilities.new @user
+			hash = manipulation.list
 
 			render json: {abilities: hash}, status: 200
 		end
 
 		def update_abilities
-
-			params[:abilities].each do |ability_name, value|
-				case value
-				when '0'
-					@user.ability_list.remove(ability_name)
-				when '1'
-					@user.ability_list.add(ability_name)
-				else
-					render json: 'value should be 1 or 0', status: :unprocessable_entity
-				end
-			end
+			manipulation = ManipulateUserAbilities.new @user, params[:abilities]
+			manipulation.update
 
 			if @user.save
 				head 200

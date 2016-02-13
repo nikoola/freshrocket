@@ -36,13 +36,15 @@ Rails.application.routes.draw do
 				get :list_abilities   #see user abilities
 			}
 		end
-		resource :settings, only: [:show, :update]
+		resource :settings,      only: [:show, :update]
 	end
 
 
 
-	namespace :delivery_boy do
-		resources :deliveries, only: [:index] do
+	namespace :deliver do
+		resource  :delivery_boy, only: [:update]
+		resources :deliveries,   only: [:index]
+		resources :orders,       only: [] do #TODO scope
 			member {
 				put :update_status
 			}
