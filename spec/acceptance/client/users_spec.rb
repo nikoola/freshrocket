@@ -13,11 +13,11 @@ resource 'Users', type: :request do
 
 		post '/auth' do
 			example 'create user' do
-				do_request FactoryGirl.attributes_for(:user, phone: '+7489234327') #devise_parameter_sanitizer
+				do_request FactoryGirl.attributes_for(:user, phone: '+79172343270') #devise_parameter_sanitizer
 
 				expect(status).to eq(200)
 				expect(json[:status]).to eq('success')
-				expect(json[:data].keys).to include :id, :email, :phone, :provider, :uid, :created_at, :updated_at
+				expect(json[:data].keys).to include :id, :email, :phone, :provider, :uid, :created_at, :updated_at, :is_verified
 			end
 
 			example 'create user: invalid params' do
@@ -46,11 +46,13 @@ resource 'Users', type: :request do
 
 		put '/auth' do
 			it 'user updates self' do
-				do_request({ phone: '+7927333333' })
+				explanation 'if phone is updates, is_verified is set to false'
+				do_request({ phone: '+79174446666' })
 
 				user.reload
 				# expect(user.role).not_to eq('admin') #application_controller, devise_parameter_sanitizer. should not be able to make itself admin.
-				expect(user.phone).to eq('+7927333333')
+				expect(user.phone).to eq('+79174446666')
+				expect(user.is_verified).to be(false)
 
 				expect(status).to eq(200)
 				expect(json[:status]).to eq('success')
@@ -62,7 +64,7 @@ resource 'Users', type: :request do
 
 				expect(status).to eq(403)
 				expect(json[:status]).to eq('error')
-				expect(json[:errors]).to include :phone=>["can't be blank"], :full_messages=>["Phone can't be blank"]
+				expect(json[:errors]).to include :phone => ["can't be blank", "is invalid"]
 			end
 		end
 

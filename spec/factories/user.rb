@@ -5,18 +5,26 @@ FactoryGirl.define do
 		password              'secrety_bickety'
 		password_confirmation 'secrety_bickety'
 
-		phone                 { Faker::PhoneNumber.cell_phone }
+		sequence(:phone)       { |i| "+7917#{rand(10..99)}6888#{i.to_s[0]}" }
 
 		transient do
 			abilities           []
 		end
 
 		after(:create) do |user, evaluator|
-		  user.ability_list = evaluator.abilities
-		  user.save; user.reload
+			evaluator.abilities.each do |ability|
+				user.add_ability ability
+			end
+			user.save; user.reload
 		end
 
+	end
 
 
+	factory :verified_user, parent: :user do
+		after(:create) do |user, evaluator|
+			user.save
+			user.update(is_verified: true)
+		end
 	end
 end

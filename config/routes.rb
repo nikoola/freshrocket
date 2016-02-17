@@ -12,37 +12,44 @@ Rails.application.routes.draw do
 
 	mount_devise_token_auth_for 'User', at: 'auth' #this is for compatibility with ng
 	resource :user, module: 'client', path: :client, as: :client, only: [:show] do
-		resources :orders,    only: [:index, :show, :create, :update] do #TODO can only destroy if order.condirmed? or order.unconfirmed?
+		member {
+			post :send_verification_sms
+			put  :verify
+		}
+
+		resources :orders,    only: [:index, :show, :create, :update, :destroy] do #TODO can only destroy if order.condirmed? or order.unconfirmed?
 			member {
 				put :update_status
 			}
 		end
+
 	end
 
 
 	namespace :admin do #admins see in admin panel
 	#under /admin we will only have the urls that require admin account.
-		resources :categories,  only: [:create, :update, :destroy] #no need for show
-		resources :products,    only: [:create, :update, :destroy]
-		resources :orders,      only: [:index, :show] do
+		resources :categories,   only: [:create, :update, :destroy] #no need for show
+		resources :products,     only: [:create, :update, :destroy]
+		resources :orders,       only: [:index, :show] do
 			member {
 				put :update_status     # status: ''
 			}
 		end
-		resources :users,       only: [:index, :show, :update] do
+		resources :users,        only: [:index, :show, :update] do
 			member {
 				put :update_abilities #update abilities for a user
 				get :list_abilities   #see user abilities
 			}
 		end
-		resource :settings,      only: [:show, :update]
+		resources :delivery_boys, only: [:index]
+		resource :settings,       only: [:show, :update]
 	end
 
 
 
 	namespace :deliver do
-		resource  :delivery_boy, only: [:update]
-		resources :orders,       only: [:index] do
+		resource  :delivery_boy,  only: [:update]
+		resources :orders,        only: [:index] do
 			member {
 				put :update_status
 			}

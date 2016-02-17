@@ -13,9 +13,12 @@ class ApplicationController < ActionController::Base
 		def configure_permitted_parameters
 			# devise_parameter_sanitizer.for(:account_update) << :role #WORKS
 			devise_parameter_sanitizer.for(:account_update) << :phone
+			devise_parameter_sanitizer.for(:account_update) << :city_id
 
 			# devise_parameter_sanitizer.for(:sign_up) << :role
 			devise_parameter_sanitizer.for(:sign_up) << :phone
+			devise_parameter_sanitizer.for(:account_update) << :city_id
+
 			#TODO :email, :password, :password_confirmation, :role, :phone
 			# devise_parameter_sanitizer.for(:account_update) { |u| u.permit(:email,...) }
 			# doesn't seem to work?
@@ -26,9 +29,11 @@ class ApplicationController < ActionController::Base
 
 		def authorize ability
 			unless current_user.has_abillity? ability
-				render json: {}, status: 401
+				render json: { error: "user doesn't have a #{ability} ability to access this page" }, status: 401
 			end
 		end
+
+
 
 
 end

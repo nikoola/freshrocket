@@ -12,6 +12,8 @@ require "sprockets/railtie"
 # you've limited to :test, :development, or :production.
 Bundler.require(*Rails.groups)
 
+Dotenv::Railtie.load #TODO on production
+
 module Rivo
   class Application < Rails::Application
 
@@ -26,7 +28,7 @@ module Rivo
       g.fixture_replacement :factory_girl, dir: "spec/factories"
     end
 
-    config.autoload_paths << Rails.root.join('app/services')
+    config.autoload_paths << Rails.root.join('app/services', 'app/jobs')
     # Settings in config/environments/* take precedence over those specified here.
     # Application configuration should go into files in config/initializers
     # -- all .rb files in that directory are automatically loaded.

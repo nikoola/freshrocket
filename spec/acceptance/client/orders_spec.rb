@@ -2,7 +2,7 @@ require 'rails_helper'
 
 resource 'Orders', type: :request do
 
-	let(:user) { FactoryGirl.create :user }
+	let(:user) { FactoryGirl.create :verified_user }
 	let(:auth_headers) { user.create_new_auth_token }
 
 	include_context 'shared_headers'
@@ -152,13 +152,22 @@ resource 'Orders', type: :request do
 	end
 
 
-	# delete '/client/orders/:id' do
-	# 	example 'delete order' do
-	# 		do_request id: user_order.id
+	delete '/client/orders/:id' do
+		example 'delete order' do
+			# user_order.confirm!
+			do_request id: user_order.id
 
-	# 		expect(status).to eq(200)
-	# 	end
-	# end
+			expect(status).to eq(200)
+		end
+
+		example 'delete order: after confirm' do
+			user_order.confirm!
+			do_request id: user_order.id
+
+			expect(status).to eq(422)
+			expect(json).to include(:order=>["can't be destroyed after confirmation, please try declining"])
+		end
+	end
 
 
 	put '/client/orders/:id/update_status' do
@@ -208,6 +217,7 @@ resource 'Orders', type: :request do
 
 		it 'admin user gets 404 error (because we cant find this order in his orders)', document: false do
 			@admin = FactoryGirl.create :user, abilities: ['orders']
+			@admin.update(is_verified: true)
 			@admin_auth_headers = @admin.create_new_auth_token
 			put "/client/orders/#{user_order.id}/update_status", { order: { action: 'confirm' } }, @admin_auth_headers
 

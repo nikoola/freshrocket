@@ -30,6 +30,10 @@ module Admin
 		def update
 
 			if @user.update(user_params)
+				if params[:user][:is_verified] == 'true'
+					@user.update! is_verified: true # because if phone changed is_verified will be reset to false.
+					# alternative is passing current_user to the model.
+				end
 				render json: @user, status: 200
 			else
 				render json: @user.errors, status: :unprocessable_entity
@@ -69,7 +73,7 @@ module Admin
 			end
 
 			def user_params
-				params.require(:user).permit! #TODO
+				params.require(:user).permit(:city_id, :phone)
 			end
 
 

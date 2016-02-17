@@ -5,13 +5,23 @@ class User < ActiveRecord::Base
 
 	devise :database_authenticatable, :registerable,
 					:recoverable, :rememberable, :trackable, :validatable,
-					:omniauthable
+					:omniauthable #TODO get rid of some
 	include DeviseTokenAuth::Concerns::User
 
 	belongs_to :city
 
 	has_many :orders, dependent: :destroy #TODO should we be able to delete users?
 	validates_presence_of :phone
+	validates_uniqueness_of :phone
+
+	validates :phone, phone: { possible: false, types: [:mobile] } #phonelib
+
+	before_save :reset_verification
+
+	def reset_verification
+		self.is_verified = false if phone_changed?; true
+	end
+
 
 
 
@@ -47,7 +57,11 @@ class User < ActiveRecord::Base
 		if !ability_list.include? ability_name
 
 			if ability_name.to_sym == :delivery_boy
-				build_delivery_boy
+				if delivery_boy
+					delivery_boy.status = :unavailable #from fired to unavailable.
+				else
+					build_delivery_boy
+				end
 			end #alternative to callbacks. because well, there are no callbacks for aato.
 
 			ability_list.add(ability_name)

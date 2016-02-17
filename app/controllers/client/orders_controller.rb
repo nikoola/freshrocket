@@ -1,5 +1,7 @@
 module Client
 	class OrdersController < BaseController
+		# only verified user
+		before_action -> { restrict_to_verified_users }, only: [:create, :update, :update_status]
 		before_action :set_order, only: [:show, :update, :destroy, :update_status]
 
 		# GET /client/orders
@@ -34,11 +36,16 @@ module Client
 			end
 		end
 
-		# # DELETE /client/orders/1
-		# def destroy #only if order.unconfirmed?
-		# 	@order.destroy
-		# 	head 200
-		# end
+		# DELETE /client/orders/1
+		def destroy 
+			if @order.unconfirmed? 
+				@order.destroy
+				head 200
+			else
+				@order.errors.add(:order, "can't be destroyed after confirmation, please try declining")
+				render json: @order.errors , status: :unprocessable_entity
+			end
+		end
 
 		def update_status #@order must be current_user's
 			action = params[:order][:action]
@@ -51,7 +58,7 @@ module Client
 					render json: @order.errors, status: :unprocessable_entity
 				end
 			else
-				render json: {error: "this user can't #{action} order"}, status: 401
+				render json: { error: "this user can't #{action} order" }, status: 401
 			end
 		end
 
@@ -71,5 +78,7 @@ module Client
 
 				# no :fixed_price, :status, :user_id
 			end
+
+
 	end
 end

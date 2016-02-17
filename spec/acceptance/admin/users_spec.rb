@@ -75,17 +75,52 @@ resource 'Users', type: :request do
 	put '/admin/users/:id' do
 
 		with_options scope: :user do
+			parameter :city_id
 			parameter :phone
+			parameter :is_verified, 'user automatically becomes unverified unless on phone change unless is_verified is set to true'
 		end
 
 		example 'update user' do
+			prohibited_user.update!(is_verified: true)
+
 			do_request({
 				id: prohibited_user.id,
 				user: {
-					phone: '+743278789789'
+					phone: '+79177878978'
 				}
 			})
+
 			expect(status).to eq(200)
+			expect(prohibited_user.reload.is_verified).to be(false)
+		end
+
+		it 'update user, is_verified can be set to true', document: false do
+
+			do_request({
+				id: prohibited_user.id,
+				user: {
+					phone: '+79177878978',
+					is_verified: 'true'
+				}
+			})
+
+			expect(status).to eq(200)
+			expect(prohibited_user.reload.is_verified).to be(true)
+		end
+
+		it 'update user, is_verified can doesnt change if no phone updated', document: false do
+			prohibited_user.update!(is_verified: true)
+			city = FactoryGirl.create(:city)
+
+			do_request({
+				id: prohibited_user.id,
+				user: {
+					city_id: city.id
+				}
+			})
+
+			expect(status).to eq(200)
+			expect(prohibited_user.reload.is_verified).to be(true)
 		end
 	end
 

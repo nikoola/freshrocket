@@ -55,7 +55,7 @@ module Admin
 					render json: @order.errors, status: :unprocessable_entity
 				end
 			else
-				render json: {error: "this user can't #{action} order"}, status: 401
+				render json: { error: "this user can't #{action} order" }, status: 401
 			end
 
 		end

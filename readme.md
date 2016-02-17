@@ -6,8 +6,11 @@ there is an angular plugin for a smooth integration with that gem and a jquery l
 
 
 to run rspecs successully:
+	redis-server --daemonize yes
 
-	redis-server --daemonize yes 
+to run things in console/deloyment successfully:
+	redis-server --daemonize yes
+	sidekiq
 
 
 
@@ -24,5 +27,11 @@ for rails developer:
 
 	always add user ability through user.add_ability 'orders' to run callbacks.
 
+	if 401, return json in the form of error: 'all bad'.
+	if 422, {base: ['bad'], order: ['worse']}
+
+TODO:
+
+	change aato to rolify. it supports proper callbacks,
 
 

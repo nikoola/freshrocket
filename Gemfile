@@ -22,6 +22,8 @@ group :development, :test do
 	gem 'rspec_api_documentation'
 	gem 'apitome', git: 'git@github.com:modeset/apitome.git' #from master, because otherwise gsub error
 	gem 'faker'
+
+	gem 'dotenv-rails'
 end
 
 group :development do
@@ -61,5 +63,10 @@ gem 'sidekiq'
 
 
 gem 'active_model_serializers'
+
+# gem 'activemerchant'  
+
+gem 'twilio-ruby'
+gem 'phonelib' #validates phone numbers
 
 
