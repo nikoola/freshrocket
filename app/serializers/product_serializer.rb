@@ -5,7 +5,7 @@ class ProductSerializer < ActiveModel::Serializer
   	:created_at, :updated_at,
   	:inventory_count, :image_url
 
-  def method_name
+  def image_url
   	object.image.url
   end
 end

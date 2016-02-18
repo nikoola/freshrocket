@@ -29,20 +29,20 @@ resource 'Users', type: :request do
 			end
 		end
 
-		delete '/auth' do
-			example_request 'user deletes self' do
+		# delete '/auth' do
+		# 	example_request 'user deletes self' do
 
-				expect(status).to eq(200)
-				expect(json[:status]).to eq('success')
-				expect(json[:message]).to match(/has been destroyed/)
-			end
+		# 		expect(status).to eq(200)
+		# 		expect(json[:status]).to eq('success')
+		# 		expect(json[:message]).to match(/has been destroyed/)
+		# 	end
 
-			it '404 with no headers', document: false do
-				delete '/auth', {}#, @auth_headers
-				expect_json status: 'error', errors: ["Unable to locate account for destruction."]
-				expect_status 404
-			end
-		end
+		# 	it '404 with no headers', document: false do
+		# 		delete '/auth', {}#, @auth_headers
+		# 		expect_json status: 'error', errors: ["Unable to locate account for destruction."]
+		# 		expect_status 404
+		# 	end
+		# end
 
 		put '/auth' do
 			it 'user updates self' do

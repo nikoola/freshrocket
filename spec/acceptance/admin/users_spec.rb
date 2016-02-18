@@ -53,6 +53,7 @@ resource 'Users', type: :request do
 		example 'get user' do
 			do_request({id: prohibited_user.id})
 			expect(status).to eq(200)
+			expect(json[:abilities]).to include(:orders=>0, :products=>0, :users=>0, :categories=>1, :settings=>0)
 		end
 	end
 
@@ -131,17 +132,6 @@ resource 'Users', type: :request do
 	# 	end
 	# end
 
-
-
-
-	get '/admin/users/:id/list_abilities' do
-		example 'get resources user can and cant edit' do
-			prohibited_user.ability_list = ['users']
-			prohibited_user.save; prohibited_user.reload; #only appears on reload in .abilities list
-			do_request({id: prohibited_user.id})
-			expect(json[:abilities]).to include(:orders=>0, :products=>0, :users=>1, :categories=>0, :settings=>0)
-		end
-	end
 
 
 	put '/admin/users/:id/update_abilities' do

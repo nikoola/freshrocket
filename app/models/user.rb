@@ -85,6 +85,7 @@ class User < ActiveRecord::Base
 
 
 
+
 	private
 
 		def validate_abilities

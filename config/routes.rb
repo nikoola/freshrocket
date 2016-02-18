@@ -38,7 +38,6 @@ Rails.application.routes.draw do
 		resources :users,        only: [:index, :show, :update] do
 			member {
 				put :update_abilities #update abilities for a user
-				get :list_abilities   #see user abilities
 			}
 		end
 		resources :delivery_boys, only: [:index]

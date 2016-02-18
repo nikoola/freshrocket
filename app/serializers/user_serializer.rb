@@ -3,8 +3,12 @@ class UserSerializer < ActiveModel::Serializer
   	:email, :phone, :is_verified,
 		:provider,
 		:uid,
-		:created_at
+		:created_at,
+		:abilities
 
-
+		def abilities
+			manipulation = ManipulateUserAbilities.new object
+			manipulation.list
+		end
 
 end

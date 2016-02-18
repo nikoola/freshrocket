@@ -1,7 +1,7 @@
 module Admin
 	class UsersController < BaseController
 
-		before_action :set_user, only: [:show, :update, :destroy, :update_abilities, :list_abilities]
+		before_action :set_user, only: [:show, :update, :destroy, :update_abilities]
 		before_action -> { authorize 'users' }
 
 		# GET /users
@@ -46,13 +46,6 @@ module Admin
 		# 	head 200
 		# end
 
-
-		def list_abilities
-			manipulation = ManipulateUserAbilities.new @user
-			hash = manipulation.list
-
-			render json: {abilities: hash}, status: 200
-		end
 
 		def update_abilities
 			manipulation = ManipulateUserAbilities.new @user, params[:abilities]
