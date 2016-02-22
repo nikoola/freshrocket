@@ -12,9 +12,9 @@ resource 'Payments', type: :request do
 		parameter 'amount'
 
 		example 'return all forms for payment' do
-			do_request
+			do_request(order_id: 1, amount: 12)
 
-			expect(json[:citrus][:fields]).to include(orderAmount: "10")
+			expect(json[:citrus][:fields]).to include(orderAmount: "12")
 		end
 
 

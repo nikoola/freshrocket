@@ -3,15 +3,15 @@ module Client
 
 		def new
 			helper = OffsitePayments::Integrations::Citrus::Helper.new(
-				'11111', CITRUS[:access_key],
-				amount: 10, currency: 'USD',
+				params[:order_id], CITRUS[:access_key],
+				amount: params[:amount], currency: 'USD', #TODO what currency
 				credential2: CITRUS[:secret_key],
 				credential3: CITRUS[:vanity_url],
 				return_url:  CITRUS[:return_url]
 			)
 
 
-			render json: { 
+			render json: {
 				citrus: { 
 					action: helper.credential_based_url, 
 					method: helper.form_method, 
