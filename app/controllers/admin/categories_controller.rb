@@ -41,7 +41,7 @@ module Admin
 
 			def category_params
 				params[:category].permit([
-					:name
+					:name, :image
 				])
 			end
 	end

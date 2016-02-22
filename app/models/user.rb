@@ -26,7 +26,7 @@ class User < ActiveRecord::Base
 
 	acts_as_taggable_on :abilities
 
-	VALID_ABILITY_NAMES = %w(orders products users categories settings delivery_boy) #why tags and not create separate roles table? because it's nice to keep app logic in app.
+	VALID_ABILITY_NAMES = %w(orders products users categories coupons settings delivery_boy) #why tags and not create separate roles table? because it's nice to keep app logic in app.
 	validate :validate_abilities
 
 

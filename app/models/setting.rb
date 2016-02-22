@@ -3,12 +3,12 @@ class Setting < ActiveRecord::Base
 	validate :only_one_record?, on: :create
 
 
-  validates_numericality_of :free_delivery_order_sum, :default_delivery_cost
+	validates_numericality_of :free_delivery_order_sum, :default_delivery_cost
 
-  validates :tax_in_percentage, numericality: { 
-  	greater_than_or_equal_to: 0, 
-  	less_than_or_equal_to: 100 
-  }
+	validates :tax_in_percentage, numericality: { 
+		greater_than_or_equal_to: 0, 
+		less_than_or_equal_to: 100 
+	}
 
 	private
 		def only_one_record?

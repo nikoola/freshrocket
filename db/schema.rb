@@ -30,6 +30,12 @@ ActiveRecord::Schema.define(version: 20160127185541) do
     t.string "name"
   end
 
+  create_table "coupons", force: :cascade do |t|
+    t.string  "name"
+    t.integer "code"
+    t.integer "discount"
+  end
+
   create_table "delivery_boys", force: :cascade do |t|
     t.integer "user_id"
     t.string  "lat"
@@ -61,7 +67,7 @@ ActiveRecord::Schema.define(version: 20160127185541) do
     t.string   "wanted_time"
     t.integer  "delivery_boy_id"
     t.string   "payment_type"
-    t.boolean  "paid"
+    t.boolean  "is_paid"
   end
 
   add_index "orders", ["user_id"], name: "index_orders_on_user_id"

@@ -44,7 +44,7 @@ class SetupSchema < ActiveRecord::Migration
 		t.integer  "delivery_boy_id"
 
 		t.string   "payment_type"
-		t.boolean  "paid"
+		t.boolean  "is_paid"
 	end
 
 	add_index "orders", ["user_id"], name: "index_orders_on_user_id"
@@ -121,6 +121,12 @@ class SetupSchema < ActiveRecord::Migration
 		t.string  'lat' 
 		t.string  'long'   # current position, so that can be appointed a delivery
 		t.string  'status' # available, busy, not_available
+	end
+
+	create_table "coupons", force: :cascade do |t|
+		t.string  'name'
+		t.integer 'code' 
+		t.integer 'discount'
 	end
 
 

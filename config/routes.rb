@@ -25,11 +25,9 @@ Rails.application.routes.draw do
 
 
 		resources 'payments', only: [:new] do
-			# post 'paid'    => 'citrus#paid'
-			# get 'new'     # => 'payments#new'
-
-			# match 'success' => 'robokassa#success', :as => :robokassa_success # to handle Robokassa success redirect
-			# match 'fail'    => 'robokassa#fail',    :as => :robokassa_fail # to handle Robokassa fail redirect
+			member {
+				post :citrus
+			}
 		end
 
 	end
@@ -49,8 +47,9 @@ Rails.application.routes.draw do
 				put :update_abilities #update abilities for a user
 			}
 		end
-		resources :delivery_boys, only: [:index]
-		resource :settings,       only: [:show, :update]
+		resources :delivery_boys,  only: [:index]
+		resource  :settings,       only: [:show, :update]
+		resources :coupons,        only: [:index, :create, :update, :destroy]
 	end
 
 
