@@ -60,6 +60,8 @@ ActiveRecord::Schema.define(version: 20160127185541) do
     t.date     "wanted_date"
     t.string   "wanted_time"
     t.integer  "delivery_boy_id"
+    t.string   "payment_type"
+    t.boolean  "paid"
   end
 
   add_index "orders", ["user_id"], name: "index_orders_on_user_id"
