@@ -4,8 +4,10 @@ FactoryGirl.define do
 		sequence(:email)       { |i| i.to_s + Faker::Internet.email }
 		password              'secrety_bickety'
 		password_confirmation 'secrety_bickety'
+		first_name             { Faker::Name.first_name }
+		last_name              { Faker::Name.last_name }
 
-		sequence(:phone)       { |i| "+7917#{rand(10..99)}6888#{i.to_s[0]}" }
+		sequence(:phone)       { |i| "+7917#{rand(100000..999999)}#{i.to_s[0]}" }
 
 		transient do
 			abilities           []

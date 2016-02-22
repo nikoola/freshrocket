@@ -23,6 +23,15 @@ Rails.application.routes.draw do
 			}
 		end
 
+
+		resources 'payments', only: [:new] do
+			# post 'paid'    => 'citrus#paid'
+			# get 'new'     # => 'payments#new'
+
+			# match 'success' => 'robokassa#success', :as => :robokassa_success # to handle Robokassa success redirect
+			# match 'fail'    => 'robokassa#fail',    :as => :robokassa_fail # to handle Robokassa fail redirect
+		end
+
 	end
 
 
@@ -54,6 +63,7 @@ Rails.application.routes.draw do
 			}
 		end
 	end
+
 
 
 

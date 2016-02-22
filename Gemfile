@@ -66,7 +66,11 @@ gem 'active_model_serializers'
 
 # gem 'activemerchant'  
 
-gem 'twilio-ruby'
+# gem 'twilio-ruby' #not twilio, smslane
 gem 'phonelib' #validates phone numbers
+
+gem 'offsite_payments'
+
+gem 'smslane'
 
 

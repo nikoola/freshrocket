@@ -1,13 +1,19 @@
 class SendVerificationSmsJob < ActiveJob::Base
-	queue_as :default
+	queue_as :sms
 
-	def perform phone, phone_verification_code
-		twilio_client = Twilio::REST::Client.new ENV['TWILIO_SID'], ENV['TWILIO_TOKEN']
-		twilio_client.account.sms.messages.create(
-			:from => ENV['TWILIO_PHONE_NUMBER'],
-			:to => current_user.phone,
-			:body => "Your verification code is #{current_user.verification_code}."
-		)
+	def perform name, phone, verification_code
+
+		text = "Dear #{name}, Your verification code is #{verification_code} , Regards, FreshRocket"
+
+		client = Smslane::Client.new(SMSLANE[:username], SMSLANE[:password])
+
+		# An array of recipient numbers
+		# The message to be sent
+		# A boolean indicating whether or not to send the SMS as a flash message
+		client.send_sms [phone], text, false
+
+
+		# The response of this call is an array of hashes. Each hash contains the recipient number and the message_id returned by smslane.com. This message_id is used to check delivery reports.
 	end
 end
 

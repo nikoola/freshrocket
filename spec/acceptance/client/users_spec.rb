@@ -12,6 +12,15 @@ resource 'Users', type: :request do
 	describe 'default devise routes (used by ng-token-auth)' do
 
 		post '/auth' do
+			with_options required: true do
+				parameter 'phone'
+				parameter 'email'
+				parameter 'password'
+				parameter 'password_confirmation'
+				parameter 'first_name'
+				parameter 'last_name'
+			end
+
 			example 'create user' do
 				do_request FactoryGirl.attributes_for(:user, phone: '+79172343270') #devise_parameter_sanitizer
 

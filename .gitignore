@@ -19,3 +19,6 @@
 
 /dump.rdb 
 /doc/*
+
+
+/config/*.yml

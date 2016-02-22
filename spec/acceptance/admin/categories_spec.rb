@@ -10,7 +10,10 @@ resource 'Categories', type: :request do
 	let(:category) { FactoryGirl.create :category }
 
 	post '/admin/categories' do
-		parameter :name, 'name of a category', require: true, scope: :category
+		with_options scope: :category do
+			parameter :name, 'name of a category', require: true
+			parameter :image
+		end
 
 		example 'create category' do
 			do_request({ category: {name: 'breakfasts'} })
@@ -28,6 +31,11 @@ resource 'Categories', type: :request do
 	end
 
 	put '/admin/categories/:id' do
+		with_options scope: :category do
+			parameter :name, 'name of a category'
+			parameter :image
+		end
+
 		parameter :name, 'name of a category', require: true, scope: :category
 
 		example 'update category' do

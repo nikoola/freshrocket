@@ -14,10 +14,14 @@ class ApplicationController < ActionController::Base
 			# devise_parameter_sanitizer.for(:account_update) << :role #WORKS
 			devise_parameter_sanitizer.for(:account_update) << :phone
 			devise_parameter_sanitizer.for(:account_update) << :city_id
+			devise_parameter_sanitizer.for(:account_update) << :first_name
+			devise_parameter_sanitizer.for(:account_update) << :last_name
 
 			# devise_parameter_sanitizer.for(:sign_up) << :role
 			devise_parameter_sanitizer.for(:sign_up) << :phone
-			devise_parameter_sanitizer.for(:account_update) << :city_id
+			devise_parameter_sanitizer.for(:sign_up) << :city_id
+			devise_parameter_sanitizer.for(:sign_up) << :first_name
+			devise_parameter_sanitizer.for(:sign_up) << :last_name
 
 			#TODO :email, :password, :password_confirmation, :role, :phone
 			# devise_parameter_sanitizer.for(:account_update) { |u| u.permit(:email,...) }

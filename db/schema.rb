@@ -15,6 +15,7 @@ ActiveRecord::Schema.define(version: 20160127185541) do
 
   create_table "categories", force: :cascade do |t|
     t.string "name"
+    t.string "image"
   end
 
   create_table "categories_products_joins", force: :cascade do |t|
@@ -103,6 +104,8 @@ ActiveRecord::Schema.define(version: 20160127185541) do
 
   create_table "users", force: :cascade do |t|
     t.integer  "city_id"
+    t.string   "first_name"
+    t.string   "last_name"
     t.string   "email"
     t.string   "provider",            default: "email", null: false
     t.string   "uid",                 default: "",      null: false

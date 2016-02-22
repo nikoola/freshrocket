@@ -1,6 +1,5 @@
 class User < ActiveRecord::Base
 
-
 	has_one :delivery_boy, autosave: true #used in manipulate_user_abilities
 
 	devise :database_authenticatable, :registerable,
@@ -11,7 +10,7 @@ class User < ActiveRecord::Base
 	belongs_to :city
 
 	has_many :orders, dependent: :destroy #TODO should we be able to delete users?
-	validates_presence_of :phone
+	validates_presence_of :phone, :first_name, :last_name
 	validates_uniqueness_of :phone
 
 	validates :phone, phone: { possible: false, types: [:mobile] } #phonelib
@@ -81,6 +80,9 @@ class User < ActiveRecord::Base
 
 
 
+	def name
+		"#{first_name} #{last_name}"
+	end
 
 
 

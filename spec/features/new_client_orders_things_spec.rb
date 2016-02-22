@@ -1,9 +1,11 @@
 require 'rails_helper'
+include ActiveJob::TestHelper
 
 describe '', type: :request do
 
 
 	it 'new client orders things' do
+		ActiveJob::Base.queue_adapter = :test
 		password = 'hihihi00'
 
 		puts 'admin-to-be signs up'
@@ -80,8 +82,18 @@ describe '', type: :request do
 
 
 
+		puts 'client signs in'
+		post '/auth/sign_in', email: client.email, password: password
 
-		puts 'client creates an order'
+		client_headers = headers.slice("access-token", "token-type", "uid", "client")
+
+
+
+		puts 'client confirms phone'
+		expect {
+			post '/client/send_verification_sms', client_headers
+		}.to have_enqueued_job.on_queue('sms')
+
 
 
 

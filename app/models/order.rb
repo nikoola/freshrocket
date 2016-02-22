@@ -42,10 +42,16 @@ class Order < ActiveRecord::Base
 				after: :decrease_stock
 		end
 		event :approve do
-			transitions :from => :confirmed, :to => :approved, 
-				after: :send_order_summary
+			after {
+				send_order_summary
+				SendConfirmationSmsJob.perform_later user.name, user.phone
+			}
+			transitions :from => :confirmed, :to => :approved
 		end
 		event :dispatch do
+			after {
+				SendDispatchSmsJob.perform_later user.name, user.phone
+			}
 			transitions :from => :approved, :to => :dispatched, 
 				guard: :delivery_boy_assigned?
 		end
@@ -53,8 +59,11 @@ class Order < ActiveRecord::Base
 			transitions :from => :dispatched, :to => :delivered
 		end
 		event :cancel do
-			transitions :from => [:confirmed, :approved], :to => :canceled, 
-				after: :increase_stock
+			after {
+				increase_stock
+				SendCancellationSmsJob.perform_later user.name, user.phone
+			}
+			transitions :from => [:confirmed, :approved], :to => :canceled
 		end
 	end
 

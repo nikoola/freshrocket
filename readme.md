@@ -1,14 +1,18 @@
 
-it was build on rails-api gem, but another dev said he wants to use rails-admin for admin frontend and I changed it to full rails engine. can be switched back if you'll use something else.
+it was built on rails-api gem, but another dev said he wants to use rails-admin for admin frontend and I changed it to full rails engine. can be switched back if you'll use something else.
 for authorization I used https://github.com/lynndylanhurley/devise_token_auth.
 there is an angular plugin for a smooth integration with that gem and a jquery library, you can choose either.
 
 
 
 to run rspecs successully:
+
+	ask me for yml files with passwords etc
 	redis-server --daemonize yes
 
 to run things in console/deloyment successfully:
+
+	ask me for yml files with passwords etc
 	redis-server --daemonize yes
 	sidekiq
 
@@ -32,6 +36,6 @@ for rails developer:
 
 TODO:
 
-	change aato to rolify. it supports proper callbacks,
+	maybe change aato to rolify. it supports proper callbacks,
 
 
