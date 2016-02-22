@@ -2,25 +2,22 @@ class Order < ActiveRecord::Base
 	include AASM
 	include Filterable
 
-
 	belongs_to :user
 	belongs_to :delivery_boy
 
-
-	
 	has_many :line_items, inverse_of: :order, dependent: :destroy #so that on nested attrs order id in line_item is set
-	has_many :products, through: :line_items #for testing
+	has_many :products,   through: :line_items #for testing
 
 
 	accepts_nested_attributes_for :line_items, allow_destroy: true #Note that the :autosave option is automatically enabled on every association that #accepts_nested_attributes_for is used for
 
 	validates_presence_of :user
-	validate :has_line_items?
+	validate              :has_line_items?
+	validate              :coupon_can_be_found?, 
+		if: :coupon_code_changed?, 
+		unless: -> { coupon_code.blank? }
 
-
-
-
-	before_save :set_order_pricing, if: :unconfirmed? #TODO decrease_stock maybe?
+	before_save           :set_order_pricing, if: :unconfirmed? #TODO decrease_stock maybe?
 
 	include Filterable
 	scope :status,  -> (status)  { where status: status }
@@ -131,6 +128,10 @@ class Order < ActiveRecord::Base
 		end
 	end
 
+	def coupon
+		Coupon.find_by(code: coupon_code)
+	end
+
 
 
 	private
@@ -144,6 +145,7 @@ class Order < ActiveRecord::Base
 			self.pure_product_price = pricing.pure_product_price
 			self.tax                = pricing.tax
 			self.delivery_charge    = pricing.delivery_charge
+			self.coupon_discount    = pricing.coupon_discount
 
 			self.total_price        = pricing.total
 		end
@@ -163,6 +165,12 @@ class Order < ActiveRecord::Base
 
 		end
 
+
+		def coupon_can_be_found?
+			if !coupon #if coupon can't be found
+				errors.add(:coupon_code, 'there is no such coupon')
+			end
+		end
 
 end
 

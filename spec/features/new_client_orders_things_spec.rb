@@ -66,7 +66,10 @@ describe '', type: :request do
 
 		puts 'admin creates product'
 		post '/admin/products', { product: { title: 'fish', price: '3.0', inventory_count: 2, city_id: city.id, category_ids: [category.id] } }, admin_headers
+		product = Product.find(json_body[:id])
 		expect_status 201
+		expect(product.categories.pluck(:id)).to eq([category.id])
+
 
 
 

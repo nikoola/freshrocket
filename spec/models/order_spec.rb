@@ -20,14 +20,12 @@ describe Order, type: :model do
 			})
 
 			expect(order).to be_valid
-
 			expect(order.pure_product_price).to eq(62.0)
 
 			tax = 62.0 * (Setting.s.tax_in_percentage / 100)
+
 			expect(order.tax).to eq(tax)
-
 			expect(order.delivery_charge).to eq(Setting.s.default_delivery_cost)
-
 			expect(order.total_price).to eq(62.0 + order.tax + order.delivery_charge )
 		end
 
@@ -53,6 +51,68 @@ describe Order, type: :model do
 
 			expect(initial_price).to eq(order.reload.pure_product_price)
 		end
+
+		describe 'coupon code' do
+			it 'adds error when invalid' do
+				order = user.orders.create({
+					coupon_code: 'nonexistent code',
+					line_items_attributes: [
+						{ product_id: product.id,   amount: 2 }, 
+						{ product_id: product_2.id, amount: 3 }
+					] 
+				})
+
+				expect(order.errors.messages).to include(:coupon_code=>["there is no such coupon"])
+			end
+
+			it 'changes price when valid' do
+				coupon = FactoryGirl.create :coupon
+				order = user.orders.create({
+					coupon_code: coupon.code,
+					line_items_attributes: [
+						{ product_id: product.id, amount: 20 }
+					]
+				})
+
+				expect(order).to be_valid
+
+				pure            = product.price * 20
+				delivery        = pure > Setting.s.free_delivery_order_sum ? 0 : Setting.s.default_delivery_cost
+				tax             = pure * ( Setting.s.tax_in_percentage / 100.0 )
+				coupon_discount = pure * ( coupon.discount / 100.0 )
+				total = pure + delivery + tax - coupon_discount
+
+				expect(order.pure_product_price).to eq(pure)
+				expect(order.delivery_charge).to eq(delivery)
+				expect(order.tax).to eq(tax)
+				expect(order.coupon_discount).to eq(coupon_discount)
+				expect(order.total_price).to eq(total)
+			end
+
+			it 'ignores when blank' do
+				coupon = FactoryGirl.create :coupon
+
+				order = user.orders.create({
+					coupon_code: coupon.code,
+					line_items_attributes: [
+						{ product_id: product.id, amount: 20 }
+					]
+				})
+
+				expect(order.coupon_discount.to_i).to be > 0
+
+				order.update(coupon_code: '')
+
+				expect(order).to be_valid
+				expect(order.coupon_discount.to_i).to eq(0)
+			end
+
+
+		end
+
+
+
+
 	end
 
 	describe 'aasm' do

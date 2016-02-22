@@ -32,7 +32,7 @@ ActiveRecord::Schema.define(version: 20160127185541) do
 
   create_table "coupons", force: :cascade do |t|
     t.string  "name"
-    t.integer "code"
+    t.string  "code"
     t.integer "discount"
   end
 
@@ -61,6 +61,7 @@ ActiveRecord::Schema.define(version: 20160127185541) do
     t.decimal  "tax",                precision: 8, scale: 2
     t.decimal  "delivery_charge",    precision: 8, scale: 2
     t.decimal  "total_price",        precision: 8, scale: 2
+    t.decimal  "coupon_discount",    precision: 8, scale: 2
     t.datetime "created_at",                                 null: false
     t.datetime "updated_at",                                 null: false
     t.date     "wanted_date"
@@ -68,6 +69,7 @@ ActiveRecord::Schema.define(version: 20160127185541) do
     t.integer  "delivery_boy_id"
     t.string   "payment_type"
     t.boolean  "is_paid"
+    t.string   "coupon_code"
   end
 
   add_index "orders", ["user_id"], name: "index_orders_on_user_id"
