@@ -17,8 +17,6 @@ group :development, :test do
 	gem 'pry-rescue'
 	gem 'pry-rails'
 	
-	gem 'rspec_api_documentation'
-	gem 'apitome', git: 'git@github.com:modeset/apitome.git' #from master, because otherwise gsub error
 	gem 'faker'
 
 	gem 'dotenv-rails'
@@ -26,11 +24,10 @@ group :development, :test do
 	gem 'sqlite3'
 end
 
-group :development do
-	gem 'better_errors'
-	gem 'binding_of_caller' # for better errors console
+gem 'rspec_api_documentation'
+gem 'apitome', git: 'git@github.com:modeset/apitome.git' #from master, because otherwise gsub error. makes rspec_api_documentation prettier.
 
-	
+group :development do
 	gem 'spring' # Spring speeds up development by keeping your application running in the background.
 	
 	gem 'railroady' # RailRoady generates Rails 3/4 model (ActiveRecord, Mongoid, Datamapper) and controller UML diagrams. rake diagram:all
