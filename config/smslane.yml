@@ -1,0 +1,9 @@
+test: &test
+  username: <%= ENV['smslane.username'] %>
+  password: <%= ENV['smslane.password'] %>
+
+development:
+  <<: *test
+
+production:
+  <<: *test

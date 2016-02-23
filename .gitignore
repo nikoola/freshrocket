@@ -21,4 +21,4 @@
 /doc/*
 
 
-/config/*.yml
+/.env

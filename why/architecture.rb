@@ -20,6 +20,8 @@ if :user is fired from :delivery_boy position (no :delivery_boy ability anymore)
 
 
 
+___heroku-specific things
+	You can’t write to local disk (no log files, no file-based Rails cache), nor assume that things like global variables will last from request to request.
 
 
 

@@ -1,10 +1,8 @@
-source 'https://rubygems.org'
-
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.5'
-# Use sqlite3 as the database for Active Record
-gem 'sqlite3'
+
+
 
 
 # gem 'rails-api'
@@ -24,24 +22,29 @@ group :development, :test do
 	gem 'faker'
 
 	gem 'dotenv-rails'
+
+	gem 'sqlite3'
 end
 
 group :development do
 	gem 'better_errors'
-	gem 'binding_of_caller' #for better errors console
+	gem 'binding_of_caller' # for better errors console
 
 	
 	gem 'spring' # Spring speeds up development by keeping your application running in the background.
 	
-	gem 'railroady' #RailRoady generates Rails 3/4 model (ActiveRecord, Mongoid, Datamapper) and controller UML diagrams. rake diagram:all
+	gem 'railroady' # RailRoady generates Rails 3/4 model (ActiveRecord, Mongoid, Datamapper) and controller UML diagrams. rake diagram:all
 end
 
 group :test do
 	gem 'airborne' #expect_json
 	gem 'database_cleaner'
-
 end
 
+group :production do
+	gem 'rails_12factor' # to enable features such as static asset serving and logging on Heroku please add rails_12factor gem to your Gemfile.
+	gem 'mysql2'
+end
 
 
 
@@ -67,10 +70,13 @@ gem 'active_model_serializers'
 # gem 'activemerchant'  
 
 # gem 'twilio-ruby' #not twilio, smslane
-gem 'phonelib' #validates phone numbers
+gem 'phonelib' # validates phone numbers
 
 gem 'offsite_payments'
 
 gem 'smslane'
+
+
+ruby '2.2.1'
 
 

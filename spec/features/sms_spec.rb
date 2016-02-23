@@ -1,26 +1,22 @@
+require 'rails_helper'
 
+describe 'Sms' do
 
-describe '' do
+	let(:name) { 'hi' }
+	let(:verification_code) { '1516' }
+	let(:text) { "Dear #{name}, Your verification code is #{verification_code} , Regards, FreshRocket" }
 	
-	it '' do
-		require 'smslane'
-		# text = "Dear #{username}, Your verification code is #{verification_code}. Regards, FreshRocket"
+	it 'smslane' do
+		client = Smslane::Client.new(SMSLANE[:username], SMSLANE[:password])
+		
+		expect(client.check_balance[:result]).to eq('Success')
 
-		# client = Smslane::Client.new('purplerain','150931')
-		# p client.send_sms ['919234567888','919999999999'], text, false
+		# response = client.send_sms ['919234567888'], text, false
+		# expect(response[0].keys).to include(:number, :message_id) #works
 	end
 end
 
 
-
-
-
-
-
- # 'user' => "purplerain",
- # 'password' => "150931",
- # 'msisdn' => "919894155615",
- # 'sid' => "WebSMS",
 
 
 
