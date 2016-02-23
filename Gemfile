@@ -25,7 +25,8 @@ group :development, :test do
 end
 
 gem 'rspec_api_documentation'
-gem 'apitome', git: 'git@github.com:modeset/apitome.git' #from master, because otherwise gsub error. makes rspec_api_documentation prettier.
+gem 'apitome', git: 'git://github.com/modeset/apitome.git' #from master, because otherwise gsub error. makes rspec_api_documentation prettier. 
+# not git@github.com:modeset/apitome.git because http://stackoverflow.com/a/11558814/3192470
 
 group :development do
 	gem 'spring' # Spring speeds up development by keeping your application running in the background.
