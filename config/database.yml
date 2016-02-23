@@ -16,7 +16,7 @@ test:
   database: db/test.sqlite3
 
 production:
-  adapter:  mysql
+  adapter:  postgresql
   database: rivo
   username: ENV['database.username']
   password: ENV['database.password']

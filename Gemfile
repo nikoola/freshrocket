@@ -43,7 +43,7 @@ end
 
 group :production do
 	gem 'rails_12factor' # to enable features such as static asset serving and logging on Heroku please add rails_12factor gem to your Gemfile.
-	gem 'mysql2'
+	gem 'pg'
 end
 
 
@@ -67,7 +67,6 @@ gem 'sidekiq'
 
 gem 'active_model_serializers'
 
-# gem 'activemerchant'  
 
 # gem 'twilio-ruby' #not twilio, smslane
 gem 'phonelib' # validates phone numbers
