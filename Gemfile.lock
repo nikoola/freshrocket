@@ -1,6 +1,6 @@
 GIT
-  remote: git@github.com:modeset/apitome.git
-  revision: 510e5b6550dba17faf743f432532a07abc1deaf6
+  remote: git://github.com/modeset/apitome.git
+  revision: 93cdad16d6117cbb353f83e034d22e93ec3eea7e
   specs:
     apitome (0.1.0)
       kramdown
