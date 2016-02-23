@@ -12,7 +12,8 @@ require "sprockets/railtie"
 # you've limited to :test, :development, or :production.
 Bundler.require(*Rails.groups)
 
-Dotenv::Railtie.load #TODO on production
+
+Dotenv::Railtie.load unless Rails.env == 'production'
 
 module Rivo
   class Application < Rails::Application
