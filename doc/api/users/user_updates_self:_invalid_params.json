@@ -1,0 +1,49 @@
+{
+  "resource": "Users",
+  "http_method": "PUT",
+  "route": "/auth",
+  "description": "user updates self: invalid params",
+  "explanation": null,
+  "parameters": [
+
+  ],
+  "response_fields": [
+
+  ],
+  "requests": [
+    {
+      "request_method": "PUT",
+      "request_path": "/auth",
+      "request_body": "phone",
+      "request_headers": {
+        "Access-Token": "V3d1jprlOdS9vgDq4b3j_w",
+        "Token-Type": "Bearer",
+        "Client": "0icJtKa7IhvYusnau4OTOg",
+        "Expiry": "1457430063",
+        "Uid": "88dorothea.heathcote@stoltenberg.name",
+        "Host": "example.org",
+        "Content-Type": "application/x-www-form-urlencoded",
+        "Cookie": ""
+      },
+      "request_query_parameters": {
+      },
+      "request_content_type": "application/x-www-form-urlencoded",
+      "response_status": 403,
+      "response_status_text": "Forbidden",
+      "response_body": "{\n  \"status\": \"error\",\n  \"errors\": {\n    \"phone\": [\n      \"can't be blank\",\n      \"is invalid\"\n    ],\n    \"full_messages\": [\n      \"Phone can't be blank\",\n      \"Phone is invalid\"\n    ]\n  }\n}",
+      "response_headers": {
+        "X-Frame-Options": "SAMEORIGIN",
+        "X-XSS-Protection": "1; mode=block",
+        "X-Content-Type-Options": "nosniff",
+        "Content-Type": "application/json; charset=utf-8",
+        "Cache-Control": "no-cache",
+        "Set-Cookie": "_session_id=Q3ZCeTY2aXlKMm15RFdkL1lycU54cTVvR3dzQk1VV3E2TEQrOG94dm5sVk95a3k3akxHQXZEYTVVc3prR1JpNHFBTkJ4QUVkS0x5OE1hV3JzYTJNS3NtZ2NlTUowS3FEV1RBUTJPTkRBcXRUR1BEWnEzNURGZzhncSt3SjgwTHFhVWw0b2RJY0pSQ0w2bSsxMGhZUmg5ZDRicER1S0JZVHMxN0cwUUlQdWdWcUJYZnQ2ZG4wOXpRSUlyZ0o3cm9ULS10Y3BPUU9nbDBSaUVpRjFqWDRmZGh3PT0%3D--597a3fd119e202a066c337f99cb7dc6b0f9b59d0; path=/; HttpOnly",
+        "X-Request-Id": "b4758ce3-5f08-4353-a86e-110b4b9ec8e0",
+        "X-Runtime": "0.078000",
+        "Content-Length": "129"
+      },
+      "response_content_type": "application/json; charset=utf-8",
+      "curl": "curl \"http://localhost:3000/auth\" -d 'phone' -X PUT \\\n\t-H \"Access-Token: V3d1jprlOdS9vgDq4b3j_w\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: 0icJtKa7IhvYusnau4OTOg\" \\\n\t-H \"Expiry: 1457430063\" \\\n\t-H \"Uid: 88dorothea.heathcote@stoltenberg.name\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+    }
+  ]
+}

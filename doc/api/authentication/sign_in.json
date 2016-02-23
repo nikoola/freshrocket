@@ -1,0 +1,58 @@
+{
+  "resource": "Authentication",
+  "http_method": "POST",
+  "route": "/auth/sign_in",
+  "description": "sign in",
+  "explanation": "returns \"access-token\", \"token-type\", \"client\", \"expiry\", \"uid\" in response headers, which we can then use to access protected resources",
+  "parameters": [
+    {
+      "required": true,
+      "name": "email",
+      "description": "registered user's email"
+    },
+    {
+      "required": true,
+      "name": "password",
+      "description": "registered user's password"
+    }
+  ],
+  "response_fields": [
+
+  ],
+  "requests": [
+    {
+      "request_method": "POST",
+      "request_path": "/auth/sign_in",
+      "request_body": "email=64zaria%40hermandubuque.info&password=secrety_bickety",
+      "request_headers": {
+        "Host": "example.org",
+        "Content-Type": "application/x-www-form-urlencoded",
+        "Cookie": ""
+      },
+      "request_query_parameters": {
+      },
+      "request_content_type": "application/x-www-form-urlencoded",
+      "response_status": 200,
+      "response_status_text": "OK",
+      "response_body": "{\n  \"data\": {\n    \"id\": 1,\n    \"city_id\": null,\n    \"first_name\": \"Edwina\",\n    \"last_name\": \"Dach\",\n    \"email\": \"64zaria@hermandubuque.info\",\n    \"provider\": \"email\",\n    \"uid\": \"64zaria@hermandubuque.info\",\n    \"phone\": \"+79173677366\",\n    \"verification_code\": null,\n    \"is_verified\": false\n  }\n}",
+      "response_headers": {
+        "X-Frame-Options": "SAMEORIGIN",
+        "X-XSS-Protection": "1; mode=block",
+        "X-Content-Type-Options": "nosniff",
+        "access-token": "m5SPNW7NqqCOqW0rs3rGNQ",
+        "token-type": "Bearer",
+        "client": "ARbfdxeWcCXepdHm263DNg",
+        "expiry": "1457430057",
+        "uid": "64zaria@hermandubuque.info",
+        "Content-Type": "application/json; charset=utf-8",
+        "ETag": "W/\"712824abb002046089e22125fd2a4d04\"",
+        "Cache-Control": "max-age=0, private, must-revalidate",
+        "X-Request-Id": "df556173-32fc-41c9-8079-5fe72d5e5d7d",
+        "X-Runtime": "0.163187",
+        "Content-Length": "232"
+      },
+      "response_content_type": "application/json; charset=utf-8",
+      "curl": "curl \"http://localhost:3000/auth/sign_in\" -d 'email=64zaria%40hermandubuque.info&password=secrety_bickety' -X POST \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+    }
+  ]
+}

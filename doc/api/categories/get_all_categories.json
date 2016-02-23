@@ -1,0 +1,50 @@
+{
+  "resource": "Categories",
+  "http_method": "GET",
+  "route": "/categories",
+  "description": "get all categories",
+  "explanation": null,
+  "parameters": [
+    {
+      "name": "city_id",
+      "description": "get categories that have products with :city_id"
+    },
+    {
+      "name": "in_stock",
+      "description": "get categories that have products :in_stock"
+    }
+  ],
+  "response_fields": [
+
+  ],
+  "requests": [
+    {
+      "request_method": "GET",
+      "request_path": "/categories",
+      "request_body": null,
+      "request_headers": {
+        "Host": "example.org",
+        "Cookie": ""
+      },
+      "request_query_parameters": {
+      },
+      "request_content_type": null,
+      "response_status": 200,
+      "response_status_text": "OK",
+      "response_body": "[\n  {\n    \"id\": 1,\n    \"name\": \"Category 4\",\n    \"image\": {\n      \"image\": {\n        \"url\": \"uploads/category/image/default.png\"\n      }\n    }\n  },\n  {\n    \"id\": 2,\n    \"name\": \"Category 5\",\n    \"image\": {\n      \"image\": {\n        \"url\": \"uploads/category/image/default.png\"\n      }\n    }\n  },\n  {\n    \"id\": 3,\n    \"name\": \"Category 6\",\n    \"image\": {\n      \"image\": {\n        \"url\": \"uploads/category/image/default.png\"\n      }\n    }\n  }\n]",
+      "response_headers": {
+        "X-Frame-Options": "SAMEORIGIN",
+        "X-XSS-Protection": "1; mode=block",
+        "X-Content-Type-Options": "nosniff",
+        "Content-Type": "application/json; charset=utf-8",
+        "ETag": "W/\"7ef514ea568a077d59872266d4ee2039\"",
+        "Cache-Control": "max-age=0, private, must-revalidate",
+        "X-Request-Id": "739c5b37-121e-4342-8eb3-ff6fe6ae5b1b",
+        "X-Runtime": "0.008073",
+        "Content-Length": "277"
+      },
+      "response_content_type": "application/json; charset=utf-8",
+      "curl": "curl \"http://localhost:3000/categories\" -X GET \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
+    }
+  ]
+}

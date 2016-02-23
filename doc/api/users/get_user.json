@@ -1,0 +1,49 @@
+{
+  "resource": "Users",
+  "http_method": "GET",
+  "route": "/admin/users/:id",
+  "description": "get user",
+  "explanation": null,
+  "parameters": [
+
+  ],
+  "response_fields": [
+
+  ],
+  "requests": [
+    {
+      "request_method": "GET",
+      "request_path": "/admin/users/1",
+      "request_body": null,
+      "request_headers": {
+        "Access-Token": "yvJtuAvphopT8qF5Z0Qhmw",
+        "Token-Type": "Bearer",
+        "Client": "ESIP36TwSVdqIbT_9u_WSg",
+        "Expiry": "1457430054",
+        "Uid": "48vance@langworth.com",
+        "Host": "example.org",
+        "Cookie": ""
+      },
+      "request_query_parameters": {
+      },
+      "request_content_type": null,
+      "response_status": 200,
+      "response_status_text": "OK",
+      "response_body": "{\n  \"id\": 1,\n  \"first_name\": \"Sheila\",\n  \"last_name\": \"Medhurst\",\n  \"email\": \"47celestino.weimann@haag.com\",\n  \"phone\": \"+79176779184\",\n  \"is_verified\": false,\n  \"provider\": \"email\",\n  \"uid\": \"47celestino.weimann@haag.com\",\n  \"created_at\": \"2016-02-23T09:40:54.409Z\",\n  \"abilities\": {\n    \"orders\": 0,\n    \"products\": 0,\n    \"users\": 0,\n    \"categories\": 1,\n    \"coupons\": 0,\n    \"settings\": 0,\n    \"delivery_boy\": 0\n  }\n}",
+      "response_headers": {
+        "X-Frame-Options": "SAMEORIGIN",
+        "X-XSS-Protection": "1; mode=block",
+        "X-Content-Type-Options": "nosniff",
+        "Content-Type": "application/json; charset=utf-8",
+        "ETag": "W/\"71dffefdd8e12f8382a09d9fab4aa62a\"",
+        "Cache-Control": "max-age=0, private, must-revalidate",
+        "Set-Cookie": "_session_id=VC9YMzdvQjNuMnFHN2Y3WjlmM1JqdVdMZ1VVeEpVeWdUVXlsZjdDb2J0QXZWR1FySE5kOCt2WVNpT2dyb0ZRRjAzdklqdFR0ZXZHUklEVkxGVUFiRVpkdkJsSzZKZXdjOE1DZEVYbUE5Q2R6d1JIa201TUlhVkZXelNoV2dVN1lkRlUvSGhoSG9hM096TVJ4QTBkcnhESk9nZ0kzOUZPUjl1R3FrMGFManRHcHVheGV3VEhFZE42ZjhwSENBZ0FpLS0vcGYzam5IVHpmaGJodDhZZ2ZLSE93PT0%3D--95b1af90cce541794d5d00ff17fcdf4ef88421ff; path=/; HttpOnly",
+        "X-Request-Id": "92e514c2-c5c0-48f7-8d1f-a164a9e29dd4",
+        "X-Runtime": "0.098882",
+        "Content-Length": "336"
+      },
+      "response_content_type": "application/json; charset=utf-8",
+      "curl": "curl \"http://localhost:3000/admin/users/1\" -X GET \\\n\t-H \"Access-Token: yvJtuAvphopT8qF5Z0Qhmw\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: ESIP36TwSVdqIbT_9u_WSg\" \\\n\t-H \"Expiry: 1457430054\" \\\n\t-H \"Uid: 48vance@langworth.com\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
+    }
+  ]
+}

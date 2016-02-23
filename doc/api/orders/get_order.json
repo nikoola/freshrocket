@@ -1,0 +1,49 @@
+{
+  "resource": "Orders",
+  "http_method": "GET",
+  "route": "/admin/orders/:id",
+  "description": "get order",
+  "explanation": "user with :order ability can get any order",
+  "parameters": [
+
+  ],
+  "response_fields": [
+
+  ],
+  "requests": [
+    {
+      "request_method": "GET",
+      "request_path": "/admin/orders/1",
+      "request_body": null,
+      "request_headers": {
+        "Access-Token": "p6Qa620vFyYw8bAiRxkyDw",
+        "Token-Type": "Bearer",
+        "Client": "OEcuX1U9yCHJtNsyYAH6mQ",
+        "Expiry": "1457430050",
+        "Uid": "19yoshiko_pacocha@emmerich.com",
+        "Host": "example.org",
+        "Cookie": ""
+      },
+      "request_query_parameters": {
+      },
+      "request_content_type": null,
+      "response_status": 200,
+      "response_status_text": "OK",
+      "response_body": "{\n  \"id\": 1,\n  \"user_id\": 1,\n  \"status\": \"unconfirmed\",\n  \"created_at\": \"2016-02-23T09:40:49.906Z\",\n  \"comment\": null,\n  \"pure_product_price\": \"27.0\",\n  \"tax\": \"1.35\",\n  \"delivery_charge\": \"200.0\",\n  \"total_price\": \"228.35\",\n  \"delivery_boy_id\": null,\n  \"wanted_time\": null,\n  \"wanted_date\": null,\n  \"payment_type\": null,\n  \"is_paid\": null,\n  \"line_items\": [\n    {\n      \"id\": 1,\n      \"order_id\": 1,\n      \"product_id\": 1,\n      \"amount\": 3,\n      \"fixed_price\": \"9.0\"\n    },\n    {\n      \"id\": 2,\n      \"order_id\": 1,\n      \"product_id\": 2,\n      \"amount\": 3,\n      \"fixed_price\": \"9.0\"\n    },\n    {\n      \"id\": 3,\n      \"order_id\": 1,\n      \"product_id\": 3,\n      \"amount\": 3,\n      \"fixed_price\": \"9.0\"\n    }\n  ]\n}",
+      "response_headers": {
+        "X-Frame-Options": "SAMEORIGIN",
+        "X-XSS-Protection": "1; mode=block",
+        "X-Content-Type-Options": "nosniff",
+        "Content-Type": "application/json; charset=utf-8",
+        "ETag": "W/\"aa31df7257e2d58619b0eb78e1d41a18\"",
+        "Cache-Control": "max-age=0, private, must-revalidate",
+        "Set-Cookie": "_session_id=MjlWSGhaR1NTSTNCaEhPVnJzcVFIcFRyMzJzNi9NWDh1L2pqSGhhRWVNL21qS0FIU1Irakk3ajlLUmpQQ01hZzA0bzFROStZSlI4b25SY1JSeHRCcFArYktWMTFHb010U3UzTjVwZTl6bFFvMmg4N2JYdS9PSmpBUmJHOWEzcWVhK01mUTU5aEtUbDVFdFJ4eU9Rd0VQQThuZDd2WEhVakxVTlNHT2w5Q1hTaVlwU3R2QjB1czRRcVhXbGNoYTQ0LS1jU3l4QnhjV2xZemJNWmlQc0NrN0lBPT0%3D--fc4abeb8abb0deb3a3805febb9e2c6c7e584036a; path=/; HttpOnly",
+        "X-Request-Id": "6ba6150d-2d47-49e4-abe5-873d306f4158",
+        "X-Runtime": "0.091544",
+        "Content-Length": "503"
+      },
+      "response_content_type": "application/json; charset=utf-8",
+      "curl": "curl \"http://localhost:3000/admin/orders/1\" -X GET \\\n\t-H \"Access-Token: p6Qa620vFyYw8bAiRxkyDw\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: OEcuX1U9yCHJtNsyYAH6mQ\" \\\n\t-H \"Expiry: 1457430050\" \\\n\t-H \"Uid: 19yoshiko_pacocha@emmerich.com\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "resource": "Delivery Boys",
+  "http_method": "GET",
+  "route": "/admin/delivery_boys",
+  "description": "get filtered delivery_boys",
+  "explanation": "to change delivery_boy's status to :fired, remove :delivery_boy ability from this user's abilities",
+  "parameters": [
+    {
+      "name": "statuss",
+      "description": "[unavailable available busy fired]"
+    },
+    {
+      "name": "limit",
+      "description": " limit"
+    },
+    {
+      "name": "offset",
+      "description": " offset"
+    }
+  ],
+  "response_fields": [
+
+  ],
+  "requests": [
+    {
+      "request_method": "GET",
+      "request_path": "/admin/delivery_boys?status=fired",
+      "request_body": null,
+      "request_headers": {
+        "Access-Token": "YGbW8TqaXOVsa4dePgrC7Q",
+        "Token-Type": "Bearer",
+        "Client": "7Q4Y2YVscXFSSrfqRIHtPg",
+        "Expiry": "1457430049",
+        "Uid": "13laurie_stokes@cartermedhurst.info",
+        "Host": "example.org",
+        "Cookie": ""
+      },
+      "request_query_parameters": {
+        "status": "fired"
+      },
+      "request_content_type": null,
+      "response_status": 200,
+      "response_status_text": "OK",
+      "response_body": "[\n  {\n    \"id\": 1,\n    \"user_id\": 1,\n    \"lat\": null,\n    \"long\": null,\n    \"status\": \"fired\"\n  }\n]",
+      "response_headers": {
+        "X-Frame-Options": "SAMEORIGIN",
+        "X-XSS-Protection": "1; mode=block",
+        "X-Content-Type-Options": "nosniff",
+        "Content-Type": "application/json; charset=utf-8",
+        "ETag": "W/\"e1107ced0523b4f0db47dca6182afeec\"",
+        "Cache-Control": "max-age=0, private, must-revalidate",
+        "Set-Cookie": "_session_id=RWVlTHd2RGxVTHVGU1RzMFkydUsyY3U0QkRVYVNucVlrS0VEcElNWUNEZVhpZXNCTjNVTnJBMmk0UmpCZEtSYnJLUVlzZDlya1lKTEkzRE1iNG9TNzc3SnJUTnYwOHVOMmVFWUpaVktBK1o2dSsvYndubmRBSUJJTHhoeUxQTHFOYlZ0YjFLM1FtR21zWWZNcUZmaEluVUluQUV5OGN5dTQrM0xFNFd3elkxQ0xuN1BER2xtSVVqUmQ1TGVEclZLLS1wYzVOT2ZqbFN0RTRVL2JwRS8xSUFBPT0%3D--cec91d1661d33c24740ae7cb80982192eca938c6; path=/; HttpOnly",
+        "X-Request-Id": "1d843cbc-55dd-450e-b2f2-d6d19f0dac4d",
+        "X-Runtime": "0.093866",
+        "Content-Length": "62"
+      },
+      "response_content_type": "application/json; charset=utf-8",
+      "curl": "curl \"http://localhost:3000/admin/delivery_boys?status=fired\" -X GET \\\n\t-H \"Access-Token: YGbW8TqaXOVsa4dePgrC7Q\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: 7Q4Y2YVscXFSSrfqRIHtPg\" \\\n\t-H \"Expiry: 1457430049\" \\\n\t-H \"Uid: 13laurie_stokes@cartermedhurst.info\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "resource": "Coupons",
+  "http_method": "DELETE",
+  "route": "/admin/coupons/:id",
+  "description": "delete coupon",
+  "explanation": null,
+  "parameters": [
+
+  ],
+  "response_fields": [
+
+  ],
+  "requests": [
+    {
+      "request_method": "DELETE",
+      "request_path": "/admin/coupons/1",
+      "request_body": null,
+      "request_headers": {
+        "Access-Token": "7iPOTsx7VVx26B2tLgJR1Q",
+        "Token-Type": "Bearer",
+        "Client": "MEFsGJQ1NNePxFlTTyIQMA",
+        "Expiry": "1457430048",
+        "Uid": "9king@moen.info",
+        "Host": "example.org",
+        "Content-Type": "application/x-www-form-urlencoded",
+        "Cookie": ""
+      },
+      "request_query_parameters": {
+      },
+      "request_content_type": "application/x-www-form-urlencoded",
+      "response_status": 200,
+      "response_status_text": "OK",
+      "response_body": null,
+      "response_headers": {
+        "X-Frame-Options": "SAMEORIGIN",
+        "X-XSS-Protection": "1; mode=block",
+        "X-Content-Type-Options": "nosniff",
+        "Content-Type": "text/html",
+        "Cache-Control": "no-cache",
+        "Set-Cookie": "_session_id=SFJ1a1lUVVZEc0hDUXpweFNHMzNXZG9ZYy9jOWVuY0txUy8ycG04WFIwVUU2QzUyZ0gvVkpZbGNIN1dBR3ZKZ2V0NTlWM3prQUswbk9PdXdBeUJBOVlnZ29VekNPQVZheHFtNUJnb1Jvc0tPUTY4WE45L3l2Yit0V0xlaHVJNFRXT2ZSemIvR2xzdktzdVVzN05icDlSeGpKNXdTZlRidXB1OGRGSjJ3M3VzSEg0N3FYS1dzbnA4a2JJblBsdGhyLS1DQm5YOGh4UWtvWmlIWnBqTmw5MHB3PT0%3D--c5f95bf4b0581108a41b3849807ceccf620979fe; path=/; HttpOnly",
+        "X-Request-Id": "45c6e12e-2c52-4052-b404-fe1fdce7c587",
+        "X-Runtime": "0.103449",
+        "Content-Length": "0"
+      },
+      "response_content_type": "text/html",
+      "curl": "curl \"http://localhost:3000/admin/coupons/1\" -d '' -X DELETE \\\n\t-H \"Access-Token: 7iPOTsx7VVx26B2tLgJR1Q\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: MEFsGJQ1NNePxFlTTyIQMA\" \\\n\t-H \"Expiry: 1457430048\" \\\n\t-H \"Uid: 9king@moen.info\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "resource": "Orders",
+  "http_method": "DELETE",
+  "route": "/client/orders/:id",
+  "description": "delete order",
+  "explanation": null,
+  "parameters": [
+
+  ],
+  "response_fields": [
+
+  ],
+  "requests": [
+    {
+      "request_method": "DELETE",
+      "request_path": "/client/orders/3",
+      "request_body": null,
+      "request_headers": {
+        "Access-Token": "V62eRRtu0NOk2idFDzkZ5A",
+        "Token-Type": "Bearer",
+        "Client": "WDJVITQPo1qjoj6oKnGR8g",
+        "Expiry": "1457430060",
+        "Uid": "74favian_gutkowski@schuppe.name",
+        "Host": "example.org",
+        "Content-Type": "application/x-www-form-urlencoded",
+        "Cookie": ""
+      },
+      "request_query_parameters": {
+      },
+      "request_content_type": "application/x-www-form-urlencoded",
+      "response_status": 200,
+      "response_status_text": "OK",
+      "response_body": null,
+      "response_headers": {
+        "X-Frame-Options": "SAMEORIGIN",
+        "X-XSS-Protection": "1; mode=block",
+        "X-Content-Type-Options": "nosniff",
+        "Content-Type": "text/html",
+        "Cache-Control": "no-cache",
+        "Set-Cookie": "_session_id=eGV1WTRmZ0dSZFB4THNXanFHUjJXUWRLZ1VHbzYraGRKNnJsNisvbEloQlBZeGticUZnaEVydjFOd05Lam1xNjB6WlZmWFFFZ0tDSGZTQXUxVGJnYzNNWHkxdXZvZmV1dkV2WlVvWE1XeWx6MWVrZ1dkNkM3b0Z0RXMxNWJaYnBBVVFJOUxkMk15bXNySlpFc3ZPUTRGdFVJNWczSHRQOFJKVGx1LzFONGRzckxPVDZxbG90RjUzdmJFY3JRRzJrLS1JbzNBUnpBdklnOEw3QXlNcVQrdnhRPT0%3D--f46a96807f046f48b17e18224e32ccf51077d041; path=/; HttpOnly",
+        "X-Request-Id": "69c60375-56fa-4da1-ad48-b814a1ff2640",
+        "X-Runtime": "0.079907",
+        "Content-Length": "0"
+      },
+      "response_content_type": "text/html",
+      "curl": "curl \"http://localhost:3000/client/orders/3\" -d '' -X DELETE \\\n\t-H \"Access-Token: V62eRRtu0NOk2idFDzkZ5A\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: WDJVITQPo1qjoj6oKnGR8g\" \\\n\t-H \"Expiry: 1457430060\" \\\n\t-H \"Uid: 74favian_gutkowski@schuppe.name\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "resource": "Products",
+  "http_method": "GET",
+  "route": "/products",
+  "description": "get all products",
+  "explanation": "returns all products with no params",
+  "parameters": [
+    {
+      "name": "city_id",
+      "description": " city"
+    },
+    {
+      "name": "category_id",
+      "description": " category"
+    },
+    {
+      "name": "in_stock",
+      "description": "true/false, if absent will return all"
+    }
+  ],
+  "response_fields": [
+
+  ],
+  "requests": [
+    {
+      "request_method": "GET",
+      "request_path": "/products",
+      "request_body": null,
+      "request_headers": {
+        "Host": "example.org",
+        "Cookie": ""
+      },
+      "request_query_parameters": {
+      },
+      "request_content_type": null,
+      "response_status": 200,
+      "response_status_text": "OK",
+      "response_body": "[\n  {\n    \"id\": 1,\n    \"city_id\": 1,\n    \"title\": \"fish\",\n    \"price\": \"3.0\",\n    \"created_at\": \"2016-02-23T09:40:57.672Z\",\n    \"updated_at\": \"2016-02-23T09:40:57.672Z\",\n    \"inventory_count\": 20,\n    \"image_url\": \"uploads/product/image/default.png\"\n  },\n  {\n    \"id\": 2,\n    \"city_id\": 2,\n    \"title\": \"fish\",\n    \"price\": \"3.0\",\n    \"created_at\": \"2016-02-23T09:40:57.928Z\",\n    \"updated_at\": \"2016-02-23T09:40:57.928Z\",\n    \"inventory_count\": 20,\n    \"image_url\": \"uploads/product/image/default.png\"\n  },\n  {\n    \"id\": 3,\n    \"city_id\": 3,\n    \"title\": \"fish\",\n    \"price\": \"3.0\",\n    \"created_at\": \"2016-02-23T09:40:58.206Z\",\n    \"updated_at\": \"2016-02-23T09:40:58.206Z\",\n    \"inventory_count\": 20,\n    \"image_url\": \"uploads/product/image/default.png\"\n  },\n  {\n    \"id\": 4,\n    \"city_id\": 4,\n    \"title\": \"fish\",\n    \"price\": \"3.0\",\n    \"created_at\": \"2016-02-23T09:40:58.944Z\",\n    \"updated_at\": \"2016-02-23T09:40:58.944Z\",\n    \"inventory_count\": 20,\n    \"image_url\": \"uploads/product/image/default.png\"\n  },\n  {\n    \"id\": 5,\n    \"city_id\": 5,\n    \"title\": \"fish\",\n    \"price\": \"3.0\",\n    \"created_at\": \"2016-02-23T09:40:59.184Z\",\n    \"updated_at\": \"2016-02-23T09:40:59.184Z\",\n    \"inventory_count\": 20,\n    \"image_url\": \"uploads/product/image/default.png\"\n  },\n  {\n    \"id\": 6,\n    \"city_id\": 6,\n    \"title\": \"fish\",\n    \"price\": \"3.0\",\n    \"created_at\": \"2016-02-23T09:40:59.439Z\",\n    \"updated_at\": \"2016-02-23T09:40:59.439Z\",\n    \"inventory_count\": 20,\n    \"image_url\": \"uploads/product/image/default.png\"\n  },\n  {\n    \"id\": 7,\n    \"city_id\": 7,\n    \"title\": \"fish\",\n    \"price\": \"3.0\",\n    \"created_at\": \"2016-02-23T09:41:04.763Z\",\n    \"updated_at\": \"2016-02-23T09:41:04.763Z\",\n    \"inventory_count\": 20,\n    \"image_url\": \"uploads/product/image/default.png\"\n  },\n  {\n    \"id\": 8,\n    \"city_id\": 7,\n    \"title\": \"fish\",\n    \"price\": \"3.0\",\n    \"created_at\": \"2016-02-23T09:41:04.840Z\",\n    \"updated_at\": \"2016-02-23T09:41:04.840Z\",\n    \"inventory_count\": 20,\n    \"image_url\": \"uploads/product/image/default.png\"\n  },\n  {\n    \"id\": 9,\n    \"city_id\": 7,\n    \"title\": \"fish\",\n    \"price\": \"3.0\",\n    \"created_at\": \"2016-02-23T09:41:04.941Z\",\n    \"updated_at\": \"2016-02-23T09:41:04.941Z\",\n    \"inventory_count\": 20,\n    \"image_url\": \"uploads/product/image/default.png\"\n  },\n  {\n    \"id\": 10,\n    \"city_id\": 7,\n    \"title\": \"fish\",\n    \"price\": \"3.0\",\n    \"created_at\": \"2016-02-23T09:41:05.019Z\",\n    \"updated_at\": \"2016-02-23T09:41:05.019Z\",\n    \"inventory_count\": 20,\n    \"image_url\": \"uploads/product/image/default.png\"\n  },\n  {\n    \"id\": 11,\n    \"city_id\": 8,\n    \"title\": \"fish\",\n    \"price\": \"3.0\",\n    \"created_at\": \"2016-02-23T09:41:05.497Z\",\n    \"updated_at\": \"2016-02-23T09:41:05.497Z\",\n    \"inventory_count\": 20,\n    \"image_url\": \"uploads/product/image/default.png\"\n  },\n  {\n    \"id\": 12,\n    \"city_id\": 8,\n    \"title\": \"fish\",\n    \"price\": \"3.0\",\n    \"created_at\": \"2016-02-23T09:41:05.598Z\",\n    \"updated_at\": \"2016-02-23T09:41:05.598Z\",\n    \"inventory_count\": 20,\n    \"image_url\": \"uploads/product/image/default.png\"\n  },\n  {\n    \"id\": 13,\n    \"city_id\": 8,\n    \"title\": \"fish\",\n    \"price\": \"3.0\",\n    \"created_at\": \"2016-02-23T09:41:05.674Z\",\n    \"updated_at\": \"2016-02-23T09:41:05.674Z\",\n    \"inventory_count\": 20,\n    \"image_url\": \"uploads/product/image/default.png\"\n  },\n  {\n    \"id\": 14,\n    \"city_id\": 8,\n    \"title\": \"fish\",\n    \"price\": \"3.0\",\n    \"created_at\": \"2016-02-23T09:41:05.996Z\",\n    \"updated_at\": \"2016-02-23T09:41:05.996Z\",\n    \"inventory_count\": 0,\n    \"image_url\": \"uploads/product/image/default.png\"\n  },\n  {\n    \"id\": 15,\n    \"city_id\": 8,\n    \"title\": \"fish\",\n    \"price\": \"3.0\",\n    \"created_at\": \"2016-02-23T09:41:06.097Z\",\n    \"updated_at\": \"2016-02-23T09:41:06.097Z\",\n    \"inventory_count\": 0,\n    \"image_url\": \"uploads/product/image/default.png\"\n  },\n  {\n    \"id\": 16,\n    \"city_id\": 8,\n    \"title\": \"fish\",\n    \"price\": \"3.0\",\n    \"created_at\": \"2016-02-23T09:41:06.185Z\",\n    \"updated_at\": \"2016-02-23T09:41:06.185Z\",\n    \"inventory_count\": 0,\n    \"image_url\": \"uploads/product/image/default.png\"\n  },\n  {\n    \"id\": 17,\n    \"city_id\": 9,\n    \"title\": \"fish\",\n    \"price\": \"3.0\",\n    \"created_at\": \"2016-02-23T09:41:06.606Z\",\n    \"updated_at\": \"2016-02-23T09:41:06.606Z\",\n    \"inventory_count\": 0,\n    \"image_url\": \"uploads/product/image/default.png\"\n  },\n  {\n    \"id\": 18,\n    \"city_id\": 10,\n    \"title\": \"fish\",\n    \"price\": \"3.0\",\n    \"created_at\": \"2016-02-23T09:41:06.751Z\",\n    \"updated_at\": \"2016-02-23T09:41:06.751Z\",\n    \"inventory_count\": 0,\n    \"image_url\": \"uploads/product/image/default.png\"\n  },\n  {\n    \"id\": 19,\n    \"city_id\": 11,\n    \"title\": \"fish\",\n    \"price\": \"3.0\",\n    \"created_at\": \"2016-02-23T09:41:06.918Z\",\n    \"updated_at\": \"2016-02-23T09:41:06.918Z\",\n    \"inventory_count\": 0,\n    \"image_url\": \"uploads/product/image/default.png\"\n  },\n  {\n    \"id\": 20,\n    \"city_id\": 12,\n    \"title\": \"fish\",\n    \"price\": \"3.0\",\n    \"created_at\": \"2016-02-23T09:41:07.095Z\",\n    \"updated_at\": \"2016-02-23T09:41:07.095Z\",\n    \"inventory_count\": 0,\n    \"image_url\": \"uploads/product/image/default.png\"\n  },\n  {\n    \"id\": 21,\n    \"city_id\": 13,\n    \"title\": \"fish\",\n    \"price\": \"3.0\",\n    \"created_at\": \"2016-02-23T09:41:07.262Z\",\n    \"updated_at\": \"2016-02-23T09:41:07.262Z\",\n    \"inventory_count\": 0,\n    \"image_url\": \"uploads/product/image/default.png\"\n  },\n  {\n    \"id\": 22,\n    \"city_id\": 14,\n    \"title\": \"fish\",\n    \"price\": \"3.0\",\n    \"created_at\": \"2016-02-23T09:41:07.429Z\",\n    \"updated_at\": \"2016-02-23T09:41:07.429Z\",\n    \"inventory_count\": 20,\n    \"image_url\": \"uploads/product/image/default.png\"\n  }\n]",
+      "response_headers": {
+        "X-Frame-Options": "SAMEORIGIN",
+        "X-XSS-Protection": "1; mode=block",
+        "X-Content-Type-Options": "nosniff",
+        "Content-Type": "application/json; charset=utf-8",
+        "ETag": "W/\"d7a2a6c230f61bffaa7e3d6aeeaf7a82\"",
+        "Cache-Control": "max-age=0, private, must-revalidate",
+        "X-Request-Id": "5b97b988-12ee-4546-b1f4-566da00f13a0",
+        "X-Runtime": "0.015157",
+        "Content-Length": "4389"
+      },
+      "response_content_type": "application/json; charset=utf-8",
+      "curl": "curl \"http://localhost:3000/products\" -X GET \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "resource": "Payments",
+  "http_method": "GET",
+  "route": "/client/payments/new",
+  "description": "return all forms for payment",
+  "explanation": null,
+  "parameters": [
+    {
+      "name": "order_id",
+      "description": " order"
+    },
+    {
+      "name": "amount",
+      "description": " amount"
+    }
+  ],
+  "response_fields": [
+
+  ],
+  "requests": [
+    {
+      "request_method": "GET",
+      "request_path": "/client/payments/new?order_id=1&amount=12",
+      "request_body": null,
+      "request_headers": {
+        "Access-Token": "pbqtj9uKkJkuKWzJ758wCw",
+        "Token-Type": "Bearer",
+        "Client": "Q2pQJELneja3hgLRX3LEzA",
+        "Expiry": "1457430062",
+        "Uid": "82karlee_hilpert@cruickshank.info",
+        "Host": "example.org",
+        "Cookie": ""
+      },
+      "request_query_parameters": {
+        "order_id": "1",
+        "amount": "12"
+      },
+      "request_content_type": null,
+      "response_status": 200,
+      "response_status_text": "OK",
+      "response_body": "{\n  \"citrus\": {\n    \"action\": \"https://sandbox.citruspay.com/kouqfeaav0\",\n    \"method\": \"POST\",\n    \"fields\": {\n      \"merchantTxnId\": \"1\",\n      \"merchantAccessKey\": \"T82TNCTLNBZ282BLHAGD\",\n      \"orderAmount\": \"12\",\n      \"currency\": \"USD\",\n      \"secret_key\": \"1690a1e29ecec2a5f852b678dd5362616c79916a\",\n      \"pmt_url\": \"kouqfeaav0\",\n      \"returnUrl\": \"http://localhost:3000/client/payments/citrus\",\n      \"paymentMode\": \"NET_BANKING\",\n      \"reqtime\": \"1456220462000\",\n      \"secSignature\": \"79e2c592410e7b9485b79b36c4b8a076bb0fe69f\"\n    }\n  }\n}",
+      "response_headers": {
+        "X-Frame-Options": "SAMEORIGIN",
+        "X-XSS-Protection": "1; mode=block",
+        "X-Content-Type-Options": "nosniff",
+        "Content-Type": "application/json; charset=utf-8",
+        "ETag": "W/\"03c89da60abd706929ad716e8d438bd8\"",
+        "Cache-Control": "max-age=0, private, must-revalidate",
+        "X-Request-Id": "a4731ab1-5b50-4fa5-a11e-fea1f8c6f175",
+        "X-Runtime": "0.007889",
+        "Content-Length": "440"
+      },
+      "response_content_type": "application/json; charset=utf-8",
+      "curl": "curl \"http://localhost:3000/client/payments/new?order_id=1&amount=12\" -X GET \\\n\t-H \"Access-Token: pbqtj9uKkJkuKWzJ758wCw\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: Q2pQJELneja3hgLRX3LEzA\" \\\n\t-H \"Expiry: 1457430062\" \\\n\t-H \"Uid: 82karlee_hilpert@cruickshank.info\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
+    }
+  ]
+}

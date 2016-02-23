@@ -1,0 +1,54 @@
+{
+  "resource": "Orders",
+  "http_method": "PUT",
+  "route": "/client/orders/:id/update_status",
+  "description": "client cant approve order",
+  "explanation": null,
+  "parameters": [
+    {
+      "scope": "order",
+      "required": true,
+      "name": "action",
+      "description": "only :confirm is possible for this route (for client)"
+    }
+  ],
+  "response_fields": [
+
+  ],
+  "requests": [
+    {
+      "request_method": "PUT",
+      "request_path": "/client/orders/3/update_status",
+      "request_body": "order[action]=approve",
+      "request_headers": {
+        "Access-Token": "o34NcZAtrlGgvjjCh3i9HA",
+        "Token-Type": "Bearer",
+        "Client": "95sLcwUlvCMT6D-5mNP_RA",
+        "Expiry": "1457430061",
+        "Uid": "77karson.botsford@rowe.com",
+        "Host": "example.org",
+        "Content-Type": "application/x-www-form-urlencoded",
+        "Cookie": ""
+      },
+      "request_query_parameters": {
+      },
+      "request_content_type": "application/x-www-form-urlencoded",
+      "response_status": 401,
+      "response_status_text": "Unauthorized",
+      "response_body": "{\n  \"error\": \"this user can't approve order\"\n}",
+      "response_headers": {
+        "X-Frame-Options": "SAMEORIGIN",
+        "X-XSS-Protection": "1; mode=block",
+        "X-Content-Type-Options": "nosniff",
+        "Content-Type": "application/json; charset=utf-8",
+        "Cache-Control": "no-cache",
+        "Set-Cookie": "_session_id=Wi9PQ3hWYmQ4TnBwRFh1VGlIVWd4S0drUjdjRTVlcDRhS3lPSm80SEZzV2c4R3EyekZmUG4wdmRxVWpDR1lHQlpxSVppRVcrQXpyMFJxVWxJK1pNNGV2V293a0V2Z0FZc3VKRnpUdERFREF6REQzY1lEZTNYdXpoYkJmM0p6dW56UGtTcGFFR2JoUVdsK3dTZHNLNW9BTitaRE9MLzJidDQ2RktrUU1Sb0VwaTVpeDZTN2tPTkE2OVhJV1JTNFdtLS1vdFMxTTFHNjZlUnBsWG9saHNVMk13PT0%3D--af3a3fdd5f719ff60ecdc40c059012bf24a17666; path=/; HttpOnly",
+        "X-Request-Id": "a6aca2e0-2649-4502-b807-294a3cb4a1fa",
+        "X-Runtime": "0.085823",
+        "Content-Length": "41"
+      },
+      "response_content_type": "application/json; charset=utf-8",
+      "curl": "curl \"http://localhost:3000/client/orders/3/update_status\" -d 'order[action]=approve' -X PUT \\\n\t-H \"Access-Token: o34NcZAtrlGgvjjCh3i9HA\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: 95sLcwUlvCMT6D-5mNP_RA\" \\\n\t-H \"Expiry: 1457430061\" \\\n\t-H \"Uid: 77karson.botsford@rowe.com\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "resource": "Users",
+  "http_method": "POST",
+  "route": "/auth",
+  "description": "create user",
+  "explanation": null,
+  "parameters": [
+    {
+      "required": true,
+      "name": "phone",
+      "description": " phone"
+    },
+    {
+      "required": true,
+      "name": "email",
+      "description": " email"
+    },
+    {
+      "required": true,
+      "name": "password",
+      "description": " password"
+    },
+    {
+      "required": true,
+      "name": "password_confirmation",
+      "description": " password confirmation"
+    },
+    {
+      "required": true,
+      "name": "first_name",
+      "description": " first name"
+    },
+    {
+      "required": true,
+      "name": "last_name",
+      "description": " last name"
+    }
+  ],
+  "response_fields": [
+
+  ],
+  "requests": [
+    {
+      "request_method": "POST",
+      "request_path": "/auth",
+      "request_body": "email=83berniece.flatley%40abshireryan.com&password=secrety_bickety&password_confirmation=secrety_bickety&first_name=Marcella&last_name=Hansen&phone=%2B79172343270",
+      "request_headers": {
+        "Access-Token": "Ju06jvMAIgV0ymepeQMgQg",
+        "Token-Type": "Bearer",
+        "Client": "vLbHUkKb3eugzwNXQ9O2vw",
+        "Expiry": "1457430062",
+        "Uid": "84filiberto@schulist.biz",
+        "Host": "example.org",
+        "Content-Type": "application/x-www-form-urlencoded",
+        "Cookie": ""
+      },
+      "request_query_parameters": {
+      },
+      "request_content_type": "application/x-www-form-urlencoded",
+      "response_status": 200,
+      "response_status_text": "OK",
+      "response_body": "{\n  \"status\": \"success\",\n  \"data\": {\n    \"id\": 4,\n    \"city_id\": null,\n    \"first_name\": \"Marcella\",\n    \"last_name\": \"Hansen\",\n    \"email\": \"83berniece.flatley@abshireryan.com\",\n    \"provider\": \"email\",\n    \"uid\": \"83berniece.flatley@abshireryan.com\",\n    \"phone\": \"+79172343270\",\n    \"verification_code\": null,\n    \"is_verified\": false,\n    \"created_at\": \"2016-02-23T09:41:02.588Z\",\n    \"updated_at\": \"2016-02-23T09:41:02.733Z\"\n  }\n}",
+      "response_headers": {
+        "X-Frame-Options": "SAMEORIGIN",
+        "X-XSS-Protection": "1; mode=block",
+        "X-Content-Type-Options": "nosniff",
+        "access-token": "_Jo7FLuf9gxMTafR1uOscA",
+        "token-type": "Bearer",
+        "client": "6YU4OmernGkMvIy6UIfHpg",
+        "expiry": "1457430062",
+        "uid": "83berniece.flatley@abshireryan.com",
+        "Content-Type": "application/json; charset=utf-8",
+        "ETag": "W/\"863e5d562cf19f760484dc9388452aba\"",
+        "Cache-Control": "max-age=0, private, must-revalidate",
+        "X-Request-Id": "bdf725be-e528-4e50-b2cc-97e1147eca5d",
+        "X-Runtime": "0.162373",
+        "Content-Length": "351"
+      },
+      "response_content_type": "application/json; charset=utf-8",
+      "curl": "curl \"http://localhost:3000/auth\" -d 'email=83berniece.flatley%40abshireryan.com&password=secrety_bickety&password_confirmation=secrety_bickety&first_name=Marcella&last_name=Hansen&phone=%2B79172343270' -X POST \\\n\t-H \"Access-Token: Ju06jvMAIgV0ymepeQMgQg\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: vLbHUkKb3eugzwNXQ9O2vw\" \\\n\t-H \"Expiry: 1457430062\" \\\n\t-H \"Uid: 84filiberto@schulist.biz\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "resource": "Orders",
+  "http_method": "GET",
+  "route": "/client/orders/:id",
+  "description": "get current user's order",
+  "explanation": null,
+  "parameters": [
+
+  ],
+  "response_fields": [
+
+  ],
+  "requests": [
+    {
+      "request_method": "GET",
+      "request_path": "/client/orders/3",
+      "request_body": null,
+      "request_headers": {
+        "Access-Token": "PjXCKx0MIbWarLwpX1RwCg",
+        "Token-Type": "Bearer",
+        "Client": "itqBMIqEvazGhHxeW2Z5Gw",
+        "Expiry": "1457430060",
+        "Uid": "70michel_streich@dubuquekerluke.biz",
+        "Host": "example.org",
+        "Cookie": ""
+      },
+      "request_query_parameters": {
+      },
+      "request_content_type": null,
+      "response_status": 200,
+      "response_status_text": "OK",
+      "response_body": "{\n  \"id\": 3,\n  \"user_id\": 3,\n  \"status\": \"unconfirmed\",\n  \"created_at\": \"2016-02-23T09:41:00.039Z\",\n  \"comment\": null,\n  \"pure_product_price\": \"27.0\",\n  \"tax\": \"1.35\",\n  \"delivery_charge\": \"200.0\",\n  \"total_price\": \"228.35\",\n  \"delivery_boy_id\": null,\n  \"wanted_time\": null,\n  \"wanted_date\": null,\n  \"payment_type\": null,\n  \"is_paid\": null,\n  \"line_items\": [\n    {\n      \"id\": 7,\n      \"order_id\": 3,\n      \"product_id\": 7,\n      \"amount\": 3,\n      \"fixed_price\": \"9.0\"\n    },\n    {\n      \"id\": 8,\n      \"order_id\": 3,\n      \"product_id\": 8,\n      \"amount\": 3,\n      \"fixed_price\": \"9.0\"\n    },\n    {\n      \"id\": 9,\n      \"order_id\": 3,\n      \"product_id\": 9,\n      \"amount\": 3,\n      \"fixed_price\": \"9.0\"\n    }\n  ]\n}",
+      "response_headers": {
+        "X-Frame-Options": "SAMEORIGIN",
+        "X-XSS-Protection": "1; mode=block",
+        "X-Content-Type-Options": "nosniff",
+        "Content-Type": "application/json; charset=utf-8",
+        "ETag": "W/\"b5bb6b0592874438b152ae7a385ebcb3\"",
+        "Cache-Control": "max-age=0, private, must-revalidate",
+        "Set-Cookie": "_session_id=WnRPRVJqZGhyWkVBNVhLYWdkelhSQzZJZFRWNklaQmY3M3g2ZnRseXd1N1ppMnZ5N205MlNUaFpjNE5FMmZ0Q09jdjZwUS80ZjJqdDNRZHJETWF3dlovbUYvZ0VwelNrSXJhMzRJdjFDSHBXTjE0V01TM3A3VWRic2RTZWxCT3ZqVnBNd0tKL3ovMDk1Tyt2NUpqaXptMUJQSE9EUFJ1R2hzNEZRenlrRTNGUnNrWFlMSnJRbDJRTS82dmIvdDh6LS1zSWRTa0dVWmFnMFVjOTQwTzVhUk1RPT0%3D--60fca415d13ca8def6fb23f2dc9fb1d94a592f39; path=/; HttpOnly",
+        "X-Request-Id": "a7113086-5614-4aeb-a5e8-bb1c694ed71f",
+        "X-Runtime": "0.081157",
+        "Content-Length": "503"
+      },
+      "response_content_type": "application/json; charset=utf-8",
+      "curl": "curl \"http://localhost:3000/client/orders/3\" -X GET \\\n\t-H \"Access-Token: PjXCKx0MIbWarLwpX1RwCg\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: itqBMIqEvazGhHxeW2Z5Gw\" \\\n\t-H \"Expiry: 1457430060\" \\\n\t-H \"Uid: 70michel_streich@dubuquekerluke.biz\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
+    }
+  ]
+}

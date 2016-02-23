@@ -1,0 +1,77 @@
+{
+  "resource": "Users",
+  "http_method": "POST",
+  "route": "/auth",
+  "description": "create user: invalid params",
+  "explanation": null,
+  "parameters": [
+    {
+      "required": true,
+      "name": "phone",
+      "description": " phone"
+    },
+    {
+      "required": true,
+      "name": "email",
+      "description": " email"
+    },
+    {
+      "required": true,
+      "name": "password",
+      "description": " password"
+    },
+    {
+      "required": true,
+      "name": "password_confirmation",
+      "description": " password confirmation"
+    },
+    {
+      "required": true,
+      "name": "first_name",
+      "description": " first name"
+    },
+    {
+      "required": true,
+      "name": "last_name",
+      "description": " last name"
+    }
+  ],
+  "response_fields": [
+
+  ],
+  "requests": [
+    {
+      "request_method": "POST",
+      "request_path": "/auth",
+      "request_body": "email=85bettie_watsica%40schowalter.org&password=secrety_bickety&password_confirmation=secrety_bickety&first_name=Mozelle&last_name=Bailey&phone",
+      "request_headers": {
+        "Access-Token": "iVy9ev9P-RDXqVYpzQIZFw",
+        "Token-Type": "Bearer",
+        "Client": "PNOxGMgLxgRQd8BTcm32uQ",
+        "Expiry": "1457430062",
+        "Uid": "86godfrey.franecki@sawaynmann.com",
+        "Host": "example.org",
+        "Content-Type": "application/x-www-form-urlencoded",
+        "Cookie": ""
+      },
+      "request_query_parameters": {
+      },
+      "request_content_type": "application/x-www-form-urlencoded",
+      "response_status": 403,
+      "response_status_text": "Forbidden",
+      "response_body": "{\n  \"status\": \"error\",\n  \"data\": {\n    \"id\": null,\n    \"city_id\": null,\n    \"first_name\": \"Mozelle\",\n    \"last_name\": \"Bailey\",\n    \"email\": \"85bettie_watsica@schowalter.org\",\n    \"provider\": \"email\",\n    \"uid\": \"\",\n    \"phone\": null,\n    \"verification_code\": null,\n    \"is_verified\": null,\n    \"created_at\": null,\n    \"updated_at\": null\n  },\n  \"errors\": {\n    \"phone\": [\n      \"can't be blank\",\n      \"is invalid\"\n    ],\n    \"full_messages\": [\n      \"Phone can't be blank\",\n      \"Phone is invalid\"\n    ]\n  }\n}",
+      "response_headers": {
+        "X-Frame-Options": "SAMEORIGIN",
+        "X-XSS-Protection": "1; mode=block",
+        "X-Content-Type-Options": "nosniff",
+        "Content-Type": "application/json; charset=utf-8",
+        "Cache-Control": "no-cache",
+        "X-Request-Id": "646d62bd-caf9-4f31-a17b-274be06631bb",
+        "X-Runtime": "0.008455",
+        "Content-Length": "370"
+      },
+      "response_content_type": "application/json; charset=utf-8",
+      "curl": "curl \"http://localhost:3000/auth\" -d 'email=85bettie_watsica%40schowalter.org&password=secrety_bickety&password_confirmation=secrety_bickety&first_name=Mozelle&last_name=Bailey&phone' -X POST \\\n\t-H \"Access-Token: iVy9ev9P-RDXqVYpzQIZFw\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: PNOxGMgLxgRQd8BTcm32uQ\" \\\n\t-H \"Expiry: 1457430062\" \\\n\t-H \"Uid: 86godfrey.franecki@sawaynmann.com\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+    }
+  ]
+}

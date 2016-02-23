@@ -1,0 +1,50 @@
+{
+  "resource": "Users",
+  "http_method": "PUT",
+  "route": "/auth",
+  "description": "user updates self",
+  "explanation": "if phone is updates, is_verified is set to false",
+  "parameters": [
+
+  ],
+  "response_fields": [
+
+  ],
+  "requests": [
+    {
+      "request_method": "PUT",
+      "request_path": "/auth",
+      "request_body": "phone=%2B79174446666",
+      "request_headers": {
+        "Access-Token": "SC39n3rwdKj9qHf3wTaZBg",
+        "Token-Type": "Bearer",
+        "Client": "fJ_0kct_XOktlzJzUhfPcA",
+        "Expiry": "1457430062",
+        "Uid": "87corine_ohara@heathcote.com",
+        "Host": "example.org",
+        "Content-Type": "application/x-www-form-urlencoded",
+        "Cookie": ""
+      },
+      "request_query_parameters": {
+      },
+      "request_content_type": "application/x-www-form-urlencoded",
+      "response_status": 200,
+      "response_status_text": "OK",
+      "response_body": "{\n  \"status\": \"success\",\n  \"data\": {\n    \"id\": 3,\n    \"city_id\": null,\n    \"first_name\": \"Lillian\",\n    \"last_name\": \"Lueilwitz\",\n    \"email\": \"87corine_ohara@heathcote.com\",\n    \"provider\": \"email\",\n    \"uid\": \"87corine_ohara@heathcote.com\",\n    \"phone\": \"+79174446666\",\n    \"verification_code\": null,\n    \"is_verified\": false,\n    \"created_at\": \"2016-02-23T09:41:02.843Z\",\n    \"updated_at\": \"2016-02-23T09:41:02.997Z\"\n  }\n}",
+      "response_headers": {
+        "X-Frame-Options": "SAMEORIGIN",
+        "X-XSS-Protection": "1; mode=block",
+        "X-Content-Type-Options": "nosniff",
+        "Content-Type": "application/json; charset=utf-8",
+        "ETag": "W/\"7d4adbfe3237fc172ac3ed4aa1e201b3\"",
+        "Cache-Control": "max-age=0, private, must-revalidate",
+        "Set-Cookie": "_session_id=T1ZOQ0xIdTRoT2lUczNyR2trMWdkQVFFS2ZsWjhCY2FFUjFwUXA1alArc0JZUmNVeGdDMUZzSjZYdDlwTktJSG56d2Z4VUoxNHlmMVBUK29yNzJuMFRnSUlhNG1vbkFLMnNabFdOck5sM2F6V0tmRFFMSVZaVTRwUE1CazBaVVVJRU5OeWNiL1BXNTRMelpuQ2RFN3lCWWhDTGhqVjVYbUNia0wxeFRpY2pFZlg2UlVaZnRnZjk0VE03RmV0ZnFaLS10NUJ3Mit6eVU4bmt0K2QvMzR4Y0Z3PT0%3D--f0cbd4d83c9837c0a364361c5ea2d5f12b97a87e; path=/; HttpOnly",
+        "X-Request-Id": "a98a7f87-e4de-4076-82a8-d19c6205d00b",
+        "X-Runtime": "0.085147",
+        "Content-Length": "341"
+      },
+      "response_content_type": "application/json; charset=utf-8",
+      "curl": "curl \"http://localhost:3000/auth\" -d 'phone=%2B79174446666' -X PUT \\\n\t-H \"Access-Token: SC39n3rwdKj9qHf3wTaZBg\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: fJ_0kct_XOktlzJzUhfPcA\" \\\n\t-H \"Expiry: 1457430062\" \\\n\t-H \"Uid: 87corine_ohara@heathcote.com\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+    }
+  ]
+}

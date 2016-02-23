@@ -1,0 +1,54 @@
+{
+  "resource": "Orders",
+  "http_method": "PUT",
+  "route": "/client/orders/:id/update_status",
+  "description": "client confirms order",
+  "explanation": null,
+  "parameters": [
+    {
+      "scope": "order",
+      "required": true,
+      "name": "action",
+      "description": "only :confirm is possible for this route (for client)"
+    }
+  ],
+  "response_fields": [
+
+  ],
+  "requests": [
+    {
+      "request_method": "PUT",
+      "request_path": "/client/orders/3/update_status",
+      "request_body": "order[action]=confirm",
+      "request_headers": {
+        "Access-Token": "hzCqkApU7N6hZm8mk2lwJw",
+        "Token-Type": "Bearer",
+        "Client": "zZ6nIGG7CcyYugEGLqBIMg",
+        "Expiry": "1457430061",
+        "Uid": "76sarai_balistreri@metz.biz",
+        "Host": "example.org",
+        "Content-Type": "application/x-www-form-urlencoded",
+        "Cookie": ""
+      },
+      "request_query_parameters": {
+      },
+      "request_content_type": "application/x-www-form-urlencoded",
+      "response_status": 200,
+      "response_status_text": "OK",
+      "response_body": null,
+      "response_headers": {
+        "X-Frame-Options": "SAMEORIGIN",
+        "X-XSS-Protection": "1; mode=block",
+        "X-Content-Type-Options": "nosniff",
+        "Content-Type": "text/html",
+        "Cache-Control": "no-cache",
+        "Set-Cookie": "_session_id=TFJlSGZGRk5BYzR2aTlBaEw3OFFMTDhqRFVyOXNKSVBicEoyclBNakI0dUdReklLcCtaZGlOMS9nUXdXNHNnNzh4TTdZTjdyazBncWZwM0lVMEN5U3k4d0FWYlIzVmV5clVTeFNsY1NpakVLNmQzK3F4emxUeXFNa3FtdkFwK05hTXJoN2FibHRhSS9uQi8wLzM0TzBoeGlBdmpJa1ZBa21lcmkvZUVJR0pQdEo4cjdUTUZaME5WbXdXM2VmRmJZLS11TDBzSVJmVEtkOU5nRGxsTkFvaE9RPT0%3D--5e2564666938119fa82c3761bed9fe5a667e0a25; path=/; HttpOnly",
+        "X-Request-Id": "30497909-b355-4a30-a830-04c6a9ece570",
+        "X-Runtime": "0.088393",
+        "Content-Length": "0"
+      },
+      "response_content_type": "text/html",
+      "curl": "curl \"http://localhost:3000/client/orders/3/update_status\" -d 'order[action]=confirm' -X PUT \\\n\t-H \"Access-Token: hzCqkApU7N6hZm8mk2lwJw\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: zZ6nIGG7CcyYugEGLqBIMg\" \\\n\t-H \"Expiry: 1457430061\" \\\n\t-H \"Uid: 76sarai_balistreri@metz.biz\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+    }
+  ]
+}

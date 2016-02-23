@@ -1,0 +1,54 @@
+{
+  "resource": "Orders",
+  "http_method": "PUT",
+  "route": "/admin/orders/:id/update_status",
+  "description": "approve confirmed order",
+  "explanation": null,
+  "parameters": [
+    {
+      "scope": "order",
+      "required": true,
+      "name": "action",
+      "description": ":approve, :dispatch, :deliver, :cancel"
+    }
+  ],
+  "response_fields": [
+
+  ],
+  "requests": [
+    {
+      "request_method": "PUT",
+      "request_path": "/admin/orders/1/update_status",
+      "request_body": "order[action]=approve",
+      "request_headers": {
+        "Access-Token": "JAefg2gj2a-krpMGS0s7rg",
+        "Token-Type": "Bearer",
+        "Client": "gvL3JvHgF3aBqxE_Y1bpbg",
+        "Expiry": "1457430050",
+        "Uid": "21lolita@andersonschuppe.name",
+        "Host": "example.org",
+        "Content-Type": "application/x-www-form-urlencoded",
+        "Cookie": ""
+      },
+      "request_query_parameters": {
+      },
+      "request_content_type": "application/x-www-form-urlencoded",
+      "response_status": 200,
+      "response_status_text": "OK",
+      "response_body": null,
+      "response_headers": {
+        "X-Frame-Options": "SAMEORIGIN",
+        "X-XSS-Protection": "1; mode=block",
+        "X-Content-Type-Options": "nosniff",
+        "Content-Type": "text/html",
+        "Cache-Control": "no-cache",
+        "Set-Cookie": "_session_id=T2ZjcSsxdjVQRTA0Qkx6dmVsNVkrVTU4eGZaQ2ozd0lMTldZeFVnMy9lUnhMYko5anVnbmxhdU1xTWhxeDE3Q1dudkZYUllOUWhQanFoaHVTNzJFR29FRExBVWVUZEF0S2ZOaFpVMlhJQkJsQXYyNWtwUWhpTHBDcml1WFFzRVlKcGxvTnB1cEEyS2dOelcvK0wvYzVkRDgwcFU4WDRiRVhyZ2lXd3Y1YUFTWFNyQ2lKRXdMMGhLb294OVA0OC96LS1iM09HYXdRT3pUL2Z2OUx2RWpnUjV3PT0%3D--2d03cf258bf22073fd43a3489d9948c9a9674695; path=/; HttpOnly",
+        "X-Request-Id": "7222114c-961a-49a3-8ca0-27ccb3feabee",
+        "X-Runtime": "0.118507",
+        "Content-Length": "0"
+      },
+      "response_content_type": "text/html",
+      "curl": "curl \"http://localhost:3000/admin/orders/1/update_status\" -d 'order[action]=approve' -X PUT \\\n\t-H \"Access-Token: JAefg2gj2a-krpMGS0s7rg\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: gvL3JvHgF3aBqxE_Y1bpbg\" \\\n\t-H \"Expiry: 1457430050\" \\\n\t-H \"Uid: 21lolita@andersonschuppe.name\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+    }
+  ]
+}

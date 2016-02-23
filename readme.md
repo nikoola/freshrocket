@@ -16,6 +16,9 @@ to run things in console/deloyment successfully:
 	redis-server --daemonize yes
 	sidekiq
 
+	
+	heroku run rake db:migrate
+
 
 
 to see docs:

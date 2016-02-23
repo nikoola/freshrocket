@@ -1,0 +1,84 @@
+{
+  "resource": "Products",
+  "http_method": "POST",
+  "route": "/admin/products",
+  "description": "create product",
+  "explanation": null,
+  "parameters": [
+    {
+      "scope": "product",
+      "required": true,
+      "name": "title",
+      "description": ""
+    },
+    {
+      "scope": "product",
+      "required": true,
+      "name": "price",
+      "description": ""
+    },
+    {
+      "scope": "product",
+      "required": true,
+      "name": "inventory_count",
+      "description": "amount of product in stock"
+    },
+    {
+      "scope": "product",
+      "required": true,
+      "name": "city_id",
+      "description": "product served at city"
+    },
+    {
+      "scope": "product",
+      "name": "image",
+      "description": "Product image"
+    },
+    {
+      "scope": "product",
+      "name": "category_ids",
+      "description": "array of ids of categories product belongs to"
+    }
+  ],
+  "response_fields": [
+
+  ],
+  "requests": [
+    {
+      "request_method": "POST",
+      "request_path": "/admin/products",
+      "request_body": "product[title]=fish&product[price]=3.0&product[inventory_count]=2&product[city_id]=1",
+      "request_headers": {
+        "Access-Token": "SUbxe6fafr6wfYhxG2vZLg",
+        "Token-Type": "Bearer",
+        "Client": "khKNwMh-174YPUI7jdC-eg",
+        "Expiry": "1457430051",
+        "Uid": "29lorenza@stokes.info",
+        "Host": "example.org",
+        "Content-Type": "application/x-www-form-urlencoded",
+        "Cookie": ""
+      },
+      "request_query_parameters": {
+      },
+      "request_content_type": "application/x-www-form-urlencoded",
+      "response_status": 201,
+      "response_status_text": "Created",
+      "response_body": "{\n  \"id\": 1,\n  \"city_id\": 1,\n  \"title\": \"fish\",\n  \"price\": \"3.0\",\n  \"created_at\": \"2016-02-23T09:40:51.736Z\",\n  \"updated_at\": \"2016-02-23T09:40:51.736Z\",\n  \"inventory_count\": 2,\n  \"image_url\": \"uploads/product/image/default.png\"\n}",
+      "response_headers": {
+        "X-Frame-Options": "SAMEORIGIN",
+        "X-XSS-Protection": "1; mode=block",
+        "X-Content-Type-Options": "nosniff",
+        "Location": "http://example.org/products/1",
+        "Content-Type": "application/json; charset=utf-8",
+        "ETag": "W/\"ae0db3a6f709623a2b2ac7bb502282ae\"",
+        "Cache-Control": "max-age=0, private, must-revalidate",
+        "Set-Cookie": "_session_id=QkdwNDNOaFd3SmdvK3UwTWM2bTNReEpJZ1lUM1NaWWhHNWJ5bnh5MEpLL2tCOGhMTGVWc3lSOWI4aVRuNEtscUZzb3Q4a29aZUU3Rlg4ak4wYVlRaElFM1l0RU5HN3kzSjkxMENXcXR5czIxWXcxdytkMWFCMFZxNWk2cVRVTzE3WFRiY2c2b0pvcWNhVFMwVTR3NTNJaW9vWTdpd2h6NE9ObDd3YjJGWXdaMzdCOG9nMDdCUWNiUlFnUnQ5ZTF1LS1ZQTZsUG00MXFQVmxzSTJlQUlaZ1VBPT0%3D--e99f788007054cb3d62ad06a211d6fea19adc3f4; path=/; HttpOnly",
+        "X-Request-Id": "84731ab9-fd01-4155-bd24-0e1c4a87c4e2",
+        "X-Runtime": "0.116198",
+        "Content-Length": "197"
+      },
+      "response_content_type": "application/json; charset=utf-8",
+      "curl": "curl \"http://localhost:3000/admin/products\" -d 'product[title]=fish&product[price]=3.0&product[inventory_count]=2&product[city_id]=1' -X POST \\\n\t-H \"Access-Token: SUbxe6fafr6wfYhxG2vZLg\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: khKNwMh-174YPUI7jdC-eg\" \\\n\t-H \"Expiry: 1457430051\" \\\n\t-H \"Uid: 29lorenza@stokes.info\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+    }
+  ]
+}

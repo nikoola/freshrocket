@@ -1,0 +1,54 @@
+{
+  "resource": "Orders",
+  "http_method": "PUT",
+  "route": "/client/orders/:id/update_status",
+  "description": "client can't confirm order if products are out of stock",
+  "explanation": null,
+  "parameters": [
+    {
+      "scope": "order",
+      "required": true,
+      "name": "action",
+      "description": "only :confirm is possible for this route (for client)"
+    }
+  ],
+  "response_fields": [
+
+  ],
+  "requests": [
+    {
+      "request_method": "PUT",
+      "request_path": "/client/orders/4/update_status",
+      "request_body": "order[action]=confirm",
+      "request_headers": {
+        "Access-Token": "Z3wdfvP0z_tTxdnsc5kGKQ",
+        "Token-Type": "Bearer",
+        "Client": "aHY0hqjMtOkAjwzsp1KeQA",
+        "Expiry": "1457430062",
+        "Uid": "81elias@shieldsbarrows.org",
+        "Host": "example.org",
+        "Content-Type": "application/x-www-form-urlencoded",
+        "Cookie": ""
+      },
+      "request_query_parameters": {
+      },
+      "request_content_type": "application/x-www-form-urlencoded",
+      "response_status": 422,
+      "response_status_text": "Unprocessable Entity",
+      "response_body": "{\n  \"stock shortage\": [\n    {\n      \"product.inventory_count\": 0,\n      \"line_item.amount\": 5,\n      \"product.id\": 10,\n      \"line_item.id\": 10\n    }\n  ]\n}",
+      "response_headers": {
+        "X-Frame-Options": "SAMEORIGIN",
+        "X-XSS-Protection": "1; mode=block",
+        "X-Content-Type-Options": "nosniff",
+        "Content-Type": "application/json; charset=utf-8",
+        "Cache-Control": "no-cache",
+        "Set-Cookie": "_session_id=cksxQmNjRDBVTE4zNUxiT1ZuOXc3aHorZVlsbElFSTBubTVyM0xHVlk5U0dESUkvTG84TjlJN1hsV05tWHE0QkJjaHByQkFXem5ZUWo1bkg4STVDcERQYUJ4Nmt4MS9JRmowWnNtVHY2Tk5mMm5HenFxWExqMHhZRWVZdG1iTUJDTXBBcHFNMTJlZDFIdjM3LzZ2NmZZRWVIWk5NUXFNVEpIYnpSTStZMDRlWDNoZHhISllad3Q4elJTUytaMXYwLS1ZS3dzVHZYZEJMRXpOL1J2WkFnMmV3PT0%3D--b838eafa3fc0390ceee5243e08fd84a35546bd7c; path=/; HttpOnly",
+        "X-Request-Id": "4f0ca162-df62-4239-94e7-1db24931c9a4",
+        "X-Runtime": "0.081924",
+        "Content-Length": "105"
+      },
+      "response_content_type": "application/json; charset=utf-8",
+      "curl": "curl \"http://localhost:3000/client/orders/4/update_status\" -d 'order[action]=confirm' -X PUT \\\n\t-H \"Access-Token: Z3wdfvP0z_tTxdnsc5kGKQ\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: aHY0hqjMtOkAjwzsp1KeQA\" \\\n\t-H \"Expiry: 1457430062\" \\\n\t-H \"Uid: 81elias@shieldsbarrows.org\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+    }
+  ]
+}

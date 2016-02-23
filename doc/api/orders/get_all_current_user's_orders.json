@@ -1,0 +1,49 @@
+{
+  "resource": "Orders",
+  "http_method": "GET",
+  "route": "/client/orders",
+  "description": "get all current user's orders",
+  "explanation": null,
+  "parameters": [
+
+  ],
+  "response_fields": [
+
+  ],
+  "requests": [
+    {
+      "request_method": "GET",
+      "request_path": "/client/orders",
+      "request_body": null,
+      "request_headers": {
+        "Access-Token": "AXlU3aMisqyQR4iDlmVi4Q",
+        "Token-Type": "Bearer",
+        "Client": "cYTw5RKJRxh3qw-VWzDFXA",
+        "Expiry": "1457430059",
+        "Uid": "68marta_olson@mccullough.biz",
+        "Host": "example.org",
+        "Cookie": ""
+      },
+      "request_query_parameters": {
+      },
+      "request_content_type": null,
+      "response_status": 200,
+      "response_status_text": "OK",
+      "response_body": "[\n  {\n    \"id\": 3,\n    \"user_id\": 3,\n    \"status\": \"unconfirmed\",\n    \"created_at\": \"2016-02-23T09:40:59.766Z\",\n    \"comment\": null,\n    \"pure_product_price\": \"27.0\",\n    \"tax\": \"1.35\",\n    \"delivery_charge\": \"200.0\",\n    \"total_price\": \"228.35\",\n    \"delivery_boy_id\": null,\n    \"wanted_time\": null,\n    \"wanted_date\": null,\n    \"payment_type\": null,\n    \"is_paid\": null,\n    \"line_items\": [\n      {\n        \"id\": 7,\n        \"order_id\": 3,\n        \"product_id\": 7,\n        \"amount\": 3,\n        \"fixed_price\": \"9.0\"\n      },\n      {\n        \"id\": 8,\n        \"order_id\": 3,\n        \"product_id\": 8,\n        \"amount\": 3,\n        \"fixed_price\": \"9.0\"\n      },\n      {\n        \"id\": 9,\n        \"order_id\": 3,\n        \"product_id\": 9,\n        \"amount\": 3,\n        \"fixed_price\": \"9.0\"\n      }\n    ]\n  }\n]",
+      "response_headers": {
+        "X-Frame-Options": "SAMEORIGIN",
+        "X-XSS-Protection": "1; mode=block",
+        "X-Content-Type-Options": "nosniff",
+        "Content-Type": "application/json; charset=utf-8",
+        "ETag": "W/\"ec7e5181b244a8fe4a2679b02b2fb703\"",
+        "Cache-Control": "max-age=0, private, must-revalidate",
+        "Set-Cookie": "_session_id=SHViRHFJWUhWWUhjYnhDbmVzSUJzOVN6MXBQZ0JhNnBXQTM4eFBGMDVtaC9iRkc3OWdQSHZkSCtJeG85L3FlUlZZZy9WTWlJVkxvSTFaQ1hQRnR4N1dieXQra0M5c2N1Z0lHNEo1WGUzdWVyRk9TVHFqN2doU29Sd2dNVEs3WTZCV2ptUytmRXpScHE3Nlo2TFdsM2VBZVVlRWsxS0IxOUV4UkpXMTYvOFREcm1WTE5kSVNPWkhxd0pSZUM4WGl6LS11NDl3Qk9mdnpmRkR4OXh4eDlGK3FnPT0%3D--d45463208e7321300c824e8c25a24abf5add0d50; path=/; HttpOnly",
+        "X-Request-Id": "7fd45526-0eea-4067-b7f9-a2831af3a854",
+        "X-Runtime": "0.092330",
+        "Content-Length": "505"
+      },
+      "response_content_type": "application/json; charset=utf-8",
+      "curl": "curl \"http://localhost:3000/client/orders\" -X GET \\\n\t-H \"Access-Token: AXlU3aMisqyQR4iDlmVi4Q\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: cYTw5RKJRxh3qw-VWzDFXA\" \\\n\t-H \"Expiry: 1457430059\" \\\n\t-H \"Uid: 68marta_olson@mccullough.biz\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
+    }
+  ]
+}

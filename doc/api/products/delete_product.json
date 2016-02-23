@@ -1,0 +1,49 @@
+{
+  "resource": "Products",
+  "http_method": "DELETE",
+  "route": "/admin/products/:id",
+  "description": "delete product",
+  "explanation": "deletes product if it's not in any order, disables it (inventory_count: 0) otherwise",
+  "parameters": [
+
+  ],
+  "response_fields": [
+
+  ],
+  "requests": [
+    {
+      "request_method": "DELETE",
+      "request_path": "/admin/products/1",
+      "request_body": null,
+      "request_headers": {
+        "Access-Token": "WdNwQMkv157A0iP6VKk_bQ",
+        "Token-Type": "Bearer",
+        "Client": "dls9d3jvqDgn3ukvXFdMBQ",
+        "Expiry": "1457430052",
+        "Uid": "34leie_rippin@toy.com",
+        "Host": "example.org",
+        "Content-Type": "application/x-www-form-urlencoded",
+        "Cookie": ""
+      },
+      "request_query_parameters": {
+      },
+      "request_content_type": "application/x-www-form-urlencoded",
+      "response_status": 200,
+      "response_status_text": "OK",
+      "response_body": null,
+      "response_headers": {
+        "X-Frame-Options": "SAMEORIGIN",
+        "X-XSS-Protection": "1; mode=block",
+        "X-Content-Type-Options": "nosniff",
+        "Content-Type": "text/html",
+        "Cache-Control": "no-cache",
+        "Set-Cookie": "_session_id=WU8xZ0x2TTBSMC9VYlFjMjJlYlR0QmRnZDV6N005bEFUendaQnhWN21mSTVQa3pOa1c5Wk5XeXJERlBDa2hHVG0zMzViOGYzdXA0WmIrNWxsQ1JBSWdvVTFKZlVEcGFpSVF0NTFZSVZZMVZLVzRlNmF2aWw4QzNvaHRqNkpmR2loQjB0MHA2R24wRE04UmRudVlFZHlJWGFIaVVIRTJzb0JodHpFblo2ZUJ0d0Rlbmg1UlQxZUVEWmplVEd4RGRTLS1wZHo3QTR6SEdFZ2hZNnFBelEvYlN3PT0%3D--d3e6d450e2c17c0238eba0d8b9d2ba78186bf853; path=/; HttpOnly",
+        "X-Request-Id": "eec7c0f8-3200-41b4-b243-035ce77b36c7",
+        "X-Runtime": "0.085393",
+        "Content-Length": "0"
+      },
+      "response_content_type": "text/html",
+      "curl": "curl \"http://localhost:3000/admin/products/1\" -d '' -X DELETE \\\n\t-H \"Access-Token: WdNwQMkv157A0iP6VKk_bQ\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: dls9d3jvqDgn3ukvXFdMBQ\" \\\n\t-H \"Expiry: 1457430052\" \\\n\t-H \"Uid: 34leie_rippin@toy.com\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+    }
+  ]
+}

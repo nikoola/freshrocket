@@ -1,0 +1,82 @@
+{
+  "resource": "Products",
+  "http_method": "PUT",
+  "route": "/admin/products/:id",
+  "description": "update product: invalid_params",
+  "explanation": null,
+  "parameters": [
+    {
+      "scope": "product",
+      "required": true,
+      "name": "title",
+      "description": ""
+    },
+    {
+      "scope": "product",
+      "required": true,
+      "name": "price",
+      "description": ""
+    },
+    {
+      "scope": "product",
+      "required": true,
+      "name": "inventory_count",
+      "description": "amount of product in stock"
+    },
+    {
+      "scope": "product",
+      "required": true,
+      "name": "city_id",
+      "description": "product served at city"
+    },
+    {
+      "scope": "product",
+      "name": "image",
+      "description": "Product image"
+    },
+    {
+      "scope": "product",
+      "name": "category_ids",
+      "description": "array of ids of categories product belongs to"
+    }
+  ],
+  "response_fields": [
+
+  ],
+  "requests": [
+    {
+      "request_method": "PUT",
+      "request_path": "/admin/products/1",
+      "request_body": "product[title]",
+      "request_headers": {
+        "Access-Token": "LPBLtdHNqPt2_9YA_ONA3Q",
+        "Token-Type": "Bearer",
+        "Client": "jl0--UIAyrPmq4di-fzcpg",
+        "Expiry": "1457430052",
+        "Uid": "33holly@ricehand.org",
+        "Host": "example.org",
+        "Content-Type": "application/x-www-form-urlencoded",
+        "Cookie": ""
+      },
+      "request_query_parameters": {
+      },
+      "request_content_type": "application/x-www-form-urlencoded",
+      "response_status": 422,
+      "response_status_text": "Unprocessable Entity",
+      "response_body": "{\n  \"title\": [\n    \"can't be blank\"\n  ]\n}",
+      "response_headers": {
+        "X-Frame-Options": "SAMEORIGIN",
+        "X-XSS-Protection": "1; mode=block",
+        "X-Content-Type-Options": "nosniff",
+        "Content-Type": "application/json; charset=utf-8",
+        "Cache-Control": "no-cache",
+        "Set-Cookie": "_session_id=T0lxOHBZakZYMzk2cyszY2RZeEtvdDZXclEzbnpNNFZtTHQ2eTUydjJ6ZkR1Y1p0VFpwVUZCNTFSU240K0N3YnVJa3J3d09Sem5WanBxY2V5MXJkbks2Q240NjYrRXQ0N1Rmc3c0UVZvM0IzNE5zb0pyV1ZoU0w2TWJqOFdWVXExZzdwZERVa2VlcEgvQW42WnluWGcyRDhGYkJSM3ZHN1F2bEpVeHQyVTlDeUE3MnZHQ1hxRHpHekRsaHA4ejg1LS1YY3Q3V0ExcU1EM1d0K1IzckpPYi9RPT0%3D--edc3dbec3aae6173385f46a2f7b2f1b70a7afca6; path=/; HttpOnly",
+        "X-Request-Id": "67cbe4e4-dafc-4667-bc0c-095db01b6096",
+        "X-Runtime": "0.085968",
+        "Content-Length": "28"
+      },
+      "response_content_type": "application/json; charset=utf-8",
+      "curl": "curl \"http://localhost:3000/admin/products/1\" -d 'product[title]' -X PUT \\\n\t-H \"Access-Token: LPBLtdHNqPt2_9YA_ONA3Q\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: jl0--UIAyrPmq4di-fzcpg\" \\\n\t-H \"Expiry: 1457430052\" \\\n\t-H \"Uid: 33holly@ricehand.org\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+    }
+  ]
+}

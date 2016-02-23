@@ -1,0 +1,52 @@
+{
+  "resource": "Orders",
+  "http_method": "GET",
+  "route": "deliver/orders",
+  "description": "get current delivery_boy's orders",
+  "explanation": null,
+  "parameters": [
+    {
+      "name": "statuss",
+      "description": "[dispatched, delivered]"
+    }
+  ],
+  "response_fields": [
+
+  ],
+  "requests": [
+    {
+      "request_method": "GET",
+      "request_path": "deliver/orders",
+      "request_body": null,
+      "request_headers": {
+        "Access-Token": "s4cPqxcsuXrImQsM1MXDxg",
+        "Token-Type": "Bearer",
+        "Client": "7GzYQHX9RxyOUSZAIh7Mmg",
+        "Expiry": "1457430063",
+        "Uid": "91ezra_reinger@pouros.net",
+        "Host": "example.org",
+        "Cookie": ""
+      },
+      "request_query_parameters": {
+      },
+      "request_content_type": null,
+      "response_status": 200,
+      "response_status_text": "OK",
+      "response_body": "[\n  {\n    \"id\": 3,\n    \"user_id\": 4,\n    \"status\": \"unconfirmed\",\n    \"created_at\": \"2016-02-23T09:41:03.612Z\",\n    \"comment\": null,\n    \"pure_product_price\": \"27.0\",\n    \"tax\": \"1.35\",\n    \"delivery_charge\": \"200.0\",\n    \"total_price\": \"228.35\",\n    \"delivery_boy_id\": 1,\n    \"wanted_time\": null,\n    \"wanted_date\": null,\n    \"payment_type\": null,\n    \"is_paid\": null,\n    \"line_items\": [\n      {\n        \"id\": 7,\n        \"order_id\": 3,\n        \"product_id\": 7,\n        \"amount\": 3,\n        \"fixed_price\": \"9.0\"\n      },\n      {\n        \"id\": 8,\n        \"order_id\": 3,\n        \"product_id\": 8,\n        \"amount\": 3,\n        \"fixed_price\": \"9.0\"\n      },\n      {\n        \"id\": 9,\n        \"order_id\": 3,\n        \"product_id\": 9,\n        \"amount\": 3,\n        \"fixed_price\": \"9.0\"\n      }\n    ]\n  },\n  {\n    \"id\": 4,\n    \"user_id\": 5,\n    \"status\": \"unconfirmed\",\n    \"created_at\": \"2016-02-23T09:41:03.647Z\",\n    \"comment\": null,\n    \"pure_product_price\": \"27.0\",\n    \"tax\": \"1.35\",\n    \"delivery_charge\": \"200.0\",\n    \"total_price\": \"228.35\",\n    \"delivery_boy_id\": 1,\n    \"wanted_time\": null,\n    \"wanted_date\": null,\n    \"payment_type\": null,\n    \"is_paid\": null,\n    \"line_items\": [\n      {\n        \"id\": 10,\n        \"order_id\": 4,\n        \"product_id\": 10,\n        \"amount\": 3,\n        \"fixed_price\": \"9.0\"\n      },\n      {\n        \"id\": 11,\n        \"order_id\": 4,\n        \"product_id\": 11,\n        \"amount\": 3,\n        \"fixed_price\": \"9.0\"\n      },\n      {\n        \"id\": 12,\n        \"order_id\": 4,\n        \"product_id\": 12,\n        \"amount\": 3,\n        \"fixed_price\": \"9.0\"\n      }\n    ]\n  },\n  {\n    \"id\": 5,\n    \"user_id\": 6,\n    \"status\": \"unconfirmed\",\n    \"created_at\": \"2016-02-23T09:41:03.683Z\",\n    \"comment\": null,\n    \"pure_product_price\": \"27.0\",\n    \"tax\": \"1.35\",\n    \"delivery_charge\": \"200.0\",\n    \"total_price\": \"228.35\",\n    \"delivery_boy_id\": 1,\n    \"wanted_time\": null,\n    \"wanted_date\": null,\n    \"payment_type\": null,\n    \"is_paid\": null,\n    \"line_items\": [\n      {\n        \"id\": 13,\n        \"order_id\": 5,\n        \"product_id\": 13,\n        \"amount\": 3,\n        \"fixed_price\": \"9.0\"\n      },\n      {\n        \"id\": 14,\n        \"order_id\": 5,\n        \"product_id\": 14,\n        \"amount\": 3,\n        \"fixed_price\": \"9.0\"\n      },\n      {\n        \"id\": 15,\n        \"order_id\": 5,\n        \"product_id\": 15,\n        \"amount\": 3,\n        \"fixed_price\": \"9.0\"\n      }\n    ]\n  },\n  {\n    \"id\": 6,\n    \"user_id\": 7,\n    \"status\": \"unconfirmed\",\n    \"created_at\": \"2016-02-23T09:41:03.718Z\",\n    \"comment\": null,\n    \"pure_product_price\": \"27.0\",\n    \"tax\": \"1.35\",\n    \"delivery_charge\": \"200.0\",\n    \"total_price\": \"228.35\",\n    \"delivery_boy_id\": 1,\n    \"wanted_time\": null,\n    \"wanted_date\": null,\n    \"payment_type\": null,\n    \"is_paid\": null,\n    \"line_items\": [\n      {\n        \"id\": 16,\n        \"order_id\": 6,\n        \"product_id\": 16,\n        \"amount\": 3,\n        \"fixed_price\": \"9.0\"\n      },\n      {\n        \"id\": 17,\n        \"order_id\": 6,\n        \"product_id\": 17,\n        \"amount\": 3,\n        \"fixed_price\": \"9.0\"\n      },\n      {\n        \"id\": 18,\n        \"order_id\": 6,\n        \"product_id\": 18,\n        \"amount\": 3,\n        \"fixed_price\": \"9.0\"\n      }\n    ]\n  },\n  {\n    \"id\": 7,\n    \"user_id\": 8,\n    \"status\": \"unconfirmed\",\n    \"created_at\": \"2016-02-23T09:41:03.752Z\",\n    \"comment\": null,\n    \"pure_product_price\": \"27.0\",\n    \"tax\": \"1.35\",\n    \"delivery_charge\": \"200.0\",\n    \"total_price\": \"228.35\",\n    \"delivery_boy_id\": 1,\n    \"wanted_time\": null,\n    \"wanted_date\": null,\n    \"payment_type\": null,\n    \"is_paid\": null,\n    \"line_items\": [\n      {\n        \"id\": 19,\n        \"order_id\": 7,\n        \"product_id\": 19,\n        \"amount\": 3,\n        \"fixed_price\": \"9.0\"\n      },\n      {\n        \"id\": 20,\n        \"order_id\": 7,\n        \"product_id\": 20,\n        \"amount\": 3,\n        \"fixed_price\": \"9.0\"\n      },\n      {\n        \"id\": 21,\n        \"order_id\": 7,\n        \"product_id\": 21,\n        \"amount\": 3,\n        \"fixed_price\": \"9.0\"\n      }\n    ]\n  }\n]",
+      "response_headers": {
+        "X-Frame-Options": "SAMEORIGIN",
+        "X-XSS-Protection": "1; mode=block",
+        "X-Content-Type-Options": "nosniff",
+        "Content-Type": "application/json; charset=utf-8",
+        "ETag": "W/\"a0f5450d71f1ca0f19a5e3e0a8c8cca4\"",
+        "Cache-Control": "max-age=0, private, must-revalidate",
+        "Set-Cookie": "_session_id=UU8rSGZLcGU3cGxvTEIxa1dqRi9VeU1zR1pQSUtnRjlCblFlVFhwcTE4K1IzckJ2M0tUTlFsQm14cTFydTdwcWtmT3YxRlZnRU41eHh5d3dUQXZ3T0ZONzB3UG5FOS9mdjdzdjJDTkFNakFnNmx4dlBQdUdaai9XcC9zamVjVGd3NUNjM3c4S0hHU3BDM2NBU2pJU0hzNDhJWVRhV0xablpWUnhabFYyeTZqRUlVR1ZlT3B2KzhJU0tVVEpVWEdaLS1VZ2Q5djRvTGM3TmZEVlB0aEUrZ0RnPT0%3D--04cf1d9bd33a2c447d2f7c0b470ec21b00d9eef7; path=/; HttpOnly",
+        "X-Request-Id": "8c45fede-fde9-4a2f-871e-2efb3d2659d5",
+        "X-Runtime": "0.102907",
+        "Content-Length": "2530"
+      },
+      "response_content_type": "application/json; charset=utf-8",
+      "curl": "curl \"http://localhost:3000deliver/orders\" -X GET \\\n\t-H \"Access-Token: s4cPqxcsuXrImQsM1MXDxg\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: 7GzYQHX9RxyOUSZAIh7Mmg\" \\\n\t-H \"Expiry: 1457430063\" \\\n\t-H \"Uid: 91ezra_reinger@pouros.net\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "resource": "Delivery boys",
+  "http_method": "PUT",
+  "route": "/deliver/delivery_boy",
+  "description": "update self",
+  "explanation": null,
+  "parameters": [
+    {
+      "scope": "delivery_boy",
+      "name": "lat",
+      "description": "Delivery boy lat"
+    },
+    {
+      "scope": "delivery_boy",
+      "name": "long",
+      "description": "Delivery boy long"
+    },
+    {
+      "scope": "delivery_boy",
+      "name": "statuss",
+      "description": "Delivery boy statuss"
+    }
+  ],
+  "response_fields": [
+
+  ],
+  "requests": [
+    {
+      "request_method": "PUT",
+      "request_path": "/deliver/delivery_boy",
+      "request_body": "delivery_boy[lat]=3278789789",
+      "request_headers": {
+        "Access-Token": "CxRBDqmRN0LNwJDXZyYxUQ",
+        "Token-Type": "Bearer",
+        "Client": "AZHIXHPydHd-BWX7ZzcL4w",
+        "Expiry": "1457430063",
+        "Uid": "90dorris.waters@lebsackturner.name",
+        "Host": "example.org",
+        "Content-Type": "application/x-www-form-urlencoded",
+        "Cookie": ""
+      },
+      "request_query_parameters": {
+      },
+      "request_content_type": "application/x-www-form-urlencoded",
+      "response_status": 200,
+      "response_status_text": "OK",
+      "response_body": null,
+      "response_headers": {
+        "X-Frame-Options": "SAMEORIGIN",
+        "X-XSS-Protection": "1; mode=block",
+        "X-Content-Type-Options": "nosniff",
+        "Content-Type": "text/html",
+        "Cache-Control": "no-cache",
+        "Set-Cookie": "_session_id=Q1JxaXVWTm5xWkQvdlV0Yzh0RytIcG9ja085Vm9rcTJuS3JUUDVuRk5XV2x6bE4vRGVBYmtOUUd4aEsyL1A3aEdTMWtPLzJ5djV2VUNnQkdSa0ZNZ0RHazM4VzNQeHU1RlFkZnp0T3NpaWtDQTVpRUZsQnFTclhIRlJ4M1h4Nk84SkdyOXJSNTJYbHl6OHA2cUNaYmJmRGVNZ3A0MndsWHRHeFRJZ0VRV3VhNjZSMlliNnZqSlJiZVZXKzA3QmNsLS1XcWNPNWtUdlJaUUxNVmcyRDI5UTBnPT0%3D--d3ea8b8df1d2762defef96cffa5f95a3defa8e67; path=/; HttpOnly",
+        "X-Request-Id": "fd68adbb-a63c-4701-8501-33c50478ea12",
+        "X-Runtime": "0.101203",
+        "Content-Length": "0"
+      },
+      "response_content_type": "text/html",
+      "curl": "curl \"http://localhost:3000/deliver/delivery_boy\" -d 'delivery_boy[lat]=3278789789' -X PUT \\\n\t-H \"Access-Token: CxRBDqmRN0LNwJDXZyYxUQ\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: AZHIXHPydHd-BWX7ZzcL4w\" \\\n\t-H \"Expiry: 1457430063\" \\\n\t-H \"Uid: 90dorris.waters@lebsackturner.name\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+    }
+  ]
+}

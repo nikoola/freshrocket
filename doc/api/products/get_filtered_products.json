@@ -1,0 +1,56 @@
+{
+  "resource": "Products",
+  "http_method": "GET",
+  "route": "/products",
+  "description": "get filtered products",
+  "explanation": "returns all products with inventory count > 0, and from specific category",
+  "parameters": [
+    {
+      "name": "city_id",
+      "description": " city"
+    },
+    {
+      "name": "category_id",
+      "description": " category"
+    },
+    {
+      "name": "in_stock",
+      "description": "true/false, if absent will return all"
+    }
+  ],
+  "response_fields": [
+
+  ],
+  "requests": [
+    {
+      "request_method": "GET",
+      "request_path": "/products?category_id=5&in_stock=true",
+      "request_body": null,
+      "request_headers": {
+        "Host": "example.org",
+        "Cookie": ""
+      },
+      "request_query_parameters": {
+        "category_id": "5",
+        "in_stock": "true"
+      },
+      "request_content_type": null,
+      "response_status": 200,
+      "response_status_text": "OK",
+      "response_body": "[\n  {\n    \"id\": 11,\n    \"city_id\": 8,\n    \"title\": \"fish\",\n    \"price\": \"3.0\",\n    \"created_at\": \"2016-02-23T09:41:05.497Z\",\n    \"updated_at\": \"2016-02-23T09:41:05.497Z\",\n    \"inventory_count\": 20,\n    \"image_url\": \"uploads/product/image/default.png\"\n  },\n  {\n    \"id\": 12,\n    \"city_id\": 8,\n    \"title\": \"fish\",\n    \"price\": \"3.0\",\n    \"created_at\": \"2016-02-23T09:41:05.598Z\",\n    \"updated_at\": \"2016-02-23T09:41:05.598Z\",\n    \"inventory_count\": 20,\n    \"image_url\": \"uploads/product/image/default.png\"\n  },\n  {\n    \"id\": 13,\n    \"city_id\": 8,\n    \"title\": \"fish\",\n    \"price\": \"3.0\",\n    \"created_at\": \"2016-02-23T09:41:05.674Z\",\n    \"updated_at\": \"2016-02-23T09:41:05.674Z\",\n    \"inventory_count\": 20,\n    \"image_url\": \"uploads/product/image/default.png\"\n  }\n]",
+      "response_headers": {
+        "X-Frame-Options": "SAMEORIGIN",
+        "X-XSS-Protection": "1; mode=block",
+        "X-Content-Type-Options": "nosniff",
+        "Content-Type": "application/json; charset=utf-8",
+        "ETag": "W/\"1a23fb15c4b82720c460f4de32743c30\"",
+        "Cache-Control": "max-age=0, private, must-revalidate",
+        "X-Request-Id": "7c8bef0c-153b-46fb-ab48-dab88a85f228",
+        "X-Runtime": "0.004315",
+        "Content-Length": "601"
+      },
+      "response_content_type": "application/json; charset=utf-8",
+      "curl": "curl \"http://localhost:3000/products?category_id=5&in_stock=true\" -X GET \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
+    }
+  ]
+}

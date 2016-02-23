@@ -1,0 +1,59 @@
+{
+  "resource": "Categories",
+  "http_method": "POST",
+  "route": "/admin/categories",
+  "description": "create category: invalid params",
+  "explanation": null,
+  "parameters": [
+    {
+      "scope": "category",
+      "require": true,
+      "name": "name",
+      "description": "name of a category"
+    },
+    {
+      "scope": "category",
+      "name": "image",
+      "description": "Category image"
+    }
+  ],
+  "response_fields": [
+
+  ],
+  "requests": [
+    {
+      "request_method": "POST",
+      "request_path": "/admin/categories",
+      "request_body": "category[name]",
+      "request_headers": {
+        "Access-Token": "DM43ZSWyWKPFQDelIfbyrA",
+        "Token-Type": "Bearer",
+        "Client": "qXtyYc0lmaoQsDNat5bWkQ",
+        "Expiry": "1457430047",
+        "Uid": "2sydnee@thompson.com",
+        "Host": "example.org",
+        "Content-Type": "application/x-www-form-urlencoded",
+        "Cookie": ""
+      },
+      "request_query_parameters": {
+      },
+      "request_content_type": "application/x-www-form-urlencoded",
+      "response_status": 422,
+      "response_status_text": "Unprocessable Entity",
+      "response_body": "{\n  \"name\": [\n    \"can't be blank\"\n  ]\n}",
+      "response_headers": {
+        "X-Frame-Options": "SAMEORIGIN",
+        "X-XSS-Protection": "1; mode=block",
+        "X-Content-Type-Options": "nosniff",
+        "Content-Type": "application/json; charset=utf-8",
+        "Cache-Control": "no-cache",
+        "Set-Cookie": "_session_id=K3p1T2dMdVpvMWFKenBSTVVXMDdnbkFuWVFTcm5LMHBnYUtpZTJ5QTU5SlpNQWV2bTN2bXRraVhBU2l4N3FuTUZRRE5xU1daNzBDSHFKNGhIenhVQlNFSUE0RDlkSHp3M1BRanhKRDZRZ0RZV0t2dGhCaGx3VGJzRjRpWHBQUURobVBFQ3hyMGxOc1FBeHFUdGRuUkcvY1ZHU1ZlYUlwbThlSkdUemk5cUp5KzVjeHZteEFNY0N2V2ZVd1FSQThVLS1kQTJCZ3BWYktlUFFFNExuWDFEanl3PT0%3D--bc4ef69ff848e80ad2aef74f94104a9bd7373175; path=/; HttpOnly",
+        "X-Request-Id": "790d9a07-fce9-4b85-872f-ad36f61e9d6b",
+        "X-Runtime": "0.090652",
+        "Content-Length": "27"
+      },
+      "response_content_type": "application/json; charset=utf-8",
+      "curl": "curl \"http://localhost:3000/admin/categories\" -d 'category[name]' -X POST \\\n\t-H \"Access-Token: DM43ZSWyWKPFQDelIfbyrA\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: qXtyYc0lmaoQsDNat5bWkQ\" \\\n\t-H \"Expiry: 1457430047\" \\\n\t-H \"Uid: 2sydnee@thompson.com\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+    }
+  ]
+}

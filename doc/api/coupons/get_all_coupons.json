@@ -1,0 +1,49 @@
+{
+  "resource": "Coupons",
+  "http_method": "GET",
+  "route": "/admin/coupons",
+  "description": "get all coupons",
+  "explanation": null,
+  "parameters": [
+
+  ],
+  "response_fields": [
+
+  ],
+  "requests": [
+    {
+      "request_method": "GET",
+      "request_path": "/admin/coupons",
+      "request_body": null,
+      "request_headers": {
+        "Access-Token": "3q48QZXoo9KDZpMMvB86Zw",
+        "Token-Type": "Bearer",
+        "Client": "OYlW_jGWgh-TNNDI5acYXw",
+        "Expiry": "1457430047",
+        "Uid": "6evalyn.brekke@prosacco.biz",
+        "Host": "example.org",
+        "Cookie": ""
+      },
+      "request_query_parameters": {
+      },
+      "request_content_type": null,
+      "response_status": 200,
+      "response_status_text": "OK",
+      "response_body": "[\n  {\n    \"id\": 1,\n    \"name\": \"red\",\n    \"code\": \"39991\",\n    \"discount\": 82\n  },\n  {\n    \"id\": 2,\n    \"name\": \"red\",\n    \"code\": \"63942\",\n    \"discount\": 8\n  },\n  {\n    \"id\": 3,\n    \"name\": \"red\",\n    \"code\": \"66793\",\n    \"discount\": 81\n  },\n  {\n    \"id\": 4,\n    \"name\": \"red\",\n    \"code\": \"46804\",\n    \"discount\": 1\n  }\n]",
+      "response_headers": {
+        "X-Frame-Options": "SAMEORIGIN",
+        "X-XSS-Protection": "1; mode=block",
+        "X-Content-Type-Options": "nosniff",
+        "Content-Type": "application/json; charset=utf-8",
+        "ETag": "W/\"916cc751e568e41d72006ebd5dca2f51\"",
+        "Cache-Control": "max-age=0, private, must-revalidate",
+        "Set-Cookie": "_session_id=azJEYnZGN3d2blUxYlZSWld3NVVDckNYM2ljb09XT3hYcEhzelVKY0FGaURhK2hHTnQ5cVVPbFhzd1I3aG5WWk5rZHVGaFpxU1JuNm8xeHo2Z203Vjk2TVg3dUVrWHZtMTl0QXI2R09VMjlMUzBiRHFnRjZEUlVMVVdoQ0N5eEk4bTc2MWFvR1JqRDVTaEszTXhSZEdFbEZESEMvNEhTM1cwR2dIUjBjMDdvcU43T1VTTUl0YzZPTEJrM2o0UkhELS1RWDdVY3RYUkFvSjRwbS9WczRjejl3PT0%3D--494dbbe4cc12b8a0dd42d6952d6dcd722a0ecc52; path=/; HttpOnly",
+        "X-Request-Id": "beb33384-da50-493a-b630-6f2753216c67",
+        "X-Runtime": "0.087887",
+        "Content-Length": "203"
+      },
+      "response_content_type": "application/json; charset=utf-8",
+      "curl": "curl \"http://localhost:3000/admin/coupons\" -X GET \\\n\t-H \"Access-Token: 3q48QZXoo9KDZpMMvB86Zw\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: OYlW_jGWgh-TNNDI5acYXw\" \\\n\t-H \"Expiry: 1457430047\" \\\n\t-H \"Uid: 6evalyn.brekke@prosacco.biz\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
+    }
+  ]
+}

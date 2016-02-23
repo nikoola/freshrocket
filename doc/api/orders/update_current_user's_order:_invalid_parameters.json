@@ -1,0 +1,87 @@
+{
+  "resource": "Orders",
+  "http_method": "PUT",
+  "route": "client/orders/:id",
+  "description": "update current user's order: invalid parameters",
+  "explanation": "order must have at least one line item",
+  "parameters": [
+    {
+      "scope": "order",
+      "name": "comment",
+      "description": "comment to the order"
+    },
+    {
+      "scope": [
+        "order",
+        "line_items_attributes"
+      ],
+      "required": true,
+      "name": "product_id",
+      "description": "id of a product in a cart"
+    },
+    {
+      "scope": [
+        "order",
+        "line_items_attributes"
+      ],
+      "required": true,
+      "name": "amount",
+      "description": "amount of this product in a cart"
+    },
+    {
+      "scope": [
+        "order",
+        "delivery_attributes"
+      ],
+      "name": "wanted_date",
+      "description": "date client wants their delivery on"
+    },
+    {
+      "scope": [
+        "order",
+        "delivery_attributes"
+      ],
+      "name": "wanted_time",
+      "description": "['morning', 'noon', 'evening'] time is limited between 7 am to 9 pm only, mention this in frontend"
+    }
+  ],
+  "response_fields": [
+
+  ],
+  "requests": [
+    {
+      "request_method": "PUT",
+      "request_path": "client/orders/3",
+      "request_body": "order[comment]=hi&order[line_items_attributes][][id]=7&order[line_items_attributes][][amount]",
+      "request_headers": {
+        "Access-Token": "XdBBvTYoJqPCCmRTLNsq5g",
+        "Token-Type": "Bearer",
+        "Client": "5hcXofXFBSp8LhuzRMOzIQ",
+        "Expiry": "1457430060",
+        "Uid": "73wilford_dietrich@wilkinson.name",
+        "Host": "example.org",
+        "Content-Type": "application/x-www-form-urlencoded",
+        "Cookie": ""
+      },
+      "request_query_parameters": {
+      },
+      "request_content_type": "application/x-www-form-urlencoded",
+      "response_status": 422,
+      "response_status_text": "Unprocessable Entity",
+      "response_body": "{\n  \"line_items.amount\": [\n    \"can't be blank\",\n    \"is not a number\"\n  ]\n}",
+      "response_headers": {
+        "X-Frame-Options": "SAMEORIGIN",
+        "X-XSS-Protection": "1; mode=block",
+        "X-Content-Type-Options": "nosniff",
+        "Content-Type": "application/json; charset=utf-8",
+        "Cache-Control": "no-cache",
+        "Set-Cookie": "_session_id=c1FLaTVNdVJhRnFlUVluVC9qemVPcWs3bzVKelRjZFRqNUtNaWg1YUZmSHVlNlVXMTc0UlNlb00xaFhmNEljS0U0c2EzMERUN2FxZWhDQy9BNHRqTDlaRmR5VmVjUHpmSFlaMDB4TUh3VnJkdHVnVHI1R0RCT2IzT21hdHNkT0F1QnZzL0xpbU9YTDlVMHJ3ZGlMeHVSRm1jVDkvWGE3VTVhSk9HVVB1QVY2c0VYRWJCODdrcWRkQU01OGJzSXUyLS1oRzJIVWdpWENpNGd6cDdaMVREWVFRPT0%3D--0be7f8a51e5219605282132010e2a16c7e3507d7; path=/; HttpOnly",
+        "X-Request-Id": "ddd9d16d-f584-4f33-b734-38096e4d2892",
+        "X-Runtime": "0.083453",
+        "Content-Length": "58"
+      },
+      "response_content_type": "application/json; charset=utf-8",
+      "curl": "curl \"http://localhost:3000client/orders/3\" -d 'order[comment]=hi&order[line_items_attributes][][id]=7&order[line_items_attributes][][amount]' -X PUT \\\n\t-H \"Access-Token: XdBBvTYoJqPCCmRTLNsq5g\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: 5hcXofXFBSp8LhuzRMOzIQ\" \\\n\t-H \"Expiry: 1457430060\" \\\n\t-H \"Uid: 73wilford_dietrich@wilkinson.name\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+    }
+  ]
+}

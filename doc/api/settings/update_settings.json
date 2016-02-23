@@ -1,0 +1,64 @@
+{
+  "resource": "Settings",
+  "http_method": "PUT",
+  "route": "/admin/settings",
+  "description": "update settings",
+  "explanation": null,
+  "parameters": [
+    {
+      "scope": "settings",
+      "name": "tax_in_percentage",
+      "description": "order cost = products cost + products cost * tax"
+    },
+    {
+      "scope": "settings",
+      "name": "free_delivery_order_sum",
+      "description": "after this order sum, delivery is free"
+    },
+    {
+      "scope": "settings",
+      "name": "default_delivery_cost",
+      "description": "delivery costs this much if order doesn't sum up to more than :free_delivery_order_sum"
+    }
+  ],
+  "response_fields": [
+
+  ],
+  "requests": [
+    {
+      "request_method": "PUT",
+      "request_path": "/admin/settings",
+      "request_body": "settings[tax_in_percentage]=99.0&settings[default_delivery_cost]=115",
+      "request_headers": {
+        "Access-Token": "duho0QPu6PuVO0GoOtClqQ",
+        "Token-Type": "Bearer",
+        "Client": "4QMlwyjwJUhO9V_y_WcmiQ",
+        "Expiry": "1457430053",
+        "Uid": "39iliana_strosin@kautzersanford.name",
+        "Host": "example.org",
+        "Content-Type": "application/x-www-form-urlencoded",
+        "Cookie": ""
+      },
+      "request_query_parameters": {
+      },
+      "request_content_type": "application/x-www-form-urlencoded",
+      "response_status": 200,
+      "response_status_text": "OK",
+      "response_body": "{\n  \"id\": 1,\n  \"tax_in_percentage\": \"99.0\",\n  \"free_delivery_order_sum\": \"500.0\",\n  \"default_delivery_cost\": \"115.0\"\n}",
+      "response_headers": {
+        "X-Frame-Options": "SAMEORIGIN",
+        "X-XSS-Protection": "1; mode=block",
+        "X-Content-Type-Options": "nosniff",
+        "Content-Type": "application/json; charset=utf-8",
+        "ETag": "W/\"4ddda431891f4279fd1337c4e6d39d32\"",
+        "Cache-Control": "max-age=0, private, must-revalidate",
+        "Set-Cookie": "_session_id=ZWFLN2xYdWJaOVBOM2hUUitKM1hCUEw3V0t3WjdUVXBTNGRLZk5ZZGlFVHFqT3BYRDZFSUoyZ053aDJTVHBCbnBVQU1wdEN4RUh3WUhITVhoRlh5MFBYQXZUWmtRUzFWZnVyckVXbG1tNm83T2MvdUFGaU1MczlBM1FGRlA1cEx1azVXMGVrK3lMUHNFUm9Bc2Nkcnd0M250N2NGMVIwTzBySUtUTkIycDFEbmVYTk1ac1Jva1ZjN0M2SkFTUTRDLS0rZnoySEpNRFByMVdqdkpjNUZPQWJBPT0%3D--c377ee90c05a63c3c68234cc03563affb46fa487; path=/; HttpOnly",
+        "X-Request-Id": "96b76562-234b-4001-a453-ea1efe954f4a",
+        "X-Runtime": "0.097863",
+        "Content-Length": "101"
+      },
+      "response_content_type": "application/json; charset=utf-8",
+      "curl": "curl \"http://localhost:3000/admin/settings\" -d 'settings[tax_in_percentage]=99.0&settings[default_delivery_cost]=115' -X PUT \\\n\t-H \"Access-Token: duho0QPu6PuVO0GoOtClqQ\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: 4QMlwyjwJUhO9V_y_WcmiQ\" \\\n\t-H \"Expiry: 1457430053\" \\\n\t-H \"Uid: 39iliana_strosin@kautzersanford.name\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+    }
+  ]
+}

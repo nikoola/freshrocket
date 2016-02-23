@@ -1,0 +1,54 @@
+{
+  "resource": "Orders",
+  "http_method": "PUT",
+  "route": "/admin/orders/:id/update_status",
+  "description": "cant update to dispatched if delivery has no delivery_boy",
+  "explanation": null,
+  "parameters": [
+    {
+      "scope": "order",
+      "required": true,
+      "name": "action",
+      "description": ":approve, :dispatch, :deliver, :cancel"
+    }
+  ],
+  "response_fields": [
+
+  ],
+  "requests": [
+    {
+      "request_method": "PUT",
+      "request_path": "/admin/orders/1/update_status",
+      "request_body": "order[action]=dispatch",
+      "request_headers": {
+        "Access-Token": "3UlAppRpZZjl0Hk2uxfAMA",
+        "Token-Type": "Bearer",
+        "Client": "Ot-0CqnX7eH4gWoZbzXE0g",
+        "Expiry": "1457430051",
+        "Uid": "28darrick@spencer.info",
+        "Host": "example.org",
+        "Content-Type": "application/x-www-form-urlencoded",
+        "Cookie": ""
+      },
+      "request_query_parameters": {
+      },
+      "request_content_type": "application/x-www-form-urlencoded",
+      "response_status": 422,
+      "response_status_text": "Unprocessable Entity",
+      "response_body": "{\n  \"order\": [\n    \"needs to be assigned to some delivery boy before dispatching\"\n  ],\n  \"status\": [\n    \"status cannot transition from approved to dispatch\"\n  ]\n}",
+      "response_headers": {
+        "X-Frame-Options": "SAMEORIGIN",
+        "X-XSS-Protection": "1; mode=block",
+        "X-Content-Type-Options": "nosniff",
+        "Content-Type": "application/json; charset=utf-8",
+        "Cache-Control": "no-cache",
+        "Set-Cookie": "_session_id=dFlDbVUwb3lqa3Z1VzdzYk9zaGpqb3FGMmp6bjVhMlpneXBKWGVCVXg1Ym1KYmE1ekcyd2RhSmpBMlJYWTIxWWlVNHlyeWgrMGVZS2ZlcEhtUnNvY0IxN0hGRVFoTGJKQURzZnh3RnFiR1BUSVdpSS90MXRhZ0tWVUNGdmNjQ1lFaFlmbnV2a3NkVEJzZ01BNkw2cG9qeXVsWkdCWWtQem9GbUh4V0ZZZ01FZG12SWVVanJEUXp3ZXo3TkRCTUZ5LS1RMEU5bTh5cnhlK1A1bkJtNWpuV2lRPT0%3D--032f12de2da872f23cf41400fc731c673fc53097; path=/; HttpOnly",
+        "X-Request-Id": "06d7983b-777b-496d-b94d-ed6126ef4429",
+        "X-Runtime": "0.101980",
+        "Content-Length": "138"
+      },
+      "response_content_type": "application/json; charset=utf-8",
+      "curl": "curl \"http://localhost:3000/admin/orders/1/update_status\" -d 'order[action]=dispatch' -X PUT \\\n\t-H \"Access-Token: 3UlAppRpZZjl0Hk2uxfAMA\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: Ot-0CqnX7eH4gWoZbzXE0g\" \\\n\t-H \"Expiry: 1457430051\" \\\n\t-H \"Uid: 28darrick@spencer.info\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+    }
+  ]
+}

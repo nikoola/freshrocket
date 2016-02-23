@@ -1,0 +1,50 @@
+{
+  "resource": "Authentication",
+  "http_method": "DELETE",
+  "route": "/auth/sign_out",
+  "description": "sign out",
+  "explanation": null,
+  "parameters": [
+
+  ],
+  "response_fields": [
+
+  ],
+  "requests": [
+    {
+      "request_method": "DELETE",
+      "request_path": "/auth/sign_out",
+      "request_body": null,
+      "request_headers": {
+        "Access-Token": "gAnmYhaDLJIPr1STLldMSA",
+        "Token-Type": "Bearer",
+        "Client": "I22Ihi9JsTPvkxJIZPG1Rw",
+        "Expiry": "1457430057",
+        "Uid": "65jazmin@borer.name",
+        "Host": "example.org",
+        "Content-Type": "application/x-www-form-urlencoded",
+        "Cookie": ""
+      },
+      "request_query_parameters": {
+      },
+      "request_content_type": "application/x-www-form-urlencoded",
+      "response_status": 200,
+      "response_status_text": "OK",
+      "response_body": "{\n  \"success\": true\n}",
+      "response_headers": {
+        "X-Frame-Options": "SAMEORIGIN",
+        "X-XSS-Protection": "1; mode=block",
+        "X-Content-Type-Options": "nosniff",
+        "Content-Type": "application/json; charset=utf-8",
+        "ETag": "W/\"7363e85fe9edee6f053a4b319588c086\"",
+        "Cache-Control": "max-age=0, private, must-revalidate",
+        "Set-Cookie": "_session_id=QTVOK0s5bDVIYmQ5QU9iMllkZWFuMzdQWmw5L25WWkZwRk4wSmpjbVlmQkIrZGllZ0JYbEYvakE5OE9HNGpOYWdrRXA3N3pSUkkwU2UyTnVuU1F4VFE9PS0tM2YwaldMYTJDeDFBdnpra3pYWXFjZz09--945c75665d0a28fd6775c14f90b445e7f5511a45; path=/; HttpOnly",
+        "X-Request-Id": "1576964b-a811-4d98-a881-59335352bdef",
+        "X-Runtime": "0.072951",
+        "Content-Length": "16"
+      },
+      "response_content_type": "application/json; charset=utf-8",
+      "curl": "curl \"http://localhost:3000/auth/sign_out\" -d '' -X DELETE \\\n\t-H \"Access-Token: gAnmYhaDLJIPr1STLldMSA\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: I22Ihi9JsTPvkxJIZPG1Rw\" \\\n\t-H \"Expiry: 1457430057\" \\\n\t-H \"Uid: 65jazmin@borer.name\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+    }
+  ]
+}
