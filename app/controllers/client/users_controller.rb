@@ -25,5 +25,14 @@ module Client
 		end
 
 
+
+
+		def send_email_to_recover_password
+			if current_user.send_reset_password_instructions
+				head 200	
+			end
+		end
+
+
 	end
 end

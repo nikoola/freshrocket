@@ -15,6 +15,8 @@ Rails.application.routes.draw do
 		member {
 			post :send_verification_sms
 			put  :verify
+			
+			post :send_email_to_recover_password
 		}
 
 		resources :orders,    only: [:index, :show, :create, :update, :destroy] do #TODO can only destroy if order.condirmed? or order.unconfirmed?

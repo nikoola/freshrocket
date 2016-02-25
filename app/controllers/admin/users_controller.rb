@@ -66,7 +66,7 @@ module Admin
 			end
 
 			def user_params
-				params.require(:user).permit(:city_id, :phone)
+				params.require(:user).permit(:phone)
 			end
 
 

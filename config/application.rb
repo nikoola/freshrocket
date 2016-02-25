@@ -17,6 +17,7 @@ Dotenv::Railtie.load unless Rails.env == 'production'
 
 module Rivo
   class Application < Rails::Application
+    config.action_controller.action_on_unpermitted_parameters = :log
 
     config.generators do |g|
       g.test_framework :rspec,

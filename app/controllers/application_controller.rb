@@ -16,12 +16,21 @@ class ApplicationController < ActionController::Base
 			devise_parameter_sanitizer.for(:account_update) << :city_id
 			devise_parameter_sanitizer.for(:account_update) << :first_name
 			devise_parameter_sanitizer.for(:account_update) << :last_name
+			devise_parameter_sanitizer.for(:account_update) << :reset_password_token #timely
+			devise_parameter_sanitizer.for(:account_update) << :redirect_url 
+			#timely
+
 
 			# devise_parameter_sanitizer.for(:sign_up) << :role
 			devise_parameter_sanitizer.for(:sign_up) << :phone
 			devise_parameter_sanitizer.for(:sign_up) << :city_id
 			devise_parameter_sanitizer.for(:sign_up) << :first_name
 			devise_parameter_sanitizer.for(:sign_up) << :last_name
+
+
+			devise_parameter_sanitizer.for(:account_update) { |u| 
+			  u.permit(:password, :password_confirmation, :current_password) 
+			} #timely
 
 			#TODO :email, :password, :password_confirmation, :role, :phone
 			# devise_parameter_sanitizer.for(:account_update) { |u| u.permit(:email,...) }

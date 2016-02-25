@@ -23,7 +23,7 @@ resource 'Products', type: :request do
 	get '/products' do
 		parameter :city_id
 		parameter :category_id
-		parameter :in_stock, 'true/false, if absent will return all'
+		parameter :in_stock, '1/0, if absent will return all'
 
 		example_request 'get all products' do
 			explanation 'returns all products with no params'
@@ -37,7 +37,7 @@ resource 'Products', type: :request do
 
 		it 'get filtered products' do
 			explanation 'returns all products with inventory count > 0, and from specific category'
-			do_request category_id: @category_2.id, in_stock: true
+			do_request category_id: @category_2.id, in_stock: 1
 
 			returned_ids = jsons.pluck(:id)
 			expected_ids = Product.select do |product|

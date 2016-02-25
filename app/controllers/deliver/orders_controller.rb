@@ -9,6 +9,8 @@ module Deliver
 			render json: @orders
 		end
 
+		# TODO: update paid with cash
+
 
 		def update_status
 			action = params[:order][:action]

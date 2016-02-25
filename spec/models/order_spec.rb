@@ -1,6 +1,6 @@
 require 'rails_helper'
 
-
+# TODO can't use coupon if price is smaller than discount 
 describe Order, type: :model do
 
 	let(:user){ FactoryGirl.create :user }
@@ -79,7 +79,7 @@ describe Order, type: :model do
 				pure            = product.price * 20
 				delivery        = pure > Setting.s.free_delivery_order_sum ? 0 : Setting.s.default_delivery_cost
 				tax             = pure * ( Setting.s.tax_in_percentage / 100.0 )
-				coupon_discount = pure * ( coupon.discount / 100.0 )
+				coupon_discount = coupon.discount
 				total = pure + delivery + tax - coupon_discount
 
 				expect(order.pure_product_price).to eq(pure)
@@ -107,6 +107,19 @@ describe Order, type: :model do
 				expect(order.coupon_discount.to_i).to eq(0)
 			end
 
+			it 'if coupon_discount is bigger than order price, make it 0' do
+				coupon = FactoryGirl.create :coupon, discount: 10000000
+
+				order = user.orders.create({
+					coupon_code: coupon.code,
+					line_items_attributes: [
+						{ product_id: product.id, amount: 20 }
+					]
+				})
+
+				expect(order.total_price).to eq(0)
+			end
+
 
 		end
 
@@ -122,7 +135,8 @@ describe Order, type: :model do
 
 		let(:order) do 
 			Order.create({
-				user_id: user.id,
+				user_id:      user.id,
+				payment_type: :cash,
 				line_items_attributes: [
 					{ product_id: product_1.id, amount: 5 },
 					{ product_id: product_2.id, amount: 10 },
@@ -163,6 +177,33 @@ describe Order, type: :model do
 				expect(product_2.reload.inventory_count).to eq(3) #not changed since they were deleted
 				expect(product_3.reload.inventory_count).to eq(8) #10-2, stock decreased!
 			end
+
+			describe '.payment_ready_for_confirm?' do
+				let(:order){ FactoryGirl.create :order }
+
+				it 'complains about unset payment_type' do
+					order.update!(payment_type: nil)
+					expect(order.confirm!).to be(false)
+					expect(order.errors.messages).to include(:order=>["needs to have payment type before being confirmed"])
+				end
+
+				it 'is okay with unpaid if cash' do
+					order.update!(payment_type: 'cash')
+					order.confirm!
+
+					expect(order.reload).to be_confirmed
+				end
+
+				it 'complains about unpaid if not cash' do
+					order.update(payment_type: 'citrus')
+
+					expect(order.confirm!).to be(false)
+					expect(order.errors.messages).to include(:order=>["either select payment by cash, or pay prior to confirming order"])
+				end
+
+			end
+
+
 		end
 
 		describe 'cancel!' do
@@ -199,6 +240,27 @@ describe Order, type: :model do
 		end
 
 
+
+	end
+
+
+	describe 'validations' do
+
+		let(:order){ FactoryGirl.create :order }
+
+		describe '.wanted_date_is_in_proper_range?'
+		it 'valid' do
+			order.update(wanted_date: Time.now + 2.days)
+
+			expect(order).to be_valid
+		end
+
+		it 'invalid' do
+			order.update(wanted_date: Time.now + 4.days)
+
+			expect(order).to be_invalid
+			expect(order.errors.messages).to include :wanted_date => ["can't be in more than tree days"]
+		end
 
 	end
 

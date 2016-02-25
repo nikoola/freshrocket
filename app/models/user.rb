@@ -5,9 +5,8 @@ class User < ActiveRecord::Base
 	devise :database_authenticatable, :registerable,
 					:recoverable, :rememberable, :trackable, :validatable,
 					:omniauthable #TODO get rid of some
+	# notice this comes BEFORE the include statement below
 	include DeviseTokenAuth::Concerns::User
-
-	belongs_to :city
 
 	has_many :orders, dependent: :destroy #TODO should we be able to delete users?
 	validates_presence_of :phone, :first_name, :last_name
@@ -26,7 +25,7 @@ class User < ActiveRecord::Base
 
 	acts_as_taggable_on :abilities
 
-	VALID_ABILITY_NAMES = %w(orders products users categories coupons settings delivery_boy) #why tags and not create separate roles table? because it's nice to keep app logic in app.
+	VALID_ABILITY_NAMES = %w(orders products users categories coupons settings cities delivery_boy) #why tags and not create separate roles table? because it's nice to keep app logic in app.
 	validate :validate_abilities
 
 
@@ -34,7 +33,6 @@ class User < ActiveRecord::Base
 	scope :email_includes, -> (text)    { where("email like ?", "%#{text}%") }
 	scope :phone_includes, -> (text)    { where("phone like ?", "%#{text}%") }
 	scope :has_abillity,   -> (ability) { tagged_with(ability) }
-	# scope :city_id         -> (id)      { where(city_id: id) }
 
 
 

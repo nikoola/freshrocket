@@ -16,17 +16,6 @@ module Admin
 			render json: @order
 		end
 
-		# # POST /admin/orders
-		# def create
-		# 	@order = Order.new(order_params)
-
-		# 	if @order.save
-		# 		render json: @order, status: :created, location: @order
-		# 	else
-		# 		render json: @order.errors, status: :unprocessable_entity
-		# 	end
-		# end
-
 		# # PATCH/PUT /admin/orders/1
 		# def update
 		# 	@order = Order.find(params[:id])
@@ -47,7 +36,7 @@ module Admin
 		def update_status
 			action = params[:order][:action]
 
-			if action.to_sym.in? [:approve, :dispatch, :cancel]
+			if action.to_sym.in? [:approve, :dispatch, :cancel, :delivered] #boss asked for delivered
 				@order.update_status action
 				if @order.errors.blank?
 					head 200

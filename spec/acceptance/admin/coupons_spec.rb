@@ -27,7 +27,7 @@ resource 'Coupons', type: :request do
 		with_options scope: :coupon do
 			parameter :name,     'name of the coupon'
 			parameter :code,     'code for checking if client has discount'
-			parameter :discount, '1-100, discount in percentage'
+			parameter :discount, 'discount'
 		end
 
 		example 'create coupon' do
@@ -50,7 +50,7 @@ resource 'Coupons', type: :request do
 		with_options scope: :coupon do
 			parameter :name,     'name of the coupon'
 			parameter :code,     'code for checking if client has discount'
-			parameter :discount, '1-100, discount in percentage'
+			parameter :discount, 'discount'
 		end
 
 		example 'update coupon' do

@@ -1,4 +1,8 @@
 class CategorySerializer < ActiveModel::Serializer
 	attributes :id,
-		:name, :image
+		:name, :image_url
+
+	def image_url
+		object.image.url
+	end
 end

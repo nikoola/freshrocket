@@ -1,10 +1,13 @@
 module Client
 	class PaymentsController < ApplicationController #for authenticated only TODO later
+		before_action :authenticate_user!, only: [:new]
 
 		def new
+			head status: 404 unless @order = current_user.orders.find_by(id: params[:order_id])
+
 			helper = OffsitePayments::Integrations::Citrus::Helper.new(
-				params[:order_id], CITRUS[:access_key],
-				amount: params[:amount], currency: 'USD', #TODO what currency
+				@order.id, CITRUS[:access_key],
+				amount: @order.total_price, currency: 'USD', #TODO what currency
 				credential2: CITRUS[:secret_key],
 				credential3: CITRUS[:vanity_url],
 				return_url:  CITRUS[:return_url]
@@ -24,7 +27,6 @@ module Client
 
 		# paypal posts here after transaction
 		def citrus
-
 			@notification = OffsitePayments.integration(:citrus).notification(
 				request.raw_post
 			)
@@ -33,6 +35,7 @@ module Client
 
 				@order = Order.find(@notification.item_id)
 				@order.update(payment_type: :citrus, is_paid: true)
+				@order.confirm!
 
 				head 200
 			else

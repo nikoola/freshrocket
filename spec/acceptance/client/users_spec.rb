@@ -54,6 +54,11 @@ resource 'Users', type: :request do
 		# end
 
 		put '/auth' do
+			parameter :email
+			parameter :phone
+			parameter :first_name
+			parameter :last_name
+
 			it 'user updates self' do
 				explanation 'if phone is updates, is_verified is set to false'
 				do_request({ phone: '+79174446666' })
@@ -74,6 +79,14 @@ resource 'Users', type: :request do
 				expect(status).to eq(403)
 				expect(json[:status]).to eq('error')
 				expect(json[:errors]).to include :phone => ["can't be blank", "is invalid"]
+			end
+
+			it 'can change email', document: false do
+				new_email = 'wow@wow.com'
+				do_request(email: new_email)
+
+				expect(status).to eq(200)
+				expect(json[:data][:email]).to eq(new_email)
 			end
 		end
 
@@ -97,6 +110,33 @@ resource 'Users', type: :request do
 		end
 
 	end
+
+
+	# post '/client/send_email_to_recover_password' do
+
+	# 	# get '/auth/validate_token' #works!
+	# 	it 'sends password recovery email' do
+
+	# 		do_request
+
+	# 		mail = ActionMailer::Base.deliveries.last
+
+	# 		reset_link = mail.body.raw_source.split('localhost:3000')[1].split('">Change')[0]
+	# 		token = reset_link.split('en=')[1]
+
+	# 		get '/auth/password/edit', { reset_password_token: token, redirect_url: 'http://localhost:3000/auth/password' }, headers
+	# 		# get reset_link, {}, headers
+
+	# 		puts body
+	# 		binding.pry
+			
+
+	# 	end
+
+	# end
+
+	# TODO had problems, opened an issue https://github.com/lynndylanhurley/devise_token_auth/issues/545
+
 
 
 

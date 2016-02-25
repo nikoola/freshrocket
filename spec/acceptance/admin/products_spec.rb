@@ -23,6 +23,7 @@ resource 'Products', type: :request do
 			parameter :city_id, 'product served at city', required: true
 			parameter :image
 			parameter :category_ids, 'array of ids of categories product belongs to'
+			parameter :description
 		end
 
 		example 'create product' do
@@ -41,7 +42,7 @@ resource 'Products', type: :request do
 			expect(json).to include({:price=>["can't be blank"]})
 		end
 
-		it 'creates product with image', document: false do
+		it 'creates product with image' do
 			image = '/home/lakesare/Desktop/rivo/spec/files/hi.jpg'
 			file = Rack::Test::UploadedFile.new image, "image/jpeg"
 			valid_params_with_image = valid_params.merge({image: file})
@@ -49,8 +50,7 @@ resource 'Products', type: :request do
 			post admin_products_path, { product: valid_params_with_image }, auth_headers
 
 			product = Product.last
-			path_to_image = "/uploads/product/image/#{product.id}/hi.jpg"
-			expect(product.image.url).to eq(path_to_image)
+			expect(product.image.url).to eq("/uploads/product/image/#{product.id}/hi.jpg")
 
 			FileUtils.rm_rf(Rails.root.to_s + '/public/uploads/product/image/#{product.id}')
 		end
@@ -64,6 +64,7 @@ resource 'Products', type: :request do
 			parameter :city_id, 'product served at city', required: true
 			parameter :image
 			parameter :category_ids, 'array of ids of categories product belongs to'
+			parameter :description
 		end
 
 		example 'update product' do

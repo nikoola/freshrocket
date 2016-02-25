@@ -15,7 +15,13 @@ class SetupSchema < ActiveRecord::Migration
 	add_index "categories_products_joins", ["product_id"], name: "index_categories_products_joins_on_product_id"
 
 	create_table "cities", force: :cascade do |t|
-		t.string "name"
+		t.string  "name"
+		t.boolean "active"
+	end
+
+	create_table "areas", force: :cascade do |t|
+		t.string  'name'
+		t.integer 'city_id'
 	end
 
 	create_table "line_items", force: :cascade do |t|
@@ -61,6 +67,7 @@ class SetupSchema < ActiveRecord::Migration
 		t.datetime "updated_at",                              null: false
 		t.integer  "inventory_count"
 		t.integer  "city_id"
+		t.string   "description"
 		t.string   "image"
 	end
 
@@ -93,7 +100,6 @@ class SetupSchema < ActiveRecord::Migration
 	add_index "tags", ["name"], name: "index_tags_on_name", unique: true
 
 	create_table "users", force: :cascade do |t| 
-		t.integer  'city_id' # so that can be searched by city
 		t.string   'first_name'
 		t.string   'last_name'
 		t.string   "email"
@@ -114,6 +120,9 @@ class SetupSchema < ActiveRecord::Migration
 
 		t.datetime "created_at"
 		t.datetime "updated_at"
+
+		t.string   "reset_password_token"
+		t.datetime "reset_password_sent_at"
 	end
 
 

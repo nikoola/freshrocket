@@ -21,8 +21,12 @@ class Product < ActiveRecord::Base
 
 	include Filterable
 	scope :city_id,      -> (city_id) { where city_id: city_id }
-	scope :in_stock,     -> (true_or_false) { 
-		true_or_false ? where('inventory_count > ?', 0) : where(inventory_count: 0) 
+	scope :in_stock,     -> (bool) { 
+		if bool.to_s == '1' 
+			where('inventory_count > ?', 0)
+		elsif bool.to_s == '0'
+			where(inventory_count: 0)
+		end
 	}
 	scope :category_id,  -> (category_id) { includes(:categories).where('categories.id': category_id) }
 

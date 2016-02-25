@@ -37,6 +37,9 @@ end
 group :test do
 	gem 'airborne' #expect_json
 	gem 'database_cleaner'
+
+	gem 'selenium-webdriver'
+	gem 'capybara'
 end
 
 group :production do

@@ -10,7 +10,7 @@ class CalculateOrderPrice
 		# in any order
 		@delivery_charge = get_delivery_charge @pure_product_price
 		@tax             = get_tax             @pure_product_price
-		@coupon_discount = get_coupon_discount @pure_product_price
+		@coupon_discount = get_coupon_discount
 
 		@total           = get_total
 	end
@@ -18,7 +18,8 @@ class CalculateOrderPrice
 
 	private 
 		def get_total
-			@pure_product_price + @tax + @delivery_charge - @coupon_discount
+			sum = @pure_product_price + @tax + @delivery_charge - @coupon_discount
+			sum > 0 ? sum : 0
 		end
 
 		#nested attributes are validated first
@@ -41,12 +42,14 @@ class CalculateOrderPrice
 			pure_product_price * ( Setting.s.tax_in_percentage / 100.0 )
 		end
 
-		def get_coupon_discount pure_product_price
+		def get_coupon_discount
 			if @order.coupon
-				pure_product_price * ( @order.coupon.discount / 100.0 )
+				@order.coupon.discount 
 			else
 				0
 			end
+
+
 		end
 
 

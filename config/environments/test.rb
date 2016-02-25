@@ -1,4 +1,12 @@
 Rails.application.configure do
+  config.action_mailer.default_url_options = { :host => 'localhost:3000' } #against 
+  # ActionView::Template::Error:
+  #      Missing host to link to! Please provide the :host parameter, set default_url_options[:host], or set :only_path to true
+
+
+
+
+  
   # Settings specified here will take precedence over those in config/application.rb.
 
   # The test environment is used exclusively to run your application's

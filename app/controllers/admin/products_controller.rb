@@ -45,7 +45,7 @@ module Admin
 			end
 
 			def product_params
-				params.require(:product).permit(:title, :price, :inventory_count, :city_id, :image, category_ids: [])
+				params.require(:product).permit(:title, :description, :price, :inventory_count, :city_id, :image, category_ids: [])
 			end
 	end
 end

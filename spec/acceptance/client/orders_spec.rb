@@ -229,6 +229,7 @@ resource 'Orders', type: :request do
 
 			order = Order.create({
 				user_id: user.id,
+				payment_type: :cash,
 				line_items_attributes: [
 					{ product_id: product.id, amount: 5 }
 				]
@@ -244,7 +245,6 @@ resource 'Orders', type: :request do
 			expect(status).to eq(422)
 			expect(user_order.reload.status).to eq('unconfirmed')
 			expect(product.inventory_count).to eq(0)
-
 
 			expect(json.keys).to include(:'stock shortage')
 

@@ -17,7 +17,7 @@ class Order < ActiveRecord::Base
 		if: :coupon_code_changed?, 
 		unless: -> { coupon_code.blank? }
 
-	before_save           :set_order_pricing, if: :unconfirmed? #TODO decrease_stock maybe?
+	before_save           :set_order_pricing, if: :unconfirmed?
 
 	include Filterable
 	scope :status,  -> (status)  { where status: status }
@@ -34,9 +34,10 @@ class Order < ActiveRecord::Base
 
 		state :canceled
 
-		event :confirm do
+		event :confirm do #payment makes order automatically confirmed
 			transitions :from => :unconfirmed, :to => :confirmed, 
-				after: :decrease_stock
+				after: :decrease_stock, 
+				guard: :payment_ready_for_confirm?
 		end
 		event :approve do
 			after {
@@ -66,9 +67,17 @@ class Order < ActiveRecord::Base
 
 
 	DELIVERY_TIMES = ['morning', 'noon', 'evening']
-	validates_inclusion_of :wanted_time, in: DELIVERY_TIMES, allow_blank: true, message: "%{value} is not permitted. can be #{DELIVERY_TIMES}"
+	validates_inclusion_of :wanted_time, in: DELIVERY_TIMES, 
+		allow_blank: true, 
+		message: "%{value} is not permitted. can be #{DELIVERY_TIMES}"
+
+	validate  :wanted_date_is_in_proper_range?
 
 
+	PAYMENT_TYPES = ['cash', 'citrus']
+	validates_inclusion_of :payment_type, in: PAYMENT_TYPES, 
+		allow_blank: true, 
+		message: "%{value} is not permitted. can be #{PAYMENT_TYPES}"
 
 
 
@@ -139,6 +148,16 @@ class Order < ActiveRecord::Base
 			errors.add(:order, 'must add at least one line item') if self.line_items.blank?
 		end
 
+		def wanted_date_is_in_proper_range?
+			if wanted_date.present?
+				if wanted_date > (Date.today + 3.days)
+					errors.add(:wanted_date, "can't be in more than tree days")
+				elsif wanted_date < Date.today
+					errors.add(:wanted_date, "can't be in the past")
+				end
+			end
+		end
+
 		def set_order_pricing
 			pricing = CalculateOrderPrice.new self
 
@@ -164,6 +183,27 @@ class Order < ActiveRecord::Base
 			end
 
 		end
+
+
+
+		def payment_ready_for_confirm?
+			case payment_type
+			when 'cash'
+				true
+			when nil
+				errors.add(:order, 'needs to have payment type before being confirmed')
+				false
+			else
+				if is_paid
+					true
+				else
+					errors.add(:order, 'either select payment by cash, or pay prior to confirming order')
+					false
+				end
+			end
+		end
+
+
 
 
 		def coupon_can_be_found?
