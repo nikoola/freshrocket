@@ -6,10 +6,11 @@ gem 'rails', '4.2.5'
 
 
 # gem 'rails-api'
+gem 'factory_girl_rails'
+gem 'faker' #for seed file
 
 group :development, :test do
 	gem 'rspec-rails'
-	gem 'factory_girl_rails'
 
 	gem 'spring-commands-rspec'
 
@@ -17,7 +18,6 @@ group :development, :test do
 	gem 'pry-rescue'
 	gem 'pry-rails'
 	
-	gem 'faker'
 
 	gem 'dotenv-rails'
 
