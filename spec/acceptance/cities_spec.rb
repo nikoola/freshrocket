@@ -3,30 +3,47 @@ require 'rails_helper'
 resource 'cities', type: :request do
 
 
-	get '/categories' do
-		parameter :city_id,  'get categories that have products with :city_id'
+	get '/cities' do
+		parameter :active,  '1/0 get cities marked as active'
 
-		example 'get all categories' do
-			city = FactoryGirl.create :city
-			product = FactoryGirl.create :product, city_id: city.id
+		example 'get all cities with their areas' do
+			FactoryGirl.create_list :city, 3
+			FactoryGirl.create_list :city, 2, active: false
 
-			category = FactoryGirl.create :category
-			category.products = [product]
-			category.save!
 
-			FactoryGirl.create_list :category, 3
-
-			do_request city_id: city.id
+			do_request active: '1'
 
 			returned_ids = jsons.pluck(:id)
-			expected_ids = [category.id]
+			expected_ids = City.where(active: true).pluck(:id)
 
 			expect(returned_ids).to match_array(expected_ids)
 			expect(status).to eq(200)
 		end
+	end
 
+	get '/cities/:id' do
+		example 'get city with its areas' do
+			city = FactoryGirl.create :city
+			FactoryGirl.create_list :area, 3, city_id: city.id
+
+			do_request id: city.id
+
+			expect(json[:areas][0]).to include :id, :name
+			expect(status).to eq(200)
+		end
 
 	end
 
 
 end
+
+
+
+
+
+
+
+
+
+
+

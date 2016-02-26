@@ -33,7 +33,7 @@ ActiveRecord::Schema.define(version: 20160127185541) do
 
   create_table "cities", force: :cascade do |t|
     t.string  "name"
-    t.boolean "active"
+    t.boolean "active", default: true
   end
 
   create_table "coupons", force: :cascade do |t|

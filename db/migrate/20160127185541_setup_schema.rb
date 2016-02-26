@@ -16,7 +16,7 @@ class SetupSchema < ActiveRecord::Migration
 
 	create_table "cities", force: :cascade do |t|
 		t.string  "name"
-		t.boolean "active"
+		t.boolean "active", default: true
 	end
 
 	create_table "areas", force: :cascade do |t|

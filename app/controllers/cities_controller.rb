@@ -7,8 +7,8 @@ class CitiesController < ApplicationController
 	end
 
 	def show
-		@product = City.find(params[:id])
-		render json: @product
+		@city = City.find(params[:id])
+		render json: @city
 	end
 
 

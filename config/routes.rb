@@ -6,6 +6,7 @@ Rails.application.routes.draw do
 	# no authentication needed.
 	resources :categories, only: [:index]
 	resources :products,   only: [:index, :show]
+	resources :cities,     only: [:index, :show]
 
 
 
@@ -37,14 +38,14 @@ Rails.application.routes.draw do
 
 	namespace :admin do #admins see in admin panel
 	#under /admin we will only have the urls that require admin account.
-		resources :categories,   only: [:create, :update, :destroy] #no need for show
-		resources :products,     only: [:create, :update, :destroy]
-		resources :orders,       only: [:index, :show] do
+		resources :categories,    only: [:create, :update, :destroy] #no need for show
+		resources :products,      only: [:create, :update, :destroy]
+		resources :orders,        only: [:index, :show] do
 			member {
 				put :update_status     # status: ''
 			}
 		end
-		resources :users,        only: [:index, :show, :update] do
+		resources :users,         only: [:index, :show, :update] do
 			member {
 				put :update_abilities #update abilities for a user
 			}
@@ -52,6 +53,7 @@ Rails.application.routes.draw do
 		resources :delivery_boys,  only: [:index]
 		resource  :settings,       only: [:show, :update]
 		resources :coupons,        only: [:index, :create, :update, :destroy]
+		resources :cities,         only: [:create, :update, :destroy]
 	end
 
 
