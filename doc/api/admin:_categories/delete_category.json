@@ -1,0 +1,49 @@
+{
+  "resource": "admin: categories",
+  "http_method": "DELETE",
+  "route": "/admin/categories/:id",
+  "description": "delete category",
+  "explanation": null,
+  "parameters": [
+
+  ],
+  "response_fields": [
+
+  ],
+  "requests": [
+    {
+      "request_method": "DELETE",
+      "request_path": "/admin/categories/1",
+      "request_body": null,
+      "request_headers": {
+        "Access-Token": "Tp475RxfhNdUFUnIK8u26g",
+        "Token-Type": "Bearer",
+        "Client": "ql-wCWopeNAYHLn-l7nINQ",
+        "Expiry": "1457714412",
+        "Uid": "5lucie@rowe.net",
+        "Host": "example.org",
+        "Content-Type": "application/x-www-form-urlencoded",
+        "Cookie": ""
+      },
+      "request_query_parameters": {
+      },
+      "request_content_type": "application/x-www-form-urlencoded",
+      "response_status": 200,
+      "response_status_text": "OK",
+      "response_body": null,
+      "response_headers": {
+        "X-Frame-Options": "SAMEORIGIN",
+        "X-XSS-Protection": "1; mode=block",
+        "X-Content-Type-Options": "nosniff",
+        "Content-Type": "text/html",
+        "Cache-Control": "no-cache",
+        "Set-Cookie": "_session_id=ZHVXdklBSjEwSnNWVEV4MlpCRGpNQnY2VDNEZEdoZkhnL21IcVFDZDhMQVBBOEYyUnh3OVNuaUI0WFEwZnNzSnUyREFzK1lGZGV3RW1TOElPZ09yTTk4OEY0NWg2MlZFeTRRTDc4Z1lLMVdPM3d4bnEzTzE0bzhZZ2hWYXBZQ0V5NnYzYTBtWnA5djFHalBXQ0F3Ti8vV24yeEpKMVdqeHhZbWdwTVczYlJqVDNtUGlCbHJ5MnN6SlhGTEZDcmh5LS1lVzF4S3NWMFBrd1pzajhBUFk3ZllnPT0%3D--0947878619aee65d64cf393fe6b03b9841cc1d90; path=/; HttpOnly",
+        "X-Request-Id": "ed79d696-17e3-4e4e-b821-9ee9a88e5ba4",
+        "X-Runtime": "0.090386",
+        "Content-Length": "0"
+      },
+      "response_content_type": "text/html",
+      "curl": "curl \"http://localhost:3000/admin/categories/1\" -d '' -X DELETE \\\n\t-H \"Access-Token: Tp475RxfhNdUFUnIK8u26g\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: ql-wCWopeNAYHLn-l7nINQ\" \\\n\t-H \"Expiry: 1457714412\" \\\n\t-H \"Uid: 5lucie@rowe.net\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+    }
+  ]
+}

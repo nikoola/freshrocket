@@ -1,0 +1,44 @@
+{
+  "resource": "client: authentication",
+  "http_method": "DELETE",
+  "route": "/auth/sign_out",
+  "description": "sign out: if not signed in",
+  "explanation": null,
+  "parameters": [
+
+  ],
+  "response_fields": [
+
+  ],
+  "requests": [
+    {
+      "request_method": "DELETE",
+      "request_path": "/auth/sign_out",
+      "request_body": null,
+      "request_headers": {
+        "Host": "example.org",
+        "Content-Type": "application/x-www-form-urlencoded",
+        "Cookie": ""
+      },
+      "request_query_parameters": {
+      },
+      "request_content_type": "application/x-www-form-urlencoded",
+      "response_status": 404,
+      "response_status_text": "Not Found",
+      "response_body": "{\n  \"errors\": [\n    \"User was not found or was not logged in.\"\n  ]\n}",
+      "response_headers": {
+        "X-Frame-Options": "SAMEORIGIN",
+        "X-XSS-Protection": "1; mode=block",
+        "X-Content-Type-Options": "nosniff",
+        "Content-Type": "application/json; charset=utf-8",
+        "Cache-Control": "no-cache",
+        "Set-Cookie": "_session_id=ZGdyWmswemM2cWhkQmppSndvakxLSk5jWlZpd0RvL0VBc3hYK08wYXJRK1NjTFhtM1NZMlFiLzJpZmdtZHZMMkVhTmxlOG5tUmNnT2o4ZmtMMHZDcnc9PS0tUk5TQXBoY3E4YTNBSC9sRnJ1aklFQT09--35350a750a79ec428186c8bbc7da196173832886; path=/; HttpOnly",
+        "X-Request-Id": "8320362d-941b-4370-8c5a-f84a154a0b60",
+        "X-Runtime": "0.001648",
+        "Content-Length": "55"
+      },
+      "response_content_type": "application/json; charset=utf-8",
+      "curl": "curl \"http://localhost:3000/auth/sign_out\" -d '' -X DELETE \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+    }
+  ]
+}

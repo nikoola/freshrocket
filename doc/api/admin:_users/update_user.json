@@ -1,0 +1,64 @@
+{
+  "resource": "admin: users",
+  "http_method": "PUT",
+  "route": "/admin/users/:id",
+  "description": "update user",
+  "explanation": null,
+  "parameters": [
+    {
+      "scope": "user",
+      "name": "city_id",
+      "description": "User city"
+    },
+    {
+      "scope": "user",
+      "name": "phone",
+      "description": "User phone"
+    },
+    {
+      "scope": "user",
+      "name": "is_verified",
+      "description": "user automatically becomes unverified unless on phone change unless is_verified is set to true"
+    }
+  ],
+  "response_fields": [
+
+  ],
+  "requests": [
+    {
+      "request_method": "PUT",
+      "request_path": "/admin/users/1",
+      "request_body": "user[phone]=%2B79177878978",
+      "request_headers": {
+        "Access-Token": "au5CVL5j1F0EElXfHnNZaQ",
+        "Token-Type": "Bearer",
+        "Client": "RgFLOVDgRscef_Kkq1XdHA",
+        "Expiry": "1457714423",
+        "Uid": "53jett_krajcik@mohrbins.net",
+        "Host": "example.org",
+        "Content-Type": "application/x-www-form-urlencoded",
+        "Cookie": ""
+      },
+      "request_query_parameters": {
+      },
+      "request_content_type": "application/x-www-form-urlencoded",
+      "response_status": 200,
+      "response_status_text": "OK",
+      "response_body": "{\n  \"id\": 1,\n  \"first_name\": \"Faye\",\n  \"last_name\": \"Welch\",\n  \"email\": \"52teresa@farrell.org\",\n  \"phone\": \"+79177878978\",\n  \"is_verified\": false,\n  \"provider\": \"email\",\n  \"uid\": \"52teresa@farrell.org\",\n  \"created_at\": \"2016-02-26T16:40:22.977Z\",\n  \"abilities\": {\n    \"orders\": 0,\n    \"products\": 0,\n    \"users\": 0,\n    \"categories\": 1,\n    \"coupons\": 0,\n    \"settings\": 0,\n    \"cities\": 0,\n    \"delivery_boy\": 0\n  }\n}",
+      "response_headers": {
+        "X-Frame-Options": "SAMEORIGIN",
+        "X-XSS-Protection": "1; mode=block",
+        "X-Content-Type-Options": "nosniff",
+        "Content-Type": "application/json; charset=utf-8",
+        "ETag": "W/\"fa40c3eb7fd299ae51e83cc408193320\"",
+        "Cache-Control": "max-age=0, private, must-revalidate",
+        "Set-Cookie": "_session_id=K0tVQWs2dzBWTFI4ejdUWTFoNWhrSTJHSmdGaUpPOHdBRVhIVTJEVlY3Y2tHZHZNUkJYN1l5U0FRQWgrTzJaNHI1YzF1b29QTWRUcWtGbElGOXkzYTVCdGE4bnprUmEwZndza05SZzIrNWQ0TUppdzdMNTI2ZGY1WElMZ2RoZncvVlNTRnBTUlljWHJUblA1aU8wcm9RMkFESStpWVNDZXQzbVVPQ2tGUlA2RWFLcE5XdjcrNEl1b3pJRmpsNm1QLS1IYXp0cCtxRlU0TGpaWDlCTThqcG5BPT0%3D--a76e93ac0bbad10505e2105428f31c1b524365d2; path=/; HttpOnly",
+        "X-Request-Id": "06a1c22b-800d-4224-bc58-a749ceb06847",
+        "X-Runtime": "0.091954",
+        "Content-Length": "326"
+      },
+      "response_content_type": "application/json; charset=utf-8",
+      "curl": "curl \"http://localhost:3000/admin/users/1\" -d 'user[phone]=%2B79177878978' -X PUT \\\n\t-H \"Access-Token: au5CVL5j1F0EElXfHnNZaQ\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: RgFLOVDgRscef_Kkq1XdHA\" \\\n\t-H \"Expiry: 1457714423\" \\\n\t-H \"Uid: 53jett_krajcik@mohrbins.net\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+    }
+  ]
+}

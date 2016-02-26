@@ -1,0 +1,49 @@
+{
+  "resource": "admin: cities",
+  "http_method": "DELETE",
+  "route": "/admin/cities/:id",
+  "description": "delete city",
+  "explanation": "delete city if no products in it, disable it if there are products present. if city actually gets deleted, all its area will get deleted too",
+  "parameters": [
+
+  ],
+  "response_fields": [
+
+  ],
+  "requests": [
+    {
+      "request_method": "DELETE",
+      "request_path": "/admin/cities/1",
+      "request_body": null,
+      "request_headers": {
+        "Access-Token": "5GELI-UPZ92IekT5VkcSYg",
+        "Token-Type": "Bearer",
+        "Client": "Kqpnn_ZMFhOgxsTU6LKgwQ",
+        "Expiry": "1457714413",
+        "Uid": "8flavio@hegmann.org",
+        "Host": "example.org",
+        "Content-Type": "application/x-www-form-urlencoded",
+        "Cookie": ""
+      },
+      "request_query_parameters": {
+      },
+      "request_content_type": "application/x-www-form-urlencoded",
+      "response_status": 200,
+      "response_status_text": "OK",
+      "response_body": null,
+      "response_headers": {
+        "X-Frame-Options": "SAMEORIGIN",
+        "X-XSS-Protection": "1; mode=block",
+        "X-Content-Type-Options": "nosniff",
+        "Content-Type": "text/html",
+        "Cache-Control": "no-cache",
+        "Set-Cookie": "_session_id=TFpDcGxTNk5oSUVPUjhmdDh5WUlTVktDbXpLamZobDBSNTZHMUMweGFUSlFQL040RXZIcFVXbHl1QTJxdk9JLzBlOW14VkNoYURoWEhITGJPajRWM09ZSDJFdXM2REJobG5BMHF4SWJJVU84NHBjVS9BZmxXbFBuZXZuSlpuWi9yUGk5MVJtODA5V3ZpeFBBNG95ajZ3ai9hd0NsWlQ0bU5sSDBaNXY2eW9iUGYyc2xBemd0ZTNuYWdsSnlZdUJ3LS1sREJoc3RkcW03U2o0RVpNMThNb2VRPT0%3D--6dda73c32d91e422ffc26167b415cf196d17600b; path=/; HttpOnly",
+        "X-Request-Id": "820fd302-3555-46bf-9000-1a0e7a18d49c",
+        "X-Runtime": "0.103749",
+        "Content-Length": "0"
+      },
+      "response_content_type": "text/html",
+      "curl": "curl \"http://localhost:3000/admin/cities/1\" -d '' -X DELETE \\\n\t-H \"Access-Token: 5GELI-UPZ92IekT5VkcSYg\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: Kqpnn_ZMFhOgxsTU6LKgwQ\" \\\n\t-H \"Expiry: 1457714413\" \\\n\t-H \"Uid: 8flavio@hegmann.org\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+    }
+  ]
+}

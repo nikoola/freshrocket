@@ -1,0 +1,54 @@
+{
+  "resource": "client: orders",
+  "http_method": "PUT",
+  "route": "/client/orders/:id/update_status",
+  "description": "client cant approve order",
+  "explanation": null,
+  "parameters": [
+    {
+      "scope": "order",
+      "required": true,
+      "name": "action",
+      "description": "only :confirm is possible for this route (for client)"
+    }
+  ],
+  "response_fields": [
+
+  ],
+  "requests": [
+    {
+      "request_method": "PUT",
+      "request_path": "/client/orders/3/update_status",
+      "request_body": "order[action]=approve",
+      "request_headers": {
+        "Access-Token": "M7g2PFtjXcURSwArPuyD_A",
+        "Token-Type": "Bearer",
+        "Client": "GrZ74EgBP38LuS0ZA57TbA",
+        "Expiry": "1457714428",
+        "Uid": "80unique@runtegaylord.org",
+        "Host": "example.org",
+        "Content-Type": "application/x-www-form-urlencoded",
+        "Cookie": ""
+      },
+      "request_query_parameters": {
+      },
+      "request_content_type": "application/x-www-form-urlencoded",
+      "response_status": 401,
+      "response_status_text": "Unauthorized",
+      "response_body": "{\n  \"error\": \"this user can't approve order\"\n}",
+      "response_headers": {
+        "X-Frame-Options": "SAMEORIGIN",
+        "X-XSS-Protection": "1; mode=block",
+        "X-Content-Type-Options": "nosniff",
+        "Content-Type": "application/json; charset=utf-8",
+        "Cache-Control": "no-cache",
+        "Set-Cookie": "_session_id=M0EwSjdGZ1V6UUlsbWxSVjdPVDhETndWbGJDVW9uR1pGUVdBWGtHSmVuVUlmZjhDb2F1Zm15N3FpUlMxdzh3cDVqeXMxM1o3YWVKNmVzMC9qcmhteG9ubE8zYUV2RXV5cDJ1Mzh4dTFaaUxWeG5SRnNDYkpxemlrMzRTSE1BVTlYUGp1VUQrK1p2TU5XczU0TWRPTmZEU0w0VXozSWN6MUFkVVNMWGhNMFc1MnoyMzVDSU95bXAyZXhubGRvUVhlLS00MHNERmV3N2F0TklMcFFoSVJrSHp3PT0%3D--5cf83ebbf39ec0297765182a7714834ffcd5dc18; path=/; HttpOnly",
+        "X-Request-Id": "e09c6c9a-6e7c-41af-9d86-a441ec5078c8",
+        "X-Runtime": "0.076722",
+        "Content-Length": "41"
+      },
+      "response_content_type": "application/json; charset=utf-8",
+      "curl": "curl \"http://localhost:3000/client/orders/3/update_status\" -d 'order[action]=approve' -X PUT \\\n\t-H \"Access-Token: M7g2PFtjXcURSwArPuyD_A\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: GrZ74EgBP38LuS0ZA57TbA\" \\\n\t-H \"Expiry: 1457714428\" \\\n\t-H \"Uid: 80unique@runtegaylord.org\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+    }
+  ]
+}

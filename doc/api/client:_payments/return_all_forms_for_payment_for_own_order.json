@@ -1,0 +1,53 @@
+{
+  "resource": "client: payments",
+  "http_method": "GET",
+  "route": "/client/payments/new",
+  "description": "return all forms for payment for own order",
+  "explanation": null,
+  "parameters": [
+    {
+      "name": "order_id",
+      "description": "unique id"
+    }
+  ],
+  "response_fields": [
+
+  ],
+  "requests": [
+    {
+      "request_method": "GET",
+      "request_path": "/client/payments/new?order_id=3",
+      "request_body": null,
+      "request_headers": {
+        "Access-Token": "1Xz8TwznDyvguGBjXC99WQ",
+        "Token-Type": "Bearer",
+        "Client": "QanL9uqXJca-Eoy92OrFjA",
+        "Expiry": "1457714430",
+        "Uid": "85alexandra_gerhold@will.name",
+        "Host": "example.org",
+        "Cookie": ""
+      },
+      "request_query_parameters": {
+        "order_id": "3"
+      },
+      "request_content_type": null,
+      "response_status": 200,
+      "response_status_text": "OK",
+      "response_body": "{\n  \"citrus\": {\n    \"action\": \"https://sandbox.citruspay.com/kouqfeaav0\",\n    \"method\": \"POST\",\n    \"fields\": {\n      \"merchantTxnId\": \"3\",\n      \"merchantAccessKey\": \"T82TNCTLNBZ282BLHAGD\",\n      \"orderAmount\": \"228.35\",\n      \"currency\": \"USD\",\n      \"secret_key\": \"1690a1e29ecec2a5f852b678dd5362616c79916a\",\n      \"pmt_url\": \"kouqfeaav0\",\n      \"returnUrl\": \"http://localhost:3000/client/payments/citrus\",\n      \"paymentMode\": \"NET_BANKING\",\n      \"reqtime\": \"1456504830000\",\n      \"secSignature\": \"16055d2470aa3b2001007b0bd8086106d677f8b2\"\n    }\n  }\n}",
+      "response_headers": {
+        "X-Frame-Options": "SAMEORIGIN",
+        "X-XSS-Protection": "1; mode=block",
+        "X-Content-Type-Options": "nosniff",
+        "Content-Type": "application/json; charset=utf-8",
+        "ETag": "W/\"5d7fa016b1a5a61534249fd3b53df3dc\"",
+        "Cache-Control": "max-age=0, private, must-revalidate",
+        "Set-Cookie": "_session_id=N3o1RUl5b0xnU09OYjZGcjBYY0Vtc3hUNFBvT1hiVHhyRHJZNHNubkVEaEF3d0h3dGk3SldGRW5QK0Zad2J4TlA4bDhUeDdIUnFaVUZkUVBLYTMxR1BHbnlXQVBiUklORU02MEMzK3NOM1J5alBadUJYT1R0bnZZNFY1TjZ2TWdxMnl3K0lubVYzdjVmSG1seVZveVVvYzBrcFowR1cvdUhQR1FNQkN0UmdJVUxHcEFyUDFSNUd1QXcrckpuUHBRLS1waGV0Y1RjUmlwaWlyUjFveG1HZmpRPT0%3D--91bfd3c1c165ccd4d9ead447cea77826419a245c; path=/; HttpOnly",
+        "X-Request-Id": "94dff33d-6e84-48de-b102-bd56cad76bbf",
+        "X-Runtime": "0.088373",
+        "Content-Length": "444"
+      },
+      "response_content_type": "application/json; charset=utf-8",
+      "curl": "curl \"http://localhost:3000/client/payments/new?order_id=3\" -X GET \\\n\t-H \"Access-Token: 1Xz8TwznDyvguGBjXC99WQ\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: QanL9uqXJca-Eoy92OrFjA\" \\\n\t-H \"Expiry: 1457714430\" \\\n\t-H \"Uid: 85alexandra_gerhold@will.name\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
+    }
+  ]
+}

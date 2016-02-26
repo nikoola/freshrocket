@@ -1,0 +1,59 @@
+{
+  "resource": "admin: categories",
+  "http_method": "POST",
+  "route": "/admin/categories",
+  "description": "create category: invalid params",
+  "explanation": null,
+  "parameters": [
+    {
+      "scope": "category",
+      "require": true,
+      "name": "name",
+      "description": "name of a category"
+    },
+    {
+      "scope": "category",
+      "name": "image",
+      "description": "Category image"
+    }
+  ],
+  "response_fields": [
+
+  ],
+  "requests": [
+    {
+      "request_method": "POST",
+      "request_path": "/admin/categories",
+      "request_body": "category[name]",
+      "request_headers": {
+        "Access-Token": "xjMZpAYvrUa7e2RwgnTlTQ",
+        "Token-Type": "Bearer",
+        "Client": "h7typn3qfVrMrJzVhb646g",
+        "Expiry": "1457714412",
+        "Uid": "2sebastian.dickinson@baumbachlarson.info",
+        "Host": "example.org",
+        "Content-Type": "application/x-www-form-urlencoded",
+        "Cookie": ""
+      },
+      "request_query_parameters": {
+      },
+      "request_content_type": "application/x-www-form-urlencoded",
+      "response_status": 422,
+      "response_status_text": "Unprocessable Entity",
+      "response_body": "{\n  \"name\": [\n    \"can't be blank\"\n  ]\n}",
+      "response_headers": {
+        "X-Frame-Options": "SAMEORIGIN",
+        "X-XSS-Protection": "1; mode=block",
+        "X-Content-Type-Options": "nosniff",
+        "Content-Type": "application/json; charset=utf-8",
+        "Cache-Control": "no-cache",
+        "Set-Cookie": "_session_id=dnQ3VFhTUlBRMUtaUnRWckdYNXNMU3kxWUViQ2xtK3VWVVlCSGZnd3Vac1RkSXlGakpXQ2NsLzJ3N1JJU05IQzZrMysxa3JvWWcyVTZJT2JBK29jNHAzcUN1NkMxdXJVQzVxeC9MbUZNcXJaOUpRTWlqZURwS0ZhN3o4UVhvKzh6TVZ3MU5FNzQ4cjFweE0vRHh5d3M1TTJvSUk3RXl4WjR1cXM1NnR6SmlLdWgwQXhTb29yL3BqRm9nWGxCVEJmLS03NHFvbERoeHRMeTNlWmY1YS80OGNnPT0%3D--4c75863a44403d7fe1fa089db23d084178bb46d1; path=/; HttpOnly",
+        "X-Request-Id": "050b9f9d-1486-49bd-a988-d9ec71f8991d",
+        "X-Runtime": "0.081788",
+        "Content-Length": "27"
+      },
+      "response_content_type": "application/json; charset=utf-8",
+      "curl": "curl \"http://localhost:3000/admin/categories\" -d 'category[name]' -X POST \\\n\t-H \"Access-Token: xjMZpAYvrUa7e2RwgnTlTQ\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: h7typn3qfVrMrJzVhb646g\" \\\n\t-H \"Expiry: 1457714412\" \\\n\t-H \"Uid: 2sebastian.dickinson@baumbachlarson.info\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+    }
+  ]
+}

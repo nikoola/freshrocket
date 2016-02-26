@@ -1,0 +1,49 @@
+{
+  "resource": "admin: coupons",
+  "http_method": "GET",
+  "route": "/admin/coupons",
+  "description": "get all coupons",
+  "explanation": null,
+  "parameters": [
+
+  ],
+  "response_fields": [
+
+  ],
+  "requests": [
+    {
+      "request_method": "GET",
+      "request_path": "/admin/coupons",
+      "request_body": null,
+      "request_headers": {
+        "Access-Token": "N1a_bYDJhrefvWkbm86hUw",
+        "Token-Type": "Bearer",
+        "Client": "AdaVPJWXeNUCyvFYmUPscQ",
+        "Expiry": "1457714413",
+        "Uid": "9kenton@spinkakiehn.org",
+        "Host": "example.org",
+        "Cookie": ""
+      },
+      "request_query_parameters": {
+      },
+      "request_content_type": null,
+      "response_status": 200,
+      "response_status_text": "OK",
+      "response_body": "[\n  {\n    \"id\": 1,\n    \"name\": \"red\",\n    \"code\": \"39121\",\n    \"discount\": 54\n  },\n  {\n    \"id\": 2,\n    \"name\": \"red\",\n    \"code\": \"69092\",\n    \"discount\": 37\n  },\n  {\n    \"id\": 3,\n    \"name\": \"red\",\n    \"code\": \"15783\",\n    \"discount\": 13\n  },\n  {\n    \"id\": 4,\n    \"name\": \"red\",\n    \"code\": \"49184\",\n    \"discount\": 85\n  }\n]",
+      "response_headers": {
+        "X-Frame-Options": "SAMEORIGIN",
+        "X-XSS-Protection": "1; mode=block",
+        "X-Content-Type-Options": "nosniff",
+        "Content-Type": "application/json; charset=utf-8",
+        "ETag": "W/\"fb0c2c61c1cc6db2d3ced12825d8af6d\"",
+        "Cache-Control": "max-age=0, private, must-revalidate",
+        "Set-Cookie": "_session_id=RThoWVVKakdDcy8xQURUd3BDdXkyUnU4WUh4OUpUMGhPTmFHdmpPRVM2VlFjdnhubU5TN3hLWUQzWFdOK2VoUWsvK0cwUXFuNjdyUEYzTGZ1UFN2U01QTEl2aDkxSzEwWVVoVUVCdEE2eG5vMHRhM3JMS1U4aXdqSVZmcVlvcmdtRWF3U254cHR0ZklwNEtIODBzRWREdXh2TFdFRnlsRzQ5RzZQai9mUjZjMHVvcmkyRHpQRlJTa0g5Z2REMlBHLS15a1pWdGdFbGsxY2NadHJVbEkzZ1VBPT0%3D--3c18a6186203eee07b36c4ec0b520a37a651b0ca; path=/; HttpOnly",
+        "X-Request-Id": "5bafdad9-25a7-4e14-b665-25ce79e1b205",
+        "X-Runtime": "0.089582",
+        "Content-Length": "205"
+      },
+      "response_content_type": "application/json; charset=utf-8",
+      "curl": "curl \"http://localhost:3000/admin/coupons\" -X GET \\\n\t-H \"Access-Token: N1a_bYDJhrefvWkbm86hUw\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: AdaVPJWXeNUCyvFYmUPscQ\" \\\n\t-H \"Expiry: 1457714413\" \\\n\t-H \"Uid: 9kenton@spinkakiehn.org\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
+    }
+  ]
+}

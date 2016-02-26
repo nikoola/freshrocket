@@ -1,0 +1,49 @@
+{
+  "resource": "admin: orders",
+  "http_method": "GET",
+  "route": "/admin/orders/:id",
+  "description": "get order",
+  "explanation": "user with :order ability can get any order",
+  "parameters": [
+
+  ],
+  "response_fields": [
+
+  ],
+  "requests": [
+    {
+      "request_method": "GET",
+      "request_path": "/admin/orders/1",
+      "request_body": null,
+      "request_headers": {
+        "Access-Token": "4-z0mvMcKZtVXSYArAiouQ",
+        "Token-Type": "Bearer",
+        "Client": "-GSejoSngi_w02cpmKh5gA",
+        "Expiry": "1457714415",
+        "Uid": "22nels.langworth@boyer.org",
+        "Host": "example.org",
+        "Cookie": ""
+      },
+      "request_query_parameters": {
+      },
+      "request_content_type": null,
+      "response_status": 200,
+      "response_status_text": "OK",
+      "response_body": "{\n  \"id\": 1,\n  \"user_id\": 1,\n  \"status\": \"unconfirmed\",\n  \"created_at\": \"2016-02-26T16:40:15.637Z\",\n  \"comment\": null,\n  \"pure_product_price\": \"27.0\",\n  \"tax\": \"1.35\",\n  \"delivery_charge\": \"200.0\",\n  \"total_price\": \"228.35\",\n  \"delivery_boy_id\": null,\n  \"wanted_time\": null,\n  \"wanted_date\": null,\n  \"payment_type\": \"cash\",\n  \"is_paid\": null,\n  \"line_items\": [\n    {\n      \"id\": 1,\n      \"order_id\": 1,\n      \"product_id\": 1,\n      \"amount\": 3,\n      \"fixed_price\": \"9.0\"\n    },\n    {\n      \"id\": 2,\n      \"order_id\": 1,\n      \"product_id\": 2,\n      \"amount\": 3,\n      \"fixed_price\": \"9.0\"\n    },\n    {\n      \"id\": 3,\n      \"order_id\": 1,\n      \"product_id\": 3,\n      \"amount\": 3,\n      \"fixed_price\": \"9.0\"\n    }\n  ]\n}",
+      "response_headers": {
+        "X-Frame-Options": "SAMEORIGIN",
+        "X-XSS-Protection": "1; mode=block",
+        "X-Content-Type-Options": "nosniff",
+        "Content-Type": "application/json; charset=utf-8",
+        "ETag": "W/\"44b48b87578ce2800603f4d14c4c3137\"",
+        "Cache-Control": "max-age=0, private, must-revalidate",
+        "Set-Cookie": "_session_id=MGtzNWJmVUpkNlNoaUtibVUvdVM3Y3RwbFBPZWxvWGExNWRqTmdmdmJETjJ1STh5Tm9YSXBLaHpJN3RQMElXajRZUmwxaFR5bFpFZVE5U2M4UWFzeGFTaTBQWmtQSWFBZkRXdHJyUkpRdWN6MEhCTy9DWXplUEppUFdoblNyVHhzd0hwdnVaUS9QTGpnVzAvOUx5SXFGSXREQXBKc3ZVbFdKWW9HM2kyZW1CejZEQUhnZkNCZlpVd3NIVFlSOVUyLS1zYWhJbTRrVUJCSERPcmtZaVJYV0N3PT0%3D--ac3154c1e93eacc6a81190fff02467600363c680; path=/; HttpOnly",
+        "X-Request-Id": "812322b8-cf0b-4cdd-8f23-5278210e0ae3",
+        "X-Runtime": "0.084803",
+        "Content-Length": "505"
+      },
+      "response_content_type": "application/json; charset=utf-8",
+      "curl": "curl \"http://localhost:3000/admin/orders/1\" -X GET \\\n\t-H \"Access-Token: 4-z0mvMcKZtVXSYArAiouQ\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: -GSejoSngi_w02cpmKh5gA\" \\\n\t-H \"Expiry: 1457714415\" \\\n\t-H \"Uid: 22nels.langworth@boyer.org\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
+    }
+  ]
+}

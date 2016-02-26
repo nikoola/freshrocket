@@ -1,0 +1,87 @@
+{
+  "resource": "admin: products",
+  "http_method": "PUT",
+  "route": "/admin/products/:id",
+  "description": "update product: invalid_params",
+  "explanation": null,
+  "parameters": [
+    {
+      "scope": "product",
+      "required": true,
+      "name": "title",
+      "description": ""
+    },
+    {
+      "scope": "product",
+      "required": true,
+      "name": "price",
+      "description": ""
+    },
+    {
+      "scope": "product",
+      "required": true,
+      "name": "inventory_count",
+      "description": "amount of product in stock"
+    },
+    {
+      "scope": "product",
+      "required": true,
+      "name": "city_id",
+      "description": "product served at city"
+    },
+    {
+      "scope": "product",
+      "name": "image",
+      "description": "Product image"
+    },
+    {
+      "scope": "product",
+      "name": "category_ids",
+      "description": "array of ids of categories product belongs to"
+    },
+    {
+      "scope": "product",
+      "name": "description",
+      "description": "Product description"
+    }
+  ],
+  "response_fields": [
+
+  ],
+  "requests": [
+    {
+      "request_method": "PUT",
+      "request_path": "/admin/products/1",
+      "request_body": "product[title]",
+      "request_headers": {
+        "Access-Token": "pdB2AuV4Cb_6qCHWCryl-w",
+        "Token-Type": "Bearer",
+        "Client": "78C84lY-8COzm9eiI7GLRw",
+        "Expiry": "1457714420",
+        "Uid": "36norris_stark@rathkautzer.info",
+        "Host": "example.org",
+        "Content-Type": "application/x-www-form-urlencoded",
+        "Cookie": ""
+      },
+      "request_query_parameters": {
+      },
+      "request_content_type": "application/x-www-form-urlencoded",
+      "response_status": 422,
+      "response_status_text": "Unprocessable Entity",
+      "response_body": "{\n  \"title\": [\n    \"can't be blank\"\n  ]\n}",
+      "response_headers": {
+        "X-Frame-Options": "SAMEORIGIN",
+        "X-XSS-Protection": "1; mode=block",
+        "X-Content-Type-Options": "nosniff",
+        "Content-Type": "application/json; charset=utf-8",
+        "Cache-Control": "no-cache",
+        "Set-Cookie": "_session_id=ZUdpZVNieXFud0x4WEhWMEFmdjFucktBb3NNd3BINVgzakNWQ1dKd0FseHRtM2tVOXE3TEI5SG9WNDFybDFrM0xjMmNUY0tYVm1aOEhjTm9yOU93YktWdG9MTG4zVmpoRDE1QWpOZ0JBZEpFek9EWmVmZzVjbjNJencwTENTZk9KdmdGYXdrS1NiVnY5Q29uTFhwWlFEZ1laMXVIb05PQWZxZkd6Ylp0SHlWV0NySW5QQSswVXRRMDdXUnZtZ1IxLS1uYTM3cWY5cjNYcDFYcUR5OGEyZHpBPT0%3D--a0102bfe55e1a0f9330211f65fc2aee0c18f8bd6; path=/; HttpOnly",
+        "X-Request-Id": "85599796-71c3-4dc9-a057-2cf90a475810",
+        "X-Runtime": "0.108017",
+        "Content-Length": "28"
+      },
+      "response_content_type": "application/json; charset=utf-8",
+      "curl": "curl \"http://localhost:3000/admin/products/1\" -d 'product[title]' -X PUT \\\n\t-H \"Access-Token: pdB2AuV4Cb_6qCHWCryl-w\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: 78C84lY-8COzm9eiI7GLRw\" \\\n\t-H \"Expiry: 1457714420\" \\\n\t-H \"Uid: 36norris_stark@rathkautzer.info\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+    }
+  ]
+}

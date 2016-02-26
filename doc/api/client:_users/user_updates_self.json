@@ -1,0 +1,65 @@
+{
+  "resource": "client: users",
+  "http_method": "PUT",
+  "route": "/auth",
+  "description": "user updates self",
+  "explanation": "if phone is updates, is_verified is set to false",
+  "parameters": [
+    {
+      "name": "email",
+      "description": " email"
+    },
+    {
+      "name": "phone",
+      "description": " phone"
+    },
+    {
+      "name": "first_name",
+      "description": " first name"
+    },
+    {
+      "name": "last_name",
+      "description": " last name"
+    }
+  ],
+  "response_fields": [
+
+  ],
+  "requests": [
+    {
+      "request_method": "PUT",
+      "request_path": "/auth",
+      "request_body": "phone=%2B79174446666",
+      "request_headers": {
+        "Access-Token": "GkNa4mXNmh7IRcQ-2qmd3g",
+        "Token-Type": "Bearer",
+        "Client": "nlh_TFVjQVnLlCq7CHrjsw",
+        "Expiry": "1457714430",
+        "Uid": "90alvera@jaskolski.biz",
+        "Host": "example.org",
+        "Content-Type": "application/x-www-form-urlencoded",
+        "Cookie": ""
+      },
+      "request_query_parameters": {
+      },
+      "request_content_type": "application/x-www-form-urlencoded",
+      "response_status": 200,
+      "response_status_text": "OK",
+      "response_body": "{\n  \"status\": \"success\",\n  \"data\": {\n    \"id\": 3,\n    \"first_name\": \"Antwan\",\n    \"last_name\": \"Tillman\",\n    \"email\": \"90alvera@jaskolski.biz\",\n    \"provider\": \"email\",\n    \"uid\": \"90alvera@jaskolski.biz\",\n    \"phone\": \"+79174446666\",\n    \"verification_code\": null,\n    \"is_verified\": false,\n    \"created_at\": \"2016-02-26T16:40:30.678Z\",\n    \"updated_at\": \"2016-02-26T16:40:30.834Z\"\n  }\n}",
+      "response_headers": {
+        "X-Frame-Options": "SAMEORIGIN",
+        "X-XSS-Protection": "1; mode=block",
+        "X-Content-Type-Options": "nosniff",
+        "Content-Type": "application/json; charset=utf-8",
+        "ETag": "W/\"5779cbdbf4f406549ebe77020a053eb5\"",
+        "Cache-Control": "max-age=0, private, must-revalidate",
+        "Set-Cookie": "_session_id=YUFOemJmdTZYYW00R2M2Rk1YN1J6MTJUMEpaVGdQbFpxZ2JVcEZLbUFhQVFsejVTbkVXcm1xUy9qMHlyQmFqby9CRXpQb21nTEhqVEppNTVFajhOU0hmdFU1NTlpdXA0UmJjbWtjZ09QL2lLc1kzZ0s1SDl0b2hVaUtVSldNYitTUTJaQnVGK2VDbTVGRitVRWtKN0RCWFJncUFPL0UvY0NCYWp1N2RpWUo1R05tanBHTklYWm40SUphQUNEcVJoLS1ObjBmMjlHQktDVURmVTI5NHU0K1ZBPT0%3D--f2565c664eb145db23e8cfd4b88492c5abdfcfaf; path=/; HttpOnly",
+        "X-Request-Id": "ccc2d254-2970-42fc-8029-9b8e558d4905",
+        "X-Runtime": "0.085989",
+        "Content-Length": "311"
+      },
+      "response_content_type": "application/json; charset=utf-8",
+      "curl": "curl \"http://localhost:3000/auth\" -d 'phone=%2B79174446666' -X PUT \\\n\t-H \"Access-Token: GkNa4mXNmh7IRcQ-2qmd3g\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: nlh_TFVjQVnLlCq7CHrjsw\" \\\n\t-H \"Expiry: 1457714430\" \\\n\t-H \"Uid: 90alvera@jaskolski.biz\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+    }
+  ]
+}

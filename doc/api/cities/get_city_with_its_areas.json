@@ -1,8 +1,8 @@
 {
-  "resource": "products",
+  "resource": "cities",
   "http_method": "GET",
-  "route": "/products/:id",
-  "description": "get product",
+  "route": "/cities/:id",
+  "description": "get city with its areas",
   "explanation": null,
   "parameters": [
 
@@ -13,7 +13,7 @@
   "requests": [
     {
       "request_method": "GET",
-      "request_path": "/products/22",
+      "request_path": "/cities/1",
       "request_body": null,
       "request_headers": {
         "Host": "example.org",
@@ -24,20 +24,20 @@
       "request_content_type": null,
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\n  \"id\": 22,\n  \"city_id\": 14,\n  \"title\": \"fish\",\n  \"price\": \"3.0\",\n  \"description\": null,\n  \"created_at\": \"2016-02-26T16:40:36.642Z\",\n  \"updated_at\": \"2016-02-26T16:40:36.642Z\",\n  \"inventory_count\": 20,\n  \"image_url\": \"uploads/product/image/default.png\"\n}",
+      "response_body": "{\n  \"id\": 1,\n  \"name\": \"West Titoburgh_41\",\n  \"active\": true,\n  \"areas\": [\n    {\n      \"id\": 1,\n      \"name\": \"Willastad_area_2\"\n    },\n    {\n      \"id\": 2,\n      \"name\": \"Whiteborough_area_3\"\n    },\n    {\n      \"id\": 3,\n      \"name\": \"North Irma_area_4\"\n    }\n  ]\n}",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"907af8072ef81e19c0120b5eb13e5d7a\"",
+        "ETag": "W/\"f01cc8e1fb0d3e073517748117aaeaa0\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "X-Request-Id": "a7ce5e8a-ca58-4eed-aab5-e67552e57c8e",
-        "X-Runtime": "0.002039",
-        "Content-Length": "219"
+        "X-Request-Id": "660b7267-5db3-430e-80ae-ba1ad1178bf7",
+        "X-Runtime": "0.002542",
+        "Content-Length": "168"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/products/22\" -X GET \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/cities/1\" -X GET \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

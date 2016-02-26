@@ -1,0 +1,64 @@
+{
+  "resource": "admin: coupons",
+  "http_method": "POST",
+  "route": "/admin/coupons",
+  "description": "create coupon",
+  "explanation": null,
+  "parameters": [
+    {
+      "scope": "coupon",
+      "name": "name",
+      "description": "name of the coupon"
+    },
+    {
+      "scope": "coupon",
+      "name": "code",
+      "description": "code for checking if client has discount"
+    },
+    {
+      "scope": "coupon",
+      "name": "discount",
+      "description": "discount"
+    }
+  ],
+  "response_fields": [
+
+  ],
+  "requests": [
+    {
+      "request_method": "POST",
+      "request_path": "/admin/coupons",
+      "request_body": "coupon[name]=red&coupon[code]=181513&coupon[discount]=5",
+      "request_headers": {
+        "Access-Token": "DYsAN_bb9Ac942hXN3D9rQ",
+        "Token-Type": "Bearer",
+        "Client": "IsheQClJEygWERsxyOgqgg",
+        "Expiry": "1457714414",
+        "Uid": "10aletha_blick@volkman.net",
+        "Host": "example.org",
+        "Content-Type": "application/x-www-form-urlencoded",
+        "Cookie": ""
+      },
+      "request_query_parameters": {
+      },
+      "request_content_type": "application/x-www-form-urlencoded",
+      "response_status": 201,
+      "response_status_text": "Created",
+      "response_body": "{\n  \"id\": 1,\n  \"name\": \"red\",\n  \"code\": \"181513\",\n  \"discount\": 5\n}",
+      "response_headers": {
+        "X-Frame-Options": "SAMEORIGIN",
+        "X-XSS-Protection": "1; mode=block",
+        "X-Content-Type-Options": "nosniff",
+        "Content-Type": "application/json; charset=utf-8",
+        "ETag": "W/\"c0ff8c233de26b716569ce1f824141ec\"",
+        "Cache-Control": "max-age=0, private, must-revalidate",
+        "Set-Cookie": "_session_id=dWJwa1VzdU1URk1jdmtMb1BzdzUva3hENGR3Z3d0M0c3NmQ5QUkrRWowVFE2ekE0VHhxVDhSSFFVNFZaYTgvRzNIcTlFWDEwY1hsZ3pLNVE0TEhWV3NPWGQ1cWNva3RXK1Y5c2pIeFlrSGZiL2d0bjRkUmdBT0hKblBVTGp5eE13U1BNajFHa0RkcFo1cUUrbFJEdVlqNzBYYmluUDZQSkYyL01tdzRQNGJ6TUNSZnRlOS9FUzl5RHJmUmFVOHRELS1aNW42RnB2TG9EN1grSHloZ21peGdRPT0%3D--5601155877c8a59d1a4a2bd5d1fdccaa36c0df68; path=/; HttpOnly",
+        "X-Request-Id": "c165e038-b687-4722-ab4a-dbb21b0ba530",
+        "X-Runtime": "0.084210",
+        "Content-Length": "50"
+      },
+      "response_content_type": "application/json; charset=utf-8",
+      "curl": "curl \"http://localhost:3000/admin/coupons\" -d 'coupon[name]=red&coupon[code]=181513&coupon[discount]=5' -X POST \\\n\t-H \"Access-Token: DYsAN_bb9Ac942hXN3D9rQ\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: IsheQClJEygWERsxyOgqgg\" \\\n\t-H \"Expiry: 1457714414\" \\\n\t-H \"Uid: 10aletha_blick@volkman.net\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+    }
+  ]
+}

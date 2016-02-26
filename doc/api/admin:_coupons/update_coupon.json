@@ -1,0 +1,64 @@
+{
+  "resource": "admin: coupons",
+  "http_method": "PUT",
+  "route": "/admin/coupons/:id",
+  "description": "update coupon",
+  "explanation": null,
+  "parameters": [
+    {
+      "scope": "coupon",
+      "name": "name",
+      "description": "name of the coupon"
+    },
+    {
+      "scope": "coupon",
+      "name": "code",
+      "description": "code for checking if client has discount"
+    },
+    {
+      "scope": "coupon",
+      "name": "discount",
+      "description": "discount"
+    }
+  ],
+  "response_fields": [
+
+  ],
+  "requests": [
+    {
+      "request_method": "PUT",
+      "request_path": "/admin/coupons/1",
+      "request_body": "coupon[name]=green",
+      "request_headers": {
+        "Access-Token": "vdw2OqpMoquNNY0iroP28w",
+        "Token-Type": "Bearer",
+        "Client": "O_V7dHnp2wQJYII2UB_SjA",
+        "Expiry": "1457714414",
+        "Uid": "11niko@gleason.org",
+        "Host": "example.org",
+        "Content-Type": "application/x-www-form-urlencoded",
+        "Cookie": ""
+      },
+      "request_query_parameters": {
+      },
+      "request_content_type": "application/x-www-form-urlencoded",
+      "response_status": 200,
+      "response_status_text": "OK",
+      "response_body": "{\n  \"id\": 1,\n  \"name\": \"green\",\n  \"code\": \"83165\",\n  \"discount\": 43\n}",
+      "response_headers": {
+        "X-Frame-Options": "SAMEORIGIN",
+        "X-XSS-Protection": "1; mode=block",
+        "X-Content-Type-Options": "nosniff",
+        "Content-Type": "application/json; charset=utf-8",
+        "ETag": "W/\"7f3abdc95202491f5c2ad67c67c7574c\"",
+        "Cache-Control": "max-age=0, private, must-revalidate",
+        "Set-Cookie": "_session_id=RTVIZWFWMEV4VjNZV3FzaDJyY2NGU0ExSFpYdk1ZbVFjblpaVTdnTGI0d1AzQ21MdUMvNW9iNklpODFXSWpmSG1oSEJkVFBQU2RZbE4zU1E1cG90TVFwUVJ2Rmtiam9TRm5ML25NNllCR1luekFqdDNiUGhKYk5zUFNWRS9VcS9MZUFNRnc4MTRTTDkrbldxYmtXNXZkWkZsTFdGWnY4QjJRK0pTNzBZZ0ZzVndwNlJ4MjZhaGRTR0VtZStzL1JILS1tb01uTTZhVGE5LzFqcUpZd0g3K0p3PT0%3D--53d417c6ea3a7c80f4f5a4a5c27a72d26ae45560; path=/; HttpOnly",
+        "X-Request-Id": "9febb59a-8262-4fd9-bdd5-516635475aea",
+        "X-Runtime": "0.091311",
+        "Content-Length": "52"
+      },
+      "response_content_type": "application/json; charset=utf-8",
+      "curl": "curl \"http://localhost:3000/admin/coupons/1\" -d 'coupon[name]=green' -X PUT \\\n\t-H \"Access-Token: vdw2OqpMoquNNY0iroP28w\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: O_V7dHnp2wQJYII2UB_SjA\" \\\n\t-H \"Expiry: 1457714414\" \\\n\t-H \"Uid: 11niko@gleason.org\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+    }
+  ]
+}

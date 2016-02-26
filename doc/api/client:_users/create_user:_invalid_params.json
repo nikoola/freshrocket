@@ -1,0 +1,77 @@
+{
+  "resource": "client: users",
+  "http_method": "POST",
+  "route": "/auth",
+  "description": "create user: invalid params",
+  "explanation": null,
+  "parameters": [
+    {
+      "required": true,
+      "name": "phone",
+      "description": " phone"
+    },
+    {
+      "required": true,
+      "name": "email",
+      "description": " email"
+    },
+    {
+      "required": true,
+      "name": "password",
+      "description": " password"
+    },
+    {
+      "required": true,
+      "name": "password_confirmation",
+      "description": " password confirmation"
+    },
+    {
+      "required": true,
+      "name": "first_name",
+      "description": " first name"
+    },
+    {
+      "required": true,
+      "name": "last_name",
+      "description": " last name"
+    }
+  ],
+  "response_fields": [
+
+  ],
+  "requests": [
+    {
+      "request_method": "POST",
+      "request_path": "/auth",
+      "request_body": "email=88marge_brakus%40pagac.name&password=secrety_bickety&password_confirmation=secrety_bickety&first_name=Dejah&last_name=O%27Reilly&phone",
+      "request_headers": {
+        "Access-Token": "0LfknbConm_i-ET-Bq8Rrg",
+        "Token-Type": "Bearer",
+        "Client": "6VxD7tZSexAGHNn2uFELRQ",
+        "Expiry": "1457714430",
+        "Uid": "89samantha@oconnell.org",
+        "Host": "example.org",
+        "Content-Type": "application/x-www-form-urlencoded",
+        "Cookie": ""
+      },
+      "request_query_parameters": {
+      },
+      "request_content_type": "application/x-www-form-urlencoded",
+      "response_status": 403,
+      "response_status_text": "Forbidden",
+      "response_body": "{\n  \"status\": \"error\",\n  \"data\": {\n    \"id\": null,\n    \"first_name\": \"Dejah\",\n    \"last_name\": \"O'Reilly\",\n    \"email\": \"88marge_brakus@pagac.name\",\n    \"provider\": \"email\",\n    \"uid\": \"\",\n    \"phone\": null,\n    \"verification_code\": null,\n    \"is_verified\": null,\n    \"created_at\": null,\n    \"updated_at\": null\n  },\n  \"errors\": {\n    \"phone\": [\n      \"can't be blank\",\n      \"is invalid\"\n    ],\n    \"full_messages\": [\n      \"Phone can't be blank\",\n      \"Phone is invalid\"\n    ]\n  }\n}",
+      "response_headers": {
+        "X-Frame-Options": "SAMEORIGIN",
+        "X-XSS-Protection": "1; mode=block",
+        "X-Content-Type-Options": "nosniff",
+        "Content-Type": "application/json; charset=utf-8",
+        "Cache-Control": "no-cache",
+        "X-Request-Id": "48c64d56-6a8d-4113-8046-c60160f832d7",
+        "X-Runtime": "0.008913",
+        "Content-Length": "349"
+      },
+      "response_content_type": "application/json; charset=utf-8",
+      "curl": "curl \"http://localhost:3000/auth\" -d 'email=88marge_brakus%40pagac.name&password=secrety_bickety&password_confirmation=secrety_bickety&first_name=Dejah&last_name=O%27Reilly&phone' -X POST \\\n\t-H \"Access-Token: 0LfknbConm_i-ET-Bq8Rrg\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: 6VxD7tZSexAGHNn2uFELRQ\" \\\n\t-H \"Expiry: 1457714430\" \\\n\t-H \"Uid: 89samantha@oconnell.org\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+    }
+  ]
+}

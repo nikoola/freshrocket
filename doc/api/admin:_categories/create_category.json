@@ -1,0 +1,60 @@
+{
+  "resource": "admin: categories",
+  "http_method": "POST",
+  "route": "/admin/categories",
+  "description": "create category",
+  "explanation": null,
+  "parameters": [
+    {
+      "scope": "category",
+      "require": true,
+      "name": "name",
+      "description": "name of a category"
+    },
+    {
+      "scope": "category",
+      "name": "image",
+      "description": "Category image"
+    }
+  ],
+  "response_fields": [
+
+  ],
+  "requests": [
+    {
+      "request_method": "POST",
+      "request_path": "/admin/categories",
+      "request_body": "category[name]=breakfasts",
+      "request_headers": {
+        "Access-Token": "3UFl-ZUzYRrTH5sgJBjdCA",
+        "Token-Type": "Bearer",
+        "Client": "y9-3KcgbhK81QP3PPx3gGg",
+        "Expiry": "1457714412",
+        "Uid": "1stan@sporer.net",
+        "Host": "example.org",
+        "Content-Type": "application/x-www-form-urlencoded",
+        "Cookie": ""
+      },
+      "request_query_parameters": {
+      },
+      "request_content_type": "application/x-www-form-urlencoded",
+      "response_status": 201,
+      "response_status_text": "Created",
+      "response_body": "{\n  \"id\": 1,\n  \"name\": \"breakfasts\",\n  \"image_url\": \"uploads/category/image/default.png\"\n}",
+      "response_headers": {
+        "X-Frame-Options": "SAMEORIGIN",
+        "X-XSS-Protection": "1; mode=block",
+        "X-Content-Type-Options": "nosniff",
+        "Content-Type": "application/json; charset=utf-8",
+        "ETag": "W/\"a977dafb647df6738853c9b2dadd1561\"",
+        "Cache-Control": "max-age=0, private, must-revalidate",
+        "Set-Cookie": "_session_id=dGN0VzdlZnJsTkZZZ0ttaVRzb0xPY2x1RXVpV1NnbUZFbkE3TStYM1djckV1d2U5T1d0MzZ5dk1vSlNGMzZqM0pnWFlxcDZHM1g1azlvSkdHYXlrdG45SXRJT1IrMjU0YXQxSTdSNHpxazRDTTJZQ2pHVzNhTVU2Tk53NUljaS9xMVU5MGRHYTZqOXFWVXBkZkVJeVl3cm5sL2l5RHdESlorZkFsUGtESUpPZUtxWkVsT0U5UzRzTVlCaTJ5eG5ILS15OEVPYzlyR3I5S3lJcWkxbUhrc2lBPT0%3D--9b3edd73886816a950243151ab1742a7132269e3; path=/; HttpOnly",
+        "X-Request-Id": "69ff437e-e59e-4d97-9751-64a8ac042a07",
+        "X-Runtime": "0.152088",
+        "Content-Length": "77"
+      },
+      "response_content_type": "application/json; charset=utf-8",
+      "curl": "curl \"http://localhost:3000/admin/categories\" -d 'category[name]=breakfasts' -X POST \\\n\t-H \"Access-Token: 3UFl-ZUzYRrTH5sgJBjdCA\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: y9-3KcgbhK81QP3PPx3gGg\" \\\n\t-H \"Expiry: 1457714412\" \\\n\t-H \"Uid: 1stan@sporer.net\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+    }
+  ]
+}

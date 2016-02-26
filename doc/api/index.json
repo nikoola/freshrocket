@@ -1,72 +1,39 @@
 {
   "resources": [
     {
-      "name": "Authentication",
-      "examples": [
-        {
-          "description": "sign in",
-          "link": "authentication/sign_in.json",
-          "groups": "all",
-          "route": "/auth/sign_in",
-          "method": "post"
-        },
-        {
-          "description": "sign out",
-          "link": "authentication/sign_out.json",
-          "groups": "all",
-          "route": "/auth/sign_out",
-          "method": "delete"
-        },
-        {
-          "description": "sign out: if not signed in",
-          "link": "authentication/sign_out:_if_not_signed_in.json",
-          "groups": "all",
-          "route": "/auth/sign_out",
-          "method": "delete"
-        }
-      ]
-    },
-    {
-      "name": "Categories",
+      "name": "admin: categories",
       "examples": [
         {
           "description": "create category",
-          "link": "categories/create_category.json",
+          "link": "admin:_categories/create_category.json",
           "groups": "all",
           "route": "/admin/categories",
           "method": "post"
         },
         {
           "description": "create category: invalid params",
-          "link": "categories/create_category:_invalid_params.json",
+          "link": "admin:_categories/create_category:_invalid_params.json",
           "groups": "all",
           "route": "/admin/categories",
           "method": "post"
         },
         {
           "description": "delete category",
-          "link": "categories/delete_category.json",
+          "link": "admin:_categories/delete_category.json",
           "groups": "all",
           "route": "/admin/categories/:id",
           "method": "delete"
         },
         {
-          "description": "get all categories",
-          "link": "categories/get_all_categories.json",
-          "groups": "all",
-          "route": "/categories",
-          "method": "get"
-        },
-        {
           "description": "update category",
-          "link": "categories/update_category.json",
+          "link": "admin:_categories/update_category.json",
           "groups": "all",
           "route": "/admin/categories/:id",
           "method": "put"
         },
         {
           "description": "update category: with invalid params",
-          "link": "categories/update_category:_with_invalid_params.json",
+          "link": "admin:_categories/update_category:_with_invalid_params.json",
           "groups": "all",
           "route": "/admin/categories/:id",
           "method": "put"
@@ -74,32 +41,58 @@
       ]
     },
     {
-      "name": "Coupons",
+      "name": "admin: cities",
+      "examples": [
+        {
+          "description": "create city with areas",
+          "link": "admin:_cities/create_city_with_areas.json",
+          "groups": "all",
+          "route": "/admin/cities",
+          "method": "post"
+        },
+        {
+          "description": "delete city",
+          "link": "admin:_cities/delete_city.json",
+          "groups": "all",
+          "route": "/admin/cities/:id",
+          "method": "delete"
+        },
+        {
+          "description": "update city or its areas",
+          "link": "admin:_cities/update_city_or_its_areas.json",
+          "groups": "all",
+          "route": "/admin/cities/:id",
+          "method": "put"
+        }
+      ]
+    },
+    {
+      "name": "admin: coupons",
       "examples": [
         {
           "description": "create coupon",
-          "link": "coupons/create_coupon.json",
+          "link": "admin:_coupons/create_coupon.json",
           "groups": "all",
           "route": "/admin/coupons",
           "method": "post"
         },
         {
           "description": "delete coupon",
-          "link": "coupons/delete_coupon.json",
+          "link": "admin:_coupons/delete_coupon.json",
           "groups": "all",
           "route": "/admin/coupons/:id",
           "method": "delete"
         },
         {
           "description": "get all coupons",
-          "link": "coupons/get_all_coupons.json",
+          "link": "admin:_coupons/get_all_coupons.json",
           "groups": "all",
           "route": "/admin/coupons",
           "method": "get"
         },
         {
           "description": "update coupon",
-          "link": "coupons/update_coupon.json",
+          "link": "admin:_coupons/update_coupon.json",
           "groups": "all",
           "route": "/admin/coupons/:id",
           "method": "put"
@@ -107,11 +100,11 @@
       ]
     },
     {
-      "name": "Delivery Boys",
+      "name": "admin: delivery boys",
       "examples": [
         {
           "description": "get filtered delivery_boys",
-          "link": "delivery_boys/get_filtered_delivery_boys.json",
+          "link": "admin:_delivery_boys/get_filtered_delivery_boys.json",
           "groups": "all",
           "route": "/admin/delivery_boys",
           "method": "get"
@@ -119,147 +112,289 @@
       ]
     },
     {
-      "name": "Delivery boys",
-      "examples": [
-        {
-          "description": "update self",
-          "link": "delivery_boys/update_self.json",
-          "groups": "all",
-          "route": "/deliver/delivery_boy",
-          "method": "put"
-        }
-      ]
-    },
-    {
-      "name": "Orders",
+      "name": "admin: orders",
       "examples": [
         {
           "description": "approve confirmed order",
-          "link": "orders/approve_confirmed_order.json",
+          "link": "admin:_orders/approve_confirmed_order.json",
           "groups": "all",
           "route": "/admin/orders/:id/update_status",
           "method": "put"
         },
         {
           "description": "cant update to dispatched if delivery has no delivery_boy",
-          "link": "orders/cant_update_to_dispatched_if_delivery_has_no_delivery_boy.json",
+          "link": "admin:_orders/cant_update_to_dispatched_if_delivery_has_no_delivery_boy.json",
           "groups": "all",
           "route": "/admin/orders/:id/update_status",
           "method": "put"
         },
         {
-          "description": "client can't confirm order if products are out of stock",
-          "link": "orders/client_can't_confirm_order_if_products_are_out_of_stock.json",
-          "groups": "all",
-          "route": "/client/orders/:id/update_status",
-          "method": "put"
-        },
-        {
-          "description": "client cant approve order",
-          "link": "orders/client_cant_approve_order.json",
-          "groups": "all",
-          "route": "/client/orders/:id/update_status",
-          "method": "put"
-        },
-        {
-          "description": "client confirms order",
-          "link": "orders/client_confirms_order.json",
-          "groups": "all",
-          "route": "/client/orders/:id/update_status",
-          "method": "put"
-        },
-        {
-          "description": "create current user's order",
-          "link": "orders/create_current_user's_order.json",
-          "groups": "all",
-          "route": "client/orders",
-          "method": "post"
-        },
-        {
-          "description": "delete order",
-          "link": "orders/delete_order.json",
-          "groups": "all",
-          "route": "/client/orders/:id",
-          "method": "delete"
-        },
-        {
-          "description": "delete order: after confirm",
-          "link": "orders/delete_order:_after_confirm.json",
-          "groups": "all",
-          "route": "/client/orders/:id",
-          "method": "delete"
-        },
-        {
-          "description": "get all current user's orders",
-          "link": "orders/get_all_current_user's_orders.json",
-          "groups": "all",
-          "route": "/client/orders",
-          "method": "get"
-        },
-        {
-          "description": "get current delivery_boy's orders",
-          "link": "orders/get_current_delivery_boy's_orders.json",
-          "groups": "all",
-          "route": "deliver/orders",
-          "method": "get"
-        },
-        {
-          "description": "get current user's order",
-          "link": "orders/get_current_user's_order.json",
-          "groups": "all",
-          "route": "/client/orders/:id",
-          "method": "get"
-        },
-        {
           "description": "get filtered orders",
-          "link": "orders/get_filtered_orders.json",
+          "link": "admin:_orders/get_filtered_orders.json",
           "groups": "all",
           "route": "/admin/orders",
           "method": "get"
         },
         {
           "description": "get order",
-          "link": "orders/get_order.json",
+          "link": "admin:_orders/get_order.json",
           "groups": "all",
           "route": "/admin/orders/:id",
+          "method": "get"
+        }
+      ]
+    },
+    {
+      "name": "admin: products",
+      "examples": [
+        {
+          "description": "create product",
+          "link": "admin:_products/create_product.json",
+          "groups": "all",
+          "route": "/admin/products",
+          "method": "post"
+        },
+        {
+          "description": "create product: invalid params",
+          "link": "admin:_products/create_product:_invalid_params.json",
+          "groups": "all",
+          "route": "/admin/products",
+          "method": "post"
+        },
+        {
+          "description": "creates product with image",
+          "link": "admin:_products/creates_product_with_image.json",
+          "groups": "all",
+          "route": "/admin/products",
+          "method": "post"
+        },
+        {
+          "description": "delete product",
+          "link": "admin:_products/delete_product.json",
+          "groups": "all",
+          "route": "/admin/products/:id",
+          "method": "delete"
+        },
+        {
+          "description": "update product",
+          "link": "admin:_products/update_product.json",
+          "groups": "all",
+          "route": "/admin/products/:id",
+          "method": "put"
+        },
+        {
+          "description": "update product: invalid_params",
+          "link": "admin:_products/update_product:_invalid_params.json",
+          "groups": "all",
+          "route": "/admin/products/:id",
+          "method": "put"
+        }
+      ]
+    },
+    {
+      "name": "admin: settings",
+      "examples": [
+        {
+          "description": "update settings",
+          "link": "admin:_settings/update_settings.json",
+          "groups": "all",
+          "route": "/admin/settings",
+          "method": "put"
+        },
+        {
+          "description": "update settings: invalid params",
+          "link": "admin:_settings/update_settings:_invalid_params.json",
+          "groups": "all",
+          "route": "/admin/settings",
+          "method": "put"
+        }
+      ]
+    },
+    {
+      "name": "admin: users",
+      "examples": [
+        {
+          "description": "get all users",
+          "link": "admin:_users/get_all_users.json",
+          "groups": "all",
+          "route": "/admin/users",
+          "method": "get"
+        },
+        {
+          "description": "get user",
+          "link": "admin:_users/get_user.json",
+          "groups": "all",
+          "route": "/admin/users/:id",
+          "method": "get"
+        },
+        {
+          "description": "update user",
+          "link": "admin:_users/update_user.json",
+          "groups": "all",
+          "route": "/admin/users/:id",
+          "method": "put"
+        },
+        {
+          "description": "update user abilities",
+          "link": "admin:_users/update_user_abilities.json",
+          "groups": "all",
+          "route": "/admin/users/:id/update_abilities",
+          "method": "put"
+        },
+        {
+          "description": "update user abilities: invalid params",
+          "link": "admin:_users/update_user_abilities:_invalid_params.json",
+          "groups": "all",
+          "route": "/admin/users/:id/update_abilities",
+          "method": "put"
+        }
+      ]
+    },
+    {
+      "name": "categories",
+      "examples": [
+        {
+          "description": "get all categories",
+          "link": "categories/get_all_categories.json",
+          "groups": "all",
+          "route": "/categories",
+          "method": "get"
+        }
+      ]
+    },
+    {
+      "name": "cities",
+      "examples": [
+        {
+          "description": "get all cities with their areas",
+          "link": "cities/get_all_cities_with_their_areas.json",
+          "groups": "all",
+          "route": "/cities",
+          "method": "get"
+        },
+        {
+          "description": "get city with its areas",
+          "link": "cities/get_city_with_its_areas.json",
+          "groups": "all",
+          "route": "/cities/:id",
+          "method": "get"
+        }
+      ]
+    },
+    {
+      "name": "client: authentication",
+      "examples": [
+        {
+          "description": "sign in",
+          "link": "client:_authentication/sign_in.json",
+          "groups": "all",
+          "route": "/auth/sign_in",
+          "method": "post"
+        },
+        {
+          "description": "sign out",
+          "link": "client:_authentication/sign_out.json",
+          "groups": "all",
+          "route": "/auth/sign_out",
+          "method": "delete"
+        },
+        {
+          "description": "sign out: if not signed in",
+          "link": "client:_authentication/sign_out:_if_not_signed_in.json",
+          "groups": "all",
+          "route": "/auth/sign_out",
+          "method": "delete"
+        }
+      ]
+    },
+    {
+      "name": "client: orders",
+      "examples": [
+        {
+          "description": "client can't confirm order if products are out of stock",
+          "link": "client:_orders/client_can't_confirm_order_if_products_are_out_of_stock.json",
+          "groups": "all",
+          "route": "/client/orders/:id/update_status",
+          "method": "put"
+        },
+        {
+          "description": "client cant approve order",
+          "link": "client:_orders/client_cant_approve_order.json",
+          "groups": "all",
+          "route": "/client/orders/:id/update_status",
+          "method": "put"
+        },
+        {
+          "description": "client confirms order",
+          "link": "client:_orders/client_confirms_order.json",
+          "groups": "all",
+          "route": "/client/orders/:id/update_status",
+          "method": "put"
+        },
+        {
+          "description": "create current user's order",
+          "link": "client:_orders/create_current_user's_order.json",
+          "groups": "all",
+          "route": "client/orders",
+          "method": "post"
+        },
+        {
+          "description": "delete order",
+          "link": "client:_orders/delete_order.json",
+          "groups": "all",
+          "route": "/client/orders/:id",
+          "method": "delete"
+        },
+        {
+          "description": "delete order: after confirm",
+          "link": "client:_orders/delete_order:_after_confirm.json",
+          "groups": "all",
+          "route": "/client/orders/:id",
+          "method": "delete"
+        },
+        {
+          "description": "get all current user's orders",
+          "link": "client:_orders/get_all_current_user's_orders.json",
+          "groups": "all",
+          "route": "/client/orders",
+          "method": "get"
+        },
+        {
+          "description": "get current user's order",
+          "link": "client:_orders/get_current_user's_order.json",
+          "groups": "all",
+          "route": "/client/orders/:id",
           "method": "get"
         },
         {
           "description": "if order is approved it cant be confirmed",
-          "link": "orders/if_order_is_approved_it_cant_be_confirmed.json",
+          "link": "client:_orders/if_order_is_approved_it_cant_be_confirmed.json",
           "groups": "all",
           "route": "/client/orders/:id/update_status",
           "method": "put"
         },
         {
           "description": "update current user's order",
-          "link": "orders/update_current_user's_order.json",
+          "link": "client:_orders/update_current_user's_order.json",
           "groups": "all",
           "route": "client/orders/:id",
           "method": "put"
         },
         {
           "description": "update current user's order: invalid parameters",
-          "link": "orders/update_current_user's_order:_invalid_parameters.json",
+          "link": "client:_orders/update_current_user's_order:_invalid_parameters.json",
           "groups": "all",
           "route": "client/orders/:id",
-          "method": "put"
-        },
-        {
-          "description": "update status of delivery_boy's order",
-          "link": "orders/update_status_of_delivery_boy's_order.json",
-          "groups": "all",
-          "route": "deliver/orders/:id/update_status",
           "method": "put"
         }
       ]
     },
     {
-      "name": "Payments",
+      "name": "client: payments",
       "examples": [
         {
           "description": "return all forms for payment for own order",
-          "link": "payments/return_all_forms_for_payment_for_own_order.json",
+          "link": "client:_payments/return_all_forms_for_payment_for_own_order.json",
           "groups": "all",
           "route": "/client/payments/new",
           "method": "get"
@@ -267,36 +402,79 @@
       ]
     },
     {
-      "name": "Products",
+      "name": "client: users",
       "examples": [
         {
-          "description": "create product",
-          "link": "products/create_product.json",
+          "description": "create user",
+          "link": "client:_users/create_user.json",
           "groups": "all",
-          "route": "/admin/products",
+          "route": "/auth",
           "method": "post"
         },
         {
-          "description": "create product: invalid params",
-          "link": "products/create_product:_invalid_params.json",
+          "description": "create user: invalid params",
+          "link": "client:_users/create_user:_invalid_params.json",
           "groups": "all",
-          "route": "/admin/products",
+          "route": "/auth",
           "method": "post"
         },
         {
-          "description": "creates product with image",
-          "link": "products/creates_product_with_image.json",
+          "description": "user gets self",
+          "link": "client:_users/user_gets_self.json",
           "groups": "all",
-          "route": "/admin/products",
-          "method": "post"
+          "route": "/client",
+          "method": "get"
         },
         {
-          "description": "delete product",
-          "link": "products/delete_product.json",
+          "description": "user updates self",
+          "link": "client:_users/user_updates_self.json",
           "groups": "all",
-          "route": "/admin/products/:id",
-          "method": "delete"
+          "route": "/auth",
+          "method": "put"
         },
+        {
+          "description": "user updates self: invalid params",
+          "link": "client:_users/user_updates_self:_invalid_params.json",
+          "groups": "all",
+          "route": "/auth",
+          "method": "put"
+        }
+      ]
+    },
+    {
+      "name": "deliver: delivery boys",
+      "examples": [
+        {
+          "description": "update self",
+          "link": "deliver:_delivery_boys/update_self.json",
+          "groups": "all",
+          "route": "/deliver/delivery_boy",
+          "method": "put"
+        }
+      ]
+    },
+    {
+      "name": "deliver: orders",
+      "examples": [
+        {
+          "description": "get current delivery_boy's orders",
+          "link": "deliver:_orders/get_current_delivery_boy's_orders.json",
+          "groups": "all",
+          "route": "deliver/orders",
+          "method": "get"
+        },
+        {
+          "description": "update status of delivery_boy's order",
+          "link": "deliver:_orders/update_status_of_delivery_boy's_order.json",
+          "groups": "all",
+          "route": "deliver/orders/:id/update_status",
+          "method": "put"
+        }
+      ]
+    },
+    {
+      "name": "products",
+      "examples": [
         {
           "description": "get all products",
           "link": "products/get_all_products.json",
@@ -317,114 +495,6 @@
           "groups": "all",
           "route": "/products/:id",
           "method": "get"
-        },
-        {
-          "description": "update product",
-          "link": "products/update_product.json",
-          "groups": "all",
-          "route": "/admin/products/:id",
-          "method": "put"
-        },
-        {
-          "description": "update product: invalid_params",
-          "link": "products/update_product:_invalid_params.json",
-          "groups": "all",
-          "route": "/admin/products/:id",
-          "method": "put"
-        }
-      ]
-    },
-    {
-      "name": "Settings",
-      "examples": [
-        {
-          "description": "update settings",
-          "link": "settings/update_settings.json",
-          "groups": "all",
-          "route": "/admin/settings",
-          "method": "put"
-        },
-        {
-          "description": "update settings: invalid params",
-          "link": "settings/update_settings:_invalid_params.json",
-          "groups": "all",
-          "route": "/admin/settings",
-          "method": "put"
-        }
-      ]
-    },
-    {
-      "name": "Users",
-      "examples": [
-        {
-          "description": "create user",
-          "link": "users/create_user.json",
-          "groups": "all",
-          "route": "/auth",
-          "method": "post"
-        },
-        {
-          "description": "create user: invalid params",
-          "link": "users/create_user:_invalid_params.json",
-          "groups": "all",
-          "route": "/auth",
-          "method": "post"
-        },
-        {
-          "description": "get all users",
-          "link": "users/get_all_users.json",
-          "groups": "all",
-          "route": "/admin/users",
-          "method": "get"
-        },
-        {
-          "description": "get user",
-          "link": "users/get_user.json",
-          "groups": "all",
-          "route": "/admin/users/:id",
-          "method": "get"
-        },
-        {
-          "description": "update user",
-          "link": "users/update_user.json",
-          "groups": "all",
-          "route": "/admin/users/:id",
-          "method": "put"
-        },
-        {
-          "description": "update user abilities",
-          "link": "users/update_user_abilities.json",
-          "groups": "all",
-          "route": "/admin/users/:id/update_abilities",
-          "method": "put"
-        },
-        {
-          "description": "update user abilities: invalid params",
-          "link": "users/update_user_abilities:_invalid_params.json",
-          "groups": "all",
-          "route": "/admin/users/:id/update_abilities",
-          "method": "put"
-        },
-        {
-          "description": "user gets self",
-          "link": "users/user_gets_self.json",
-          "groups": "all",
-          "route": "/client",
-          "method": "get"
-        },
-        {
-          "description": "user updates self",
-          "link": "users/user_updates_self.json",
-          "groups": "all",
-          "route": "/auth",
-          "method": "put"
-        },
-        {
-          "description": "user updates self: invalid params",
-          "link": "users/user_updates_self:_invalid_params.json",
-          "groups": "all",
-          "route": "/auth",
-          "method": "put"
         }
       ]
     }

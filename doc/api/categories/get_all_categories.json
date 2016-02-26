@@ -1,5 +1,5 @@
 {
-  "resource": "Categories",
+  "resource": "categories",
   "http_method": "GET",
   "route": "/categories",
   "description": "get all categories",
@@ -36,8 +36,8 @@
         "Content-Type": "application/json; charset=utf-8",
         "ETag": "W/\"d21224c1f6d7054e868c944e3356171e\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "X-Request-Id": "39920f13-9b80-4170-a064-5fbf89e39323",
-        "X-Runtime": "0.010983",
+        "X-Request-Id": "838fe927-bd32-4e9f-9647-f0f6c17f1bf5",
+        "X-Runtime": "0.010258",
         "Content-Length": "79"
       },
       "response_content_type": "application/json; charset=utf-8",

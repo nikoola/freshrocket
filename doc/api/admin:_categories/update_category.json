@@ -1,0 +1,65 @@
+{
+  "resource": "admin: categories",
+  "http_method": "PUT",
+  "route": "/admin/categories/:id",
+  "description": "update category",
+  "explanation": null,
+  "parameters": [
+    {
+      "scope": "category",
+      "name": "name",
+      "description": "name of a category"
+    },
+    {
+      "scope": "category",
+      "name": "image",
+      "description": "Category image"
+    },
+    {
+      "require": true,
+      "scope": "category",
+      "name": "name",
+      "description": "name of a category"
+    }
+  ],
+  "response_fields": [
+
+  ],
+  "requests": [
+    {
+      "request_method": "PUT",
+      "request_path": "/admin/categories/1",
+      "request_body": "category[name]=hollywood",
+      "request_headers": {
+        "Access-Token": "AR1_lByCzyGIRxWO7XtZfg",
+        "Token-Type": "Bearer",
+        "Client": "E1hqndUUnTjm9SuaU9mlgg",
+        "Expiry": "1457714412",
+        "Uid": "3maxwell_marquardt@lubowitz.net",
+        "Host": "example.org",
+        "Content-Type": "application/x-www-form-urlencoded",
+        "Cookie": ""
+      },
+      "request_query_parameters": {
+      },
+      "request_content_type": "application/x-www-form-urlencoded",
+      "response_status": 200,
+      "response_status_text": "OK",
+      "response_body": "{\n  \"id\": 1,\n  \"name\": \"hollywood\",\n  \"image_url\": \"uploads/category/image/default.png\"\n}",
+      "response_headers": {
+        "X-Frame-Options": "SAMEORIGIN",
+        "X-XSS-Protection": "1; mode=block",
+        "X-Content-Type-Options": "nosniff",
+        "Content-Type": "application/json; charset=utf-8",
+        "ETag": "W/\"7770e1679beef4a5bba3b3d23260ae2c\"",
+        "Cache-Control": "max-age=0, private, must-revalidate",
+        "Set-Cookie": "_session_id=VzVMM2h5a3EvenNSYWVacWxwQzg5TWd3Skc0MDFwb2JrdXQ0TnRtM1NxYTd1MHdXMm9SalgrRnJhd2VsVGFEdEdkMTlHWVZudkNZNkh5aFArWE9GMGZwZDFGWVlvRlVtU0VOK0hYNTIzcFR1T2g5NzFlNXZibHhmSnhvQTRHZDNNc2c5VmxZODFWWlp6bzBqTXhkMzkyNHRCMXlWUTNvK2JXakkvNjl3Nk9rdHdnc1EzZHpibmdGT2pndzY0OGZSLS1raXNyYVRFMkhiSXIrUC84L0E5MTVRPT0%3D--d27df84b19843d9915b5eb6cc34e43b816be96eb; path=/; HttpOnly",
+        "X-Request-Id": "3514197f-4c3b-4808-bef3-221f62e4227f",
+        "X-Runtime": "0.087326",
+        "Content-Length": "76"
+      },
+      "response_content_type": "application/json; charset=utf-8",
+      "curl": "curl \"http://localhost:3000/admin/categories/1\" -d 'category[name]=hollywood' -X PUT \\\n\t-H \"Access-Token: AR1_lByCzyGIRxWO7XtZfg\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: E1hqndUUnTjm9SuaU9mlgg\" \\\n\t-H \"Expiry: 1457714412\" \\\n\t-H \"Uid: 3maxwell_marquardt@lubowitz.net\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+    }
+  ]
+}

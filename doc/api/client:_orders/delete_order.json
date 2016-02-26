@@ -1,0 +1,49 @@
+{
+  "resource": "client: orders",
+  "http_method": "DELETE",
+  "route": "/client/orders/:id",
+  "description": "delete order",
+  "explanation": null,
+  "parameters": [
+
+  ],
+  "response_fields": [
+
+  ],
+  "requests": [
+    {
+      "request_method": "DELETE",
+      "request_path": "/client/orders/3",
+      "request_body": null,
+      "request_headers": {
+        "Access-Token": "l-XEYSidpsvlib-sRSl_8g",
+        "Token-Type": "Bearer",
+        "Client": "o47dwP6uzfCYlvvpQzVYzg",
+        "Expiry": "1457714428",
+        "Uid": "77reinhold@kunzegleichner.name",
+        "Host": "example.org",
+        "Content-Type": "application/x-www-form-urlencoded",
+        "Cookie": ""
+      },
+      "request_query_parameters": {
+      },
+      "request_content_type": "application/x-www-form-urlencoded",
+      "response_status": 200,
+      "response_status_text": "OK",
+      "response_body": null,
+      "response_headers": {
+        "X-Frame-Options": "SAMEORIGIN",
+        "X-XSS-Protection": "1; mode=block",
+        "X-Content-Type-Options": "nosniff",
+        "Content-Type": "text/html",
+        "Cache-Control": "no-cache",
+        "Set-Cookie": "_session_id=YlB4VHpMZVZMcEdvRU9jUGNMaUVWUC9kUDBlc2lZY0NvQm1FY2VaclROYmU1VTBJTkowZXRjbEc1eFZINksyTzBIZXppNDN5Ym5RUks3YVNocVZyVFdBMkpuRVN6S3hvajByaVFhNU1Ea2NNNXpTQ1Z1Y3c2Y1ptUGNtekZzTm0rSWloTlhldmxLZndvUnpxSTdJQ0Fid2p2NVNPK2dmcjNZanRRNVZDUE5uVHFXRUM4NGlLZVM3NnppaWVGdk0wLS1KYTJxeFFaRmFOcDZUNkxmbmt2RDNBPT0%3D--b48a376248292cbff064c130ed7429af489f8717; path=/; HttpOnly",
+        "X-Request-Id": "73457962-b7ed-4a91-8332-92f8cc81daf0",
+        "X-Runtime": "0.079020",
+        "Content-Length": "0"
+      },
+      "response_content_type": "text/html",
+      "curl": "curl \"http://localhost:3000/client/orders/3\" -d '' -X DELETE \\\n\t-H \"Access-Token: l-XEYSidpsvlib-sRSl_8g\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: o47dwP6uzfCYlvvpQzVYzg\" \\\n\t-H \"Expiry: 1457714428\" \\\n\t-H \"Uid: 77reinhold@kunzegleichner.name\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+    }
+  ]
+}

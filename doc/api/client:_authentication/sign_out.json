@@ -1,0 +1,50 @@
+{
+  "resource": "client: authentication",
+  "http_method": "DELETE",
+  "route": "/auth/sign_out",
+  "description": "sign out",
+  "explanation": null,
+  "parameters": [
+
+  ],
+  "response_fields": [
+
+  ],
+  "requests": [
+    {
+      "request_method": "DELETE",
+      "request_path": "/auth/sign_out",
+      "request_body": null,
+      "request_headers": {
+        "Access-Token": "F6gyjIv7x1G_J3DtphcwwQ",
+        "Token-Type": "Bearer",
+        "Client": "nQeFdSSLhNgurnPIKVpn8Q",
+        "Expiry": "1457714424",
+        "Uid": "68kaelyn_larson@nolan.org",
+        "Host": "example.org",
+        "Content-Type": "application/x-www-form-urlencoded",
+        "Cookie": ""
+      },
+      "request_query_parameters": {
+      },
+      "request_content_type": "application/x-www-form-urlencoded",
+      "response_status": 200,
+      "response_status_text": "OK",
+      "response_body": "{\n  \"success\": true\n}",
+      "response_headers": {
+        "X-Frame-Options": "SAMEORIGIN",
+        "X-XSS-Protection": "1; mode=block",
+        "X-Content-Type-Options": "nosniff",
+        "Content-Type": "application/json; charset=utf-8",
+        "ETag": "W/\"7363e85fe9edee6f053a4b319588c086\"",
+        "Cache-Control": "max-age=0, private, must-revalidate",
+        "Set-Cookie": "_session_id=N3dvRzZwdWVCRDhJUlBLWmpxcm1QQUJSN0E3RDVjZTgzdFpySFVIWTNVWFVkL1pHTmNzRHNCQlZYVjVLaEJRc05aQVE4Sko5QjhITEpDNGlPRkEwaHc9PS0tcE5pSmFKVm0zQ29iSWVZdUQ1OXR2QT09--93d176f61af964d564593a3c19a40cc52dd6625a; path=/; HttpOnly",
+        "X-Request-Id": "9c74b973-1864-4ff3-9c09-d15dcec5cb48",
+        "X-Runtime": "0.074189",
+        "Content-Length": "16"
+      },
+      "response_content_type": "application/json; charset=utf-8",
+      "curl": "curl \"http://localhost:3000/auth/sign_out\" -d '' -X DELETE \\\n\t-H \"Access-Token: F6gyjIv7x1G_J3DtphcwwQ\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: nQeFdSSLhNgurnPIKVpn8Q\" \\\n\t-H \"Expiry: 1457714424\" \\\n\t-H \"Uid: 68kaelyn_larson@nolan.org\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+    }
+  ]
+}

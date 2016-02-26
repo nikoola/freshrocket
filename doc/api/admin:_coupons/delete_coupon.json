@@ -1,0 +1,49 @@
+{
+  "resource": "admin: coupons",
+  "http_method": "DELETE",
+  "route": "/admin/coupons/:id",
+  "description": "delete coupon",
+  "explanation": null,
+  "parameters": [
+
+  ],
+  "response_fields": [
+
+  ],
+  "requests": [
+    {
+      "request_method": "DELETE",
+      "request_path": "/admin/coupons/1",
+      "request_body": null,
+      "request_headers": {
+        "Access-Token": "LD4RLulm9Mq4245srO7kaQ",
+        "Token-Type": "Bearer",
+        "Client": "3NuGMOUDk12vVoW4Gfs2mw",
+        "Expiry": "1457714414",
+        "Uid": "12andreanne@lind.name",
+        "Host": "example.org",
+        "Content-Type": "application/x-www-form-urlencoded",
+        "Cookie": ""
+      },
+      "request_query_parameters": {
+      },
+      "request_content_type": "application/x-www-form-urlencoded",
+      "response_status": 200,
+      "response_status_text": "OK",
+      "response_body": null,
+      "response_headers": {
+        "X-Frame-Options": "SAMEORIGIN",
+        "X-XSS-Protection": "1; mode=block",
+        "X-Content-Type-Options": "nosniff",
+        "Content-Type": "text/html",
+        "Cache-Control": "no-cache",
+        "Set-Cookie": "_session_id=RGxKZjZsejl4MSt5T091V29ZMXBaYlNSZE5FNmdreld0dWhPUGtiKy9wUlBEaldOSVFEN2xhbW56SVQrL1NhTzN4dWpydnZ2WWw0cDQ5N1MvOGNxZThCMWx6MGQvSlpsWXdLZ2tsM3hFUzhOeVRvbkhsVXI5RStXblAyYVNpY0ZEc1Z6b0laNjYzL0tkYlRvbTRVSzl4Nm9Gd2NrdjFuK3I0anJTdnBVSDhRYzdhbzQ2RVY1K0ZMdzEvcHFCM0xuLS1KMXFSWlA4bitVZGJ2dTlla2wwajJ3PT0%3D--00f9b834877f5912e70e73212001d8dacec6c477; path=/; HttpOnly",
+        "X-Request-Id": "aa4b13dd-5c90-4d23-b822-e348178705b8",
+        "X-Runtime": "0.087209",
+        "Content-Length": "0"
+      },
+      "response_content_type": "text/html",
+      "curl": "curl \"http://localhost:3000/admin/coupons/1\" -d '' -X DELETE \\\n\t-H \"Access-Token: LD4RLulm9Mq4245srO7kaQ\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: 3NuGMOUDk12vVoW4Gfs2mw\" \\\n\t-H \"Expiry: 1457714414\" \\\n\t-H \"Uid: 12andreanne@lind.name\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+    }
+  ]
+}

@@ -20,17 +20,18 @@ end
 
 
 
-
+puts 'creating admin'
 FactoryGirl.create :user, email: 'admin@admin.admin', password: 'adminadminadmin', password_confirmation: 'adminadminadmin', abilities: [:users]
 
-FactoryGirl.create_list :verified_user, 5
+puts 'creating verified users'
+FactoryGirl.create_list :verified_user, 2
 
+puts 'creating delivery boys'
 user = FactoryGirl.create :user
 user.add_ability 'delivery_boy'
 
-
 puts 'creating users'
-FactoryGirl.create_list :user, 5
+FactoryGirl.create_list :user, 2
 
 puts 'creating cities'
 FactoryGirl.create_list :city, 3

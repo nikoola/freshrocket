@@ -1,0 +1,49 @@
+{
+  "resource": "client: users",
+  "http_method": "GET",
+  "route": "/client",
+  "description": "user gets self",
+  "explanation": "status 401 if user unauthenticated",
+  "parameters": [
+
+  ],
+  "response_fields": [
+
+  ],
+  "requests": [
+    {
+      "request_method": "GET",
+      "request_path": "/client",
+      "request_body": null,
+      "request_headers": {
+        "Access-Token": "Sltyv3t3QQldXeRYI-XVKQ",
+        "Token-Type": "Bearer",
+        "Client": "moeDppFnbMUT62MxfrmRyQ",
+        "Expiry": "1457714431",
+        "Uid": "93zola@von.com",
+        "Host": "example.org",
+        "Cookie": ""
+      },
+      "request_query_parameters": {
+      },
+      "request_content_type": null,
+      "response_status": 200,
+      "response_status_text": "OK",
+      "response_body": "{\n  \"id\": 3,\n  \"first_name\": \"Mariana\",\n  \"last_name\": \"Schmitt\",\n  \"email\": \"93zola@von.com\",\n  \"phone\": \"+79172369009\",\n  \"is_verified\": false,\n  \"provider\": \"email\",\n  \"uid\": \"93zola@von.com\",\n  \"created_at\": \"2016-02-26T16:40:31.203Z\",\n  \"abilities\": {\n    \"orders\": 0,\n    \"products\": 0,\n    \"users\": 0,\n    \"categories\": 0,\n    \"coupons\": 0,\n    \"settings\": 0,\n    \"cities\": 0,\n    \"delivery_boy\": 0\n  }\n}",
+      "response_headers": {
+        "X-Frame-Options": "SAMEORIGIN",
+        "X-XSS-Protection": "1; mode=block",
+        "X-Content-Type-Options": "nosniff",
+        "Content-Type": "application/json; charset=utf-8",
+        "ETag": "W/\"204198baa0c41df3fc556acaba5ee70c\"",
+        "Cache-Control": "max-age=0, private, must-revalidate",
+        "Set-Cookie": "_session_id=Q2RGc3B0TmxYY2cxZVJKTmZtdUFKNytYWVNOdHoyWXVGS09ZdVA2WkNhaWRuNGRGSUxRa3RRM09VcUhSUklLaUpYR0IxQXAxb3ZFTHpBTnZ3cUxmdjBIZ2pGdmxrd3JsbXMwYlNaMnpRRmdTRi9id2NwNDBxVml0ME42NmpHVWpldjBqRnVXbGEza1g1QnliQ2xjNFJ3R1IrcGw1d2ltVmQrbkRhVGNrOE41THBMYllCQ002ZTBkVkdPb1dMNWt4LS0wcWM2OUJzMy9uOHFBVERvTGN0SEV3PT0%3D--6034cafd8880f77076a3f71ee769be02051f933f; path=/; HttpOnly",
+        "X-Request-Id": "de1b7c79-1a79-42f5-823f-608b1a0a117f",
+        "X-Runtime": "0.086940",
+        "Content-Length": "319"
+      },
+      "response_content_type": "application/json; charset=utf-8",
+      "curl": "curl \"http://localhost:3000/client\" -X GET \\\n\t-H \"Access-Token: Sltyv3t3QQldXeRYI-XVKQ\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: moeDppFnbMUT62MxfrmRyQ\" \\\n\t-H \"Expiry: 1457714431\" \\\n\t-H \"Uid: 93zola@von.com\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
+    }
+  ]
+}

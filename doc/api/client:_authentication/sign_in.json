@@ -1,0 +1,58 @@
+{
+  "resource": "client: authentication",
+  "http_method": "POST",
+  "route": "/auth/sign_in",
+  "description": "sign in",
+  "explanation": "returns \"access-token\", \"token-type\", \"client\", \"expiry\", \"uid\" in response headers, which we can then use to access protected resources",
+  "parameters": [
+    {
+      "required": true,
+      "name": "email",
+      "description": "registered user's email"
+    },
+    {
+      "required": true,
+      "name": "password",
+      "description": "registered user's password"
+    }
+  ],
+  "response_fields": [
+
+  ],
+  "requests": [
+    {
+      "request_method": "POST",
+      "request_path": "/auth/sign_in",
+      "request_body": "email=67nona%40prosacco.info&password=secrety_bickety",
+      "request_headers": {
+        "Host": "example.org",
+        "Content-Type": "application/x-www-form-urlencoded",
+        "Cookie": ""
+      },
+      "request_query_parameters": {
+      },
+      "request_content_type": "application/x-www-form-urlencoded",
+      "response_status": 200,
+      "response_status_text": "OK",
+      "response_body": "{\n  \"data\": {\n    \"id\": 1,\n    \"first_name\": \"Wendy\",\n    \"last_name\": \"Kirlin\",\n    \"email\": \"67nona@prosacco.info\",\n    \"provider\": \"email\",\n    \"uid\": \"67nona@prosacco.info\",\n    \"phone\": \"+79173093996\",\n    \"verification_code\": null,\n    \"is_verified\": false\n  }\n}",
+      "response_headers": {
+        "X-Frame-Options": "SAMEORIGIN",
+        "X-XSS-Protection": "1; mode=block",
+        "X-Content-Type-Options": "nosniff",
+        "access-token": "1r4TLpHOwlQngYqu2d1K6Q",
+        "token-type": "Bearer",
+        "client": "-9kY3s9KKzPv9e8d1WHnHQ",
+        "expiry": "1457714424",
+        "uid": "67nona@prosacco.info",
+        "Content-Type": "application/json; charset=utf-8",
+        "ETag": "W/\"367834eeaaaeb961151aec2a4532ebe2\"",
+        "Cache-Control": "max-age=0, private, must-revalidate",
+        "X-Request-Id": "c027ea0f-c7d2-4071-a2de-e178bf41699a",
+        "X-Runtime": "0.172961",
+        "Content-Length": "206"
+      },
+      "response_content_type": "application/json; charset=utf-8",
+      "curl": "curl \"http://localhost:3000/auth/sign_in\" -d 'email=67nona%40prosacco.info&password=secrety_bickety' -X POST \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+    }
+  ]
+}

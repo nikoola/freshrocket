@@ -1,0 +1,61 @@
+{
+  "resource": "admin: delivery boys",
+  "http_method": "GET",
+  "route": "/admin/delivery_boys",
+  "description": "get filtered delivery_boys",
+  "explanation": "to change delivery_boy's status to :fired, remove :delivery_boy ability from this user's abilities",
+  "parameters": [
+    {
+      "name": "statuss",
+      "description": "[unavailable available busy fired]"
+    },
+    {
+      "name": "limit",
+      "description": " limit"
+    },
+    {
+      "name": "offset",
+      "description": " offset"
+    }
+  ],
+  "response_fields": [
+
+  ],
+  "requests": [
+    {
+      "request_method": "GET",
+      "request_path": "/admin/delivery_boys?status=fired",
+      "request_body": null,
+      "request_headers": {
+        "Access-Token": "YAZ3Uw7vbzCIZMAo2E08cQ",
+        "Token-Type": "Bearer",
+        "Client": "2zbL0auXjvmHApNP46guAg",
+        "Expiry": "1457714414",
+        "Uid": "16uriah.collier@olsonhickle.name",
+        "Host": "example.org",
+        "Cookie": ""
+      },
+      "request_query_parameters": {
+        "status": "fired"
+      },
+      "request_content_type": null,
+      "response_status": 200,
+      "response_status_text": "OK",
+      "response_body": "[\n  {\n    \"id\": 1,\n    \"user_id\": 1,\n    \"lat\": null,\n    \"long\": null,\n    \"status\": \"fired\"\n  }\n]",
+      "response_headers": {
+        "X-Frame-Options": "SAMEORIGIN",
+        "X-XSS-Protection": "1; mode=block",
+        "X-Content-Type-Options": "nosniff",
+        "Content-Type": "application/json; charset=utf-8",
+        "ETag": "W/\"e1107ced0523b4f0db47dca6182afeec\"",
+        "Cache-Control": "max-age=0, private, must-revalidate",
+        "Set-Cookie": "_session_id=MUtZczUxSVNTVnhGb2sxdFJldDNiQjAwUDB1SXBKNzdxN2x6WUhtVDBzZGoyK1F0OWZacnBjN1YxWE1TcnlIZUM2elNmZ1JjczhQVjF5RjdzQ243ZTQxVHJPclMwK1dsUXlsTlA1NzNnVHVZVlU5YWo0SHVQTkZJNlZwRUVhOTZCWXh2UzMxS2RXQXZGK0l2T1RLVE1EN0JpV0pHZEZNQ0xwWVBVbUJaVCtLOFBpZEVWSGJkRXlmdWY1WXF2RENmLS1PSDcxNk9rNHZKZktpOVlxUXNSRFhRPT0%3D--d8109a59d6b6d1ad9b6f592ba99908f35beb11b1; path=/; HttpOnly",
+        "X-Request-Id": "57aa2da0-fe29-4065-a0ee-9374c4c35d2f",
+        "X-Runtime": "0.082785",
+        "Content-Length": "62"
+      },
+      "response_content_type": "application/json; charset=utf-8",
+      "curl": "curl \"http://localhost:3000/admin/delivery_boys?status=fired\" -X GET \\\n\t-H \"Access-Token: YAZ3Uw7vbzCIZMAo2E08cQ\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: 2zbL0auXjvmHApNP46guAg\" \\\n\t-H \"Expiry: 1457714414\" \\\n\t-H \"Uid: 16uriah.collier@olsonhickle.name\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
+    }
+  ]
+}

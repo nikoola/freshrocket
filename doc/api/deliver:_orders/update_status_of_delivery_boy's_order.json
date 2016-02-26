@@ -1,0 +1,53 @@
+{
+  "resource": "deliver: orders",
+  "http_method": "PUT",
+  "route": "deliver/orders/:id/update_status",
+  "description": "update status of delivery_boy's order",
+  "explanation": "delivery_boy can only update it to delivered",
+  "parameters": [
+    {
+      "scope": "order",
+      "name": "action",
+      "description": "[delivered]"
+    }
+  ],
+  "response_fields": [
+
+  ],
+  "requests": [
+    {
+      "request_method": "PUT",
+      "request_path": "deliver/orders/3/update_status",
+      "request_body": "order[action]=deliver",
+      "request_headers": {
+        "Access-Token": "uMo8Qf9Wuq9WspLbcH38xQ",
+        "Token-Type": "Bearer",
+        "Client": "66zqyaBE3LmN-iHlBv3fxA",
+        "Expiry": "1457714433",
+        "Uid": "101lelia@bosco.org",
+        "Host": "example.org",
+        "Content-Type": "application/x-www-form-urlencoded",
+        "Cookie": ""
+      },
+      "request_query_parameters": {
+      },
+      "request_content_type": "application/x-www-form-urlencoded",
+      "response_status": 200,
+      "response_status_text": "OK",
+      "response_body": null,
+      "response_headers": {
+        "X-Frame-Options": "SAMEORIGIN",
+        "X-XSS-Protection": "1; mode=block",
+        "X-Content-Type-Options": "nosniff",
+        "Content-Type": "text/html",
+        "Cache-Control": "no-cache",
+        "Set-Cookie": "_session_id=cG1QU05mb1UxQXo5dzVRb1Y0eC92YzVtbmVEUGxOZjlTamU2RDRTWk1JRnJNUnJyb0xGcFhQcXk4dXA0Nms3Qyt5THBIY09MUjhzdmRyTHBMRE9IM1Y5cTFFSi9PZFU3VzZGMEkxMXNqNk5MMWI2cTBxdjNMRlRoMmEyUmltcEJPNUFrbGMrRUxiZXAvK2dsOWF4MHhIZ2xzUlZzSWo3WGZFUWhxUlVtOXJmSW91VlZKOGtLVHhHZWRYSmdaZTNsLS12bkU4bGFwcFpqRDVwQk1Xc2pIenN3PT0%3D--d3589dcc79d93e668fc68660d3b75ecfff7976e4; path=/; HttpOnly",
+        "X-Request-Id": "54adb3bb-f7db-435c-8b28-9e8528fd17b3",
+        "X-Runtime": "0.086046",
+        "Content-Length": "0"
+      },
+      "response_content_type": "text/html",
+      "curl": "curl \"http://localhost:3000deliver/orders/3/update_status\" -d 'order[action]=deliver' -X PUT \\\n\t-H \"Access-Token: uMo8Qf9Wuq9WspLbcH38xQ\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: 66zqyaBE3LmN-iHlBv3fxA\" \\\n\t-H \"Expiry: 1457714433\" \\\n\t-H \"Uid: 101lelia@bosco.org\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "resource": "client: orders",
+  "http_method": "POST",
+  "route": "client/orders",
+  "description": "create current user's order",
+  "explanation": null,
+  "parameters": [
+    {
+      "scope": "order",
+      "name": "comment",
+      "description": "comment to the order"
+    },
+    {
+      "scope": [
+        "order",
+        "line_items_attributes"
+      ],
+      "required": true,
+      "name": "product_id",
+      "description": "id of a product in a cart"
+    },
+    {
+      "scope": [
+        "order",
+        "line_items_attributes"
+      ],
+      "required": true,
+      "name": "amount",
+      "description": "amount of this product in a cart"
+    },
+    {
+      "scope": [
+        "order",
+        "delivery_attributes"
+      ],
+      "name": "wanted_date",
+      "description": "date client wants their delivery on"
+    },
+    {
+      "scope": [
+        "order",
+        "delivery_attributes"
+      ],
+      "name": "wanted_time",
+      "description": "['morning', 'noon', 'evening'] time is limited between 7 am to 9 pm only, mention this in frontend"
+    }
+  ],
+  "response_fields": [
+
+  ],
+  "requests": [
+    {
+      "request_method": "POST",
+      "request_path": "client/orders",
+      "request_body": "order[line_items_attributes][][product_id]=10&order[line_items_attributes][][amount]=1000&order[delivery_attributes][wanted_date]=2016-02-26+21%3A40%3A27+%2B0500",
+      "request_headers": {
+        "Access-Token": "EAL8ADN1R5Xqu1lgMaf2QA",
+        "Token-Type": "Bearer",
+        "Client": "Rxv0LPqgfn4qoTY0GX1w3w",
+        "Expiry": "1457714427",
+        "Uid": "74cloyd.grimes@reinger.info",
+        "Host": "example.org",
+        "Content-Type": "application/x-www-form-urlencoded",
+        "Cookie": ""
+      },
+      "request_query_parameters": {
+      },
+      "request_content_type": "application/x-www-form-urlencoded",
+      "response_status": 201,
+      "response_status_text": "Created",
+      "response_body": "{\n  \"id\": 4,\n  \"user_id\": 3,\n  \"status\": \"unconfirmed\",\n  \"created_at\": \"2016-02-26T16:40:27.547Z\",\n  \"comment\": null,\n  \"pure_product_price\": \"3000.0\",\n  \"tax\": \"150.0\",\n  \"delivery_charge\": \"0.0\",\n  \"total_price\": \"3150.0\",\n  \"delivery_boy_id\": null,\n  \"wanted_time\": null,\n  \"wanted_date\": null,\n  \"payment_type\": null,\n  \"is_paid\": null,\n  \"line_items\": [\n    {\n      \"id\": 10,\n      \"order_id\": 4,\n      \"product_id\": 10,\n      \"amount\": 1000,\n      \"fixed_price\": \"3000.0\"\n    }\n  ]\n}",
+      "response_headers": {
+        "X-Frame-Options": "SAMEORIGIN",
+        "X-XSS-Protection": "1; mode=block",
+        "X-Content-Type-Options": "nosniff",
+        "Location": "/client/orders/4",
+        "Content-Type": "application/json; charset=utf-8",
+        "ETag": "W/\"552e810ff5d7126bb1981dae9d02eecf\"",
+        "Cache-Control": "max-age=0, private, must-revalidate",
+        "Set-Cookie": "_session_id=cUJIc2NDcit4QStRTS9iUSsrM1ZHc0cwdkFOM2ZSZHdrcjVVM1B3ZFhKRWpsTmtFUng1NmFZek51ck8zS3pjZnQ0dHpzdUEwNnBMSFV0MmdTYm5sZWFCeldVT3hDbXh2VmYxWmhMaGdPc29hRnBmRzZBZWpYUHE2SFhzYWx6UFEzNkJQTFNJQ084OUQxQmFUVzArVGFndTJNdTJVQTBJaDN0VHJ4dXl2RU1SbzNyMkR1cHRpV09wM3pZUmZjQXhhLS1jK1ZGQkFaRnB6N2ZEa3J6UmRIa0RRPT0%3D--e6b7a003ee93d11a4aa5bcb326c79536376a42f0; path=/; HttpOnly",
+        "X-Request-Id": "a13ac688-d047-481c-bb16-0773c8e5043d",
+        "X-Runtime": "0.084134",
+        "Content-Length": "376"
+      },
+      "response_content_type": "application/json; charset=utf-8",
+      "curl": "curl \"http://localhost:3000client/orders\" -d 'order[line_items_attributes][][product_id]=10&order[line_items_attributes][][amount]=1000&order[delivery_attributes][wanted_date]=2016-02-26+21%3A40%3A27+%2B0500' -X POST \\\n\t-H \"Access-Token: EAL8ADN1R5Xqu1lgMaf2QA\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: Rxv0LPqgfn4qoTY0GX1w3w\" \\\n\t-H \"Expiry: 1457714427\" \\\n\t-H \"Uid: 74cloyd.grimes@reinger.info\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+    }
+  ]
+}

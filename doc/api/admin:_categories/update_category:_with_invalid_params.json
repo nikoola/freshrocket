@@ -1,0 +1,64 @@
+{
+  "resource": "admin: categories",
+  "http_method": "PUT",
+  "route": "/admin/categories/:id",
+  "description": "update category: with invalid params",
+  "explanation": null,
+  "parameters": [
+    {
+      "scope": "category",
+      "name": "name",
+      "description": "name of a category"
+    },
+    {
+      "scope": "category",
+      "name": "image",
+      "description": "Category image"
+    },
+    {
+      "require": true,
+      "scope": "category",
+      "name": "name",
+      "description": "name of a category"
+    }
+  ],
+  "response_fields": [
+
+  ],
+  "requests": [
+    {
+      "request_method": "PUT",
+      "request_path": "/admin/categories/1",
+      "request_body": "category[name]",
+      "request_headers": {
+        "Access-Token": "Hgw9U0Y4ziYVqIRsB42vdA",
+        "Token-Type": "Bearer",
+        "Client": "yfPDIDxKlA-4LeDjWRtisg",
+        "Expiry": "1457714412",
+        "Uid": "4cary@labadiejenkins.net",
+        "Host": "example.org",
+        "Content-Type": "application/x-www-form-urlencoded",
+        "Cookie": ""
+      },
+      "request_query_parameters": {
+      },
+      "request_content_type": "application/x-www-form-urlencoded",
+      "response_status": 422,
+      "response_status_text": "Unprocessable Entity",
+      "response_body": "{\n  \"name\": [\n    \"can't be blank\"\n  ]\n}",
+      "response_headers": {
+        "X-Frame-Options": "SAMEORIGIN",
+        "X-XSS-Protection": "1; mode=block",
+        "X-Content-Type-Options": "nosniff",
+        "Content-Type": "application/json; charset=utf-8",
+        "Cache-Control": "no-cache",
+        "Set-Cookie": "_session_id=S0RmOHB4KzQyTEJ4NjRkMnh5K3l3TVZQeW5ON2JwcXBkNE1WL1ZiNmVnMGZST1FMWnVBQ2tXbzVCTzRxclVnK0w1RjVISkkvZEcxUDJXN29CUDZaYXVVZHo5UGl2bTAraHE1VEZORlhjNWVuenpxNlJEK3hoR2pMWjh4UjJ3UGlhMkEzb2REN3FDQ2UxYlRDNjdaNVJRWS90NE13UGFkYTB3SnJab1ZLeXplQjNFTEhTUGQyVWhTZ09PYVMwdHVZLS1SWG1lWU9EdlpYYTVxVXhBSFlPcHBRPT0%3D--c036887c6d4de0ca1afcb7537d56fa279512386c; path=/; HttpOnly",
+        "X-Request-Id": "0c9f6cc3-b0f2-4f00-89c4-903e3ecc1f9a",
+        "X-Runtime": "0.081468",
+        "Content-Length": "27"
+      },
+      "response_content_type": "application/json; charset=utf-8",
+      "curl": "curl \"http://localhost:3000/admin/categories/1\" -d 'category[name]' -X PUT \\\n\t-H \"Access-Token: Hgw9U0Y4ziYVqIRsB42vdA\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: yfPDIDxKlA-4LeDjWRtisg\" \\\n\t-H \"Expiry: 1457714412\" \\\n\t-H \"Uid: 4cary@labadiejenkins.net\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+    }
+  ]
+}

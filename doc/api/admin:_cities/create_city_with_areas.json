@@ -1,0 +1,76 @@
+{
+  "resource": "admin: cities",
+  "http_method": "POST",
+  "route": "/admin/cities",
+  "description": "create city with areas",
+  "explanation": null,
+  "parameters": [
+    {
+      "scope": "city",
+      "required": true,
+      "name": "name",
+      "description": "city name"
+    },
+    {
+      "scope": "city",
+      "name": "active",
+      "description": "0/1"
+    },
+    {
+      "scope": "areas_attributes",
+      "name": "id",
+      "description": "Areas attributes id"
+    },
+    {
+      "scope": "areas_attributes",
+      "name": "name",
+      "description": "area name"
+    },
+    {
+      "scope": "areas_attributes",
+      "name": "_destroy",
+      "description": "true/1/whatever, as long as it evaluates to true (well it's a string, so add any value). "
+    }
+  ],
+  "response_fields": [
+
+  ],
+  "requests": [
+    {
+      "request_method": "POST",
+      "request_path": "/admin/cities",
+      "request_body": "city[name]=Deontaemouth_1&city[areas_attributes][][name]=hi",
+      "request_headers": {
+        "Access-Token": "tM6_Qik_BkkqyIiNw9QHHg",
+        "Token-Type": "Bearer",
+        "Client": "XXkv3s2EdfVegKzIkksRJw",
+        "Expiry": "1457714413",
+        "Uid": "6phyllis@lowebalistreri.info",
+        "Host": "example.org",
+        "Content-Type": "application/x-www-form-urlencoded",
+        "Cookie": ""
+      },
+      "request_query_parameters": {
+      },
+      "request_content_type": "application/x-www-form-urlencoded",
+      "response_status": 201,
+      "response_status_text": "Created",
+      "response_body": "{\n  \"id\": 1,\n  \"name\": \"Deontaemouth_1\",\n  \"active\": true,\n  \"areas\": [\n    {\n      \"id\": 1,\n      \"name\": \"hi\"\n    }\n  ]\n}",
+      "response_headers": {
+        "X-Frame-Options": "SAMEORIGIN",
+        "X-XSS-Protection": "1; mode=block",
+        "X-Content-Type-Options": "nosniff",
+        "Location": "http://example.org/cities/1",
+        "Content-Type": "application/json; charset=utf-8",
+        "ETag": "W/\"86545a17fbf6886c6275fa55ef1800e6\"",
+        "Cache-Control": "max-age=0, private, must-revalidate",
+        "Set-Cookie": "_session_id=Q2tYQjZiSUdkNnd0Y2tiU2ZLckRnbzl1WDhVUHR3MHIzZkFTc01qU0ZLNXNBQ3c0WFBJbStNdFZxdStkZ1hDeUM5c1pMTTdCUUQxRUNEUDA5MmNLNEtWS2Z3NVhZbHdHdlVSeEVQSnp2UWtOYk5TTVdlVGR2Y3IzVXRnaWo2QW1HeCs0dHplVXc3amtwRVBjL1NFc25RN2EwN1BacXJRRXZUYlEzU1lVUzhyTSt3S1BHaFhuSjRCcjNSdDhSc2U5LS1CcmF4Y2tiR0JDOW80d1FaSDFZZU9nPT0%3D--05ee7571638f5ec0e48ea11bc184037a94c48aa4; path=/; HttpOnly",
+        "X-Request-Id": "4fbcda5f-e08f-4e78-85b0-5a4bf1ca4bf6",
+        "X-Runtime": "0.134279",
+        "Content-Length": "77"
+      },
+      "response_content_type": "application/json; charset=utf-8",
+      "curl": "curl \"http://localhost:3000/admin/cities\" -d 'city[name]=Deontaemouth_1&city[areas_attributes][][name]=hi' -X POST \\\n\t-H \"Access-Token: tM6_Qik_BkkqyIiNw9QHHg\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: XXkv3s2EdfVegKzIkksRJw\" \\\n\t-H \"Expiry: 1457714413\" \\\n\t-H \"Uid: 6phyllis@lowebalistreri.info\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+    }
+  ]
+}

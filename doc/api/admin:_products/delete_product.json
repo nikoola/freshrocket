@@ -1,0 +1,49 @@
+{
+  "resource": "admin: products",
+  "http_method": "DELETE",
+  "route": "/admin/products/:id",
+  "description": "delete product",
+  "explanation": "deletes product if it's not in any order, disables it (inventory_count: 0) otherwise",
+  "parameters": [
+
+  ],
+  "response_fields": [
+
+  ],
+  "requests": [
+    {
+      "request_method": "DELETE",
+      "request_path": "/admin/products/1",
+      "request_body": null,
+      "request_headers": {
+        "Access-Token": "U39TT2jmYyCFYBtKet94hQ",
+        "Token-Type": "Bearer",
+        "Client": "wBbekgXZOQYH4Bb4ruV2QA",
+        "Expiry": "1457714421",
+        "Uid": "37sterling.romaguera@skiles.biz",
+        "Host": "example.org",
+        "Content-Type": "application/x-www-form-urlencoded",
+        "Cookie": ""
+      },
+      "request_query_parameters": {
+      },
+      "request_content_type": "application/x-www-form-urlencoded",
+      "response_status": 200,
+      "response_status_text": "OK",
+      "response_body": null,
+      "response_headers": {
+        "X-Frame-Options": "SAMEORIGIN",
+        "X-XSS-Protection": "1; mode=block",
+        "X-Content-Type-Options": "nosniff",
+        "Content-Type": "text/html",
+        "Cache-Control": "no-cache",
+        "Set-Cookie": "_session_id=YkdOYWsyUUhzcDVqVEZidUNPSHB3cmJRWXFjMW1DNGsvZHhMZXlnSUxXUHo4WnE2Z2g5U3pyZkI0a1NmNHJQakNDRU16MTkvamFSaTE0M3RwSWc4ajJBRjIyclBONlVtVUtEM2ExakZtbzV5ZXlCY2VQWVZRUkx3bmlIUGtQZGFXWlFlMnFxZTYyODMvV3B6LzlTdzJEc29EeGtnWGhRYlFCaFBTaWVMQ0JWWmtEdVRscm5VM1V1UXdtRnplTTRuLS0wRnVvSXo4a2llWmtBdWd6T2UxTTJnPT0%3D--92f114cc55b6be85438fb41470ed5a80d524fec8; path=/; HttpOnly",
+        "X-Request-Id": "1cea43a8-1f95-484d-b3d5-7069521c3d52",
+        "X-Runtime": "0.095247",
+        "Content-Length": "0"
+      },
+      "response_content_type": "text/html",
+      "curl": "curl \"http://localhost:3000/admin/products/1\" -d '' -X DELETE \\\n\t-H \"Access-Token: U39TT2jmYyCFYBtKet94hQ\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: wBbekgXZOQYH4Bb4ruV2QA\" \\\n\t-H \"Expiry: 1457714421\" \\\n\t-H \"Uid: 37sterling.romaguera@skiles.biz\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+    }
+  ]
+}

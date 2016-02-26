@@ -1,0 +1,54 @@
+{
+  "resource": "admin: orders",
+  "http_method": "PUT",
+  "route": "/admin/orders/:id/update_status",
+  "description": "approve confirmed order",
+  "explanation": null,
+  "parameters": [
+    {
+      "scope": "order",
+      "required": true,
+      "name": "action",
+      "description": ":approve, :dispatch, :deliver, :cancel"
+    }
+  ],
+  "response_fields": [
+
+  ],
+  "requests": [
+    {
+      "request_method": "PUT",
+      "request_path": "/admin/orders/1/update_status",
+      "request_body": "order[action]=approve",
+      "request_headers": {
+        "Access-Token": "Thtd9-aJJnU5OnC75IOp6Q",
+        "Token-Type": "Bearer",
+        "Client": "t9VVzPQf4p3d5sfmeSqIAQ",
+        "Expiry": "1457714415",
+        "Uid": "24antwon.green@wildermananderson.name",
+        "Host": "example.org",
+        "Content-Type": "application/x-www-form-urlencoded",
+        "Cookie": ""
+      },
+      "request_query_parameters": {
+      },
+      "request_content_type": "application/x-www-form-urlencoded",
+      "response_status": 200,
+      "response_status_text": "OK",
+      "response_body": null,
+      "response_headers": {
+        "X-Frame-Options": "SAMEORIGIN",
+        "X-XSS-Protection": "1; mode=block",
+        "X-Content-Type-Options": "nosniff",
+        "Content-Type": "text/html",
+        "Cache-Control": "no-cache",
+        "Set-Cookie": "_session_id=N3Y2MVphSFlweFZhOGZDNXhIT3RQRzNid3hiZms2c0JMTVJNVFJBbk0yK1NCRllNSHFnOUY4aHVWSzZINGxuemJkbXdKcWtFTlBoemFUUThGY2xtYVRpeUhZUlRVdHpWMHR1bkVGTTczTXozL1VTU0N6enpJZ1hINkZYR0UwRCtkRGs5TmlkdG5vMW40NFJja3RxL2d5UEplN2gzVldSTUlZSklRYmVFeGhIbGswNXM4cmdmTlQ3VVZTYXFxQVB6LS1OcEVNMnRxMkxGTHhvUHZtVE9HUCtnPT0%3D--92c2bcbc9b1064b1ec1334173bfb7b8dd67758c4; path=/; HttpOnly",
+        "X-Request-Id": "ca49b1ff-24f8-4a83-ad5e-fd4f6b1b96c2",
+        "X-Runtime": "1.197901",
+        "Content-Length": "0"
+      },
+      "response_content_type": "text/html",
+      "curl": "curl \"http://localhost:3000/admin/orders/1/update_status\" -d 'order[action]=approve' -X PUT \\\n\t-H \"Access-Token: Thtd9-aJJnU5OnC75IOp6Q\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: t9VVzPQf4p3d5sfmeSqIAQ\" \\\n\t-H \"Expiry: 1457714415\" \\\n\t-H \"Uid: 24antwon.green@wildermananderson.name\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+    }
+  ]
+}

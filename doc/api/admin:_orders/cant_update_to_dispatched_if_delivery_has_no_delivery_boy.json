@@ -1,0 +1,54 @@
+{
+  "resource": "admin: orders",
+  "http_method": "PUT",
+  "route": "/admin/orders/:id/update_status",
+  "description": "cant update to dispatched if delivery has no delivery_boy",
+  "explanation": null,
+  "parameters": [
+    {
+      "scope": "order",
+      "required": true,
+      "name": "action",
+      "description": ":approve, :dispatch, :deliver, :cancel"
+    }
+  ],
+  "response_fields": [
+
+  ],
+  "requests": [
+    {
+      "request_method": "PUT",
+      "request_path": "/admin/orders/1/update_status",
+      "request_body": "order[action]=dispatch",
+      "request_headers": {
+        "Access-Token": "avKoqRFJv9W5uifXArK6aQ",
+        "Token-Type": "Bearer",
+        "Client": "hYyQAx2PqFZtY1kWYU-pyw",
+        "Expiry": "1457714419",
+        "Uid": "31marian_beer@cummings.name",
+        "Host": "example.org",
+        "Content-Type": "application/x-www-form-urlencoded",
+        "Cookie": ""
+      },
+      "request_query_parameters": {
+      },
+      "request_content_type": "application/x-www-form-urlencoded",
+      "response_status": 422,
+      "response_status_text": "Unprocessable Entity",
+      "response_body": "{\n  \"order\": [\n    \"needs to be assigned to some delivery boy before dispatching\"\n  ],\n  \"status\": [\n    \"status cannot transition from approved to dispatch\"\n  ]\n}",
+      "response_headers": {
+        "X-Frame-Options": "SAMEORIGIN",
+        "X-XSS-Protection": "1; mode=block",
+        "X-Content-Type-Options": "nosniff",
+        "Content-Type": "application/json; charset=utf-8",
+        "Cache-Control": "no-cache",
+        "Set-Cookie": "_session_id=RXRJMVNpN1M3KzFrYzRuSC8yOGJRcmY5dW1EL1RVcWtsazM4UVEwRnRraFVnUXFaVlZWalRqQURnK1dZSDNnYURvL0w4bUovNTFzRFZDNG45S3VFeVFjQlZTcUZZY1JQZ0ZYMGdOZ3BPL0x2WFByUElzYmp5Rm5VTE5PazRXZVlqaUIyaTNWNytCZ2p1U2dwbmFoaTJaRUJXSlVwdThFWjNsR0JLT1ZaMWt1czBSN3R2M2F5OXI4alBjaUtwUTliLS1wOU5pTG1rVHBpS056eHg4eHNoSDZ3PT0%3D--0d7ffccad154ef4a7c69b322003e3a23d4bf8e8b; path=/; HttpOnly",
+        "X-Request-Id": "ad3c3d8c-833c-445c-9d6f-cd6f0ea96561",
+        "X-Runtime": "0.089347",
+        "Content-Length": "138"
+      },
+      "response_content_type": "application/json; charset=utf-8",
+      "curl": "curl \"http://localhost:3000/admin/orders/1/update_status\" -d 'order[action]=dispatch' -X PUT \\\n\t-H \"Access-Token: avKoqRFJv9W5uifXArK6aQ\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: hYyQAx2PqFZtY1kWYU-pyw\" \\\n\t-H \"Expiry: 1457714419\" \\\n\t-H \"Uid: 31marian_beer@cummings.name\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+    }
+  ]
+}

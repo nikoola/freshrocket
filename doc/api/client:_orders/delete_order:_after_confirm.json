@@ -1,0 +1,49 @@
+{
+  "resource": "client: orders",
+  "http_method": "DELETE",
+  "route": "/client/orders/:id",
+  "description": "delete order: after confirm",
+  "explanation": null,
+  "parameters": [
+
+  ],
+  "response_fields": [
+
+  ],
+  "requests": [
+    {
+      "request_method": "DELETE",
+      "request_path": "/client/orders/3",
+      "request_body": null,
+      "request_headers": {
+        "Access-Token": "t2cmr5O98BuQzDTIl82bvg",
+        "Token-Type": "Bearer",
+        "Client": "1uoinhaI8o4i-P5mL3Ryyw",
+        "Expiry": "1457714428",
+        "Uid": "78jerrod@davis.org",
+        "Host": "example.org",
+        "Content-Type": "application/x-www-form-urlencoded",
+        "Cookie": ""
+      },
+      "request_query_parameters": {
+      },
+      "request_content_type": "application/x-www-form-urlencoded",
+      "response_status": 422,
+      "response_status_text": "Unprocessable Entity",
+      "response_body": "{\n  \"order\": [\n    \"can't be destroyed after confirmation, please try declining\"\n  ]\n}",
+      "response_headers": {
+        "X-Frame-Options": "SAMEORIGIN",
+        "X-XSS-Protection": "1; mode=block",
+        "X-Content-Type-Options": "nosniff",
+        "Content-Type": "application/json; charset=utf-8",
+        "Cache-Control": "no-cache",
+        "Set-Cookie": "_session_id=TGw2WHZlcm50bjRqd25MOXF4SE9MU2dyOUFEVnlIUEFMalY1TS9yOU5sV2UyMEdyU2w1ZUZuYnM4T0xJVWEvbnRNU3AxL0ZyUWdXUHM5U2pjUkRiaUt0WklMM3BVQlJEU1R1SzVkWUdLQVh6b0lmQjVBbnhvK0VndFVkYjZ6enR1ZTd4MEM0ZDJOQUorWml4QVFIVElXWmNGMXVnblRlWW85S1RrUUNtQWg1dHZXVldyRURGc1lvaHpuUjFpNVAwLS02TUNBclZBdFo3dnhRbTVmRnA2aTBRPT0%3D--c2d7131226bbfa6bbbd3334e7ec975e7a3ea48eb; path=/; HttpOnly",
+        "X-Request-Id": "98f3b055-1305-4deb-9485-35e04e49ac3a",
+        "X-Runtime": "0.077117",
+        "Content-Length": "73"
+      },
+      "response_content_type": "application/json; charset=utf-8",
+      "curl": "curl \"http://localhost:3000/client/orders/3\" -d '' -X DELETE \\\n\t-H \"Access-Token: t2cmr5O98BuQzDTIl82bvg\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: 1uoinhaI8o4i-P5mL3Ryyw\" \\\n\t-H \"Expiry: 1457714428\" \\\n\t-H \"Uid: 78jerrod@davis.org\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+    }
+  ]
+}

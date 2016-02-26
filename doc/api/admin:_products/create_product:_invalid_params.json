@@ -1,0 +1,87 @@
+{
+  "resource": "admin: products",
+  "http_method": "POST",
+  "route": "/admin/products",
+  "description": "create product: invalid params",
+  "explanation": null,
+  "parameters": [
+    {
+      "scope": "product",
+      "required": true,
+      "name": "title",
+      "description": ""
+    },
+    {
+      "scope": "product",
+      "required": true,
+      "name": "price",
+      "description": ""
+    },
+    {
+      "scope": "product",
+      "required": true,
+      "name": "inventory_count",
+      "description": "amount of product in stock"
+    },
+    {
+      "scope": "product",
+      "required": true,
+      "name": "city_id",
+      "description": "product served at city"
+    },
+    {
+      "scope": "product",
+      "name": "image",
+      "description": "Product image"
+    },
+    {
+      "scope": "product",
+      "name": "category_ids",
+      "description": "array of ids of categories product belongs to"
+    },
+    {
+      "scope": "product",
+      "name": "description",
+      "description": "Product description"
+    }
+  ],
+  "response_fields": [
+
+  ],
+  "requests": [
+    {
+      "request_method": "POST",
+      "request_path": "/admin/products",
+      "request_body": "product[title]=fish&product[price]",
+      "request_headers": {
+        "Access-Token": "nxwtwM2MiDGuBcHdEn9evg",
+        "Token-Type": "Bearer",
+        "Client": "3puUktlQJf3hF4PYaOAANw",
+        "Expiry": "1457714419",
+        "Uid": "33alexander@gutkowski.org",
+        "Host": "example.org",
+        "Content-Type": "application/x-www-form-urlencoded",
+        "Cookie": ""
+      },
+      "request_query_parameters": {
+      },
+      "request_content_type": "application/x-www-form-urlencoded",
+      "response_status": 422,
+      "response_status_text": "Unprocessable Entity",
+      "response_body": "{\n  \"price\": [\n    \"can't be blank\"\n  ],\n  \"inventory_count\": [\n    \"can't be blank\",\n    \"is not a number\"\n  ],\n  \"city\": [\n    \"can't be blank\"\n  ]\n}",
+      "response_headers": {
+        "X-Frame-Options": "SAMEORIGIN",
+        "X-XSS-Protection": "1; mode=block",
+        "X-Content-Type-Options": "nosniff",
+        "Content-Type": "application/json; charset=utf-8",
+        "Cache-Control": "no-cache",
+        "Set-Cookie": "_session_id=Znh3U215UStKb2l4Q05iRHNacG1SL1pQMHE1dlJjQTZJc2VRcWNkaXptdld5dFFYbnNlNHJPMUJwaWMvZTNGUzhkVlhJa0VNVWlDblpkL2pJMWNtY1lmUnFpN3FSc1N5d0pVWjl2cnp0cjFTOTB3Qzc1TklaN2VRYXpncERaYW9DWHRmWklPakZkWDVyaEJia1EvYWNXN2lTWTdlSmJpMUVQTURWTUdrZmxuMTNnYjV3SXpHMFpDSlA0Nks1ejJqLS00Qjc0VXBxbHBobzYySjd1V1lVQWJRPT0%3D--89fa9c8bd221b58d2be9e6402f4ac7264a0146df; path=/; HttpOnly",
+        "X-Request-Id": "69e9ebae-fd3d-4332-a1c3-6b335aa50934",
+        "X-Runtime": "0.100471",
+        "Content-Length": "109"
+      },
+      "response_content_type": "application/json; charset=utf-8",
+      "curl": "curl \"http://localhost:3000/admin/products\" -d 'product[title]=fish&product[price]' -X POST \\\n\t-H \"Access-Token: nxwtwM2MiDGuBcHdEn9evg\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: 3puUktlQJf3hF4PYaOAANw\" \\\n\t-H \"Expiry: 1457714419\" \\\n\t-H \"Uid: 33alexander@gutkowski.org\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+    }
+  ]
+}
