@@ -1,6 +1,6 @@
 require 'rails_helper'
 
-resource 'Settings', type: :request do
+resource 'admin: settings', type: :request do
 
 	let(:prohibited_user) { FactoryGirl.create :user, abilities: [:categories, :users] }
 	let(:prohibited_auth_headers) { prohibited_user.create_new_auth_token }

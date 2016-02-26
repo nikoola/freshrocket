@@ -1,6 +1,6 @@
 require 'rails_helper'
 
-resource 'Delivery boys', type: :request do
+resource 'deliver: delivery boys', type: :request do
 	let(:user) { FactoryGirl.create :user }
 	let(:auth_headers) { user.create_new_auth_token }
 

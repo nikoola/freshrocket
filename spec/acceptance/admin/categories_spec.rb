@@ -1,6 +1,6 @@
 require 'rails_helper'
 
-resource 'Categories', type: :request do
+resource 'admin: categories', type: :request do
 
 	let(:user) { FactoryGirl.create :user, abilities: ['categories'] }
 	let(:auth_headers) { user.create_new_auth_token }

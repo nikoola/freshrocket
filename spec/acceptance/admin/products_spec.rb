@@ -1,6 +1,6 @@
 require 'rails_helper'
 
-resource 'Products', type: :request do
+resource 'admin: products', type: :request do
 
 	let(:city)           { FactoryGirl.create :city }
 	let(:valid_params)   { {title: 'fish', price: '3.0', inventory_count: 2, city_id: city.id} }

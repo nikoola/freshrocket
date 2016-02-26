@@ -1,6 +1,6 @@
 require 'rails_helper'
 
-resource 'Coupons', type: :request do
+resource 'admin: coupons', type: :request do
 
 	let(:user) { FactoryGirl.create :user, abilities: [:coupons] }
 	let(:auth_headers) { user.create_new_auth_token }

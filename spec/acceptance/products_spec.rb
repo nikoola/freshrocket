@@ -1,6 +1,6 @@
 require 'rails_helper'
 
-resource 'Products', type: :request do
+resource 'products', type: :request do
 
 	before(:all) do
 		@city_1, @city_2 = FactoryGirl.create_list :city, 2

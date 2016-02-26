@@ -1,6 +1,6 @@
 require 'rails_helper'
 
-resource 'Orders', type: :request do
+resource 'client: orders', type: :request do
 
 	let(:user) { FactoryGirl.create :verified_user }
 	let(:auth_headers) { user.create_new_auth_token }

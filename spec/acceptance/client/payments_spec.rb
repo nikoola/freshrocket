@@ -1,6 +1,6 @@
 require 'rails_helper'
 
-resource 'Payments', type: :request do
+resource 'client: payments', type: :request do
 
 	let(:user) { FactoryGirl.create :verified_user }
 	let(:auth_headers) { user.create_new_auth_token }

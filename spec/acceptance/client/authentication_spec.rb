@@ -1,6 +1,6 @@
 require 'rails_helper'
 
-resource 'Authentication', type: :request do
+resource 'client: authentication', type: :request do
 
 	let(:user) { FactoryGirl.create :user }
 	let(:auth_headers) { user.create_new_auth_token }

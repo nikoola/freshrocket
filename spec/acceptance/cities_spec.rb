@@ -1,6 +1,6 @@
 require 'rails_helper'
 
-resource 'categories', type: :request do
+resource 'cities', type: :request do
 
 
 	get '/categories' do
