@@ -30,11 +30,11 @@
       "request_path": "/admin/users/1",
       "request_body": "user[phone]=%2B79177878978",
       "request_headers": {
-        "Access-Token": "D7LZEc_WAtpTgtd1CvIhQw",
+        "Access-Token": "zQykWNYeN7sjekaWzCQ3fw",
         "Token-Type": "Bearer",
-        "Client": "PuLXaQqT6u55I9UINmFtjQ",
-        "Expiry": "1457430054",
-        "Uid": "50ima.prosacco@caspervon.name",
+        "Client": "riEn3Silovh016m_8PMKjA",
+        "Expiry": "1457681380",
+        "Uid": "50brady_goldner@upton.com",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -44,21 +44,21 @@
       "request_content_type": "application/x-www-form-urlencoded",
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\n  \"id\": 1,\n  \"first_name\": \"Amanda\",\n  \"last_name\": \"Lebsack\",\n  \"email\": \"49ed.bogan@balistreri.info\",\n  \"phone\": \"+79177878978\",\n  \"is_verified\": false,\n  \"provider\": \"email\",\n  \"uid\": \"49ed.bogan@balistreri.info\",\n  \"created_at\": \"2016-02-23T09:40:54.642Z\",\n  \"abilities\": {\n    \"orders\": 0,\n    \"products\": 0,\n    \"users\": 0,\n    \"categories\": 1,\n    \"coupons\": 0,\n    \"settings\": 0,\n    \"delivery_boy\": 0\n  }\n}",
+      "response_body": "{\n  \"id\": 1,\n  \"first_name\": \"Rachael\",\n  \"last_name\": \"Hilpert\",\n  \"email\": \"49lavern_ziemann@blickhodkiewicz.org\",\n  \"phone\": \"+79177878978\",\n  \"is_verified\": false,\n  \"provider\": \"email\",\n  \"uid\": \"49lavern_ziemann@blickhodkiewicz.org\",\n  \"created_at\": \"2016-02-26T07:29:40.485Z\",\n  \"abilities\": {\n    \"orders\": 0,\n    \"products\": 0,\n    \"users\": 0,\n    \"categories\": 1,\n    \"coupons\": 0,\n    \"settings\": 0,\n    \"cities\": 0,\n    \"delivery_boy\": 0\n  }\n}",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"b6f67050e8e9f3d01328ae6e567e9caf\"",
+        "ETag": "W/\"f024cc8f54effd38ebc4a6c73c4a75a8\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=YTUvb2t3ek5FRXRUcFN2MUQreC9YRXlENTRSWVZWUHN3NThVTk1BanFpNGdIeWhHUmxDWmxSamF5eUFpQ3F4TStmRytOV053emN1SURCbjZXMDZOOGxBYURKUGhFdnlGRFlOL0h3R28zMXZ0SlNvZGR4RjdMdmRtenNMYjFSZzBZUVF3Y0xTMmJCTUNrY2c5ZTNYUTFYL1cyUDdwU0pvbFIvRnZpc0RQQkkzZ3JzSHBTY2o1YW9JUGkzWkVnRXBHLS0wa3ppMUthWTVmTVZXSjk0eGtzb3B3PT0%3D--52478bb17efd9e8a5997a167d1ab70cb694d17ba; path=/; HttpOnly",
-        "X-Request-Id": "f44a16d3-92ed-467e-b3c1-d0692a4aebba",
-        "X-Runtime": "0.109899",
-        "Content-Length": "331"
+        "Set-Cookie": "_session_id=bkNzMGpGcEJ2bDBSaUM2VW9nTEg5Uzl6Q0RnK3dldFcxQVF4bjN4MndSR1drMXNoU28zdWlLWTVBc1BVcDd2MjRJV1d6TWxqUWNYNGhxenRCTnNMOGF5NjNINkRzZHhyNFprckhsTTZtcVZidHRKdUNsNHdYYXQ4ZTBqeDNVU21pVTkxWnQvK0RxWTVCK3gwQkd4VWIrYVZOUVQrQnJhVTZvYmR2ajkwRloxS2srby9WTUExcHZUQjZFOUhkNkdSLS0xVlVWUElWdTNvRmNTRTlSUk4rS3d3PT0%3D--a7ea9bcf204da2a255a4aa0f87ef1333ca6f1d91; path=/; HttpOnly",
+        "X-Request-Id": "ec217ed5-597c-463e-8377-f281d780d8c5",
+        "X-Runtime": "0.085960",
+        "Content-Length": "363"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/admin/users/1\" -d 'user[phone]=%2B79177878978' -X PUT \\\n\t-H \"Access-Token: D7LZEc_WAtpTgtd1CvIhQw\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: PuLXaQqT6u55I9UINmFtjQ\" \\\n\t-H \"Expiry: 1457430054\" \\\n\t-H \"Uid: 50ima.prosacco@caspervon.name\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/admin/users/1\" -d 'user[phone]=%2B79177878978' -X PUT \\\n\t-H \"Access-Token: zQykWNYeN7sjekaWzCQ3fw\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: riEn3Silovh016m_8PMKjA\" \\\n\t-H \"Expiry: 1457681380\" \\\n\t-H \"Uid: 50brady_goldner@upton.com\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

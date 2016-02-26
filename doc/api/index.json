@@ -258,8 +258,8 @@
       "name": "Payments",
       "examples": [
         {
-          "description": "return all forms for payment",
-          "link": "payments/return_all_forms_for_payment.json",
+          "description": "return all forms for payment for own order",
+          "link": "payments/return_all_forms_for_payment_for_own_order.json",
           "groups": "all",
           "route": "/client/payments/new",
           "method": "get"
@@ -279,6 +279,13 @@
         {
           "description": "create product: invalid params",
           "link": "products/create_product:_invalid_params.json",
+          "groups": "all",
+          "route": "/admin/products",
+          "method": "post"
+        },
+        {
+          "description": "creates product with image",
+          "link": "products/creates_product_with_image.json",
           "groups": "all",
           "route": "/admin/products",
           "method": "post"

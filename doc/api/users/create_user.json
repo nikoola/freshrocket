@@ -43,13 +43,13 @@
     {
       "request_method": "POST",
       "request_path": "/auth",
-      "request_body": "email=83berniece.flatley%40abshireryan.com&password=secrety_bickety&password_confirmation=secrety_bickety&first_name=Marcella&last_name=Hansen&phone=%2B79172343270",
+      "request_body": "email=83winona%40hand.info&password=secrety_bickety&password_confirmation=secrety_bickety&first_name=Jaden&last_name=Jerde&phone=%2B79172343270",
       "request_headers": {
-        "Access-Token": "Ju06jvMAIgV0ymepeQMgQg",
+        "Access-Token": "cgYhSEKUjFO5AYRVuFMt4Q",
         "Token-Type": "Bearer",
-        "Client": "vLbHUkKb3eugzwNXQ9O2vw",
-        "Expiry": "1457430062",
-        "Uid": "84filiberto@schulist.biz",
+        "Client": "qVU-GOb_rIU58yit5dBuhg",
+        "Expiry": "1457681387",
+        "Uid": "84freddie.kling@willms.biz",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -59,25 +59,25 @@
       "request_content_type": "application/x-www-form-urlencoded",
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\n  \"status\": \"success\",\n  \"data\": {\n    \"id\": 4,\n    \"city_id\": null,\n    \"first_name\": \"Marcella\",\n    \"last_name\": \"Hansen\",\n    \"email\": \"83berniece.flatley@abshireryan.com\",\n    \"provider\": \"email\",\n    \"uid\": \"83berniece.flatley@abshireryan.com\",\n    \"phone\": \"+79172343270\",\n    \"verification_code\": null,\n    \"is_verified\": false,\n    \"created_at\": \"2016-02-23T09:41:02.588Z\",\n    \"updated_at\": \"2016-02-23T09:41:02.733Z\"\n  }\n}",
+      "response_body": "{\n  \"status\": \"success\",\n  \"data\": {\n    \"id\": 4,\n    \"first_name\": \"Jaden\",\n    \"last_name\": \"Jerde\",\n    \"email\": \"83winona@hand.info\",\n    \"provider\": \"email\",\n    \"uid\": \"83winona@hand.info\",\n    \"phone\": \"+79172343270\",\n    \"verification_code\": null,\n    \"is_verified\": false,\n    \"created_at\": \"2016-02-26T07:29:47.449Z\",\n    \"updated_at\": \"2016-02-26T07:29:47.594Z\"\n  }\n}",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
-        "access-token": "_Jo7FLuf9gxMTafR1uOscA",
+        "access-token": "kKeA7h7iQdwDeo812HeS_Q",
         "token-type": "Bearer",
-        "client": "6YU4OmernGkMvIy6UIfHpg",
-        "expiry": "1457430062",
-        "uid": "83berniece.flatley@abshireryan.com",
+        "client": "g8YmcbuxdI2QR9zvD7VHHQ",
+        "expiry": "1457681387",
+        "uid": "83winona@hand.info",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"863e5d562cf19f760484dc9388452aba\"",
+        "ETag": "W/\"29412a7b1ee4cd04aa8a20ec2b1d8531\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "X-Request-Id": "bdf725be-e528-4e50-b2cc-97e1147eca5d",
-        "X-Runtime": "0.162373",
-        "Content-Length": "351"
+        "X-Request-Id": "e74fbc0d-2b2c-4264-b573-c4fa0175e4c9",
+        "X-Runtime": "0.163485",
+        "Content-Length": "300"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/auth\" -d 'email=83berniece.flatley%40abshireryan.com&password=secrety_bickety&password_confirmation=secrety_bickety&first_name=Marcella&last_name=Hansen&phone=%2B79172343270' -X POST \\\n\t-H \"Access-Token: Ju06jvMAIgV0ymepeQMgQg\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: vLbHUkKb3eugzwNXQ9O2vw\" \\\n\t-H \"Expiry: 1457430062\" \\\n\t-H \"Uid: 84filiberto@schulist.biz\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/auth\" -d 'email=83winona%40hand.info&password=secrety_bickety&password_confirmation=secrety_bickety&first_name=Jaden&last_name=Jerde&phone=%2B79172343270' -X POST \\\n\t-H \"Access-Token: cgYhSEKUjFO5AYRVuFMt4Q\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: qVU-GOb_rIU58yit5dBuhg\" \\\n\t-H \"Expiry: 1457681387\" \\\n\t-H \"Uid: 84freddie.kling@willms.biz\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

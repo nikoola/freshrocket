@@ -38,6 +38,11 @@
       "scope": "product",
       "name": "category_ids",
       "description": "array of ids of categories product belongs to"
+    },
+    {
+      "scope": "product",
+      "name": "description",
+      "description": "Product description"
     }
   ],
   "response_fields": [
@@ -49,11 +54,11 @@
       "request_path": "/admin/products",
       "request_body": "product[title]=fish&product[price]",
       "request_headers": {
-        "Access-Token": "FUBwIo3yT1EvtgQAbT451Q",
+        "Access-Token": "abZsDDT89hMk3dCMFuQvHg",
         "Token-Type": "Bearer",
-        "Client": "-FButwRkXuqkNeJNbcDC_Q",
-        "Expiry": "1457430051",
-        "Uid": "30mallie_lehner@boehm.net",
+        "Client": "5mTZNA-H_6ZHrIrw3oO1oQ",
+        "Expiry": "1457681377",
+        "Uid": "30frank_oconnell@tromp.net",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -70,13 +75,13 @@
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "application/json; charset=utf-8",
         "Cache-Control": "no-cache",
-        "Set-Cookie": "_session_id=VjlKVHBMMkNWaFp1OUljMG4rZHA3elZDaDBOQVIzYXZZRTAxbnpTQXJ4eWF0VitWMUprY0FJdlZQMGpqSmpyVEwwQVBPdFBzNytsY0lxT2lCSEZhNzZEY2N5ZFZmVUp3TFAzZWExNm8zdythK3pldFZsV2FranBxYXJNSXlleHBKV040eGpxZHg4cExjak5xQnVKWXh0WjJLRjJERUJZTG9KSFA3SEVDa2t6amhkTG5JTXN6aVN4L2tZSjNxVWVHLS1neWZaL3I2ZGh1N2VPSS95TEZKaHFnPT0%3D--a9b2e987489cce72cb55e1307219d735f63581f6; path=/; HttpOnly",
-        "X-Request-Id": "626c13f3-b43c-4b94-8cda-dbf4326bc7da",
-        "X-Runtime": "0.087765",
+        "Set-Cookie": "_session_id=TTVVUGxUbHBkOEZrNkRDbjZzMUdBSlFRYjRjUFlkQ0N5cjJCUnJTZGZXeE5tVUFmRXF5ZlZCM1RKU3NXZXlLblQrZlE4dzNRbHhRbzYxRy9FR283ZGMvMlU3Y1VFcUkvdDJyVFoxYTFRU3llNXhEZnV6UkNwRm9NVXFyRFVYSzc0MDdnTlU0L2E2ZzRoS1NDeXBmc2RQSzZPbStTd0cxcEZnWFdrY0kzN3BLdERLVHFOckViQzdDd1BQT1lkcCt4LS0wVEdVMzgrYUFIS0RhUHpJeEV2NHhRPT0%3D--983949c33f4d10b4910d81e00ee3c618af1e914a; path=/; HttpOnly",
+        "X-Request-Id": "6edf0268-a477-4a89-9bd6-6fd4819d7900",
+        "X-Runtime": "0.086444",
         "Content-Length": "109"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/admin/products\" -d 'product[title]=fish&product[price]' -X POST \\\n\t-H \"Access-Token: FUBwIo3yT1EvtgQAbT451Q\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: -FButwRkXuqkNeJNbcDC_Q\" \\\n\t-H \"Expiry: 1457430051\" \\\n\t-H \"Uid: 30mallie_lehner@boehm.net\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/admin/products\" -d 'product[title]=fish&product[price]' -X POST \\\n\t-H \"Access-Token: abZsDDT89hMk3dCMFuQvHg\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: 5mTZNA-H_6ZHrIrw3oO1oQ\" \\\n\t-H \"Expiry: 1457681377\" \\\n\t-H \"Uid: 30frank_oconnell@tromp.net\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

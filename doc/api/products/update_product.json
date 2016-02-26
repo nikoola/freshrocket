@@ -38,6 +38,11 @@
       "scope": "product",
       "name": "category_ids",
       "description": "array of ids of categories product belongs to"
+    },
+    {
+      "scope": "product",
+      "name": "description",
+      "description": "Product description"
     }
   ],
   "response_fields": [
@@ -49,11 +54,11 @@
       "request_path": "/admin/products/1",
       "request_body": "product[title]=hi",
       "request_headers": {
-        "Access-Token": "WwymL759_tROXoalaJqmlQ",
+        "Access-Token": "MB9KNKPKLQWLcvkG_N4MuA",
         "Token-Type": "Bearer",
-        "Client": "pp7J4EoYbszk5hd7c2K_kg",
-        "Expiry": "1457430052",
-        "Uid": "32quinten.turcotte@wiegand.org",
+        "Client": "6542UdpsZ_WlydoqWicOeA",
+        "Expiry": "1457681378",
+        "Uid": "32elian@luettgen.biz",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -63,21 +68,21 @@
       "request_content_type": "application/x-www-form-urlencoded",
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\n  \"id\": 1,\n  \"city_id\": 1,\n  \"title\": \"hi\",\n  \"price\": \"3.0\",\n  \"created_at\": \"2016-02-23T09:40:52.179Z\",\n  \"updated_at\": \"2016-02-23T09:40:52.362Z\",\n  \"inventory_count\": 20,\n  \"image_url\": \"uploads/product/image/default.png\"\n}",
+      "response_body": "{\n  \"id\": 1,\n  \"city_id\": 1,\n  \"title\": \"hi\",\n  \"price\": \"3.0\",\n  \"description\": null,\n  \"created_at\": \"2016-02-26T07:29:38.154Z\",\n  \"updated_at\": \"2016-02-26T07:29:38.322Z\",\n  \"inventory_count\": 20,\n  \"image_url\": \"uploads/product/image/default.png\"\n}",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"8e86c73cc9c67e5cbb1ed55fadb4ec51\"",
+        "ETag": "W/\"d17d3e5212a7e41aa1b4cdcfe5cb2fbb\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=TDV6RU1UMWhQRzdmRmpEYWo4TC8vUnNwMFl0L3ZvTm52UWFtQy91U1ZEdnA3Zis2bUd2YTdQcjNzUlZDQTUxdXRZbHZWVDN0bE96VUNlK2dGZFpGV1AyTjVrNE8vV1kwbFdyQ1RzYTV4ZkF1Snh4QjU0OFVraDl6dndtVzVjUnhDMFF1eTQwWUJNaGU4ME1xZVozY0k5REVhbXFtMklZWWNVUnBmR3JzZjBoaDBoZVJCSG9rdjRDamZoZXBVeU5ILS1HVnQvNElHOEJqaURMeU5TL285c3FBPT0%3D--d9af91b1b6d33da909640b792ee4191efe11da4e; path=/; HttpOnly",
-        "X-Request-Id": "f675c999-a1ba-4911-a263-f9b0996a2ecc",
-        "X-Runtime": "0.086459",
-        "Content-Length": "196"
+        "Set-Cookie": "_session_id=V0o4Z1Q5MVR6ZzRtY3F4cC9LZW9FYXRWK3J0RDhHbTNrUGFtVm9ydndOY3JLb2JwZzdRK3VGNnB2eEJxbC9ST0ljbzFiR0cya2dkaGEva3pSTWF1TGdLZFdPcW1TbzE3K0NuK1A1cEgrbjJjalhlQVd1RVpRaThGLzdGWmw2SlMwNHUwSEpOQVRzTWRCalIvN29YSlNSWi9PbkxYZ0hXTUZnMUgzcGpjVGg5TW4zQVl1bzhMdmZzenRXTlBTa2hSLS1NS3J6TTRiWWhFQ0JBQi9yMzc5bUlnPT0%3D--2b96d3f067adbd8f4fdb58ebba6a355de6bd1197; path=/; HttpOnly",
+        "X-Request-Id": "1d0f1acf-6d3e-4639-aa2e-b36696ee20b1",
+        "X-Runtime": "0.083920",
+        "Content-Length": "215"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/admin/products/1\" -d 'product[title]=hi' -X PUT \\\n\t-H \"Access-Token: WwymL759_tROXoalaJqmlQ\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: pp7J4EoYbszk5hd7c2K_kg\" \\\n\t-H \"Expiry: 1457430052\" \\\n\t-H \"Uid: 32quinten.turcotte@wiegand.org\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/admin/products/1\" -d 'product[title]=hi' -X PUT \\\n\t-H \"Access-Token: MB9KNKPKLQWLcvkG_N4MuA\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: 6542UdpsZ_WlydoqWicOeA\" \\\n\t-H \"Expiry: 1457681378\" \\\n\t-H \"Uid: 32elian@luettgen.biz\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

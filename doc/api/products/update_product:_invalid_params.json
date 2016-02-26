@@ -38,6 +38,11 @@
       "scope": "product",
       "name": "category_ids",
       "description": "array of ids of categories product belongs to"
+    },
+    {
+      "scope": "product",
+      "name": "description",
+      "description": "Product description"
     }
   ],
   "response_fields": [
@@ -49,11 +54,11 @@
       "request_path": "/admin/products/1",
       "request_body": "product[title]",
       "request_headers": {
-        "Access-Token": "LPBLtdHNqPt2_9YA_ONA3Q",
+        "Access-Token": "me8uTdzArizC6ykbKpanvg",
         "Token-Type": "Bearer",
-        "Client": "jl0--UIAyrPmq4di-fzcpg",
-        "Expiry": "1457430052",
-        "Uid": "33holly@ricehand.org",
+        "Client": "aYEL77cUwnWqf2RX6I-L7A",
+        "Expiry": "1457681378",
+        "Uid": "33lois_ziemann@terry.net",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -70,13 +75,13 @@
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "application/json; charset=utf-8",
         "Cache-Control": "no-cache",
-        "Set-Cookie": "_session_id=T0lxOHBZakZYMzk2cyszY2RZeEtvdDZXclEzbnpNNFZtTHQ2eTUydjJ6ZkR1Y1p0VFpwVUZCNTFSU240K0N3YnVJa3J3d09Sem5WanBxY2V5MXJkbks2Q240NjYrRXQ0N1Rmc3c0UVZvM0IzNE5zb0pyV1ZoU0w2TWJqOFdWVXExZzdwZERVa2VlcEgvQW42WnluWGcyRDhGYkJSM3ZHN1F2bEpVeHQyVTlDeUE3MnZHQ1hxRHpHekRsaHA4ejg1LS1YY3Q3V0ExcU1EM1d0K1IzckpPYi9RPT0%3D--edc3dbec3aae6173385f46a2f7b2f1b70a7afca6; path=/; HttpOnly",
-        "X-Request-Id": "67cbe4e4-dafc-4667-bc0c-095db01b6096",
-        "X-Runtime": "0.085968",
+        "Set-Cookie": "_session_id=cTZ4NUdOM21rSVYwRUF1VGxiTTVsaFhBNnBsclI3elh0cE00bE5TcExEbFhaODZnbDdsM1FGSDZuWnFNdnhJY1NXZHFFcURMRlVUcjNUZTJtMzhMZ1V1WC8wRms4U1FVbDZ1V1BpZGJWUnlGdTF4ZXgvQ3MxakFWV3pxVmJYbVNHSVMwemw2dFdwVkU0U2JSZjVibjBZNmRPRTd4bjQwcWdSQWp1V09xcUJhRmFReWFpVUUySWE3ekJ3MlZ5M0ZzLS1xc1Z6ZjQvOEpQcG05S0Z0dk1KRzFnPT0%3D--46d320e9536b948b22449d41d3b606910b1c7dd6; path=/; HttpOnly",
+        "X-Request-Id": "8095a843-e736-474d-bea2-90b25cd0a440",
+        "X-Runtime": "0.083415",
         "Content-Length": "28"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/admin/products/1\" -d 'product[title]' -X PUT \\\n\t-H \"Access-Token: LPBLtdHNqPt2_9YA_ONA3Q\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: jl0--UIAyrPmq4di-fzcpg\" \\\n\t-H \"Expiry: 1457430052\" \\\n\t-H \"Uid: 33holly@ricehand.org\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/admin/products/1\" -d 'product[title]' -X PUT \\\n\t-H \"Access-Token: me8uTdzArizC6ykbKpanvg\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: aYEL77cUwnWqf2RX6I-L7A\" \\\n\t-H \"Expiry: 1457681378\" \\\n\t-H \"Uid: 33lois_ziemann@terry.net\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

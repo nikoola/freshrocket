@@ -23,7 +23,7 @@
     {
       "request_method": "POST",
       "request_path": "/auth/sign_in",
-      "request_body": "email=64zaria%40hermandubuque.info&password=secrety_bickety",
+      "request_body": "email=64kelton%40muller.name&password=secrety_bickety",
       "request_headers": {
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
@@ -34,25 +34,25 @@
       "request_content_type": "application/x-www-form-urlencoded",
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\n  \"data\": {\n    \"id\": 1,\n    \"city_id\": null,\n    \"first_name\": \"Edwina\",\n    \"last_name\": \"Dach\",\n    \"email\": \"64zaria@hermandubuque.info\",\n    \"provider\": \"email\",\n    \"uid\": \"64zaria@hermandubuque.info\",\n    \"phone\": \"+79173677366\",\n    \"verification_code\": null,\n    \"is_verified\": false\n  }\n}",
+      "response_body": "{\n  \"data\": {\n    \"id\": 1,\n    \"first_name\": \"Patrick\",\n    \"last_name\": \"Beatty\",\n    \"email\": \"64kelton@muller.name\",\n    \"provider\": \"email\",\n    \"uid\": \"64kelton@muller.name\",\n    \"phone\": \"+79179170286\",\n    \"verification_code\": null,\n    \"is_verified\": false\n  }\n}",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
-        "access-token": "m5SPNW7NqqCOqW0rs3rGNQ",
+        "access-token": "oOlMG-sfmHTDiInkXYcGAQ",
         "token-type": "Bearer",
-        "client": "ARbfdxeWcCXepdHm263DNg",
-        "expiry": "1457430057",
-        "uid": "64zaria@hermandubuque.info",
+        "client": "SHlB2msvV44AueqMIumz5A",
+        "expiry": "1457681382",
+        "uid": "64kelton@muller.name",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"712824abb002046089e22125fd2a4d04\"",
+        "ETag": "W/\"adfe6b3dbf83cf5009febc01761e47f9\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "X-Request-Id": "df556173-32fc-41c9-8079-5fe72d5e5d7d",
-        "X-Runtime": "0.163187",
-        "Content-Length": "232"
+        "X-Request-Id": "6fe8fb58-6297-4ad1-9775-a82f7cbbd89f",
+        "X-Runtime": "0.178993",
+        "Content-Length": "208"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/auth/sign_in\" -d 'email=64zaria%40hermandubuque.info&password=secrety_bickety' -X POST \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/auth/sign_in\" -d 'email=64kelton%40muller.name&password=secrety_bickety' -X POST \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

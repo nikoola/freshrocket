@@ -27,11 +27,11 @@
       "request_path": "/admin/users?has_abillity=users",
       "request_body": null,
       "request_headers": {
-        "Access-Token": "UDrrSYB9LxPOV0qMRUOY6g",
+        "Access-Token": "HX03H5hXYvktA7xaC8inRQ",
         "Token-Type": "Bearer",
-        "Client": "sxJ9X5Kx1hStTygWzMBJOQ",
-        "Expiry": "1457430054",
-        "Uid": "43hayden_daugherty@jacobsklein.info",
+        "Client": "hfsUwQsuX5Fb6gSmqlhHbQ",
+        "Expiry": "1457681379",
+        "Uid": "43keely.terry@hirthe.com",
         "Host": "example.org",
         "Cookie": ""
       },
@@ -41,21 +41,21 @@
       "request_content_type": null,
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "[\n  {\n    \"id\": 2,\n    \"first_name\": \"Zackery\",\n    \"last_name\": \"Hoppe\",\n    \"email\": \"43hayden_daugherty@jacobsklein.info\",\n    \"phone\": \"+79175764254\",\n    \"is_verified\": false,\n    \"provider\": \"email\",\n    \"uid\": \"43hayden_daugherty@jacobsklein.info\",\n    \"created_at\": \"2016-02-23T09:40:53.997Z\",\n    \"abilities\": {\n      \"orders\": 0,\n      \"products\": 0,\n      \"users\": 1,\n      \"categories\": 0,\n      \"coupons\": 0,\n      \"settings\": 0,\n      \"delivery_boy\": 0\n    }\n  }\n]",
+      "response_body": "[\n  {\n    \"id\": 2,\n    \"first_name\": \"Omari\",\n    \"last_name\": \"Waelchi\",\n    \"email\": \"43keely.terry@hirthe.com\",\n    \"phone\": \"+79173526094\",\n    \"is_verified\": false,\n    \"provider\": \"email\",\n    \"uid\": \"43keely.terry@hirthe.com\",\n    \"created_at\": \"2016-02-26T07:29:39.902Z\",\n    \"abilities\": {\n      \"orders\": 0,\n      \"products\": 0,\n      \"users\": 1,\n      \"categories\": 0,\n      \"coupons\": 0,\n      \"settings\": 0,\n      \"cities\": 0,\n      \"delivery_boy\": 0\n    }\n  }\n]",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"fbadbabecef3d327976f02749d6d00e2\"",
+        "ETag": "W/\"f032256c10027a7f8f8982e430c9acb1\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=bnFBUHBsTmRDK0ZVTTVtMEw3QnR2TTFuVTYwbmVOYmRYUVpJaldvcTR0SC95SGlRbXJ2MGQvZ1huY1FuU3AvSjMwbDRXUWYyUm96YmhiT3ZkRDRkNFk2QXE1OXJQWUZWczAwemZ5VW54Wko2T1BBaVo4aWZGdWFhWGtpNXRIeENKcmxkUFgvYXBmVFlXQXI2YWdUdkliRDkzOFJYNnplNGVva0xtUkVMOUFIamNHT3BKT0dFc0k0MmVPaXNQVldhLS1ZbWlCaE9SMkpRVFJuU1dYTUNINTRRPT0%3D--13e0235a4b958b15c8835ab428d204ff9d3c867c; path=/; HttpOnly",
-        "X-Request-Id": "97d824c7-f8c2-4ad6-9d2a-256c5cd40d89",
-        "X-Runtime": "0.086848",
-        "Content-Length": "350"
+        "Set-Cookie": "_session_id=WE9tbFF4Z0RkbUFSSmVCeEZ2dm1LYlh6SnRzWnE3QnJFNWlHK05kc0JrZkJDVWdycEFPbk9ZQUdyS1dGUkhlbmNvU1RGbGdHUzdOODdOYis0dWJxK3U0bmtGSVYycjMrdTE3WWU3NEtyVWNDTUozL0V6STNGTmxEZnB3V21Ddm5TYVNUQUdrd1BYSkt2d2VnR2dtV01PbUR4K29qUTZRNEU0VHQ0UXk3Mm1aNXVoMlpYWnFEYzFVc0drRFhGNGxXLS1ITUZTejV5OGdPTHJGc1NtaEVzUzBBPT0%3D--195bdfa32083258256a7f4915fabc314b0db1e63; path=/; HttpOnly",
+        "X-Request-Id": "5593d155-ebb6-4a42-baff-0ef7db2b2004",
+        "X-Runtime": "0.084887",
+        "Content-Length": "339"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/admin/users?has_abillity=users\" -X GET \\\n\t-H \"Access-Token: UDrrSYB9LxPOV0qMRUOY6g\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: sxJ9X5Kx1hStTygWzMBJOQ\" \\\n\t-H \"Expiry: 1457430054\" \\\n\t-H \"Uid: 43hayden_daugherty@jacobsklein.info\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/admin/users?has_abillity=users\" -X GET \\\n\t-H \"Access-Token: HX03H5hXYvktA7xaC8inRQ\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: hfsUwQsuX5Fb6gSmqlhHbQ\" \\\n\t-H \"Expiry: 1457681379\" \\\n\t-H \"Uid: 43keely.terry@hirthe.com\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

@@ -5,7 +5,22 @@
   "description": "user updates self: invalid params",
   "explanation": null,
   "parameters": [
-
+    {
+      "name": "email",
+      "description": " email"
+    },
+    {
+      "name": "phone",
+      "description": " phone"
+    },
+    {
+      "name": "first_name",
+      "description": " first name"
+    },
+    {
+      "name": "last_name",
+      "description": " last name"
+    }
   ],
   "response_fields": [
 
@@ -16,11 +31,11 @@
       "request_path": "/auth",
       "request_body": "phone",
       "request_headers": {
-        "Access-Token": "V3d1jprlOdS9vgDq4b3j_w",
+        "Access-Token": "Z7RAncca70Krb3gdUt-j0A",
         "Token-Type": "Bearer",
-        "Client": "0icJtKa7IhvYusnau4OTOg",
-        "Expiry": "1457430063",
-        "Uid": "88dorothea.heathcote@stoltenberg.name",
+        "Client": "8CzyCOMIG9KCez4ZmgUQoA",
+        "Expiry": "1457681387",
+        "Uid": "88emerald_gutkowski@stokes.net",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -37,13 +52,13 @@
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "application/json; charset=utf-8",
         "Cache-Control": "no-cache",
-        "Set-Cookie": "_session_id=Q3ZCeTY2aXlKMm15RFdkL1lycU54cTVvR3dzQk1VV3E2TEQrOG94dm5sVk95a3k3akxHQXZEYTVVc3prR1JpNHFBTkJ4QUVkS0x5OE1hV3JzYTJNS3NtZ2NlTUowS3FEV1RBUTJPTkRBcXRUR1BEWnEzNURGZzhncSt3SjgwTHFhVWw0b2RJY0pSQ0w2bSsxMGhZUmg5ZDRicER1S0JZVHMxN0cwUUlQdWdWcUJYZnQ2ZG4wOXpRSUlyZ0o3cm9ULS10Y3BPUU9nbDBSaUVpRjFqWDRmZGh3PT0%3D--597a3fd119e202a066c337f99cb7dc6b0f9b59d0; path=/; HttpOnly",
-        "X-Request-Id": "b4758ce3-5f08-4353-a86e-110b4b9ec8e0",
-        "X-Runtime": "0.078000",
+        "Set-Cookie": "_session_id=Yis1aVVVcjNKRkt3UmZHWUdNdm9WZDF4aGRiTFY2RHlVb0tLUmR1RlczVERTU1EyZlBxNUVsWlZNRHZ4Nmg5NWYxUHVIbEZJdGd0NE1IWG1maVVFR1lBK0dldkwzcm5mN2d5ZVlyTGlINk5iV1N5bkM5akdpL1Z3STZsNGl0N1BjSWJzS0dWR1k0R1dLSVBJVVdLbGUzTDJJZm02SEs4aFB0eGR2YjZVTXFzNXByLzRjR2dlaGR3NWdoSEExN2E3LS1SYm04T1gvNEFvcWJESTdDbGczcUl3PT0%3D--b1cf469ac69959b4a04eb92a4190875789b0947b; path=/; HttpOnly",
+        "X-Request-Id": "07bfafb4-85fb-4027-b87a-aa24c73d21bb",
+        "X-Runtime": "0.073949",
         "Content-Length": "129"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/auth\" -d 'phone' -X PUT \\\n\t-H \"Access-Token: V3d1jprlOdS9vgDq4b3j_w\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: 0icJtKa7IhvYusnau4OTOg\" \\\n\t-H \"Expiry: 1457430063\" \\\n\t-H \"Uid: 88dorothea.heathcote@stoltenberg.name\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/auth\" -d 'phone' -X PUT \\\n\t-H \"Access-Token: Z7RAncca70Krb3gdUt-j0A\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: 8CzyCOMIG9KCez4ZmgUQoA\" \\\n\t-H \"Expiry: 1457681387\" \\\n\t-H \"Uid: 88emerald_gutkowski@stokes.net\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

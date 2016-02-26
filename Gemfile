@@ -46,6 +46,8 @@ group :production do
 	gem 'rails_12factor' # to enable features such as static asset serving and logging on Heroku please add rails_12factor gem to your Gemfile.
 	gem 'pg'
 	gem 'uglifier'
+
+	gem 'puma'
 end
 
 
