@@ -3,7 +3,8 @@ require 'rails_helper'
 # TODO can't use coupon if price is smaller than discount 
 describe Order, type: :model do
 
-	let(:user){ FactoryGirl.create :user }
+	let(:user)   { FactoryGirl.create :user }
+	let(:address){ FactoryGirl.create :address }
 
 
 	describe 'pricing' do
@@ -13,6 +14,7 @@ describe Order, type: :model do
 
 		it '.set_order_pricing' do
 			order = user.orders.create({ 
+				address_id: address.id,
 				line_items_attributes: [
 					{product_id: product.id, amount: 2}, 
 					{product_id: product_2.id, amount: 3}
@@ -68,6 +70,7 @@ describe Order, type: :model do
 			it 'changes price when valid' do
 				coupon = FactoryGirl.create :coupon
 				order = user.orders.create({
+					address_id: address.id,
 					coupon_code: coupon.code,
 					line_items_attributes: [
 						{ product_id: product.id, amount: 20 }
@@ -93,6 +96,7 @@ describe Order, type: :model do
 				coupon = FactoryGirl.create :coupon
 
 				order = user.orders.create({
+					address_id: address.id,
 					coupon_code: coupon.code,
 					line_items_attributes: [
 						{ product_id: product.id, amount: 20 }
@@ -111,6 +115,7 @@ describe Order, type: :model do
 				coupon = FactoryGirl.create :coupon, discount: 10000000
 
 				order = user.orders.create({
+					address_id: address.id,
 					coupon_code: coupon.code,
 					line_items_attributes: [
 						{ product_id: product.id, amount: 20 }
@@ -135,6 +140,7 @@ describe Order, type: :model do
 
 		let(:order) do 
 			Order.create({
+				address_id: address.id,
 				user_id:      user.id,
 				payment_type: :cash,
 				line_items_attributes: [

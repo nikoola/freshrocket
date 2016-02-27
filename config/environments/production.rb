@@ -1,6 +1,7 @@
 Rails.application.configure do
 
 
+  # allow cross-origin requests in production
   config.middleware.use Rack::Cors do
     allow do
       origins '*'

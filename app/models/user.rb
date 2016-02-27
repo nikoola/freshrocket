@@ -2,23 +2,23 @@ class User < ActiveRecord::Base
 
 	has_one :delivery_boy, autosave: true #used in manipulate_user_abilities
 
-	devise :database_authenticatable, :registerable,
+	devise  :database_authenticatable, :registerable,
 					:recoverable, :rememberable, :trackable, :validatable,
 					:omniauthable #TODO get rid of some
 	# notice this comes BEFORE the include statement below
 	include DeviseTokenAuth::Concerns::User
 
-	has_many :orders, dependent: :destroy #TODO should we be able to delete users?
-	validates_presence_of :phone, :first_name, :last_name
-	validates_uniqueness_of :phone
+	has_many :orders    #no dependent: :destroy since we can't delete users
+	has_many :addresses
 
-	validates :phone, phone: { possible: false, types: [:mobile] } #phonelib
+	validates_presence_of   :phone, :first_name, :last_name
+	validates_uniqueness_of :phone
+	validates               :phone, phone: { 
+		possible: false, types: [:mobile] 
+	} #phonelib
 
 	before_save :reset_verification
 
-	def reset_verification
-		self.is_verified = false if phone_changed?; true
-	end
 
 
 
@@ -94,6 +94,12 @@ class User < ActiveRecord::Base
 				errors.add(:abilities, ability + ' is not a valid ability')
 			end
 		end
+
+		def reset_verification
+			self.is_verified = false if phone_changed?
+			true
+		end
+
 
 
 

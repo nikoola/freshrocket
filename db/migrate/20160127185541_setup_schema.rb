@@ -68,6 +68,7 @@ class SetupSchema < ActiveRecord::Migration
 	  t.integer  "user_id"
 	  t.integer  "city_id"
 	  t.string   "address"
+	  t.boolean  "active",      default: true
 	end
 
 	create_table "products", force: :cascade do |t|

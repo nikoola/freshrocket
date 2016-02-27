@@ -7,5 +7,6 @@ class OrderSerializer < ActiveModel::Serializer
 
 
 
-	has_many :line_items
+	has_many   :line_items
+	belongs_to :address
 end

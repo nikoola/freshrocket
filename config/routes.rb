@@ -27,11 +27,13 @@ Rails.application.routes.draw do
 		end
 
 
-		resources 'payments', only: [:new] do
+		resources :payments,  only: [:new] do
 			member {
 				post :citrus
 			}
 		end
+
+		resources :addresses, only: [:index, :create, :update, :destroy]
 
 	end
 

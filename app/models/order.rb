@@ -4,6 +4,7 @@ class Order < ActiveRecord::Base
 
 	belongs_to :user
 	belongs_to :delivery_boy
+	belongs_to :address
 
 	has_many :line_items, inverse_of: :order, dependent: :destroy #so that on nested attrs order id in line_item is set
 	has_many :products,   through: :line_items #for testing
@@ -11,7 +12,8 @@ class Order < ActiveRecord::Base
 
 	accepts_nested_attributes_for :line_items, allow_destroy: true #Note that the :autosave option is automatically enabled on every association that #accepts_nested_attributes_for is used for
 
-	validates_presence_of :user
+
+	validates_presence_of :user, :address
 	validate              :has_line_items?
 	validate              :coupon_can_be_found?, 
 		if: :coupon_code_changed?, 

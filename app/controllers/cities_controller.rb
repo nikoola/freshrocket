@@ -2,7 +2,6 @@ class CitiesController < ApplicationController
 
 	def index
 		@cities = City.filter params.slice(:active)
-
 		render json: @cities
 	end
 

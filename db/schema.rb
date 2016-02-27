@@ -17,6 +17,7 @@ ActiveRecord::Schema.define(version: 20160127185541) do
     t.integer "user_id"
     t.integer "city_id"
     t.string  "address"
+    t.boolean "active",  default: true
   end
 
   create_table "areas", force: :cascade do |t|

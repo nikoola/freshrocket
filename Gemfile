@@ -48,7 +48,7 @@ group :production do
 	gem 'uglifier'
 
 	gem 'puma'
-	gem 'rack-cors', :require => 'rack/cors'
+	gem 'rack-cors', :require => 'rack/cors' #allow cross-origin requests in production (js is on another server)
 end
 
 

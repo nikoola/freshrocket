@@ -54,6 +54,7 @@ resource 'client: orders', type: :request do
 	post 'client/orders' do
 		with_options :scope => :order do
 			parameter :comment,       'comment to the order'
+			parameter :address_id,    '', required: true
 		end
 
 		with_options :scope => [:order, :line_items_attributes], :required => true do
@@ -69,6 +70,7 @@ resource 'client: orders', type: :request do
 		example "create current user's order" do
 			do_request( 
 				order: { 
+					address_id: FactoryGirl.create(:address).id,
 					line_items_attributes: [
 						{ product_id: product.id, amount: 1000 }
 					],
@@ -87,9 +89,10 @@ resource 'client: orders', type: :request do
 
 		with_options :scope => :order do
 			parameter :comment, 'comment to the order'
+			parameter :address_id
 		end
 
-		with_options :scope => [:order, :line_items_attributes], :required => true do
+		with_options :scope => [:order, :line_items_attributes] do
 			parameter :product_id, 'id of a product in a cart'
 			parameter :amount, 'amount of this product in a cart'
 		end
@@ -227,13 +230,11 @@ resource 'client: orders', type: :request do
 		example "client can't confirm order if products are out of stock" do
 			product = FactoryGirl.create :product, inventory_count: 0
 
-			order = Order.create({
-				user_id: user.id,
-				payment_type: :cash,
-				line_items_attributes: [
-					{ product_id: product.id, amount: 5 }
-				]
-			})
+			order = FactoryGirl.create :order, user_id: user.id
+			order.line_items.destroy_all
+			order.update!(line_items_attributes: [
+				{ product_id: product.id, amount: 5 }
+			])
 
 			do_request({
 				id: order.id,
