@@ -58,6 +58,8 @@ class SetupSchema < ActiveRecord::Migration
 		t.boolean  "is_paid"
 
 		t.string   'coupon_code'
+
+		t.text     'feedback'
 	end
 
 	add_index "orders", ["user_id"], name: "index_orders_on_user_id"

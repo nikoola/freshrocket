@@ -21,7 +21,7 @@ end
 
 
 puts 'creating admin'
-FactoryGirl.create :user, email: 'admin@admin.admin', password: 'adminadminadmin', password_confirmation: 'adminadminadmin', abilities: [:users]
+FactoryGirl.create :user, email: 'admin@admin.admin', password: 'adminadminadmin', password_confirmation: 'adminadminadmin', abilities: %w(orders products users categories coupons settings cities delivery_boy)
 
 puts 'creating verified users'
 FactoryGirl.create_list :verified_user, 2

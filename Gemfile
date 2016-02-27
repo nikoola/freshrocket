@@ -48,6 +48,7 @@ group :production do
 	gem 'uglifier'
 
 	gem 'puma'
+	gem 'rack-cors', :require => 'rack/cors'
 end
 
 

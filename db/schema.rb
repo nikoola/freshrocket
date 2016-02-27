@@ -13,6 +13,12 @@
 
 ActiveRecord::Schema.define(version: 20160127185541) do
 
+  create_table "addresses", force: :cascade do |t|
+    t.integer "user_id"
+    t.integer "city_id"
+    t.string  "address"
+  end
+
   create_table "areas", force: :cascade do |t|
     t.string  "name"
     t.integer "city_id"
@@ -60,8 +66,8 @@ ActiveRecord::Schema.define(version: 20160127185541) do
   add_index "line_items", ["product_id"], name: "index_line_items_on_product_id"
 
   create_table "orders", force: :cascade do |t|
-    t.integer  "user_id"
     t.integer  "address_id"
+    t.integer  "user_id"
     t.string   "status"
     t.text     "comment"
     t.decimal  "pure_product_price", precision: 8, scale: 2
@@ -77,12 +83,7 @@ ActiveRecord::Schema.define(version: 20160127185541) do
     t.string   "payment_type"
     t.boolean  "is_paid"
     t.string   "coupon_code"
-  end
-
-  create_table "addresses", force: :cascade do |t|
-    t.integer  "user_id"
-    t.integer  "city_id"
-    t.string   "address"
+    t.text     "feedback"
   end
 
   add_index "orders", ["user_id"], name: "index_orders_on_user_id"
@@ -130,11 +131,11 @@ ActiveRecord::Schema.define(version: 20160127185541) do
     t.string   "first_name"
     t.string   "last_name"
     t.string   "email"
-    t.string   "provider",               default: "email", null: false
-    t.string   "uid",                    default: "",      null: false
-    t.string   "encrypted_password",     default: "",      null: false
+    t.string   "provider",                  default: "email", null: false
+    t.string   "uid",                       default: "",      null: false
+    t.string   "encrypted_password",        default: "",      null: false
     t.datetime "remember_created_at"
-    t.integer  "sign_in_count",          default: 0,       null: false
+    t.integer  "sign_in_count",             default: 0,       null: false
     t.datetime "current_sign_in_at"
     t.datetime "last_sign_in_at"
     t.string   "current_sign_in_ip"
@@ -147,6 +148,7 @@ ActiveRecord::Schema.define(version: 20160127185541) do
     t.datetime "updated_at"
     t.string   "reset_password_token"
     t.datetime "reset_password_sent_at"
+    t.text     "how_did_you_hear_about_us"
   end
 
   add_index "users", ["email"], name: "index_users_on_email"
