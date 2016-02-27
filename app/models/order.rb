@@ -55,7 +55,7 @@ class Order < ActiveRecord::Base
 			transitions :from => :approved, :to => :dispatched, 
 				guard: :delivery_boy_assigned?
 		end
-		event :deliver do
+		event :deliver do #if cash mark as paid first
 			transitions :from => :dispatched, :to => :delivered
 		end
 		event :cancel do

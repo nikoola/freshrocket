@@ -7,6 +7,34 @@ class ApplicationController < ActionController::Base
 
 	before_action :configure_permitted_parameters, if: :devise_controller?
 
+	# https://github.com/rails/rails/issues/17216
+
+	# Rails.application.eager_load!
+	# ActiveRecord::Base.descendants.map(&:name)
+	descendants = ["User",
+		"Address",
+		"Area",
+		"CategoriesProductsJoin",
+		"Category",
+		"City",
+		"Coupon",
+		"DeliveryBoy",
+		"LineItem",
+		"Order",
+		"Product",
+		"Setting"
+	]
+
+	descendants.each do |descendant|
+		nested_attributes_names = descendant.constantize.nested_attributes_options.keys.map do |key| 
+			key.to_s.concat('_attributes').to_sym
+		end
+
+		wrap_parameters include: descendant.constantize.attribute_names + nested_attributes_names
+	end
+
+
+
 	protected
 
 		# applicable to ng routes only
