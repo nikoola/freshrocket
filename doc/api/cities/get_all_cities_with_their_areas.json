@@ -28,17 +28,17 @@
       "request_content_type": null,
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "[\n  {\n    \"id\": 1,\n    \"name\": \"Lake Reyna_36\",\n    \"active\": true,\n    \"areas\": [\n\n    ]\n  },\n  {\n    \"id\": 2,\n    \"name\": \"Vincenzoborough_37\",\n    \"active\": true,\n    \"areas\": [\n\n    ]\n  },\n  {\n    \"id\": 3,\n    \"name\": \"West Halburgh_38\",\n    \"active\": true,\n    \"areas\": [\n\n    ]\n  }\n]",
+      "response_body": "[\n  {\n    \"id\": 1,\n    \"name\": \"Bettiebury_44\",\n    \"active\": true,\n    \"areas\": [\n\n    ]\n  },\n  {\n    \"id\": 2,\n    \"name\": \"Weberborough_45\",\n    \"active\": true,\n    \"areas\": [\n\n    ]\n  },\n  {\n    \"id\": 3,\n    \"name\": \"Reynoldsshire_46\",\n    \"active\": true,\n    \"areas\": [\n\n    ]\n  }\n]",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"46354764e0ae09dcca7ab9b01ef0c438\"",
+        "ETag": "W/\"f4a2d6696f99cfd6d2f42b5bc979face\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "X-Request-Id": "0fe8f0bb-04db-4b39-b6a3-627dcd35b9ef",
-        "X-Runtime": "0.009711",
-        "Content-Length": "180"
+        "X-Request-Id": "03ef9b4a-3a8c-40e1-a2e8-db10406c2e57",
+        "X-Runtime": "0.013602",
+        "Content-Length": "177"
       },
       "response_content_type": "application/json; charset=utf-8",
       "curl": "curl \"http://localhost:3000/cities?active=1\" -X GET \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""

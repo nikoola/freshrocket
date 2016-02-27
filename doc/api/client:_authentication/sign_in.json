@@ -23,7 +23,7 @@
     {
       "request_method": "POST",
       "request_path": "/auth/sign_in",
-      "request_body": "email=67nona%40prosacco.info&password=secrety_bickety",
+      "request_body": "email=81eldridge_sauer%40ohara.biz&password=secrety_bickety",
       "request_headers": {
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
@@ -34,25 +34,25 @@
       "request_content_type": "application/x-www-form-urlencoded",
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\n  \"data\": {\n    \"id\": 1,\n    \"first_name\": \"Wendy\",\n    \"last_name\": \"Kirlin\",\n    \"email\": \"67nona@prosacco.info\",\n    \"provider\": \"email\",\n    \"uid\": \"67nona@prosacco.info\",\n    \"phone\": \"+79173093996\",\n    \"verification_code\": null,\n    \"is_verified\": false\n  }\n}",
+      "response_body": "{\n  \"data\": {\n    \"id\": 1,\n    \"first_name\": \"Enola\",\n    \"last_name\": \"Weissnat\",\n    \"email\": \"81eldridge_sauer@ohara.biz\",\n    \"provider\": \"email\",\n    \"uid\": \"81eldridge_sauer@ohara.biz\",\n    \"phone\": \"+79172864028\",\n    \"verification_code\": null,\n    \"is_verified\": false,\n    \"how_did_you_hear_about_us\": null\n  }\n}",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
-        "access-token": "1r4TLpHOwlQngYqu2d1K6Q",
+        "access-token": "AsZAcoNROM5qpKmX_nuaQw",
         "token-type": "Bearer",
-        "client": "-9kY3s9KKzPv9e8d1WHnHQ",
-        "expiry": "1457714424",
-        "uid": "67nona@prosacco.info",
+        "client": "JU5LIZEqDeU8jzhombBrqg",
+        "expiry": "1457798625",
+        "uid": "81eldridge_sauer@ohara.biz",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"367834eeaaaeb961151aec2a4532ebe2\"",
+        "ETag": "W/\"5d91861ea9d44544e5232b4103c0cc53\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "X-Request-Id": "c027ea0f-c7d2-4071-a2de-e178bf41699a",
-        "X-Runtime": "0.172961",
-        "Content-Length": "206"
+        "X-Request-Id": "6e6e76af-a20c-4b13-8210-2fd571fd1089",
+        "X-Runtime": "0.174882",
+        "Content-Length": "253"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/auth/sign_in\" -d 'email=67nona%40prosacco.info&password=secrety_bickety' -X POST \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/auth/sign_in\" -d 'email=81eldridge_sauer%40ohara.biz&password=secrety_bickety' -X POST \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

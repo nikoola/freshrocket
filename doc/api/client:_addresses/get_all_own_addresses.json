@@ -1,0 +1,53 @@
+{
+  "resource": "client: addresses",
+  "http_method": "GET",
+  "route": "/client/addresses",
+  "description": "get all own addresses",
+  "explanation": null,
+  "parameters": [
+    {
+      "name": "active",
+      "description": "0/1. is inactive if user tried to delete order, but it was already mentioned in any orders"
+    }
+  ],
+  "response_fields": [
+
+  ],
+  "requests": [
+    {
+      "request_method": "GET",
+      "request_path": "/client/addresses?active=0",
+      "request_body": null,
+      "request_headers": {
+        "Access-Token": "FmDdJJixEImTDR_HEl62YA",
+        "Token-Type": "Bearer",
+        "Client": "u2Infc0cmT7l-VC3WQbIwg",
+        "Expiry": "1457798624",
+        "Uid": "75sigrid@macejkovic.name",
+        "Host": "example.org",
+        "Cookie": ""
+      },
+      "request_query_parameters": {
+        "active": "0"
+      },
+      "request_content_type": null,
+      "response_status": 200,
+      "response_status_text": "OK",
+      "response_body": "[\n  {\n    \"id\": 1,\n    \"address\": \"7051 Alverta Club\",\n    \"city_id\": 1,\n    \"user_id\": 1\n  },\n  {\n    \"id\": 2,\n    \"address\": \"539 Edwardo Overpass\",\n    \"city_id\": 2,\n    \"user_id\": 1\n  },\n  {\n    \"id\": 3,\n    \"address\": \"30244 Bode River\",\n    \"city_id\": 3,\n    \"user_id\": 1\n  }\n]",
+      "response_headers": {
+        "X-Frame-Options": "SAMEORIGIN",
+        "X-XSS-Protection": "1; mode=block",
+        "X-Content-Type-Options": "nosniff",
+        "Content-Type": "application/json; charset=utf-8",
+        "ETag": "W/\"d343b8695a8444edd19c51c5e2678fb8\"",
+        "Cache-Control": "max-age=0, private, must-revalidate",
+        "Set-Cookie": "_session_id=VFBFNFZrMEk4Q2dDbThvQjVBVHRJQ3Axb3dudUU5NUJqU0t3dlVIZ21yL05GNUxMZFUwa3lhUHZUTHcrRDhPNU5vaVJBcHBmZGw4SDFzODBxczA5dG9QbkpFUmlrRHVZWkc3a0dldzFjRTNhQWlTYlYwOE5ZT2o3M0ZiSGZkQnJhNHJoYnFGUkZ6TC83aTQ4Ynd6V1pDM1FQN1FqSzZJZWptcmx4SzVtaDRGWFZaNWRWZ0tFOUlyamJnOENBU1BDLS1pVjdVbVhFTVBGQXE3akV6MkY3M3JnPT0%3D--a9e68698cbfb456c3afd614ebdc5fc34e1de1a0d; path=/; HttpOnly",
+        "X-Request-Id": "753a17ed-e8bc-4bf1-b361-8e1a7ef61c5f",
+        "X-Runtime": "0.096104",
+        "Content-Length": "192"
+      },
+      "response_content_type": "application/json; charset=utf-8",
+      "curl": "curl \"http://localhost:3000/client/addresses?active=0\" -X GET \\\n\t-H \"Access-Token: FmDdJJixEImTDR_HEl62YA\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: u2Infc0cmT7l-VC3WQbIwg\" \\\n\t-H \"Expiry: 1457798624\" \\\n\t-H \"Uid: 75sigrid@macejkovic.name\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
+    }
+  ]
+}

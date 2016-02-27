@@ -11,6 +11,12 @@
       "description": "comment to the order"
     },
     {
+      "scope": "order",
+      "required": true,
+      "name": "address_id",
+      "description": ""
+    },
+    {
       "scope": [
         "order",
         "line_items_attributes"
@@ -52,13 +58,13 @@
     {
       "request_method": "POST",
       "request_path": "client/orders",
-      "request_body": "order[line_items_attributes][][product_id]=10&order[line_items_attributes][][amount]=1000&order[delivery_attributes][wanted_date]=2016-02-26+21%3A40%3A27+%2B0500",
+      "request_body": "order[address_id]=4&order[line_items_attributes][][product_id]=10&order[line_items_attributes][][amount]=1000&order[delivery_attributes][wanted_date]=2016-02-27+21%3A03%3A49+%2B0500",
       "request_headers": {
-        "Access-Token": "EAL8ADN1R5Xqu1lgMaf2QA",
+        "Access-Token": "C7Gi_cS5CS_G7UKaqT0bSA",
         "Token-Type": "Bearer",
-        "Client": "Rxv0LPqgfn4qoTY0GX1w3w",
-        "Expiry": "1457714427",
-        "Uid": "74cloyd.grimes@reinger.info",
+        "Client": "pw9N-rVOrS3WOjLXK_pgKg",
+        "Expiry": "1457798629",
+        "Uid": "93bertrand_jenkins@upton.org",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -68,22 +74,22 @@
       "request_content_type": "application/x-www-form-urlencoded",
       "response_status": 201,
       "response_status_text": "Created",
-      "response_body": "{\n  \"id\": 4,\n  \"user_id\": 3,\n  \"status\": \"unconfirmed\",\n  \"created_at\": \"2016-02-26T16:40:27.547Z\",\n  \"comment\": null,\n  \"pure_product_price\": \"3000.0\",\n  \"tax\": \"150.0\",\n  \"delivery_charge\": \"0.0\",\n  \"total_price\": \"3150.0\",\n  \"delivery_boy_id\": null,\n  \"wanted_time\": null,\n  \"wanted_date\": null,\n  \"payment_type\": null,\n  \"is_paid\": null,\n  \"line_items\": [\n    {\n      \"id\": 10,\n      \"order_id\": 4,\n      \"product_id\": 10,\n      \"amount\": 1000,\n      \"fixed_price\": \"3000.0\"\n    }\n  ]\n}",
+      "response_body": "{\n  \"id\": 4,\n  \"user_id\": 5,\n  \"status\": \"unconfirmed\",\n  \"created_at\": \"2016-02-27T16:03:49.932Z\",\n  \"comment\": null,\n  \"pure_product_price\": \"3000.0\",\n  \"tax\": \"150.0\",\n  \"delivery_charge\": \"0.0\",\n  \"total_price\": \"3150.0\",\n  \"delivery_boy_id\": null,\n  \"wanted_time\": null,\n  \"wanted_date\": null,\n  \"payment_type\": null,\n  \"is_paid\": null,\n  \"line_items\": [\n    {\n      \"id\": 10,\n      \"order_id\": 4,\n      \"product_id\": 10,\n      \"amount\": 1000,\n      \"fixed_price\": \"3000.0\"\n    }\n  ],\n  \"address\": {\n    \"id\": 4,\n    \"address\": \"8493 Aaron Mountains\",\n    \"city_id\": 13,\n    \"user_id\": 7\n  }\n}",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
         "Location": "/client/orders/4",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"552e810ff5d7126bb1981dae9d02eecf\"",
+        "ETag": "W/\"e020935c03e3ccb5c41f284f655c1f29\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=cUJIc2NDcit4QStRTS9iUSsrM1ZHc0cwdkFOM2ZSZHdrcjVVM1B3ZFhKRWpsTmtFUng1NmFZek51ck8zS3pjZnQ0dHpzdUEwNnBMSFV0MmdTYm5sZWFCeldVT3hDbXh2VmYxWmhMaGdPc29hRnBmRzZBZWpYUHE2SFhzYWx6UFEzNkJQTFNJQ084OUQxQmFUVzArVGFndTJNdTJVQTBJaDN0VHJ4dXl2RU1SbzNyMkR1cHRpV09wM3pZUmZjQXhhLS1jK1ZGQkFaRnB6N2ZEa3J6UmRIa0RRPT0%3D--e6b7a003ee93d11a4aa5bcb326c79536376a42f0; path=/; HttpOnly",
-        "X-Request-Id": "a13ac688-d047-481c-bb16-0773c8e5043d",
-        "X-Runtime": "0.084134",
-        "Content-Length": "376"
+        "Set-Cookie": "_session_id=VkNtV0x6T1ZqY05LQ1MzRU5SMFZKdVBVcERidkFDL1pQUGk4ZitYbGlscWJVenRvR3JsSTNOL1ZWcmFpbDlCU21NUUxDN3JYTE5hNTBuZWRMcWY0Q3hjZTJweGI5K1lZYnNlY09lZmtlWmlrZVpxZENsWGxKdlRwbDFkZmY0U2FONWVCL3R5SHlCWXdacjkrOWgwL1RSLys4YUZrelIxaGgwczBqZU0wVDV5REJ6NklTSGVGejY3MVQvbVJEYXhDLS1YaHZzZ2lCZHFHU3JWMGZHK1RHNmN3PT0%3D--d250da4c5ef1f2a4354d2235dc8b45940153228c; path=/; HttpOnly",
+        "X-Request-Id": "fcd3bba1-129a-4047-a52d-baee8e96f7bc",
+        "X-Runtime": "0.087670",
+        "Content-Length": "453"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000client/orders\" -d 'order[line_items_attributes][][product_id]=10&order[line_items_attributes][][amount]=1000&order[delivery_attributes][wanted_date]=2016-02-26+21%3A40%3A27+%2B0500' -X POST \\\n\t-H \"Access-Token: EAL8ADN1R5Xqu1lgMaf2QA\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: Rxv0LPqgfn4qoTY0GX1w3w\" \\\n\t-H \"Expiry: 1457714427\" \\\n\t-H \"Uid: 74cloyd.grimes@reinger.info\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000client/orders\" -d 'order[address_id]=4&order[line_items_attributes][][product_id]=10&order[line_items_attributes][][amount]=1000&order[delivery_attributes][wanted_date]=2016-02-27+21%3A03%3A49+%2B0500' -X POST \\\n\t-H \"Access-Token: C7Gi_cS5CS_G7UKaqT0bSA\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: pw9N-rVOrS3WOjLXK_pgKg\" \\\n\t-H \"Expiry: 1457798629\" \\\n\t-H \"Uid: 93bertrand_jenkins@upton.org\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

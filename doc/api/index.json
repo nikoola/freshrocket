@@ -282,6 +282,39 @@
       ]
     },
     {
+      "name": "client: addresses",
+      "examples": [
+        {
+          "description": "change own address",
+          "link": "client:_addresses/change_own_address.json",
+          "groups": "all",
+          "route": "/client/addresses/:id",
+          "method": "put"
+        },
+        {
+          "description": "create own address",
+          "link": "client:_addresses/create_own_address.json",
+          "groups": "all",
+          "route": "/client/addresses",
+          "method": "post"
+        },
+        {
+          "description": "deletes own address",
+          "link": "client:_addresses/deletes_own_address.json",
+          "groups": "all",
+          "route": "/client/addresses/:id",
+          "method": "delete"
+        },
+        {
+          "description": "get all own addresses",
+          "link": "client:_addresses/get_all_own_addresses.json",
+          "groups": "all",
+          "route": "/client/addresses",
+          "method": "get"
+        }
+      ]
+    },
+    {
       "name": "client: authentication",
       "examples": [
         {

@@ -30,11 +30,11 @@
       "request_path": "/admin/users/1",
       "request_body": "user[phone]=%2B79177878978",
       "request_headers": {
-        "Access-Token": "au5CVL5j1F0EElXfHnNZaQ",
+        "Access-Token": "EtqzWszb6TCbGZWJexeMkw",
         "Token-Type": "Bearer",
-        "Client": "RgFLOVDgRscef_Kkq1XdHA",
-        "Expiry": "1457714423",
-        "Uid": "53jett_krajcik@mohrbins.net",
+        "Client": "b2TMTTtzIqCo6Z2fE88wpg",
+        "Expiry": "1457798623",
+        "Uid": "61aurelia@bednar.name",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -44,21 +44,21 @@
       "request_content_type": "application/x-www-form-urlencoded",
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\n  \"id\": 1,\n  \"first_name\": \"Faye\",\n  \"last_name\": \"Welch\",\n  \"email\": \"52teresa@farrell.org\",\n  \"phone\": \"+79177878978\",\n  \"is_verified\": false,\n  \"provider\": \"email\",\n  \"uid\": \"52teresa@farrell.org\",\n  \"created_at\": \"2016-02-26T16:40:22.977Z\",\n  \"abilities\": {\n    \"orders\": 0,\n    \"products\": 0,\n    \"users\": 0,\n    \"categories\": 1,\n    \"coupons\": 0,\n    \"settings\": 0,\n    \"cities\": 0,\n    \"delivery_boy\": 0\n  }\n}",
+      "response_body": "{\n  \"id\": 1,\n  \"first_name\": \"Nelda\",\n  \"last_name\": \"Heidenreich\",\n  \"email\": \"60king@hilpert.org\",\n  \"phone\": \"+79177878978\",\n  \"is_verified\": false,\n  \"provider\": \"email\",\n  \"uid\": \"60king@hilpert.org\",\n  \"created_at\": \"2016-02-27T16:03:42.998Z\",\n  \"abilities\": {\n    \"orders\": 0,\n    \"products\": 0,\n    \"users\": 0,\n    \"categories\": 1,\n    \"coupons\": 0,\n    \"settings\": 0,\n    \"cities\": 0,\n    \"delivery_boy\": 0\n  }\n}",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"fa40c3eb7fd299ae51e83cc408193320\"",
+        "ETag": "W/\"82ba8bc3a8ce1734d63516a55051e4b2\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=K0tVQWs2dzBWTFI4ejdUWTFoNWhrSTJHSmdGaUpPOHdBRVhIVTJEVlY3Y2tHZHZNUkJYN1l5U0FRQWgrTzJaNHI1YzF1b29QTWRUcWtGbElGOXkzYTVCdGE4bnprUmEwZndza05SZzIrNWQ0TUppdzdMNTI2ZGY1WElMZ2RoZncvVlNTRnBTUlljWHJUblA1aU8wcm9RMkFESStpWVNDZXQzbVVPQ2tGUlA2RWFLcE5XdjcrNEl1b3pJRmpsNm1QLS1IYXp0cCtxRlU0TGpaWDlCTThqcG5BPT0%3D--a76e93ac0bbad10505e2105428f31c1b524365d2; path=/; HttpOnly",
-        "X-Request-Id": "06a1c22b-800d-4224-bc58-a749ceb06847",
-        "X-Runtime": "0.091954",
-        "Content-Length": "326"
+        "Set-Cookie": "_session_id=cWFoSEVQeFJTWW83RTFmYTd3Y01DUEJIZjBGdUVSNGNLNTVRNUhSVHNXUDFXWHNIeHByUlZQb3lvVjNoQ0NneXJWaEptTmhhTjlJNzh3UUp6VEc5MlVkd1N3NTlDZ2pUYU1ZcFZzZ0hhL2NrbGVFN2Eva2Y5a0d3ZmhLRFhGc3RzK0xxUWJib0dkcDFUanRCUHlsNFMvZml3OUdCVGJ1SjJpQnlXQWRaV0RqVXA2N084cksyb1hUbWJ6bk5oM1dzLS1IZU1YT0NpdFJEd3ZKWThhbW9VMlBBPT0%3D--706bf15686c4cf334dc71b47b042ba506be43bdd; path=/; HttpOnly",
+        "X-Request-Id": "b395aa32-45f9-489e-a76b-47614508e598",
+        "X-Runtime": "0.117296",
+        "Content-Length": "329"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/admin/users/1\" -d 'user[phone]=%2B79177878978' -X PUT \\\n\t-H \"Access-Token: au5CVL5j1F0EElXfHnNZaQ\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: RgFLOVDgRscef_Kkq1XdHA\" \\\n\t-H \"Expiry: 1457714423\" \\\n\t-H \"Uid: 53jett_krajcik@mohrbins.net\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/admin/users/1\" -d 'user[phone]=%2B79177878978' -X PUT \\\n\t-H \"Access-Token: EtqzWszb6TCbGZWJexeMkw\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: b2TMTTtzIqCo6Z2fE88wpg\" \\\n\t-H \"Expiry: 1457798623\" \\\n\t-H \"Uid: 61aurelia@bednar.name\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

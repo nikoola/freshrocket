@@ -1,0 +1,49 @@
+{
+  "resource": "client: addresses",
+  "http_method": "DELETE",
+  "route": "/client/addresses/:id",
+  "description": "deletes own address",
+  "explanation": "marks as inactive if address has been used in any orders",
+  "parameters": [
+
+  ],
+  "response_fields": [
+
+  ],
+  "requests": [
+    {
+      "request_method": "DELETE",
+      "request_path": "/client/addresses/1",
+      "request_body": null,
+      "request_headers": {
+        "Access-Token": "rW36vq2jp_6XjzvPUSy3Jg",
+        "Token-Type": "Bearer",
+        "Client": "cFfYdnzSZicfO9uaDRznEw",
+        "Expiry": "1457798625",
+        "Uid": "80candice@dibbertbins.info",
+        "Host": "example.org",
+        "Content-Type": "application/x-www-form-urlencoded",
+        "Cookie": ""
+      },
+      "request_query_parameters": {
+      },
+      "request_content_type": "application/x-www-form-urlencoded",
+      "response_status": 200,
+      "response_status_text": "OK",
+      "response_body": null,
+      "response_headers": {
+        "X-Frame-Options": "SAMEORIGIN",
+        "X-XSS-Protection": "1; mode=block",
+        "X-Content-Type-Options": "nosniff",
+        "Content-Type": "text/html",
+        "Cache-Control": "no-cache",
+        "Set-Cookie": "_session_id=Q3ltaCtmU1gwZVN0YTYrOUx2c1Y1S09SbmdSS3ExTC9RTy9Pak5hN0ljbkNiYzRRYURSQWt5Sm1UcVZwN1RQemx3VGdXMkQyV3NsL2pDVk4wYy8rWFBLK2U4a25ibDhENzVVK1lmRXRlSmhWU2RhSFRCMk44R2RzU3dkTnZ0c1Y0K0ZVSXpQNExMczF2M2o0LytPcmh3eHBGMHd3SGwyemxzdk1UeEJjcS85QnBhY2tBTHdmNnczakl6VlJrRXhiLS16RTl5VFRheTVGUWNSV3BoQzJpKzlnPT0%3D--04819d34310e70d7840bdda8eca81368d3ba8da8; path=/; HttpOnly",
+        "X-Request-Id": "0f4dfbcc-e9ed-4f47-b03a-c58ef36f6a08",
+        "X-Runtime": "0.081462",
+        "Content-Length": "0"
+      },
+      "response_content_type": "text/html",
+      "curl": "curl \"http://localhost:3000/client/addresses/1\" -d '' -X DELETE \\\n\t-H \"Access-Token: rW36vq2jp_6XjzvPUSy3Jg\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: cFfYdnzSZicfO9uaDRznEw\" \\\n\t-H \"Expiry: 1457798625\" \\\n\t-H \"Uid: 80candice@dibbertbins.info\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+    }
+  ]
+}

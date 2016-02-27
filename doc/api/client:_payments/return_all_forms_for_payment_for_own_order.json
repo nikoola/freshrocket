@@ -19,11 +19,11 @@
       "request_path": "/client/payments/new?order_id=3",
       "request_body": null,
       "request_headers": {
-        "Access-Token": "1Xz8TwznDyvguGBjXC99WQ",
+        "Access-Token": "86eoEIECM8PZI0k-GGgiWA",
         "Token-Type": "Bearer",
-        "Client": "QanL9uqXJca-Eoy92OrFjA",
-        "Expiry": "1457714430",
-        "Uid": "85alexandra_gerhold@will.name",
+        "Client": "JARYY5yb8Pwh2PVaJ3obnw",
+        "Expiry": "1457798632",
+        "Uid": "116sydney@bartoletti.biz",
         "Host": "example.org",
         "Cookie": ""
       },
@@ -33,21 +33,21 @@
       "request_content_type": null,
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\n  \"citrus\": {\n    \"action\": \"https://sandbox.citruspay.com/kouqfeaav0\",\n    \"method\": \"POST\",\n    \"fields\": {\n      \"merchantTxnId\": \"3\",\n      \"merchantAccessKey\": \"T82TNCTLNBZ282BLHAGD\",\n      \"orderAmount\": \"228.35\",\n      \"currency\": \"USD\",\n      \"secret_key\": \"1690a1e29ecec2a5f852b678dd5362616c79916a\",\n      \"pmt_url\": \"kouqfeaav0\",\n      \"returnUrl\": \"http://localhost:3000/client/payments/citrus\",\n      \"paymentMode\": \"NET_BANKING\",\n      \"reqtime\": \"1456504830000\",\n      \"secSignature\": \"16055d2470aa3b2001007b0bd8086106d677f8b2\"\n    }\n  }\n}",
+      "response_body": "{\n  \"citrus\": {\n    \"action\": \"https://sandbox.citruspay.com/kouqfeaav0\",\n    \"method\": \"POST\",\n    \"fields\": {\n      \"merchantTxnId\": \"3\",\n      \"merchantAccessKey\": \"T82TNCTLNBZ282BLHAGD\",\n      \"orderAmount\": \"228.35\",\n      \"currency\": \"USD\",\n      \"secret_key\": \"1690a1e29ecec2a5f852b678dd5362616c79916a\",\n      \"pmt_url\": \"kouqfeaav0\",\n      \"returnUrl\": \"http://localhost:3000/client/payments/citrus\",\n      \"paymentMode\": \"NET_BANKING\",\n      \"reqtime\": \"1456589032000\",\n      \"secSignature\": \"16055d2470aa3b2001007b0bd8086106d677f8b2\"\n    }\n  }\n}",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"5d7fa016b1a5a61534249fd3b53df3dc\"",
+        "ETag": "W/\"9811cb32893bb7394165f75fa814f223\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=N3o1RUl5b0xnU09OYjZGcjBYY0Vtc3hUNFBvT1hiVHhyRHJZNHNubkVEaEF3d0h3dGk3SldGRW5QK0Zad2J4TlA4bDhUeDdIUnFaVUZkUVBLYTMxR1BHbnlXQVBiUklORU02MEMzK3NOM1J5alBadUJYT1R0bnZZNFY1TjZ2TWdxMnl3K0lubVYzdjVmSG1seVZveVVvYzBrcFowR1cvdUhQR1FNQkN0UmdJVUxHcEFyUDFSNUd1QXcrckpuUHBRLS1waGV0Y1RjUmlwaWlyUjFveG1HZmpRPT0%3D--91bfd3c1c165ccd4d9ead447cea77826419a245c; path=/; HttpOnly",
-        "X-Request-Id": "94dff33d-6e84-48de-b102-bd56cad76bbf",
-        "X-Runtime": "0.088373",
+        "Set-Cookie": "_session_id=WVlreVFJQzZheVJCYUNaMTRlOE1sMDV2ZG8xekpKTUcyc0JRSzNneloxL1AyM1diS0JCNmNhUGswTVZHbStGWHJCUzUyMlNsMDhWdmVTdkhEc1FqV3pxSjF6MHVYQzhVNWtJRStMOVowSXFOT01FSHo2Rm44c2gxUHRaZE9Ld0t6WXRKbWh6VkRwV0dGZFhQWlZiZ1UrcC8yKzFNOThhMDhkSTBBcWRSTWdqbE01WElSSEY4UkRsZGJJT1N4V3J5LS16ZEVkNytJVzBXOGsyKzhDQVZHRUNRPT0%3D--5649e2e6409482a296acff273dfedbccf18ede25; path=/; HttpOnly",
+        "X-Request-Id": "ed0034b5-dde5-4d17-bcbf-42196a36a33b",
+        "X-Runtime": "0.087071",
         "Content-Length": "444"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/client/payments/new?order_id=3\" -X GET \\\n\t-H \"Access-Token: 1Xz8TwznDyvguGBjXC99WQ\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: QanL9uqXJca-Eoy92OrFjA\" \\\n\t-H \"Expiry: 1457714430\" \\\n\t-H \"Uid: 85alexandra_gerhold@will.name\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/client/payments/new?order_id=3\" -X GET \\\n\t-H \"Access-Token: 86eoEIECM8PZI0k-GGgiWA\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: JARYY5yb8Pwh2PVaJ3obnw\" \\\n\t-H \"Expiry: 1457798632\" \\\n\t-H \"Uid: 116sydney@bartoletti.biz\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

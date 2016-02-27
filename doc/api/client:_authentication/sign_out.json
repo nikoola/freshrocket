@@ -16,11 +16,11 @@
       "request_path": "/auth/sign_out",
       "request_body": null,
       "request_headers": {
-        "Access-Token": "F6gyjIv7x1G_J3DtphcwwQ",
+        "Access-Token": "GruWZRBeGZWi2ZEKv9QP-g",
         "Token-Type": "Bearer",
-        "Client": "nQeFdSSLhNgurnPIKVpn8Q",
-        "Expiry": "1457714424",
-        "Uid": "68kaelyn_larson@nolan.org",
+        "Client": "b8reD_a8u7ng3BbYVEsrAA",
+        "Expiry": "1457798625",
+        "Uid": "82pamela@ankunding.info",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -38,13 +38,13 @@
         "Content-Type": "application/json; charset=utf-8",
         "ETag": "W/\"7363e85fe9edee6f053a4b319588c086\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=N3dvRzZwdWVCRDhJUlBLWmpxcm1QQUJSN0E3RDVjZTgzdFpySFVIWTNVWFVkL1pHTmNzRHNCQlZYVjVLaEJRc05aQVE4Sko5QjhITEpDNGlPRkEwaHc9PS0tcE5pSmFKVm0zQ29iSWVZdUQ1OXR2QT09--93d176f61af964d564593a3c19a40cc52dd6625a; path=/; HttpOnly",
-        "X-Request-Id": "9c74b973-1864-4ff3-9c09-d15dcec5cb48",
-        "X-Runtime": "0.074189",
+        "Set-Cookie": "_session_id=dVNYbEdPT1ZYZnBoZmtBMks2VnVTU0hhMzFLemdnN25pRW4xTGlNdTY0QUo4TUZ2ZW5kZzZSM2QwWUl2R0VrYmhFZVZiVzZPNGc3ZllCU21vVmtaaFE9PS0teVVDUDE5bG9LMXBNNE4wd3B0Qm9LUT09--95657613ec9648cbfd598b1631abe86920b8c614; path=/; HttpOnly",
+        "X-Request-Id": "2b438ad4-2664-419d-9aa5-83e9c51e07b6",
+        "X-Runtime": "0.076371",
         "Content-Length": "16"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/auth/sign_out\" -d '' -X DELETE \\\n\t-H \"Access-Token: F6gyjIv7x1G_J3DtphcwwQ\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: nQeFdSSLhNgurnPIKVpn8Q\" \\\n\t-H \"Expiry: 1457714424\" \\\n\t-H \"Uid: 68kaelyn_larson@nolan.org\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/auth/sign_out\" -d '' -X DELETE \\\n\t-H \"Access-Token: GruWZRBeGZWi2ZEKv9QP-g\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: b8reD_a8u7ng3BbYVEsrAA\" \\\n\t-H \"Expiry: 1457798625\" \\\n\t-H \"Uid: 82pamela@ankunding.info\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

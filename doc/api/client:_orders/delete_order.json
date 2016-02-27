@@ -16,11 +16,11 @@
       "request_path": "/client/orders/3",
       "request_body": null,
       "request_headers": {
-        "Access-Token": "l-XEYSidpsvlib-sRSl_8g",
+        "Access-Token": "9gxqjVoWlD0aOFCw0fP_1A",
         "Token-Type": "Bearer",
-        "Client": "o47dwP6uzfCYlvvpQzVYzg",
-        "Expiry": "1457714428",
-        "Uid": "77reinhold@kunzegleichner.name",
+        "Client": "IZfBUWkSLtyf2pxF4xtKoA",
+        "Expiry": "1457798630",
+        "Uid": "100rory@hyatt.biz",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -37,13 +37,13 @@
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "text/html",
         "Cache-Control": "no-cache",
-        "Set-Cookie": "_session_id=YlB4VHpMZVZMcEdvRU9jUGNMaUVWUC9kUDBlc2lZY0NvQm1FY2VaclROYmU1VTBJTkowZXRjbEc1eFZINksyTzBIZXppNDN5Ym5RUks3YVNocVZyVFdBMkpuRVN6S3hvajByaVFhNU1Ea2NNNXpTQ1Z1Y3c2Y1ptUGNtekZzTm0rSWloTlhldmxLZndvUnpxSTdJQ0Fid2p2NVNPK2dmcjNZanRRNVZDUE5uVHFXRUM4NGlLZVM3NnppaWVGdk0wLS1KYTJxeFFaRmFOcDZUNkxmbmt2RDNBPT0%3D--b48a376248292cbff064c130ed7429af489f8717; path=/; HttpOnly",
-        "X-Request-Id": "73457962-b7ed-4a91-8332-92f8cc81daf0",
-        "X-Runtime": "0.079020",
+        "Set-Cookie": "_session_id=ZmpsU1hVMVJJZmQ1dmdWcUZxYk9zSnpxQkFhOXBxVDZ3UFptYzdlNldod0tFWGVaa1dWT2s5VXpaY01QeUZiRmJXMHF6UnBCUTRvWGRTTlJnTnllMDNxQVNETHhKakcvT3RMdW9lalJoZFNDT3hDall5dU85QWFiRVNLdmRXdVFybmd2dTE3WktqQ3FpaERMNWZIS2lyR1BSUnIzMW9HT3F4TDVHTlRaMGVlVlRXVnV4M2dFME5lZXNudUNIY3NVLS04eXQ5MWZ1MEplcWY5Tms1b08vRkhnPT0%3D--d366646562518c2d2cfefdcca6704c81c108be45; path=/; HttpOnly",
+        "X-Request-Id": "efeb2eed-d03e-4029-a7e3-c2fec8c5aa49",
+        "X-Runtime": "0.080193",
         "Content-Length": "0"
       },
       "response_content_type": "text/html",
-      "curl": "curl \"http://localhost:3000/client/orders/3\" -d '' -X DELETE \\\n\t-H \"Access-Token: l-XEYSidpsvlib-sRSl_8g\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: o47dwP6uzfCYlvvpQzVYzg\" \\\n\t-H \"Expiry: 1457714428\" \\\n\t-H \"Uid: 77reinhold@kunzegleichner.name\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/client/orders/3\" -d '' -X DELETE \\\n\t-H \"Access-Token: 9gxqjVoWlD0aOFCw0fP_1A\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: IZfBUWkSLtyf2pxF4xtKoA\" \\\n\t-H \"Expiry: 1457798630\" \\\n\t-H \"Uid: 100rory@hyatt.biz\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

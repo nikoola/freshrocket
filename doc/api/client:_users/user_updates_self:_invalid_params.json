@@ -31,11 +31,11 @@
       "request_path": "/auth",
       "request_body": "phone",
       "request_headers": {
-        "Access-Token": "xsm_oExUeYqDeIMmuIev-w",
+        "Access-Token": "lm1j98HS2ZRRVTySzpofWg",
         "Token-Type": "Bearer",
-        "Client": "zevvyn9kqg4ZkWarKqN1vg",
-        "Expiry": "1457714430",
-        "Uid": "91breanne@gleichnergoodwin.com",
+        "Client": "WjIcRgTLOjcq8y_b0yrAHw",
+        "Expiry": "1457798633",
+        "Uid": "123linwood_rice@cole.biz",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -52,13 +52,13 @@
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "application/json; charset=utf-8",
         "Cache-Control": "no-cache",
-        "Set-Cookie": "_session_id=eXJuY29VYXU2RE9kRVlEeEhMZGt6TTUxd1piYkJ0eG16L2NPdWVYTE15L2hVUmpIM3pvbDRqKzB0Q2s5ckp0M0gyMytJQk1TaTkxSVF6Sm9WeUJaRjBaSFlzczRxK1V6MVk2M0ZuTkFZdXd3N0Y0RDFvK3h1b2JIdWdiOTJSZnVITFpjVEhqd0lXTVZBOVdQSXFnRUw4WkdZR2Q2VGxRUERZMUpJRE1GNnlydzQxbm1aUFBIQ2kvU0pxa081RWwxLS0wVy9DMEZZejVxYXRIS1AvcmE3ZHVRPT0%3D--c367fb3d95d5129469fdab04cb5e82bc77d59959; path=/; HttpOnly",
-        "X-Request-Id": "2f89655a-718b-4fac-a79f-df02607ed465",
-        "X-Runtime": "0.074997",
+        "Set-Cookie": "_session_id=NmFkcFdma09GOVNudjB1NjFyMG42VzhucTAyU3VBMWpOMkxua1NDZExMbGphTGd6aWNtdmpCNkZWU01mUTBqRzA5RWUraWtPYmFNV3RBN1NHOGFJY05RTVFvd3VCSVRlY0hqeXdJVGJtbU1ad2MwSFZ2cEQzMDJQUjN3V0RlaURNcjVIMG5pYTJCcndSaGM3VndKaGxYd3FNOXJyTVRCQ0FGZjRyTmFTZFROcXdNSy9jY3puMWlhL2w1aVVOcDhNLS1kVXNRdG5Hd3MwUUJQRERUcjBubkZnPT0%3D--44f7310fd805072a055e16c935af3a51d0b00848; path=/; HttpOnly",
+        "X-Request-Id": "716afa3e-031a-4527-a203-1e0db457eff9",
+        "X-Runtime": "0.074074",
         "Content-Length": "129"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/auth\" -d 'phone' -X PUT \\\n\t-H \"Access-Token: xsm_oExUeYqDeIMmuIev-w\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: zevvyn9kqg4ZkWarKqN1vg\" \\\n\t-H \"Expiry: 1457714430\" \\\n\t-H \"Uid: 91breanne@gleichnergoodwin.com\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/auth\" -d 'phone' -X PUT \\\n\t-H \"Access-Token: lm1j98HS2ZRRVTySzpofWg\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: WjIcRgTLOjcq8y_b0yrAHw\" \\\n\t-H \"Expiry: 1457798633\" \\\n\t-H \"Uid: 123linwood_rice@cole.biz\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

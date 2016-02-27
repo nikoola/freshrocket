@@ -31,11 +31,11 @@
       "request_path": "/auth",
       "request_body": "phone=%2B79174446666",
       "request_headers": {
-        "Access-Token": "GkNa4mXNmh7IRcQ-2qmd3g",
+        "Access-Token": "nBb48_JC1MTS_ZJGNpl8gQ",
         "Token-Type": "Bearer",
-        "Client": "nlh_TFVjQVnLlCq7CHrjsw",
-        "Expiry": "1457714430",
-        "Uid": "90alvera@jaskolski.biz",
+        "Client": "Bf-VdtIsUAm1OQ-BgTEjqA",
+        "Expiry": "1457798633",
+        "Uid": "122augustus.carter@schuster.name",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -45,21 +45,21 @@
       "request_content_type": "application/x-www-form-urlencoded",
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\n  \"status\": \"success\",\n  \"data\": {\n    \"id\": 3,\n    \"first_name\": \"Antwan\",\n    \"last_name\": \"Tillman\",\n    \"email\": \"90alvera@jaskolski.biz\",\n    \"provider\": \"email\",\n    \"uid\": \"90alvera@jaskolski.biz\",\n    \"phone\": \"+79174446666\",\n    \"verification_code\": null,\n    \"is_verified\": false,\n    \"created_at\": \"2016-02-26T16:40:30.678Z\",\n    \"updated_at\": \"2016-02-26T16:40:30.834Z\"\n  }\n}",
+      "response_body": "{\n  \"status\": \"success\",\n  \"data\": {\n    \"id\": 5,\n    \"first_name\": \"Wilma\",\n    \"last_name\": \"Kuhn\",\n    \"email\": \"122augustus.carter@schuster.name\",\n    \"provider\": \"email\",\n    \"uid\": \"122augustus.carter@schuster.name\",\n    \"phone\": \"+79174446666\",\n    \"verification_code\": null,\n    \"is_verified\": false,\n    \"created_at\": \"2016-02-27T16:03:53.266Z\",\n    \"updated_at\": \"2016-02-27T16:03:53.421Z\",\n    \"how_did_you_hear_about_us\": null\n  }\n}",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"5779cbdbf4f406549ebe77020a053eb5\"",
+        "ETag": "W/\"6f04c64e0055148ac661c8bdf7b2c7b7\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=YUFOemJmdTZYYW00R2M2Rk1YN1J6MTJUMEpaVGdQbFpxZ2JVcEZLbUFhQVFsejVTbkVXcm1xUy9qMHlyQmFqby9CRXpQb21nTEhqVEppNTVFajhOU0hmdFU1NTlpdXA0UmJjbWtjZ09QL2lLc1kzZ0s1SDl0b2hVaUtVSldNYitTUTJaQnVGK2VDbTVGRitVRWtKN0RCWFJncUFPL0UvY0NCYWp1N2RpWUo1R05tanBHTklYWm40SUphQUNEcVJoLS1ObjBmMjlHQktDVURmVTI5NHU0K1ZBPT0%3D--f2565c664eb145db23e8cfd4b88492c5abdfcfaf; path=/; HttpOnly",
-        "X-Request-Id": "ccc2d254-2970-42fc-8029-9b8e558d4905",
-        "X-Runtime": "0.085989",
-        "Content-Length": "311"
+        "Set-Cookie": "_session_id=dFNlaE5LcVpTNzNWcGJGeVgvOWRQTHpWait1b1JSSzBhb01SclhxVDhTN0kvQWZMZ25nc01XRTJJYitDMlF4dkJuREVSRjkyczZ6VmhBalQ2UXRuU0gzWVF3Q2VQNmtQL0VYcUtpL0R6NXlmQVVZdmx5VStnQllsL0Jya2FVcGhLeWJ6c2d0VFdobUR5UERVMUlwTk5ZU0ZpRlhreXZCdWFCMDF6c1NrOGtNOTF6b1VyOU5DdDgwbHBuZ1N6T0xaLS1LcmhpenNMdzdvOTFpZW9FU1Z1THhBPT0%3D--9790a3223d4afb0e049a47753cf2644811909d71; path=/; HttpOnly",
+        "X-Request-Id": "be87c789-c154-4b02-b0a7-bfe3c611ad27",
+        "X-Runtime": "0.085003",
+        "Content-Length": "360"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/auth\" -d 'phone=%2B79174446666' -X PUT \\\n\t-H \"Access-Token: GkNa4mXNmh7IRcQ-2qmd3g\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: nlh_TFVjQVnLlCq7CHrjsw\" \\\n\t-H \"Expiry: 1457714430\" \\\n\t-H \"Uid: 90alvera@jaskolski.biz\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/auth\" -d 'phone=%2B79174446666' -X PUT \\\n\t-H \"Access-Token: nBb48_JC1MTS_ZJGNpl8gQ\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: Bf-VdtIsUAm1OQ-BgTEjqA\" \\\n\t-H \"Expiry: 1457798633\" \\\n\t-H \"Uid: 122augustus.carter@schuster.name\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

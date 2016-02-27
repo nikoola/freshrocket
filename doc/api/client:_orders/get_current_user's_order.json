@@ -16,11 +16,11 @@
       "request_path": "/client/orders/3",
       "request_body": null,
       "request_headers": {
-        "Access-Token": "r0G32w8r82jSOWCz4Fr-fQ",
+        "Access-Token": "Cx6pqgjE511NUSgcWW9KbQ",
         "Token-Type": "Bearer",
-        "Client": "srQqVBVXfnxaICrpTY84ww",
-        "Expiry": "1457714427",
-        "Uid": "73noble.strosin@yost.biz",
+        "Client": "Db3V0jwJzuoW28CaJEn70g",
+        "Expiry": "1457798629",
+        "Uid": "91pearline@bradtkerogahn.biz",
         "Host": "example.org",
         "Cookie": ""
       },
@@ -29,21 +29,21 @@
       "request_content_type": null,
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\n  \"id\": 3,\n  \"user_id\": 3,\n  \"status\": \"unconfirmed\",\n  \"created_at\": \"2016-02-26T16:40:27.198Z\",\n  \"comment\": null,\n  \"pure_product_price\": \"27.0\",\n  \"tax\": \"1.35\",\n  \"delivery_charge\": \"200.0\",\n  \"total_price\": \"228.35\",\n  \"delivery_boy_id\": null,\n  \"wanted_time\": null,\n  \"wanted_date\": null,\n  \"payment_type\": \"cash\",\n  \"is_paid\": null,\n  \"line_items\": [\n    {\n      \"id\": 7,\n      \"order_id\": 3,\n      \"product_id\": 7,\n      \"amount\": 3,\n      \"fixed_price\": \"9.0\"\n    },\n    {\n      \"id\": 8,\n      \"order_id\": 3,\n      \"product_id\": 8,\n      \"amount\": 3,\n      \"fixed_price\": \"9.0\"\n    },\n    {\n      \"id\": 9,\n      \"order_id\": 3,\n      \"product_id\": 9,\n      \"amount\": 3,\n      \"fixed_price\": \"9.0\"\n    }\n  ]\n}",
+      "response_body": "{\n  \"id\": 3,\n  \"user_id\": 5,\n  \"status\": \"unconfirmed\",\n  \"created_at\": \"2016-02-27T16:03:49.545Z\",\n  \"comment\": null,\n  \"pure_product_price\": \"27.0\",\n  \"tax\": \"1.35\",\n  \"delivery_charge\": \"200.0\",\n  \"total_price\": \"228.35\",\n  \"delivery_boy_id\": null,\n  \"wanted_time\": null,\n  \"wanted_date\": null,\n  \"payment_type\": \"cash\",\n  \"is_paid\": null,\n  \"line_items\": [\n    {\n      \"id\": 7,\n      \"order_id\": 3,\n      \"product_id\": 7,\n      \"amount\": 3,\n      \"fixed_price\": \"9.0\"\n    },\n    {\n      \"id\": 8,\n      \"order_id\": 3,\n      \"product_id\": 8,\n      \"amount\": 3,\n      \"fixed_price\": \"9.0\"\n    },\n    {\n      \"id\": 9,\n      \"order_id\": 3,\n      \"product_id\": 9,\n      \"amount\": 3,\n      \"fixed_price\": \"9.0\"\n    }\n  ],\n  \"address\": {\n    \"id\": 3,\n    \"address\": \"885 Edwina Shores\",\n    \"city_id\": 9,\n    \"user_id\": 6\n  }\n}",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"a69f52619fdb9457dcb07a0fbed3527d\"",
+        "ETag": "W/\"c90d3d2fb2e41e0b7e78e271b8b1620b\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=S0dVd3lCTEZJTFU2VnJxd3JqbVdkekVWN25HQVpBaUVxLzRVVlZJanNUMGNjZlBIR0VSbG44anIzWHczdHM1MEQ2S3p1akc1R2w5R0laSVdUYUV3aDZJUVQxNHZ1bjVUWThib29reE1mYkYvekwvUU9pOWhmUkR2TmpJelFjc3E1SE45TGdWWGFEUWF5czBFM01OTm5QSk9wT2ZBeG9RM2c2Qi9wWnU5OHkzaGdqempZNE5zeUFxL1RHd0ladU5mLS1jS0NDYlEvb2wrS2tNQTlxWng2elhnPT0%3D--a1e499db3d800b5c5c8e7347c7bf8623475a0cfc; path=/; HttpOnly",
-        "X-Request-Id": "b0fd0d76-efab-45b1-b6af-7a19de73e599",
-        "X-Runtime": "0.079652",
-        "Content-Length": "505"
+        "Set-Cookie": "_session_id=bDJzVnh3VTlqUVNBZmx1UFFNQUZ6WkxTMnJOVVBnY2U4eFZ1WHA5Qk9GUkk0Ylc0ZnlvK3kxNDNzQmpFVC9iMFk5T0grMzdOVjN2V3VaYVpNa2NMZFpMOFRCVHYxcTZKK2pjeG0yUW9tQllPL2dYa1MraXBpWUkya3NPQXB6YWozRy9oSUo2bjhDS1hobVdvbk5MUXp6eWN3UGhCZjRlL244M3RqZytNaDVmc3UxYjEwWHg1cmx1VXpYUWc1ZXgwLS10bXpzMEY1RExwSHJWMzhkMURnRy9RPT0%3D--a4990cd0644c13afb8e899e48656a55aef2f9bd9; path=/; HttpOnly",
+        "X-Request-Id": "9dd5740e-c61f-4bd4-a844-7310455ad318",
+        "X-Runtime": "0.079304",
+        "Content-Length": "578"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/client/orders/3\" -X GET \\\n\t-H \"Access-Token: r0G32w8r82jSOWCz4Fr-fQ\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: srQqVBVXfnxaICrpTY84ww\" \\\n\t-H \"Expiry: 1457714427\" \\\n\t-H \"Uid: 73noble.strosin@yost.biz\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/client/orders/3\" -X GET \\\n\t-H \"Access-Token: Cx6pqgjE511NUSgcWW9KbQ\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: Db3V0jwJzuoW28CaJEn70g\" \\\n\t-H \"Expiry: 1457798629\" \\\n\t-H \"Uid: 91pearline@bradtkerogahn.biz\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

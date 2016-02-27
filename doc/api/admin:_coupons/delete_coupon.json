@@ -16,11 +16,11 @@
       "request_path": "/admin/coupons/1",
       "request_body": null,
       "request_headers": {
-        "Access-Token": "LD4RLulm9Mq4245srO7kaQ",
+        "Access-Token": "rPL5HoqOY6Hpi5pyTu8VQg",
         "Token-Type": "Bearer",
-        "Client": "3NuGMOUDk12vVoW4Gfs2mw",
-        "Expiry": "1457714414",
-        "Uid": "12andreanne@lind.name",
+        "Client": "iLY2k3NI_IS_BKLqx4Hzhw",
+        "Expiry": "1457798613",
+        "Uid": "12eleazar_jakubowski@harvey.info",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -37,13 +37,13 @@
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "text/html",
         "Cache-Control": "no-cache",
-        "Set-Cookie": "_session_id=RGxKZjZsejl4MSt5T091V29ZMXBaYlNSZE5FNmdreld0dWhPUGtiKy9wUlBEaldOSVFEN2xhbW56SVQrL1NhTzN4dWpydnZ2WWw0cDQ5N1MvOGNxZThCMWx6MGQvSlpsWXdLZ2tsM3hFUzhOeVRvbkhsVXI5RStXblAyYVNpY0ZEc1Z6b0laNjYzL0tkYlRvbTRVSzl4Nm9Gd2NrdjFuK3I0anJTdnBVSDhRYzdhbzQ2RVY1K0ZMdzEvcHFCM0xuLS1KMXFSWlA4bitVZGJ2dTlla2wwajJ3PT0%3D--00f9b834877f5912e70e73212001d8dacec6c477; path=/; HttpOnly",
-        "X-Request-Id": "aa4b13dd-5c90-4d23-b822-e348178705b8",
-        "X-Runtime": "0.087209",
+        "Set-Cookie": "_session_id=QXd3ZWJvR0JsdE9yQXpFQkQyanlrdmRkUFBjM0lQQWZ5bGN2WE9oaGJta1dadVhxZ3J6Q3hJQ3BiNFNNbktyVXZtdHlyMk5uWkYwN3Nyd3c5eXJ2dDYxQXliU2FyNkZMUlhYcnpiZjdvU0JUb3FhU1lNY1dzdVQvMXFwWXFMTlZCYnZ5cVNoMHJpVitQcFJFTDRBSWU2YlNMc0FnUEt3dnBEcjdrMU5qcWZRZ3Z6TTczQmwzbGlRb1ZSSHVwTmRjLS1hSENOT085T21rN1RDeHNQTkJFUS9BPT0%3D--8fb7b40936a6785ef9bccffcba9e6046fcd6c700; path=/; HttpOnly",
+        "X-Request-Id": "7b08f7ec-0735-4af8-a96e-c89f5b0aa8ae",
+        "X-Runtime": "0.079578",
         "Content-Length": "0"
       },
       "response_content_type": "text/html",
-      "curl": "curl \"http://localhost:3000/admin/coupons/1\" -d '' -X DELETE \\\n\t-H \"Access-Token: LD4RLulm9Mq4245srO7kaQ\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: 3NuGMOUDk12vVoW4Gfs2mw\" \\\n\t-H \"Expiry: 1457714414\" \\\n\t-H \"Uid: 12andreanne@lind.name\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/admin/coupons/1\" -d '' -X DELETE \\\n\t-H \"Access-Token: rPL5HoqOY6Hpi5pyTu8VQg\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: iLY2k3NI_IS_BKLqx4Hzhw\" \\\n\t-H \"Expiry: 1457798613\" \\\n\t-H \"Uid: 12eleazar_jakubowski@harvey.info\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

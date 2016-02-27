@@ -11,11 +11,15 @@
       "description": "comment to the order"
     },
     {
+      "scope": "order",
+      "name": "address_id",
+      "description": "Order address"
+    },
+    {
       "scope": [
         "order",
         "line_items_attributes"
       ],
-      "required": true,
       "name": "product_id",
       "description": "id of a product in a cart"
     },
@@ -24,7 +28,6 @@
         "order",
         "line_items_attributes"
       ],
-      "required": true,
       "name": "amount",
       "description": "amount of this product in a cart"
     },
@@ -54,11 +57,11 @@
       "request_path": "client/orders/3",
       "request_body": "order[comment]=hi&order[line_items_attributes][][id]=7&order[line_items_attributes][][amount]",
       "request_headers": {
-        "Access-Token": "as15iQiOL7UK-AjTwB7MMA",
+        "Access-Token": "imAm2ZS7rICivKHruInDVw",
         "Token-Type": "Bearer",
-        "Client": "a08X4fsmOqbG4ck3JU6kOQ",
-        "Expiry": "1457714427",
-        "Uid": "76jada_wunsch@greenfelder.biz",
+        "Client": "cpUcgEWjdZ8-uzphX2WRAw",
+        "Expiry": "1457798630",
+        "Uid": "98alberta_johnson@gulgowskispencer.info",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -75,13 +78,13 @@
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "application/json; charset=utf-8",
         "Cache-Control": "no-cache",
-        "Set-Cookie": "_session_id=TFJ3ZWxxTVFvS0hUMGdQNHdiVFlCclcwWkowZmJ3eFFqbVo3Z3Awc2pRbDM2aU54Vzg5Y0cvRzZTaXlTcmdmclpHSVJBRVN0dFJaN2FxbTFUWFY4NWVjUUpBZjduSGFJN0dTSmtsQjlwcjNRVVR4MDR6VGFvcDczajlCc3luYmF5VFhQcUJaV3A1UzB0NjV4RGFvMW9BeHJXcjV3ZnJGVEtoamEyNk84bFJWalFHaXovNGJsc3JpS0c1T1B4ZzJpLS1Wa2JZL3Q1Q2o0ZE9vZXBiUGFHZjhRPT0%3D--cabb632e537834e2a5a74c0aad8141d01a983ba0; path=/; HttpOnly",
-        "X-Request-Id": "96ab3ede-47c9-43e5-8f32-092e943861c3",
-        "X-Runtime": "0.081138",
+        "Set-Cookie": "_session_id=Y0FHa0tYcnlOTFRwMk1hN1JDVU9mRDhIOFdpMjZuUkJLcUFKRU0rM2NKcFRKV0o2anVTNTZTdEk2RzI1VDloaGZqeUt6T0x2bGJXaVdHYU5sUFB4MldvYXhUblVmZTBVSTRhUnl6bXMyOE5vQys1Y1FXS0lGY2pyS1AvTDBWTWQzNUtoSFdCYmpPOWluMzg5aVZ0Q2FUWmRRY0RJamlwSW5ZY2ZyRXIwUVlac2wrVmZFbmZqNUVzaWlYWndWMXZXLS12bEdIMmFqZnE5TGZsSTVTNUFVUS93PT0%3D--ae1622cdafa3e122009e6228f6cc83396b389b32; path=/; HttpOnly",
+        "X-Request-Id": "3c0f7aa7-5648-4513-956c-473eab0453c7",
+        "X-Runtime": "0.083043",
         "Content-Length": "58"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000client/orders/3\" -d 'order[comment]=hi&order[line_items_attributes][][id]=7&order[line_items_attributes][][amount]' -X PUT \\\n\t-H \"Access-Token: as15iQiOL7UK-AjTwB7MMA\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: a08X4fsmOqbG4ck3JU6kOQ\" \\\n\t-H \"Expiry: 1457714427\" \\\n\t-H \"Uid: 76jada_wunsch@greenfelder.biz\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000client/orders/3\" -d 'order[comment]=hi&order[line_items_attributes][][id]=7&order[line_items_attributes][][amount]' -X PUT \\\n\t-H \"Access-Token: imAm2ZS7rICivKHruInDVw\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: cpUcgEWjdZ8-uzphX2WRAw\" \\\n\t-H \"Expiry: 1457798630\" \\\n\t-H \"Uid: 98alberta_johnson@gulgowskispencer.info\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

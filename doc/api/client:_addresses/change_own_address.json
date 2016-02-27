@@ -1,0 +1,64 @@
+{
+  "resource": "client: addresses",
+  "http_method": "PUT",
+  "route": "/client/addresses/:id",
+  "description": "change own address",
+  "explanation": "fails if address has been used in any approved orders",
+  "parameters": [
+    {
+      "scope": "address",
+      "name": "city_id",
+      "description": "Address city"
+    },
+    {
+      "scope": "address",
+      "name": "order_id",
+      "description": "Address order"
+    },
+    {
+      "scope": "address",
+      "name": "address",
+      "description": "street, home, flat"
+    }
+  ],
+  "response_fields": [
+
+  ],
+  "requests": [
+    {
+      "request_method": "PUT",
+      "request_path": "/client/addresses/1",
+      "request_body": "address[address]=good",
+      "request_headers": {
+        "Access-Token": "R-zu5ThnXIX7evjEQOQrYQ",
+        "Token-Type": "Bearer",
+        "Client": "pUXyZgLV1xvjHIk3Z9JAfg",
+        "Expiry": "1457798625",
+        "Uid": "79raphaelle@schowalter.org",
+        "Host": "example.org",
+        "Content-Type": "application/x-www-form-urlencoded",
+        "Cookie": ""
+      },
+      "request_query_parameters": {
+      },
+      "request_content_type": "application/x-www-form-urlencoded",
+      "response_status": 200,
+      "response_status_text": "OK",
+      "response_body": "{\n  \"id\": 1,\n  \"address\": \"good\",\n  \"city_id\": 1,\n  \"user_id\": 1\n}",
+      "response_headers": {
+        "X-Frame-Options": "SAMEORIGIN",
+        "X-XSS-Protection": "1; mode=block",
+        "X-Content-Type-Options": "nosniff",
+        "Content-Type": "application/json; charset=utf-8",
+        "ETag": "W/\"9f2990b93d39c05d6e77ecd116edaff1\"",
+        "Cache-Control": "max-age=0, private, must-revalidate",
+        "Set-Cookie": "_session_id=cFpzcFBHUWt6eG1SSkMwUEt3N1VHSW9CMXZOc3VkVmI3cWhTRE5XS25JZ1Ird2lhUEZKbjZQamtBaGU4SUZ5UldtVEJERStGY00wRlo4WXlsWTVGS0NrNytYcDNEbk95c1VwcFJwREV1bUNGSlV5bWZRTm02RWdBaW4rUEFJVGVETGtzaFZzakJ4WnhUWFYyU2hFRXVhVkRhUm50bXhoalNoblRjVTNQN2R1U0UrVTNtK29rNXkyeEkyS3Q3TWtILS1iNlh1bWZBSU03ZzdDUW9FN0pzZGxnPT0%3D--2ba050744d14058081c61dc39208514a4234f63d; path=/; HttpOnly",
+        "X-Request-Id": "b78e0f99-8729-4268-bcc3-6e78a39a1410",
+        "X-Runtime": "0.083513",
+        "Content-Length": "49"
+      },
+      "response_content_type": "application/json; charset=utf-8",
+      "curl": "curl \"http://localhost:3000/client/addresses/1\" -d 'address[address]=good' -X PUT \\\n\t-H \"Access-Token: R-zu5ThnXIX7evjEQOQrYQ\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: pUXyZgLV1xvjHIk3Z9JAfg\" \\\n\t-H \"Expiry: 1457798625\" \\\n\t-H \"Uid: 79raphaelle@schowalter.org\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+    }
+  ]
+}
