@@ -61,6 +61,7 @@ ActiveRecord::Schema.define(version: 20160127185541) do
 
   create_table "orders", force: :cascade do |t|
     t.integer  "user_id"
+    t.integer  "address_id"
     t.string   "status"
     t.text     "comment"
     t.decimal  "pure_product_price", precision: 8, scale: 2
@@ -76,6 +77,12 @@ ActiveRecord::Schema.define(version: 20160127185541) do
     t.string   "payment_type"
     t.boolean  "is_paid"
     t.string   "coupon_code"
+  end
+
+  create_table "addresses", force: :cascade do |t|
+    t.integer  "user_id"
+    t.integer  "city_id"
+    t.string   "address"
   end
 
   add_index "orders", ["user_id"], name: "index_orders_on_user_id"

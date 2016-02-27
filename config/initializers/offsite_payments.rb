@@ -1,7 +1,7 @@
 
 
 require 'offsite_payments'
-OffsitePayments.mode = :test # for testing server
+OffsitePayments.mode = :test # TODO for testing server
 # ActiveMerchant::Billing::Base.integration_mode = :production
 
 

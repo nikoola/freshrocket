@@ -35,6 +35,8 @@ class SetupSchema < ActiveRecord::Migration
 	add_index "line_items", ["product_id"], name: "index_line_items_on_product_id"
 
 	create_table "orders", force: :cascade do |t|
+		t.integer  "address_id"
+
 		t.integer  "user_id"
 		t.string   "status"
 		t.text     "comment"
@@ -59,6 +61,12 @@ class SetupSchema < ActiveRecord::Migration
 	end
 
 	add_index "orders", ["user_id"], name: "index_orders_on_user_id"
+
+	create_table "addresses", force: :cascade do |t|
+	  t.integer  "user_id"
+	  t.integer  "city_id"
+	  t.string   "address"
+	end
 
 	create_table "products", force: :cascade do |t|
 		t.string   "title"
@@ -103,6 +111,7 @@ class SetupSchema < ActiveRecord::Migration
 		t.string   'first_name'
 		t.string   'last_name'
 		t.string   "email"
+
 		t.string   "provider",               default: "email", null: false
 		t.string   "uid",                    default: "",      null: false
 		t.string   "encrypted_password",     default: "",      null: false
@@ -123,6 +132,8 @@ class SetupSchema < ActiveRecord::Migration
 
 		t.string   "reset_password_token"
 		t.datetime "reset_password_sent_at"
+
+		t.text     "how_did_you_hear_about_us"
 	end
 
 
