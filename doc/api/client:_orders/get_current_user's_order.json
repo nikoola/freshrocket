@@ -16,11 +16,11 @@
       "request_path": "/client/orders/3",
       "request_body": null,
       "request_headers": {
-        "Access-Token": "TeOLcvDhIYuEbnqYZ0CDpA",
+        "Access-Token": "fbep0tnjLmr4DUAa8ng6vQ",
         "Token-Type": "Bearer",
-        "Client": "Q9j5mhgEcxfDRyYhX3wwIw",
-        "Expiry": "1457857092",
-        "Uid": "91myles@mckenzierippin.biz",
+        "Client": "dvgnaw9IiwF76Hxg5MNacA",
+        "Expiry": "1457871454",
+        "Uid": "91dennis.stark@jacobson.org",
         "Host": "example.org",
         "Cookie": ""
       },
@@ -29,21 +29,21 @@
       "request_content_type": null,
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\n  \"id\": 3,\n  \"user_id\": 5,\n  \"status\": \"unconfirmed\",\n  \"created_at\": \"2016-02-28T08:18:12.234Z\",\n  \"comment\": null,\n  \"pure_product_price\": \"27.0\",\n  \"tax\": \"1.35\",\n  \"delivery_charge\": \"200.0\",\n  \"total_price\": \"228.35\",\n  \"delivery_boy_id\": null,\n  \"wanted_time\": null,\n  \"wanted_date\": null,\n  \"payment_type\": \"cash\",\n  \"is_paid\": null,\n  \"line_items\": [\n    {\n      \"id\": 7,\n      \"order_id\": 3,\n      \"product_id\": 7,\n      \"amount\": 3,\n      \"fixed_price\": \"9.0\"\n    },\n    {\n      \"id\": 8,\n      \"order_id\": 3,\n      \"product_id\": 8,\n      \"amount\": 3,\n      \"fixed_price\": \"9.0\"\n    },\n    {\n      \"id\": 9,\n      \"order_id\": 3,\n      \"product_id\": 9,\n      \"amount\": 3,\n      \"fixed_price\": \"9.0\"\n    }\n  ],\n  \"address\": {\n    \"id\": 3,\n    \"address\": \"979 Blaze Port\",\n    \"city_id\": 9,\n    \"user_id\": 6\n  }\n}",
+      "response_body": "{\n  \"id\": 3,\n  \"user_id\": 5,\n  \"status\": \"unconfirmed\",\n  \"created_at\": \"2016-02-28T12:17:34.376Z\",\n  \"comment\": null,\n  \"pure_product_price\": \"27.0\",\n  \"tax\": \"1.35\",\n  \"delivery_charge\": \"200.0\",\n  \"total_price\": \"228.35\",\n  \"delivery_boy_id\": null,\n  \"wanted_time\": null,\n  \"wanted_date\": null,\n  \"payment_type\": \"cash\",\n  \"is_paid\": null,\n  \"line_items\": [\n    {\n      \"id\": 7,\n      \"order_id\": 3,\n      \"product_id\": 7,\n      \"amount\": 3,\n      \"fixed_price\": \"9.0\"\n    },\n    {\n      \"id\": 8,\n      \"order_id\": 3,\n      \"product_id\": 8,\n      \"amount\": 3,\n      \"fixed_price\": \"9.0\"\n    },\n    {\n      \"id\": 9,\n      \"order_id\": 3,\n      \"product_id\": 9,\n      \"amount\": 3,\n      \"fixed_price\": \"9.0\"\n    }\n  ],\n  \"address\": {\n    \"id\": 3,\n    \"address\": \"618 Samanta Throughway\",\n    \"city_id\": 9,\n    \"user_id\": 6\n  }\n}",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"a7c6923b491946378772a8a6d4f23f36\"",
+        "ETag": "W/\"5953dae73587726be0a56adf55166393\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=NFRCWWJYQzQ1eXh4WGhHRlRQSERLbTFSa2xBU2l0dHJnWHE1RVJUWEFuZ3lEc3Jhcm85RXF0b3dHdFBnYUI4alJRL2VyMHpoRzdQMmlNK3N4a3VpNCtCQndVWEMyUHhlb1NtbG1zbDVUVDVHdUVBdHZWWWFBK2U5SW1QbklwZGQybmFvck4vS0s3QWY3VGVVakFSMk5QS2NXZ016VnEybS9hTHdaVjcrS0FNOGZFdUVldzNnT1N3WnFBcFphTWxSLS15OFE4TmNqc2RCV2pTYU5KZTdwNWVRPT0%3D--07dc364277e81f0ff4c874aeaf33800866f294a6; path=/; HttpOnly",
-        "X-Request-Id": "8415541d-80db-4286-a8a4-37feff2a4691",
-        "X-Runtime": "0.085630",
-        "Content-Length": "575"
+        "Set-Cookie": "_session_id=WFgxZFVtS3EzREZ6a0Y1V3hQcjBWNW5kVWRNNUgxcUFqcXpUSmhrWmIrK2picTlyblViR2ZFQ243TVZmeXFIWW1QZ0dNQWlMZUljNTdTN1VkcXVOeWZsSnk5M3hmSzdpYUdCK1pjSUlQWXpGdWhVV1QrMDN0bjNOeElLa253UDVJaWVHMGhyYU5qYXhRci9jaCsxNnNab3pLOGVkZWF2VG1SU2lJdEhtU3h2YlVoYks0Sy8xbFY3M21zaHVjR3JtLS1WQ1dscVRWSGtOdVRVbXR3cmVnZ0RRPT0%3D--145a72f32fd217d834c7acb4838f226d5ea6936b; path=/; HttpOnly",
+        "X-Request-Id": "be0af3e5-f2bf-4bff-b650-5c63979208ae",
+        "X-Runtime": "0.079615",
+        "Content-Length": "583"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/client/orders/3\" -X GET \\\n\t-H \"Access-Token: TeOLcvDhIYuEbnqYZ0CDpA\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: Q9j5mhgEcxfDRyYhX3wwIw\" \\\n\t-H \"Expiry: 1457857092\" \\\n\t-H \"Uid: 91myles@mckenzierippin.biz\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/client/orders/3\" -X GET \\\n\t-H \"Access-Token: fbep0tnjLmr4DUAa8ng6vQ\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: dvgnaw9IiwF76Hxg5MNacA\" \\\n\t-H \"Expiry: 1457871454\" \\\n\t-H \"Uid: 91dennis.stark@jacobson.org\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

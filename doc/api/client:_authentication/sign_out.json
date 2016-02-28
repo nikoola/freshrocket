@@ -16,11 +16,11 @@
       "request_path": "/auth/sign_out",
       "request_body": null,
       "request_headers": {
-        "Access-Token": "If2oz0M-sI_PKSDG-RQ56g",
+        "Access-Token": "z1aB-oUHnoC_GJJN0jQn1A",
         "Token-Type": "Bearer",
-        "Client": "oRFYgpyTAxTY9bkIw2d7IQ",
-        "Expiry": "1457857089",
-        "Uid": "82helene.nienow@fritschmetz.net",
+        "Client": "WGUrTGUJZVJ3w8zBGiWenQ",
+        "Expiry": "1457871451",
+        "Uid": "82daron_daniel@schillertowne.org",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -38,13 +38,13 @@
         "Content-Type": "application/json; charset=utf-8",
         "ETag": "W/\"7363e85fe9edee6f053a4b319588c086\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=aGFlMWhEcmNxZFlRZHFWZVNtWHoxU1A4MjFkL3JNVG0zanFSUDdXdWZma2NvaWpCUk9EQ3pueGVqVERsM2ZxSUFOTkdpU1ByenlUQ09YZkJtQ2Q4ZWc9PS0tZy9QM1RaZ3pieUl3UktZazdOcHFVdz09--9d55720e410abf08fbe0765efbad7348b958ccd5; path=/; HttpOnly",
-        "X-Request-Id": "3ec5adaa-a5ab-4488-9de7-173698ba5bbc",
-        "X-Runtime": "0.076847",
+        "Set-Cookie": "_session_id=dWUxVnlIV3VmeWUrYTJpVVUrWDJ0NGJwWjg3d2d0dlUzdnU4WXpuRmI3V0RRRG4rK2FFdXBtVTRrb1FWejVpNFM5REdqaXNrZWwvaXI3aVZmeFRVeWc9PS0tSEZUVEM4L0J1eVJoRUp2eFpXdy9WUT09--9fbb51ed88d3840ff9eff87499da79fbcd9ff5fd; path=/; HttpOnly",
+        "X-Request-Id": "4eb1f972-7d98-4f83-bc3a-6ca1f6c0cb08",
+        "X-Runtime": "0.073071",
         "Content-Length": "16"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/auth/sign_out\" -d '' -X DELETE \\\n\t-H \"Access-Token: If2oz0M-sI_PKSDG-RQ56g\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: oRFYgpyTAxTY9bkIw2d7IQ\" \\\n\t-H \"Expiry: 1457857089\" \\\n\t-H \"Uid: 82helene.nienow@fritschmetz.net\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/auth/sign_out\" -d '' -X DELETE \\\n\t-H \"Access-Token: z1aB-oUHnoC_GJJN0jQn1A\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: WGUrTGUJZVJ3w8zBGiWenQ\" \\\n\t-H \"Expiry: 1457871451\" \\\n\t-H \"Uid: 82daron_daniel@schillertowne.org\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

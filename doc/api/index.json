@@ -471,6 +471,13 @@
           "groups": "all",
           "route": "/auth",
           "method": "put"
+        },
+        {
+          "description": "verifies phone",
+          "link": "client:_users/verifies_phone.json",
+          "groups": "all",
+          "route": "/client/verify",
+          "method": "put"
         }
       ]
     },

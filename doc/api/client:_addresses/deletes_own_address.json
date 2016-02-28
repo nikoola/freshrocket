@@ -16,11 +16,11 @@
       "request_path": "/client/addresses/1",
       "request_body": null,
       "request_headers": {
-        "Access-Token": "ZGar908Stzm7r4TkXug74g",
+        "Access-Token": "xyCFLej0SC-7TVuCyG-lLg",
         "Token-Type": "Bearer",
-        "Client": "UARDODKwizR0ha5nhkYJ8A",
-        "Expiry": "1457857089",
-        "Uid": "80aidan@bergeharber.org",
+        "Client": "2OJCiBRkCc1k9N168h6-2w",
+        "Expiry": "1457871450",
+        "Uid": "80hosea@okeefe.com",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -37,13 +37,13 @@
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "text/html",
         "Cache-Control": "no-cache",
-        "Set-Cookie": "_session_id=b0k4Qm12R0orR0t3TDVtR2U2UlovSmQrN05ycnBwaC90NEdJMG1wTmxxL3IwVkwrdUVoMHcyRENpZ2thQTlvVVZ3ak5oQThwUWlHTDJpNSt4V0tLUzh4SVR0RUdRQ3ZOZVU1L0pMdzJSazlhOForbE1rQlZ3T2QyV2RtR2c1MFN3NUdQZVR1NjduR1N1WStKK3NBNmpzQ2w3MnN4RzhyRU85eXdhLzZJaWx5ZXorS0VQR1p4blRSU0RrcWliRnhBLS1oMHAxaG9IT1IyWXFWcis0ODZ2dW53PT0%3D--cd4bcb427d03ecce2df01f7a19b606da9d307f86; path=/; HttpOnly",
-        "X-Request-Id": "f3a7cb82-a452-4c75-b164-24687b10cceb",
-        "X-Runtime": "0.083161",
+        "Set-Cookie": "_session_id=YURTS1ZvaTk1RENMWnVWd2VlcFN4YzB3OHcwd1FhSisrOGxmY1YyWVJJRzJVV3gycjE4NlNtSGd0SkxMNUV1NGRhcWtCVTJ0a0RyY1BzUm9veUZPd3RtM01ibExGY2lpOTVkN1FiQXNwT29XUVFsR0t6V2JFcjlvcHpzVUc4UVRxYzhEaERIWTJKckNkME1Xd2drR0ZSbkd5Tk9iL1ZaTkRnZUdkZ2M4RDdxMHI4bXMwMmVIRHY3cXBZdVc2L0ZjLS1xd3Q2Mnh0L05IVU5FZHd0dkFhdHlBPT0%3D--8dfebe8f6d3ec5afe8229b64ce535722cea288c6; path=/; HttpOnly",
+        "X-Request-Id": "0d1abce0-78fa-4a74-8d20-6cd587a81d6d",
+        "X-Runtime": "0.079318",
         "Content-Length": "0"
       },
       "response_content_type": "text/html",
-      "curl": "curl \"http://localhost:3000/client/addresses/1\" -d '' -X DELETE \\\n\t-H \"Access-Token: ZGar908Stzm7r4TkXug74g\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: UARDODKwizR0ha5nhkYJ8A\" \\\n\t-H \"Expiry: 1457857089\" \\\n\t-H \"Uid: 80aidan@bergeharber.org\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/client/addresses/1\" -d '' -X DELETE \\\n\t-H \"Access-Token: xyCFLej0SC-7TVuCyG-lLg\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: 2OJCiBRkCc1k9N168h6-2w\" \\\n\t-H \"Expiry: 1457871450\" \\\n\t-H \"Uid: 80hosea@okeefe.com\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

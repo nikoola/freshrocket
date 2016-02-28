@@ -28,17 +28,17 @@
       "request_content_type": null,
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "[\n  {\n    \"id\": 1,\n    \"name\": \"Port Hollyport_44\",\n    \"active\": true,\n    \"areas\": [\n\n    ]\n  },\n  {\n    \"id\": 2,\n    \"name\": \"Dibbertview_45\",\n    \"active\": true,\n    \"areas\": [\n\n    ]\n  },\n  {\n    \"id\": 3,\n    \"name\": \"Port Pablo_46\",\n    \"active\": true,\n    \"areas\": [\n\n    ]\n  }\n]",
+      "response_body": "[\n  {\n    \"id\": 1,\n    \"name\": \"East Dudleyside_44\",\n    \"active\": true,\n    \"areas\": [\n\n    ]\n  },\n  {\n    \"id\": 2,\n    \"name\": \"Littelfort_45\",\n    \"active\": true,\n    \"areas\": [\n\n    ]\n  },\n  {\n    \"id\": 3,\n    \"name\": \"East Damion_46\",\n    \"active\": true,\n    \"areas\": [\n\n    ]\n  }\n]",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"4873bff7ecd565cf1375ef4f291fbf55\"",
+        "ETag": "W/\"fb004d32b29cc5a78bedec4575a07166\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "X-Request-Id": "7737ebe1-76b1-4118-9a6f-afed6772366b",
-        "X-Runtime": "0.010005",
-        "Content-Length": "177"
+        "X-Request-Id": "2772eb37-265f-4b52-abc2-2cc9fadc2542",
+        "X-Runtime": "0.010021",
+        "Content-Length": "178"
       },
       "response_content_type": "application/json; charset=utf-8",
       "curl": "curl \"http://localhost:3000/cities?active=1\" -X GET \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""

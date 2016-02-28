@@ -30,11 +30,11 @@
       "request_path": "/admin/users/1",
       "request_body": "user[phone]=%2B79177878978",
       "request_headers": {
-        "Access-Token": "lal4RLzR86zGkWXyepLXkg",
+        "Access-Token": "MSw6K4gELCV7zvkenEiaFw",
         "Token-Type": "Bearer",
-        "Client": "S6QdPWvldmAlKZSOGTL6Pg",
-        "Expiry": "1457857086",
-        "Uid": "61yesenia@jones.org",
+        "Client": "wBtngRPXzHv8gwSTXR9Y1Q",
+        "Expiry": "1457871448",
+        "Uid": "61madisyn_bashirian@walsh.com",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -44,21 +44,21 @@
       "request_content_type": "application/x-www-form-urlencoded",
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\n  \"id\": 1,\n  \"first_name\": \"Julius\",\n  \"last_name\": \"Little\",\n  \"email\": \"60amir.orn@kirlin.name\",\n  \"phone\": \"+79177878978\",\n  \"is_verified\": false,\n  \"provider\": \"email\",\n  \"uid\": \"60amir.orn@kirlin.name\",\n  \"created_at\": \"2016-02-28T08:18:06.362Z\",\n  \"abilities\": {\n    \"orders\": 0,\n    \"products\": 0,\n    \"users\": 0,\n    \"categories\": 1,\n    \"coupons\": 0,\n    \"settings\": 0,\n    \"cities\": 0,\n    \"delivery_boy\": 0\n  }\n}",
+      "response_body": "{\n  \"id\": 1,\n  \"first_name\": \"Nathanael\",\n  \"last_name\": \"Kuhlman\",\n  \"email\": \"60sandy@kunze.net\",\n  \"phone\": \"+79177878978\",\n  \"is_verified\": false,\n  \"provider\": \"email\",\n  \"uid\": \"60sandy@kunze.net\",\n  \"created_at\": \"2016-02-28T12:17:28.617Z\",\n  \"abilities\": {\n    \"orders\": 0,\n    \"products\": 0,\n    \"users\": 0,\n    \"categories\": 1,\n    \"coupons\": 0,\n    \"settings\": 0,\n    \"cities\": 0,\n    \"delivery_boy\": 0\n  }\n}",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"e3da3353a320a227be2a4d522dcfee78\"",
+        "ETag": "W/\"029662f7af88dac09b677640e5a85bd1\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=OXMzamhGK2E3WTRsd29qWklwTWJmWDNyYUxhNjU1eDBOOXJQNWVlM0ZST3NhSGRUNWQvM0g2WTR2UXRxVE9mTUpXR3pXeEhmandaOXFZbXBGNS8zSnVqTW9HdmhXRFA0S1FmYnMyTllyR2d3UmFua3QzVkJGbXJJd1dLMGFCT05FM1JqVlZqQW9KcHJwRlQrUU5xVHE2S2pQUlRGaW9vaHBIOGxUdnV0cmJYV25ncExudkhFbTJYNmFQcldDR2lTLS1mcjZWdHZRZ05iNkZPeUFnaWtFbk53PT0%3D--6cb40daab9750947aac18c5c70eac2b46f684d27; path=/; HttpOnly",
-        "X-Request-Id": "93cdc939-9282-463c-9497-ec18b71ee8be",
-        "X-Runtime": "0.105604",
-        "Content-Length": "333"
+        "Set-Cookie": "_session_id=Rm42Ti94NjcxRDRiYk4xVmdNdEljNjc2blRLcElCb2UrQXdlMGprRGdOREJXVVEzMy95M2ZwM3FMNktpaDhyNms4TzFWVVlycXRyN2h0QnJaQU45Rmx0SmttWEg0K2ttYlpGWkdEVG5kS1oyazJwRFJQVnN6MXVndlBFYW9hOTI5d1FoWUV1OUE3MVpreFJJWXBDd0FLSnJFUHBzS01mVzFCSXFEUFJqT3Z6Zkw0NGVtUi9mQTFYL2hNbktuelJpLS0vSGhocHlydUhtekZsSEZENlNkQ1BRPT0%3D--d1114343673caa83e946636f1149d50a9cf33487; path=/; HttpOnly",
+        "X-Request-Id": "833256a5-28b7-4667-9a33-a224a9d14a5d",
+        "X-Runtime": "0.088151",
+        "Content-Length": "327"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/admin/users/1\" -d 'user[phone]=%2B79177878978' -X PUT \\\n\t-H \"Access-Token: lal4RLzR86zGkWXyepLXkg\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: S6QdPWvldmAlKZSOGTL6Pg\" \\\n\t-H \"Expiry: 1457857086\" \\\n\t-H \"Uid: 61yesenia@jones.org\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/admin/users/1\" -d 'user[phone]=%2B79177878978' -X PUT \\\n\t-H \"Access-Token: MSw6K4gELCV7zvkenEiaFw\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: wBtngRPXzHv8gwSTXR9Y1Q\" \\\n\t-H \"Expiry: 1457871448\" \\\n\t-H \"Uid: 61madisyn_bashirian@walsh.com\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

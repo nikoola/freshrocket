@@ -24,17 +24,17 @@
       "request_content_type": null,
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\n  \"id\": 22,\n  \"city_id\": 16,\n  \"title\": \"fish\",\n  \"price\": \"3.0\",\n  \"description\": null,\n  \"created_at\": \"2016-02-28T08:18:25.488Z\",\n  \"updated_at\": \"2016-02-28T08:18:25.488Z\",\n  \"inventory_count\": 20,\n  \"image_url\": \"uploads/product/image/default.png\"\n}",
+      "response_body": "{\n  \"id\": 22,\n  \"city_id\": 16,\n  \"title\": \"fish\",\n  \"price\": \"3.0\",\n  \"description\": null,\n  \"created_at\": \"2016-02-28T12:17:45.225Z\",\n  \"updated_at\": \"2016-02-28T12:17:45.225Z\",\n  \"inventory_count\": 20,\n  \"image_url\": \"uploads/product/image/default.png\",\n  \"categories\": [\n\n  ]\n}",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"a68ca027a3ad66f2f0e28fb404465af9\"",
+        "ETag": "W/\"3dbabc0cdaa41635d71746733c26f161\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "X-Request-Id": "9de38e0c-18ae-4780-b1aa-80b01537b459",
-        "X-Runtime": "0.002478",
-        "Content-Length": "219"
+        "X-Request-Id": "f5c66097-5f3d-4d1e-86b0-f17be447d5e6",
+        "X-Runtime": "0.003044",
+        "Content-Length": "235"
       },
       "response_content_type": "application/json; charset=utf-8",
       "curl": "curl \"http://localhost:3000/products/22\" -X GET \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""

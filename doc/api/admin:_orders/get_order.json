@@ -16,11 +16,11 @@
       "request_path": "/admin/orders/1",
       "request_body": null,
       "request_headers": {
-        "Access-Token": "jaKbipS0Ml0eGA7g6Jumcg",
+        "Access-Token": "sGa-4fydn_XAvp3fHj2p-w",
         "Token-Type": "Bearer",
-        "Client": "Yii_MmpcaoCDqShErwpaGw",
-        "Expiry": "1457857078",
-        "Uid": "25pearl@bradtke.info",
+        "Client": "VJI5kfsNAfWGA65VEmZMJA",
+        "Expiry": "1457871441",
+        "Uid": "25gia_miller@abernathy.info",
         "Host": "example.org",
         "Cookie": ""
       },
@@ -29,21 +29,21 @@
       "request_content_type": null,
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\n  \"id\": 1,\n  \"user_id\": 1,\n  \"status\": \"unconfirmed\",\n  \"created_at\": \"2016-02-28T08:17:58.800Z\",\n  \"comment\": null,\n  \"pure_product_price\": \"27.0\",\n  \"tax\": \"1.35\",\n  \"delivery_charge\": \"200.0\",\n  \"total_price\": \"228.35\",\n  \"delivery_boy_id\": null,\n  \"wanted_time\": null,\n  \"wanted_date\": null,\n  \"payment_type\": \"cash\",\n  \"is_paid\": null,\n  \"line_items\": [\n    {\n      \"id\": 1,\n      \"order_id\": 1,\n      \"product_id\": 1,\n      \"amount\": 3,\n      \"fixed_price\": \"9.0\"\n    },\n    {\n      \"id\": 2,\n      \"order_id\": 1,\n      \"product_id\": 2,\n      \"amount\": 3,\n      \"fixed_price\": \"9.0\"\n    },\n    {\n      \"id\": 3,\n      \"order_id\": 1,\n      \"product_id\": 3,\n      \"amount\": 3,\n      \"fixed_price\": \"9.0\"\n    }\n  ],\n  \"address\": {\n    \"id\": 1,\n    \"address\": \"76497 Little Mission\",\n    \"city_id\": 1,\n    \"user_id\": 2\n  }\n}",
+      "response_body": "{\n  \"id\": 1,\n  \"user_id\": 1,\n  \"status\": \"unconfirmed\",\n  \"created_at\": \"2016-02-28T12:17:21.566Z\",\n  \"comment\": null,\n  \"pure_product_price\": \"27.0\",\n  \"tax\": \"1.35\",\n  \"delivery_charge\": \"200.0\",\n  \"total_price\": \"228.35\",\n  \"delivery_boy_id\": null,\n  \"wanted_time\": null,\n  \"wanted_date\": null,\n  \"payment_type\": \"cash\",\n  \"is_paid\": null,\n  \"line_items\": [\n    {\n      \"id\": 1,\n      \"order_id\": 1,\n      \"product_id\": 1,\n      \"amount\": 3,\n      \"fixed_price\": \"9.0\"\n    },\n    {\n      \"id\": 2,\n      \"order_id\": 1,\n      \"product_id\": 2,\n      \"amount\": 3,\n      \"fixed_price\": \"9.0\"\n    },\n    {\n      \"id\": 3,\n      \"order_id\": 1,\n      \"product_id\": 3,\n      \"amount\": 3,\n      \"fixed_price\": \"9.0\"\n    }\n  ],\n  \"address\": {\n    \"id\": 1,\n    \"address\": \"7105 Jettie Hills\",\n    \"city_id\": 1,\n    \"user_id\": 2\n  }\n}",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"d55834868bbf955f6bf2fbec7278f72d\"",
+        "ETag": "W/\"907abc26f70ec35ce523c7739b8d6754\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=RjA1TjVMUXdqM0VnMVZZNURzQ3gvSkw3VGl4MTVqeVJ1ZkdhUENZK25jb0Z2bnQ2NllSYmRVVjkxVk5CZURITVJWTXplSjlzU3FuL0kzK0VocnkwVWJORzBWNW5QYzFvdlFiM285bDZqWS9wUVA2TDZ3ekVpUnkwRmc0VDlMTEtyWmhTbmNtYmVWVzlhOUQ5aDVoN1NJdklibG5DWjJQV0hXemNBSm1YZnJyTDN2WUMwVmJjanFEbXR3R3h5MDdFLS1aL1ZhVEh6Y2ppUXVPNHBNbFREUFJ3PT0%3D--fc5728907155a8b7a3714c7872bd13965c46cdd0; path=/; HttpOnly",
-        "X-Request-Id": "c5df784c-cf44-426c-abac-e7e7c4855923",
-        "X-Runtime": "0.096378",
-        "Content-Length": "581"
+        "Set-Cookie": "_session_id=eGdnNGtVbUtTTzZqRW5aY3RPR2xiSjJpYzUwSGRWVVQxdmhlR2NPMnkxbkl2UnNpYnZVNHpRc2w4L1ZSSGIxclNCL3RGejJOTk9zd2tlTlM5TFJKNVJCNDM0NkE2cmZoMjh2UVVNVW0xK3hwa3pwNlN3U09IUjlXYW1vUlBSOUpmZmx6b2ZPdGJ3b1BuZGxQRzhwMlV2N1Y0NHJiZytsSmdGSm1ZZE9QMlhuVFhKcTEyNFZZYTZNVUJlamduOE5nLS1lZ1Y5a0k4STIvOTkxQ0Q1UVVHWnhBPT0%3D--4e3aee823d0b053b3e0c23be0725af5185c20504; path=/; HttpOnly",
+        "X-Request-Id": "c236923b-634a-46fa-81b7-cf4ce3e97be8",
+        "X-Runtime": "0.093727",
+        "Content-Length": "578"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/admin/orders/1\" -X GET \\\n\t-H \"Access-Token: jaKbipS0Ml0eGA7g6Jumcg\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: Yii_MmpcaoCDqShErwpaGw\" \\\n\t-H \"Expiry: 1457857078\" \\\n\t-H \"Uid: 25pearl@bradtke.info\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/admin/orders/1\" -X GET \\\n\t-H \"Access-Token: sGa-4fydn_XAvp3fHj2p-w\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: VJI5kfsNAfWGA65VEmZMJA\" \\\n\t-H \"Expiry: 1457871441\" \\\n\t-H \"Uid: 25gia_miller@abernathy.info\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

@@ -23,7 +23,7 @@
     {
       "request_method": "POST",
       "request_path": "/auth/sign_in",
-      "request_body": "email=81abby%40graham.org&password=secrety_bickety",
+      "request_body": "email=81corine%40denesikorn.info&password=secrety_bickety",
       "request_headers": {
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
@@ -34,25 +34,25 @@
       "request_content_type": "application/x-www-form-urlencoded",
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\n  \"data\": {\n    \"id\": 1,\n    \"first_name\": \"Makenna\",\n    \"last_name\": \"Barrows\",\n    \"email\": \"81abby@graham.org\",\n    \"provider\": \"email\",\n    \"uid\": \"81abby@graham.org\",\n    \"phone\": \"+79177418428\",\n    \"verification_code\": null,\n    \"is_verified\": false,\n    \"how_did_you_hear_about_us\": null\n  }\n}",
+      "response_body": "{\n  \"data\": {\n    \"id\": 1,\n    \"first_name\": \"Reva\",\n    \"last_name\": \"Hahn\",\n    \"email\": \"81corine@denesikorn.info\",\n    \"provider\": \"email\",\n    \"uid\": \"81corine@denesikorn.info\",\n    \"phone\": \"+79174955198\",\n    \"verification_code\": null,\n    \"is_verified\": false,\n    \"how_did_you_hear_about_us\": null\n  }\n}",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
-        "access-token": "ESJJcRsS9TMAPCdvYWBlnQ",
+        "access-token": "tInSuXVcViQeaSSwxmp5oQ",
         "token-type": "Bearer",
-        "client": "DuisgO7LJYRYsMM7eAxe9A",
-        "expiry": "1457857089",
-        "uid": "81abby@graham.org",
+        "client": "CxsYQ1NmgGeTt27FtgPVmA",
+        "expiry": "1457871451",
+        "uid": "81corine@denesikorn.info",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"28c7e43bb78791b08f9e9442793af1fc\"",
+        "ETag": "W/\"49df38e2171dba43e8ea867652d651e8\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "X-Request-Id": "e2f99e82-15ba-46fd-8141-a4bdd1a35c99",
-        "X-Runtime": "0.174015",
-        "Content-Length": "236"
+        "X-Request-Id": "1662e680-1929-47c1-99e7-757f5b136cd5",
+        "X-Runtime": "0.165041",
+        "Content-Length": "244"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/auth/sign_in\" -d 'email=81abby%40graham.org&password=secrety_bickety' -X POST \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/auth/sign_in\" -d 'email=81corine%40denesikorn.info&password=secrety_bickety' -X POST \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

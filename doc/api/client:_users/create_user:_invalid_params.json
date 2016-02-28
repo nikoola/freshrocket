@@ -47,13 +47,13 @@
     {
       "request_method": "POST",
       "request_path": "/auth",
-      "request_body": "email=120stephan_franecki%40rohankihn.org&password=secrety_bickety&password_confirmation=secrety_bickety&first_name=Ethyl&last_name=Kuvalis&phone",
+      "request_body": "email=120ophelia%40kuphal.info&password=secrety_bickety&password_confirmation=secrety_bickety&first_name=Jaclyn&last_name=Grant&phone",
       "request_headers": {
-        "Access-Token": "8bG2xEP9mIZOF9isC0ftvw",
+        "Access-Token": "gDNvT-k5aBDnh1JpfjUOaQ",
         "Token-Type": "Bearer",
-        "Client": "gWcHkkIoK15d5pFYXoiBzA",
-        "Expiry": "1457857096",
-        "Uid": "121monroe_friesen@mcclure.info",
+        "Client": "uFk0G6b4wAZuRXwVXE7-iQ",
+        "Expiry": "1457871458",
+        "Uid": "121lewis@corwin.info",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -63,19 +63,19 @@
       "request_content_type": "application/x-www-form-urlencoded",
       "response_status": 403,
       "response_status_text": "Forbidden",
-      "response_body": "{\n  \"status\": \"error\",\n  \"data\": {\n    \"id\": null,\n    \"first_name\": \"Ethyl\",\n    \"last_name\": \"Kuvalis\",\n    \"email\": \"120stephan_franecki@rohankihn.org\",\n    \"provider\": \"email\",\n    \"uid\": \"\",\n    \"phone\": null,\n    \"verification_code\": null,\n    \"is_verified\": null,\n    \"created_at\": null,\n    \"updated_at\": null,\n    \"how_did_you_hear_about_us\": null\n  },\n  \"errors\": {\n    \"phone\": [\n      \"can't be blank\",\n      \"is invalid\"\n    ],\n    \"full_messages\": [\n      \"Phone can't be blank\",\n      \"Phone is invalid\"\n    ]\n  }\n}",
+      "response_body": "{\n  \"status\": \"error\",\n  \"data\": {\n    \"id\": null,\n    \"first_name\": \"Jaclyn\",\n    \"last_name\": \"Grant\",\n    \"email\": \"120ophelia@kuphal.info\",\n    \"provider\": \"email\",\n    \"uid\": \"\",\n    \"phone\": null,\n    \"verification_code\": null,\n    \"is_verified\": null,\n    \"created_at\": null,\n    \"updated_at\": null,\n    \"how_did_you_hear_about_us\": null\n  },\n  \"errors\": {\n    \"phone\": [\n      \"can't be blank\",\n      \"is invalid\"\n    ],\n    \"full_messages\": [\n      \"Phone can't be blank\",\n      \"Phone is invalid\"\n    ]\n  }\n}",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "application/json; charset=utf-8",
         "Cache-Control": "no-cache",
-        "X-Request-Id": "9bd5100f-9850-47fa-bc29-7e1633457965",
-        "X-Runtime": "0.009319",
-        "Content-Length": "389"
+        "X-Request-Id": "ee5479b8-88f4-44c9-83cf-5649ca015f9d",
+        "X-Runtime": "0.008347",
+        "Content-Length": "377"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/auth\" -d 'email=120stephan_franecki%40rohankihn.org&password=secrety_bickety&password_confirmation=secrety_bickety&first_name=Ethyl&last_name=Kuvalis&phone' -X POST \\\n\t-H \"Access-Token: 8bG2xEP9mIZOF9isC0ftvw\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: gWcHkkIoK15d5pFYXoiBzA\" \\\n\t-H \"Expiry: 1457857096\" \\\n\t-H \"Uid: 121monroe_friesen@mcclure.info\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/auth\" -d 'email=120ophelia%40kuphal.info&password=secrety_bickety&password_confirmation=secrety_bickety&first_name=Jaclyn&last_name=Grant&phone' -X POST \\\n\t-H \"Access-Token: gDNvT-k5aBDnh1JpfjUOaQ\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: uFk0G6b4wAZuRXwVXE7-iQ\" \\\n\t-H \"Expiry: 1457871458\" \\\n\t-H \"Uid: 121lewis@corwin.info\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

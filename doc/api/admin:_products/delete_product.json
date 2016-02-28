@@ -16,11 +16,11 @@
       "request_path": "/admin/products/1",
       "request_body": null,
       "request_headers": {
-        "Access-Token": "TN535oufmr_Wvx5_cTWcHA",
+        "Access-Token": "l-TGYgrmr60TNnE8CPh0cw",
         "Token-Type": "Bearer",
-        "Client": "9fWc38miNAmKxWjLA9Iijg",
-        "Expiry": "1457857084",
-        "Uid": "44jordon_bernier@osinski.biz",
+        "Client": "72Y9tcQPKKZmZQFhQKWpcw",
+        "Expiry": "1457871446",
+        "Uid": "44oran.predovic@prosacco.info",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -37,13 +37,13 @@
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "text/html",
         "Cache-Control": "no-cache",
-        "Set-Cookie": "_session_id=V1dqWThCNlFaWlpTbmIzYmhqcUh5eDE1aHVuVUhEZlUwdFZKL0lNR3BNQWZwNDhHbUlpay9lVkY2QUFiT3lVc2g3Zm5naHJWZ094ME1UTzRHLzd2UjlTQVpKU1ZqRWFrbDRCNVZkQmgyM3MzVEhCMVJOTDJWU2lCbkFUZU5zdTZxcE9IOTR2YkdSa3J0dnRtUXVDMDhmL1IzbWFSRG5wVnlXV3hjNU5id2xZY3JJeE1hY3Z3MUtnZFRpWnBHQm8zLS0wa3dpR1NQOGk2VnRvc0FDUXgxZHZBPT0%3D--c0dbd1fb3736b9fe0aee63fe80dfe9eaaa816085; path=/; HttpOnly",
-        "X-Request-Id": "fc0164e9-bcca-4f73-8ce8-2390b6e87de2",
-        "X-Runtime": "0.091107",
+        "Set-Cookie": "_session_id=MUk3OEF0K2dxVG1heWYzOSs1Yi93WDFsTUpqUStCTkx6dW85bnBHTnhjT3J3MTRIbnpCM2FadFNTMzJTVDU2bHRDTGZjY28wMHd0dktlWFREdHd0akJTOXAzWnRmcU1hYm04cFhIdnZTTWdLQUU3N0tEQ2R2c1JsYjRTWjFDMmhFbkJha0YvMVJEOEMrNTlJTnFsL25DTzJ5OGVUWTlIeWtHdXpOTDQ1U3pjRE5hVW9HNVI1Yi9nOVdCQkQ4MHY2LS1UOUVRRVR1bE1laFlndFBEZldmZG13PT0%3D--962b7c23f0d1f1799cf7bbf3920953f2999e5750; path=/; HttpOnly",
+        "X-Request-Id": "c9a7ed1f-e717-457f-ac21-7ed8d2c36dde",
+        "X-Runtime": "0.084178",
         "Content-Length": "0"
       },
       "response_content_type": "text/html",
-      "curl": "curl \"http://localhost:3000/admin/products/1\" -d '' -X DELETE \\\n\t-H \"Access-Token: TN535oufmr_Wvx5_cTWcHA\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: 9fWc38miNAmKxWjLA9Iijg\" \\\n\t-H \"Expiry: 1457857084\" \\\n\t-H \"Uid: 44jordon_bernier@osinski.biz\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/admin/products/1\" -d '' -X DELETE \\\n\t-H \"Access-Token: l-TGYgrmr60TNnE8CPh0cw\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: 72Y9tcQPKKZmZQFhQKWpcw\" \\\n\t-H \"Expiry: 1457871446\" \\\n\t-H \"Uid: 44oran.predovic@prosacco.info\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

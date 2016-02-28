@@ -5,6 +5,8 @@ class ProductSerializer < ActiveModel::Serializer
 		:created_at, :updated_at,
 		:inventory_count, :image_url
 
+	has_many :categories
+
 	def image_url
 		object.image.url
 	end

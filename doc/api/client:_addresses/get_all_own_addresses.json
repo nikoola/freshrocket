@@ -19,11 +19,11 @@
       "request_path": "/client/addresses?active=0",
       "request_body": null,
       "request_headers": {
-        "Access-Token": "1IqUnXHIiLuaZEnO3RIwLw",
+        "Access-Token": "9B_NDw7C35UO8u-t2D-w8A",
         "Token-Type": "Bearer",
-        "Client": "WjB1vhts9HLTIJ6Wi5YKnw",
-        "Expiry": "1457857088",
-        "Uid": "75laila.jacobi@bernier.com",
+        "Client": "BUVxSZcC5ywDNylhisTAWg",
+        "Expiry": "1457871450",
+        "Uid": "75westley_thompson@rowehalvorson.com",
         "Host": "example.org",
         "Cookie": ""
       },
@@ -33,21 +33,21 @@
       "request_content_type": null,
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "[\n  {\n    \"id\": 1,\n    \"address\": \"579 Turner Ports\",\n    \"city_id\": 1,\n    \"user_id\": 1\n  },\n  {\n    \"id\": 2,\n    \"address\": \"43125 Hagenes Coves\",\n    \"city_id\": 2,\n    \"user_id\": 1\n  },\n  {\n    \"id\": 3,\n    \"address\": \"14661 Legros Fort\",\n    \"city_id\": 3,\n    \"user_id\": 1\n  }\n]",
+      "response_body": "[\n  {\n    \"id\": 1,\n    \"address\": \"9173 Luettgen Curve\",\n    \"city_id\": 1,\n    \"user_id\": 1\n  },\n  {\n    \"id\": 2,\n    \"address\": \"39656 Corkery Garden\",\n    \"city_id\": 2,\n    \"user_id\": 1\n  },\n  {\n    \"id\": 3,\n    \"address\": \"926 Casper Cliffs\",\n    \"city_id\": 3,\n    \"user_id\": 1\n  }\n]",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"6ef9484f27eebe75c7e33cec1d5d7e7b\"",
+        "ETag": "W/\"b9e47c52f79ef293c9d951b95bf12e89\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=ZWxJcFVvOU5Zb1R2am5PeHZIOUpua2FzRW5kL2JtemduT25pSzYyRFp2MlNkd2tTZmxZN2FxQ2hoc01aSEQwcFIxSmFvUkRtbjBXL3h6SDcrc3ZZWTZ6a0hHQVNxTmFlSFBsZEVGNEhGeGE5UWJ2TmtFWkpPWEVFbUl4Q2pLWjgyRWY0eTUvazZGdmlVUDE0QmQvRFB4alA1MW9EZXhGeWVPeXBtU3NEdGk4WVdNVlJQdUtPRUtndE9DREVJNHN5LS1TdTJxNTNvNitTOU8xbWJJVHNXeG13PT0%3D--e02095b3e6c96f975711d7139625f97e8ebcab37; path=/; HttpOnly",
-        "X-Request-Id": "9dc03159-7498-4a03-93cc-d14b78db55b3",
-        "X-Runtime": "0.106644",
-        "Content-Length": "191"
+        "Set-Cookie": "_session_id=VXJGdVpxWXNFM01JYXozZlJUV0dURnZQZW56MXBoNVY0ZjR2Zkg2NDZ1MUEyK1EvRVdiRkhwVzdueGxHbEhsMytVZGhaNVlJbkVicmRiOC94V0cyRXM1TXRwUmZhSUwyTFhXZnJWRjRIMGN6QnlpZHhMWmt3V1U3MWZYNGoyYi8vbjVkcUhuSG81aXRVcm1RNnpVdnA3a2hqMXdrODc3USt1cnFobzh4cVlUWWpPTTlNdXlkaE1Yenk0QmpnM0V4LS03eDM4YWl5WUUrNmFWb2hrSFNZRFd3PT0%3D--a4ffe1fe1f98d16bc66a5c31b5741e641923a251; path=/; HttpOnly",
+        "X-Request-Id": "4bef1a32-8880-460b-a0a7-53ea1351601c",
+        "X-Runtime": "0.092048",
+        "Content-Length": "195"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/client/addresses?active=0\" -X GET \\\n\t-H \"Access-Token: 1IqUnXHIiLuaZEnO3RIwLw\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: WjB1vhts9HLTIJ6Wi5YKnw\" \\\n\t-H \"Expiry: 1457857088\" \\\n\t-H \"Uid: 75laila.jacobi@bernier.com\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/client/addresses?active=0\" -X GET \\\n\t-H \"Access-Token: 9B_NDw7C35UO8u-t2D-w8A\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: BUVxSZcC5ywDNylhisTAWg\" \\\n\t-H \"Expiry: 1457871450\" \\\n\t-H \"Uid: 75westley_thompson@rowehalvorson.com\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

@@ -110,6 +110,21 @@ resource 'client: users', type: :request do
 	end
 
 
+
+	put '/client/verify' do
+		parameter :verification_code
+
+		example 'verifies phone' do
+
+			do_request verification_code: user.verification_code
+
+			expect(status).to eq(200)
+			expect(user.reload.is_verified).to eq(true)
+		end
+
+	end
+
+
 	# post '/client/send_email_to_recover_password' do
 
 	# 	# get '/auth/validate_token' #works!

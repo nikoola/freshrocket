@@ -1,0 +1,52 @@
+{
+  "resource": "client: users",
+  "http_method": "PUT",
+  "route": "/client/verify",
+  "description": "verifies phone",
+  "explanation": null,
+  "parameters": [
+    {
+      "name": "verification_code",
+      "description": " verification code"
+    }
+  ],
+  "response_fields": [
+
+  ],
+  "requests": [
+    {
+      "request_method": "PUT",
+      "request_path": "/client/verify",
+      "request_body": "verification_code",
+      "request_headers": {
+        "Access-Token": "mldpxR0YknJqQbc7xhp4WA",
+        "Token-Type": "Bearer",
+        "Client": "zFPHCgDyE6vueVOm-CsHDg",
+        "Expiry": "1457871458",
+        "Uid": "126marilie_hegmann@torphy.biz",
+        "Host": "example.org",
+        "Content-Type": "application/x-www-form-urlencoded",
+        "Cookie": ""
+      },
+      "request_query_parameters": {
+      },
+      "request_content_type": "application/x-www-form-urlencoded",
+      "response_status": 200,
+      "response_status_text": "OK",
+      "response_body": null,
+      "response_headers": {
+        "X-Frame-Options": "SAMEORIGIN",
+        "X-XSS-Protection": "1; mode=block",
+        "X-Content-Type-Options": "nosniff",
+        "Content-Type": "text/html",
+        "Cache-Control": "no-cache",
+        "Set-Cookie": "_session_id=bjRaZUx2VU1RallJV0N4dVUzVWJVUzUxQ3VSZkk1U3VSdGNhWkJSeTJ2QlJseVJZSG1YNXVEak16eFpWbUdBd3B5akFWYTcyUW52S1FzTTh5ZlR0SGI0WnFub1NoTWtmSENYRzFXMTRaRC9mb3Z0eGo0OEY1VjZiOXRtVGEyU0p3Y3hEZHZkSHc0OHJ6aXowdEhndzFzZHVOOGdUWmVQWHNHdmk3amdzVlpsczNBZkk3U3FDN2FMUUlDZmxJYlRaLS1PcVp6aVlrSUlaR3M4K2xMS3ZHbXZnPT0%3D--c269d35ff23f231d36887d3e38f1a68e125c7506; path=/; HttpOnly",
+        "X-Request-Id": "a3c1f561-36fb-4fbc-bb74-add690c2ed11",
+        "X-Runtime": "0.081628",
+        "Content-Length": "0"
+      },
+      "response_content_type": "text/html",
+      "curl": "curl \"http://localhost:3000/client/verify\" -d 'verification_code' -X PUT \\\n\t-H \"Access-Token: mldpxR0YknJqQbc7xhp4WA\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: zFPHCgDyE6vueVOm-CsHDg\" \\\n\t-H \"Expiry: 1457871458\" \\\n\t-H \"Uid: 126marilie_hegmann@torphy.biz\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+    }
+  ]
+}

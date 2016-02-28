@@ -16,11 +16,11 @@
       "request_path": "/auth",
       "request_body": "phone=%2B79174446666",
       "request_headers": {
-        "Access-Token": "DJiRNRSw0gh_pISOgaPqnA",
+        "Access-Token": "nbGi5TaN31XK_FOPcIMDbA",
         "Token-Type": "Bearer",
-        "Client": "tJORavUSMdOfvJqFeHZOWA",
-        "Expiry": "1457857096",
-        "Uid": "122mitchel@mayert.name",
+        "Client": "SPy6AMr8VOCFdY22N8Xb4Q",
+        "Expiry": "1457871458",
+        "Uid": "122kelli@labadie.name",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -30,21 +30,21 @@
       "request_content_type": "application/x-www-form-urlencoded",
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\n  \"status\": \"success\",\n  \"data\": {\n    \"id\": 5,\n    \"first_name\": \"Caterina\",\n    \"last_name\": \"Mayer\",\n    \"email\": \"122mitchel@mayert.name\",\n    \"provider\": \"email\",\n    \"uid\": \"122mitchel@mayert.name\",\n    \"phone\": \"+79174446666\",\n    \"verification_code\": null,\n    \"is_verified\": false,\n    \"created_at\": \"2016-02-28T08:18:16.054Z\",\n    \"updated_at\": \"2016-02-28T08:18:16.210Z\",\n    \"how_did_you_hear_about_us\": null\n  }\n}",
+      "response_body": "{\n  \"status\": \"success\",\n  \"data\": {\n    \"id\": 5,\n    \"first_name\": \"Vaughn\",\n    \"last_name\": \"Kihn\",\n    \"email\": \"122kelli@labadie.name\",\n    \"provider\": \"email\",\n    \"uid\": \"122kelli@labadie.name\",\n    \"phone\": \"+79174446666\",\n    \"verification_code\": null,\n    \"is_verified\": false,\n    \"created_at\": \"2016-02-28T12:17:38.116Z\",\n    \"updated_at\": \"2016-02-28T12:17:38.267Z\",\n    \"how_did_you_hear_about_us\": null\n  }\n}",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"2b055c1e89b28aabbb85fb17d5ebed04\"",
+        "ETag": "W/\"81f0b71dc432670d4b2930109cfe8378\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=UnhkRGJ2NHlhNHdMaUdjMDdKSDhqVmlRQVVFcEtxTndLdS9GOS9kZGxKMThDbHRwdE1tRXNGSHh1blNZaGs4L09MeUtBK3BjcGZlRE1ZNy9tTDI4Q2JxbzM0ek94endZTVI2Zk83TlNWVTEzdFVXUHJyTUlqVksvTjdmNWdZRkU0NzRweFhrTC9wc1IwSDYvbEVPWmw1SUUyTGhSMGEyemNNaGl3QmxyVFFtYThCU2l1ZDljRHJHTk12Sy9WbXlvLS1JNHpNVkVnVDE1QlpBaHE2UHkyVXRRPT0%3D--855ddd9e7119b187ec9f604cbcc4ea6c0fd63eeb; path=/; HttpOnly",
-        "X-Request-Id": "6127d78b-523a-4810-b3c4-deab022b15b9",
-        "X-Runtime": "0.084312",
-        "Content-Length": "344"
+        "Set-Cookie": "_session_id=Qlpqa1ZIak9hZ2tMWUN3bENtK25UeFVQY2xsZjRHQ0trbWNWQjlwKzhhTjVnd2o0Y0FBMkUzS2tpMVJEZUlrTTVYV3BnbjZvU0lDaXNaREg4MkwzT1U2bnpZeUNQd0FKYjNPKzJqWXg3QUxRdWdHbFNwMlpkRnpkYjJRYUFrdDUwRjdNKzFLOWF3bkZaQkpWVnlUeHFTdlFxNk4vN1lkaUhYa1U0UnZEVzl5RU1yMFQwcS9iTVl0bnRNN2pkMGU3LS1MVGRjR0s3ajl5Q3E4OGNudEZ4MkR3PT0%3D--d05bc738f56b92d985c8579ed0bdefdf51b56b28; path=/; HttpOnly",
+        "X-Request-Id": "66fbfa63-286f-4990-9da4-a289718ead9d",
+        "X-Runtime": "0.082817",
+        "Content-Length": "339"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/auth\" -d 'phone=%2B79174446666' -X PUT \\\n\t-H \"Access-Token: DJiRNRSw0gh_pISOgaPqnA\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: tJORavUSMdOfvJqFeHZOWA\" \\\n\t-H \"Expiry: 1457857096\" \\\n\t-H \"Uid: 122mitchel@mayert.name\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/auth\" -d 'phone=%2B79174446666' -X PUT \\\n\t-H \"Access-Token: nbGi5TaN31XK_FOPcIMDbA\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: SPy6AMr8VOCFdY22N8Xb4Q\" \\\n\t-H \"Expiry: 1457871458\" \\\n\t-H \"Uid: 122kelli@labadie.name\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

@@ -19,6 +19,7 @@ module Client
 		def verify
 			if current_user.verification_code == params[:verification_code]
 				current_user.update!(is_verified: true)
+				head 200
 			else
 				render json: { :error => "Invalid verification code." }, status: 422 
 			end

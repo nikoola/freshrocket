@@ -26,11 +26,11 @@
       "request_path": "/admin/categories",
       "request_body": "category[name]=breakfasts",
       "request_headers": {
-        "Access-Token": "gcr0rcEjjc0ls5kZ14kfdA",
+        "Access-Token": "HhBBx1hA5hEzecCeFqwXHg",
         "Token-Type": "Bearer",
-        "Client": "2D8tBEWyUZ85kS3dmi1Qrw",
-        "Expiry": "1457857075",
-        "Uid": "1dana.abbott@gorczany.net",
+        "Client": "rL7FHHSB3rclmU_tHxgI2A",
+        "Expiry": "1457871438",
+        "Uid": "1blaise@weimannlarson.name",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -40,21 +40,21 @@
       "request_content_type": "application/x-www-form-urlencoded",
       "response_status": 201,
       "response_status_text": "Created",
-      "response_body": "{\n  \"id\": 1,\n  \"name\": \"breakfasts\",\n  \"image_url\": \"uploads/category/image/default.png\",\n  \"products\": [\n\n  ]\n}",
+      "response_body": "{\n  \"id\": 1,\n  \"name\": \"breakfasts\",\n  \"image_url\": \"uploads/category/image/default.png\"\n}",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"8a0d34e3872e8225682e8b999e2d6215\"",
+        "ETag": "W/\"a977dafb647df6738853c9b2dadd1561\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=dHJ0ZXFyUkFieTBPS1B5L2hkRXJtZzcyTWE1YTEyYzNyN09SUFozVk03eDI3LzlUbVBlWi80MHIzKzZMbzlGb3lKdWcxZnphc3plamJVWFdYYTk0UmNwSWwzRUhiRGhiMlJtNTlvS3QzMjZpQUgxSnUxTXJENmhLY3ZiV1R3dFpPV1R5NTg5MEZWQzRTbUd0cWpSZmQ4cjNFY2UzTStHV0xHeTE4b2tQUHpRcnNxRm1va2xydW10SUQ0YmVmT3lELS1reDFpZ2k4aFJVTGQzRms3bTRzNDhRPT0%3D--4d0890758bd0b5863f402da65cf949f0b8f86403; path=/; HttpOnly",
-        "X-Request-Id": "e586982f-95c8-45a8-bd6c-74cc299f481b",
-        "X-Runtime": "0.182075",
-        "Content-Length": "91"
+        "Set-Cookie": "_session_id=cGYrdHVrMHlrNkVqQURnc3o4Wm9ockg0V2FaamdnUUcxSWNtc2dYVDNIRjNNb0l4Qnl1TGd1cTMzSFAySHdjWlJpc25PS3lhWHV6RDhKbHF0aEIyTjZldGYvWFpBMHovNXpvV2NtMzE0c1hWTmxCY21BTnJaR2R5Qnlyam1JYytBcXBLN2VIQ3l6cFZhVU8vWkdlczVRVm8zSVV1WmpUYklRZ1AvYTJGaHloRi9INUtEdE1Za0c4L2dlWFFERnU0LS1qTUxWcEVrZDYraGFEQm95cnNwMFd3PT0%3D--04f2a75d24aa7566e500bb4eb9eaeff268394367; path=/; HttpOnly",
+        "X-Request-Id": "c7351e93-0c65-4534-a4d4-55b0362c8944",
+        "X-Runtime": "0.147344",
+        "Content-Length": "77"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/admin/categories\" -d 'category[name]=breakfasts' -X POST \\\n\t-H \"Access-Token: gcr0rcEjjc0ls5kZ14kfdA\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: 2D8tBEWyUZ85kS3dmi1Qrw\" \\\n\t-H \"Expiry: 1457857075\" \\\n\t-H \"Uid: 1dana.abbott@gorczany.net\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/admin/categories\" -d 'category[name]=breakfasts' -X POST \\\n\t-H \"Access-Token: HhBBx1hA5hEzecCeFqwXHg\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: rL7FHHSB3rclmU_tHxgI2A\" \\\n\t-H \"Expiry: 1457871438\" \\\n\t-H \"Uid: 1blaise@weimannlarson.name\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }
