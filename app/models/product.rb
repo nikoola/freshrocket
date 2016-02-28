@@ -28,7 +28,7 @@ class Product < ActiveRecord::Base
 			where(inventory_count: 0)
 		end
 	}
-	scope :category_id,  -> (category_id) { includes(:categories).where('categories.id': category_id) }
+	scope :category_id,  -> (category_id) { joins(:categories).where('categories.id': category_id) }
 
 
 	validates_processing_of :image  # Makes the record invalid if the file couldn't be processed

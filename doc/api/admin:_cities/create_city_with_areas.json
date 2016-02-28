@@ -39,13 +39,13 @@
     {
       "request_method": "POST",
       "request_path": "/admin/cities",
-      "request_body": "city[name]=Pricemouth_1&city[areas_attributes][][name]=hi",
+      "request_body": "city[name]=New+Orinbury_1&city[areas_attributes][][name]=hi",
       "request_headers": {
-        "Access-Token": "mjwvhqnwuQy19cuaLortRw",
+        "Access-Token": "BShdH_wGeUUJAMYWfxmSMQ",
         "Token-Type": "Bearer",
-        "Client": "qKKAtSQ4FGX1ibBs3gxLjQ",
-        "Expiry": "1457798612",
-        "Uid": "6julian@altenwerth.net",
+        "Client": "acAZg8gBBGdLVCmReUFGXg",
+        "Expiry": "1457857076",
+        "Uid": "6aron_jaskolski@faheywindler.org",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -55,22 +55,22 @@
       "request_content_type": "application/x-www-form-urlencoded",
       "response_status": 201,
       "response_status_text": "Created",
-      "response_body": "{\n  \"id\": 1,\n  \"name\": \"Pricemouth_1\",\n  \"active\": true,\n  \"areas\": [\n    {\n      \"id\": 1,\n      \"name\": \"hi\"\n    }\n  ]\n}",
+      "response_body": "{\n  \"id\": 1,\n  \"name\": \"New Orinbury_1\",\n  \"active\": true,\n  \"areas\": [\n    {\n      \"id\": 1,\n      \"name\": \"hi\"\n    }\n  ]\n}",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
         "Location": "http://example.org/cities/1",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"e1f0b283a6ca35ecdbf5eb6c9ccd3cc8\"",
+        "ETag": "W/\"cab88482afc51d6487648d41c0ebdfe7\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=VnFVMlF2cUJTdVVyTjlUNjB6K3Z1Q3hmS3E3VGY4MCtXVGVRbk9OU2Q5WWpzdTRZb2lQOTNzc1JIYVRDditvMWZaWFYvVkcvdlFVU1k2bjNqWG1sb3R2ZGViM0owYkZQaERBNVBPYkp2T21QSEliQXNON3RjOEtuZ0Jwdm9zaml1NmlVcnEwK2FvNUpKNm1ZM1lpdmk0cU1nMU9IMURKaEhUNUtXblJTTVFaL0txUEhUNUUzbXFqcEFQZGVCRkV3LS1MS05lY0NaNDJueEdOeW43YkUvSHN3PT0%3D--cf65f8b050c8543fd031961f8a564ab235f65db8; path=/; HttpOnly",
-        "X-Request-Id": "07ac0b1c-a34f-4481-baa7-034ebf1c396b",
-        "X-Runtime": "0.108225",
-        "Content-Length": "75"
+        "Set-Cookie": "_session_id=eVRLQlZnL2xPRGUxaXBXNzZFRlhVT3REdVdUZ1BlUkk0SGh6YlNmdVpmdDNpOGhsRzVDZ1lFSXo2QTlKLzJVMDJvMi80RlZMdGswT1Y1ZGJCT0xVNEhMSjM0MXdJVm56d1FrNE5wdzlYQnpOdVFJSWQ2MTRKTVIxN00zOGVjUmVKdFJJZzJYZXpjY3lqajhjVC82MktlWCtlQUp3SkpLZnJiVGVRWjQwdlQwVWlYMnhjRlkwT2VjRG9aYklRVFQ4LS1PcWNqdEovRU0vWitIS3kvclZSUHhnPT0%3D--dea12f37136391a8ad003ede1b59d89def179ce0; path=/; HttpOnly",
+        "X-Request-Id": "fe1614e1-f646-4a6b-a89a-c1c87e5e3667",
+        "X-Runtime": "0.099333",
+        "Content-Length": "77"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/admin/cities\" -d 'city[name]=Pricemouth_1&city[areas_attributes][][name]=hi' -X POST \\\n\t-H \"Access-Token: mjwvhqnwuQy19cuaLortRw\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: qKKAtSQ4FGX1ibBs3gxLjQ\" \\\n\t-H \"Expiry: 1457798612\" \\\n\t-H \"Uid: 6julian@altenwerth.net\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/admin/cities\" -d 'city[name]=New+Orinbury_1&city[areas_attributes][][name]=hi' -X POST \\\n\t-H \"Access-Token: BShdH_wGeUUJAMYWfxmSMQ\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: acAZg8gBBGdLVCmReUFGXg\" \\\n\t-H \"Expiry: 1457857076\" \\\n\t-H \"Uid: 6aron_jaskolski@faheywindler.org\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

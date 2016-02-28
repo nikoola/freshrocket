@@ -22,9 +22,9 @@ class Order < ActiveRecord::Base
 	before_save           :set_order_pricing, if: :unconfirmed?
 
 	include Filterable
-	scope :status,  -> (status)  { where status: status }
-	scope :city_id, -> (city_id) { where city_id: city_id }
-	scope :user_id, -> (city_id) { where user_id: city_id }
+	scope :status,  -> (status) { where status: status }
+	scope :user_id, -> (id)     { where user_id: id }
+	scope :city_id, -> (id)     { joins(:address).where( 'addresses.city_id': id ) }
 
 	# Saving includes running all validations on the Job class.
 	aasm column: :status, no_direct_assignment: true, whiny_transitions: false do

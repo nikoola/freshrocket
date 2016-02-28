@@ -16,8 +16,8 @@ resource 'admin: orders', type: :request do
 		parameter :limit,  'amount of orders to get'
 		parameter :offset
 		parameter :status_, 'status. only get [unconfirmed, confirmed, approved, dispatched, delivered, canceled] orders'
-		parameter :city_id
 		parameter :user_id
+		parameter :city_id, 'returns orders which have addresses in this city'
 
 		it 'nonauthenticated - 401', document: false do
 			get '/admin/orders'

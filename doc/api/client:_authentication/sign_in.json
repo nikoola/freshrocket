@@ -23,7 +23,7 @@
     {
       "request_method": "POST",
       "request_path": "/auth/sign_in",
-      "request_body": "email=81eldridge_sauer%40ohara.biz&password=secrety_bickety",
+      "request_body": "email=81abby%40graham.org&password=secrety_bickety",
       "request_headers": {
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
@@ -34,25 +34,25 @@
       "request_content_type": "application/x-www-form-urlencoded",
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\n  \"data\": {\n    \"id\": 1,\n    \"first_name\": \"Enola\",\n    \"last_name\": \"Weissnat\",\n    \"email\": \"81eldridge_sauer@ohara.biz\",\n    \"provider\": \"email\",\n    \"uid\": \"81eldridge_sauer@ohara.biz\",\n    \"phone\": \"+79172864028\",\n    \"verification_code\": null,\n    \"is_verified\": false,\n    \"how_did_you_hear_about_us\": null\n  }\n}",
+      "response_body": "{\n  \"data\": {\n    \"id\": 1,\n    \"first_name\": \"Makenna\",\n    \"last_name\": \"Barrows\",\n    \"email\": \"81abby@graham.org\",\n    \"provider\": \"email\",\n    \"uid\": \"81abby@graham.org\",\n    \"phone\": \"+79177418428\",\n    \"verification_code\": null,\n    \"is_verified\": false,\n    \"how_did_you_hear_about_us\": null\n  }\n}",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
-        "access-token": "AsZAcoNROM5qpKmX_nuaQw",
+        "access-token": "ESJJcRsS9TMAPCdvYWBlnQ",
         "token-type": "Bearer",
-        "client": "JU5LIZEqDeU8jzhombBrqg",
-        "expiry": "1457798625",
-        "uid": "81eldridge_sauer@ohara.biz",
+        "client": "DuisgO7LJYRYsMM7eAxe9A",
+        "expiry": "1457857089",
+        "uid": "81abby@graham.org",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"5d91861ea9d44544e5232b4103c0cc53\"",
+        "ETag": "W/\"28c7e43bb78791b08f9e9442793af1fc\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "X-Request-Id": "6e6e76af-a20c-4b13-8210-2fd571fd1089",
-        "X-Runtime": "0.174882",
-        "Content-Length": "253"
+        "X-Request-Id": "e2f99e82-15ba-46fd-8141-a4bdd1a35c99",
+        "X-Runtime": "0.174015",
+        "Content-Length": "236"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/auth/sign_in\" -d 'email=81eldridge_sauer%40ohara.biz&password=secrety_bickety' -X POST \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/auth/sign_in\" -d 'email=81abby%40graham.org&password=secrety_bickety' -X POST \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

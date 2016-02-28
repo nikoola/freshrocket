@@ -16,11 +16,11 @@
       "request_path": "/admin/orders/1",
       "request_body": null,
       "request_headers": {
-        "Access-Token": "yPW902XDjOX8nVuvhsRqiw",
+        "Access-Token": "jaKbipS0Ml0eGA7g6Jumcg",
         "Token-Type": "Bearer",
-        "Client": "kJgNfVE3oiQ1X_05tTWHUA",
-        "Expiry": "1457798614",
-        "Uid": "25maia@wiegand.biz",
+        "Client": "Yii_MmpcaoCDqShErwpaGw",
+        "Expiry": "1457857078",
+        "Uid": "25pearl@bradtke.info",
         "Host": "example.org",
         "Cookie": ""
       },
@@ -29,21 +29,21 @@
       "request_content_type": null,
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\n  \"id\": 1,\n  \"user_id\": 1,\n  \"status\": \"unconfirmed\",\n  \"created_at\": \"2016-02-27T16:03:34.609Z\",\n  \"comment\": null,\n  \"pure_product_price\": \"27.0\",\n  \"tax\": \"1.35\",\n  \"delivery_charge\": \"200.0\",\n  \"total_price\": \"228.35\",\n  \"delivery_boy_id\": null,\n  \"wanted_time\": null,\n  \"wanted_date\": null,\n  \"payment_type\": \"cash\",\n  \"is_paid\": null,\n  \"line_items\": [\n    {\n      \"id\": 1,\n      \"order_id\": 1,\n      \"product_id\": 1,\n      \"amount\": 3,\n      \"fixed_price\": \"9.0\"\n    },\n    {\n      \"id\": 2,\n      \"order_id\": 1,\n      \"product_id\": 2,\n      \"amount\": 3,\n      \"fixed_price\": \"9.0\"\n    },\n    {\n      \"id\": 3,\n      \"order_id\": 1,\n      \"product_id\": 3,\n      \"amount\": 3,\n      \"fixed_price\": \"9.0\"\n    }\n  ],\n  \"address\": {\n    \"id\": 1,\n    \"address\": \"4334 Daniel Prairie\",\n    \"city_id\": 1,\n    \"user_id\": 2\n  }\n}",
+      "response_body": "{\n  \"id\": 1,\n  \"user_id\": 1,\n  \"status\": \"unconfirmed\",\n  \"created_at\": \"2016-02-28T08:17:58.800Z\",\n  \"comment\": null,\n  \"pure_product_price\": \"27.0\",\n  \"tax\": \"1.35\",\n  \"delivery_charge\": \"200.0\",\n  \"total_price\": \"228.35\",\n  \"delivery_boy_id\": null,\n  \"wanted_time\": null,\n  \"wanted_date\": null,\n  \"payment_type\": \"cash\",\n  \"is_paid\": null,\n  \"line_items\": [\n    {\n      \"id\": 1,\n      \"order_id\": 1,\n      \"product_id\": 1,\n      \"amount\": 3,\n      \"fixed_price\": \"9.0\"\n    },\n    {\n      \"id\": 2,\n      \"order_id\": 1,\n      \"product_id\": 2,\n      \"amount\": 3,\n      \"fixed_price\": \"9.0\"\n    },\n    {\n      \"id\": 3,\n      \"order_id\": 1,\n      \"product_id\": 3,\n      \"amount\": 3,\n      \"fixed_price\": \"9.0\"\n    }\n  ],\n  \"address\": {\n    \"id\": 1,\n    \"address\": \"76497 Little Mission\",\n    \"city_id\": 1,\n    \"user_id\": 2\n  }\n}",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"7ef3e2faf81cc29046f150f2eb18df33\"",
+        "ETag": "W/\"d55834868bbf955f6bf2fbec7278f72d\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=TDBrV2FwSENMRmlRTy9jUkxoeXVhbUQ1ZWJsTXpDL3oyWGZpVVZwbTVSNlVSNnB3RmQ1RHhhRVNld1BCZVBlQUdGdjRhTzFzSE5SY1dRSXlzelY4RTVxRk1QT20rMzRoSERFS3BHc0VvWnFEUVlwNGM3N2NPYUJWMWFhVUI2T3UyMkszaGVPdUNaMTd0aDB0a244Mzh3eE12aGZ6TnlKNWZIRHMxakRCV1luVUlJSXRIQmhGdzlBQ1VQczJIWklnLS1uaGFvT2xEOGVaZEJMa1ZuR2cxNi9nPT0%3D--881c3a18e9b622e6d73e128b4657337d31708f18; path=/; HttpOnly",
-        "X-Request-Id": "95719e7b-60b6-4532-bafb-e922999085a6",
-        "X-Runtime": "0.088942",
-        "Content-Length": "580"
+        "Set-Cookie": "_session_id=RjA1TjVMUXdqM0VnMVZZNURzQ3gvSkw3VGl4MTVqeVJ1ZkdhUENZK25jb0Z2bnQ2NllSYmRVVjkxVk5CZURITVJWTXplSjlzU3FuL0kzK0VocnkwVWJORzBWNW5QYzFvdlFiM285bDZqWS9wUVA2TDZ3ekVpUnkwRmc0VDlMTEtyWmhTbmNtYmVWVzlhOUQ5aDVoN1NJdklibG5DWjJQV0hXemNBSm1YZnJyTDN2WUMwVmJjanFEbXR3R3h5MDdFLS1aL1ZhVEh6Y2ppUXVPNHBNbFREUFJ3PT0%3D--fc5728907155a8b7a3714c7872bd13965c46cdd0; path=/; HttpOnly",
+        "X-Request-Id": "c5df784c-cf44-426c-abac-e7e7c4855923",
+        "X-Runtime": "0.096378",
+        "Content-Length": "581"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/admin/orders/1\" -X GET \\\n\t-H \"Access-Token: yPW902XDjOX8nVuvhsRqiw\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: kJgNfVE3oiQ1X_05tTWHUA\" \\\n\t-H \"Expiry: 1457798614\" \\\n\t-H \"Uid: 25maia@wiegand.biz\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/admin/orders/1\" -X GET \\\n\t-H \"Access-Token: jaKbipS0Ml0eGA7g6Jumcg\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: Yii_MmpcaoCDqShErwpaGw\" \\\n\t-H \"Expiry: 1457857078\" \\\n\t-H \"Uid: 25pearl@bradtke.info\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

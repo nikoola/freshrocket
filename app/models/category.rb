@@ -11,7 +11,7 @@ class Category < ActiveRecord::Base
 
 	include Filterable
 	scope :city_id,      -> (city_id) {
-		includes(:products).where( 'products.city_id': city_id )
+		joins(:products).where( 'products.city_id': city_id )
 	}
 
 

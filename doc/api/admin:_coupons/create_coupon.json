@@ -30,11 +30,11 @@
       "request_path": "/admin/coupons",
       "request_body": "coupon[name]=red&coupon[code]=181513&coupon[discount]=5",
       "request_headers": {
-        "Access-Token": "l-h3KNOYAbZpoboldlduSQ",
+        "Access-Token": "jvpr_p8Y0J7rcxkk7EIrvA",
         "Token-Type": "Bearer",
-        "Client": "Uocgjuj0d7LhSRVGiQ9sOw",
-        "Expiry": "1457798613",
-        "Uid": "10bertrand_blanda@treutel.biz",
+        "Client": "kJ41Kuq-tf4ga-eyT1fj7A",
+        "Expiry": "1457857077",
+        "Uid": "10rosalinda@sawayn.name",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -52,13 +52,13 @@
         "Content-Type": "application/json; charset=utf-8",
         "ETag": "W/\"c0ff8c233de26b716569ce1f824141ec\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=N0Z5anNlZXNGOHM1Y25VUVp4dUdySjg1ejFjZWxBWG9tWGcwSmR1U2s0a1grNk1Fbm5ldWNoTnNrYzJaeGk1dzdaZU5lWU9ucXlaQU1ITnRZajR0Z0srV3U2aUlwbTd3Y1dqcG52Rld4b2hFNHdFUFJsRHNHemIvQktBYTBoTVhnWVVPcHJKR2lrZ3BjVWNzUlNsQVdoWFc0MXBwcGxkMzlZNGJSRFBXTDJYTnpxbFVoWnlPT3BDcnRSRktvTWs0LS0rd2QrTC9ienB6YjVLV0ozTkZxb1NnPT0%3D--1647bbdbe2186ff114d71cf671302c9f727f30cf; path=/; HttpOnly",
-        "X-Request-Id": "4facfef6-386b-4ef6-b7df-6ff25203940c",
-        "X-Runtime": "0.083191",
+        "Set-Cookie": "_session_id=MGk5clVQc3FMMktiUXZvd0NJaVNMVzI2eGRZV0ZMYThVSkJUVWY2QkxvajQwSFhvNUlXOGl2bnR5VXhDVzhCenZZMVVZRklkUEFRdktWTVNCY2MzR1Z5ZGhIc0w4eFNQbnRlQ2dLejhpby81N3NiWXZFWVl0LzFsazBDWjM2RXpTY0JmbElSZmg2V0w4V1Y4b2Q4QmNHL1JoREdod2k1aHRYNWFHTGlWSENVUTZvaW9hRk9yd212Vll1dEo0WXdMLS1IM0ZHaGI5MHdlL2kzSyttVWlMckhnPT0%3D--00a512a237b2afa2885ef777865424e20907751f; path=/; HttpOnly",
+        "X-Request-Id": "7082aeca-a01a-4658-b693-14faba80ca0d",
+        "X-Runtime": "0.107493",
         "Content-Length": "50"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/admin/coupons\" -d 'coupon[name]=red&coupon[code]=181513&coupon[discount]=5' -X POST \\\n\t-H \"Access-Token: l-h3KNOYAbZpoboldlduSQ\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: Uocgjuj0d7LhSRVGiQ9sOw\" \\\n\t-H \"Expiry: 1457798613\" \\\n\t-H \"Uid: 10bertrand_blanda@treutel.biz\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/admin/coupons\" -d 'coupon[name]=red&coupon[code]=181513&coupon[discount]=5' -X POST \\\n\t-H \"Access-Token: jvpr_p8Y0J7rcxkk7EIrvA\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: kJ41Kuq-tf4ga-eyT1fj7A\" \\\n\t-H \"Expiry: 1457857077\" \\\n\t-H \"Uid: 10rosalinda@sawayn.name\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

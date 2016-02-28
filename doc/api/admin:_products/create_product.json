@@ -54,11 +54,11 @@
       "request_path": "/admin/products",
       "request_body": "product[title]=fish&product[price]=3.0&product[inventory_count]=2&product[city_id]=1",
       "request_headers": {
-        "Access-Token": "IX6-MNkjhG7BLOJg-fRq9Q",
+        "Access-Token": "zaq_p7ASlJ8nPpQyduo-aA",
         "Token-Type": "Bearer",
-        "Client": "i4wITorOkT4PR3rzGoNNkw",
-        "Expiry": "1457798619",
-        "Uid": "39chyna_toy@tillman.info",
+        "Client": "EnNYx1tAcdylM6vyFMddCQ",
+        "Expiry": "1457857082",
+        "Uid": "39sterling.gusikowski@graham.name",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -68,22 +68,22 @@
       "request_content_type": "application/x-www-form-urlencoded",
       "response_status": 201,
       "response_status_text": "Created",
-      "response_body": "{\n  \"id\": 1,\n  \"city_id\": 1,\n  \"title\": \"fish\",\n  \"price\": \"3.0\",\n  \"description\": null,\n  \"created_at\": \"2016-02-27T16:03:39.376Z\",\n  \"updated_at\": \"2016-02-27T16:03:39.376Z\",\n  \"inventory_count\": 2,\n  \"image_url\": \"uploads/product/image/default.png\"\n}",
+      "response_body": "{\n  \"id\": 1,\n  \"city_id\": 1,\n  \"title\": \"fish\",\n  \"price\": \"3.0\",\n  \"description\": null,\n  \"created_at\": \"2016-02-28T08:18:02.971Z\",\n  \"updated_at\": \"2016-02-28T08:18:02.971Z\",\n  \"inventory_count\": 2,\n  \"image_url\": \"uploads/product/image/default.png\"\n}",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
         "Location": "http://example.org/products/1",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"8ed70536330497462d55544a8486b9c3\"",
+        "ETag": "W/\"bff41b58bd6636b9c0ecce6c2ec55470\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=KzYySXdmQTNKRDlFZkRaV2V2Y3pUa2R4d0VIbTgxMk4xS1dtV1FacDF1amxWRUh0TENNN0lETWdTb1hZdk5QM2d4NlRKb2lsUTNYTGV5SVV4aGRHMVdLa2tQVUtjRi8zbWJ4T2FKeWd6M1I5NitGbk1iaVdSZ3FJRm02SzdxSnJ5b2I3TlNlcm9JYmVYODFnOXBVWCtBbXFvcTFpNW1XbmJOZXNiNUJQVHBMWVdYMDVtMUkvaGE0OS9mdVdPTzU4LS1CbEcxWVF1WnV6RXltWTZIcUhaWVZBPT0%3D--121f9168e03d571eba126cdb30183af2fca7d0fb; path=/; HttpOnly",
-        "X-Request-Id": "b5018488-66d8-4c82-9aa4-47747de948d4",
-        "X-Runtime": "0.100619",
+        "Set-Cookie": "_session_id=a2diQUxib0lITnlzb0Zxb1F0ZVJPbllyV0ZzMHJtNXB2TTMwKzBteVR3REp4M0ZESFQ0T1R3Q1JaNEIwQU5VM1plbXM3UjdtcWFpaFBWSlFKYVVzSzN6TzdMclg5Z3ROKzJCN1lQWnFSTTJLLzg4TkhxWHNmQ1VKVzRTbnRoNmNBZi9ZTTFtdkV6SUZpRkVOZnVQZENNUFhWaTBRV3FFeEJybDNJUkJwLzg0UDBBQUE0UUZvcDFaQVRXcEgrUkF2LS1qSmVSdHZzRW51R2lPOEVVOEc3NGVBPT0%3D--03a391a1b49d6d7dcbd13c894b11bbb37dc717f1; path=/; HttpOnly",
+        "X-Request-Id": "bcf594a4-ed43-451c-a7d7-c1a1085f4701",
+        "X-Runtime": "0.088477",
         "Content-Length": "216"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/admin/products\" -d 'product[title]=fish&product[price]=3.0&product[inventory_count]=2&product[city_id]=1' -X POST \\\n\t-H \"Access-Token: IX6-MNkjhG7BLOJg-fRq9Q\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: i4wITorOkT4PR3rzGoNNkw\" \\\n\t-H \"Expiry: 1457798619\" \\\n\t-H \"Uid: 39chyna_toy@tillman.info\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/admin/products\" -d 'product[title]=fish&product[price]=3.0&product[inventory_count]=2&product[city_id]=1' -X POST \\\n\t-H \"Access-Token: zaq_p7ASlJ8nPpQyduo-aA\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: EnNYx1tAcdylM6vyFMddCQ\" \\\n\t-H \"Expiry: 1457857082\" \\\n\t-H \"Uid: 39sterling.gusikowski@graham.name\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

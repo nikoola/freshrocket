@@ -7,19 +7,7 @@ class ApplicationController < ActionController::Base
 
 	before_action :configure_permitted_parameters, if: :devise_controller?
 
-	# https://github.com/rails/rails/issues/17216
 
-	# Rails.application.eager_load!
-	# ActiveRecord::Base.descendants.map(&:name)
-
-
-	# descendants.each do |descendant|
-	# 	nested_attributes_names = descendant.constantize.nested_attributes_options.keys.map do |key| 
-	# 		key.to_s.concat('_attributes').to_sym
-	# 	end
-
-	# 	wrap_parameters include: descendant.constantize.attribute_names + nested_attributes_names
-	# end
 
 
 
@@ -27,28 +15,23 @@ class ApplicationController < ActionController::Base
 
 		# applicable to ng routes only
 		def configure_permitted_parameters
-			# devise_parameter_sanitizer.for(:account_update) << :role #WORKS
-			devise_parameter_sanitizer.for(:account_update) << :phone
-			devise_parameter_sanitizer.for(:account_update) << :city_id
-			devise_parameter_sanitizer.for(:account_update) << :first_name
-			devise_parameter_sanitizer.for(:account_update) << :last_name
+			[ 
+				:phone, :city_id, 
+				:first_name, :last_name, 
+				:how_did_you_hear_about_us
+			].each do |attribute|
+				devise_parameter_sanitizer.for(:account_update) << attribute
+				devise_parameter_sanitizer.for(:sign_up)        << attribute
+			end
+
+
 			devise_parameter_sanitizer.for(:account_update) << :reset_password_token #timely
-			devise_parameter_sanitizer.for(:account_update) << :redirect_url 
-			#timely
-
-
-			# devise_parameter_sanitizer.for(:sign_up) << :role
-			devise_parameter_sanitizer.for(:sign_up) << :phone
-			devise_parameter_sanitizer.for(:sign_up) << :city_id
-			devise_parameter_sanitizer.for(:sign_up) << :first_name
-			devise_parameter_sanitizer.for(:sign_up) << :last_name
-
+			devise_parameter_sanitizer.for(:account_update) << :redirect_url
 
 			devise_parameter_sanitizer.for(:account_update) { |u| 
 			  u.permit(:password, :password_confirmation, :current_password) 
 			} #timely
 
-			#TODO :email, :password, :password_confirmation, :role, :phone
 			# devise_parameter_sanitizer.for(:account_update) { |u| u.permit(:email,...) }
 			# doesn't seem to work?
 			# http://stackoverflow.com/questions/19791531/how-to-specify-devise-parameter-sanitizer-for-edit-action

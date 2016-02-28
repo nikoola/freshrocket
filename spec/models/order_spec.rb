@@ -128,9 +128,6 @@ describe Order, type: :model do
 
 		end
 
-
-
-
 	end
 
 	describe 'aasm' do
@@ -245,8 +242,6 @@ describe Order, type: :model do
 			end
 		end
 
-
-
 	end
 
 
@@ -271,6 +266,22 @@ describe Order, type: :model do
 	end
 
 
+	describe 'scopes' do
+
+		it 'city_id' do
+			orders = FactoryGirl.create_list :order, 3, address_id: address.id
+			city_id = address.city.id
+
+			another_address = FactoryGirl.create :address
+			FactoryGirl.create_list :order, 2, address_id: another_address.id
+
+
+			expect(Order.city_id(city_id).pluck(:id)).to match_array(orders.pluck(:id))
+		end
+
+
+
+	end
 
 
 

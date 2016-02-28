@@ -19,11 +19,11 @@
       "request_path": "/client/addresses?active=0",
       "request_body": null,
       "request_headers": {
-        "Access-Token": "FmDdJJixEImTDR_HEl62YA",
+        "Access-Token": "1IqUnXHIiLuaZEnO3RIwLw",
         "Token-Type": "Bearer",
-        "Client": "u2Infc0cmT7l-VC3WQbIwg",
-        "Expiry": "1457798624",
-        "Uid": "75sigrid@macejkovic.name",
+        "Client": "WjB1vhts9HLTIJ6Wi5YKnw",
+        "Expiry": "1457857088",
+        "Uid": "75laila.jacobi@bernier.com",
         "Host": "example.org",
         "Cookie": ""
       },
@@ -33,21 +33,21 @@
       "request_content_type": null,
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "[\n  {\n    \"id\": 1,\n    \"address\": \"7051 Alverta Club\",\n    \"city_id\": 1,\n    \"user_id\": 1\n  },\n  {\n    \"id\": 2,\n    \"address\": \"539 Edwardo Overpass\",\n    \"city_id\": 2,\n    \"user_id\": 1\n  },\n  {\n    \"id\": 3,\n    \"address\": \"30244 Bode River\",\n    \"city_id\": 3,\n    \"user_id\": 1\n  }\n]",
+      "response_body": "[\n  {\n    \"id\": 1,\n    \"address\": \"579 Turner Ports\",\n    \"city_id\": 1,\n    \"user_id\": 1\n  },\n  {\n    \"id\": 2,\n    \"address\": \"43125 Hagenes Coves\",\n    \"city_id\": 2,\n    \"user_id\": 1\n  },\n  {\n    \"id\": 3,\n    \"address\": \"14661 Legros Fort\",\n    \"city_id\": 3,\n    \"user_id\": 1\n  }\n]",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"d343b8695a8444edd19c51c5e2678fb8\"",
+        "ETag": "W/\"6ef9484f27eebe75c7e33cec1d5d7e7b\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=VFBFNFZrMEk4Q2dDbThvQjVBVHRJQ3Axb3dudUU5NUJqU0t3dlVIZ21yL05GNUxMZFUwa3lhUHZUTHcrRDhPNU5vaVJBcHBmZGw4SDFzODBxczA5dG9QbkpFUmlrRHVZWkc3a0dldzFjRTNhQWlTYlYwOE5ZT2o3M0ZiSGZkQnJhNHJoYnFGUkZ6TC83aTQ4Ynd6V1pDM1FQN1FqSzZJZWptcmx4SzVtaDRGWFZaNWRWZ0tFOUlyamJnOENBU1BDLS1pVjdVbVhFTVBGQXE3akV6MkY3M3JnPT0%3D--a9e68698cbfb456c3afd614ebdc5fc34e1de1a0d; path=/; HttpOnly",
-        "X-Request-Id": "753a17ed-e8bc-4bf1-b361-8e1a7ef61c5f",
-        "X-Runtime": "0.096104",
-        "Content-Length": "192"
+        "Set-Cookie": "_session_id=ZWxJcFVvOU5Zb1R2am5PeHZIOUpua2FzRW5kL2JtemduT25pSzYyRFp2MlNkd2tTZmxZN2FxQ2hoc01aSEQwcFIxSmFvUkRtbjBXL3h6SDcrc3ZZWTZ6a0hHQVNxTmFlSFBsZEVGNEhGeGE5UWJ2TmtFWkpPWEVFbUl4Q2pLWjgyRWY0eTUvazZGdmlVUDE0QmQvRFB4alA1MW9EZXhGeWVPeXBtU3NEdGk4WVdNVlJQdUtPRUtndE9DREVJNHN5LS1TdTJxNTNvNitTOU8xbWJJVHNXeG13PT0%3D--e02095b3e6c96f975711d7139625f97e8ebcab37; path=/; HttpOnly",
+        "X-Request-Id": "9dc03159-7498-4a03-93cc-d14b78db55b3",
+        "X-Runtime": "0.106644",
+        "Content-Length": "191"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/client/addresses?active=0\" -X GET \\\n\t-H \"Access-Token: FmDdJJixEImTDR_HEl62YA\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: u2Infc0cmT7l-VC3WQbIwg\" \\\n\t-H \"Expiry: 1457798624\" \\\n\t-H \"Uid: 75sigrid@macejkovic.name\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/client/addresses?active=0\" -X GET \\\n\t-H \"Access-Token: 1IqUnXHIiLuaZEnO3RIwLw\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: WjB1vhts9HLTIJ6Wi5YKnw\" \\\n\t-H \"Expiry: 1457857088\" \\\n\t-H \"Uid: 75laila.jacobi@bernier.com\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

@@ -34,6 +34,10 @@
       "required": true,
       "name": "last_name",
       "description": " last name"
+    },
+    {
+      "name": "how_did_you_hear_about_us",
+      "description": " how did you hear about us"
     }
   ],
   "response_fields": [
@@ -43,13 +47,13 @@
     {
       "request_method": "POST",
       "request_path": "/auth",
-      "request_body": "email=118caria%40oberbrunnerschoen.com&password=secrety_bickety&password_confirmation=secrety_bickety&first_name=Agustin&last_name=Green&phone=%2B79172343270",
+      "request_body": "email=118melyna_lind%40considine.biz&password=secrety_bickety&password_confirmation=secrety_bickety&first_name=Lauren&last_name=Cormier&phone=%2B79172343270",
       "request_headers": {
-        "Access-Token": "bErIQ_I33mhXA50Q9aZ48g",
+        "Access-Token": "Vf3TNxik6ARJx5k7XGeTow",
         "Token-Type": "Bearer",
-        "Client": "ApPqjrvcP5GL6UR6P8JVKw",
-        "Expiry": "1457798632",
-        "Uid": "119abagail@harber.org",
+        "Client": "sMLvWpUu9EoBQd3SMsjjdw",
+        "Expiry": "1457857095",
+        "Uid": "119oren@bechtelargleason.info",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -59,25 +63,25 @@
       "request_content_type": "application/x-www-form-urlencoded",
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\n  \"status\": \"success\",\n  \"data\": {\n    \"id\": 6,\n    \"first_name\": \"Agustin\",\n    \"last_name\": \"Green\",\n    \"email\": \"118caria@oberbrunnerschoen.com\",\n    \"provider\": \"email\",\n    \"uid\": \"118caria@oberbrunnerschoen.com\",\n    \"phone\": \"+79172343270\",\n    \"verification_code\": null,\n    \"is_verified\": false,\n    \"created_at\": \"2016-02-27T16:03:53.012Z\",\n    \"updated_at\": \"2016-02-27T16:03:53.156Z\",\n    \"how_did_you_hear_about_us\": null\n  }\n}",
+      "response_body": "{\n  \"status\": \"success\",\n  \"data\": {\n    \"id\": 6,\n    \"first_name\": \"Lauren\",\n    \"last_name\": \"Cormier\",\n    \"email\": \"118melyna_lind@considine.biz\",\n    \"provider\": \"email\",\n    \"uid\": \"118melyna_lind@considine.biz\",\n    \"phone\": \"+79172343270\",\n    \"verification_code\": null,\n    \"is_verified\": false,\n    \"created_at\": \"2016-02-28T08:18:15.795Z\",\n    \"updated_at\": \"2016-02-28T08:18:15.941Z\",\n    \"how_did_you_hear_about_us\": null\n  }\n}",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
-        "access-token": "mbOavnFmZFIhe0TO32E7Sw",
+        "access-token": "YiD-Ask1UPAf7IqO5XqdMg",
         "token-type": "Bearer",
-        "client": "TInyhtH1g-LuCcUsdRsKqg",
-        "expiry": "1457798633",
-        "uid": "118caria@oberbrunnerschoen.com",
+        "client": "LCjld2b3sig0OA7xwvpgFA",
+        "expiry": "1457857095",
+        "uid": "118melyna_lind@considine.biz",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"88933918cf516a165e88c98088e36b7f\"",
+        "ETag": "W/\"e74fa221fa7d7c57dc931a3053fe37f4\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "X-Request-Id": "73cc21c9-53fc-45da-887f-4572220eb34b",
-        "X-Runtime": "0.161044",
-        "Content-Length": "359"
+        "X-Request-Id": "f9e8cde2-2755-4e91-a483-2d43f82a6efe",
+        "X-Runtime": "0.164042",
+        "Content-Length": "356"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/auth\" -d 'email=118caria%40oberbrunnerschoen.com&password=secrety_bickety&password_confirmation=secrety_bickety&first_name=Agustin&last_name=Green&phone=%2B79172343270' -X POST \\\n\t-H \"Access-Token: bErIQ_I33mhXA50Q9aZ48g\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: ApPqjrvcP5GL6UR6P8JVKw\" \\\n\t-H \"Expiry: 1457798632\" \\\n\t-H \"Uid: 119abagail@harber.org\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/auth\" -d 'email=118melyna_lind%40considine.biz&password=secrety_bickety&password_confirmation=secrety_bickety&first_name=Lauren&last_name=Cormier&phone=%2B79172343270' -X POST \\\n\t-H \"Access-Token: Vf3TNxik6ARJx5k7XGeTow\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: sMLvWpUu9EoBQd3SMsjjdw\" \\\n\t-H \"Expiry: 1457857095\" \\\n\t-H \"Uid: 119oren@bechtelargleason.info\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

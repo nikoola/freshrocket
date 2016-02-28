@@ -54,11 +54,11 @@
       "request_path": "/admin/products/1",
       "request_body": "product[title]=hi",
       "request_headers": {
-        "Access-Token": "Ijt-9v0zZgy5kT5lgGu28w",
+        "Access-Token": "37fwBwx3uyvi0sGJ9wu_3A",
         "Token-Type": "Bearer",
-        "Client": "745Q89Wb0r83JtDPi1CNuw",
-        "Expiry": "1457798619",
-        "Uid": "42hermann@west.name",
+        "Client": "pM_-TViafA3Cd41MoU667g",
+        "Expiry": "1457857083",
+        "Uid": "42frederique_reinger@wisokyromaguera.biz",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -68,21 +68,21 @@
       "request_content_type": "application/x-www-form-urlencoded",
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\n  \"id\": 1,\n  \"city_id\": 1,\n  \"title\": \"hi\",\n  \"price\": \"3.0\",\n  \"description\": null,\n  \"created_at\": \"2016-02-27T16:03:39.869Z\",\n  \"updated_at\": \"2016-02-27T16:03:40.064Z\",\n  \"inventory_count\": 20,\n  \"image_url\": \"uploads/product/image/default.png\"\n}",
+      "response_body": "{\n  \"id\": 1,\n  \"city_id\": 1,\n  \"title\": \"hi\",\n  \"price\": \"3.0\",\n  \"description\": null,\n  \"created_at\": \"2016-02-28T08:18:03.492Z\",\n  \"updated_at\": \"2016-02-28T08:18:03.729Z\",\n  \"inventory_count\": 20,\n  \"image_url\": \"uploads/product/image/default.png\"\n}",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"cbde658fadcbb41757a98d1de980b742\"",
+        "ETag": "W/\"eef7f425eaab08c2ae43c4ffbde0d8a5\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=R3VoM21mNFhNbFFLWHRNaTRiK0cvZisyb285bjhYa3lDeGR5K0U2SEFiUVJhckpsMC9MR1FiVGM5V1BkTyt6NWdyWnhzLzhzZncyenJiNmpWWTlPMG1CNk5ybkpUazRTSGErbUkvekVhVTNNNnNUNlpLVFdJMG9sM002a3RlUW9XMUtwY3BNbVNqaEptNCt3dlZ6WmxQRkF1QmNwV1RZdS8rVFJWQkhjcjgramcvY0owTm1COHZGbThJNG1RNUZoLS1lMk9hVFlRQ2RrRm5vaUozR1BGTHN3PT0%3D--eac8168b4476dacaaf05a15d93dff90c95e83cb1; path=/; HttpOnly",
-        "X-Request-Id": "b63880f4-639c-4508-ade8-dff4ea22f9fb",
-        "X-Runtime": "0.090722",
+        "Set-Cookie": "_session_id=M1FSQjRuN2ltdCtjNGVQVWhySmtYakQ4cnlZRitKS1lSb2NxRTJzZ0V3KzNzWjA5bkFtLzZDS1FXODBMTzhsUldsWjNwZHY0YzVjTlhNZzQ4VE1OZDRNeGhyVFkwNjFhNWdmc1FOOG93N1R6enJnMEV1ZzliZllXVDVScWdXcHFNTmdsSGNnemx4am1KTnlBc3VoUEtwTEwvS25EM1M0d0hSUkt4dFN0NHhldlBlaW1SMnhGdW5Ybmdlckoyd1Z4LS1uaEYrcFJER2c2T3pDYjNhbUwxTnN3PT0%3D--0e5b3ba08df30b30fbecf56ed83657ddaf69b106; path=/; HttpOnly",
+        "X-Request-Id": "8b1a3f19-455f-4769-9ff7-5462c7206f4f",
+        "X-Runtime": "0.111294",
         "Content-Length": "215"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/admin/products/1\" -d 'product[title]=hi' -X PUT \\\n\t-H \"Access-Token: Ijt-9v0zZgy5kT5lgGu28w\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: 745Q89Wb0r83JtDPi1CNuw\" \\\n\t-H \"Expiry: 1457798619\" \\\n\t-H \"Uid: 42hermann@west.name\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/admin/products/1\" -d 'product[title]=hi' -X PUT \\\n\t-H \"Access-Token: 37fwBwx3uyvi0sGJ9wu_3A\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: pM_-TViafA3Cd41MoU667g\" \\\n\t-H \"Expiry: 1457857083\" \\\n\t-H \"Uid: 42frederique_reinger@wisokyromaguera.biz\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

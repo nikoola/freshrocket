@@ -16,11 +16,11 @@
       "request_path": "/client/orders/3",
       "request_body": null,
       "request_headers": {
-        "Access-Token": "WqfW53GW5cWMFQ8DiF-fMg",
+        "Access-Token": "OfxHk10h2-0DdnD_M5EDKA",
         "Token-Type": "Bearer",
-        "Client": "_Fjjs4ZOPdYEqIRy0bPI-w",
-        "Expiry": "1457798630",
-        "Uid": "102percival@doyle.biz",
+        "Client": "pdpxreEBDyNdA2v0WFhm2g",
+        "Expiry": "1457857093",
+        "Uid": "102jalen_muller@gusikowski.net",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -37,13 +37,13 @@
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "application/json; charset=utf-8",
         "Cache-Control": "no-cache",
-        "Set-Cookie": "_session_id=bnBsTWJ2ME9nZFdWTHF1aXpHTTFhK0NaNlJZL2xYbmJhZnhweUhXSGFGMmN4b2lmVjgzVHBxa1Fnbmo2eFZ1Ni9CUjJFelZwbWk4Slh6c1I2c29waGVFM0syOXZXUVJCL3JBd0xkNmZEc24yZkZDN0JNcTZLQnVaQitBRjRNQk5MVjNyYldaY1k2ZHl0TG9WWktjRlM0RTZqWmpuOEFGMDFKSGVZTEN5WktLZTFYMkxHN05yeVlTL2ZBVWxacmc1LS15dCtnYjhObG1MbU1lcmp5eVRVdXlBPT0%3D--1adaeac23a47efd0a43b456744b083a710dfef7d; path=/; HttpOnly",
-        "X-Request-Id": "4d4798e8-16a6-4aa1-aafa-bdc8443cc2ae",
-        "X-Runtime": "0.078544",
+        "Set-Cookie": "_session_id=VGNRNXZVKzNzQnJuMTBlVUZUZW5CYXBnWEtLc2ZKKzVBNXNWVkZ3ZWNqUm9ZMmdseFJnWGFxdTcyR0dVL2NXN1BCaE1jaEs5a0F5cW1vYVpCTVRNOGtyYW5pMEhhOWMyaUs4Ni82T1E1cE1NYUlnY2tWMXl5Vm5RR1FpVEdtS2p4MlJ5MFVGdTY4aDRROWtPZnRobUxlMlhvclNtd09iSE9URzVYYzdtL0k2WjB4Q2JrL0NhMWs3Yzdma2x5dmR6LS1GRlRIU3A4VjZNMjlPblB6Ync4N0ZBPT0%3D--d29f025c9c7ae95625aa36a5cf014c614701b32f; path=/; HttpOnly",
+        "X-Request-Id": "17f818aa-775d-48e1-9af5-f9a5505cefc5",
+        "X-Runtime": "0.078846",
         "Content-Length": "73"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/client/orders/3\" -d '' -X DELETE \\\n\t-H \"Access-Token: WqfW53GW5cWMFQ8DiF-fMg\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: _Fjjs4ZOPdYEqIRy0bPI-w\" \\\n\t-H \"Expiry: 1457798630\" \\\n\t-H \"Uid: 102percival@doyle.biz\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/client/orders/3\" -d '' -X DELETE \\\n\t-H \"Access-Token: OfxHk10h2-0DdnD_M5EDKA\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: pdpxreEBDyNdA2v0WFhm2g\" \\\n\t-H \"Expiry: 1457857093\" \\\n\t-H \"Uid: 102jalen_muller@gusikowski.net\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

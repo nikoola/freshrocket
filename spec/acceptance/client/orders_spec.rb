@@ -55,6 +55,7 @@ resource 'client: orders', type: :request do
 		with_options :scope => :order do
 			parameter :comment,       'comment to the order'
 			parameter :address_id,    '', required: true
+			parameter :feedback
 		end
 
 		with_options :scope => [:order, :line_items_attributes], :required => true do

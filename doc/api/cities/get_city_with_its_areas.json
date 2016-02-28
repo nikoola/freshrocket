@@ -24,17 +24,17 @@
       "request_content_type": null,
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\n  \"id\": 1,\n  \"name\": \"Alysafort_49\",\n  \"active\": true,\n  \"areas\": [\n    {\n      \"id\": 1,\n      \"name\": \"Larkinhaven_area_2\"\n    },\n    {\n      \"id\": 2,\n      \"name\": \"South Flossie_area_3\"\n    },\n    {\n      \"id\": 3,\n      \"name\": \"South Jordaneland_area_4\"\n    }\n  ]\n}",
+      "response_body": "{\n  \"id\": 1,\n  \"name\": \"East Trevorberg_49\",\n  \"active\": true,\n  \"areas\": [\n    {\n      \"id\": 1,\n      \"name\": \"West Herminamouth_area_2\"\n    },\n    {\n      \"id\": 2,\n      \"name\": \"Naomieberg_area_3\"\n    },\n    {\n      \"id\": 3,\n      \"name\": \"North Ruben_area_4\"\n    }\n  ]\n}",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"f351b37078bc07860011fc846428d3c4\"",
+        "ETag": "W/\"4a915cf2f134baf2a41e3da6a71396e1\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "X-Request-Id": "75008a9d-62d4-4371-992a-6c4e76037e2b",
-        "X-Runtime": "0.003232",
-        "Content-Length": "173"
+        "X-Request-Id": "b747a725-e8b1-47f5-bf83-8757e2e8b7cf",
+        "X-Runtime": "0.002629",
+        "Content-Length": "176"
       },
       "response_content_type": "application/json; charset=utf-8",
       "curl": "curl \"http://localhost:3000/cities/1\" -X GET \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""

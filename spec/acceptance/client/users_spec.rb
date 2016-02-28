@@ -21,6 +21,8 @@ resource 'client: users', type: :request do
 				parameter 'last_name'
 			end
 
+			parameter 'how_did_you_hear_about_us'
+
 			example 'create user' do
 				do_request FactoryGirl.attributes_for(:user, phone: '+79172343270') #devise_parameter_sanitizer
 
@@ -54,10 +56,6 @@ resource 'client: users', type: :request do
 		# end
 
 		put '/auth' do
-			parameter :email
-			parameter :phone
-			parameter :first_name
-			parameter :last_name
 
 			it 'user updates self' do
 				explanation 'if phone is updates, is_verified is set to false'
