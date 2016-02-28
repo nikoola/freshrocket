@@ -1,7 +1,7 @@
 module Admin
 	class CitiesController < BaseController
 
-		wrap_parameters include: [:name, :id, :_destroy, :active, :areas_attributes]
+		# wrap_parameters include: [:name, :active, :areas_attributes]
 
 		before_action :set_city, only: [:show, :update, :destroy]
 		before_action -> { authorize 'cities' }
@@ -9,7 +9,7 @@ module Admin
 		# POST /admin/cities
 		def create
 			@city = City.new(city_params)
-			# @city.categories = @categories
+
 			if @city.save
 				render json: @city, status: :created, location: @city
 			else
