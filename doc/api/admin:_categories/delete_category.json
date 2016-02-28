@@ -16,11 +16,11 @@
       "request_path": "/admin/categories/1",
       "request_body": null,
       "request_headers": {
-        "Access-Token": "ycCcBW7_Wt0DL0qJhIe1lw",
+        "Access-Token": "uF3tCyhi4q23ZB-7MzM45w",
         "Token-Type": "Bearer",
-        "Client": "sZW5_FhrjmQ-FESeAIuogw",
-        "Expiry": "1457871439",
-        "Uid": "5zoila@rosenbaum.com",
+        "Client": "ffbDoN1cmZoj80-wGhU9JA",
+        "Expiry": "1457890132",
+        "Uid": "5judge@spinka.net",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -37,13 +37,13 @@
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "text/html",
         "Cache-Control": "no-cache",
-        "Set-Cookie": "_session_id=YjhRL3R5UlhSZkZIM2RrTXU5UVV4eHB0bzdZYTB5YkJLNTYxMTJSYlpYM3FtVVQxcklqOFd2OWgvNVpNaGd4YWNkaUt4K1ljWTNIWHNSSFpCYkJHZXl4OEtxa2NqNlhWSWhJOGM1YWlxYU9HTHBqcnE0NEd4THF3VXJhWGtqRnJsSUsxZFk4eEpxa29XOStNRjlORXIzdlZEKzBqUWNwQ1liKytLTklBWEpaT3JoRkJncXpxdGUzcHkvTHBWSjlILS1UTlNJbWlwU01majhyNFY5NVRPSmFBPT0%3D--386077370c5d7d211312c5db2d39f09282385f4d; path=/; HttpOnly",
-        "X-Request-Id": "cede5c94-5340-4f4d-b6bb-89372f2353b9",
-        "X-Runtime": "0.086220",
+        "Set-Cookie": "_session_id=c0k0TUFwbFdNQjl3TE1yN3pxcHkweDdDb1p0d1I2QkZ3YjZndGpPMVRBRGthT0t6RkpxSHgzZ2RZWVR3YVU3VktZMlUvLzNGTVpLZkVXb2xSL2NKMTV4VGJHTmpwTFhQUUZVNnV5Z05ZRzhFQzVLalBpbTB6ZjRyYzkwQXZaT1NFeVVjd2VQZUZCWHZOaHFaU0NUcTBNamc3SU9jbmdqYTM1Zmd0V1dMWUpvcnlNNnNRelJXREJPN2xmZ3dwZGJILS1ORFhiNnl5UVhPYWhCT0lvbFVGNnpRPT0%3D--e436a3ab9d45e770dcb44b3bc4d09b2b68f081e4; path=/; HttpOnly",
+        "X-Request-Id": "d329f951-6545-4f4c-89ef-2deba6b6aeea",
+        "X-Runtime": "0.083223",
         "Content-Length": "0"
       },
       "response_content_type": "text/html",
-      "curl": "curl \"http://localhost:3000/admin/categories/1\" -d '' -X DELETE \\\n\t-H \"Access-Token: ycCcBW7_Wt0DL0qJhIe1lw\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: sZW5_FhrjmQ-FESeAIuogw\" \\\n\t-H \"Expiry: 1457871439\" \\\n\t-H \"Uid: 5zoila@rosenbaum.com\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/admin/categories/1\" -d '' -X DELETE \\\n\t-H \"Access-Token: uF3tCyhi4q23ZB-7MzM45w\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: ffbDoN1cmZoj80-wGhU9JA\" \\\n\t-H \"Expiry: 1457890132\" \\\n\t-H \"Uid: 5judge@spinka.net\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

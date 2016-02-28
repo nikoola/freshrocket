@@ -27,11 +27,11 @@
       "request_path": "/admin/users?has_abillity=users",
       "request_body": null,
       "request_headers": {
-        "Access-Token": "16ChVWIIU7EA-kYakuMXOQ",
+        "Access-Token": "W0izfzDOcYznulQtC5Ujug",
         "Token-Type": "Bearer",
-        "Client": "UO2pI_VZPsMqChrB484i3A",
-        "Expiry": "1457871448",
-        "Uid": "54darlene.yost@spencerlynch.org",
+        "Client": "vRuTCLvpG7gAlta0Xc9m-g",
+        "Expiry": "1457890142",
+        "Uid": "55miracle@okeefeveum.biz",
         "Host": "example.org",
         "Cookie": ""
       },
@@ -41,21 +41,21 @@
       "request_content_type": null,
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "[\n  {\n    \"id\": 2,\n    \"first_name\": \"Norris\",\n    \"last_name\": \"Swaniawski\",\n    \"email\": \"54darlene.yost@spencerlynch.org\",\n    \"phone\": \"+79177805315\",\n    \"is_verified\": false,\n    \"provider\": \"email\",\n    \"uid\": \"54darlene.yost@spencerlynch.org\",\n    \"created_at\": \"2016-02-28T12:17:28.028Z\",\n    \"abilities\": {\n      \"orders\": 0,\n      \"products\": 0,\n      \"users\": 1,\n      \"categories\": 0,\n      \"coupons\": 0,\n      \"settings\": 0,\n      \"cities\": 0,\n      \"delivery_boy\": 0\n    }\n  }\n]",
+      "response_body": "[\n  {\n    \"id\": 2,\n    \"first_name\": \"Bill\",\n    \"last_name\": \"Klocko\",\n    \"email\": \"55miracle@okeefeveum.biz\",\n    \"phone\": \"+79177628915\",\n    \"is_verified\": false,\n    \"provider\": \"email\",\n    \"uid\": \"55miracle@okeefeveum.biz\",\n    \"created_at\": \"2016-02-28T17:29:02.250Z\",\n    \"abilities\": {\n      \"orders\": 0,\n      \"products\": 0,\n      \"users\": 1,\n      \"categories\": 0,\n      \"coupons\": 0,\n      \"settings\": 0,\n      \"cities\": 0,\n      \"delivery_boy\": 0\n    }\n  }\n]",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"e5fb093fdee9a22ae533fe6d39307099\"",
+        "ETag": "W/\"48a0313185837b59569cfbf1297b4fea\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=Y3NrdUVzelBqRFNnVWhVc1kxNWhRcXY2d2ZYcHJ1U3VzRVBwWWdJeUd3VWVCZ3NRTkFpa3I4Yk4ydy84VWRFL3N0TENFVU5uRU1CeUwvdFF2OVoxSDNoT3ZSWU1EcVlJdFRFVDdENFpRSXVZZFRvL2RscnZSRW8rVW54WjhLR1ZldklhOFZ2SGplbm9uU1dsY2F2ZDlrWU53bGIweGVubWZaWkRVTUIvUGN3c05DWWpHL0hHTDZUK1FkamcvNGVJLS1ManJ6eW5ZemlFTFRyZkxyR3owQkt3PT0%3D--da903e457ce001460d5658cb718cad0766783080; path=/; HttpOnly",
-        "X-Request-Id": "b1a37808-b05b-40a7-8481-9818d1ba44a9",
-        "X-Runtime": "0.085994",
-        "Content-Length": "357"
+        "Set-Cookie": "_session_id=OS93a2ZKN09oOTcxeEJwYjRNT05nYzVVWmJhWEVzdHZYUHFsZy9xcXB5NzkyTFRteVJvcnJ1MDJiU1JCZ1IvYlh5UHZDVVRaQllmbTd5cDYxdTZxWUpJalBNc0ZBTURxeWFxbmdXTHIva2dGZjE0dURoYkdlYU9tUHQ5aVdEL1Jsd2tBbm9ReWpQM285b3BDNStjSll3aGVtaFdXem9Yd1FwMVFVcFlPaXJEUGFvamIwVjloNFJqNkVvRHA1bVBRLS1McXlFWGVrR05kOWF6U1pVdS9UbnlRPT0%3D--0c657426ddb58340024b29583902dd450f16af02; path=/; HttpOnly",
+        "X-Request-Id": "d0c7e6de-8a58-41cb-a85d-04c6f0004173",
+        "X-Runtime": "0.083460",
+        "Content-Length": "337"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/admin/users?has_abillity=users\" -X GET \\\n\t-H \"Access-Token: 16ChVWIIU7EA-kYakuMXOQ\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: UO2pI_VZPsMqChrB484i3A\" \\\n\t-H \"Expiry: 1457871448\" \\\n\t-H \"Uid: 54darlene.yost@spencerlynch.org\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/admin/users?has_abillity=users\" -X GET \\\n\t-H \"Access-Token: W0izfzDOcYznulQtC5Ujug\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: vRuTCLvpG7gAlta0Xc9m-g\" \\\n\t-H \"Expiry: 1457890142\" \\\n\t-H \"Uid: 55miracle@okeefeveum.biz\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

@@ -31,11 +31,11 @@
       "request_path": "/admin/categories/1",
       "request_body": "category[name]=hollywood",
       "request_headers": {
-        "Access-Token": "NzsRVgxyQLa6HYTdfriL0w",
+        "Access-Token": "8v-fTzalFQheOgw8XslJqQ",
         "Token-Type": "Bearer",
-        "Client": "-dOhTt6Vmxmk7-_GFLDYNQ",
-        "Expiry": "1457871438",
-        "Uid": "3maryam.kovacek@bruen.name",
+        "Client": "yBJOhP0xcHh5puaPDNP2Dg",
+        "Expiry": "1457890131",
+        "Uid": "3stephen@williamsonmuller.com",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -53,13 +53,13 @@
         "Content-Type": "application/json; charset=utf-8",
         "ETag": "W/\"7770e1679beef4a5bba3b3d23260ae2c\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=MDdZd0x3SStGUkx6T1p5bEdLbXJ5QmhmOG5IY0UrUi9JbGI5dzM5UkliL3YrVEdvSlNBNG1zeHpLR1ZTSC9kVHNPYllaVjFMNEdSc0g1WXJnemFNdFhkTTNhMGFxTTM1cE5xYmY3UDhFNUpIQWFtSGVyT3Jycm54MVVGWVpyY2NBNWVBYkJ3Uy9PVVJtenh2NjNjaklNUk9ub2hvOGJKREc0NVdXRElUQ0cybEhxMmxtbnVpRjJoV1NjRDFwTk91LS1BbzEyNitBUkw4NFZXNzF3UHc1VnV3PT0%3D--f051f0a74cd4b88ba11ba14227b902bae5eb09a4; path=/; HttpOnly",
-        "X-Request-Id": "1b627d9a-500c-4656-8ba8-b5704a44c485",
-        "X-Runtime": "0.088671",
+        "Set-Cookie": "_session_id=RmRoL3MvVFhyQlFkVFE2dlpOY0diMHRvci9YSVQwa0dwWFNTMVNlSng4ZEJRb0JnSVRMT2VuYXFMTmpBeFpLNFYyci91Qld1em9oV3dQTlhFT0duSFM3UWg5aExjWlR0S1dCN1ZSeXgzS2xoRkZmYzRpc0orNVYycHlmSGxhVEJYdTN3VThRZ0xnUGx0VUZTYTlTcFpESzdQUHZrVytjMkJsVStOMDhIVEJ1WDlXQ2tZV3ZwZFNNTVU1MEFoanBULS1Ha0Q0MFVoNGpMNG10N3FNOUZMWnNBPT0%3D--ab8beb09e8d0e9c83cae10321f814a63faaebee8; path=/; HttpOnly",
+        "X-Request-Id": "585d29c8-27c5-4c6c-a3c6-b2b3d3b398a5",
+        "X-Runtime": "0.080749",
         "Content-Length": "76"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/admin/categories/1\" -d 'category[name]=hollywood' -X PUT \\\n\t-H \"Access-Token: NzsRVgxyQLa6HYTdfriL0w\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: -dOhTt6Vmxmk7-_GFLDYNQ\" \\\n\t-H \"Expiry: 1457871438\" \\\n\t-H \"Uid: 3maryam.kovacek@bruen.name\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/admin/categories/1\" -d 'category[name]=hollywood' -X PUT \\\n\t-H \"Access-Token: 8v-fTzalFQheOgw8XslJqQ\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: yBJOhP0xcHh5puaPDNP2Dg\" \\\n\t-H \"Expiry: 1457890131\" \\\n\t-H \"Uid: 3stephen@williamsonmuller.com\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

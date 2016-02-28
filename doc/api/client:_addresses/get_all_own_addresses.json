@@ -19,11 +19,11 @@
       "request_path": "/client/addresses?active=0",
       "request_body": null,
       "request_headers": {
-        "Access-Token": "9B_NDw7C35UO8u-t2D-w8A",
+        "Access-Token": "FwdQUvtoQRMqwOM85cwySw",
         "Token-Type": "Bearer",
-        "Client": "BUVxSZcC5ywDNylhisTAWg",
-        "Expiry": "1457871450",
-        "Uid": "75westley_thompson@rowehalvorson.com",
+        "Client": "VDOFOuAN-KtwBdyd16ZDvg",
+        "Expiry": "1457890145",
+        "Uid": "80jennie.braun@hermiston.net",
         "Host": "example.org",
         "Cookie": ""
       },
@@ -33,21 +33,21 @@
       "request_content_type": null,
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "[\n  {\n    \"id\": 1,\n    \"address\": \"9173 Luettgen Curve\",\n    \"city_id\": 1,\n    \"user_id\": 1\n  },\n  {\n    \"id\": 2,\n    \"address\": \"39656 Corkery Garden\",\n    \"city_id\": 2,\n    \"user_id\": 1\n  },\n  {\n    \"id\": 3,\n    \"address\": \"926 Casper Cliffs\",\n    \"city_id\": 3,\n    \"user_id\": 1\n  }\n]",
+      "response_body": "[\n  {\n    \"id\": 1,\n    \"address\": \"3370 Harris Springs\",\n    \"city_id\": 1,\n    \"user_id\": 1\n  },\n  {\n    \"id\": 2,\n    \"address\": \"24071 Virgie Tunnel\",\n    \"city_id\": 2,\n    \"user_id\": 1\n  },\n  {\n    \"id\": 3,\n    \"address\": \"46389 Fisher Burgs\",\n    \"city_id\": 3,\n    \"user_id\": 1\n  }\n]",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"b9e47c52f79ef293c9d951b95bf12e89\"",
+        "ETag": "W/\"72b7c9aa050ae29f1b2fe7dcb09bb451\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=VXJGdVpxWXNFM01JYXozZlJUV0dURnZQZW56MXBoNVY0ZjR2Zkg2NDZ1MUEyK1EvRVdiRkhwVzdueGxHbEhsMytVZGhaNVlJbkVicmRiOC94V0cyRXM1TXRwUmZhSUwyTFhXZnJWRjRIMGN6QnlpZHhMWmt3V1U3MWZYNGoyYi8vbjVkcUhuSG81aXRVcm1RNnpVdnA3a2hqMXdrODc3USt1cnFobzh4cVlUWWpPTTlNdXlkaE1Yenk0QmpnM0V4LS03eDM4YWl5WUUrNmFWb2hrSFNZRFd3PT0%3D--a4ffe1fe1f98d16bc66a5c31b5741e641923a251; path=/; HttpOnly",
-        "X-Request-Id": "4bef1a32-8880-460b-a0a7-53ea1351601c",
-        "X-Runtime": "0.092048",
+        "Set-Cookie": "_session_id=R2UwcHFGc1djcW5DTEZHdFNSSTdNSHpxSVhNcjB2ZDU1Tkx5ek9XMHZJZ2dDVXRKYk5iSUwvWUc1RmhmdTgrZjB1OTBnMVJqSnE2ckNDWWt0b2x2aUUwRTlUYThyTy9XdllvKy9GaSsrbDNnSHlqVDVobnU4QktSa0ZrZ0FJd3JxR01zcll2c2hiL3oreXBHa1FRZ0crVDZTUkt1bGZBZy90ODRRTmRyUEdXQ0RXTjcxZ0hCUUVQL3hoUlhKVnMxLS1jYkllTWplV0QzVnJYZ2gwckpPeTJRPT0%3D--86bf1497d424cfa70f3ac482be131a9f81967409; path=/; HttpOnly",
+        "X-Request-Id": "6941daaf-8db2-45ea-a26b-6a8df29a81a9",
+        "X-Runtime": "0.091089",
         "Content-Length": "195"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/client/addresses?active=0\" -X GET \\\n\t-H \"Access-Token: 9B_NDw7C35UO8u-t2D-w8A\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: BUVxSZcC5ywDNylhisTAWg\" \\\n\t-H \"Expiry: 1457871450\" \\\n\t-H \"Uid: 75westley_thompson@rowehalvorson.com\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/client/addresses?active=0\" -X GET \\\n\t-H \"Access-Token: FwdQUvtoQRMqwOM85cwySw\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: VDOFOuAN-KtwBdyd16ZDvg\" \\\n\t-H \"Expiry: 1457890145\" \\\n\t-H \"Uid: 80jennie.braun@hermiston.net\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

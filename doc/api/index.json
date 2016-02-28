@@ -155,20 +155,6 @@
           "method": "post"
         },
         {
-          "description": "create product: invalid params",
-          "link": "admin:_products/create_product:_invalid_params.json",
-          "groups": "all",
-          "route": "/admin/products",
-          "method": "post"
-        },
-        {
-          "description": "creates product with image",
-          "link": "admin:_products/creates_product_with_image.json",
-          "groups": "all",
-          "route": "/admin/products",
-          "method": "post"
-        },
-        {
           "description": "delete product",
           "link": "admin:_products/delete_product.json",
           "groups": "all",
@@ -213,6 +199,20 @@
     {
       "name": "admin: users",
       "examples": [
+        {
+          "description": "by admin, with invalid params: errors returned",
+          "link": "admin:_users/by_admin,_with_invalid_params:_errors_returned.json",
+          "groups": "all",
+          "route": "/admin/users",
+          "method": "post"
+        },
+        {
+          "description": "by admin, with valid params: user created",
+          "link": "admin:_users/by_admin,_with_valid_params:_user_created.json",
+          "groups": "all",
+          "route": "/admin/users",
+          "method": "post"
+        },
         {
           "description": "get all users",
           "link": "admin:_users/get_all_users.json",

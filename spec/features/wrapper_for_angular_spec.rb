@@ -16,6 +16,7 @@ describe 'Angular: parameter wrapping', type: :request do
 			{ name: 'area_1' },
 			{ name: 'area_2' }
 		] }.to_json, auth_headers.merge('ACCEPT' => 'application/json', 'CONTENT_TYPE' => 'application/json')
+		# to_json is necessary
 
 		city = City.find(json_body[:id])
 

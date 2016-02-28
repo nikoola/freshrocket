@@ -16,11 +16,11 @@
       "request_path": "/admin/products/1",
       "request_body": null,
       "request_headers": {
-        "Access-Token": "l-TGYgrmr60TNnE8CPh0cw",
+        "Access-Token": "-__YxAJR9IOD3Vf0WCQ9_w",
         "Token-Type": "Bearer",
-        "Client": "72Y9tcQPKKZmZQFhQKWpcw",
-        "Expiry": "1457871446",
-        "Uid": "44oran.predovic@prosacco.info",
+        "Client": "Y0CJKqlm42pC4iTZokKaZA",
+        "Expiry": "1457890140",
+        "Uid": "45vesta@wunsch.com",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -37,13 +37,13 @@
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "text/html",
         "Cache-Control": "no-cache",
-        "Set-Cookie": "_session_id=MUk3OEF0K2dxVG1heWYzOSs1Yi93WDFsTUpqUStCTkx6dW85bnBHTnhjT3J3MTRIbnpCM2FadFNTMzJTVDU2bHRDTGZjY28wMHd0dktlWFREdHd0akJTOXAzWnRmcU1hYm04cFhIdnZTTWdLQUU3N0tEQ2R2c1JsYjRTWjFDMmhFbkJha0YvMVJEOEMrNTlJTnFsL25DTzJ5OGVUWTlIeWtHdXpOTDQ1U3pjRE5hVW9HNVI1Yi9nOVdCQkQ4MHY2LS1UOUVRRVR1bE1laFlndFBEZldmZG13PT0%3D--962b7c23f0d1f1799cf7bbf3920953f2999e5750; path=/; HttpOnly",
-        "X-Request-Id": "c9a7ed1f-e717-457f-ac21-7ed8d2c36dde",
-        "X-Runtime": "0.084178",
+        "Set-Cookie": "_session_id=NXFmZ2ZzMlBjeHhSdXFZeHQ2d1ZYUTBQaUk0QWtrdVJ6dDRZTUdrVWRxajl6T045VGJBUmkzZTRXV2dCWEx2dDN4YlpIc2ZRSGNRc2tMeHNLNlhxRTlSVkxmdzZJREtLNzhzL2dNcmwvbVBQK2psbEIrOTF6bER6aE16bmtmdUdhMWt3WUoxdmlDSCsxQ1BLNmpTSmF4M1lKVEE3bXFUeTRKRGVsWmI0Q3NEc1dHMHNnRjFGVGh3aFovQVB4dGtQLS1jR1JxaEVUZDVJTnVsdytTclU5b0FBPT0%3D--0cbf99025f00067e3cb6822bdddd1020e6a4db95; path=/; HttpOnly",
+        "X-Request-Id": "90a0001c-b643-4487-bcda-ab21cc5ece7a",
+        "X-Runtime": "0.105995",
         "Content-Length": "0"
       },
       "response_content_type": "text/html",
-      "curl": "curl \"http://localhost:3000/admin/products/1\" -d '' -X DELETE \\\n\t-H \"Access-Token: l-TGYgrmr60TNnE8CPh0cw\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: 72Y9tcQPKKZmZQFhQKWpcw\" \\\n\t-H \"Expiry: 1457871446\" \\\n\t-H \"Uid: 44oran.predovic@prosacco.info\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/admin/products/1\" -d '' -X DELETE \\\n\t-H \"Access-Token: -__YxAJR9IOD3Vf0WCQ9_w\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: Y0CJKqlm42pC4iTZokKaZA\" \\\n\t-H \"Expiry: 1457890140\" \\\n\t-H \"Uid: 45vesta@wunsch.com\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

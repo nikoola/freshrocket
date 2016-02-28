@@ -57,29 +57,39 @@ resource 'admin: users', type: :request do
 		end
 	end
 
-	# describe 'POST admin/users' do
-
-	# 	it 'by admin, with valid params: user created' do
-	# 		post admin_users_path, {user: FactoryGirl.attributes_for(:user)} , @auth_headers_with_users_ability
-	# 		expect_status 201
-	# 		expect_json_keys :id, :provider, :uid, :email, :phone, :created_at, :updated_at
-	# 	end
-
-	# 	it 'by admin, with invalid params: errors returned' do
-	# 		post admin_users_path, {user: FactoryGirl.attributes_for(:user, phone: nil)} , @auth_headers_with_users_ability
-	# 		expect_status 422
-	# 		expect_json :phone=>["can't be blank"]
-	# 	end
-
-	# end
-
-	put '/admin/users/:id' do
+	post '/admin/users' do
 
 		with_options scope: :user do
-			parameter :city_id
+			parameter :is_verified, 'user automatically becomes unverified on phone change unless is_verified is set to true'
+
+			parameter :password
+			parameter :password_confirmation
+
 			parameter :phone
-			parameter :is_verified, 'user automatically becomes unverified unless on phone change unless is_verified is set to true'
+			parameter :email
+			parameter :first_name
+			parameter :last_name
+			parameter :how_did_you_hear_about_us
 		end
+
+		example 'by admin, with valid params: user created' do
+			explanation 'create user from the admin side, and send them their password by sms'
+
+			do_request user: FactoryGirl.attributes_for(:user)
+			expect(status).to eq(201)
+			expect(json.keys).to include :id, :provider, :uid, :email, :phone, :created_at
+		end
+
+		example 'by admin, with invalid params: errors returned' do
+			do_request user: FactoryGirl.attributes_for(:user, phone: nil)
+
+			expect(status).to eq(422)
+			expect(json[:phone]).to include "can't be blank"
+		end
+
+	end
+
+	put '/admin/users/:id' do
 
 		example 'update user' do
 			prohibited_user.update!(is_verified: true)
@@ -87,12 +97,14 @@ resource 'admin: users', type: :request do
 			do_request({
 				id: prohibited_user.id,
 				user: {
+					email: 'hi@hi.hey',
 					phone: '+79177878978'
 				}
 			})
 
 			expect(status).to eq(200)
 			expect(prohibited_user.reload.is_verified).to be(false)
+			expect(prohibited_user.reload.email).to eq('hi@hi.hey')
 		end
 
 		it 'update user, is_verified can be set to true', document: false do
@@ -125,12 +137,7 @@ resource 'admin: users', type: :request do
 		end
 	end
 
-	# delete '/admin/users/:id' do
-	# 	example 'delete user' do
-	# 		do_request({id: prohibited_user.id})
-	# 		expect(status).to eq(200)
-	# 	end
-	# end
+
 
 
 

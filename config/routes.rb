@@ -47,7 +47,7 @@ Rails.application.routes.draw do
 				put :update_status     # status: ''
 			}
 		end
-		resources :users,         only: [:index, :show, :update] do
+		resources :users,         only: [:index, :show, :create, :update] do
 			member {
 				put :update_abilities #update abilities for a user
 			}

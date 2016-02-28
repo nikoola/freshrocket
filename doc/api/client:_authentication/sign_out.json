@@ -16,11 +16,11 @@
       "request_path": "/auth/sign_out",
       "request_body": null,
       "request_headers": {
-        "Access-Token": "z1aB-oUHnoC_GJJN0jQn1A",
+        "Access-Token": "qThGl93Zas0IM2RFlLi9Xw",
         "Token-Type": "Bearer",
-        "Client": "WGUrTGUJZVJ3w8zBGiWenQ",
-        "Expiry": "1457871451",
-        "Uid": "82daron_daniel@schillertowne.org",
+        "Client": "0VnO8VVz4MdgIj9jxPp3nA",
+        "Expiry": "1457890146",
+        "Uid": "87chase_jacobi@gerlach.com",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -38,13 +38,13 @@
         "Content-Type": "application/json; charset=utf-8",
         "ETag": "W/\"7363e85fe9edee6f053a4b319588c086\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=dWUxVnlIV3VmeWUrYTJpVVUrWDJ0NGJwWjg3d2d0dlUzdnU4WXpuRmI3V0RRRG4rK2FFdXBtVTRrb1FWejVpNFM5REdqaXNrZWwvaXI3aVZmeFRVeWc9PS0tSEZUVEM4L0J1eVJoRUp2eFpXdy9WUT09--9fbb51ed88d3840ff9eff87499da79fbcd9ff5fd; path=/; HttpOnly",
-        "X-Request-Id": "4eb1f972-7d98-4f83-bc3a-6ca1f6c0cb08",
-        "X-Runtime": "0.073071",
+        "Set-Cookie": "_session_id=dy9JUFU1d3kzckxiT1Fid1ZaV0lmWFh4VGVBV0NOWnE4NWt1V3V3MGsyTDNsYm1NUlJiTTg3cnl0dC91djArVFJFZllTNk9mMk5wcmYvcnR3MUdSYkE9PS0tMmtjOU4rcW5vaUNzeDFpWlNVSXFLdz09--61254cdc88edbb221e83ba8a3cf887358537b0da; path=/; HttpOnly",
+        "X-Request-Id": "e9ce20a0-95a2-4747-8377-fd62d5ddb905",
+        "X-Runtime": "0.072602",
         "Content-Length": "16"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/auth/sign_out\" -d '' -X DELETE \\\n\t-H \"Access-Token: z1aB-oUHnoC_GJJN0jQn1A\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: WGUrTGUJZVJ3w8zBGiWenQ\" \\\n\t-H \"Expiry: 1457871451\" \\\n\t-H \"Uid: 82daron_daniel@schillertowne.org\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/auth/sign_out\" -d '' -X DELETE \\\n\t-H \"Access-Token: qThGl93Zas0IM2RFlLi9Xw\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: 0VnO8VVz4MdgIj9jxPp3nA\" \\\n\t-H \"Expiry: 1457890146\" \\\n\t-H \"Uid: 87chase_jacobi@gerlach.com\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

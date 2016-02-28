@@ -7,6 +7,17 @@ module ActionController
 		Options.class_eval do
 
 
+			def self.from_hash(hash)
+				@@add = hash[:add] #added (not horribly pretty, maybe TODO)
+				
+			  name    = hash[:name]
+			  format  = Array(hash[:format])
+			  include = hash[:include] && Array(hash[:include]).collect(&:to_s)
+			  exclude = hash[:exclude] && Array(hash[:exclude]).collect(&:to_s)
+			  new name, format, include, exclude, nil, nil
+			end
+
+
 
 			def include
 				return super if @include_set
@@ -19,7 +30,7 @@ module ActionController
 
 					unless super || exclude
 						if m.respond_to?(:attribute_names) && m.attribute_names.any?
-							self.include = m.attribute_names + nested_attributes_names_array_of(m)
+							self.include = m.attribute_names + nested_attributes_names_array_of(m) + @@add
 						end
 					end
 				end
@@ -32,11 +43,6 @@ module ActionController
 						nested_attribute_name.to_s + '_attributes' 
 					}
 				end
-
-
-
-
-
 		end
 
 	end

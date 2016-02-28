@@ -1,0 +1,88 @@
+{
+  "resource": "admin: users",
+  "http_method": "POST",
+  "route": "/admin/users",
+  "description": "by admin, with invalid params: errors returned",
+  "explanation": null,
+  "parameters": [
+    {
+      "scope": "user",
+      "name": "is_verified",
+      "description": "user automatically becomes unverified on phone change unless is_verified is set to true"
+    },
+    {
+      "scope": "user",
+      "name": "password",
+      "description": "User password"
+    },
+    {
+      "scope": "user",
+      "name": "password_confirmation",
+      "description": "User password confirmation"
+    },
+    {
+      "scope": "user",
+      "name": "phone",
+      "description": "User phone"
+    },
+    {
+      "scope": "user",
+      "name": "email",
+      "description": "User email"
+    },
+    {
+      "scope": "user",
+      "name": "first_name",
+      "description": "User first name"
+    },
+    {
+      "scope": "user",
+      "name": "last_name",
+      "description": "User last name"
+    },
+    {
+      "scope": "user",
+      "name": "how_did_you_hear_about_us",
+      "description": "User how did you hear about us"
+    }
+  ],
+  "response_fields": [
+
+  ],
+  "requests": [
+    {
+      "request_method": "POST",
+      "request_path": "/admin/users",
+      "request_body": "user[email]=63isabel.auer%40murray.biz&user[password]=secrety_bickety&user[password_confirmation]=secrety_bickety&user[first_name]=Karen&user[last_name]=Hamill&user[phone]",
+      "request_headers": {
+        "Access-Token": "hTaVwRVPi26mzt06fpYlRw",
+        "Token-Type": "Bearer",
+        "Client": "3qCT7Eh8r0UTkfX9-t5uNg",
+        "Expiry": "1457890143",
+        "Uid": "64scottie_ullrich@leannon.biz",
+        "Host": "example.org",
+        "Content-Type": "application/x-www-form-urlencoded",
+        "Cookie": ""
+      },
+      "request_query_parameters": {
+      },
+      "request_content_type": "application/x-www-form-urlencoded",
+      "response_status": 422,
+      "response_status_text": "Unprocessable Entity",
+      "response_body": "{\n  \"phone\": [\n    \"can't be blank\",\n    \"is invalid\"\n  ]\n}",
+      "response_headers": {
+        "X-Frame-Options": "SAMEORIGIN",
+        "X-XSS-Protection": "1; mode=block",
+        "X-Content-Type-Options": "nosniff",
+        "Content-Type": "application/json; charset=utf-8",
+        "Cache-Control": "no-cache",
+        "Set-Cookie": "_session_id=aXdIT1p2bHJNYjg1MXBwTVpyVUlUQWMybFp4VUdYWXV2dWR2N1BGVzM3UzVyY3JHNlptaVpaYTNrNXZscm5HU1JCUzZKNUhmT3ErZmtCeHFZdXRHTWRaYW9nSFhXY1MxU1lmam92QmgvOVhUYUtqMHFWeW1lYTF0U2puNG96Zk54UW51T1FSUy90S09hMDlUZnJGUTRobGRzaFlIWGQ5TlJFelNyV3lBVlJ3c3BmTFk0RjRyNG9VRkpNcnZjNEF0LS1KT21UOS91QjkvcCtFUWxPWEpZOEhRPT0%3D--b2f12f0d6b849812efb1bbf6c868119df2bbfd13; path=/; HttpOnly",
+        "X-Request-Id": "d11cfcb2-5eea-4c1a-877c-01e526c3e99b",
+        "X-Runtime": "0.087997",
+        "Content-Length": "41"
+      },
+      "response_content_type": "application/json; charset=utf-8",
+      "curl": "curl \"http://localhost:3000/admin/users\" -d 'user[email]=63isabel.auer%40murray.biz&user[password]=secrety_bickety&user[password_confirmation]=secrety_bickety&user[first_name]=Karen&user[last_name]=Hamill&user[phone]' -X POST \\\n\t-H \"Access-Token: hTaVwRVPi26mzt06fpYlRw\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: 3qCT7Eh8r0UTkfX9-t5uNg\" \\\n\t-H \"Expiry: 1457890143\" \\\n\t-H \"Uid: 64scottie_ullrich@leannon.biz\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+    }
+  ]
+}

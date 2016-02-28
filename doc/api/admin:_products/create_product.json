@@ -52,13 +52,13 @@
     {
       "request_method": "POST",
       "request_path": "/admin/products",
-      "request_body": "product[title]=fish&product[price]=3.0&product[inventory_count]=2&product[city_id]=1",
+      "request_body": "product[title]=fish&product[price]=3.0&product[inventory_count]=2&product[city_id]=1&product[category_ids][]=1",
       "request_headers": {
-        "Access-Token": "h2F_79pcWQ2Uv2Kevw78Kw",
+        "Access-Token": "d-yOhBBZ5ka_QZxnPXaH2A",
         "Token-Type": "Bearer",
-        "Client": "r9uWz6D8weYlhyZAzx0eLw",
-        "Expiry": "1457871445",
-        "Uid": "39camilla@ondricka.info",
+        "Client": "AQXmokPIG7_G4qXE-5d7zg",
+        "Expiry": "1457890139",
+        "Uid": "39arlene_prosacco@nicolas.org",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -68,22 +68,22 @@
       "request_content_type": "application/x-www-form-urlencoded",
       "response_status": 201,
       "response_status_text": "Created",
-      "response_body": "{\n  \"id\": 1,\n  \"city_id\": 1,\n  \"title\": \"fish\",\n  \"price\": \"3.0\",\n  \"description\": null,\n  \"created_at\": \"2016-02-28T12:17:25.866Z\",\n  \"updated_at\": \"2016-02-28T12:17:25.866Z\",\n  \"inventory_count\": 2,\n  \"image_url\": \"uploads/product/image/default.png\",\n  \"categories\": [\n\n  ]\n}",
+      "response_body": "{\n  \"id\": 1,\n  \"city_id\": 1,\n  \"title\": \"fish\",\n  \"price\": \"3.0\",\n  \"description\": null,\n  \"created_at\": \"2016-02-28T17:28:59.900Z\",\n  \"updated_at\": \"2016-02-28T17:28:59.900Z\",\n  \"inventory_count\": 2,\n  \"image_url\": \"uploads/product/image/default.png\",\n  \"categories\": [\n    {\n      \"id\": 1,\n      \"name\": \"Category 4\",\n      \"image_url\": \"uploads/category/image/default.png\"\n    }\n  ]\n}",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
         "Location": "http://example.org/products/1",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"59d87419fc0610cb67bce1a73716b662\"",
+        "ETag": "W/\"cb67c04e01e1723a8f5cd56f218a5c3d\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=R2xQV244TkJubUh5ZXVydG5ad0dWMFpobVR0clg3K0krMG8ybmQ2R1p6N3MxMEhNRFpUeFVrTXNDSE1BOEhHL0dPUldaMTB0ZG5HclRwZ244U3ZUdS9ZZmxhVGs1SW5pZW1oTS9VVVVTSENGaEloemM2Q09jY0RXSXNjdGQxdDdPZXZZUTlpSVBjN0F2ZHovNTlpaWFHRGdFRlVZR1BCYWd4bHZPWUR3Q0RTTUI1SGxwV3A4cmRhWFhxTnJuQnVaLS0zODhhK3pIV1pCUEZsY25aalJKcEVBPT0%3D--b5e823adc1d75624b2afd2206c0cbb59b8740849; path=/; HttpOnly",
-        "X-Request-Id": "bef3b9c3-8da7-4883-8fdb-42dce562f617",
-        "X-Runtime": "0.098962",
-        "Content-Length": "232"
+        "Set-Cookie": "_session_id=ZTBBb0pJL242c29HclduNU5DZHowK1ZxUFRDN09xaHhMNEtQUWMyUElmNURGS1hNWUNYdjBDU1RBQk5nbTM5RTU2VHNFWVlZZFdiL0pUMjQ4SERpcHp1b2R1cUpkVE5hNTdxRW1NWjNRNlpqclNUbkxsWmRJcENSUGNCbWMxbUJXV1hEdXJ4dUZGdC9HQ3kxMW5DQm9SbC8vMTVMcVhEem9Wb21SK2JkYlRWdU9BL1JWYkdQekVlaW5ObS9CQnVxLS0zSURJU3Q1L3NtemU3MW1mTzR1bXVnPT0%3D--b2b296f39bd2aa8bd946cbc6dc1edb25372b6bb9; path=/; HttpOnly",
+        "X-Request-Id": "80e88cfb-951a-4bc4-b841-a620dfd4fb7d",
+        "X-Runtime": "0.094212",
+        "Content-Length": "309"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/admin/products\" -d 'product[title]=fish&product[price]=3.0&product[inventory_count]=2&product[city_id]=1' -X POST \\\n\t-H \"Access-Token: h2F_79pcWQ2Uv2Kevw78Kw\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: r9uWz6D8weYlhyZAzx0eLw\" \\\n\t-H \"Expiry: 1457871445\" \\\n\t-H \"Uid: 39camilla@ondricka.info\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/admin/products\" -d 'product[title]=fish&product[price]=3.0&product[inventory_count]=2&product[city_id]=1&product[category_ids][]=1' -X POST \\\n\t-H \"Access-Token: d-yOhBBZ5ka_QZxnPXaH2A\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: AQXmokPIG7_G4qXE-5d7zg\" \\\n\t-H \"Expiry: 1457890139\" \\\n\t-H \"Uid: 39arlene_prosacco@nicolas.org\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

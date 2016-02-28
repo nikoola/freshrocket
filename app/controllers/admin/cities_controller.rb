@@ -1,8 +1,6 @@
 module Admin
 	class CitiesController < BaseController
 
-		# wrap_parameters include: [:name, :active, :areas_attributes]
-
 		before_action :set_city, only: [:show, :update, :destroy]
 		before_action -> { authorize 'cities' }
 

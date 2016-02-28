@@ -5,45 +5,7 @@
   "description": "update product: invalid_params",
   "explanation": null,
   "parameters": [
-    {
-      "scope": "product",
-      "required": true,
-      "name": "title",
-      "description": ""
-    },
-    {
-      "scope": "product",
-      "required": true,
-      "name": "price",
-      "description": ""
-    },
-    {
-      "scope": "product",
-      "required": true,
-      "name": "inventory_count",
-      "description": "amount of product in stock"
-    },
-    {
-      "scope": "product",
-      "required": true,
-      "name": "city_id",
-      "description": "product served at city"
-    },
-    {
-      "scope": "product",
-      "name": "image",
-      "description": "Product image"
-    },
-    {
-      "scope": "product",
-      "name": "category_ids",
-      "description": "array of ids of categories product belongs to"
-    },
-    {
-      "scope": "product",
-      "name": "description",
-      "description": "Product description"
-    }
+
   ],
   "response_fields": [
 
@@ -54,11 +16,11 @@
       "request_path": "/admin/products/1",
       "request_body": "product[title]",
       "request_headers": {
-        "Access-Token": "LgDVqyBTyqs2Zo5zt3LtUQ",
+        "Access-Token": "nPgqkCH5DWb6CB5Ixo5U5A",
         "Token-Type": "Bearer",
-        "Client": "OG-_bXGuZPJvkP-qpp9lvw",
-        "Expiry": "1457871446",
-        "Uid": "43harmon@wilkinson.org",
+        "Client": "-DA1U2upGdkAfolYRUKHeQ",
+        "Expiry": "1457890140",
+        "Uid": "44constance_oreilly@renner.org",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -75,13 +37,13 @@
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "application/json; charset=utf-8",
         "Cache-Control": "no-cache",
-        "Set-Cookie": "_session_id=OEI1RExKajlZUERYa29QaHFJbVpvRis2VVhGMEJ0K2FvVTZyakZobFdPTUpGOW4vMTQ0RGtyQkRSRDdPMWRMeTN3MzR5eGx3S3BTdnU1N1RJOGhEZmFwakdxTDFLRUJ3V2VCMlRQY0dhQitLenY1T2FnMDRDMGpnanJnZGtWOVdhVDlBaWlyRFhobmJROHFxczhNOEFyNjFKVnpmM05LTEw5MUNWb2VCTXk4VGF3RHgrYU1zc3pDR1RBQ09XRk9WLS1acU9hR3JVVmhSdTNNOUVER2tBcWFBPT0%3D--f2f9e8d04a6eec8435bb5a7a8d86afa533e4dbd7; path=/; HttpOnly",
-        "X-Request-Id": "b066f53d-8c5b-4f8b-bd1b-e2a637f38325",
-        "X-Runtime": "0.082289",
+        "Set-Cookie": "_session_id=ZDkxN1A3RnZadVFzRG9GMVEvUGVKNVNHSjMyNEpJdk51YVlSNTZIby9QSnNFVDRIT2kvTlprQmFFRlhaTUJUYVN4STZBYWU4UHJ3KzVSSmRGQVFDU2ZzM2hvOGhybkluTzJMdW5SbUJ2Z1k3ZzNMb3kzYnpCWnRQa21WcFZiZlAvK2ZZM2ZydmFDZFZWZnJoMVJDb3Z0YWRsejkxOEZIWEF6cW1jSWsxbVAyWDJ2Nm1ocmZyM0xjTGplbWlUT0luLS1TRFdrTk9NdlBYTEJFd0dHUmEwTnJnPT0%3D--2257106c0b27f89bc2f268906605219553d1ca69; path=/; HttpOnly",
+        "X-Request-Id": "cee4d61a-2d86-4528-8048-342efc96e126",
+        "X-Runtime": "0.080452",
         "Content-Length": "28"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/admin/products/1\" -d 'product[title]' -X PUT \\\n\t-H \"Access-Token: LgDVqyBTyqs2Zo5zt3LtUQ\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: OG-_bXGuZPJvkP-qpp9lvw\" \\\n\t-H \"Expiry: 1457871446\" \\\n\t-H \"Uid: 43harmon@wilkinson.org\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/admin/products/1\" -d 'product[title]' -X PUT \\\n\t-H \"Access-Token: nPgqkCH5DWb6CB5Ixo5U5A\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: -DA1U2upGdkAfolYRUKHeQ\" \\\n\t-H \"Expiry: 1457890140\" \\\n\t-H \"Uid: 44constance_oreilly@renner.org\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

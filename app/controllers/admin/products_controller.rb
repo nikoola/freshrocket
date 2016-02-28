@@ -4,14 +4,14 @@ module Admin
 		before_action :set_product, only: [:show, :update, :destroy]
 		before_action -> { authorize 'products' }
 
+		wrap_parameters add: [:category_ids]
+
 
 
 		# POST /admin/products
-		def create
-			# @categories = Category.where(id: params[:product_params][:category_ids])
-			
+		def create			
 			@product = Product.new(product_params)
-			# @product.categories = @categories
+
 			if @product.save
 				render json: @product, status: :created, location: @product
 			else
@@ -45,7 +45,10 @@ module Admin
 			end
 
 			def product_params
-				params.require(:product).permit(:title, :description, :price, :inventory_count, :city_id, :image, category_ids: [])
+				params.require(:product).permit(
+					:title, :description, :price, :inventory_count, :city_id, :image, 
+					category_ids: []
+				)
 			end
 	end
 end

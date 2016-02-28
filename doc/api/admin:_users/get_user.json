@@ -16,11 +16,11 @@
       "request_path": "/admin/users/1",
       "request_body": null,
       "request_headers": {
-        "Access-Token": "IChXXsLcesWa1gVpd0xC6w",
+        "Access-Token": "VR9Mkk1u68zsxzIuKPzNwA",
         "Token-Type": "Bearer",
-        "Client": "6rfAk23yO3FSLhSh5TgLYA",
-        "Expiry": "1457871448",
-        "Uid": "59torey.skiles@rogahn.biz",
+        "Client": "FVUFeeirVlOWCTwTXSkGmw",
+        "Expiry": "1457890142",
+        "Uid": "60brianne.lang@hermiston.org",
         "Host": "example.org",
         "Cookie": ""
       },
@@ -29,21 +29,21 @@
       "request_content_type": null,
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\n  \"id\": 1,\n  \"first_name\": \"Lexus\",\n  \"last_name\": \"Effertz\",\n  \"email\": \"58rowena.nolan@waters.name\",\n  \"phone\": \"+79172677275\",\n  \"is_verified\": false,\n  \"provider\": \"email\",\n  \"uid\": \"58rowena.nolan@waters.name\",\n  \"created_at\": \"2016-02-28T12:17:28.424Z\",\n  \"abilities\": {\n    \"orders\": 0,\n    \"products\": 0,\n    \"users\": 0,\n    \"categories\": 1,\n    \"coupons\": 0,\n    \"settings\": 0,\n    \"cities\": 0,\n    \"delivery_boy\": 0\n  }\n}",
+      "response_body": "{\n  \"id\": 1,\n  \"first_name\": \"Gerard\",\n  \"last_name\": \"Cole\",\n  \"email\": \"59shany.armstrong@cartwrightmurphy.com\",\n  \"phone\": \"+79179834375\",\n  \"is_verified\": false,\n  \"provider\": \"email\",\n  \"uid\": \"59shany.armstrong@cartwrightmurphy.com\",\n  \"created_at\": \"2016-02-28T17:29:02.636Z\",\n  \"abilities\": {\n    \"orders\": 0,\n    \"products\": 0,\n    \"users\": 0,\n    \"categories\": 1,\n    \"coupons\": 0,\n    \"settings\": 0,\n    \"cities\": 0,\n    \"delivery_boy\": 0\n  }\n}",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"588b5ade2f4a83ccbe0c5ae547e42cea\"",
+        "ETag": "W/\"3f375c1f26b55d79d50914cc6bd177c3\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=eXRJS3NnekNxN2t4MFd3T3RrSmRpZi9SbHFUUytsSTkxRFNRYW5NRktyVmpQYmVGVzFYMkN3alUwMVdDbHI1SFM1WXI0MEdFeFBJdncvQXk3ZUxEcDlhTHBxcVhMZlJBTytiS3NWd0ZOVjRJQkhEUHAyYVpEYWhES0xad2tnK0M0UTNielUrdjVHNG5zaWFwWVRsQ2J2OEZTUVAzQjVMeVNEK1B4bEM3bHdoek5GcFNBWFRLVlRTL3crRWlPK0lnLS1zMFMzUUpjRlQvdlpvWGdTcWZUaWZ3PT0%3D--cd8212ffecadad896802b07333e96905ce661531; path=/; HttpOnly",
-        "X-Request-Id": "540f35ca-7a89-4f14-ac85-bada73e464d8",
-        "X-Runtime": "0.080347",
-        "Content-Length": "341"
+        "Set-Cookie": "_session_id=TnVZWWlldTF4TDd3V0JXakZaNHNBeGR1Lzl3NnlINnIvQzNuZU4xblF0VnlqNHI1L29qYUcrN3VhaE94cUNlQzI5NGNsWHVMK0E2M25QV1MwNzMydVZZMzRXYUFHM3Y3S2NIb0JFSFpVY3h2a3c4VlJ1ZFpCakwreFFpUStXYmxkUEw3K1kyRkJ0bWVRc2pJUjhwNU1JSDRaTUorTHFvdlBXZk1YTWFyRmJ1K211enpzOS9rcEFRT1hUL05JUEE2LS1xNnBrNFdTaTlicTZVLzFWejdZdlpBPT0%3D--a5dfb4991b308f88061a1135e71dfa951773d64a; path=/; HttpOnly",
+        "X-Request-Id": "1472158b-5833-4b6f-a299-5787f0e389c0",
+        "X-Runtime": "0.080059",
+        "Content-Length": "363"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/admin/users/1\" -X GET \\\n\t-H \"Access-Token: IChXXsLcesWa1gVpd0xC6w\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: 6rfAk23yO3FSLhSh5TgLYA\" \\\n\t-H \"Expiry: 1457871448\" \\\n\t-H \"Uid: 59torey.skiles@rogahn.biz\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/admin/users/1\" -X GET \\\n\t-H \"Access-Token: VR9Mkk1u68zsxzIuKPzNwA\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: FVUFeeirVlOWCTwTXSkGmw\" \\\n\t-H \"Expiry: 1457890142\" \\\n\t-H \"Uid: 60brianne.lang@hermiston.org\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

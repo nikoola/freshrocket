@@ -39,13 +39,13 @@
     {
       "request_method": "PUT",
       "request_path": "/admin/cities/1",
-      "request_body": "city[name]=Audreannebury_3&city[areas_attributes][][id]=1&city[areas_attributes][][_destroy]=1",
+      "request_body": "city[name]=Port+Bridieburgh_3&city[areas_attributes][][id]=1&city[areas_attributes][][_destroy]=1",
       "request_headers": {
-        "Access-Token": "MhMfvmj_qja2r3jX5u11IA",
+        "Access-Token": "EzKWREhoboUX_1YdTImkDQ",
         "Token-Type": "Bearer",
-        "Client": "AXW7Szy2H89MCPSXIn8Bag",
-        "Expiry": "1457871439",
-        "Uid": "7merritt.oberbrunner@macgyver.org",
+        "Client": "0bl2dnWQLQgzGEz-62qWBg",
+        "Expiry": "1457890132",
+        "Uid": "7mario@schuster.org",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -55,21 +55,21 @@
       "request_content_type": "application/x-www-form-urlencoded",
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\n  \"id\": 1,\n  \"name\": \"Audreannebury_3\",\n  \"active\": true,\n  \"areas\": [\n\n  ]\n}",
+      "response_body": "{\n  \"id\": 1,\n  \"name\": \"Port Bridieburgh_3\",\n  \"active\": true,\n  \"areas\": [\n\n  ]\n}",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"41677b46b83a0568e519575b7b25d0c0\"",
+        "ETag": "W/\"a3867b1df6a43768cbf59238c36b04c3\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=V3kwMEFWa2M5WkU5ZXlsSU5NakFNSWZ3Z3BhZDZxUE5CenJlNTRIZ0E1NTAyVmFmdEsxVWpYVVlUd0FRek0yUWpvbys3REZKaUUrRkN3dXJDS2IwSUs1a0xyd1V3VnVWWXBkUUhxUkpGWkdtRWxac25hbDh4YlhqR1QxQTFvZ3RwejV2MnFCaVBCTlpNd0V6djRGaGVLTlY1SHZJdjlwYUdMV2lTUWZ3dUZmVG9YY3gxVnlhUHZaLzhSN2UzNEpMLS16bm4va0NrdEduSHFIdDlMczdxRXBRPT0%3D--6edb5c9393162c463892833ea5e1fbec11e0ce12; path=/; HttpOnly",
-        "X-Request-Id": "936b971c-2f35-42f7-8fd7-52284c080567",
-        "X-Runtime": "0.085981",
-        "Content-Length": "58"
+        "Set-Cookie": "_session_id=UnIyTFV3WG5yM1R5ZEFkcG56T1hMNmE5bmk3QXplWE4waXY0WmVLSmkyOTB2a3V3Um5nbGFxOVZ6R2N4OGlNTENheE5HejVJc3A0bEY0NkdlZkFUSysrenhoTU1FSFZXOVR4TWVSVVYwOUdzbnZTWU1EenJkdW9DWVkyYnk4QmVabGFScmVlbGVZUXFRYXQrTmxvL0FzTFh0amV2RFJnUDhmSFpENllSSzlzRXNjdXpZbmh1bTJvRVJtdnkxSU5uLS13QXowWWJPSmQwczVhc1pYRG9WRmNnPT0%3D--0a66a26b9b40ac05d3f90f38f8e1761c6988b76d; path=/; HttpOnly",
+        "X-Request-Id": "f71b5d0d-ca6a-413a-81da-5118ea5f453a",
+        "X-Runtime": "0.082228",
+        "Content-Length": "61"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/admin/cities/1\" -d 'city[name]=Audreannebury_3&city[areas_attributes][][id]=1&city[areas_attributes][][_destroy]=1' -X PUT \\\n\t-H \"Access-Token: MhMfvmj_qja2r3jX5u11IA\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: AXW7Szy2H89MCPSXIn8Bag\" \\\n\t-H \"Expiry: 1457871439\" \\\n\t-H \"Uid: 7merritt.oberbrunner@macgyver.org\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/admin/cities/1\" -d 'city[name]=Port+Bridieburgh_3&city[areas_attributes][][id]=1&city[areas_attributes][][_destroy]=1' -X PUT \\\n\t-H \"Access-Token: EzKWREhoboUX_1YdTImkDQ\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: 0bl2dnWQLQgzGEz-62qWBg\" \\\n\t-H \"Expiry: 1457890132\" \\\n\t-H \"Uid: 7mario@schuster.org\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

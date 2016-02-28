@@ -16,11 +16,11 @@
       "request_path": "/admin/coupons",
       "request_body": null,
       "request_headers": {
-        "Access-Token": "zenBpe3a6eMI0g_26WmYZA",
+        "Access-Token": "6O0Ksu3inqM-XmUuu444lQ",
         "Token-Type": "Bearer",
-        "Client": "YyIqH6zDAmCtca4QatfXew",
-        "Expiry": "1457871439",
-        "Uid": "9robert.ondricka@boyerlowe.net",
+        "Client": "YJLcbyYKoN9Q92wyO9ZlSw",
+        "Expiry": "1457890132",
+        "Uid": "9anika.ullrich@stanton.org",
         "Host": "example.org",
         "Cookie": ""
       },
@@ -29,21 +29,21 @@
       "request_content_type": null,
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "[\n  {\n    \"id\": 1,\n    \"name\": \"red\",\n    \"code\": \"35061\",\n    \"discount\": 91\n  },\n  {\n    \"id\": 2,\n    \"name\": \"red\",\n    \"code\": \"72892\",\n    \"discount\": 100\n  },\n  {\n    \"id\": 3,\n    \"name\": \"red\",\n    \"code\": \"99953\",\n    \"discount\": 83\n  },\n  {\n    \"id\": 4,\n    \"name\": \"red\",\n    \"code\": \"31264\",\n    \"discount\": 24\n  }\n]",
+      "response_body": "[\n  {\n    \"id\": 1,\n    \"name\": \"red\",\n    \"code\": \"64551\",\n    \"discount\": 97\n  },\n  {\n    \"id\": 2,\n    \"name\": \"red\",\n    \"code\": \"31582\",\n    \"discount\": 31\n  },\n  {\n    \"id\": 3,\n    \"name\": \"red\",\n    \"code\": \"28273\",\n    \"discount\": 73\n  },\n  {\n    \"id\": 4,\n    \"name\": \"red\",\n    \"code\": \"24604\",\n    \"discount\": 95\n  }\n]",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"f813939fc2ba36567b42a3ae4714f559\"",
+        "ETag": "W/\"e9f82be4e89c60e90b720350e14e07a8\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=Q3QvMWdHblBPYnlRc1FqLzhZbEFGUkJ2K2pPV2ZLcTFxeTUwRmp4cHlkc3paSG5ybGlndlo1NVlOcGhBQmI3dUFXMVptRjg5eERpaWE4U0N2S3pjejU2RDcyN3EwYmczeFJwRHJSdldMeUFPbXBzbW1EMHNYcytnV2pOSVVyM1FYRG9nZk1wUTlKZC9FbEhuNlVIWVJrTVhUVS9PVlFPOG15bzAzQ0J3OGxmdjBORC9RL09sditPTSs3MlB2Q1pxLS16Qzdsc1RjaXVmbFdlMVVpOThqUmZRPT0%3D--84fdb9644877c47727bb75793c9dce25b7df36ca; path=/; HttpOnly",
-        "X-Request-Id": "5e93d8f5-756f-432c-a3c5-e9e01f6b036b",
-        "X-Runtime": "0.088821",
-        "Content-Length": "206"
+        "Set-Cookie": "_session_id=VnIxTGk2TW5OYUJKbDA4RG1tUGN2ZEFtRFJDTjdocTJWcDZpd1NFd2V0RkVWQkdmamVBeGs4YVFsNmdOaG5rZmV3VmJhSHlWUkRTdlEzYUJRSEZrZ0F0QlQwQVZwaXBLNXFrdkJuakdRNDEydXVIK0VXdDlONWVYZTNFYWdJVk9RWkJ3VVQ5dmlCVHM2V2xiUlpITGpWQnBXeFo5QWRUbGV0dk9HZ20vZXJxZ1pVSnFvb3YwS0E0ZzBQajVkeHZqLS1HUEZrc29XUEJqWGNFblVNRzY4bFdnPT0%3D--8dfa5920788adad91523c2a0172231feffecff07; path=/; HttpOnly",
+        "X-Request-Id": "3b39795b-5a1e-4b96-a1ba-a513e61b6fe3",
+        "X-Runtime": "0.085838",
+        "Content-Length": "205"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/admin/coupons\" -X GET \\\n\t-H \"Access-Token: zenBpe3a6eMI0g_26WmYZA\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: YyIqH6zDAmCtca4QatfXew\" \\\n\t-H \"Expiry: 1457871439\" \\\n\t-H \"Uid: 9robert.ondricka@boyerlowe.net\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/admin/coupons\" -X GET \\\n\t-H \"Access-Token: 6O0Ksu3inqM-XmUuu444lQ\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: YJLcbyYKoN9Q92wyO9ZlSw\" \\\n\t-H \"Expiry: 1457890132\" \\\n\t-H \"Uid: 9anika.ullrich@stanton.org\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

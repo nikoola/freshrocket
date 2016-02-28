@@ -6,7 +6,7 @@ resource 'admin: products', type: :request do
 	let(:valid_params)   { {title: 'fish', price: '3.0', inventory_count: 2, city_id: city.id} }
 	let(:invalid_params) { {title: 'fish', price: nil} } #price: nil is so that it's invalid on update
 
-	let(:user) { FactoryGirl.create :user, abilities: [:products, :users] }
+	let(:user) { FactoryGirl.create :user, abilities: [:products, :users, :cities] }
 	let(:auth_headers) { user.create_new_auth_token }
 
 	include_context 'shared_headers'
@@ -27,13 +27,37 @@ resource 'admin: products', type: :request do
 		end
 
 		example 'create product' do
-			do_request({ product: valid_params })
+			category = FactoryGirl.create :category
+			do_request( product: valid_params.merge(category_ids: [category.id]) )
+
+			product = Product.find(json[:id])
 
 			expect(status).to eq(201)
 			expect(json.keys).to include :id, :title, :price, :created_at, :updated_at, :inventory_count, :image_url
+			expect(product.categories.pluck(:id)).to match_array category.id
 		end
 
-		example 'create product: invalid params' do
+		it 'params wrapping', document: false do
+			category = FactoryGirl.create :category
+			headers = auth_headers.merge('ACCEPT' => 'application/json', 'CONTENT_TYPE' => 'application/json')
+
+			post '/admin/products', { 
+				"title": "fish",
+				"price": "3.0",
+				"inventory_count": 2,
+				"city_id": FactoryGirl.create(:city).id, 
+				category_ids: [category.id] 
+			}.to_json, headers
+
+			product = Product.find(json_body[:id])
+
+			expect_status 201
+			expect(product.categories.pluck(:id)).to match_array category.id
+		end
+
+
+
+		example 'create product: invalid params', document: false do
 			product = Product.new invalid_params
 
 			do_request({ product: invalid_params })
@@ -42,7 +66,7 @@ resource 'admin: products', type: :request do
 			expect(json).to include({:price=>["can't be blank"]})
 		end
 
-		it 'creates product with image' do
+		it 'creates product with image', document: false do
 			image = '/home/lakesare/Desktop/rivo/spec/files/hi.jpg'
 			file = Rack::Test::UploadedFile.new image, "image/jpeg"
 			valid_params_with_image = valid_params.merge({image: file})
@@ -57,15 +81,6 @@ resource 'admin: products', type: :request do
 	end
 
 	put '/admin/products/:id' do
-		with_options scope: :product do
-			parameter :title, '', required: true
-			parameter :price, '', required: true
-			parameter :inventory_count, 'amount of product in stock', required: true
-			parameter :city_id, 'product served at city', required: true
-			parameter :image
-			parameter :category_ids, 'array of ids of categories product belongs to'
-			parameter :description
-		end
 
 		example 'update product' do
 			do_request({ 

@@ -16,11 +16,11 @@
       "request_path": "/auth",
       "request_body": "phone=%2B79174446666",
       "request_headers": {
-        "Access-Token": "nbGi5TaN31XK_FOPcIMDbA",
+        "Access-Token": "oK_v02HiR63FBQOJyFy1sg",
         "Token-Type": "Bearer",
-        "Client": "SPy6AMr8VOCFdY22N8Xb4Q",
-        "Expiry": "1457871458",
-        "Uid": "122kelli@labadie.name",
+        "Client": "HtWQWEH3MOxiVtg2UzhnfA",
+        "Expiry": "1457890153",
+        "Uid": "127arden_botsford@marquardtwalsh.org",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -30,21 +30,21 @@
       "request_content_type": "application/x-www-form-urlencoded",
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\n  \"status\": \"success\",\n  \"data\": {\n    \"id\": 5,\n    \"first_name\": \"Vaughn\",\n    \"last_name\": \"Kihn\",\n    \"email\": \"122kelli@labadie.name\",\n    \"provider\": \"email\",\n    \"uid\": \"122kelli@labadie.name\",\n    \"phone\": \"+79174446666\",\n    \"verification_code\": null,\n    \"is_verified\": false,\n    \"created_at\": \"2016-02-28T12:17:38.116Z\",\n    \"updated_at\": \"2016-02-28T12:17:38.267Z\",\n    \"how_did_you_hear_about_us\": null\n  }\n}",
+      "response_body": "{\n  \"status\": \"success\",\n  \"data\": {\n    \"id\": 5,\n    \"first_name\": \"Kristofer\",\n    \"last_name\": \"Lesch\",\n    \"email\": \"127arden_botsford@marquardtwalsh.org\",\n    \"provider\": \"email\",\n    \"uid\": \"127arden_botsford@marquardtwalsh.org\",\n    \"phone\": \"+79174446666\",\n    \"verification_code\": null,\n    \"is_verified\": false,\n    \"created_at\": \"2016-02-28T17:29:13.249Z\",\n    \"updated_at\": \"2016-02-28T17:29:13.401Z\",\n    \"how_did_you_hear_about_us\": null\n  }\n}",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"81f0b71dc432670d4b2930109cfe8378\"",
+        "ETag": "W/\"83904cdb072c4b4ec01a8a8c993fedf7\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=Qlpqa1ZIak9hZ2tMWUN3bENtK25UeFVQY2xsZjRHQ0trbWNWQjlwKzhhTjVnd2o0Y0FBMkUzS2tpMVJEZUlrTTVYV3BnbjZvU0lDaXNaREg4MkwzT1U2bnpZeUNQd0FKYjNPKzJqWXg3QUxRdWdHbFNwMlpkRnpkYjJRYUFrdDUwRjdNKzFLOWF3bkZaQkpWVnlUeHFTdlFxNk4vN1lkaUhYa1U0UnZEVzl5RU1yMFQwcS9iTVl0bnRNN2pkMGU3LS1MVGRjR0s3ajl5Q3E4OGNudEZ4MkR3PT0%3D--d05bc738f56b92d985c8579ed0bdefdf51b56b28; path=/; HttpOnly",
-        "X-Request-Id": "66fbfa63-286f-4990-9da4-a289718ead9d",
-        "X-Runtime": "0.082817",
-        "Content-Length": "339"
+        "Set-Cookie": "_session_id=YnpNSWVxcTBxQVFOdmVuMS9SQXBCSVU3ejNNUlh2aFVxSFRzRTRsZWt0TWw5TCtRRXlOOHJVTjZkcUJtcmFCMEZrZm8rN1JMZ0NtcGw0SlVUek5RZVFPWGtaQTVOZXhETFN5bDhHaE8rSGhHSUErdm55WWdEaEh1ZitadXg3OWVsVlFzc09qOHVBK2JWOFhvVkc0QjVlc29uNHVCWjlYWHM3TTNkTkc4VlpJSGE2bFpzZHlleDdrY0JIZXBnT2Q2LS1QeWk1WCtDVlBNQ0JCTFhVM1BrTmtRPT0%3D--5ac4e95ba5e8adf8a954dcb6bbd3bc95875b0f77; path=/; HttpOnly",
+        "X-Request-Id": "9014b3f3-5d8f-47a5-a854-1278ace5b17d",
+        "X-Runtime": "0.082968",
+        "Content-Length": "373"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/auth\" -d 'phone=%2B79174446666' -X PUT \\\n\t-H \"Access-Token: nbGi5TaN31XK_FOPcIMDbA\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: SPy6AMr8VOCFdY22N8Xb4Q\" \\\n\t-H \"Expiry: 1457871458\" \\\n\t-H \"Uid: 122kelli@labadie.name\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/auth\" -d 'phone=%2B79174446666' -X PUT \\\n\t-H \"Access-Token: oK_v02HiR63FBQOJyFy1sg\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: HtWQWEH3MOxiVtg2UzhnfA\" \\\n\t-H \"Expiry: 1457890153\" \\\n\t-H \"Uid: 127arden_botsford@marquardtwalsh.org\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

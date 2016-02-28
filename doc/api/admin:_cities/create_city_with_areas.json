@@ -39,13 +39,13 @@
     {
       "request_method": "POST",
       "request_path": "/admin/cities",
-      "request_body": "city[name]=West+Avis_1&city[areas_attributes][][name]=hi",
+      "request_body": "city[name]=Port+Dorcas_1&city[areas_attributes][][name]=hi",
       "request_headers": {
-        "Access-Token": "ZYB2qrCa7xAjHZ2qC14njw",
+        "Access-Token": "AykN258R5cpDUPlqvsQTMw",
         "Token-Type": "Bearer",
-        "Client": "qm1lNm44TQdtFb114iBBPA",
-        "Expiry": "1457871439",
-        "Uid": "6garett@luettgenbartoletti.name",
+        "Client": "JBFWTXJusQY4n6iSWnG9Mg",
+        "Expiry": "1457890132",
+        "Uid": "6bridgette@hegmann.org",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -55,22 +55,22 @@
       "request_content_type": "application/x-www-form-urlencoded",
       "response_status": 201,
       "response_status_text": "Created",
-      "response_body": "{\n  \"id\": 1,\n  \"name\": \"West Avis_1\",\n  \"active\": true,\n  \"areas\": [\n    {\n      \"id\": 1,\n      \"name\": \"hi\"\n    }\n  ]\n}",
+      "response_body": "{\n  \"id\": 1,\n  \"name\": \"Port Dorcas_1\",\n  \"active\": true,\n  \"areas\": [\n    {\n      \"id\": 1,\n      \"name\": \"hi\"\n    }\n  ]\n}",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
         "Location": "http://example.org/cities/1",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"985f9b5abe140ff5cfd2c4cb2e1d1439\"",
+        "ETag": "W/\"d36521f3f0e6154c03a4832d21f7ffe2\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=UUQ1VXJNSGFYdHNURENDaktVVmRtUjNlNHJYVkVQME5GWjFZVS9iM0hnRlEwVzY3R0NQd1luZU01Rlh4RS84YjJVY3kxamFmWGMxWHFiYW54S1FUTmIvbVI1U3NLbFZ0cW50aXp6MTlBRnc5elBlRXJzVmlHV2o3ak1XcWM3bDl5QkdQb21rcStGMzUwVFkrTVNmQmZNU00rRUNwUHdpZ3FSK0NETGloUlR5Z0JlS3RSblkvM2p2QktuY2NrMDVpLS1zaFViZWVtZmlvZWVMT1RtYkdsZVlRPT0%3D--21c7be4c52768c23fabf9f4b2799ee900d32f271; path=/; HttpOnly",
-        "X-Request-Id": "b3ee54d8-4908-424d-a472-1c3bf27cbe0b",
-        "X-Runtime": "0.108936",
-        "Content-Length": "74"
+        "Set-Cookie": "_session_id=VzB4ZXFPVEs3MU1rQ2U5blJycjhvN0xoYlNEcXhSRWFWWVBlY0NLWnBmcEEwVmhwV2NkbTQ3VkU4NjVqTkVyOHZ3ZnVKZENKVUdKR2JMTmg5Y0d3WFFscm5zcW9CdjUzUEtUWXRoaUh1MU1lR1ZnNmFxNUplMEd5b01VRjRiWHpqSjdXdHhib1BzQUlmclFjYm5uWlVGY1poUUNpMFFPNWk5OG12VmJ6UE1CYkx4TUl3WFE3OGgyK0wwRy82RVhYLS1EQWw1TWhoY0ZpZGN1UFA3eFZHYlRBPT0%3D--e9d81f246d3c00443f515fac69a8caa6d35a4178; path=/; HttpOnly",
+        "X-Request-Id": "15bbd6cb-d85f-42ec-9bb5-807875620db1",
+        "X-Runtime": "0.107469",
+        "Content-Length": "76"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/admin/cities\" -d 'city[name]=West+Avis_1&city[areas_attributes][][name]=hi' -X POST \\\n\t-H \"Access-Token: ZYB2qrCa7xAjHZ2qC14njw\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: qm1lNm44TQdtFb114iBBPA\" \\\n\t-H \"Expiry: 1457871439\" \\\n\t-H \"Uid: 6garett@luettgenbartoletti.name\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/admin/cities\" -d 'city[name]=Port+Dorcas_1&city[areas_attributes][][name]=hi' -X POST \\\n\t-H \"Access-Token: AykN258R5cpDUPlqvsQTMw\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: JBFWTXJusQY4n6iSWnG9Mg\" \\\n\t-H \"Expiry: 1457890132\" \\\n\t-H \"Uid: 6bridgette@hegmann.org\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }
