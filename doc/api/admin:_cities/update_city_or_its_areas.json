@@ -39,13 +39,13 @@
     {
       "request_method": "PUT",
       "request_path": "/admin/cities/1",
-      "request_body": "city[name]=Lake+Loma_3&city[areas_attributes][][id]=1&city[areas_attributes][][_destroy]=1",
+      "request_body": "city[name]=Walterstad_3&city[areas_attributes][][id]=1&city[areas_attributes][][_destroy]=1",
       "request_headers": {
-        "Access-Token": "cRDQvoNRqNKsC0_EOh0bqA",
+        "Access-Token": "Oi62Lv0egCaDqpC3pJHwpA",
         "Token-Type": "Bearer",
-        "Client": "ElPRD08NrytUNdgDPmUxSw",
-        "Expiry": "1458134959",
-        "Uid": "7korey.daniel@hansenroberts.org",
+        "Client": "7YB2YZQDjP7tby_dRJitKw",
+        "Expiry": "1458149213",
+        "Uid": "7cyril@fay.com",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -55,21 +55,21 @@
       "request_content_type": "application/x-www-form-urlencoded",
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\n  \"id\": 1,\n  \"name\": \"Lake Loma_3\",\n  \"active\": true,\n  \"areas\": [\n\n  ]\n}",
+      "response_body": "{\n  \"id\": 1,\n  \"name\": \"Walterstad_3\",\n  \"active\": true,\n  \"areas\": [\n\n  ]\n}",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"5119949b431cac38743a3ababdcb6f94\"",
+        "ETag": "W/\"245a41cdbb7da19134642f544fa8eec1\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=WGJOUGlDWXd2TWhsRzJXTm1nZGFNcTRwa2RLaElyYlVIK0FkaWp3RkRGQVhsU2czdUdsZEJRU2FWbnM2QTJoL2YzWFR3NkJTbFFGU1FPK0NVYThUR2pLSmFLOSsrZDVqeGFhTDRIVDZQUy9BTkZ4NGdIYU5kdDZ0WFdEbk82dWFoby80eUdDVFhia1F2ejZIZ0ZnajdsbWJTb1VROTJjeE9hQTZGOFpoaitrdWFhaUdBOE5hV2Q4WklIMWcrQ3ZWLS1EWjI0OWZxakJNOGhkOFRYZjM2bVB3PT0%3D--c5e8b8b68391d18fd9a0e5d100227f2dfd2a43bb; path=/; HttpOnly",
-        "X-Request-Id": "7894ade9-73ba-431c-85d3-e38652880634",
-        "X-Runtime": "0.086085",
-        "Content-Length": "54"
+        "Set-Cookie": "_session_id=V2VZNHRtQ2thZjhNeUdOUVUrUzZINkVBTVVtUHNPT0YvN0UwUVB1bzhoZ3pPUlJHSmVGUUdYVWR1UElVOHh5dDJUaDFaQUhobXgwNy9qUW55aERkY0RhQlFHYkhKSnJuUlQza0RZM3Q2QStTK0cwT3JEeVdIRS9WTWVIZE9ZZGNiMURlTWJ4Z21yZjE4aWpWamFqREx1NFowdFFSV1ptWUF4UkQwQ1FNK1RHWnBVdkxQTDdwSFdHS0dydFF1SVpXLS1yRmQxU3hkTWhnV3dFSGQ1M3RweTF3PT0%3D--969eb4eec9a29ebf870328ecb1e5db042a1be81d; path=/; HttpOnly",
+        "X-Request-Id": "74998b72-4eed-4978-8a67-f85f0d3286e6",
+        "X-Runtime": "0.108593",
+        "Content-Length": "55"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/admin/cities/1\" -d 'city[name]=Lake+Loma_3&city[areas_attributes][][id]=1&city[areas_attributes][][_destroy]=1' -X PUT \\\n\t-H \"Access-Token: cRDQvoNRqNKsC0_EOh0bqA\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: ElPRD08NrytUNdgDPmUxSw\" \\\n\t-H \"Expiry: 1458134959\" \\\n\t-H \"Uid: 7korey.daniel@hansenroberts.org\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/admin/cities/1\" -d 'city[name]=Walterstad_3&city[areas_attributes][][id]=1&city[areas_attributes][][_destroy]=1' -X PUT \\\n\t-H \"Access-Token: Oi62Lv0egCaDqpC3pJHwpA\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: 7YB2YZQDjP7tby_dRJitKw\" \\\n\t-H \"Expiry: 1458149213\" \\\n\t-H \"Uid: 7cyril@fay.com\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

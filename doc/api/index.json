@@ -438,6 +438,13 @@
           "method": "post"
         },
         {
+          "description": "sends password recovery email",
+          "link": "client:_users/sends_password_recovery_email.json",
+          "groups": "all",
+          "route": "/client/send_sms_with_recovery_password",
+          "method": "post"
+        },
+        {
           "description": "user gets self",
           "link": "client:_users/user_gets_self.json",
           "groups": "all",

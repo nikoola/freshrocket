@@ -24,17 +24,17 @@
       "request_content_type": null,
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\n  \"id\": 1,\n  \"name\": \"Mantehaven_56\",\n  \"active\": true,\n  \"areas\": [\n    {\n      \"id\": 1,\n      \"name\": \"Kacihaven_area_2\"\n    },\n    {\n      \"id\": 2,\n      \"name\": \"West Clark_area_3\"\n    },\n    {\n      \"id\": 3,\n      \"name\": \"Schillerborough_area_4\"\n    }\n  ]\n}",
+      "response_body": "{\n  \"id\": 1,\n  \"name\": \"Mallorystad_56\",\n  \"active\": true,\n  \"areas\": [\n    {\n      \"id\": 1,\n      \"name\": \"Amosshire_area_2\"\n    },\n    {\n      \"id\": 2,\n      \"name\": \"Lake Ladarius_area_3\"\n    },\n    {\n      \"id\": 3,\n      \"name\": \"West Mike_area_4\"\n    }\n  ]\n}",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"bbe23e71edb2638bb353f3395826997c\"",
+        "ETag": "W/\"3ca1c9f7db9eeea1b1955d07702fe34f\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "X-Request-Id": "bcf021b3-11de-4604-b119-22bd0d2feca4",
-        "X-Runtime": "0.002662",
-        "Content-Length": "167"
+        "X-Request-Id": "55753a5b-2152-49ba-ae7c-5c05e0908fdf",
+        "X-Runtime": "0.002422",
+        "Content-Length": "165"
       },
       "response_content_type": "application/json; charset=utf-8",
       "curl": "curl \"http://localhost:3000/cities/1\" -X GET \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""

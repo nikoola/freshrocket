@@ -16,11 +16,11 @@
       "request_path": "/auth",
       "request_body": "phone=%2B79174446666",
       "request_headers": {
-        "Access-Token": "cxaOl9SLG3SjmxryEHNEWg",
+        "Access-Token": "a1fPBPU2ViXGnotLaFaCxA",
         "Token-Type": "Bearer",
-        "Client": "CC2vBwIOQgSvvQM4RHhZtg",
-        "Expiry": "1458134980",
-        "Uid": "134ardella.gottlieb@fadel.name",
+        "Client": "7VfDTBnhRbTWJWkRTEDNRQ",
+        "Expiry": "1458149231",
+        "Uid": "134jonas.kerluke@brown.info",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -30,21 +30,21 @@
       "request_content_type": "application/x-www-form-urlencoded",
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\n  \"status\": \"success\",\n  \"data\": {\n    \"id\": 5,\n    \"first_name\": \"Aidan\",\n    \"last_name\": \"Runte\",\n    \"email\": \"134ardella.gottlieb@fadel.name\",\n    \"provider\": \"email\",\n    \"uid\": \"134ardella.gottlieb@fadel.name\",\n    \"phone\": \"+79174446666\",\n    \"verification_code\": null,\n    \"is_verified\": false,\n    \"created_at\": \"2016-03-02T13:29:40.365Z\",\n    \"updated_at\": \"2016-03-02T13:29:40.515Z\",\n    \"how_did_you_hear_about_us\": null\n  }\n}",
+      "response_body": "{\n  \"status\": \"success\",\n  \"data\": {\n    \"id\": 5,\n    \"first_name\": \"Jennifer\",\n    \"last_name\": \"Ruecker\",\n    \"email\": \"134jonas.kerluke@brown.info\",\n    \"provider\": \"email\",\n    \"uid\": \"134jonas.kerluke@brown.info\",\n    \"phone\": \"+79174446666\",\n    \"verification_code\": null,\n    \"is_verified\": false,\n    \"created_at\": \"2016-03-02T17:27:11.819Z\",\n    \"updated_at\": \"2016-03-02T17:27:11.969Z\",\n    \"how_did_you_hear_about_us\": null\n  }\n}",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"ea13e18ba88d78d3e9107ca9db26deab\"",
+        "ETag": "W/\"8103d64180e4130dfbeed7a98665baa4\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=VjVjZGJHaXZMQUo4QzVIUnFzaVVzSmRUek9CRUFVQ0I5bkp6UHVNRzdLQlorYURSSUJIL2JxUWVrb0RvVnBkbTEzRkRkVTFmdys5ZUlIZkZiVHlUY3NpUjhtQlFmbzVPQ0p3UVlmOTdjbUMvZWlJMUxWSGNTd25zRnUzbHkxd0h4TG5UMUd6OStlYjZWY2xjV1JnZmVQYmpBRmFnaWkxN2tjUUF1ZDJIVWtmYlpMeFRtSWdWQ3g0WmlBVExhU0RsLS1tYlI5R0k3M2VxNmFubzZ0QVNjbm93PT0%3D--9b63fb6d21e304e69af8ea3bb03b664f3315fbc2; path=/; HttpOnly",
-        "X-Request-Id": "e231fd51-ad11-4126-b768-e937ec2ed806",
-        "X-Runtime": "0.081766",
-        "Content-Length": "357"
+        "Set-Cookie": "_session_id=VFY2OEpxclRmWW1FSlhROVZ3SGZzeFRLQnJTOVVGSGQ1SHhqWWY4RFNtN0hZZmJIOHV4SXNUQXQvV2xlSXBWN1dlODZSY2lhaVVoNURVamgwVnRVREFXUGlIR3VPYXgwYkhnUXdNSWh3TXNOelNXajNnWTh1akRFaTlmWllDaDUxSTllbTVzSm10VmpNZHQ3N3JpWEVuYlhmcjFLOWR4V0hjQTdUQVVKaStoZnJsZEpOOTVwSWdlSkV6eFQyQjNILS1YWmVpWDFCOGwwVEVTa29td1lHLzFRPT0%3D--10c3b7ab81660f542db64b4fbba0286230cc317a; path=/; HttpOnly",
+        "X-Request-Id": "f5d27a1c-6a1c-4afb-8c4f-694ad9efee4b",
+        "X-Runtime": "0.080430",
+        "Content-Length": "356"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/auth\" -d 'phone=%2B79174446666' -X PUT \\\n\t-H \"Access-Token: cxaOl9SLG3SjmxryEHNEWg\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: CC2vBwIOQgSvvQM4RHhZtg\" \\\n\t-H \"Expiry: 1458134980\" \\\n\t-H \"Uid: 134ardella.gottlieb@fadel.name\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/auth\" -d 'phone=%2B79174446666' -X PUT \\\n\t-H \"Access-Token: a1fPBPU2ViXGnotLaFaCxA\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: 7VfDTBnhRbTWJWkRTEDNRQ\" \\\n\t-H \"Expiry: 1458149231\" \\\n\t-H \"Uid: 134jonas.kerluke@brown.info\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

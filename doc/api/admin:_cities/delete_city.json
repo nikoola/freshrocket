@@ -16,11 +16,11 @@
       "request_path": "/admin/cities/1",
       "request_body": null,
       "request_headers": {
-        "Access-Token": "y1GGpOgBMTYbKA8u0miB0Q",
+        "Access-Token": "RvGqdkFllhVC9oqkanhCEw",
         "Token-Type": "Bearer",
-        "Client": "fEoBEwH2DatMa8Z6HD62kA",
-        "Expiry": "1458134960",
-        "Uid": "8dean@nicolasokon.net",
+        "Client": "qYfO9LW3woqBgmc04jZ0jw",
+        "Expiry": "1458149213",
+        "Uid": "8colby.bernhard@mohr.org",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -37,13 +37,13 @@
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "text/html",
         "Cache-Control": "no-cache",
-        "Set-Cookie": "_session_id=V3kzbEhvcEhCbmxMaEtzMklSZVpzazBxc2llakxkMXcydEFiL0xYVVJ1eGpJMTNQRGJRc3RabHdXM0ljaGtXUDVScFVhTUxxUVlVamg5SnMwMTVFeXpnSlBRRURRcHlDa1AybVZ5SCtLZ0F5U0Yyd3NSZUVUQ04zbG1aL001aGtHaTRUbUlhN1pNMVgvUGFZUWN3UHZENEZRZDFndGJaL3g3bnJpMkU2QUYzUW9nWlBFNFJTZzlxaGxJQ3F2Z2QyLS10WVBiUTRUZGRLNElXOEZVYUZXb09BPT0%3D--3ea29be5b125007f77d22039ab9f59eedb03e241; path=/; HttpOnly",
-        "X-Request-Id": "776c6809-5cbc-4312-839d-318a489c497e",
-        "X-Runtime": "0.091083",
+        "Set-Cookie": "_session_id=djhIL045MlJIVlUwaUR3L3NjUVpuV0VNU1lXVGIyWlNmR2d5dDBHUXFtbUtUWVlGaCtNVmc5aDBCSjJydUxJU1FrN1dPd3NOMDZJNHdoanRiMXU2cjIyRXRGdWo1ZUVWbzJBOE9nSXRUcDQ3cFdqTDhXZ3M3d0EyOEJxaHp6eHZteGdmNTJvSEF1YW8vNlFacVVyWE1Ea2VZNjQ4RnNvS2xGb1E0MlU4dEZ2VkN3UjI3STJPRjR2aHNlamlzeDBOLS1YSkJGRVNiWHo2MC9CSU9peWdtb0xRPT0%3D--7a33e88936873550c1390f28489c1ba4566b7a73; path=/; HttpOnly",
+        "X-Request-Id": "3cb5789c-3a15-4359-8d4b-a0d644dac7d1",
+        "X-Runtime": "0.105392",
         "Content-Length": "0"
       },
       "response_content_type": "text/html",
-      "curl": "curl \"http://localhost:3000/admin/cities/1\" -d '' -X DELETE \\\n\t-H \"Access-Token: y1GGpOgBMTYbKA8u0miB0Q\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: fEoBEwH2DatMa8Z6HD62kA\" \\\n\t-H \"Expiry: 1458134960\" \\\n\t-H \"Uid: 8dean@nicolasokon.net\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/admin/cities/1\" -d '' -X DELETE \\\n\t-H \"Access-Token: RvGqdkFllhVC9oqkanhCEw\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: qYfO9LW3woqBgmc04jZ0jw\" \\\n\t-H \"Expiry: 1458149213\" \\\n\t-H \"Uid: 8colby.bernhard@mohr.org\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

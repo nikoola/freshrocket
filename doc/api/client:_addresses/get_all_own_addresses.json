@@ -19,11 +19,11 @@
       "request_path": "/client/addresses?active=0",
       "request_body": null,
       "request_headers": {
-        "Access-Token": "PkDvQyGnr_nDwD3n7DeD8Q",
+        "Access-Token": "NEAUJ1WctHiKEhK9ir51ig",
         "Token-Type": "Bearer",
-        "Client": "ZsEkSt19O4AVlPOX9L2zqA",
-        "Expiry": "1458134970",
-        "Uid": "87cathryn.dicki@weimann.com",
+        "Client": "8XJ7lPRpCViYS3mNq7WLHA",
+        "Expiry": "1458149224",
+        "Uid": "87sabryna@gleichner.org",
         "Host": "example.org",
         "Cookie": ""
       },
@@ -33,21 +33,21 @@
       "request_content_type": null,
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "[\n  {\n    \"id\": 1,\n    \"address\": \"726 Christopher Falls\",\n    \"city_id\": 1,\n    \"user_id\": 1\n  },\n  {\n    \"id\": 2,\n    \"address\": \"627 Julianne Roads\",\n    \"city_id\": 2,\n    \"user_id\": 1\n  },\n  {\n    \"id\": 3,\n    \"address\": \"951 Morar Mall\",\n    \"city_id\": 3,\n    \"user_id\": 1\n  }\n]",
+      "response_body": "[\n  {\n    \"id\": 1,\n    \"address\": \"44993 Jany Creek\",\n    \"city_id\": 1,\n    \"user_id\": 1\n  },\n  {\n    \"id\": 2,\n    \"address\": \"30668 Simonis Drives\",\n    \"city_id\": 2,\n    \"user_id\": 1\n  },\n  {\n    \"id\": 3,\n    \"address\": \"48997 Dejon Curve\",\n    \"city_id\": 3,\n    \"user_id\": 1\n  }\n]",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"65a2b56bbcba6ba0831c8d0ee3039af6\"",
+        "ETag": "W/\"f082d3224f0185ac20cac049260a0723\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=dDV3MVNzQk9yMytZL3BQdGh6am1uZ0dFNnFRdytVditwTXZaZlljcVBPb2JFdHN0akF0YWJDd1paUi9ucjZpcGo0azYwMFJoNkYzVGdDSG8vSVRhSEZtOWg1bm1rRFA0b3lkQmNuL1c0RUpXYWJGdFQxbVk1a1cvdWlzU1YvaUx5cUduSFNHSFhqOHhMMnRsdUM4SSsybjVVU1NiU0prTEovdmkweFRUWFdXNEFuSExtNTZHcmM3ZVNmbHduZVYyLS13VXNBUzcrRWkwMG9RUzdUL2R2VFR3PT0%3D--9e77f0807aebd2b5d02544a2f674265a352e8fe3; path=/; HttpOnly",
-        "X-Request-Id": "bd45c149-f9a3-4b7a-afab-26992d39203b",
-        "X-Runtime": "0.089367",
+        "Set-Cookie": "_session_id=WUFjM2xjT0NwbHdXWDJFZkcyMTJmMWpyV1VLbG9xM1libytLK2grR0F2YW05QlF1M2JFa0JXUE90cFhnaVNEeGZOSGpsT3IwVTFFZGRpRHkxajV2WFpveXZra1hUVEtmdld5cFVsSmZiOC9TcXJJc2F2U3NhaUsvRC9JWHFRa0ZyeDE5Sk1wRUNWR2pRbnNObDg3MGgwQ1k0WkFvMUlkS3huc0xFVDV1eDFtdDM0SCtnRmZ0bk1KTkpXOXFKTnV3LS1xTUlPRGo0UFdIMDJQb2JpaUt3UWtBPT0%3D--c77c4319b49c8d9bf7f4ab66923cb5d4e7b8c3a3; path=/; HttpOnly",
+        "X-Request-Id": "6a83179d-c213-480d-8cbc-6fc736308f8e",
+        "X-Runtime": "0.087893",
         "Content-Length": "192"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/client/addresses?active=0\" -X GET \\\n\t-H \"Access-Token: PkDvQyGnr_nDwD3n7DeD8Q\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: ZsEkSt19O4AVlPOX9L2zqA\" \\\n\t-H \"Expiry: 1458134970\" \\\n\t-H \"Uid: 87cathryn.dicki@weimann.com\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/client/addresses?active=0\" -X GET \\\n\t-H \"Access-Token: NEAUJ1WctHiKEhK9ir51ig\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: 8XJ7lPRpCViYS3mNq7WLHA\" \\\n\t-H \"Expiry: 1458149224\" \\\n\t-H \"Uid: 87sabryna@gleichner.org\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

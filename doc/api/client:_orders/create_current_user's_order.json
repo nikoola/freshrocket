@@ -67,13 +67,13 @@
     {
       "request_method": "POST",
       "request_path": "client/orders",
-      "request_body": "order[address_id]=4&order[line_items_attributes][][product_id]=10&order[line_items_attributes][][amount]=1000&order[delivery_attributes][wanted_date]=2016-03-02+18%3A29%3A37+%2B0500",
+      "request_body": "order[address_id]=4&order[line_items_attributes][][product_id]=10&order[line_items_attributes][][amount]=1000&order[delivery_attributes][wanted_date]=2016-03-02+22%3A27%3A09+%2B0500",
       "request_headers": {
-        "Access-Token": "q4h445Kgut8LVp0_ppbgfA",
+        "Access-Token": "OW9ICt7I7uUNwq9ANEk9mQ",
         "Token-Type": "Bearer",
-        "Client": "g34IPyqt_GV0RTgLJwlTLQ",
-        "Expiry": "1458134977",
-        "Uid": "105madonna.medhurst@wittingherzog.biz",
+        "Client": "QBRRW6xUJiOcunQ3c8V4lA",
+        "Expiry": "1458149229",
+        "Uid": "105eliezer@reynoldsdeckow.com",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -83,22 +83,22 @@
       "request_content_type": "application/x-www-form-urlencoded",
       "response_status": 201,
       "response_status_text": "Created",
-      "response_body": "{\n  \"id\": 4,\n  \"user_id\": 5,\n  \"status\": \"unconfirmed\",\n  \"created_at\": \"2016-03-02T13:29:37.553Z\",\n  \"comment\": null,\n  \"pure_product_price\": \"3000.0\",\n  \"tax\": \"150.0\",\n  \"delivery_charge\": \"0.0\",\n  \"total_price\": \"3150.0\",\n  \"delivery_boy_id\": null,\n  \"wanted_time\": null,\n  \"wanted_date\": null,\n  \"payment_type\": \"cash\",\n  \"is_paid\": false,\n  \"feedback\": null,\n  \"coupon_code\": null,\n  \"source_type\": null,\n  \"line_items\": [\n    {\n      \"id\": 10,\n      \"order_id\": 4,\n      \"product_id\": 10,\n      \"amount\": 1000,\n      \"fixed_price\": \"3000.0\"\n    }\n  ],\n  \"address\": {\n    \"id\": 4,\n    \"address\": \"494 Rolfson Forges\",\n    \"city_id\": 13,\n    \"user_id\": 7\n  }\n}",
+      "response_body": "{\n  \"id\": 4,\n  \"user_id\": 5,\n  \"status\": \"unconfirmed\",\n  \"created_at\": \"2016-03-02T17:27:09.203Z\",\n  \"comment\": null,\n  \"pure_product_price\": \"3000.0\",\n  \"tax\": \"150.0\",\n  \"delivery_charge\": \"0.0\",\n  \"total_price\": \"3150.0\",\n  \"delivery_boy_id\": null,\n  \"wanted_time\": null,\n  \"wanted_date\": null,\n  \"payment_type\": \"cash\",\n  \"is_paid\": false,\n  \"feedback\": null,\n  \"coupon_code\": null,\n  \"source_type\": null,\n  \"line_items\": [\n    {\n      \"id\": 10,\n      \"order_id\": 4,\n      \"product_id\": 10,\n      \"amount\": 1000,\n      \"fixed_price\": \"3000.0\"\n    }\n  ],\n  \"address\": {\n    \"id\": 4,\n    \"address\": \"78209 Hammes Mount\",\n    \"city_id\": 13,\n    \"user_id\": 7\n  }\n}",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
         "Location": "/client/orders/4",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"d20bae465b91e97a5608dcc6bbe0f90b\"",
+        "ETag": "W/\"9eef1ded454de466245454c07d100810\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=cjhzU3E4QnhWN2RUdkxJU1lHYk1sWWJ3ZS9GNEN0bEpDQTZVWmYrNkpwQTUvcUtOSWw0NGszRERDVUZTQjhWZDRNckIrUlQwYzVWRm9KSjFvbEI4V3UxRklLb29NejF2c1VvUjZIQjNmZ0xYUXpiZ0dvaGZzUW05MW80NVJWdmZwNTZ6R3NMZnF3WHlZMnpURTJTWHcrU1BrdWxrajNMQlFZb2NQc3hraHJOQ0VPN0phdTJIK2Z6UU9Zc1ErWTd3LS1KY2FpY0JXLzl6dmZCdWNUaTI5Qmd3PT0%3D--e67de5bca0cf26d2399f8b65597cde075cf4b248; path=/; HttpOnly",
-        "X-Request-Id": "30441418-95ec-4672-b7ab-f81788ecd7ce",
-        "X-Runtime": "0.086685",
+        "Set-Cookie": "_session_id=cFZHYWxSYVVYdjR3eDlDeGJ2ekJmVkNBeHpiN2Q3bld0aG5ITGgxeExJSXJnRzR0cGp1N3hPOFhnTTRrM1BKN0ZNNnhlSHF2TlFJcEVvNmFFMGcwZGVSS3lDTWU1UG5GQlNNYmRQcDZESmIrVFlXRkl6cW5HdjlYbDdjQWVPT3dMNjlKSy8vQzVkQWlNL3JTSmpsdFZoR2VGbzBCUnorOXA1Zko2L3RnUnhuWnM2UmhWUjFYT3VJclE2ajhxRVlwLS10WmFIUDJMTEVmeVo4bUp1TEpSR1JRPT0%3D--b0cf12acfefc823461ba9f4ae7029ef61faa398d; path=/; HttpOnly",
+        "X-Request-Id": "38cd8fec-2128-4366-bca4-dccab26ecde5",
+        "X-Runtime": "0.084650",
         "Content-Length": "508"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000client/orders\" -d 'order[address_id]=4&order[line_items_attributes][][product_id]=10&order[line_items_attributes][][amount]=1000&order[delivery_attributes][wanted_date]=2016-03-02+18%3A29%3A37+%2B0500' -X POST \\\n\t-H \"Access-Token: q4h445Kgut8LVp0_ppbgfA\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: g34IPyqt_GV0RTgLJwlTLQ\" \\\n\t-H \"Expiry: 1458134977\" \\\n\t-H \"Uid: 105madonna.medhurst@wittingherzog.biz\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000client/orders\" -d 'order[address_id]=4&order[line_items_attributes][][product_id]=10&order[line_items_attributes][][amount]=1000&order[delivery_attributes][wanted_date]=2016-03-02+22%3A27%3A09+%2B0500' -X POST \\\n\t-H \"Access-Token: OW9ICt7I7uUNwq9ANEk9mQ\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: QBRRW6xUJiOcunQ3c8V4lA\" \\\n\t-H \"Expiry: 1458149229\" \\\n\t-H \"Uid: 105eliezer@reynoldsdeckow.com\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

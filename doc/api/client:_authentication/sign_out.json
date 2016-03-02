@@ -16,11 +16,11 @@
       "request_path": "/auth/sign_out",
       "request_body": null,
       "request_headers": {
-        "Access-Token": "sDgUoLqk3_YsQQc7ZxkaKA",
+        "Access-Token": "lhBC8M9TZ51BXzHlTIcU1Q",
         "Token-Type": "Bearer",
-        "Client": "8G3L8uClg4UFiWFZhyf1uA",
-        "Expiry": "1458134971",
-        "Uid": "94kris@veumlebsack.com",
+        "Client": "0w_s5ItA_zhO1NbOU5rkUQ",
+        "Expiry": "1458149225",
+        "Uid": "94reyes@raynorrempel.name",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -38,13 +38,13 @@
         "Content-Type": "application/json; charset=utf-8",
         "ETag": "W/\"7363e85fe9edee6f053a4b319588c086\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=VFd3V1ViQTBLZnlneFRkdHNES1VFejZUV1I1TGRWZnZQR2N4OHR0dWpHVC9CdG9IcjIzOUtIdEZydDErYW1kZ0lhTnFXQXMyL0hsa3hCcjYvVG43VGc9PS0tcC9ScWFubHdZVFh0cDBwNUVTY3BTZz09--3b5ed48feb5dc425a753b823726d7571405180e2; path=/; HttpOnly",
-        "X-Request-Id": "56717ef4-0c70-47b9-bd8e-730b92a9922f",
-        "X-Runtime": "0.072100",
+        "Set-Cookie": "_session_id=cHFsWStHQTNZaGJRRTlrTXNGVkFvNkk3ZmVBc2xyYUZwYWVRb2RGUU5DNzljeGZDQ2phZGxxSEhLY05NM1d1U0w3MmVmQmEvQjArWkxLKzFSUnVCRUE9PS0tcUIydVVwWmVDK1oyQVZVZGhkQ25JUT09--a7d3cfcb42a63ff935c91895517d4274ae416cef; path=/; HttpOnly",
+        "X-Request-Id": "810dc5da-5f39-48e1-a7e6-39f36a75722e",
+        "X-Runtime": "0.072125",
         "Content-Length": "16"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/auth/sign_out\" -d '' -X DELETE \\\n\t-H \"Access-Token: sDgUoLqk3_YsQQc7ZxkaKA\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: 8G3L8uClg4UFiWFZhyf1uA\" \\\n\t-H \"Expiry: 1458134971\" \\\n\t-H \"Uid: 94kris@veumlebsack.com\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/auth/sign_out\" -d '' -X DELETE \\\n\t-H \"Access-Token: lhBC8M9TZ51BXzHlTIcU1Q\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: 0w_s5ItA_zhO1NbOU5rkUQ\" \\\n\t-H \"Expiry: 1458149225\" \\\n\t-H \"Uid: 94reyes@raynorrempel.name\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

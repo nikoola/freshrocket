@@ -16,11 +16,11 @@
       "request_path": "/admin/products/1",
       "request_body": null,
       "request_headers": {
-        "Access-Token": "_pSu5SfH_zxhX1Lcs6cJLw",
+        "Access-Token": "pjAUtzUswtmmeE8_R5sr0A",
         "Token-Type": "Bearer",
-        "Client": "erzJDt9-QYXD3vndwA11xw",
-        "Expiry": "1458134966",
-        "Uid": "52trevion@nikolaus.com",
+        "Client": "0DAhLsaqAiDi1BkSBNcy6w",
+        "Expiry": "1458149220",
+        "Uid": "52johathan@sporer.net",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -37,13 +37,13 @@
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "text/html",
         "Cache-Control": "no-cache",
-        "Set-Cookie": "_session_id=b2VuMXBvT3h6eGduWmdjbmt0K2xKc2l5S2phenUvRzJoOHNqUkRIdVl5LzAvdFlLWUpmd2QvTEhyL0x6ZVllcHUvcFZIRTZzR24xOU41SGh1MUMzMllIYlhmaExoOGd1WDluUUsyc1VDUDlhdlg0REo5WEJmNVZ2TXNtQUNJR2prNDFRSlRRU256MzRBRDlESThSZVNhbnQ0WFR1Mm5TOUVwRkpHemJDQU5idG1zc0dLcS95MDFIalpjZHhsYVNELS0zWTZNOVFsTDlQRUw2enl0Tko4NzFBPT0%3D--917c708f6ccc5ccbb785c0b8a9af66b3a1caa464; path=/; HttpOnly",
-        "X-Request-Id": "f819df6e-ab68-4bbf-89c8-29182a4d3a61",
-        "X-Runtime": "0.084553",
+        "Set-Cookie": "_session_id=Z1Iyb2s2Nk5YeXpTVzFnS0pUM3hGbVhBVVRNeEpEK1Z0MktMdkdXL29aM1FjZmQreFR4VmlHa3VPSEtEckpzazE0Z3NHZm9CNG1QeloyKzgyMStkUUFmSlhaRDdwVGR4Mi9td3hsOHpHRzFKUm40UDR1TDNBazhiQjlvNGpKQkQrRFFEVlNua2JHUS9oOCtGeEREeWlmTjZpNXM4ZWsyT3czWTdveHR5VGJkTjlnWEVRWEJmL283Mkp5alUySnlKLS10dkFzVkwreTJ1RngrRmExN3ErTkdBPT0%3D--b5533fcc59096d3c59777df589036685c016d590; path=/; HttpOnly",
+        "X-Request-Id": "05144e83-3aea-4adb-889f-c2c42052dd65",
+        "X-Runtime": "0.085737",
         "Content-Length": "0"
       },
       "response_content_type": "text/html",
-      "curl": "curl \"http://localhost:3000/admin/products/1\" -d '' -X DELETE \\\n\t-H \"Access-Token: _pSu5SfH_zxhX1Lcs6cJLw\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: erzJDt9-QYXD3vndwA11xw\" \\\n\t-H \"Expiry: 1458134966\" \\\n\t-H \"Uid: 52trevion@nikolaus.com\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/admin/products/1\" -d '' -X DELETE \\\n\t-H \"Access-Token: pjAUtzUswtmmeE8_R5sr0A\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: 0DAhLsaqAiDi1BkSBNcy6w\" \\\n\t-H \"Expiry: 1458149220\" \\\n\t-H \"Uid: 52johathan@sporer.net\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

@@ -19,11 +19,11 @@
       "request_path": "/client/payments/new?order_id=3",
       "request_body": null,
       "request_headers": {
-        "Access-Token": "kwE36QzKhu3My00lCaj-LA",
+        "Access-Token": "YmLkbwGsNDrI9wKjNIHloA",
         "Token-Type": "Bearer",
-        "Client": "ZgMNGo0rqlyB5TZ0ROErnA",
-        "Expiry": "1458134979",
-        "Uid": "128joanie@senger.name",
+        "Client": "k20w0MNuUoU5wEr6yr-Ppw",
+        "Expiry": "1458149231",
+        "Uid": "128nash@muller.net",
         "Host": "example.org",
         "Cookie": ""
       },
@@ -33,21 +33,21 @@
       "request_content_type": null,
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\n  \"citrus\": {\n    \"action\": \"https://sandbox.citruspay.com/kouqfeaav0\",\n    \"method\": \"POST\",\n    \"fields\": {\n      \"merchantTxnId\": \"3\",\n      \"merchantAccessKey\": \"T82TNCTLNBZ282BLHAGD\",\n      \"orderAmount\": \"228.35\",\n      \"currency\": \"USD\",\n      \"secret_key\": \"1690a1e29ecec2a5f852b678dd5362616c79916a\",\n      \"pmt_url\": \"kouqfeaav0\",\n      \"returnUrl\": \"http://localhost:3000/client/payments/citrus\",\n      \"paymentMode\": \"NET_BANKING\",\n      \"reqtime\": \"1456925379000\",\n      \"secSignature\": \"16055d2470aa3b2001007b0bd8086106d677f8b2\"\n    }\n  }\n}",
+      "response_body": "{\n  \"citrus\": {\n    \"action\": \"https://sandbox.citruspay.com/kouqfeaav0\",\n    \"method\": \"POST\",\n    \"fields\": {\n      \"merchantTxnId\": \"3\",\n      \"merchantAccessKey\": \"T82TNCTLNBZ282BLHAGD\",\n      \"orderAmount\": \"228.35\",\n      \"currency\": \"USD\",\n      \"secret_key\": \"1690a1e29ecec2a5f852b678dd5362616c79916a\",\n      \"pmt_url\": \"kouqfeaav0\",\n      \"returnUrl\": \"http://localhost:3000/client/payments/citrus\",\n      \"paymentMode\": \"NET_BANKING\",\n      \"reqtime\": \"1456939631000\",\n      \"secSignature\": \"16055d2470aa3b2001007b0bd8086106d677f8b2\"\n    }\n  }\n}",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"7fbc7f96f05ca00f3b03bad043046509\"",
+        "ETag": "W/\"6179cf9a17b07a66006a9212e122fa55\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=eGRyS2ZzSEhJeEp6SE1GNURQUnJWaFZBZHpQaHdXMkdhWXB0WklJdTdBeEkybDRGSEo0d3NES3FwTTZaVmhBVkU5Z0ltZWFjV1ROenJvOWhhdlhWM3pJYy9DMVFIc2hVYzZ4NnFPUVk2a2FXODFzSEd4ZlVpWC9Ld3BOWm1SQldBRDBmUWcxMGxrSWx0T1VaRCtyMjZTMzFmT1VnWHRDUUZteDVLVFNXcU1Rb3ZjdVd4NTVWR3hMWXZic0RZSUtVLS1WQ29vVDBMYkplTUVpdERZTHAxU1R3PT0%3D--f53433864b5e494ba329e659b5cf606103d26f4e; path=/; HttpOnly",
-        "X-Request-Id": "8834b9e6-8fb8-4351-8f6e-a8dcbf5f6f0b",
-        "X-Runtime": "0.094285",
+        "Set-Cookie": "_session_id=VjR1NXlKeEJKdEpyUHZaeFM1MGxQdkppVGRrOWY3OTQ0OUNGNnFEWXdubEdvMXpFK1ZCa2RUb1kyZ3R6dWJYRzZDSWNNR1V0aE16cmVkbFN4VTNWRVNOTHZhaUNOenltc1FLTGdST0FnYndvOU5ORWRldklib3YzdSs4dzMyUGIzUSs1OGVvQUhJRFVvSXdheHlnbWtMVnE1QVBJZGRKQ2FpWVRPOCtVU0FuY1BCWmkyTTBkS3YycE05SENJbUM0LS1yZWV5MVJmNjZxOFdnb29qdThlaDJnPT0%3D--51d90cac26a6b585986080fbec1822d1ea734696; path=/; HttpOnly",
+        "X-Request-Id": "81b2ccb8-b4c0-424b-a000-4f8edf11db9c",
+        "X-Runtime": "0.083333",
         "Content-Length": "444"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/client/payments/new?order_id=3\" -X GET \\\n\t-H \"Access-Token: kwE36QzKhu3My00lCaj-LA\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: ZgMNGo0rqlyB5TZ0ROErnA\" \\\n\t-H \"Expiry: 1458134979\" \\\n\t-H \"Uid: 128joanie@senger.name\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/client/payments/new?order_id=3\" -X GET \\\n\t-H \"Access-Token: YmLkbwGsNDrI9wKjNIHloA\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: k20w0MNuUoU5wEr6yr-Ppw\" \\\n\t-H \"Expiry: 1458149231\" \\\n\t-H \"Uid: 128nash@muller.net\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

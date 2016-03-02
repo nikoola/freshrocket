@@ -27,11 +27,11 @@
       "request_path": "/admin/users?has_abillity=users",
       "request_body": null,
       "request_headers": {
-        "Access-Token": "KCSPfWqVSekn-Lmmuw0VBw",
+        "Access-Token": "uvAYaxZ-iYYsyc9qsYA3jA",
         "Token-Type": "Bearer",
-        "Client": "flj2MVEiQD8wQVjbaGKe9g",
-        "Expiry": "1458134967",
-        "Uid": "62myrtle_jakubowski@gorczany.net",
+        "Client": "bL2N5UI-DdnMNiuU0khCHg",
+        "Expiry": "1458149221",
+        "Uid": "62sheldon_abernathy@bahringer.name",
         "Host": "example.org",
         "Cookie": ""
       },
@@ -41,21 +41,21 @@
       "request_content_type": null,
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "[\n  {\n    \"id\": 2,\n    \"first_name\": \"Berneice\",\n    \"last_name\": \"Marks\",\n    \"email\": \"62myrtle_jakubowski@gorczany.net\",\n    \"phone\": \"919718792299\",\n    \"is_verified\": false,\n    \"provider\": \"email\",\n    \"uid\": \"62myrtle_jakubowski@gorczany.net\",\n    \"created_at\": \"2016-03-02T13:29:27.565Z\",\n    \"abilities\": {\n      \"orders\": 0,\n      \"products\": 0,\n      \"users\": 1,\n      \"categories\": 0,\n      \"coupons\": 0,\n      \"settings\": 0,\n      \"cities\": 0,\n      \"delivery_boy\": 0\n    }\n  }\n]",
+      "response_body": "[\n  {\n    \"id\": 2,\n    \"first_name\": \"Abigale\",\n    \"last_name\": \"Spencer\",\n    \"email\": \"62sheldon_abernathy@bahringer.name\",\n    \"phone\": \"913480368795\",\n    \"is_verified\": false,\n    \"provider\": \"email\",\n    \"uid\": \"62sheldon_abernathy@bahringer.name\",\n    \"created_at\": \"2016-03-02T17:27:01.664Z\",\n    \"abilities\": {\n      \"orders\": 0,\n      \"products\": 0,\n      \"users\": 1,\n      \"categories\": 0,\n      \"coupons\": 0,\n      \"settings\": 0,\n      \"cities\": 0,\n      \"delivery_boy\": 0\n    }\n  }\n]",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"9d427b8b8e96d6943842fe1090e6987b\"",
+        "ETag": "W/\"7429be337930daae584a878d9492c0d3\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=b2dBRmRYOU5VYWZWMVJSM0RLYlArUHJGQVlIdTdsdVlSOU1VOXREdGQwTEs3ZDMwdVAwdXBtbFdoVFlLWVl5cHNqOVhsYW9BWXRLMGFGSTRwL2pzU1VTcWdac3ZDeTFJUEFFMWVEVGxKVnJ5MWp0SUVpM0hyNXJzTHkrOWN1U0Q1Syt2MFExaXNuc3c3RFY0RWpoak1ueXl4a0lBUDdIcjNtRGxqdTNIRlE3ZmxpWmhReDhmMzZBYStvRjd0VXZnLS1wR2I4UlJVdW55RWtsQjlOc3VJY1hnPT0%3D--3969eb5d314868dbd8c3b2e20dc1fb3842807b59; path=/; HttpOnly",
-        "X-Request-Id": "3f0b8941-a810-4113-9011-6b88658c647c",
-        "X-Runtime": "0.098453",
-        "Content-Length": "356"
+        "Set-Cookie": "_session_id=ZTlFNjkrQzNHNFNyN0Z4YWkyUGYwbHZhMFBOOU5nazdDaWZiRnFvcjNieGZwVGpuRm5VVUVBNmlWUWZRZGt2OXNTcmJHdzhMR25PdStoV0tGWmxvaC8yRUcvQmZieVo5VmdLbHdFejY5UGlKaHVGaUkrUTJtek9NQ1UxMXp4TGp1YlVOSzN2MTFtU2gxN3gyOHlreWNSZUVvU2s5NFY4TWNueXpGSmxEdnMxK01MMU1DaEZrWDl6QXhjNFJuTmdTLS1iRSs0LzF2aTBMWTNyalBGZ1lhY1Z3PT0%3D--b38ef28eb7863e98e85d99b81395f053df6c7882; path=/; HttpOnly",
+        "X-Request-Id": "55355a3a-fc13-4fc3-9715-b7286b6f67fc",
+        "X-Runtime": "0.083706",
+        "Content-Length": "361"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/admin/users?has_abillity=users\" -X GET \\\n\t-H \"Access-Token: KCSPfWqVSekn-Lmmuw0VBw\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: flj2MVEiQD8wQVjbaGKe9g\" \\\n\t-H \"Expiry: 1458134967\" \\\n\t-H \"Uid: 62myrtle_jakubowski@gorczany.net\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/admin/users?has_abillity=users\" -X GET \\\n\t-H \"Access-Token: uvAYaxZ-iYYsyc9qsYA3jA\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: bL2N5UI-DdnMNiuU0khCHg\" \\\n\t-H \"Expiry: 1458149221\" \\\n\t-H \"Uid: 62sheldon_abernathy@bahringer.name\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

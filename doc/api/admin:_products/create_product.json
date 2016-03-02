@@ -54,11 +54,11 @@
       "request_path": "/admin/products",
       "request_body": "product[title]=fish&product[price]=3.0&product[inventory_count]=2&product[city_id]=1&product[category_ids][]=1",
       "request_headers": {
-        "Access-Token": "rncaZle7sF-R2kIKfai_4w",
+        "Access-Token": "GshxwWc1-_pdJJcdA6ir6g",
         "Token-Type": "Bearer",
-        "Client": "9w-NK7hr-E_TXbZmDdtcdA",
-        "Expiry": "1458134964",
-        "Uid": "46juwan@stanton.biz",
+        "Client": "1l1sD_H_gmgTGy7Sjx_5dQ",
+        "Expiry": "1458149218",
+        "Uid": "46sven_ebert@fadelcummings.com",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -68,22 +68,22 @@
       "request_content_type": "application/x-www-form-urlencoded",
       "response_status": 201,
       "response_status_text": "Created",
-      "response_body": "{\n  \"id\": 1,\n  \"city_id\": 1,\n  \"title\": \"fish\",\n  \"price\": \"3.0\",\n  \"description\": null,\n  \"created_at\": \"2016-03-02T13:29:24.874Z\",\n  \"updated_at\": \"2016-03-02T13:29:24.874Z\",\n  \"inventory_count\": 2,\n  \"image_url\": \"uploads/product/image/default.png\",\n  \"categories\": [\n    {\n      \"id\": 1,\n      \"name\": \"Category 4\",\n      \"image_url\": \"uploads/category/image/default.png\"\n    }\n  ]\n}",
+      "response_body": "{\n  \"id\": 1,\n  \"city_id\": 1,\n  \"title\": \"fish\",\n  \"price\": \"3.0\",\n  \"description\": null,\n  \"created_at\": \"2016-03-02T17:26:58.692Z\",\n  \"updated_at\": \"2016-03-02T17:26:58.692Z\",\n  \"inventory_count\": 2,\n  \"image_url\": \"uploads/product/image/default.png\",\n  \"categories\": [\n    {\n      \"id\": 1,\n      \"name\": \"Category 4\",\n      \"image_url\": \"uploads/category/image/default.png\"\n    }\n  ]\n}",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
         "Location": "http://example.org/products/1",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"4c95377ed70734f4e8c87f0ede8c892b\"",
+        "ETag": "W/\"c9b5916a10f637a1ec79fb65fa39142b\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=SjgzbXc3OFg4VUw2SVdpUFRPQjRmYkZTSDVGWWVPU2NyOHM3SEJLYTBNbHRlUVY4OUlQRzhEMDRackRLZkdXRlEvVmlpNnFoYTRsdjNaSnpIekx0NGtRUHNpVnBCTGovRmJJTjRwYmxIalRHUUpuTTNzdnBzem13V1ppY0hzMXZoS29EZkNyNGF2QVh1UDkyN2d1aG5SNjVDc3gwTVViQStzeDN3VHNRKzJBWHRLQUVwVDJPK21zVmptYVZOUWdVLS1rbTZtb2tUS2lHb1k3ek8rTGQrenNnPT0%3D--f78ff552f5f9a73f9db904091e13601a54c85d84; path=/; HttpOnly",
-        "X-Request-Id": "d561887b-e50e-4621-8ed8-5ec64a191e90",
-        "X-Runtime": "0.156072",
+        "Set-Cookie": "_session_id=b0xSWC8wckdnNXZMdlRlVDdmWS9vVlJRMGhGc0sreFNmQUx2WmQyazBQbU9wSm5RaEVzbDl1ZnUwQ0ZSdUdCU3JuY0tKNmJEQko3QUxFM0JxUnNsei9UV3M1bkszT01Jd3pabEFPZmp0U3drdzdmODA3QUNDNUtZRkxoYmFva2dPdjhpRkxoVWFzL2tlaFMwVmFGZlM2SWl0WUppQzNzVlVZYWRLUUc1b0wvVHFzZFV1U0xYdWVSN3NWRk54YTErLS1BOHljTFAybUhYOG9ySVZSNnhzZW1BPT0%3D--1c677f9730cbcd83fae18dd203bff226fe93c5bc; path=/; HttpOnly",
+        "X-Request-Id": "a0c66472-673f-4b36-80f9-ff7b3e8895b3",
+        "X-Runtime": "0.115160",
         "Content-Length": "309"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/admin/products\" -d 'product[title]=fish&product[price]=3.0&product[inventory_count]=2&product[city_id]=1&product[category_ids][]=1' -X POST \\\n\t-H \"Access-Token: rncaZle7sF-R2kIKfai_4w\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: 9w-NK7hr-E_TXbZmDdtcdA\" \\\n\t-H \"Expiry: 1458134964\" \\\n\t-H \"Uid: 46juwan@stanton.biz\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/admin/products\" -d 'product[title]=fish&product[price]=3.0&product[inventory_count]=2&product[city_id]=1&product[category_ids][]=1' -X POST \\\n\t-H \"Access-Token: GshxwWc1-_pdJJcdA6ir6g\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: 1l1sD_H_gmgTGy7Sjx_5dQ\" \\\n\t-H \"Expiry: 1458149218\" \\\n\t-H \"Uid: 46sven_ebert@fadelcummings.com\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

@@ -23,7 +23,7 @@
     {
       "request_method": "POST",
       "request_path": "/auth/sign_in",
-      "request_body": "email=93abel%40howelljerde.name&password=secrety_bickety",
+      "request_body": "email=93ruben%40buckridge.net&password=secrety_bickety",
       "request_headers": {
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
@@ -34,25 +34,25 @@
       "request_content_type": "application/x-www-form-urlencoded",
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\n  \"data\": {\n    \"id\": 1,\n    \"first_name\": \"Tate\",\n    \"last_name\": \"Lueilwitz\",\n    \"email\": \"93abel@howelljerde.name\",\n    \"provider\": \"email\",\n    \"uid\": \"93abel@howelljerde.name\",\n    \"phone\": \"918208016564\",\n    \"verification_code\": null,\n    \"is_verified\": false,\n    \"how_did_you_hear_about_us\": null\n  }\n}",
+      "response_body": "{\n  \"data\": {\n    \"id\": 1,\n    \"first_name\": \"Enoch\",\n    \"last_name\": \"Larson\",\n    \"email\": \"93ruben@buckridge.net\",\n    \"provider\": \"email\",\n    \"uid\": \"93ruben@buckridge.net\",\n    \"phone\": \"918955813397\",\n    \"verification_code\": null,\n    \"is_verified\": false,\n    \"how_did_you_hear_about_us\": null\n  }\n}",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
-        "access-token": "GPQmjKfjXi8wqejoP2DTLA",
+        "access-token": "uk_xO402cIlu8fqtFqzV6g",
         "token-type": "Bearer",
-        "client": "FaBkpP7wqLUt_siY-cQG5w",
-        "expiry": "1458134971",
-        "uid": "93abel@howelljerde.name",
+        "client": "FtfW4EGnfaY_j3jL3CAiKQ",
+        "expiry": "1458149225",
+        "uid": "93ruben@buckridge.net",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"fbe8b5eaca3b4bf63cc1caf561214134\"",
+        "ETag": "W/\"9578cd30f1288100978cd2ac1cf5de14\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "X-Request-Id": "176577e2-2a2f-4882-b236-a5ab31122ae6",
-        "X-Runtime": "0.167586",
-        "Content-Length": "247"
+        "X-Request-Id": "53d11887-173b-41ed-a238-47e65dbe5c5c",
+        "X-Runtime": "0.161504",
+        "Content-Length": "241"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/auth/sign_in\" -d 'email=93abel%40howelljerde.name&password=secrety_bickety' -X POST \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/auth/sign_in\" -d 'email=93ruben%40buckridge.net&password=secrety_bickety' -X POST \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }
