@@ -2,12 +2,10 @@
 class ApplicationController < ActionController::Base
 	include DeviseTokenAuth::Concerns::SetUserByToken
 
-	# protect_from_forgery with: :exception
-
 
 	before_action :configure_permitted_parameters, if: :devise_controller?
 
-
+	wrap_parameters add: [:password, :password_confirmation] #for devise to work, may want to limit to more specific cotrollers later.
 
 
 
@@ -24,9 +22,6 @@ class ApplicationController < ActionController::Base
 				devise_parameter_sanitizer.for(:sign_up)        << attribute
 			end
 
-
-			devise_parameter_sanitizer.for(:account_update) << :reset_password_token #timely
-			devise_parameter_sanitizer.for(:account_update) << :redirect_url
 
 			devise_parameter_sanitizer.for(:account_update) { |u| 
 			  u.permit(:password, :password_confirmation, :current_password) 

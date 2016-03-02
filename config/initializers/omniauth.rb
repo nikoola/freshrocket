@@ -1,8 +1,9 @@
-# Rails.application.config.middleware.use OmniAuth::Builder do
+Rails.application.config.middleware.use OmniAuth::Builder do
 
-#   provider :facebook,      ENV['FACEBOOK_KEY'], ENV['FACEBOOK_SECRET'] #TODO
+	provider :facebook, ENV['omniauth.facebook.key'], ENV['omniauth.facebook.secret'] 
 
-# end
+end
 
-#   OmniAuth::NoSessionError:
-        # You must provide a session to use OmniAuth.
+
+
+
