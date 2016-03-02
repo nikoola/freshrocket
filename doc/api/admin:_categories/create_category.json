@@ -26,11 +26,11 @@
       "request_path": "/admin/categories",
       "request_body": "category[name]=breakfasts",
       "request_headers": {
-        "Access-Token": "QIjpECZU1E_26gV5CgdFAg",
+        "Access-Token": "1HuXoFU7C2mAMia7jfQyRQ",
         "Token-Type": "Bearer",
-        "Client": "oS5SnrRWMJV5HDAOCpszuA",
-        "Expiry": "1458101506",
-        "Uid": "1jewel_hudson@gradycarroll.org",
+        "Client": "kbiq3mXYp-o8t1vfx3mfkA",
+        "Expiry": "1458134958",
+        "Uid": "1alexandrine.padberg@lockman.biz",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -48,13 +48,13 @@
         "Content-Type": "application/json; charset=utf-8",
         "ETag": "W/\"a977dafb647df6738853c9b2dadd1561\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=bVdiclY3Z2lrYTk2cy83Q3JnazlmTUpNc01NeklxWGRTcU5FM3B0d1JGdjM4eUoyREM3Q3BCeDllQTdHYS9BM05SbjlkbEMrY2tOMzFxQ2IzaG5sNVU5UnBjUUtnWktPRWh4dHJQZGluRVJKQVBNVUphejY1clJkQWp1YTl2UFZYejVFWXhXbW1YN3NUL2VjOWxIT1lycnVGR0hSY1ptNitkbXBjc0NXTW9rTWVpWmlxZndFbHNCbXYwVzB1emJ4LS12ZW55cUxmZG9aNFQ1TVFRNzRXSnlBPT0%3D--b4c2fe08453cb77e7e2403b47f823dd2babe0650; path=/; HttpOnly",
-        "X-Request-Id": "c4e77850-f72c-44fa-a6e2-9cfa05aa6685",
-        "X-Runtime": "0.139670",
+        "Set-Cookie": "_session_id=WWVxTlFTUEdTVnc5dE51RU5NNjdiQWphUDltYUVaenZOV3ZmUU9rRng5aW1ZL2ZYTSt0Y3lGMmlweVJ4dERtSEk5ZlNPN21vbm1kMG94VjNSNnpkTXZFYUpTU0NxdlRabFRRTzhVNEF4RDJsUCtnbnFsdm1KUkZMWUovcU5iSWUrY3Z4MUs3aEpSZ1RkWHB1SzY5VGJLUjhNcUJ0SHRESXo5MHI1TjltNm5WM2pqUGoyZE1nTC8rYkNRaE9nVTQyLS1abU1GYkZZejN0ZzhrU3FPaFFXZTd3PT0%3D--b37820d9a6b1be5ac5fb80d793ca9c2dd98995d2; path=/; HttpOnly",
+        "X-Request-Id": "ae444415-e757-4c54-8e2f-792079f19128",
+        "X-Runtime": "0.172343",
         "Content-Length": "77"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/admin/categories\" -d 'category[name]=breakfasts' -X POST \\\n\t-H \"Access-Token: QIjpECZU1E_26gV5CgdFAg\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: oS5SnrRWMJV5HDAOCpszuA\" \\\n\t-H \"Expiry: 1458101506\" \\\n\t-H \"Uid: 1jewel_hudson@gradycarroll.org\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/admin/categories\" -d 'category[name]=breakfasts' -X POST \\\n\t-H \"Access-Token: 1HuXoFU7C2mAMia7jfQyRQ\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: kbiq3mXYp-o8t1vfx3mfkA\" \\\n\t-H \"Expiry: 1458134958\" \\\n\t-H \"Uid: 1alexandrine.padberg@lockman.biz\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

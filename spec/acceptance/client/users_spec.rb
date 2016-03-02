@@ -76,7 +76,7 @@ resource 'client: users', type: :request do
 
 				expect(status).to eq(403)
 				expect(json[:status]).to eq('error')
-				expect(json[:errors]).to include :phone => ["can't be blank", "is invalid"]
+				expect(json[:errors][:phone]).to include "can't be blank", "is not a number"
 			end
 
 			it 'can change email', document: false do

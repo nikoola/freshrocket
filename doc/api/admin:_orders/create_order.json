@@ -42,6 +42,11 @@
       "description": "['morning', 'noon', 'evening'] time is limited between 7 am to 9 pm only, mention this in frontend"
     },
     {
+      "scope": "order",
+      "name": "delivery_boy_id",
+      "description": "Order delivery boy"
+    },
+    {
       "scope": [
         "order",
         "line_items_attributes"
@@ -69,11 +74,11 @@
       "request_path": "/admin/orders",
       "request_body": "order[address_id]=1&order[user_id]=2&order[line_items_attributes][][product_id]=1&order[line_items_attributes][][amount]=3",
       "request_headers": {
-        "Access-Token": "-zSJfAowXtZLD4eeEKkcLA",
+        "Access-Token": "1QwpR5WA_JBgjm38eKN41A",
         "Token-Type": "Bearer",
-        "Client": "zPeQLYIx0qpxgJfydExpnw",
-        "Expiry": "1458101510",
-        "Uid": "28adalberto_walker@lindgren.com",
+        "Client": "eeTEvz1Q1xjfXY4-B92Zwg",
+        "Expiry": "1458134962",
+        "Uid": "28bettie@durgan.name",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -83,21 +88,21 @@
       "request_content_type": "application/x-www-form-urlencoded",
       "response_status": 201,
       "response_status_text": "Created",
-      "response_body": "{\n  \"id\": 1,\n  \"user_id\": 2,\n  \"status\": \"approved\",\n  \"created_at\": \"2016-03-02T04:11:50.346Z\",\n  \"comment\": null,\n  \"pure_product_price\": null,\n  \"tax\": null,\n  \"delivery_charge\": null,\n  \"total_price\": null,\n  \"delivery_boy_id\": null,\n  \"wanted_time\": null,\n  \"wanted_date\": null,\n  \"payment_type\": \"cash\",\n  \"is_paid\": false,\n  \"feedback\": null,\n  \"coupon_code\": null,\n  \"source_type\": null,\n  \"line_items\": [\n    {\n      \"id\": 1,\n      \"order_id\": 1,\n      \"product_id\": 1,\n      \"amount\": 3,\n      \"fixed_price\": null\n    }\n  ],\n  \"address\": {\n    \"id\": 1,\n    \"address\": \"618 Ondricka Isle\",\n    \"city_id\": 1,\n    \"user_id\": 1\n  }\n}",
+      "response_body": "{\n  \"id\": 1,\n  \"user_id\": 2,\n  \"status\": \"approved\",\n  \"created_at\": \"2016-03-02T13:29:22.858Z\",\n  \"comment\": null,\n  \"pure_product_price\": null,\n  \"tax\": null,\n  \"delivery_charge\": null,\n  \"total_price\": null,\n  \"delivery_boy_id\": null,\n  \"wanted_time\": null,\n  \"wanted_date\": null,\n  \"payment_type\": \"cash\",\n  \"is_paid\": false,\n  \"feedback\": null,\n  \"coupon_code\": null,\n  \"source_type\": null,\n  \"line_items\": [\n    {\n      \"id\": 1,\n      \"order_id\": 1,\n      \"product_id\": 1,\n      \"amount\": 3,\n      \"fixed_price\": null\n    }\n  ],\n  \"address\": {\n    \"id\": 1,\n    \"address\": \"32154 Jaiden Villages\",\n    \"city_id\": 1,\n    \"user_id\": 1\n  }\n}",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"6adb8b8a9f26fecb7418a0608d3310c5\"",
+        "ETag": "W/\"582433b590d2e94ddff4a85a804ddd05\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=ZTdxSzdyUlJ2TFhTRlpQMEJmWUZjcTJtMDd6RVg1eTVLMWpIVjZiUmFtbjFZTXdBNERvM0ZnempCMGEraktGdW01VlgrSG1CQlZZNUpEU1FTU3V1QmFldURqMFJUZXNBbS85RXBUZ2ljd2p4ZEN5Wm9Ia0dMTk5oTE93R28zYUVOWlV0N3V5WnZBNC84UmRkUGR6WW10SkVTeVNyWWJRZXJDY21RVE5RMEppRGtCSmJGT0NpWXUxRXFhcERSZjVvLS1hLy95UWNMZUUxa2N1YmR2VUZaenVRPT0%3D--2e88469cf4fba160e6680681bbfc2dd92f71e866; path=/; HttpOnly",
-        "X-Request-Id": "5572a243-f5c8-4f89-8d09-21469b874252",
-        "X-Runtime": "0.103896",
-        "Content-Length": "482"
+        "Set-Cookie": "_session_id=L1RqcDUyMmRRNXRITmhyWFpvTnltVURiQnc3UjhoQW8wRjBqRW1CTkYxUklPWFZiNWtSSDc1STI3ZFNJd3BRMUw1ZWY4YWhwWlphTWdiNmtHeEp4Q08vT3VTUkJXb1NpbUR3QzgxTnhhKzlINU5YdGkxeXFaQkp2UHkwNG9MRWNyM3FBNlNUR3FqbGtZV0lwQ2MzOSs2YUpBSGszSDZidVJFKzBJN0pqQjBMWk1OWkJTZHI2WTBQdmNKMnNOSlR0LS13LzRjOU9Zb2Vud1J2azNWL01aSEh3PT0%3D--5819753fd8fe558d771e62f7d0af3cdf73818389; path=/; HttpOnly",
+        "X-Request-Id": "6aa87e8e-9db6-4093-aacf-5e837fecd4fb",
+        "X-Runtime": "0.111577",
+        "Content-Length": "486"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/admin/orders\" -d 'order[address_id]=1&order[user_id]=2&order[line_items_attributes][][product_id]=1&order[line_items_attributes][][amount]=3' -X POST \\\n\t-H \"Access-Token: -zSJfAowXtZLD4eeEKkcLA\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: zPeQLYIx0qpxgJfydExpnw\" \\\n\t-H \"Expiry: 1458101510\" \\\n\t-H \"Uid: 28adalberto_walker@lindgren.com\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/admin/orders\" -d 'order[address_id]=1&order[user_id]=2&order[line_items_attributes][][product_id]=1&order[line_items_attributes][][amount]=3' -X POST \\\n\t-H \"Access-Token: 1QwpR5WA_JBgjm38eKN41A\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: eeTEvz1Q1xjfXY4-B92Zwg\" \\\n\t-H \"Expiry: 1458134962\" \\\n\t-H \"Uid: 28bettie@durgan.name\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

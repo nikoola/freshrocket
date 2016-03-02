@@ -16,11 +16,11 @@
       "request_path": "/admin/orders/1",
       "request_body": "order[delivery_boy_id]=1",
       "request_headers": {
-        "Access-Token": "rdTbzJjYg7nMEbz5Gw1RCQ",
+        "Access-Token": "Kblr8jzeH6NRBZqxoCiWfw",
         "Token-Type": "Bearer",
-        "Client": "gzY6NIKAkbY5g5cbsgPUrw",
-        "Expiry": "1458101510",
-        "Uid": "32ashleigh@moriette.name",
+        "Client": "-lUDLIdvIF5HNjDEqiiWAA",
+        "Expiry": "1458134963",
+        "Uid": "32monserrate@runte.org",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -30,21 +30,21 @@
       "request_content_type": "application/x-www-form-urlencoded",
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\n  \"id\": 1,\n  \"user_id\": 2,\n  \"status\": \"unconfirmed\",\n  \"created_at\": \"2016-03-02T04:11:50.466Z\",\n  \"comment\": null,\n  \"pure_product_price\": \"27.0\",\n  \"tax\": \"0.0\",\n  \"delivery_charge\": \"200.0\",\n  \"total_price\": \"227.0\",\n  \"delivery_boy_id\": 1,\n  \"wanted_time\": null,\n  \"wanted_date\": null,\n  \"payment_type\": \"cash\",\n  \"is_paid\": false,\n  \"feedback\": null,\n  \"coupon_code\": null,\n  \"source_type\": null,\n  \"line_items\": [\n    {\n      \"id\": 1,\n      \"order_id\": 1,\n      \"product_id\": 1,\n      \"amount\": 3,\n      \"fixed_price\": \"9.0\"\n    },\n    {\n      \"id\": 2,\n      \"order_id\": 1,\n      \"product_id\": 2,\n      \"amount\": 3,\n      \"fixed_price\": \"9.0\"\n    },\n    {\n      \"id\": 3,\n      \"order_id\": 1,\n      \"product_id\": 3,\n      \"amount\": 3,\n      \"fixed_price\": \"9.0\"\n    }\n  ],\n  \"address\": {\n    \"id\": 1,\n    \"address\": \"202 Abshire Lakes\",\n    \"city_id\": 1,\n    \"user_id\": 3\n  }\n}",
+      "response_body": "{\n  \"id\": 1,\n  \"user_id\": 2,\n  \"status\": \"unconfirmed\",\n  \"created_at\": \"2016-03-02T13:29:23.012Z\",\n  \"comment\": null,\n  \"pure_product_price\": \"27.0\",\n  \"tax\": \"1.35\",\n  \"delivery_charge\": \"200.0\",\n  \"total_price\": \"228.35\",\n  \"delivery_boy_id\": 1,\n  \"wanted_time\": null,\n  \"wanted_date\": null,\n  \"payment_type\": \"cash\",\n  \"is_paid\": false,\n  \"feedback\": null,\n  \"coupon_code\": null,\n  \"source_type\": null,\n  \"line_items\": [\n    {\n      \"id\": 1,\n      \"order_id\": 1,\n      \"product_id\": 1,\n      \"amount\": 3,\n      \"fixed_price\": \"9.0\"\n    },\n    {\n      \"id\": 2,\n      \"order_id\": 1,\n      \"product_id\": 2,\n      \"amount\": 3,\n      \"fixed_price\": \"9.0\"\n    },\n    {\n      \"id\": 3,\n      \"order_id\": 1,\n      \"product_id\": 3,\n      \"amount\": 3,\n      \"fixed_price\": \"9.0\"\n    }\n  ],\n  \"address\": {\n    \"id\": 1,\n    \"address\": \"21475 Larry Well\",\n    \"city_id\": 1,\n    \"user_id\": 3\n  }\n}",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"b36c8d233ba335d0db9348a74389f8bb\"",
+        "ETag": "W/\"ec327085482db12ee3c04ea65a971a88\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=NDJaWFN3UGNtY25RY0UxdGpIM0xsb3dEano5bk44Q29KSng5Zi9pckFLZVZCSlBjdzcydS9xQzNrV24vMFBKVFhRd2NqS091NmphNmJocyt1M1RIdkdDeWJydnM0cHVPQWVjQTVPMHFacU9pdXNwQ2h1akM5MHVCaU5XTUgrekR4MGY1SFhhN2M1SUUvTmxNQTVRcUJreUZ3QnlyZDNiWlR4NXRzSHN6b3ErOFk4NTdJbTg3R084ZXh6VU95aTRhLS1pQzBHc0FuYVlYOXZFdGxnR3N1b2N3PT0%3D--5fab3b9b688b6e8b85581229560c41aded65ae78; path=/; HttpOnly",
-        "X-Request-Id": "e3a8ce58-d356-4bf8-bd09-8648113370a2",
-        "X-Runtime": "0.091123",
-        "Content-Length": "628"
+        "Set-Cookie": "_session_id=Y2swR2Roc1dlUnhNM2prK3Uva0tPSWsrY0dJTmJsOG5NaU1CQnEzYTIyS0R5MUMxRVY3ZmVpTzFJVWx5c2t3VXY4bUt1VXdlS3UwcENJbi9OOWkwUG1Lc3JjckVjNjJyMjZRMmh6OTFUWVRwT3lLNFBvc2dqM0ZYci9PV1ZnYVFDWTFLT1NqcitHMmkwZkp0SVl2cVJOUzJqKzZaU3B6OHkwRmVNQ0FTWENkTktHek1NVHZ2UnVzbmRvcmtmcERNLS1ka1B4Vk56ZEdHKzg3OU5kazRFVFhnPT0%3D--33e777ee76e592a1fd0efc781c9ac01d9e9bc008; path=/; HttpOnly",
+        "X-Request-Id": "0e45dda9-4951-417a-90bc-d9b6d201f022",
+        "X-Runtime": "0.091858",
+        "Content-Length": "629"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/admin/orders/1\" -d 'order[delivery_boy_id]=1' -X PUT \\\n\t-H \"Access-Token: rdTbzJjYg7nMEbz5Gw1RCQ\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: gzY6NIKAkbY5g5cbsgPUrw\" \\\n\t-H \"Expiry: 1458101510\" \\\n\t-H \"Uid: 32ashleigh@moriette.name\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/admin/orders/1\" -d 'order[delivery_boy_id]=1' -X PUT \\\n\t-H \"Access-Token: Kblr8jzeH6NRBZqxoCiWfw\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: -lUDLIdvIF5HNjDEqiiWAA\" \\\n\t-H \"Expiry: 1458134963\" \\\n\t-H \"Uid: 32monserrate@runte.org\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

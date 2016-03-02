@@ -23,7 +23,7 @@
     {
       "request_method": "POST",
       "request_path": "/auth/sign_in",
-      "request_body": "email=93itzel.donnelly%40hermistonwunsch.name&password=secrety_bickety",
+      "request_body": "email=93abel%40howelljerde.name&password=secrety_bickety",
       "request_headers": {
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
@@ -34,25 +34,25 @@
       "request_content_type": "application/x-www-form-urlencoded",
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\n  \"data\": {\n    \"id\": 1,\n    \"first_name\": \"Robbie\",\n    \"last_name\": \"Reichert\",\n    \"email\": \"93itzel.donnelly@hermistonwunsch.name\",\n    \"provider\": \"email\",\n    \"uid\": \"93itzel.donnelly@hermistonwunsch.name\",\n    \"phone\": \"+79177834109\",\n    \"verification_code\": null,\n    \"is_verified\": false,\n    \"how_did_you_hear_about_us\": null\n  }\n}",
+      "response_body": "{\n  \"data\": {\n    \"id\": 1,\n    \"first_name\": \"Tate\",\n    \"last_name\": \"Lueilwitz\",\n    \"email\": \"93abel@howelljerde.name\",\n    \"provider\": \"email\",\n    \"uid\": \"93abel@howelljerde.name\",\n    \"phone\": \"918208016564\",\n    \"verification_code\": null,\n    \"is_verified\": false,\n    \"how_did_you_hear_about_us\": null\n  }\n}",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
-        "access-token": "cAmTeEDAN8udWZyn_1ckkw",
+        "access-token": "GPQmjKfjXi8wqejoP2DTLA",
         "token-type": "Bearer",
-        "client": "zW9KcmTJdRePzDgXCCbiSQ",
-        "expiry": "1458101518",
-        "uid": "93itzel.donnelly@hermistonwunsch.name",
+        "client": "FaBkpP7wqLUt_siY-cQG5w",
+        "expiry": "1458134971",
+        "uid": "93abel@howelljerde.name",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"557e92f7d224bd2f282502d6782f4d09\"",
+        "ETag": "W/\"fbe8b5eaca3b4bf63cc1caf561214134\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "X-Request-Id": "080cad0c-d5d3-4484-b675-92a4b950e273",
-        "X-Runtime": "0.165800",
-        "Content-Length": "276"
+        "X-Request-Id": "176577e2-2a2f-4882-b236-a5ab31122ae6",
+        "X-Runtime": "0.167586",
+        "Content-Length": "247"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/auth/sign_in\" -d 'email=93itzel.donnelly%40hermistonwunsch.name&password=secrety_bickety' -X POST \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/auth/sign_in\" -d 'email=93abel%40howelljerde.name&password=secrety_bickety' -X POST \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

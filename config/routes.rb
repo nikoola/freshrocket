@@ -1,12 +1,16 @@
 Rails.application.routes.draw do
 
 
-	# having resources :users do only means we are getting user id in nested routes.
-
 	# no authentication needed.
 	resources :categories, only: [:index]
 	resources :products,   only: [:index, :show]
 	resources :cities,     only: [:index, :show]
+
+	scope :forms do
+		controller :forms do
+			post :contact
+		end
+	end
 
 
 
@@ -35,13 +39,6 @@ Rails.application.routes.draw do
 
 		resources :addresses, only: [:index, :create, :update, :destroy]
 
-		nested do
-			scope :forms do
-				controller :forms do
-					post :contact
-				end
-			end
-		end
 
 	end
 

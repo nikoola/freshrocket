@@ -24,17 +24,17 @@
       "request_content_type": null,
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\n  \"id\": 1,\n  \"name\": \"Vaughnburgh_56\",\n  \"active\": true,\n  \"areas\": [\n    {\n      \"id\": 1,\n      \"name\": \"West Bethany_area_2\"\n    },\n    {\n      \"id\": 2,\n      \"name\": \"West Vincenza_area_3\"\n    },\n    {\n      \"id\": 3,\n      \"name\": \"Lake Bernita_area_4\"\n    }\n  ]\n}",
+      "response_body": "{\n  \"id\": 1,\n  \"name\": \"Mantehaven_56\",\n  \"active\": true,\n  \"areas\": [\n    {\n      \"id\": 1,\n      \"name\": \"Kacihaven_area_2\"\n    },\n    {\n      \"id\": 2,\n      \"name\": \"West Clark_area_3\"\n    },\n    {\n      \"id\": 3,\n      \"name\": \"Schillerborough_area_4\"\n    }\n  ]\n}",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"29506703a62fdc99ae4812d1e4396e95\"",
+        "ETag": "W/\"bbe23e71edb2638bb353f3395826997c\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "X-Request-Id": "c13f970b-33d0-4e5e-a862-ef9ae68059b2",
-        "X-Runtime": "0.003262",
-        "Content-Length": "171"
+        "X-Request-Id": "bcf021b3-11de-4604-b119-22bd0d2feca4",
+        "X-Runtime": "0.002662",
+        "Content-Length": "167"
       },
       "response_content_type": "application/json; charset=utf-8",
       "curl": "curl \"http://localhost:3000/cities/1\" -X GET \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""

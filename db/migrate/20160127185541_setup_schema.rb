@@ -128,7 +128,7 @@ class SetupSchema < ActiveRecord::Migration
 		t.string   "last_sign_in_ip"
 		t.text     "tokens"
 
-		t.string   :phone
+		t.string  :phone
 		t.string   :verification_code
 		t.boolean  :is_verified,             default: false
 

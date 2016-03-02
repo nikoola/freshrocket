@@ -7,7 +7,7 @@ FactoryGirl.define do
 		first_name             { Faker::Name.first_name }
 		last_name              { Faker::Name.last_name }
 
-		sequence(:phone)       { |i| "+7917#{rand(100000..999999)}#{i.to_s[0]}" }
+		sequence(:phone)       { |i| "91#{rand(1111111111..9999999999)}" }
 
 		transient do
 			abilities           []

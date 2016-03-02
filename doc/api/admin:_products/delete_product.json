@@ -16,11 +16,11 @@
       "request_path": "/admin/products/1",
       "request_body": null,
       "request_headers": {
-        "Access-Token": "UI7TOxTdL1rU_0eLKrRzvg",
+        "Access-Token": "_pSu5SfH_zxhX1Lcs6cJLw",
         "Token-Type": "Bearer",
-        "Client": "TFh67m9PimdIMSoK50bBaw",
-        "Expiry": "1458101513",
-        "Uid": "52donnell@zemlak.com",
+        "Client": "erzJDt9-QYXD3vndwA11xw",
+        "Expiry": "1458134966",
+        "Uid": "52trevion@nikolaus.com",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -37,13 +37,13 @@
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "text/html",
         "Cache-Control": "no-cache",
-        "Set-Cookie": "_session_id=UUM1M0JDV1B2QkdvNmVKWE4vamlFenlwcDBXWkJGb3F1UHU1NE5wMU1GVXNQTXN1MnBTcnlwQmswSFE3TnZaME5UU3RVSWJ3Nk55akphWHYxVmQvYmQxS2VsSW1FY2U1SHNjaFVHcmVNZnBqYzBZM1VmNUdTek9zaTNWQkZ0WWFXdVpCeEwwbzJwUUhqcDlIblMzQ3dYSE1tNzZwcWxFRW0zYlJMMFYxRmtDamxsWWt1WGM3K093RjNOSXVWd29kLS1RTlN5YngySGZJMWdyVVJOOG9hZFlRPT0%3D--a595c47897a93791aa7183b662f2bfa1596cba4d; path=/; HttpOnly",
-        "X-Request-Id": "5956ae21-7111-4839-882c-96ad91eef8a7",
-        "X-Runtime": "0.084990",
+        "Set-Cookie": "_session_id=b2VuMXBvT3h6eGduWmdjbmt0K2xKc2l5S2phenUvRzJoOHNqUkRIdVl5LzAvdFlLWUpmd2QvTEhyL0x6ZVllcHUvcFZIRTZzR24xOU41SGh1MUMzMllIYlhmaExoOGd1WDluUUsyc1VDUDlhdlg0REo5WEJmNVZ2TXNtQUNJR2prNDFRSlRRU256MzRBRDlESThSZVNhbnQ0WFR1Mm5TOUVwRkpHemJDQU5idG1zc0dLcS95MDFIalpjZHhsYVNELS0zWTZNOVFsTDlQRUw2enl0Tko4NzFBPT0%3D--917c708f6ccc5ccbb785c0b8a9af66b3a1caa464; path=/; HttpOnly",
+        "X-Request-Id": "f819df6e-ab68-4bbf-89c8-29182a4d3a61",
+        "X-Runtime": "0.084553",
         "Content-Length": "0"
       },
       "response_content_type": "text/html",
-      "curl": "curl \"http://localhost:3000/admin/products/1\" -d '' -X DELETE \\\n\t-H \"Access-Token: UI7TOxTdL1rU_0eLKrRzvg\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: TFh67m9PimdIMSoK50bBaw\" \\\n\t-H \"Expiry: 1458101513\" \\\n\t-H \"Uid: 52donnell@zemlak.com\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/admin/products/1\" -d '' -X DELETE \\\n\t-H \"Access-Token: _pSu5SfH_zxhX1Lcs6cJLw\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: erzJDt9-QYXD3vndwA11xw\" \\\n\t-H \"Expiry: 1458134966\" \\\n\t-H \"Uid: 52trevion@nikolaus.com\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

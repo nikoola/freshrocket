@@ -19,11 +19,11 @@
       "request_path": "/client/addresses?active=0",
       "request_body": null,
       "request_headers": {
-        "Access-Token": "G8I3sbgoZSs-h2IhIVXU6g",
+        "Access-Token": "PkDvQyGnr_nDwD3n7DeD8Q",
         "Token-Type": "Bearer",
-        "Client": "TMBim7Z-ctYr2znWrwdBkA",
-        "Expiry": "1458101517",
-        "Uid": "87justice@wisokyherman.net",
+        "Client": "ZsEkSt19O4AVlPOX9L2zqA",
+        "Expiry": "1458134970",
+        "Uid": "87cathryn.dicki@weimann.com",
         "Host": "example.org",
         "Cookie": ""
       },
@@ -33,21 +33,21 @@
       "request_content_type": null,
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "[\n  {\n    \"id\": 1,\n    \"address\": \"757 Johnson Corner\",\n    \"city_id\": 1,\n    \"user_id\": 1\n  },\n  {\n    \"id\": 2,\n    \"address\": \"78648 Merlin Oval\",\n    \"city_id\": 2,\n    \"user_id\": 1\n  },\n  {\n    \"id\": 3,\n    \"address\": \"36950 Bogisich Harbors\",\n    \"city_id\": 3,\n    \"user_id\": 1\n  }\n]",
+      "response_body": "[\n  {\n    \"id\": 1,\n    \"address\": \"726 Christopher Falls\",\n    \"city_id\": 1,\n    \"user_id\": 1\n  },\n  {\n    \"id\": 2,\n    \"address\": \"627 Julianne Roads\",\n    \"city_id\": 2,\n    \"user_id\": 1\n  },\n  {\n    \"id\": 3,\n    \"address\": \"951 Morar Mall\",\n    \"city_id\": 3,\n    \"user_id\": 1\n  }\n]",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"a345505002ff01858542014bfb82027b\"",
+        "ETag": "W/\"65a2b56bbcba6ba0831c8d0ee3039af6\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=TmFyWEZ0aUVRaTREakxqZjZQWkxORGo0eCtMenV5WTVHQ1RmSHV4OHVxbEpDd0VGemNWN2dRUGFsZFVhWWFibGhEWjBnM0Z2RWlDTkRFRHFpenMyK05KcXZORHI3MEM0aElEeWJLNXRLV3BYVFYwT3J3SWlSa0h3TEE1SjNhZkZmVlZpeXF2bUVSNzAwY3NIVGdIZGdKT2hoRmRmeEZiOXBzR1FPQ0N1Ny9HZUFJcGUrdXRia05MUENSWXRsQis4LS1iRHQ3Y0p1dTRiNEpCV3p2SnFBNGdnPT0%3D--a5ff08a837f557ee7c2f1c26a960640fc5c279f4; path=/; HttpOnly",
-        "X-Request-Id": "771fb128-c533-481e-8a3b-ab8ebed9a025",
-        "X-Runtime": "0.091646",
-        "Content-Length": "196"
+        "Set-Cookie": "_session_id=dDV3MVNzQk9yMytZL3BQdGh6am1uZ0dFNnFRdytVditwTXZaZlljcVBPb2JFdHN0akF0YWJDd1paUi9ucjZpcGo0azYwMFJoNkYzVGdDSG8vSVRhSEZtOWg1bm1rRFA0b3lkQmNuL1c0RUpXYWJGdFQxbVk1a1cvdWlzU1YvaUx5cUduSFNHSFhqOHhMMnRsdUM4SSsybjVVU1NiU0prTEovdmkweFRUWFdXNEFuSExtNTZHcmM3ZVNmbHduZVYyLS13VXNBUzcrRWkwMG9RUzdUL2R2VFR3PT0%3D--9e77f0807aebd2b5d02544a2f674265a352e8fe3; path=/; HttpOnly",
+        "X-Request-Id": "bd45c149-f9a3-4b7a-afab-26992d39203b",
+        "X-Runtime": "0.089367",
+        "Content-Length": "192"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/client/addresses?active=0\" -X GET \\\n\t-H \"Access-Token: G8I3sbgoZSs-h2IhIVXU6g\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: TMBim7Z-ctYr2znWrwdBkA\" \\\n\t-H \"Expiry: 1458101517\" \\\n\t-H \"Uid: 87justice@wisokyherman.net\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/client/addresses?active=0\" -X GET \\\n\t-H \"Access-Token: PkDvQyGnr_nDwD3n7DeD8Q\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: ZsEkSt19O4AVlPOX9L2zqA\" \\\n\t-H \"Expiry: 1458134970\" \\\n\t-H \"Uid: 87cathryn.dicki@weimann.com\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

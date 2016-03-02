@@ -94,6 +94,7 @@ resource 'admin: orders', type: :request do
 			parameter :coupon_code
 			parameter :wanted_date, 'date client wants their delivery on'
 			parameter :wanted_time, "['morning', 'noon', 'evening'] time is limited between 7 am to 9 pm only, mention this in frontend"
+			parameter :delivery_boy_id
 		end
 
 		with_options :scope => [:order, :line_items_attributes], :required => true do

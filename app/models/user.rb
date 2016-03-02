@@ -13,9 +13,11 @@ class User < ActiveRecord::Base
 
 	validates_presence_of   :phone, :first_name, :last_name
 	validates_uniqueness_of :phone
-	validates               :phone, phone: { 
-		possible: false, types: [:mobile] 
-	} #phonelib
+
+	validates               :phone, 
+		numericality: { only_integer: true },
+		length:       { is: 12 }
+		# format:       { with: ->(user) { user.phone.starts_with? '91' } }
 
 	before_save :reset_verification
 

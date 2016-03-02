@@ -28,17 +28,17 @@
       "request_content_type": null,
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "[\n  {\n    \"id\": 1,\n    \"name\": \"Brendonchester_51\",\n    \"active\": true,\n    \"areas\": [\n\n    ]\n  },\n  {\n    \"id\": 2,\n    \"name\": \"Christyland_52\",\n    \"active\": true,\n    \"areas\": [\n\n    ]\n  },\n  {\n    \"id\": 3,\n    \"name\": \"Lake Sheridan_53\",\n    \"active\": true,\n    \"areas\": [\n\n    ]\n  }\n]",
+      "response_body": "[\n  {\n    \"id\": 1,\n    \"name\": \"Gunnarfort_51\",\n    \"active\": true,\n    \"areas\": [\n\n    ]\n  },\n  {\n    \"id\": 2,\n    \"name\": \"Pfefferstad_52\",\n    \"active\": true,\n    \"areas\": [\n\n    ]\n  },\n  {\n    \"id\": 3,\n    \"name\": \"Maureenborough_53\",\n    \"active\": true,\n    \"areas\": [\n\n    ]\n  }\n]",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"1407dcb221b3a250dce710fe949cd8a0\"",
+        "ETag": "W/\"0a7a2a34a17fdadafe479375481599a2\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "X-Request-Id": "4d15af9e-77fb-4f87-a5b0-a759e11923f3",
-        "X-Runtime": "0.011424",
-        "Content-Length": "180"
+        "X-Request-Id": "5650e86f-d71e-411b-99e9-64f853dc0529",
+        "X-Runtime": "0.010341",
+        "Content-Length": "177"
       },
       "response_content_type": "application/json; charset=utf-8",
       "curl": "curl \"http://localhost:3000/cities?active=1\" -X GET \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""

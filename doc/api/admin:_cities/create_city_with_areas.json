@@ -39,13 +39,13 @@
     {
       "request_method": "POST",
       "request_path": "/admin/cities",
-      "request_body": "city[name]=Felicitatown_1&city[areas_attributes][][name]=hi",
+      "request_body": "city[name]=West+Vivienne_1&city[areas_attributes][][name]=hi",
       "request_headers": {
-        "Access-Token": "9XJuRQB62rixP5_D90ENmw",
+        "Access-Token": "_-vHbz_6_-nafz8NJRo90A",
         "Token-Type": "Bearer",
-        "Client": "Gr3JFtHjlV3w69VXx9W3aw",
-        "Expiry": "1458101507",
-        "Uid": "6zaria_robel@dachschaden.info",
+        "Client": "kckFJBPQz-EzTXvi-OJ8UA",
+        "Expiry": "1458134959",
+        "Uid": "6lloyd_walker@hirthe.biz",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -55,22 +55,22 @@
       "request_content_type": "application/x-www-form-urlencoded",
       "response_status": 201,
       "response_status_text": "Created",
-      "response_body": "{\n  \"id\": 1,\n  \"name\": \"Felicitatown_1\",\n  \"active\": true,\n  \"areas\": [\n    {\n      \"id\": 1,\n      \"name\": \"hi\"\n    }\n  ]\n}",
+      "response_body": "{\n  \"id\": 1,\n  \"name\": \"West Vivienne_1\",\n  \"active\": true,\n  \"areas\": [\n    {\n      \"id\": 1,\n      \"name\": \"hi\"\n    }\n  ]\n}",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
         "Location": "http://example.org/cities/1",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"d6322547b97be60fb85c97dd6bf95c76\"",
+        "ETag": "W/\"ce41896e0c57a95548718009acb6623c\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=dkNscXdjY0dteFVya29DL3VDT1AyQmN1cTJ1SERXQWs3OHdWMXg5QUlDWjFaZTNaSWloazBKdmNWMWtXeEt6aGg0RUh5ZG1DaWZQS3NPTHRHZys1Z1MxZDlYaU11elJKbWNzZjV5UEhxL1Z5N2RqaUY3Z1VZYmVkQTNGMjQ0aDZHS2NsVWtFVXZ3Nk9mV1FiTVRMVUZEVVZJNU5leG01WXZmbkttSzN1dktJeUJ3WWtPS0hCYjd0NGVlZ09WR1VoLS1VREF0YnZ5dWRwRXc0Ti82OHBCVVB3PT0%3D--927b75a0b3949c0f2787a266f74248ac741d0292; path=/; HttpOnly",
-        "X-Request-Id": "7f101d04-66e4-417f-9f6e-c8eba3d7f0a8",
-        "X-Runtime": "0.110204",
-        "Content-Length": "77"
+        "Set-Cookie": "_session_id=TktIRTIzcWJHN203MUROZlZ0ZWNsNHNXVFFnNDlVWENFOVFLUWlCOGRKVUdUbC9ERzc3WCtpeHRLK0NDRUZMZzR6RzRSeDB6OUVSOEtzNUZKTUcycFN0bEt4L1NweWFtWFFKRklyTXd6bFRVSXhyYkY2LzlVTVA0eDhEamhhT3E1NTJnYnJmZFJ1Wm5LS1NSSzRkcnhQekJITEZnbEdLZ3VRSzJjVlNjNlpJcWFDVUNmaWZwa1U2YWtiMnhVUVpGLS1zeW9DWVdTTndIY3FWVCtFbjVWbldnPT0%3D--00ef3a03271d401e9b7bf50931c104d97245192b; path=/; HttpOnly",
+        "X-Request-Id": "3e1d103b-568f-4864-987c-90626920a504",
+        "X-Runtime": "0.104148",
+        "Content-Length": "78"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/admin/cities\" -d 'city[name]=Felicitatown_1&city[areas_attributes][][name]=hi' -X POST \\\n\t-H \"Access-Token: 9XJuRQB62rixP5_D90ENmw\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: Gr3JFtHjlV3w69VXx9W3aw\" \\\n\t-H \"Expiry: 1458101507\" \\\n\t-H \"Uid: 6zaria_robel@dachschaden.info\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/admin/cities\" -d 'city[name]=West+Vivienne_1&city[areas_attributes][][name]=hi' -X POST \\\n\t-H \"Access-Token: _-vHbz_6_-nafz8NJRo90A\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: kckFJBPQz-EzTXvi-OJ8UA\" \\\n\t-H \"Expiry: 1458134959\" \\\n\t-H \"Uid: 6lloyd_walker@hirthe.biz\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

@@ -1,0 +1,65 @@
+{
+  "resource": "forms",
+  "http_method": "POST",
+  "route": "/forms/contact",
+  "description": "send email to admins",
+  "explanation": null,
+  "parameters": [
+    {
+      "scope": "form",
+      "required": true,
+      "name": "name",
+      "description": ""
+    },
+    {
+      "scope": "form",
+      "required": true,
+      "name": "email",
+      "description": ""
+    },
+    {
+      "scope": "form",
+      "name": "order_id",
+      "description": "Form order"
+    },
+    {
+      "scope": "form",
+      "required": true,
+      "name": "message",
+      "description": ""
+    }
+  ],
+  "response_fields": [
+
+  ],
+  "requests": [
+    {
+      "request_method": "POST",
+      "request_path": "/forms/contact",
+      "request_body": "form[name]=Nyasia&form[email]=marisol.waelchi%40ziemann.net&form[message]=We+need+to+copy+the+back-end+GB+bus%21",
+      "request_headers": {
+        "Host": "example.org",
+        "Content-Type": "application/x-www-form-urlencoded",
+        "Cookie": ""
+      },
+      "request_query_parameters": {
+      },
+      "request_content_type": "application/x-www-form-urlencoded",
+      "response_status": 200,
+      "response_status_text": "OK",
+      "response_body": null,
+      "response_headers": {
+        "X-Frame-Options": "SAMEORIGIN",
+        "X-XSS-Protection": "1; mode=block",
+        "X-Content-Type-Options": "nosniff",
+        "Content-Type": "text/html",
+        "Cache-Control": "no-cache",
+        "X-Request-Id": "9c570aa3-48a8-4fd6-805e-f5e6f5f85dc1",
+        "X-Runtime": "0.145559",
+        "Content-Length": "0"
+      },
+      "response_content_type": "text/html",
+      "curl": "curl \"http://localhost:3000/forms/contact\" -d 'form[name]=Nyasia&form[email]=marisol.waelchi%40ziemann.net&form[message]=We+need+to+copy+the+back-end+GB+bus%21' -X POST \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+    }
+  ]
+}

@@ -16,11 +16,11 @@
       "request_path": "/auth",
       "request_body": "phone",
       "request_headers": {
-        "Access-Token": "9nHg4U6G2DKIzrKq6q_EIg",
+        "Access-Token": "EJeRE43COfDf_pR5T0k-_A",
         "Token-Type": "Bearer",
-        "Client": "La4oKvH52ON9RvGBFJq7LA",
-        "Expiry": "1458101526",
-        "Uid": "136lionel@carrollmcclure.com",
+        "Client": "aLAYTd57OYJ5xk-gLee62A",
+        "Expiry": "1458134980",
+        "Uid": "135ricardo_conroy@rolfson.name",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -30,20 +30,20 @@
       "request_content_type": "application/x-www-form-urlencoded",
       "response_status": 403,
       "response_status_text": "Forbidden",
-      "response_body": "{\n  \"status\": \"error\",\n  \"errors\": {\n    \"phone\": [\n      \"can't be blank\",\n      \"is invalid\"\n    ],\n    \"full_messages\": [\n      \"Phone can't be blank\",\n      \"Phone is invalid\"\n    ]\n  }\n}",
+      "response_body": "{\n  \"status\": \"error\",\n  \"errors\": {\n    \"phone\": [\n      \"can't be blank\",\n      \"is not a number\",\n      \"is the wrong length (should be 12 characters)\"\n    ],\n    \"full_messages\": [\n      \"Phone can't be blank\",\n      \"Phone is not a number\",\n      \"Phone is the wrong length (should be 12 characters)\"\n    ]\n  }\n}",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "application/json; charset=utf-8",
         "Cache-Control": "no-cache",
-        "Set-Cookie": "_session_id=bGQ5MTJrTDUxMXBZaklmQVBYbENNbkoxQTJyQ3VzSFpvRy9lcmF2SFQzMnZMbmNwd09lKzFBdVJ1WWh0Q25Ud09vWGxKTVdtaDYzUENmUG96VEVTQVJtSW1KSTdTMjFNUk9lQTM2N3ZKMUVNUUhEMXVUd0YxbGpwbzVMcGwvd3l2eE80Z0dBZC9hVVhJdDZMeUdkaHhaandQdS9IMU95QVU5QngwMiticUo3Ym1RUHpja1pXT2VwS0ZMYWZrZU5iLS0yQS80eFNDejRwNkR4V2psNXMzUlJBPT0%3D--2394eabde60fec471f66920063d2d208890eea76; path=/; HttpOnly",
-        "X-Request-Id": "6acc6fef-3f49-4c42-ad37-1da5f78106b1",
-        "X-Runtime": "0.072734",
-        "Content-Length": "129"
+        "Set-Cookie": "_session_id=cHJXRWdYUEtYcit4alJZa0w4STRsVStmS0gwaGZ2ZXlzZmwxNGZwYks1ZG5teUQzaUF4K2JRck1Rc0hvQSsya3J6T05FaW94SnNmMng1MFBkK0ZhYkJUNmtaRzN6RHZXcFFmYjJwSWs4RmFjbHVpOTcxMGhOOTJmSkZjWHlGUDhOZGJRWFlNd0FtOEQ2eWJNNXlKUS9pMWVMelZQbUdLcjFTV2UyalNuSk5ub2JoaDJ3NXhxK21qWTYyempNZDFYLS1HSmR4Mit4RXI0NGt0bGZIYVZpaHFnPT0%3D--85065b14f3a9df5cd08f00ed5050b1b947b4bfa1; path=/; HttpOnly",
+        "X-Request-Id": "5c90e16b-7c5d-4688-a473-b93b74aa8908",
+        "X-Runtime": "0.077198",
+        "Content-Length": "241"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/auth\" -d 'phone' -X PUT \\\n\t-H \"Access-Token: 9nHg4U6G2DKIzrKq6q_EIg\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: La4oKvH52ON9RvGBFJq7LA\" \\\n\t-H \"Expiry: 1458101526\" \\\n\t-H \"Uid: 136lionel@carrollmcclure.com\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/auth\" -d 'phone' -X PUT \\\n\t-H \"Access-Token: EJeRE43COfDf_pR5T0k-_A\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: aLAYTd57OYJ5xk-gLee62A\" \\\n\t-H \"Expiry: 1458134980\" \\\n\t-H \"Uid: 135ricardo_conroy@rolfson.name\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

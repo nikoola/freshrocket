@@ -2,14 +2,9 @@ require 'rails_helper'
 include ActiveJob::TestHelper
 ActiveJob::Base.queue_adapter = :test
 
-resource 'client: forms', type: :request do
+resource 'forms', type: :request do
 
-	let(:user) { FactoryGirl.create :verified_user }
-	let(:auth_headers) { user.create_new_auth_token }
-
-	include_context 'shared_headers'
-
-	post '/client/forms/contact' do
+	post '/forms/contact' do
 		with_options scope: :form do
 			parameter :name,     '', required: true
 			parameter :email,    '', required: true

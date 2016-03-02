@@ -21,11 +21,11 @@
       "request_path": "/admin/orders/1/update_status",
       "request_body": "order[action]=dispatch",
       "request_headers": {
-        "Access-Token": "T73yeDqrB_FsaQC0KnVgJg",
+        "Access-Token": "WVFzjkN5j_7U8AP-DIVRbQ",
         "Token-Type": "Bearer",
-        "Client": "s61e3BC4Ol1dW4uihqywjA",
-        "Expiry": "1458101511",
-        "Uid": "45jerod@ferry.net",
+        "Client": "zV1eyFJdfMUYDhwfJAhaJw",
+        "Expiry": "1458134964",
+        "Uid": "45furman@kaulkeboyer.info",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -42,13 +42,13 @@
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "application/json; charset=utf-8",
         "Cache-Control": "no-cache",
-        "Set-Cookie": "_session_id=MVlWWFp6S0VySDRWVEZwTFBFdG5pbmhrMkwzaC9TZzZRNDgzeHQ1R2R4QW95L0p3WEVkWjRBMU1ldDJUNjJXSWpETm5PWjIzaWNaOXVaZ3d0NmpNZUhUUm10cmxVS0Mxd2tzbXJqSEZsSkt3SzY4WFhDS3hERjVCVklDRUwwbmQrU3V5am1NcGFRVi9SRHNkeG9MMlZlZ0Nra2NtckpWUFBjSjZBVFovbVhkZm94M3l4Zjl0ZTViMVZYUW5WU253LS1lMEFsRWVuWHNWL216U0N2NmlHelpBPT0%3D--ccd472e2b96f74a5d9bcb8fce28986631ea0779f; path=/; HttpOnly",
-        "X-Request-Id": "19af03fa-4a5a-461d-ab37-2678abf2785f",
-        "X-Runtime": "0.083202",
+        "Set-Cookie": "_session_id=RkJtNHZzb1VrR3V5djJSK1ZId2x3OVlvMldEOEFFQ2U1UThuVEdCZzU5MnVRUDJIdFNldEZpOThRUmdRaXJRRGs0VzR5bncyVkNuWWpITERtSmVZQUhNeHk4U1dqNmg5aWJtdjZZcXRkM29sOGQvQ01nc0ZsWjlHdGtsVmZTRUhaZGQvMzZNUStTaTFGQnlGek9XU3hBWFZaZVQ1dElpRmtqVzZ3YTlDdnJGbEp0R0JVMTdwTjUzTXhiekV5SnVBLS1qWkhEVGNsN2Ntb1hMUXUyZzVJd0JBPT0%3D--b823539cdac8cfa505901b5763c0bc1de1600ffe; path=/; HttpOnly",
+        "X-Request-Id": "552c4cd5-6959-4662-944b-10a423983856",
+        "X-Runtime": "0.088983",
         "Content-Length": "138"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/admin/orders/1/update_status\" -d 'order[action]=dispatch' -X PUT \\\n\t-H \"Access-Token: T73yeDqrB_FsaQC0KnVgJg\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: s61e3BC4Ol1dW4uihqywjA\" \\\n\t-H \"Expiry: 1458101511\" \\\n\t-H \"Uid: 45jerod@ferry.net\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/admin/orders/1/update_status\" -d 'order[action]=dispatch' -X PUT \\\n\t-H \"Access-Token: WVFzjkN5j_7U8AP-DIVRbQ\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: zV1eyFJdfMUYDhwfJAhaJw\" \\\n\t-H \"Expiry: 1458134964\" \\\n\t-H \"Uid: 45furman@kaulkeboyer.info\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }
