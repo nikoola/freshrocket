@@ -39,13 +39,13 @@
     {
       "request_method": "PUT",
       "request_path": "/admin/cities/1",
-      "request_body": "city[name]=Windlertown_3&city[areas_attributes][][id]=1&city[areas_attributes][][_destroy]=1",
+      "request_body": "city[name]=Metzburgh_3&city[areas_attributes][][id]=1&city[areas_attributes][][_destroy]=1",
       "request_headers": {
-        "Access-Token": "tKu61b8eXs3jRzVYykkEMw",
+        "Access-Token": "f4EVYNC6vqcEBpvCzK5Esg",
         "Token-Type": "Bearer",
-        "Client": "KGer4UthOm1Pb7y_i07QDA",
-        "Expiry": "1458099897",
-        "Uid": "7jorge.sawayn@schmitt.org",
+        "Client": "l1f2Ef7D8lqMlN-PbTno6g",
+        "Expiry": "1458101507",
+        "Uid": "7amelie@balistreri.name",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -55,21 +55,21 @@
       "request_content_type": "application/x-www-form-urlencoded",
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\n  \"id\": 1,\n  \"name\": \"Windlertown_3\",\n  \"active\": true,\n  \"areas\": [\n\n  ]\n}",
+      "response_body": "{\n  \"id\": 1,\n  \"name\": \"Metzburgh_3\",\n  \"active\": true,\n  \"areas\": [\n\n  ]\n}",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"1cf0356880046c0d9ad5f3d2a895b527\"",
+        "ETag": "W/\"3e3bb76b35c17ac287a7b875077db2d3\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=SDBKR0lyRmRESFUvVWdSZWx0YS9xeTBWZmpuRThXRnlDUDUyamZsclJLYjE1akl2OTZKQTFhd3pvNGlVQWZzb2d3cVM3MkZXaGJrb3FPNkZKQkg4T1piMjU5NHBxQkVlUktLczJLUUdpNnM5VHlwSStWdnhHNVZDWW1ValVGc2ErVjNocFVVdEtXUFRGaGFrVWRVRlpxTEJXTy9XeWlZVmpaWXd2ZllSb0orbHdBOWFxZnBibWNISVlXRFk5Z3J1LS03MWJ3aEI4aGRaL3RyRmZXQ3FmRGNBPT0%3D--9498099ee4ca2fd01771988d294660e7be805cca; path=/; HttpOnly",
-        "X-Request-Id": "93c1944d-9111-46db-8963-25f3a99757c5",
-        "X-Runtime": "0.092334",
-        "Content-Length": "56"
+        "Set-Cookie": "_session_id=Tkw2TEkwZDliVXZMeGF0TnZVVFZQTk5ZOEZLdlBhelI0dHg1VkVLWUJIMlRqN2dNZy8xYzhxQ1EvdEZKNGJyVlhMRUdwQ3I5K3BsUm5iR2g1WDZtOTRJc1pvaDBYbEVpdmw2SmRTaFVNRFFYYit6clZGTm5nQ0pyNVNDa0dBS3I1dlpUOUhjaUNqVXM5MmtrOVpzUE5Qd0ZCWWROemVTRUZycUNVY0dycGtldFVsWnB1MGhFa09xM3BqZWg1R2V1LS1wUTR6UDM5NzR6cnhkWERqaE9BdTB3PT0%3D--6beb9daa1fde4600774b232e10c808b24a79e39f; path=/; HttpOnly",
+        "X-Request-Id": "10e937ba-456e-4257-8c72-0b673a479c95",
+        "X-Runtime": "0.097358",
+        "Content-Length": "54"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/admin/cities/1\" -d 'city[name]=Windlertown_3&city[areas_attributes][][id]=1&city[areas_attributes][][_destroy]=1' -X PUT \\\n\t-H \"Access-Token: tKu61b8eXs3jRzVYykkEMw\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: KGer4UthOm1Pb7y_i07QDA\" \\\n\t-H \"Expiry: 1458099897\" \\\n\t-H \"Uid: 7jorge.sawayn@schmitt.org\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/admin/cities/1\" -d 'city[name]=Metzburgh_3&city[areas_attributes][][id]=1&city[areas_attributes][][_destroy]=1' -X PUT \\\n\t-H \"Access-Token: f4EVYNC6vqcEBpvCzK5Esg\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: l1f2Ef7D8lqMlN-PbTno6g\" \\\n\t-H \"Expiry: 1458101507\" \\\n\t-H \"Uid: 7amelie@balistreri.name\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

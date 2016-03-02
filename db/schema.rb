@@ -85,6 +85,7 @@ ActiveRecord::Schema.define(version: 20160127185541) do
     t.boolean  "is_paid",                                    default: false
     t.string   "coupon_code"
     t.text     "feedback"
+    t.string   "source_type"
   end
 
   add_index "orders", ["user_id"], name: "index_orders_on_user_id"

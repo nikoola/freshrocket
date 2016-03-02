@@ -5,48 +5,7 @@
   "description": "update current user's order",
   "explanation": "\t\t\t\twe can delete order's line items and change order.\n\t\t\t\tto delete order's line item, include it's id and _destroy parameters like so.\n\t\t\t\tto update order's line item, include it's id and updated attributes.\n\t\t\t\tto create order's line item, incude it's attributes.\n",
   "parameters": [
-    {
-      "scope": "order",
-      "name": "comment",
-      "description": "comment to the order"
-    },
-    {
-      "scope": "order",
-      "name": "address_id",
-      "description": "Order address"
-    },
-    {
-      "scope": [
-        "order",
-        "line_items_attributes"
-      ],
-      "name": "product_id",
-      "description": "id of a product in a cart"
-    },
-    {
-      "scope": [
-        "order",
-        "line_items_attributes"
-      ],
-      "name": "amount",
-      "description": "amount of this product in a cart"
-    },
-    {
-      "scope": [
-        "order",
-        "delivery_attributes"
-      ],
-      "name": "wanted_date",
-      "description": "date client wants their delivery on"
-    },
-    {
-      "scope": [
-        "order",
-        "delivery_attributes"
-      ],
-      "name": "wanted_time",
-      "description": "['morning', 'noon', 'evening'] time is limited between 7 am to 9 pm only, mention this in frontend"
-    }
+
   ],
   "response_fields": [
 
@@ -57,11 +16,11 @@
       "request_path": "client/orders/3",
       "request_body": "order[comment]=hi&order[line_items_attributes][][id]=7&order[line_items_attributes][][_destroy]=true",
       "request_headers": {
-        "Access-Token": "ZZya7y7xX2FCf-XF708FOw",
+        "Access-Token": "2sFCakQdJub4jRUnGhVPnA",
         "Token-Type": "Bearer",
-        "Client": "W_GMkPeAY8SqLDZLaVdOIg",
-        "Expiry": "1458099913",
-        "Uid": "109esteban@kreiger.net",
+        "Client": "6mqfm7J3SlFRQck2UgvEuw",
+        "Expiry": "1458101523",
+        "Uid": "109weldon@farrell.name",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -71,21 +30,21 @@
       "request_content_type": "application/x-www-form-urlencoded",
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\n  \"id\": 3,\n  \"user_id\": 5,\n  \"status\": \"unconfirmed\",\n  \"created_at\": \"2016-03-02T03:45:13.336Z\",\n  \"comment\": \"hi\",\n  \"pure_product_price\": \"27.0\",\n  \"tax\": \"1.35\",\n  \"delivery_charge\": \"200.0\",\n  \"total_price\": \"228.35\",\n  \"delivery_boy_id\": null,\n  \"wanted_time\": null,\n  \"wanted_date\": null,\n  \"payment_type\": \"cash\",\n  \"is_paid\": false,\n  \"feedback\": null,\n  \"coupon_code\": null,\n  \"line_items\": [\n    {\n      \"id\": 8,\n      \"order_id\": 3,\n      \"product_id\": 8,\n      \"amount\": 3,\n      \"fixed_price\": \"9.0\"\n    },\n    {\n      \"id\": 9,\n      \"order_id\": 3,\n      \"product_id\": 9,\n      \"amount\": 3,\n      \"fixed_price\": \"9.0\"\n    }\n  ],\n  \"address\": {\n    \"id\": 3,\n    \"address\": \"407 Savannah Cliffs\",\n    \"city_id\": 9,\n    \"user_id\": 6\n  }\n}",
+      "response_body": "{\n  \"id\": 3,\n  \"user_id\": 5,\n  \"status\": \"unconfirmed\",\n  \"created_at\": \"2016-03-02T04:12:03.155Z\",\n  \"comment\": \"hi\",\n  \"pure_product_price\": \"27.0\",\n  \"tax\": \"0.0\",\n  \"delivery_charge\": \"200.0\",\n  \"total_price\": \"227.0\",\n  \"delivery_boy_id\": null,\n  \"wanted_time\": null,\n  \"wanted_date\": null,\n  \"payment_type\": \"cash\",\n  \"is_paid\": false,\n  \"feedback\": null,\n  \"coupon_code\": null,\n  \"source_type\": null,\n  \"line_items\": [\n    {\n      \"id\": 8,\n      \"order_id\": 3,\n      \"product_id\": 8,\n      \"amount\": 3,\n      \"fixed_price\": \"9.0\"\n    },\n    {\n      \"id\": 9,\n      \"order_id\": 3,\n      \"product_id\": 9,\n      \"amount\": 3,\n      \"fixed_price\": \"9.0\"\n    }\n  ],\n  \"address\": {\n    \"id\": 3,\n    \"address\": \"4924 Steuber Wall\",\n    \"city_id\": 9,\n    \"user_id\": 6\n  }\n}",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"f065eba2823d192976e5fa239b76c629\"",
+        "ETag": "W/\"cbf36fca49eda313818982fa1ef5a347\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=S2V0U0VlN05oR3lDSGtEelRjK2NHOStOenJiWURlNFhQZ3hJYzRiNDJuMHcyUjFUM0pmcm5GbmIwSmMreFVkLzdwMkVtSXRvaGZwSUpTUzlTTUFUL28yd25Uc3lHVUxGOGZrTklzK2E3bmw3YW54RnU0SjRqMWNoNW0yMEtEM05iWStTQ2JXZ0c3Qm5LdWltRTRvRDM3WUlsZUVpeFJ1dTUyZHBlTDdmMFVZYkVXcW0vQTdvczNJZHA3cVRVY3pGLS0rYzU3UG9MTStDdnVEWlU3UERuY0hRPT0%3D--b45c8b763e08789958483788092085ad7e9ab288; path=/; HttpOnly",
-        "X-Request-Id": "c32c67fc-55bd-4a24-ba66-7df541130ce8",
-        "X-Runtime": "0.086223",
-        "Content-Length": "548"
+        "Set-Cookie": "_session_id=NkJsY1RxSk9xTEhwYm1iN2ZyeW5GVmpLT3NtK3RraVM3VUxJK2hHWW5BYzNjTStBdWRFMTF2WEF6SFpUZ1Uzb3JWMlpzTlYxaWpFWU16MXdlZDdqc0JGM0o3eVVoRUhCWmpPcE9oWEdzNUdESmZrUUROMnIzWnhDVzl2Y3Jxak83YXhIanRSa2tGVyt6N2VmcEloMGhNVms5ZnUrK2Z3R3BHRUNtcnB3elpNUjdvaU45dkl5dWh1NkpXeXVEL1pWLS0zRVJQUjJFNWl4T2lxUUZCMDFPZzJRPT0%3D--fad2642dca18e447ba9967b2e4c0fdacb94e85a0; path=/; HttpOnly",
+        "X-Request-Id": "ba0683c7-a9e4-4016-bf2b-fb85d6d9c9ab",
+        "X-Runtime": "0.085011",
+        "Content-Length": "563"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000client/orders/3\" -d 'order[comment]=hi&order[line_items_attributes][][id]=7&order[line_items_attributes][][_destroy]=true' -X PUT \\\n\t-H \"Access-Token: ZZya7y7xX2FCf-XF708FOw\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: W_GMkPeAY8SqLDZLaVdOIg\" \\\n\t-H \"Expiry: 1458099913\" \\\n\t-H \"Uid: 109esteban@kreiger.net\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000client/orders/3\" -d 'order[comment]=hi&order[line_items_attributes][][id]=7&order[line_items_attributes][][_destroy]=true' -X PUT \\\n\t-H \"Access-Token: 2sFCakQdJub4jRUnGhVPnA\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: 6mqfm7J3SlFRQck2UgvEuw\" \\\n\t-H \"Expiry: 1458101523\" \\\n\t-H \"Uid: 109weldon@farrell.name\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

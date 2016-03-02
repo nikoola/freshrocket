@@ -5,7 +5,60 @@
   "description": "create order",
   "explanation": "confirm and approve right after",
   "parameters": [
-
+    {
+      "scope": "order",
+      "name": "comment",
+      "description": "comment to the order"
+    },
+    {
+      "scope": "order",
+      "required": true,
+      "name": "address_id",
+      "description": ""
+    },
+    {
+      "scope": "order",
+      "name": "feedback",
+      "description": "Order feedback"
+    },
+    {
+      "scope": "order",
+      "name": "source_type",
+      "description": "['web', 'phone', 'mobile']"
+    },
+    {
+      "scope": "order",
+      "name": "coupon_code",
+      "description": "Order coupon code"
+    },
+    {
+      "scope": "order",
+      "name": "wanted_date",
+      "description": "date client wants their delivery on"
+    },
+    {
+      "scope": "order",
+      "name": "wanted_time",
+      "description": "['morning', 'noon', 'evening'] time is limited between 7 am to 9 pm only, mention this in frontend"
+    },
+    {
+      "scope": [
+        "order",
+        "line_items_attributes"
+      ],
+      "required": true,
+      "name": "product_id",
+      "description": "id of a product in a cart"
+    },
+    {
+      "scope": [
+        "order",
+        "line_items_attributes"
+      ],
+      "required": true,
+      "name": "amount",
+      "description": "amount of this product in a cart"
+    }
   ],
   "response_fields": [
 
@@ -16,11 +69,11 @@
       "request_path": "/admin/orders",
       "request_body": "order[address_id]=1&order[user_id]=2&order[line_items_attributes][][product_id]=1&order[line_items_attributes][][amount]=3",
       "request_headers": {
-        "Access-Token": "YrvlRmjN_8jf0CdZGIGC6w",
+        "Access-Token": "-zSJfAowXtZLD4eeEKkcLA",
         "Token-Type": "Bearer",
-        "Client": "yy766UNcb1gRmXk1Gxqirw",
-        "Expiry": "1458099899",
-        "Uid": "28dexter.klein@koeppfeil.info",
+        "Client": "zPeQLYIx0qpxgJfydExpnw",
+        "Expiry": "1458101510",
+        "Uid": "28adalberto_walker@lindgren.com",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -30,21 +83,21 @@
       "request_content_type": "application/x-www-form-urlencoded",
       "response_status": 201,
       "response_status_text": "Created",
-      "response_body": "{\n  \"id\": 1,\n  \"user_id\": 2,\n  \"status\": \"approved\",\n  \"created_at\": \"2016-03-02T03:44:59.809Z\",\n  \"comment\": null,\n  \"pure_product_price\": null,\n  \"tax\": null,\n  \"delivery_charge\": null,\n  \"total_price\": null,\n  \"delivery_boy_id\": null,\n  \"wanted_time\": null,\n  \"wanted_date\": null,\n  \"payment_type\": \"cash\",\n  \"is_paid\": false,\n  \"feedback\": null,\n  \"coupon_code\": null,\n  \"line_items\": [\n    {\n      \"id\": 1,\n      \"order_id\": 1,\n      \"product_id\": 1,\n      \"amount\": 3,\n      \"fixed_price\": null\n    }\n  ],\n  \"address\": {\n    \"id\": 1,\n    \"address\": \"866 Sporer Course\",\n    \"city_id\": 1,\n    \"user_id\": 1\n  }\n}",
+      "response_body": "{\n  \"id\": 1,\n  \"user_id\": 2,\n  \"status\": \"approved\",\n  \"created_at\": \"2016-03-02T04:11:50.346Z\",\n  \"comment\": null,\n  \"pure_product_price\": null,\n  \"tax\": null,\n  \"delivery_charge\": null,\n  \"total_price\": null,\n  \"delivery_boy_id\": null,\n  \"wanted_time\": null,\n  \"wanted_date\": null,\n  \"payment_type\": \"cash\",\n  \"is_paid\": false,\n  \"feedback\": null,\n  \"coupon_code\": null,\n  \"source_type\": null,\n  \"line_items\": [\n    {\n      \"id\": 1,\n      \"order_id\": 1,\n      \"product_id\": 1,\n      \"amount\": 3,\n      \"fixed_price\": null\n    }\n  ],\n  \"address\": {\n    \"id\": 1,\n    \"address\": \"618 Ondricka Isle\",\n    \"city_id\": 1,\n    \"user_id\": 1\n  }\n}",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"337011c9e0453edd41a565586b000d2f\"",
+        "ETag": "W/\"6adb8b8a9f26fecb7418a0608d3310c5\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=YjlZSkpWSjFlbDJVUzZYMC9KaFBQblNkR2ExeTJtWjM5emM4aEM1Ky9PVGNEdEx1UTJUV2ZVL2lVN3lZREljN0Y3cGJ5Sjh4YzJuWlhDS1VNbWdMUGFQMFZWc1JvY25YWWgzd0VIaXk2NVAzSVo1ZUNKMDZQVjgyV0xFSlV3RXNIdmxuamVnbGdUcUw1VXZEOW9rOTRmZDhWTnZFeWdZYTFkdUxVR0VxS3lGYUlWVjRBMWtlNUpRTi9SMXpCRFdTLS11Y2pKYlpGV0lQMVcvYU02eFV2MlZBPT0%3D--57a10cc258101e5ffa38afbba8f8e6e5b14a26b5; path=/; HttpOnly",
-        "X-Request-Id": "bf647edb-479d-4f33-9719-6a1ddd77159a",
-        "X-Runtime": "0.102810",
-        "Content-Length": "463"
+        "Set-Cookie": "_session_id=ZTdxSzdyUlJ2TFhTRlpQMEJmWUZjcTJtMDd6RVg1eTVLMWpIVjZiUmFtbjFZTXdBNERvM0ZnempCMGEraktGdW01VlgrSG1CQlZZNUpEU1FTU3V1QmFldURqMFJUZXNBbS85RXBUZ2ljd2p4ZEN5Wm9Ia0dMTk5oTE93R28zYUVOWlV0N3V5WnZBNC84UmRkUGR6WW10SkVTeVNyWWJRZXJDY21RVE5RMEppRGtCSmJGT0NpWXUxRXFhcERSZjVvLS1hLy95UWNMZUUxa2N1YmR2VUZaenVRPT0%3D--2e88469cf4fba160e6680681bbfc2dd92f71e866; path=/; HttpOnly",
+        "X-Request-Id": "5572a243-f5c8-4f89-8d09-21469b874252",
+        "X-Runtime": "0.103896",
+        "Content-Length": "482"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/admin/orders\" -d 'order[address_id]=1&order[user_id]=2&order[line_items_attributes][][product_id]=1&order[line_items_attributes][][amount]=3' -X POST \\\n\t-H \"Access-Token: YrvlRmjN_8jf0CdZGIGC6w\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: yy766UNcb1gRmXk1Gxqirw\" \\\n\t-H \"Expiry: 1458099899\" \\\n\t-H \"Uid: 28dexter.klein@koeppfeil.info\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/admin/orders\" -d 'order[address_id]=1&order[user_id]=2&order[line_items_attributes][][product_id]=1&order[line_items_attributes][][amount]=3' -X POST \\\n\t-H \"Access-Token: -zSJfAowXtZLD4eeEKkcLA\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: zPeQLYIx0qpxgJfydExpnw\" \\\n\t-H \"Expiry: 1458101510\" \\\n\t-H \"Uid: 28adalberto_walker@lindgren.com\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

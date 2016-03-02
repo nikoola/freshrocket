@@ -22,7 +22,7 @@ resource 'admin: categories', type: :request do
 			expect(json).to include :id, :name
 		end
 
-		example 'create category: invalid params' do
+		example 'create category: invalid params', document: false do
 			do_request({ category: {name: nil} })
 
 			expect(status).to eq(422)
@@ -46,7 +46,7 @@ resource 'admin: categories', type: :request do
 		end
 
 
-		it 'update category: with invalid params' do
+		it 'update category: with invalid params', document: false do
 			do_request({ id: category.id, category: {name: nil} })
 
 			expect(status).to eq(422)

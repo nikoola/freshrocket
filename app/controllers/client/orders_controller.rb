@@ -72,10 +72,11 @@ module Client
 
 			def order_params
 				params.require(:order).permit([
+					:source_type,
 					:address_id,
-					:comment, 
-					:wanted_date, :wanted_time,
 					:coupon_code,
+					:feedback,
+					:comment, :wanted_date, :wanted_time,
 					line_items_attributes: [:_destroy, :id, :amount, :product_id]
 				])
 

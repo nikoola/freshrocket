@@ -72,7 +72,7 @@ resource 'admin: users', type: :request do
 			parameter :how_did_you_hear_about_us
 		end
 
-		example 'by admin, with valid params: user created' do
+		example 'create user' do
 			explanation 'create user from the admin side, and send them their password by sms'
 
 			do_request user: FactoryGirl.attributes_for(:user)
@@ -80,7 +80,7 @@ resource 'admin: users', type: :request do
 			expect(json.keys).to include :id, :provider, :uid, :email, :phone, :created_at
 		end
 
-		example 'by admin, with invalid params: errors returned' do
+		example 'by admin, with invalid params: errors returned', document: false do
 			do_request user: FactoryGirl.attributes_for(:user, phone: nil)
 
 			expect(status).to eq(422)

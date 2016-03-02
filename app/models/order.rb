@@ -82,6 +82,11 @@ class Order < ActiveRecord::Base
 		allow_blank: true, 
 		message: "%{value} is not permitted. can be #{PAYMENT_TYPES}"
 
+	SOURCE_TYPES = ['web', 'phone', 'mobile']
+	validates_inclusion_of :source_type, in: SOURCE_TYPES, 
+		allow_blank: true, 
+		message: "%{value} is not permitted. can be #{SOURCE_TYPES}"
+
 
 	validate :everything_is_from_the_same_city?
 

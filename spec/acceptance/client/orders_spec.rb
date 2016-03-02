@@ -53,19 +53,18 @@ resource 'client: orders', type: :request do
 
 	post 'client/orders' do
 		with_options :scope => :order do
-			parameter :comment,       'comment to the order'
-			parameter :address_id,    '', required: true
+			parameter :comment,     'comment to the order'
+			parameter :address_id,  '', required: true
 			parameter :feedback
+			parameter :source_type, "['web', 'phone', 'mobile']"
+			parameter :coupon_code
+			parameter :wanted_date, 'date client wants their delivery on'
+			parameter :wanted_time, "['morning', 'noon', 'evening'] time is limited between 7 am to 9 pm only, mention this in frontend"
 		end
 
 		with_options :scope => [:order, :line_items_attributes], :required => true do
 			parameter :product_id, 'id of a product in a cart'
 			parameter :amount, 'amount of this product in a cart'
-		end
-
-		with_options :scope => [:order, :delivery_attributes] do
-			parameter :wanted_date, 'date client wants their delivery on'
-			parameter :wanted_time, "['morning', 'noon', 'evening'] time is limited between 7 am to 9 pm only, mention this in frontend"
 		end
 
 		example "create current user's order" do
@@ -87,21 +86,6 @@ resource 'client: orders', type: :request do
 	end
 
 	put 'client/orders/:id' do
-
-		with_options :scope => :order do
-			parameter :comment, 'comment to the order'
-			parameter :address_id
-		end
-
-		with_options :scope => [:order, :line_items_attributes] do
-			parameter :product_id, 'id of a product in a cart'
-			parameter :amount, 'amount of this product in a cart'
-		end
-
-		with_options :scope => [:order, :delivery_attributes] do
-			parameter :wanted_date, 'date client wants their delivery on'
-			parameter :wanted_time, "['morning', 'noon', 'evening'] time is limited between 7 am to 9 pm only, mention this in frontend"
-		end
 
 		let!(:line_item_id) { user_order.line_items.first.id }
 
@@ -133,7 +117,7 @@ resource 'client: orders', type: :request do
 			expect(json).to include(comment: 'hi')
 		end
 
-		it "update current user's order: invalid parameters" do
+		it "update current user's order: invalid parameters", document: false do
 			explanation "order must have at least one line item"
 
 			do_request({ 

@@ -86,6 +86,20 @@ resource 'admin: orders', type: :request do
 	end
 
 	post '/admin/orders' do
+		with_options :scope => :order do
+			parameter :comment,     'comment to the order'
+			parameter :address_id,  '', required: true
+			parameter :feedback
+			parameter :source_type, "['web', 'phone', 'mobile']"
+			parameter :coupon_code
+			parameter :wanted_date, 'date client wants their delivery on'
+			parameter :wanted_time, "['morning', 'noon', 'evening'] time is limited between 7 am to 9 pm only, mention this in frontend"
+		end
+
+		with_options :scope => [:order, :line_items_attributes], :required => true do
+			parameter :product_id, 'id of a product in a cart'
+			parameter :amount, 'amount of this product in a cart'
+		end
 
 		example 'create order' do
 			explanation 'confirm and approve right after'

@@ -47,13 +47,13 @@
     {
       "request_method": "POST",
       "request_path": "/auth",
-      "request_body": "email=131deonte_volkman%40pourosmedhurst.info&password=secrety_bickety&password_confirmation=secrety_bickety&first_name=Raoul&last_name=Hodkiewicz&phone=%2B79172343270",
+      "request_body": "email=131rudolph%40funk.info&password=secrety_bickety&password_confirmation=secrety_bickety&first_name=Antwan&last_name=Jerde&phone=%2B79172343270",
       "request_headers": {
-        "Access-Token": "wjd1_QInjLsGELR_knAH5g",
+        "Access-Token": "qGPGuzHtnOyfAEPWNFwW4A",
         "Token-Type": "Bearer",
-        "Client": "BP7tqqCX6sWuKerhDeGM5Q",
-        "Expiry": "1458099916",
-        "Uid": "132nelson@wilkinson.biz",
+        "Client": "HC2-ierY_JjQsWlWgZUrWA",
+        "Expiry": "1458101525",
+        "Uid": "132dedric_little@dickitreutel.org",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -63,25 +63,25 @@
       "request_content_type": "application/x-www-form-urlencoded",
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\n  \"status\": \"success\",\n  \"data\": {\n    \"id\": 6,\n    \"first_name\": \"Raoul\",\n    \"last_name\": \"Hodkiewicz\",\n    \"email\": \"131deonte_volkman@pourosmedhurst.info\",\n    \"provider\": \"email\",\n    \"uid\": \"131deonte_volkman@pourosmedhurst.info\",\n    \"phone\": \"+79172343270\",\n    \"verification_code\": null,\n    \"is_verified\": false,\n    \"created_at\": \"2016-03-02T03:45:16.048Z\",\n    \"updated_at\": \"2016-03-02T03:45:16.194Z\",\n    \"how_did_you_hear_about_us\": null\n  }\n}",
+      "response_body": "{\n  \"status\": \"success\",\n  \"data\": {\n    \"id\": 6,\n    \"first_name\": \"Antwan\",\n    \"last_name\": \"Jerde\",\n    \"email\": \"131rudolph@funk.info\",\n    \"provider\": \"email\",\n    \"uid\": \"131rudolph@funk.info\",\n    \"phone\": \"+79172343270\",\n    \"verification_code\": null,\n    \"is_verified\": false,\n    \"created_at\": \"2016-03-02T04:12:05.529Z\",\n    \"updated_at\": \"2016-03-02T04:12:05.672Z\",\n    \"how_did_you_hear_about_us\": null\n  }\n}",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
-        "access-token": "NoHsLeIZHkOICNwXq4MzNg",
+        "access-token": "6ewKGmEDIxNOT-65BtuXjg",
         "token-type": "Bearer",
-        "client": "RGJrhAHLHOLkFuKuZHjBbA",
-        "expiry": "1458099916",
-        "uid": "131deonte_volkman@pourosmedhurst.info",
+        "client": "BJxVnU0vTjFBgseWKqh3EA",
+        "expiry": "1458101525",
+        "uid": "131rudolph@funk.info",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"7464b25b0717bd909682ab8b79373696\"",
+        "ETag": "W/\"1c847bf4ee52f26932b0a33e0bc0d997\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "X-Request-Id": "82f7d83f-0c34-4a5b-8a37-21b9a5ea0443",
-        "X-Runtime": "0.177902",
-        "Content-Length": "376"
+        "X-Request-Id": "f39514bf-ab2c-4a05-9e25-63951801af5e",
+        "X-Runtime": "0.160299",
+        "Content-Length": "338"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/auth\" -d 'email=131deonte_volkman%40pourosmedhurst.info&password=secrety_bickety&password_confirmation=secrety_bickety&first_name=Raoul&last_name=Hodkiewicz&phone=%2B79172343270' -X POST \\\n\t-H \"Access-Token: wjd1_QInjLsGELR_knAH5g\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: BP7tqqCX6sWuKerhDeGM5Q\" \\\n\t-H \"Expiry: 1458099916\" \\\n\t-H \"Uid: 132nelson@wilkinson.biz\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/auth\" -d 'email=131rudolph%40funk.info&password=secrety_bickety&password_confirmation=secrety_bickety&first_name=Antwan&last_name=Jerde&phone=%2B79172343270' -X POST \\\n\t-H \"Access-Token: qGPGuzHtnOyfAEPWNFwW4A\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: HC2-ierY_JjQsWlWgZUrWA\" \\\n\t-H \"Expiry: 1458101525\" \\\n\t-H \"Uid: 132dedric_little@dickitreutel.org\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

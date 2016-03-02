@@ -5,7 +5,8 @@ class OrderSerializer < ActiveModel::Serializer
 		:wanted_time, :wanted_date,
 		:payment_type, :is_paid,
 		:feedback, 
-		:coupon_code
+		:coupon_code,
+		:source_type
 
 
 

@@ -19,11 +19,11 @@
       "request_path": "/client/addresses?active=0",
       "request_body": null,
       "request_headers": {
-        "Access-Token": "5A4pG6oBG5pvLD8dS4082A",
+        "Access-Token": "G8I3sbgoZSs-h2IhIVXU6g",
         "Token-Type": "Bearer",
-        "Client": "2BFtzsk5rcyfONKvD2C6Mw",
-        "Expiry": "1458099906",
-        "Uid": "87luciano@bergstrom.info",
+        "Client": "TMBim7Z-ctYr2znWrwdBkA",
+        "Expiry": "1458101517",
+        "Uid": "87justice@wisokyherman.net",
         "Host": "example.org",
         "Cookie": ""
       },
@@ -33,21 +33,21 @@
       "request_content_type": null,
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "[\n  {\n    \"id\": 1,\n    \"address\": \"40528 Lilly Lakes\",\n    \"city_id\": 1,\n    \"user_id\": 1\n  },\n  {\n    \"id\": 2,\n    \"address\": \"19556 Farrell Creek\",\n    \"city_id\": 2,\n    \"user_id\": 1\n  },\n  {\n    \"id\": 3,\n    \"address\": \"5346 Dorris Meadow\",\n    \"city_id\": 3,\n    \"user_id\": 1\n  }\n]",
+      "response_body": "[\n  {\n    \"id\": 1,\n    \"address\": \"757 Johnson Corner\",\n    \"city_id\": 1,\n    \"user_id\": 1\n  },\n  {\n    \"id\": 2,\n    \"address\": \"78648 Merlin Oval\",\n    \"city_id\": 2,\n    \"user_id\": 1\n  },\n  {\n    \"id\": 3,\n    \"address\": \"36950 Bogisich Harbors\",\n    \"city_id\": 3,\n    \"user_id\": 1\n  }\n]",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"530d7276534c5e1ca43bfe008e28083a\"",
+        "ETag": "W/\"a345505002ff01858542014bfb82027b\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=QmVReXJVVjllWk1lckdZdjAzci91bmRZL2RxZHVzOE9tVTFWMitCSUVta3VTMldlOXVmcVpaR0RnTXBsRUdRU3lYc016TU9iZ2F0QzRybVh6T1l6N1pET0dieTAzOUVZeGlmWUlVNG1yc24zZzY3NCtrZW5HVWNtYXh3WXlMaDNmSURkS0F0a2hJV3lIUUtjY2hJMFRHSkpuN2FWK2tSNTJDR29SZGIrT1NuTGFkNGVNcFZndlI2U3VlUmV5akwyLS1hMDBiTDVCQURlcExBNWU0OGlNY09RPT0%3D--eb0a568f7be1b25f4d96bd6a14200e83daea70c1; path=/; HttpOnly",
-        "X-Request-Id": "7e432b57-f4cf-4d74-92ed-d791683fda55",
-        "X-Runtime": "0.090399",
-        "Content-Length": "193"
+        "Set-Cookie": "_session_id=TmFyWEZ0aUVRaTREakxqZjZQWkxORGo0eCtMenV5WTVHQ1RmSHV4OHVxbEpDd0VGemNWN2dRUGFsZFVhWWFibGhEWjBnM0Z2RWlDTkRFRHFpenMyK05KcXZORHI3MEM0aElEeWJLNXRLV3BYVFYwT3J3SWlSa0h3TEE1SjNhZkZmVlZpeXF2bUVSNzAwY3NIVGdIZGdKT2hoRmRmeEZiOXBzR1FPQ0N1Ny9HZUFJcGUrdXRia05MUENSWXRsQis4LS1iRHQ3Y0p1dTRiNEpCV3p2SnFBNGdnPT0%3D--a5ff08a837f557ee7c2f1c26a960640fc5c279f4; path=/; HttpOnly",
+        "X-Request-Id": "771fb128-c533-481e-8a3b-ab8ebed9a025",
+        "X-Runtime": "0.091646",
+        "Content-Length": "196"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/client/addresses?active=0\" -X GET \\\n\t-H \"Access-Token: 5A4pG6oBG5pvLD8dS4082A\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: 2BFtzsk5rcyfONKvD2C6Mw\" \\\n\t-H \"Expiry: 1458099906\" \\\n\t-H \"Uid: 87luciano@bergstrom.info\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/client/addresses?active=0\" -X GET \\\n\t-H \"Access-Token: G8I3sbgoZSs-h2IhIVXU6g\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: TMBim7Z-ctYr2znWrwdBkA\" \\\n\t-H \"Expiry: 1458101517\" \\\n\t-H \"Uid: 87justice@wisokyherman.net\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

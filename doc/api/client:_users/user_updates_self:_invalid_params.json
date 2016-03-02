@@ -16,11 +16,11 @@
       "request_path": "/auth",
       "request_body": "phone",
       "request_headers": {
-        "Access-Token": "R1jo1lJNoW1JAuPQ4LtRzw",
+        "Access-Token": "9nHg4U6G2DKIzrKq6q_EIg",
         "Token-Type": "Bearer",
-        "Client": "wwjNCQpUIrspMySUFidbWA",
-        "Expiry": "1458099916",
-        "Uid": "136jaiden@watsica.info",
+        "Client": "La4oKvH52ON9RvGBFJq7LA",
+        "Expiry": "1458101526",
+        "Uid": "136lionel@carrollmcclure.com",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -37,13 +37,13 @@
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "application/json; charset=utf-8",
         "Cache-Control": "no-cache",
-        "Set-Cookie": "_session_id=REh1SHNEcGdrWm1rVFlKMkdNOE5wNWJ4ajVMNHo0MDhyS1RiNmkyZC9GdTJPaXczNlo3VXMrVU41ZVhVRHU0NklaOFl5SU5nTVUzZ2NPT3lkUzVSa2o0TGZFVEhCcGo4anVWYXRIWDBWejZGN0JYL3Z0YllHdEpKVFdkWnhGK0MwYWt6SmpmMUVoaXF0L3B1bEpTUC8xd1RnTjg3NWJDUkZpaHpmZGF2b2JpR1d5YlRNY295ZFNickEzRjkwbHVaLS0zTUREcS9FQ1Z4dzdIY2ZFOFlFc1JnPT0%3D--ed7b04bba2cfa7049d74cfcf80084d89a87d6aa4; path=/; HttpOnly",
-        "X-Request-Id": "8a93ea36-3c1e-4ef7-bcbb-6c66e9aa9beb",
-        "X-Runtime": "0.073162",
+        "Set-Cookie": "_session_id=bGQ5MTJrTDUxMXBZaklmQVBYbENNbkoxQTJyQ3VzSFpvRy9lcmF2SFQzMnZMbmNwd09lKzFBdVJ1WWh0Q25Ud09vWGxKTVdtaDYzUENmUG96VEVTQVJtSW1KSTdTMjFNUk9lQTM2N3ZKMUVNUUhEMXVUd0YxbGpwbzVMcGwvd3l2eE80Z0dBZC9hVVhJdDZMeUdkaHhaandQdS9IMU95QVU5QngwMiticUo3Ym1RUHpja1pXT2VwS0ZMYWZrZU5iLS0yQS80eFNDejRwNkR4V2psNXMzUlJBPT0%3D--2394eabde60fec471f66920063d2d208890eea76; path=/; HttpOnly",
+        "X-Request-Id": "6acc6fef-3f49-4c42-ad37-1da5f78106b1",
+        "X-Runtime": "0.072734",
         "Content-Length": "129"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/auth\" -d 'phone' -X PUT \\\n\t-H \"Access-Token: R1jo1lJNoW1JAuPQ4LtRzw\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: wwjNCQpUIrspMySUFidbWA\" \\\n\t-H \"Expiry: 1458099916\" \\\n\t-H \"Uid: 136jaiden@watsica.info\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/auth\" -d 'phone' -X PUT \\\n\t-H \"Access-Token: 9nHg4U6G2DKIzrKq6q_EIg\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: La4oKvH52ON9RvGBFJq7LA\" \\\n\t-H \"Expiry: 1458101526\" \\\n\t-H \"Uid: 136lionel@carrollmcclure.com\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

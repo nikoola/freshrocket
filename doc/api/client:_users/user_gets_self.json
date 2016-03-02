@@ -16,11 +16,11 @@
       "request_path": "/client",
       "request_body": null,
       "request_headers": {
-        "Access-Token": "5-2rK2lH8U_7XK2QDnI2kA",
+        "Access-Token": "B4hg3eUfcz0NU91qSUCjPg",
         "Token-Type": "Bearer",
-        "Client": "kNuS9mbBqeSxk7kGvqWhCQ",
-        "Expiry": "1458099916",
-        "Uid": "138neoma@vandervort.biz",
+        "Client": "hiZ1hv-zdq9K7tXXpUSlxg",
+        "Expiry": "1458101526",
+        "Uid": "138tevin_oberbrunner@watsicarobel.name",
         "Host": "example.org",
         "Cookie": ""
       },
@@ -29,21 +29,21 @@
       "request_content_type": null,
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\n  \"id\": 5,\n  \"first_name\": \"Alanis\",\n  \"last_name\": \"Wolf\",\n  \"email\": \"138neoma@vandervort.biz\",\n  \"phone\": \"+79176966341\",\n  \"is_verified\": false,\n  \"provider\": \"email\",\n  \"uid\": \"138neoma@vandervort.biz\",\n  \"created_at\": \"2016-03-02T03:45:16.802Z\",\n  \"abilities\": {\n    \"orders\": 0,\n    \"products\": 0,\n    \"users\": 0,\n    \"categories\": 0,\n    \"coupons\": 0,\n    \"settings\": 0,\n    \"cities\": 0,\n    \"delivery_boy\": 0\n  }\n}",
+      "response_body": "{\n  \"id\": 5,\n  \"first_name\": \"Mariah\",\n  \"last_name\": \"Walker\",\n  \"email\": \"138tevin_oberbrunner@watsicarobel.name\",\n  \"phone\": \"+79171970291\",\n  \"is_verified\": false,\n  \"provider\": \"email\",\n  \"uid\": \"138tevin_oberbrunner@watsicarobel.name\",\n  \"created_at\": \"2016-03-02T04:12:06.287Z\",\n  \"abilities\": {\n    \"orders\": 0,\n    \"products\": 0,\n    \"users\": 0,\n    \"categories\": 0,\n    \"coupons\": 0,\n    \"settings\": 0,\n    \"cities\": 0,\n    \"delivery_boy\": 0\n  }\n}",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"fb133ef35d8e21db0801535292e99d6a\"",
+        "ETag": "W/\"44f48e475592b6b46c2e8e155e1bb2a6\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=ZWVMSWFkQmdZcXgyR3NtaXZBRGNRUEs2cUhjcU9XeFBLeWhNajlZa1M4Mi9JSUp4REwvQlpacmYzQlJFYTFnZFpxUzAyVDFSVERYbXRQS0VWbTY1clF3bi9FRVMvSzZOOEpDSlFHWGI1enp5WkFKRThBd3FKR0lWWE1QWmluSk9VWHV1dWxLTVJsT1JMWUNLRG9BQmE0RVZoTkpRN09YOGk1VHFBY0dZb2VjaC9xekN3TUFsTnQ2YTJEaDVyYTdjLS03N0tveHg3TTMzOVZlVTBKeFB1dm9RPT0%3D--204ab4b2a3055a4a16facbfb4440c57d6aac8bc3; path=/; HttpOnly",
-        "X-Request-Id": "f6d3b20b-c7cc-498c-b2d2-d70525049ee5",
-        "X-Runtime": "0.082730",
-        "Content-Length": "333"
+        "Set-Cookie": "_session_id=TzFTS3BMZW5iQTNRS2JNem9WSVBwUE9sRDJ5d2J1dlk0cWMrN2RHb3pvWmtpZjVoRXdSZ2FIS3hwY2cydUgzb0dvb3lNN3BTZUNVcHlTN1RvT3NLdlZ1VnZXdVlWSHNZZk9xVEU2bHRJY2E0SElWVzRZZCs1NS9UT0V5aktiK3FIVk1IcFJ2aDkzTUtjaU5FVjdxdEZWcWhFTVVNbEdncVpuVWtGMXE3eFlvUGhyWklwSkxXQm8rR3RrdXlqMTFkLS1wcXRoYUFqWlRpcy9IOGRQWnRSUS93PT0%3D--d675d59a4007db7d13f6653e3476d86b602297a4; path=/; HttpOnly",
+        "X-Request-Id": "49d4cc6a-6ecb-47a1-bbf0-30d964155c89",
+        "X-Runtime": "0.083069",
+        "Content-Length": "365"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/client\" -X GET \\\n\t-H \"Access-Token: 5-2rK2lH8U_7XK2QDnI2kA\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: kNuS9mbBqeSxk7kGvqWhCQ\" \\\n\t-H \"Expiry: 1458099916\" \\\n\t-H \"Uid: 138neoma@vandervort.biz\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/client\" -X GET \\\n\t-H \"Access-Token: B4hg3eUfcz0NU91qSUCjPg\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: hiZ1hv-zdq9K7tXXpUSlxg\" \\\n\t-H \"Expiry: 1458101526\" \\\n\t-H \"Uid: 138tevin_oberbrunner@watsicarobel.name\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

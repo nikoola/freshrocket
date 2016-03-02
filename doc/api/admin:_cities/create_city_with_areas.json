@@ -39,13 +39,13 @@
     {
       "request_method": "POST",
       "request_path": "/admin/cities",
-      "request_body": "city[name]=South+Kurt_1&city[areas_attributes][][name]=hi",
+      "request_body": "city[name]=Felicitatown_1&city[areas_attributes][][name]=hi",
       "request_headers": {
-        "Access-Token": "d_mGbVsJcDCfVmneJ3cbLA",
+        "Access-Token": "9XJuRQB62rixP5_D90ENmw",
         "Token-Type": "Bearer",
-        "Client": "n1_qNeqtQfRSUGixIasDYA",
-        "Expiry": "1458099896",
-        "Uid": "6aniyah@will.name",
+        "Client": "Gr3JFtHjlV3w69VXx9W3aw",
+        "Expiry": "1458101507",
+        "Uid": "6zaria_robel@dachschaden.info",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -55,22 +55,22 @@
       "request_content_type": "application/x-www-form-urlencoded",
       "response_status": 201,
       "response_status_text": "Created",
-      "response_body": "{\n  \"id\": 1,\n  \"name\": \"South Kurt_1\",\n  \"active\": true,\n  \"areas\": [\n    {\n      \"id\": 1,\n      \"name\": \"hi\"\n    }\n  ]\n}",
+      "response_body": "{\n  \"id\": 1,\n  \"name\": \"Felicitatown_1\",\n  \"active\": true,\n  \"areas\": [\n    {\n      \"id\": 1,\n      \"name\": \"hi\"\n    }\n  ]\n}",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
         "Location": "http://example.org/cities/1",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"59d4c9b93762e617fde364c644a538fb\"",
+        "ETag": "W/\"d6322547b97be60fb85c97dd6bf95c76\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=cXRpOVBpa00wdGhWWlVVQmd4MmYrUHZpWGdDcnlDSjJJN1hnUWZScWt3dWsyYm9GMHlUU09URlZyWk5BVFlIaFNaTE1WaGZlejBHSDlDY2N2cUE2czVUVGY4OUhpaTBCNDFQQjNiclptejZBNG1SZ2NhOXd4a1ZrVkY0a1djSHo4by9SMzQySWlzakYvcFdnOFc0ZzRHVjBGMU1MN29yVmdQY1JSZWMrcU5CMzc0c3JuMlRmQ0N6c0VwMWlTdGNuLS03RWUvRlZZZkJqTTViQjZrMUFTWjZBPT0%3D--7418a448927d27f4e03d6073d6f4ee2dbb63b38c; path=/; HttpOnly",
-        "X-Request-Id": "da6de901-7c5e-4777-96a3-f9ad32bdc70a",
-        "X-Runtime": "0.116218",
-        "Content-Length": "75"
+        "Set-Cookie": "_session_id=dkNscXdjY0dteFVya29DL3VDT1AyQmN1cTJ1SERXQWs3OHdWMXg5QUlDWjFaZTNaSWloazBKdmNWMWtXeEt6aGg0RUh5ZG1DaWZQS3NPTHRHZys1Z1MxZDlYaU11elJKbWNzZjV5UEhxL1Z5N2RqaUY3Z1VZYmVkQTNGMjQ0aDZHS2NsVWtFVXZ3Nk9mV1FiTVRMVUZEVVZJNU5leG01WXZmbkttSzN1dktJeUJ3WWtPS0hCYjd0NGVlZ09WR1VoLS1VREF0YnZ5dWRwRXc0Ti82OHBCVVB3PT0%3D--927b75a0b3949c0f2787a266f74248ac741d0292; path=/; HttpOnly",
+        "X-Request-Id": "7f101d04-66e4-417f-9f6e-c8eba3d7f0a8",
+        "X-Runtime": "0.110204",
+        "Content-Length": "77"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/admin/cities\" -d 'city[name]=South+Kurt_1&city[areas_attributes][][name]=hi' -X POST \\\n\t-H \"Access-Token: d_mGbVsJcDCfVmneJ3cbLA\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: n1_qNeqtQfRSUGixIasDYA\" \\\n\t-H \"Expiry: 1458099896\" \\\n\t-H \"Uid: 6aniyah@will.name\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/admin/cities\" -d 'city[name]=Felicitatown_1&city[areas_attributes][][name]=hi' -X POST \\\n\t-H \"Access-Token: 9XJuRQB62rixP5_D90ENmw\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: Gr3JFtHjlV3w69VXx9W3aw\" \\\n\t-H \"Expiry: 1458101507\" \\\n\t-H \"Uid: 6zaria_robel@dachschaden.info\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

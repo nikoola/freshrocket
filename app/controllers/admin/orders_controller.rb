@@ -59,6 +59,7 @@ module Admin
 
 			def order_params
 				params.require(:order).permit([
+					:source_type,
 					:delivery_boy_id, :user_id, :address_id,
 					:coupon_code,
 					:feedback,

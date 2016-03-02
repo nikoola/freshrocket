@@ -16,11 +16,11 @@
       "request_path": "/admin/cities/1",
       "request_body": null,
       "request_headers": {
-        "Access-Token": "YbVOWt1KTG_ijsKYSpbrkw",
+        "Access-Token": "vdJaoQNGZ_godJHG0BTXnQ",
         "Token-Type": "Bearer",
-        "Client": "CgqsunpjFdxbY6ZfpiXAug",
-        "Expiry": "1458099897",
-        "Uid": "8amir@wiegand.biz",
+        "Client": "0PogmWkrmz_xl-w76hqc0w",
+        "Expiry": "1458101507",
+        "Uid": "8furman@kautzer.com",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -37,13 +37,13 @@
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "text/html",
         "Cache-Control": "no-cache",
-        "Set-Cookie": "_session_id=ZmZENmVXSllVeEtBcHhrZlRneEQ0bW5oMWxCV2F4UUNVUGluY2o0YmpIVTk2SUZTb3NIQnUyNEtoemRNVFRpQXExYWI2cm5LcmNmS1VvK1IzM0RSRkcrSWFVMllTcUo3UnRlcEdJbktMcnphNU5Hay9KbW03N1dIRGxBbFFtOHhjK2NjRUFNZk15SjYzeDdTUDJPOVpDajNOMVJTOUFIWFVaZTcvWS9zcXBkLzhYdFBLSUxub1V4bUN0MXV1ZmVXLS1DTDdFOTJsUUczVWlMWlVvV05CMit3PT0%3D--305720643145cb47cd3bcd122795678719b6d169; path=/; HttpOnly",
-        "X-Request-Id": "9bc34676-435e-4478-8e6f-efcbf16fd52d",
-        "X-Runtime": "0.098619",
+        "Set-Cookie": "_session_id=RE9WWkdJRmU5b1JEektVWTJwMjNBeWpEVE5VU3pXV0Y5RVFXQU1udEVBQ1hVUjZka20ySWVobFhveXE4NWU3aTIwdVpGNU9sSkVOM0Y4REhQR0lvRjZESFRXRFpvZWk3VGNkdzNtU1hucU9wSFRQT2ZaZjZ6REpzYnJEZEliZHVCb1B3TURJRXpuN3VlTG9sM3J3N2NWbXNVZjVlM28yekpXM1I0eGZ4aTY0OXc5RXMya0EvbHpPbmFXSG5hUHNWLS15bTErV1V6S3hVdXY0S0dGZ1ZZRG13PT0%3D--b7b6aca06d809df1a29f40843c802e5b984ea5d4; path=/; HttpOnly",
+        "X-Request-Id": "e70960da-abfe-45e9-b6c7-6131e0134e5c",
+        "X-Runtime": "0.097571",
         "Content-Length": "0"
       },
       "response_content_type": "text/html",
-      "curl": "curl \"http://localhost:3000/admin/cities/1\" -d '' -X DELETE \\\n\t-H \"Access-Token: YbVOWt1KTG_ijsKYSpbrkw\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: CgqsunpjFdxbY6ZfpiXAug\" \\\n\t-H \"Expiry: 1458099897\" \\\n\t-H \"Uid: 8amir@wiegand.biz\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/admin/cities/1\" -d '' -X DELETE \\\n\t-H \"Access-Token: vdJaoQNGZ_godJHG0BTXnQ\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: 0PogmWkrmz_xl-w76hqc0w\" \\\n\t-H \"Expiry: 1458101507\" \\\n\t-H \"Uid: 8furman@kautzer.com\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

@@ -16,11 +16,11 @@
       "request_path": "/admin/users/1",
       "request_body": "user[email]=hi%40hi.hey&user[phone]=%2B79177878978",
       "request_headers": {
-        "Access-Token": "z7ySetJM0reTOc--3QHMmg",
+        "Access-Token": "BsoULe1Xe6zjfXptZTwP9A",
         "Token-Type": "Bearer",
-        "Client": "7fPilBiEmHhSXPCa3PvJMQ",
-        "Expiry": "1458099904",
-        "Uid": "73eliza.gutmann@grady.net",
+        "Client": "UgMdelFqEg44iwN54yCHvQ",
+        "Expiry": "1458101515",
+        "Uid": "73preston.feest@pacocha.org",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -30,21 +30,21 @@
       "request_content_type": "application/x-www-form-urlencoded",
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\n  \"id\": 1,\n  \"first_name\": \"Leland\",\n  \"last_name\": \"Balistreri\",\n  \"email\": \"hi@hi.hey\",\n  \"phone\": \"+79177878978\",\n  \"is_verified\": false,\n  \"provider\": \"email\",\n  \"uid\": \"hi@hi.hey\",\n  \"created_at\": \"2016-03-02T03:45:04.843Z\",\n  \"abilities\": {\n    \"orders\": 0,\n    \"products\": 0,\n    \"users\": 0,\n    \"categories\": 1,\n    \"coupons\": 0,\n    \"settings\": 0,\n    \"cities\": 0,\n    \"delivery_boy\": 0\n  }\n}",
+      "response_body": "{\n  \"id\": 1,\n  \"first_name\": \"Delta\",\n  \"last_name\": \"Blick\",\n  \"email\": \"hi@hi.hey\",\n  \"phone\": \"+79177878978\",\n  \"is_verified\": false,\n  \"provider\": \"email\",\n  \"uid\": \"hi@hi.hey\",\n  \"created_at\": \"2016-03-02T04:11:55.507Z\",\n  \"abilities\": {\n    \"orders\": 0,\n    \"products\": 0,\n    \"users\": 0,\n    \"categories\": 1,\n    \"coupons\": 0,\n    \"settings\": 0,\n    \"cities\": 0,\n    \"delivery_boy\": 0\n  }\n}",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"16de4454df6f2e0ded7a48a11d95fc42\"",
+        "ETag": "W/\"2c64243d78a9547becfe1f2e7f7dee91\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=cnVIVFJoWFpBdFgvUU9tQ2VPK1pMRkxQdDFaK2JPOVM2UW9DbU9NWFhiWFRkaDAxN3NtaHMvMFY3V0xYQkJHbDFESXJ2Ymc4RUdoVmhFMmE5SW1hRklTOUZhL2Y0Ry91L1FaVnFmSGhMZ2kwM1IvRldnV3RPV1F6L3dKa0sxKzd3c1QwN1ova1piYVY2elEraktmRDYrZEszZUM0TzNXNU91b29UMW84RGhSMXhpUTQ5VHdWRnBQSWd4K3hUNVVZLS1qVDVrY3YvcXJzbW9MTktwbVpOcEdRPT0%3D--401787d44bb23559b990fdc8ad10e7d0fb4c7893; path=/; HttpOnly",
-        "X-Request-Id": "cb497cd0-945a-49a9-9452-0fe3f41cc07a",
-        "X-Runtime": "0.093397",
-        "Content-Length": "311"
+        "Set-Cookie": "_session_id=OFhGZnhnSVYwUGJFMVk3Y0pia1B4UXpoR2hCQW5PYWtidUlEbjZuc2UvbVAzWVgvQnF6ejI1SWdYOG1qQnVza2I0eDBqVzdtdGlPOTRDb09vMktjdURuL1U4MEhudXorV1VuQVRhSG92ZCswRktZM3hEMlZZckpRbTRvQkUxd1hVTkQ5SGN6Qk9ja29qdkljMDRCV0ZqTWh3bVhiZklPL0w3c1VZeDFmaDBWbzhnTFFla0FEdFBXajN1MnRrdTBkLS1vZjUrT2dnS0xjUXV2WnZTeG80OEdBPT0%3D--b979df1ef7aacfaf09382de5b540e45835c8142f; path=/; HttpOnly",
+        "X-Request-Id": "f8c48532-06a5-4e75-8622-92ca34f85a95",
+        "X-Runtime": "0.086402",
+        "Content-Length": "305"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/admin/users/1\" -d 'user[email]=hi%40hi.hey&user[phone]=%2B79177878978' -X PUT \\\n\t-H \"Access-Token: z7ySetJM0reTOc--3QHMmg\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: 7fPilBiEmHhSXPCa3PvJMQ\" \\\n\t-H \"Expiry: 1458099904\" \\\n\t-H \"Uid: 73eliza.gutmann@grady.net\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/admin/users/1\" -d 'user[email]=hi%40hi.hey&user[phone]=%2B79177878978' -X PUT \\\n\t-H \"Access-Token: BsoULe1Xe6zjfXptZTwP9A\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: UgMdelFqEg44iwN54yCHvQ\" \\\n\t-H \"Expiry: 1458101515\" \\\n\t-H \"Uid: 73preston.feest@pacocha.org\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }
