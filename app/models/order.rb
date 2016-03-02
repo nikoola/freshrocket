@@ -7,7 +7,7 @@ class Order < ActiveRecord::Base
 	belongs_to :address
 
 	has_many :line_items, inverse_of: :order, dependent: :destroy #so that on nested attrs order id in line_item is set
-	has_many :products,   through: :line_items #for testing
+	has_many :products,   through: :line_items
 
 
 	accepts_nested_attributes_for :line_items, allow_destroy: true #Note that the :autosave option is automatically enabled on every association that #accepts_nested_attributes_for is used for
@@ -73,7 +73,8 @@ class Order < ActiveRecord::Base
 		allow_blank: true, 
 		message: "%{value} is not permitted. can be #{DELIVERY_TIMES}"
 
-	validate  :wanted_date_is_in_proper_range?
+	validate :wanted_date_is_in_proper_range?
+	validate :wanted_date_is_set_if_wanted_time_is_set
 
 
 	PAYMENT_TYPES = ['cash', 'citrus']
@@ -81,6 +82,11 @@ class Order < ActiveRecord::Base
 		allow_blank: true, 
 		message: "%{value} is not permitted. can be #{PAYMENT_TYPES}"
 
+
+	validate :everything_is_from_the_same_city?
+
+
+	delegate :city_id, to: :address
 
 
 
@@ -160,6 +166,12 @@ class Order < ActiveRecord::Base
 			end
 		end
 
+		def wanted_date_is_set_if_wanted_time_is_set
+			if wanted_time and !wanted_date
+				errors.add(:wanted_date, "must be set if wanted time is set")
+			end
+		end
+
 		def set_order_pricing
 			pricing = CalculateOrderPrice.new self
 
@@ -172,7 +184,7 @@ class Order < ActiveRecord::Base
 		end
 
 		def send_order_summary
-			UserMailer.order_summary(self).deliver_later
+			ClientMailer.order_summary(self).deliver_later
 		end
 
 
@@ -214,13 +226,17 @@ class Order < ActiveRecord::Base
 			end
 		end
 
+
+
+		def everything_is_from_the_same_city?
+			# binding.pry
+			products.each do |p|
+				unless p.city_id == address.city_id
+					errors.add(:product, "#{p.title} is from #{p.city.name}, and your address is from #{address.city.name}")
+				end
+			end
+
+		end
+
 end
-
-
-
-
-
-
-
-
 

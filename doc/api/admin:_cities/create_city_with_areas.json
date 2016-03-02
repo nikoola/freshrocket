@@ -39,13 +39,13 @@
     {
       "request_method": "POST",
       "request_path": "/admin/cities",
-      "request_body": "city[name]=Port+Dorcas_1&city[areas_attributes][][name]=hi",
+      "request_body": "city[name]=South+Kurt_1&city[areas_attributes][][name]=hi",
       "request_headers": {
-        "Access-Token": "AykN258R5cpDUPlqvsQTMw",
+        "Access-Token": "d_mGbVsJcDCfVmneJ3cbLA",
         "Token-Type": "Bearer",
-        "Client": "JBFWTXJusQY4n6iSWnG9Mg",
-        "Expiry": "1457890132",
-        "Uid": "6bridgette@hegmann.org",
+        "Client": "n1_qNeqtQfRSUGixIasDYA",
+        "Expiry": "1458099896",
+        "Uid": "6aniyah@will.name",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -55,22 +55,22 @@
       "request_content_type": "application/x-www-form-urlencoded",
       "response_status": 201,
       "response_status_text": "Created",
-      "response_body": "{\n  \"id\": 1,\n  \"name\": \"Port Dorcas_1\",\n  \"active\": true,\n  \"areas\": [\n    {\n      \"id\": 1,\n      \"name\": \"hi\"\n    }\n  ]\n}",
+      "response_body": "{\n  \"id\": 1,\n  \"name\": \"South Kurt_1\",\n  \"active\": true,\n  \"areas\": [\n    {\n      \"id\": 1,\n      \"name\": \"hi\"\n    }\n  ]\n}",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
         "Location": "http://example.org/cities/1",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"d36521f3f0e6154c03a4832d21f7ffe2\"",
+        "ETag": "W/\"59d4c9b93762e617fde364c644a538fb\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=VzB4ZXFPVEs3MU1rQ2U5blJycjhvN0xoYlNEcXhSRWFWWVBlY0NLWnBmcEEwVmhwV2NkbTQ3VkU4NjVqTkVyOHZ3ZnVKZENKVUdKR2JMTmg5Y0d3WFFscm5zcW9CdjUzUEtUWXRoaUh1MU1lR1ZnNmFxNUplMEd5b01VRjRiWHpqSjdXdHhib1BzQUlmclFjYm5uWlVGY1poUUNpMFFPNWk5OG12VmJ6UE1CYkx4TUl3WFE3OGgyK0wwRy82RVhYLS1EQWw1TWhoY0ZpZGN1UFA3eFZHYlRBPT0%3D--e9d81f246d3c00443f515fac69a8caa6d35a4178; path=/; HttpOnly",
-        "X-Request-Id": "15bbd6cb-d85f-42ec-9bb5-807875620db1",
-        "X-Runtime": "0.107469",
-        "Content-Length": "76"
+        "Set-Cookie": "_session_id=cXRpOVBpa00wdGhWWlVVQmd4MmYrUHZpWGdDcnlDSjJJN1hnUWZScWt3dWsyYm9GMHlUU09URlZyWk5BVFlIaFNaTE1WaGZlejBHSDlDY2N2cUE2czVUVGY4OUhpaTBCNDFQQjNiclptejZBNG1SZ2NhOXd4a1ZrVkY0a1djSHo4by9SMzQySWlzakYvcFdnOFc0ZzRHVjBGMU1MN29yVmdQY1JSZWMrcU5CMzc0c3JuMlRmQ0N6c0VwMWlTdGNuLS03RWUvRlZZZkJqTTViQjZrMUFTWjZBPT0%3D--7418a448927d27f4e03d6073d6f4ee2dbb63b38c; path=/; HttpOnly",
+        "X-Request-Id": "da6de901-7c5e-4777-96a3-f9ad32bdc70a",
+        "X-Runtime": "0.116218",
+        "Content-Length": "75"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/admin/cities\" -d 'city[name]=Port+Dorcas_1&city[areas_attributes][][name]=hi' -X POST \\\n\t-H \"Access-Token: AykN258R5cpDUPlqvsQTMw\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: JBFWTXJusQY4n6iSWnG9Mg\" \\\n\t-H \"Expiry: 1457890132\" \\\n\t-H \"Uid: 6bridgette@hegmann.org\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/admin/cities\" -d 'city[name]=South+Kurt_1&city[areas_attributes][][name]=hi' -X POST \\\n\t-H \"Access-Token: d_mGbVsJcDCfVmneJ3cbLA\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: n1_qNeqtQfRSUGixIasDYA\" \\\n\t-H \"Expiry: 1458099896\" \\\n\t-H \"Uid: 6aniyah@will.name\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

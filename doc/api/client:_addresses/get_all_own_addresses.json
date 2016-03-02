@@ -19,11 +19,11 @@
       "request_path": "/client/addresses?active=0",
       "request_body": null,
       "request_headers": {
-        "Access-Token": "FwdQUvtoQRMqwOM85cwySw",
+        "Access-Token": "5A4pG6oBG5pvLD8dS4082A",
         "Token-Type": "Bearer",
-        "Client": "VDOFOuAN-KtwBdyd16ZDvg",
-        "Expiry": "1457890145",
-        "Uid": "80jennie.braun@hermiston.net",
+        "Client": "2BFtzsk5rcyfONKvD2C6Mw",
+        "Expiry": "1458099906",
+        "Uid": "87luciano@bergstrom.info",
         "Host": "example.org",
         "Cookie": ""
       },
@@ -33,21 +33,21 @@
       "request_content_type": null,
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "[\n  {\n    \"id\": 1,\n    \"address\": \"3370 Harris Springs\",\n    \"city_id\": 1,\n    \"user_id\": 1\n  },\n  {\n    \"id\": 2,\n    \"address\": \"24071 Virgie Tunnel\",\n    \"city_id\": 2,\n    \"user_id\": 1\n  },\n  {\n    \"id\": 3,\n    \"address\": \"46389 Fisher Burgs\",\n    \"city_id\": 3,\n    \"user_id\": 1\n  }\n]",
+      "response_body": "[\n  {\n    \"id\": 1,\n    \"address\": \"40528 Lilly Lakes\",\n    \"city_id\": 1,\n    \"user_id\": 1\n  },\n  {\n    \"id\": 2,\n    \"address\": \"19556 Farrell Creek\",\n    \"city_id\": 2,\n    \"user_id\": 1\n  },\n  {\n    \"id\": 3,\n    \"address\": \"5346 Dorris Meadow\",\n    \"city_id\": 3,\n    \"user_id\": 1\n  }\n]",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"72b7c9aa050ae29f1b2fe7dcb09bb451\"",
+        "ETag": "W/\"530d7276534c5e1ca43bfe008e28083a\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=R2UwcHFGc1djcW5DTEZHdFNSSTdNSHpxSVhNcjB2ZDU1Tkx5ek9XMHZJZ2dDVXRKYk5iSUwvWUc1RmhmdTgrZjB1OTBnMVJqSnE2ckNDWWt0b2x2aUUwRTlUYThyTy9XdllvKy9GaSsrbDNnSHlqVDVobnU4QktSa0ZrZ0FJd3JxR01zcll2c2hiL3oreXBHa1FRZ0crVDZTUkt1bGZBZy90ODRRTmRyUEdXQ0RXTjcxZ0hCUUVQL3hoUlhKVnMxLS1jYkllTWplV0QzVnJYZ2gwckpPeTJRPT0%3D--86bf1497d424cfa70f3ac482be131a9f81967409; path=/; HttpOnly",
-        "X-Request-Id": "6941daaf-8db2-45ea-a26b-6a8df29a81a9",
-        "X-Runtime": "0.091089",
-        "Content-Length": "195"
+        "Set-Cookie": "_session_id=QmVReXJVVjllWk1lckdZdjAzci91bmRZL2RxZHVzOE9tVTFWMitCSUVta3VTMldlOXVmcVpaR0RnTXBsRUdRU3lYc016TU9iZ2F0QzRybVh6T1l6N1pET0dieTAzOUVZeGlmWUlVNG1yc24zZzY3NCtrZW5HVWNtYXh3WXlMaDNmSURkS0F0a2hJV3lIUUtjY2hJMFRHSkpuN2FWK2tSNTJDR29SZGIrT1NuTGFkNGVNcFZndlI2U3VlUmV5akwyLS1hMDBiTDVCQURlcExBNWU0OGlNY09RPT0%3D--eb0a568f7be1b25f4d96bd6a14200e83daea70c1; path=/; HttpOnly",
+        "X-Request-Id": "7e432b57-f4cf-4d74-92ed-d791683fda55",
+        "X-Runtime": "0.090399",
+        "Content-Length": "193"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/client/addresses?active=0\" -X GET \\\n\t-H \"Access-Token: FwdQUvtoQRMqwOM85cwySw\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: VDOFOuAN-KtwBdyd16ZDvg\" \\\n\t-H \"Expiry: 1457890145\" \\\n\t-H \"Uid: 80jennie.braun@hermiston.net\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/client/addresses?active=0\" -X GET \\\n\t-H \"Access-Token: 5A4pG6oBG5pvLD8dS4082A\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: 2BFtzsk5rcyfONKvD2C6Mw\" \\\n\t-H \"Expiry: 1458099906\" \\\n\t-H \"Uid: 87luciano@bergstrom.info\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

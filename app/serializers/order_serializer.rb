@@ -3,7 +3,9 @@ class OrderSerializer < ActiveModel::Serializer
 		:pure_product_price, :tax, :delivery_charge, :total_price,
 		:delivery_boy_id,
 		:wanted_time, :wanted_date,
-		:payment_type, :is_paid
+		:payment_type, :is_paid,
+		:feedback, 
+		:coupon_code
 
 
 

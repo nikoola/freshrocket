@@ -6,7 +6,7 @@ module Admin
 
 		def index
 			coupons = Coupon.all
-			render json: coupons
+			render json: coupons, status: 200
 		end
 
 

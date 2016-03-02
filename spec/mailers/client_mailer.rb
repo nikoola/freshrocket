@@ -1,7 +1,7 @@
 require 'rails_helper'
 include ActiveJob::TestHelper
 
-describe UserMailer do
+describe ClientMailer do
 
 	context 'when order is approved' do
 		let(:order){ FactoryGirl.create(:order) }

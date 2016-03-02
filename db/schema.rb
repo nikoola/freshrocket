@@ -76,13 +76,13 @@ ActiveRecord::Schema.define(version: 20160127185541) do
     t.decimal  "delivery_charge",    precision: 8, scale: 2
     t.decimal  "total_price",        precision: 8, scale: 2
     t.decimal  "coupon_discount",    precision: 8, scale: 2
-    t.datetime "created_at",                                 null: false
-    t.datetime "updated_at",                                 null: false
+    t.datetime "created_at",                                                  null: false
+    t.datetime "updated_at",                                                  null: false
     t.date     "wanted_date"
     t.string   "wanted_time"
     t.integer  "delivery_boy_id"
-    t.string   "payment_type"
-    t.boolean  "is_paid"
+    t.string   "payment_type",                               default: "cash"
+    t.boolean  "is_paid",                                    default: false
     t.string   "coupon_code"
     t.text     "feedback"
   end
@@ -144,7 +144,7 @@ ActiveRecord::Schema.define(version: 20160127185541) do
     t.text     "tokens"
     t.string   "phone"
     t.string   "verification_code"
-    t.boolean  "is_verified"
+    t.boolean  "is_verified",               default: false
     t.datetime "created_at"
     t.datetime "updated_at"
     t.string   "reset_password_token"

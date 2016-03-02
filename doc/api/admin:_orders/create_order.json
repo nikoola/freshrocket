@@ -1,0 +1,50 @@
+{
+  "resource": "admin: orders",
+  "http_method": "POST",
+  "route": "/admin/orders",
+  "description": "create order",
+  "explanation": "confirm and approve right after",
+  "parameters": [
+
+  ],
+  "response_fields": [
+
+  ],
+  "requests": [
+    {
+      "request_method": "POST",
+      "request_path": "/admin/orders",
+      "request_body": "order[address_id]=1&order[user_id]=2&order[line_items_attributes][][product_id]=1&order[line_items_attributes][][amount]=3",
+      "request_headers": {
+        "Access-Token": "YrvlRmjN_8jf0CdZGIGC6w",
+        "Token-Type": "Bearer",
+        "Client": "yy766UNcb1gRmXk1Gxqirw",
+        "Expiry": "1458099899",
+        "Uid": "28dexter.klein@koeppfeil.info",
+        "Host": "example.org",
+        "Content-Type": "application/x-www-form-urlencoded",
+        "Cookie": ""
+      },
+      "request_query_parameters": {
+      },
+      "request_content_type": "application/x-www-form-urlencoded",
+      "response_status": 201,
+      "response_status_text": "Created",
+      "response_body": "{\n  \"id\": 1,\n  \"user_id\": 2,\n  \"status\": \"approved\",\n  \"created_at\": \"2016-03-02T03:44:59.809Z\",\n  \"comment\": null,\n  \"pure_product_price\": null,\n  \"tax\": null,\n  \"delivery_charge\": null,\n  \"total_price\": null,\n  \"delivery_boy_id\": null,\n  \"wanted_time\": null,\n  \"wanted_date\": null,\n  \"payment_type\": \"cash\",\n  \"is_paid\": false,\n  \"feedback\": null,\n  \"coupon_code\": null,\n  \"line_items\": [\n    {\n      \"id\": 1,\n      \"order_id\": 1,\n      \"product_id\": 1,\n      \"amount\": 3,\n      \"fixed_price\": null\n    }\n  ],\n  \"address\": {\n    \"id\": 1,\n    \"address\": \"866 Sporer Course\",\n    \"city_id\": 1,\n    \"user_id\": 1\n  }\n}",
+      "response_headers": {
+        "X-Frame-Options": "SAMEORIGIN",
+        "X-XSS-Protection": "1; mode=block",
+        "X-Content-Type-Options": "nosniff",
+        "Content-Type": "application/json; charset=utf-8",
+        "ETag": "W/\"337011c9e0453edd41a565586b000d2f\"",
+        "Cache-Control": "max-age=0, private, must-revalidate",
+        "Set-Cookie": "_session_id=YjlZSkpWSjFlbDJVUzZYMC9KaFBQblNkR2ExeTJtWjM5emM4aEM1Ky9PVGNEdEx1UTJUV2ZVL2lVN3lZREljN0Y3cGJ5Sjh4YzJuWlhDS1VNbWdMUGFQMFZWc1JvY25YWWgzd0VIaXk2NVAzSVo1ZUNKMDZQVjgyV0xFSlV3RXNIdmxuamVnbGdUcUw1VXZEOW9rOTRmZDhWTnZFeWdZYTFkdUxVR0VxS3lGYUlWVjRBMWtlNUpRTi9SMXpCRFdTLS11Y2pKYlpGV0lQMVcvYU02eFV2MlZBPT0%3D--57a10cc258101e5ffa38afbba8f8e6e5b14a26b5; path=/; HttpOnly",
+        "X-Request-Id": "bf647edb-479d-4f33-9719-6a1ddd77159a",
+        "X-Runtime": "0.102810",
+        "Content-Length": "463"
+      },
+      "response_content_type": "application/json; charset=utf-8",
+      "curl": "curl \"http://localhost:3000/admin/orders\" -d 'order[address_id]=1&order[user_id]=2&order[line_items_attributes][][product_id]=1&order[line_items_attributes][][amount]=3' -X POST \\\n\t-H \"Access-Token: YrvlRmjN_8jf0CdZGIGC6w\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: yy766UNcb1gRmXk1Gxqirw\" \\\n\t-H \"Expiry: 1458099899\" \\\n\t-H \"Uid: 28dexter.klein@koeppfeil.info\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+    }
+  ]
+}

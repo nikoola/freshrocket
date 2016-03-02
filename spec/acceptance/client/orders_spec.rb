@@ -229,9 +229,9 @@ resource 'client: orders', type: :request do
 		end
 
 		example "client can't confirm order if products are out of stock" do
-			product = FactoryGirl.create :product, inventory_count: 0
-
 			order = FactoryGirl.create :order, user_id: user.id
+			product = FactoryGirl.create :product, inventory_count: 0, city_id: order.address.city_id
+
 			order.line_items.destroy_all
 			order.update!(line_items_attributes: [
 				{ product_id: product.id, amount: 5 }

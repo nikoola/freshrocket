@@ -47,13 +47,13 @@
     {
       "request_method": "POST",
       "request_path": "/auth",
-      "request_body": "email=125braeden_crist%40dietrich.org&password=secrety_bickety&password_confirmation=secrety_bickety&first_name=Frederic&last_name=Kunze&phone",
+      "request_body": "email=133herta%40schuppe.info&password=secrety_bickety&password_confirmation=secrety_bickety&first_name=Abbigail&last_name=Zemlak&phone",
       "request_headers": {
-        "Access-Token": "XMdpFUrrUmC92NV3xwm7cA",
+        "Access-Token": "BltQdPsUU6JDXpmoXW8WHw",
         "Token-Type": "Bearer",
-        "Client": "q7jIXsdG3t1bLvcXGp1YWQ",
-        "Expiry": "1457890153",
-        "Uid": "126august_abshire@heller.net",
+        "Client": "766sJGv-HegcJY9y2Lq3Vw",
+        "Expiry": "1458099916",
+        "Uid": "134soledad.dickens@ernsermosciski.com",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -63,19 +63,19 @@
       "request_content_type": "application/x-www-form-urlencoded",
       "response_status": 403,
       "response_status_text": "Forbidden",
-      "response_body": "{\n  \"status\": \"error\",\n  \"data\": {\n    \"id\": null,\n    \"first_name\": \"Frederic\",\n    \"last_name\": \"Kunze\",\n    \"email\": \"125braeden_crist@dietrich.org\",\n    \"provider\": \"email\",\n    \"uid\": \"\",\n    \"phone\": null,\n    \"verification_code\": null,\n    \"is_verified\": null,\n    \"created_at\": null,\n    \"updated_at\": null,\n    \"how_did_you_hear_about_us\": null\n  },\n  \"errors\": {\n    \"phone\": [\n      \"can't be blank\",\n      \"is invalid\"\n    ],\n    \"full_messages\": [\n      \"Phone can't be blank\",\n      \"Phone is invalid\"\n    ]\n  }\n}",
+      "response_body": "{\n  \"status\": \"error\",\n  \"data\": {\n    \"id\": null,\n    \"first_name\": \"Abbigail\",\n    \"last_name\": \"Zemlak\",\n    \"email\": \"133herta@schuppe.info\",\n    \"provider\": \"email\",\n    \"uid\": \"\",\n    \"phone\": null,\n    \"verification_code\": null,\n    \"is_verified\": false,\n    \"created_at\": null,\n    \"updated_at\": null,\n    \"how_did_you_hear_about_us\": null\n  },\n  \"errors\": {\n    \"phone\": [\n      \"can't be blank\",\n      \"is invalid\"\n    ],\n    \"full_messages\": [\n      \"Phone can't be blank\",\n      \"Phone is invalid\"\n    ]\n  }\n}",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "application/json; charset=utf-8",
         "Cache-Control": "no-cache",
-        "X-Request-Id": "7ba58304-5490-44ca-ad72-e075d517c8a2",
-        "X-Runtime": "0.008089",
-        "Content-Length": "386"
+        "X-Request-Id": "7736b998-1c10-4d1e-9fdf-5d0a7a009351",
+        "X-Runtime": "0.007889",
+        "Content-Length": "380"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/auth\" -d 'email=125braeden_crist%40dietrich.org&password=secrety_bickety&password_confirmation=secrety_bickety&first_name=Frederic&last_name=Kunze&phone' -X POST \\\n\t-H \"Access-Token: XMdpFUrrUmC92NV3xwm7cA\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: q7jIXsdG3t1bLvcXGp1YWQ\" \\\n\t-H \"Expiry: 1457890153\" \\\n\t-H \"Uid: 126august_abshire@heller.net\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/auth\" -d 'email=133herta%40schuppe.info&password=secrety_bickety&password_confirmation=secrety_bickety&first_name=Abbigail&last_name=Zemlak&phone' -X POST \\\n\t-H \"Access-Token: BltQdPsUU6JDXpmoXW8WHw\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: 766sJGv-HegcJY9y2Lq3Vw\" \\\n\t-H \"Expiry: 1458099916\" \\\n\t-H \"Uid: 134soledad.dickens@ernsermosciski.com\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

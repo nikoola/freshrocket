@@ -35,11 +35,11 @@
       "request_path": "/admin/orders?limit=5&offset=2&status=confirmed",
       "request_body": null,
       "request_headers": {
-        "Access-Token": "LXejTbNXLNKXmjB7-UvOeA",
+        "Access-Token": "e_wfOPLdoZeJhp7w997SFQ",
         "Token-Type": "Bearer",
-        "Client": "cRo-SiVBj5S8xEntRpRp1g",
-        "Expiry": "1457890134",
-        "Uid": "18lulu.kuhn@ondricka.net",
+        "Client": "RpBlqGevO04sqYnIXgdKKg",
+        "Expiry": "1458099899",
+        "Uid": "18carole@littel.com",
         "Host": "example.org",
         "Cookie": ""
       },
@@ -59,13 +59,13 @@
         "Content-Type": "application/json; charset=utf-8",
         "ETag": "W/\"d751713988987e9331980363e24189ce\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=NTI2aGdRWWorYi9hZllTTWVRT0x2Z2k2eGgwSzJraFp6S2czUTZRVUZpZ1Q5NFBYUVJKOU1vMlkyRjVWVkNHNEFZakRMRGJ6L3NseWRnNGhyME5IeEtQWnYyeVRTdmszejBaRnB1V0hJdG9LODdpTHR5RmQzZXZDVmtvL0VMR3BmaS8wc1lWVllPY0M5KytGalRKWUk3SmtYa3pCTDFNZ0QvTFRNclNpYjhtZDNNOXgydEhvLytPUVRRR0pSQlNyLS1YdVE3Y1RIMGZCVUozZDRtYVNhTDh3PT0%3D--ef89b0241e17eca5e40adaeb9a7400a005261c08; path=/; HttpOnly",
-        "X-Request-Id": "95bbc7d7-a977-4190-93f5-8ff274337a9c",
-        "X-Runtime": "0.079994",
+        "Set-Cookie": "_session_id=TE5wWUs5UzhpVjE4cmNvOHYrb2tQTUhsT3ZjblJ3ZTFVYU5JbUpvTmxySHNzSHYwODdlMGp3S2ZLcW9JSzJzQVB0azRmZGlna3BrTHptNzNrSXhtNVNnRUQyYjlqeGdid2xDRXhaVlNjN3RTTWNqM0IvMmhvSUgxNTBraUFVZkx1RHIxN3FEbkVqQXgzQlRMeUNFWWNERkRGNjNmMkRsbStLK2ZSWEw4Nkd6cXBvUGpGMFRQUVVCN2Z2TElYcy9qLS0wMXdMc25jWFZhZVl0QnZaWVRpWHZ3PT0%3D--be801cdc48d2a97481ab07e369716d5cf1cc7521; path=/; HttpOnly",
+        "X-Request-Id": "54e3ec68-3cc7-4179-a392-e5f00b875ee5",
+        "X-Runtime": "0.085098",
         "Content-Length": "2"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/admin/orders?limit=5&offset=2&status=confirmed\" -X GET \\\n\t-H \"Access-Token: LXejTbNXLNKXmjB7-UvOeA\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: cRo-SiVBj5S8xEntRpRp1g\" \\\n\t-H \"Expiry: 1457890134\" \\\n\t-H \"Uid: 18lulu.kuhn@ondricka.net\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/admin/orders?limit=5&offset=2&status=confirmed\" -X GET \\\n\t-H \"Access-Token: e_wfOPLdoZeJhp7w997SFQ\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: RpBlqGevO04sqYnIXgdKKg\" \\\n\t-H \"Expiry: 1458099899\" \\\n\t-H \"Uid: 18carole@littel.com\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

@@ -129,6 +129,13 @@
           "method": "put"
         },
         {
+          "description": "create order",
+          "link": "admin:_orders/create_order.json",
+          "groups": "all",
+          "route": "/admin/orders",
+          "method": "post"
+        },
+        {
           "description": "get filtered orders",
           "link": "admin:_orders/get_filtered_orders.json",
           "groups": "all",
@@ -141,6 +148,13 @@
           "groups": "all",
           "route": "/admin/orders/:id",
           "method": "get"
+        },
+        {
+          "description": "update order",
+          "link": "admin:_orders/update_order.json",
+          "groups": "all",
+          "route": "/admin/orders/:id",
+          "method": "put"
         }
       ]
     },
@@ -337,6 +351,18 @@
           "groups": "all",
           "route": "/auth/sign_out",
           "method": "delete"
+        }
+      ]
+    },
+    {
+      "name": "client: forms",
+      "examples": [
+        {
+          "description": "send email to admins",
+          "link": "client:_forms/send_email_to_admins.json",
+          "groups": "all",
+          "route": "/client/forms/contact",
+          "method": "post"
         }
       ]
     },

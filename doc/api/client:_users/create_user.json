@@ -47,13 +47,13 @@
     {
       "request_method": "POST",
       "request_path": "/auth",
-      "request_body": "email=123addison.waelchi%40abbott.org&password=secrety_bickety&password_confirmation=secrety_bickety&first_name=Kasandra&last_name=Hammes&phone=%2B79172343270",
+      "request_body": "email=131deonte_volkman%40pourosmedhurst.info&password=secrety_bickety&password_confirmation=secrety_bickety&first_name=Raoul&last_name=Hodkiewicz&phone=%2B79172343270",
       "request_headers": {
-        "Access-Token": "qVYkdn8mrVc4SjhTz2-bUg",
+        "Access-Token": "wjd1_QInjLsGELR_knAH5g",
         "Token-Type": "Bearer",
-        "Client": "Y9va7WeCQrTH3zOTL8rNFg",
-        "Expiry": "1457890152",
-        "Uid": "124alfred.schimmel@murrayhoppe.info",
+        "Client": "BP7tqqCX6sWuKerhDeGM5Q",
+        "Expiry": "1458099916",
+        "Uid": "132nelson@wilkinson.biz",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -63,25 +63,25 @@
       "request_content_type": "application/x-www-form-urlencoded",
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\n  \"status\": \"success\",\n  \"data\": {\n    \"id\": 6,\n    \"first_name\": \"Kasandra\",\n    \"last_name\": \"Hammes\",\n    \"email\": \"123addison.waelchi@abbott.org\",\n    \"provider\": \"email\",\n    \"uid\": \"123addison.waelchi@abbott.org\",\n    \"phone\": \"+79172343270\",\n    \"verification_code\": null,\n    \"is_verified\": false,\n    \"created_at\": \"2016-02-28T17:29:12.996Z\",\n    \"updated_at\": \"2016-02-28T17:29:13.140Z\",\n    \"how_did_you_hear_about_us\": null\n  }\n}",
+      "response_body": "{\n  \"status\": \"success\",\n  \"data\": {\n    \"id\": 6,\n    \"first_name\": \"Raoul\",\n    \"last_name\": \"Hodkiewicz\",\n    \"email\": \"131deonte_volkman@pourosmedhurst.info\",\n    \"provider\": \"email\",\n    \"uid\": \"131deonte_volkman@pourosmedhurst.info\",\n    \"phone\": \"+79172343270\",\n    \"verification_code\": null,\n    \"is_verified\": false,\n    \"created_at\": \"2016-03-02T03:45:16.048Z\",\n    \"updated_at\": \"2016-03-02T03:45:16.194Z\",\n    \"how_did_you_hear_about_us\": null\n  }\n}",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
-        "access-token": "mjELmo19NX6vPsUbqOcXXg",
+        "access-token": "NoHsLeIZHkOICNwXq4MzNg",
         "token-type": "Bearer",
-        "client": "75N5jvzlWn3AgR3crFYFPQ",
-        "expiry": "1457890153",
-        "uid": "123addison.waelchi@abbott.org",
+        "client": "RGJrhAHLHOLkFuKuZHjBbA",
+        "expiry": "1458099916",
+        "uid": "131deonte_volkman@pourosmedhurst.info",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"6f2c0553e1b129e939d930acd1c08876\"",
+        "ETag": "W/\"7464b25b0717bd909682ab8b79373696\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "X-Request-Id": "9472fef4-34f5-4d64-be20-a79fd48e99a8",
-        "X-Runtime": "0.160340",
-        "Content-Length": "359"
+        "X-Request-Id": "82f7d83f-0c34-4a5b-8a37-21b9a5ea0443",
+        "X-Runtime": "0.177902",
+        "Content-Length": "376"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/auth\" -d 'email=123addison.waelchi%40abbott.org&password=secrety_bickety&password_confirmation=secrety_bickety&first_name=Kasandra&last_name=Hammes&phone=%2B79172343270' -X POST \\\n\t-H \"Access-Token: qVYkdn8mrVc4SjhTz2-bUg\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: Y9va7WeCQrTH3zOTL8rNFg\" \\\n\t-H \"Expiry: 1457890152\" \\\n\t-H \"Uid: 124alfred.schimmel@murrayhoppe.info\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/auth\" -d 'email=131deonte_volkman%40pourosmedhurst.info&password=secrety_bickety&password_confirmation=secrety_bickety&first_name=Raoul&last_name=Hodkiewicz&phone=%2B79172343270' -X POST \\\n\t-H \"Access-Token: wjd1_QInjLsGELR_knAH5g\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: BP7tqqCX6sWuKerhDeGM5Q\" \\\n\t-H \"Expiry: 1458099916\" \\\n\t-H \"Uid: 132nelson@wilkinson.biz\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

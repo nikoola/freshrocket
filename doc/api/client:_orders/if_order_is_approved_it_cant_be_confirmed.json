@@ -21,11 +21,11 @@
       "request_path": "/client/orders/3/update_status",
       "request_body": "order[action]=confirm",
       "request_headers": {
-        "Access-Token": "2W2tncEQTtKD51SVlhXZeA",
+        "Access-Token": "blQuiWpOgh8eJxAgkc1PBw",
         "Token-Type": "Bearer",
-        "Client": "a4HomACj_1JqqchxXgFPdw",
-        "Expiry": "1457890152",
-        "Uid": "113melany_abbott@rice.org",
+        "Client": "AzLN36B30n1iELkOZdOWXA",
+        "Expiry": "1458099915",
+        "Uid": "121rollin.johns@schneiderharvey.biz",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -42,13 +42,13 @@
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "application/json; charset=utf-8",
         "Cache-Control": "no-cache",
-        "Set-Cookie": "_session_id=ckZBUzdWMndZWkdPRk9hZmdOb0MwTEgwZ0ZGZ3VHRHVrdUp6UzlpMkRIbExtbG9nOEJyM0NLWGxnU1hhdmp2TFlvdHptODlyNmhXQmZnd0xWVVRxdSthQ01YdFVsbE4vL2ZOMUxicTlxTEhtOVZOTjRYWnh2NFBweXZIdFVwN0o0SkVpUkNib0hMNUxNcXM3ZnBtZkdtZ2R0azdsV0dEZU8zVlJaSjUrSDQ2K0R3dHptZCtheTlPOVZLbTRTVzJWLS1UcHd6OW5XcU5PTDRwYkZ0UDdSbDZRPT0%3D--1fc426c9b5ce53301d72ba480495a401c4b8b1c3; path=/; HttpOnly",
-        "X-Request-Id": "6bb8ed0d-f003-4a96-b293-a8c7a26f1d8a",
-        "X-Runtime": "0.082871",
+        "Set-Cookie": "_session_id=VnA4cHcxUlpqeDdMSlJ2VmdEZlIwWktsNG5nUWhVQkl0K1BuVktJbFlITzdpYVdoYVR2d1ZXODVYMVZnck1PaDlGMG9xQ1BGQzJZR2lTZElxc2FGTE9pMDFxSXVxckxudDh5WXRFOUtjRE5UcUI1VXluaWpKNHFDaXBoOUJiaTJONml0OUhmQmY2cDQvbUtYK2Iyc3BrN2lXQXFBTmRTaDJtellXc3VadmZvQWNwRWY2a3Q5OFI0RjlPa2N0MHpBLS0xQ2tUVEtlSERzUk1TU2VhQ3Z6aWF3PT0%3D--837ec7c6020eb8ce206cdc6756c600f1a9f81784; path=/; HttpOnly",
+        "X-Request-Id": "89f6756c-6f17-4bce-ba92-d3341cd87798",
+        "X-Runtime": "0.078286",
         "Content-Length": "64"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/client/orders/3/update_status\" -d 'order[action]=confirm' -X PUT \\\n\t-H \"Access-Token: 2W2tncEQTtKD51SVlhXZeA\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: a4HomACj_1JqqchxXgFPdw\" \\\n\t-H \"Expiry: 1457890152\" \\\n\t-H \"Uid: 113melany_abbott@rice.org\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/client/orders/3/update_status\" -d 'order[action]=confirm' -X PUT \\\n\t-H \"Access-Token: blQuiWpOgh8eJxAgkc1PBw\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: AzLN36B30n1iELkOZdOWXA\" \\\n\t-H \"Expiry: 1458099915\" \\\n\t-H \"Uid: 121rollin.johns@schneiderharvey.biz\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

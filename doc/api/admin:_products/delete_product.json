@@ -16,11 +16,11 @@
       "request_path": "/admin/products/1",
       "request_body": null,
       "request_headers": {
-        "Access-Token": "-__YxAJR9IOD3Vf0WCQ9_w",
+        "Access-Token": "9CovJ8KccoL2zIaarz81TQ",
         "Token-Type": "Bearer",
-        "Client": "Y0CJKqlm42pC4iTZokKaZA",
-        "Expiry": "1457890140",
-        "Uid": "45vesta@wunsch.com",
+        "Client": "HlVlWf2ImSrBiYIkFFq2jw",
+        "Expiry": "1458099902",
+        "Uid": "52hoyt@keeling.biz",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -37,13 +37,13 @@
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "text/html",
         "Cache-Control": "no-cache",
-        "Set-Cookie": "_session_id=NXFmZ2ZzMlBjeHhSdXFZeHQ2d1ZYUTBQaUk0QWtrdVJ6dDRZTUdrVWRxajl6T045VGJBUmkzZTRXV2dCWEx2dDN4YlpIc2ZRSGNRc2tMeHNLNlhxRTlSVkxmdzZJREtLNzhzL2dNcmwvbVBQK2psbEIrOTF6bER6aE16bmtmdUdhMWt3WUoxdmlDSCsxQ1BLNmpTSmF4M1lKVEE3bXFUeTRKRGVsWmI0Q3NEc1dHMHNnRjFGVGh3aFovQVB4dGtQLS1jR1JxaEVUZDVJTnVsdytTclU5b0FBPT0%3D--0cbf99025f00067e3cb6822bdddd1020e6a4db95; path=/; HttpOnly",
-        "X-Request-Id": "90a0001c-b643-4487-bcda-ab21cc5ece7a",
-        "X-Runtime": "0.105995",
+        "Set-Cookie": "_session_id=V1V1cTlWbWxRWEM5dTNXbFJ3L1lJSFJIb1hNcFc4QlhQRjFOQytBTXhUVSt3L2tnSTRwSlh0aDk2Nk1aWmRBZ3lPM1hvZk9xelloOHl4L3NsTzBhNndhdHZRTy9YandBN2dkamRvSTZQd1FrY3laMUhUME16NG1JQ2FEbDdKNHAybU1VZjA2UHlHdDRTSnA0RE5WTUJHSTFvVzViVkI2QVNnL2pQbWVzTGFxYjIyendHMG1SK0xHcWxkUGJ3cG9pLS1XbUQ5Qy9wOXpaaXFNMWEySG9NMmFBPT0%3D--d704e998c6598a681fd2439031cdb90b2a23f932; path=/; HttpOnly",
+        "X-Request-Id": "fb704b4e-c80b-4fd6-8d1f-0c3bc6db5c8f",
+        "X-Runtime": "0.084987",
         "Content-Length": "0"
       },
       "response_content_type": "text/html",
-      "curl": "curl \"http://localhost:3000/admin/products/1\" -d '' -X DELETE \\\n\t-H \"Access-Token: -__YxAJR9IOD3Vf0WCQ9_w\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: Y0CJKqlm42pC4iTZokKaZA\" \\\n\t-H \"Expiry: 1457890140\" \\\n\t-H \"Uid: 45vesta@wunsch.com\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/admin/products/1\" -d '' -X DELETE \\\n\t-H \"Access-Token: 9CovJ8KccoL2zIaarz81TQ\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: HlVlWf2ImSrBiYIkFFq2jw\" \\\n\t-H \"Expiry: 1458099902\" \\\n\t-H \"Uid: 52hoyt@keeling.biz\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

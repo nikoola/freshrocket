@@ -53,13 +53,13 @@
     {
       "request_method": "POST",
       "request_path": "/admin/users",
-      "request_body": "user[email]=63isabel.auer%40murray.biz&user[password]=secrety_bickety&user[password_confirmation]=secrety_bickety&user[first_name]=Karen&user[last_name]=Hamill&user[phone]",
+      "request_body": "user[email]=70aileen%40thiel.biz&user[password]=secrety_bickety&user[password_confirmation]=secrety_bickety&user[first_name]=London&user[last_name]=Goodwin&user[phone]",
       "request_headers": {
-        "Access-Token": "hTaVwRVPi26mzt06fpYlRw",
+        "Access-Token": "qiGcjr88oYXGMXjMMq55xw",
         "Token-Type": "Bearer",
-        "Client": "3qCT7Eh8r0UTkfX9-t5uNg",
-        "Expiry": "1457890143",
-        "Uid": "64scottie_ullrich@leannon.biz",
+        "Client": "0ljtGIqKRK2yL1VXQ9ZRAA",
+        "Expiry": "1458099904",
+        "Uid": "71jackeline.nader@ernser.com",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -76,13 +76,13 @@
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "application/json; charset=utf-8",
         "Cache-Control": "no-cache",
-        "Set-Cookie": "_session_id=aXdIT1p2bHJNYjg1MXBwTVpyVUlUQWMybFp4VUdYWXV2dWR2N1BGVzM3UzVyY3JHNlptaVpaYTNrNXZscm5HU1JCUzZKNUhmT3ErZmtCeHFZdXRHTWRaYW9nSFhXY1MxU1lmam92QmgvOVhUYUtqMHFWeW1lYTF0U2puNG96Zk54UW51T1FSUy90S09hMDlUZnJGUTRobGRzaFlIWGQ5TlJFelNyV3lBVlJ3c3BmTFk0RjRyNG9VRkpNcnZjNEF0LS1KT21UOS91QjkvcCtFUWxPWEpZOEhRPT0%3D--b2f12f0d6b849812efb1bbf6c868119df2bbfd13; path=/; HttpOnly",
-        "X-Request-Id": "d11cfcb2-5eea-4c1a-877c-01e526c3e99b",
-        "X-Runtime": "0.087997",
+        "Set-Cookie": "_session_id=RWJIcEJ0aUUvQkNueW9GZzBOQXliRWR0YnlqSFJpajhNY3VYNStuU2lxMG9WMG1sNXNvNkR4QnByVFUwcVRTYTh3WXpNT0w2RktGN2pMbWxMUVMrbnFlMVl5WDk5Z29hUVRYbWJ6WjQvUis1WDRIV3lFY0J3Y2swakRXNUtoYm4rSXlkbTlUUStNUEZCMWJLZmNDRGMwdFFwdXUxVkJFY3Y3cHVlSGJNakFYK3dEZldSbFBIMzJRWXMzU1FNUWgvLS1NVm1FenFlZERIMExvSXdLRkVXeVZBPT0%3D--91be7b529e7056c509e5d78a49a301c5a4b38b5d; path=/; HttpOnly",
+        "X-Request-Id": "e06a99b2-1d0b-4004-bc69-14b83f9a02d2",
+        "X-Runtime": "0.082633",
         "Content-Length": "41"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/admin/users\" -d 'user[email]=63isabel.auer%40murray.biz&user[password]=secrety_bickety&user[password_confirmation]=secrety_bickety&user[first_name]=Karen&user[last_name]=Hamill&user[phone]' -X POST \\\n\t-H \"Access-Token: hTaVwRVPi26mzt06fpYlRw\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: 3qCT7Eh8r0UTkfX9-t5uNg\" \\\n\t-H \"Expiry: 1457890143\" \\\n\t-H \"Uid: 64scottie_ullrich@leannon.biz\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/admin/users\" -d 'user[email]=70aileen%40thiel.biz&user[password]=secrety_bickety&user[password_confirmation]=secrety_bickety&user[first_name]=London&user[last_name]=Goodwin&user[phone]' -X POST \\\n\t-H \"Access-Token: qiGcjr88oYXGMXjMMq55xw\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: 0ljtGIqKRK2yL1VXQ9ZRAA\" \\\n\t-H \"Expiry: 1458099904\" \\\n\t-H \"Uid: 71jackeline.nader@ernser.com\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

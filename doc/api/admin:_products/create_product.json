@@ -54,11 +54,11 @@
       "request_path": "/admin/products",
       "request_body": "product[title]=fish&product[price]=3.0&product[inventory_count]=2&product[city_id]=1&product[category_ids][]=1",
       "request_headers": {
-        "Access-Token": "d-yOhBBZ5ka_QZxnPXaH2A",
+        "Access-Token": "ftCuZLWYVjGa9b7V9i1IPg",
         "Token-Type": "Bearer",
-        "Client": "AQXmokPIG7_G4qXE-5d7zg",
-        "Expiry": "1457890139",
-        "Uid": "39arlene_prosacco@nicolas.org",
+        "Client": "UOBAqbyhNHTk0NrTJO8Khw",
+        "Expiry": "1458099901",
+        "Uid": "46sydnie.jacobi@schroeder.com",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -68,22 +68,22 @@
       "request_content_type": "application/x-www-form-urlencoded",
       "response_status": 201,
       "response_status_text": "Created",
-      "response_body": "{\n  \"id\": 1,\n  \"city_id\": 1,\n  \"title\": \"fish\",\n  \"price\": \"3.0\",\n  \"description\": null,\n  \"created_at\": \"2016-02-28T17:28:59.900Z\",\n  \"updated_at\": \"2016-02-28T17:28:59.900Z\",\n  \"inventory_count\": 2,\n  \"image_url\": \"uploads/product/image/default.png\",\n  \"categories\": [\n    {\n      \"id\": 1,\n      \"name\": \"Category 4\",\n      \"image_url\": \"uploads/category/image/default.png\"\n    }\n  ]\n}",
+      "response_body": "{\n  \"id\": 1,\n  \"city_id\": 1,\n  \"title\": \"fish\",\n  \"price\": \"3.0\",\n  \"description\": null,\n  \"created_at\": \"2016-03-02T03:45:01.338Z\",\n  \"updated_at\": \"2016-03-02T03:45:01.338Z\",\n  \"inventory_count\": 2,\n  \"image_url\": \"uploads/product/image/default.png\",\n  \"categories\": [\n    {\n      \"id\": 1,\n      \"name\": \"Category 4\",\n      \"image_url\": \"uploads/category/image/default.png\"\n    }\n  ]\n}",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
         "Location": "http://example.org/products/1",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"cb67c04e01e1723a8f5cd56f218a5c3d\"",
+        "ETag": "W/\"377674b7f568fc2fe29f27dc6d467e3a\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=ZTBBb0pJL242c29HclduNU5DZHowK1ZxUFRDN09xaHhMNEtQUWMyUElmNURGS1hNWUNYdjBDU1RBQk5nbTM5RTU2VHNFWVlZZFdiL0pUMjQ4SERpcHp1b2R1cUpkVE5hNTdxRW1NWjNRNlpqclNUbkxsWmRJcENSUGNCbWMxbUJXV1hEdXJ4dUZGdC9HQ3kxMW5DQm9SbC8vMTVMcVhEem9Wb21SK2JkYlRWdU9BL1JWYkdQekVlaW5ObS9CQnVxLS0zSURJU3Q1L3NtemU3MW1mTzR1bXVnPT0%3D--b2b296f39bd2aa8bd946cbc6dc1edb25372b6bb9; path=/; HttpOnly",
-        "X-Request-Id": "80e88cfb-951a-4bc4-b841-a620dfd4fb7d",
-        "X-Runtime": "0.094212",
+        "Set-Cookie": "_session_id=SkZpU05rWkc3RHVUQUtFN0c2aGlTOHpHMWQ3RnFrSGtSbWFvL1NORUs5dEExZ2tCTlRmbUN4aWdjcGtabVRncndxMFRIQjRQOHpHWGQxUUlzaW02WDVZTGQzb2RkREtGMGE1bWMvckpPeXZtVjl5aktpc1M0aU1pZXU2YlVUU051alhORHo3RG1vKzNvUDJGUGhCVXpRTkozc1BIMHRNa3FEeDkwR3dWTGJvUnM1ODExWHh5T3BVT2I1Z0RTbXMxLS1jeHV3V3NaZk10dithOVdaUEdnYmJnPT0%3D--82dd6e6a2462f2d89034bc8e8aadc24fe48219ef; path=/; HttpOnly",
+        "X-Request-Id": "92798c0b-811b-4375-869f-d3d779dd5570",
+        "X-Runtime": "0.094814",
         "Content-Length": "309"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/admin/products\" -d 'product[title]=fish&product[price]=3.0&product[inventory_count]=2&product[city_id]=1&product[category_ids][]=1' -X POST \\\n\t-H \"Access-Token: d-yOhBBZ5ka_QZxnPXaH2A\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: AQXmokPIG7_G4qXE-5d7zg\" \\\n\t-H \"Expiry: 1457890139\" \\\n\t-H \"Uid: 39arlene_prosacco@nicolas.org\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/admin/products\" -d 'product[title]=fish&product[price]=3.0&product[inventory_count]=2&product[city_id]=1&product[category_ids][]=1' -X POST \\\n\t-H \"Access-Token: ftCuZLWYVjGa9b7V9i1IPg\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: UOBAqbyhNHTk0NrTJO8Khw\" \\\n\t-H \"Expiry: 1458099901\" \\\n\t-H \"Uid: 46sydnie.jacobi@schroeder.com\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

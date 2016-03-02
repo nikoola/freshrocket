@@ -38,7 +38,7 @@ module Client
 
 		# DELETE /client/orders/1
 		def destroy 
-			if @order.unconfirmed? 
+			if @order.unconfirmed?
 				@order.destroy
 				head 200
 			else
@@ -73,7 +73,8 @@ module Client
 			def order_params
 				params.require(:order).permit([
 					:address_id,
-					:comment, :wanted_date, :wanted_time,
+					:comment, 
+					:wanted_date, :wanted_time,
 					:coupon_code,
 					line_items_attributes: [:_destroy, :id, :amount, :product_id]
 				])

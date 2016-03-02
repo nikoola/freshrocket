@@ -16,11 +16,11 @@
       "request_path": "/admin/products/1",
       "request_body": "product[title]=hi",
       "request_headers": {
-        "Access-Token": "N3bWAmi-n7j8vy_RrPuewQ",
+        "Access-Token": "W84yCCwU_LAXjVbGA4qJEw",
         "Token-Type": "Bearer",
-        "Client": "GboMm20ZE6j8QPy1g5PbMw",
-        "Expiry": "1457890140",
-        "Uid": "43marvin@watersdurgan.biz",
+        "Client": "xEQ0IPylWaOlvsAxTok0EQ",
+        "Expiry": "1458099902",
+        "Uid": "50trace@johnson.info",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -30,21 +30,21 @@
       "request_content_type": "application/x-www-form-urlencoded",
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\n  \"id\": 1,\n  \"city_id\": 1,\n  \"title\": \"hi\",\n  \"price\": \"3.0\",\n  \"description\": null,\n  \"created_at\": \"2016-02-28T17:29:00.516Z\",\n  \"updated_at\": \"2016-02-28T17:29:00.685Z\",\n  \"inventory_count\": 20,\n  \"image_url\": \"uploads/product/image/default.png\",\n  \"categories\": [\n\n  ]\n}",
+      "response_body": "{\n  \"id\": 1,\n  \"city_id\": 1,\n  \"title\": \"hi\",\n  \"price\": \"3.0\",\n  \"description\": null,\n  \"created_at\": \"2016-03-02T03:45:02.035Z\",\n  \"updated_at\": \"2016-03-02T03:45:02.208Z\",\n  \"inventory_count\": 20,\n  \"image_url\": \"uploads/product/image/default.png\",\n  \"categories\": [\n\n  ]\n}",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"02828c053cacb28549d5d2dde20bf97b\"",
+        "ETag": "W/\"ef653429f494a8f8512a93d6b4dca42f\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=TDZJSmN3M0tTN0wrNE1FUGdja01wbmx0NkR4Z3NUOGlpMkdydTFVK2JhWkZyeTUzNk5aSHBGclRxTVZUbmhkMkJOcFZQaG15UHp3WVBsQ3dvbE5sQTBxY2tHeThVUlVVcy9tQWtwTXFuK0k0cStwNGQ0TjVYdTQ4bmU0ZzN6VUZ2WEVJUGQxVkpiT2NXVC95MUVpWnJhaXhGZThOSDJXbkFYRFNzTnBldHJ4RFdTaXVTZmxJMnBydDN0U0Fydk5tLS00VXVlYmdPWWZPL0J3b3lUNjhGUVpBPT0%3D--ffbb75f77fc7578fc8601b9dfd3a995715299ff9; path=/; HttpOnly",
-        "X-Request-Id": "64309b61-d244-4ffb-a5a9-246911e791f7",
-        "X-Runtime": "0.082136",
+        "Set-Cookie": "_session_id=aGdvL2RkTFpDNEVGZ0ZoNkJFcnA0TmthSFQxWHZXM3JGbTBPVDF5c3luTUprcXR3Y1hCU2NFblJXTnZoMUZCWmc1RW9sZTNPYnZxYkNQdmRFMVRKRytOUnFsQzZpTmZOd0lhSktOR1lDZmlheTlKMVNlSlM4YmNia0FUVFpNcjA3ZGtlRlJQOExWWDBVZ2FqNFU3NzJWZkV2NVBFQm5Zd0M1REVJOEwwUWUvMVpDajlrSTVCRFpWd3hEeGgxUUx3LS1KQklWUlUxVmZTZldmMkNIaU10T0t3PT0%3D--e3d71bb1d40b377ab03478601fa81df7cc276dcd; path=/; HttpOnly",
+        "X-Request-Id": "f5cb562e-02f8-4520-8829-4de0bf2c9568",
+        "X-Runtime": "0.082795",
         "Content-Length": "231"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/admin/products/1\" -d 'product[title]=hi' -X PUT \\\n\t-H \"Access-Token: N3bWAmi-n7j8vy_RrPuewQ\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: GboMm20ZE6j8QPy1g5PbMw\" \\\n\t-H \"Expiry: 1457890140\" \\\n\t-H \"Uid: 43marvin@watersdurgan.biz\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/admin/products/1\" -d 'product[title]=hi' -X PUT \\\n\t-H \"Access-Token: W84yCCwU_LAXjVbGA4qJEw\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: xEQ0IPylWaOlvsAxTok0EQ\" \\\n\t-H \"Expiry: 1458099902\" \\\n\t-H \"Uid: 50trace@johnson.info\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

@@ -33,11 +33,11 @@
       "request_path": "/client/addresses",
       "request_body": "address[address]=street+Hi+home+28+flat+3&address[city_id]=1",
       "request_headers": {
-        "Access-Token": "t0wde5W9OMbVcUzGogcT7A",
+        "Access-Token": "-VlyJjWo8IPbDFUNEfr60w",
         "Token-Type": "Bearer",
-        "Client": "ZEzGKo0_eScQTtiGKWo6NQ",
-        "Expiry": "1457890145",
-        "Uid": "83kelli_lind@ziemannbode.info",
+        "Client": "IZD2hNz85bS21dgAuC_C6g",
+        "Expiry": "1458099906",
+        "Uid": "90maegan@walter.net",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -55,13 +55,13 @@
         "Content-Type": "application/json; charset=utf-8",
         "ETag": "W/\"4cdbb210b0b248440fcc663c3680a429\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=T1YzSEZHWVVDUzJjeWJvQlBta0IyUHZVSUNVTjUrV0VMSW14cUtYMS9LcS8zMDRzWnliOE5WMStVaENucG1KWWNsYVI2SlkwQXJkWlpWZ2ttUEhaMW00QlV5Z1lvRUdTZ3AvRVc5TTRhampVSzhjb0tIK1hpU1FaTmh0VEVYbkFhN0ZDVTBTUnI2THpmMzcrSGhGRzlZVzhYaUkzU1B1OE1VQ3AxaVkza1JRSDRPSmcwR0JiTTdPZUoxNWpsOGZ0LS1FZ3JlemZEQkQrRWtzM0h1VzAydDZRPT0%3D--dacee4a1141ca839ab8ddfbf35dbe0a0d0a25359; path=/; HttpOnly",
-        "X-Request-Id": "319933d9-0d5c-47aa-b1a9-047711acb3d3",
-        "X-Runtime": "0.080349",
+        "Set-Cookie": "_session_id=dlVKQzdicWM1WkpwQmpOdkplWDlyZ1o4citGdWpwZzRROFdISEhwV1VRNEs1UkhaOERFM09mU1hoWG1SNkFzM3pqMDAvVnlnRVFSZld6OGllVy9RODRhaFZFMlhhdXc4RXlJRWV0RnNUMjFJRFo2SVNKMXBxemtDYVBKTTd1NElFWG5QclFTN0JqamhJZVptWnhHdFVaKzBmWllYRDd0eWE0dUtiUXNXTitWN0xqazlnWnNJMGNIZXZObSt6bDhrLS1ncERQRnNTeHlFTlB2MzFrdDVmUVd3PT0%3D--e02a05e5b9ef180e0486c5ad590f38a249b38529; path=/; HttpOnly",
+        "X-Request-Id": "b95347e3-adcd-433a-8248-2dbaf5500897",
+        "X-Runtime": "0.079318",
         "Content-Length": "69"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/client/addresses\" -d 'address[address]=street+Hi+home+28+flat+3&address[city_id]=1' -X POST \\\n\t-H \"Access-Token: t0wde5W9OMbVcUzGogcT7A\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: ZEzGKo0_eScQTtiGKWo6NQ\" \\\n\t-H \"Expiry: 1457890145\" \\\n\t-H \"Uid: 83kelli_lind@ziemannbode.info\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/client/addresses\" -d 'address[address]=street+Hi+home+28+flat+3&address[city_id]=1' -X POST \\\n\t-H \"Access-Token: -VlyJjWo8IPbDFUNEfr60w\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: IZD2hNz85bS21dgAuC_C6g\" \\\n\t-H \"Expiry: 1458099906\" \\\n\t-H \"Uid: 90maegan@walter.net\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

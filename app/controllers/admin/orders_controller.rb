@@ -12,26 +12,28 @@ module Admin
 
 		# GET /admin/orders/1
 		def show
-			# binding.pry
-			render json: @order
+			render json: @order, status: 200
 		end
 
-		# # PATCH/PUT /admin/orders/1
-		# def update
-		# 	@order = Order.find(params[:id])
+		def create
+			@order = Order.new order_params
+			if @order.confirm! and @order.approve!
+				render json: @order, status: :created
+			else
+				render json: @order.errors, status: :unprocessable_entity
+			end
+		end
 
-		# 	if @order.update(order_params)
-		# 		render json: @order, status: 200
-		# 	else
-		# 		render json: @order.errors, status: :unprocessable_entity
-		# 	end
-		# end
+		# PATCH/PUT /admin/orders/1
+		def update
+			if @order.update(order_params)
+				render json: @order, status: 200
+			else
+				render json: @order.errors, status: :unprocessable_entity
+			end
+		end
 
-		# # DELETE /admin/orders/1
-		# def destroy
-		# 	@order.destroy
-		# 	head 200
-		# end
+
 
 		def update_status
 			action = params[:order][:action]
@@ -57,12 +59,19 @@ module Admin
 
 			def order_params
 				params.require(:order).permit([
+					:delivery_boy_id, :user_id, :address_id,
+					:coupon_code,
+					:feedback,
 					:comment, :wanted_date, :wanted_time,
 					line_items_attributes: [:_destroy, :id, :amount, :product_id]
 				])
 
-				#no user_id, no use case when admin would need to change the order's user
+				# no payment_type (it's set automatically)
 			end
 	end
 
 end
+
+
+
+

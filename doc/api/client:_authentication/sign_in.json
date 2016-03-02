@@ -23,7 +23,7 @@
     {
       "request_method": "POST",
       "request_path": "/auth/sign_in",
-      "request_body": "email=86asha%40kub.org&password=secrety_bickety",
+      "request_body": "email=93alexandre%40pollich.net&password=secrety_bickety",
       "request_headers": {
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
@@ -34,25 +34,25 @@
       "request_content_type": "application/x-www-form-urlencoded",
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\n  \"data\": {\n    \"id\": 1,\n    \"first_name\": \"Kamron\",\n    \"last_name\": \"McClure\",\n    \"email\": \"86asha@kub.org\",\n    \"provider\": \"email\",\n    \"uid\": \"86asha@kub.org\",\n    \"phone\": \"+79176308798\",\n    \"verification_code\": null,\n    \"is_verified\": false,\n    \"how_did_you_hear_about_us\": null\n  }\n}",
+      "response_body": "{\n  \"data\": {\n    \"id\": 1,\n    \"first_name\": \"Veronica\",\n    \"last_name\": \"Shanahan\",\n    \"email\": \"93alexandre@pollich.net\",\n    \"provider\": \"email\",\n    \"uid\": \"93alexandre@pollich.net\",\n    \"phone\": \"+79176448089\",\n    \"verification_code\": null,\n    \"is_verified\": false,\n    \"how_did_you_hear_about_us\": null\n  }\n}",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
-        "access-token": "0VdJ3nu4BZxexmzlcA7vKw",
+        "access-token": "tyE_sM2hZWPkHTXk3QsbIA",
         "token-type": "Bearer",
-        "client": "kGgnTpHPsoOZQqhYH60efQ",
-        "expiry": "1457890145",
-        "uid": "86asha@kub.org",
+        "client": "Gj6BgkHZdn9FSjyk3h6B6A",
+        "expiry": "1458099907",
+        "uid": "93alexandre@pollich.net",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"87d4fa09db4d6328a9bf5cc80f2b1b3c\"",
+        "ETag": "W/\"9f7c87c463e19829dd49bc3993d1d8f3\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "X-Request-Id": "c28b2ebd-f4ca-4da7-ba8f-489a97aa60e4",
-        "X-Runtime": "0.161964",
-        "Content-Length": "229"
+        "X-Request-Id": "9f805617-8bff-49fd-9027-e865b21d9a5f",
+        "X-Runtime": "0.175639",
+        "Content-Length": "250"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/auth/sign_in\" -d 'email=86asha%40kub.org&password=secrety_bickety' -X POST \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/auth/sign_in\" -d 'email=93alexandre%40pollich.net&password=secrety_bickety' -X POST \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

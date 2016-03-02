@@ -80,6 +80,10 @@ gem 'offsite_payments'
 
 gem 'smslane'
 
+gem 'virtus'
+
+
+
 
 ruby '2.2.1'
 

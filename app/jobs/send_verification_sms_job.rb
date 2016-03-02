@@ -3,7 +3,7 @@ class SendVerificationSmsJob < ActiveJob::Base
 
 	def perform name, phone, verification_code
 
-		text = "Dear #{name}, Your verification code is #{verification_code} , Regards, FreshRocket"
+		text = "Dear #{name}, your verification code is #{verification_code}. Regards, FreshRocket."
 
 		client = Smslane::Client.new(SMSLANE[:username], SMSLANE[:password])
 

@@ -25,10 +25,4 @@ resource 'client: payments', type: :request do
 
 
 
-
-
-
-
-
-
 end

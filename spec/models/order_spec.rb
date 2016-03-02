@@ -249,18 +249,35 @@ describe Order, type: :model do
 
 		let(:order){ FactoryGirl.create :order }
 
-		describe '.wanted_date_is_in_proper_range?'
-		it 'valid' do
-			order.update(wanted_date: Time.now + 2.days)
+		describe '.wanted_date_is_in_proper_range?' do
+			it 'valid' do
+				order.update(wanted_date: Time.now + 2.days)
 
-			expect(order).to be_valid
+				expect(order).to be_valid
+			end
+
+			it 'invalid' do
+				order.update(wanted_date: Time.now + 4.days)
+
+				expect(order).to be_invalid
+				expect(order.errors.messages).to include :wanted_date => ["can't be in more than tree days"]
+			end
 		end
 
-		it 'invalid' do
-			order.update(wanted_date: Time.now + 4.days)
+		describe 'wanted_date_is_set_if_wanted_time_is_set' do
+			it 'valid' do
+				order.update(wanted_time: 'morning', wanted_date: Date.today)
+				expect(order).to be_valid
 
-			expect(order).to be_invalid
-			expect(order.errors.messages).to include :wanted_date => ["can't be in more than tree days"]
+				order.update(wanted_time: nil, wanted_date: nil)
+				expect(order).to be_valid
+			end
+
+			it 'invalid' do
+				order.update(wanted_time: 'morning')
+				expect(order.errors.messages.keys).to include(:wanted_date)
+			end
+
 		end
 
 	end
@@ -269,14 +286,15 @@ describe Order, type: :model do
 	describe 'scopes' do
 
 		it 'city_id' do
-			orders = FactoryGirl.create_list :order, 3, address_id: address.id
-			city_id = address.city.id
+			orders = FactoryGirl.create_list :order, 3
+			FactoryGirl.create_list :order, 2 #with another city
 
-			another_address = FactoryGirl.create :address
-			FactoryGirl.create_list :order, 2, address_id: another_address.id
-
-
-			expect(Order.city_id(city_id).pluck(:id)).to match_array(orders.pluck(:id))
+			city_id = orders[0].city_id
+			
+			actual_ids   = Order.city_id(city_id).pluck(:id)
+			expected_ids = Order.select { |order| order.city_id == city_id }.pluck(:id)
+			
+			expect(actual_ids).to match_array(expected_ids)
 		end
 
 

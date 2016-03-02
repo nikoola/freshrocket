@@ -1,0 +1,71 @@
+{
+  "resource": "client: forms",
+  "http_method": "POST",
+  "route": "/client/forms/contact",
+  "description": "send email to admins",
+  "explanation": null,
+  "parameters": [
+    {
+      "scope": "form",
+      "required": true,
+      "name": "name",
+      "description": ""
+    },
+    {
+      "scope": "form",
+      "required": true,
+      "name": "email",
+      "description": ""
+    },
+    {
+      "scope": "form",
+      "name": "order_id",
+      "description": "Form order"
+    },
+    {
+      "scope": "form",
+      "required": true,
+      "name": "message",
+      "description": ""
+    }
+  ],
+  "response_fields": [
+
+  ],
+  "requests": [
+    {
+      "request_method": "POST",
+      "request_path": "/client/forms/contact",
+      "request_body": "form[name]=Orion&form[email]=ahmed%40dach.name&form[message]=We+need+to+connect+the+redundant+SSL+pixel%21",
+      "request_headers": {
+        "Access-Token": "qOptAdSXkUSj_-07HVU9Eg",
+        "Token-Type": "Bearer",
+        "Client": "BmXrSCxiQPYhQPLOpk2l5g",
+        "Expiry": "1458099907",
+        "Uid": "95pablo.schoen@franecki.net",
+        "Host": "example.org",
+        "Content-Type": "application/x-www-form-urlencoded",
+        "Cookie": ""
+      },
+      "request_query_parameters": {
+      },
+      "request_content_type": "application/x-www-form-urlencoded",
+      "response_status": 200,
+      "response_status_text": "OK",
+      "response_body": null,
+      "response_headers": {
+        "X-Frame-Options": "SAMEORIGIN",
+        "X-XSS-Protection": "1; mode=block",
+        "X-Content-Type-Options": "nosniff",
+        "Content-Type": "text/html",
+        "Cache-Control": "no-cache",
+        "Set-Cookie": "_session_id=d3pRUHNxRmxFZ2FsWkxGdXRHQUdjZCtMWTdoZXoyT1E0NTNBaHRPL2VJQUtGT05WMzRNamlwZGllQ1hKSmxwdCtsWUpSditzaFJSSEZXbmJYTUtZWjNueFU1dTJXWVM4bURjWVBNbWI3RkxsZDVpVFZnQ1NZanFsTkRKVnJvdEs1Z3ExZXdSbzJJRWhRWHJHYWc2SXExajFqSUNEK2dpMHQvTmNGRllIZUUzekwwYmZIbGc0cjIwRkRoRlJLZE45LS0yUTV0bi9ha29DYTZHWTBTRHVlb1RnPT0%3D--55d7a97e1540cbded399a7231b81e309686b855b; path=/; HttpOnly",
+        "X-Request-Id": "1a0b3e61-de64-4b91-8de3-417d33a3886c",
+        "X-Runtime": "0.215422",
+        "Content-Length": "0"
+      },
+      "response_content_type": "text/html",
+      "curl": "curl \"http://localhost:3000/client/forms/contact\" -d 'form[name]=Orion&form[email]=ahmed%40dach.name&form[message]=We+need+to+connect+the+redundant+SSL+pixel%21' -X POST \\\n\t-H \"Access-Token: qOptAdSXkUSj_-07HVU9Eg\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: BmXrSCxiQPYhQPLOpk2l5g\" \\\n\t-H \"Expiry: 1458099907\" \\\n\t-H \"Uid: 95pablo.schoen@franecki.net\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+    }
+  ]
+}

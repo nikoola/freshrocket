@@ -35,6 +35,14 @@ Rails.application.routes.draw do
 
 		resources :addresses, only: [:index, :create, :update, :destroy]
 
+		nested do
+			scope :forms do
+				controller :forms do
+					post :contact
+				end
+			end
+		end
+
 	end
 
 
@@ -42,7 +50,7 @@ Rails.application.routes.draw do
 	#under /admin we will only have the urls that require admin account.
 		resources :categories,    only: [:create, :update, :destroy] #no need for show
 		resources :products,      only: [:create, :update, :destroy]
-		resources :orders,        only: [:index, :show] do
+		resources :orders,        only: [:index, :show, :create, :update] do
 			member {
 				put :update_status     # status: ''
 			}

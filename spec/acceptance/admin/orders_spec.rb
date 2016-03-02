@@ -85,32 +85,42 @@ resource 'admin: orders', type: :request do
 		end
 	end
 
-	# post '/admin/orders' do
+	post '/admin/orders' do
 
+		example 'create order' do
+			explanation 'confirm and approve right after'
 
-	# 	it 'by admin, with invalid params: errors returned' do
-	# 		post '/admin/orders', {order: FactoryGirl.attributes_for(:order, phone: nil)} , @admin_user_auth_headers
-	# 		expect_status 422
-	# 		expect_json :user=>["can't be blank"], :order=>["must add at least one line item"]
-	# 	end
+			attributes = FactoryGirl.attributes_for(:order).merge( 
+				address_id: FactoryGirl.create(:address).id,
+				user_id:    FactoryGirl.create(:user).id,
+				line_items_attributes: [
+					{
+						product_id: FactoryGirl.create(:product).id, amount: 3
+					}
+				]
+			)
 
-	# end
+			do_request order: attributes
+			
+			order = Order.find(json[:id])
 
-	# describe 'PUT admin/orders/1' do
-	# 	it 'by admin, with valid params: user updated' do
-	# 		put admin_order_path(@order), {order: {role: :admin}}, @admin_user_auth_headers
+			expect(status).to eq(201)
+			expect(order.payment_type).to eq('cash')
+		end
 
-	# 		expect_status 200
-	# 		expect_json_keys [:status, :comment]
-	# 	end
-	# end
+	end
 
-	# describe 'DELETE admin/orders/1' do
-	# 	it 'by admin: user deleted' do
-	# 		delete admin_order_path(@order), {}, @admin_user_auth_headers
-	# 		expect_status 200
-	# 	end
-	# end
+	put '/admin/orders/:id' do
+
+		it 'update order' do
+			delivery_boy = FactoryGirl.create :delivery_boy
+			do_request id: order.id, order: { delivery_boy_id: delivery_boy.id }
+			
+			expect(status).to eq(200)
+			expect(order.reload.delivery_boy.id).to eq(delivery_boy.id)
+		end
+	end
+
 
 	put '/admin/orders/:id/update_status' do
 		parameter :action, ':approve, :dispatch, :deliver, :cancel', scope: :order, required: true

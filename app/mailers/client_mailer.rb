@@ -1,4 +1,4 @@
-class UserMailer < ApplicationMailer
+class ClientMailer < ApplicationMailer
 	default from: 'notifications@example.com'
 
 	def order_summary(order)
@@ -6,6 +6,8 @@ class UserMailer < ApplicationMailer
 
 		mail(to: @order.user.email, subject: 'Your order has been approved')
 	end
+
+
 end
 
 

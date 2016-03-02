@@ -54,8 +54,8 @@ class SetupSchema < ActiveRecord::Migration
 		t.string   "wanted_time"
 		t.integer  "delivery_boy_id"
 
-		t.string   "payment_type"
-		t.boolean  "is_paid"
+		t.string   "payment_type", default: 'cash'
+		t.boolean  "is_paid",      default: false
 
 		t.string   'coupon_code'
 
@@ -128,7 +128,7 @@ class SetupSchema < ActiveRecord::Migration
 
 		t.string   :phone
 		t.string   :verification_code
-		t.boolean  :is_verified
+		t.boolean  :is_verified,             default: false
 
 		t.datetime "created_at"
 		t.datetime "updated_at"
