@@ -128,15 +128,12 @@ class SetupSchema < ActiveRecord::Migration
 		t.string   "last_sign_in_ip"
 		t.text     "tokens"
 
-		t.string  :phone
+		t.string   :phone
 		t.string   :verification_code
 		t.boolean  :is_verified,             default: false
 
 		t.datetime "created_at"
 		t.datetime "updated_at"
-
-		t.string   "reset_password_token"
-		t.datetime "reset_password_sent_at"
 
 		t.text     "how_did_you_hear_about_us"
 	end

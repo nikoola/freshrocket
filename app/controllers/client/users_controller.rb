@@ -28,10 +28,13 @@ module Client
 
 
 
-		def send_email_to_recover_password
-			if current_user.send_reset_password_instructions
-				head 200	
-			end
+		def send_sms_with_recovery_password
+			temporary_password = rand(10000000..99999999)
+			current_user.update!(password: temporary_password, password_confirmation: temporary_password)
+
+			SendSmsWithRecoveryPasswordJob.perform_later current_user.name, temporary_password, current_user.phone
+		
+			head 200
 		end
 
 

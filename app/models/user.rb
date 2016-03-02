@@ -3,7 +3,7 @@ class User < ActiveRecord::Base
 	has_one :delivery_boy, autosave: true #used in manipulate_user_abilities
 
 	devise  :database_authenticatable, :registerable,
-					:recoverable, :rememberable, :trackable, :validatable,
+					:rememberable, :trackable, :validatable,
 					:omniauthable #TODO get rid of some
 	# notice this comes BEFORE the include statement below
 	include DeviseTokenAuth::Concerns::User
