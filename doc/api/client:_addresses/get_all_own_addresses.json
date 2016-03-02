@@ -19,11 +19,11 @@
       "request_path": "/client/addresses?active=0",
       "request_body": null,
       "request_headers": {
-        "Access-Token": "NEAUJ1WctHiKEhK9ir51ig",
+        "Access-Token": "LJxk6ct4yzuXE0ZnsIAmbw",
         "Token-Type": "Bearer",
-        "Client": "8XJ7lPRpCViYS3mNq7WLHA",
-        "Expiry": "1458149224",
-        "Uid": "87sabryna@gleichner.org",
+        "Client": "2xiSnhXrf7rYqbqfOZGqaA",
+        "Expiry": "1458156231",
+        "Uid": "87lurline@rice.biz",
         "Host": "example.org",
         "Cookie": ""
       },
@@ -33,21 +33,21 @@
       "request_content_type": null,
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "[\n  {\n    \"id\": 1,\n    \"address\": \"44993 Jany Creek\",\n    \"city_id\": 1,\n    \"user_id\": 1\n  },\n  {\n    \"id\": 2,\n    \"address\": \"30668 Simonis Drives\",\n    \"city_id\": 2,\n    \"user_id\": 1\n  },\n  {\n    \"id\": 3,\n    \"address\": \"48997 Dejon Curve\",\n    \"city_id\": 3,\n    \"user_id\": 1\n  }\n]",
+      "response_body": "[\n  {\n    \"id\": 1,\n    \"address\": \"55798 Jones Plain\",\n    \"city_id\": 1,\n    \"user_id\": 1\n  },\n  {\n    \"id\": 2,\n    \"address\": \"361 Ledner Cliff\",\n    \"city_id\": 2,\n    \"user_id\": 1\n  },\n  {\n    \"id\": 3,\n    \"address\": \"11044 Phyllis Street\",\n    \"city_id\": 3,\n    \"user_id\": 1\n  }\n]",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"f082d3224f0185ac20cac049260a0723\"",
+        "ETag": "W/\"0c05a2c8afb50f1816f0f4fd9daa31a8\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=WUFjM2xjT0NwbHdXWDJFZkcyMTJmMWpyV1VLbG9xM1libytLK2grR0F2YW05QlF1M2JFa0JXUE90cFhnaVNEeGZOSGpsT3IwVTFFZGRpRHkxajV2WFpveXZra1hUVEtmdld5cFVsSmZiOC9TcXJJc2F2U3NhaUsvRC9JWHFRa0ZyeDE5Sk1wRUNWR2pRbnNObDg3MGgwQ1k0WkFvMUlkS3huc0xFVDV1eDFtdDM0SCtnRmZ0bk1KTkpXOXFKTnV3LS1xTUlPRGo0UFdIMDJQb2JpaUt3UWtBPT0%3D--c77c4319b49c8d9bf7f4ab66923cb5d4e7b8c3a3; path=/; HttpOnly",
-        "X-Request-Id": "6a83179d-c213-480d-8cbc-6fc736308f8e",
-        "X-Runtime": "0.087893",
+        "Set-Cookie": "_session_id=Tk5yaDVHeU5SeXRoYVQ2bS82TnhTR2dGUmk1aHpONlJHREpwUjBjWlk4Z2JKRE5SdndPSzlYZEM0Z1lyVjczc1FSeXI3VHU1YmxkWVhhR0dUR0wrS1VTNEFSNFl4aGtPaUZ4SFM3TXZpR1FvMTlrbnBQVCsrbGZRMjEwZDBaZmE2TVlYc0hWaVpTaEIxNEJGL1NQWUp6TnpsSGZScjg2ZkN4MDRBaks1US9pVjErK2lTNEs4b0pUMEZGbXlXK0swLS0vaDUyQlRQeVpRY0VYS2p6UGlKTEZnPT0%3D--d9312a546dd5501d689674298cda766491837935; path=/; HttpOnly",
+        "X-Request-Id": "c1f7eb59-8a74-4076-a163-26bb2930e5f0",
+        "X-Runtime": "0.087427",
         "Content-Length": "192"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/client/addresses?active=0\" -X GET \\\n\t-H \"Access-Token: NEAUJ1WctHiKEhK9ir51ig\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: 8XJ7lPRpCViYS3mNq7WLHA\" \\\n\t-H \"Expiry: 1458149224\" \\\n\t-H \"Uid: 87sabryna@gleichner.org\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/client/addresses?active=0\" -X GET \\\n\t-H \"Access-Token: LJxk6ct4yzuXE0ZnsIAmbw\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: 2xiSnhXrf7rYqbqfOZGqaA\" \\\n\t-H \"Expiry: 1458156231\" \\\n\t-H \"Uid: 87lurline@rice.biz\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

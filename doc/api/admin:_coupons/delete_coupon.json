@@ -16,11 +16,11 @@
       "request_path": "/admin/coupons/1",
       "request_body": null,
       "request_headers": {
-        "Access-Token": "W_V6BcoGq86MQiBOGx2vYQ",
+        "Access-Token": "3aqbJ5mraBzvyYxRR8buLA",
         "Token-Type": "Bearer",
-        "Client": "1RKD8tN5lLdAq4v0ux_FSQ",
-        "Expiry": "1458149214",
-        "Uid": "12katrine@heel.org",
+        "Client": "HWSmwQBf01ZOOP-_zBjSRw",
+        "Expiry": "1458156224",
+        "Uid": "12faye@roob.org",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -37,13 +37,13 @@
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "text/html",
         "Cache-Control": "no-cache",
-        "Set-Cookie": "_session_id=ZXdMelNySDliWmVtRklOdXpENlR6ZFliQTFtRHhwMFhMMW9YRlE3UDJKTkxaRjFEbzNKTHlHNUVDakl5Nk5INHErM2NwbFZrNnNvS2tZdHhtbDFFY0JHdU1UN2FCL0pvZUFqZUJBZmwrUkJzZVRtQlZ2MmlCOGVxMG9pWFhjNk9hVXhjWkpSL0h5MktnZWpnUFVFOGZSQnlOWmZEZ3prOHk1WUNSc01PNEM5ZkJJVVFDS3JSakc3MUR6elp1L1YxLS1OUE9lcWVUZXM1TTJmM0hxSTFlV3hRPT0%3D--ffffa130e44dd54d9e4b653c7d033d5ee8a09c88; path=/; HttpOnly",
-        "X-Request-Id": "b97d892e-2bb0-49de-b83c-76321364a7b7",
-        "X-Runtime": "0.091246",
+        "Set-Cookie": "_session_id=di9xTnBPR3JBSkJhY2lKSHFNdGVkR3JvQU5MejNGN0dDSWVyRnJuR2E0clFhK2lRZUM3V0J4L29TQkNybDhTdjJrTllzVGFoWHBDYllaZllvL0JtTnVhQnphemp6UTQyK2RGTnR6RXNJNDNmUkZYd2EwQ2dWU2pkakFCdWkwSzVSQ24xWGRTcTBmY3ZDekF4RmwrYWthbmJ0L2txQ0VKcTNOdDVUalkvMWFxMGx6RFVQTDExMlFmWHowdTBjK3Q4LS1zK0w0WEpnT1VndVRUdlNtRk9pdTVnPT0%3D--f065110168d9d7c39c08dffafcb7ce85ba97cf93; path=/; HttpOnly",
+        "X-Request-Id": "eb6a0ae4-14d4-467a-9a56-04af2a26309f",
+        "X-Runtime": "0.076018",
         "Content-Length": "0"
       },
       "response_content_type": "text/html",
-      "curl": "curl \"http://localhost:3000/admin/coupons/1\" -d '' -X DELETE \\\n\t-H \"Access-Token: W_V6BcoGq86MQiBOGx2vYQ\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: 1RKD8tN5lLdAq4v0ux_FSQ\" \\\n\t-H \"Expiry: 1458149214\" \\\n\t-H \"Uid: 12katrine@heel.org\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/admin/coupons/1\" -d '' -X DELETE \\\n\t-H \"Access-Token: 3aqbJ5mraBzvyYxRR8buLA\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: HWSmwQBf01ZOOP-_zBjSRw\" \\\n\t-H \"Expiry: 1458156224\" \\\n\t-H \"Uid: 12faye@roob.org\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

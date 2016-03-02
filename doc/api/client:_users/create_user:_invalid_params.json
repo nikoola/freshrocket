@@ -47,13 +47,13 @@
     {
       "request_method": "POST",
       "request_path": "/auth",
-      "request_body": "email=132ivy%40reichelleffler.org&password=secrety_bickety&password_confirmation=secrety_bickety&first_name=Onie&last_name=Mueller&phone",
+      "request_body": "email=132miracle%40harbergaylord.biz&password=secrety_bickety&password_confirmation=secrety_bickety&first_name=Bradley&last_name=Veum&phone",
       "request_headers": {
-        "Access-Token": "vaRhNnaXxqYjf0uawjUECg",
+        "Access-Token": "VedP4oLes8Et99n6TrU18w",
         "Token-Type": "Bearer",
-        "Client": "C2FBhwxDzEbWKwoVMuQ5yQ",
-        "Expiry": "1458149231",
-        "Uid": "133kenyatta@bednar.biz",
+        "Client": "IhJORtvzvLVvgqTRzGuE5A",
+        "Expiry": "1458156239",
+        "Uid": "133pansy.wehner@rolfson.name",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -63,19 +63,19 @@
       "request_content_type": "application/x-www-form-urlencoded",
       "response_status": 403,
       "response_status_text": "Forbidden",
-      "response_body": "{\n  \"status\": \"error\",\n  \"data\": {\n    \"id\": null,\n    \"first_name\": \"Onie\",\n    \"last_name\": \"Mueller\",\n    \"email\": \"132ivy@reichelleffler.org\",\n    \"provider\": \"email\",\n    \"uid\": \"\",\n    \"phone\": null,\n    \"verification_code\": null,\n    \"is_verified\": false,\n    \"created_at\": null,\n    \"updated_at\": null,\n    \"how_did_you_hear_about_us\": null\n  },\n  \"errors\": {\n    \"phone\": [\n      \"can't be blank\",\n      \"is not a number\",\n      \"is the wrong length (should be 12 characters)\"\n    ],\n    \"full_messages\": [\n      \"Phone can't be blank\",\n      \"Phone is not a number\",\n      \"Phone is the wrong length (should be 12 characters)\"\n    ]\n  }\n}",
+      "response_body": "{\n  \"status\": \"error\",\n  \"data\": {\n    \"id\": null,\n    \"first_name\": \"Bradley\",\n    \"last_name\": \"Veum\",\n    \"email\": \"132miracle@harbergaylord.biz\",\n    \"provider\": \"email\",\n    \"uid\": \"\",\n    \"phone\": null,\n    \"verification_code\": null,\n    \"is_verified\": false,\n    \"created_at\": null,\n    \"updated_at\": null,\n    \"how_did_you_hear_about_us\": null\n  },\n  \"errors\": {\n    \"phone\": [\n      \"can't be blank\",\n      \"is not a number\",\n      \"is the wrong length (should be 12 characters)\"\n    ],\n    \"full_messages\": [\n      \"Phone can't be blank\",\n      \"Phone is not a number\",\n      \"Phone is the wrong length (should be 12 characters)\"\n    ]\n  }\n}",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "application/json; charset=utf-8",
         "Cache-Control": "no-cache",
-        "X-Request-Id": "aef6b42c-7174-4ca0-9bd3-d747c93695e5",
-        "X-Runtime": "0.009017",
-        "Content-Length": "493"
+        "X-Request-Id": "31f1e051-d1a0-4c09-b932-0c442a65bf69",
+        "X-Runtime": "0.008726",
+        "Content-Length": "496"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/auth\" -d 'email=132ivy%40reichelleffler.org&password=secrety_bickety&password_confirmation=secrety_bickety&first_name=Onie&last_name=Mueller&phone' -X POST \\\n\t-H \"Access-Token: vaRhNnaXxqYjf0uawjUECg\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: C2FBhwxDzEbWKwoVMuQ5yQ\" \\\n\t-H \"Expiry: 1458149231\" \\\n\t-H \"Uid: 133kenyatta@bednar.biz\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/auth\" -d 'email=132miracle%40harbergaylord.biz&password=secrety_bickety&password_confirmation=secrety_bickety&first_name=Bradley&last_name=Veum&phone' -X POST \\\n\t-H \"Access-Token: VedP4oLes8Et99n6TrU18w\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: IhJORtvzvLVvgqTRzGuE5A\" \\\n\t-H \"Expiry: 1458156239\" \\\n\t-H \"Uid: 133pansy.wehner@rolfson.name\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

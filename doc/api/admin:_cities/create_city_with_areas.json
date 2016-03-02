@@ -39,13 +39,13 @@
     {
       "request_method": "POST",
       "request_path": "/admin/cities",
-      "request_body": "city[name]=Deckowbury_1&city[areas_attributes][][name]=hi",
+      "request_body": "city[name]=Pagacfort_1&city[areas_attributes][][name]=hi",
       "request_headers": {
-        "Access-Token": "alxV4vQxlAzaIYkF1jgMtw",
+        "Access-Token": "UlwDGdGqz46n7GvE1fYUmg",
         "Token-Type": "Bearer",
-        "Client": "6dzmiWJeIxSvbmCNEYrcKQ",
-        "Expiry": "1458149213",
-        "Uid": "6leone@hudsonmann.name",
+        "Client": "kCc-oW9MCIMUs7dMT1s0OA",
+        "Expiry": "1458156222",
+        "Uid": "6sheldon_franecki@bartellcarter.biz",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -55,22 +55,22 @@
       "request_content_type": "application/x-www-form-urlencoded",
       "response_status": 201,
       "response_status_text": "Created",
-      "response_body": "{\n  \"id\": 1,\n  \"name\": \"Deckowbury_1\",\n  \"active\": true,\n  \"areas\": [\n    {\n      \"id\": 1,\n      \"name\": \"hi\"\n    }\n  ]\n}",
+      "response_body": "{\n  \"id\": 1,\n  \"name\": \"Pagacfort_1\",\n  \"active\": true,\n  \"areas\": [\n    {\n      \"id\": 1,\n      \"name\": \"hi\"\n    }\n  ]\n}",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
         "Location": "http://example.org/cities/1",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"f533b40a36cbc140cf6a4e3e1f6144ba\"",
+        "ETag": "W/\"148669697333587206e0f76c19e152b9\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=UTd6N29oR2cxZWpFSGhsMzdvY2JjZVRtRHJVaHJibjhZOHFKc1NORDNKK0JzaDhVUityODFRZFFadkNtUDlsOFVQaVJNRTkxa2lMRWRBOFROUkZ4MkExcU9DMlZ4R255WVZJTUx6MG9RTWpLVERlbGVEZlpnaFhyMGd5eGFDYWdsMVlDQXFGcFB4RWZ0eUxEcjE1NzZsR2hMT0t3bWJIUC9VQ1pzKzRGMHN2MW1nNWVBd20wTFk0S1M4MjV2RWIzLS1ET3J1QlAyMU1UbDFmVHl2aHdVV09nPT0%3D--dd7b6ee037193248ae8c17fd53dac1b8808a69cd; path=/; HttpOnly",
-        "X-Request-Id": "80505cd1-5b46-4d71-820c-eb9aa358fa98",
-        "X-Runtime": "0.155448",
-        "Content-Length": "75"
+        "Set-Cookie": "_session_id=ZkVmRmNuSkRINFRNOXpWMmJKMGZEN0hLQ2Y2VGdWOGJrdWF1QmpCdnFsZzEzcG9MN1lVcWRZTzZJbkdiMSt2ZXNOOHZCdTc2TGVJTFZHYTBuVTgvQ1ppK2RTVGlKQXdIQmEvNlNoSU5DUkF4amtieTlUMjU0TW01bGIxMGRCY1h3MHVhMXFJZnZ4b3dUeGNGU3ZyaHF2aS9pR1BFREMxYlZBN2Rvc1Z2QzREa1d6bnpkaTh0c2liSGUyNVM5VUZmLS1sTTVLMG5qQlN6WWFWUUs2R3N3ODNRPT0%3D--a46373cce9267b0724700439316c67535176a771; path=/; HttpOnly",
+        "X-Request-Id": "d72486d0-4e35-4cb6-b8ce-d24fca2b06ba",
+        "X-Runtime": "0.096350",
+        "Content-Length": "74"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/admin/cities\" -d 'city[name]=Deckowbury_1&city[areas_attributes][][name]=hi' -X POST \\\n\t-H \"Access-Token: alxV4vQxlAzaIYkF1jgMtw\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: 6dzmiWJeIxSvbmCNEYrcKQ\" \\\n\t-H \"Expiry: 1458149213\" \\\n\t-H \"Uid: 6leone@hudsonmann.name\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/admin/cities\" -d 'city[name]=Pagacfort_1&city[areas_attributes][][name]=hi' -X POST \\\n\t-H \"Access-Token: UlwDGdGqz46n7GvE1fYUmg\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: kCc-oW9MCIMUs7dMT1s0OA\" \\\n\t-H \"Expiry: 1458156222\" \\\n\t-H \"Uid: 6sheldon_franecki@bartellcarter.biz\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

@@ -16,11 +16,11 @@
       "request_path": "/auth",
       "request_body": "phone=%2B79174446666",
       "request_headers": {
-        "Access-Token": "a1fPBPU2ViXGnotLaFaCxA",
+        "Access-Token": "zYyIQ3hkq7ppep3tHq1qAw",
         "Token-Type": "Bearer",
-        "Client": "7VfDTBnhRbTWJWkRTEDNRQ",
-        "Expiry": "1458149231",
-        "Uid": "134jonas.kerluke@brown.info",
+        "Client": "UNmqKMjturP4U5sp_pRleg",
+        "Expiry": "1458156239",
+        "Uid": "134koby_von@macgyverbailey.biz",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -30,21 +30,21 @@
       "request_content_type": "application/x-www-form-urlencoded",
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\n  \"status\": \"success\",\n  \"data\": {\n    \"id\": 5,\n    \"first_name\": \"Jennifer\",\n    \"last_name\": \"Ruecker\",\n    \"email\": \"134jonas.kerluke@brown.info\",\n    \"provider\": \"email\",\n    \"uid\": \"134jonas.kerluke@brown.info\",\n    \"phone\": \"+79174446666\",\n    \"verification_code\": null,\n    \"is_verified\": false,\n    \"created_at\": \"2016-03-02T17:27:11.819Z\",\n    \"updated_at\": \"2016-03-02T17:27:11.969Z\",\n    \"how_did_you_hear_about_us\": null\n  }\n}",
+      "response_body": "{\n  \"status\": \"success\",\n  \"data\": {\n    \"id\": 5,\n    \"first_name\": \"Lois\",\n    \"last_name\": \"Ortiz\",\n    \"email\": \"134koby_von@macgyverbailey.biz\",\n    \"provider\": \"email\",\n    \"uid\": \"134koby_von@macgyverbailey.biz\",\n    \"phone\": \"+79174446666\",\n    \"verification_code\": null,\n    \"is_verified\": false,\n    \"created_at\": \"2016-03-02T19:23:59.304Z\",\n    \"updated_at\": \"2016-03-02T19:23:59.451Z\",\n    \"how_did_you_hear_about_us\": null\n  }\n}",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"8103d64180e4130dfbeed7a98665baa4\"",
+        "ETag": "W/\"f518c82ea81ee773d31796c2e6aa3f0d\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=VFY2OEpxclRmWW1FSlhROVZ3SGZzeFRLQnJTOVVGSGQ1SHhqWWY4RFNtN0hZZmJIOHV4SXNUQXQvV2xlSXBWN1dlODZSY2lhaVVoNURVamgwVnRVREFXUGlIR3VPYXgwYkhnUXdNSWh3TXNOelNXajNnWTh1akRFaTlmWllDaDUxSTllbTVzSm10VmpNZHQ3N3JpWEVuYlhmcjFLOWR4V0hjQTdUQVVKaStoZnJsZEpOOTVwSWdlSkV6eFQyQjNILS1YWmVpWDFCOGwwVEVTa29td1lHLzFRPT0%3D--10c3b7ab81660f542db64b4fbba0286230cc317a; path=/; HttpOnly",
-        "X-Request-Id": "f5d27a1c-6a1c-4afb-8c4f-694ad9efee4b",
-        "X-Runtime": "0.080430",
+        "Set-Cookie": "_session_id=TlBoYjBLVitKekpKZDRqbHZwRUw5VUU1c0lHS2RweDRaR25KTm9BZHVsQ0w0MUZVVzcxUTVWZjJwQVgrL25lSU4waXAvbkJmL1ByYU5VZ3FDc3JVVFA3UTBLUHl5c3lTTDVxNWVMOE0yb0dEdm55c256YUFPNkV0bmJBYTRGQnROUWh6SU1tRnd2QThiemlLT0pWbWVoVDZGL3hYMVFYWWdEWXZ2VWtKTEFGMzNqQmpoZ1FtbU1OYmtweTg2R1ZpLS0rNC83VDhFM2NlYS85bnRqZkVjR2J3PT0%3D--0783bc70f0be0120d0d3a337b0b3c62129fb0ede; path=/; HttpOnly",
+        "X-Request-Id": "21dd63c4-7eee-47cc-b50a-562970eafbdf",
+        "X-Runtime": "0.079589",
         "Content-Length": "356"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/auth\" -d 'phone=%2B79174446666' -X PUT \\\n\t-H \"Access-Token: a1fPBPU2ViXGnotLaFaCxA\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: 7VfDTBnhRbTWJWkRTEDNRQ\" \\\n\t-H \"Expiry: 1458149231\" \\\n\t-H \"Uid: 134jonas.kerluke@brown.info\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/auth\" -d 'phone=%2B79174446666' -X PUT \\\n\t-H \"Access-Token: zYyIQ3hkq7ppep3tHq1qAw\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: UNmqKMjturP4U5sp_pRleg\" \\\n\t-H \"Expiry: 1458156239\" \\\n\t-H \"Uid: 134koby_von@macgyverbailey.biz\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

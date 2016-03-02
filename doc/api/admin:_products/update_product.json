@@ -16,11 +16,11 @@
       "request_path": "/admin/products/1",
       "request_body": "product[title]=hi",
       "request_headers": {
-        "Access-Token": "ElwHfKn3pJYgk39AWybGvQ",
+        "Access-Token": "Z6NkbU-biJFfUowD3tbifA",
         "Token-Type": "Bearer",
-        "Client": "QftvMsjxmrNKqTOr8OmmUQ",
-        "Expiry": "1458149219",
-        "Uid": "50gabe@emmerich.biz",
+        "Client": "twwqOOw_FOG5l1xNZlYkiQ",
+        "Expiry": "1458156227",
+        "Uid": "50german@hudson.info",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -30,21 +30,21 @@
       "request_content_type": "application/x-www-form-urlencoded",
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\n  \"id\": 1,\n  \"city_id\": 1,\n  \"title\": \"hi\",\n  \"price\": \"3.0\",\n  \"description\": null,\n  \"created_at\": \"2016-03-02T17:26:59.716Z\",\n  \"updated_at\": \"2016-03-02T17:26:59.928Z\",\n  \"inventory_count\": 20,\n  \"image_url\": \"uploads/product/image/default.png\",\n  \"categories\": [\n\n  ]\n}",
+      "response_body": "{\n  \"id\": 1,\n  \"city_id\": 1,\n  \"title\": \"hi\",\n  \"price\": \"3.0\",\n  \"description\": null,\n  \"created_at\": \"2016-03-02T19:23:47.567Z\",\n  \"updated_at\": \"2016-03-02T19:23:47.735Z\",\n  \"inventory_count\": 20,\n  \"image_url\": \"uploads/product/image/default.png\",\n  \"categories\": [\n\n  ]\n}",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"da429eb99cdafec23cd28cd1f899c1f2\"",
+        "ETag": "W/\"f1346efed0e7610a9f34f32005370641\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=czUzUzhuUVlPdkFta21uVTJ4bGZHTjdlbGZJdW5PU0dpSGNjMlZvUlJKT1B4Y2JmU2QxejdqTFhxSzY3bC9QR2tYVC9LYXFIVlJyK0s5dHRtaGFnUDdQYjRVVnRkODE4MkY2MkhwSURlUnA3Mm1BZFg5SnIyMkdEdnFVR2V6dU4zMldQa3AvWEtSVWxrSjhZaExXN1c1VmdhOC84Zk9rWnI1dHpzT1dnd0RNM2lVNjFtQzl5dzBHb0JiSjN3TjBjLS1EMXVSRk5reEdtQVRZazZVVVV5Q0JRPT0%3D--956f51178b020a3d480b1f2433511161a181340a; path=/; HttpOnly",
-        "X-Request-Id": "4fbb0296-06d5-4198-8035-92875b4be6c1",
-        "X-Runtime": "0.098466",
+        "Set-Cookie": "_session_id=Y0o0SGVWMHhQOXh5R1lLc3NvVTBTM1FzanZkbTNqZEcraURtcWJKeVdha09hMTZFMVJxeW16QytwK0ltTHE2cWFNMzRlRXljS0xBdHNuOVArcm52c2hoZUo4MnpiYVdaZks3SHJUYWU0MGNHcFlrM0lwdVZVUDV1SGk4cUFLL01FUlVXL2lNZ3BqWk0raEpzTDlPalRDQWJYamI2SGorQlpoRzdDcEVlRnpsS0hxK1l0dXFCcjkrSnJzTjY2VUczLS1Xa3orMzFBRzNTdTlXbW5lNTBFZ1RBPT0%3D--e8d3b38792fb2e0eca75b12cad26bd9846626cfe; path=/; HttpOnly",
+        "X-Request-Id": "ebb47146-f21a-46c2-a77f-4706d968b7a3",
+        "X-Runtime": "0.080590",
         "Content-Length": "231"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/admin/products/1\" -d 'product[title]=hi' -X PUT \\\n\t-H \"Access-Token: ElwHfKn3pJYgk39AWybGvQ\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: QftvMsjxmrNKqTOr8OmmUQ\" \\\n\t-H \"Expiry: 1458149219\" \\\n\t-H \"Uid: 50gabe@emmerich.biz\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/admin/products/1\" -d 'product[title]=hi' -X PUT \\\n\t-H \"Access-Token: Z6NkbU-biJFfUowD3tbifA\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: twwqOOw_FOG5l1xNZlYkiQ\" \\\n\t-H \"Expiry: 1458156227\" \\\n\t-H \"Uid: 50german@hudson.info\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

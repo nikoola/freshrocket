@@ -74,11 +74,11 @@
       "request_path": "/admin/orders",
       "request_body": "order[address_id]=1&order[user_id]=2&order[line_items_attributes][][product_id]=1&order[line_items_attributes][][amount]=3",
       "request_headers": {
-        "Access-Token": "fAT01vQ2yBmrzV9wOHlcpA",
+        "Access-Token": "1InUjscQr3F8alOUuDfg4Q",
         "Token-Type": "Bearer",
-        "Client": "QD45W95EWxyolvH4B1oXeQ",
-        "Expiry": "1458149216",
-        "Uid": "28elnora.auer@jenkinsferry.org",
+        "Client": "Vt2V90ucqhg2Ik-3gXD-Ew",
+        "Expiry": "1458156225",
+        "Uid": "28prince@simonis.name",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -88,21 +88,21 @@
       "request_content_type": "application/x-www-form-urlencoded",
       "response_status": 201,
       "response_status_text": "Created",
-      "response_body": "{\n  \"id\": 1,\n  \"user_id\": 2,\n  \"status\": \"approved\",\n  \"created_at\": \"2016-03-02T17:26:56.756Z\",\n  \"comment\": null,\n  \"pure_product_price\": null,\n  \"tax\": null,\n  \"delivery_charge\": null,\n  \"total_price\": null,\n  \"delivery_boy_id\": null,\n  \"wanted_time\": null,\n  \"wanted_date\": null,\n  \"payment_type\": \"cash\",\n  \"is_paid\": false,\n  \"feedback\": null,\n  \"coupon_code\": null,\n  \"source_type\": null,\n  \"line_items\": [\n    {\n      \"id\": 1,\n      \"order_id\": 1,\n      \"product_id\": 1,\n      \"amount\": 3,\n      \"fixed_price\": null\n    }\n  ],\n  \"address\": {\n    \"id\": 1,\n    \"address\": \"1635 Orn Walk\",\n    \"city_id\": 1,\n    \"user_id\": 1\n  }\n}",
+      "response_body": "{\n  \"id\": 1,\n  \"user_id\": 2,\n  \"status\": \"approved\",\n  \"created_at\": \"2016-03-02T19:23:45.476Z\",\n  \"comment\": null,\n  \"pure_product_price\": null,\n  \"tax\": null,\n  \"delivery_charge\": null,\n  \"total_price\": null,\n  \"delivery_boy_id\": null,\n  \"wanted_time\": null,\n  \"wanted_date\": null,\n  \"payment_type\": \"cash\",\n  \"is_paid\": false,\n  \"feedback\": null,\n  \"coupon_code\": null,\n  \"source_type\": null,\n  \"line_items\": [\n    {\n      \"id\": 1,\n      \"order_id\": 1,\n      \"product_id\": 1,\n      \"amount\": 3,\n      \"fixed_price\": null\n    }\n  ],\n  \"address\": {\n    \"id\": 1,\n    \"address\": \"18965 Kieran Way\",\n    \"city_id\": 1,\n    \"user_id\": 1\n  }\n}",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"a0bcb9c759f38f12638b36aabbefc116\"",
+        "ETag": "W/\"1decad723fab276d0baec3b051e6ae54\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=cUEzcngvKzFkNkFsOUU1c2N5MjRaallRNFdmRnRLL1FyUkluWEpjTys0RnNaeXNZTDRmWWsxT09IYlNSS1c5SVczNjhYbUxhcHRsTGc0SjQxWDJjWlhyTXFvTk9wbHF1R0lkYVF1aUVuZHJNU1BFK2VQc01iOVZmQjluRXpHV2k0L2FmN0ZENWE0QXRXRElwcFJyS0VxQ2srbGJLaTJURk5EWmo0NDhqTEJyMGx4VW1LRzNwVFhWZWdPczdzV0J0LS1ScG10MFJVUHJjbWRIbG1HMStCZ1ZBPT0%3D--a78e52c20d15a857855f123a7c710e01ef7cd4a4; path=/; HttpOnly",
-        "X-Request-Id": "92b69007-eb47-4de9-8033-36b2f2aaeb12",
-        "X-Runtime": "0.146656",
-        "Content-Length": "478"
+        "Set-Cookie": "_session_id=WFQ1cU5aM3dFTytDeXFIY2g2d2xhVm9sdmZlQ2U1UWlFeSthTWU2bmh5dDdXbDNma3BSUUZLTlpmUjlWTzBJbnVJdFY3eitzY0pZQlJObFpWdkhValJ1ZVJlZVQzbWtCdTRBNW1NSkh4aG5kVFI4TWhzSVVzU1JXcGVXQWcvM1JIYVVEZVJCREswOGtuK2diRTF6WUlWeE43d0NveDhMWGVIZEJXdHZrelFNd2NqR0xjWTk0c3RDWnhDMEtTWG9sLS1tVlhIT0ZhenZ3YlFsTDNxejFFNm1RPT0%3D--fe1ada325e8eadf25e8d68089ef275c3caee15a7; path=/; HttpOnly",
+        "X-Request-Id": "daf3d8ba-1d2e-4781-8564-e50aadc1c84f",
+        "X-Runtime": "0.100267",
+        "Content-Length": "481"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/admin/orders\" -d 'order[address_id]=1&order[user_id]=2&order[line_items_attributes][][product_id]=1&order[line_items_attributes][][amount]=3' -X POST \\\n\t-H \"Access-Token: fAT01vQ2yBmrzV9wOHlcpA\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: QD45W95EWxyolvH4B1oXeQ\" \\\n\t-H \"Expiry: 1458149216\" \\\n\t-H \"Uid: 28elnora.auer@jenkinsferry.org\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/admin/orders\" -d 'order[address_id]=1&order[user_id]=2&order[line_items_attributes][][product_id]=1&order[line_items_attributes][][amount]=3' -X POST \\\n\t-H \"Access-Token: 1InUjscQr3F8alOUuDfg4Q\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: Vt2V90ucqhg2Ik-3gXD-Ew\" \\\n\t-H \"Expiry: 1458156225\" \\\n\t-H \"Uid: 28prince@simonis.name\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }
