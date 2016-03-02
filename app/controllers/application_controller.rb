@@ -5,7 +5,7 @@ class ApplicationController < ActionController::Base
 
 	before_action :configure_permitted_parameters, if: :devise_controller?
 
-	wrap_parameters add: [:password, :password_confirmation] #for devise to work, may want to limit to more specific cotrollers later.
+
 
 
 

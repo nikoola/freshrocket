@@ -4,8 +4,6 @@ module Admin
 		before_action :set_product, only: [:show, :update, :destroy]
 		before_action -> { authorize 'products' }
 
-		wrap_parameters add: [:category_ids]
-
 
 
 		# POST /admin/products

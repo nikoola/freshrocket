@@ -7,17 +7,6 @@ module ActionController
 		Options.class_eval do
 
 
-			def self.from_hash(hash)
-				@@add = hash[:add] #added (not horribly pretty, maybe TODO)
-				
-			  name    = hash[:name]
-			  format  = Array(hash[:format])
-			  include = hash[:include] && Array(hash[:include]).collect(&:to_s)
-			  exclude = hash[:exclude] && Array(hash[:exclude]).collect(&:to_s)
-			  new name, format, include, exclude, nil, nil
-			end
-
-
 
 			def include
 				return super if @include_set
@@ -30,7 +19,16 @@ module ActionController
 
 					unless super || exclude
 						if m.respond_to?(:attribute_names) && m.attribute_names.any?
-							self.include = m.attribute_names + nested_attributes_names_array_of(m) + @@add
+							# wrap_parameters add: [:password, :password_confirmation] #for devise to work, may want to limit to more specific cotrollers later.
+							custom = if m == User
+								[:password, :password_confirmation]
+							elsif m == Product
+								[:category_ids]
+							else
+								[]
+							end
+
+							self.include = m.attribute_names + nested_attributes_names_array_of(m) + custom
 						end
 					end
 				end
