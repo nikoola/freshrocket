@@ -16,6 +16,7 @@
 !/log/.keep
 /tmp
 /lakesare.rb
+/test.rb
 
 /dump.rdb 
 
