@@ -23,10 +23,11 @@ resource 'users', type: :request do
 
 
 		example 'with nonexistent phone number in params', document: false  do
-			do_request phone: 'nonexistent phone'
+			nonexistent_phone = '917777777777'
+			do_request phone: nonexistent_phone
 
 			expect(status).to eq(422)
-			expect(json).to eq :errors=>"No user with such phone registered"
+			expect(json).to eq :errors=>"no user with such phone registered"
 		end
 
 	end

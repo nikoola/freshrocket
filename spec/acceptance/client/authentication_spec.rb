@@ -40,6 +40,21 @@ resource 'client: authentication', type: :request do
 
 
 
+	# Requires uid, client, and access-token as params
+	get '/auth/validate_token' do
+
+		it 'is serialized properly' do
+			do_request auth_headers
+
+			expect(json[:success]).to eq(true)
+			expect(json[:data]).to include('abilities')
+		end
+
+
+	end
+
+
+
 
 
 

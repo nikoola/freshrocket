@@ -80,7 +80,7 @@ resource 'admin: orders', type: :request do
 				:tax,
 				:delivery_charge,
 				:total_price,
-				:line_items
+				:line_items, :address
 			)
 		end
 	end

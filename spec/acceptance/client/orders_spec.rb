@@ -45,7 +45,8 @@ resource 'client: orders', type: :request do
 				:pure_product_price,
 				:tax,
 				:delivery_charge,
-				:total_price
+				:total_price,
+				:line_items, :address
 		end
 	end
 

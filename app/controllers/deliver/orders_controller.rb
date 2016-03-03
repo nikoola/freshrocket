@@ -36,14 +36,5 @@ module Deliver
 				head status: 404 unless @order = current_user.delivery_boy.orders.find_by(id: params[:id])
 			end
 
-			def order_params
-				# params.require(:order).permit([
-				# 	:comment,
-				# 	delivery_attributes: [:id, :wanted_date, :wanted_time],
-				# 	line_items_attributes: [:_destroy, :id, :amount, :product_id]
-				# ])
-
-				# no :fixed_price, :status, :user_id
-			end
 	end
 end

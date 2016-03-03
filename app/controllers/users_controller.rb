@@ -13,7 +13,7 @@ class UsersController < ApplicationController
 		
 			head 200
 		else
-			render json: { errors: 'No user with such phone registered' }, status: 422
+			render json: { errors: 'no user with such phone registered' }, status: 422
 		end
 
 	end

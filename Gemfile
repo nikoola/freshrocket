@@ -1,3 +1,4 @@
+source 'https://rubygems.org'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.5'
@@ -70,7 +71,7 @@ gem 'aasm'
 gem 'sidekiq'
 
 
-gem 'active_model_serializers'
+gem 'active_model_serializers'#, "~> 0.8.0"
 
 
 # gem 'twilio-ruby' #not twilio, smslane

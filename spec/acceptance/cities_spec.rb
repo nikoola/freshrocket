@@ -9,7 +9,7 @@ resource 'cities', type: :request do
 		example 'get all cities with their areas' do
 			FactoryGirl.create_list :city, 3
 			FactoryGirl.create_list :city, 2, active: false
-
+			City.first.areas << FactoryGirl.create(:area)
 
 			do_request active: '1'
 
@@ -18,6 +18,8 @@ resource 'cities', type: :request do
 
 			expect(returned_ids).to match_array(expected_ids)
 			expect(status).to eq(200)
+
+			expect(jsons[0]).to include :areas
 		end
 	end
 
