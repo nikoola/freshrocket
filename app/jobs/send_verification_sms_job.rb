@@ -10,7 +10,7 @@ class SendVerificationSmsJob < ActiveJob::Base
 		# An array of recipient numbers
 		# The message to be sent
 		# A boolean indicating whether or not to send the SMS as a flash message
-		client.send_sms [phone], text, false
+		client.send_sms [phone], text
 
 
 		# The response of this call is an array of hashes. Each hash contains the recipient number and the message_id returned by smslane.com. This message_id is used to check delivery reports.

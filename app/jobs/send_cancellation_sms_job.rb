@@ -6,7 +6,7 @@ class SendCancellationSmsJob < ActiveJob::Base
 
 		client = Smslane::Client.new(SMSLANE[:username], SMSLANE[:password])
 
-		client.send_sms [phone], text, false
+		client.send_sms [phone], text
 	end
 end
 

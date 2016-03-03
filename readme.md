@@ -39,6 +39,6 @@ for rails developer:
 
 TODO:
 
-	maybe change aato to rolify. it supports proper callbacks,
+	maybe change aato to rolify. it supports proper callbacks.
 
 
