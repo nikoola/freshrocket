@@ -17,9 +17,9 @@ class User < ActiveRecord::Base
 	validates               :phone, 
 		numericality: { only_integer: true },
 		length:       { is: 12 }
-		# format:       { with: ->(user) { user.phone.starts_with? '91' } }
 
-	before_save :reset_verification
+
+	before_update :reset_verification, if: :phone_changed? #will run on create too because of autosave (http://stackoverflow.com/a/28034043/3192470)
 
 
 
@@ -98,7 +98,7 @@ class User < ActiveRecord::Base
 		end
 
 		def reset_verification
-			self.is_verified = false if phone_changed?
+			self.is_verified = false
 			true
 		end
 

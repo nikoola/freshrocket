@@ -16,8 +16,9 @@ ActiveRecord::Schema.define(version: 20160127185541) do
   create_table "addresses", force: :cascade do |t|
     t.integer "user_id"
     t.integer "city_id"
-    t.string  "address"
-    t.boolean "active",  default: true
+    t.string  "street_and_house"
+    t.string  "door_number"
+    t.boolean "active",           default: true
   end
 
   create_table "areas", force: :cascade do |t|
@@ -148,8 +149,6 @@ ActiveRecord::Schema.define(version: 20160127185541) do
     t.boolean  "is_verified",               default: false
     t.datetime "created_at"
     t.datetime "updated_at"
-    t.string   "reset_password_token"
-    t.datetime "reset_password_sent_at"
     t.text     "how_did_you_hear_about_us"
   end
 

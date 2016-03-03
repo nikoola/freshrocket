@@ -33,11 +33,12 @@ resource 'client: addresses', type: :request do
 		with_options scope: :address, required: true do
 			parameter :city_id
 			parameter :order_id
-			parameter :address,  'street, home, flat'
+			parameter :street_and_house
+			parameter :door_number
 		end
 
 		example 'create own address' do
-			do_request address: { city_id: city.id, address: 'street Hi home 28 flat 3' }
+			do_request address: FactoryGirl.attributes_for(:address, city_id: city.id)
 
 			expect(status).to eq(201)
 			expect(json[:user_id]).to eq(user.id)
@@ -48,18 +49,13 @@ resource 'client: addresses', type: :request do
 
 
 	put '/client/addresses/:id' do
-		with_options scope: :address do
-			parameter :city_id
-			parameter :order_id
-			parameter :address,  'street, home, flat'
-		end
 
 		example 'change own address' do
 			explanation 'fails if address has been used in any approved orders'
-			do_request id: address.id, address: { address: 'good' }
+			do_request id: address.id, address: { street_and_house: 'good' }
 
 			expect(status).to eq(200)
-			expect(Address.find(address.id).address).to eq('good')
+			expect(Address.find(address.id).street_and_house).to eq('good')
 		end
 
 	end

@@ -46,7 +46,8 @@ module Client
 
 			def address_params
 				params.require(:address).permit([
-					:city_id, :address
+					:city_id, 
+					:street_and_house, :door_number
 				])
 
 				# no :user_id, :active

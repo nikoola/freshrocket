@@ -1,6 +1,6 @@
 class AddressSerializer < ActiveModel::Serializer
 	attributes :id, 
-		:address, 
-		:city_id, :user_id
+		:city_id, :user_id,
+		:street_and_house, :door_number
 
 end

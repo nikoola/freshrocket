@@ -75,9 +75,10 @@ resource 'admin: users', type: :request do
 		example 'create user' do
 			explanation 'create user from the admin side, and send them their password by sms'
 
-			do_request user: FactoryGirl.attributes_for(:user)
+			do_request user: FactoryGirl.attributes_for(:user, is_verified: true)
 			expect(status).to eq(201)
 			expect(json.keys).to include :id, :provider, :uid, :email, :phone, :created_at
+			expect(json[:is_verified]).to eq(true)
 		end
 
 		example 'by admin, with invalid params: errors returned', document: false do

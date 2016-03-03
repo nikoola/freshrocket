@@ -20,7 +20,8 @@ module Admin
 		def create
 			@user = User.new(user_params)
 			if @user.save
-				SendPasswordSmsJob.perform_later @user.name, params[:user][:password], @user.phone
+				set_is_verified
+				SendSmsWithRecoveryPasswordJob.perform_later @user.name, params[:user][:password], @user.phone
 				render json: @user, status: :created, location: admin_user_path(@user)
 			else
 				render json: @user.errors, status: :unprocessable_entity
@@ -30,10 +31,7 @@ module Admin
 		def update
 
 			if @user.update(user_params)
-				if params[:user][:is_verified] == 'true'
-					@user.update! is_verified: true # because if phone changed is_verified will be reset to false.
-					# alternative is passing current_user to the model.
-				end
+				set_is_verified
 				render json: @user, status: 200
 			else
 				render json: @user.errors, status: :unprocessable_entity
@@ -65,10 +63,17 @@ module Admin
 					:password, :password_confirmation,
 					:phone, :email,
 					:first_name, :last_name, 
-					:how_did_you_hear_about_us,
-					:is_verified
+					:how_did_you_hear_about_us
 				)
 			end
+
+			def set_is_verified
+				if params[:user][:is_verified] == 'true'
+					@user.update! is_verified: true # because if phone changed is_verified will be reset to false.
+					# alternative is passing current_user to the model.
+				end
+			end
+
 
 
 

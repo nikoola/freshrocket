@@ -69,7 +69,8 @@ class SetupSchema < ActiveRecord::Migration
 	create_table "addresses", force: :cascade do |t|
 	  t.integer  "user_id"
 	  t.integer  "city_id"
-	  t.string   "address"
+	  t.string   "street_and_house"
+	  t.string   "door_number"
 	  t.boolean  "active",      default: true
 	end
 

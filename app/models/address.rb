@@ -4,7 +4,7 @@ class Address < ActiveRecord::Base
 	belongs_to :city
 	has_many   :orders
 
-	validates_presence_of :address, :user, :city
+	validates_presence_of :user, :city, :street_and_house, :door_number
 
 	validate :has_no_approved_orders?, on: :update
 
