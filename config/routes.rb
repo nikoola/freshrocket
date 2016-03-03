@@ -12,6 +12,12 @@ Rails.application.routes.draw do
 		end
 	end
 
+	scope :users do
+		controller :users do
+			post :send_sms_with_recovery_password
+		end
+	end
+
 
 
 
@@ -20,8 +26,6 @@ Rails.application.routes.draw do
 		member {
 			post :send_verification_sms
 			put  :verify
-
-			post :send_sms_with_recovery_password
 		}
 
 		resources :orders,    only: [:index, :show, :create, :update, :destroy] do #TODO can only destroy if order.condirmed? or order.unconfirmed?

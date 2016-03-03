@@ -47,13 +47,13 @@
     {
       "request_method": "POST",
       "request_path": "/auth",
-      "request_body": "email=130beatrice%40sipesbarton.biz&password=secrety_bickety&password_confirmation=secrety_bickety&first_name=Gilberto&last_name=Johns&phone=%2B79172343270",
+      "request_body": "email=130linnie.walsh%40moore.name&password=secrety_bickety&password_confirmation=secrety_bickety&first_name=Jessyca&last_name=Morar&phone=%2B79172343270",
       "request_headers": {
-        "Access-Token": "xGlzWpY22Y_M4Wcv4LRgJQ",
+        "Access-Token": "XjRi4rVGeWJNk-YHjSo5cQ",
         "Token-Type": "Bearer",
-        "Client": "FVpXg5hSTAOlNgBzMKGjqg",
-        "Expiry": "1458156239",
-        "Uid": "131jimmy@leannon.org",
+        "Client": "S1Wb7eRKx-beAVsER_LICA",
+        "Expiry": "1458218572",
+        "Uid": "131gerard.schiller@hegmannnitzsche.biz",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -63,25 +63,25 @@
       "request_content_type": "application/x-www-form-urlencoded",
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\n  \"status\": \"success\",\n  \"data\": {\n    \"id\": 6,\n    \"first_name\": \"Gilberto\",\n    \"last_name\": \"Johns\",\n    \"email\": \"130beatrice@sipesbarton.biz\",\n    \"provider\": \"email\",\n    \"uid\": \"130beatrice@sipesbarton.biz\",\n    \"phone\": \"+79172343270\",\n    \"verification_code\": null,\n    \"is_verified\": false,\n    \"created_at\": \"2016-03-02T19:23:59.060Z\",\n    \"updated_at\": \"2016-03-02T19:23:59.201Z\",\n    \"how_did_you_hear_about_us\": null\n  }\n}",
+      "response_body": "{\n  \"status\": \"success\",\n  \"data\": {\n    \"id\": 6,\n    \"first_name\": \"Jessyca\",\n    \"last_name\": \"Morar\",\n    \"email\": \"130linnie.walsh@moore.name\",\n    \"provider\": \"email\",\n    \"uid\": \"130linnie.walsh@moore.name\",\n    \"phone\": \"+79172343270\",\n    \"verification_code\": null,\n    \"is_verified\": false,\n    \"created_at\": \"2016-03-03T12:42:52.805Z\",\n    \"updated_at\": \"2016-03-03T12:42:52.951Z\",\n    \"how_did_you_hear_about_us\": null\n  }\n}",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
-        "access-token": "a3RDnYnxEilrRxyh5hUeCw",
+        "access-token": "OAmGLzBedwBSPXTgp1QJzg",
         "token-type": "Bearer",
-        "client": "PxbjjqiCB9HXr-DOV6W_lQ",
-        "expiry": "1458156239",
-        "uid": "130beatrice@sipesbarton.biz",
+        "client": "3Ovc7zsdpzOyyrzKE7WRIQ",
+        "expiry": "1458218572",
+        "uid": "130linnie.walsh@moore.name",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"50535515a0e5bbe98449dc5226ab8431\"",
+        "ETag": "W/\"53debd365cfb2ad5b32dd4ed87206e3b\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "X-Request-Id": "4c03dae9-d66f-41c5-bf93-9a75845b2afa",
-        "X-Runtime": "0.156470",
-        "Content-Length": "354"
+        "X-Request-Id": "15bb112e-6285-47b5-90e0-2094a1dbf17e",
+        "X-Runtime": "0.164222",
+        "Content-Length": "351"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/auth\" -d 'email=130beatrice%40sipesbarton.biz&password=secrety_bickety&password_confirmation=secrety_bickety&first_name=Gilberto&last_name=Johns&phone=%2B79172343270' -X POST \\\n\t-H \"Access-Token: xGlzWpY22Y_M4Wcv4LRgJQ\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: FVpXg5hSTAOlNgBzMKGjqg\" \\\n\t-H \"Expiry: 1458156239\" \\\n\t-H \"Uid: 131jimmy@leannon.org\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/auth\" -d 'email=130linnie.walsh%40moore.name&password=secrety_bickety&password_confirmation=secrety_bickety&first_name=Jessyca&last_name=Morar&phone=%2B79172343270' -X POST \\\n\t-H \"Access-Token: XjRi4rVGeWJNk-YHjSo5cQ\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: S1Wb7eRKx-beAVsER_LICA\" \\\n\t-H \"Expiry: 1458218572\" \\\n\t-H \"Uid: 131gerard.schiller@hegmannnitzsche.biz\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

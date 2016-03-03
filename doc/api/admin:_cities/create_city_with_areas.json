@@ -39,13 +39,13 @@
     {
       "request_method": "POST",
       "request_path": "/admin/cities",
-      "request_body": "city[name]=Pagacfort_1&city[areas_attributes][][name]=hi",
+      "request_body": "city[name]=Tremblaymouth_1&city[areas_attributes][][name]=hi",
       "request_headers": {
-        "Access-Token": "UlwDGdGqz46n7GvE1fYUmg",
+        "Access-Token": "zRM633A4o7TOizcL4b70zQ",
         "Token-Type": "Bearer",
-        "Client": "kCc-oW9MCIMUs7dMT1s0OA",
-        "Expiry": "1458156222",
-        "Uid": "6sheldon_franecki@bartellcarter.biz",
+        "Client": "f5utFiyfn9CkwdQzOXZUnA",
+        "Expiry": "1458218554",
+        "Uid": "6theodore@lynchhagenes.org",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -55,22 +55,22 @@
       "request_content_type": "application/x-www-form-urlencoded",
       "response_status": 201,
       "response_status_text": "Created",
-      "response_body": "{\n  \"id\": 1,\n  \"name\": \"Pagacfort_1\",\n  \"active\": true,\n  \"areas\": [\n    {\n      \"id\": 1,\n      \"name\": \"hi\"\n    }\n  ]\n}",
+      "response_body": "{\n  \"id\": 1,\n  \"name\": \"Tremblaymouth_1\",\n  \"active\": true,\n  \"areas\": [\n    {\n      \"id\": 1,\n      \"name\": \"hi\"\n    }\n  ]\n}",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
         "Location": "http://example.org/cities/1",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"148669697333587206e0f76c19e152b9\"",
+        "ETag": "W/\"0463beb0f641aa8903ebf72eed9b2c62\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=ZkVmRmNuSkRINFRNOXpWMmJKMGZEN0hLQ2Y2VGdWOGJrdWF1QmpCdnFsZzEzcG9MN1lVcWRZTzZJbkdiMSt2ZXNOOHZCdTc2TGVJTFZHYTBuVTgvQ1ppK2RTVGlKQXdIQmEvNlNoSU5DUkF4amtieTlUMjU0TW01bGIxMGRCY1h3MHVhMXFJZnZ4b3dUeGNGU3ZyaHF2aS9pR1BFREMxYlZBN2Rvc1Z2QzREa1d6bnpkaTh0c2liSGUyNVM5VUZmLS1sTTVLMG5qQlN6WWFWUUs2R3N3ODNRPT0%3D--a46373cce9267b0724700439316c67535176a771; path=/; HttpOnly",
-        "X-Request-Id": "d72486d0-4e35-4cb6-b8ce-d24fca2b06ba",
-        "X-Runtime": "0.096350",
-        "Content-Length": "74"
+        "Set-Cookie": "_session_id=bSsyU25DWWZoUXN0U1FHWkRJZ3dja3R3b1pteS9xd1JhZDFlUlBQMHh3Nks1UFhKbytrV2Q3ZngwT01ncHByRVE0SkdiWHZlajh0dmxTbENaWERXZUFwRW9lbWdVOHlhZHBBTUJ4cDlXc09oeGVoWWRaVEtpVWE0VHEveHdqelk2Tmh1aGNyam9QTGRZcmNIeDNoelplNmUvUnNFMXdGS1VzU1BXMVZzSHNpNmNtNUtjV1JFUnM4aXREYTljK1FxLS1tbkU5RHJub3dVMFkwRlgzK0Q2YmF3PT0%3D--df898289256fd8b5c0dcfa704a8315aed3785d27; path=/; HttpOnly",
+        "X-Request-Id": "0d93a137-9e3d-469a-b360-fcbf18df4499",
+        "X-Runtime": "0.133624",
+        "Content-Length": "78"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/admin/cities\" -d 'city[name]=Pagacfort_1&city[areas_attributes][][name]=hi' -X POST \\\n\t-H \"Access-Token: UlwDGdGqz46n7GvE1fYUmg\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: kCc-oW9MCIMUs7dMT1s0OA\" \\\n\t-H \"Expiry: 1458156222\" \\\n\t-H \"Uid: 6sheldon_franecki@bartellcarter.biz\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/admin/cities\" -d 'city[name]=Tremblaymouth_1&city[areas_attributes][][name]=hi' -X POST \\\n\t-H \"Access-Token: zRM633A4o7TOizcL4b70zQ\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: f5utFiyfn9CkwdQzOXZUnA\" \\\n\t-H \"Expiry: 1458218554\" \\\n\t-H \"Uid: 6theodore@lynchhagenes.org\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

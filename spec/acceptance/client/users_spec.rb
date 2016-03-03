@@ -124,23 +124,6 @@ resource 'client: users', type: :request do
 
 	end
 
-	include ActiveJob::TestHelper
-	ActiveJob::Base.queue_adapter = :test
-
-	post '/client/send_sms_with_recovery_password' do
-
-		it 'sends password recovery email' do
-			explanation 'resets password and creates new temporary password, that client should change some time after the log in'
-
-			expect {
-				do_request
-			}.to have_enqueued_job.on_queue('sms')
-
-		end
-
-	end
-
-	# TODO had problems, opened an issue https://github.com/lynndylanhurley/devise_token_auth/issues/545
 
 
 

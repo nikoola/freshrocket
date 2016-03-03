@@ -35,11 +35,11 @@
       "request_path": "/admin/orders?limit=5&offset=2&status=confirmed",
       "request_body": null,
       "request_headers": {
-        "Access-Token": "e0ukWZBHmx6S-ct-TaSfPA",
+        "Access-Token": "rEexNh3YieP3mgAYCClMYA",
         "Token-Type": "Bearer",
-        "Client": "6h6xYnDM1hZqy-AZUrTcpg",
-        "Expiry": "1458156224",
-        "Uid": "18humberto@aufderhar.com",
+        "Client": "ABErBZXzjLo7RgAAwO0DuQ",
+        "Expiry": "1458218556",
+        "Uid": "18antoinette.conroy@terryhartmann.com",
         "Host": "example.org",
         "Cookie": ""
       },
@@ -59,13 +59,13 @@
         "Content-Type": "application/json; charset=utf-8",
         "ETag": "W/\"d751713988987e9331980363e24189ce\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=WE5GWjhYQkJLT3pQa1kwTkRVdHlGd3M3UktFYlhHYXRtR284Qmo5ZGhNSGQyZ2o2VG1vanBEL3lJRGJSbkZnbENUbituQnJacm9oY3dKeld6TGtkNDh2TS9SbUFKbmpaTmVCSDFmNEpjMFBlVTVhUlNPdE9rY1ArUXE4aU5hcjNGMlJxcEpxa25QK29FeXJJeXU2YXFPVXg1Nk40TUZCVmxVTUdHMEF2SFkxWnF2ZkROdzRENkRwRWZFanFWWEpiLS1mUzJBRVNHOEJ2Tmx5bWJqOTcwZldRPT0%3D--18b9d9f6f693c0656e44c145ab932e31a9f0e5d3; path=/; HttpOnly",
-        "X-Request-Id": "8166f590-869c-456e-8c5a-752a58e0111f",
-        "X-Runtime": "0.077396",
+        "Set-Cookie": "_session_id=M3F3Y1Q3WUN3bWRkZGQyWGthcWxCWlBxNWxEWmk5SXdUb0g2V0FTaVR3b0ZkMjQ0dFBJY2VNZjMxUyt3MTcwT0dSM1dxb0Vwb2E0ZWhlS0lUTlIwSUV4Uk9Fd0tRdk1LQXpReUdNUHlCVnM5czZVcjNMT2VVVzIvemdKcXIva1dJaG90UitMay80SkdrSmtndTdUL3hOclZvTFdoeDhWQjROKzNqb0huRmdiYkkxaU1jSlVOOWQ1NjBGNGtPclRuLS1TWnoyc05VQ1lZMzQ2Y3pqUitDdlJnPT0%3D--100689f5522aaa30f1930eb179161bbd7c91403f; path=/; HttpOnly",
+        "X-Request-Id": "0361ac4e-905e-4ddb-b8ff-c331a5491903",
+        "X-Runtime": "0.078930",
         "Content-Length": "2"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/admin/orders?limit=5&offset=2&status=confirmed\" -X GET \\\n\t-H \"Access-Token: e0ukWZBHmx6S-ct-TaSfPA\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: 6h6xYnDM1hZqy-AZUrTcpg\" \\\n\t-H \"Expiry: 1458156224\" \\\n\t-H \"Uid: 18humberto@aufderhar.com\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/admin/orders?limit=5&offset=2&status=confirmed\" -X GET \\\n\t-H \"Access-Token: rEexNh3YieP3mgAYCClMYA\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: ABErBZXzjLo7RgAAwO0DuQ\" \\\n\t-H \"Expiry: 1458218556\" \\\n\t-H \"Uid: 18antoinette.conroy@terryhartmann.com\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

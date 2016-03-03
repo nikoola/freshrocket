@@ -5,21 +5,7 @@
   "description": "change own address",
   "explanation": "fails if address has been used in any approved orders",
   "parameters": [
-    {
-      "scope": "address",
-      "name": "city_id",
-      "description": "Address city"
-    },
-    {
-      "scope": "address",
-      "name": "order_id",
-      "description": "Address order"
-    },
-    {
-      "scope": "address",
-      "name": "address",
-      "description": "street, home, flat"
-    }
+
   ],
   "response_fields": [
 
@@ -28,13 +14,13 @@
     {
       "request_method": "PUT",
       "request_path": "/client/addresses/1",
-      "request_body": "address[address]=good",
+      "request_body": "address[street_and_house]=good",
       "request_headers": {
-        "Access-Token": "nsFszCQBKT1L2x9m0n-oqg",
+        "Access-Token": "Z8kHrqM8uEtmZqEXPxJtzg",
         "Token-Type": "Bearer",
-        "Client": "2__WZgETFHWbvuaP6nMvwA",
-        "Expiry": "1458156232",
-        "Uid": "91peter_hettinger@kirlin.name",
+        "Client": "IrQSoAnG64T3MbLWQrhKeg",
+        "Expiry": "1458218564",
+        "Uid": "91tamia@kuhn.biz",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -44,21 +30,21 @@
       "request_content_type": "application/x-www-form-urlencoded",
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\n  \"id\": 1,\n  \"address\": \"good\",\n  \"city_id\": 1,\n  \"user_id\": 1\n}",
+      "response_body": "{\n  \"id\": 1,\n  \"city_id\": 1,\n  \"user_id\": 1,\n  \"street_and_house\": \"good\",\n  \"door_number\": \"5\"\n}",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"9f2990b93d39c05d6e77ecd116edaff1\"",
+        "ETag": "W/\"3589eec4e6d4c5aebe0c986b2ef511c7\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=Z1hpdWtaSHJ3UkZNLzFrc1hqY2hKeGh5RmlqOWZKanUvZFZ2VUsrZ2tER1UrQVp5Uk1nVnBRRS9nSXViYU04WUczRkU5YzVTcGxzNFMzWTAxNkpkeCswcStTMk9ERnNzOE9ieS9HZ282MjJuNXFUM3JOT1YrQXpvdmc0d2x6SXlnbDBhck1vMFNCU3JCTEtXWFc3Vm1idzVEeEI2U0QzazEvSHd2Umw5Q003dWxHaWY1bE9vQ0ZlY1VIdEkxeUtuLS1LUGgveE1ySmhZRU5KZzNmYTJSRnlBPT0%3D--8e5cc5061781a99d52e2ea826aaff9652c7d1428; path=/; HttpOnly",
-        "X-Request-Id": "0b41c886-dbd3-405c-af1b-508687a2478c",
-        "X-Runtime": "0.078016",
-        "Content-Length": "49"
+        "Set-Cookie": "_session_id=cUZlTzNoZGNvQ25uSmVaSWQwdEFzZUxiMXk4bmMxNnFkbWJUbUpRRGx3dUZmZUc5eDZRVnZUMlhUaVlCQjZwaWxYNVlsMU9haWQ4MnF0MTFud1VvNGlWVER3ZmZpTW1XcG92eFRwditRV01kQkp0S0FLbFd0OFp2MGdIVDI2WTVSdk9sN2JTQWF4UC83akh2OHVQRmFpdHpDaWtTYlA3UnlFbUhJaHpSN3ZzZHg4QW1nZzhVTkp4ZlN5QnAySTlULS1kVXZ3NmNWMkU4T2QwaDlzVlVKVm5nPT0%3D--f7c672ee95b6f5be345423e93bcc0a6ef3b1b326; path=/; HttpOnly",
+        "X-Request-Id": "9cf80a49-582a-44a1-82e6-fa20b42ad5b3",
+        "X-Runtime": "0.099894",
+        "Content-Length": "76"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/client/addresses/1\" -d 'address[address]=good' -X PUT \\\n\t-H \"Access-Token: nsFszCQBKT1L2x9m0n-oqg\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: 2__WZgETFHWbvuaP6nMvwA\" \\\n\t-H \"Expiry: 1458156232\" \\\n\t-H \"Uid: 91peter_hettinger@kirlin.name\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/client/addresses/1\" -d 'address[street_and_house]=good' -X PUT \\\n\t-H \"Access-Token: Z8kHrqM8uEtmZqEXPxJtzg\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: IrQSoAnG64T3MbLWQrhKeg\" \\\n\t-H \"Expiry: 1458218564\" \\\n\t-H \"Uid: 91tamia@kuhn.biz\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

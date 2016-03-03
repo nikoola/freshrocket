@@ -54,11 +54,11 @@
       "request_path": "/admin/products",
       "request_body": "product[title]=fish&product[price]=3.0&product[inventory_count]=2&product[city_id]=1&product[category_ids][]=1",
       "request_headers": {
-        "Access-Token": "f_oq3_fXpjdlPQiQcK3zmQ",
+        "Access-Token": "3R2vLjnh3nSVLRhodlFt0g",
         "Token-Type": "Bearer",
-        "Client": "nSrpVDJQVvVbiQV197SavQ",
-        "Expiry": "1458156226",
-        "Uid": "46elijah_bayer@champlin.biz",
+        "Client": "X2tG0diSPFOSz8kwgv0KwA",
+        "Expiry": "1458218558",
+        "Uid": "46otto_johns@okeefe.name",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -68,22 +68,22 @@
       "request_content_type": "application/x-www-form-urlencoded",
       "response_status": 201,
       "response_status_text": "Created",
-      "response_body": "{\n  \"id\": 1,\n  \"city_id\": 1,\n  \"title\": \"fish\",\n  \"price\": \"3.0\",\n  \"description\": null,\n  \"created_at\": \"2016-03-02T19:23:46.901Z\",\n  \"updated_at\": \"2016-03-02T19:23:46.901Z\",\n  \"inventory_count\": 2,\n  \"image_url\": \"uploads/product/image/default.png\",\n  \"categories\": [\n    {\n      \"id\": 1,\n      \"name\": \"Category 4\",\n      \"image_url\": \"uploads/category/image/default.png\"\n    }\n  ]\n}",
+      "response_body": "{\n  \"id\": 1,\n  \"city_id\": 1,\n  \"title\": \"fish\",\n  \"price\": \"3.0\",\n  \"description\": null,\n  \"created_at\": \"2016-03-03T12:42:39.029Z\",\n  \"updated_at\": \"2016-03-03T12:42:39.029Z\",\n  \"inventory_count\": 2,\n  \"image_url\": \"uploads/product/image/default.png\",\n  \"categories\": [\n    {\n      \"id\": 1,\n      \"name\": \"Category 4\",\n      \"image_url\": \"uploads/category/image/default.png\"\n    }\n  ]\n}",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
         "Location": "http://example.org/products/1",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"4fd25a1f786fd6ebc5de82b7492e2301\"",
+        "ETag": "W/\"29267e52139aa3551fb0c5908b076797\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=R1R4RVJnVWhHdGFaWDJiWk42NWk1ME1SQ1hUTHNra2JnWkJkbFA3VmZPMUFnRnVyWFBnTUtoR1UvQi8wQi9IY0pWTTR5NUlUWUthTEFOdGxjcDROcTREaFFVQS9FMWpYR3RUMENFb1gzVzZSTmJZT3pZdmZOQmFDdThEUGJhclpRQ2x2VURvcDQyVDQwL09pc3RkTlp3TGwyQnVOT2t5RjFNeUFGaUNWMm1GUmdKZ1VaVTQ4UWJRWmFGYlo1emNQLS12WVRoNnZtbUxUYjVPZ24zNG9JUkhnPT0%3D--a7115adcb38b06e6ce57928270c72d1af67c1a49; path=/; HttpOnly",
-        "X-Request-Id": "db4bea40-d419-48e6-935a-b030bd6af4c6",
-        "X-Runtime": "0.105619",
+        "Set-Cookie": "_session_id=Z3lPZytoMC93aHVFQnZQRjR0bjdQWm1EZVdlZG1jSm5iZHprR2hqUmxUWE1WUEZSZ1E5TTgrczZmM0xwV256aWVMRHd1bm5ZWFRqaTloc25yN0YwelU0Z2haQ0pZdXhxNTZZNnlVQjZ0TTZmZFhseDViOWFaWStYSGM3dGNJQkp3bFJaVWR2YzFiTWNYZFYvSjFtY0JqNzRsdThNQWV6V3Z5NDlyVGxmdHZUeStUR2dKSmVLWFh3RTNIMUxuQkZvLS1BN1I1SFhUbzdlNm85TVRlOGh3bHZ3PT0%3D--1d45734c077682287a599470b44c1745d699f4df; path=/; HttpOnly",
+        "X-Request-Id": "d5a14e8d-03d6-4c37-b1b2-6f1c80b2988d",
+        "X-Runtime": "0.120168",
         "Content-Length": "309"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/admin/products\" -d 'product[title]=fish&product[price]=3.0&product[inventory_count]=2&product[city_id]=1&product[category_ids][]=1' -X POST \\\n\t-H \"Access-Token: f_oq3_fXpjdlPQiQcK3zmQ\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: nSrpVDJQVvVbiQV197SavQ\" \\\n\t-H \"Expiry: 1458156226\" \\\n\t-H \"Uid: 46elijah_bayer@champlin.biz\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/admin/products\" -d 'product[title]=fish&product[price]=3.0&product[inventory_count]=2&product[city_id]=1&product[category_ids][]=1' -X POST \\\n\t-H \"Access-Token: 3R2vLjnh3nSVLRhodlFt0g\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: X2tG0diSPFOSz8kwgv0KwA\" \\\n\t-H \"Expiry: 1458218558\" \\\n\t-H \"Uid: 46otto_johns@okeefe.name\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

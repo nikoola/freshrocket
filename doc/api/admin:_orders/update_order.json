@@ -16,11 +16,11 @@
       "request_path": "/admin/orders/1",
       "request_body": "order[delivery_boy_id]=1",
       "request_headers": {
-        "Access-Token": "ZveOWVwgFdxaXBLGZfnnsA",
+        "Access-Token": "g1BacTYSkteC4mH32RuB7Q",
         "Token-Type": "Bearer",
-        "Client": "cAckOdVWZmMokBsAvDOA4Q",
-        "Expiry": "1458156225",
-        "Uid": "32lisa.ward@rodriguez.name",
+        "Client": "rHO1ns7graLlpGQiL3Kb4A",
+        "Expiry": "1458218557",
+        "Uid": "32jacinto@botsfordhomenick.net",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -30,21 +30,21 @@
       "request_content_type": "application/x-www-form-urlencoded",
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\n  \"id\": 1,\n  \"user_id\": 2,\n  \"status\": \"unconfirmed\",\n  \"created_at\": \"2016-03-02T19:23:45.572Z\",\n  \"comment\": null,\n  \"pure_product_price\": \"27.0\",\n  \"tax\": \"1.35\",\n  \"delivery_charge\": \"200.0\",\n  \"total_price\": \"228.35\",\n  \"delivery_boy_id\": 1,\n  \"wanted_time\": null,\n  \"wanted_date\": null,\n  \"payment_type\": \"cash\",\n  \"is_paid\": false,\n  \"feedback\": null,\n  \"coupon_code\": null,\n  \"source_type\": null,\n  \"line_items\": [\n    {\n      \"id\": 1,\n      \"order_id\": 1,\n      \"product_id\": 1,\n      \"amount\": 3,\n      \"fixed_price\": \"9.0\"\n    },\n    {\n      \"id\": 2,\n      \"order_id\": 1,\n      \"product_id\": 2,\n      \"amount\": 3,\n      \"fixed_price\": \"9.0\"\n    },\n    {\n      \"id\": 3,\n      \"order_id\": 1,\n      \"product_id\": 3,\n      \"amount\": 3,\n      \"fixed_price\": \"9.0\"\n    }\n  ],\n  \"address\": {\n    \"id\": 1,\n    \"address\": \"6764 Lakin Shore\",\n    \"city_id\": 1,\n    \"user_id\": 3\n  }\n}",
+      "response_body": "{\n  \"id\": 1,\n  \"user_id\": 2,\n  \"status\": \"unconfirmed\",\n  \"created_at\": \"2016-03-03T12:42:37.456Z\",\n  \"comment\": null,\n  \"pure_product_price\": \"27.0\",\n  \"tax\": \"1.35\",\n  \"delivery_charge\": \"200.0\",\n  \"total_price\": \"228.35\",\n  \"delivery_boy_id\": 1,\n  \"wanted_time\": null,\n  \"wanted_date\": null,\n  \"payment_type\": \"cash\",\n  \"is_paid\": false,\n  \"feedback\": null,\n  \"coupon_code\": null,\n  \"source_type\": null,\n  \"line_items\": [\n    {\n      \"id\": 1,\n      \"order_id\": 1,\n      \"product_id\": 1,\n      \"amount\": 3,\n      \"fixed_price\": \"9.0\"\n    },\n    {\n      \"id\": 2,\n      \"order_id\": 1,\n      \"product_id\": 2,\n      \"amount\": 3,\n      \"fixed_price\": \"9.0\"\n    },\n    {\n      \"id\": 3,\n      \"order_id\": 1,\n      \"product_id\": 3,\n      \"amount\": 3,\n      \"fixed_price\": \"9.0\"\n    }\n  ],\n  \"address\": {\n    \"id\": 1,\n    \"city_id\": 1,\n    \"user_id\": 3,\n    \"street_and_house\": \"321 Bauch Mountain\",\n    \"door_number\": \"5\"\n  }\n}",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"8cbb6b5074dcb817109cbed5b51d641e\"",
+        "ETag": "W/\"76d13797bad961fc3cde5a122f99760d\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=V1B5ZHl3enEvMzY3SlhvTkpiU3dnRmIrL29STUxQSEY1alFlRE53dFk5MVNtNERaRWlselB0RktmczdnQkZsTTVEdEl0bnhSYXFyVU5xZlZ4VVJ2ZFp6ZVA5elAya0JHd0xxbzI4cm1nTytKSE8zR3ZIelNWZTJYNXRlbnk1eDg4OEIxeWhLVHVlTE1qV0d5VWNJR2lGTXE5cHRzMVBNRUV3enliOTBzWG45cjRxUUJpdVhCV05WTFNwTnV1R0JXLS0vN3hwRG9UOFFrZ2dJaU1xZVpjV1FnPT0%3D--9b60217693f56acbf170ddf090c0577b061f254b; path=/; HttpOnly",
-        "X-Request-Id": "21cd41c3-e383-4e13-bcee-1e5517441c6e",
-        "X-Runtime": "0.092588",
-        "Content-Length": "629"
+        "Set-Cookie": "_session_id=N0dEMXhTcG50K2pzVHhkaVRHUnVNSGowZDdrSG82RFFjQ3F5RmkySTJwZWpadzJVVGRaUHlsUVlhL0J0UCtYdE1UZTNPN0hWbnByUjhMdTZyWnlWMHljZFlyTEZBM3dhekV3am4reGdFTnRlWlV1aEFqenNyL0ZpRU5wWHl2TUJkQ2pPa1Vnc1dKb3RnaDl3VzZmTEd3NDYxTDY3aFVTNDJMNUdZM3pZYXlPOXZnYXYvbGxRdjFKYittZEZ6NjdyLS1xR2luTC9KKzQzK29pWjFCUFl6c3l3PT0%3D--da2cec4aa54fb666891e469cb514b66c53c857c6; path=/; HttpOnly",
+        "X-Request-Id": "e0f253f0-d1e4-48fa-bac6-caa8265d4430",
+        "X-Runtime": "0.086119",
+        "Content-Length": "658"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/admin/orders/1\" -d 'order[delivery_boy_id]=1' -X PUT \\\n\t-H \"Access-Token: ZveOWVwgFdxaXBLGZfnnsA\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: cAckOdVWZmMokBsAvDOA4Q\" \\\n\t-H \"Expiry: 1458156225\" \\\n\t-H \"Uid: 32lisa.ward@rodriguez.name\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/admin/orders/1\" -d 'order[delivery_boy_id]=1' -X PUT \\\n\t-H \"Access-Token: g1BacTYSkteC4mH32RuB7Q\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: rHO1ns7graLlpGQiL3Kb4A\" \\\n\t-H \"Expiry: 1458218557\" \\\n\t-H \"Uid: 32jacinto@botsfordhomenick.net\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

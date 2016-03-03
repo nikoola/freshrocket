@@ -16,11 +16,11 @@
       "request_path": "/admin/products/1",
       "request_body": null,
       "request_headers": {
-        "Access-Token": "PRPSZZ77M2kZVH7BJ8qsyA",
+        "Access-Token": "p4Uw9lObuUuk3S9057m5EQ",
         "Token-Type": "Bearer",
-        "Client": "4szqtYHQ48wzpMG4saH1pA",
-        "Expiry": "1458156228",
-        "Uid": "52mayra@ortiz.biz",
+        "Client": "SbEzq5OEA4rqmzbPb-MUng",
+        "Expiry": "1458218560",
+        "Uid": "52hortense@stokesheidenreich.org",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -37,13 +37,13 @@
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "text/html",
         "Cache-Control": "no-cache",
-        "Set-Cookie": "_session_id=STdaR2FjYWFLUzBra3NXSjY0eWJzQnliS3VyVFZGL1dQYVhDV0FOa00vVWR0NWs1M2VxUnc0ajB6SHNtT21nSHpSa0w5akpVWnIycUw3NXE3aSt3ak1rc1cwbVZuTit5MWVkK1RvblpLNFdydU01Sy9CeTZDRlM3SEVERWVyc1dzbDRmSEZadHBSOHFmM3pTbG9NNWxMd1hTTVFqSGlqY3lxM3JlU0h0RWovNkNYdkdIVDJRMjJudW16OVZiRE5GLS1MUElsZUNybjhiRnRidXhWNzBqZ2hnPT0%3D--1a34ceeac2b6ae3644ac882c39019245864decf0; path=/; HttpOnly",
-        "X-Request-Id": "d7c707ae-7253-41ab-89af-4bd164a7f2e6",
-        "X-Runtime": "0.082145",
+        "Set-Cookie": "_session_id=UDNmWkhYTXpUUXJubTlDdFBobVRDeG5DL1BDemtjRURLaUtVcUNJRUNJMitRZ1RnaXNXQjNrc3pjNllreTl6ZTRXNjAxZHFBTndMU0o3SThHaUR0K2N0Zlh0SytjNGxoUWN5Qi9YVC81bXozckUwYVN2TkxrMWgyMEpJeldwbm04WUtDekgrVndIR1FUWmE2dVJYS0xONDR6bktKdzg0emJMMXF1TnpxV3MzUnljN3E3cjFJMWZVYVRlTi9QYWo3LS1RdGJoZWZERzJBUFFuaUNNS1NxMTFRPT0%3D--7b11b8bde7445508e49571f3d585c71058a10a08; path=/; HttpOnly",
+        "X-Request-Id": "b2c1dd92-56bb-4de0-9055-b68e4c9023d4",
+        "X-Runtime": "0.082672",
         "Content-Length": "0"
       },
       "response_content_type": "text/html",
-      "curl": "curl \"http://localhost:3000/admin/products/1\" -d '' -X DELETE \\\n\t-H \"Access-Token: PRPSZZ77M2kZVH7BJ8qsyA\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: 4szqtYHQ48wzpMG4saH1pA\" \\\n\t-H \"Expiry: 1458156228\" \\\n\t-H \"Uid: 52mayra@ortiz.biz\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/admin/products/1\" -d '' -X DELETE \\\n\t-H \"Access-Token: p4Uw9lObuUuk3S9057m5EQ\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: SbEzq5OEA4rqmzbPb-MUng\" \\\n\t-H \"Expiry: 1458218560\" \\\n\t-H \"Uid: 52hortense@stokesheidenreich.org\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

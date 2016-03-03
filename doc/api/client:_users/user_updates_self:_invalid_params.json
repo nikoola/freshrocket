@@ -16,11 +16,11 @@
       "request_path": "/auth",
       "request_body": "phone",
       "request_headers": {
-        "Access-Token": "SqT3AjrWdVpgC6q1uHt6bA",
+        "Access-Token": "fpHuXLBRRpz2y44va4tmTQ",
         "Token-Type": "Bearer",
-        "Client": "5ThEkqcK0VY604477b8qYA",
-        "Expiry": "1458156239",
-        "Uid": "135vita_macgyver@padberg.biz",
+        "Client": "KfnE1lfWfHIMM8U8MLirbA",
+        "Expiry": "1458218573",
+        "Uid": "135elvera@windlerdenesik.com",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -37,13 +37,13 @@
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "application/json; charset=utf-8",
         "Cache-Control": "no-cache",
-        "Set-Cookie": "_session_id=OFgwWlFxTGVVdWZick1GQndPbkU2NGxwOENjTGJzOVlQRldRMVlKbW5iUWhEQThadUlHKy9nQTZTeXBYaE01UEs5UEtvRVpkM0ZTMUNOWHE1YzcrTWlmQXMyNUJQUHY1Smptd1NqVFM1YjZpN3VEVWhtdXdsSVRyaTlSajFYZ1lwUmxFMzl0cEVBVHpUMGN0L2RoUC93L1prb0FBYmFCS0hnbzNDL21ncUFsRDlnTjM0YmhyZmM3TDF3S0NRcmtILS04bWFLQXJ6amkwVGNzQm9nY1puWHZnPT0%3D--cc676f0da855703f67ccc231dff10a5ba6ea38b3; path=/; HttpOnly",
-        "X-Request-Id": "d5da2011-c76a-414c-be16-23004eb7071f",
-        "X-Runtime": "0.073523",
+        "Set-Cookie": "_session_id=N2tMM01vUFVhZW1JcEhROXJqQnpVc0JveFQzdkhFSjJuOEFwTDNneDhHQzZVaVFHcG9zQVlEZWwycW1pcURCOEhEVXFseGpqTnVUUVNhWkZONFloUllqckxMMmdBaitPSWt6K2JFbER5V0VhMjlDM3NLemFXT1c5dUlpSmVOclFCVGRkZ2RleFZXNmJ0bk9ZOWFsaUkxaitIRTBNSEViM0RacENtNFZ4VURQa1l1Nzh4M0ttUG9mQ0lwZ1p5RVd3LS1Gd3BweENsdHZIK2EzZDVDNHE0ZmdnPT0%3D--ad0835f158f8a269783883005567d916f99928db; path=/; HttpOnly",
+        "X-Request-Id": "669f7b3e-5cf4-4be4-a439-033662a5aa5a",
+        "X-Runtime": "0.080810",
         "Content-Length": "241"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/auth\" -d 'phone' -X PUT \\\n\t-H \"Access-Token: SqT3AjrWdVpgC6q1uHt6bA\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: 5ThEkqcK0VY604477b8qYA\" \\\n\t-H \"Expiry: 1458156239\" \\\n\t-H \"Uid: 135vita_macgyver@padberg.biz\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/auth\" -d 'phone' -X PUT \\\n\t-H \"Access-Token: fpHuXLBRRpz2y44va4tmTQ\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: KfnE1lfWfHIMM8U8MLirbA\" \\\n\t-H \"Expiry: 1458218573\" \\\n\t-H \"Uid: 135elvera@windlerdenesik.com\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

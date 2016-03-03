@@ -20,8 +20,14 @@
     {
       "scope": "address",
       "required": true,
-      "name": "address",
-      "description": "street, home, flat"
+      "name": "street_and_house",
+      "description": "Address street and house"
+    },
+    {
+      "scope": "address",
+      "required": true,
+      "name": "door_number",
+      "description": "Address door number"
     }
   ],
   "response_fields": [
@@ -31,13 +37,13 @@
     {
       "request_method": "POST",
       "request_path": "/client/addresses",
-      "request_body": "address[address]=street+Hi+home+28+flat+3&address[city_id]=1",
+      "request_body": "address[street_and_house]=7588+Myrtie+Prairie&address[door_number]=5&address[city_id]=1",
       "request_headers": {
-        "Access-Token": "Ilp0ZUXIXfDrpo4StM69tA",
+        "Access-Token": "BOeqml8enJxEC9EGFQyX5w",
         "Token-Type": "Bearer",
-        "Client": "RnkBzmcfa_evWhPBQBlGQg",
-        "Expiry": "1458156231",
-        "Uid": "90jeffrey@kub.name",
+        "Client": "xHMzRi-V8FSi_ObSjMYOVw",
+        "Expiry": "1458218564",
+        "Uid": "90everardo.mclaughlin@schmelerlangosh.org",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -47,21 +53,21 @@
       "request_content_type": "application/x-www-form-urlencoded",
       "response_status": 201,
       "response_status_text": "Created",
-      "response_body": "{\n  \"id\": 2,\n  \"address\": \"street Hi home 28 flat 3\",\n  \"city_id\": 1,\n  \"user_id\": 1\n}",
+      "response_body": "{\n  \"id\": 1,\n  \"city_id\": 1,\n  \"user_id\": 1,\n  \"street_and_house\": \"7588 Myrtie Prairie\",\n  \"door_number\": \"5\"\n}",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"4cdbb210b0b248440fcc663c3680a429\"",
+        "ETag": "W/\"9d982ecfdc34b0fb76b6de990b7f7b99\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=WFRwTHRQbm1aeEhjdGswb1VmcnBnWGNUQkUrZnZEWHVrdy8xSWdMckxDRWtyZXBHOE5qTmY0a2wwWjZWS0JMRG55REtiVFBiTlJCdmhFTFdzd3lPbDRlMmdicXE3OXdkZUw0SmZtYTJFaGJIN2k4cTZneE5LU2dCUSt4RXBnZ016ZXlmQmMwQm1rZmJtS09qVDlLS1RaYjdVOFNKT3NUYVlMd1gzbVFCY094aXdyeUNaUS9udzVhTGRaMDZzVXNTLS0zdnZqajhCOTlLa0JmTjNNcng3VHZnPT0%3D--3ed80ace788805d59ec999e32ce601ecab0e1d35; path=/; HttpOnly",
-        "X-Request-Id": "135fd738-cc72-4230-8b06-89eb47a616bb",
-        "X-Runtime": "0.076251",
-        "Content-Length": "69"
+        "Set-Cookie": "_session_id=MGhBQlF0SjdlZE1WZGFXdGRhcWJxZlFKZ0gweDhGeGFQa0R6OGhsaFM5SXBQYThTTWlyc0NrcTRmTzVrUk15UVBzdkRuMW50Q2VFVXUyZ2dhUlhGTExmcWloczVaYXNMTzJ6bCt3MURHMGRwNlFwZG1ka0QrZGJ0ZjJUd0duRVlMYUNtNldSZFhkQkVUVzNVTllkZGR4WU5pMUwrRUViWDRvUUkwNjl4QUZ4OXhvK05Sb1I1azhCYVhuY1VLVW9vLS03RW5tSEJpRGRsdVh4RzducElENFd3PT0%3D--b95ca454e6294ef4ea561120b420f0d5519a763f; path=/; HttpOnly",
+        "X-Request-Id": "491bf53d-7c1a-4b6b-af21-86c12743b1d5",
+        "X-Runtime": "0.082540",
+        "Content-Length": "91"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/client/addresses\" -d 'address[address]=street+Hi+home+28+flat+3&address[city_id]=1' -X POST \\\n\t-H \"Access-Token: Ilp0ZUXIXfDrpo4StM69tA\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: RnkBzmcfa_evWhPBQBlGQg\" \\\n\t-H \"Expiry: 1458156231\" \\\n\t-H \"Uid: 90jeffrey@kub.name\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/client/addresses\" -d 'address[street_and_house]=7588+Myrtie+Prairie&address[door_number]=5&address[city_id]=1' -X POST \\\n\t-H \"Access-Token: BOeqml8enJxEC9EGFQyX5w\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: xHMzRi-V8FSi_ObSjMYOVw\" \\\n\t-H \"Expiry: 1458218564\" \\\n\t-H \"Uid: 90everardo.mclaughlin@schmelerlangosh.org\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

@@ -24,17 +24,17 @@
       "request_content_type": null,
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\n  \"id\": 1,\n  \"name\": \"Rogelioport_56\",\n  \"active\": true,\n  \"areas\": [\n    {\n      \"id\": 1,\n      \"name\": \"Schaeferville_area_2\"\n    },\n    {\n      \"id\": 2,\n      \"name\": \"Bergstrommouth_area_3\"\n    },\n    {\n      \"id\": 3,\n      \"name\": \"Port Makaylaton_area_4\"\n    }\n  ]\n}",
+      "response_body": "{\n  \"id\": 1,\n  \"name\": \"Lake Consuelobury_56\",\n  \"active\": true,\n  \"areas\": [\n    {\n      \"id\": 1,\n      \"name\": \"Lake Napoleon_area_2\"\n    },\n    {\n      \"id\": 2,\n      \"name\": \"Americoborough_area_3\"\n    },\n    {\n      \"id\": 3,\n      \"name\": \"Port Reybury_area_4\"\n    }\n  ]\n}",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"38589939de4735108ea8e8cc2257d3ad\"",
+        "ETag": "W/\"2ad475a1b04c8f660954f2bb7e32be95\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "X-Request-Id": "acb24688-7a18-4aee-a863-00890e89e824",
-        "X-Runtime": "0.002541",
-        "Content-Length": "176"
+        "X-Request-Id": "355d6ad5-c5b5-409f-87d3-b213b2a4b7c3",
+        "X-Runtime": "0.004222",
+        "Content-Length": "179"
       },
       "response_content_type": "application/json; charset=utf-8",
       "curl": "curl \"http://localhost:3000/cities/1\" -X GET \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""

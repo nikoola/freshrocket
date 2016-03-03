@@ -16,11 +16,11 @@
       "request_path": "/admin/cities/1",
       "request_body": null,
       "request_headers": {
-        "Access-Token": "IQwk96TIDj7bIi9G7BOXkA",
+        "Access-Token": "EscB-QvWr-tCucvrXJ7abw",
         "Token-Type": "Bearer",
-        "Client": "bgo7ACQhIPUauETOt2gOeA",
-        "Expiry": "1458156223",
-        "Uid": "8aurelie.ullrich@rau.biz",
+        "Client": "d9ruak1lzmM1w5FXotQ8kw",
+        "Expiry": "1458218554",
+        "Uid": "8jo@simoniskeeling.net",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -37,13 +37,13 @@
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "text/html",
         "Cache-Control": "no-cache",
-        "Set-Cookie": "_session_id=M1pPUWNoVVU2eXlBR0N5NEFsb0dScG4zc1ZWM0hWdWNuTlhRdjY3aURRLzhxQnBISzc2TGQwRUxOeEFuZVJWcm80V1FEc0dHSFJwcTRON2hadnl0SzFEMDlqWFloYURRYWJpWXFWQkcrVEZLd21DeHFPM3NJd2FnK1BLSWFrcGdIeDkyZ2FHd0JMeEtMeTJQS25uQVQ3eXpoR1JzaGtSYVFKM2krLzZGVmJMOGk5czVFRFQ3TjJmSGtocjA1RndvLS01Y2czV3ozN2dVRGRkcllyQ1VLd3FRPT0%3D--881da6559d2ea50cb09aedeb278c5b08824a8f96; path=/; HttpOnly",
-        "X-Request-Id": "c9751d80-2833-4495-88cf-6df2218a5a3f",
-        "X-Runtime": "0.084923",
+        "Set-Cookie": "_session_id=OEhjQXpQUkh0QXUreWpYU0U5Sy9PUXJuUVNTaU8rd1RHOGdWNnViN2dPSFNBL0x6VFZpRGZkNndGQlFGNXl2Ynk4VHA2d29GM3VjeXZkRzhHei83dHVxMVZkMWpkMC9KUDJTb0E1SEdMdktMQ1ZrZyt2S2VmWGpXQU85Z3pEVVNlV3FjQ2VhZWFQZDhpdHFNZEdRcVpIb0VEOWh3LzFVWk1oVzR4TGd5Vk1MUzBzMmJudURieG90a0RkaDdKRDQxLS1sMHdJam1Ydyt1SXgyc3Jmc1RkWU9RPT0%3D--32015333c31f39a3ad63eeb546395814a551825a; path=/; HttpOnly",
+        "X-Request-Id": "1ee325a4-d331-4691-98c4-25a4c7e3cc33",
+        "X-Runtime": "0.106321",
         "Content-Length": "0"
       },
       "response_content_type": "text/html",
-      "curl": "curl \"http://localhost:3000/admin/cities/1\" -d '' -X DELETE \\\n\t-H \"Access-Token: IQwk96TIDj7bIi9G7BOXkA\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: bgo7ACQhIPUauETOt2gOeA\" \\\n\t-H \"Expiry: 1458156223\" \\\n\t-H \"Uid: 8aurelie.ullrich@rau.biz\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/admin/cities/1\" -d '' -X DELETE \\\n\t-H \"Access-Token: EscB-QvWr-tCucvrXJ7abw\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: d9ruak1lzmM1w5FXotQ8kw\" \\\n\t-H \"Expiry: 1458218554\" \\\n\t-H \"Uid: 8jo@simoniskeeling.net\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

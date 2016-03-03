@@ -16,11 +16,11 @@
       "request_path": "/client/orders/3",
       "request_body": null,
       "request_headers": {
-        "Access-Token": "Ve0Y7eN0qzU1WR-04BbJtw",
+        "Access-Token": "u3CiCNPBhxPtS_nfTOYpyw",
         "Token-Type": "Bearer",
-        "Client": "4v8VYfVeFRMP-epoIMmejg",
-        "Expiry": "1458156237",
-        "Uid": "114eunice.collins@hermiston.com",
+        "Client": "0LLfhc6n4Vdw0C1g0MwG1Q",
+        "Expiry": "1458218571",
+        "Uid": "114hershel@balistreri.org",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -37,13 +37,13 @@
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "application/json; charset=utf-8",
         "Cache-Control": "no-cache",
-        "Set-Cookie": "_session_id=bVJUNDVrOWhvRENYOGJYaWtlK0ZPd3o0TWc4SElMOHZhTm5KcFRxeE1xRVR1ekFSY1NkU0w5QnNOV3FNa1EyU3ljRVFiY2RNR25IcUdjSFVZSlZvMGlXMnlyUmhtTWc4aEMxWDIyVWo0VHBIT1JUMFo5b2Y0NUhBamRMVEJMdEdGNitVNzBsMEwvQWpIc253RE5jYm1pK01ZS2o2ZUFjRDNaWTdLQlR0bFhJdzhvUEFROW5LNkM5SlhUTFdodUxmLS1aUHI4aFJ0TFNGSDRVZms3cmJzYlNnPT0%3D--8a4c48199ec1b98cdc930ba5da22fc4e45868285; path=/; HttpOnly",
-        "X-Request-Id": "83ce89ab-88b7-4de8-92ca-d7fe5c26a9ce",
-        "X-Runtime": "0.074195",
+        "Set-Cookie": "_session_id=Nk9qTTAySFZoMGVVZW8xWjVUNEF6dE9INXM2UnQ1dGxHV3ZSK3hjQUthaDR5RDFQWnVUaDIzUHJMOXBIR05CNE1HVit5YThVTlFnY21zZzdRamxWeUtCU1FMN3RodkFSRHdYandEMG5NZ3E2VkxmVUhXWnpWKzNSRzdsMnVkNlNCYmFGaVlwMXUwNG1SS1ppa1ZqQmRnSG9sUnEvdmFoOWJSSzlpR3RDQTFuZXFwOEFsTEMwdzc1VXBSbVdEL1ZpLS1CNkRtRHlQVXBYTDRySE0ydmg4Z1lBPT0%3D--cb6b81a3a4049d6395c5dbe870e70c1702421422; path=/; HttpOnly",
+        "X-Request-Id": "c9c7029b-3b9c-49cf-9973-79da56c9e821",
+        "X-Runtime": "0.078648",
         "Content-Length": "73"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/client/orders/3\" -d '' -X DELETE \\\n\t-H \"Access-Token: Ve0Y7eN0qzU1WR-04BbJtw\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: 4v8VYfVeFRMP-epoIMmejg\" \\\n\t-H \"Expiry: 1458156237\" \\\n\t-H \"Uid: 114eunice.collins@hermiston.com\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/client/orders/3\" -d '' -X DELETE \\\n\t-H \"Access-Token: u3CiCNPBhxPtS_nfTOYpyw\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: 0LLfhc6n4Vdw0C1g0MwG1Q\" \\\n\t-H \"Expiry: 1458218571\" \\\n\t-H \"Uid: 114hershel@balistreri.org\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

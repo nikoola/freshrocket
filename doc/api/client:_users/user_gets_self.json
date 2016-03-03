@@ -16,11 +16,11 @@
       "request_path": "/client",
       "request_body": null,
       "request_headers": {
-        "Access-Token": "83_i2vbJRBhOM1aEn-bZjw",
+        "Access-Token": "ydzwPrGdVuDGpvA5nUD13A",
         "Token-Type": "Bearer",
-        "Client": "NjnbMVg4S_7KdEIKm2-ZOQ",
-        "Expiry": "1458156239",
-        "Uid": "137sid_wiegand@vonrueden.name",
+        "Client": "GntSZ69YWUzoNuwqc2_zZg",
+        "Expiry": "1458218573",
+        "Uid": "137daniela_kirlin@lubowitz.org",
         "Host": "example.org",
         "Cookie": ""
       },
@@ -29,21 +29,21 @@
       "request_content_type": null,
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\n  \"id\": 5,\n  \"first_name\": \"Abby\",\n  \"last_name\": \"Sawayn\",\n  \"email\": \"137sid_wiegand@vonrueden.name\",\n  \"phone\": \"912590253279\",\n  \"is_verified\": false,\n  \"provider\": \"email\",\n  \"uid\": \"137sid_wiegand@vonrueden.name\",\n  \"created_at\": \"2016-03-02T19:23:59.786Z\",\n  \"abilities\": {\n    \"orders\": 0,\n    \"products\": 0,\n    \"users\": 0,\n    \"categories\": 0,\n    \"coupons\": 0,\n    \"settings\": 0,\n    \"cities\": 0,\n    \"delivery_boy\": 0\n  }\n}",
+      "response_body": "{\n  \"id\": 5,\n  \"first_name\": \"Carmen\",\n  \"last_name\": \"Schulist\",\n  \"email\": \"137daniela_kirlin@lubowitz.org\",\n  \"phone\": \"919298428772\",\n  \"is_verified\": false,\n  \"provider\": \"email\",\n  \"uid\": \"137daniela_kirlin@lubowitz.org\",\n  \"created_at\": \"2016-03-03T12:42:53.596Z\",\n  \"abilities\": {\n    \"orders\": 0,\n    \"products\": 0,\n    \"users\": 0,\n    \"categories\": 0,\n    \"coupons\": 0,\n    \"settings\": 0,\n    \"cities\": 0,\n    \"delivery_boy\": 0\n  }\n}",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"dabc23d8abbd55b14bf01b0b948c8081\"",
+        "ETag": "W/\"9628bfcf183eeb45c005fcfc3b52ca2e\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=TGlDY2pqWXlFQUpOeWF2YStlZHQxVXdWQ0JaSnJqWHhMQlVSdjRxMzRWODlXRFlqSDJsb2kxWHM3YTV6RUdRUWZYRWZJRzMzK1VwRGNiV2JuUnRqNWVwSGFhMjBxbW1jWFVoYm84ajRJL0k1YVFwTUhzeVJlK1dEMlF3TG1FUHhOZDBnRkx1VHM2R2RwOSsybUEwOUF1ZDdmK3BCQmErZ2hxYlVlaGdjSENxeUh3TmhFeHppU05LZm9zRkxrRjFILS1namNQUTFFWm1LQndCQm02QmZGK0l3PT0%3D--d3cbbc64f5b66aa5c7a56451e27d615722417543; path=/; HttpOnly",
-        "X-Request-Id": "2ab75fc7-d255-46ce-abd5-2ce390cb2a94",
-        "X-Runtime": "0.081977",
-        "Content-Length": "345"
+        "Set-Cookie": "_session_id=UW02MVZTQkUvMXVTajdRT010N2FLSmNxdlFrSzYwNGJWb2sxYVlLcGVDQk1xb2EzY0VpWEVTd0lBNVd0Mk5ya08xVnBHYTNUUGM3WG1OUWVTZzhsODg5RXhNM3hxZlM3eXl6VTJxYUdNVWZlZ1NSc2Z1RlhBU3Bnc3h0c0V1cStpL292UEtIdWFEd0xyR29jNEhrZDNiNXR1QTg4M2M4MURXaDl1Wi9xYm01cUpMSEtySHZtM2c1Ty9mZ1VVWXJGLS0zU2QwWURFYkljWTE3dndSZHdzTnhRPT0%3D--6180db669ec230b0426bc96c7ab358628928cbf0; path=/; HttpOnly",
+        "X-Request-Id": "09921b23-e2eb-4f19-850f-d7d85298b3aa",
+        "X-Runtime": "0.086751",
+        "Content-Length": "351"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/client\" -X GET \\\n\t-H \"Access-Token: 83_i2vbJRBhOM1aEn-bZjw\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: NjnbMVg4S_7KdEIKm2-ZOQ\" \\\n\t-H \"Expiry: 1458156239\" \\\n\t-H \"Uid: 137sid_wiegand@vonrueden.name\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/client\" -X GET \\\n\t-H \"Access-Token: ydzwPrGdVuDGpvA5nUD13A\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: GntSZ69YWUzoNuwqc2_zZg\" \\\n\t-H \"Expiry: 1458218573\" \\\n\t-H \"Uid: 137daniela_kirlin@lubowitz.org\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

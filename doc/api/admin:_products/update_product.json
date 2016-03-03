@@ -16,11 +16,11 @@
       "request_path": "/admin/products/1",
       "request_body": "product[title]=hi",
       "request_headers": {
-        "Access-Token": "Z6NkbU-biJFfUowD3tbifA",
+        "Access-Token": "nX4_bNRpApsNbRPzdNws9w",
         "Token-Type": "Bearer",
-        "Client": "twwqOOw_FOG5l1xNZlYkiQ",
-        "Expiry": "1458156227",
-        "Uid": "50german@hudson.info",
+        "Client": "pQjcVldrt0xPxP-6iu8Cfw",
+        "Expiry": "1458218560",
+        "Uid": "50imani_ullrich@ratke.com",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -30,21 +30,21 @@
       "request_content_type": "application/x-www-form-urlencoded",
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\n  \"id\": 1,\n  \"city_id\": 1,\n  \"title\": \"hi\",\n  \"price\": \"3.0\",\n  \"description\": null,\n  \"created_at\": \"2016-03-02T19:23:47.567Z\",\n  \"updated_at\": \"2016-03-02T19:23:47.735Z\",\n  \"inventory_count\": 20,\n  \"image_url\": \"uploads/product/image/default.png\",\n  \"categories\": [\n\n  ]\n}",
+      "response_body": "{\n  \"id\": 1,\n  \"city_id\": 1,\n  \"title\": \"hi\",\n  \"price\": \"3.0\",\n  \"description\": null,\n  \"created_at\": \"2016-03-03T12:42:40.015Z\",\n  \"updated_at\": \"2016-03-03T12:42:40.189Z\",\n  \"inventory_count\": 20,\n  \"image_url\": \"uploads/product/image/default.png\",\n  \"categories\": [\n\n  ]\n}",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"f1346efed0e7610a9f34f32005370641\"",
+        "ETag": "W/\"511ce569fb8f09b229a79bdca92b7ce9\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=Y0o0SGVWMHhQOXh5R1lLc3NvVTBTM1FzanZkbTNqZEcraURtcWJKeVdha09hMTZFMVJxeW16QytwK0ltTHE2cWFNMzRlRXljS0xBdHNuOVArcm52c2hoZUo4MnpiYVdaZks3SHJUYWU0MGNHcFlrM0lwdVZVUDV1SGk4cUFLL01FUlVXL2lNZ3BqWk0raEpzTDlPalRDQWJYamI2SGorQlpoRzdDcEVlRnpsS0hxK1l0dXFCcjkrSnJzTjY2VUczLS1Xa3orMzFBRzNTdTlXbW5lNTBFZ1RBPT0%3D--e8d3b38792fb2e0eca75b12cad26bd9846626cfe; path=/; HttpOnly",
-        "X-Request-Id": "ebb47146-f21a-46c2-a77f-4706d968b7a3",
-        "X-Runtime": "0.080590",
+        "Set-Cookie": "_session_id=eXBBT3MxZExQdXFYRU9LcFkzQVdLdTJZMnF4UEVvWnB2UGdYTU9ISk5zUUZnQldZOTZldG43N0N4V2FwWExPSStqdmRNY3lUbkk4NFlRZmlzMG1MUXBxZ2FjR1ZueHpEeDBERXRyN3RORUNYQ3NEcDk1SWZ1S2lyTG9HdEpOWVZNZ0tpeEo0VlM3bVQxaTNYdlJPZGhjWHNpdWpTVlhxZjlieThuZWJxYmZMTWhkOWNYSE9hbFU3K21lSDY3ZkRRLS1leENjWVcvY2hWSllYWFNXeDJuWHNBPT0%3D--4c407a15d2cb2d64c00d8b20d88378f4c1485a8e; path=/; HttpOnly",
+        "X-Request-Id": "e69c4485-2975-4118-90ea-d017e3e115b4",
+        "X-Runtime": "0.082145",
         "Content-Length": "231"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/admin/products/1\" -d 'product[title]=hi' -X PUT \\\n\t-H \"Access-Token: Z6NkbU-biJFfUowD3tbifA\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: twwqOOw_FOG5l1xNZlYkiQ\" \\\n\t-H \"Expiry: 1458156227\" \\\n\t-H \"Uid: 50german@hudson.info\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/admin/products/1\" -d 'product[title]=hi' -X PUT \\\n\t-H \"Access-Token: nX4_bNRpApsNbRPzdNws9w\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: pQjcVldrt0xPxP-6iu8Cfw\" \\\n\t-H \"Expiry: 1458218560\" \\\n\t-H \"Uid: 50imani_ullrich@ratke.com\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

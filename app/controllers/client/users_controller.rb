@@ -1,8 +1,6 @@
 module Client
 	class UsersController < BaseController
 
-
-		# GET /users/1
 		def show
 			render json: current_user
 		end
@@ -28,14 +26,7 @@ module Client
 
 
 
-		def send_sms_with_recovery_password
-			temporary_password = rand(10000000..99999999)
-			current_user.update!(password: temporary_password, password_confirmation: temporary_password)
 
-			SendSmsWithRecoveryPasswordJob.perform_later current_user.name, temporary_password, current_user.phone
-		
-			head 200
-		end
 
 
 	end

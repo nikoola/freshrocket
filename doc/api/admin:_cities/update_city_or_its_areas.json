@@ -39,13 +39,13 @@
     {
       "request_method": "PUT",
       "request_path": "/admin/cities/1",
-      "request_body": "city[name]=Busterland_3&city[areas_attributes][][id]=1&city[areas_attributes][][_destroy]=1",
+      "request_body": "city[name]=East+Rocky_3&city[areas_attributes][][id]=1&city[areas_attributes][][_destroy]=1",
       "request_headers": {
-        "Access-Token": "QL6lorf9eZQG9GTjwdasEA",
+        "Access-Token": "JHJMbsRcJpDbvACkOj_sCg",
         "Token-Type": "Bearer",
-        "Client": "ASxuGQJuONVBF_WeDg2-9Q",
-        "Expiry": "1458156223",
-        "Uid": "7georgiana@mills.org",
+        "Client": "LaDI1biWkRo5yS1zg1kSXA",
+        "Expiry": "1458218554",
+        "Uid": "7megane.fritsch@wisoky.biz",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -55,21 +55,21 @@
       "request_content_type": "application/x-www-form-urlencoded",
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\n  \"id\": 1,\n  \"name\": \"Busterland_3\",\n  \"active\": true,\n  \"areas\": [\n\n  ]\n}",
+      "response_body": "{\n  \"id\": 1,\n  \"name\": \"East Rocky_3\",\n  \"active\": true,\n  \"areas\": [\n\n  ]\n}",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"aa2653209930eb053fc90898004b41f6\"",
+        "ETag": "W/\"ac1f14f6a3414f95c9468f7474aee4d8\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=czZ2eWpvcTJCZlJZazlyMG9UTTBpeC9OUHlKSUtoL0hjY1hrVUIyTlAvSjR4QWFSYnFGZW1xRVFvaXRTZjVRNTAzdVdrS01WQ29jSW1vKzAxZGZQVWlrc2FEd21tem9aS1gyQXRiQnk5Y2RSSHYrWGkvOWF0ZGpXQjY1b0ZOTHgxN0RXdXNRYkwrdTEyK0RBOTFOTE14ODA0Tzl1N3EvTHJDOGRzVGcrYjhNTGEyNUJ0ZndBanNZRElqZlhmVlh1LS1QRENWRXVSeWdvYXRiUmt1ZzduRzBBPT0%3D--7d6bf1c0a23c3ab3b742a8fad35cc91fec39553c; path=/; HttpOnly",
-        "X-Request-Id": "b4d089d0-24b6-45f0-ba85-4802b7ebee6a",
-        "X-Runtime": "0.080352",
+        "Set-Cookie": "_session_id=QklCbzJGcEVrbk8vaUkrYWpmWUpRVUcvQUJNcWkzZnpZMnVQTU9Wb29SbGJvWUlreG5iQ3o5dThaZlMxUVZoOUc0MnBhSWhXMUpHVWVNWDkzcWlVenJxTGtjKzc1d3ZDU2tySEU3M3ROaFcvcnVsWFV6NUx3Tm8zTUhMUkpoQzkxM1o0TGRwV2VxUWJSWmNVckZJWis4VmtSaytjN0VkbFBzL1FnU2ZDVGxnTU1leXV3bU9sRGs1ZnJMNG44Ylc1LS02d1N4Wit6eXVndDFmNHJ5TVd1dGpRPT0%3D--1ca97ac63497dd666956dceade77cb6e717375c2; path=/; HttpOnly",
+        "X-Request-Id": "28997820-5ce0-48dd-aa35-ebc8bce82420",
+        "X-Runtime": "0.105577",
         "Content-Length": "55"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/admin/cities/1\" -d 'city[name]=Busterland_3&city[areas_attributes][][id]=1&city[areas_attributes][][_destroy]=1' -X PUT \\\n\t-H \"Access-Token: QL6lorf9eZQG9GTjwdasEA\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: ASxuGQJuONVBF_WeDg2-9Q\" \\\n\t-H \"Expiry: 1458156223\" \\\n\t-H \"Uid: 7georgiana@mills.org\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/admin/cities/1\" -d 'city[name]=East+Rocky_3&city[areas_attributes][][id]=1&city[areas_attributes][][_destroy]=1' -X PUT \\\n\t-H \"Access-Token: JHJMbsRcJpDbvACkOj_sCg\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: LaDI1biWkRo5yS1zg1kSXA\" \\\n\t-H \"Expiry: 1458218554\" \\\n\t-H \"Uid: 7megane.fritsch@wisoky.biz\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }
