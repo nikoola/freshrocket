@@ -1,0 +1,53 @@
+{
+  "resource": "admin: addresses",
+  "http_method": "GET",
+  "route": "/admin/addresses",
+  "description": "get all own addresses",
+  "explanation": null,
+  "parameters": [
+    {
+      "name": "active",
+      "description": "0/1. is inactive if user tried to delete order, but it was already mentioned in any orders"
+    }
+  ],
+  "response_fields": [
+
+  ],
+  "requests": [
+    {
+      "request_method": "GET",
+      "request_path": "/admin/addresses?active=0",
+      "request_body": null,
+      "request_headers": {
+        "Access-Token": "Y2xXsP08ucc6AlEsdGOhYQ",
+        "Token-Type": "Bearer",
+        "Client": "skHSh5igb9n3RZPAwV-RUw",
+        "Expiry": "1458315357",
+        "Uid": "6rosalind.rosenbaum@mosciski.io",
+        "Host": "example.org",
+        "Cookie": ""
+      },
+      "request_query_parameters": {
+        "active": "0"
+      },
+      "request_content_type": null,
+      "response_status": 200,
+      "response_status_text": "OK",
+      "response_body": "[\n  {\n    \"id\": 1,\n    \"city_id\": 1,\n    \"user_id\": 1,\n    \"street_and_house\": \"8340 Cronin Center\",\n    \"door_number\": \"5\"\n  },\n  {\n    \"id\": 2,\n    \"city_id\": 2,\n    \"user_id\": 2,\n    \"street_and_house\": \"744 Shayne Locks\",\n    \"door_number\": \"5\"\n  },\n  {\n    \"id\": 3,\n    \"city_id\": 3,\n    \"user_id\": 3,\n    \"street_and_house\": \"772 Adan Greens\",\n    \"door_number\": \"5\"\n  }\n]",
+      "response_headers": {
+        "X-Frame-Options": "SAMEORIGIN",
+        "X-XSS-Protection": "1; mode=block",
+        "X-Content-Type-Options": "nosniff",
+        "Content-Type": "application/json; charset=utf-8",
+        "ETag": "W/\"c6301a355c987a26005e625a1443dac8\"",
+        "Cache-Control": "max-age=0, private, must-revalidate",
+        "Set-Cookie": "_session_id=ZFBKbTJ3M1JHc3cvbHkrcnluTWxYRUUramlrWGd4YU1EK0o3RnNGaWFLR0djSndhR1lyL2lxaVFDSVlYVitJM0ZIZXE4bk5BT0FEVy8vdjBvQXE2L3pXSDJYZUJBRXZBYTBHMU1LTGFpOUh4U2UyTGJmZWVEQ29LMGdQellBQXkvM3RKSEJOYktHS1hEeXBwK2daQlI0dVZ0TzZIWmlCSkl0MGV0a21mZitHVGxVWWNFNTJHN0xFKzRrVW4wZTZhLS1PbkdLc3FGRUJGaWtTdy9ManJoYXJBPT0%3D--f3b8753756e912c2e300141302c3cbad2930405c; path=/; HttpOnly",
+        "X-Request-Id": "c1f50919-2bcd-4b29-9782-169db29e3b55",
+        "X-Runtime": "0.113018",
+        "Content-Length": "269"
+      },
+      "response_content_type": "application/json; charset=utf-8",
+      "curl": "curl \"http://localhost:3000/admin/addresses?active=0\" -X GET \\\n\t-H \"Access-Token: Y2xXsP08ucc6AlEsdGOhYQ\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: skHSh5igb9n3RZPAwV-RUw\" \\\n\t-H \"Expiry: 1458315357\" \\\n\t-H \"Uid: 6rosalind.rosenbaum@mosciski.io\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
+    }
+  ]
+}

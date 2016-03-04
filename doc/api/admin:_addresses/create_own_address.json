@@ -1,0 +1,79 @@
+{
+  "resource": "admin: addresses",
+  "http_method": "POST",
+  "route": "/admin/addresses",
+  "description": "create own address",
+  "explanation": null,
+  "parameters": [
+    {
+      "scope": "address",
+      "required": true,
+      "name": "city_id",
+      "description": "Address city"
+    },
+    {
+      "scope": "address",
+      "required": true,
+      "name": "street_and_house",
+      "description": "Address street and house"
+    },
+    {
+      "scope": "address",
+      "required": true,
+      "name": "door_number",
+      "description": "Address door number"
+    },
+    {
+      "scope": "address",
+      "required": true,
+      "name": "user_id",
+      "description": "Address user"
+    },
+    {
+      "scope": "address",
+      "required": false,
+      "name": "zip_code",
+      "description": "Address zip code"
+    }
+  ],
+  "response_fields": [
+
+  ],
+  "requests": [
+    {
+      "request_method": "POST",
+      "request_path": "/admin/addresses",
+      "request_body": "address[street_and_house]=207+Spinka+Lights&address[door_number]=5&address[city_id]=1&address[user_id]=1",
+      "request_headers": {
+        "Access-Token": "LTbazvHwlTSONSZM1k0uoQ",
+        "Token-Type": "Bearer",
+        "Client": "0T5BEvxHbB3Jw4ZFpxcriw",
+        "Expiry": "1458315358",
+        "Uid": "7treie@gottlieb.info",
+        "Host": "example.org",
+        "Content-Type": "application/x-www-form-urlencoded",
+        "Cookie": ""
+      },
+      "request_query_parameters": {
+      },
+      "request_content_type": "application/x-www-form-urlencoded",
+      "response_status": 201,
+      "response_status_text": "Created",
+      "response_body": "{\n  \"id\": 1,\n  \"city_id\": 1,\n  \"user_id\": 1,\n  \"street_and_house\": \"207 Spinka Lights\",\n  \"door_number\": \"5\"\n}",
+      "response_headers": {
+        "X-Frame-Options": "SAMEORIGIN",
+        "X-XSS-Protection": "1; mode=block",
+        "X-Content-Type-Options": "nosniff",
+        "Content-Type": "application/json; charset=utf-8",
+        "ETag": "W/\"aaa95ad511e4d5acdd903beec9ee9ff2\"",
+        "Cache-Control": "max-age=0, private, must-revalidate",
+        "Set-Cookie": "_session_id=R2JnTk0rZlZ4KzdPSGR0ZHEwdy8xTzc4dWZ3YjBxdllVTzdmN0twZDFaN3pMWHZEbE5ocm9wUjhYS01zNE9sZTZlQlE4ZU1wS0dSZkppOEpieEJONE05bFlzVy9nVWd2R2l1bFBaWGdSdWE3eVdkZzdmQnN0am9rVHpnQ1RuK2pzNTd5Z1dKR29aaWFXU3BmOHhuZHh6SVRKbjVMbUlXUnZpNU9BZ1dkMWd2ajFwbnJXZk5IWTJ4TWFLTXJnL3FGLS1CU1B6b2ttaUZsNGJsQnMySTY2V3dnPT0%3D--823ff40faa00332781cde04a8ab260e6c1da1008; path=/; HttpOnly",
+        "X-Request-Id": "cdee1514-0e94-4439-b383-84c1d05cb8e8",
+        "X-Runtime": "0.083917",
+        "Content-Length": "89"
+      },
+      "response_content_type": "application/json; charset=utf-8",
+      "curl": "curl \"http://localhost:3000/admin/addresses\" -d 'address[street_and_house]=207+Spinka+Lights&address[door_number]=5&address[city_id]=1&address[user_id]=1' -X POST \\\n\t-H \"Access-Token: LTbazvHwlTSONSZM1k0uoQ\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: 0T5BEvxHbB3Jw4ZFpxcriw\" \\\n\t-H \"Expiry: 1458315358\" \\\n\t-H \"Uid: 7treie@gottlieb.info\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+    }
+  ]
+}

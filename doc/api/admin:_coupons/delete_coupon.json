@@ -16,11 +16,11 @@
       "request_path": "/admin/coupons/1",
       "request_body": null,
       "request_headers": {
-        "Access-Token": "c973wrUx1oyeXAHtVMiGLA",
+        "Access-Token": "dJXrugjqvjF55bCi2GLZ2A",
         "Token-Type": "Bearer",
-        "Client": "s1saOj0N1uuAB8Ea_3df-A",
-        "Expiry": "1458285322",
-        "Uid": "12imelda_gutmann@moore.biz",
+        "Client": "BkwWK1aO5DjSsi1hAz5WTg",
+        "Expiry": "1458315360",
+        "Uid": "21xander@wunschcain.biz",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -37,13 +37,13 @@
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "text/html",
         "Cache-Control": "no-cache",
-        "Set-Cookie": "_session_id=SXBvSzBPS3ByMmdlTTZDMUhNNkxVOG5FY1U4YlA1N0dia1EydkVsU1R1cHo3djYxTlhUQk1mcHlNalZtOVhoeitXUlYyUmZIaXJLWE9lekUxL2xiZGxMUHM4TXYwMGFrR2cvcHNqYVZPM1pGU2tOZ2tFdGQ0c052M0IvTGhSQlV6R2s2LzRXc2hJZHhFYmdrRm9LR2YvUE9zRzFNS1pXaDRoeXVVWnpYdEQ5U3dzV0JOZE43dDhWOHVyaDBYc2gvLS1qRjRpRGVxa2tobXkrU2NsM3V3bTBRPT0%3D--784572781798448c59ca2189e5ec5fdcffa5203e; path=/; HttpOnly",
-        "X-Request-Id": "5d50708a-1380-4c42-957e-08f743f7ae71",
-        "X-Runtime": "0.076925",
+        "Set-Cookie": "_session_id=S0RCSmF5VGFVZlZlZzR2UytFbXlBbUNNaXJDdWFMRmJUOW9KaFdzQnozQnFTaTV2a0ZnMHBJRWFBTmVFM0x6TVpDRFMrbitFZHJqMW9JRFdFTm5IeG5zTm9sWk8vRmJqU2hQTXpFQVdJRVFTN0Y3T1NXVU9lcC9tbjZCMDI1SGtQRWI0OGhpcmYxeHozTW8xbjhFQ1NkRzFORENDYmtqRU4wUmNsczdBSndDZG1RbEtLemE5V2RicmFEUTNHcEgzLS0ydXdLOEtkR1NMckdaWmhMNkNvK2t3PT0%3D--22cca8eecad695d5e5d825458bc20a64d557706f; path=/; HttpOnly",
+        "X-Request-Id": "98017b08-9e83-4ff2-9233-4bcb8fd197c6",
+        "X-Runtime": "0.078902",
         "Content-Length": "0"
       },
       "response_content_type": "text/html",
-      "curl": "curl \"http://localhost:3000/admin/coupons/1\" -d '' -X DELETE \\\n\t-H \"Access-Token: c973wrUx1oyeXAHtVMiGLA\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: s1saOj0N1uuAB8Ea_3df-A\" \\\n\t-H \"Expiry: 1458285322\" \\\n\t-H \"Uid: 12imelda_gutmann@moore.biz\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/admin/coupons/1\" -d '' -X DELETE \\\n\t-H \"Access-Token: dJXrugjqvjF55bCi2GLZ2A\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: BkwWK1aO5DjSsi1hAz5WTg\" \\\n\t-H \"Expiry: 1458315360\" \\\n\t-H \"Uid: 21xander@wunschcain.biz\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

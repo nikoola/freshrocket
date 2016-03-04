@@ -19,11 +19,11 @@
       "request_path": "/client/payments/new?order_id=3",
       "request_body": null,
       "request_headers": {
-        "Access-Token": "YoqjddCA8Zd8KaNMmKLR8w",
+        "Access-Token": "ImY-JsXiRQf8emht6foRvg",
         "Token-Type": "Bearer",
-        "Client": "UDSpRqK6sVPGTdUNSwO47Q",
-        "Expiry": "1458285338",
-        "Uid": "129georgiana.boehm@vonrueden.info",
+        "Client": "AKLDZhBMD9PIsyp2DCLOVg",
+        "Expiry": "1458315376",
+        "Uid": "138jalyn@kuphal.biz",
         "Host": "example.org",
         "Cookie": ""
       },
@@ -33,21 +33,21 @@
       "request_content_type": null,
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\n  \"citrus\": {\n    \"action\": \"https://sandbox.citruspay.com/kouqfeaav0\",\n    \"method\": \"POST\",\n    \"fields\": {\n      \"merchantTxnId\": \"3\",\n      \"merchantAccessKey\": \"T82TNCTLNBZ282BLHAGD\",\n      \"orderAmount\": \"228.35\",\n      \"currency\": \"USD\",\n      \"secret_key\": \"1690a1e29ecec2a5f852b678dd5362616c79916a\",\n      \"pmt_url\": \"kouqfeaav0\",\n      \"returnUrl\": \"http://localhost:3000/client/payments/citrus\",\n      \"paymentMode\": \"NET_BANKING\",\n      \"reqtime\": \"1457075738000\",\n      \"secSignature\": \"16055d2470aa3b2001007b0bd8086106d677f8b2\"\n    }\n  }\n}",
+      "response_body": "{\n  \"citrus\": {\n    \"action\": \"https://sandbox.citruspay.com/kouqfeaav0\",\n    \"method\": \"POST\",\n    \"fields\": {\n      \"merchantTxnId\": \"3\",\n      \"merchantAccessKey\": \"T82TNCTLNBZ282BLHAGD\",\n      \"orderAmount\": \"228.35\",\n      \"currency\": \"USD\",\n      \"secret_key\": \"1690a1e29ecec2a5f852b678dd5362616c79916a\",\n      \"pmt_url\": \"kouqfeaav0\",\n      \"returnUrl\": \"http://localhost:3000/client/payments/citrus\",\n      \"paymentMode\": \"NET_BANKING\",\n      \"reqtime\": \"1457105776000\",\n      \"secSignature\": \"16055d2470aa3b2001007b0bd8086106d677f8b2\"\n    }\n  }\n}",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"589132bbd3402985549c9d113036c4f9\"",
+        "ETag": "W/\"19ff61c670f52e5d8f99537a2932875f\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=Q3ZZYytuaHluU3dpTytGUG8vdEpRaG1xL29FSlJDaHNzV3RWdkVCWHA5WWFPekRaOFhLOWZIcEhldzUvZG8ySThra004T3NHb1dLZ01pdjNReXhPUndJMFNIQzF5TUxDUzB1VnY5Y25MdWNPTXl3T3dJc05Ob2tCOGN4TklOdjhqTWFuOGJOaXBXSEp2MlFqcm5Hd0JFOUNyMGlqeHNHdllnUkZ3N3VRWXR3bE1qSzJENXRTUXBoRjIxUCs1KzVmLS1xckJwVGE3ZlYzeDNWRDZVTDcxVzJBPT0%3D--bc6ff8b2b180fe7eed8a8cc25c8b794a800f1073; path=/; HttpOnly",
-        "X-Request-Id": "c8d40940-829e-44d3-9c41-9b908042c912",
-        "X-Runtime": "0.084322",
+        "Set-Cookie": "_session_id=a0N6bUszZ1JpT0Q5T1hyL2ZqTkhCOWhheFVlZmpRMXB3cGp3d01HekdVNWRFbmpjQk9KUlhlNklBL2xJeHhPMnMwREpmT045dW5EaHhqbGdvM0JXc2FIWndpcnR6Q2tvRnR6TDJPWkNHRGFSSjFLOVhKZXlWS3RtbXQwUkdaQktVcDdZU1ZFajhENGw0a3dIelpmb2ZnMFhyWjlNWjdrbEZzUURkYmlWWEZiRDNMKzNlamJsT0VyVVY3aU5taXQ3LS1nT1Vvc09YM1BGT1RXVDl2MUZ0cnB3PT0%3D--20436263c5135cd29f8f8a12e1ed5b9e94239539; path=/; HttpOnly",
+        "X-Request-Id": "6321905c-8452-4002-9eab-d3a62e8cfa2f",
+        "X-Runtime": "0.092192",
         "Content-Length": "444"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/client/payments/new?order_id=3\" -X GET \\\n\t-H \"Access-Token: YoqjddCA8Zd8KaNMmKLR8w\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: UDSpRqK6sVPGTdUNSwO47Q\" \\\n\t-H \"Expiry: 1458285338\" \\\n\t-H \"Uid: 129georgiana.boehm@vonrueden.info\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/client/payments/new?order_id=3\" -X GET \\\n\t-H \"Access-Token: ImY-JsXiRQf8emht6foRvg\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: AKLDZhBMD9PIsyp2DCLOVg\" \\\n\t-H \"Expiry: 1458315376\" \\\n\t-H \"Uid: 138jalyn@kuphal.biz\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

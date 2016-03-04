@@ -1,7 +1,7 @@
 {
-  "resource": "client: addresses",
+  "resource": "admin: addresses",
   "http_method": "PUT",
-  "route": "/client/addresses/:id",
+  "route": "/admin/addresses/:id",
   "description": "change own address",
   "explanation": "fails if address has been used in any approved orders",
   "parameters": [
@@ -13,14 +13,14 @@
   "requests": [
     {
       "request_method": "PUT",
-      "request_path": "/client/addresses/1",
+      "request_path": "/admin/addresses/1",
       "request_body": "address[street_and_house]=good",
       "request_headers": {
-        "Access-Token": "VE7l8FOJwjlfWL7chK98hw",
+        "Access-Token": "h0umY4GBm5C-uDwLFZI3PA",
         "Token-Type": "Bearer",
-        "Client": "nOVZfK5wXiCHopBysJADFg",
-        "Expiry": "1458315369",
-        "Uid": "100brittany@zemlaknolan.co",
+        "Client": "HT-z1aq1dHi43BeckRutBA",
+        "Expiry": "1458315358",
+        "Uid": "8bennie.reilly@wuckert.biz",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -38,13 +38,13 @@
         "Content-Type": "application/json; charset=utf-8",
         "ETag": "W/\"3589eec4e6d4c5aebe0c986b2ef511c7\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=NkhoVzJmakJheGdCcFhlQWFXM0U1Tkd4bVZKekNqQjEySmQycG1YQ0haTENUNnZCRC8rY1BkZHVSaVVMTXU3L3duWkZhSERJRitqdDhhbFBNZ1RpaGF1K0lMQldSZHVBUFkvU0hIa0VvLyt1NzB0N1hZZklyVFk5VUpIVUZ0UU5oNEhHVnJ4eStQbzZnOC8wbnlqaTVCMWJMRU1MYnJCQVZ3N0Q2NUJZZ29yanFLNGwreEZPeWZXZUkyMmZ4dFcvLS00elVqbUZDTk4rTXFIVW53RXg4TjRnPT0%3D--b56f66f30a5ddb36cc9d9f8a623d341ce8966b92; path=/; HttpOnly",
-        "X-Request-Id": "2a1ef39b-a884-48cc-a5ac-3b0385be3b9d",
-        "X-Runtime": "0.079291",
+        "Set-Cookie": "_session_id=ZklDVWJoZUxLVnN5NWZiQU1SV2h5dzFoaXFMTmgzYXJXN1NXUlBPcEFMT1B5RHVPMURpVy9NTm1rc1hBNm1WQXpFQTdCWXlXc2hjQ2hHVTBjSDh5Zk5Rb00xeVlEaU9SNjJoOWFCYTFUS1JpNWJFSGhJYWNoVUFmVnNNcTNUUzlkUHZQS0lNcmNYK2ZoREtFbUM4Y1c4R1lyOUJQajd1Z0dNZWZiUGFrME9CSzNxNFR2OGQxU2d3Y1RXRFpwbnk3LS04cWM4a2xTem9RMFFkaUFhcWNRcHdRPT0%3D--0fa736f21a8d58a63a55306948f0272dc1b815b1; path=/; HttpOnly",
+        "X-Request-Id": "6e5828fd-96c5-434c-88f7-8322aebba4b4",
+        "X-Runtime": "0.110558",
         "Content-Length": "76"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/client/addresses/1\" -d 'address[street_and_house]=good' -X PUT \\\n\t-H \"Access-Token: VE7l8FOJwjlfWL7chK98hw\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: nOVZfK5wXiCHopBysJADFg\" \\\n\t-H \"Expiry: 1458315369\" \\\n\t-H \"Uid: 100brittany@zemlaknolan.co\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/admin/addresses/1\" -d 'address[street_and_house]=good' -X PUT \\\n\t-H \"Access-Token: h0umY4GBm5C-uDwLFZI3PA\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: HT-z1aq1dHi43BeckRutBA\" \\\n\t-H \"Expiry: 1458315358\" \\\n\t-H \"Uid: 8bennie.reilly@wuckert.biz\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

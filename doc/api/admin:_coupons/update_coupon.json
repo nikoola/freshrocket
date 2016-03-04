@@ -30,11 +30,11 @@
       "request_path": "/admin/coupons/1",
       "request_body": "coupon[name]=green",
       "request_headers": {
-        "Access-Token": "J2n5J751qHyvEGat5jgIOQ",
+        "Access-Token": "q3CWRNYawEcoZM9ssyX12Q",
         "Token-Type": "Bearer",
-        "Client": "zErdwyV8vsuIzLBFW4y4ZQ",
-        "Expiry": "1458285322",
-        "Uid": "11maynard_swaniawski@abernathy.com",
+        "Client": "6L2a0GlQ4u3ejwoRA1TacQ",
+        "Expiry": "1458315360",
+        "Uid": "20grady.paucek@wisoky.biz",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -44,21 +44,21 @@
       "request_content_type": "application/x-www-form-urlencoded",
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\n  \"id\": 1,\n  \"name\": \"green\",\n  \"code\": \"70875\",\n  \"discount\": 80\n}",
+      "response_body": "{\n  \"id\": 1,\n  \"name\": \"green\",\n  \"code\": \"17875\",\n  \"discount\": 37\n}",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"3c2acaba6a4db0056acf3b9deee827f7\"",
+        "ETag": "W/\"708a9ba2499a4759049197939a1bfe9b\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=TW41aGNJQVVhcmFXWjNJWitaYjh2cEx1WEkxYVRsNmhsTkw4TkFiS2orZGFaY1JRVngzbklNdWxVcnRWWW9DL294cEMyMUtqN0Jpd1RJUE55clV4VExhQ2hyQ2dmUEtKRmRxVTZ6ZHFneDBxVXdXdHUwcHkzRTc2NU5DMHBoQmdseVliWUptYTVaQ3pSL0FFemJIMnZzYXJYTlU5ZFBMNFZQcGVQTDh6dnZqVXBvZ0xHNkJaQTE0bktxakk3OEdxLS1DbUVjeHRjVitzcytCai9QU0thU3d3PT0%3D--7e05379eef881d504a8f60e132551e2229661cd5; path=/; HttpOnly",
-        "X-Request-Id": "7daf5fe4-93cd-4290-9a47-24277d1cd760",
-        "X-Runtime": "0.078238",
+        "Set-Cookie": "_session_id=SksxOHBzVGs1K3Y4Nm1Sei90RXdzdS9BZTZPRW1ZMWNIWm5Ma2taZGtZMHpRZ3Iwd3NKRXR4UHVpa1hCNnBJVGwzSmhUcTVQdjFIcUJDWlNpdFJuYWg5SlVWT3V3b0tqTGZOKzlqTkM2UkRVODRlRGIvZTlvUUtWcnp2cm1NTkNFSTBkWjJqdzRVUFNNMUR5VHVPc1NKY1A4RFBrODVFdUFLMGlyK291aGZPNlVDMHZWOExwbTFNN2xPU2k2ZGswLS0xcFlwMkhmREYzRGhTOXBxdy9nNUN3PT0%3D--3bf26a90e3f54493dc3a6e6c80959aacfdfe94b5; path=/; HttpOnly",
+        "X-Request-Id": "7b3db7f2-ba4c-4600-b878-81a4c6e50e53",
+        "X-Runtime": "0.494270",
         "Content-Length": "52"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/admin/coupons/1\" -d 'coupon[name]=green' -X PUT \\\n\t-H \"Access-Token: J2n5J751qHyvEGat5jgIOQ\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: zErdwyV8vsuIzLBFW4y4ZQ\" \\\n\t-H \"Expiry: 1458285322\" \\\n\t-H \"Uid: 11maynard_swaniawski@abernathy.com\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/admin/coupons/1\" -d 'coupon[name]=green' -X PUT \\\n\t-H \"Access-Token: q3CWRNYawEcoZM9ssyX12Q\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: 6L2a0GlQ4u3ejwoRA1TacQ\" \\\n\t-H \"Expiry: 1458315360\" \\\n\t-H \"Uid: 20grady.paucek@wisoky.biz\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

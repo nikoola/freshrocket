@@ -19,11 +19,11 @@
       "request_path": "/client/addresses?active=0",
       "request_body": null,
       "request_headers": {
-        "Access-Token": "K7H0KDi66BQm42HCgkm3DQ",
+        "Access-Token": "Xp9k8NGRSW4wwQlEp6WdDg",
         "Token-Type": "Bearer",
-        "Client": "MOqyQiJ26lLylXuyWUDxoQ",
-        "Expiry": "1458285330",
-        "Uid": "87cornelius_jaskolski@mitchell.io",
+        "Client": "u129UIr1KuaLBaCRULHrOQ",
+        "Expiry": "1458315368",
+        "Uid": "96aditya.schulist@wolff.net",
         "Host": "example.org",
         "Cookie": ""
       },
@@ -33,21 +33,21 @@
       "request_content_type": null,
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "[\n  {\n    \"id\": 1,\n    \"city_id\": 1,\n    \"user_id\": 1,\n    \"street_and_house\": \"398 Douglas Key\",\n    \"door_number\": \"5\"\n  },\n  {\n    \"id\": 2,\n    \"city_id\": 2,\n    \"user_id\": 1,\n    \"street_and_house\": \"497 Harley Islands\",\n    \"door_number\": \"5\"\n  },\n  {\n    \"id\": 3,\n    \"city_id\": 3,\n    \"user_id\": 1,\n    \"street_and_house\": \"592 Harold Junction\",\n    \"door_number\": \"5\"\n  }\n]",
+      "response_body": "[\n  {\n    \"id\": 1,\n    \"city_id\": 1,\n    \"user_id\": 1,\n    \"street_and_house\": \"649 Zieme Locks\",\n    \"door_number\": \"5\"\n  },\n  {\n    \"id\": 2,\n    \"city_id\": 2,\n    \"user_id\": 1,\n    \"street_and_house\": \"344 Ward Shores\",\n    \"door_number\": \"5\"\n  },\n  {\n    \"id\": 3,\n    \"city_id\": 3,\n    \"user_id\": 1,\n    \"street_and_house\": \"7435 Hosea Mountains\",\n    \"door_number\": \"5\"\n  }\n]",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"34c9d219cec59a1f94d6e97503954b79\"",
+        "ETag": "W/\"ba39b054a686220b8a13fabac08126b2\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=dklTTFkrNUcwY0gxaXpLaW5sQ3Q0TU4xa0E3aTljeFExc1YzSUt4NDAzcWszc0hkNms2MDJOci9MSlZmWVQyTzV1MkFaWjNINWk4S05GZDdLVjVMcjlTdjhBWldMZ3lkZjBGREF1L0ZYWHdJNWZoaFR4ckZIT1lOTFc2NWFBNVZlQ0M3dFFHTDFBQlVtYVBhczdQMlNzNU55WDB1T2txZWx2ZGxJbTlyTFhZb05zSlFrOUVZRzBBVkhab2xIZmlxLS1JemhkSS9ad1k2bTNkaFVKZU5saDhnPT0%3D--51e2b0db8e6be720dd7d9bd7862fca1688204cf3; path=/; HttpOnly",
-        "X-Request-Id": "10bc1b1b-5589-4695-a45a-ae2251aa94ee",
-        "X-Runtime": "0.088245",
-        "Content-Length": "272"
+        "Set-Cookie": "_session_id=T3lWd1o4WW54QThQOWs0MkJFa2tUNE96Z2U0T2NEQTlRYnJuSnVzTmt0NXVUS3VhYk04bDRnL01QZTRHRnZlRjFlS3RnV2wwZ1RzMnRYWUxpQUZmL2xVbUI1WEY3OUNrVHJnQU9US1hSalprVkpadUNTQy9KNnA1SGQ2TVJTRTVKWDF4TUk4MmFnLzdDR3dJWlFFb1VPbUl2eFFpVCtiMWk5VUZxVmwzSFVFS1MxN0k2bEpCeVFpVTZ3Q05EVWZrLS0zMU5ySUlqMDFTUS9aRDRkZ25oaVp3PT0%3D--1b1dc74e31420ee916ec51cde232135f6654a4a2; path=/; HttpOnly",
+        "X-Request-Id": "afb98016-f7de-484e-b006-f5e25eabf1af",
+        "X-Runtime": "0.091747",
+        "Content-Length": "270"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/client/addresses?active=0\" -X GET \\\n\t-H \"Access-Token: K7H0KDi66BQm42HCgkm3DQ\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: MOqyQiJ26lLylXuyWUDxoQ\" \\\n\t-H \"Expiry: 1458285330\" \\\n\t-H \"Uid: 87cornelius_jaskolski@mitchell.io\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/client/addresses?active=0\" -X GET \\\n\t-H \"Access-Token: Xp9k8NGRSW4wwQlEp6WdDg\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: u129UIr1KuaLBaCRULHrOQ\" \\\n\t-H \"Expiry: 1458315368\" \\\n\t-H \"Uid: 96aditya.schulist@wolff.net\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

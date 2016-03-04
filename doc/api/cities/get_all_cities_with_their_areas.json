@@ -28,17 +28,17 @@
       "request_content_type": null,
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "[\n  {\n    \"id\": 1,\n    \"name\": \"Herminioland_51\",\n    \"active\": true,\n    \"areas\": [\n      {\n        \"id\": 1,\n        \"name\": \"Lake Jamesonview_area_2\"\n      }\n    ]\n  },\n  {\n    \"id\": 2,\n    \"name\": \"New Alyson_52\",\n    \"active\": true,\n    \"areas\": [\n\n    ]\n  },\n  {\n    \"id\": 3,\n    \"name\": \"Jerroldside_53\",\n    \"active\": true,\n    \"areas\": [\n\n    ]\n  },\n  {\n    \"id\": 6,\n    \"name\": \"Denesikfurt_56\",\n    \"active\": true,\n    \"areas\": [\n\n    ]\n  }\n]",
+      "response_body": "[\n  {\n    \"id\": 1,\n    \"name\": \"Leetown_59\",\n    \"active\": true,\n    \"areas\": [\n      {\n        \"id\": 1,\n        \"name\": \"South Nataliamouth_area_2\"\n      }\n    ]\n  },\n  {\n    \"id\": 2,\n    \"name\": \"Lake Darien_60\",\n    \"active\": true,\n    \"areas\": [\n\n    ]\n  },\n  {\n    \"id\": 3,\n    \"name\": \"Port Florencestad_61\",\n    \"active\": true,\n    \"areas\": [\n\n    ]\n  },\n  {\n    \"id\": 6,\n    \"name\": \"East Hermanfort_64\",\n    \"active\": true,\n    \"areas\": [\n\n    ]\n  }\n]",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"119a9fd6249b08f22009440ac290c909\"",
+        "ETag": "W/\"2c4cee093ff5e1007d2e800ce5c8e312\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "X-Request-Id": "0777cf78-d9f4-497b-b9ea-2d8cb981cc76",
-        "X-Runtime": "0.009749",
-        "Content-Length": "274"
+        "X-Request-Id": "a4e33d5e-2d1b-4ea0-b645-f0a8c19b206a",
+        "X-Runtime": "0.009830",
+        "Content-Length": "282"
       },
       "response_content_type": "application/json; charset=utf-8",
       "curl": "curl \"http://localhost:3000/cities?active=1\" -X GET \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""

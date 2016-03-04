@@ -16,11 +16,11 @@
       "request_path": "/auth/sign_out",
       "request_body": null,
       "request_headers": {
-        "Access-Token": "kqSDMokTAc3mcE_yBDNzsw",
+        "Access-Token": "ZCtKRmkqkxmpwFRdILg56A",
         "Token-Type": "Bearer",
-        "Client": "CzgMCVKHTT8CphjGFvacXA",
-        "Expiry": "1458285331",
-        "Uid": "94lon.flatley@hane.org",
+        "Client": "XayZR702k4IQudYOF3V2Ug",
+        "Expiry": "1458315369",
+        "Uid": "103tre.shanahan@stark.name",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -38,13 +38,13 @@
         "Content-Type": "application/json; charset=utf-8",
         "ETag": "W/\"7363e85fe9edee6f053a4b319588c086\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=aGVaVWRpanRkRHBBV2o2UzJkcWIzVlovVXlBTEZSc1VGUVJKNndUbFZsSDlsS0wvQi9YTmZUVW9zbHpOaHJqQVdZenRxRDRGeUNKc0V5cmU2S2VKTEE9PS0tRkYwZkpZOG83ZFJIaC93cHdrNHphZz09--bcd247ae03ddd12d5fa240c0d7fda0e896e094ce; path=/; HttpOnly",
-        "X-Request-Id": "d472aa6a-41d1-47b2-89fa-7ae30c26d32a",
-        "X-Runtime": "0.073420",
+        "Set-Cookie": "_session_id=Z1JaSXAzMGkyS09rQ3FEZG9EQk1lQUx4SUJXc2V2cXhFMDJ2ZCtTN0FJRFp4ai9tQi9yb1BRVDZaZVBQNjd0M1A5OEpTWFVMZ2w1ZlU1b2M2c2lzY3c9PS0tUXcrV29FQ3ZCM1YxR2xWYjZaQ2FoQT09--51810c0fcf7cb89fe46f402380d2f85829a6ec98; path=/; HttpOnly",
+        "X-Request-Id": "1160522a-af99-423f-9817-8e3cd3e74755",
+        "X-Runtime": "0.073194",
         "Content-Length": "16"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/auth/sign_out\" -d '' -X DELETE \\\n\t-H \"Access-Token: kqSDMokTAc3mcE_yBDNzsw\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: CzgMCVKHTT8CphjGFvacXA\" \\\n\t-H \"Expiry: 1458285331\" \\\n\t-H \"Uid: 94lon.flatley@hane.org\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/auth/sign_out\" -d '' -X DELETE \\\n\t-H \"Access-Token: ZCtKRmkqkxmpwFRdILg56A\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: XayZR702k4IQudYOF3V2Ug\" \\\n\t-H \"Expiry: 1458315369\" \\\n\t-H \"Uid: 103tre.shanahan@stark.name\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

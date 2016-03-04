@@ -16,11 +16,11 @@
       "request_path": "/admin/products/1",
       "request_body": "product[title]=hi",
       "request_headers": {
-        "Access-Token": "ls0iv9CFi6PVIrha7eME5w",
+        "Access-Token": "LuHWHfCLYkxXxwYoyGscmA",
         "Token-Type": "Bearer",
-        "Client": "ocxva6MTR_hMYB7_A5uJzA",
-        "Expiry": "1458285326",
-        "Uid": "50royal.windler@ullrich.co",
+        "Client": "ire3e9lTdXN0YWaWedH4VQ",
+        "Expiry": "1458315364",
+        "Uid": "59sheila@muller.org",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -30,21 +30,21 @@
       "request_content_type": "application/x-www-form-urlencoded",
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\n  \"id\": 1,\n  \"city_id\": 1,\n  \"title\": \"hi\",\n  \"price\": \"3.0\",\n  \"description\": null,\n  \"created_at\": \"2016-03-04T07:15:26.557Z\",\n  \"updated_at\": \"2016-03-04T07:15:26.728Z\",\n  \"inventory_count\": 20,\n  \"image_url\": \"uploads/product/image/default.png\",\n  \"categories\": [\n\n  ]\n}",
+      "response_body": "{\n  \"id\": 1,\n  \"city_id\": 1,\n  \"title\": \"hi\",\n  \"price\": \"3.0\",\n  \"description\": null,\n  \"created_at\": \"2016-03-04T15:36:04.663Z\",\n  \"updated_at\": \"2016-03-04T15:36:04.835Z\",\n  \"inventory_count\": 20,\n  \"image_url\": \"uploads/product/image/default.png\",\n  \"categories\": [\n\n  ]\n}",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"03466eb200d56cc2c5476b9b609830c8\"",
+        "ETag": "W/\"7841f64163854de53848c7a2f7afd191\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=cmxyMVVjSjNSem5uK1RtcUxYK1M3TlBaNVFNUXAyWUc1NXZmbmhSaTMyNlZkVE1QTytjL0pxSjJDL2JwK29iQ0NQZVluU01naFBqT0xGcExvWjB5QjFVS1JTOWFLMCtrMk1oaHh6UkRVelExN3c3U2NCLzN6VENFdnhPSmZWc3djcVU4NWxRUVBDbHpuTm9xZTVzYTMrdG1jMzZkcVFZNkxvMVhXUVdyL0dSVjdRcjdNTm9VakxRNVJSNzZsbUpLLS1PdzdoeU0yb0JGVGZzc083WmlJa3l3PT0%3D--e28dfde3ab183b798de12684c3d2a8f71fe9b574; path=/; HttpOnly",
-        "X-Request-Id": "4c04974f-44c1-4751-b797-7eedea6bfc54",
-        "X-Runtime": "0.080586",
+        "Set-Cookie": "_session_id=ZzVrVmxtTnMvTUZaek0wSStWVFE0WDQzakdSUFZNK05DYXlWcmVvQnZDR1NsV2h3eGRGbXRvNytCaU42dklTM3hqOE5WUjcrU2FCVlR2U0xyTUttdnI0VXQ5UnJGZzVRYkM0TFUrZEx5cEIrVE1vRGl4Qk1sK0U0aFV2MDlpQ0lWc1NMeWgxMlhNaXE4RFJqcG5uYmNvSFAwaDFKanA2aVBpaDJSYjlYMlBOb1o3ZVBHQyttdmZ1dHpEUnR6VHVjLS1JZ1p4Qk1QM3dUQ0h4NlNqTFpLNGxRPT0%3D--b44d4d83c45c9d4e6d702ece2c5c5988c72beea0; path=/; HttpOnly",
+        "X-Request-Id": "136fa1db-b9ff-48b7-9934-4a1512ecc698",
+        "X-Runtime": "0.082291",
         "Content-Length": "231"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/admin/products/1\" -d 'product[title]=hi' -X PUT \\\n\t-H \"Access-Token: ls0iv9CFi6PVIrha7eME5w\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: ocxva6MTR_hMYB7_A5uJzA\" \\\n\t-H \"Expiry: 1458285326\" \\\n\t-H \"Uid: 50royal.windler@ullrich.co\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/admin/products/1\" -d 'product[title]=hi' -X PUT \\\n\t-H \"Access-Token: LuHWHfCLYkxXxwYoyGscmA\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: ire3e9lTdXN0YWaWedH4VQ\" \\\n\t-H \"Expiry: 1458315364\" \\\n\t-H \"Uid: 59sheila@muller.org\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

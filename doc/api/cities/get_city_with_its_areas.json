@@ -24,17 +24,17 @@
       "request_content_type": null,
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\n  \"id\": 1,\n  \"name\": \"West Vida_57\",\n  \"active\": true,\n  \"areas\": [\n    {\n      \"id\": 1,\n      \"name\": \"West Chelseyborough_area_3\"\n    },\n    {\n      \"id\": 2,\n      \"name\": \"Lake Jazmin_area_4\"\n    },\n    {\n      \"id\": 3,\n      \"name\": \"Patrickshire_area_5\"\n    }\n  ]\n}",
+      "response_body": "{\n  \"id\": 1,\n  \"name\": \"Doyleberg_65\",\n  \"active\": true,\n  \"areas\": [\n    {\n      \"id\": 1,\n      \"name\": \"Port Loy_area_3\"\n    },\n    {\n      \"id\": 2,\n      \"name\": \"West Elaina_area_4\"\n    },\n    {\n      \"id\": 3,\n      \"name\": \"West Willyside_area_5\"\n    }\n  ]\n}",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"a3b19deeb0bb1ba346610819f99032b1\"",
+        "ETag": "W/\"c298a2c88fe8aadc36aadb8c887b110d\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "X-Request-Id": "25c0e0a5-1572-4ab4-9542-29476efe78d0",
-        "X-Runtime": "0.005246",
-        "Content-Length": "174"
+        "X-Request-Id": "2c948eeb-ae57-44fb-9c99-14da67b0a474",
+        "X-Runtime": "0.002650",
+        "Content-Length": "165"
       },
       "response_content_type": "application/json; charset=utf-8",
       "curl": "curl \"http://localhost:3000/cities/1\" -X GET \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""

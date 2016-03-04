@@ -1,6 +1,39 @@
 {
   "resources": [
     {
+      "name": "admin: addresses",
+      "examples": [
+        {
+          "description": "change own address",
+          "link": "admin:_addresses/change_own_address.json",
+          "groups": "all",
+          "route": "/admin/addresses/:id",
+          "method": "put"
+        },
+        {
+          "description": "create own address",
+          "link": "admin:_addresses/create_own_address.json",
+          "groups": "all",
+          "route": "/admin/addresses",
+          "method": "post"
+        },
+        {
+          "description": "deletes own address",
+          "link": "admin:_addresses/deletes_own_address.json",
+          "groups": "all",
+          "route": "/admin/addresses/:id",
+          "method": "delete"
+        },
+        {
+          "description": "get all own addresses",
+          "link": "admin:_addresses/get_all_own_addresses.json",
+          "groups": "all",
+          "route": "/admin/addresses",
+          "method": "get"
+        }
+      ]
+    },
+    {
       "name": "admin: categories",
       "examples": [
         {

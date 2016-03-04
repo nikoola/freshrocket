@@ -39,13 +39,13 @@
     {
       "request_method": "PUT",
       "request_path": "/admin/cities/1",
-      "request_body": "city[name]=Ricestad_3&city[areas_attributes][][id]=1&city[areas_attributes][][_destroy]=1",
+      "request_body": "city[name]=Port+Hansland_11&city[areas_attributes][][id]=1&city[areas_attributes][][_destroy]=1",
       "request_headers": {
-        "Access-Token": "OWyP1yhFsshZIE6eDGvM9A",
+        "Access-Token": "Y1q6IlZovfW-BMjCom5ekQ",
         "Token-Type": "Bearer",
-        "Client": "6j3-QIJKUIF9N1MOCXVGWQ",
-        "Expiry": "1458285322",
-        "Uid": "7anahi@friesen.co",
+        "Client": "7QBCd_CqnMxaQCuLbD3lVw",
+        "Expiry": "1458315359",
+        "Uid": "16elisha@schroeder.co",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -55,21 +55,21 @@
       "request_content_type": "application/x-www-form-urlencoded",
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\n  \"id\": 1,\n  \"name\": \"Ricestad_3\",\n  \"active\": true,\n  \"areas\": [\n\n  ]\n}",
+      "response_body": "{\n  \"id\": 1,\n  \"name\": \"Port Hansland_11\",\n  \"active\": true,\n  \"areas\": [\n\n  ]\n}",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"e4c920c250703e0b38ed1550f8cf271c\"",
+        "ETag": "W/\"c3400f0230653cb40d78e68b0b61ba73\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=L1NFNlBsVUJuRnRSSnZqcldoZzBuNGgraU5FajRQcEdXUzhxUXJLRDllM25KZHl3R1M0elZkdDlYdllucU9vM0VJLzlmVEpkbGlJTm9scVMrYk1BQTk3a0ZhUnVHQVI5WDhYZldneUw4Zm45d2JYSm1EUlpOY0FJa1ZqWTFNL01adE1GaHBPRGx3U0dtb1FIdlZ5bkVZOGxkMzhCZjQ1dzI2bHI5VWxUZG9JSlZ0WVRrbUsxSWRZckpXbThWS2k5LS1zQWZ6dHNYOGhTbHF4NEhKRHZEMTZ3PT0%3D--aadc59e03b4e2082b51bad379f481fc0711f46d7; path=/; HttpOnly",
-        "X-Request-Id": "3625b25e-d4ef-4dac-9058-41f8ba28f5b0",
-        "X-Runtime": "0.079926",
-        "Content-Length": "53"
+        "Set-Cookie": "_session_id=WWl4VkNyVlMvdFliL1VkREZ2TzVlOE0rbEJQVjZSNDJ2YnlFMi9VV3ZjaktuSFhQc3VTK0NxVU14N25Ubzk3b2RzSW1BaXd0RHZLeUZUWVhUZXdaTk5mNDFvbXlyZ2lURjlCVHF4T3pYNVpGMVdKbDh1T3orVkZzVHB6aEZuN0g3alJOSGpITzByb2Y2RGVsUkEza2xFNUJWWG9DeVNzU2dQMUVZeFVML05lRkcyU1hxaXhhM3JjMkxGWUhROEhyLS12b1ZuU0EvSTI5NVBaSVZvdzdicEFBPT0%3D--134f2e50cabe63a4b6899aba9f03d53eaf935ed4; path=/; HttpOnly",
+        "X-Request-Id": "eb0a30f7-e265-4aa9-87cd-364fb4396cba",
+        "X-Runtime": "0.082185",
+        "Content-Length": "59"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/admin/cities/1\" -d 'city[name]=Ricestad_3&city[areas_attributes][][id]=1&city[areas_attributes][][_destroy]=1' -X PUT \\\n\t-H \"Access-Token: OWyP1yhFsshZIE6eDGvM9A\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: 6j3-QIJKUIF9N1MOCXVGWQ\" \\\n\t-H \"Expiry: 1458285322\" \\\n\t-H \"Uid: 7anahi@friesen.co\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/admin/cities/1\" -d 'city[name]=Port+Hansland_11&city[areas_attributes][][id]=1&city[areas_attributes][][_destroy]=1' -X PUT \\\n\t-H \"Access-Token: Y1q6IlZovfW-BMjCom5ekQ\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: 7QBCd_CqnMxaQCuLbD3lVw\" \\\n\t-H \"Expiry: 1458315359\" \\\n\t-H \"Uid: 16elisha@schroeder.co\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

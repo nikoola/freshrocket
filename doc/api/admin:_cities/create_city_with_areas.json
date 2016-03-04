@@ -39,13 +39,13 @@
     {
       "request_method": "POST",
       "request_path": "/admin/cities",
-      "request_body": "city[name]=Wardville_1&city[areas_attributes][][name]=hi",
+      "request_body": "city[name]=Bayerfurt_9&city[areas_attributes][][name]=hi",
       "request_headers": {
-        "Access-Token": "7ovEKebYT-Vr3Q5F3O-cyA",
+        "Access-Token": "pflcrsDRihy_ZUugdMG-Cg",
         "Token-Type": "Bearer",
-        "Client": "BtYp-NN_hv-LeI8I7YX_FQ",
-        "Expiry": "1458285321",
-        "Uid": "6damian@hettinger.co",
+        "Client": "Oes3sOOIwDOrZJtWnbKWqA",
+        "Expiry": "1458315359",
+        "Uid": "15dora@lakinhammes.com",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -55,22 +55,22 @@
       "request_content_type": "application/x-www-form-urlencoded",
       "response_status": 201,
       "response_status_text": "Created",
-      "response_body": "{\n  \"id\": 1,\n  \"name\": \"Wardville_1\",\n  \"active\": true,\n  \"areas\": [\n    {\n      \"id\": 1,\n      \"name\": \"hi\"\n    }\n  ]\n}",
+      "response_body": "{\n  \"id\": 1,\n  \"name\": \"Bayerfurt_9\",\n  \"active\": true,\n  \"areas\": [\n    {\n      \"id\": 1,\n      \"name\": \"hi\"\n    }\n  ]\n}",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
         "Location": "http://example.org/cities/1",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"baf54a948453c6f48f868ac6a449721e\"",
+        "ETag": "W/\"b9d4ba7ce16ebf5334a01c29763216d1\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=T3NkRkJUOXpVVmlMelpOODRsb2xtVHU1YTkza1pqL1BLaU5kdDdIZFBGMFU2aHdJNnlLU3QzNC9KSFl2ZXNucUQ0TEVzb3lORDVMNHlVelU4U3J1ZkJxdEtFakVmUnRNbkxSNEMzVnV2Mnl4dFV5bzR5WWZZc01YTzV3OUlCMTFtdW1yMUwzTTduZUo0SXlNZ2k3MkRDTlE1Q3kwcmxDdGM1RkxkZzM0dVJFclNMS3o0Mlh3VTJGb3U4THFzSFJRLS1OSEI4ZmNPM2dyZkFORE85bm1yeXFRPT0%3D--73bf11b50759641ed1aaa453e2312ddcb107812d; path=/; HttpOnly",
-        "X-Request-Id": "f4e33021-83c3-45b1-a025-5e90db653a0e",
-        "X-Runtime": "0.095985",
+        "Set-Cookie": "_session_id=ditXQmZPVHdoblVrZ2xHUjd3aUt1MnUyQ3hQSVdNbVlSS0J1ak9OcFZ4MjBpREQweVJZRys5WFNIZjhsaERxYXZzL1pvQ01NOXZBa01RTHREQXU0bllxR1c3OU1IcENPQlgzOXhKSVVsNVZGc3N3TVpmL01UaUFqak8zQUkxUWJvRkdzUU9CNU5LRjJvSmd4VTdpcmlPYjdTZERIVjUwS0pleVlUUHBMamY1NW5ZYWh0TWQvT0VLL3JyK09OV1E4LS0vMUdQRmhBS1hzQ2syWXZiVjBOQXR3PT0%3D--f59d508012be6d2a0e693051193a78fd1e3247d5; path=/; HttpOnly",
+        "X-Request-Id": "640bad33-175d-4998-8de2-5605f2eca98b",
+        "X-Runtime": "0.095510",
         "Content-Length": "74"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/admin/cities\" -d 'city[name]=Wardville_1&city[areas_attributes][][name]=hi' -X POST \\\n\t-H \"Access-Token: 7ovEKebYT-Vr3Q5F3O-cyA\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: BtYp-NN_hv-LeI8I7YX_FQ\" \\\n\t-H \"Expiry: 1458285321\" \\\n\t-H \"Uid: 6damian@hettinger.co\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/admin/cities\" -d 'city[name]=Bayerfurt_9&city[areas_attributes][][name]=hi' -X POST \\\n\t-H \"Access-Token: pflcrsDRihy_ZUugdMG-Cg\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: Oes3sOOIwDOrZJtWnbKWqA\" \\\n\t-H \"Expiry: 1458315359\" \\\n\t-H \"Uid: 15dora@lakinhammes.com\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

@@ -1,10 +1,12 @@
 module Admin
 	class AddressesController < BaseController
 		before_action :set_address, only: [:update, :destroy]
-		before_action -> { authorize 'orders' }
+		before_action -> { authorize 'users' }
 
 		def index
-			
+			@addresses = Address.filter params.slice(:active)
+
+			render json: @addresses
 		end
 
 		def create
@@ -17,9 +19,7 @@ module Admin
 			end
 		end
 
-		def update
-			@address = Address.find(params[:id])
-
+		def update #only if address.unconfirmed?
 			if @address.update(address_params)
 				render json: @address, status: 200
 			else
@@ -27,32 +27,28 @@ module Admin
 			end
 		end
 
-		def destroy
+		def destroy 
 			@address.destroy_or_disable
 			head 200
 		end
 
 
+
 		private
 
-			def set_user
-				@user = User.find(params[:user_id])
-				
-			end
-
 			def set_address
-
-				@address = Address.find(params[:id])
+				@address = Address.find_by(id: params[:id])
 			end
 
 			def address_params
 				params.require(:address).permit([
-					:city_id,
+					:city_id, :user_id,
 					:street_and_house, :door_number, :zip_code
 				])
 
-				# no :user_id, :active
+				# no :active
 			end
-	end
 
+
+	end
 end

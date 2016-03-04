@@ -16,11 +16,11 @@
       "request_path": "client/orders/3",
       "request_body": "order[comment]=hi&order[line_items_attributes][][id]=7&order[line_items_attributes][][_destroy]=true",
       "request_headers": {
-        "Access-Token": "6SG_UjEMNDvbWHFGMSuwvA",
+        "Access-Token": "3ysikkfYsCPK3ReSjaGBvw",
         "Token-Type": "Bearer",
-        "Client": "dYQyR_QMIIxgJ-p57pkSGg",
-        "Expiry": "1458285336",
-        "Uid": "109ollie@koelpin.com",
+        "Client": "Aq2TVkQNefnjXCj_XJlJfQ",
+        "Expiry": "1458315374",
+        "Uid": "118roslyn@windler.io",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -30,21 +30,21 @@
       "request_content_type": "application/x-www-form-urlencoded",
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\n  \"id\": 3,\n  \"user_id\": 5,\n  \"status\": \"unconfirmed\",\n  \"created_at\": \"2016-03-04T07:15:36.567Z\",\n  \"comment\": \"hi\",\n  \"pure_product_price\": \"27.0\",\n  \"tax\": \"1.35\",\n  \"delivery_charge\": \"200.0\",\n  \"total_price\": \"228.35\",\n  \"delivery_boy_id\": null,\n  \"wanted_time\": null,\n  \"wanted_date\": null,\n  \"payment_type\": \"cash\",\n  \"is_paid\": false,\n  \"feedback\": null,\n  \"coupon_code\": null,\n  \"source_type\": null,\n  \"line_items\": [\n    {\n      \"id\": 8,\n      \"order_id\": 3,\n      \"product_id\": 8,\n      \"amount\": 3,\n      \"fixed_price\": \"9.0\"\n    },\n    {\n      \"id\": 9,\n      \"order_id\": 3,\n      \"product_id\": 9,\n      \"amount\": 3,\n      \"fixed_price\": \"9.0\"\n    }\n  ],\n  \"address\": {\n    \"id\": 3,\n    \"city_id\": 9,\n    \"user_id\": 6,\n    \"street_and_house\": \"2449 Graciela Radial\",\n    \"door_number\": \"5\"\n  }\n}",
+      "response_body": "{\n  \"id\": 3,\n  \"user_id\": 5,\n  \"status\": \"unconfirmed\",\n  \"created_at\": \"2016-03-04T15:36:14.778Z\",\n  \"comment\": \"hi\",\n  \"pure_product_price\": \"27.0\",\n  \"tax\": \"1.35\",\n  \"delivery_charge\": \"200.0\",\n  \"total_price\": \"228.35\",\n  \"delivery_boy_id\": null,\n  \"wanted_time\": null,\n  \"wanted_date\": null,\n  \"payment_type\": \"cash\",\n  \"is_paid\": false,\n  \"feedback\": null,\n  \"coupon_code\": null,\n  \"source_type\": null,\n  \"line_items\": [\n    {\n      \"id\": 8,\n      \"order_id\": 3,\n      \"product_id\": 8,\n      \"amount\": 3,\n      \"fixed_price\": \"9.0\"\n    },\n    {\n      \"id\": 9,\n      \"order_id\": 3,\n      \"product_id\": 9,\n      \"amount\": 3,\n      \"fixed_price\": \"9.0\"\n    }\n  ],\n  \"address\": {\n    \"id\": 3,\n    \"city_id\": 9,\n    \"user_id\": 6,\n    \"street_and_house\": \"766 Eichmann Ramp\",\n    \"door_number\": \"5\"\n  }\n}",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"ceb2c01778c655d9aeb2495382ae9112\"",
+        "ETag": "W/\"ffafe8618958a1af2a85587663225403\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=QXVWaHZyTXJZdi80elRoVkMxMHdvL3o2NEVLTUI4Ty90dFZ2aDVnOGs2ZXg5cW5aNXd0bFltNERkQ2JiRVg4K2ZvOEIvRWNBcjB6SG01elc0RkZYbHFxZGFBcG1RMXY2YTN6dGlJV3B2cW9rUldUeWs4MmlKLzNlN3R1VGFka1Y2QVJXdGppUHhYbmUvMlVhbG1MZmpZYTkrS1RXalJneXJwdmkxQnliK1VlcUh3MWl1V1FSaXNncE4zTGQ0SmVXLS1NSTh3ODF2bDVXMXc5NkFWOUp1blZnPT0%3D--ba04a7c8d4b81472193782daeebd8d48fafef95c; path=/; HttpOnly",
-        "X-Request-Id": "4bb04163-b360-4125-9e5b-bd027c2f866f",
-        "X-Runtime": "0.083932",
-        "Content-Length": "595"
+        "Set-Cookie": "_session_id=S0UxNC84cmViUTZNS0ViWjFwcURsZjAxZEdSTDNyc21UMlJMMEFaTkg2eDVKbEFVT2xadEJ4ejhPZXR1ZDA2YTJIMWVVZlJDamRmSG9SOFlGRGk5ZllzemVvaXlkUXFaMi9HYXhLTFZVT0tsK2JKU2FqSFlTTHhBUFc2OXJuSUtKNnEzblI3bWtLY3Q1QlNRQTQzc1hiMXR5VWdCRXp5Z2FvQS9ad0lNaFJ1K3c2bCthRW9LbzIweHVDcmpaYTAwLS1pKzcyRkFwbEtKblFvbkdQWEhqdXN3PT0%3D--462c56dd1e5d7d05064311587c30c40587dc26f4; path=/; HttpOnly",
+        "X-Request-Id": "693e98f0-4b6c-4bb7-8f02-e4fd439f0460",
+        "X-Runtime": "0.087405",
+        "Content-Length": "592"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000client/orders/3\" -d 'order[comment]=hi&order[line_items_attributes][][id]=7&order[line_items_attributes][][_destroy]=true' -X PUT \\\n\t-H \"Access-Token: 6SG_UjEMNDvbWHFGMSuwvA\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: dYQyR_QMIIxgJ-p57pkSGg\" \\\n\t-H \"Expiry: 1458285336\" \\\n\t-H \"Uid: 109ollie@koelpin.com\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000client/orders/3\" -d 'order[comment]=hi&order[line_items_attributes][][id]=7&order[line_items_attributes][][_destroy]=true' -X PUT \\\n\t-H \"Access-Token: 3ysikkfYsCPK3ReSjaGBvw\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: Aq2TVkQNefnjXCj_XJlJfQ\" \\\n\t-H \"Expiry: 1458315374\" \\\n\t-H \"Uid: 118roslyn@windler.io\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

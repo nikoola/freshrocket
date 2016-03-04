@@ -37,13 +37,13 @@
     {
       "request_method": "POST",
       "request_path": "/client/addresses",
-      "request_body": "address[street_and_house]=822+Rohan+Drives&address[door_number]=5&address[city_id]=1",
+      "request_body": "address[street_and_house]=256+Isai+Ranch&address[door_number]=5&address[city_id]=1",
       "request_headers": {
-        "Access-Token": "-KCFRET5qJ6acRB9qOhuig",
+        "Access-Token": "TlrYjtEcIHqhT9tn91MgUw",
         "Token-Type": "Bearer",
-        "Client": "WbF_t__FiqF-9MCoiCdIYA",
-        "Expiry": "1458285330",
-        "Uid": "90meta@crona.net",
+        "Client": "JC9tFTdSzQY9tiF_SoG3gg",
+        "Expiry": "1458315369",
+        "Uid": "99reinhold_miller@prohaskamurray.biz",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -53,21 +53,21 @@
       "request_content_type": "application/x-www-form-urlencoded",
       "response_status": 201,
       "response_status_text": "Created",
-      "response_body": "{\n  \"id\": 1,\n  \"city_id\": 1,\n  \"user_id\": 1,\n  \"street_and_house\": \"822 Rohan Drives\",\n  \"door_number\": \"5\"\n}",
+      "response_body": "{\n  \"id\": 1,\n  \"city_id\": 1,\n  \"user_id\": 1,\n  \"street_and_house\": \"256 Isai Ranch\",\n  \"door_number\": \"5\"\n}",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"3efd11e259b2e466f480a996a058a325\"",
+        "ETag": "W/\"3686b4346ef766f622dc4b4547079369\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=RERkYkJMZjduNmNlRmMwU1YzVktvUzdleXpmbzE3VjZUSEdNMGxtbXBFUWh6WDBvSXRTRkxtWFlsNm5jd0tRa2Z1QWc2QzlObHJVZnhuc1I2ZVdPTHJ1UE9icFZOVnZaOXIweUJIeUwxYktud0lUYzBUU0pQcVRFUlZvbXNQMTlNWW9nUTkza0ZTVzI1UkROL2h2bHlsRGpDYWM5aUxmMU9uYitQNGI4V0Q4NnlBTlMveFNuNEcyZEhBbFNFakp2LS1sMFFLZEI3SW1xZFA3ZmIrRVE3LzFBPT0%3D--c865de48ef8a28ca84d88bca98775b184fed79aa; path=/; HttpOnly",
-        "X-Request-Id": "6bfba92b-2601-4f9c-89e6-82cb6c382fc2",
-        "X-Runtime": "0.077358",
-        "Content-Length": "88"
+        "Set-Cookie": "_session_id=NW1PdndxdWJMaXVkMWpyTzJZSDRIbHprSy8ydlkyUFpncW1FSE1vMkxWb2NnZTFYQU1SWDFEV1RnZUJmWXBxQ1BQZTZLcG41T21yalVnVVhZblFWbUtiTUNpd1FlREhWWkJXbHh2UnM3eHkwRFZYLytvb1NaRzNMUzIwK0szQUNiYUtva1l4RmxPc3N5WThGWkhWSGJRb1FTbGtqTi9SMDVISnNSZlA2ZUF3SWhiZW1LbXlveDEvK3IvZzYweVpPLS14OWx6YUJwVDN6WUo4WXJ3c3JueGx3PT0%3D--c3dfdfdda888afd73c7dd04ab89f62cb78ab208f; path=/; HttpOnly",
+        "X-Request-Id": "d8f98ca2-24f2-49f2-9b24-f00230a917be",
+        "X-Runtime": "0.077602",
+        "Content-Length": "86"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/client/addresses\" -d 'address[street_and_house]=822+Rohan+Drives&address[door_number]=5&address[city_id]=1' -X POST \\\n\t-H \"Access-Token: -KCFRET5qJ6acRB9qOhuig\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: WbF_t__FiqF-9MCoiCdIYA\" \\\n\t-H \"Expiry: 1458285330\" \\\n\t-H \"Uid: 90meta@crona.net\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/client/addresses\" -d 'address[street_and_house]=256+Isai+Ranch&address[door_number]=5&address[city_id]=1' -X POST \\\n\t-H \"Access-Token: TlrYjtEcIHqhT9tn91MgUw\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: JC9tFTdSzQY9tiF_SoG3gg\" \\\n\t-H \"Expiry: 1458315369\" \\\n\t-H \"Uid: 99reinhold_miller@prohaskamurray.biz\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }
