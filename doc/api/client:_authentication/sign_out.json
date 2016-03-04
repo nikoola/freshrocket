@@ -16,11 +16,11 @@
       "request_path": "/auth/sign_out",
       "request_body": null,
       "request_headers": {
-        "Access-Token": "YItrtbzCUmO00wCQce00qQ",
+        "Access-Token": "kqSDMokTAc3mcE_yBDNzsw",
         "Token-Type": "Bearer",
-        "Client": "Rb0FXKwahkjDq2rgLXUdxQ",
-        "Expiry": "1458218565",
-        "Uid": "94kathryn_schmitt@casper.name",
+        "Client": "CzgMCVKHTT8CphjGFvacXA",
+        "Expiry": "1458285331",
+        "Uid": "94lon.flatley@hane.org",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -38,13 +38,13 @@
         "Content-Type": "application/json; charset=utf-8",
         "ETag": "W/\"7363e85fe9edee6f053a4b319588c086\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=M2YwUm5YSEZ6Q3lQaDhMcFVPZ3BzWVJKd0t3cmJjTFNDaFdxaXpCeXIzZW51Vit3UDVRNjBueWwxRUgwSmNZVFA4TEtiQmtteEFwa2FOOExuU29CMXc9PS0tbU02MHFUanFIdXVLcnpzay9vTGlmUT09--15e2629a82af1e01e5065294a7db161ca9402b8e; path=/; HttpOnly",
-        "X-Request-Id": "9760e944-2a07-48bf-b428-1e6ccdca439e",
-        "X-Runtime": "0.077163",
+        "Set-Cookie": "_session_id=aGVaVWRpanRkRHBBV2o2UzJkcWIzVlovVXlBTEZSc1VGUVJKNndUbFZsSDlsS0wvQi9YTmZUVW9zbHpOaHJqQVdZenRxRDRGeUNKc0V5cmU2S2VKTEE9PS0tRkYwZkpZOG83ZFJIaC93cHdrNHphZz09--bcd247ae03ddd12d5fa240c0d7fda0e896e094ce; path=/; HttpOnly",
+        "X-Request-Id": "d472aa6a-41d1-47b2-89fa-7ae30c26d32a",
+        "X-Runtime": "0.073420",
         "Content-Length": "16"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/auth/sign_out\" -d '' -X DELETE \\\n\t-H \"Access-Token: YItrtbzCUmO00wCQce00qQ\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: Rb0FXKwahkjDq2rgLXUdxQ\" \\\n\t-H \"Expiry: 1458218565\" \\\n\t-H \"Uid: 94kathryn_schmitt@casper.name\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/auth/sign_out\" -d '' -X DELETE \\\n\t-H \"Access-Token: kqSDMokTAc3mcE_yBDNzsw\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: CzgMCVKHTT8CphjGFvacXA\" \\\n\t-H \"Expiry: 1458285331\" \\\n\t-H \"Uid: 94lon.flatley@hane.org\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

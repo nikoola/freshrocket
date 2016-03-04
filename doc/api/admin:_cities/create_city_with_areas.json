@@ -39,13 +39,13 @@
     {
       "request_method": "POST",
       "request_path": "/admin/cities",
-      "request_body": "city[name]=Tremblaymouth_1&city[areas_attributes][][name]=hi",
+      "request_body": "city[name]=Wardville_1&city[areas_attributes][][name]=hi",
       "request_headers": {
-        "Access-Token": "zRM633A4o7TOizcL4b70zQ",
+        "Access-Token": "7ovEKebYT-Vr3Q5F3O-cyA",
         "Token-Type": "Bearer",
-        "Client": "f5utFiyfn9CkwdQzOXZUnA",
-        "Expiry": "1458218554",
-        "Uid": "6theodore@lynchhagenes.org",
+        "Client": "BtYp-NN_hv-LeI8I7YX_FQ",
+        "Expiry": "1458285321",
+        "Uid": "6damian@hettinger.co",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -55,22 +55,22 @@
       "request_content_type": "application/x-www-form-urlencoded",
       "response_status": 201,
       "response_status_text": "Created",
-      "response_body": "{\n  \"id\": 1,\n  \"name\": \"Tremblaymouth_1\",\n  \"active\": true,\n  \"areas\": [\n    {\n      \"id\": 1,\n      \"name\": \"hi\"\n    }\n  ]\n}",
+      "response_body": "{\n  \"id\": 1,\n  \"name\": \"Wardville_1\",\n  \"active\": true,\n  \"areas\": [\n    {\n      \"id\": 1,\n      \"name\": \"hi\"\n    }\n  ]\n}",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
         "Location": "http://example.org/cities/1",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"0463beb0f641aa8903ebf72eed9b2c62\"",
+        "ETag": "W/\"baf54a948453c6f48f868ac6a449721e\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=bSsyU25DWWZoUXN0U1FHWkRJZ3dja3R3b1pteS9xd1JhZDFlUlBQMHh3Nks1UFhKbytrV2Q3ZngwT01ncHByRVE0SkdiWHZlajh0dmxTbENaWERXZUFwRW9lbWdVOHlhZHBBTUJ4cDlXc09oeGVoWWRaVEtpVWE0VHEveHdqelk2Tmh1aGNyam9QTGRZcmNIeDNoelplNmUvUnNFMXdGS1VzU1BXMVZzSHNpNmNtNUtjV1JFUnM4aXREYTljK1FxLS1tbkU5RHJub3dVMFkwRlgzK0Q2YmF3PT0%3D--df898289256fd8b5c0dcfa704a8315aed3785d27; path=/; HttpOnly",
-        "X-Request-Id": "0d93a137-9e3d-469a-b360-fcbf18df4499",
-        "X-Runtime": "0.133624",
-        "Content-Length": "78"
+        "Set-Cookie": "_session_id=T3NkRkJUOXpVVmlMelpOODRsb2xtVHU1YTkza1pqL1BLaU5kdDdIZFBGMFU2aHdJNnlLU3QzNC9KSFl2ZXNucUQ0TEVzb3lORDVMNHlVelU4U3J1ZkJxdEtFakVmUnRNbkxSNEMzVnV2Mnl4dFV5bzR5WWZZc01YTzV3OUlCMTFtdW1yMUwzTTduZUo0SXlNZ2k3MkRDTlE1Q3kwcmxDdGM1RkxkZzM0dVJFclNMS3o0Mlh3VTJGb3U4THFzSFJRLS1OSEI4ZmNPM2dyZkFORE85bm1yeXFRPT0%3D--73bf11b50759641ed1aaa453e2312ddcb107812d; path=/; HttpOnly",
+        "X-Request-Id": "f4e33021-83c3-45b1-a025-5e90db653a0e",
+        "X-Runtime": "0.095985",
+        "Content-Length": "74"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/admin/cities\" -d 'city[name]=Tremblaymouth_1&city[areas_attributes][][name]=hi' -X POST \\\n\t-H \"Access-Token: zRM633A4o7TOizcL4b70zQ\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: f5utFiyfn9CkwdQzOXZUnA\" \\\n\t-H \"Expiry: 1458218554\" \\\n\t-H \"Uid: 6theodore@lynchhagenes.org\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/admin/cities\" -d 'city[name]=Wardville_1&city[areas_attributes][][name]=hi' -X POST \\\n\t-H \"Access-Token: 7ovEKebYT-Vr3Q5F3O-cyA\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: BtYp-NN_hv-LeI8I7YX_FQ\" \\\n\t-H \"Expiry: 1458285321\" \\\n\t-H \"Uid: 6damian@hettinger.co\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

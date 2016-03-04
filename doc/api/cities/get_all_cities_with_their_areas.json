@@ -28,17 +28,17 @@
       "request_content_type": null,
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "[\n  {\n    \"id\": 1,\n    \"name\": \"East Martina_51\",\n    \"active\": true,\n    \"areas\": [\n\n    ]\n  },\n  {\n    \"id\": 2,\n    \"name\": \"Yoshikomouth_52\",\n    \"active\": true,\n    \"areas\": [\n\n    ]\n  },\n  {\n    \"id\": 3,\n    \"name\": \"Port Josephine_53\",\n    \"active\": true,\n    \"areas\": [\n\n    ]\n  }\n]",
+      "response_body": "[\n  {\n    \"id\": 1,\n    \"name\": \"Herminioland_51\",\n    \"active\": true,\n    \"areas\": [\n      {\n        \"id\": 1,\n        \"name\": \"Lake Jamesonview_area_2\"\n      }\n    ]\n  },\n  {\n    \"id\": 2,\n    \"name\": \"New Alyson_52\",\n    \"active\": true,\n    \"areas\": [\n\n    ]\n  },\n  {\n    \"id\": 3,\n    \"name\": \"Jerroldside_53\",\n    \"active\": true,\n    \"areas\": [\n\n    ]\n  },\n  {\n    \"id\": 6,\n    \"name\": \"Denesikfurt_56\",\n    \"active\": true,\n    \"areas\": [\n\n    ]\n  }\n]",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"12cc182b0ee2a22ceb0b688aa8903d2f\"",
+        "ETag": "W/\"119a9fd6249b08f22009440ac290c909\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "X-Request-Id": "a44e527d-ec8e-4cad-882a-530ea56e9a48",
-        "X-Runtime": "0.011745",
-        "Content-Length": "180"
+        "X-Request-Id": "0777cf78-d9f4-497b-b9ea-2d8cb981cc76",
+        "X-Runtime": "0.009749",
+        "Content-Length": "274"
       },
       "response_content_type": "application/json; charset=utf-8",
       "curl": "curl \"http://localhost:3000/cities?active=1\" -X GET \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""

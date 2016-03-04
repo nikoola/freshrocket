@@ -311,6 +311,13 @@
       "name": "client: authentication",
       "examples": [
         {
+          "description": "is serialized properly",
+          "link": "client:_authentication/is_serialized_properly.json",
+          "groups": "all",
+          "route": "/auth/validate_token",
+          "method": "get"
+        },
+        {
           "description": "sign in",
           "link": "client:_authentication/sign_in.json",
           "groups": "all",

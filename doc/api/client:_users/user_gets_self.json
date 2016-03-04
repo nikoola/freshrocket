@@ -16,11 +16,11 @@
       "request_path": "/client",
       "request_body": null,
       "request_headers": {
-        "Access-Token": "ydzwPrGdVuDGpvA5nUD13A",
+        "Access-Token": "qZUSRxGEiVXPOQ4Sumb-MQ",
         "Token-Type": "Bearer",
-        "Client": "GntSZ69YWUzoNuwqc2_zZg",
-        "Expiry": "1458218573",
-        "Uid": "137daniela_kirlin@lubowitz.org",
+        "Client": "UJe777FWofKLL3G_qRyxbA",
+        "Expiry": "1458285339",
+        "Uid": "138toy.orn@toywisoky.biz",
         "Host": "example.org",
         "Cookie": ""
       },
@@ -29,21 +29,21 @@
       "request_content_type": null,
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\n  \"id\": 5,\n  \"first_name\": \"Carmen\",\n  \"last_name\": \"Schulist\",\n  \"email\": \"137daniela_kirlin@lubowitz.org\",\n  \"phone\": \"919298428772\",\n  \"is_verified\": false,\n  \"provider\": \"email\",\n  \"uid\": \"137daniela_kirlin@lubowitz.org\",\n  \"created_at\": \"2016-03-03T12:42:53.596Z\",\n  \"abilities\": {\n    \"orders\": 0,\n    \"products\": 0,\n    \"users\": 0,\n    \"categories\": 0,\n    \"coupons\": 0,\n    \"settings\": 0,\n    \"cities\": 0,\n    \"delivery_boy\": 0\n  }\n}",
+      "response_body": "{\n  \"id\": 5,\n  \"first_name\": \"Dolly\",\n  \"last_name\": \"Jerde\",\n  \"email\": \"138toy.orn@toywisoky.biz\",\n  \"phone\": \"911827664484\",\n  \"is_verified\": false,\n  \"provider\": \"email\",\n  \"uid\": \"138toy.orn@toywisoky.biz\",\n  \"created_at\": \"2016-03-04T07:15:39.579Z\",\n  \"abilities\": {\n    \"orders\": 0,\n    \"products\": 0,\n    \"users\": 0,\n    \"categories\": 0,\n    \"coupons\": 0,\n    \"settings\": 0,\n    \"cities\": 0,\n    \"delivery_boy\": 0\n  }\n}",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"9628bfcf183eeb45c005fcfc3b52ca2e\"",
+        "ETag": "W/\"918b0863bbb34c57356dc14c510bf55d\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=UW02MVZTQkUvMXVTajdRT010N2FLSmNxdlFrSzYwNGJWb2sxYVlLcGVDQk1xb2EzY0VpWEVTd0lBNVd0Mk5ya08xVnBHYTNUUGM3WG1OUWVTZzhsODg5RXhNM3hxZlM3eXl6VTJxYUdNVWZlZ1NSc2Z1RlhBU3Bnc3h0c0V1cStpL292UEtIdWFEd0xyR29jNEhrZDNiNXR1QTg4M2M4MURXaDl1Wi9xYm01cUpMSEtySHZtM2c1Ty9mZ1VVWXJGLS0zU2QwWURFYkljWTE3dndSZHdzTnhRPT0%3D--6180db669ec230b0426bc96c7ab358628928cbf0; path=/; HttpOnly",
-        "X-Request-Id": "09921b23-e2eb-4f19-850f-d7d85298b3aa",
-        "X-Runtime": "0.086751",
-        "Content-Length": "351"
+        "Set-Cookie": "_session_id=RU9CQWtNQy9ZV3lKUEhjWUdDUGdsWHg5L3orRW9NKzFRVlYvVDEzVGlsSm1rUGxkckxvYW9YNG4wbnFXM0lVV2hkN09IUjBXYUprOW1xeGR0OXA2S3VUM0dOR3AyTGw0SnhtYnJQNUlDSkE2MXJRZmpxQjc3MEpjdlJQOVBhVjZnMjRPN0F1ZVMyOVhoVnhKVTZhVXF2dmZnaDRCQ3NPOUdSWThkY0QzcnRYMUxOTzgyZ25jY2dPT2E1c3lWK1dxLS15d0hTWGloblYrRXVKbTRzTEdVZzRnPT0%3D--aa11c26303161d2d70e3f6aa12d11b2027a09cbd; path=/; HttpOnly",
+        "X-Request-Id": "ec99423f-a192-4e56-968e-9d516fc22558",
+        "X-Runtime": "0.082021",
+        "Content-Length": "335"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/client\" -X GET \\\n\t-H \"Access-Token: ydzwPrGdVuDGpvA5nUD13A\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: GntSZ69YWUzoNuwqc2_zZg\" \\\n\t-H \"Expiry: 1458218573\" \\\n\t-H \"Uid: 137daniela_kirlin@lubowitz.org\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/client\" -X GET \\\n\t-H \"Access-Token: qZUSRxGEiVXPOQ4Sumb-MQ\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: UJe777FWofKLL3G_qRyxbA\" \\\n\t-H \"Expiry: 1458285339\" \\\n\t-H \"Uid: 138toy.orn@toywisoky.biz\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

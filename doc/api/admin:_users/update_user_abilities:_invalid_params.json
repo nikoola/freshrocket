@@ -20,11 +20,11 @@
       "request_path": "/admin/users/1/update_abilities",
       "request_body": "abilities[lalala]=1",
       "request_headers": {
-        "Access-Token": "42cJJDkU5oJTiXLpoJ56xg",
+        "Access-Token": "x8QkvQOtkoeU7joETzSSig",
         "Token-Type": "Bearer",
-        "Client": "EZdfovFdmCuX1lXETvCQTw",
-        "Expiry": "1458218563",
-        "Uid": "81ottis_torp@thompsonswaniawski.org",
+        "Client": "FHth6S-gii9pqmbNulE9sA",
+        "Expiry": "1458285330",
+        "Uid": "81kylie@olson.io",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -41,13 +41,13 @@
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "application/json; charset=utf-8",
         "Cache-Control": "no-cache",
-        "Set-Cookie": "_session_id=N1dsMVk4ZjdNaVA1d0dqeW0zc0wzc1NFRjd1eGxEOTBqRWhSUjFITC83RXF2L1BXYWJKdENPN09BMkVJbEV0YmdmbnJrT3RuRkNQWmxIZW5tS2V2amtMVEVDYm56aDVrWGJHTG8zM1lpOVRaY3RwaU9nVFFqb2EzaTZTaFlrei9FcGl5YXdRUXJmZUM3aGJZc1Y3TnY5TytMWkQ3cVorYkRsM0FCUFlnS1lRc3VZS1MzL3hWcjVSZ2p4NnY5T2p2LS1vSFVDQjhYTUpCZmtRTFN2WDlhMXB3PT0%3D--dcbf0e72c880edf568a8f6d8c36df892541b3032; path=/; HttpOnly",
-        "X-Request-Id": "ef341a4c-b940-4981-ac61-55f234b383db",
-        "X-Runtime": "0.080864",
+        "Set-Cookie": "_session_id=S0tpcmhwUFJTZTFHUDBwV2NxNFJZa2VURmJLbnBJQjFvaFhuS1RTK2k1MFpmd1VJMVB2dllsUzVaNDFWbXRsMDMybGxpWTVLNVVMQXVsUjgvN3J5bDB6bFBjSksvaGhkdDZkK1ZCUDZwMVBrZ2pINC95YjF0c1dNU0ZGRFFUMXJ1dUc4UDdSYXhxdmJGTURZSU53Vnp0b2pZOTU2NFlBOFpnQ0pQclMrRzk1WDBta3B0ZVhDZlY1bFRvbjhhWlJELS15ekRocjB5QmxQK2Q3bmZuaXp4SjN3PT0%3D--096e0ec5bec962b796410117a0ee82b364a62ad7; path=/; HttpOnly",
+        "X-Request-Id": "c5aff444-ffe4-4c48-95c7-8c5ba91f40aa",
+        "X-Runtime": "0.080076",
         "Content-Length": "47"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/admin/users/1/update_abilities\" -d 'abilities[lalala]=1' -X PUT \\\n\t-H \"Access-Token: 42cJJDkU5oJTiXLpoJ56xg\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: EZdfovFdmCuX1lXETvCQTw\" \\\n\t-H \"Expiry: 1458218563\" \\\n\t-H \"Uid: 81ottis_torp@thompsonswaniawski.org\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/admin/users/1/update_abilities\" -d 'abilities[lalala]=1' -X PUT \\\n\t-H \"Access-Token: x8QkvQOtkoeU7joETzSSig\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: FHth6S-gii9pqmbNulE9sA\" \\\n\t-H \"Expiry: 1458285330\" \\\n\t-H \"Uid: 81kylie@olson.io\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

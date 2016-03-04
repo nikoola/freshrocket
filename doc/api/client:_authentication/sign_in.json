@@ -23,7 +23,7 @@
     {
       "request_method": "POST",
       "request_path": "/auth/sign_in",
-      "request_body": "email=93darius%40bernier.org&password=secrety_bickety",
+      "request_body": "email=93dewayne.brekke%40simonis.io&password=secrety_bickety",
       "request_headers": {
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
@@ -34,25 +34,25 @@
       "request_content_type": "application/x-www-form-urlencoded",
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\n  \"data\": {\n    \"id\": 1,\n    \"first_name\": \"Woodrow\",\n    \"last_name\": \"Schulist\",\n    \"email\": \"93darius@bernier.org\",\n    \"provider\": \"email\",\n    \"uid\": \"93darius@bernier.org\",\n    \"phone\": \"914383138774\",\n    \"verification_code\": null,\n    \"is_verified\": false,\n    \"how_did_you_hear_about_us\": null\n  }\n}",
+      "response_body": "{\n  \"data\": {\n    \"id\": 1,\n    \"first_name\": \"Darion\",\n    \"last_name\": \"Swaniawski\",\n    \"email\": \"93dewayne.brekke@simonis.io\",\n    \"provider\": \"email\",\n    \"uid\": \"93dewayne.brekke@simonis.io\",\n    \"phone\": \"914647990591\",\n    \"verification_code\": null,\n    \"is_verified\": false,\n    \"how_did_you_hear_about_us\": null\n  }\n}",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
-        "access-token": "NdRJsSEHBEgom8xUehc8hw",
+        "access-token": "jHLMEAShWfm1zSY8l63mBQ",
         "token-type": "Bearer",
-        "client": "UHZ0GPzhEmcEB3953ixJbQ",
-        "expiry": "1458218565",
-        "uid": "93darius@bernier.org",
+        "client": "_e8y_zxAZURr48g1wOSc9g",
+        "expiry": "1458285331",
+        "uid": "93dewayne.brekke@simonis.io",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"2360ccd9d5052d64ee8a96c1fb62a90e\"",
+        "ETag": "W/\"3479d7c616ec8b62e6a41b0bf0531e9b\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "X-Request-Id": "78d5fa2e-74d0-4fc8-b4ba-307ee6f56fb9",
-        "X-Runtime": "0.177759",
-        "Content-Length": "243"
+        "X-Request-Id": "0f9856e4-8bba-4c11-9e7b-de7b52dc5e20",
+        "X-Runtime": "0.159356",
+        "Content-Length": "258"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/auth/sign_in\" -d 'email=93darius%40bernier.org&password=secrety_bickety' -X POST \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/auth/sign_in\" -d 'email=93dewayne.brekke%40simonis.io&password=secrety_bickety' -X POST \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

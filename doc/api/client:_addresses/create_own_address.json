@@ -14,12 +14,6 @@
     {
       "scope": "address",
       "required": true,
-      "name": "order_id",
-      "description": "Address order"
-    },
-    {
-      "scope": "address",
-      "required": true,
       "name": "street_and_house",
       "description": "Address street and house"
     },
@@ -28,6 +22,12 @@
       "required": true,
       "name": "door_number",
       "description": "Address door number"
+    },
+    {
+      "scope": "address",
+      "required": false,
+      "name": "zip_code",
+      "description": "Address zip code"
     }
   ],
   "response_fields": [
@@ -37,13 +37,13 @@
     {
       "request_method": "POST",
       "request_path": "/client/addresses",
-      "request_body": "address[street_and_house]=7588+Myrtie+Prairie&address[door_number]=5&address[city_id]=1",
+      "request_body": "address[street_and_house]=822+Rohan+Drives&address[door_number]=5&address[city_id]=1",
       "request_headers": {
-        "Access-Token": "BOeqml8enJxEC9EGFQyX5w",
+        "Access-Token": "-KCFRET5qJ6acRB9qOhuig",
         "Token-Type": "Bearer",
-        "Client": "xHMzRi-V8FSi_ObSjMYOVw",
-        "Expiry": "1458218564",
-        "Uid": "90everardo.mclaughlin@schmelerlangosh.org",
+        "Client": "WbF_t__FiqF-9MCoiCdIYA",
+        "Expiry": "1458285330",
+        "Uid": "90meta@crona.net",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -53,21 +53,21 @@
       "request_content_type": "application/x-www-form-urlencoded",
       "response_status": 201,
       "response_status_text": "Created",
-      "response_body": "{\n  \"id\": 1,\n  \"city_id\": 1,\n  \"user_id\": 1,\n  \"street_and_house\": \"7588 Myrtie Prairie\",\n  \"door_number\": \"5\"\n}",
+      "response_body": "{\n  \"id\": 1,\n  \"city_id\": 1,\n  \"user_id\": 1,\n  \"street_and_house\": \"822 Rohan Drives\",\n  \"door_number\": \"5\"\n}",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"9d982ecfdc34b0fb76b6de990b7f7b99\"",
+        "ETag": "W/\"3efd11e259b2e466f480a996a058a325\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=MGhBQlF0SjdlZE1WZGFXdGRhcWJxZlFKZ0gweDhGeGFQa0R6OGhsaFM5SXBQYThTTWlyc0NrcTRmTzVrUk15UVBzdkRuMW50Q2VFVXUyZ2dhUlhGTExmcWloczVaYXNMTzJ6bCt3MURHMGRwNlFwZG1ka0QrZGJ0ZjJUd0duRVlMYUNtNldSZFhkQkVUVzNVTllkZGR4WU5pMUwrRUViWDRvUUkwNjl4QUZ4OXhvK05Sb1I1azhCYVhuY1VLVW9vLS03RW5tSEJpRGRsdVh4RzducElENFd3PT0%3D--b95ca454e6294ef4ea561120b420f0d5519a763f; path=/; HttpOnly",
-        "X-Request-Id": "491bf53d-7c1a-4b6b-af21-86c12743b1d5",
-        "X-Runtime": "0.082540",
-        "Content-Length": "91"
+        "Set-Cookie": "_session_id=RERkYkJMZjduNmNlRmMwU1YzVktvUzdleXpmbzE3VjZUSEdNMGxtbXBFUWh6WDBvSXRTRkxtWFlsNm5jd0tRa2Z1QWc2QzlObHJVZnhuc1I2ZVdPTHJ1UE9icFZOVnZaOXIweUJIeUwxYktud0lUYzBUU0pQcVRFUlZvbXNQMTlNWW9nUTkza0ZTVzI1UkROL2h2bHlsRGpDYWM5aUxmMU9uYitQNGI4V0Q4NnlBTlMveFNuNEcyZEhBbFNFakp2LS1sMFFLZEI3SW1xZFA3ZmIrRVE3LzFBPT0%3D--c865de48ef8a28ca84d88bca98775b184fed79aa; path=/; HttpOnly",
+        "X-Request-Id": "6bfba92b-2601-4f9c-89e6-82cb6c382fc2",
+        "X-Runtime": "0.077358",
+        "Content-Length": "88"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/client/addresses\" -d 'address[street_and_house]=7588+Myrtie+Prairie&address[door_number]=5&address[city_id]=1' -X POST \\\n\t-H \"Access-Token: BOeqml8enJxEC9EGFQyX5w\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: xHMzRi-V8FSi_ObSjMYOVw\" \\\n\t-H \"Expiry: 1458218564\" \\\n\t-H \"Uid: 90everardo.mclaughlin@schmelerlangosh.org\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/client/addresses\" -d 'address[street_and_house]=822+Rohan+Drives&address[door_number]=5&address[city_id]=1' -X POST \\\n\t-H \"Access-Token: -KCFRET5qJ6acRB9qOhuig\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: WbF_t__FiqF-9MCoiCdIYA\" \\\n\t-H \"Expiry: 1458285330\" \\\n\t-H \"Uid: 90meta@crona.net\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

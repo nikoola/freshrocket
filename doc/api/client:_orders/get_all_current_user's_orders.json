@@ -16,11 +16,11 @@
       "request_path": "/client/orders",
       "request_body": null,
       "request_headers": {
-        "Access-Token": "QPzUZejz7NcB0MQezf06Xg",
+        "Access-Token": "LeX06lAPs9ZeREVBcYH0aQ",
         "Token-Type": "Bearer",
-        "Client": "GE-4nM8Vq4XdyKeBYvFc4Q",
-        "Expiry": "1458218569",
-        "Uid": "99vivien.schmidt@lubowitz.biz",
+        "Client": "RmarQjEVadmO1gN6Ef9UrQ",
+        "Expiry": "1458285335",
+        "Uid": "100santa@powlowski.biz",
         "Host": "example.org",
         "Cookie": ""
       },
@@ -29,21 +29,21 @@
       "request_content_type": null,
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "[\n  {\n    \"id\": 3,\n    \"user_id\": 5,\n    \"status\": \"unconfirmed\",\n    \"created_at\": \"2016-03-03T12:42:49.483Z\",\n    \"comment\": null,\n    \"pure_product_price\": \"27.0\",\n    \"tax\": \"1.35\",\n    \"delivery_charge\": \"200.0\",\n    \"total_price\": \"228.35\",\n    \"delivery_boy_id\": null,\n    \"wanted_time\": null,\n    \"wanted_date\": null,\n    \"payment_type\": \"cash\",\n    \"is_paid\": false,\n    \"feedback\": null,\n    \"coupon_code\": null,\n    \"source_type\": null,\n    \"line_items\": [\n      {\n        \"id\": 7,\n        \"order_id\": 3,\n        \"product_id\": 7,\n        \"amount\": 3,\n        \"fixed_price\": \"9.0\"\n      },\n      {\n        \"id\": 8,\n        \"order_id\": 3,\n        \"product_id\": 8,\n        \"amount\": 3,\n        \"fixed_price\": \"9.0\"\n      },\n      {\n        \"id\": 9,\n        \"order_id\": 3,\n        \"product_id\": 9,\n        \"amount\": 3,\n        \"fixed_price\": \"9.0\"\n      }\n    ],\n    \"address\": {\n      \"id\": 3,\n      \"city_id\": 9,\n      \"user_id\": 6,\n      \"street_and_house\": \"478 Danial Manor\",\n      \"door_number\": \"5\"\n    }\n  }\n]",
+      "response_body": "[\n  {\n    \"id\": 3,\n    \"user_id\": 5,\n    \"status\": \"unconfirmed\",\n    \"created_at\": \"2016-03-04T07:15:35.831Z\",\n    \"comment\": null,\n    \"pure_product_price\": \"27.0\",\n    \"tax\": \"1.35\",\n    \"delivery_charge\": \"200.0\",\n    \"total_price\": \"228.35\",\n    \"delivery_boy_id\": null,\n    \"wanted_time\": null,\n    \"wanted_date\": null,\n    \"payment_type\": \"cash\",\n    \"is_paid\": false,\n    \"feedback\": null,\n    \"coupon_code\": null,\n    \"source_type\": null,\n    \"line_items\": [\n      {\n        \"id\": 7,\n        \"order_id\": 3,\n        \"product_id\": 7,\n        \"amount\": 3,\n        \"fixed_price\": \"9.0\"\n      },\n      {\n        \"id\": 8,\n        \"order_id\": 3,\n        \"product_id\": 8,\n        \"amount\": 3,\n        \"fixed_price\": \"9.0\"\n      },\n      {\n        \"id\": 9,\n        \"order_id\": 3,\n        \"product_id\": 9,\n        \"amount\": 3,\n        \"fixed_price\": \"9.0\"\n      }\n    ],\n    \"address\": {\n      \"id\": 3,\n      \"city_id\": 9,\n      \"user_id\": 6,\n      \"street_and_house\": \"508 Chyna Keys\",\n      \"door_number\": \"5\"\n    }\n  }\n]",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"3844c3387ca4c14d86107cbfce965884\"",
+        "ETag": "W/\"e658689a57402b1a9430325b270b2697\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=NXpDRmNza1NsVXFwR09VOWx5aEV6WUNibWFrK3NNK3FuQkRtVjkvN3BvZFhOT3lDc0Z4WmdOVjBxY2ZyWkVacXYrMTdHNVdJQWpuZHhuU0V3bUNYNGk1LzZ3bmxYODhpbTJRVGp4MTNoVGpGMHpiT1A3VFhCcVFzUnU0TmtBRnpGRUc4blNDS1c1NExHeFpVUHdRdFJVTFhXMkRuVzhsTTRKV1NLajU5OEdrc3FhdFVqcU1CcFdlM04wdHF2aGJPLS1ZbFZjUG1pM0paL21WTGJ4cWVBMDVRPT0%3D--92101dd4ff2253ae4f17fb28db8b8e64894e6cd5; path=/; HttpOnly",
-        "X-Request-Id": "c569a5a2-a42c-4ddb-be7c-8233457746fa",
-        "X-Runtime": "0.092186",
-        "Content-Length": "661"
+        "Set-Cookie": "_session_id=S2FMZmtwcWNNRGhkcGhGTW40VGVhY1pGR3pRQWg2eHE2Skh2cGJWdUk5NGc2VlU0VG5mS3J3bEhEMWd4eWV0bHFrWldLZ0NTWnAzck1VNkkxeW9QVHFSZ01waHRUTEVVcTcyRzZURzA2Z3g5eVZnd056V0U5dDJKRTBYYm1ISmpQYnJIWTdYYk5tUWYyOGNGSklQUlEvcmpkMExjdEZvNjZTaUNiaU1JWlBKOVprT0Z1U1piYnYyOWdvd1NYTVloLS1qMnZMSVhNTUl1TG5XWStLa1VEdlNBPT0%3D--73b83b44151ab806d6c3a7bae011f21b15dc0462; path=/; HttpOnly",
+        "X-Request-Id": "362cdb71-995b-4c8a-b8c9-fa52e3f64b51",
+        "X-Runtime": "0.083087",
+        "Content-Length": "659"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/client/orders\" -X GET \\\n\t-H \"Access-Token: QPzUZejz7NcB0MQezf06Xg\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: GE-4nM8Vq4XdyKeBYvFc4Q\" \\\n\t-H \"Expiry: 1458218569\" \\\n\t-H \"Uid: 99vivien.schmidt@lubowitz.biz\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/client/orders\" -X GET \\\n\t-H \"Access-Token: LeX06lAPs9ZeREVBcYH0aQ\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: RmarQjEVadmO1gN6Ef9UrQ\" \\\n\t-H \"Expiry: 1458285335\" \\\n\t-H \"Uid: 100santa@powlowski.biz\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

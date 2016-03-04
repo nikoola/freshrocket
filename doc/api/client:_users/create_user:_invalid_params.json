@@ -47,13 +47,13 @@
     {
       "request_method": "POST",
       "request_path": "/auth",
-      "request_body": "email=132roscoe%40erdman.com&password=secrety_bickety&password_confirmation=secrety_bickety&first_name=Ena&last_name=Osinski&phone",
+      "request_body": "email=133curt%40framijaskolski.biz&password=secrety_bickety&password_confirmation=secrety_bickety&first_name=Jared&last_name=Goldner&phone",
       "request_headers": {
-        "Access-Token": "q7uA5CJFEJ8-zs6QEU7lUw",
+        "Access-Token": "xLMUjNbLY018qHv2LRfnKw",
         "Token-Type": "Bearer",
-        "Client": "MVuSo8jOSkeASfvfyLcg9w",
-        "Expiry": "1458218573",
-        "Uid": "133tyrese.volkman@baileyhermiston.biz",
+        "Client": "otGR7-1p-dHQGlE7kwDb6g",
+        "Expiry": "1458285339",
+        "Uid": "134lizzie.bruen@rempel.info",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -63,19 +63,19 @@
       "request_content_type": "application/x-www-form-urlencoded",
       "response_status": 403,
       "response_status_text": "Forbidden",
-      "response_body": "{\n  \"status\": \"error\",\n  \"data\": {\n    \"id\": null,\n    \"first_name\": \"Ena\",\n    \"last_name\": \"Osinski\",\n    \"email\": \"132roscoe@erdman.com\",\n    \"provider\": \"email\",\n    \"uid\": \"\",\n    \"phone\": null,\n    \"verification_code\": null,\n    \"is_verified\": false,\n    \"created_at\": null,\n    \"updated_at\": null,\n    \"how_did_you_hear_about_us\": null\n  },\n  \"errors\": {\n    \"phone\": [\n      \"can't be blank\",\n      \"is not a number\",\n      \"is the wrong length (should be 12 characters)\"\n    ],\n    \"full_messages\": [\n      \"Phone can't be blank\",\n      \"Phone is not a number\",\n      \"Phone is the wrong length (should be 12 characters)\"\n    ]\n  }\n}",
+      "response_body": "{\n  \"status\": \"error\",\n  \"data\": {\n    \"id\": null,\n    \"first_name\": \"Jared\",\n    \"last_name\": \"Goldner\",\n    \"email\": \"133curt@framijaskolski.biz\",\n    \"provider\": \"email\",\n    \"uid\": \"\",\n    \"phone\": null,\n    \"verification_code\": null,\n    \"is_verified\": false,\n    \"created_at\": null,\n    \"updated_at\": null,\n    \"how_did_you_hear_about_us\": null\n  },\n  \"errors\": {\n    \"phone\": [\n      \"can't be blank\",\n      \"is not a number\",\n      \"is the wrong length (should be 12 characters)\"\n    ],\n    \"full_messages\": [\n      \"Phone can't be blank\",\n      \"Phone is not a number\",\n      \"Phone is the wrong length (should be 12 characters)\"\n    ]\n  }\n}",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "application/json; charset=utf-8",
         "Cache-Control": "no-cache",
-        "X-Request-Id": "3c7c7cce-0cd6-4c2e-a6cc-f9d0ae08a560",
-        "X-Runtime": "0.009012",
-        "Content-Length": "487"
+        "X-Request-Id": "dbe579a2-c163-4397-9578-92b64879dd8d",
+        "X-Runtime": "0.010189",
+        "Content-Length": "495"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/auth\" -d 'email=132roscoe%40erdman.com&password=secrety_bickety&password_confirmation=secrety_bickety&first_name=Ena&last_name=Osinski&phone' -X POST \\\n\t-H \"Access-Token: q7uA5CJFEJ8-zs6QEU7lUw\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: MVuSo8jOSkeASfvfyLcg9w\" \\\n\t-H \"Expiry: 1458218573\" \\\n\t-H \"Uid: 133tyrese.volkman@baileyhermiston.biz\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/auth\" -d 'email=133curt%40framijaskolski.biz&password=secrety_bickety&password_confirmation=secrety_bickety&first_name=Jared&last_name=Goldner&phone' -X POST \\\n\t-H \"Access-Token: xLMUjNbLY018qHv2LRfnKw\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: otGR7-1p-dHQGlE7kwDb6g\" \\\n\t-H \"Expiry: 1458285339\" \\\n\t-H \"Uid: 134lizzie.bruen@rempel.info\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

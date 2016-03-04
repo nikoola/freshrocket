@@ -16,11 +16,11 @@
       "request_path": "/auth",
       "request_body": "phone=%2B79174446666",
       "request_headers": {
-        "Access-Token": "6VjzgyDHxVZp-2CsVUTcjw",
+        "Access-Token": "3ppBVDV64CeYz7FUReM2cQ",
         "Token-Type": "Bearer",
-        "Client": "LNeIZvxK8PqF8gJ1-F1bCA",
-        "Expiry": "1458218573",
-        "Uid": "134madalyn.koelpin@spinka.net",
+        "Client": "JrVRddn_WBL6RssIRqKIfg",
+        "Expiry": "1458285339",
+        "Uid": "135clair.luettgen@paucek.co",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -30,21 +30,21 @@
       "request_content_type": "application/x-www-form-urlencoded",
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\n  \"status\": \"success\",\n  \"data\": {\n    \"id\": 5,\n    \"first_name\": \"Britney\",\n    \"last_name\": \"Gaylord\",\n    \"email\": \"134madalyn.koelpin@spinka.net\",\n    \"provider\": \"email\",\n    \"uid\": \"134madalyn.koelpin@spinka.net\",\n    \"phone\": \"+79174446666\",\n    \"verification_code\": null,\n    \"is_verified\": false,\n    \"created_at\": \"2016-03-03T12:42:53.068Z\",\n    \"updated_at\": \"2016-03-03T12:42:53.223Z\",\n    \"how_did_you_hear_about_us\": null\n  }\n}",
+      "response_body": "{\n  \"status\": \"success\",\n  \"data\": {\n    \"id\": 5,\n    \"first_name\": \"Modesta\",\n    \"last_name\": \"Mayer\",\n    \"email\": \"135clair.luettgen@paucek.co\",\n    \"provider\": \"email\",\n    \"uid\": \"135clair.luettgen@paucek.co\",\n    \"phone\": \"+79174446666\",\n    \"verification_code\": null,\n    \"is_verified\": false,\n    \"created_at\": \"2016-03-04T07:15:39.081Z\",\n    \"updated_at\": \"2016-03-04T07:15:39.231Z\",\n    \"how_did_you_hear_about_us\": null\n  }\n}",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"305f1013a42435ef375c9789c0c6b4fb\"",
+        "ETag": "W/\"0ac1b10ea8ad0368eb3b6c982fcf3554\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=d0N6eXU0Z2lnWndvY2JQcFQ2UU5SQlhBekg3RlNpM1FGUWNxRXgzS1U5THcrTUNDbDVjalArU1h6Z1RIc3lXTUxWWGRQV1pVOXVlbk9hNmZ5K3BQOGI3S1lkY0VtTnFMZ3UyVUI0YlZTSit4SWlIU2xLSzFhMis5dklzR3Q1SHFOOWpsVGFOODZkcU45WkZlSWJDc0s5b01hS21PTkp0TXZ4WENkRkxBTzFnK25VZHp5Y2trQ2dOUHZFOUtXTHlKLS1ZaWJkUUVGT3haTXNIa3hBaWRhM2xBPT0%3D--424b79fb9f271b4cc3c0afcdcb3da5957b364e87; path=/; HttpOnly",
-        "X-Request-Id": "8461a3b6-d4ff-414d-a7d6-004a873f2777",
-        "X-Runtime": "0.084541",
-        "Content-Length": "359"
+        "Set-Cookie": "_session_id=UlhkMXNFUEZtWXJiYUYzTTJqRWJlTVNHa040V2JHTjFSTFZjcGI3akFhQzExaXJSdUlBMHlWbkVNRzNVckRhMURLT01uQ1ZyTWxaNVo2bllKTGcrQU5NWUlqVmphaUx5OGh6aEE3VXBDTlJNY1E1T0RHeitmUmRiY3hwdVhVS2RaMWs4NHowTkY0akx5MDlGMDFkMUs1amptV0ZnRnVzMWN0dExSa3N1WHUrNGFZY0QzNWpxMU43Z0QvNzlWRHc3LS1PUDhwOUhmSkQ5YSs0TVV1Qy9Ydm1nPT0%3D--a20b62364f4d2beb363fdd782f956652f5c36c4c; path=/; HttpOnly",
+        "X-Request-Id": "ebce8315-801d-4a14-ad75-97bc351b5dc3",
+        "X-Runtime": "0.080845",
+        "Content-Length": "353"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/auth\" -d 'phone=%2B79174446666' -X PUT \\\n\t-H \"Access-Token: 6VjzgyDHxVZp-2CsVUTcjw\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: LNeIZvxK8PqF8gJ1-F1bCA\" \\\n\t-H \"Expiry: 1458218573\" \\\n\t-H \"Uid: 134madalyn.koelpin@spinka.net\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/auth\" -d 'phone=%2B79174446666' -X PUT \\\n\t-H \"Access-Token: 3ppBVDV64CeYz7FUReM2cQ\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: JrVRddn_WBL6RssIRqKIfg\" \\\n\t-H \"Expiry: 1458285339\" \\\n\t-H \"Uid: 135clair.luettgen@paucek.co\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }
