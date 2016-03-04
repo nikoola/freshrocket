@@ -68,7 +68,7 @@ module Admin
 			end
 
 			def set_is_verified
-				if params[:user][:is_verified] == 'true'
+				if params[:user][:is_verified].to_s == 'true'
 					@user.update! is_verified: true # because if phone changed is_verified will be reset to false.
 					# alternative is passing current_user to the model.
 				end

@@ -32,9 +32,9 @@ resource 'client: addresses', type: :request do
 	post '/client/addresses' do
 		with_options scope: :address, required: true do
 			parameter :city_id
-			parameter :order_id
 			parameter :street_and_house
 			parameter :door_number
+			parameter :zip_code,        required: false
 		end
 
 		example 'create own address' do

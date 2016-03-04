@@ -71,6 +71,7 @@ class SetupSchema < ActiveRecord::Migration
 	  t.integer  "city_id"
 	  t.string   "street_and_house"
 	  t.string   "door_number"
+	  t.integer  "zip_code"
 	  t.boolean  "active",      default: true
 	end
 

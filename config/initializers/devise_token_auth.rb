@@ -45,7 +45,7 @@ module DeviseTokenAuth
 		def render_validate_token_success
 			render json: {
 				success: true,
-				data: UserSerializer.new(@resource).to_json
+				data: UserSerializer.new(@resource)
 			}
 		end
 

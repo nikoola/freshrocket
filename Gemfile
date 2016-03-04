@@ -1,4 +1,5 @@
 source 'https://rubygems.org'
+# it literally complained about not sourcing gemfile :-|
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.5'

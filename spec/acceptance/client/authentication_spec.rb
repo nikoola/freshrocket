@@ -47,14 +47,11 @@ resource 'client: authentication', type: :request do
 			do_request auth_headers
 
 			expect(json[:success]).to eq(true)
-			expect(json[:data]).to include('abilities')
+			expect(json[:data]).to include(:abilities)
 		end
 
 
 	end
-
-
-
 
 
 

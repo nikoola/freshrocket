@@ -58,13 +58,14 @@ Rails.application.routes.draw do
 		end
 		resources :users,         only: [:index, :show, :create, :update] do
 			member {
-				put :update_abilities #update abilities for a user
+				put :update_abilities  # update abilities for a user
 			}
+			resources :addresses,   only: [:index, :create, :update, :destroy]
 		end
-		resources :delivery_boys,  only: [:index]
-		resource  :settings,       only: [:show, :update]
-		resources :coupons,        only: [:index, :create, :update, :destroy]
-		resources :cities,         only: [:create, :update, :destroy]
+		resources :delivery_boys, only: [:index]
+		resource  :settings,      only: [:show, :update]
+		resources :coupons,       only: [:index, :create, :update, :destroy]
+		resources :cities,        only: [:create, :update, :destroy]
 	end
 
 
