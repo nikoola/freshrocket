@@ -76,16 +76,20 @@ gem 'active_model_serializers'#, "~> 0.8.0"
 
 
 # gem 'twilio-ruby' #not twilio, smslane
-gem 'phonelib' # validates phone numbers
+# gem 'phonelib' # validates phone numbers
+gem 'smslane'
 
 gem 'offsite_payments'
 
-gem 'smslane'
 
-gem 'virtus'
+gem 'virtus' #for FormModel
+
+gem 'sinatra', :require => nil
 
 
 
+# if you require 'sinatra' you get the DSL extended to Object
+gem 'sinatra', :require => nil
 
 ruby '2.2.1'
 

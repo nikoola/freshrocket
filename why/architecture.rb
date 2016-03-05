@@ -24,6 +24,9 @@ ___heroku-specific things
 	You can’t write to local disk (no log files, no file-based Rails cache), nor assume that things like global variables will last from request to request.
 
 
+___why we repeat addresses/orders/users resource functionality in /admin and /client?
+	it's a legacy code decision, didn't know they'd require me user creation and etc on the backend, functionality used to differ a lot.
+
 
 
 
