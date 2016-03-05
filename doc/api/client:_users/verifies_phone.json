@@ -19,11 +19,11 @@
       "request_path": "/client/verify",
       "request_body": "verification_code",
       "request_headers": {
-        "Access-Token": "B243A221QdysamSlZEpHCA",
+        "Access-Token": "jnNl2Ak_Rbq7G4DvwGpalg",
         "Token-Type": "Bearer",
-        "Client": "7cqcbULFboyzrgNOelZIBQ",
-        "Expiry": "1458315378",
-        "Uid": "148brent_jacobson@krajcik.info",
+        "Client": "0B2YxtECTzADMw-iVI_0Pw",
+        "Expiry": "1458397086",
+        "Uid": "155zoila.okeefe@langworthfritsch.name",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -40,13 +40,13 @@
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "text/html",
         "Cache-Control": "no-cache",
-        "Set-Cookie": "_session_id=cHBQU0VtaHZBUVBUR3pZTWRQekRVLzNDOTR5clRsdFlkZ1F5akpSMGllcG04QmZSMGFyRTVPSUNzQ0dBNFVzV1BmVFRVaFFsM0thNlNUWVRrKzBBT00wTnF2d2ZGdHdkeGtaUnUzcnhiRjIrYng4UGY1SnZpYXFDQjlPVklGUFA3TDBIV0RTTHo2VmFxaHR2Qk9CYUJwa20vUDF0aWFiT0tMS2JmQmJOYjlCanhZRGJpanFkd1pmbSs1NnhTL21ULS00NXVtSXNFRXd0eG1UOWhUODVZdmdnPT0%3D--f4d92a484dc582bb692aac38ceb16441185e625c; path=/; HttpOnly",
-        "X-Request-Id": "bf4b692f-cfd0-4c1e-879b-b124c138e05e",
-        "X-Runtime": "0.078452",
+        "Set-Cookie": "_session_id=eElRRkRqZ0p2NFRybE1iRTlZbDlvL2RjajBoSFJleG1RRU1ZNFIxVldPeTNEaDE4MWN4OWh4ZVdpUVJLV1A4TFNTVzNlUE5sSVF1WHpTWDR3NVNVa2hFcUFTY0ZMM1c3cytnelJWcWtFYlRZdy8rR242dlBqM2pkVm41dzhYT1JhTDRQaDcwaWZpcFArNnhqZFZCOGI0QnZuNnlZcDZsQkd2akpnSVpaK3BjWWgzbFJhZ1EyK0E1ZXpQVXVkb3p1LS15aXVBekVjbXdGV0JNNGNpb2ZvT0JnPT0%3D--775ae54b3b758ef469689d18750a3df207d232e2; path=/; HttpOnly",
+        "X-Request-Id": "c46b182d-b65d-4296-b08a-40112b4fafca",
+        "X-Runtime": "0.078616",
         "Content-Length": "0"
       },
       "response_content_type": "text/html",
-      "curl": "curl \"http://localhost:3000/client/verify\" -d 'verification_code' -X PUT \\\n\t-H \"Access-Token: B243A221QdysamSlZEpHCA\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: 7cqcbULFboyzrgNOelZIBQ\" \\\n\t-H \"Expiry: 1458315378\" \\\n\t-H \"Uid: 148brent_jacobson@krajcik.info\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/client/verify\" -d 'verification_code' -X PUT \\\n\t-H \"Access-Token: jnNl2Ak_Rbq7G4DvwGpalg\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: 0B2YxtECTzADMw-iVI_0Pw\" \\\n\t-H \"Expiry: 1458397086\" \\\n\t-H \"Uid: 155zoila.okeefe@langworthfritsch.name\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

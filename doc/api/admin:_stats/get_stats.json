@@ -1,0 +1,49 @@
+{
+  "resource": "admin: stats",
+  "http_method": "GET",
+  "route": "/admin/stats",
+  "description": "get stats",
+  "explanation": null,
+  "parameters": [
+
+  ],
+  "response_fields": [
+
+  ],
+  "requests": [
+    {
+      "request_method": "GET",
+      "request_path": "/admin/stats",
+      "request_body": null,
+      "request_headers": {
+        "Access-Token": "vJwIZplIo73_wOQ92I56VQ",
+        "Token-Type": "Bearer",
+        "Client": "tz377xnkYxS0d2cNjQ0K_A",
+        "Expiry": "1458397074",
+        "Uid": "75vernice_anderson@haleycrona.info",
+        "Host": "example.org",
+        "Cookie": ""
+      },
+      "request_query_parameters": {
+      },
+      "request_content_type": null,
+      "response_status": 200,
+      "response_status_text": "OK",
+      "response_body": "{\n  \"orders\": {\n    \"today\": 3,\n    \"this week\": 3,\n    \"unconfirmed\": 3,\n    \"confirmed\": 0,\n    \"approved\": 0,\n    \"dispatched\": 0,\n    \"delivered\": 0,\n    \"canceled\": 0\n  },\n  \"users\": {\n    \"all\": 7\n  }\n}",
+      "response_headers": {
+        "X-Frame-Options": "SAMEORIGIN",
+        "X-XSS-Protection": "1; mode=block",
+        "X-Content-Type-Options": "nosniff",
+        "Content-Type": "application/json; charset=utf-8",
+        "ETag": "W/\"9033f0c26566828000184e476ae429e1\"",
+        "Cache-Control": "max-age=0, private, must-revalidate",
+        "Set-Cookie": "_session_id=blNTMGlaRk5neC9QOWZYU1RTeVVYNS9WZjFyZmJtWFllcXN5UzA1TndCZk9OK2FOY05kYzVxVndmWmcrL0szbXdGaDZoQUZHSEdrTCs2K0NsQXpybXhYRlBSeVRSVE9QTUZwenh4ZDc5UXhud3M3K1VZaWl4Q1NndGRabDIxVjlZZnZCZ3R5dk80OC9vR0V2eGl2aGMwTGllZ2VnbHNTbUNTd1AwY3VTb21DTG9RRTJlTUVsU3pNS0lBeTJTZVdnLS0wZTVDQ0tkQjc2NVY2c1N5UUZOZDV3PT0%3D--570ba700f04c1ddd687b38298e39e010e7dfe8ad; path=/; HttpOnly",
+        "X-Request-Id": "5728f2c3-6966-4b73-8f89-a26a64b82822",
+        "X-Runtime": "0.087759",
+        "Content-Length": "139"
+      },
+      "response_content_type": "application/json; charset=utf-8",
+      "curl": "curl \"http://localhost:3000/admin/stats\" -X GET \\\n\t-H \"Access-Token: vJwIZplIo73_wOQ92I56VQ\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: tz377xnkYxS0d2cNjQ0K_A\" \\\n\t-H \"Expiry: 1458397074\" \\\n\t-H \"Uid: 75vernice_anderson@haleycrona.info\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
+    }
+  ]
+}

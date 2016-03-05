@@ -16,11 +16,11 @@
       "request_path": "/auth",
       "request_body": "phone=%2B79174446666",
       "request_headers": {
-        "Access-Token": "dna1J9BGd9E9nH3vPJk6qA",
+        "Access-Token": "V04oj5_EFLIh3BPi4RyL2w",
         "Token-Type": "Bearer",
-        "Client": "XU3q9j0MVh5zKSie3wIEFQ",
-        "Expiry": "1458315377",
-        "Uid": "144henderson@lind.co",
+        "Client": "5L47ARR9jO91qxDEV2wwYg",
+        "Expiry": "1458397085",
+        "Uid": "151adell@rutherfordmoen.io",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -30,21 +30,21 @@
       "request_content_type": "application/x-www-form-urlencoded",
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\n  \"status\": \"success\",\n  \"data\": {\n    \"id\": 5,\n    \"first_name\": \"Waino\",\n    \"last_name\": \"O'Reilly\",\n    \"email\": \"144henderson@lind.co\",\n    \"provider\": \"email\",\n    \"uid\": \"144henderson@lind.co\",\n    \"phone\": \"+79174446666\",\n    \"verification_code\": null,\n    \"is_verified\": false,\n    \"created_at\": \"2016-03-04T15:36:17.358Z\",\n    \"updated_at\": \"2016-03-04T15:36:17.506Z\",\n    \"how_did_you_hear_about_us\": null\n  }\n}",
+      "response_body": "{\n  \"status\": \"success\",\n  \"data\": {\n    \"id\": 5,\n    \"first_name\": \"Keon\",\n    \"last_name\": \"Stroman\",\n    \"email\": \"151adell@rutherfordmoen.io\",\n    \"provider\": \"email\",\n    \"uid\": \"151adell@rutherfordmoen.io\",\n    \"phone\": \"+79174446666\",\n    \"verification_code\": null,\n    \"is_verified\": false,\n    \"created_at\": \"2016-03-05T14:18:05.606Z\",\n    \"updated_at\": \"2016-03-05T14:18:05.753Z\",\n    \"how_did_you_hear_about_us\": null\n  }\n}",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"450713d6f74ac7faea828ef8e3b46f1e\"",
+        "ETag": "W/\"ad7c080321825120d5712a55da6fe182\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=bC9jZzRvcEVxRDFVTnlYWlFnc1lNVVZhUWV4RGR0SE1EN2xYdTY1N083WWFidXladGFLYjBaZnJlSU42MGF1bHRhaGMwYlQyZURWcktBS1AxcVpGUnpodXZaYnp5a0hJVGIzdGpRc0RLZWFQOVRIMWJNd3ZmNmQzNmQwVXovOFBuekJxeEgwcnczTk0zQ0FGUURVQzJ0YUV3WXFjbHVGZnI0NGtvSVhSN3lkaFdDVVN1MzdtSXk4UkJNWnRsQk04LS1vaVMvSElMWC9sZjV6U2VMMlFhVGVBPT0%3D--c6fd2380de1c02adabee4dc88c7f0c75b90de4c5; path=/; HttpOnly",
-        "X-Request-Id": "39c7e1eb-cf77-4aeb-913e-482e2321a436",
-        "X-Runtime": "0.080994",
-        "Content-Length": "340"
+        "Set-Cookie": "_session_id=NndPOG5XNHYzZ09zakZMZ0tTMTYxcTYzL3VXdFM0OWJqeThMR240RXdJSGNUMDhjY1BqQTBjRHVWWFBJUlEwa2M2aG1xOUw4dkFrdlVaNWw2amV6RHBqeFBmbWc3N3gxQ3BRcnQ3QlRtMFBYcTZyOFBpdzFiejB6VXFIV2R2TGRHdTZKbXIrTm1yZWJlcHd6V3pHV2ZXcG90QVdJems3NEM3c21GdzR6a3lTVlRhRWJhSXgvWG9zL2dmaVJONmUyLS04bzJSQ3Q5ZENyMnRSb3htNkc1QzFRPT0%3D--facf5494457920018f22e31d87c801e12ff15042; path=/; HttpOnly",
+        "X-Request-Id": "f78b2f1d-188f-4327-853e-f28cd9528996",
+        "X-Runtime": "0.080596",
+        "Content-Length": "350"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/auth\" -d 'phone=%2B79174446666' -X PUT \\\n\t-H \"Access-Token: dna1J9BGd9E9nH3vPJk6qA\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: XU3q9j0MVh5zKSie3wIEFQ\" \\\n\t-H \"Expiry: 1458315377\" \\\n\t-H \"Uid: 144henderson@lind.co\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/auth\" -d 'phone=%2B79174446666' -X PUT \\\n\t-H \"Access-Token: V04oj5_EFLIh3BPi4RyL2w\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: 5L47ARR9jO91qxDEV2wwYg\" \\\n\t-H \"Expiry: 1458397085\" \\\n\t-H \"Uid: 151adell@rutherfordmoen.io\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

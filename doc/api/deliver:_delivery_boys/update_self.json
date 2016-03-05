@@ -30,11 +30,11 @@
       "request_path": "/deliver/delivery_boy",
       "request_body": "delivery_boy[lat]=3278789789",
       "request_headers": {
-        "Access-Token": "gHvVzZj57RAKAnrWqtnjbQ",
+        "Access-Token": "JW9KGS-WGWx_t2QQ9Axg6w",
         "Token-Type": "Bearer",
-        "Client": "oSNAoGnqaapJklVRWCJdPg",
-        "Expiry": "1458315378",
-        "Uid": "149lincoln_padberg@nikolausmacgyver.co",
+        "Client": "8yct5d4f7raw5yj7XVhQEQ",
+        "Expiry": "1458397086",
+        "Uid": "156christy.frami@lang.biz",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -51,13 +51,13 @@
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "text/html",
         "Cache-Control": "no-cache",
-        "Set-Cookie": "_session_id=MjJaYVJWRHhZSXVoYTgrNzNGNnUzNVJSaGpPdGg1ODR4UWt4VitQUFc3cHBXY3Jvd3lIS251czBGaVVJN052Zy9mU1ROeXJYelo0MkI0anN5WDNjOWtnT3VrVzlLT2NQWGtZbXd3K2U3NEluWjRlRCs1dVdQNmhlQXVRRG5nbVYwalRoK1kwazZteCtJYTdsUjgzYTIwWnBMMnRuWGNwa0tHQ1ErQmdmTEFTVzYrMERtWE1WaE4wMmtPVVdiTVhaLS1WUklVTTZBTGJGNTgxZkN0c3o0VVJ3PT0%3D--352829539c4159108147a4bf746e6b347244d29a; path=/; HttpOnly",
-        "X-Request-Id": "4f001ed6-4374-44d9-90e5-dbc13e373b50",
-        "X-Runtime": "0.090666",
+        "Set-Cookie": "_session_id=TVhLVC9La2ZPQVd5TTlsVzM2d1BCd1JSbmN4WER2eTNZYjlIZXgzcTVnRUdQM2VMZVpkQk1Fb1lWb2Y0SlJtTzFNYVNmaEdhc3NKK0dUMlJ4U2FDTGozOUw1b0Yvd1FQbUpTWjZ2NGxRbkF2RStHa2VtczUxbGNPbnl3akN6dFhXMnE0bTJpYThZNElxMHBnbTB6dTNVdnNZY095WjZ6SXpsN3VPSXdYNVlBTVdnSjFubmlxRy9Wb0xBSE40UGdXLS01YVoybjBuM29scStlOEFYaGxVdDRRPT0%3D--1c2718510f4f71a8efa564076751092624de5699; path=/; HttpOnly",
+        "X-Request-Id": "1ee9c6a9-b667-4336-8be8-70d25fd939d4",
+        "X-Runtime": "0.090168",
         "Content-Length": "0"
       },
       "response_content_type": "text/html",
-      "curl": "curl \"http://localhost:3000/deliver/delivery_boy\" -d 'delivery_boy[lat]=3278789789' -X PUT \\\n\t-H \"Access-Token: gHvVzZj57RAKAnrWqtnjbQ\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: oSNAoGnqaapJklVRWCJdPg\" \\\n\t-H \"Expiry: 1458315378\" \\\n\t-H \"Uid: 149lincoln_padberg@nikolausmacgyver.co\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/deliver/delivery_boy\" -d 'delivery_boy[lat]=3278789789' -X PUT \\\n\t-H \"Access-Token: JW9KGS-WGWx_t2QQ9Axg6w\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: 8yct5d4f7raw5yj7XVhQEQ\" \\\n\t-H \"Expiry: 1458397086\" \\\n\t-H \"Uid: 156christy.frami@lang.biz\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

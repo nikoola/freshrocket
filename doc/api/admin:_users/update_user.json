@@ -16,11 +16,11 @@
       "request_path": "/admin/users/1",
       "request_body": "user[email]=hi%40hi.hey&user[phone]=%2B79177878978",
       "request_headers": {
-        "Access-Token": "IWSbNCxILETeyeEn4YIxFw",
+        "Access-Token": "0LpvjnnoPQe7mIBzUXv_Uw",
         "Token-Type": "Bearer",
-        "Client": "FQAJtnAR6QrEYxhBNEH-1g",
-        "Expiry": "1458315367",
-        "Uid": "82dillon_pfannerstill@boyeroconner.com",
+        "Client": "OlKaYPl-VwIkXKAT-Rh4mQ",
+        "Expiry": "1458397075",
+        "Uid": "89calista.schimmel@krajcik.com",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -30,21 +30,21 @@
       "request_content_type": "application/x-www-form-urlencoded",
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\n  \"id\": 1,\n  \"first_name\": \"Pamela\",\n  \"last_name\": \"Kuhn\",\n  \"email\": \"hi@hi.hey\",\n  \"phone\": \"+79177878978\",\n  \"is_verified\": false,\n  \"provider\": \"email\",\n  \"uid\": \"hi@hi.hey\",\n  \"created_at\": \"2016-03-04T15:36:07.315Z\",\n  \"abilities\": {\n    \"orders\": 0,\n    \"products\": 0,\n    \"users\": 0,\n    \"categories\": 1,\n    \"coupons\": 0,\n    \"settings\": 0,\n    \"cities\": 0,\n    \"delivery_boy\": 0\n  }\n}",
+      "response_body": "{\n  \"id\": 1,\n  \"first_name\": \"Wilfrid\",\n  \"last_name\": \"Marks\",\n  \"email\": \"hi@hi.hey\",\n  \"phone\": \"+79177878978\",\n  \"is_verified\": false,\n  \"provider\": \"email\",\n  \"uid\": \"hi@hi.hey\",\n  \"created_at\": \"2016-03-05T14:17:55.540Z\",\n  \"abilities\": {\n    \"orders\": 0,\n    \"products\": 0,\n    \"users\": 0,\n    \"categories\": 1,\n    \"coupons\": 0,\n    \"settings\": 0,\n    \"cities\": 0,\n    \"delivery_boy\": 0\n  }\n}",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"71767e24164ac2f2ad082225bf044a30\"",
+        "ETag": "W/\"4f20a1d759a9084ac3c32bab26681ef9\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=WDJ4aC9kWWRMR200dTkyQWkzQWNCbW43SFVodVFxYWMrcC9FUHI1MzhWK2x1R1lMb21uRmhRRkhkYW9qendQdTcwcUdTR2s2bVdKVDBjRUxUZkFOR3JDOW9QZ1hhZ3BvRWNmNTJhcWlaY01sODhoQ0FoT1BJeTZlZnc2S0FYR1ZqT2RtTUV0Q2x1R2hSVkxEUGJ2UG5ZVm1rRjdoRHl6Zyt6QXk5ckJId0paTnF4OWhYZVRLei9hR1dMVXZkVUdnLS1FeDhPWjNyS0h5ODcwOVpJNEw5WEZRPT0%3D--40b424de4488179875fc1d83f4d8082d0070241f; path=/; HttpOnly",
-        "X-Request-Id": "e72c4acc-8e65-4a10-8316-02122004e28e",
-        "X-Runtime": "0.083222",
-        "Content-Length": "305"
+        "Set-Cookie": "_session_id=aFpRTjVJVFA5b2pEakxkRzJUcmxGSFdqRkZJMGd6NThwT1MvRzA3ME1ZbE52ZkxueEtwWVRCYXJtcE9yTkVHc3h1N052SVI4OVByUmI5ZmZCOXdtZWdCeUxWQWxxU0sxMkl4Um51VGdLN1JWTU1iZWRTOWZERXNnV1ptdFVqdGkwSmwwNEJjbE55RnZDMFNwVDkxeHptTFNTQXNHa0luT2hCdnFnbXVPak5yRTB2R3VYMmt1WHYrMmhIY2I4Ky9qLS1VTzN0ODBzN3J0ZHcvUGYxWWdWT09nPT0%3D--30c9178a2192b96db58567fbc0e36746d0632ead; path=/; HttpOnly",
+        "X-Request-Id": "b3c48ce0-7cde-48fa-9f77-4ad8c41f94d9",
+        "X-Runtime": "0.090444",
+        "Content-Length": "307"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/admin/users/1\" -d 'user[email]=hi%40hi.hey&user[phone]=%2B79177878978' -X PUT \\\n\t-H \"Access-Token: IWSbNCxILETeyeEn4YIxFw\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: FQAJtnAR6QrEYxhBNEH-1g\" \\\n\t-H \"Expiry: 1458315367\" \\\n\t-H \"Uid: 82dillon_pfannerstill@boyeroconner.com\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/admin/users/1\" -d 'user[email]=hi%40hi.hey&user[phone]=%2B79177878978' -X PUT \\\n\t-H \"Access-Token: 0LpvjnnoPQe7mIBzUXv_Uw\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: OlKaYPl-VwIkXKAT-Rh4mQ\" \\\n\t-H \"Expiry: 1458397075\" \\\n\t-H \"Uid: 89calista.schimmel@krajcik.com\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

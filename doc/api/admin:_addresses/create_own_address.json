@@ -43,13 +43,13 @@
     {
       "request_method": "POST",
       "request_path": "/admin/addresses",
-      "request_body": "address[street_and_house]=207+Spinka+Lights&address[door_number]=5&address[city_id]=1&address[user_id]=1",
+      "request_body": "address[street_and_house]=2455+Shaina+Club&address[door_number]=5&address[city_id]=1&address[user_id]=1",
       "request_headers": {
-        "Access-Token": "LTbazvHwlTSONSZM1k0uoQ",
+        "Access-Token": "RYTuzjo-_DIES6TqI1SZ6w",
         "Token-Type": "Bearer",
-        "Client": "0T5BEvxHbB3Jw4ZFpxcriw",
-        "Expiry": "1458315358",
-        "Uid": "7treie@gottlieb.info",
+        "Client": "JHTAHEy5_bsMR3MOHq9e2A",
+        "Expiry": "1458397066",
+        "Uid": "7giuseppe.auer@heidenreich.co",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -59,21 +59,21 @@
       "request_content_type": "application/x-www-form-urlencoded",
       "response_status": 201,
       "response_status_text": "Created",
-      "response_body": "{\n  \"id\": 1,\n  \"city_id\": 1,\n  \"user_id\": 1,\n  \"street_and_house\": \"207 Spinka Lights\",\n  \"door_number\": \"5\"\n}",
+      "response_body": "{\n  \"id\": 1,\n  \"city_id\": 1,\n  \"user_id\": 1,\n  \"street_and_house\": \"2455 Shaina Club\",\n  \"door_number\": \"5\"\n}",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"aaa95ad511e4d5acdd903beec9ee9ff2\"",
+        "ETag": "W/\"509b89f4203b6168509ae2c60d5071bb\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=R2JnTk0rZlZ4KzdPSGR0ZHEwdy8xTzc4dWZ3YjBxdllVTzdmN0twZDFaN3pMWHZEbE5ocm9wUjhYS01zNE9sZTZlQlE4ZU1wS0dSZkppOEpieEJONE05bFlzVy9nVWd2R2l1bFBaWGdSdWE3eVdkZzdmQnN0am9rVHpnQ1RuK2pzNTd5Z1dKR29aaWFXU3BmOHhuZHh6SVRKbjVMbUlXUnZpNU9BZ1dkMWd2ajFwbnJXZk5IWTJ4TWFLTXJnL3FGLS1CU1B6b2ttaUZsNGJsQnMySTY2V3dnPT0%3D--823ff40faa00332781cde04a8ab260e6c1da1008; path=/; HttpOnly",
-        "X-Request-Id": "cdee1514-0e94-4439-b383-84c1d05cb8e8",
-        "X-Runtime": "0.083917",
-        "Content-Length": "89"
+        "Set-Cookie": "_session_id=UlQ1STRFQno3RlJGNzdETmFMeWxEV2cwTzFhVHgxQXpnMVhxM0cxUVdJR3Btb3NqMGE0c0VPM2ltSjlPaGN5WnJPU1hoV1YxeXE0NXJ6SDcxWHpsYW94TlRoeGhhcGZ6c3JaUVhHb1ZrcmRXYzNLWU52ZjZ2YUk0OGlWK3lSbm9DVG1JVlhSMDJwc0JnaFRvWFNnTHIyaGM5VUpEVFN3MlVLeW9yYjB4MzVsWGJxOGlnSHMwL0FiQUJac2pXejVULS1LUUNzQjRqalVGK1M1OTlMNXBpQkZBPT0%3D--cb9013a0f499bb519ccdc1f1fd13897c54cbcdad; path=/; HttpOnly",
+        "X-Request-Id": "2e514db5-7794-4a5d-9994-af92a67f5f5b",
+        "X-Runtime": "0.097115",
+        "Content-Length": "88"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/admin/addresses\" -d 'address[street_and_house]=207+Spinka+Lights&address[door_number]=5&address[city_id]=1&address[user_id]=1' -X POST \\\n\t-H \"Access-Token: LTbazvHwlTSONSZM1k0uoQ\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: 0T5BEvxHbB3Jw4ZFpxcriw\" \\\n\t-H \"Expiry: 1458315358\" \\\n\t-H \"Uid: 7treie@gottlieb.info\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/admin/addresses\" -d 'address[street_and_house]=2455+Shaina+Club&address[door_number]=5&address[city_id]=1&address[user_id]=1' -X POST \\\n\t-H \"Access-Token: RYTuzjo-_DIES6TqI1SZ6w\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: JHTAHEy5_bsMR3MOHq9e2A\" \\\n\t-H \"Expiry: 1458397066\" \\\n\t-H \"Uid: 7giuseppe.auer@heidenreich.co\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

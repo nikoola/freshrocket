@@ -23,7 +23,7 @@
     {
       "request_method": "POST",
       "request_path": "/auth/sign_in",
-      "request_body": "email=102sammy.schmidt%40mcglynn.biz&password=secrety_bickety",
+      "request_body": "email=109lawson%40jones.io&password=secrety_bickety",
       "request_headers": {
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
@@ -34,25 +34,25 @@
       "request_content_type": "application/x-www-form-urlencoded",
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\n  \"data\": {\n    \"id\": 1,\n    \"first_name\": \"Luz\",\n    \"last_name\": \"Ziemann\",\n    \"email\": \"102sammy.schmidt@mcglynn.biz\",\n    \"provider\": \"email\",\n    \"uid\": \"102sammy.schmidt@mcglynn.biz\",\n    \"phone\": \"917137631539\",\n    \"verification_code\": null,\n    \"is_verified\": false,\n    \"how_did_you_hear_about_us\": null\n  }\n}",
+      "response_body": "{\n  \"data\": {\n    \"id\": 1,\n    \"first_name\": \"Marlon\",\n    \"last_name\": \"Waelchi\",\n    \"email\": \"109lawson@jones.io\",\n    \"provider\": \"email\",\n    \"uid\": \"109lawson@jones.io\",\n    \"phone\": \"916480611069\",\n    \"verification_code\": null,\n    \"is_verified\": false,\n    \"how_did_you_hear_about_us\": null\n  }\n}",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
-        "access-token": "pLAHzUjnL4BuguZv3bzoHg",
+        "access-token": "hwH5BV7ngcLq2ViMwSRhRQ",
         "token-type": "Bearer",
-        "client": "TrnVz5wwRsjAAs353gU3nQ",
-        "expiry": "1458315369",
-        "uid": "102sammy.schmidt@mcglynn.biz",
+        "client": "4-Y59AWhCNhDY3kNXUOSAQ",
+        "expiry": "1458397078",
+        "uid": "109lawson@jones.io",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"d87ffc82bba19b8ab49439ce78339ff2\"",
+        "ETag": "W/\"657c1979ea1f51f64bfd074ae6978d33\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "X-Request-Id": "501956cb-05c0-4424-9460-d905b08c4667",
-        "X-Runtime": "0.159670",
-        "Content-Length": "254"
+        "X-Request-Id": "a47bc066-bf0b-437f-96c0-5e4371691d85",
+        "X-Runtime": "0.203887",
+        "Content-Length": "237"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/auth/sign_in\" -d 'email=102sammy.schmidt%40mcglynn.biz&password=secrety_bickety' -X POST \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/auth/sign_in\" -d 'email=109lawson%40jones.io&password=secrety_bickety' -X POST \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

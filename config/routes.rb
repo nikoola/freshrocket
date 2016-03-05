@@ -65,7 +65,9 @@ Rails.application.routes.draw do
 		resource  :settings,      only: [:show, :update]
 		resources :coupons,       only: [:index, :create, :update, :destroy]
 		resources :cities,        only: [:create, :update, :destroy]
-		resources :addresses,   only: [:index, :create, :update, :destroy]
+		resources :addresses,     only: [:index, :create, :update, :destroy]
+
+		get '/stats' => 'stats#stats'
 	end
 
 
@@ -83,14 +85,6 @@ Rails.application.routes.draw do
 	mount Sidekiq::Web => '/sidekiq'
 
 
-
-
-# models/orders/line_item.rb
-# models/order.rb
-
-
-
-# I don't need a line_item controller, I'll interact with line_items through orders.
 
 
 

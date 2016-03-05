@@ -13,37 +13,37 @@
   "requests": [
     {
       "request_method": "GET",
-      "request_path": "/auth/validate_token?access-token=tZVugl8L_GX0W-UYrxtcTA&token-type=Bearer&client=TBROH3xd764kEHt2M4eYww&expiry=1458315369&uid=104filiberto%40bartolettireichel.co",
+      "request_path": "/auth/validate_token?access-token=ntcg4d6mOFnHmxzYEeGpeQ&token-type=Bearer&client=mXy2KwNv25aZoZFlqt_bjQ&expiry=1458397078&uid=111tom%40jenkins.net",
       "request_body": null,
       "request_headers": {
         "Host": "example.org",
         "Cookie": ""
       },
       "request_query_parameters": {
-        "access-token": "tZVugl8L_GX0W-UYrxtcTA",
+        "access-token": "ntcg4d6mOFnHmxzYEeGpeQ",
         "token-type": "Bearer",
-        "client": "TBROH3xd764kEHt2M4eYww",
-        "expiry": "1458315369",
-        "uid": "104filiberto@bartolettireichel.co"
+        "client": "mXy2KwNv25aZoZFlqt_bjQ",
+        "expiry": "1458397078",
+        "uid": "111tom@jenkins.net"
       },
       "request_content_type": null,
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\n  \"success\": true,\n  \"data\": {\n    \"id\": 1,\n    \"first_name\": \"Enola\",\n    \"last_name\": \"Carroll\",\n    \"email\": \"104filiberto@bartolettireichel.co\",\n    \"phone\": \"917881376099\",\n    \"is_verified\": false,\n    \"provider\": \"email\",\n    \"uid\": \"104filiberto@bartolettireichel.co\",\n    \"created_at\": \"2016-03-04T15:36:09.917Z\",\n    \"abilities\": {\n      \"orders\": 0,\n      \"products\": 0,\n      \"users\": 0,\n      \"categories\": 0,\n      \"coupons\": 0,\n      \"settings\": 0,\n      \"cities\": 0,\n      \"delivery_boy\": 0\n    }\n  }\n}",
+      "response_body": "{\n  \"success\": true,\n  \"data\": {\n    \"id\": 1,\n    \"first_name\": \"Mohammed\",\n    \"last_name\": \"Kozey\",\n    \"email\": \"111tom@jenkins.net\",\n    \"phone\": \"918778135176\",\n    \"is_verified\": false,\n    \"provider\": \"email\",\n    \"uid\": \"111tom@jenkins.net\",\n    \"created_at\": \"2016-03-05T14:17:58.234Z\",\n    \"abilities\": {\n      \"orders\": 0,\n      \"products\": 0,\n      \"users\": 0,\n      \"categories\": 0,\n      \"coupons\": 0,\n      \"settings\": 0,\n      \"cities\": 0,\n      \"delivery_boy\": 0\n    }\n  }\n}",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"925f0a241c7c8ed13d9bb0824ae68af8\"",
+        "ETag": "W/\"5ef6f1cfd0148d23e3876508b74690c7\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=ZTJNSmNFQmt4OXBmOUE3NWxtS1U3c0lwckd5cThBV3pGWW40QWF4ck1sRk83U1did3VBTnV6OFI1R1hrUTFxYlNPVE1qS2QrcUFkRENKZDhnQzhTQkV4M3N3SUJNWURpbXoxTXNBZi92eWpuUzBhQUl6b1p3b2E2OUtjZHA2UHZnMUpKZWk2bUVrUDUzV041a0F5RXo5L0dlZkRMUVFzMWR2ZXN1SXJpQTF2bFFtU0R1aEp2ZE9TT3dKS0dRMW1OLS1aY0VJakpjQ2ZiSmlpMi9BT1VsdE9nPT0%3D--2ff481c5b21ae749684191bf6bd64f51fbf8034f; path=/; HttpOnly",
-        "X-Request-Id": "b66c14fd-d7e4-46f0-9f12-c946a9f6c141",
-        "X-Runtime": "0.079994",
-        "Content-Length": "379"
+        "Set-Cookie": "_session_id=M3lQRVJ3dS9CVUplb0JmdGJXc0R2eTZURUVvTFVSdVA2L2ZLaWVmY1BFS1BTRVJXajE0SW9nQUJwVTVLclYzd3BYekUzUDlhYVF0eGZQaWNJSEJKZjdnWjQ2WGJiNFBEcERnWjk1VEVDdFpBd2ZLdVdlZFdiajI1MzlxM0g0OVc1UXpRZ3UxS3NBSG8yYjFPODFHaDN4SlpUeUlrSGk3dkloTkhnZmNNbTNwSWs2ck8yZG1KUThDNjhjOXpYRFpwLS1udXBueHZmM2o0VXorY1FzNkFlaWtnPT0%3D--a45e90f74b11e61719469a673ec1ba626f752987; path=/; HttpOnly",
+        "X-Request-Id": "ddc5d415-1000-4bc0-b4a3-db9b22259c13",
+        "X-Runtime": "0.077638",
+        "Content-Length": "350"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/auth/validate_token?access-token=tZVugl8L_GX0W-UYrxtcTA&token-type=Bearer&client=TBROH3xd764kEHt2M4eYww&expiry=1458315369&uid=104filiberto%40bartolettireichel.co\" -X GET \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/auth/validate_token?access-token=ntcg4d6mOFnHmxzYEeGpeQ&token-type=Bearer&client=mXy2KwNv25aZoZFlqt_bjQ&expiry=1458397078&uid=111tom%40jenkins.net\" -X GET \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

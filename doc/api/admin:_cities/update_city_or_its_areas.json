@@ -39,13 +39,13 @@
     {
       "request_method": "PUT",
       "request_path": "/admin/cities/1",
-      "request_body": "city[name]=Port+Hansland_11&city[areas_attributes][][id]=1&city[areas_attributes][][_destroy]=1",
+      "request_body": "city[name]=Ericaville_11&city[areas_attributes][][id]=1&city[areas_attributes][][_destroy]=1",
       "request_headers": {
-        "Access-Token": "Y1q6IlZovfW-BMjCom5ekQ",
+        "Access-Token": "X1l3xRanoUOR2hiIFxOthA",
         "Token-Type": "Bearer",
-        "Client": "7QBCd_CqnMxaQCuLbD3lVw",
-        "Expiry": "1458315359",
-        "Uid": "16elisha@schroeder.co",
+        "Client": "wgNhZljMlJR4KFV71eUC4g",
+        "Expiry": "1458397067",
+        "Uid": "16ethan_kovacek@rosenbaum.name",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -55,21 +55,21 @@
       "request_content_type": "application/x-www-form-urlencoded",
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\n  \"id\": 1,\n  \"name\": \"Port Hansland_11\",\n  \"active\": true,\n  \"areas\": [\n\n  ]\n}",
+      "response_body": "{\n  \"id\": 1,\n  \"name\": \"Ericaville_11\",\n  \"active\": true,\n  \"areas\": [\n\n  ]\n}",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"c3400f0230653cb40d78e68b0b61ba73\"",
+        "ETag": "W/\"83a1c6812f76efde0fca0e71fa10d49f\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=WWl4VkNyVlMvdFliL1VkREZ2TzVlOE0rbEJQVjZSNDJ2YnlFMi9VV3ZjaktuSFhQc3VTK0NxVU14N25Ubzk3b2RzSW1BaXd0RHZLeUZUWVhUZXdaTk5mNDFvbXlyZ2lURjlCVHF4T3pYNVpGMVdKbDh1T3orVkZzVHB6aEZuN0g3alJOSGpITzByb2Y2RGVsUkEza2xFNUJWWG9DeVNzU2dQMUVZeFVML05lRkcyU1hxaXhhM3JjMkxGWUhROEhyLS12b1ZuU0EvSTI5NVBaSVZvdzdicEFBPT0%3D--134f2e50cabe63a4b6899aba9f03d53eaf935ed4; path=/; HttpOnly",
-        "X-Request-Id": "eb0a30f7-e265-4aa9-87cd-364fb4396cba",
-        "X-Runtime": "0.082185",
-        "Content-Length": "59"
+        "Set-Cookie": "_session_id=OW8rQnpxcVRrS1pCTWd3UElmaFB6aEIvd1JUNlcwWnpML3UzYmNDMm84d3lwWVpmSEFUMVFoK0lka3MwM3JSdmorUjZsRXZwTVZaUzRtSVkwZ3NialJJYnhKT3gyZTRzSHkwWEU5ZXNsRWkwdDBtYm5oSjk3cHpEVFlSY3ZoVzM3NGJmUlNiU1crbEtuV2JwVUMyY2YrUVZaQnNuNkZuQm5QNGc0UUt4cy9valdPckdSNVZ0V0JUdDZicVhPbWRxLS14d0RLeUhFOW9sRDRRR0V1WmhGMi93PT0%3D--c420e98309f271df6f392da2f06866636356df74; path=/; HttpOnly",
+        "X-Request-Id": "1163b8cc-cda9-4b8c-a03a-d8f849f2d86f",
+        "X-Runtime": "0.079957",
+        "Content-Length": "56"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/admin/cities/1\" -d 'city[name]=Port+Hansland_11&city[areas_attributes][][id]=1&city[areas_attributes][][_destroy]=1' -X PUT \\\n\t-H \"Access-Token: Y1q6IlZovfW-BMjCom5ekQ\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: 7QBCd_CqnMxaQCuLbD3lVw\" \\\n\t-H \"Expiry: 1458315359\" \\\n\t-H \"Uid: 16elisha@schroeder.co\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/admin/cities/1\" -d 'city[name]=Ericaville_11&city[areas_attributes][][id]=1&city[areas_attributes][][_destroy]=1' -X PUT \\\n\t-H \"Access-Token: X1l3xRanoUOR2hiIFxOthA\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: wgNhZljMlJR4KFV71eUC4g\" \\\n\t-H \"Expiry: 1458397067\" \\\n\t-H \"Uid: 16ethan_kovacek@rosenbaum.name\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

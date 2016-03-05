@@ -230,6 +230,18 @@
       ]
     },
     {
+      "name": "admin: stats",
+      "examples": [
+        {
+          "description": "get stats",
+          "link": "admin:_stats/get_stats.json",
+          "groups": "all",
+          "route": "/admin/stats",
+          "method": "get"
+        }
+      ]
+    },
+    {
       "name": "admin: users",
       "examples": [
         {

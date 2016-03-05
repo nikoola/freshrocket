@@ -16,11 +16,11 @@
       "request_path": "/admin/orders/1",
       "request_body": "order[delivery_boy_id]=1",
       "request_headers": {
-        "Access-Token": "F6trnyTeJuDB9h36eNRdTw",
+        "Access-Token": "equ1qkKEa92FuD2S7PE6rA",
         "Token-Type": "Bearer",
-        "Client": "ElWRPOccx7HWtNSlcyOvmw",
-        "Expiry": "1458315362",
-        "Uid": "41olin@cummerata.co",
+        "Client": "gXwq3EowbUJK9L6yBvKxvA",
+        "Expiry": "1458397070",
+        "Uid": "41kathryn@hamill.org",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -30,21 +30,21 @@
       "request_content_type": "application/x-www-form-urlencoded",
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\n  \"id\": 1,\n  \"user_id\": 2,\n  \"status\": \"unconfirmed\",\n  \"created_at\": \"2016-03-04T15:36:02.546Z\",\n  \"comment\": null,\n  \"pure_product_price\": \"27.0\",\n  \"tax\": \"1.35\",\n  \"delivery_charge\": \"200.0\",\n  \"total_price\": \"228.35\",\n  \"delivery_boy_id\": 1,\n  \"wanted_time\": null,\n  \"wanted_date\": null,\n  \"payment_type\": \"cash\",\n  \"is_paid\": false,\n  \"feedback\": null,\n  \"coupon_code\": null,\n  \"source_type\": null,\n  \"line_items\": [\n    {\n      \"id\": 1,\n      \"order_id\": 1,\n      \"product_id\": 1,\n      \"amount\": 3,\n      \"fixed_price\": \"9.0\"\n    },\n    {\n      \"id\": 2,\n      \"order_id\": 1,\n      \"product_id\": 2,\n      \"amount\": 3,\n      \"fixed_price\": \"9.0\"\n    },\n    {\n      \"id\": 3,\n      \"order_id\": 1,\n      \"product_id\": 3,\n      \"amount\": 3,\n      \"fixed_price\": \"9.0\"\n    }\n  ],\n  \"address\": {\n    \"id\": 1,\n    \"city_id\": 1,\n    \"user_id\": 3,\n    \"street_and_house\": \"551 Rodolfo Trafficway\",\n    \"door_number\": \"5\"\n  }\n}",
+      "response_body": "{\n  \"id\": 1,\n  \"user_id\": 2,\n  \"status\": \"unconfirmed\",\n  \"created_at\": \"2016-03-05T14:17:50.362Z\",\n  \"comment\": null,\n  \"pure_product_price\": \"27.0\",\n  \"tax\": \"1.35\",\n  \"delivery_charge\": \"200.0\",\n  \"total_price\": \"228.35\",\n  \"delivery_boy_id\": 1,\n  \"wanted_time\": null,\n  \"wanted_date\": null,\n  \"payment_type\": \"cash\",\n  \"is_paid\": false,\n  \"feedback\": null,\n  \"coupon_code\": null,\n  \"source_type\": null,\n  \"line_items\": [\n    {\n      \"id\": 1,\n      \"order_id\": 1,\n      \"product_id\": 1,\n      \"amount\": 3,\n      \"fixed_price\": \"9.0\"\n    },\n    {\n      \"id\": 2,\n      \"order_id\": 1,\n      \"product_id\": 2,\n      \"amount\": 3,\n      \"fixed_price\": \"9.0\"\n    },\n    {\n      \"id\": 3,\n      \"order_id\": 1,\n      \"product_id\": 3,\n      \"amount\": 3,\n      \"fixed_price\": \"9.0\"\n    }\n  ],\n  \"address\": {\n    \"id\": 1,\n    \"city_id\": 1,\n    \"user_id\": 3,\n    \"street_and_house\": \"88429 Olson Creek\",\n    \"door_number\": \"5\"\n  }\n}",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"c48f874707348ef8266ab8dd972c914b\"",
+        "ETag": "W/\"948fabb359fbd05c4d6084e1c0628c1e\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=ZmxOVERoY3RXZjY2V1J6dDMwd1ZZYVBreS81V0E5MDJDcS9oSmJrNUlVcmRJeVZCQk1STVAwb3ZRZ0pCMHZzbzNtWUdnWnRoWTZ5dGlDV3hWdG13cmNjRllGUHZYL3RteUVWRTl1MVhxZDdydzBzME9zb2htTmxMajhGdFNvTHNwRG5UZmRRU1JTWmwyZGUzSE9PQTlhdXkzZitFWWJQODRFZ3g1Q2lib3l4c3BIOU5UNEtPaFNSNWlqbjcrMStrLS00NFF6VENNK2o3RVlIRi9VbWdrcnhnPT0%3D--36a231475e2a7f7b4bb7099d4c7c5341ab0e43d2; path=/; HttpOnly",
-        "X-Request-Id": "79f4606d-901c-4c5d-954e-3647f5193f99",
-        "X-Runtime": "0.084827",
-        "Content-Length": "662"
+        "Set-Cookie": "_session_id=d25RU2EzbW9pQzlydjZ0dzBTQitaS2dZOHZJR3FKemtadHZCdzl5RWtyMm1ZYmZrcnFYd0hIM0VkSWhvaUNZVGRLMGVnSWJFblNIM01Zek5KUlRLeXZQQnp0aWtQUkppZjgrU0JOQjF2bFJvdHlvNXljWmFzbHhGS1ZvQzBocENkcTJadmJMM1NsN3FaV21LVmM5UGgzNTdIZzlDVnJqU0Y0eFJLQm9tdmxzYUxDRnZGd0ZhZmdON3RST3AyMEpHLS1KbjlIcWhMSGcrVEJmSWhBMVk1ckFBPT0%3D--6c5672a14f1f2f78f474e6b312772ad1c2434af9; path=/; HttpOnly",
+        "X-Request-Id": "479ebd66-8f11-43bb-aba5-145ad1896ca6",
+        "X-Runtime": "0.084351",
+        "Content-Length": "657"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/admin/orders/1\" -d 'order[delivery_boy_id]=1' -X PUT \\\n\t-H \"Access-Token: F6trnyTeJuDB9h36eNRdTw\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: ElWRPOccx7HWtNSlcyOvmw\" \\\n\t-H \"Expiry: 1458315362\" \\\n\t-H \"Uid: 41olin@cummerata.co\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/admin/orders/1\" -d 'order[delivery_boy_id]=1' -X PUT \\\n\t-H \"Access-Token: equ1qkKEa92FuD2S7PE6rA\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: gXwq3EowbUJK9L6yBvKxvA\" \\\n\t-H \"Expiry: 1458397070\" \\\n\t-H \"Uid: 41kathryn@hamill.org\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

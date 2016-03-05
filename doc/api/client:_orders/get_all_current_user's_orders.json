@@ -16,11 +16,11 @@
       "request_path": "/client/orders",
       "request_body": null,
       "request_headers": {
-        "Access-Token": "q8DpgEgm8ueYImublSOJJA",
+        "Access-Token": "I_mjp_pZy8R1fqPGIPoOaA",
         "Token-Type": "Bearer",
-        "Client": "bEMaWqbOzrQ-NtRb8gRgtQ",
-        "Expiry": "1458315374",
-        "Uid": "109thalia@jakubowski.biz",
+        "Client": "iVbYgDba5MsrSSVIxW4yFQ",
+        "Expiry": "1458397082",
+        "Uid": "116alanis.berge@bauch.com",
         "Host": "example.org",
         "Cookie": ""
       },
@@ -29,21 +29,21 @@
       "request_content_type": null,
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "[\n  {\n    \"id\": 3,\n    \"user_id\": 5,\n    \"status\": \"unconfirmed\",\n    \"created_at\": \"2016-03-04T15:36:14.027Z\",\n    \"comment\": null,\n    \"pure_product_price\": \"27.0\",\n    \"tax\": \"1.35\",\n    \"delivery_charge\": \"200.0\",\n    \"total_price\": \"228.35\",\n    \"delivery_boy_id\": null,\n    \"wanted_time\": null,\n    \"wanted_date\": null,\n    \"payment_type\": \"cash\",\n    \"is_paid\": false,\n    \"feedback\": null,\n    \"coupon_code\": null,\n    \"source_type\": null,\n    \"line_items\": [\n      {\n        \"id\": 7,\n        \"order_id\": 3,\n        \"product_id\": 7,\n        \"amount\": 3,\n        \"fixed_price\": \"9.0\"\n      },\n      {\n        \"id\": 8,\n        \"order_id\": 3,\n        \"product_id\": 8,\n        \"amount\": 3,\n        \"fixed_price\": \"9.0\"\n      },\n      {\n        \"id\": 9,\n        \"order_id\": 3,\n        \"product_id\": 9,\n        \"amount\": 3,\n        \"fixed_price\": \"9.0\"\n      }\n    ],\n    \"address\": {\n      \"id\": 3,\n      \"city_id\": 9,\n      \"user_id\": 6,\n      \"street_and_house\": \"3442 Ullrich Cove\",\n      \"door_number\": \"5\"\n    }\n  }\n]",
+      "response_body": "[\n  {\n    \"id\": 3,\n    \"user_id\": 5,\n    \"status\": \"unconfirmed\",\n    \"created_at\": \"2016-03-05T14:18:02.204Z\",\n    \"comment\": null,\n    \"pure_product_price\": \"27.0\",\n    \"tax\": \"1.35\",\n    \"delivery_charge\": \"200.0\",\n    \"total_price\": \"228.35\",\n    \"delivery_boy_id\": null,\n    \"wanted_time\": null,\n    \"wanted_date\": null,\n    \"payment_type\": \"cash\",\n    \"is_paid\": false,\n    \"feedback\": null,\n    \"coupon_code\": null,\n    \"source_type\": null,\n    \"line_items\": [\n      {\n        \"id\": 7,\n        \"order_id\": 3,\n        \"product_id\": 7,\n        \"amount\": 3,\n        \"fixed_price\": \"9.0\"\n      },\n      {\n        \"id\": 8,\n        \"order_id\": 3,\n        \"product_id\": 8,\n        \"amount\": 3,\n        \"fixed_price\": \"9.0\"\n      },\n      {\n        \"id\": 9,\n        \"order_id\": 3,\n        \"product_id\": 9,\n        \"amount\": 3,\n        \"fixed_price\": \"9.0\"\n      }\n    ],\n    \"address\": {\n      \"id\": 3,\n      \"city_id\": 9,\n      \"user_id\": 6,\n      \"street_and_house\": \"23423 Metz Trace\",\n      \"door_number\": \"5\"\n    }\n  }\n]",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"99e363f353ab4af27efbd14188ae100e\"",
+        "ETag": "W/\"2bdf329bffbe764ff309ae10855267d8\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=ZEJmdEpFaXRUY3Nqd05BU2lZNng2NytXakhRSDNac256MXByMnp2UnRKVUtPcmhhOXJLU2wyeFpNa1JIZGlVOS9GOERxRlJ2Z2V1eDRoMDRZVTZEME5KYy9nM084c1dVZlJMT3ZYUElKdS95QkhXS2VwSzhRUnF6QS8zUk9qcWJJYmRIUEw1YjVpbjEyVEc5N21Nblk3SlZ0dk9FR01TL1JMT2ZnTHlLVE0waW8vdWFSY1F1c21ZVEc4aWVId1laLS1NeVZMcXVhTTJxOGdubisvMDNBalNRPT0%3D--3185957ec856e1e561972fd82360fe82fef40a15; path=/; HttpOnly",
-        "X-Request-Id": "d45979c3-0d09-469c-9198-621f15c76bee",
-        "X-Runtime": "0.085073",
-        "Content-Length": "662"
+        "Set-Cookie": "_session_id=TFgreUVUVFNTa01wdUg4MHRxTjdIMTN6SWQvZWl6eE51eUg4eVRlWW95TkRva2oyUElVYklDSWpRMjRCR0c4TzVPc1FyMTVhWjc5VUVmc25YVDFYZVZMVVd6ZjdpRC9xVXkyVlVReUtpOUQvdUlaRjRMUi8wbHhjajZLU0JuOFFEKzNwaWkzbmpad0N2RkI2SnIzOFB5VzFMVlJMWC9Ta1ArVGI2eUNrYjQvSXErWmNVckxpU3lSRTZKMFJLbFVoLS0vRzRRUElVL2xwaHZZclZRSnJyNlVRPT0%3D--1111e17998f9adea23061664059d86c648bd65d7; path=/; HttpOnly",
+        "X-Request-Id": "34d8b6e5-f6d1-4c6f-846f-a4a9429bd59a",
+        "X-Runtime": "0.084147",
+        "Content-Length": "661"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/client/orders\" -X GET \\\n\t-H \"Access-Token: q8DpgEgm8ueYImublSOJJA\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: bEMaWqbOzrQ-NtRb8gRgtQ\" \\\n\t-H \"Expiry: 1458315374\" \\\n\t-H \"Uid: 109thalia@jakubowski.biz\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/client/orders\" -X GET \\\n\t-H \"Access-Token: I_mjp_pZy8R1fqPGIPoOaA\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: iVbYgDba5MsrSSVIxW4yFQ\" \\\n\t-H \"Expiry: 1458397082\" \\\n\t-H \"Uid: 116alanis.berge@bauch.com\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

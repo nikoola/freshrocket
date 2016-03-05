@@ -27,11 +27,11 @@
       "request_path": "/admin/users?has_abillity=users",
       "request_body": null,
       "request_headers": {
-        "Access-Token": "WWL3QnFuXBjibtdxiShIdw",
+        "Access-Token": "IyVobQcj4whRvSrG9WAjeA",
         "Token-Type": "Bearer",
-        "Client": "afMMLReTbYFINsg0ho9cqA",
-        "Expiry": "1458315366",
-        "Uid": "71emiliano_veum@kovacek.org",
+        "Client": "xi5u8FiOI9pISCNJ7-chcQ",
+        "Expiry": "1458397074",
+        "Uid": "78maribel_raynor@heaney.name",
         "Host": "example.org",
         "Cookie": ""
       },
@@ -41,21 +41,21 @@
       "request_content_type": null,
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "[\n  {\n    \"id\": 2,\n    \"first_name\": \"Providenci\",\n    \"last_name\": \"Rolfson\",\n    \"email\": \"71emiliano_veum@kovacek.org\",\n    \"phone\": \"912815230048\",\n    \"is_verified\": false,\n    \"provider\": \"email\",\n    \"uid\": \"71emiliano_veum@kovacek.org\",\n    \"created_at\": \"2016-03-04T15:36:06.379Z\",\n    \"abilities\": {\n      \"orders\": 0,\n      \"products\": 0,\n      \"users\": 1,\n      \"categories\": 0,\n      \"coupons\": 0,\n      \"settings\": 0,\n      \"cities\": 0,\n      \"delivery_boy\": 0\n    }\n  }\n]",
+      "response_body": "[\n  {\n    \"id\": 2,\n    \"first_name\": \"Marcelina\",\n    \"last_name\": \"Konopelski\",\n    \"email\": \"78maribel_raynor@heaney.name\",\n    \"phone\": \"918490843976\",\n    \"is_verified\": false,\n    \"provider\": \"email\",\n    \"uid\": \"78maribel_raynor@heaney.name\",\n    \"created_at\": \"2016-03-05T14:17:54.609Z\",\n    \"abilities\": {\n      \"orders\": 0,\n      \"products\": 0,\n      \"users\": 1,\n      \"categories\": 0,\n      \"coupons\": 0,\n      \"settings\": 0,\n      \"cities\": 0,\n      \"delivery_boy\": 0\n    }\n  }\n]",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"003d565353e543aa58e91676df0e779f\"",
+        "ETag": "W/\"eb7e3941ab5698ed61cbb1efa0f2fb30\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=RzdUeHQ0UUxVTTVhamNJYy9hRGZ5c3gvVVR2ZFZzWnNPdXFNSFVvdHBKTCsyUW84ZXhQZFZhcmtxTWlvdlRMWWtLNHhkTTZhSXZEM3VqNUZjV010WWFUT25iNGJhY3FsN202SWxDcVQ5MHRaeFhRRDRHMFNua3JVYS9mQzBFdTd3S25TRE1oMjJqeENrcm9qaXRFRGpDdFFib2pLVXJMbDQxQ2N3MFg1RGd5OXMvUHFyV05zR0tKalh0dDdqYzNkLS1PZzNjczhqQVBWcGxyL01KSHpSUXJnPT0%3D--bc1994892c0b3b000f14eb1109819f84794d0919; path=/; HttpOnly",
-        "X-Request-Id": "828e6799-0a29-43ad-9113-5ff5b1f61006",
-        "X-Runtime": "0.082119",
-        "Content-Length": "350"
+        "Set-Cookie": "_session_id=OWUvbHkxVE1IT002YWU1YUU3b3plNldJMHp0U1d1cmdIQkljMVpaMHovVytDTHdxTGc0K0ZlQVpZQTNlMTJINkpONStVdVpBaFdJZksxZDZWVGg4TE51aU8zcEgzckJKNmlTL296OEdjQS8rNmtRL2hJMTE1UThyOFdFR0JZd05pV2FIczIwVXNMS05qVHM2cnAxN0o3UkxYa3hOZkZ0VDI1S1F6bExPc2dscisvTjJheGFmcDdLYUpwaTIwRXYwLS1WdXYvU3FyZ1hqaG5Fc2hqakR0T2R3PT0%3D--a797821da3d5c0613d194cf8f1ada8326962d16f; path=/; HttpOnly",
+        "X-Request-Id": "5edda1b6-e3a2-4430-9e9e-ad11c408f287",
+        "X-Runtime": "0.080511",
+        "Content-Length": "354"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/admin/users?has_abillity=users\" -X GET \\\n\t-H \"Access-Token: WWL3QnFuXBjibtdxiShIdw\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: afMMLReTbYFINsg0ho9cqA\" \\\n\t-H \"Expiry: 1458315366\" \\\n\t-H \"Uid: 71emiliano_veum@kovacek.org\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/admin/users?has_abillity=users\" -X GET \\\n\t-H \"Access-Token: IyVobQcj4whRvSrG9WAjeA\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: xi5u8FiOI9pISCNJ7-chcQ\" \\\n\t-H \"Expiry: 1458397074\" \\\n\t-H \"Uid: 78maribel_raynor@heaney.name\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

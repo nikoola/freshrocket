@@ -16,11 +16,11 @@
       "request_path": "/admin/categories/1",
       "request_body": null,
       "request_headers": {
-        "Access-Token": "cAfNkco43ICenpY79i-fHg",
+        "Access-Token": "8axhixwYr-QfFbw88JQxHw",
         "Token-Type": "Bearer",
-        "Client": "G0kMUWaNHALvw9gcU9R0FQ",
-        "Expiry": "1458315359",
-        "Uid": "14elise_heidenreich@hane.org",
+        "Client": "ffQITwg3Tx2-BARSL700Bw",
+        "Expiry": "1458397067",
+        "Uid": "14jacky.mueller@connswift.io",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -37,13 +37,13 @@
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "text/html",
         "Cache-Control": "no-cache",
-        "Set-Cookie": "_session_id=Q1cvdUw5VWk3MG53SHlFQ3FmQWR4SVZlVUZQdkxoaDl3bjNWaHV0QTd2Q0RSSW01VXpUcTAxYnh4bWJXTVdOdHhWTHdwbGVsQ0VOYkZqUU9LTWJJeUJveU1OMG03T2U3UmJOVXRvbm9GMmVqVk1wL0drSk5STis2clZQRzRObEJtTUx4VnNUcUpSeEo3cnN5ZkxuczczZE14aFFVS2NpSHJwbVROSlhaQ1NNUjdtdmhrTFdna3JHZ3BKbGR1bnBzLS03T2xGZVN5MTlPa3p6UDE4ZHVpVG1RPT0%3D--836ac220a93801b3b148f9240296b0f5275aba4f; path=/; HttpOnly",
-        "X-Request-Id": "673904c7-34e3-4e33-954a-da19ad3ebe8e",
-        "X-Runtime": "0.082465",
+        "Set-Cookie": "_session_id=cGwvNmRZUkhxSHViZVNXRkw5RWhvL2I3U2MrNGFzQkUvNTBVZUNKWHZjWm92dTFvZklNMXk2TitBdGFSMGJUOW5sV09jQjB0WkVvcm9VbUdFMkk0aUdMbTgvMHBDY1hSMDJRb0lWUGlZSDFUMEh3dW1qU0tpVnBHMWhNWUd3MVNtN3ZCai80ZDBCQzFnUHVGWndsQXd2clppekJhak9iVURlYVFyYjh1UFFDNHpGY2RDSFNOd0tGZTZnbWN5cXZELS1wNUdvMmdzNHZnWmlIS2F6SEVRZDFBPT0%3D--1e8fc94df1900756639e17491dd7ce78ded16512; path=/; HttpOnly",
+        "X-Request-Id": "63babcee-41c3-41df-8a88-6fbfb0d84fc4",
+        "X-Runtime": "0.080128",
         "Content-Length": "0"
       },
       "response_content_type": "text/html",
-      "curl": "curl \"http://localhost:3000/admin/categories/1\" -d '' -X DELETE \\\n\t-H \"Access-Token: cAfNkco43ICenpY79i-fHg\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: G0kMUWaNHALvw9gcU9R0FQ\" \\\n\t-H \"Expiry: 1458315359\" \\\n\t-H \"Uid: 14elise_heidenreich@hane.org\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/admin/categories/1\" -d '' -X DELETE \\\n\t-H \"Access-Token: 8axhixwYr-QfFbw88JQxHw\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: ffQITwg3Tx2-BARSL700Bw\" \\\n\t-H \"Expiry: 1458397067\" \\\n\t-H \"Uid: 14jacky.mueller@connswift.io\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

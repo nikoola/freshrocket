@@ -16,11 +16,11 @@
       "request_path": "/client/orders/3",
       "request_body": null,
       "request_headers": {
-        "Access-Token": "qlmLomxIgfsDGF7ZGzSNWw",
+        "Access-Token": "BDBKCmJgjfzIPMnkfI-LLQ",
         "Token-Type": "Bearer",
-        "Client": "UF7XWYKiXhkLF9MZcSy7Bg",
-        "Expiry": "1458315374",
-        "Uid": "113demetris_volkman@kuhlmanroob.io",
+        "Client": "65rEMMFuIZ8idqCflQa8NA",
+        "Expiry": "1458397082",
+        "Uid": "120marion_rodriguez@mcdermottwolff.com",
         "Host": "example.org",
         "Cookie": ""
       },
@@ -29,21 +29,21 @@
       "request_content_type": null,
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\n  \"id\": 3,\n  \"user_id\": 5,\n  \"status\": \"unconfirmed\",\n  \"created_at\": \"2016-03-04T15:36:14.318Z\",\n  \"comment\": null,\n  \"pure_product_price\": \"27.0\",\n  \"tax\": \"1.35\",\n  \"delivery_charge\": \"200.0\",\n  \"total_price\": \"228.35\",\n  \"delivery_boy_id\": null,\n  \"wanted_time\": null,\n  \"wanted_date\": null,\n  \"payment_type\": \"cash\",\n  \"is_paid\": false,\n  \"feedback\": null,\n  \"coupon_code\": null,\n  \"source_type\": null,\n  \"line_items\": [\n    {\n      \"id\": 7,\n      \"order_id\": 3,\n      \"product_id\": 7,\n      \"amount\": 3,\n      \"fixed_price\": \"9.0\"\n    },\n    {\n      \"id\": 8,\n      \"order_id\": 3,\n      \"product_id\": 8,\n      \"amount\": 3,\n      \"fixed_price\": \"9.0\"\n    },\n    {\n      \"id\": 9,\n      \"order_id\": 3,\n      \"product_id\": 9,\n      \"amount\": 3,\n      \"fixed_price\": \"9.0\"\n    }\n  ],\n  \"address\": {\n    \"id\": 3,\n    \"city_id\": 9,\n    \"user_id\": 6,\n    \"street_and_house\": \"4204 Marie Lock\",\n    \"door_number\": \"5\"\n  }\n}",
+      "response_body": "{\n  \"id\": 3,\n  \"user_id\": 5,\n  \"status\": \"unconfirmed\",\n  \"created_at\": \"2016-03-05T14:18:02.508Z\",\n  \"comment\": null,\n  \"pure_product_price\": \"27.0\",\n  \"tax\": \"1.35\",\n  \"delivery_charge\": \"200.0\",\n  \"total_price\": \"228.35\",\n  \"delivery_boy_id\": null,\n  \"wanted_time\": null,\n  \"wanted_date\": null,\n  \"payment_type\": \"cash\",\n  \"is_paid\": false,\n  \"feedback\": null,\n  \"coupon_code\": null,\n  \"source_type\": null,\n  \"line_items\": [\n    {\n      \"id\": 7,\n      \"order_id\": 3,\n      \"product_id\": 7,\n      \"amount\": 3,\n      \"fixed_price\": \"9.0\"\n    },\n    {\n      \"id\": 8,\n      \"order_id\": 3,\n      \"product_id\": 8,\n      \"amount\": 3,\n      \"fixed_price\": \"9.0\"\n    },\n    {\n      \"id\": 9,\n      \"order_id\": 3,\n      \"product_id\": 9,\n      \"amount\": 3,\n      \"fixed_price\": \"9.0\"\n    }\n  ],\n  \"address\": {\n    \"id\": 3,\n    \"city_id\": 9,\n    \"user_id\": 6,\n    \"street_and_house\": \"270 Bailey Valley\",\n    \"door_number\": \"5\"\n  }\n}",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"5ed5307e64c05e3e3f3c0cea1560968b\"",
+        "ETag": "W/\"26cb74384dfdfff528e3baecc8c1e1fd\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=c0p5bGxmY08wMUljSjh3d3ZkeDg3b3c1cTVXaWxNK3owazQ3UnlMcXROMUVzdHJ6MzhZZnFDeFc0QVVnZnJFYlQ0bGU0ZWNDekZRVVJLNmJWR1JuQlFTc20zVWhUd3ZGd2h0TFBldWRLUk4yOG1KTW5VWm9HVTJuVkJwNnUrL3BFR0p2Vndpb2V2eEM5UjNpaEhNRndRYjZFQWdMVW1jVStkc2FOWUtTWGIxcVlCK3RFblg3LzQ2dmZwR2E5NlFwLS1lbE5LSW1qYzZScHdjMGRHRkZyTUxRPT0%3D--4fa4f653e92a7462936b30bc8f45b27c752d0206; path=/; HttpOnly",
-        "X-Request-Id": "84f7b34b-86b8-4737-bef5-fadab5c379a5",
-        "X-Runtime": "0.077089",
-        "Content-Length": "658"
+        "Set-Cookie": "_session_id=QmQvams5WWsxdnIwUkVXRVBheFhxYWRFbzJYZzhELytpMVlSMUV5Rjd5SWR1RmlKamcvc2RBM1VMK3FuVTRmT3krUDhTZUtSekZpTUZlVXVldjcvSktkdlpmV29iVjcybVd1L3BhRnVVMFMzcFNQc2FTS29neTk3S2pYd05FTEZtMDY4YWQxN2xxU2dRbVhCTWpRSHRSQlVpTTlMM2tFd25KMVFMUXc3WWZVRlZnK3ljOCtRVlNiUFdwV21TK1N0LS01QVFUaHpSRlpibHkvY2JYREtDckR3PT0%3D--eb417c415a0d679d1eff37ac7b6d403336d3fde1; path=/; HttpOnly",
+        "X-Request-Id": "faf3e71c-7249-4243-929f-a927fbeac7b0",
+        "X-Runtime": "0.078477",
+        "Content-Length": "660"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/client/orders/3\" -X GET \\\n\t-H \"Access-Token: qlmLomxIgfsDGF7ZGzSNWw\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: UF7XWYKiXhkLF9MZcSy7Bg\" \\\n\t-H \"Expiry: 1458315374\" \\\n\t-H \"Uid: 113demetris_volkman@kuhlmanroob.io\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/client/orders/3\" -X GET \\\n\t-H \"Access-Token: BDBKCmJgjfzIPMnkfI-LLQ\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: 65rEMMFuIZ8idqCflQa8NA\" \\\n\t-H \"Expiry: 1458397082\" \\\n\t-H \"Uid: 120marion_rodriguez@mcdermottwolff.com\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
     }
   ]
 }
