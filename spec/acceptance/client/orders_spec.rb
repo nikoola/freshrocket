@@ -47,6 +47,7 @@ resource 'client: orders', type: :request do
 				:delivery_charge,
 				:total_price,
 				:line_items, :address
+			expect(json.keys).not_to include :admin_comment
 		end
 	end
 
@@ -154,7 +155,7 @@ resource 'client: orders', type: :request do
 			do_request id: user_order.id
 
 			expect(status).to eq(422)
-			expect(json).to include(:order=>["can't be destroyed after confirmation, please try declining"])
+			expect(json).to include(:order=>["can't be destroyed after confirmation, please try calling the support"])
 		end
 	end
 

@@ -1,0 +1,53 @@
+{
+  "resource": "deliver: orders",
+  "http_method": "PUT",
+  "route": "deliver/orders/:id",
+  "description": "update order",
+  "explanation": null,
+  "parameters": [
+    {
+      "name": "is_paid",
+      "description": "true/false"
+    }
+  ],
+  "response_fields": [
+
+  ],
+  "requests": [
+    {
+      "request_method": "PUT",
+      "request_path": "deliver/orders/3",
+      "request_body": "order[is_paid]=true",
+      "request_headers": {
+        "Access-Token": "XXA4KWgU3a-CALJJ6LbbjA",
+        "Token-Type": "Bearer",
+        "Client": "qh5zLHQmkjXD2HDDGoJZhw",
+        "Expiry": "1458483704",
+        "Uid": "168coralie_friesen@bashirian.io",
+        "Host": "example.org",
+        "Content-Type": "application/x-www-form-urlencoded",
+        "Cookie": ""
+      },
+      "request_query_parameters": {
+      },
+      "request_content_type": "application/x-www-form-urlencoded",
+      "response_status": 200,
+      "response_status_text": "OK",
+      "response_body": "{\n  \"id\": 3,\n  \"user_id\": 6,\n  \"status\": \"unconfirmed\",\n  \"created_at\": \"2016-03-06T14:21:44.605Z\",\n  \"pure_product_price\": \"27.0\",\n  \"tax\": \"1.35\",\n  \"delivery_charge\": \"200.0\",\n  \"total_price\": \"228.35\",\n  \"delivery_boy_id\": 1,\n  \"wanted_time\": null,\n  \"wanted_date\": null,\n  \"payment_type\": \"cash\",\n  \"is_paid\": true,\n  \"feedback\": null,\n  \"comment\": null,\n  \"coupon_code\": null,\n  \"source_type\": null,\n  \"line_items\": [\n    {\n      \"id\": 7,\n      \"order_id\": 3,\n      \"product_id\": 7,\n      \"amount\": 3,\n      \"fixed_price\": \"9.0\"\n    },\n    {\n      \"id\": 8,\n      \"order_id\": 3,\n      \"product_id\": 8,\n      \"amount\": 3,\n      \"fixed_price\": \"9.0\"\n    },\n    {\n      \"id\": 9,\n      \"order_id\": 3,\n      \"product_id\": 9,\n      \"amount\": 3,\n      \"fixed_price\": \"9.0\"\n    }\n  ],\n  \"address\": {\n    \"id\": 3,\n    \"city_id\": 9,\n    \"user_id\": 7,\n    \"street_and_house\": \"878 Christiansen Row\",\n    \"door_number\": \"5\"\n  }\n}",
+      "response_headers": {
+        "X-Frame-Options": "SAMEORIGIN",
+        "X-XSS-Protection": "1; mode=block",
+        "X-Content-Type-Options": "nosniff",
+        "Content-Type": "application/json; charset=utf-8",
+        "ETag": "W/\"af233b2a15cbf9db80af5b9dbb802b0b\"",
+        "Cache-Control": "max-age=0, private, must-revalidate",
+        "Set-Cookie": "_session_id=amxUdE5iRkZ1WkNwWDlDNUxTTDc0d3FkR0NJWlQxdDVURzQ4cWFaVk5OWk5SS2NpRk1qUlN2VWF4Y2tJRGtiTzFOem9qc0krdVNtakhUTmVhbUNzU0txTG1xNm9DU2RKdVNaL0Z2SXhqa2FEQ0FzNWlnMVV6U2V6czdkNWllS3o4NUNpdWd6VjNTSUMvT3grWlpKZmwyS2MrMzNhRFd4VDRyWmtJWm9XSmVzanE4N0ZBNERzU3lhbWI2ZDBqZ29ZLS1jelZRWTlGd01COXE0cExuVG9OZm1BPT0%3D--ee7a1ab73ea2720a7d93eaeec0cbce9e54c2a116; path=/; HttpOnly",
+        "X-Request-Id": "5e65ede5-a359-4867-95bf-bede57912bb2",
+        "X-Runtime": "0.085661",
+        "Content-Length": "659"
+      },
+      "response_content_type": "application/json; charset=utf-8",
+      "curl": "curl \"http://localhost:3000deliver/orders/3\" -d 'order[is_paid]=true' -X PUT \\\n\t-H \"Access-Token: XXA4KWgU3a-CALJJ6LbbjA\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: qh5zLHQmkjXD2HDDGoJZhw\" \\\n\t-H \"Expiry: 1458483704\" \\\n\t-H \"Uid: 168coralie_friesen@bashirian.io\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+    }
+  ]
+}

@@ -28,7 +28,7 @@ Rails.application.routes.draw do
 			put  :verify
 		}
 
-		resources :orders,    only: [:index, :show, :create, :update, :destroy] do #TODO can only destroy if order.condirmed? or order.unconfirmed?
+		resources :orders,    only: [:index, :show, :create, :update, :destroy] do
 			member {
 				put :update_status
 			}
@@ -74,11 +74,12 @@ Rails.application.routes.draw do
 
 	namespace :deliver do
 		resource  :delivery_boy,  only: [:update]
-		resources :orders,        only: [:index] do
+		resources :orders,        only: [:index, :update] do
 			member {
 				put :update_status
 			}
 		end
+		
 	end
 
 

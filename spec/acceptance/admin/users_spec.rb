@@ -14,7 +14,7 @@ resource 'admin: users', type: :request do
 	get '/admin/users' do
 		parameter :email_includes, "text included in the user's email"
 		parameter :phone_includes, "text included in the user's phone"
-		parameter :has_abillity,   "[orders products users categories settings delivery_boy] - list users that have following ability."
+		parameter :has_ability,   "[orders products users categories settings delivery_boy] - list users that have following ability."
 
 		it 'nonauthenticated - 401', document: false do
 			get admin_users_path
@@ -29,10 +29,10 @@ resource 'admin: users', type: :request do
 		example 'get all users' do
 			FactoryGirl.create :user
 
-			do_request({ has_abillity: 'users' })
+			do_request({ has_ability: 'users' })
 
 			returned_ids = jsons.pluck(:id)
-			expected_ids = User.has_abillity('users').pluck(:id)
+			expected_ids = User.has_ability('users').pluck(:id)
 
 			expect(status).to eq(200)
 			expect(returned_ids).to match_array(expected_ids)

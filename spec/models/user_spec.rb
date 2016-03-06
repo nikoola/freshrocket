@@ -21,12 +21,12 @@ describe User, type: :model do
 			expect(@user.errors.messages).to include({:abilities => ["wrongy is not a valid ability"]})
 		end
 
-		it '.has_abillity? :products' do
+		it '.has_ability? :products' do
 			@user.ability_list = ['orders']
 			@user.save; @user.reload;
 
-			expect(@user.has_abillity? :orders).to be(true)
-			expect(@user.has_abillity? :products).to be(false)
+			expect(@user.has_ability? :orders).to be(true)
+			expect(@user.has_ability? :products).to be(false)
 		end
 
 		it 'doesnt add tag twice' do

@@ -16,11 +16,11 @@
       "request_path": "/client/orders/3",
       "request_body": null,
       "request_headers": {
-        "Access-Token": "OQkwpUkoLNIIV_r8MMWezA",
+        "Access-Token": "7vUopGb8mAy7Xw_MHjV_Eg",
         "Token-Type": "Bearer",
-        "Client": "wayA_2EI1WVHtXMcQebq3w",
-        "Expiry": "1458397083",
-        "Uid": "131candace@sauerdickens.com",
+        "Client": "NNrdrx1NrstrZ_L58g9-sA",
+        "Expiry": "1458483701",
+        "Uid": "131madie@shieldslockman.org",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -30,20 +30,20 @@
       "request_content_type": "application/x-www-form-urlencoded",
       "response_status": 422,
       "response_status_text": "Unprocessable Entity",
-      "response_body": "{\n  \"order\": [\n    \"can't be destroyed after confirmation, please try declining\"\n  ]\n}",
+      "response_body": "{\n  \"order\": [\n    \"can't be destroyed after confirmation, please try calling the support\"\n  ]\n}",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "application/json; charset=utf-8",
         "Cache-Control": "no-cache",
-        "Set-Cookie": "_session_id=K1lzUEIwSjE5SHFkUFU3S2pXa3JDNmZPYVJkRHZGOEQyK3I3cFJKbnBuaUJhN3VvSFRoRTA5NDhyc1Rya3pHRVYrMFpYSEcveHhYbTU3Q0ZJb0Q5V0tQcFVHd29UMFlVVEtiTnI3cVBsaXdUL0VMeE1uN1RLeXFlZmVEUk5wYjMvWWFSNzIrVDVXRkVJTGszdGM0NDBhcG8yWWdNZ1BLS3RmdWZjTWVBQWI0Sml5RTlITlgxaUdiOEIwS3dNbTVJLS1TRGpPQU9QeDY5aFJFdkJuYU9SbGt3PT0%3D--af8ae61856bd07dbc34fdc7edf413fd074578d34; path=/; HttpOnly",
-        "X-Request-Id": "5ab98e10-8b97-453f-9afb-deae644852f2",
-        "X-Runtime": "0.078133",
-        "Content-Length": "73"
+        "Set-Cookie": "_session_id=L1NRd29CRFJSL2w2VVVGQk96Sm9LdmNqQy9palBUaEFGaXdXcEtxU0krbFdjSVUyZHpCS1BvZ1QyMWliL1FtV3M3dmVFWTgzSHlnUkphWVJMazVDUFdhckJSbzVoc09xYzVjK2l0UnZYckRERzNmdXdjRGN4Q29zcTFnVzBRVzhXeVMzeE5EOTNJcitCRkpjNjFnTVFmL1gyYy94cHlqaXBiSkZQaTREZ3FjTVRreU9nUmhDTzFmc0M4MStTQ3pyLS1VeVA4NFZJR1UrdEsweTlBbUgwZ0NnPT0%3D--84d04c1e5572a8545f7efef331d46db9fb308149; path=/; HttpOnly",
+        "X-Request-Id": "425294db-5aab-4d2c-bfd4-ea6c8dca8fbf",
+        "X-Runtime": "0.077902",
+        "Content-Length": "83"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/client/orders/3\" -d '' -X DELETE \\\n\t-H \"Access-Token: OQkwpUkoLNIIV_r8MMWezA\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: wayA_2EI1WVHtXMcQebq3w\" \\\n\t-H \"Expiry: 1458397083\" \\\n\t-H \"Uid: 131candace@sauerdickens.com\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/client/orders/3\" -d '' -X DELETE \\\n\t-H \"Access-Token: 7vUopGb8mAy7Xw_MHjV_Eg\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: NNrdrx1NrstrZ_L58g9-sA\" \\\n\t-H \"Expiry: 1458483701\" \\\n\t-H \"Uid: 131madie@shieldslockman.org\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

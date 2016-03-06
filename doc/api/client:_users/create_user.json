@@ -47,13 +47,13 @@
     {
       "request_method": "POST",
       "request_path": "/auth",
-      "request_body": "email=147margaretta%40mcglynn.net&password=secrety_bickety&password_confirmation=secrety_bickety&first_name=Gus&last_name=Haley&phone=%2B79172343270",
+      "request_body": "email=147marlen%40johnswolf.net&password=secrety_bickety&password_confirmation=secrety_bickety&first_name=Carmine&last_name=Grant&phone=%2B79172343270",
       "request_headers": {
-        "Access-Token": "oCoC4eB-ZKjXljmu1ccPSQ",
+        "Access-Token": "3ck6J9W5Sh3zx8bN_KjVXg",
         "Token-Type": "Bearer",
-        "Client": "Xc8iLhJc-wv4nLt1Nkc-IQ",
-        "Expiry": "1458397085",
-        "Uid": "148angelina@bartoletti.io",
+        "Client": "Wdtv1azO7t8Ia1ASspMaEw",
+        "Expiry": "1458483702",
+        "Uid": "148saige@harris.org",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -63,25 +63,25 @@
       "request_content_type": "application/x-www-form-urlencoded",
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\n  \"status\": \"success\",\n  \"data\": {\n    \"id\": 6,\n    \"first_name\": \"Gus\",\n    \"last_name\": \"Haley\",\n    \"email\": \"147margaretta@mcglynn.net\",\n    \"provider\": \"email\",\n    \"uid\": \"147margaretta@mcglynn.net\",\n    \"phone\": \"+79172343270\",\n    \"verification_code\": null,\n    \"is_verified\": false,\n    \"created_at\": \"2016-03-05T14:18:05.359Z\",\n    \"updated_at\": \"2016-03-05T14:18:05.499Z\",\n    \"how_did_you_hear_about_us\": null\n  }\n}",
+      "response_body": "{\n  \"status\": \"success\",\n  \"data\": {\n    \"id\": 6,\n    \"first_name\": \"Carmine\",\n    \"last_name\": \"Grant\",\n    \"email\": \"147marlen@johnswolf.net\",\n    \"provider\": \"email\",\n    \"uid\": \"147marlen@johnswolf.net\",\n    \"phone\": \"+79172343270\",\n    \"verification_code\": null,\n    \"is_verified\": false,\n    \"created_at\": \"2016-03-06T14:21:42.807Z\",\n    \"updated_at\": \"2016-03-06T14:21:42.948Z\",\n    \"how_did_you_hear_about_us\": null\n  }\n}",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
-        "access-token": "Q-3JFEruVGbU84f68bnzrw",
+        "access-token": "UqaZb08k62W4fyeyWDRS3A",
         "token-type": "Bearer",
-        "client": "8h5nehbJFcTovbffL7njpg",
-        "expiry": "1458397085",
-        "uid": "147margaretta@mcglynn.net",
+        "client": "6COst4VmZA3LA6-Jnw4PQw",
+        "expiry": "1458483702",
+        "uid": "147marlen@johnswolf.net",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"a880f5a1ee8e455b4376a3fcf17c9879\"",
+        "ETag": "W/\"a510b683d5669b8c56cb8ca124bb29cb\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "X-Request-Id": "92c3fd28-5ece-46a4-a3ef-1d1359015089",
-        "X-Runtime": "0.157212",
+        "X-Request-Id": "0b3384a4-7b84-45c0-8ec8-bcb1fcf9eb09",
+        "X-Runtime": "0.159059",
         "Content-Length": "345"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/auth\" -d 'email=147margaretta%40mcglynn.net&password=secrety_bickety&password_confirmation=secrety_bickety&first_name=Gus&last_name=Haley&phone=%2B79172343270' -X POST \\\n\t-H \"Access-Token: oCoC4eB-ZKjXljmu1ccPSQ\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: Xc8iLhJc-wv4nLt1Nkc-IQ\" \\\n\t-H \"Expiry: 1458397085\" \\\n\t-H \"Uid: 148angelina@bartoletti.io\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/auth\" -d 'email=147marlen%40johnswolf.net&password=secrety_bickety&password_confirmation=secrety_bickety&first_name=Carmine&last_name=Grant&phone=%2B79172343270' -X POST \\\n\t-H \"Access-Token: 3ck6J9W5Sh3zx8bN_KjVXg\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: Wdtv1azO7t8Ia1ASspMaEw\" \\\n\t-H \"Expiry: 1458483702\" \\\n\t-H \"Uid: 148saige@harris.org\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

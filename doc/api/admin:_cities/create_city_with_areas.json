@@ -39,13 +39,13 @@
     {
       "request_method": "POST",
       "request_path": "/admin/cities",
-      "request_body": "city[name]=Port+Danteview_9&city[areas_attributes][][name]=hi",
+      "request_body": "city[name]=Lake+Ilabury_9&city[areas_attributes][][name]=hi",
       "request_headers": {
-        "Access-Token": "F5Pwh5kGf1im_iPrQbhm1w",
+        "Access-Token": "FNsxR-dkTQtwxrrOp8FgCQ",
         "Token-Type": "Bearer",
-        "Client": "M5WU9LcyVjHQtIfoEQ1yAQ",
-        "Expiry": "1458397067",
-        "Uid": "15willis@lockman.org",
+        "Client": "jnz-_BbQ8Yb4rO3CC1X-zA",
+        "Expiry": "1458483685",
+        "Uid": "15lupe.langosh@kulas.net",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -55,22 +55,22 @@
       "request_content_type": "application/x-www-form-urlencoded",
       "response_status": 201,
       "response_status_text": "Created",
-      "response_body": "{\n  \"id\": 1,\n  \"name\": \"Port Danteview_9\",\n  \"active\": true,\n  \"areas\": [\n    {\n      \"id\": 1,\n      \"name\": \"hi\"\n    }\n  ]\n}",
+      "response_body": "{\n  \"id\": 1,\n  \"name\": \"Lake Ilabury_9\",\n  \"active\": true,\n  \"areas\": [\n    {\n      \"id\": 1,\n      \"name\": \"hi\"\n    }\n  ]\n}",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
         "Location": "http://example.org/cities/1",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"683e74ba5f82f5b7e588b30e97061143\"",
+        "ETag": "W/\"31a12ec2d9324a9eab4a05ec9782befb\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=NWZDd0ozcklBOWlaOElXT2wzVUtmNnJJUHVmbkl1amNHQzZWZUI1L01OV055S2xxaU5TSWZZZCswVUljUVNwUjNwMTd1a1E0QjFhZDlqYkJFVkgxSFhVbTVuNE93OVBDY2ZldUI5OEZYVjN0S2NaaEQxSjRhTmQwUWNzQmpOLytUdkRvbnN4V3YybFVoSE16L0FvcVplMTJYRHlCek94S3BmajBnaXRrQ004NXYzd09QWEF0LytYWHEwZ2xzclBGLS1FNTNISGdBQldIWWlSK3VIR1dRL0FBPT0%3D--e447e2b5f8f1a2cdf5f273a9c9085371e2df4bdf; path=/; HttpOnly",
-        "X-Request-Id": "807af64d-4696-49fd-a2f4-502f01cd4946",
-        "X-Runtime": "0.098193",
-        "Content-Length": "79"
+        "Set-Cookie": "_session_id=TEJjL3RjLzN2MCs5K2NQWHQ5N0tMRDhEbXI2dkRNQkNseHNKTU9leStmTnB5ZzVkejZjWGNPQlk3T0tFbzhsekdNb3g3dVZoZEltYTNvT0h6Q2FzUklUOWcydkpyUVpBWDY2QTZ6bGFKT1dHQnc4ckZmdWhwSHBnNHpBZ1dzdUhIa05kR0FuOENMbUNrWmFmYkY5aWdOaG9IQlU5R1FSQzFFRnd3TFlQd3k4c1JINGxKaW14KzhZb1FOWjZmQ2JULS0xbEw1S3pLTU9paFdGTHJiWEFkZkt3PT0%3D--b09eaf333a5ccd04d92f73445424e801f7e924c0; path=/; HttpOnly",
+        "X-Request-Id": "1dd93f42-4e65-4168-97a8-40ac977b748f",
+        "X-Runtime": "0.094507",
+        "Content-Length": "77"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/admin/cities\" -d 'city[name]=Port+Danteview_9&city[areas_attributes][][name]=hi' -X POST \\\n\t-H \"Access-Token: F5Pwh5kGf1im_iPrQbhm1w\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: M5WU9LcyVjHQtIfoEQ1yAQ\" \\\n\t-H \"Expiry: 1458397067\" \\\n\t-H \"Uid: 15willis@lockman.org\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/admin/cities\" -d 'city[name]=Lake+Ilabury_9&city[areas_attributes][][name]=hi' -X POST \\\n\t-H \"Access-Token: FNsxR-dkTQtwxrrOp8FgCQ\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: jnz-_BbQ8Yb4rO3CC1X-zA\" \\\n\t-H \"Expiry: 1458483685\" \\\n\t-H \"Uid: 15lupe.langosh@kulas.net\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

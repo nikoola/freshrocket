@@ -1,6 +1,6 @@
 module Deliver
 	class OrdersController < BaseController
-		before_action :set_order, only: [:update_status]
+		before_action :set_order, only: [:update_status, :update]
 		
 
 		def index
@@ -9,8 +9,13 @@ module Deliver
 			render json: @orders
 		end
 
-		# TODO: update paid with cash
-
+		def update
+			if @order.update params.require(:order).permit(:is_paid)
+				render json: @order, status: 200
+			else
+				render json: @order.errors, status: 422
+			end
+		end
 
 		def update_status
 			action = params[:order][:action]

@@ -24,17 +24,17 @@
       "request_content_type": null,
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\n  \"id\": 1,\n  \"name\": \"Lake Beau_77\",\n  \"active\": true,\n  \"areas\": [\n    {\n      \"id\": 1,\n      \"name\": \"Gilesstad_area_3\"\n    },\n    {\n      \"id\": 2,\n      \"name\": \"North Wallace_area_4\"\n    },\n    {\n      \"id\": 3,\n      \"name\": \"Rhettbury_area_5\"\n    }\n  ]\n}",
+      "response_body": "{\n  \"id\": 1,\n  \"name\": \"Lakinfort_77\",\n  \"active\": true,\n  \"areas\": [\n    {\n      \"id\": 1,\n      \"name\": \"Aylatown_area_3\"\n    },\n    {\n      \"id\": 2,\n      \"name\": \"Lake Dominicshire_area_4\"\n    },\n    {\n      \"id\": 3,\n      \"name\": \"Erdmanton_area_5\"\n    }\n  ]\n}",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"88946a9da71d0be1e81cbfef67a7482e\"",
+        "ETag": "W/\"6a34a6383227feafc6dad539c2974898\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "X-Request-Id": "e96858dd-45ac-4a3f-8e59-ad718e157487",
-        "X-Runtime": "0.004557",
-        "Content-Length": "163"
+        "X-Request-Id": "6b78bfed-dd79-448d-8141-c6839f7cbbf8",
+        "X-Runtime": "0.002530",
+        "Content-Length": "166"
       },
       "response_content_type": "application/json; charset=utf-8",
       "curl": "curl \"http://localhost:3000/cities/1\" -X GET \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""

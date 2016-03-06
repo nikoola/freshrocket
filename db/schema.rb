@@ -18,6 +18,7 @@ ActiveRecord::Schema.define(version: 20160127185541) do
     t.integer "city_id"
     t.string  "street_and_house"
     t.string  "door_number"
+    t.integer "zip_code"
     t.boolean "active",           default: true
   end
 
@@ -71,7 +72,6 @@ ActiveRecord::Schema.define(version: 20160127185541) do
     t.integer  "address_id"
     t.integer  "user_id"
     t.string   "status"
-    t.text     "comment"
     t.decimal  "pure_product_price", precision: 8, scale: 2
     t.decimal  "tax",                precision: 8, scale: 2
     t.decimal  "delivery_charge",    precision: 8, scale: 2
@@ -85,7 +85,9 @@ ActiveRecord::Schema.define(version: 20160127185541) do
     t.string   "payment_type",                               default: "cash"
     t.boolean  "is_paid",                                    default: false
     t.string   "coupon_code"
+    t.text     "comment"
     t.text     "feedback"
+    t.text     "admin_comment"
     t.string   "source_type"
   end
 

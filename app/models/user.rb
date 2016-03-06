@@ -34,18 +34,14 @@ class User < ActiveRecord::Base
 	include Filterable
 	scope :email_includes, -> (text)    { where("email like ?", "%#{text}%") }
 	scope :phone_includes, -> (text)    { where("phone like ?", "%#{text}%") }
-	scope :has_abillity,   -> (ability) { tagged_with(ability) }
-
-
-
-
-	# TODO delete delivery_boy_extension on delivery_boy: 0.
+	scope :has_ability,   -> (ability) { tagged_with(ability) }
 
 
 
 
 
-	def has_abillity? tag_name
+
+	def has_ability? tag_name
 		self.abilities.any? { |ability| ability.name == tag_name.to_s }
 	end
 

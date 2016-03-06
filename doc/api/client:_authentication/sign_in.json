@@ -23,7 +23,7 @@
     {
       "request_method": "POST",
       "request_path": "/auth/sign_in",
-      "request_body": "email=109lawson%40jones.io&password=secrety_bickety",
+      "request_body": "email=109nola_ruel%40oberbrunner.name&password=secrety_bickety",
       "request_headers": {
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
@@ -34,25 +34,25 @@
       "request_content_type": "application/x-www-form-urlencoded",
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\n  \"data\": {\n    \"id\": 1,\n    \"first_name\": \"Marlon\",\n    \"last_name\": \"Waelchi\",\n    \"email\": \"109lawson@jones.io\",\n    \"provider\": \"email\",\n    \"uid\": \"109lawson@jones.io\",\n    \"phone\": \"916480611069\",\n    \"verification_code\": null,\n    \"is_verified\": false,\n    \"how_did_you_hear_about_us\": null\n  }\n}",
+      "response_body": "{\n  \"data\": {\n    \"id\": 1,\n    \"first_name\": \"Letitia\",\n    \"last_name\": \"Buckridge\",\n    \"email\": \"109nola_ruel@oberbrunner.name\",\n    \"provider\": \"email\",\n    \"uid\": \"109nola_ruel@oberbrunner.name\",\n    \"phone\": \"911179125730\",\n    \"verification_code\": null,\n    \"is_verified\": false,\n    \"how_did_you_hear_about_us\": null\n  }\n}",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
-        "access-token": "hwH5BV7ngcLq2ViMwSRhRQ",
+        "access-token": "RAsd3Jo7F8gGl-NbjynbYw",
         "token-type": "Bearer",
-        "client": "4-Y59AWhCNhDY3kNXUOSAQ",
-        "expiry": "1458397078",
-        "uid": "109lawson@jones.io",
+        "client": "ddCrC8AFkQBuJEN-A8p7fQ",
+        "expiry": "1458483695",
+        "uid": "109nola_ruel@oberbrunner.name",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"657c1979ea1f51f64bfd074ae6978d33\"",
+        "ETag": "W/\"ee6148848ea66d8b2d13f0dd7d3931b4\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "X-Request-Id": "a47bc066-bf0b-437f-96c0-5e4371691d85",
-        "X-Runtime": "0.203887",
-        "Content-Length": "237"
+        "X-Request-Id": "03005f8d-25ba-442f-a2ec-622ff2fe5c3e",
+        "X-Runtime": "0.160997",
+        "Content-Length": "262"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/auth/sign_in\" -d 'email=109lawson%40jones.io&password=secrety_bickety' -X POST \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/auth/sign_in\" -d 'email=109nola_ruel%40oberbrunner.name&password=secrety_bickety' -X POST \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

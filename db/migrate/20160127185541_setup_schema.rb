@@ -39,7 +39,6 @@ class SetupSchema < ActiveRecord::Migration
 
 		t.integer  "user_id"
 		t.string   "status"
-		t.text     "comment"
 
 		t.decimal  "pure_product_price", precision: 8, scale: 2
 		t.decimal  "tax",                precision: 8, scale: 2
@@ -59,7 +58,9 @@ class SetupSchema < ActiveRecord::Migration
 
 		t.string   'coupon_code'
 
+		t.text     'comment'
 		t.text     'feedback'
+		t.text     'admin_comment'
 
 		t.string   'source_type'
 	end

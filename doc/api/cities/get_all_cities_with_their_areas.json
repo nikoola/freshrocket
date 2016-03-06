@@ -28,17 +28,17 @@
       "request_content_type": null,
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "[\n  {\n    \"id\": 1,\n    \"name\": \"North Neva_71\",\n    \"active\": true,\n    \"areas\": [\n      {\n        \"id\": 1,\n        \"name\": \"Margretport_area_2\"\n      }\n    ]\n  },\n  {\n    \"id\": 2,\n    \"name\": \"Lawrenceview_72\",\n    \"active\": true,\n    \"areas\": [\n\n    ]\n  },\n  {\n    \"id\": 3,\n    \"name\": \"Hoegerborough_73\",\n    \"active\": true,\n    \"areas\": [\n\n    ]\n  },\n  {\n    \"id\": 6,\n    \"name\": \"Isaifort_76\",\n    \"active\": true,\n    \"areas\": [\n\n    ]\n  }\n]",
+      "response_body": "[\n  {\n    \"id\": 1,\n    \"name\": \"New Jarrell_71\",\n    \"active\": true,\n    \"areas\": [\n      {\n        \"id\": 1,\n        \"name\": \"Lake Hulda_area_2\"\n      }\n    ]\n  },\n  {\n    \"id\": 2,\n    \"name\": \"Orvillemouth_72\",\n    \"active\": true,\n    \"areas\": [\n\n    ]\n  },\n  {\n    \"id\": 3,\n    \"name\": \"Kundeshire_73\",\n    \"active\": true,\n    \"areas\": [\n\n    ]\n  },\n  {\n    \"id\": 6,\n    \"name\": \"McDermottland_76\",\n    \"active\": true,\n    \"areas\": [\n\n    ]\n  }\n]",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"01bface3d2ad14a4d749e8cf88ad1a21\"",
+        "ETag": "W/\"1eb9d037a5e253737085c5bec3a243b9\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "X-Request-Id": "8bff5324-a578-443c-9729-c5e721826d65",
-        "X-Runtime": "0.009950",
-        "Content-Length": "268"
+        "X-Request-Id": "c503db31-2837-4940-87cc-ba7b988b5ea6",
+        "X-Runtime": "0.010476",
+        "Content-Length": "270"
       },
       "response_content_type": "application/json; charset=utf-8",
       "curl": "curl \"http://localhost:3000/cities?active=1\" -X GET \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""

@@ -16,11 +16,11 @@
       "request_path": "/admin/cities/1",
       "request_body": null,
       "request_headers": {
-        "Access-Token": "9jpBW89HDq7Y4QKImtRtTA",
+        "Access-Token": "KlvudJUVhbFKKHsL1SZMPg",
         "Token-Type": "Bearer",
-        "Client": "e7khCYeY4QacePE03x_ouA",
-        "Expiry": "1458397068",
-        "Uid": "17myrl_walter@sanford.co",
+        "Client": "Y0IliQMNE-NKSyQQrho05w",
+        "Expiry": "1458483686",
+        "Uid": "17imani@davis.net",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -37,13 +37,13 @@
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "text/html",
         "Cache-Control": "no-cache",
-        "Set-Cookie": "_session_id=RDdQcVNscm9uc1hOdWtIMmNnRzN0SEpGMHRHcjhLT0k2eVlrWndrN0dOMUllY3cxY3M0a3FlekNuZ0s5RzBXdUNVdzZTYlJKMFN0TStZRG1UcG81NTBqTXZjTXYyZUIxUHFRWWZsQXhvcVZzNldGYnh4OGtVdmNDcUNSR3FYSDVnekpUR0RhNXgrMFVlWDVyYmFFKzk1SW9nWjZVeDFPb2ZGTk1KWmxQY2ttc3YxaU9sWm5QZHErdnZtS21DMjNhLS16Vm9KOFphTkhmalhRb2ZPcysyYVJnPT0%3D--9880c9e4693c55a7ba62a019d89f58335c4e629f; path=/; HttpOnly",
-        "X-Request-Id": "3bfbe366-6415-4de4-be8d-caf0058f38f6",
-        "X-Runtime": "0.085571",
+        "Set-Cookie": "_session_id=cGRUTTI3SklSUzRIR3Z6N3ZFejl1dHNRUFFPUUlzNEN5Rk9ydEJ0SnBCeFZpdit0cE94Y2s1UXdxYWU1TlRGNnd0U0Jtc0F5dE4ydnFEaklGQ1FaUGRObmNYMXJRTWtWeEN1R21FaUlqRmNJMFVRZ3pYVjhobC82cm8zWVhCWUVCd2dJWlUyL2F2Tm8zeC9LOGhQdkJucmZ4cGprWnU5bzlOMWxqVDUxUUdTVm1NUm5OeWpLOEpyZi96MldMS0oxLS11SkoybXpucURJMjVERC9LSUVkTkhBPT0%3D--537f9728b04302ce6f26bc31c02d797139c12e6d; path=/; HttpOnly",
+        "X-Request-Id": "bd74b834-c543-4bcf-a587-905ced8e9748",
+        "X-Runtime": "0.096644",
         "Content-Length": "0"
       },
       "response_content_type": "text/html",
-      "curl": "curl \"http://localhost:3000/admin/cities/1\" -d '' -X DELETE \\\n\t-H \"Access-Token: 9jpBW89HDq7Y4QKImtRtTA\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: e7khCYeY4QacePE03x_ouA\" \\\n\t-H \"Expiry: 1458397068\" \\\n\t-H \"Uid: 17myrl_walter@sanford.co\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/admin/cities/1\" -d '' -X DELETE \\\n\t-H \"Access-Token: KlvudJUVhbFKKHsL1SZMPg\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: Y0IliQMNE-NKSyQQrho05w\" \\\n\t-H \"Expiry: 1458483686\" \\\n\t-H \"Uid: 17imani@davis.net\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

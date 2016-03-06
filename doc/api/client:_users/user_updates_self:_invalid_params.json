@@ -16,11 +16,11 @@
       "request_path": "/auth",
       "request_body": "phone",
       "request_headers": {
-        "Access-Token": "cqBPUWCP5xoWe5N_96t9HA",
+        "Access-Token": "G1uOXA5jIv4sQ-fuYpknVQ",
         "Token-Type": "Bearer",
-        "Client": "QwT8YfAWj0_ltHZXJg_QIw",
-        "Expiry": "1458397085",
-        "Uid": "152maritza_ullrich@bartell.io",
+        "Client": "8jHRDkqz1inhoUBjj9jWOg",
+        "Expiry": "1458483703",
+        "Uid": "152hosea@vonrueden.net",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -37,13 +37,13 @@
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "application/json; charset=utf-8",
         "Cache-Control": "no-cache",
-        "Set-Cookie": "_session_id=MU5HRnVwYUdCbUJEZVhOM0wwT1RWY2NsSEtuSHJBVXBvd0hYMWNsVzRmZWpYSmtYV3lQeVV5NnVqWm9lcUt5K2V4YS9qTjRVS1M3bHlKc0IvRVhVSnpKc3JzTEVtM0RRckozMndBeXhTKzdwVFR6TW1STkxzSWxIZEZSM3RUbS8xdEdvcDQzdU9vL0daWlY3VjJ3ak5Ga0t3TFZKcnBCaVp4cEJzdDQ2Qm05czFIajNrUE5QazR2MUJWTS9lOFRoLS1GQW5taC9MSTFIMGFnVGp3NkFNT1JBPT0%3D--4529ed1e6007622c8c0ab9997fa63183548a4e54; path=/; HttpOnly",
-        "X-Request-Id": "85ba142e-b4c2-41a7-85c4-9e6111da3a4d",
-        "X-Runtime": "0.075092",
+        "Set-Cookie": "_session_id=RTNjTmZzREFjVVRMemFHRW4rODFrSW9BU2pJbmdzTFRseTBoTkwrMzN3WVFDNngwM0cwR0dUQlk5bW4wMGFldXJaKzhmZHhiL3ppNHdJdzFiM2NETU0za3N6cDhSNmV0eTdzZ1VKcm9LWnBPNHl5MFFTcm52b3I4WlByd211elZSUjRaaDhkK0hDUFoyU3d3a0lGcE94WmovWUF6SnJhVXZHdzRwRFZwTkxxL2Z5dlRyQkh5Q1dNU0NGc0YvdEdHLS0veXBURGt6eGJDMEF3c0wxR1JBc1pnPT0%3D--99c6e5ff83b3e8b8e4fb00f55e7015360077f44d; path=/; HttpOnly",
+        "X-Request-Id": "f791cc23-8136-4b2e-85b5-14c6d4287fd7",
+        "X-Runtime": "0.075388",
         "Content-Length": "241"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/auth\" -d 'phone' -X PUT \\\n\t-H \"Access-Token: cqBPUWCP5xoWe5N_96t9HA\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: QwT8YfAWj0_ltHZXJg_QIw\" \\\n\t-H \"Expiry: 1458397085\" \\\n\t-H \"Uid: 152maritza_ullrich@bartell.io\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/auth\" -d 'phone' -X PUT \\\n\t-H \"Access-Token: G1uOXA5jIv4sQ-fuYpknVQ\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: 8jHRDkqz1inhoUBjj9jWOg\" \\\n\t-H \"Expiry: 1458483703\" \\\n\t-H \"Uid: 152hosea@vonrueden.net\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

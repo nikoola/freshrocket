@@ -9,7 +9,9 @@
 # 	config.redis = { url: 'redis://redis.example.com:7372/12' }
 # end
 
-
+def redis
+  Sidekiq.redis { |conn| conn }
+end
 
 
 

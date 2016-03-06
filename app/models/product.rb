@@ -52,7 +52,7 @@ class Product < ActiveRecord::Base
 
 	private
 	  def image_size_validation
-	    errors[:image] << "should be less than 500KB" if image.size > 0.5.megabytes #TODO actual sizes
+	    errors[:image] << "should be less than 4MB" if image.size > 4.megabytes
 	  end
 
 

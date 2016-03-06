@@ -62,8 +62,8 @@ module Admin
 					:source_type,
 					:delivery_boy_id, :user_id, :address_id,
 					:coupon_code,
-					:feedback,
-					:comment, :wanted_date, :wanted_time,
+					:feedback, :comment, :admin_comment,
+					:wanted_date, :wanted_time,
 					line_items_attributes: [:_destroy, :id, :amount, :product_id]
 				])
 

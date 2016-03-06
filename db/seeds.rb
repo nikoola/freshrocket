@@ -63,7 +63,5 @@ FactoryGirl.create_list :coupon, 3
 
 
 
-# TODO make things active by default on create
-
 
 

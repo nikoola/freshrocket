@@ -46,7 +46,16 @@ class Order < ActiveRecord::Base
 				send_order_summary
 				SendConfirmationSmsJob.perform_later user.name, user.phone
 			}
-			transitions :from => :confirmed, :to => :approved
+			transitions :from => :confirmed, :to => :approved do
+				guard {
+					if payment_type != 'cash' and !is_paid
+						errors.add :order, 'should be either paid by cash on arrival or paid by some online payment prior to approval'
+						false
+					else
+						true
+					end
+				}
+			end
 		end
 		event :dispatch do
 			after {
@@ -56,7 +65,16 @@ class Order < ActiveRecord::Base
 				guard: :delivery_boy_assigned?
 		end
 		event :deliver do #if cash mark as paid first
-			transitions :from => :dispatched, :to => :delivered
+			transitions :from => :dispatched, :to => :delivered do
+				guard {
+					if is_paid
+						true
+					else
+						errors.add :order, 'needs to be paid prior to confirming delivery'
+						false
+					end
+				}
+			end
 		end
 		event :cancel do
 			after {
@@ -139,8 +157,9 @@ class Order < ActiveRecord::Base
 
 
 	def update_status action # :confirm, :approve, :dispatch, :deliver, :cancel
+
 		if self.respond_to?("may_#{action}?")
-			if self.send("may_#{action}?") #calls guards too TODO! we'll be calling guards twice then.
+			if self.send("may_#{action}?")
 				self.send(action + '!')
 			else
 				errors.add(:status, "status cannot transition from #{status} to #{action}")

@@ -16,11 +16,11 @@
       "request_path": "/admin/products/1",
       "request_body": "product[title]",
       "request_headers": {
-        "Access-Token": "B9DtCH-x354LrK9WOV_3iw",
+        "Access-Token": "NKPxZum4erDIAIVwaZ-B9w",
         "Token-Type": "Bearer",
-        "Client": "E0xe4oQPEdC6XApgt4fTtw",
-        "Expiry": "1458397072",
-        "Uid": "60trace@daniel.io",
+        "Client": "RudBvNykD7MdqfhEhHBo9w",
+        "Expiry": "1458483690",
+        "Uid": "60bradford.marquardt@yostking.io",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -37,13 +37,13 @@
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "application/json; charset=utf-8",
         "Cache-Control": "no-cache",
-        "Set-Cookie": "_session_id=VURLVWtyMUVvS0xYdmNhZUVwKzB1VE91ZzBnd0xnQzRtZ0FWb3J5RUQ0SEpWNTFJbGlHVGZhNzhwNXozQUFhM0Z4Z1VRWHNUZ1hFbU1JcjRKZDFzbmJEeXBYQ25YQ09yKzNVME9oaVUvZ3hRdlV5S2tGdjhOclpKUmU2STFtTFVtU29sRng3UklHaEUreG9tcEpsRzdtVGpZVHpsVlkwNU9tQ2k5b29WQXArdEZzNXcwcjJCZEdqUFNSTmEvK1dULS1xdjk2MEpROFdrK0xoVEN0Y3BxbHZBPT0%3D--c60541a8e48d2edb56bf83e678579fbd5a39bd5b; path=/; HttpOnly",
-        "X-Request-Id": "01a195d8-cf40-42aa-ada9-0d5bfaf80c25",
-        "X-Runtime": "0.080397",
+        "Set-Cookie": "_session_id=eXZ1Y2hGRHRwbktHVWZHcUFqVDRUOUc4ZVhIZGNvUXdJaldIRk11Z0w0bXBLMzVFbmtxUG5qSEk5a0hwa3ZYMXh6WUE5SURRN0Q1RG1GUE9jOS8zR1ZkaWlDd0R0U2xVRG1tejNKNFdNa0x4U2NBRitGYjhtQXJEQVdMemJxTzRPU3VYSnNHK0p6NW9zejl1d2JDeUNuQk15ak04aTI3RVlTK0d5QVc1dU5kYzIyZVhoRnpDMzdYSzJDTW8rRmRsLS1adDd4REt2UUJjcHprQk5hZDVINERRPT0%3D--b600b81b7e1d8d94e67757aa8282b7167c1737c3; path=/; HttpOnly",
+        "X-Request-Id": "085eec5e-443f-4bf4-b609-dbfe98e44c35",
+        "X-Runtime": "0.080961",
         "Content-Length": "28"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/admin/products/1\" -d 'product[title]' -X PUT \\\n\t-H \"Access-Token: B9DtCH-x354LrK9WOV_3iw\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: E0xe4oQPEdC6XApgt4fTtw\" \\\n\t-H \"Expiry: 1458397072\" \\\n\t-H \"Uid: 60trace@daniel.io\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/admin/products/1\" -d 'product[title]' -X PUT \\\n\t-H \"Access-Token: NKPxZum4erDIAIVwaZ-B9w\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: RudBvNykD7MdqfhEhHBo9w\" \\\n\t-H \"Expiry: 1458483690\" \\\n\t-H \"Uid: 60bradford.marquardt@yostking.io\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

@@ -1,6 +1,6 @@
 require 'rails_helper'
 
-# TODO can't use coupon if price is smaller than discount 
+
 describe Order, type: :model do
 
 	let(:user)   { FactoryGirl.create :user }

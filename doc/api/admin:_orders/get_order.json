@@ -16,11 +16,11 @@
       "request_path": "/admin/orders/1",
       "request_body": null,
       "request_headers": {
-        "Access-Token": "tw29c8UtItOxn7IHx1s9nA",
+        "Access-Token": "0eLtzk128F746GyaL4bApw",
         "Token-Type": "Bearer",
-        "Client": "uHD3CGu0ofzdkw1BvrhlaA",
-        "Expiry": "1458397069",
-        "Uid": "34kamron_pouros@hudson.org",
+        "Client": "STX2LsStZcczq5lXLBUJug",
+        "Expiry": "1458483687",
+        "Uid": "34myrtle_cole@zboncakluettgen.com",
         "Host": "example.org",
         "Cookie": ""
       },
@@ -29,21 +29,21 @@
       "request_content_type": null,
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\n  \"id\": 1,\n  \"user_id\": 1,\n  \"status\": \"unconfirmed\",\n  \"created_at\": \"2016-03-05T14:17:49.840Z\",\n  \"comment\": null,\n  \"pure_product_price\": \"27.0\",\n  \"tax\": \"1.35\",\n  \"delivery_charge\": \"200.0\",\n  \"total_price\": \"228.35\",\n  \"delivery_boy_id\": null,\n  \"wanted_time\": null,\n  \"wanted_date\": null,\n  \"payment_type\": \"cash\",\n  \"is_paid\": false,\n  \"feedback\": null,\n  \"coupon_code\": null,\n  \"source_type\": null,\n  \"line_items\": [\n    {\n      \"id\": 1,\n      \"order_id\": 1,\n      \"product_id\": 1,\n      \"amount\": 3,\n      \"fixed_price\": \"9.0\"\n    },\n    {\n      \"id\": 2,\n      \"order_id\": 1,\n      \"product_id\": 2,\n      \"amount\": 3,\n      \"fixed_price\": \"9.0\"\n    },\n    {\n      \"id\": 3,\n      \"order_id\": 1,\n      \"product_id\": 3,\n      \"amount\": 3,\n      \"fixed_price\": \"9.0\"\n    }\n  ],\n  \"address\": {\n    \"id\": 1,\n    \"city_id\": 1,\n    \"user_id\": 2,\n    \"street_and_house\": \"3439 Luettgen Islands\",\n    \"door_number\": \"5\"\n  }\n}",
+      "response_body": "{\n  \"id\": 1,\n  \"user_id\": 1,\n  \"status\": \"unconfirmed\",\n  \"created_at\": \"2016-03-06T14:21:27.804Z\",\n  \"pure_product_price\": \"27.0\",\n  \"tax\": \"1.35\",\n  \"delivery_charge\": \"200.0\",\n  \"total_price\": \"228.35\",\n  \"delivery_boy_id\": null,\n  \"wanted_time\": null,\n  \"wanted_date\": null,\n  \"payment_type\": \"cash\",\n  \"is_paid\": false,\n  \"feedback\": null,\n  \"comment\": null,\n  \"admin_comment\": null,\n  \"coupon_code\": null,\n  \"source_type\": null,\n  \"line_items\": [\n    {\n      \"id\": 1,\n      \"order_id\": 1,\n      \"product_id\": 1,\n      \"amount\": 3,\n      \"fixed_price\": \"9.0\"\n    },\n    {\n      \"id\": 2,\n      \"order_id\": 1,\n      \"product_id\": 2,\n      \"amount\": 3,\n      \"fixed_price\": \"9.0\"\n    },\n    {\n      \"id\": 3,\n      \"order_id\": 1,\n      \"product_id\": 3,\n      \"amount\": 3,\n      \"fixed_price\": \"9.0\"\n    }\n  ],\n  \"address\": {\n    \"id\": 1,\n    \"city_id\": 1,\n    \"user_id\": 2,\n    \"street_and_house\": \"106 Hilll Circles\",\n    \"door_number\": \"5\"\n  }\n}",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"25d352e013206883506777e604d361de\"",
+        "ETag": "W/\"a60e75f1354c672ff6d8557fffb1a3b3\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=YXZHSzFIWG5XNnI3ZVVDRUJXdS9MNUFwY2NtcWQwTGoraXJWRUJIWGk4aTNkbE9ubU51WU1PU05Cbk9BczRlUU9GWldEZVIxRzBiVjVuOHdvc3BVaEtCdlR6bEhlbThBRTk5eU1MREU0WDMzb0J3U1NYS1lKRXRGK2VrS0x1c1F0Z1ZvVjhtaUxKTTdHVUNXNjFPZUo3Wnp5VVdGeUlaeGtDWUFQQzRiWTI1Y0ZDdHpkdVc2OUJLbURzT1U1Q3dkLS16M0xNRGpwOFBSQ083andCd3VaT3FnPT0%3D--dbd6441a21a42f6e4a06c6065dcb6382ab52d743; path=/; HttpOnly",
-        "X-Request-Id": "85f1fe88-5fbc-42e2-85da-ad5443c8f728",
-        "X-Runtime": "0.082084",
-        "Content-Length": "664"
+        "Set-Cookie": "_session_id=Q29GM05QS3Y1WmIzL2toMHVOelR4bkhKbFVlemVVa2JSWWc4cjdtVzAyd3ZHZldWZU94QXdHcUc1UzM3b2JOd01BWjQvSFMvSVBMbldJWmRoMjd3MTdRQ0RicGUxWGs1dWpYL3VuejhaOXpPK2VJS1ZrV25CTXVCVFZ3Z3RTMHpYY2JobUtCOFNHaExnSDM2ejFZK3VaM2FBMVQvYTFLS2pWdTVkSjhYRTF3aW1WV1UzeWFDcFBxdUcvL1l3bG1ULS1kamIrdFB5UFF6dHNpZC9pZmlqTStnPT0%3D--877ac399540bc95956089c2b146058406fcc461f; path=/; HttpOnly",
+        "X-Request-Id": "2154b460-14c2-42c7-a473-72418b00a280",
+        "X-Runtime": "0.079980",
+        "Content-Length": "681"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/admin/orders/1\" -X GET \\\n\t-H \"Access-Token: tw29c8UtItOxn7IHx1s9nA\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: uHD3CGu0ofzdkw1BvrhlaA\" \\\n\t-H \"Expiry: 1458397069\" \\\n\t-H \"Uid: 34kamron_pouros@hudson.org\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/admin/orders/1\" -X GET \\\n\t-H \"Access-Token: 0eLtzk128F746GyaL4bApw\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: STX2LsStZcczq5lXLBUJug\" \\\n\t-H \"Expiry: 1458483687\" \\\n\t-H \"Uid: 34myrtle_cole@zboncakluettgen.com\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

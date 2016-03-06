@@ -75,7 +75,7 @@ resource 'admin: orders', type: :request do
 				:user_id,
 				:status,
 				:created_at,
-				:comment,
+				:comment, :admin_comment,
 				:pure_product_price,
 				:tax,
 				:delivery_charge,

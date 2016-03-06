@@ -19,11 +19,11 @@
       "request_path": "/client/addresses?active=0",
       "request_body": null,
       "request_headers": {
-        "Access-Token": "DG1Rxe7eRYb3XOlDJGAoNQ",
+        "Access-Token": "0g55icRuf-GO1eGE-KO8CQ",
         "Token-Type": "Bearer",
-        "Client": "yBJcRyOgp-y5M6K8XrbL9A",
-        "Expiry": "1458397077",
-        "Uid": "103magnus.goodwin@beatty.org",
+        "Client": "bN7CfG5EBZJx7rN2VU9xJg",
+        "Expiry": "1458483694",
+        "Uid": "103viva.dickinson@wintheiser.io",
         "Host": "example.org",
         "Cookie": ""
       },
@@ -33,21 +33,21 @@
       "request_content_type": null,
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "[\n  {\n    \"id\": 1,\n    \"city_id\": 1,\n    \"user_id\": 1,\n    \"street_and_house\": \"620 Hildegard Gardens\",\n    \"door_number\": \"5\"\n  },\n  {\n    \"id\": 2,\n    \"city_id\": 2,\n    \"user_id\": 1,\n    \"street_and_house\": \"1940 Hirthe Corner\",\n    \"door_number\": \"5\"\n  },\n  {\n    \"id\": 3,\n    \"city_id\": 3,\n    \"user_id\": 1,\n    \"street_and_house\": \"79043 Eliezer Harbor\",\n    \"door_number\": \"5\"\n  }\n]",
+      "response_body": "[\n  {\n    \"id\": 1,\n    \"city_id\": 1,\n    \"user_id\": 1,\n    \"street_and_house\": \"586 Kolby Brook\",\n    \"door_number\": \"5\"\n  },\n  {\n    \"id\": 2,\n    \"city_id\": 2,\n    \"user_id\": 1,\n    \"street_and_house\": \"6691 Paucek Cove\",\n    \"door_number\": \"5\"\n  },\n  {\n    \"id\": 3,\n    \"city_id\": 3,\n    \"user_id\": 1,\n    \"street_and_house\": \"679 Roel Extension\",\n    \"door_number\": \"5\"\n  }\n]",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"52a968fc1142b07f71c832c016e41ac8\"",
+        "ETag": "W/\"d46d04ead967bd921602848f07feb251\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=ODZneldkcFhBMTlPUnBQSjhoMTJzZmN3L25Ga3FYZTZGOWlSQnhKQkxWM3I5TjZCWWlsRC85MDFzWnUybyt4VWVQeEU4U096bzdrLzRsQzJQcENxRkFaY1FiV09DZnZFV2h5amN6T2RZQUgxZnhydEY3WWVqNmQzSGNZYk8wTXB4c1ZkcWg5Vkt0SFQwdGxwc21JNTdDeEJUbkFuOVBMZHJnVWxiWFpSa1JWM0x0SUV4bkp2ajh4RWpIVVo4NEVwLS03a1daOUxaSUo0TEpuSXd5VnJRQmZBPT0%3D--ab104de51527cc2db2f4895cbd97e15268839a2e; path=/; HttpOnly",
-        "X-Request-Id": "d26ee7be-bf46-4a18-bfdd-b6ebc63540aa",
-        "X-Runtime": "0.089283",
-        "Content-Length": "279"
+        "Set-Cookie": "_session_id=UVNabk1KQXdhNUl6ZGRvOWlTR1FMbi9QRzNLaUJvYlA1dmdCWm1WdEdtZGdMc3FMSWdub1liSVJPTklLWXc3bFJhL0xFc2lGL1lZeUMwZTZHNzlXdW1qd2s0cDZtZFZIZWV1UW1wUWdna1VRNHBKQzQyTFJkNjZueDVaQ0tzUThISnpzOHpnN3NWd0hVVEdvMkdNS0JScldvZ0xkRkxjbksrNFYwNk9sSnlZc3JjQ2dYRk1Od2hSNTdyTDBUcnlQLS1iZmxtY3FPZjZUYytKOEg1OXRtWXB3PT0%3D--fa3c064b9483221560c4a2045ec22edbe1f9b372; path=/; HttpOnly",
+        "X-Request-Id": "4da545fb-b82d-4205-86d5-8f150ccfb485",
+        "X-Runtime": "0.088602",
+        "Content-Length": "269"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/client/addresses?active=0\" -X GET \\\n\t-H \"Access-Token: DG1Rxe7eRYb3XOlDJGAoNQ\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: yBJcRyOgp-y5M6K8XrbL9A\" \\\n\t-H \"Expiry: 1458397077\" \\\n\t-H \"Uid: 103magnus.goodwin@beatty.org\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/client/addresses?active=0\" -X GET \\\n\t-H \"Access-Token: 0g55icRuf-GO1eGE-KO8CQ\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: bN7CfG5EBZJx7rN2VU9xJg\" \\\n\t-H \"Expiry: 1458483694\" \\\n\t-H \"Uid: 103viva.dickinson@wintheiser.io\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

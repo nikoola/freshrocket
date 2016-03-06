@@ -6,7 +6,7 @@ module Admin
 
 		# GET /users
 		def index
-			@users = User.filter params.slice(:email_includes, :phone_includes, :has_abillity)
+			@users = User.filter params.slice(:email_includes, :phone_includes, :has_ability)
 
 			render json: @users
 		end

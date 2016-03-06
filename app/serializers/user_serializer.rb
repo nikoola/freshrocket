@@ -12,4 +12,5 @@ class UserSerializer < ActiveModel::Serializer
 			manipulation.list
 		end
 
+
 end

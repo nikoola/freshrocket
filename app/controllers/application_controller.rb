@@ -35,7 +35,7 @@ class ApplicationController < ActionController::Base
 	private
 
 		def authorize ability
-			unless current_user.has_abillity? ability
+			unless current_user.has_ability? ability
 				render json: { error: "user doesn't have a #{ability} ability to access this page" }, status: 401
 			end
 		end

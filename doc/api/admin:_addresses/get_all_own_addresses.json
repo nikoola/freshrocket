@@ -19,11 +19,11 @@
       "request_path": "/admin/addresses?active=0",
       "request_body": null,
       "request_headers": {
-        "Access-Token": "VBaS7goA_hud6wAlnrXQ8w",
+        "Access-Token": "8PNF6ealwIUEY-SV2PXIow",
         "Token-Type": "Bearer",
-        "Client": "GrhojroUHovgtzkI43WJ0A",
-        "Expiry": "1458397065",
-        "Uid": "6joany_kirlin@weinat.com",
+        "Client": "NBQSUp68GiLQPmcbq1oyNw",
+        "Expiry": "1458483683",
+        "Uid": "6herminia@schummorn.info",
         "Host": "example.org",
         "Cookie": ""
       },
@@ -33,21 +33,21 @@
       "request_content_type": null,
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "[\n  {\n    \"id\": 1,\n    \"city_id\": 1,\n    \"user_id\": 1,\n    \"street_and_house\": \"798 McCullough Center\",\n    \"door_number\": \"5\"\n  },\n  {\n    \"id\": 2,\n    \"city_id\": 2,\n    \"user_id\": 2,\n    \"street_and_house\": \"6535 Rowland Highway\",\n    \"door_number\": \"5\"\n  },\n  {\n    \"id\": 3,\n    \"city_id\": 3,\n    \"user_id\": 3,\n    \"street_and_house\": \"46836 Wiza Underpass\",\n    \"door_number\": \"5\"\n  }\n]",
+      "response_body": "[\n  {\n    \"id\": 1,\n    \"city_id\": 1,\n    \"user_id\": 1,\n    \"street_and_house\": \"442 McGlynn Summit\",\n    \"door_number\": \"5\"\n  },\n  {\n    \"id\": 2,\n    \"city_id\": 2,\n    \"user_id\": 2,\n    \"street_and_house\": \"60161 Renner Turnpike\",\n    \"door_number\": \"5\"\n  },\n  {\n    \"id\": 3,\n    \"city_id\": 3,\n    \"user_id\": 3,\n    \"street_and_house\": \"368 Francesca Mission\",\n    \"door_number\": \"5\"\n  }\n]",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"79ec9150a0303e3ba2297f722a1c790d\"",
+        "ETag": "W/\"03b00b3b07fd359f6f8713e33c11a0b8\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=ZmNmQ0hTSHVYajJZSmNRb0IyNXJHWXY4dHEyVTE5M0hLVis4L3F6WG9Cam5vV2VPL2VrVkpTeG92TFA5UVJaRXNaR043OHdRUWNNZ290M1lDa0hHYVd4VmdoOWNBMngxdXlVY0s3ZllhUlJIcGdzY2xacVVOeGRXN2NtVUcrL3dBNkRHYVhtMEFjek9CcVdsTnhndTRsUDFWaC9zMjNlcFkwUDRDMlRKNXNvcjRZaFptQ1RTbjJvb1k4T0dUS2dFLS1TT3J5SzNoRS92amFiZU1CUWc0NDhnPT0%3D--0ec380c1709782632208ff160a02e6a4b6d4c92d; path=/; HttpOnly",
-        "X-Request-Id": "6a8dc13e-6ffd-4d01-aee0-b3cd3a4ba210",
-        "X-Runtime": "0.114871",
-        "Content-Length": "281"
+        "Set-Cookie": "_session_id=WGVzay9PV0RGeGJjM0hCQkhHQytIZm9rbXljNXJXdHlBM0FxTm5zOFN1YVBYY20xbmxpMnh4Z0hmMEJmKzQ2MkdQOGN1ZW9zZ1FLZ3A2RXJMQXNvdC9VcmY2RWVPSG5mVkE2b1hpWHdkMXNyazdSYjh0cTFsQkhaU3VkUEJhdXBhSUYxazA4MXRDU1RpMGJzUEgybmx2SUtkYmhxZUhaeXlraVVLTktHZ1NKeFY5dXVBRzR6cEpBOG90Nnd2M2lQLS0zaVBmYUVmRVJjMjloUnBvL3o4eGdnPT0%3D--b6cd3f2e3da4edfbc22e6f8ddcfbbf44b2e4eca5; path=/; HttpOnly",
+        "X-Request-Id": "ec9004bf-bf97-4f28-b5e6-ea80f3a034a9",
+        "X-Runtime": "0.112174",
+        "Content-Length": "280"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/admin/addresses?active=0\" -X GET \\\n\t-H \"Access-Token: VBaS7goA_hud6wAlnrXQ8w\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: GrhojroUHovgtzkI43WJ0A\" \\\n\t-H \"Expiry: 1458397065\" \\\n\t-H \"Uid: 6joany_kirlin@weinat.com\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/admin/addresses?active=0\" -X GET \\\n\t-H \"Access-Token: 8PNF6ealwIUEY-SV2PXIow\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: NBQSUp68GiLQPmcbq1oyNw\" \\\n\t-H \"Expiry: 1458483683\" \\\n\t-H \"Uid: 6herminia@schummorn.info\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

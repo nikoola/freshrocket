@@ -42,7 +42,7 @@ module Client
 				@order.destroy
 				head 200
 			else
-				@order.errors.add(:order, "can't be destroyed after confirmation, please try declining")
+				@order.errors.add(:order, "can't be destroyed after confirmation, please try calling the support")
 				render json: @order.errors , status: :unprocessable_entity
 			end
 		end

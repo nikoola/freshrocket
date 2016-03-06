@@ -8,7 +8,7 @@ class ManipulateUserAbilities
 	def list
 		hash = {}
 		User::VALID_ABILITY_NAMES.each do |ability_name|
-			hash[ability_name] = @user.has_abillity?(ability_name) ? 1 : 0
+			hash[ability_name] = @user.has_ability?(ability_name) ? 1 : 0
 		end
 		hash
 	end

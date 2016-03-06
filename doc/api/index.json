@@ -542,6 +542,13 @@
           "method": "get"
         },
         {
+          "description": "update order",
+          "link": "deliver:_orders/update_order.json",
+          "groups": "all",
+          "route": "deliver/orders/:id",
+          "method": "put"
+        },
+        {
           "description": "update status of delivery_boy's order",
           "link": "deliver:_orders/update_status_of_delivery_boy's_order.json",
           "groups": "all",

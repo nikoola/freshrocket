@@ -9,9 +9,10 @@ module Client
 			current_user.update!(verification_code: rand(1000..9999))
 
 			SendVerificationSmsJob.perform_later current_user.name, current_user.phone, current_user.verification_code
-			
+
 			head 200
 		end
+
 
 
 		def verify

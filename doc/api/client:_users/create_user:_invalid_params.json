@@ -47,13 +47,13 @@
     {
       "request_method": "POST",
       "request_path": "/auth",
-      "request_body": "email=149jaiden%40daugherty.net&password=secrety_bickety&password_confirmation=secrety_bickety&first_name=Jevon&last_name=Kuvalis&phone",
+      "request_body": "email=149josue_durgan%40kutchlockman.co&password=secrety_bickety&password_confirmation=secrety_bickety&first_name=Deonte&last_name=Tremblay&phone",
       "request_headers": {
-        "Access-Token": "ZfuDa5-KjZ75F_1nmJhFvg",
+        "Access-Token": "nwmDv4We7RaGVU9zuJ-o_w",
         "Token-Type": "Bearer",
-        "Client": "tP-Pp48HJP9GSwE2SfhBaA",
-        "Expiry": "1458397085",
-        "Uid": "150deanna@lueilwitz.com",
+        "Client": "rV4-q_4ET7F1lA_P_v95cQ",
+        "Expiry": "1458483703",
+        "Uid": "150cleta_mccullough@pacochasmith.io",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -63,19 +63,19 @@
       "request_content_type": "application/x-www-form-urlencoded",
       "response_status": 403,
       "response_status_text": "Forbidden",
-      "response_body": "{\n  \"status\": \"error\",\n  \"data\": {\n    \"id\": null,\n    \"first_name\": \"Jevon\",\n    \"last_name\": \"Kuvalis\",\n    \"email\": \"149jaiden@daugherty.net\",\n    \"provider\": \"email\",\n    \"uid\": \"\",\n    \"phone\": null,\n    \"verification_code\": null,\n    \"is_verified\": false,\n    \"created_at\": null,\n    \"updated_at\": null,\n    \"how_did_you_hear_about_us\": null\n  },\n  \"errors\": {\n    \"phone\": [\n      \"can't be blank\",\n      \"is not a number\",\n      \"is the wrong length (should be 12 characters)\"\n    ],\n    \"full_messages\": [\n      \"Phone can't be blank\",\n      \"Phone is not a number\",\n      \"Phone is the wrong length (should be 12 characters)\"\n    ]\n  }\n}",
+      "response_body": "{\n  \"status\": \"error\",\n  \"data\": {\n    \"id\": null,\n    \"first_name\": \"Deonte\",\n    \"last_name\": \"Tremblay\",\n    \"email\": \"149josue_durgan@kutchlockman.co\",\n    \"provider\": \"email\",\n    \"uid\": \"\",\n    \"phone\": null,\n    \"verification_code\": null,\n    \"is_verified\": false,\n    \"created_at\": null,\n    \"updated_at\": null,\n    \"how_did_you_hear_about_us\": null\n  },\n  \"errors\": {\n    \"phone\": [\n      \"can't be blank\",\n      \"is not a number\",\n      \"is the wrong length (should be 12 characters)\"\n    ],\n    \"full_messages\": [\n      \"Phone can't be blank\",\n      \"Phone is not a number\",\n      \"Phone is the wrong length (should be 12 characters)\"\n    ]\n  }\n}",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "application/json; charset=utf-8",
         "Cache-Control": "no-cache",
-        "X-Request-Id": "5a2dddc0-1540-4959-8bd5-d0dcee014e24",
-        "X-Runtime": "0.009923",
-        "Content-Length": "492"
+        "X-Request-Id": "ee152092-2900-4f6c-8dd3-2b72b88ea377",
+        "X-Runtime": "0.010035",
+        "Content-Length": "502"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/auth\" -d 'email=149jaiden%40daugherty.net&password=secrety_bickety&password_confirmation=secrety_bickety&first_name=Jevon&last_name=Kuvalis&phone' -X POST \\\n\t-H \"Access-Token: ZfuDa5-KjZ75F_1nmJhFvg\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: tP-Pp48HJP9GSwE2SfhBaA\" \\\n\t-H \"Expiry: 1458397085\" \\\n\t-H \"Uid: 150deanna@lueilwitz.com\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/auth\" -d 'email=149josue_durgan%40kutchlockman.co&password=secrety_bickety&password_confirmation=secrety_bickety&first_name=Deonte&last_name=Tremblay&phone' -X POST \\\n\t-H \"Access-Token: nwmDv4We7RaGVU9zuJ-o_w\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: rV4-q_4ET7F1lA_P_v95cQ\" \\\n\t-H \"Expiry: 1458483703\" \\\n\t-H \"Uid: 150cleta_mccullough@pacochasmith.io\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

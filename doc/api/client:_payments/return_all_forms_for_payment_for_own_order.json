@@ -19,11 +19,11 @@
       "request_path": "/client/payments/new?order_id=3",
       "request_body": null,
       "request_headers": {
-        "Access-Token": "6v0MRlhBMUH6VCjW2AgWwQ",
+        "Access-Token": "S3Trq3USMsyS4krkLwNBZA",
         "Token-Type": "Bearer",
-        "Client": "TM2kLeoTsbrq8170pJxoLA",
-        "Expiry": "1458397085",
-        "Uid": "145irma@hirthethompson.io",
+        "Client": "0iUYPPiQP9qR0S45OXy4yA",
+        "Expiry": "1458483702",
+        "Uid": "145timmy@baumbach.name",
         "Host": "example.org",
         "Cookie": ""
       },
@@ -33,21 +33,21 @@
       "request_content_type": null,
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\n  \"citrus\": {\n    \"action\": \"https://sandbox.citruspay.com/kouqfeaav0\",\n    \"method\": \"POST\",\n    \"fields\": {\n      \"merchantTxnId\": \"3\",\n      \"merchantAccessKey\": \"T82TNCTLNBZ282BLHAGD\",\n      \"orderAmount\": \"228.35\",\n      \"currency\": \"USD\",\n      \"secret_key\": \"1690a1e29ecec2a5f852b678dd5362616c79916a\",\n      \"pmt_url\": \"kouqfeaav0\",\n      \"returnUrl\": \"http://localhost:3000/client/payments/citrus\",\n      \"paymentMode\": \"NET_BANKING\",\n      \"reqtime\": \"1457187485000\",\n      \"secSignature\": \"16055d2470aa3b2001007b0bd8086106d677f8b2\"\n    }\n  }\n}",
+      "response_body": "{\n  \"citrus\": {\n    \"action\": \"https://sandbox.citruspay.com/kouqfeaav0\",\n    \"method\": \"POST\",\n    \"fields\": {\n      \"merchantTxnId\": \"3\",\n      \"merchantAccessKey\": \"T82TNCTLNBZ282BLHAGD\",\n      \"orderAmount\": \"228.35\",\n      \"currency\": \"USD\",\n      \"secret_key\": \"1690a1e29ecec2a5f852b678dd5362616c79916a\",\n      \"pmt_url\": \"kouqfeaav0\",\n      \"returnUrl\": \"http://localhost:3000/client/payments/citrus\",\n      \"paymentMode\": \"NET_BANKING\",\n      \"reqtime\": \"1457274102000\",\n      \"secSignature\": \"16055d2470aa3b2001007b0bd8086106d677f8b2\"\n    }\n  }\n}",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"14ec6dcbdf8c36656b916f31064ceaeb\"",
+        "ETag": "W/\"9ddc7e613bfec9a43b690794c39ec834\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=QnZua1ZRaDVNd2FnZ2JCdHlMWS8reW53NnN4Q3JiUWRGTUNvdE56eUhaUHk0SVYvZGwzZnhqdDAvd0d2UjJRLytCUFFrTXlIam5ub1ZVYWh6cEkwc1hkSEtCTXArS0JWUlRwMVZUY2cwcWFDeVFRcmVDSTZQT1ZPZlcrNTR1d3gwWnh5ZVF2U2xvTFhCR3pvM0VDeGQ0ZTNudzdJN0JVMlVEK01ZSEFFTnJtY3QzZXFQc2R5ZkVjS1Njem5zbjMxLS02ZlhtZkJmb1hOZ1Bad1JVUVpvdWp3PT0%3D--46344395e2555106dc506d21114c264a0fc5cafe; path=/; HttpOnly",
-        "X-Request-Id": "1e2409f0-8242-4356-8542-98bcef31c477",
-        "X-Runtime": "0.143733",
+        "Set-Cookie": "_session_id=ZWl4aHdaSUxOYmt4bjZVVFJVOThHUVRZUFp5R1NXT2UvY2NVVVlFUk0ycFVQVEZlaCt0VmdWKzdLTjJnRGRQQ2E0NVJzb0xYanNvWXBUdGhjU1IvZEI1MWNzT1BNUUY0NmJxT2hDMi9valB1VzN4RmltOHo5ejNybDYxUGxxVmp1Y3BNZllsZkNmeDdlSUE2dWJjTExjU0ZidGRPbDBYam01M2tXTGdlUEk5aENHRXErMEZRNDZOY0E2bWNndW1QLS1Qc0xhMHd6TXJOdG8wenU0UjlqVGFnPT0%3D--573d64e2230457b6a70a304cdd5b89bc37a4bf07; path=/; HttpOnly",
+        "X-Request-Id": "ba725ec9-6571-4c86-a3ba-0c1f8f7f40ed",
+        "X-Runtime": "0.085948",
         "Content-Length": "444"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/client/payments/new?order_id=3\" -X GET \\\n\t-H \"Access-Token: 6v0MRlhBMUH6VCjW2AgWwQ\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: TM2kLeoTsbrq8170pJxoLA\" \\\n\t-H \"Expiry: 1458397085\" \\\n\t-H \"Uid: 145irma@hirthethompson.io\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/client/payments/new?order_id=3\" -X GET \\\n\t-H \"Access-Token: S3Trq3USMsyS4krkLwNBZA\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: 0iUYPPiQP9qR0S45OXy4yA\" \\\n\t-H \"Expiry: 1458483702\" \\\n\t-H \"Uid: 145timmy@baumbach.name\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
     }
   ]
 }
