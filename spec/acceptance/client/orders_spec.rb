@@ -32,6 +32,7 @@ resource 'client: orders', type: :request do
 	end
 
 	get '/client/orders/:id' do
+		parameter :include_
 		example "get current user's order" do
 			do_request id: user_order.id
 
@@ -45,9 +46,8 @@ resource 'client: orders', type: :request do
 				:pure_product_price,
 				:tax,
 				:delivery_charge,
-				:total_price,
-				:line_items, :address
-			expect(json.keys).not_to include :admin_comment
+				:total_price
+			expect(json.keys).not_to include :admin_comment, :line_items, :address
 		end
 	end
 

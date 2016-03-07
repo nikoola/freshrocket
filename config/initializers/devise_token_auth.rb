@@ -43,9 +43,12 @@ module DeviseTokenAuth
 
 
 		def render_validate_token_success
+			serializer = UserSerializer.new(@resource)
+			adapter = ActiveModel::Serializer.adapter.new serializer
+
 			render json: {
 				success: true,
-				data: UserSerializer.new(@resource)
+				data: adapter
 			}
 		end
 

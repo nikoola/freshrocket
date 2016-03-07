@@ -7,10 +7,14 @@ class UserSerializer < ActiveModel::Serializer
 		:created_at,
 		:abilities
 
-		def abilities
-			manipulation = ManipulateUserAbilities.new object
-			manipulation.list
-		end
+	has_many :addresses
+	has_many :orders
+
+
+	def abilities
+		manipulation = ManipulateUserAbilities.new object
+		manipulation.list
+	end
 
 
 end

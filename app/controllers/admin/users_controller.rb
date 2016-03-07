@@ -8,12 +8,12 @@ module Admin
 		def index
 			@users = User.filter params.slice(:email_includes, :phone_includes, :has_ability)
 
-			render json: @users
+			render json: @users, include: (params[:include] || [])
 		end
 
 		# GET /users/1
 		def show
-			render json: @user
+			render json: @user, include: (params[:include] || [])
 		end
 
 		# POST /users

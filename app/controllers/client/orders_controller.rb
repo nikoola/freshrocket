@@ -8,12 +8,12 @@ module Client
 		def index
 			@orders = current_user.orders.filter params.slice(:status)
 
-			render json: @orders
+			render json: @orders, include: (params[:include] || [])
 		end
 
 		# GET /client/orders/1
 		def show
-			render json: @order
+			render json: @order, include: (params[:include] || [])
 		end
 
 		# POST /client/orders

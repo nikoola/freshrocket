@@ -1,4 +1,8 @@
 
 
-ActiveModel::Serializer.root = false
-ActiveModel::ArraySerializer.root = false
+
+
+# ActiveModel::Serializer.config.default_includes = []
+# ActiveModelSerializers.config.default_includes = []
+
+

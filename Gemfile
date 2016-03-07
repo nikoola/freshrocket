@@ -72,7 +72,7 @@ gem 'aasm'
 gem 'sidekiq'
 
 
-gem 'active_model_serializers'#, "~> 0.8.0"
+gem 'active_model_serializers', '~>0.10.0.rc4'
 
 
 # gem 'twilio-ruby' #not twilio, smslane
@@ -83,10 +83,6 @@ gem 'offsite_payments'
 
 
 gem 'virtus' #for FormModel
-
-gem 'sinatra', :require => nil
-
-
 
 # if you require 'sinatra' you get the DSL extended to Object
 gem 'sinatra', :require => nil

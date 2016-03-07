@@ -7,12 +7,12 @@ module Admin
 		def index
 			@orders = Order.filter params.slice(:city_id, :user_id, :status, :limit, :offset)
 
-			render json: @orders
+			render json: @orders, include: (params[:include] || [])
 		end
 
 		# GET /admin/orders/1
 		def show
-			render json: @order, status: 200
+			render json: @order, include: (params[:include] || [])
 		end
 
 		def create
@@ -52,6 +52,7 @@ module Admin
 		end
 
 		private
+
 
 			def set_order
 				@order = Order.find(params[:id])

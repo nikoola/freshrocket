@@ -18,6 +18,7 @@ resource 'admin: orders', type: :request do
 		parameter :status_, 'status. only get [unconfirmed, confirmed, approved, dispatched, delivered, canceled] orders'
 		parameter :user_id
 		parameter :city_id, 'returns orders which have addresses in this city'
+		parameter :include_, 'line_items, address - whether to include association'
 
 		it 'nonauthenticated - 401', document: false do
 			get '/admin/orders'
@@ -30,7 +31,7 @@ resource 'admin: orders', type: :request do
 		end
 
 		example 'get all orders', document: false do
-			do_request	
+			do_request
 
 			returned_ids = jsons.pluck(:id)
 			expected_ids = Order.pluck(:id)
@@ -40,21 +41,23 @@ resource 'admin: orders', type: :request do
 		end
 
 		example 'get filtered orders' do
-			# FactoryGirl.create_list :order, 6, status: 'confirmed'
-			# FactoryGirl.create_list :order, 2, status: 'delivered'
+			FactoryGirl.create_list :order, 6
 
-			do_request limit: 5, offset: 2, status: 'confirmed'
+			do_request limit: 5, offset: 2
 
 			returned_ids = jsons.pluck(:id)
-			expected_ids = Order.limit(5).offset(2).where(status: 'confirmed').pluck(:id)
+			expected_ids = Order.limit(5).offset(2).pluck(:id)
 
 			expect(status).to eq(200)
 			expect(returned_ids).to match_array(expected_ids)
+			expect(jsons[0].keys).not_to include :address, :line_items
 		end
 
 	end
 
 	get '/admin/orders/:id' do
+		parameter :include, 'line_items, address - whether to include association'
+
 		it 'nonauthenticated - 401', document: false do
 			get admin_order_path(order)
 			expect_status 401
@@ -67,8 +70,12 @@ resource 'admin: orders', type: :request do
 
 		it 'get order' do
 			explanation 'user with :order ability can get any order'
-			do_request({id: order.id})
-			
+			do_request({
+				id:      order.id,
+				include: ['address']
+			})
+
+
 			expect(status).to eq(200)
 			expect(json.keys).to include(
 				:id,
@@ -79,9 +86,10 @@ resource 'admin: orders', type: :request do
 				:pure_product_price,
 				:tax,
 				:delivery_charge,
-				:total_price,
-				:line_items, :address
+				:total_price
 			)
+			expect(json.keys).to     include :address
+			expect(json.keys).not_to include :line_items
 		end
 	end
 
