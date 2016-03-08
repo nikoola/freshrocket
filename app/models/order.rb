@@ -37,12 +37,16 @@ class Order < ActiveRecord::Base
 		state :canceled
 
 		event :confirm do #payment makes order automatically confirmed
-			transitions :from => :unconfirmed, :to => :confirmed, 
-				after: :decrease_stock, 
+			after {
+				touch :confirmed_at
+				decrease_stock
+			}
+			transitions :from => :unconfirmed, :to => :confirmed,
 				guard: :payment_ready_for_confirm?
 		end
 		event :approve do
 			after {
+				touch :approved_at
 				send_order_summary
 				SendConfirmationSmsJob.perform_later user.name, user.phone
 			}
@@ -59,12 +63,16 @@ class Order < ActiveRecord::Base
 		end
 		event :dispatch do
 			after {
+				touch :dispacthed_at
 				SendDispatchSmsJob.perform_later user.name, user.phone
 			}
 			transitions :from => :approved, :to => :dispatched, 
 				guard: :delivery_boy_assigned?
 		end
 		event :deliver do #if cash mark as paid first
+			after {
+				touch :delivered_at
+			}
 			transitions :from => :dispatched, :to => :delivered do
 				guard {
 					if is_paid
@@ -78,6 +86,7 @@ class Order < ActiveRecord::Base
 		end
 		event :cancel do
 			after {
+				touch :canceled_at
 				increase_stock
 				SendCancellationSmsJob.perform_later user.name, user.phone
 			}

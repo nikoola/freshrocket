@@ -227,6 +227,8 @@ describe Order, type: :model do
 				expect(product_1.reload.inventory_count).to eq(0) #not present in order
 				expect(product_2.reload.inventory_count).to eq(3) #0+3
 				expect(product_3.reload.inventory_count).to eq(10) #8+2
+
+				expect([order.canceled_at, order.created_at, order.confirmed_at]).to all be_present
 			end
 		end
 

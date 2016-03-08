@@ -46,8 +46,12 @@ class SetupSchema < ActiveRecord::Migration
 		t.decimal  "total_price",        precision: 8, scale: 2
 		t.decimal  "coupon_discount",    precision: 8, scale: 2
 
-		t.datetime "created_at",                                 null: false
-		t.datetime "updated_at",                                 null: false
+		t.datetime :created_at,                                 null: false
+		t.datetime :confirmed_at
+		t.datetime :approved_at
+		t.datetime :dispacthed_at
+		t.datetime :delivered_at
+		t.datetime :canceled_at
 
 		t.date     "wanted_date"
 		t.string   "wanted_time"
