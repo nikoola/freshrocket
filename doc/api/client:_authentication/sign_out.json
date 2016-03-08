@@ -16,11 +16,11 @@
       "request_path": "/auth/sign_out",
       "request_body": null,
       "request_headers": {
-        "Access-Token": "2v0g2Gdh0KPd_PQdytQ84Q",
+        "Access-Token": "nuGIRYw_bm_YxCQSiurHBQ",
         "Token-Type": "Bearer",
-        "Client": "PNAnXzaZZr0Zxe-ws498WA",
-        "Expiry": "1458645217",
-        "Uid": "122hellen_gibson@granttowne.net",
+        "Client": "Ceub_JH4bdwRMy9JFWmNSA",
+        "Expiry": "1458666831",
+        "Uid": "122gerard.kihn@borerdaniel.biz",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -38,13 +38,13 @@
         "Content-Type": "application/json; charset=utf-8",
         "ETag": "W/\"7363e85fe9edee6f053a4b319588c086\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=b0VhcFc4emhuajdIWFJCMDRwMVdSUGtLZ2FaSmhnV3FxVERRNGVKZ1ZtdW5BWGFJMzYxNGIrME5TL1BPUGFMcFFyVzVINWo5VnNSaklhV3JvTis1Unc9PS0tb1YvSzdnaU8vQVVwRWJzUHJpbzNpQT09--3a8cb4ae5449b6820dc0bde05c31593c5111d420; path=/; HttpOnly",
-        "X-Request-Id": "e183146e-53ff-476b-bdec-5e529d30dc09",
-        "X-Runtime": "0.071951",
+        "Set-Cookie": "_session_id=QzhwUzRyeUljNFFsWTZHcUlwZUR3T2ZnUzZOQVc1M3VkR1ZCdDNzakFQRGVQUTQ1dk1kYWJobGtCT1M2TVRRTGREUWNrUmpEaXJPZDBpbURMMCtValE9PS0tOEt5VUZIelVqSTlpcDl5d1FmTlc4UT09--77f264f0c58c297d4fd67faad8182b7d1d820fba; path=/; HttpOnly",
+        "X-Request-Id": "53d5a2cc-a3d2-4fac-9b1a-2659cef9ce5c",
+        "X-Runtime": "0.072286",
         "Content-Length": "16"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/auth/sign_out\" -d '' -X DELETE \\\n\t-H \"Access-Token: 2v0g2Gdh0KPd_PQdytQ84Q\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: PNAnXzaZZr0Zxe-ws498WA\" \\\n\t-H \"Expiry: 1458645217\" \\\n\t-H \"Uid: 122hellen_gibson@granttowne.net\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/auth/sign_out\" -d '' -X DELETE \\\n\t-H \"Access-Token: nuGIRYw_bm_YxCQSiurHBQ\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: Ceub_JH4bdwRMy9JFWmNSA\" \\\n\t-H \"Expiry: 1458666831\" \\\n\t-H \"Uid: 122gerard.kihn@borerdaniel.biz\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

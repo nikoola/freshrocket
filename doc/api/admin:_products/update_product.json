@@ -16,11 +16,11 @@
       "request_path": "/admin/products/1",
       "request_body": "product[title]=hi",
       "request_headers": {
-        "Access-Token": "le4BJE7WwoCWOT-zpCXtcA",
+        "Access-Token": "GSQnjTBVsUTOqlN5g2oGGg",
         "Token-Type": "Bearer",
-        "Client": "TskwMgCh8DzgpihrpgyxaQ",
-        "Expiry": "1458645212",
-        "Uid": "71jeff@franecki.biz",
+        "Client": "f9BL8QTDvvuU5UexmWVwrQ",
+        "Expiry": "1458666826",
+        "Uid": "71layne_flatley@kihn.co",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -30,21 +30,21 @@
       "request_content_type": "application/x-www-form-urlencoded",
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\n  \"id\": 1,\n  \"city_id\": 1,\n  \"title\": \"hi\",\n  \"price\": \"3.0\",\n  \"description\": null,\n  \"created_at\": \"2016-03-08T11:13:32.174Z\",\n  \"updated_at\": \"2016-03-08T11:13:32.345Z\",\n  \"inventory_count\": 20,\n  \"image_url\": \"uploads/product/image/default.png\"\n}",
+      "response_body": "{\n  \"id\": 1,\n  \"city_id\": 1,\n  \"title\": \"hi\",\n  \"price\": \"3.0\",\n  \"description\": null,\n  \"created_at\": \"2016-03-08T17:13:46.098Z\",\n  \"updated_at\": \"2016-03-08T17:13:46.270Z\",\n  \"inventory_count\": 20,\n  \"image_url\": \"uploads/product/image/default.png\"\n}",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"c041a97b3629b9e062cb1f68130d2927\"",
+        "ETag": "W/\"565e33c154fe9edb43799b60edaed729\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=VzNqSk9KK2YxK0c0Q055UTVUbmhwVXF1MVdwUkQycXhZcnVWWFN4TjFIVlVZaU5kai9QWVY0VWV6V2V3cFBtYjJhNFczdnc4V0dUbEJvSjExckxsdC9vTXkxMmlSZExRWnd3Y3RKbW8zMXgwRHZoQXRtS0NxbGFpZ1d6c05PNGlzVENnOTR1NXNqVkRKQWJ0RGREbHgzUndrcVFKSDRXU3JwSXROMlZWZUxseTVPN1pwRS93aGZJdTZ5cGpTejBsLS1BTWszMmdzNXhndmZBSEc1TGlJSnZnPT0%3D--d3c2b67ca5fe73204459dbff89cd8c90599f0ed1; path=/; HttpOnly",
-        "X-Request-Id": "56d572a9-473f-4ccb-a702-3f1f5405e56e",
-        "X-Runtime": "0.080477",
+        "Set-Cookie": "_session_id=YTZ0SWxUQTlwNm1MSUw0c2hJR3pYSnJxN0UzSWJURXVHbGJReElqODFmOUlsaURoQ2ZKOEp3VHBuZ0piVi9nTVIyMWY1aGtlSWNYRmNzUTExRHMybUxsWE54NGZwN083UUhoRHpHS2pYYkFjUDNiSjJlMHM5eWEvbmFPdmZMQ215QUVLbkdXMzBuVVFLa05heGgycFdCNlMxeHNGNzVTTkQ2VUtqZVdRNkNUekhQOUZBdGJ6ZVNIc3o4M2RiZ210LS1hYVc5S21WSmtYVDNmU1J4MGZieXF3PT0%3D--556474def050c30c2e62ad1fe17f387ac13f0ff6; path=/; HttpOnly",
+        "X-Request-Id": "01e7fb61-8e4a-4980-aee7-57b365fde62f",
+        "X-Runtime": "0.080051",
         "Content-Length": "215"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/admin/products/1\" -d 'product[title]=hi' -X PUT \\\n\t-H \"Access-Token: le4BJE7WwoCWOT-zpCXtcA\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: TskwMgCh8DzgpihrpgyxaQ\" \\\n\t-H \"Expiry: 1458645212\" \\\n\t-H \"Uid: 71jeff@franecki.biz\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/admin/products/1\" -d 'product[title]=hi' -X PUT \\\n\t-H \"Access-Token: GSQnjTBVsUTOqlN5g2oGGg\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: f9BL8QTDvvuU5UexmWVwrQ\" \\\n\t-H \"Expiry: 1458666826\" \\\n\t-H \"Uid: 71layne_flatley@kihn.co\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

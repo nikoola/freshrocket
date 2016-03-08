@@ -47,13 +47,13 @@
     {
       "request_method": "POST",
       "request_path": "/auth",
-      "request_body": "email=159irwin%40purdy.org&password=secrety_bickety&password_confirmation=secrety_bickety&first_name=Buford&last_name=Hamill&phone=%2B79172343270",
+      "request_body": "email=159ernesto_johnson%40ferry.info&password=secrety_bickety&password_confirmation=secrety_bickety&first_name=Ahmed&last_name=Dicki&phone=%2B79172343270",
       "request_headers": {
-        "Access-Token": "ECx71nBbbRPN_bDaeUFZJQ",
+        "Access-Token": "slBXrQ_H0L6nI4aZKg9K8w",
         "Token-Type": "Bearer",
-        "Client": "WgC2SZsT6XeerdtPn7DnCw",
-        "Expiry": "1458645224",
-        "Uid": "160lenna_hartmann@daniel.net",
+        "Client": "8vO_msUsHvWRTylSKwzfnQ",
+        "Expiry": "1458666838",
+        "Uid": "160werner_beer@jaskolski.io",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -63,25 +63,25 @@
       "request_content_type": "application/x-www-form-urlencoded",
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\n  \"status\": \"success\",\n  \"data\": {\n    \"id\": 6,\n    \"first_name\": \"Buford\",\n    \"last_name\": \"Hamill\",\n    \"email\": \"159irwin@purdy.org\",\n    \"provider\": \"email\",\n    \"uid\": \"159irwin@purdy.org\",\n    \"phone\": \"+79172343270\",\n    \"verification_code\": null,\n    \"is_verified\": false,\n    \"created_at\": \"2016-03-08T11:13:44.215Z\",\n    \"updated_at\": \"2016-03-08T11:13:44.357Z\",\n    \"how_did_you_hear_about_us\": null\n  }\n}",
+      "response_body": "{\n  \"status\": \"success\",\n  \"data\": {\n    \"id\": 6,\n    \"first_name\": \"Ahmed\",\n    \"last_name\": \"Dicki\",\n    \"email\": \"159ernesto_johnson@ferry.info\",\n    \"provider\": \"email\",\n    \"uid\": \"159ernesto_johnson@ferry.info\",\n    \"phone\": \"+79172343270\",\n    \"verification_code\": null,\n    \"is_verified\": false,\n    \"created_at\": \"2016-03-08T17:13:58.566Z\",\n    \"updated_at\": \"2016-03-08T17:13:58.705Z\",\n    \"how_did_you_hear_about_us\": null\n  }\n}",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
-        "access-token": "qKJ9_adArrLaR3VlscSqXg",
+        "access-token": "FAJzk0VDLGeNIQ95n9bIyg",
         "token-type": "Bearer",
-        "client": "iJjZCTy9LYgD4ENZKWuINQ",
-        "expiry": "1458645224",
-        "uid": "159irwin@purdy.org",
+        "client": "2w42XoSVa4LeUVPzJgO8Mg",
+        "expiry": "1458666838",
+        "uid": "159ernesto_johnson@ferry.info",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"a4299087f24588eaf3aa3bd49998c4fa\"",
+        "ETag": "W/\"68330153291222ad3baf63f7b957e3af\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "X-Request-Id": "7187ec68-d6b7-4d06-af96-f6c82e4bd97f",
-        "X-Runtime": "0.157374",
-        "Content-Length": "335"
+        "X-Request-Id": "509b24f7-2468-43ad-befe-7ae93338ea9a",
+        "X-Runtime": "0.156081",
+        "Content-Length": "355"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/auth\" -d 'email=159irwin%40purdy.org&password=secrety_bickety&password_confirmation=secrety_bickety&first_name=Buford&last_name=Hamill&phone=%2B79172343270' -X POST \\\n\t-H \"Access-Token: ECx71nBbbRPN_bDaeUFZJQ\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: WgC2SZsT6XeerdtPn7DnCw\" \\\n\t-H \"Expiry: 1458645224\" \\\n\t-H \"Uid: 160lenna_hartmann@daniel.net\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/auth\" -d 'email=159ernesto_johnson%40ferry.info&password=secrety_bickety&password_confirmation=secrety_bickety&first_name=Ahmed&last_name=Dicki&phone=%2B79172343270' -X POST \\\n\t-H \"Access-Token: slBXrQ_H0L6nI4aZKg9K8w\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: 8vO_msUsHvWRTylSKwzfnQ\" \\\n\t-H \"Expiry: 1458666838\" \\\n\t-H \"Uid: 160werner_beer@jaskolski.io\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

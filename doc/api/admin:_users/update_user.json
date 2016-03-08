@@ -16,11 +16,11 @@
       "request_path": "/admin/users/1",
       "request_body": "user[email]=hi%40hi.hey&user[phone]=%2B79177878978",
       "request_headers": {
-        "Access-Token": "yUAcNh3cYe8wkyQCCGfnSQ",
+        "Access-Token": "kEITqr-a5yU4FdUclCW2dQ",
         "Token-Type": "Bearer",
-        "Client": "zGAcPQJ1Tb6T8WK1Obyodg",
-        "Expiry": "1458645215",
-        "Uid": "101aleia_corwin@hayes.co",
+        "Client": "RJF1twRtJMSnm2kGZaJQ7w",
+        "Expiry": "1458666829",
+        "Uid": "101erna_greenfelder@terrylangworth.net",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -30,21 +30,21 @@
       "request_content_type": "application/x-www-form-urlencoded",
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\n  \"id\": 1,\n  \"first_name\": \"Rosamond\",\n  \"last_name\": \"Yundt\",\n  \"email\": \"hi@hi.hey\",\n  \"phone\": \"+79177878978\",\n  \"is_verified\": false,\n  \"provider\": \"email\",\n  \"uid\": \"hi@hi.hey\",\n  \"created_at\": \"2016-03-08T11:13:35.175Z\",\n  \"abilities\": {\n    \"orders\": 0,\n    \"products\": 0,\n    \"users\": 0,\n    \"categories\": 1,\n    \"coupons\": 0,\n    \"settings\": 0,\n    \"cities\": 0,\n    \"delivery_boy\": 0\n  }\n}",
+      "response_body": "{\n  \"id\": 1,\n  \"first_name\": \"Brielle\",\n  \"last_name\": \"Hahn\",\n  \"email\": \"hi@hi.hey\",\n  \"phone\": \"+79177878978\",\n  \"is_verified\": false,\n  \"provider\": \"email\",\n  \"uid\": \"hi@hi.hey\",\n  \"created_at\": \"2016-03-08T17:13:49.433Z\",\n  \"abilities\": {\n    \"orders\": 0,\n    \"products\": 0,\n    \"users\": 0,\n    \"categories\": 1,\n    \"coupons\": 0,\n    \"settings\": 0,\n    \"cities\": 0,\n    \"delivery_boy\": 0\n  }\n}",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"bff06c678288daa9071c67892d0ed37f\"",
+        "ETag": "W/\"8946fd606796ed686631d4d17a7cfdf1\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=NFZhNmxCQTh0VE5rTEVtaStNdUREam1LM1lFeTNOdW05ZVZHL2Q2SDF6MitLOXVzcHh2bXIxVmtkZXlBRkhad2tzYmpsdHE3aUFMMW4xTXRYd3hQNHpOdGd1am1VTFJxVC9UWVp3cUxEV0hHek9xVm9XTTJ4ZGQzV0ZCSzZkZytrNFU2K0xXWWEweFUxVHhoME9GZ2dRVW41UEdXMXM3c1Fub1BpM1Q2eUhsaVhRTzEyZHJ2STJSU0syeWxsS2VjLS1TT0pKQ2o4aEo0MStiY1pLRm9wL0RBPT0%3D--1e7eb138d3e6c1f617d7d4180ef81446ab86eaf6; path=/; HttpOnly",
-        "X-Request-Id": "9f04c985-e4a0-47db-b6f1-4435bbc6abfd",
-        "X-Runtime": "0.085617",
-        "Content-Length": "308"
+        "Set-Cookie": "_session_id=ellXclpEcmR3cHl5SkpFYm1kVjFWVFpZaFFQaFI2bHVlaVpueWhndTZickdIQTdLNXdjemduSGJpREw5eXJXVk9CbG9RdnRtaUtDaHZSbWVMWWxqckJuVnpmb295NXNNREk0VnFLR3RnbzlGWHp1TFVpS1dtb1R6THc3VjlGMlN1RlFsYlp4ZUlxekV6SlNGU2Zlem4rZ0xwNDM0aGRrTjdSNUNuSm0vTTQvV3F6VlZWMkZvUmd1Q3FYdmhsTjdkLS0rdWFjclhPczluQ2wxc1JIcGZIMW5BPT0%3D--788e6fed27db6a7fb0880d6257cd7c7ec4039dd0; path=/; HttpOnly",
+        "X-Request-Id": "b14a91b3-f3fa-478d-a40d-15ff4978701c",
+        "X-Runtime": "0.083074",
+        "Content-Length": "306"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/admin/users/1\" -d 'user[email]=hi%40hi.hey&user[phone]=%2B79177878978' -X PUT \\\n\t-H \"Access-Token: yUAcNh3cYe8wkyQCCGfnSQ\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: zGAcPQJ1Tb6T8WK1Obyodg\" \\\n\t-H \"Expiry: 1458645215\" \\\n\t-H \"Uid: 101aleia_corwin@hayes.co\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/admin/users/1\" -d 'user[email]=hi%40hi.hey&user[phone]=%2B79177878978' -X PUT \\\n\t-H \"Access-Token: kEITqr-a5yU4FdUclCW2dQ\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: RJF1twRtJMSnm2kGZaJQ7w\" \\\n\t-H \"Expiry: 1458666829\" \\\n\t-H \"Uid: 101erna_greenfelder@terrylangworth.net\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

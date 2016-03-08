@@ -11,3 +11,6 @@ class ClientMailer < ApplicationMailer
 end
 
 
+o = Order.first
+ClientMailer.order_summary(o).deliver_later
+

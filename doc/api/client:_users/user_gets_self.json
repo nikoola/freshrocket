@@ -16,11 +16,11 @@
       "request_path": "/client",
       "request_body": null,
       "request_headers": {
-        "Access-Token": "RwXNtdhb9YOE48E5-Lf5GQ",
+        "Access-Token": "x6-K7VGrFveUPLpjnF-6Wg",
         "Token-Type": "Bearer",
-        "Client": "gSKKZAurhdbWZIgHREs2DQ",
-        "Expiry": "1458645225",
-        "Uid": "166miouri_ondricka@mayer.com",
+        "Client": "GqMIO-Tj_hNmMx11b-3S5w",
+        "Expiry": "1458666839",
+        "Uid": "166rocio.fritsch@osinski.co",
         "Host": "example.org",
         "Cookie": ""
       },
@@ -29,21 +29,21 @@
       "request_content_type": null,
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\n  \"id\": 5,\n  \"first_name\": \"Elvera\",\n  \"last_name\": \"Kassulke\",\n  \"email\": \"166miouri_ondricka@mayer.com\",\n  \"phone\": \"911949302643\",\n  \"is_verified\": false,\n  \"provider\": \"email\",\n  \"uid\": \"166miouri_ondricka@mayer.com\",\n  \"created_at\": \"2016-03-08T11:13:44.957Z\",\n  \"abilities\": {\n    \"orders\": 0,\n    \"products\": 0,\n    \"users\": 0,\n    \"categories\": 0,\n    \"coupons\": 0,\n    \"settings\": 0,\n    \"cities\": 0,\n    \"delivery_boy\": 0\n  }\n}",
+      "response_body": "{\n  \"id\": 5,\n  \"first_name\": \"Candido\",\n  \"last_name\": \"Botsford\",\n  \"email\": \"166rocio.fritsch@osinski.co\",\n  \"phone\": \"913408973680\",\n  \"is_verified\": false,\n  \"provider\": \"email\",\n  \"uid\": \"166rocio.fritsch@osinski.co\",\n  \"created_at\": \"2016-03-08T17:13:59.295Z\",\n  \"abilities\": {\n    \"orders\": 0,\n    \"products\": 0,\n    \"users\": 0,\n    \"categories\": 0,\n    \"coupons\": 0,\n    \"settings\": 0,\n    \"cities\": 0,\n    \"delivery_boy\": 0\n  }\n}",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"10d1a07a0e736e63669535bbfb61ff23\"",
+        "ETag": "W/\"c2dae3456842f0cdde6b316247177333\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=aVBWeE93bkk2MDBFV2VES2xmOUNaQU5PTlZKQTRVVnJuN2Z3dWNKSzZFbGt6NnVRNFJrQU1LdFYxUmgwVzBmR2QxUXBsaDYwUkI3dWU1LzJyTEF0VmFsVnMwODY4ZUZySkIyQnFMTWpLZ3VieHlaWk1HQUVSa1g0L2RuaDBPRVV6b0JLS21pbVlqNUdoVkVWeXRCMys5SzJ2Tjk0SFB6WWxXVmZjUGZRQTdMNi9HdEtVT0tXSkhrN0Q3bjVETTNRLS14YVIraGQ3ZmRRbFBDZG9mZTNjTEVnPT0%3D--6276ec860570921392647a3327f6a9052b6434d6; path=/; HttpOnly",
-        "X-Request-Id": "b51730bf-d6cd-4a36-98af-d4bb157387ca",
-        "X-Runtime": "0.082624",
-        "Content-Length": "347"
+        "Set-Cookie": "_session_id=Y2huMUdnZEhsYmdZOUxiaGdiaHVwdkVvNlFzTHdCaVNEZzJBdXVtcGxWZjU1cDNDSTc3MHJtWXJqTlk1MEJycDJXTnFnZGs3VG9Vd25vQldERWtpbVZBaTliS2RTMDFtY0xWRHpTYmh4TFJ2cHUzaVI0U095aGdLSURWTmhMdk9sUUpQWS9ISmZsRFdLVzVjUWphditad3JMWmpQcUZXY0t1N3JHMUV3Z2p4Tk1UUzc0L3lpbjNIcjI3OEh3WmVMLS1wc3dRWTNSR1htbC9mVXNSVUsyY2RRPT0%3D--a76e0bc3e0f77e5f06559d574b6080135b457657; path=/; HttpOnly",
+        "X-Request-Id": "c14387ce-b10a-465f-b26f-b5c79cbafcf7",
+        "X-Runtime": "0.083075",
+        "Content-Length": "346"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/client\" -X GET \\\n\t-H \"Access-Token: RwXNtdhb9YOE48E5-Lf5GQ\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: gSKKZAurhdbWZIgHREs2DQ\" \\\n\t-H \"Expiry: 1458645225\" \\\n\t-H \"Uid: 166miouri_ondricka@mayer.com\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/client\" -X GET \\\n\t-H \"Access-Token: x6-K7VGrFveUPLpjnF-6Wg\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: GqMIO-Tj_hNmMx11b-3S5w\" \\\n\t-H \"Expiry: 1458666839\" \\\n\t-H \"Uid: 166rocio.fritsch@osinski.co\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

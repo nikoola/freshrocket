@@ -39,13 +39,13 @@
     {
       "request_method": "PUT",
       "request_path": "/admin/cities/1",
-      "request_body": "city[name]=Deionborough_11&city[areas_attributes][][id]=1&city[areas_attributes][][_destroy]=1",
+      "request_body": "city[name]=Port+Bransonton_11&city[areas_attributes][][id]=1&city[areas_attributes][][_destroy]=1",
       "request_headers": {
-        "Access-Token": "jAdOfMIdWHK9XgAwRCrsww",
+        "Access-Token": "Z3F4CprxCk53B5QumHPZcA",
         "Token-Type": "Bearer",
-        "Client": "2uGr6zYLEbJNPknDaVzbUQ",
-        "Expiry": "1458645207",
-        "Uid": "16amara_klocko@dickinson.info",
+        "Client": "WqFirYFCgh6_xBuSkn8Wdg",
+        "Expiry": "1458666820",
+        "Uid": "16ewald.morar@huel.com",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -55,21 +55,21 @@
       "request_content_type": "application/x-www-form-urlencoded",
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\n  \"id\": 1,\n  \"name\": \"Deionborough_11\",\n  \"active\": true\n}",
+      "response_body": "{\n  \"id\": 1,\n  \"name\": \"Port Bransonton_11\",\n  \"active\": true\n}",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"4d59a4b40ec6c80af5549d25ee266ec3\"",
+        "ETag": "W/\"c11bddb43731ff6fbd568addb55ede7c\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=L1hTRHdmMzAxUXdGREFpTGtIcjNhSCtac1FEdU9tNjBZdVB1amIvbjRLY0NtMVhpVnRlU2g4VWhWUG5tUjVrcWJSOUF6QVh1aXN4WW1wNElFRTZ3cEtEZVRqakxxOWNJVmNkQUJjWm5kUHhaYnVteUxVYnZ2VlI1Yk5OVU9WaVhyMXV3RnNWdXVKRExFWkNzanBPOW9SVHhxVjliVndSY1NoTWZ4UHVBcDkreHJGcVNEeWtaVmlYNEVLOTBoSXp0LS05ZFFTMThHV0NrcGRLTmc3ZFZ6amtRPT0%3D--c0e8e73313e8fbc298ca3599e3ecf892c3ae8d1f; path=/; HttpOnly",
-        "X-Request-Id": "b538d526-a14a-4ea5-87e5-e707f6507c8c",
-        "X-Runtime": "0.080300",
-        "Content-Length": "47"
+        "Set-Cookie": "_session_id=WTErbEszdml4T2Q1ZCtmdEgybFh3d0lNc0FCZTk0cEorL0xzaUJhVjBDVWxubWRveGowSjFiWTJMSHVGU0lScGRuL2lkakNtVER4NDNTRnRKanNMMk1sOURxSUVzRkVBTUhhKzJhZmptNTQ5Qk56aWhMc2xKbzRGSk1ZU0VraGVqS3FXZWtNTnZjeml6VzlCOEI2Y053U0pmb01KNnE2QWVlazlpejFUUDFaOVRkOTZzaHFsZkV1ekIwb2VtLzhSLS1MaGl0N09wcDZKb0c2bGozRGk2Y2tBPT0%3D--eaa5eb7ed8f2fd236f172b3d3bb13b73a99ad491; path=/; HttpOnly",
+        "X-Request-Id": "60c2ade0-2927-4b70-8335-d581fce5c244",
+        "X-Runtime": "0.079360",
+        "Content-Length": "50"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/admin/cities/1\" -d 'city[name]=Deionborough_11&city[areas_attributes][][id]=1&city[areas_attributes][][_destroy]=1' -X PUT \\\n\t-H \"Access-Token: jAdOfMIdWHK9XgAwRCrsww\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: 2uGr6zYLEbJNPknDaVzbUQ\" \\\n\t-H \"Expiry: 1458645207\" \\\n\t-H \"Uid: 16amara_klocko@dickinson.info\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/admin/cities/1\" -d 'city[name]=Port+Bransonton_11&city[areas_attributes][][id]=1&city[areas_attributes][][_destroy]=1' -X PUT \\\n\t-H \"Access-Token: Z3F4CprxCk53B5QumHPZcA\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: WqFirYFCgh6_xBuSkn8Wdg\" \\\n\t-H \"Expiry: 1458666820\" \\\n\t-H \"Uid: 16ewald.morar@huel.com\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

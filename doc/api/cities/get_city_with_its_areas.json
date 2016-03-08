@@ -27,17 +27,17 @@
       "request_content_type": null,
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\n  \"id\": 1,\n  \"name\": \"Port Luther_101\",\n  \"active\": true,\n  \"areas\": [\n    {\n      \"id\": 1,\n      \"name\": \"Lake Richie_area_3\"\n    },\n    {\n      \"id\": 2,\n      \"name\": \"Hyattbury_area_4\"\n    },\n    {\n      \"id\": 3,\n      \"name\": \"Hagenesmouth_area_5\"\n    }\n  ]\n}",
+      "response_body": "{\n  \"id\": 1,\n  \"name\": \"Susiestad_101\",\n  \"active\": true,\n  \"areas\": [\n    {\n      \"id\": 1,\n      \"name\": \"Lockmanburgh_area_3\"\n    },\n    {\n      \"id\": 2,\n      \"name\": \"New Carter_area_4\"\n    },\n    {\n      \"id\": 3,\n      \"name\": \"Whitebury_area_5\"\n    }\n  ]\n}",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"a4a73e3505e5608e4333bd1dbf3aa6ef\"",
+        "ETag": "W/\"10cc59ad6548141a8244a7d6e1e2d2fb\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "X-Request-Id": "e60d726f-e34c-4cd1-86a9-156630a1bd97",
-        "X-Runtime": "0.002934",
-        "Content-Length": "167"
+        "X-Request-Id": "94c9c228-218b-41b5-81fb-1f447790e58c",
+        "X-Runtime": "0.002926",
+        "Content-Length": "164"
       },
       "response_content_type": "application/json; charset=utf-8",
       "curl": "curl \"http://localhost:3000/cities/1?include[]=areas\" -X GET \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""

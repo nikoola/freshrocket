@@ -16,11 +16,11 @@
       "request_path": "/admin/addresses/1",
       "request_body": "address[street_and_house]=good",
       "request_headers": {
-        "Access-Token": "9OFHkS3dpVm9QiMY9t2RLw",
+        "Access-Token": "Hqdy-KPsPGMRTpi97dfQ5g",
         "Token-Type": "Bearer",
-        "Client": "qowmDbicRhx-XFUalPh8Kw",
-        "Expiry": "1458645205",
-        "Uid": "8moriah_blanda@volkman.org",
+        "Client": "tgodyJ4salUw7HhW3KLeLw",
+        "Expiry": "1458666819",
+        "Uid": "8danial@hammes.net",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -38,13 +38,13 @@
         "Content-Type": "application/json; charset=utf-8",
         "ETag": "W/\"3589eec4e6d4c5aebe0c986b2ef511c7\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=T3BhSGRsSjVxVWtBb0RyMDFvWFJGUXgzY0Zxdit6QVFhUGI5K3o0NWU3Y3JlNS93bzR6Y2I4QWRxZnl6eTUxNFZCUm5oeENxdURBbkRZS0FWajJRRk1KTjFFQWpJNEFSdEJ6eFhNb0dOR1RpZ3h4NGpxdFM4bDJOaGlrOCt0cFRha1kydjlVeVVDZmJwcU9UWVNYL1lrZUdtbW9KeURSUnQzM2lVdXZDUDFnMVp3OWNCM3pnTk9nQWYzdG9hNXRQLS01c04xdTF6aVprNVE5WENnV1RJUkVBPT0%3D--d633d1043a1db80bbe31abc1011bb53034b47849; path=/; HttpOnly",
-        "X-Request-Id": "124a955e-22bb-4fb1-8b75-b061cd63fb8d",
-        "X-Runtime": "0.108055",
+        "Set-Cookie": "_session_id=dUozemtzalpCMU1NUGtlbTNOK0h2ZWxLNEVqenFrRFQwTEt0eitDZjR4TVdlditjOE1PZTErWU4yT0kxSU5yd2xmYUNGWkNEZzBiQ2ZXZ2l4bklvL0RaT28wNUttVS9vTHdZL2VWb05jMGhQYjloc1JUTTZPZW45Nm00WTBCZXJlUEpFS0VPR1NTdGlYVmFoYy9WQzhLbGNoYWMrNldZZG5GMXAvZnB0a1BmdmVlYzNmaStHdW5BaTlCZWRMa0xMLS1UMHdrc1NHblZZUTR0ZlNVUkdwY09BPT0%3D--da8c0428eeebe141c1efa8a6f70f08cd846c36fd; path=/; HttpOnly",
+        "X-Request-Id": "e6e77825-73b1-40f5-978a-6d50d4cd2593",
+        "X-Runtime": "0.107744",
         "Content-Length": "76"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/admin/addresses/1\" -d 'address[street_and_house]=good' -X PUT \\\n\t-H \"Access-Token: 9OFHkS3dpVm9QiMY9t2RLw\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: qowmDbicRhx-XFUalPh8Kw\" \\\n\t-H \"Expiry: 1458645205\" \\\n\t-H \"Uid: 8moriah_blanda@volkman.org\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/admin/addresses/1\" -d 'address[street_and_house]=good' -X PUT \\\n\t-H \"Access-Token: Hqdy-KPsPGMRTpi97dfQ5g\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: tgodyJ4salUw7HhW3KLeLw\" \\\n\t-H \"Expiry: 1458666819\" \\\n\t-H \"Uid: 8danial@hammes.net\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

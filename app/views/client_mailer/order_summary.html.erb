@@ -1,12 +1,14 @@
 
 Your order number is: <%= @order.id %>
 
+<br>
+
 You ordered the following:
 
 <table>
 	<thead>
 		<tr>
-			<th>product title</th>
+			<th>title</th>
 			<th>amount</th>			
 		</tr>
 	</thead>
@@ -20,8 +22,8 @@ You ordered the following:
 	</tbody>
 </table>
 
-<%= link_to 'Your order', client_order_path(@order) %>
-
+<%= link_to 'Your order', client_order_url(@order) %>
+<br>
 
 
 Your order will be delivered shortly

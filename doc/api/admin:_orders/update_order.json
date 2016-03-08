@@ -16,11 +16,11 @@
       "request_path": "/admin/orders/1",
       "request_body": "order[delivery_boy_id]=1",
       "request_headers": {
-        "Access-Token": "-5iiSruagqvBGT1XUl89bw",
+        "Access-Token": "Y-__wE705bvU1smTC1t_XA",
         "Token-Type": "Bearer",
-        "Client": "3mOPLeSu3Gn31202Z9KjFQ",
-        "Expiry": "1458645210",
-        "Uid": "53tod@streich.name",
+        "Client": "6_Ki0fmjxd30MSVY1udA5w",
+        "Expiry": "1458666823",
+        "Uid": "53mattie@carter.info",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -30,21 +30,21 @@
       "request_content_type": "application/x-www-form-urlencoded",
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\n  \"id\": 1,\n  \"user_id\": 2,\n  \"status\": \"unconfirmed\",\n  \"created_at\": \"2016-03-08T11:13:30.142Z\",\n  \"pure_product_price\": \"27.0\",\n  \"tax\": \"1.35\",\n  \"delivery_charge\": \"200.0\",\n  \"total_price\": \"228.35\",\n  \"delivery_boy_id\": 1,\n  \"wanted_time\": null,\n  \"wanted_date\": null,\n  \"payment_type\": \"cash\",\n  \"is_paid\": false,\n  \"feedback\": null,\n  \"comment\": null,\n  \"coupon_code\": null,\n  \"source_type\": null,\n  \"admin_comment\": null\n}",
+      "response_body": "{\n  \"id\": 1,\n  \"user_id\": 2,\n  \"status\": \"unconfirmed\",\n  \"created_at\": \"2016-03-08T17:13:43.600Z\",\n  \"confirmed_at\": null,\n  \"approved_at\": null,\n  \"dispacthed_at\": null,\n  \"delivered_at\": null,\n  \"canceled_at\": null,\n  \"pure_product_price\": \"27.0\",\n  \"tax\": \"1.35\",\n  \"delivery_charge\": \"200.0\",\n  \"total_price\": \"228.35\",\n  \"delivery_boy_id\": 1,\n  \"wanted_time\": null,\n  \"wanted_date\": null,\n  \"payment_type\": \"cash\",\n  \"is_paid\": false,\n  \"feedback\": null,\n  \"comment\": null,\n  \"coupon_code\": null,\n  \"source_type\": null,\n  \"admin_comment\": null\n}",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"8ed79db30ae64afdb8f93d47f725b2f6\"",
+        "ETag": "W/\"92c998e4dfeb4ed487a483c45817b685\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=aCtkVDlPYk84WjlEb29sRVpuYm41YUd6K0FhZHRtb3JkVlBtM2pJYnd1bDhhcHZ0UmZENGxJV242a3VBWUNKNlJzQjB6bzZTL2N2NWUrSWZ3Y0srbjJmaXRVUDVRVlRIeXNWRGR4ZFpVSWVlTVhDSERJZ1hGdmU4Ri9BWU5TdFVwWjlTOWVKWTFCU3ZjblNITktiQVBlODVSWjNhZjArL2RLYmNHbzZhWHdoRlZKYVU2Nm9TS01PVk9WRitPWmptLS11QXV5ZXpxblYxSjZTbkVMeGRpWDRnPT0%3D--e54ba2f5a1b146ada55c45d55e9cb9737c15498c; path=/; HttpOnly",
-        "X-Request-Id": "c066845f-1edb-4cec-9793-2c16bad2bfdf",
-        "X-Runtime": "0.104361",
-        "Content-Length": "359"
+        "Set-Cookie": "_session_id=UXpjcjRoMTNVUVM1M0E1UUo1TEN1SEd2UENiSG5tMmVRNStOUUZOTmVlRE1OZEJDR2ozWmhHSTVVaENYY3lGMmdKMEREb25uTFJBVTI4cUpJMGJNLzNOb1pIcEhoV2N5c29zUVVGN0kwUFlIYmlkRlYrTWJnZ1VKSlhOWEIyalF4RkZTOTVwYys4YWJCT0RUYWcvMVcrQ2lrclRJek82elBTNVdManBnNkdrcVlZUkFkWGE1Ti9OaDRaQ0JaVVg2LS1Jb1dDNDFITHQzQnd4cUgzakdnQ3BRPT0%3D--e8a67de933bfbce2ec11f73bfdc14610f06f11bb; path=/; HttpOnly",
+        "X-Request-Id": "170dbbeb-0e19-4b4b-bc00-c679106ed78a",
+        "X-Runtime": "0.083539",
+        "Content-Length": "458"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/admin/orders/1\" -d 'order[delivery_boy_id]=1' -X PUT \\\n\t-H \"Access-Token: -5iiSruagqvBGT1XUl89bw\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: 3mOPLeSu3Gn31202Z9KjFQ\" \\\n\t-H \"Expiry: 1458645210\" \\\n\t-H \"Uid: 53tod@streich.name\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/admin/orders/1\" -d 'order[delivery_boy_id]=1' -X PUT \\\n\t-H \"Access-Token: Y-__wE705bvU1smTC1t_XA\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: 6_Ki0fmjxd30MSVY1udA5w\" \\\n\t-H \"Expiry: 1458666823\" \\\n\t-H \"Uid: 53mattie@carter.info\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

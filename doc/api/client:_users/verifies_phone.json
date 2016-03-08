@@ -19,11 +19,11 @@
       "request_path": "/client/verify",
       "request_body": "verification_code",
       "request_headers": {
-        "Access-Token": "lMZgoGwORl5szbx9MqvoVw",
+        "Access-Token": "TDsk7Y3tFISjRKU6BHUZaw",
         "Token-Type": "Bearer",
-        "Client": "VEivdpBqnsDcNTPohCbGvg",
-        "Expiry": "1458645225",
-        "Uid": "167alisha.watsica@ward.com",
+        "Client": "6Lu994q2zlL5eLJSFlLmXQ",
+        "Expiry": "1458666839",
+        "Uid": "167sheridan@paucek.name",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -40,13 +40,13 @@
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "text/html",
         "Cache-Control": "no-cache",
-        "Set-Cookie": "_session_id=ZGp0MHYwdXJHTWFqdlJMOFYvMHlvOXdQQkROY1VjT2NOMHh0aVJ3V0ZvNkNZbVZNQXIzMkVxN0Y0bzZydUdiS0ZQTytXNHVPK0I5dE5EenNWZTJpUHJnbU5QMTA3TEN5VStzSVFHWU1IdWRRT3EvOVQ1WjlmeUhOSURyeERaQ3g0cjR4VGFxeDdrci9oMGs2cjUrd0FuMmlrZjBQNUlnRWk1ZkZRbU5FcjJ4M3lDSkpjMHg1cys2SFlJL1RLdEI4LS1JUVJzdjNUQXdZMDQ1bm1pa3g2RXBnPT0%3D--5bfdd63f86970d1e9e846231fb6c9d20439e7ce9; path=/; HttpOnly",
-        "X-Request-Id": "12f0142a-0d79-49ca-bf4f-f6d750b076e8",
-        "X-Runtime": "0.078455",
+        "Set-Cookie": "_session_id=SXBIVVdRaHZhb3kzcWt0ODQ1UmJ6QzkybXlKOXdJY0hqQkhmbzdUZEdBdVIrUG9xaVFWbGVudU5ka0k2RE1mWHFheUlGc0MrK3FsVnB6SUVydUdvQ2hlM2FqVFk1aEVwY2dQR0Jwa3pjOGFteFVxbE5MNXRocmpaVHhpOFVWS25FNEtjZ1MyWVhHNTlXaDF3dEJha2drcFJ4UzhubDhKRG9CVWZVQndPNFBROHFDK2IyMS9FUks1L2dZb2MzNk15LS1YVEJOSCtxdjNlanAyVUdnWGEyUGJBPT0%3D--45009355c74e8ec505745d343c998de31782014a; path=/; HttpOnly",
+        "X-Request-Id": "732a38fb-68ad-4b9b-a841-f6ea2d433c3a",
+        "X-Runtime": "0.077797",
         "Content-Length": "0"
       },
       "response_content_type": "text/html",
-      "curl": "curl \"http://localhost:3000/client/verify\" -d 'verification_code' -X PUT \\\n\t-H \"Access-Token: lMZgoGwORl5szbx9MqvoVw\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: VEivdpBqnsDcNTPohCbGvg\" \\\n\t-H \"Expiry: 1458645225\" \\\n\t-H \"Uid: 167alisha.watsica@ward.com\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/client/verify\" -d 'verification_code' -X PUT \\\n\t-H \"Access-Token: TDsk7Y3tFISjRKU6BHUZaw\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: 6Lu994q2zlL5eLJSFlLmXQ\" \\\n\t-H \"Expiry: 1458666839\" \\\n\t-H \"Uid: 167sheridan@paucek.name\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

@@ -43,13 +43,13 @@
     {
       "request_method": "POST",
       "request_path": "/admin/addresses",
-      "request_body": "address[street_and_house]=58064+Glover+Way&address[door_number]=5&address[city_id]=1&address[user_id]=1",
+      "request_body": "address[street_and_house]=143+Keeling+Villages&address[door_number]=5&address[city_id]=1&address[user_id]=1",
       "request_headers": {
-        "Access-Token": "z2kYkQBw2WS8ofnxgcclmw",
+        "Access-Token": "Ik4uVnfqUr5s0_dMuw83Kg",
         "Token-Type": "Bearer",
-        "Client": "UEV0z3LKHokh_-KRC98zLA",
-        "Expiry": "1458645205",
-        "Uid": "7lulu.bartell@kling.org",
+        "Client": "sRQ5n4mruSXJqNm76EVC4A",
+        "Expiry": "1458666819",
+        "Uid": "7teresa@johnson.info",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -59,21 +59,21 @@
       "request_content_type": "application/x-www-form-urlencoded",
       "response_status": 201,
       "response_status_text": "Created",
-      "response_body": "{\n  \"id\": 1,\n  \"city_id\": 1,\n  \"user_id\": 1,\n  \"street_and_house\": \"58064 Glover Way\",\n  \"door_number\": \"5\"\n}",
+      "response_body": "{\n  \"id\": 1,\n  \"city_id\": 1,\n  \"user_id\": 1,\n  \"street_and_house\": \"143 Keeling Villages\",\n  \"door_number\": \"5\"\n}",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"8bbb91ffd79a3ef963c3a5b804fd0e50\"",
+        "ETag": "W/\"423c173f32ba58fcc0b36b6ff9badf59\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=QWlnQUQzeWdpdlh4NW5oM1FCbUd3ajR2eVFLdmxObTg0ZGV4a21pVGh3V3BDZnZmVGkwZmRkcmlPcFg0MVBTRjhtUlpTOWZnTmFQNUpRLzg5OUZ1Y2hWc09qWlFwUTdKM1RUald2QWhrcEs4M29QdkFUa3UzL0hvOVhjQVNKSXJteldoZ1l4Y2tONW54SXhjQWVNNnFmaFkxQUd3a1R1bTBhcmhTV0FRKzdBaHVYb2VNdTFHU1pkWU1HWGQ1OWZ1LS1yaFRxUjk3MEYvVE1vVXhML1FjNzNBPT0%3D--520f849d32a0e23d36e15f7dd3d2066a4b09517a; path=/; HttpOnly",
-        "X-Request-Id": "c6e8bcb0-dcad-493b-9ff2-3affd3fb8695",
-        "X-Runtime": "0.081492",
-        "Content-Length": "88"
+        "Set-Cookie": "_session_id=Y1dIclkrVE4zSmVvT01saFNKOWliSnZvTm5jNUpaamN3UjhpK2pYTmtJcWdQL2JRWGdWQ1p6WW0wZXlKZkRURmdvak0wQnkvM3dnSm05U2xva0xuQlk5b0NuZXJML3RqaWtrWFNlVWxSdUJLSGJPazVpM1RmMmJWWWU0UHdvdm5XOWYrdFFncXpqa011dThnMkdaLytpREFibXJZeUplMDRWdzlVaUlBM09mU2VZeU9hTm9ZS3dhYS9raTVZeXQ2LS1YN0tlVGhOckxSR2l5ZlIzRjhkTG93PT0%3D--2b6380e758b78a1db9a1796b16ec15298d049138; path=/; HttpOnly",
+        "X-Request-Id": "1c22bb65-e63b-4f4a-a3da-f9dd1b363b75",
+        "X-Runtime": "0.098214",
+        "Content-Length": "92"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/admin/addresses\" -d 'address[street_and_house]=58064+Glover+Way&address[door_number]=5&address[city_id]=1&address[user_id]=1' -X POST \\\n\t-H \"Access-Token: z2kYkQBw2WS8ofnxgcclmw\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: UEV0z3LKHokh_-KRC98zLA\" \\\n\t-H \"Expiry: 1458645205\" \\\n\t-H \"Uid: 7lulu.bartell@kling.org\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/admin/addresses\" -d 'address[street_and_house]=143+Keeling+Villages&address[door_number]=5&address[city_id]=1&address[user_id]=1' -X POST \\\n\t-H \"Access-Token: Ik4uVnfqUr5s0_dMuw83Kg\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: sRQ5n4mruSXJqNm76EVC4A\" \\\n\t-H \"Expiry: 1458666819\" \\\n\t-H \"Uid: 7teresa@johnson.info\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

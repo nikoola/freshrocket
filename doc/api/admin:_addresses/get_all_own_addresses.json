@@ -19,11 +19,11 @@
       "request_path": "/admin/addresses?active=0",
       "request_body": null,
       "request_headers": {
-        "Access-Token": "huuARq0q0ORkOhtNGu5ZtA",
+        "Access-Token": "bDXI07ZoETSfQ_59qAA-wg",
         "Token-Type": "Bearer",
-        "Client": "8JowaQxY11UupQjMMw4SGA",
-        "Expiry": "1458645205",
-        "Uid": "6carolyn@hillllarson.info",
+        "Client": "6uMUU-kZHTVXbIt49Gjirg",
+        "Expiry": "1458666818",
+        "Uid": "6carolyn.dicki@adamsfarrell.com",
         "Host": "example.org",
         "Cookie": ""
       },
@@ -33,21 +33,21 @@
       "request_content_type": null,
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "[\n  {\n    \"id\": 1,\n    \"city_id\": 1,\n    \"user_id\": 1,\n    \"street_and_house\": \"4286 DuBuque Parks\",\n    \"door_number\": \"5\"\n  },\n  {\n    \"id\": 2,\n    \"city_id\": 2,\n    \"user_id\": 2,\n    \"street_and_house\": \"351 Carole Dam\",\n    \"door_number\": \"5\"\n  },\n  {\n    \"id\": 3,\n    \"city_id\": 3,\n    \"user_id\": 3,\n    \"street_and_house\": \"95295 Queen Wells\",\n    \"door_number\": \"5\"\n  }\n]",
+      "response_body": "[\n  {\n    \"id\": 1,\n    \"city_id\": 1,\n    \"user_id\": 1,\n    \"street_and_house\": \"62596 Lesley Spring\",\n    \"door_number\": \"5\"\n  },\n  {\n    \"id\": 2,\n    \"city_id\": 2,\n    \"user_id\": 2,\n    \"street_and_house\": \"76761 Oral Common\",\n    \"door_number\": \"5\"\n  },\n  {\n    \"id\": 3,\n    \"city_id\": 3,\n    \"user_id\": 3,\n    \"street_and_house\": \"57588 Junior View\",\n    \"door_number\": \"5\"\n  }\n]",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"47aeb1e88dcaa1dc81bcec00cfe73a1e\"",
+        "ETag": "W/\"e85a785e3ca56a9aa75c6d350644b3d3\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=QlZrRE1KNjZVUU55WDhmWDlYZ3hDeUlNWU1paHlpT0Rjamo2ZVNYbEVrcXJUZHJvWFlLRUNPQzNndzNqR1hpcG9zd0ZVdFkrWGloM3FrcVdYbncwWXFHK2RXSEVtZk1VNzR0d1RJYzN5RVVVZ0pFWG9XaTdPbHVDY2ZHcGVSdytDdjFMSlhtRDliTGFsVkoyK255dkJ2YnFsZ3JTaDZzdzBOSWFCWS9LSjcxNlQ3UXhjODJWMEhubUJISVlWNGovLS02TzI4Y0tDbXFhaUp0SkZLSURlMHV3PT0%3D--3697c1e77ed15e82bc7eb7582cbe759b0982b315; path=/; HttpOnly",
-        "X-Request-Id": "edadc0e7-1565-452e-b9a5-4a53dce01112",
-        "X-Runtime": "0.114225",
-        "Content-Length": "269"
+        "Set-Cookie": "_session_id=SGZkR0dyVVUrQ3F6VEIycTFjb2l6UHpWRERNRG4xTEYzYW9yTE1BSy9Ucll3NUVvZzByTk9IWTNxcTIvRVFyLy82UVl3aS80WTUyTkNwWDJWQitJZ3VSaXlQdnlWUGREWHlvRWNPdGN5eVYyWEJyQ1UvZ3JxYzU3b01xeUpyRFpTektmcFdCUnp0cEJvVWpDYmZzUHB5QnFwYkI1cE5GZkdmVXk1VzBNOWxIVWNqbG0xUjNidjR1QVJXbXN1R2FwLS1mR1VKaWR6UHM5LzNrQlFSWTFWa3lBPT0%3D--6686e56eb6653dc87b8ba5c71f9f8a3f7265277a; path=/; HttpOnly",
+        "X-Request-Id": "e0bf0510-d8e3-496d-b856-69ec42b31acc",
+        "X-Runtime": "0.133472",
+        "Content-Length": "273"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/admin/addresses?active=0\" -X GET \\\n\t-H \"Access-Token: huuARq0q0ORkOhtNGu5ZtA\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: 8JowaQxY11UupQjMMw4SGA\" \\\n\t-H \"Expiry: 1458645205\" \\\n\t-H \"Uid: 6carolyn@hillllarson.info\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/admin/addresses?active=0\" -X GET \\\n\t-H \"Access-Token: bDXI07ZoETSfQ_59qAA-wg\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: 6uMUU-kZHTVXbIt49Gjirg\" \\\n\t-H \"Expiry: 1458666818\" \\\n\t-H \"Uid: 6carolyn.dicki@adamsfarrell.com\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

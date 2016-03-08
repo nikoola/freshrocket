@@ -16,11 +16,11 @@
       "request_path": "/client/orders/3",
       "request_body": null,
       "request_headers": {
-        "Access-Token": "8OSG-4tisvWTYzfmx8b7Gg",
+        "Access-Token": "TafznREwcdTwbRhAtY0CFg",
         "Token-Type": "Bearer",
-        "Client": "VKHTHpDdjUqGehoiW71Yeg",
-        "Expiry": "1458645222",
-        "Uid": "141cierra_howell@weinattowne.com",
+        "Client": "2cJWhMpRCUpKpJhSOcBIxQ",
+        "Expiry": "1458666836",
+        "Uid": "141jamey@thompson.name",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -37,13 +37,13 @@
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "text/html",
         "Cache-Control": "no-cache",
-        "Set-Cookie": "_session_id=aE5hUmUzU0hHcTY1VFpzemtFM2RlV1BTNEhFcEpzczdNbUx2cDZIa3R1MFM0emp3amw4WXFEMldZckh0eWltdGNoZWJHZDhOZm1JYkVTT0diYmxXTGNGZkFxVWppUjFPTVBDMlAwZHp5VzRKOTQ2aXdRenRRbFhXQ2hkWVRYTXMvRlpHeUlycWM0QlA1ZE5TbTdPaCt0NlVic0xJTWtOdkRQU0o0dWllS0VMeVpmdEdpWDMwZk92ai9wVlROZ0VJLS0zKzllbWdlY3IwZlZwQlJCYTZMV0V3PT0%3D--29909f665417bbe68be988421c47e483b0887f09; path=/; HttpOnly",
-        "X-Request-Id": "9194e40a-a6c1-42a5-ab06-c3ab0d794434",
-        "X-Runtime": "0.077838",
+        "Set-Cookie": "_session_id=SGdWeVc0QWh2cElkdXYyMkhza1B0T2hyRENRejFBZzNua1laT1JYTWpYTW5HSzhUaCt4N0ltQm1CaGI5RnlyUGMrYVNScXhGU3pRbVJsaUJ1S1VaUi9sbTRrKzU0SXJHVTYydElCUTVJRS81NkFiRGZoNVdzT0twUnZtMXZ4S1dzTHFzSHF0RncvS2haNVhhbk9aY1RET1Y1QnZ0aGlaN2NVcFBvS3o1T3pMbmNUdU9WNC96SFQxUkcvVXNZNmRQLS1OUWxFWXJ6bEhUWTkrdjdsY1hxaHlBPT0%3D--27eac7198a56b38a49d165f51c5a339e969da4ff; path=/; HttpOnly",
+        "X-Request-Id": "e0fd8b1e-5b66-4f12-81c5-abf9d58cfaea",
+        "X-Runtime": "0.077675",
         "Content-Length": "0"
       },
       "response_content_type": "text/html",
-      "curl": "curl \"http://localhost:3000/client/orders/3\" -d '' -X DELETE \\\n\t-H \"Access-Token: 8OSG-4tisvWTYzfmx8b7Gg\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: VKHTHpDdjUqGehoiW71Yeg\" \\\n\t-H \"Expiry: 1458645222\" \\\n\t-H \"Uid: 141cierra_howell@weinattowne.com\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/client/orders/3\" -d '' -X DELETE \\\n\t-H \"Access-Token: TafznREwcdTwbRhAtY0CFg\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: 2cJWhMpRCUpKpJhSOcBIxQ\" \\\n\t-H \"Expiry: 1458666836\" \\\n\t-H \"Uid: 141jamey@thompson.name\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }
