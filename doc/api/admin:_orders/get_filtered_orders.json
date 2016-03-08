@@ -24,6 +24,10 @@
     {
       "name": "city_id",
       "description": "returns orders which have addresses in this city"
+    },
+    {
+      "name": "include_",
+      "description": "line_items, address - whether to include association"
     }
   ],
   "response_fields": [
@@ -32,40 +36,39 @@
   "requests": [
     {
       "request_method": "GET",
-      "request_path": "/admin/orders?limit=5&offset=2&status=confirmed",
+      "request_path": "/admin/orders?limit=5&offset=2",
       "request_body": null,
       "request_headers": {
-        "Access-Token": "XUirrfR2OAxJ9pS1__9m1w",
+        "Access-Token": "L0d5YqgXZ-b4kug45-P-Tg",
         "Token-Type": "Bearer",
-        "Client": "_IS0lLkhQuy8iqfisEbHWw",
-        "Expiry": "1458483687",
-        "Uid": "27jaydon@bruen.net",
+        "Client": "EmYitjcrgM5wV93Cf15wsw",
+        "Expiry": "1458645209",
+        "Uid": "39neil.okon@cain.com",
         "Host": "example.org",
         "Cookie": ""
       },
       "request_query_parameters": {
         "limit": "5",
-        "offset": "2",
-        "status": "confirmed"
+        "offset": "2"
       },
       "request_content_type": null,
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "[\n\n]",
+      "response_body": "[\n  {\n    \"id\": 3,\n    \"user_id\": 5,\n    \"status\": \"unconfirmed\",\n    \"created_at\": \"2016-03-08T11:13:29.145Z\",\n    \"pure_product_price\": \"27.0\",\n    \"tax\": \"1.35\",\n    \"delivery_charge\": \"200.0\",\n    \"total_price\": \"228.35\",\n    \"delivery_boy_id\": null,\n    \"wanted_time\": null,\n    \"wanted_date\": null,\n    \"payment_type\": \"cash\",\n    \"is_paid\": false,\n    \"feedback\": null,\n    \"comment\": null,\n    \"coupon_code\": null,\n    \"source_type\": null,\n    \"admin_comment\": null\n  },\n  {\n    \"id\": 4,\n    \"user_id\": 7,\n    \"status\": \"unconfirmed\",\n    \"created_at\": \"2016-03-08T11:13:29.197Z\",\n    \"pure_product_price\": \"27.0\",\n    \"tax\": \"1.35\",\n    \"delivery_charge\": \"200.0\",\n    \"total_price\": \"228.35\",\n    \"delivery_boy_id\": null,\n    \"wanted_time\": null,\n    \"wanted_date\": null,\n    \"payment_type\": \"cash\",\n    \"is_paid\": false,\n    \"feedback\": null,\n    \"comment\": null,\n    \"coupon_code\": null,\n    \"source_type\": null,\n    \"admin_comment\": null\n  },\n  {\n    \"id\": 5,\n    \"user_id\": 9,\n    \"status\": \"unconfirmed\",\n    \"created_at\": \"2016-03-08T11:13:29.256Z\",\n    \"pure_product_price\": \"27.0\",\n    \"tax\": \"1.35\",\n    \"delivery_charge\": \"200.0\",\n    \"total_price\": \"228.35\",\n    \"delivery_boy_id\": null,\n    \"wanted_time\": null,\n    \"wanted_date\": null,\n    \"payment_type\": \"cash\",\n    \"is_paid\": false,\n    \"feedback\": null,\n    \"comment\": null,\n    \"coupon_code\": null,\n    \"source_type\": null,\n    \"admin_comment\": null\n  },\n  {\n    \"id\": 6,\n    \"user_id\": 11,\n    \"status\": \"unconfirmed\",\n    \"created_at\": \"2016-03-08T11:13:29.303Z\",\n    \"pure_product_price\": \"27.0\",\n    \"tax\": \"1.35\",\n    \"delivery_charge\": \"200.0\",\n    \"total_price\": \"228.35\",\n    \"delivery_boy_id\": null,\n    \"wanted_time\": null,\n    \"wanted_date\": null,\n    \"payment_type\": \"cash\",\n    \"is_paid\": false,\n    \"feedback\": null,\n    \"comment\": null,\n    \"coupon_code\": null,\n    \"source_type\": null,\n    \"admin_comment\": null\n  }\n]",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"d751713988987e9331980363e24189ce\"",
+        "ETag": "W/\"ebafd827e7794e57e5bd05bc23070e02\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=b1ZKc29YdThVVmc5ejVJd1pnZ3ZBNXVpRDZ3SHRkaE9SeVM5Qis0bUJQWW0xaFRGQlBadFpwNEdabThYZENFTUxqc09FWHVHbVhxUzlyVEFBYnFzcDNKZTRRNnhCSUt3YkJVNGdvZkxjQkI1U3czSSs4TUFwSlpOeGJwQWY5bWh4K1dQbmorZ05zaFhod3ZTQ2lJZVcwY1NFcTd2VVdUVzVnN1NBWXFSTHJISUhhdzBCWXVZRGFTalpKaWJncFdLLS1iUEJhK2ltNVlBaGYvSlc3MzBEMkJBPT0%3D--96d3d7a9fc1302a13170e4cf982b2e49f3514b71; path=/; HttpOnly",
-        "X-Request-Id": "68116b73-38e2-432d-a79d-76261261cfaf",
-        "X-Runtime": "0.077953",
-        "Content-Length": "2"
+        "Set-Cookie": "_session_id=bmd2Q0hmWjZ5SmY3MElIc0doSEF5c1RyZ2hpWHpVam51QjVxTDEzTzQzQnhaRjdNenFoSkdsdzFFN3lHV080T3Z0M0p4T1hpR0UvQjdNekkvZ05tekN3M2gwY2pFVnlJRzlRQkpvMlJ3aHdxRGhTSVFsVFdadGJDUnZQRDh0S2VQUWtXQ1FyNUlwaXVKODJDdGZjWXpPbWR4dDRTbWhXSkJWd1ZDRUVmb2V0S1RDY3NLY1BqVTVqSU9RZ2FCSFZKLS1pdDRBNVVpNC92bXRhT2p0aVBYaTBBPT0%3D--0650743947182eea19a588a14aabda4da8a1bd7e; path=/; HttpOnly",
+        "X-Request-Id": "270ee2d2-44e1-42b1-a417-bf26875aca35",
+        "X-Runtime": "0.081574",
+        "Content-Length": "1454"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/admin/orders?limit=5&offset=2&status=confirmed\" -X GET \\\n\t-H \"Access-Token: XUirrfR2OAxJ9pS1__9m1w\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: _IS0lLkhQuy8iqfisEbHWw\" \\\n\t-H \"Expiry: 1458483687\" \\\n\t-H \"Uid: 27jaydon@bruen.net\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/admin/orders?limit=5&offset=2\" -X GET \\\n\t-H \"Access-Token: L0d5YqgXZ-b4kug45-P-Tg\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: EmYitjcrgM5wV93Cf15wsw\" \\\n\t-H \"Expiry: 1458645209\" \\\n\t-H \"Uid: 39neil.okon@cain.com\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

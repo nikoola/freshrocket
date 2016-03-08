@@ -16,11 +16,11 @@
       "request_path": "/admin/stats",
       "request_body": null,
       "request_headers": {
-        "Access-Token": "GbAv2x48opMOMBnI_Px0mg",
+        "Access-Token": "ZTHDz_a2xVL3BWSN6O5pUw",
         "Token-Type": "Bearer",
-        "Client": "doJQdZe06iSD40oWp7HyVw",
-        "Expiry": "1458483691",
-        "Uid": "75freda@kihnstanton.io",
+        "Client": "eeTXvJ0WkT6XJPQX4CnIXQ",
+        "Expiry": "1458645213",
+        "Uid": "87thaddeus_gutmann@pfeffer.info",
         "Host": "example.org",
         "Cookie": ""
       },
@@ -37,13 +37,13 @@
         "Content-Type": "application/json; charset=utf-8",
         "ETag": "W/\"9033f0c26566828000184e476ae429e1\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=M0VoNzJ1anBEN0dpSndKT01aS0NWRDVuNFpKQlhyKzZlanoray8rSW40Q2dOT241Um5JNU5LSGdmQ1ZhZkZCOXhyOVgzVDhiWUZqYUM4cW9CajlDczdsQXZhTHRwNmdRYlZxaEhaT1MzMUlCMlY0QThEZ0hJVFd2Nk1kL0pKMkhDU0NtYUdWQ1FSK0xCWEpaZVozQmlHc2hGY0NiUi9MV2Zpbi9MMFg3UWFINDRNNk9JNGxSRU1OcEtuV01TZDZHLS1YVVU5SzlWSzF3ZEptczllRHZtMStBPT0%3D--663678bd276e7149a3716093726ca135051bc3a6; path=/; HttpOnly",
-        "X-Request-Id": "cf7645b9-b20d-4aa0-aa72-1f14e360ef29",
-        "X-Runtime": "0.088843",
+        "Set-Cookie": "_session_id=bkkzMldpbThwTlhPOHdBVjR2ZkpmNXhLYmgrZVlrNUxZZ1laTndyTXZMbXB6OG5SQ09yRHVkVjJHeUpOaXB6OE9aL1YrUEwzVXhZcXA1SGVRSUREYmhMOS9vTTFPN1ZjYXV2dzhoMkVGSi9GNEdNUndSYU9CZWExTVZleXBZd0x6RlQvaUd0OWdJZzlHMjUxMFZ3N3o4RnhUbXBYalFuQXBxOGpXckFTQmNjTDR0ZHRGVUg0b3NaVkJweXo3UVlvLS02VUQwZzNWVExkVGJuNXo2dkxOTVJ3PT0%3D--a09579bf033924ea727a74b98ae0e3905ff0675d; path=/; HttpOnly",
+        "X-Request-Id": "d5b14841-35b1-4e18-91b6-44ddcce681bd",
+        "X-Runtime": "0.085385",
         "Content-Length": "139"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/admin/stats\" -X GET \\\n\t-H \"Access-Token: GbAv2x48opMOMBnI_Px0mg\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: doJQdZe06iSD40oWp7HyVw\" \\\n\t-H \"Expiry: 1458483691\" \\\n\t-H \"Uid: 75freda@kihnstanton.io\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/admin/stats\" -X GET \\\n\t-H \"Access-Token: ZTHDz_a2xVL3BWSN6O5pUw\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: eeTXvJ0WkT6XJPQX4CnIXQ\" \\\n\t-H \"Expiry: 1458645213\" \\\n\t-H \"Uid: 87thaddeus_gutmann@pfeffer.info\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

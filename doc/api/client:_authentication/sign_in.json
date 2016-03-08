@@ -23,7 +23,7 @@
     {
       "request_method": "POST",
       "request_path": "/auth/sign_in",
-      "request_body": "email=109nola_ruel%40oberbrunner.name&password=secrety_bickety",
+      "request_body": "email=121destiney.rowe%40friesen.co&password=secrety_bickety",
       "request_headers": {
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
@@ -34,25 +34,25 @@
       "request_content_type": "application/x-www-form-urlencoded",
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\n  \"data\": {\n    \"id\": 1,\n    \"first_name\": \"Letitia\",\n    \"last_name\": \"Buckridge\",\n    \"email\": \"109nola_ruel@oberbrunner.name\",\n    \"provider\": \"email\",\n    \"uid\": \"109nola_ruel@oberbrunner.name\",\n    \"phone\": \"911179125730\",\n    \"verification_code\": null,\n    \"is_verified\": false,\n    \"how_did_you_hear_about_us\": null\n  }\n}",
+      "response_body": "{\n  \"data\": {\n    \"id\": 1,\n    \"first_name\": \"Gardner\",\n    \"last_name\": \"Nader\",\n    \"email\": \"121destiney.rowe@friesen.co\",\n    \"provider\": \"email\",\n    \"uid\": \"121destiney.rowe@friesen.co\",\n    \"phone\": \"917668537437\",\n    \"verification_code\": null,\n    \"is_verified\": false,\n    \"how_did_you_hear_about_us\": null\n  }\n}",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
-        "access-token": "RAsd3Jo7F8gGl-NbjynbYw",
+        "access-token": "0EbGWEWIwUuxMw4Jys1s-w",
         "token-type": "Bearer",
-        "client": "ddCrC8AFkQBuJEN-A8p7fQ",
-        "expiry": "1458483695",
-        "uid": "109nola_ruel@oberbrunner.name",
+        "client": "j8GlpTOEtupUuMeloFOxKA",
+        "expiry": "1458645217",
+        "uid": "121destiney.rowe@friesen.co",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"ee6148848ea66d8b2d13f0dd7d3931b4\"",
+        "ETag": "W/\"f80b0eb852cb2a16132f76172c6f62a6\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "X-Request-Id": "03005f8d-25ba-442f-a2ec-622ff2fe5c3e",
-        "X-Runtime": "0.160997",
-        "Content-Length": "262"
+        "X-Request-Id": "88f09e2b-880e-4e93-9066-ffaae7304392",
+        "X-Runtime": "0.159842",
+        "Content-Length": "254"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/auth/sign_in\" -d 'email=109nola_ruel%40oberbrunner.name&password=secrety_bickety' -X POST \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/auth/sign_in\" -d 'email=121destiney.rowe%40friesen.co&password=secrety_bickety' -X POST \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

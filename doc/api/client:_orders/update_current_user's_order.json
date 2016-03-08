@@ -16,11 +16,11 @@
       "request_path": "client/orders/3",
       "request_body": "order[comment]=hi&order[line_items_attributes][][id]=7&order[line_items_attributes][][_destroy]=true",
       "request_headers": {
-        "Access-Token": "9d_Oy1smmTmrNNqhckS_3Q",
+        "Access-Token": "2ITseo-LFD-JlKRHIx43gw",
         "Token-Type": "Bearer",
-        "Client": "MgirI8MB_49w4Ar7d4c8Gg",
-        "Expiry": "1458483700",
-        "Uid": "125ellie@flatley.com",
+        "Client": "YKSNADNxn6UimtH6ZaoBlA",
+        "Expiry": "1458645221",
+        "Uid": "137aleandra@kleinoberbrunner.net",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -30,21 +30,21 @@
       "request_content_type": "application/x-www-form-urlencoded",
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\n  \"id\": 3,\n  \"user_id\": 5,\n  \"status\": \"unconfirmed\",\n  \"created_at\": \"2016-03-06T14:21:40.353Z\",\n  \"pure_product_price\": \"27.0\",\n  \"tax\": \"1.35\",\n  \"delivery_charge\": \"200.0\",\n  \"total_price\": \"228.35\",\n  \"delivery_boy_id\": null,\n  \"wanted_time\": null,\n  \"wanted_date\": null,\n  \"payment_type\": \"cash\",\n  \"is_paid\": false,\n  \"feedback\": null,\n  \"comment\": \"hi\",\n  \"coupon_code\": null,\n  \"source_type\": null,\n  \"line_items\": [\n    {\n      \"id\": 8,\n      \"order_id\": 3,\n      \"product_id\": 8,\n      \"amount\": 3,\n      \"fixed_price\": \"9.0\"\n    },\n    {\n      \"id\": 9,\n      \"order_id\": 3,\n      \"product_id\": 9,\n      \"amount\": 3,\n      \"fixed_price\": \"9.0\"\n    }\n  ],\n  \"address\": {\n    \"id\": 3,\n    \"city_id\": 9,\n    \"user_id\": 6,\n    \"street_and_house\": \"61081 Kulas Highway\",\n    \"door_number\": \"5\"\n  }\n}",
+      "response_body": "{\n  \"id\": 3,\n  \"user_id\": 5,\n  \"status\": \"unconfirmed\",\n  \"created_at\": \"2016-03-08T11:13:41.904Z\",\n  \"pure_product_price\": \"27.0\",\n  \"tax\": \"1.35\",\n  \"delivery_charge\": \"200.0\",\n  \"total_price\": \"228.35\",\n  \"delivery_boy_id\": null,\n  \"wanted_time\": null,\n  \"wanted_date\": null,\n  \"payment_type\": \"cash\",\n  \"is_paid\": false,\n  \"feedback\": null,\n  \"comment\": \"hi\",\n  \"coupon_code\": null,\n  \"source_type\": null\n}",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"ee2ae4e692a2d6b91335dbc7f5ae5b74\"",
+        "ETag": "W/\"80705f6b2297dbe8ce371c16f441c7b1\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=VjhpY2FjUml6R2FQeE9OVDJRY3ZkSnc1aFhWR2s0eG1lTzBpTzVkdnBnbUV5a1phVm0vK0RuNkxiVTdBVCtNckVmcys1U2F6QVZPcFlxWDdOUWoxSXhkOHovNVdsT1lJZnN6VHIwNnFrK2tXMlpTNERkV2QzUU9QbTJIY2dHVFE4a2xrOXFKTDVmNktOM2ZscVBncHRXWEw0aW5MSGJLV21yVkJJSjRiVWY2NkJCbHVlVTBIcWd2NU9vL1Z3RlhaLS1qQzd5UXpCMkNQNFN1cXhTWHdIOGVnPT0%3D--72209aaf1fedf6598990ac2e7753ecbeb8f27c1e; path=/; HttpOnly",
-        "X-Request-Id": "982d03cc-13ac-419e-9f0e-363c601b5327",
-        "X-Runtime": "0.085476",
-        "Content-Length": "594"
+        "Set-Cookie": "_session_id=NTNZajJmY2VZVW90RWxsNWh2SUIya2tLQjAyOThZTWloa1RrZ1QzTjh6YkREdEw5QllpSkxpZ2dEWHowK1ZXamg3L1JPYlJFTnN0eEgydWFJTThrV1BEcGhUOU03azdqb2o2OHo1bW1TVlN2ckROQlMvRWVoczQyVVVORG1MbGF4SWdSY0diTVduTHpLbDJwRHE0RHdKcWxQeUNYSCszbVpMbHU3ZzRBUEdWcTM3bEZaRUdSdXZIbEQ0MCswd282LS1mZGhKdCtiem40cFV0U0gwbG0zZ3hnPT0%3D--6d9dd5dab87a1ed34c5796ae33eb1ac27bea14c7; path=/; HttpOnly",
+        "X-Request-Id": "15c3e757-7465-46ff-affd-2d8fbdaaa94e",
+        "X-Runtime": "0.087109",
+        "Content-Length": "341"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000client/orders/3\" -d 'order[comment]=hi&order[line_items_attributes][][id]=7&order[line_items_attributes][][_destroy]=true' -X PUT \\\n\t-H \"Access-Token: 9d_Oy1smmTmrNNqhckS_3Q\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: MgirI8MB_49w4Ar7d4c8Gg\" \\\n\t-H \"Expiry: 1458483700\" \\\n\t-H \"Uid: 125ellie@flatley.com\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000client/orders/3\" -d 'order[comment]=hi&order[line_items_attributes][][id]=7&order[line_items_attributes][][_destroy]=true' -X PUT \\\n\t-H \"Access-Token: 2ITseo-LFD-JlKRHIx43gw\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: YKSNADNxn6UimtH6ZaoBlA\" \\\n\t-H \"Expiry: 1458645221\" \\\n\t-H \"Uid: 137aleandra@kleinoberbrunner.net\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

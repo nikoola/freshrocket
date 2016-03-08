@@ -19,11 +19,11 @@
       "request_path": "/client/payments/new?order_id=3",
       "request_body": null,
       "request_headers": {
-        "Access-Token": "S3Trq3USMsyS4krkLwNBZA",
+        "Access-Token": "r-PIv_byb4Mj7KMtymh-Ow",
         "Token-Type": "Bearer",
-        "Client": "0iUYPPiQP9qR0S45OXy4yA",
-        "Expiry": "1458483702",
-        "Uid": "145timmy@baumbach.name",
+        "Client": "_cDePHaOVPWt3JJWL6lQMw",
+        "Expiry": "1458645224",
+        "Uid": "157pat.roberts@klocko.biz",
         "Host": "example.org",
         "Cookie": ""
       },
@@ -33,21 +33,21 @@
       "request_content_type": null,
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\n  \"citrus\": {\n    \"action\": \"https://sandbox.citruspay.com/kouqfeaav0\",\n    \"method\": \"POST\",\n    \"fields\": {\n      \"merchantTxnId\": \"3\",\n      \"merchantAccessKey\": \"T82TNCTLNBZ282BLHAGD\",\n      \"orderAmount\": \"228.35\",\n      \"currency\": \"USD\",\n      \"secret_key\": \"1690a1e29ecec2a5f852b678dd5362616c79916a\",\n      \"pmt_url\": \"kouqfeaav0\",\n      \"returnUrl\": \"http://localhost:3000/client/payments/citrus\",\n      \"paymentMode\": \"NET_BANKING\",\n      \"reqtime\": \"1457274102000\",\n      \"secSignature\": \"16055d2470aa3b2001007b0bd8086106d677f8b2\"\n    }\n  }\n}",
+      "response_body": "{\n  \"citrus\": {\n    \"action\": \"https://sandbox.citruspay.com/kouqfeaav0\",\n    \"method\": \"POST\",\n    \"fields\": {\n      \"merchantTxnId\": \"3\",\n      \"merchantAccessKey\": \"T82TNCTLNBZ282BLHAGD\",\n      \"orderAmount\": \"228.35\",\n      \"currency\": \"USD\",\n      \"secret_key\": \"1690a1e29ecec2a5f852b678dd5362616c79916a\",\n      \"pmt_url\": \"kouqfeaav0\",\n      \"returnUrl\": \"http://localhost:3000/client/payments/citrus\",\n      \"paymentMode\": \"NET_BANKING\",\n      \"reqtime\": \"1457435624000\",\n      \"secSignature\": \"16055d2470aa3b2001007b0bd8086106d677f8b2\"\n    }\n  }\n}",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"9ddc7e613bfec9a43b690794c39ec834\"",
+        "ETag": "W/\"95e65fdd85181c666928052f53f34d0e\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=ZWl4aHdaSUxOYmt4bjZVVFJVOThHUVRZUFp5R1NXT2UvY2NVVVlFUk0ycFVQVEZlaCt0VmdWKzdLTjJnRGRQQ2E0NVJzb0xYanNvWXBUdGhjU1IvZEI1MWNzT1BNUUY0NmJxT2hDMi9valB1VzN4RmltOHo5ejNybDYxUGxxVmp1Y3BNZllsZkNmeDdlSUE2dWJjTExjU0ZidGRPbDBYam01M2tXTGdlUEk5aENHRXErMEZRNDZOY0E2bWNndW1QLS1Qc0xhMHd6TXJOdG8wenU0UjlqVGFnPT0%3D--573d64e2230457b6a70a304cdd5b89bc37a4bf07; path=/; HttpOnly",
-        "X-Request-Id": "ba725ec9-6571-4c86-a3ba-0c1f8f7f40ed",
-        "X-Runtime": "0.085948",
+        "Set-Cookie": "_session_id=dTNPUjF4b1c1Skx4Vm90bmN2cDluQUttcnhRNTlIUG1JQnhqdUpVTGxreFkxTDBuZ2h2YUZFWm51RlJwTWMxbHF0N3JDTkFQUGYzM3h4MEU4Z0JMQkxRMDFmUkpEZHVyYXpveDBLMmxieHViUDlBWms4MVBmVUVmaVpEZlFmTkw0dFBoR3EzL1BncHpLMm9nWklXTjFZS0NvZHpLcXFhOTd4dFJDQ1l0TUFBWDNlM3hGOHN4d0FOWndabTlaL1VsLS1DaHNGSlNRYXpyRjdxK1FRZlhUSElBPT0%3D--f6f186c94a6d0cfc58c0652ecdfd3178f600de04; path=/; HttpOnly",
+        "X-Request-Id": "d8e98725-279c-4836-add8-d01054e942ca",
+        "X-Runtime": "0.083267",
         "Content-Length": "444"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/client/payments/new?order_id=3\" -X GET \\\n\t-H \"Access-Token: S3Trq3USMsyS4krkLwNBZA\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: 0iUYPPiQP9qR0S45OXy4yA\" \\\n\t-H \"Expiry: 1458483702\" \\\n\t-H \"Uid: 145timmy@baumbach.name\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/client/payments/new?order_id=3\" -X GET \\\n\t-H \"Access-Token: r-PIv_byb4Mj7KMtymh-Ow\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: _cDePHaOVPWt3JJWL6lQMw\" \\\n\t-H \"Expiry: 1458645224\" \\\n\t-H \"Uid: 157pat.roberts@klocko.biz\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

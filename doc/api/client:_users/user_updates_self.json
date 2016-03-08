@@ -16,11 +16,11 @@
       "request_path": "/auth",
       "request_body": "phone=%2B79174446666",
       "request_headers": {
-        "Access-Token": "V02qUz4lPiaiCIIi8OoeAQ",
+        "Access-Token": "whcXuiJEWDZNawQZh8XSjg",
         "Token-Type": "Bearer",
-        "Client": "eGx98KQl3beVtzIADwat2Q",
-        "Expiry": "1458483703",
-        "Uid": "151marcia_cummings@dietrich.co",
+        "Client": "cZfeRex6yniwwB8i6QndPA",
+        "Expiry": "1458645224",
+        "Uid": "163shyanne_quitzon@schinnermitchell.com",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -30,21 +30,21 @@
       "request_content_type": "application/x-www-form-urlencoded",
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\n  \"status\": \"success\",\n  \"data\": {\n    \"id\": 5,\n    \"first_name\": \"Beverly\",\n    \"last_name\": \"Yundt\",\n    \"email\": \"151marcia_cummings@dietrich.co\",\n    \"provider\": \"email\",\n    \"uid\": \"151marcia_cummings@dietrich.co\",\n    \"phone\": \"+79174446666\",\n    \"verification_code\": null,\n    \"is_verified\": false,\n    \"created_at\": \"2016-03-06T14:21:43.055Z\",\n    \"updated_at\": \"2016-03-06T14:21:43.202Z\",\n    \"how_did_you_hear_about_us\": null\n  }\n}",
+      "response_body": "{\n  \"status\": \"success\",\n  \"data\": {\n    \"id\": 5,\n    \"first_name\": \"Judson\",\n    \"last_name\": \"Ritchie\",\n    \"email\": \"163shyanne_quitzon@schinnermitchell.com\",\n    \"provider\": \"email\",\n    \"uid\": \"163shyanne_quitzon@schinnermitchell.com\",\n    \"phone\": \"+79174446666\",\n    \"verification_code\": null,\n    \"is_verified\": false,\n    \"created_at\": \"2016-03-08T11:13:44.462Z\",\n    \"updated_at\": \"2016-03-08T11:13:44.611Z\",\n    \"how_did_you_hear_about_us\": null\n  }\n}",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"ca29447a7acdc1645bd1223fe538e5a8\"",
+        "ETag": "W/\"8ce2f3068399da21fa7c988d5d1998aa\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=ZnBLMEhFSDAxRzdNNUQxY0V3VHBjWkpxTUw5ZFpMN1NGcmFKVUlQSnAzc3UybUh2MW9ZclZYT3ZiRlR6ckEwZ2tmU2xLc052SWV2dGNoeXpVZm00YlFHUGx0QjkwQWl5NW5jNEZEQU1sbmZxcXdWUzRFL2VlOUU3NlZNODMxYldhREFscHB0UlIrK2h2QmZIYnI5QkhGd1hQaW1uU21tYndRd0ZTU25YYkFwbjNYd2NuY3NyOUMwam1GK1JHQmdMLS02enlKc0ZobjQ3SUE4eGtPeFUwZkVRPT0%3D--a2ed3a6c30cbbeb6f4c68e6a0a62c8807042ee15; path=/; HttpOnly",
-        "X-Request-Id": "d6626159-e856-4aeb-bec1-d4ab332f7178",
-        "X-Runtime": "0.080090",
-        "Content-Length": "359"
+        "Set-Cookie": "_session_id=QTA1Vy9rZWZLQ2VwOFc0RmFYRjM0LzFlTitKUTRweEYyamhkY0JTdjREamxobFlRR3hwcEcvSjM0S09OVWdUNkhUK2NNQ3UxNmI4U09sbUJHcmFxY3JiQmJ4SFVYZHNLbEU1SEJaUThhV1lzV0FTc0ZvMHNtOXREMVVvRU9ZT0RPM2FJYUhFMTJuckJhSHR3WFpmTkFVaW5MdTJsQU5iMk0wc01ReUdMclRHcE5vcnVxTTZsMEFkamZrN0kyWTI3LS1FMTFUaUk1Z21seXNDNzRYWXNNRXhRPT0%3D--7403dd4c56d5ebfb95a9fff4629eca3631849456; path=/; HttpOnly",
+        "X-Request-Id": "3fed2810-7788-46b3-adc6-dab8d042e3fa",
+        "X-Runtime": "0.079640",
+        "Content-Length": "378"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/auth\" -d 'phone=%2B79174446666' -X PUT \\\n\t-H \"Access-Token: V02qUz4lPiaiCIIi8OoeAQ\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: eGx98KQl3beVtzIADwat2Q\" \\\n\t-H \"Expiry: 1458483703\" \\\n\t-H \"Uid: 151marcia_cummings@dietrich.co\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/auth\" -d 'phone=%2B79174446666' -X PUT \\\n\t-H \"Access-Token: whcXuiJEWDZNawQZh8XSjg\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: cZfeRex6yniwwB8i6QndPA\" \\\n\t-H \"Expiry: 1458645224\" \\\n\t-H \"Uid: 163shyanne_quitzon@schinnermitchell.com\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

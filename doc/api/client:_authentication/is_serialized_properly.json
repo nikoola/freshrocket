@@ -13,37 +13,37 @@
   "requests": [
     {
       "request_method": "GET",
-      "request_path": "/auth/validate_token?access-token=5WWPvPFgt6JDHZBXSNfoqg&token-type=Bearer&client=U7rASMWmx1FbpKxEfUsaMQ&expiry=1458483695&uid=111chasity_witting%40schamberger.org",
+      "request_path": "/auth/validate_token?access-token=BZQoIAiBnhPgaFOX25ctgg&token-type=Bearer&client=TWju3R8MrGkykAvLOIyTig&expiry=1458645217&uid=123jakob%40ricenicolas.biz",
       "request_body": null,
       "request_headers": {
         "Host": "example.org",
         "Cookie": ""
       },
       "request_query_parameters": {
-        "access-token": "5WWPvPFgt6JDHZBXSNfoqg",
+        "access-token": "BZQoIAiBnhPgaFOX25ctgg",
         "token-type": "Bearer",
-        "client": "U7rASMWmx1FbpKxEfUsaMQ",
-        "expiry": "1458483695",
-        "uid": "111chasity_witting@schamberger.org"
+        "client": "TWju3R8MrGkykAvLOIyTig",
+        "expiry": "1458645217",
+        "uid": "123jakob@ricenicolas.biz"
       },
       "request_content_type": null,
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\n  \"success\": true,\n  \"data\": {\n    \"id\": 1,\n    \"first_name\": \"Lavada\",\n    \"last_name\": \"Bergnaum\",\n    \"email\": \"111chasity_witting@schamberger.org\",\n    \"phone\": \"917902275497\",\n    \"is_verified\": false,\n    \"provider\": \"email\",\n    \"uid\": \"111chasity_witting@schamberger.org\",\n    \"created_at\": \"2016-03-06T14:21:35.854Z\",\n    \"abilities\": {\n      \"orders\": 0,\n      \"products\": 0,\n      \"users\": 0,\n      \"categories\": 0,\n      \"coupons\": 0,\n      \"settings\": 0,\n      \"cities\": 0,\n      \"delivery_boy\": 0\n    }\n  }\n}",
+      "response_body": "{\n  \"success\": true,\n  \"data\": {\n    \"id\": 1,\n    \"first_name\": \"Craig\",\n    \"last_name\": \"Effertz\",\n    \"email\": \"123jakob@ricenicolas.biz\",\n    \"phone\": \"918479819652\",\n    \"is_verified\": false,\n    \"provider\": \"email\",\n    \"uid\": \"123jakob@ricenicolas.biz\",\n    \"created_at\": \"2016-03-08T11:13:37.760Z\",\n    \"abilities\": {\n      \"orders\": 0,\n      \"products\": 0,\n      \"users\": 0,\n      \"categories\": 0,\n      \"coupons\": 0,\n      \"settings\": 0,\n      \"cities\": 0,\n      \"delivery_boy\": 0\n    }\n  }\n}",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"c82a356f815c59ba8a1c0f1061e8448b\"",
+        "ETag": "W/\"c622cee8e024b7a4f948c04bfa904dc1\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=VXc1a09lcC82aUQwcEx6dkdUY1JvYlRPTXVKT3Vlb2xXQmFWaU1mT0lieTJmMVdOOGVUbWFjWHRsT1dvYjhvWi82NG44ZFN6N0lEMC9jUk9SOHdpR3U5dmM0T01qSUUybHo3ZjhOVFZaVldDSHliRnNURzhvbnBVRTBPR3dSZWp1UW05b1VkaVc5cUVLN05Wa2tRRlNwVnJiRFNZV0IwYjRTSmZaVVFtbEw5dDdWRDFPY1c1ZTF3MDVjMDNjTzlYLS1teFJSTUJWRUc3Nm1OSGVhQUNwSW5BPT0%3D--0c87d9c6d88985c6cac82efebb7a59ec82a779aa; path=/; HttpOnly",
-        "X-Request-Id": "35cf2ed6-09ae-4424-ab62-661fd10b2113",
-        "X-Runtime": "0.079012",
-        "Content-Length": "383"
+        "Set-Cookie": "_session_id=bWRoWEppd2pJekpFLzVQZUhRalUxYXB0cU5ORUxBcE80bmxEUUM2Z2F3RGdiTmdOT3daQTZTRE05TUZRb0xvK1BHS3BSME9GT1Y5UkdCOW5GdEFtWm43bW9BM0Y0YklYRkJ0RUVXMUE4TXFuNllrcEVVZmdYNFZIRVZ1RlJqRjllcVpUWnJKSzI5NjM0bHNPL3dOcmlNb0FVMmFHNWtpUzhLRXZobFBybWkxV0ZHNEtza1hpRFRYWUtzMVZsZkhsLS1DZHU3T2tHTnAvQnlMMDEyTjJoSitRPT0%3D--adbf2e010edd1d06ae2c0dbc527cbceed122b584; path=/; HttpOnly",
+        "X-Request-Id": "9a5f04d0-a2b9-42e3-bb67-4b41a66eb4c4",
+        "X-Runtime": "0.077398",
+        "Content-Length": "361"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/auth/validate_token?access-token=5WWPvPFgt6JDHZBXSNfoqg&token-type=Bearer&client=U7rASMWmx1FbpKxEfUsaMQ&expiry=1458483695&uid=111chasity_witting%40schamberger.org\" -X GET \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/auth/validate_token?access-token=BZQoIAiBnhPgaFOX25ctgg&token-type=Bearer&client=TWju3R8MrGkykAvLOIyTig&expiry=1458645217&uid=123jakob%40ricenicolas.biz\" -X GET \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

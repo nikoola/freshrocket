@@ -37,13 +37,13 @@
     {
       "request_method": "POST",
       "request_path": "/client/addresses",
-      "request_body": "address[street_and_house]=63408+Padberg+Crest&address[door_number]=5&address[city_id]=1",
+      "request_body": "address[street_and_house]=10101+Kuhlman+Rest&address[door_number]=5&address[city_id]=1",
       "request_headers": {
-        "Access-Token": "raChZ6o316YQYzo1X95hNA",
+        "Access-Token": "fy_bEot1knN9XeldpA7ctw",
         "Token-Type": "Bearer",
-        "Client": "IoOP53EBVivHsOFDHzUCNg",
-        "Expiry": "1458483695",
-        "Uid": "106loyce@dibbert.io",
+        "Client": "09TpISNp7ELAcoX0kG_T8Q",
+        "Expiry": "1458645217",
+        "Uid": "118jerrod.heathcote@beer.co",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -53,21 +53,21 @@
       "request_content_type": "application/x-www-form-urlencoded",
       "response_status": 201,
       "response_status_text": "Created",
-      "response_body": "{\n  \"id\": 1,\n  \"city_id\": 1,\n  \"user_id\": 1,\n  \"street_and_house\": \"63408 Padberg Crest\",\n  \"door_number\": \"5\"\n}",
+      "response_body": "{\n  \"id\": 1,\n  \"city_id\": 1,\n  \"user_id\": 1,\n  \"street_and_house\": \"10101 Kuhlman Rest\",\n  \"door_number\": \"5\"\n}",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"2e5df2d35ae5570f4afa59d4d00dc5f6\"",
+        "ETag": "W/\"80a04e220ebbe82ba4bcfb4ebf816210\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=MWhBV3BSR0dGalJ2MFJKb1ZhMWYvbyszUlg0R21pVjN6ay9EcW1jSjJqRy9vbHAxZllKNHR0VlJwVVRaUDBtb1I4U3cvWXZDcXFkaWpreS9Sc1Z6STdMaC9jQ3JBVFhyZGZHQjIycFAvUDJlQ0FNTFNFNlI3Njh5NHhKMGpmY3AzRGVZWTczWnFqMlIyWC9aNjJiSEdNOXBmVldKbHpiUmgyNEhRUUtoVGdBM0ZzZGxreGlGSWpqWnBKdmNIbDR4LS1vUlB6WmgyQUtWZDFBYWVDYzJRSFJ3PT0%3D--9e1c5d758da696c4a43bac551c6b6b707187a6ac; path=/; HttpOnly",
-        "X-Request-Id": "99ac60c5-b41b-4db2-95b8-fcd1d76ddc0e",
-        "X-Runtime": "0.077971",
-        "Content-Length": "91"
+        "Set-Cookie": "_session_id=UE9Ed1RBckdXRVlDRDVuZGlvUlpJTFBGTG53Tk1iTVdwMFd6ZmFSUXlPL1VJYUVpcjFYRnhQRTVjUXljeUNkaXplcXdEQldmTTNWZk5hZEs1VTJ5QUZJSjdoRTZzWEt0RVVKVDkvaGcvRk1XekdBNWM0YzlGUlhqUkJZYzRKb1FtUHA5YmYrS1lVWXpwMXhRNW01VU1YTzlUcHA3T3NwS1dnMEdyVE5kWThNUGc4UEtFcVg3KzRsVDZlWENYaGUyLS1tYnhmUjRiRmt2Wjh1Z2NFUWxCbGhRPT0%3D--ca4ad69cc1974a80c8c27c739e6f852908eccabb; path=/; HttpOnly",
+        "X-Request-Id": "84dffe0b-0d95-4a30-b055-2ddabd67edf1",
+        "X-Runtime": "0.078545",
+        "Content-Length": "90"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/client/addresses\" -d 'address[street_and_house]=63408+Padberg+Crest&address[door_number]=5&address[city_id]=1' -X POST \\\n\t-H \"Access-Token: raChZ6o316YQYzo1X95hNA\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: IoOP53EBVivHsOFDHzUCNg\" \\\n\t-H \"Expiry: 1458483695\" \\\n\t-H \"Uid: 106loyce@dibbert.io\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/client/addresses\" -d 'address[street_and_house]=10101+Kuhlman+Rest&address[door_number]=5&address[city_id]=1' -X POST \\\n\t-H \"Access-Token: fy_bEot1knN9XeldpA7ctw\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: 09TpISNp7ELAcoX0kG_T8Q\" \\\n\t-H \"Expiry: 1458645217\" \\\n\t-H \"Uid: 118jerrod.heathcote@beer.co\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

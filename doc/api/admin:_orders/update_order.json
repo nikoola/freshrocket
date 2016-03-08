@@ -16,11 +16,11 @@
       "request_path": "/admin/orders/1",
       "request_body": "order[delivery_boy_id]=1",
       "request_headers": {
-        "Access-Token": "xoO1kmfqR4M_O6Sja7xF-Q",
+        "Access-Token": "-5iiSruagqvBGT1XUl89bw",
         "Token-Type": "Bearer",
-        "Client": "o0jbFfsi4FuaFyNUoQJMMg",
-        "Expiry": "1458483688",
-        "Uid": "41rashawn_moen@auerwolff.biz",
+        "Client": "3mOPLeSu3Gn31202Z9KjFQ",
+        "Expiry": "1458645210",
+        "Uid": "53tod@streich.name",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -30,21 +30,21 @@
       "request_content_type": "application/x-www-form-urlencoded",
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\n  \"id\": 1,\n  \"user_id\": 2,\n  \"status\": \"unconfirmed\",\n  \"created_at\": \"2016-03-06T14:21:28.275Z\",\n  \"pure_product_price\": \"27.0\",\n  \"tax\": \"1.35\",\n  \"delivery_charge\": \"200.0\",\n  \"total_price\": \"228.35\",\n  \"delivery_boy_id\": 1,\n  \"wanted_time\": null,\n  \"wanted_date\": null,\n  \"payment_type\": \"cash\",\n  \"is_paid\": false,\n  \"feedback\": null,\n  \"comment\": null,\n  \"admin_comment\": null,\n  \"coupon_code\": null,\n  \"source_type\": null,\n  \"line_items\": [\n    {\n      \"id\": 1,\n      \"order_id\": 1,\n      \"product_id\": 1,\n      \"amount\": 3,\n      \"fixed_price\": \"9.0\"\n    },\n    {\n      \"id\": 2,\n      \"order_id\": 1,\n      \"product_id\": 2,\n      \"amount\": 3,\n      \"fixed_price\": \"9.0\"\n    },\n    {\n      \"id\": 3,\n      \"order_id\": 1,\n      \"product_id\": 3,\n      \"amount\": 3,\n      \"fixed_price\": \"9.0\"\n    }\n  ],\n  \"address\": {\n    \"id\": 1,\n    \"city_id\": 1,\n    \"user_id\": 3,\n    \"street_and_house\": \"17149 Asa Mission\",\n    \"door_number\": \"5\"\n  }\n}",
+      "response_body": "{\n  \"id\": 1,\n  \"user_id\": 2,\n  \"status\": \"unconfirmed\",\n  \"created_at\": \"2016-03-08T11:13:30.142Z\",\n  \"pure_product_price\": \"27.0\",\n  \"tax\": \"1.35\",\n  \"delivery_charge\": \"200.0\",\n  \"total_price\": \"228.35\",\n  \"delivery_boy_id\": 1,\n  \"wanted_time\": null,\n  \"wanted_date\": null,\n  \"payment_type\": \"cash\",\n  \"is_paid\": false,\n  \"feedback\": null,\n  \"comment\": null,\n  \"coupon_code\": null,\n  \"source_type\": null,\n  \"admin_comment\": null\n}",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"7ce1dc8e3543395ae17c51ab77ca2e7e\"",
+        "ETag": "W/\"8ed79db30ae64afdb8f93d47f725b2f6\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=U1BWc2ZzZ2NTWTJwQVZHd2d3VmI5STFaZjRPTDFaNE5UK2dEV1FncU04Z0dialdkOWh1UkJvc0doQStHdzdhNTVINHB1ZnVUbnRvVkU3SFlWTmU4WWl0UXpJTFNySldkNHc2TmVubzE3R3p2SWZGaElXbVFsWDlibktzclR4V2tieHUzOWtmRGxvc3JjeFdsbmZuYkxuTEU5MTVucFlQT09sa2l3S2tsandVNUtXVnBVNSsvaEltUjBvcEJHWksrLS1IL2VNOHRoWTJhWXhSSjh1UmVYYW5nPT0%3D--ea5e1188f25677e2e9fa18ec6d14beeb1c7c7a03; path=/; HttpOnly",
-        "X-Request-Id": "9f92e482-ee7a-4e39-af34-8dc68734a557",
-        "X-Runtime": "0.085907",
-        "Content-Length": "678"
+        "Set-Cookie": "_session_id=aCtkVDlPYk84WjlEb29sRVpuYm41YUd6K0FhZHRtb3JkVlBtM2pJYnd1bDhhcHZ0UmZENGxJV242a3VBWUNKNlJzQjB6bzZTL2N2NWUrSWZ3Y0srbjJmaXRVUDVRVlRIeXNWRGR4ZFpVSWVlTVhDSERJZ1hGdmU4Ri9BWU5TdFVwWjlTOWVKWTFCU3ZjblNITktiQVBlODVSWjNhZjArL2RLYmNHbzZhWHdoRlZKYVU2Nm9TS01PVk9WRitPWmptLS11QXV5ZXpxblYxSjZTbkVMeGRpWDRnPT0%3D--e54ba2f5a1b146ada55c45d55e9cb9737c15498c; path=/; HttpOnly",
+        "X-Request-Id": "c066845f-1edb-4cec-9793-2c16bad2bfdf",
+        "X-Runtime": "0.104361",
+        "Content-Length": "359"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/admin/orders/1\" -d 'order[delivery_boy_id]=1' -X PUT \\\n\t-H \"Access-Token: xoO1kmfqR4M_O6Sja7xF-Q\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: o0jbFfsi4FuaFyNUoQJMMg\" \\\n\t-H \"Expiry: 1458483688\" \\\n\t-H \"Uid: 41rashawn_moen@auerwolff.biz\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/admin/orders/1\" -d 'order[delivery_boy_id]=1' -X PUT \\\n\t-H \"Access-Token: -5iiSruagqvBGT1XUl89bw\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: 3mOPLeSu3Gn31202Z9KjFQ\" \\\n\t-H \"Expiry: 1458645210\" \\\n\t-H \"Uid: 53tod@streich.name\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

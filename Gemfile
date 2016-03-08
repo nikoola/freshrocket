@@ -72,7 +72,9 @@ gem 'aasm'
 gem 'sidekiq'
 
 
-gem 'active_model_serializers', '~>0.10.0.rc4'
+# gem 'active_model_serializers', '~>0.10.0.rc4'
+gem 'active_model_serializers', git: 'https://github.com/brigade/active_model_serializers.git', branch: 'default-include'
+
 
 
 # gem 'twilio-ruby' #not twilio, smslane

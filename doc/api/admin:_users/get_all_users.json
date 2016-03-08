@@ -27,11 +27,11 @@
       "request_path": "/admin/users?has_ability=users",
       "request_body": null,
       "request_headers": {
-        "Access-Token": "bz0ygUssvnMQfe97Pm2Pow",
+        "Access-Token": "HRu7Q7dN8UYF-5gX6LCl0Q",
         "Token-Type": "Bearer",
-        "Client": "jD-hd7NbU9H2gMmkAAmdig",
-        "Expiry": "1458483692",
-        "Uid": "78dianna_walker@hammesboyer.co",
+        "Client": "7Zaw4LBhWvnoJ92Lgtcntg",
+        "Expiry": "1458645214",
+        "Uid": "90tracey_bartell@altenwerth.org",
         "Host": "example.org",
         "Cookie": ""
       },
@@ -41,21 +41,21 @@
       "request_content_type": null,
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "[\n  {\n    \"id\": 2,\n    \"first_name\": \"Della\",\n    \"last_name\": \"Hodkiewicz\",\n    \"email\": \"78dianna_walker@hammesboyer.co\",\n    \"phone\": \"917102024397\",\n    \"is_verified\": false,\n    \"provider\": \"email\",\n    \"uid\": \"78dianna_walker@hammesboyer.co\",\n    \"created_at\": \"2016-03-06T14:21:32.261Z\",\n    \"abilities\": {\n      \"orders\": 0,\n      \"products\": 0,\n      \"users\": 1,\n      \"categories\": 0,\n      \"coupons\": 0,\n      \"settings\": 0,\n      \"cities\": 0,\n      \"delivery_boy\": 0\n    }\n  }\n]",
+      "response_body": "[\n  {\n    \"id\": 2,\n    \"first_name\": \"Eldon\",\n    \"last_name\": \"Funk\",\n    \"email\": \"90tracey_bartell@altenwerth.org\",\n    \"phone\": \"916554263003\",\n    \"is_verified\": false,\n    \"provider\": \"email\",\n    \"uid\": \"90tracey_bartell@altenwerth.org\",\n    \"created_at\": \"2016-03-08T11:13:34.200Z\",\n    \"abilities\": {\n      \"orders\": 0,\n      \"products\": 0,\n      \"users\": 1,\n      \"categories\": 0,\n      \"coupons\": 0,\n      \"settings\": 0,\n      \"cities\": 0,\n      \"delivery_boy\": 0\n    }\n  }\n]",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"12139cee04f523ec4768d9c904590ca5\"",
+        "ETag": "W/\"f3a9999496461c753bf2349114f11ab4\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=Y1U2SEhzM0lVYTFoeXpJdmh0azlPRFd0eGxQNWxiZy9WSWgzbVdOcUFzT3poVS9ZVWlVT1laUmt3S1NreEkxQUtLNHZZamNiTlcrR1F0K1IyTk1jNmJTMzh1K0dOc3R0NnFiT1cvNFpaZDRpdWtQY2NHL1NZeXBmU0F2cUo0UWQva1dCQ1A3N3JrNjZCT0JLZHJzclloU1lWMGswT0ZZK3l2WkRJYkwyazRUNVRjQjhRanlENnl0a0tydHBac000LS1hUWZ2dnVubkRDajhRZ3RSUXdvTVdRPT0%3D--8dab91c0b9c96688fe03a2528acb3e51016f2f28; path=/; HttpOnly",
-        "X-Request-Id": "4c64c81d-95dc-461b-b38c-cc729c5bc74e",
-        "X-Runtime": "0.081555",
-        "Content-Length": "354"
+        "Set-Cookie": "_session_id=TS9JYzFmZ1A4UGlub2h2NmRYQ3UwcjBFSmpDdVZYZzdtT2dCNzFLMDltM05CTk45V1RtSzMwRTVvdlIreU40b1hkZXl2enZtZHByaHI3RFo1a1J5RTBYWllFRU9kQ2RaNzA4RjltNVJ4L1FsS3FYc3NwRlJCVWplckhUTnh1dVQ1MkdnU0V1T2xmZWVyRk1mTE1VQzdTRFZFODJlRlZjaGxzaU9MYzJmYWNPQzdQbFE5QzJ0RW1TcFgrdmkxYUdiLS1hZFhqRmRGekRKZUQ3QXB1eXRqVkdnPT0%3D--3943546b427f2b60269c6983339cf1790aec1751; path=/; HttpOnly",
+        "X-Request-Id": "0b8757f8-1109-4a70-8121-8e1d9a2ab188",
+        "X-Runtime": "0.085045",
+        "Content-Length": "350"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/admin/users?has_ability=users\" -X GET \\\n\t-H \"Access-Token: bz0ygUssvnMQfe97Pm2Pow\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: jD-hd7NbU9H2gMmkAAmdig\" \\\n\t-H \"Expiry: 1458483692\" \\\n\t-H \"Uid: 78dianna_walker@hammesboyer.co\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/admin/users?has_ability=users\" -X GET \\\n\t-H \"Access-Token: HRu7Q7dN8UYF-5gX6LCl0Q\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: 7Zaw4LBhWvnoJ92Lgtcntg\" \\\n\t-H \"Expiry: 1458645214\" \\\n\t-H \"Uid: 90tracey_bartell@altenwerth.org\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

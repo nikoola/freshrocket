@@ -2,7 +2,7 @@ module Client
 	class UsersController < BaseController
 
 		def show
-			render json: current_user
+			render json: current_user, include: params[:include]
 		end
 
 		def send_verification_sms

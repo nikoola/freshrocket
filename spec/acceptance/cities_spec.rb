@@ -5,13 +5,14 @@ resource 'cities', type: :request do
 
 	get '/cities' do
 		parameter :active,  '1/0 get cities marked as active'
+		parameter :include, 'areas'
 
 		example 'get all cities with their areas' do
 			FactoryGirl.create_list :city, 3
 			FactoryGirl.create_list :city, 2, active: false
 			City.first.areas << FactoryGirl.create(:area)
 
-			do_request active: '1'
+			do_request active: '1', include: ['areas']
 
 			returned_ids = jsons.pluck(:id)
 			expected_ids = City.where(active: true).pluck(:id)
@@ -28,7 +29,7 @@ resource 'cities', type: :request do
 			city = FactoryGirl.create :city
 			FactoryGirl.create_list :area, 3, city_id: city.id
 
-			do_request id: city.id
+			do_request id: city.id, include: ['areas']
 
 			expect(json[:areas][0]).to include :id, :name
 			expect(status).to eq(200)

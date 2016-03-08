@@ -16,11 +16,11 @@
       "request_path": "/auth/sign_out",
       "request_body": null,
       "request_headers": {
-        "Access-Token": "s6JTDQtryJZCMPYprcuUPg",
+        "Access-Token": "2v0g2Gdh0KPd_PQdytQ84Q",
         "Token-Type": "Bearer",
-        "Client": "QaDZmTmsJS5WJNp1ABGIHQ",
-        "Expiry": "1458483695",
-        "Uid": "110kathryn.feest@kulaslowe.io",
+        "Client": "PNAnXzaZZr0Zxe-ws498WA",
+        "Expiry": "1458645217",
+        "Uid": "122hellen_gibson@granttowne.net",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -38,13 +38,13 @@
         "Content-Type": "application/json; charset=utf-8",
         "ETag": "W/\"7363e85fe9edee6f053a4b319588c086\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=VVk2L2VyUzc1R3pob0lGNHFsTDdIVEZ3bEliRFpsemljR0RiY3FML1dJRkhpL3ZPczVxaFV2YVdnKzUzcyt3dW1GS1BZLytwUk5obEVmRjhJYUlxZXc9PS0tM3pkcDZUYXRyOWJDRk9JZi9hblIrUT09--0640d79c66a35a3a0b496f0804d95a9be9ace250; path=/; HttpOnly",
-        "X-Request-Id": "867bf047-b96f-4508-95a0-20d0e01a7377",
-        "X-Runtime": "0.073417",
+        "Set-Cookie": "_session_id=b0VhcFc4emhuajdIWFJCMDRwMVdSUGtLZ2FaSmhnV3FxVERRNGVKZ1ZtdW5BWGFJMzYxNGIrME5TL1BPUGFMcFFyVzVINWo5VnNSaklhV3JvTis1Unc9PS0tb1YvSzdnaU8vQVVwRWJzUHJpbzNpQT09--3a8cb4ae5449b6820dc0bde05c31593c5111d420; path=/; HttpOnly",
+        "X-Request-Id": "e183146e-53ff-476b-bdec-5e529d30dc09",
+        "X-Runtime": "0.071951",
         "Content-Length": "16"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/auth/sign_out\" -d '' -X DELETE \\\n\t-H \"Access-Token: s6JTDQtryJZCMPYprcuUPg\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: QaDZmTmsJS5WJNp1ABGIHQ\" \\\n\t-H \"Expiry: 1458483695\" \\\n\t-H \"Uid: 110kathryn.feest@kulaslowe.io\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/auth/sign_out\" -d '' -X DELETE \\\n\t-H \"Access-Token: 2v0g2Gdh0KPd_PQdytQ84Q\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: PNAnXzaZZr0Zxe-ws498WA\" \\\n\t-H \"Expiry: 1458645217\" \\\n\t-H \"Uid: 122hellen_gibson@granttowne.net\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

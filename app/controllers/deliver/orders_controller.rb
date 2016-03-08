@@ -6,7 +6,7 @@ module Deliver
 		def index
 			@orders = current_user.delivery_boy.orders.filter params.slice(:status)
 
-			render json: @orders
+			render json: @orders, include: params[:include]
 		end
 
 		def update

@@ -25,12 +25,11 @@ resource 'admin: cities', type: :request do
 				areas_attributes: [
 					{ name: 'hi' }
 				]
-			)
+			), include: ['areas']
 
 			city = City.find(json[:id])
 			
 			expect(status).to eq(201)
-			expect(json[:areas][0]).to include :id, :name
 		end
 
 	end

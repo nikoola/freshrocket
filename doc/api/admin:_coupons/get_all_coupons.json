@@ -16,11 +16,11 @@
       "request_path": "/admin/coupons",
       "request_body": null,
       "request_headers": {
-        "Access-Token": "qF3B970NLExznZ1MA45LYg",
+        "Access-Token": "1GwfelcE1yceYOAtu5YjIg",
         "Token-Type": "Bearer",
-        "Client": "5VmcEiBX37q5mwvuW0YcEw",
-        "Expiry": "1458483686",
-        "Uid": "18violette@gutmann.biz",
+        "Client": "xHaT_nm6EFf3vmxrQiG8ng",
+        "Expiry": "1458645207",
+        "Uid": "18stephany_kunde@rohan.io",
         "Host": "example.org",
         "Cookie": ""
       },
@@ -29,21 +29,21 @@
       "request_content_type": null,
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "[\n  {\n    \"id\": 1,\n    \"name\": \"red\",\n    \"code\": \"73691\",\n    \"discount\": 92\n  },\n  {\n    \"id\": 2,\n    \"name\": \"red\",\n    \"code\": \"86912\",\n    \"discount\": 16\n  },\n  {\n    \"id\": 3,\n    \"name\": \"red\",\n    \"code\": \"78673\",\n    \"discount\": 34\n  },\n  {\n    \"id\": 4,\n    \"name\": \"red\",\n    \"code\": \"61054\",\n    \"discount\": 34\n  }\n]",
+      "response_body": "[\n  {\n    \"id\": 1,\n    \"name\": \"red\",\n    \"code\": \"46321\",\n    \"discount\": 97\n  },\n  {\n    \"id\": 2,\n    \"name\": \"red\",\n    \"code\": \"94872\",\n    \"discount\": 5\n  },\n  {\n    \"id\": 3,\n    \"name\": \"red\",\n    \"code\": \"72563\",\n    \"discount\": 13\n  },\n  {\n    \"id\": 4,\n    \"name\": \"red\",\n    \"code\": \"48704\",\n    \"discount\": 41\n  }\n]",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"733fbc22a09196d827f3cf1c421c22b6\"",
+        "ETag": "W/\"cfcecd8bcb6c9c7a6f10f15e97038079\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=akZBRXVrZ0orcFg1NE9pRmJlbW9UaHFNK3hkNUplRTduZ3lCd0J0dW9lcDFDTi9hdHlZaUhjNC8veUpRUzYvQWZPMDI0OE1jbk9nOG54U25PeGFqc2JFS2VVYXNGMC9ZZ3FvbU1FWlU1d09NV25CVmR3ZUxnMWdXdmJiWXF1YXhmOWNhODRoRmM2aXljamEralNzZW5kWGNiaWdxU1BkRFNwSXIvKzY0SzhxaDBhamJaSldMNnQwTHRSMTV0bW9sLS1GdGIrOFZXMlE5UDFQbytML29TS2FnPT0%3D--bc54061890e9c76cfb2a128e2566942d6f352c43; path=/; HttpOnly",
-        "X-Request-Id": "67046629-6371-427a-8325-1fa29e52fd72",
-        "X-Runtime": "0.089614",
-        "Content-Length": "205"
+        "Set-Cookie": "_session_id=WXRZSnQ4STV6Z2t4QVlzM2RkdDd6YWgxL2wzbFNLb1M0Ynlia1NnNDlmME5ibG9GQlpPdFNxdlh0Z3lGRHZiYytvYXdSS1pyTnIwcFpPVzZNTm9sUks1citILzdaWE5Db0hYYm9ST0NsV216VHdlMEc3N3A0RUVBcmVIL1dUNXNIMTJSTVNQVFVjQ3VrQ3Rqb3lobEYyNGM3TUdYNUo2VkJ5d01Lb0pOdi8zQ1pWQ1hwQ2k1SmNsOUpKQ0hTNUluLS1vMmZzNHFEWG9qNEJGRVJLMFhRalV3PT0%3D--76adcb66156913fdb3a3af7886afc51fc8a23e44; path=/; HttpOnly",
+        "X-Request-Id": "101f3958-a694-4072-8de9-609002ce72ef",
+        "X-Runtime": "0.083878",
+        "Content-Length": "204"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/admin/coupons\" -X GET \\\n\t-H \"Access-Token: qF3B970NLExznZ1MA45LYg\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: 5VmcEiBX37q5mwvuW0YcEw\" \\\n\t-H \"Expiry: 1458483686\" \\\n\t-H \"Uid: 18violette@gutmann.biz\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/admin/coupons\" -X GET \\\n\t-H \"Access-Token: 1GwfelcE1yceYOAtu5YjIg\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: xHaT_nm6EFf3vmxrQiG8ng\" \\\n\t-H \"Expiry: 1458645207\" \\\n\t-H \"Uid: 18stephany_kunde@rohan.io\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

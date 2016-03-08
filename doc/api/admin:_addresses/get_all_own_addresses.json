@@ -19,11 +19,11 @@
       "request_path": "/admin/addresses?active=0",
       "request_body": null,
       "request_headers": {
-        "Access-Token": "8PNF6ealwIUEY-SV2PXIow",
+        "Access-Token": "huuARq0q0ORkOhtNGu5ZtA",
         "Token-Type": "Bearer",
-        "Client": "NBQSUp68GiLQPmcbq1oyNw",
-        "Expiry": "1458483683",
-        "Uid": "6herminia@schummorn.info",
+        "Client": "8JowaQxY11UupQjMMw4SGA",
+        "Expiry": "1458645205",
+        "Uid": "6carolyn@hillllarson.info",
         "Host": "example.org",
         "Cookie": ""
       },
@@ -33,21 +33,21 @@
       "request_content_type": null,
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "[\n  {\n    \"id\": 1,\n    \"city_id\": 1,\n    \"user_id\": 1,\n    \"street_and_house\": \"442 McGlynn Summit\",\n    \"door_number\": \"5\"\n  },\n  {\n    \"id\": 2,\n    \"city_id\": 2,\n    \"user_id\": 2,\n    \"street_and_house\": \"60161 Renner Turnpike\",\n    \"door_number\": \"5\"\n  },\n  {\n    \"id\": 3,\n    \"city_id\": 3,\n    \"user_id\": 3,\n    \"street_and_house\": \"368 Francesca Mission\",\n    \"door_number\": \"5\"\n  }\n]",
+      "response_body": "[\n  {\n    \"id\": 1,\n    \"city_id\": 1,\n    \"user_id\": 1,\n    \"street_and_house\": \"4286 DuBuque Parks\",\n    \"door_number\": \"5\"\n  },\n  {\n    \"id\": 2,\n    \"city_id\": 2,\n    \"user_id\": 2,\n    \"street_and_house\": \"351 Carole Dam\",\n    \"door_number\": \"5\"\n  },\n  {\n    \"id\": 3,\n    \"city_id\": 3,\n    \"user_id\": 3,\n    \"street_and_house\": \"95295 Queen Wells\",\n    \"door_number\": \"5\"\n  }\n]",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"03b00b3b07fd359f6f8713e33c11a0b8\"",
+        "ETag": "W/\"47aeb1e88dcaa1dc81bcec00cfe73a1e\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=WGVzay9PV0RGeGJjM0hCQkhHQytIZm9rbXljNXJXdHlBM0FxTm5zOFN1YVBYY20xbmxpMnh4Z0hmMEJmKzQ2MkdQOGN1ZW9zZ1FLZ3A2RXJMQXNvdC9VcmY2RWVPSG5mVkE2b1hpWHdkMXNyazdSYjh0cTFsQkhaU3VkUEJhdXBhSUYxazA4MXRDU1RpMGJzUEgybmx2SUtkYmhxZUhaeXlraVVLTktHZ1NKeFY5dXVBRzR6cEpBOG90Nnd2M2lQLS0zaVBmYUVmRVJjMjloUnBvL3o4eGdnPT0%3D--b6cd3f2e3da4edfbc22e6f8ddcfbbf44b2e4eca5; path=/; HttpOnly",
-        "X-Request-Id": "ec9004bf-bf97-4f28-b5e6-ea80f3a034a9",
-        "X-Runtime": "0.112174",
-        "Content-Length": "280"
+        "Set-Cookie": "_session_id=QlZrRE1KNjZVUU55WDhmWDlYZ3hDeUlNWU1paHlpT0Rjamo2ZVNYbEVrcXJUZHJvWFlLRUNPQzNndzNqR1hpcG9zd0ZVdFkrWGloM3FrcVdYbncwWXFHK2RXSEVtZk1VNzR0d1RJYzN5RVVVZ0pFWG9XaTdPbHVDY2ZHcGVSdytDdjFMSlhtRDliTGFsVkoyK255dkJ2YnFsZ3JTaDZzdzBOSWFCWS9LSjcxNlQ3UXhjODJWMEhubUJISVlWNGovLS02TzI4Y0tDbXFhaUp0SkZLSURlMHV3PT0%3D--3697c1e77ed15e82bc7eb7582cbe759b0982b315; path=/; HttpOnly",
+        "X-Request-Id": "edadc0e7-1565-452e-b9a5-4a53dce01112",
+        "X-Runtime": "0.114225",
+        "Content-Length": "269"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/admin/addresses?active=0\" -X GET \\\n\t-H \"Access-Token: 8PNF6ealwIUEY-SV2PXIow\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: NBQSUp68GiLQPmcbq1oyNw\" \\\n\t-H \"Expiry: 1458483683\" \\\n\t-H \"Uid: 6herminia@schummorn.info\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/admin/addresses?active=0\" -X GET \\\n\t-H \"Access-Token: huuARq0q0ORkOhtNGu5ZtA\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: 8JowaQxY11UupQjMMw4SGA\" \\\n\t-H \"Expiry: 1458645205\" \\\n\t-H \"Uid: 6carolyn@hillllarson.info\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

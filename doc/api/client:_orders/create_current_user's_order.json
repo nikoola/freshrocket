@@ -67,13 +67,13 @@
     {
       "request_method": "POST",
       "request_path": "client/orders",
-      "request_body": "order[address_id]=4&order[line_items_attributes][][product_id]=10&order[line_items_attributes][][amount]=1000&order[delivery_attributes][wanted_date]=2016-03-06+19%3A21%3A40+%2B0500",
+      "request_body": "order[address_id]=4&order[line_items_attributes][][product_id]=10&order[line_items_attributes][][amount]=1000&order[delivery_attributes][wanted_date]=2016-03-08+16%3A13%3A41+%2B0500",
       "request_headers": {
-        "Access-Token": "-_cs1Rs9EORm1Q__FXS3Lg",
+        "Access-Token": "qpT0WhmLZFem_jmSRZI2Gw",
         "Token-Type": "Bearer",
-        "Client": "15-DzzgxNtr_UozSv6T8xg",
-        "Expiry": "1458483700",
-        "Uid": "122jany@bahringer.net",
+        "Client": "rcbQU0XvXjZGjXTfzr-4lg",
+        "Expiry": "1458645221",
+        "Uid": "134thora@lockman.name",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -83,22 +83,22 @@
       "request_content_type": "application/x-www-form-urlencoded",
       "response_status": 201,
       "response_status_text": "Created",
-      "response_body": "{\n  \"id\": 4,\n  \"user_id\": 5,\n  \"status\": \"unconfirmed\",\n  \"created_at\": \"2016-03-06T14:21:40.277Z\",\n  \"pure_product_price\": \"3000.0\",\n  \"tax\": \"150.0\",\n  \"delivery_charge\": \"0.0\",\n  \"total_price\": \"3150.0\",\n  \"delivery_boy_id\": null,\n  \"wanted_time\": null,\n  \"wanted_date\": null,\n  \"payment_type\": \"cash\",\n  \"is_paid\": false,\n  \"feedback\": null,\n  \"comment\": null,\n  \"coupon_code\": null,\n  \"source_type\": null,\n  \"line_items\": [\n    {\n      \"id\": 10,\n      \"order_id\": 4,\n      \"product_id\": 10,\n      \"amount\": 1000,\n      \"fixed_price\": \"3000.0\"\n    }\n  ],\n  \"address\": {\n    \"id\": 4,\n    \"city_id\": 13,\n    \"user_id\": 7,\n    \"street_and_house\": \"72833 Daniel Lock\",\n    \"door_number\": \"5\"\n  }\n}",
+      "response_body": "{\n  \"id\": 4,\n  \"user_id\": 5,\n  \"status\": \"unconfirmed\",\n  \"created_at\": \"2016-03-08T11:13:41.826Z\",\n  \"pure_product_price\": \"3000.0\",\n  \"tax\": \"150.0\",\n  \"delivery_charge\": \"0.0\",\n  \"total_price\": \"3150.0\",\n  \"delivery_boy_id\": null,\n  \"wanted_time\": null,\n  \"wanted_date\": null,\n  \"payment_type\": \"cash\",\n  \"is_paid\": false,\n  \"feedback\": null,\n  \"comment\": null,\n  \"coupon_code\": null,\n  \"source_type\": null\n}",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
         "Location": "/client/orders/4",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"5ffed00c39dbd2c4c93187aec8023301\"",
+        "ETag": "W/\"d5ae0a725fd7a50f28cd8370891e9120\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=UHBrUnBhRTA2NG9KZmFpNk1tUElsdHN3V1N0UEtDeVhKWkhoNGlIRUxzb09VSjR0aXlmR1FCdXhkdEtGT1FaM3FxZ3ZXRlZLa0w5WldydXhTWE11THVNWHM2SFhvV3QxK2NteTdWaW9wd0pnWkpZeTJVZFZ2cTBxSmNxaXpmN3VLWkhVMTVqakpsS1I4aXFWYVJ4ZDliaTdyV1dVb3dQM0d6Wnp6bFZiNFFFbzZXRFJtREhsNWI4dG1qbTkySnVQLS05NzNsdno4cm01ckorSmd0T2VybXRBPT0%3D--11b0cc1880b4ff353fc9538a90683c3bf0942c7c; path=/; HttpOnly",
-        "X-Request-Id": "1851b01c-e28b-4fee-afce-1659436d68a7",
-        "X-Runtime": "0.085309",
-        "Content-Length": "534"
+        "Set-Cookie": "_session_id=V0FFZTFFdjRLZnliaC9aQm9qWWJ5ejRIcG12cUhzY0VxYlBvNjBzSWZ0NlMya3cxTVJjVEJnSmNnelh5OGxHdG1xRG1MNTg4bkttWGZocjRPVFdtRUltZGJKWjBJcGYvVEFUQnJHeHE0bGpZRjdjbHZtNjZoU0ljTVg3RGxMK2ZwUmw1UWRlRkM5d2VicDNDai9maHNwTERXQXNsUE1PRzE5QUJ6V0NHV1BKZG9PZnk4aTJFaFZHaDF3QkowcEcwLS10eVBtaWFWT0xTSHpjRkhzNm9EWThnPT0%3D--7f8012329b911bbcf517571be98192c2feda4386; path=/; HttpOnly",
+        "X-Request-Id": "15a0fa96-d357-477d-995d-dd178c0dfc28",
+        "X-Runtime": "0.083631",
+        "Content-Length": "342"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000client/orders\" -d 'order[address_id]=4&order[line_items_attributes][][product_id]=10&order[line_items_attributes][][amount]=1000&order[delivery_attributes][wanted_date]=2016-03-06+19%3A21%3A40+%2B0500' -X POST \\\n\t-H \"Access-Token: -_cs1Rs9EORm1Q__FXS3Lg\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: 15-DzzgxNtr_UozSv6T8xg\" \\\n\t-H \"Expiry: 1458483700\" \\\n\t-H \"Uid: 122jany@bahringer.net\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000client/orders\" -d 'order[address_id]=4&order[line_items_attributes][][product_id]=10&order[line_items_attributes][][amount]=1000&order[delivery_attributes][wanted_date]=2016-03-08+16%3A13%3A41+%2B0500' -X POST \\\n\t-H \"Access-Token: qpT0WhmLZFem_jmSRZI2Gw\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: rcbQU0XvXjZGjXTfzr-4lg\" \\\n\t-H \"Expiry: 1458645221\" \\\n\t-H \"Uid: 134thora@lockman.name\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

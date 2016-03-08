@@ -16,11 +16,11 @@
       "request_path": "/client/orders",
       "request_body": null,
       "request_headers": {
-        "Access-Token": "hPYRlhd8wup_qAGLBxgCwg",
+        "Access-Token": "0ozinyisZSLUI1sZI9T2UA",
         "Token-Type": "Bearer",
-        "Client": "mJKpr1TqVVPR1p8-ZiTrbg",
-        "Expiry": "1458483699",
-        "Uid": "116halie@gaylordgoodwin.io",
+        "Client": "qdYok8XcYvk_m19-z_vfSw",
+        "Expiry": "1458645221",
+        "Uid": "128ron@ledner.io",
         "Host": "example.org",
         "Cookie": ""
       },
@@ -29,21 +29,21 @@
       "request_content_type": null,
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "[\n  {\n    \"id\": 3,\n    \"user_id\": 5,\n    \"status\": \"unconfirmed\",\n    \"created_at\": \"2016-03-06T14:21:39.594Z\",\n    \"pure_product_price\": \"27.0\",\n    \"tax\": \"1.35\",\n    \"delivery_charge\": \"200.0\",\n    \"total_price\": \"228.35\",\n    \"delivery_boy_id\": null,\n    \"wanted_time\": null,\n    \"wanted_date\": null,\n    \"payment_type\": \"cash\",\n    \"is_paid\": false,\n    \"feedback\": null,\n    \"comment\": null,\n    \"coupon_code\": null,\n    \"source_type\": null,\n    \"line_items\": [\n      {\n        \"id\": 7,\n        \"order_id\": 3,\n        \"product_id\": 7,\n        \"amount\": 3,\n        \"fixed_price\": \"9.0\"\n      },\n      {\n        \"id\": 8,\n        \"order_id\": 3,\n        \"product_id\": 8,\n        \"amount\": 3,\n        \"fixed_price\": \"9.0\"\n      },\n      {\n        \"id\": 9,\n        \"order_id\": 3,\n        \"product_id\": 9,\n        \"amount\": 3,\n        \"fixed_price\": \"9.0\"\n      }\n    ],\n    \"address\": {\n      \"id\": 3,\n      \"city_id\": 9,\n      \"user_id\": 6,\n      \"street_and_house\": \"21352 Giles Shores\",\n      \"door_number\": \"5\"\n    }\n  }\n]",
+      "response_body": "[\n  {\n    \"id\": 3,\n    \"user_id\": 5,\n    \"status\": \"unconfirmed\",\n    \"created_at\": \"2016-03-08T11:13:41.141Z\",\n    \"pure_product_price\": \"27.0\",\n    \"tax\": \"1.35\",\n    \"delivery_charge\": \"200.0\",\n    \"total_price\": \"228.35\",\n    \"delivery_boy_id\": null,\n    \"wanted_time\": null,\n    \"wanted_date\": null,\n    \"payment_type\": \"cash\",\n    \"is_paid\": false,\n    \"feedback\": null,\n    \"comment\": null,\n    \"coupon_code\": null,\n    \"source_type\": null\n  }\n]",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"3ddbfdd579b2b1526d128a9233e49855\"",
+        "ETag": "W/\"e2a87ce71cd48e6127b08d7f31e77d08\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=QUxCZ3ZJb21ySVlmdklYNWVQVk1sdFlrdnpZUlk0U1RlYVVLUzdzWmN3Zkp4STZ4cVQ1Nnd5L2grNlUyY3FpMlJ1Z0grRG5ORkljZThWZ0pqK2FXbFZDYys4VHhFSHR0TW1KOVovK1lhb3lBSUlyc1ZHc0pPZWR2Ky9ONEM5VVdxaWZrWmlpc0Ewam9vNzJQN21FczJWSjUvY1hiN1NaN3U4OGNIdzBuOFNOblZFRlV5OG5XSVRsZ3VZaWp0dEI2LS1DQTBOVnI4YUhYbmgyVXlmOGd5cVNnPT0%3D--a7b72cb2c3a814d88160b103c9f9149a7f1aff1a; path=/; HttpOnly",
-        "X-Request-Id": "3a008dde-5c79-4cd3-b13d-5b68971b7a65",
-        "X-Runtime": "0.084773",
-        "Content-Length": "663"
+        "Set-Cookie": "_session_id=OXpUY0gySmpWOHZiaUI5ekNyTWVMa1psQmJwWHZKdS9rMkczb3ljRUs5VlVXNHJBSDQxRGJwbVcrUUxPbEdQRThSTWFyTkRKeHZzSXN2Snk3L3dDNHlRc1UyODBuWW9EZFcyZFBVNGhjQTZnaERYOGhKOG9hNkZYSzBhZWdGUXRKUjlDWFVOQTJnNVdQSjNWZEgxeVJHd3hObXh4cVFtM3ZvWlNnTklFc2cxTmE1NlBSRGRmVVYxSXViTG1XOFFlLS1hVThwMlR5Q1JkMDF4cTk0NWQyY1V3PT0%3D--4b0257de143d5bf45f74dedd92460fc213cbb3dc; path=/; HttpOnly",
+        "X-Request-Id": "36972830-f8fd-4bf1-853d-0b71824f71ec",
+        "X-Runtime": "0.085153",
+        "Content-Length": "343"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/client/orders\" -X GET \\\n\t-H \"Access-Token: hPYRlhd8wup_qAGLBxgCwg\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: mJKpr1TqVVPR1p8-ZiTrbg\" \\\n\t-H \"Expiry: 1458483699\" \\\n\t-H \"Uid: 116halie@gaylordgoodwin.io\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/client/orders\" -X GET \\\n\t-H \"Access-Token: 0ozinyisZSLUI1sZI9T2UA\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: qdYok8XcYvk_m19-z_vfSw\" \\\n\t-H \"Expiry: 1458645221\" \\\n\t-H \"Uid: 128ron@ledner.io\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

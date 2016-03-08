@@ -45,6 +45,7 @@ resource 'admin: orders', type: :request do
 
 			do_request limit: 5, offset: 2
 
+
 			returned_ids = jsons.pluck(:id)
 			expected_ids = Order.limit(5).offset(2).pluck(:id)
 
@@ -74,6 +75,7 @@ resource 'admin: orders', type: :request do
 				id:      order.id,
 				include: ['address']
 			})
+
 
 
 			expect(status).to eq(200)

@@ -8,6 +8,10 @@
     {
       "name": "active",
       "description": "1/0 get cities marked as active"
+    },
+    {
+      "name": "include",
+      "description": "areas"
     }
   ],
   "response_fields": [
@@ -16,32 +20,35 @@
   "requests": [
     {
       "request_method": "GET",
-      "request_path": "/cities?active=1",
+      "request_path": "/cities?include[]=areas&active=1",
       "request_body": null,
       "request_headers": {
         "Host": "example.org",
         "Cookie": ""
       },
       "request_query_parameters": {
+        "include": [
+          "areas"
+        ],
         "active": "1"
       },
       "request_content_type": null,
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "[\n  {\n    \"id\": 1,\n    \"name\": \"New Jarrell_71\",\n    \"active\": true,\n    \"areas\": [\n      {\n        \"id\": 1,\n        \"name\": \"Lake Hulda_area_2\"\n      }\n    ]\n  },\n  {\n    \"id\": 2,\n    \"name\": \"Orvillemouth_72\",\n    \"active\": true,\n    \"areas\": [\n\n    ]\n  },\n  {\n    \"id\": 3,\n    \"name\": \"Kundeshire_73\",\n    \"active\": true,\n    \"areas\": [\n\n    ]\n  },\n  {\n    \"id\": 6,\n    \"name\": \"McDermottland_76\",\n    \"active\": true,\n    \"areas\": [\n\n    ]\n  }\n]",
+      "response_body": "[\n  {\n    \"id\": 1,\n    \"name\": \"Kalestad_95\",\n    \"active\": true,\n    \"areas\": [\n      {\n        \"id\": 1,\n        \"name\": \"North Ismaelside_area_2\"\n      }\n    ]\n  },\n  {\n    \"id\": 2,\n    \"name\": \"South Maya_96\",\n    \"active\": true,\n    \"areas\": [\n\n    ]\n  },\n  {\n    \"id\": 3,\n    \"name\": \"Laverntown_97\",\n    \"active\": true,\n    \"areas\": [\n\n    ]\n  },\n  {\n    \"id\": 6,\n    \"name\": \"Lake London_100\",\n    \"active\": true,\n    \"areas\": [\n\n    ]\n  }\n]",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"1eb9d037a5e253737085c5bec3a243b9\"",
+        "ETag": "W/\"ddb9805bd7b036625742df0f1f7e27d2\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "X-Request-Id": "c503db31-2837-4940-87cc-ba7b988b5ea6",
-        "X-Runtime": "0.010476",
+        "X-Request-Id": "b8706b97-1fc1-46df-b0b9-1ed36fdaa4bb",
+        "X-Runtime": "0.012494",
         "Content-Length": "270"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/cities?active=1\" -X GET \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/cities?include[]=areas&active=1\" -X GET \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

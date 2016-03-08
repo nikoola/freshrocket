@@ -43,13 +43,13 @@
     {
       "request_method": "POST",
       "request_path": "/admin/addresses",
-      "request_body": "address[street_and_house]=8081+Torp+Way&address[door_number]=5&address[city_id]=1&address[user_id]=1",
+      "request_body": "address[street_and_house]=58064+Glover+Way&address[door_number]=5&address[city_id]=1&address[user_id]=1",
       "request_headers": {
-        "Access-Token": "OVRoBTcFAufFJY-ylzgZpQ",
+        "Access-Token": "z2kYkQBw2WS8ofnxgcclmw",
         "Token-Type": "Bearer",
-        "Client": "3xMts_xfPlUWdWcnoHEu4g",
-        "Expiry": "1458483684",
-        "Uid": "7rosamond_feil@bergstrombednar.info",
+        "Client": "UEV0z3LKHokh_-KRC98zLA",
+        "Expiry": "1458645205",
+        "Uid": "7lulu.bartell@kling.org",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -59,21 +59,21 @@
       "request_content_type": "application/x-www-form-urlencoded",
       "response_status": 201,
       "response_status_text": "Created",
-      "response_body": "{\n  \"id\": 1,\n  \"city_id\": 1,\n  \"user_id\": 1,\n  \"street_and_house\": \"8081 Torp Way\",\n  \"door_number\": \"5\"\n}",
+      "response_body": "{\n  \"id\": 1,\n  \"city_id\": 1,\n  \"user_id\": 1,\n  \"street_and_house\": \"58064 Glover Way\",\n  \"door_number\": \"5\"\n}",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"795a3e5c4524a21226b0a6442edf3912\"",
+        "ETag": "W/\"8bbb91ffd79a3ef963c3a5b804fd0e50\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=dnZWeDFPODFzMHplU01sM09wT056OFl4NlBEZG5BYU1Uc1hFZGFkWXBqd0ZvVG9pSk1xOUwvTzJ4NW0vOHJ3MjB4R1EySkF6WG9jczFxMkFyWGNIYVZJRXVGdTgyZ0tMQkRCZm0zdlUvcWlCWXhjQk1UaVI2dGZ3ZW9mMzQvUVRSZzBJQmlFSmtXUG80QjNHbU15U0U4bUx3NktWNlEwQktqUW5FekhmQkRqZVNvT2h0dGJxLzlEcFdrU1Bkei94LS1vdGFNRVpDRm1zRTZJVi9vYjFjRUhBPT0%3D--32fb52ee27774f245f5cf26968b04f87d3efbeb3; path=/; HttpOnly",
-        "X-Request-Id": "c390edda-f719-4c25-9bee-2c9b4cc17637",
-        "X-Runtime": "0.081200",
-        "Content-Length": "85"
+        "Set-Cookie": "_session_id=QWlnQUQzeWdpdlh4NW5oM1FCbUd3ajR2eVFLdmxObTg0ZGV4a21pVGh3V3BDZnZmVGkwZmRkcmlPcFg0MVBTRjhtUlpTOWZnTmFQNUpRLzg5OUZ1Y2hWc09qWlFwUTdKM1RUald2QWhrcEs4M29QdkFUa3UzL0hvOVhjQVNKSXJteldoZ1l4Y2tONW54SXhjQWVNNnFmaFkxQUd3a1R1bTBhcmhTV0FRKzdBaHVYb2VNdTFHU1pkWU1HWGQ1OWZ1LS1yaFRxUjk3MEYvVE1vVXhML1FjNzNBPT0%3D--520f849d32a0e23d36e15f7dd3d2066a4b09517a; path=/; HttpOnly",
+        "X-Request-Id": "c6e8bcb0-dcad-493b-9ff2-3affd3fb8695",
+        "X-Runtime": "0.081492",
+        "Content-Length": "88"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/admin/addresses\" -d 'address[street_and_house]=8081+Torp+Way&address[door_number]=5&address[city_id]=1&address[user_id]=1' -X POST \\\n\t-H \"Access-Token: OVRoBTcFAufFJY-ylzgZpQ\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: 3xMts_xfPlUWdWcnoHEu4g\" \\\n\t-H \"Expiry: 1458483684\" \\\n\t-H \"Uid: 7rosamond_feil@bergstrombednar.info\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/admin/addresses\" -d 'address[street_and_house]=58064+Glover+Way&address[door_number]=5&address[city_id]=1&address[user_id]=1' -X POST \\\n\t-H \"Access-Token: z2kYkQBw2WS8ofnxgcclmw\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: UEV0z3LKHokh_-KRC98zLA\" \\\n\t-H \"Expiry: 1458645205\" \\\n\t-H \"Uid: 7lulu.bartell@kling.org\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

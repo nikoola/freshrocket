@@ -47,13 +47,13 @@
     {
       "request_method": "POST",
       "request_path": "/auth",
-      "request_body": "email=149josue_durgan%40kutchlockman.co&password=secrety_bickety&password_confirmation=secrety_bickety&first_name=Deonte&last_name=Tremblay&phone",
+      "request_body": "email=161jeica_mueller%40hudsonhodkiewicz.co&password=secrety_bickety&password_confirmation=secrety_bickety&first_name=Vernice&last_name=Kuhlman&phone",
       "request_headers": {
-        "Access-Token": "nwmDv4We7RaGVU9zuJ-o_w",
+        "Access-Token": "oDoQ6kL8Nhz3sFpZmXClEw",
         "Token-Type": "Bearer",
-        "Client": "rV4-q_4ET7F1lA_P_v95cQ",
-        "Expiry": "1458483703",
-        "Uid": "150cleta_mccullough@pacochasmith.io",
+        "Client": "AOgvk-BegwBVmRSgGixwug",
+        "Expiry": "1458645224",
+        "Uid": "162sylvia@heathcote.io",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -63,19 +63,19 @@
       "request_content_type": "application/x-www-form-urlencoded",
       "response_status": 403,
       "response_status_text": "Forbidden",
-      "response_body": "{\n  \"status\": \"error\",\n  \"data\": {\n    \"id\": null,\n    \"first_name\": \"Deonte\",\n    \"last_name\": \"Tremblay\",\n    \"email\": \"149josue_durgan@kutchlockman.co\",\n    \"provider\": \"email\",\n    \"uid\": \"\",\n    \"phone\": null,\n    \"verification_code\": null,\n    \"is_verified\": false,\n    \"created_at\": null,\n    \"updated_at\": null,\n    \"how_did_you_hear_about_us\": null\n  },\n  \"errors\": {\n    \"phone\": [\n      \"can't be blank\",\n      \"is not a number\",\n      \"is the wrong length (should be 12 characters)\"\n    ],\n    \"full_messages\": [\n      \"Phone can't be blank\",\n      \"Phone is not a number\",\n      \"Phone is the wrong length (should be 12 characters)\"\n    ]\n  }\n}",
+      "response_body": "{\n  \"status\": \"error\",\n  \"data\": {\n    \"id\": null,\n    \"first_name\": \"Vernice\",\n    \"last_name\": \"Kuhlman\",\n    \"email\": \"161jeica_mueller@hudsonhodkiewicz.co\",\n    \"provider\": \"email\",\n    \"uid\": \"\",\n    \"phone\": null,\n    \"verification_code\": null,\n    \"is_verified\": false,\n    \"created_at\": null,\n    \"updated_at\": null,\n    \"how_did_you_hear_about_us\": null\n  },\n  \"errors\": {\n    \"phone\": [\n      \"can't be blank\",\n      \"is not a number\",\n      \"is the wrong length (should be 12 characters)\"\n    ],\n    \"full_messages\": [\n      \"Phone can't be blank\",\n      \"Phone is not a number\",\n      \"Phone is the wrong length (should be 12 characters)\"\n    ]\n  }\n}",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "application/json; charset=utf-8",
         "Cache-Control": "no-cache",
-        "X-Request-Id": "ee152092-2900-4f6c-8dd3-2b72b88ea377",
-        "X-Runtime": "0.010035",
-        "Content-Length": "502"
+        "X-Request-Id": "633974d8-0eae-4173-94e0-0df3a483e5d3",
+        "X-Runtime": "0.008668",
+        "Content-Length": "507"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/auth\" -d 'email=149josue_durgan%40kutchlockman.co&password=secrety_bickety&password_confirmation=secrety_bickety&first_name=Deonte&last_name=Tremblay&phone' -X POST \\\n\t-H \"Access-Token: nwmDv4We7RaGVU9zuJ-o_w\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: rV4-q_4ET7F1lA_P_v95cQ\" \\\n\t-H \"Expiry: 1458483703\" \\\n\t-H \"Uid: 150cleta_mccullough@pacochasmith.io\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/auth\" -d 'email=161jeica_mueller%40hudsonhodkiewicz.co&password=secrety_bickety&password_confirmation=secrety_bickety&first_name=Vernice&last_name=Kuhlman&phone' -X POST \\\n\t-H \"Access-Token: oDoQ6kL8Nhz3sFpZmXClEw\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: AOgvk-BegwBVmRSgGixwug\" \\\n\t-H \"Expiry: 1458645224\" \\\n\t-H \"Uid: 162sylvia@heathcote.io\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }
