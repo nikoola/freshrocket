@@ -62,8 +62,7 @@ module DeviseTokenAuth
 			adapter = ActiveModel::Serializer.adapter.new serializer
 
 			render json: {
-				success: true,
-				message: adapter
+			  data: adapter
 			}
 		end
 	end

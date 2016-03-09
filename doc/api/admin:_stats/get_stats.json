@@ -16,11 +16,11 @@
       "request_path": "/admin/stats",
       "request_body": null,
       "request_headers": {
-        "Access-Token": "lgbmwSayJSgjh3Ni3ZJ4YA",
+        "Access-Token": "oVSAXneqJ8U5uK5LgfoAsA",
         "Token-Type": "Bearer",
-        "Client": "tKYA7aj7Ritwb96NWK9iyg",
-        "Expiry": "1458748296",
-        "Uid": "87shawna@vandervort.co",
+        "Client": "eovN6H4zElXBu0kyygYa5Q",
+        "Expiry": "1458749344",
+        "Uid": "87marlin@grady.biz",
         "Host": "example.org",
         "Cookie": ""
       },
@@ -37,13 +37,13 @@
         "Content-Type": "application/json; charset=utf-8",
         "ETag": "W/\"9033f0c26566828000184e476ae429e1\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=QnV0TS9TRWdNcVIvWldmZTVUVHdYbnluUUZsb0FMSm5EallpWC9FeVNCdjQ5STRkdUFhYWM0dktMenF6Q2NhblBtenpWd3lDYWt0bDlJcWJ6a0ZrSkxUWXpwbUF5NFgrSTB1MnRsamRyZEwxNkh4ZGVIVCtjNk11T2FodU0zVkgweTI1RFJnZ29LRlpOVVNmbko2NjNMWHFzTEJ5L3hON0tKVEw0Yld2aHg3MWRGZ3R0TDlWaUM4dyt6RndDN0hELS1KbFJpSlRYUGMya3NoV2kvZHJTS2dRPT0%3D--ececc9c76e33677297d6ec8e2ed509dc5ef160b5; path=/; HttpOnly",
-        "X-Request-Id": "22503eab-9003-49bc-82ae-342150ff71e9",
-        "X-Runtime": "0.085715",
+        "Set-Cookie": "_session_id=L2orejArVkM1bjRsak5FbTg3MzRZUWpEdG91a2JyYlFnR1pUdGxraFU4Ym1mTHB5MzRoejlTUzlITW1TeHpDY25vYVJtdm5LSXpId3FlS3h2NDAzZXJUMDBPSzZieU9WdEE1RWVOTSs3NFM3Z2NxT1hJcEFXWS8ya0NkZFM3c1ovbmUwR2hnaHJKQ3p3aWJkMm94NHR6Vk4vbFovYTBmOVMrWDVZbUlSUEZDeXJ0N3NpaFNmOUpFUTI1bDJvdnpFLS1QQlpsblp0VlF5cVhHQ25Ody9DMzBRPT0%3D--78e3c2d2f192bbc1dcdced53bc31792730c06d91; path=/; HttpOnly",
+        "X-Request-Id": "97723f3b-ae8a-48c8-9a04-e375edb770f9",
+        "X-Runtime": "0.088392",
         "Content-Length": "139"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/admin/stats\" -X GET \\\n\t-H \"Access-Token: lgbmwSayJSgjh3Ni3ZJ4YA\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: tKYA7aj7Ritwb96NWK9iyg\" \\\n\t-H \"Expiry: 1458748296\" \\\n\t-H \"Uid: 87shawna@vandervort.co\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/admin/stats\" -X GET \\\n\t-H \"Access-Token: oVSAXneqJ8U5uK5LgfoAsA\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: eovN6H4zElXBu0kyygYa5Q\" \\\n\t-H \"Expiry: 1458749344\" \\\n\t-H \"Uid: 87marlin@grady.biz\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

@@ -23,7 +23,7 @@
     {
       "request_method": "POST",
       "request_path": "/auth/sign_in",
-      "request_body": "email=121ima%40okonrosenbaum.net&password=secrety_bickety",
+      "request_body": "email=121eladio.ko%40pfannerstill.info&password=secrety_bickety",
       "request_headers": {
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
@@ -34,25 +34,25 @@
       "request_content_type": "application/x-www-form-urlencoded",
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\n  \"success\": true,\n  \"message\": {\n    \"id\": 1,\n    \"first_name\": \"Chanel\",\n    \"last_name\": \"Hilll\",\n    \"email\": \"121ima@okonrosenbaum.net\",\n    \"phone\": \"915174567069\",\n    \"is_verified\": false,\n    \"provider\": \"email\",\n    \"uid\": \"121ima@okonrosenbaum.net\",\n    \"created_at\": \"2016-03-09T15:51:40.315Z\",\n    \"abilities\": {\n      \"orders\": 0,\n      \"products\": 0,\n      \"users\": 0,\n      \"categories\": 0,\n      \"coupons\": 0,\n      \"settings\": 0,\n      \"cities\": 0,\n      \"delivery_boy\": 0\n    }\n  }\n}",
+      "response_body": "{\n  \"data\": {\n    \"id\": 1,\n    \"first_name\": \"Loma\",\n    \"last_name\": \"Balistreri\",\n    \"email\": \"121eladio.ko@pfannerstill.info\",\n    \"phone\": \"916492714809\",\n    \"is_verified\": false,\n    \"provider\": \"email\",\n    \"uid\": \"121eladio.ko@pfannerstill.info\",\n    \"created_at\": \"2016-03-09T16:09:07.785Z\",\n    \"abilities\": {\n      \"orders\": 0,\n      \"products\": 0,\n      \"users\": 0,\n      \"categories\": 0,\n      \"coupons\": 0,\n      \"settings\": 0,\n      \"cities\": 0,\n      \"delivery_boy\": 0\n    }\n  }\n}",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
-        "access-token": "mUOZgEVjvHqxKX3gxVnCmA",
+        "access-token": "DEsb9RYMvoy_t4PX44nPOg",
         "token-type": "Bearer",
-        "client": "G_7h_T-JlUOs15OXELWrFA",
-        "expiry": "1458748300",
-        "uid": "121ima@okonrosenbaum.net",
+        "client": "P7gBZVho_3oZQ84r6fXUhQ",
+        "expiry": "1458749347",
+        "uid": "121eladio.ko@pfannerstill.info",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"fbcb5b9ceb16d8a37adbbbb7ccb7defa\"",
+        "ETag": "W/\"375342cb2f9123e25f8f755f01f85329\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "X-Request-Id": "e9b5c829-9c63-48b9-85b1-e788d82cb769",
-        "X-Runtime": "0.158926",
-        "Content-Length": "363"
+        "X-Request-Id": "12b7472f-cb95-4884-9b3f-586fe40997a8",
+        "X-Runtime": "0.174250",
+        "Content-Length": "360"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/auth/sign_in\" -d 'email=121ima%40okonrosenbaum.net&password=secrety_bickety' -X POST \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/auth/sign_in\" -d 'email=121eladio.ko%40pfannerstill.info&password=secrety_bickety' -X POST \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

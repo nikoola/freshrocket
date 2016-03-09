@@ -39,13 +39,13 @@
     {
       "request_method": "PUT",
       "request_path": "/admin/cities/1",
-      "request_body": "city[name]=Taylorhaven_11&city[areas_attributes][][id]=1&city[areas_attributes][][_destroy]=1",
+      "request_body": "city[name]=Jonesview_11&city[areas_attributes][][id]=1&city[areas_attributes][][_destroy]=1",
       "request_headers": {
-        "Access-Token": "KDv0mNxj2xfHp_d-HJzTsA",
+        "Access-Token": "00V24jYvENqNFCCzh9kSKw",
         "Token-Type": "Bearer",
-        "Client": "ssVh7Gy7NOm4GeBGqot6ZQ",
-        "Expiry": "1458748290",
-        "Uid": "16anderson@walterdonnelly.com",
+        "Client": "aSqf1LAQw4K4nrkNpnni0Q",
+        "Expiry": "1458749336",
+        "Uid": "16akeem@dickinson.io",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -55,21 +55,21 @@
       "request_content_type": "application/x-www-form-urlencoded",
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\n  \"id\": 1,\n  \"name\": \"Taylorhaven_11\",\n  \"active\": true\n}",
+      "response_body": "{\n  \"id\": 1,\n  \"name\": \"Jonesview_11\",\n  \"active\": true\n}",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"07197ac2f8725f2cdbf29052c1871f36\"",
+        "ETag": "W/\"42ef864ac9e9dddedf14536b8629be4f\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=MTRQK2VZKzhzK0pMTU9CblRkZzZQVE14ZXY5ei96TWFUYkxYd1NQeGdSR2tJWUd3dnFMVGgxbW4wNUdmVHNDVFI3cXdYdEhJRmZqWkVsUDIzWm9DOGowa3pMT2s1YmdWdlNncCtHZXUxd00xcWFnc2ZMcUl2UG1JNWhMWnNjLytoSUJhdEVxSlcwQ0NPT1JqMDZjVWI2NEhuS2FmY0lPS2FmMFhmL3UwTmJKT2tneUVuOXdlSDRNVlA2K0lkSi9JLS15VUpZUHZFRTRjMjhYSVVFbjhBRjB3PT0%3D--c8b95357ed4307d71b74722dff2779a768d8fcdc; path=/; HttpOnly",
-        "X-Request-Id": "b7783489-1c31-47b7-b2c7-6faa6c4a31eb",
-        "X-Runtime": "0.080542",
-        "Content-Length": "46"
+        "Set-Cookie": "_session_id=d3Fjd2JVRndnMkFzU1ZITzIvYjlxdUkxWGJBZTY4TmZoU1ZncDRjOHVGM20yZTkrQTFaZkJPM0VmelhPUTlKM0RUbThZV1VJd0tlQ2VJRHNZZS9hZUJIQk5oeXFTMWkrdFBocmpFaTZKb0xaNTRKbmFBZ0F2WkhxYXZESW55aUp3SGh5YXNiYlFRVG9EVDdQZmdabmhPQ2tVWXg3dXRaWmt5NHh3aEpzQmtqenRXbGthMTJMVkk5aklLSklnUFRyLS1NOFBqeVFpZ3FhYU1BL3RIRTIvdmJ3PT0%3D--d435ebba50f49f1a58a82cb429833d3637ab969b; path=/; HttpOnly",
+        "X-Request-Id": "b0c1df07-81ca-428c-a4fd-8d440675cc1e",
+        "X-Runtime": "0.103446",
+        "Content-Length": "44"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/admin/cities/1\" -d 'city[name]=Taylorhaven_11&city[areas_attributes][][id]=1&city[areas_attributes][][_destroy]=1' -X PUT \\\n\t-H \"Access-Token: KDv0mNxj2xfHp_d-HJzTsA\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: ssVh7Gy7NOm4GeBGqot6ZQ\" \\\n\t-H \"Expiry: 1458748290\" \\\n\t-H \"Uid: 16anderson@walterdonnelly.com\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/admin/cities/1\" -d 'city[name]=Jonesview_11&city[areas_attributes][][id]=1&city[areas_attributes][][_destroy]=1' -X PUT \\\n\t-H \"Access-Token: 00V24jYvENqNFCCzh9kSKw\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: aSqf1LAQw4K4nrkNpnni0Q\" \\\n\t-H \"Expiry: 1458749336\" \\\n\t-H \"Uid: 16akeem@dickinson.io\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

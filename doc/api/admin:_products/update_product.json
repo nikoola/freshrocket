@@ -16,11 +16,11 @@
       "request_path": "/admin/products/1",
       "request_body": "product[title]=hi",
       "request_headers": {
-        "Access-Token": "MMRir8RDF33gK4_g1rEV8g",
+        "Access-Token": "rySW_ZTUW-yTkHQkyeMpPg",
         "Token-Type": "Bearer",
-        "Client": "FBkI8CY5MSjhKJCyxoIkog",
-        "Expiry": "1458748295",
-        "Uid": "71kadin@hyatt.co",
+        "Client": "w8zdgy5PJcnRaLa41g8FlA",
+        "Expiry": "1458749342",
+        "Uid": "71cruz@kuvalis.com",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -30,21 +30,21 @@
       "request_content_type": "application/x-www-form-urlencoded",
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\n  \"id\": 1,\n  \"city_id\": 1,\n  \"title\": \"hi\",\n  \"price\": \"3.0\",\n  \"description\": null,\n  \"created_at\": \"2016-03-09T15:51:34.989Z\",\n  \"updated_at\": \"2016-03-09T15:51:35.164Z\",\n  \"inventory_count\": 20,\n  \"image_url\": \"uploads/product/image/default.png\"\n}",
+      "response_body": "{\n  \"id\": 1,\n  \"city_id\": 1,\n  \"title\": \"hi\",\n  \"price\": \"3.0\",\n  \"description\": null,\n  \"created_at\": \"2016-03-09T16:09:02.302Z\",\n  \"updated_at\": \"2016-03-09T16:09:02.498Z\",\n  \"inventory_count\": 20,\n  \"image_url\": \"uploads/product/image/default.png\"\n}",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"cd24d0ae7977fb59c0461287aa771dcb\"",
+        "ETag": "W/\"614539a726073f74e06da35cada832c6\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=TXR1M042dTB4RC9USDU3czRnVms0UC9Md0lmRlpSZnRBbWRwRGlETmZMV1dzSnMwT3BEazJOaHB1MTJoQVVZZHEzSnVVdldkR1pNMHRrTVc5M2JRNHJ5SWZxb2NMT2ZXdUVweVlXQW03TllGUmRCUXJQTzJ5Z2VhUDhmdHBKOCtUWW9LZHlxdHpHWFJ2a25VRU9OY055azJBT0Fva0tyemNQUDFxMk4xUSs4WUoyQnd2L05vU2ZBMmFzOU0vd1RiLS1sd3dPS3hNUmFob054QUYzWVROL3V3PT0%3D--0149fcdb93f907183626e55d99475e43f57ae737; path=/; HttpOnly",
-        "X-Request-Id": "3d68c52e-ad93-4330-9088-7fc8fb429884",
-        "X-Runtime": "0.080349",
+        "Set-Cookie": "_session_id=V25ESklLeGNoMmE1bVM1YjFJVDdpMnBDSGZVYVNwZFBzVjQ3a3ROaUJpT211RVZMZmFUYVhCam1WY3VCMlpKN2xzdzlCK0NudVlZYUZRMVFwLzJ2WngrVGZmZ2NBSXpydEtXODFoekxoRFkrRzllMmhpSlREVE5hKzUrRk5OcFlwWE8xM3ZzejN1aUhCUDVGZEp5MG9TbkZpNllvVG4xcHo2OVlJb3ptRFdEQ3NybUNYcjZ2NGZySnFYUm5KdVJ4LS03aU44Q3VEcjZHemJBbEZ3TUFNdk9BPT0%3D--82c593d7e8f3b3908da62d38e826387468dbe13c; path=/; HttpOnly",
+        "X-Request-Id": "1c21bdf5-9223-492e-bab2-0d40e8d1a477",
+        "X-Runtime": "0.097608",
         "Content-Length": "215"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/admin/products/1\" -d 'product[title]=hi' -X PUT \\\n\t-H \"Access-Token: MMRir8RDF33gK4_g1rEV8g\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: FBkI8CY5MSjhKJCyxoIkog\" \\\n\t-H \"Expiry: 1458748295\" \\\n\t-H \"Uid: 71kadin@hyatt.co\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/admin/products/1\" -d 'product[title]=hi' -X PUT \\\n\t-H \"Access-Token: rySW_ZTUW-yTkHQkyeMpPg\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: w8zdgy5PJcnRaLa41g8FlA\" \\\n\t-H \"Expiry: 1458749342\" \\\n\t-H \"Uid: 71cruz@kuvalis.com\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

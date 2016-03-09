@@ -54,11 +54,11 @@
       "request_path": "/admin/products",
       "request_body": "product[title]=fish&product[price]=3.0&product[inventory_count]=2&product[city_id]=1&product[category_ids][]=1",
       "request_headers": {
-        "Access-Token": "eTKZDk3uh9CjN_8Y3zDB2w",
+        "Access-Token": "876s9n4JotQYsmflboYrTA",
         "Token-Type": "Bearer",
-        "Client": "r7GcsW9s7WPL0qUe4vahSA",
-        "Expiry": "1458748294",
-        "Uid": "67ocie@hartmannabernathy.org",
+        "Client": "sE4dk8aFT-MidRM5UE05Ww",
+        "Expiry": "1458749341",
+        "Uid": "67modesto.schiller@schuppe.biz",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -68,22 +68,22 @@
       "request_content_type": "application/x-www-form-urlencoded",
       "response_status": 201,
       "response_status_text": "Created",
-      "response_body": "{\n  \"id\": 1,\n  \"city_id\": 1,\n  \"title\": \"fish\",\n  \"price\": \"3.0\",\n  \"description\": null,\n  \"created_at\": \"2016-03-09T15:51:34.380Z\",\n  \"updated_at\": \"2016-03-09T15:51:34.380Z\",\n  \"inventory_count\": 2,\n  \"image_url\": \"uploads/product/image/default.png\"\n}",
+      "response_body": "{\n  \"id\": 1,\n  \"city_id\": 1,\n  \"title\": \"fish\",\n  \"price\": \"3.0\",\n  \"description\": null,\n  \"created_at\": \"2016-03-09T16:09:01.651Z\",\n  \"updated_at\": \"2016-03-09T16:09:01.651Z\",\n  \"inventory_count\": 2,\n  \"image_url\": \"uploads/product/image/default.png\"\n}",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
         "Location": "http://example.org/products/1",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"243536600c425dd25ea71ecfd963eed4\"",
+        "ETag": "W/\"2add4ebf9ef4172ecf8dafe48d7ea418\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=dkxRaWJXRGZwUi9tSTZaRkFnL1E4b1dNazI3UjQ5bG8vVHJHWGhNQmYvcGpuZFg5UC9uOEQwaGd4c1VpbHVaVThaeW90b21YTHJ2QXZzZkVha1ZMd3lJR09qNksvb2hubHNxWlc0d2NsS0VtMk9JMlhOVFgzT3RCTUJqQ0JOZkZ3NEV0bjBNWVpGZFovby9STUtkOE9EM0QzaGUrMjdjTjBmN3dueGdrVmNMUDJadzJBb2NEYUREbVVrQ2pXNEdvLS1GZXFUeThqZGJDR3FRL3dLb0ZSVVRBPT0%3D--d61dad8b60ab08ecbb38038d9fdcce5385319015; path=/; HttpOnly",
-        "X-Request-Id": "32672619-e3d4-46ce-86b0-cefe1e694b9a",
-        "X-Runtime": "0.093321",
+        "Set-Cookie": "_session_id=ZEZlWGZOTmlxcFNLM3A5ZExZSys5bWJuZjJHZ3lLcUNWUEdWYkswU0FHWjV5MDFtRnlyd24yVVBHKzdxWGRUNVl5eWhqZzFIaTJuSVdVUjN6ZEM5bk9JWDZHNHQ0dUcwa0NqVmV0K3FBL2dWb0RsbXpQeUd0ZTBZZGZCaG9BTXhwa1dBclQyTndtZVE3MDRlQVp6NTcyZDQwVnZZYkc1aGRnUHFsbmVwaXBVYXp3V0kyQ05ubzJqeURWejZ6MjZtLS0yMUM1bmpKMjloK2tiVEZwQUZ6RlFnPT0%3D--894a4e0bd0b6945e447f894eccc0a46e7fd3f708; path=/; HttpOnly",
+        "X-Request-Id": "3de5829f-f7f0-4f7b-988b-48142d61c41c",
+        "X-Runtime": "0.094390",
         "Content-Length": "216"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/admin/products\" -d 'product[title]=fish&product[price]=3.0&product[inventory_count]=2&product[city_id]=1&product[category_ids][]=1' -X POST \\\n\t-H \"Access-Token: eTKZDk3uh9CjN_8Y3zDB2w\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: r7GcsW9s7WPL0qUe4vahSA\" \\\n\t-H \"Expiry: 1458748294\" \\\n\t-H \"Uid: 67ocie@hartmannabernathy.org\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/admin/products\" -d 'product[title]=fish&product[price]=3.0&product[inventory_count]=2&product[city_id]=1&product[category_ids][]=1' -X POST \\\n\t-H \"Access-Token: 876s9n4JotQYsmflboYrTA\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: sE4dk8aFT-MidRM5UE05Ww\" \\\n\t-H \"Expiry: 1458749341\" \\\n\t-H \"Uid: 67modesto.schiller@schuppe.biz\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

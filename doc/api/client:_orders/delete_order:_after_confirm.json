@@ -16,11 +16,11 @@
       "request_path": "/client/orders/3",
       "request_body": null,
       "request_headers": {
-        "Access-Token": "eL_A5ixEZB19YHBldIvEGQ",
+        "Access-Token": "fmvICJTENjCWBVnDnboCqA",
         "Token-Type": "Bearer",
-        "Client": "8QUiMHxuW80NllueZw8OMA",
-        "Expiry": "1458748305",
-        "Uid": "143janet@coleprosacco.info",
+        "Client": "mp3awdXN81v7KxTPC1aLqg",
+        "Expiry": "1458749353",
+        "Uid": "143aisha@bins.co",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -37,13 +37,13 @@
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "application/json; charset=utf-8",
         "Cache-Control": "no-cache",
-        "Set-Cookie": "_session_id=MkcrQ1FTbjZhUm1YZytFVDF4dGdzVVhtTGg2VGw2a2lCdFBpTjZ0ODNUZWFFWkZqZnhLdzZIOGVhM3hKbUFhRUlrRGRqVDhQMnlJdkMxR1ovbHVVZlZnWDM1ZXJaWlFnaDNiRVB6elhpUEtPYWNJN2RrODJGRVU5dVptYUtaUFlkQ004c1pVMEtNUjhhWlNDVnZPL2w4cEREcWNCSHBFdWEwWmtpbTBRa0xPTkFjZW1aTC9ha0VxODkyVExhL3pILS1iRktZbi9lR2FHbjdKaXNIWEo3cHJBPT0%3D--859750d05d9f809a162b09f663e940652d8dcdfa; path=/; HttpOnly",
-        "X-Request-Id": "59192d61-5c19-4b7d-9db6-af7750331df8",
-        "X-Runtime": "0.075385",
+        "Set-Cookie": "_session_id=UlE4SWRQMXpDVlhHR2NtZTlyb09Qc3ZITnJPTDZCcEVQd2xEVGtjNE5NaEtVZWcwUWlGZzFFZjJBN3JHeGhzRG0vemFGRUY3dFE1eW43S0VqUzdpVTBZMWlaWHpxalJDMDZxejF1WWFmb2hpYWU5R3BLUHNmRDhteXVlTFFqdncrOTNpMjNNR0x2UnlJbWpCQ2ZkZy96eVFWNnU0bXRPbGRPZ3k0K2h0VnFRdXBSMkhreDByRkhiWk9IRFRBRGUyLS1weXhDWjc2c0V0RjBIcGVkQ203OUV3PT0%3D--9c71d15c6bb8d462f4fa430463c8db65d5fe293b; path=/; HttpOnly",
+        "X-Request-Id": "182e8dd3-240a-4648-8bf7-e178d792bc82",
+        "X-Runtime": "0.075839",
         "Content-Length": "83"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/client/orders/3\" -d '' -X DELETE \\\n\t-H \"Access-Token: eL_A5ixEZB19YHBldIvEGQ\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: 8QUiMHxuW80NllueZw8OMA\" \\\n\t-H \"Expiry: 1458748305\" \\\n\t-H \"Uid: 143janet@coleprosacco.info\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/client/orders/3\" -d '' -X DELETE \\\n\t-H \"Access-Token: fmvICJTENjCWBVnDnboCqA\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: mp3awdXN81v7KxTPC1aLqg\" \\\n\t-H \"Expiry: 1458749353\" \\\n\t-H \"Uid: 143aisha@bins.co\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

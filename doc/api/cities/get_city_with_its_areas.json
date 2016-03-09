@@ -27,17 +27,17 @@
       "request_content_type": null,
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\n  \"id\": 1,\n  \"name\": \"South Vickie_101\",\n  \"active\": true,\n  \"areas\": [\n    {\n      \"id\": 1,\n      \"name\": \"New Ramonahaven_area_3\"\n    },\n    {\n      \"id\": 2,\n      \"name\": \"Eleonorestad_area_4\"\n    },\n    {\n      \"id\": 3,\n      \"name\": \"West Anthonychester_area_5\"\n    }\n  ]\n}",
+      "response_body": "{\n  \"id\": 1,\n  \"name\": \"South Maximus_101\",\n  \"active\": true,\n  \"areas\": [\n    {\n      \"id\": 1,\n      \"name\": \"Port Laverna_area_3\"\n    },\n    {\n      \"id\": 2,\n      \"name\": \"New Paoloberg_area_4\"\n    },\n    {\n      \"id\": 3,\n      \"name\": \"New Kirstinmouth_area_5\"\n    }\n  ]\n}",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"16c68f5bc00fed6ddd12f18c791614aa\"",
+        "ETag": "W/\"2683983f850d05aa424908533a9257f1\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "X-Request-Id": "7bcea620-474c-4c3d-a0ff-d0d48065897e",
-        "X-Runtime": "0.003411",
-        "Content-Length": "182"
+        "X-Request-Id": "d3428a03-7459-45ac-9af5-61d26919bd8d",
+        "X-Runtime": "0.003495",
+        "Content-Length": "178"
       },
       "response_content_type": "application/json; charset=utf-8",
       "curl": "curl \"http://localhost:3000/cities/1?include[]=areas\" -X GET \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""

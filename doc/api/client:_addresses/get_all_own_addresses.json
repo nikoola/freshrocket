@@ -19,11 +19,11 @@
       "request_path": "/client/addresses?active=0",
       "request_body": null,
       "request_headers": {
-        "Access-Token": "XtfnhUv9kX-m722bgC9U-g",
+        "Access-Token": "iSGQF_vvaraf7zNsYEFfVA",
         "Token-Type": "Bearer",
-        "Client": "moWpEj7I0BklznUDj3c-tg",
-        "Expiry": "1458748299",
-        "Uid": "115gus.green@blanda.co",
+        "Client": "3kjbRXgffSkkdsHtyBsXHA",
+        "Expiry": "1458749347",
+        "Uid": "115troy.marquardt@marvin.net",
         "Host": "example.org",
         "Cookie": ""
       },
@@ -33,21 +33,21 @@
       "request_content_type": null,
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "[\n  {\n    \"id\": 1,\n    \"city_id\": 1,\n    \"user_id\": 1,\n    \"street_and_house\": \"6588 Rosendo Junctions\",\n    \"door_number\": \"5\"\n  },\n  {\n    \"id\": 2,\n    \"city_id\": 2,\n    \"user_id\": 1,\n    \"street_and_house\": \"36096 Hermann Walks\",\n    \"door_number\": \"5\"\n  },\n  {\n    \"id\": 3,\n    \"city_id\": 3,\n    \"user_id\": 1,\n    \"street_and_house\": \"1917 Macejkovic Shoals\",\n    \"door_number\": \"5\"\n  }\n]",
+      "response_body": "[\n  {\n    \"id\": 1,\n    \"city_id\": 1,\n    \"user_id\": 1,\n    \"street_and_house\": \"32873 Shanahan Junction\",\n    \"door_number\": \"5\"\n  },\n  {\n    \"id\": 2,\n    \"city_id\": 2,\n    \"user_id\": 1,\n    \"street_and_house\": \"132 Wendell Alley\",\n    \"door_number\": \"5\"\n  },\n  {\n    \"id\": 3,\n    \"city_id\": 3,\n    \"user_id\": 1,\n    \"street_and_house\": \"57150 Candida Rue\",\n    \"door_number\": \"5\"\n  }\n]",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"0ea01d3658029f20f97a5c59999d7ea4\"",
+        "ETag": "W/\"8cb3102bba1006d9b32c12d5788f5651\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=YzFxdTFKTUdoc3M5UUtiNm5EKzRzc0xZZU1FS0FaQVpZalBPZUs0bjBpT202OEVMTVIxZUNYZkdhQkhJMjliRXY5RE4rSU9wa0h3TFJBajcySDRocWFtSTVNeHhxOXNscG4yUjFhcW81aHh2L3BFZlc5aHhEV01PdFNrOHBsanJCNUU5c0lLa0syRGpPYUpNUVdmUGRkZU9LamRrVndoU3Uwa01FcGNRNTVUbjVTYnVBNUxxRXA1RWdxY3NHd2xhLS1wdWxUOHZ4UUtUUzcwRmkrRlJUcWNBPT0%3D--ad756bf0cbd3d27538dccbcf19761985f0e41300; path=/; HttpOnly",
-        "X-Request-Id": "b99bcd69-7f7b-4fff-b14b-3d5aad38d5be",
-        "X-Runtime": "0.094670",
-        "Content-Length": "283"
+        "Set-Cookie": "_session_id=OUcwTm95V3pBVjNvbmNPSlpxUmsxYUlqVlF6MmgydnJGTFJ0Ylg3QlZsMDI3aG5jOUsxVGNkanU1WE9jamJRR1FyZ3pJSXd4TnVsK1V3YTlhNWpvV2hPaEwzV3pNSkUrTjNtNzBreFVZTTlNVzZvMGxndDJLV1FkSEwrbFdpL0VveFR6QnNhUHBKcFM1ZFBHck5jNWtXSDZTVG1SN2laRTBZRzhSaWkzT1cvQmQ4WDZ2MEtXNGdPeGtTNWQ1L21nLS1iVDN2Yk1NbDd3dTFtMmNLYncyS3J3PT0%3D--5a7f5044895ce10c21f67fbbceefbdb89f167f2e; path=/; HttpOnly",
+        "X-Request-Id": "42d7ebda-a182-4323-9f24-98c1bb1d9b43",
+        "X-Runtime": "0.119647",
+        "Content-Length": "277"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/client/addresses?active=0\" -X GET \\\n\t-H \"Access-Token: XtfnhUv9kX-m722bgC9U-g\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: moWpEj7I0BklznUDj3c-tg\" \\\n\t-H \"Expiry: 1458748299\" \\\n\t-H \"Uid: 115gus.green@blanda.co\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/client/addresses?active=0\" -X GET \\\n\t-H \"Access-Token: iSGQF_vvaraf7zNsYEFfVA\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: 3kjbRXgffSkkdsHtyBsXHA\" \\\n\t-H \"Expiry: 1458749347\" \\\n\t-H \"Uid: 115troy.marquardt@marvin.net\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

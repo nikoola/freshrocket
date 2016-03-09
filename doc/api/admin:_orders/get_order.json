@@ -19,11 +19,11 @@
       "request_path": "/admin/orders/1?include[]=address",
       "request_body": null,
       "request_headers": {
-        "Access-Token": "lh2o1VPWE6K3XbB2i9Qzag",
+        "Access-Token": "xrcCgZR75zQmnPIARW7plg",
         "Token-Type": "Bearer",
-        "Client": "phjelZPmj5SYyJMyiKIWng",
-        "Expiry": "1458748292",
-        "Uid": "46wallace.rippin@leffler.com",
+        "Client": "cNhb0rWPao-uKgFDJCp0QA",
+        "Expiry": "1458749339",
+        "Uid": "46hattie_bernier@gleason.org",
         "Host": "example.org",
         "Cookie": ""
       },
@@ -35,21 +35,21 @@
       "request_content_type": null,
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\n  \"id\": 1,\n  \"user_id\": 1,\n  \"status\": \"unconfirmed\",\n  \"created_at\": \"2016-03-09T15:51:32.608Z\",\n  \"confirmed_at\": null,\n  \"approved_at\": null,\n  \"dispacthed_at\": null,\n  \"delivered_at\": null,\n  \"canceled_at\": null,\n  \"pure_product_price\": \"27.0\",\n  \"tax\": \"1.35\",\n  \"delivery_charge\": \"200.0\",\n  \"total_price\": \"228.35\",\n  \"delivery_boy_id\": null,\n  \"wanted_time\": null,\n  \"wanted_date\": null,\n  \"payment_type\": \"cash\",\n  \"is_paid\": false,\n  \"feedback\": null,\n  \"comment\": null,\n  \"coupon_code\": null,\n  \"source_type\": null,\n  \"admin_comment\": null,\n  \"address\": {\n    \"id\": 1,\n    \"city_id\": 1,\n    \"user_id\": 2,\n    \"street_and_house\": \"2406 Ignatius Crescent\",\n    \"door_number\": \"5\"\n  }\n}",
+      "response_body": "{\n  \"id\": 1,\n  \"user_id\": 1,\n  \"status\": \"unconfirmed\",\n  \"created_at\": \"2016-03-09T16:08:59.601Z\",\n  \"confirmed_at\": null,\n  \"approved_at\": null,\n  \"dispacthed_at\": null,\n  \"delivered_at\": null,\n  \"canceled_at\": null,\n  \"pure_product_price\": \"27.0\",\n  \"tax\": \"1.35\",\n  \"delivery_charge\": \"200.0\",\n  \"total_price\": \"228.35\",\n  \"delivery_boy_id\": null,\n  \"wanted_time\": null,\n  \"wanted_date\": null,\n  \"payment_type\": \"cash\",\n  \"is_paid\": false,\n  \"feedback\": null,\n  \"comment\": null,\n  \"coupon_code\": null,\n  \"source_type\": null,\n  \"admin_comment\": null,\n  \"address\": {\n    \"id\": 1,\n    \"city_id\": 1,\n    \"user_id\": 2,\n    \"street_and_house\": \"1594 Marquise Squares\",\n    \"door_number\": \"5\"\n  }\n}",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"c3f470427c8046be70cde38c2706aa3f\"",
+        "ETag": "W/\"5fc0c4fea629f35beaef349b0617a8f9\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=dENHV1hhcnoxVU12aDdqUmR4ZE43dGE2YXJOVXJIWHlTOGhZQXZ6b3Y3Vk5MTVo0a2NUanFKT1lGVEtBSXRKWW1DVGREdmFGUXNKQWZVS0VFeVZPcDBVVUgyZldmS2toQmdmQWtURFVQYU1PUnBkOXZEZ2JtNXF2NDh5UEhJcWtWOXRhaXJXWnJyM1NoNFlacm9RNWN5RHRGTlhnamkycjE5Z3pZRXN1KzdCWXB5QmZpTTRJcTFuU1MzOEhrejA1LS1uTnlBei9RdFg1UU9YZVlkYlRxYmRBPT0%3D--934b4e5b53165ed9e59b08ffc8b016bad586fbb5; path=/; HttpOnly",
-        "X-Request-Id": "9910e658-64e1-4216-a35b-15919b87ea88",
-        "X-Runtime": "0.080876",
-        "Content-Length": "566"
+        "Set-Cookie": "_session_id=SnNzL0JvOXh4OXR1MVppQWhUOTlPWC9pcUtobmNGbHE3VzYzQUpnUUdXR3haSkw2TmF1cnMxRUhqY2o1L0EvWXRlSE5JSFhSU3BOVjZVM0Jrb3JPTmVvdXR4WlZ1U3EwL2I0YjdQRHlPQzZuSk8wbE1LSldWQUdPbitkcmY5VC8vQmtKSnhsbWVndmNDSmhFeWN2eVdFR3lEMUFDZlc3eSsvN0dud01JR1cvSlNFcHkzK0p3aVZYaVRkMUJzaDEvLS1RdEE3c0p2Zk5LZzdGUitPUmtlQWl3PT0%3D--28846f9feef8f5a1045409308e409a5b0e4ce6cd; path=/; HttpOnly",
+        "X-Request-Id": "26f10c6e-5436-4676-a0d2-b5f901f70fd1",
+        "X-Runtime": "0.081164",
+        "Content-Length": "565"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/admin/orders/1?include[]=address\" -X GET \\\n\t-H \"Access-Token: lh2o1VPWE6K3XbB2i9Qzag\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: phjelZPmj5SYyJMyiKIWng\" \\\n\t-H \"Expiry: 1458748292\" \\\n\t-H \"Uid: 46wallace.rippin@leffler.com\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/admin/orders/1?include[]=address\" -X GET \\\n\t-H \"Access-Token: xrcCgZR75zQmnPIARW7plg\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: cNhb0rWPao-uKgFDJCp0QA\" \\\n\t-H \"Expiry: 1458749339\" \\\n\t-H \"Uid: 46hattie_bernier@gleason.org\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
     }
   ]
 }
