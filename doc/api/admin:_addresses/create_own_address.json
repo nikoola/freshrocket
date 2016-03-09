@@ -43,13 +43,13 @@
     {
       "request_method": "POST",
       "request_path": "/admin/addresses",
-      "request_body": "address[street_and_house]=143+Keeling+Villages&address[door_number]=5&address[city_id]=1&address[user_id]=1",
+      "request_body": "address[street_and_house]=730+Zachariah+Ville&address[door_number]=5&address[city_id]=1&address[user_id]=1",
       "request_headers": {
-        "Access-Token": "Ik4uVnfqUr5s0_dMuw83Kg",
+        "Access-Token": "OrX0taNrBUj_SQozjPA9eA",
         "Token-Type": "Bearer",
-        "Client": "sRQ5n4mruSXJqNm76EVC4A",
-        "Expiry": "1458666819",
-        "Uid": "7teresa@johnson.info",
+        "Client": "go-8FINwQHW1FMvv9yElLQ",
+        "Expiry": "1458748288",
+        "Uid": "7emilie_ruel@tremblay.name",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -59,21 +59,21 @@
       "request_content_type": "application/x-www-form-urlencoded",
       "response_status": 201,
       "response_status_text": "Created",
-      "response_body": "{\n  \"id\": 1,\n  \"city_id\": 1,\n  \"user_id\": 1,\n  \"street_and_house\": \"143 Keeling Villages\",\n  \"door_number\": \"5\"\n}",
+      "response_body": "{\n  \"id\": 1,\n  \"city_id\": 1,\n  \"user_id\": 1,\n  \"street_and_house\": \"730 Zachariah Ville\",\n  \"door_number\": \"5\"\n}",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"423c173f32ba58fcc0b36b6ff9badf59\"",
+        "ETag": "W/\"48fc8cbc3768da5da36a0fd45a7c66cd\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=Y1dIclkrVE4zSmVvT01saFNKOWliSnZvTm5jNUpaamN3UjhpK2pYTmtJcWdQL2JRWGdWQ1p6WW0wZXlKZkRURmdvak0wQnkvM3dnSm05U2xva0xuQlk5b0NuZXJML3RqaWtrWFNlVWxSdUJLSGJPazVpM1RmMmJWWWU0UHdvdm5XOWYrdFFncXpqa011dThnMkdaLytpREFibXJZeUplMDRWdzlVaUlBM09mU2VZeU9hTm9ZS3dhYS9raTVZeXQ2LS1YN0tlVGhOckxSR2l5ZlIzRjhkTG93PT0%3D--2b6380e758b78a1db9a1796b16ec15298d049138; path=/; HttpOnly",
-        "X-Request-Id": "1c22bb65-e63b-4f4a-a3da-f9dd1b363b75",
-        "X-Runtime": "0.098214",
-        "Content-Length": "92"
+        "Set-Cookie": "_session_id=dGFqZHlRVmlyMEN5V085QkppeVBtcDdkeWt3SFZnL0xNcXJPaXJRTmpmRDhCRytsSFdRM0xNRmRHQUZ1QWgvRzhhV3B4WXNBMUFlMGNtWWRlVkFpTEdwakZwaVI2aUtWbFhOcVJvcGN2d2RMQ1dINVhXc1BvNGVNOFF2WnkvL0J5dldTeDRzY0lpekErQWY1VmZzUTJUYVZkZCtFcFVDVDNXUmJUa2dSYU1wODlkRWNobk5tKzhzdG1LTnhoUFk3LS1uQmV0VGNyQWFxeVdTcXdPRnVYSFBnPT0%3D--25507f01e48d3e524326d360ee178f0fd1e2ed00; path=/; HttpOnly",
+        "X-Request-Id": "49450343-87c5-48ce-8e43-35c048b37c5c",
+        "X-Runtime": "0.081643",
+        "Content-Length": "91"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/admin/addresses\" -d 'address[street_and_house]=143+Keeling+Villages&address[door_number]=5&address[city_id]=1&address[user_id]=1' -X POST \\\n\t-H \"Access-Token: Ik4uVnfqUr5s0_dMuw83Kg\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: sRQ5n4mruSXJqNm76EVC4A\" \\\n\t-H \"Expiry: 1458666819\" \\\n\t-H \"Uid: 7teresa@johnson.info\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/admin/addresses\" -d 'address[street_and_house]=730+Zachariah+Ville&address[door_number]=5&address[city_id]=1&address[user_id]=1' -X POST \\\n\t-H \"Access-Token: OrX0taNrBUj_SQozjPA9eA\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: go-8FINwQHW1FMvv9yElLQ\" \\\n\t-H \"Expiry: 1458748288\" \\\n\t-H \"Uid: 7emilie_ruel@tremblay.name\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

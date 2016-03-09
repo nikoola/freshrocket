@@ -27,11 +27,11 @@
       "request_path": "/admin/users?has_ability=users",
       "request_body": null,
       "request_headers": {
-        "Access-Token": "olwfccqurRMYwOJnwzDogw",
+        "Access-Token": "yMwCHTwJC7IguumhyUeiVQ",
         "Token-Type": "Bearer",
-        "Client": "H80nGt-T43TD_zYJnl7TLA",
-        "Expiry": "1458666828",
-        "Uid": "90lucinda.wehner@emmerichsimonis.biz",
+        "Client": "SVVWEzc8yV82Ve0QURUhvQ",
+        "Expiry": "1458748297",
+        "Uid": "90thaddeus.hahn@reichel.io",
         "Host": "example.org",
         "Cookie": ""
       },
@@ -41,21 +41,21 @@
       "request_content_type": null,
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "[\n  {\n    \"id\": 2,\n    \"first_name\": \"Barry\",\n    \"last_name\": \"Homenick\",\n    \"email\": \"90lucinda.wehner@emmerichsimonis.biz\",\n    \"phone\": \"912321400550\",\n    \"is_verified\": false,\n    \"provider\": \"email\",\n    \"uid\": \"90lucinda.wehner@emmerichsimonis.biz\",\n    \"created_at\": \"2016-03-08T17:13:48.491Z\",\n    \"abilities\": {\n      \"orders\": 0,\n      \"products\": 0,\n      \"users\": 1,\n      \"categories\": 0,\n      \"coupons\": 0,\n      \"settings\": 0,\n      \"cities\": 0,\n      \"delivery_boy\": 0\n    }\n  }\n]",
+      "response_body": "[\n  {\n    \"id\": 2,\n    \"first_name\": \"Sean\",\n    \"last_name\": \"Murray\",\n    \"email\": \"90thaddeus.hahn@reichel.io\",\n    \"phone\": \"913127507554\",\n    \"is_verified\": false,\n    \"provider\": \"email\",\n    \"uid\": \"90thaddeus.hahn@reichel.io\",\n    \"created_at\": \"2016-03-09T15:51:37.056Z\",\n    \"abilities\": {\n      \"orders\": 0,\n      \"products\": 0,\n      \"users\": 1,\n      \"categories\": 0,\n      \"coupons\": 0,\n      \"settings\": 0,\n      \"cities\": 0,\n      \"delivery_boy\": 0\n    }\n  }\n]",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"e070cfd0f02fc1d11ca1408b046a5cb6\"",
+        "ETag": "W/\"bf0e42e3e5dd1ad3054bc863111ddf24\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=ME14S01adFlpMzlYaHNQa1ZteGRMeWhLK2R3ZWhXT0l5M0h2RjRaUGliVkUwTzBhUHpDS0QzY0VUWWUyK0JKS0VjbGE2a2R3NjdDK0JIY0ZlRmFzYVQ5K0xoNmFMakROWFdvdGw3ZzVuRDJ2NklqZ1kvcmJmUXA5akRETXc2SHJndHVEQkV6MnIrU2ovNXo3d3R6ZmZyM2FkTjZlVHVpZTZveDdlRDVDS3g0Z29HSWFtSHpOdmMyWDlUOXBiOFRjLS15aGoyT0ZiemYrVDdFU3ZEMk1KVnhnPT0%3D--29bcfe7b7fb478c0dbb477a69d9aaab7fce06b58; path=/; HttpOnly",
-        "X-Request-Id": "9b5884d3-8c56-4e8c-9f75-b0a783fed4d7",
-        "X-Runtime": "0.082728",
-        "Content-Length": "364"
+        "Set-Cookie": "_session_id=NlhuVnJ6K2pBZE1zb2grTVRZYXVXVXdqRFJtdVlEMkc0MjRCb2I1bGlzV0twTnBMSm9TN00zY245cVVqQ005Wk1FM1BSSVpXVmhJNGZpdW5uQ3J6K0VjR2Q3K0VWT0RMUmpTeDBTVEhvZjA5S2lOQWd4TzRxb04yeFZ4ekxaTFV2V1l0OGdwbUwzbXo3UzE4Y3hGZzlZdTd1blFJVXRJZWl1STMyUXRsYlFUQXpRRlQxVUJiakpNOEQzRHhodEtyLS12Q2ZnZG1mTXpZR1JCUmltaUlBbVpRPT0%3D--054c1bbf42a35ed7f8e8f3bd8b9201ac8c6fd17c; path=/; HttpOnly",
+        "X-Request-Id": "c92fdc1a-7f71-4faa-b2a9-e35cd32f8b7e",
+        "X-Runtime": "0.083567",
+        "Content-Length": "341"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/admin/users?has_ability=users\" -X GET \\\n\t-H \"Access-Token: olwfccqurRMYwOJnwzDogw\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: H80nGt-T43TD_zYJnl7TLA\" \\\n\t-H \"Expiry: 1458666828\" \\\n\t-H \"Uid: 90lucinda.wehner@emmerichsimonis.biz\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/admin/users?has_ability=users\" -X GET \\\n\t-H \"Access-Token: yMwCHTwJC7IguumhyUeiVQ\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: SVVWEzc8yV82Ve0QURUhvQ\" \\\n\t-H \"Expiry: 1458748297\" \\\n\t-H \"Uid: 90thaddeus.hahn@reichel.io\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

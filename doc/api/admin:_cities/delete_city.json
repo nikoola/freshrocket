@@ -16,11 +16,11 @@
       "request_path": "/admin/cities/1",
       "request_body": null,
       "request_headers": {
-        "Access-Token": "NQmEomB19uBIYABedBE-CA",
+        "Access-Token": "glxzKtXRZXBv03d7pz8l-g",
         "Token-Type": "Bearer",
-        "Client": "_aGSXrydO7dURElrkIXNyA",
-        "Expiry": "1458666820",
-        "Uid": "17helena_cronin@lubowitz.io",
+        "Client": "qELhkBhJmLSDuAot66V6Sw",
+        "Expiry": "1458748290",
+        "Uid": "17gordon.sporer@schinner.net",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -37,13 +37,13 @@
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "text/html",
         "Cache-Control": "no-cache",
-        "Set-Cookie": "_session_id=WDVVWlcwRUh3U1gyVys5ZXNyMzYvSDROUmU4bWRaamJEWDRwRTlQR3BZR3UvbkxKQ2pzcHF0Wmt2TEtQSFFpR3l4bUNzdDFRZSsvYkJZRHV3eVQzakQ1R3ZWY0grY3ZvSlN2UjFxNmdrSGxyYnFDYXBKK21VNUJPQnRnZjBFY0prSlBPUkFrR29SMGlRcXdtOVFWVkl1amhrSE9jQzhUV2dzbXVVUG1lb1cwSStwbGFBOWkzTFZBN09JSFlOeTQzLS04SVB0Mm9mRG1qbzRucnhkTHdsQ0NRPT0%3D--e04e9dbbdad7267e5a26957d3037590ca30369a9; path=/; HttpOnly",
-        "X-Request-Id": "64c22745-5af1-4b32-8160-e1e705ef8f74",
-        "X-Runtime": "0.084942",
+        "Set-Cookie": "_session_id=dUtOVGVkdDRDU1lra1ZKbUNnOWxZNjlDVFR1Sk0rS050V0pWL25OM1AwYlgyQWl1cHdtWENmV3NYUThIM0RrVFFubXRCdVNVYW1vd016RWFtUzM4Y3Q5NXpoYU0yV2R5TFNCdWJ5SlVBU1JGYndocUV3dVlGdzI5YTVEVkd6Tm5zb0xVTVV6VTJWQ2UwRGIxamtlcHdLTkcxODdYb1lSamF6eXJINkV2V1lPVytYanVFSG5qYlN5SXV3TEQrUDYwLS1OeHBHOWNPRVhYTXR6T1FzLzdYYjBRPT0%3D--2ea7438b4695bb83362f3610a8eacc378d06f7ef; path=/; HttpOnly",
+        "X-Request-Id": "1423578e-faff-4852-a663-8d84da360119",
+        "X-Runtime": "0.085317",
         "Content-Length": "0"
       },
       "response_content_type": "text/html",
-      "curl": "curl \"http://localhost:3000/admin/cities/1\" -d '' -X DELETE \\\n\t-H \"Access-Token: NQmEomB19uBIYABedBE-CA\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: _aGSXrydO7dURElrkIXNyA\" \\\n\t-H \"Expiry: 1458666820\" \\\n\t-H \"Uid: 17helena_cronin@lubowitz.io\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/admin/cities/1\" -d '' -X DELETE \\\n\t-H \"Access-Token: glxzKtXRZXBv03d7pz8l-g\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: qELhkBhJmLSDuAot66V6Sw\" \\\n\t-H \"Expiry: 1458748290\" \\\n\t-H \"Uid: 17gordon.sporer@schinner.net\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

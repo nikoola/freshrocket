@@ -19,11 +19,11 @@
       "request_path": "/client/addresses?active=0",
       "request_body": null,
       "request_headers": {
-        "Access-Token": "WxBw_Exm7qmtCZJuwXJQgQ",
+        "Access-Token": "XtfnhUv9kX-m722bgC9U-g",
         "Token-Type": "Bearer",
-        "Client": "nSmbHk1XM6CD9ssFB5aicA",
-        "Expiry": "1458666831",
-        "Uid": "115arianna.bartell@ruel.co",
+        "Client": "moWpEj7I0BklznUDj3c-tg",
+        "Expiry": "1458748299",
+        "Uid": "115gus.green@blanda.co",
         "Host": "example.org",
         "Cookie": ""
       },
@@ -33,21 +33,21 @@
       "request_content_type": null,
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "[\n  {\n    \"id\": 1,\n    \"city_id\": 1,\n    \"user_id\": 1,\n    \"street_and_house\": \"7167 Lind Cove\",\n    \"door_number\": \"5\"\n  },\n  {\n    \"id\": 2,\n    \"city_id\": 2,\n    \"user_id\": 1,\n    \"street_and_house\": \"4059 Danny Lakes\",\n    \"door_number\": \"5\"\n  },\n  {\n    \"id\": 3,\n    \"city_id\": 3,\n    \"user_id\": 1,\n    \"street_and_house\": \"284 Balistreri Lights\",\n    \"door_number\": \"5\"\n  }\n]",
+      "response_body": "[\n  {\n    \"id\": 1,\n    \"city_id\": 1,\n    \"user_id\": 1,\n    \"street_and_house\": \"6588 Rosendo Junctions\",\n    \"door_number\": \"5\"\n  },\n  {\n    \"id\": 2,\n    \"city_id\": 2,\n    \"user_id\": 1,\n    \"street_and_house\": \"36096 Hermann Walks\",\n    \"door_number\": \"5\"\n  },\n  {\n    \"id\": 3,\n    \"city_id\": 3,\n    \"user_id\": 1,\n    \"street_and_house\": \"1917 Macejkovic Shoals\",\n    \"door_number\": \"5\"\n  }\n]",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"a75e7c91304d9a53e0aefd35b1e6c109\"",
+        "ETag": "W/\"0ea01d3658029f20f97a5c59999d7ea4\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=bmNWeUgwYTVKSE5OVTNJcE5hVDBBRDJTSXprMVQ2b1ZTaFNJZ3U0eXlqY3I5Qmo4WlhJRU1DWTI3SFR1cGo3YXB4dFk0Y0syUktqS2IzanN1ZVJkcDVScG5XSHdDYzdXWFFtUlFyY3RtRHg2U2puRmd0akQrRjBWSTdvQkhNZmJjNlNOQUxHVmNrTnhmVGxaeS95VDlNRmFsN3hQRVZHNFViRjFzZk1jTE5sMmd1NXVjeXFld0MxdVU5cXZsb2RCLS1WLzJKR25TdnlUQ0FSUXRycXFlTUJBPT0%3D--ddc6719d7bdc9258a1d3c239b6e667a495496967; path=/; HttpOnly",
-        "X-Request-Id": "cae7d7f8-d415-4e0d-956a-6c4d4e0d18c0",
-        "X-Runtime": "0.087817",
-        "Content-Length": "271"
+        "Set-Cookie": "_session_id=YzFxdTFKTUdoc3M5UUtiNm5EKzRzc0xZZU1FS0FaQVpZalBPZUs0bjBpT202OEVMTVIxZUNYZkdhQkhJMjliRXY5RE4rSU9wa0h3TFJBajcySDRocWFtSTVNeHhxOXNscG4yUjFhcW81aHh2L3BFZlc5aHhEV01PdFNrOHBsanJCNUU5c0lLa0syRGpPYUpNUVdmUGRkZU9LamRrVndoU3Uwa01FcGNRNTVUbjVTYnVBNUxxRXA1RWdxY3NHd2xhLS1wdWxUOHZ4UUtUUzcwRmkrRlJUcWNBPT0%3D--ad756bf0cbd3d27538dccbcf19761985f0e41300; path=/; HttpOnly",
+        "X-Request-Id": "b99bcd69-7f7b-4fff-b14b-3d5aad38d5be",
+        "X-Runtime": "0.094670",
+        "Content-Length": "283"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/client/addresses?active=0\" -X GET \\\n\t-H \"Access-Token: WxBw_Exm7qmtCZJuwXJQgQ\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: nSmbHk1XM6CD9ssFB5aicA\" \\\n\t-H \"Expiry: 1458666831\" \\\n\t-H \"Uid: 115arianna.bartell@ruel.co\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/client/addresses?active=0\" -X GET \\\n\t-H \"Access-Token: XtfnhUv9kX-m722bgC9U-g\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: moWpEj7I0BklznUDj3c-tg\" \\\n\t-H \"Expiry: 1458748299\" \\\n\t-H \"Uid: 115gus.green@blanda.co\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

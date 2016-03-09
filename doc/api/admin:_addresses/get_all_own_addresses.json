@@ -19,11 +19,11 @@
       "request_path": "/admin/addresses?active=0",
       "request_body": null,
       "request_headers": {
-        "Access-Token": "bDXI07ZoETSfQ_59qAA-wg",
+        "Access-Token": "13fU3X59iN_jAL-Ajlju9g",
         "Token-Type": "Bearer",
-        "Client": "6uMUU-kZHTVXbIt49Gjirg",
-        "Expiry": "1458666818",
-        "Uid": "6carolyn.dicki@adamsfarrell.com",
+        "Client": "uwrU1td05cIXz5heykm5cA",
+        "Expiry": "1458748288",
+        "Uid": "6vincenzo@kochzboncak.co",
         "Host": "example.org",
         "Cookie": ""
       },
@@ -33,21 +33,21 @@
       "request_content_type": null,
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "[\n  {\n    \"id\": 1,\n    \"city_id\": 1,\n    \"user_id\": 1,\n    \"street_and_house\": \"62596 Lesley Spring\",\n    \"door_number\": \"5\"\n  },\n  {\n    \"id\": 2,\n    \"city_id\": 2,\n    \"user_id\": 2,\n    \"street_and_house\": \"76761 Oral Common\",\n    \"door_number\": \"5\"\n  },\n  {\n    \"id\": 3,\n    \"city_id\": 3,\n    \"user_id\": 3,\n    \"street_and_house\": \"57588 Junior View\",\n    \"door_number\": \"5\"\n  }\n]",
+      "response_body": "[\n  {\n    \"id\": 1,\n    \"city_id\": 1,\n    \"user_id\": 1,\n    \"street_and_house\": \"920 Legros Ranch\",\n    \"door_number\": \"5\"\n  },\n  {\n    \"id\": 2,\n    \"city_id\": 2,\n    \"user_id\": 2,\n    \"street_and_house\": \"57417 Buckridge Locks\",\n    \"door_number\": \"5\"\n  },\n  {\n    \"id\": 3,\n    \"city_id\": 3,\n    \"user_id\": 3,\n    \"street_and_house\": \"5854 Schultz Forges\",\n    \"door_number\": \"5\"\n  }\n]",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"e85a785e3ca56a9aa75c6d350644b3d3\"",
+        "ETag": "W/\"70ad1e887bf24c52747d11390b7de111\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=SGZkR0dyVVUrQ3F6VEIycTFjb2l6UHpWRERNRG4xTEYzYW9yTE1BSy9Ucll3NUVvZzByTk9IWTNxcTIvRVFyLy82UVl3aS80WTUyTkNwWDJWQitJZ3VSaXlQdnlWUGREWHlvRWNPdGN5eVYyWEJyQ1UvZ3JxYzU3b01xeUpyRFpTektmcFdCUnp0cEJvVWpDYmZzUHB5QnFwYkI1cE5GZkdmVXk1VzBNOWxIVWNqbG0xUjNidjR1QVJXbXN1R2FwLS1mR1VKaWR6UHM5LzNrQlFSWTFWa3lBPT0%3D--6686e56eb6653dc87b8ba5c71f9f8a3f7265277a; path=/; HttpOnly",
-        "X-Request-Id": "e0bf0510-d8e3-496d-b856-69ec42b31acc",
-        "X-Runtime": "0.133472",
-        "Content-Length": "273"
+        "Set-Cookie": "_session_id=ZGdlc2ZUdWJiczVWTEFqUHdkLzNOOXdPZWxKZ3lNODZwaTlJSzhhcGJUZ3JTeVRjVzBvd1JrTTJZdjMvVlh2WGMzTjhXNENYUG1ocDBMVDM4ZzM1djdpOVZMNDArM2dIdlFSbGw5NzRNUzNSY2xtT3pMNDNGTFVWSTFOVXhPTS9sRGcxRjN3alBvdmdtRXFSRGNXRXUxaUJ3ZFBoODNSVkFOb1AyeWNEblZBSHp2SHZndE5PWEJybkFwOXBHSUxzLS1Oa081c1lBNlFEbEhiV2ljL3hMK093PT0%3D--d7dd8eb4bacb501086c3fdef4f1ec762807906e5; path=/; HttpOnly",
+        "X-Request-Id": "e65bb33d-b503-4faa-901d-0d5ecfcb6f90",
+        "X-Runtime": "0.114346",
+        "Content-Length": "276"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/admin/addresses?active=0\" -X GET \\\n\t-H \"Access-Token: bDXI07ZoETSfQ_59qAA-wg\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: 6uMUU-kZHTVXbIt49Gjirg\" \\\n\t-H \"Expiry: 1458666818\" \\\n\t-H \"Uid: 6carolyn.dicki@adamsfarrell.com\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/admin/addresses?active=0\" -X GET \\\n\t-H \"Access-Token: 13fU3X59iN_jAL-Ajlju9g\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: uwrU1td05cIXz5heykm5cA\" \\\n\t-H \"Expiry: 1458748288\" \\\n\t-H \"Uid: 6vincenzo@kochzboncak.co\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

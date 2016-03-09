@@ -37,13 +37,13 @@
     {
       "request_method": "POST",
       "request_path": "/client/addresses",
-      "request_body": "address[street_and_house]=66958+O%27Conner+Neck&address[door_number]=5&address[city_id]=1",
+      "request_body": "address[street_and_house]=956+Howell+Square&address[door_number]=5&address[city_id]=1",
       "request_headers": {
-        "Access-Token": "3oPYpzJBV3NyjMv_SUnSFg",
+        "Access-Token": "vY4I7u0djc6TDXX34ShjRg",
         "Token-Type": "Bearer",
-        "Client": "0x8l72rNzXzciqPILHNJaA",
-        "Expiry": "1458666831",
-        "Uid": "118hailie@beer.name",
+        "Client": "z8Lm4SE2x2_-RJaa26s5xw",
+        "Expiry": "1458748299",
+        "Uid": "118shanon_zemlak@altenwerth.biz",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -53,21 +53,21 @@
       "request_content_type": "application/x-www-form-urlencoded",
       "response_status": 201,
       "response_status_text": "Created",
-      "response_body": "{\n  \"id\": 1,\n  \"city_id\": 1,\n  \"user_id\": 1,\n  \"street_and_house\": \"66958 O'Conner Neck\",\n  \"door_number\": \"5\"\n}",
+      "response_body": "{\n  \"id\": 1,\n  \"city_id\": 1,\n  \"user_id\": 1,\n  \"street_and_house\": \"956 Howell Square\",\n  \"door_number\": \"5\"\n}",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"435476515dd422a7a21cf1ccaafb49f4\"",
+        "ETag": "W/\"e39961a0a5bd72077d515f9b3f7aafdc\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=QVorVmkyb3kxRTFqK1dOeDJQRnlKM3dBaU1nVy9HcnJUbkVxRXVCY2hLWHRvekVxcXRwUG9ScnRlZnBtMk5QMWQ4SjZ0SlpESWl3YUhBRmZldGF4dlVwRThGMTZJbzVUa2lTOWFPdXp6SEFET1J5SE1nS0hEWE5rakNYYlN3dWpNNHUvU1kzbkVDc2pDNWpiTzNFWnFkK1QwYXp5OUd6THY5SUdKMXhEWGNsTjhCT21OVDFnZmZtSDQwNjdNb0dqLS1XU3NNT2NrUzRJUGdrVW5UM1BhWjRBPT0%3D--cdbbbdfd165af72ccfb6096e719028d80abf17b4; path=/; HttpOnly",
-        "X-Request-Id": "4e882e9b-bab8-49ff-b832-1d4d05bccdc7",
-        "X-Runtime": "0.076642",
-        "Content-Length": "91"
+        "Set-Cookie": "_session_id=TS9USStYTXNVazhHbjduN3ExcmZXa2kwbnhBNVJVRXV4eC9QbE9yZ0puZGxCaWdqaVY0OXdPOEdKZ2x0Q3hkSHZBdHVuVmdOQ3BqZlNHRHFubUZIdFk1MjZvbVR2M0NtRy9NWndvT2F1ZWViWVlia1Fnbk9tU3RkUnNzaFhKRlRqN1hURENoVVVpTzhiOTA5S0VTbGtRWklkb3JoK0YrMkZNc1ViZCtIT2NFU3dDQnRxbTVXbW54UUx2am1XMnlzLS05TThoY0V5SUFjOTkwWTc2NEdseG9nPT0%3D--835b740e7964b466d929e849a3620b3d4436d364; path=/; HttpOnly",
+        "X-Request-Id": "30ba8ef0-8a40-42f4-86db-f127457bc658",
+        "X-Runtime": "0.078303",
+        "Content-Length": "89"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/client/addresses\" -d 'address[street_and_house]=66958+O%27Conner+Neck&address[door_number]=5&address[city_id]=1' -X POST \\\n\t-H \"Access-Token: 3oPYpzJBV3NyjMv_SUnSFg\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: 0x8l72rNzXzciqPILHNJaA\" \\\n\t-H \"Expiry: 1458666831\" \\\n\t-H \"Uid: 118hailie@beer.name\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/client/addresses\" -d 'address[street_and_house]=956+Howell+Square&address[door_number]=5&address[city_id]=1' -X POST \\\n\t-H \"Access-Token: vY4I7u0djc6TDXX34ShjRg\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: z8Lm4SE2x2_-RJaa26s5xw\" \\\n\t-H \"Expiry: 1458748299\" \\\n\t-H \"Uid: 118shanon_zemlak@altenwerth.biz\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

@@ -47,13 +47,13 @@
     {
       "request_method": "POST",
       "request_path": "/auth",
-      "request_body": "email=161cary%40crooks.org&password=secrety_bickety&password_confirmation=secrety_bickety&first_name=Enos&last_name=Mann&phone",
+      "request_body": "email=161georgette%40gislason.co&password=secrety_bickety&password_confirmation=secrety_bickety&first_name=Piper&last_name=Wisozk&phone",
       "request_headers": {
-        "Access-Token": "ufv-6jsxnwEr2SuvUrJSSQ",
+        "Access-Token": "Qf2j4s0zUBMkkjWzW6TpkQ",
         "Token-Type": "Bearer",
-        "Client": "R4LWKzaNu0Q21GTvyZ__eQ",
-        "Expiry": "1458666838",
-        "Uid": "162rosanna@casperkoepp.info",
+        "Client": "z98LsEyz4ShT4XKZ5XMQww",
+        "Expiry": "1458748307",
+        "Uid": "162roberta@windlerheathcote.io",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -63,19 +63,19 @@
       "request_content_type": "application/x-www-form-urlencoded",
       "response_status": 403,
       "response_status_text": "Forbidden",
-      "response_body": "{\n  \"status\": \"error\",\n  \"data\": {\n    \"id\": null,\n    \"first_name\": \"Enos\",\n    \"last_name\": \"Mann\",\n    \"email\": \"161cary@crooks.org\",\n    \"provider\": \"email\",\n    \"uid\": \"\",\n    \"phone\": null,\n    \"verification_code\": null,\n    \"is_verified\": false,\n    \"created_at\": null,\n    \"updated_at\": null,\n    \"how_did_you_hear_about_us\": null\n  },\n  \"errors\": {\n    \"phone\": [\n      \"can't be blank\",\n      \"is not a number\",\n      \"is the wrong length (should be 12 characters)\"\n    ],\n    \"full_messages\": [\n      \"Phone can't be blank\",\n      \"Phone is not a number\",\n      \"Phone is the wrong length (should be 12 characters)\"\n    ]\n  }\n}",
+      "response_body": "{\n  \"status\": \"error\",\n  \"data\": {\n    \"id\": null,\n    \"first_name\": \"Piper\",\n    \"last_name\": \"Wisozk\",\n    \"email\": \"161georgette@gislason.co\",\n    \"provider\": \"email\",\n    \"uid\": \"\",\n    \"phone\": null,\n    \"verification_code\": null,\n    \"is_verified\": false,\n    \"created_at\": null,\n    \"updated_at\": null,\n    \"how_did_you_hear_about_us\": null\n  },\n  \"errors\": {\n    \"phone\": [\n      \"can't be blank\",\n      \"is not a number\",\n      \"is the wrong length (should be 12 characters)\"\n    ],\n    \"full_messages\": [\n      \"Phone can't be blank\",\n      \"Phone is not a number\",\n      \"Phone is the wrong length (should be 12 characters)\"\n    ]\n  }\n}",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "application/json; charset=utf-8",
         "Cache-Control": "no-cache",
-        "X-Request-Id": "55569122-8a00-432d-80b7-179a6295e73f",
-        "X-Runtime": "0.008728",
-        "Content-Length": "483"
+        "X-Request-Id": "8109b2a6-38ff-4a52-a450-306f1b6b2c77",
+        "X-Runtime": "0.008791",
+        "Content-Length": "492"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/auth\" -d 'email=161cary%40crooks.org&password=secrety_bickety&password_confirmation=secrety_bickety&first_name=Enos&last_name=Mann&phone' -X POST \\\n\t-H \"Access-Token: ufv-6jsxnwEr2SuvUrJSSQ\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: R4LWKzaNu0Q21GTvyZ__eQ\" \\\n\t-H \"Expiry: 1458666838\" \\\n\t-H \"Uid: 162rosanna@casperkoepp.info\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/auth\" -d 'email=161georgette%40gislason.co&password=secrety_bickety&password_confirmation=secrety_bickety&first_name=Piper&last_name=Wisozk&phone' -X POST \\\n\t-H \"Access-Token: Qf2j4s0zUBMkkjWzW6TpkQ\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: z98LsEyz4ShT4XKZ5XMQww\" \\\n\t-H \"Expiry: 1458748307\" \\\n\t-H \"Uid: 162roberta@windlerheathcote.io\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

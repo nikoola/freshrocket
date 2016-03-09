@@ -16,11 +16,11 @@
       "request_path": "/auth/sign_out",
       "request_body": null,
       "request_headers": {
-        "Access-Token": "nuGIRYw_bm_YxCQSiurHBQ",
+        "Access-Token": "8UxraQW4cv5Q3-qj5NXKnw",
         "Token-Type": "Bearer",
-        "Client": "Ceub_JH4bdwRMy9JFWmNSA",
-        "Expiry": "1458666831",
-        "Uid": "122gerard.kihn@borerdaniel.biz",
+        "Client": "sJF_fdOxT40Lyq1ooyn8AA",
+        "Expiry": "1458748300",
+        "Uid": "122elvie_macgyver@simonisnader.io",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -38,13 +38,13 @@
         "Content-Type": "application/json; charset=utf-8",
         "ETag": "W/\"7363e85fe9edee6f053a4b319588c086\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=QzhwUzRyeUljNFFsWTZHcUlwZUR3T2ZnUzZOQVc1M3VkR1ZCdDNzakFQRGVQUTQ1dk1kYWJobGtCT1M2TVRRTGREUWNrUmpEaXJPZDBpbURMMCtValE9PS0tOEt5VUZIelVqSTlpcDl5d1FmTlc4UT09--77f264f0c58c297d4fd67faad8182b7d1d820fba; path=/; HttpOnly",
-        "X-Request-Id": "53d5a2cc-a3d2-4fac-9b1a-2659cef9ce5c",
-        "X-Runtime": "0.072286",
+        "Set-Cookie": "_session_id=dVJ4UjNGMjg4Rk4zLzFnRDdjVmpGeTVWWWRtQlVYY0JYNkVoQUtpcU5tQVpwa2taQlc4T2QxbEFiSnhIZS8wMWR5K2NXUTV0QzA3d1k0WEhkc1JnNXc9PS0tT2huR2FrK3llbDBzTGFNYjA1QVJqQT09--416932008d39fcbe82964cf8c03983eb59cda05a; path=/; HttpOnly",
+        "X-Request-Id": "fd86b349-5351-46d8-8e88-140f940edec6",
+        "X-Runtime": "0.072636",
         "Content-Length": "16"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/auth/sign_out\" -d '' -X DELETE \\\n\t-H \"Access-Token: nuGIRYw_bm_YxCQSiurHBQ\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: Ceub_JH4bdwRMy9JFWmNSA\" \\\n\t-H \"Expiry: 1458666831\" \\\n\t-H \"Uid: 122gerard.kihn@borerdaniel.biz\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/auth/sign_out\" -d '' -X DELETE \\\n\t-H \"Access-Token: 8UxraQW4cv5Q3-qj5NXKnw\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: sJF_fdOxT40Lyq1ooyn8AA\" \\\n\t-H \"Expiry: 1458748300\" \\\n\t-H \"Uid: 122elvie_macgyver@simonisnader.io\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

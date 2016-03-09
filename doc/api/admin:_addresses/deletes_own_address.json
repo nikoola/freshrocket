@@ -16,11 +16,11 @@
       "request_path": "/admin/addresses/1",
       "request_body": null,
       "request_headers": {
-        "Access-Token": "ahkorgkYAJHKnecYzjv2sw",
+        "Access-Token": "uWEmgEXrR56pB_tdqGA-Rw",
         "Token-Type": "Bearer",
-        "Client": "qnePGAohzbIyr-hUrHFWPA",
-        "Expiry": "1458666819",
-        "Uid": "9marina.walter@runte.info",
+        "Client": "tsBGsNvr-o-s2CYYm875Ag",
+        "Expiry": "1458748289",
+        "Uid": "9wilhelm_okuneva@halvorsonkeeling.name",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -37,13 +37,13 @@
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "text/html",
         "Cache-Control": "no-cache",
-        "Set-Cookie": "_session_id=Q0IrKytkb0J5dytzS3pGWEtLTmc5VVRYOU0zM0dhcnJ2WTZjaEhDaXpFNWFqTEdRMGtDTWpkb0F4TkFHdm52MHMwS2VIcGhTckx4NnltcXZXQWx3ckk3d3ExSG9MaEFySUNQeDI1dWtpdVhLY2k5RHFRZjRLMERyWGJXeWdud2dDUEx3d1U3YVM2TldhaUpZZmlsM20zdHVQelp3UWQwVHN3OW8zWDhiWFZOZlhDWVBPV1pvYkZ5V21SN2U5ZVZWLS1kUitsb1hPazI5S0o2b2xnSGpIZGV3PT0%3D--f9dd1031096017e7c222c3549f62ff772e180113; path=/; HttpOnly",
-        "X-Request-Id": "87979060-f051-491b-b395-8a775d582de4",
-        "X-Runtime": "0.079960",
+        "Set-Cookie": "_session_id=TDltQnhJTFRlOWlRR20rZzAwNXlVV0RwRnpSYzNtQ2RNb3NDVVVWclN6WDE5MEEwTlk4Q0QyTURpdXl3WnNlSXcxRWl4NlNCV2YzU2ZEWlUyZmFmWG1QV2ZzT2d5NnNCS3lRbWRhNFplVjBQemRpbTUwQkxUdE5SeTJZVUNTRTgvWjVOUFo0SmM0VWJITDRlM2YxL3dMUEdOcWZOMm16ZmhQZ1U0WVBkT2NBNllJT3JWNngvQTdXbmQvdTRIdExMLS1xOVJpbElvcjdFM2hjYW1OV3l6MnNnPT0%3D--c3083c334da4d184a500cf9f236f57c5d9a70476; path=/; HttpOnly",
+        "X-Request-Id": "7c9d0077-b7d6-411b-82b2-33ff7425352e",
+        "X-Runtime": "0.079546",
         "Content-Length": "0"
       },
       "response_content_type": "text/html",
-      "curl": "curl \"http://localhost:3000/admin/addresses/1\" -d '' -X DELETE \\\n\t-H \"Access-Token: ahkorgkYAJHKnecYzjv2sw\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: qnePGAohzbIyr-hUrHFWPA\" \\\n\t-H \"Expiry: 1458666819\" \\\n\t-H \"Uid: 9marina.walter@runte.info\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/admin/addresses/1\" -d '' -X DELETE \\\n\t-H \"Access-Token: uWEmgEXrR56pB_tdqGA-Rw\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: tsBGsNvr-o-s2CYYm875Ag\" \\\n\t-H \"Expiry: 1458748289\" \\\n\t-H \"Uid: 9wilhelm_okuneva@halvorsonkeeling.name\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

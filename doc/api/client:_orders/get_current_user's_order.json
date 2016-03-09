@@ -19,11 +19,11 @@
       "request_path": "/client/orders/3",
       "request_body": null,
       "request_headers": {
-        "Access-Token": "w652HhiEZUqppAP1LdBFYg",
+        "Access-Token": "Xa6qWFdwQXayTnOpNXbqbw",
         "Token-Type": "Bearer",
-        "Client": "xXlPnCqTroMQVPHbmxWJ4A",
-        "Expiry": "1458666835",
-        "Uid": "132cristopher@barrowsmedhurst.biz",
+        "Client": "-AnDpj5qemQSAkM7zspMYQ",
+        "Expiry": "1458748304",
+        "Uid": "132vida@barrows.io",
         "Host": "example.org",
         "Cookie": ""
       },
@@ -32,21 +32,21 @@
       "request_content_type": null,
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\n  \"id\": 3,\n  \"user_id\": 5,\n  \"status\": \"unconfirmed\",\n  \"created_at\": \"2016-03-08T17:13:55.807Z\",\n  \"confirmed_at\": null,\n  \"approved_at\": null,\n  \"dispacthed_at\": null,\n  \"delivered_at\": null,\n  \"canceled_at\": null,\n  \"pure_product_price\": \"27.0\",\n  \"tax\": \"1.35\",\n  \"delivery_charge\": \"200.0\",\n  \"total_price\": \"228.35\",\n  \"delivery_boy_id\": null,\n  \"wanted_time\": null,\n  \"wanted_date\": null,\n  \"payment_type\": \"cash\",\n  \"is_paid\": false,\n  \"feedback\": null,\n  \"comment\": null,\n  \"coupon_code\": null,\n  \"source_type\": null\n}",
+      "response_body": "{\n  \"id\": 3,\n  \"user_id\": 5,\n  \"status\": \"unconfirmed\",\n  \"created_at\": \"2016-03-09T15:51:44.423Z\",\n  \"confirmed_at\": null,\n  \"approved_at\": null,\n  \"dispacthed_at\": null,\n  \"delivered_at\": null,\n  \"canceled_at\": null,\n  \"pure_product_price\": \"27.0\",\n  \"tax\": \"1.35\",\n  \"delivery_charge\": \"200.0\",\n  \"total_price\": \"228.35\",\n  \"delivery_boy_id\": null,\n  \"wanted_time\": null,\n  \"wanted_date\": null,\n  \"payment_type\": \"cash\",\n  \"is_paid\": false,\n  \"feedback\": null,\n  \"comment\": null,\n  \"coupon_code\": null,\n  \"source_type\": null\n}",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"fe908e78544072c6ddde30469c81f955\"",
+        "ETag": "W/\"50e6423bbfe93b9b954e87355273544c\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=WmVJaWxINTB6VmpSanZyNGwrbElNNFJBMVpLRUszUVdRM1RBZEFnWXl0U2JpQ2kxTm00WWR6WUFNZDhGUEI1ajRsMnBPVmFTZFdDNHBjdW85LzVDZEs1UTZpVmY5bytJQ2o4aDNJSmhacmRlUzY2eG5HdHpac0tQbUNiRDBLRytIQ0JSZThUK3g5V1hXK3c2Tm5WSnFwYnN4VkRkd0JLUWVYcG9TbVBWbFJFSTl6a2hoakp4eU9RZWpUQmZZWVZ0LS1kYTAvMVE3OGRmb2Vjc2NzRGF3aUJBPT0%3D--414ffae8ecc6de57e1f63031d76fb1b8cb86364a; path=/; HttpOnly",
-        "X-Request-Id": "cc50db55-fbb5-48ce-9325-456e476bf23b",
-        "X-Runtime": "0.077267",
+        "Set-Cookie": "_session_id=Rm5PTTdzVkw4cTlKb1VaWk5vblliOEczd29CZHZGbUZDampkT2tvREh4U0V2RXFNZGFqcHZvazdmQVIvMk9hdTNrazJBZW0zaXJGQml2UlpLc1pxNElwb1IwcmRFeW9zVjlEc1hGQjg4bDVCdVFsQUl1RVNDbW1ncWlSMktHRmJncDBmS0dSaE4rZFFBTzhzcEpJRno3QUtYaUNveVNWdk9PemwwRVV2UHBDb1pmTCtKWFFBaGNzeTlnb29UaW51LS12ZjRBd2U5ZEk1YjRZWE12Sk1tbHBBPT0%3D--6d126056bc2884124cb532ad70128517195612a9; path=/; HttpOnly",
+        "X-Request-Id": "baa760ca-481c-4eef-b3b6-2181c4217d4d",
+        "X-Runtime": "0.077708",
         "Content-Length": "440"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/client/orders/3\" -X GET \\\n\t-H \"Access-Token: w652HhiEZUqppAP1LdBFYg\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: xXlPnCqTroMQVPHbmxWJ4A\" \\\n\t-H \"Expiry: 1458666835\" \\\n\t-H \"Uid: 132cristopher@barrowsmedhurst.biz\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/client/orders/3\" -X GET \\\n\t-H \"Access-Token: Xa6qWFdwQXayTnOpNXbqbw\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: -AnDpj5qemQSAkM7zspMYQ\" \\\n\t-H \"Expiry: 1458748304\" \\\n\t-H \"Uid: 132vida@barrows.io\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

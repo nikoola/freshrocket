@@ -52,5 +52,19 @@ module DeviseTokenAuth
 			}
 		end
 
+
+	end
+
+
+	SessionsController.class_eval do
+		def render_create_success
+			serializer = UserSerializer.new(@resource)
+			adapter = ActiveModel::Serializer.adapter.new serializer
+
+			render json: {
+				success: true,
+				message: adapter
+			}
+		end
 	end
 end

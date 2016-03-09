@@ -16,11 +16,11 @@
       "request_path": "/auth",
       "request_body": "phone=%2B79174446666",
       "request_headers": {
-        "Access-Token": "8NRHfDLD6UESEThkLJQttg",
+        "Access-Token": "SQ1rtlpH5XeKoa1-8SYrGg",
         "Token-Type": "Bearer",
-        "Client": "6S8nyC3C9zlQfnI8J6hkvg",
-        "Expiry": "1458666838",
-        "Uid": "163lydia@adams.io",
+        "Client": "VWNbwnYDMJOEH5z0VpcAMg",
+        "Expiry": "1458748307",
+        "Uid": "163elijah@orn.net",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -30,21 +30,21 @@
       "request_content_type": "application/x-www-form-urlencoded",
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\n  \"status\": \"success\",\n  \"data\": {\n    \"id\": 5,\n    \"first_name\": \"Gladyce\",\n    \"last_name\": \"Stoltenberg\",\n    \"email\": \"163lydia@adams.io\",\n    \"provider\": \"email\",\n    \"uid\": \"163lydia@adams.io\",\n    \"phone\": \"+79174446666\",\n    \"verification_code\": null,\n    \"is_verified\": false,\n    \"created_at\": \"2016-03-08T17:13:58.810Z\",\n    \"updated_at\": \"2016-03-08T17:13:58.957Z\",\n    \"how_did_you_hear_about_us\": null\n  }\n}",
+      "response_body": "{\n  \"status\": \"success\",\n  \"data\": {\n    \"id\": 5,\n    \"first_name\": \"Ayden\",\n    \"last_name\": \"Streich\",\n    \"email\": \"163elijah@orn.net\",\n    \"provider\": \"email\",\n    \"uid\": \"163elijah@orn.net\",\n    \"phone\": \"+79174446666\",\n    \"verification_code\": null,\n    \"is_verified\": false,\n    \"created_at\": \"2016-03-09T15:51:47.427Z\",\n    \"updated_at\": \"2016-03-09T15:51:47.575Z\",\n    \"how_did_you_hear_about_us\": null\n  }\n}",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"23640ab994cb05122dacba163e3a31de\"",
+        "ETag": "W/\"abd6c64661d80f99a2d58ca9eb022dd5\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=SURkTy81b2I3M1RZSmpUTDhSdHJIMGd4M09aWjFSS2JZdy9QbldSNjlxRzgrRzUrblVQeXdaVGU1bjg0cHdQQ1ZxTi92c0RLU3RrWVBHeFZ2dnFHc25iK284UmIvQVF4ZzZHR09hamRiU2k4TFBzbjlYdlZqVG5vdEQ3WVVnb2crOHAzV0NxaHRMOUJzRTd5VkVES2ptS0FvOGI3Z1VOSU9DcFVsWTBhVnRBeVhQK3kydG5WQ0x2MjRLNmtXSUQ0LS1CSHU0Vitoa1RaYjBqYk5rMHJEOEJBPT0%3D--fbbbda472bc124878b9b35b00ed9d64df500d019; path=/; HttpOnly",
-        "X-Request-Id": "186e738e-9540-4ca6-b4a4-c925dae2b63d",
-        "X-Runtime": "0.079352",
-        "Content-Length": "339"
+        "Set-Cookie": "_session_id=cVpmVnNzZlJMejQ2ak5zeUFna1p4d014YWkrOUZMT2FTclZoZ0RJdFJDWnVCdThtTFlkOE9rZ3hiV3loU0xHanVCdU9rNXBtSDBWVytlS3g0SkJzVjkzWGlVRXJ6aEpGaGRyMTVGVWZmWWFxSjZyTzFsOUlJRjFPUEllZjRpK0NhTzcwVmNUNDZldFQ4T2lXM3FUQXVCSDFjaCtqWnNtMmVsMndlbEVBbFR3MGJ0UkVmamw2V1BSbkF6MmEwc0JFLS1IUzRXV3hCcXBDTXNnSWZtc01LWi93PT0%3D--2160182b280f01929c157f2d419b5919d4b7a3d4; path=/; HttpOnly",
+        "X-Request-Id": "495fcc10-291b-4d13-8421-9e78aa913fb2",
+        "X-Runtime": "0.079485",
+        "Content-Length": "333"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/auth\" -d 'phone=%2B79174446666' -X PUT \\\n\t-H \"Access-Token: 8NRHfDLD6UESEThkLJQttg\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: 6S8nyC3C9zlQfnI8J6hkvg\" \\\n\t-H \"Expiry: 1458666838\" \\\n\t-H \"Uid: 163lydia@adams.io\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/auth\" -d 'phone=%2B79174446666' -X PUT \\\n\t-H \"Access-Token: SQ1rtlpH5XeKoa1-8SYrGg\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: VWNbwnYDMJOEH5z0VpcAMg\" \\\n\t-H \"Expiry: 1458748307\" \\\n\t-H \"Uid: 163elijah@orn.net\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

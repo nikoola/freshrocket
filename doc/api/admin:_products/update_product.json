@@ -16,11 +16,11 @@
       "request_path": "/admin/products/1",
       "request_body": "product[title]=hi",
       "request_headers": {
-        "Access-Token": "GSQnjTBVsUTOqlN5g2oGGg",
+        "Access-Token": "MMRir8RDF33gK4_g1rEV8g",
         "Token-Type": "Bearer",
-        "Client": "f9BL8QTDvvuU5UexmWVwrQ",
-        "Expiry": "1458666826",
-        "Uid": "71layne_flatley@kihn.co",
+        "Client": "FBkI8CY5MSjhKJCyxoIkog",
+        "Expiry": "1458748295",
+        "Uid": "71kadin@hyatt.co",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -30,21 +30,21 @@
       "request_content_type": "application/x-www-form-urlencoded",
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\n  \"id\": 1,\n  \"city_id\": 1,\n  \"title\": \"hi\",\n  \"price\": \"3.0\",\n  \"description\": null,\n  \"created_at\": \"2016-03-08T17:13:46.098Z\",\n  \"updated_at\": \"2016-03-08T17:13:46.270Z\",\n  \"inventory_count\": 20,\n  \"image_url\": \"uploads/product/image/default.png\"\n}",
+      "response_body": "{\n  \"id\": 1,\n  \"city_id\": 1,\n  \"title\": \"hi\",\n  \"price\": \"3.0\",\n  \"description\": null,\n  \"created_at\": \"2016-03-09T15:51:34.989Z\",\n  \"updated_at\": \"2016-03-09T15:51:35.164Z\",\n  \"inventory_count\": 20,\n  \"image_url\": \"uploads/product/image/default.png\"\n}",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"565e33c154fe9edb43799b60edaed729\"",
+        "ETag": "W/\"cd24d0ae7977fb59c0461287aa771dcb\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=YTZ0SWxUQTlwNm1MSUw0c2hJR3pYSnJxN0UzSWJURXVHbGJReElqODFmOUlsaURoQ2ZKOEp3VHBuZ0piVi9nTVIyMWY1aGtlSWNYRmNzUTExRHMybUxsWE54NGZwN083UUhoRHpHS2pYYkFjUDNiSjJlMHM5eWEvbmFPdmZMQ215QUVLbkdXMzBuVVFLa05heGgycFdCNlMxeHNGNzVTTkQ2VUtqZVdRNkNUekhQOUZBdGJ6ZVNIc3o4M2RiZ210LS1hYVc5S21WSmtYVDNmU1J4MGZieXF3PT0%3D--556474def050c30c2e62ad1fe17f387ac13f0ff6; path=/; HttpOnly",
-        "X-Request-Id": "01e7fb61-8e4a-4980-aee7-57b365fde62f",
-        "X-Runtime": "0.080051",
+        "Set-Cookie": "_session_id=TXR1M042dTB4RC9USDU3czRnVms0UC9Md0lmRlpSZnRBbWRwRGlETmZMV1dzSnMwT3BEazJOaHB1MTJoQVVZZHEzSnVVdldkR1pNMHRrTVc5M2JRNHJ5SWZxb2NMT2ZXdUVweVlXQW03TllGUmRCUXJQTzJ5Z2VhUDhmdHBKOCtUWW9LZHlxdHpHWFJ2a25VRU9OY055azJBT0Fva0tyemNQUDFxMk4xUSs4WUoyQnd2L05vU2ZBMmFzOU0vd1RiLS1sd3dPS3hNUmFob054QUYzWVROL3V3PT0%3D--0149fcdb93f907183626e55d99475e43f57ae737; path=/; HttpOnly",
+        "X-Request-Id": "3d68c52e-ad93-4330-9088-7fc8fb429884",
+        "X-Runtime": "0.080349",
         "Content-Length": "215"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/admin/products/1\" -d 'product[title]=hi' -X PUT \\\n\t-H \"Access-Token: GSQnjTBVsUTOqlN5g2oGGg\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: f9BL8QTDvvuU5UexmWVwrQ\" \\\n\t-H \"Expiry: 1458666826\" \\\n\t-H \"Uid: 71layne_flatley@kihn.co\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/admin/products/1\" -d 'product[title]=hi' -X PUT \\\n\t-H \"Access-Token: MMRir8RDF33gK4_g1rEV8g\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: FBkI8CY5MSjhKJCyxoIkog\" \\\n\t-H \"Expiry: 1458748295\" \\\n\t-H \"Uid: 71kadin@hyatt.co\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

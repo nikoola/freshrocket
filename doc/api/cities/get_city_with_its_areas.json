@@ -27,17 +27,17 @@
       "request_content_type": null,
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\n  \"id\": 1,\n  \"name\": \"Susiestad_101\",\n  \"active\": true,\n  \"areas\": [\n    {\n      \"id\": 1,\n      \"name\": \"Lockmanburgh_area_3\"\n    },\n    {\n      \"id\": 2,\n      \"name\": \"New Carter_area_4\"\n    },\n    {\n      \"id\": 3,\n      \"name\": \"Whitebury_area_5\"\n    }\n  ]\n}",
+      "response_body": "{\n  \"id\": 1,\n  \"name\": \"South Vickie_101\",\n  \"active\": true,\n  \"areas\": [\n    {\n      \"id\": 1,\n      \"name\": \"New Ramonahaven_area_3\"\n    },\n    {\n      \"id\": 2,\n      \"name\": \"Eleonorestad_area_4\"\n    },\n    {\n      \"id\": 3,\n      \"name\": \"West Anthonychester_area_5\"\n    }\n  ]\n}",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"10cc59ad6548141a8244a7d6e1e2d2fb\"",
+        "ETag": "W/\"16c68f5bc00fed6ddd12f18c791614aa\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "X-Request-Id": "94c9c228-218b-41b5-81fb-1f447790e58c",
-        "X-Runtime": "0.002926",
-        "Content-Length": "164"
+        "X-Request-Id": "7bcea620-474c-4c3d-a0ff-d0d48065897e",
+        "X-Runtime": "0.003411",
+        "Content-Length": "182"
       },
       "response_content_type": "application/json; charset=utf-8",
       "curl": "curl \"http://localhost:3000/cities/1?include[]=areas\" -X GET \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
