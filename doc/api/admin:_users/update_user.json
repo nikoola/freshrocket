@@ -16,11 +16,11 @@
       "request_path": "/admin/users/1",
       "request_body": "user[email]=hi%40hi.hey&user[phone]=%2B79177878978",
       "request_headers": {
-        "Access-Token": "NefsjrPgpecTsS40EIligw",
+        "Access-Token": "wTyHC8KCoM3gGQS365Dytg",
         "Token-Type": "Bearer",
-        "Client": "C2DQ7yu61YtdI4u6upxRbQ",
-        "Expiry": "1458749345",
-        "Uid": "101lori_collier@hyatthegmann.io",
+        "Client": "EWJM45TC7SWEftrhAu9-GQ",
+        "Expiry": "1458814162",
+        "Uid": "101alta@koelpinschiller.name",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -30,21 +30,21 @@
       "request_content_type": "application/x-www-form-urlencoded",
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\n  \"id\": 1,\n  \"first_name\": \"Jabari\",\n  \"last_name\": \"Baumbach\",\n  \"email\": \"hi@hi.hey\",\n  \"phone\": \"+79177878978\",\n  \"is_verified\": false,\n  \"provider\": \"email\",\n  \"uid\": \"hi@hi.hey\",\n  \"created_at\": \"2016-03-09T16:09:05.387Z\",\n  \"abilities\": {\n    \"orders\": 0,\n    \"products\": 0,\n    \"users\": 0,\n    \"categories\": 1,\n    \"coupons\": 0,\n    \"settings\": 0,\n    \"cities\": 0,\n    \"delivery_boy\": 0\n  }\n}",
+      "response_body": "{\n  \"id\": 1,\n  \"first_name\": \"Josefa\",\n  \"last_name\": \"Mohr\",\n  \"email\": \"hi@hi.hey\",\n  \"phone\": \"+79177878978\",\n  \"is_verified\": false,\n  \"provider\": \"email\",\n  \"uid\": \"hi@hi.hey\",\n  \"created_at\": \"2016-03-10T10:09:22.772Z\",\n  \"abilities\": {\n    \"orders\": 0,\n    \"products\": 0,\n    \"users\": 0,\n    \"categories\": 1,\n    \"coupons\": 0,\n    \"settings\": 0,\n    \"cities\": 0,\n    \"delivery_boy\": 0\n  }\n}",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"89694b128f91372d1c41bd8203b66557\"",
+        "ETag": "W/\"dbde1f9fa8dbcdf2baad31d7228c8b74\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=M1NQQXdJMW1yTFlRZzMyakl2MThpVDVUME8wcWtWVmpscStybCtDL2xtaTBTeUdsVGEyRUVFbHByQWYvU3hmRnM4aFQ3ZFdmR3oxcXpGM1BnbGF0MGl6cnBib3BnTjV3Mk5qQUY1Z2grTU5zQ0FNeXpVVFJSa1p2cFpKYktrQ1d6OWxvNWc2VXNjQ3d6MVhoRDUrdDFoSk1FU1MrRHRWbVdvZy9SWWU2TFViOGdvUmhwY0VPTmtvaktvMmJpTUZPLS1zUXN4NEt0a3hrMUlGb0JOQ2N1ekFnPT0%3D--ae52290a09fd3a3461a81d933fef218889783102; path=/; HttpOnly",
-        "X-Request-Id": "f93917fe-24e0-48ce-a359-53879e88b629",
-        "X-Runtime": "0.083956",
-        "Content-Length": "309"
+        "Set-Cookie": "_session_id=RHJ1NEsybS9BQXdNTUpyV0tsN2lNTmpSaGJJc0dYcWQ4bmpXeS90VmhzUzgrK1FrYkkxaFM1amxUYjZUYUtyZmxVVEQ3RjdPL0FBbkJYZWt1Yml1bUJJRjJUdDVBa3QvS0ZRaDcxTlJsNWg5WjM5UFEwalZsekdETDRMaEF2aTN3eE5HRWpRR1FnU1BrZW9GbUtQU2tFM1NOYkRUejhHNFpTTUEwT0hqeGZDUGZXc2VOM3M4V3hXdHBJTHRaUTVoLS16OFBEWFVGZmlJbS93V0lhcHdzcXhBPT0%3D--7ef8c92cf873f8baa8211b23765d43db02e58e74; path=/; HttpOnly",
+        "X-Request-Id": "6f6d3b05-53ce-41ab-95f5-0bcf364bf0ea",
+        "X-Runtime": "0.084826",
+        "Content-Length": "305"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/admin/users/1\" -d 'user[email]=hi%40hi.hey&user[phone]=%2B79177878978' -X PUT \\\n\t-H \"Access-Token: NefsjrPgpecTsS40EIligw\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: C2DQ7yu61YtdI4u6upxRbQ\" \\\n\t-H \"Expiry: 1458749345\" \\\n\t-H \"Uid: 101lori_collier@hyatthegmann.io\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/admin/users/1\" -d 'user[email]=hi%40hi.hey&user[phone]=%2B79177878978' -X PUT \\\n\t-H \"Access-Token: wTyHC8KCoM3gGQS365Dytg\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: EWJM45TC7SWEftrhAu9-GQ\" \\\n\t-H \"Expiry: 1458814162\" \\\n\t-H \"Uid: 101alta@koelpinschiller.name\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

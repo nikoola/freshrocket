@@ -37,13 +37,13 @@
     {
       "request_method": "POST",
       "request_path": "/client/addresses",
-      "request_body": "address[street_and_house]=255+Adams+Manors&address[door_number]=5&address[city_id]=1",
+      "request_body": "address[street_and_house]=65546+Queenie+Forges&address[door_number]=5&address[city_id]=1",
       "request_headers": {
-        "Access-Token": "g6frM3VY9-_8C9W1aylN2w",
+        "Access-Token": "ImCpA8abIImU1_zaP7-D8g",
         "Token-Type": "Bearer",
-        "Client": "Pq3dOTpz4_zzJ1S7cutGHw",
-        "Expiry": "1458749347",
-        "Uid": "118chanel_spinka@ruecker.io",
+        "Client": "QYEca_zVc8iwtwzLjwDGpg",
+        "Expiry": "1458814164",
+        "Uid": "118sandy@orn.biz",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -53,21 +53,21 @@
       "request_content_type": "application/x-www-form-urlencoded",
       "response_status": 201,
       "response_status_text": "Created",
-      "response_body": "{\n  \"id\": 1,\n  \"city_id\": 1,\n  \"user_id\": 1,\n  \"street_and_house\": \"255 Adams Manors\",\n  \"door_number\": \"5\"\n}",
+      "response_body": "{\n  \"id\": 1,\n  \"city_id\": 1,\n  \"user_id\": 1,\n  \"street_and_house\": \"65546 Queenie Forges\",\n  \"door_number\": \"5\"\n}",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"8a95b7ff053fcc075905eb218f07e52b\"",
+        "ETag": "W/\"bdb936568e3f809e54b1464b319d61c2\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=QUdqNHBzQnRDbHFGTVpYeGovUXJWc1VrWTVRSmp2VFFNVzhvZURBU2Y5MGI0SENvSWJyZmlCeEhFaCtaT3FJZzI1cXpxNy9UQmVkdUdybnB4SlVjWDFsd3ZIMnVyLy9aUnpQZk15VURBUDg2UVM1aHdDa0EvVkNTTzQwZnNZNm94enkrV2U5ZHZUUnFYWG10MzEyRGU5N0Urc2s3anBTZnhFam42cHJjM3h1UHpWYWxqWGx6WjdsaUwyK1J2dEFPLS1jVDdxeTVIbk4xb09FMlI2RndUNlRRPT0%3D--43ae70b743e56de41b8419d210843c89886b7405; path=/; HttpOnly",
-        "X-Request-Id": "f48b44db-1075-4140-9b9c-173b49f92794",
-        "X-Runtime": "0.085087",
-        "Content-Length": "88"
+        "Set-Cookie": "_session_id=Y2x5QlRKK0tBbmdJdStnbTJET3dVSXNYNWJleHB1bUVDcVhxL1VXaHJQanNEd290QUNuS1BJN2d0dGl0UnFzVldSVW10UDMwT01UN0MrVml0SXlSNjFRSndjN2cyYzRaTXNJM0k4YzVheEVybCtnd3ZqWTU3NS9ZRTZiaUJYOTl4MWFmUFp4T2x3SVV0czVpeUJMeEVwUmF0NVNMOXJIKzRuczVKcHJRK3c3Ukw2ZU51ejRCMGhuQk9hcVk0RStRLS14VnFxaTlRTU1oVlluaTNXTE1NcFN3PT0%3D--43a4818c95a1d705bad715e4dd90aa8aa77a54d1; path=/; HttpOnly",
+        "X-Request-Id": "86cd913f-811c-4a5f-8b7b-5ff66e1438aa",
+        "X-Runtime": "0.077797",
+        "Content-Length": "92"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/client/addresses\" -d 'address[street_and_house]=255+Adams+Manors&address[door_number]=5&address[city_id]=1' -X POST \\\n\t-H \"Access-Token: g6frM3VY9-_8C9W1aylN2w\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: Pq3dOTpz4_zzJ1S7cutGHw\" \\\n\t-H \"Expiry: 1458749347\" \\\n\t-H \"Uid: 118chanel_spinka@ruecker.io\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/client/addresses\" -d 'address[street_and_house]=65546+Queenie+Forges&address[door_number]=5&address[city_id]=1' -X POST \\\n\t-H \"Access-Token: ImCpA8abIImU1_zaP7-D8g\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: QYEca_zVc8iwtwzLjwDGpg\" \\\n\t-H \"Expiry: 1458814164\" \\\n\t-H \"Uid: 118sandy@orn.biz\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

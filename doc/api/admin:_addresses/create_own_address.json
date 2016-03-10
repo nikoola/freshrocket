@@ -43,13 +43,13 @@
     {
       "request_method": "POST",
       "request_path": "/admin/addresses",
-      "request_body": "address[street_and_house]=3647+Kozey+Square&address[door_number]=5&address[city_id]=1&address[user_id]=1",
+      "request_body": "address[street_and_house]=795+Watsica+Loaf&address[door_number]=5&address[city_id]=1&address[user_id]=1",
       "request_headers": {
-        "Access-Token": "93tXGYhTjNwM6xywbjalzQ",
+        "Access-Token": "ziQxsTkEi0vSn1btKzD2iQ",
         "Token-Type": "Bearer",
-        "Client": "XKOtOi28Z8qVyQTQXj5ajg",
-        "Expiry": "1458749334",
-        "Uid": "7christiana@framisenger.com",
+        "Client": "vSTRet4Ub-aidPmgdIuPXg",
+        "Expiry": "1458814153",
+        "Uid": "7dina@stracke.info",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -59,21 +59,21 @@
       "request_content_type": "application/x-www-form-urlencoded",
       "response_status": 201,
       "response_status_text": "Created",
-      "response_body": "{\n  \"id\": 1,\n  \"city_id\": 1,\n  \"user_id\": 1,\n  \"street_and_house\": \"3647 Kozey Square\",\n  \"door_number\": \"5\"\n}",
+      "response_body": "{\n  \"id\": 1,\n  \"city_id\": 1,\n  \"user_id\": 1,\n  \"street_and_house\": \"795 Watsica Loaf\",\n  \"door_number\": \"5\"\n}",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"bf8f04751bfb1e04cc81e70af728a68b\"",
+        "ETag": "W/\"ea73da18ed8c0ff5bbd76eac47997ac4\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=Zm8yRVpROWFFWEVrakFOVGM2N1JpSkJTVGlNY2JjZGZvVlJFUDhlSmNRVzZTcUxFcjAveVVIenRaMmpjUDZVNWVxWjIwbmtjQ1VNcDBaYVIrTlVndHZSU0FTbkQ0alE0bEhpclo4TWhDUWxETmdHQnhJTmpBNEE5NEgvMVZaZVlGcWZuaTU5bFA1OVBabnRlVk1KWEpNWmZNMDFGK1JCUjlSZGFMWnFNMnQ2RTc2R1IzMVh2bmoxV2JzcWovRXJMLS16UldjWWY4WG9KRHlpNWUvODhSN0NBPT0%3D--2b370c3dc64d05a98e2bc48240ef8ddc6c743af6; path=/; HttpOnly",
-        "X-Request-Id": "23ed671c-815f-43dc-989e-8be818863408",
-        "X-Runtime": "0.111550",
-        "Content-Length": "89"
+        "Set-Cookie": "_session_id=YUVETGJweFJiSGloNmFLSnJ5aXUwK2dGaHRleHRJZTFlbjc5M0tBTUhjWm9EWDYvM2lSVktiV0V2VkMvdTZOenQ1T1o2TzlyTVYrSHJlSThXajZtc3MzU2VJZVVzYkZ3MUQwem9mMHBIQ3BTdUlOV1NNU0R6U3BjdXBMcktkbzlSRkNnb3Zta2JuODhEMGQrUmY0OFg5N2dwUTYxWTVFRVBad296bWpyL1dmakQ0eTdocXhOSVNzallXMjc5ZmpDLS1sVEFMQUlNSVJFZm91UDI1U0FKbkhnPT0%3D--0193c8872cf4f40d17867ef82c03c98f9bf36197; path=/; HttpOnly",
+        "X-Request-Id": "93bf3621-b5ab-4f98-8ab1-0d797b8c1702",
+        "X-Runtime": "0.082461",
+        "Content-Length": "88"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/admin/addresses\" -d 'address[street_and_house]=3647+Kozey+Square&address[door_number]=5&address[city_id]=1&address[user_id]=1' -X POST \\\n\t-H \"Access-Token: 93tXGYhTjNwM6xywbjalzQ\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: XKOtOi28Z8qVyQTQXj5ajg\" \\\n\t-H \"Expiry: 1458749334\" \\\n\t-H \"Uid: 7christiana@framisenger.com\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/admin/addresses\" -d 'address[street_and_house]=795+Watsica+Loaf&address[door_number]=5&address[city_id]=1&address[user_id]=1' -X POST \\\n\t-H \"Access-Token: ziQxsTkEi0vSn1btKzD2iQ\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: vSTRet4Ub-aidPmgdIuPXg\" \\\n\t-H \"Expiry: 1458814153\" \\\n\t-H \"Uid: 7dina@stracke.info\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

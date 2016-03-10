@@ -49,7 +49,11 @@ Rails.application.routes.draw do
 
 	namespace :admin do #admins see in admin panel
 	#under /admin we will only have the urls that require admin account.
-		resources :categories,    only: [:create, :update, :destroy] #no need for show
+		resources :categories,    only: [:create, :update, :destroy] do #no need for show
+			member {
+				put :update_image
+			}
+		end 
 		resources :products,      only: [:create, :update, :destroy]
 		resources :orders,        only: [:index, :show, :create, :update] do
 			member {

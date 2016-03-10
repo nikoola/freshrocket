@@ -62,8 +62,25 @@ module DeviseTokenAuth
 			adapter = ActiveModel::Serializer.adapter.new serializer
 
 			render json: {
-			  data: adapter
+				data: adapter
 			}
 		end
 	end
+
+	OmniauthCallbacksController.class_eval do
+
+
+
+		def assign_provider_attrs(user, auth_hash)
+			user.assign_attributes({
+				first_name:     auth_hash['info']['name'],
+				email:          auth_hash['info']['email']
+			})
+		end
+
+
+
+	end
+
+
 end

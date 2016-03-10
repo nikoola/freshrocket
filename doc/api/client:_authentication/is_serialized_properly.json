@@ -13,37 +13,37 @@
   "requests": [
     {
       "request_method": "GET",
-      "request_path": "/auth/validate_token?access-token=-HqLEeeTPY84QyH5W9haJg&token-type=Bearer&client=nzvsWsZQdVbQGtBPCtZGEg&expiry=1458749348&uid=123lera.johnston%40oconner.net",
+      "request_path": "/auth/validate_token?access-token=bfovrJwb5xXBkTeXY1UTfA&token-type=Bearer&client=dEs6xA6tIlkB5T66nA8Zew&expiry=1458814165&uid=123keven_terry%40blick.org",
       "request_body": null,
       "request_headers": {
         "Host": "example.org",
         "Cookie": ""
       },
       "request_query_parameters": {
-        "access-token": "-HqLEeeTPY84QyH5W9haJg",
+        "access-token": "bfovrJwb5xXBkTeXY1UTfA",
         "token-type": "Bearer",
-        "client": "nzvsWsZQdVbQGtBPCtZGEg",
-        "expiry": "1458749348",
-        "uid": "123lera.johnston@oconner.net"
+        "client": "dEs6xA6tIlkB5T66nA8Zew",
+        "expiry": "1458814165",
+        "uid": "123keven_terry@blick.org"
       },
       "request_content_type": null,
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\n  \"success\": true,\n  \"data\": {\n    \"id\": 1,\n    \"first_name\": \"Martin\",\n    \"last_name\": \"Koelpin\",\n    \"email\": \"123lera.johnston@oconner.net\",\n    \"phone\": \"915314194109\",\n    \"is_verified\": false,\n    \"provider\": \"email\",\n    \"uid\": \"123lera.johnston@oconner.net\",\n    \"created_at\": \"2016-03-09T16:09:08.169Z\",\n    \"abilities\": {\n      \"orders\": 0,\n      \"products\": 0,\n      \"users\": 0,\n      \"categories\": 0,\n      \"coupons\": 0,\n      \"settings\": 0,\n      \"cities\": 0,\n      \"delivery_boy\": 0\n    }\n  }\n}",
+      "response_body": "{\n  \"success\": true,\n  \"data\": {\n    \"id\": 1,\n    \"first_name\": \"Shanon\",\n    \"last_name\": \"Pfeffer\",\n    \"email\": \"123keven_terry@blick.org\",\n    \"phone\": \"918878442448\",\n    \"is_verified\": false,\n    \"provider\": \"email\",\n    \"uid\": \"123keven_terry@blick.org\",\n    \"created_at\": \"2016-03-10T10:09:25.340Z\",\n    \"abilities\": {\n      \"orders\": 0,\n      \"products\": 0,\n      \"users\": 0,\n      \"categories\": 0,\n      \"coupons\": 0,\n      \"settings\": 0,\n      \"cities\": 0,\n      \"delivery_boy\": 0\n    }\n  }\n}",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"38a9a476ef0e82ef6796892bf3ca2db8\"",
+        "ETag": "W/\"8d1c1c3ff4e1ae6fabd3cae1e98115f5\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=anl3UmgvNEZhR1RFRlBCaHBYU0ZBNGxDNHM0aWJuaHZ1NEo3bTBISDRYWENydUluZURSUFZ3RkZXdC8rVS8rVzVROEVFVjgzRjhuNFlnMU9Wd0djQkNCU0hkMVhrYzFJMlpmZ1ZXUUE4RGg2V25FK3pCM2NtWkVoKzYzOUt2cUtzK3pxRVd6aWZvaFVFWHRYREZyRGxRcW16L1hSdXU5a2tFcWRsa0s4UWM5Q0lXM0hMdktXOVBOd0ZtczR6cEFKLS1kQXFLZ1d5cVJIcVF4QXFQWVNSZnZBPT0%3D--4860e94f61f2c52c11517fe1bb3bf6bc7b2ee1a1; path=/; HttpOnly",
-        "X-Request-Id": "6d9f35ec-3e9b-4e37-a0a8-d68128d9ec3e",
-        "X-Runtime": "0.098360",
-        "Content-Length": "370"
+        "Set-Cookie": "_session_id=RW94MEFsM1IwNHF3K0lIV2JkeitFMkZnbml6UzFBTmZLQkhJdlJlWG9ONUNEcTB5ZlJ5bDZYQ1N3eWhyZkdwTWZNVlhQUFVOS0UvSm5XN00xazA3Wkd4TUs1RSs1ZTNabDJsLy95dFh0NHYvNFVVbVkyVm1vbWhDVThHOVFTb1lzU3JZQWdDaW5CUWRUa0d0cno4TUZXM0k1TVhJR3dXakFQMEJNOVF2a1ZxcFdxRzNqTnprckNJRlB6V2IxQ1NVLS1uRGxZaEY0blpnK3BvUGtyanFwMGhnPT0%3D--0b86e0864849954716e6396a105696c2e9293baa; path=/; HttpOnly",
+        "X-Request-Id": "d25a5800-914c-494b-ab66-3c076a984df2",
+        "X-Runtime": "0.079741",
+        "Content-Length": "362"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/auth/validate_token?access-token=-HqLEeeTPY84QyH5W9haJg&token-type=Bearer&client=nzvsWsZQdVbQGtBPCtZGEg&expiry=1458749348&uid=123lera.johnston%40oconner.net\" -X GET \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/auth/validate_token?access-token=bfovrJwb5xXBkTeXY1UTfA&token-type=Bearer&client=dEs6xA6tIlkB5T66nA8Zew&expiry=1458814165&uid=123keven_terry%40blick.org\" -X GET \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

@@ -19,11 +19,11 @@
       "request_path": "/admin/orders/1?include[]=address",
       "request_body": null,
       "request_headers": {
-        "Access-Token": "xrcCgZR75zQmnPIARW7plg",
+        "Access-Token": "nrgHvmVOa3KoCONtgBE4JQ",
         "Token-Type": "Bearer",
-        "Client": "cNhb0rWPao-uKgFDJCp0QA",
-        "Expiry": "1458749339",
-        "Uid": "46hattie_bernier@gleason.org",
+        "Client": "3_BzwCUVs7dTiRAnoDwJZA",
+        "Expiry": "1458814157",
+        "Uid": "46theron.barrows@marquardtlesch.com",
         "Host": "example.org",
         "Cookie": ""
       },
@@ -35,21 +35,21 @@
       "request_content_type": null,
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\n  \"id\": 1,\n  \"user_id\": 1,\n  \"status\": \"unconfirmed\",\n  \"created_at\": \"2016-03-09T16:08:59.601Z\",\n  \"confirmed_at\": null,\n  \"approved_at\": null,\n  \"dispacthed_at\": null,\n  \"delivered_at\": null,\n  \"canceled_at\": null,\n  \"pure_product_price\": \"27.0\",\n  \"tax\": \"1.35\",\n  \"delivery_charge\": \"200.0\",\n  \"total_price\": \"228.35\",\n  \"delivery_boy_id\": null,\n  \"wanted_time\": null,\n  \"wanted_date\": null,\n  \"payment_type\": \"cash\",\n  \"is_paid\": false,\n  \"feedback\": null,\n  \"comment\": null,\n  \"coupon_code\": null,\n  \"source_type\": null,\n  \"admin_comment\": null,\n  \"address\": {\n    \"id\": 1,\n    \"city_id\": 1,\n    \"user_id\": 2,\n    \"street_and_house\": \"1594 Marquise Squares\",\n    \"door_number\": \"5\"\n  }\n}",
+      "response_body": "{\n  \"id\": 1,\n  \"user_id\": 1,\n  \"status\": \"unconfirmed\",\n  \"created_at\": \"2016-03-10T10:09:17.366Z\",\n  \"confirmed_at\": null,\n  \"approved_at\": null,\n  \"dispacthed_at\": null,\n  \"delivered_at\": null,\n  \"canceled_at\": null,\n  \"pure_product_price\": \"27.0\",\n  \"tax\": \"1.35\",\n  \"delivery_charge\": \"200.0\",\n  \"total_price\": \"228.35\",\n  \"coupon_code\": null,\n  \"delivery_boy_id\": null,\n  \"delivery_boy_phone\": null,\n  \"wanted_time\": null,\n  \"wanted_date\": null,\n  \"payment_type\": \"cash\",\n  \"is_paid\": false,\n  \"feedback\": null,\n  \"comment\": null,\n  \"source_type\": null,\n  \"admin_comment\": null,\n  \"address\": {\n    \"id\": 1,\n    \"city_id\": 1,\n    \"user_id\": 2,\n    \"street_and_house\": \"15889 Wuckert Islands\",\n    \"door_number\": \"5\"\n  }\n}",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"5fc0c4fea629f35beaef349b0617a8f9\"",
+        "ETag": "W/\"77bd7ff6e8e7ed9e63fce563288a2c45\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=SnNzL0JvOXh4OXR1MVppQWhUOTlPWC9pcUtobmNGbHE3VzYzQUpnUUdXR3haSkw2TmF1cnMxRUhqY2o1L0EvWXRlSE5JSFhSU3BOVjZVM0Jrb3JPTmVvdXR4WlZ1U3EwL2I0YjdQRHlPQzZuSk8wbE1LSldWQUdPbitkcmY5VC8vQmtKSnhsbWVndmNDSmhFeWN2eVdFR3lEMUFDZlc3eSsvN0dud01JR1cvSlNFcHkzK0p3aVZYaVRkMUJzaDEvLS1RdEE3c0p2Zk5LZzdGUitPUmtlQWl3PT0%3D--28846f9feef8f5a1045409308e409a5b0e4ce6cd; path=/; HttpOnly",
-        "X-Request-Id": "26f10c6e-5436-4676-a0d2-b5f901f70fd1",
-        "X-Runtime": "0.081164",
-        "Content-Length": "565"
+        "Set-Cookie": "_session_id=RjVuV2dRZXoxbnpQcjBZMHZkb2tPdDl2QlozZXJlMkViRW1LNjJ5bHZpWmhxVDFwYWVNb2VqL2loY0hvU093T2U3ZWVUNDhVRzNiNWVrSURRRHVteHp0a040U2lYZmc3RGRhdU9FSHRRdENrdVRnaU5qMEpmYzJQNldXWWtjRm9pNGo4N2N2WTIzMTMxMCtNa2FIQTFUOTRCWXB0cmFadWYwUGxMUzlUTnBGNmpIV2hqaXF0TFA2eHJ6NVFzWUFMLS1KT1Nyb3AySlNQa2NGWTZLMUZjcVlnPT0%3D--ae876e75eb4766660e02d7df573077d66f7c1998; path=/; HttpOnly",
+        "X-Request-Id": "255ff80f-7087-4071-a5f2-b66d70d16d51",
+        "X-Runtime": "0.081428",
+        "Content-Length": "591"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/admin/orders/1?include[]=address\" -X GET \\\n\t-H \"Access-Token: xrcCgZR75zQmnPIARW7plg\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: cNhb0rWPao-uKgFDJCp0QA\" \\\n\t-H \"Expiry: 1458749339\" \\\n\t-H \"Uid: 46hattie_bernier@gleason.org\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/admin/orders/1?include[]=address\" -X GET \\\n\t-H \"Access-Token: nrgHvmVOa3KoCONtgBE4JQ\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: 3_BzwCUVs7dTiRAnoDwJZA\" \\\n\t-H \"Expiry: 1458814157\" \\\n\t-H \"Uid: 46theron.barrows@marquardtlesch.com\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

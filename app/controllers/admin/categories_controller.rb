@@ -33,6 +33,11 @@ module Admin
 		end
 
 
+		def update_image
+			
+		end
+
+
 		private
 
 			def set_category

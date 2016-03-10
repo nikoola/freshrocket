@@ -16,11 +16,11 @@
       "request_path": "/auth/sign_out",
       "request_body": null,
       "request_headers": {
-        "Access-Token": "6pHDsY16yQv1XHHqfVwv6g",
+        "Access-Token": "JCTW975ApVvNnLaqA0Gqrw",
         "Token-Type": "Bearer",
-        "Client": "KwDJlSnevL7fkfz01M1wlQ",
-        "Expiry": "1458749348",
-        "Uid": "122abigayle_okuneva@baumbach.biz",
+        "Client": "j3Qbftnet0V1nUcmVahc8Q",
+        "Expiry": "1458814165",
+        "Uid": "122darrin@stoltenbergtillman.net",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -38,13 +38,13 @@
         "Content-Type": "application/json; charset=utf-8",
         "ETag": "W/\"7363e85fe9edee6f053a4b319588c086\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=VTJCbmEvaFVwemw1cFlKcHZhV3plUTRqWnk5WHZiYlJJdG1kOTJUSXZTbC9BTFRNYklZc0tiTUJuRE5qclAwYTN4OEZodFlqdjQ4TnlTMUhEWjRRb0E9PS0tdUpReEVvSGpQOXdiemU4MWtLRnA1Zz09--037c50db8850ca0414eb6f87451fbcc2503e84ce; path=/; HttpOnly",
-        "X-Request-Id": "f64c7458-5deb-4d2b-94df-00e08f331335",
-        "X-Runtime": "0.080583",
+        "Set-Cookie": "_session_id=S0VaVnozbWJ6M0NnM3U0TDdlTEJ6RkY2dC9aT1I0WFNDRmtRS2tpTUp0QW5oKzYwcXJET251aVNuRzhPcHdOaDZoR1BkZ29ZODdDQzhGVmdmRnBYeHc9PS0tN2V4VDBvdHcraGNmQmh0Vng4Y2h1QT09--544a74802436a15919f0f30a1aedb5eb3a85b25c; path=/; HttpOnly",
+        "X-Request-Id": "504b501e-deac-4441-b0f5-5b5c878e06cc",
+        "X-Runtime": "0.073893",
         "Content-Length": "16"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/auth/sign_out\" -d '' -X DELETE \\\n\t-H \"Access-Token: 6pHDsY16yQv1XHHqfVwv6g\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: KwDJlSnevL7fkfz01M1wlQ\" \\\n\t-H \"Expiry: 1458749348\" \\\n\t-H \"Uid: 122abigayle_okuneva@baumbach.biz\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/auth/sign_out\" -d '' -X DELETE \\\n\t-H \"Access-Token: JCTW975ApVvNnLaqA0Gqrw\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: j3Qbftnet0V1nUcmVahc8Q\" \\\n\t-H \"Expiry: 1458814165\" \\\n\t-H \"Uid: 122darrin@stoltenbergtillman.net\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

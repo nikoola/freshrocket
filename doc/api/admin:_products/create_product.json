@@ -54,11 +54,11 @@
       "request_path": "/admin/products",
       "request_body": "product[title]=fish&product[price]=3.0&product[inventory_count]=2&product[city_id]=1&product[category_ids][]=1",
       "request_headers": {
-        "Access-Token": "876s9n4JotQYsmflboYrTA",
+        "Access-Token": "-bOGJC6Y1mU26L3vjpBsOA",
         "Token-Type": "Bearer",
-        "Client": "sE4dk8aFT-MidRM5UE05Ww",
-        "Expiry": "1458749341",
-        "Uid": "67modesto.schiller@schuppe.biz",
+        "Client": "R22uHmGWO17TdIjSt__e7A",
+        "Expiry": "1458814159",
+        "Uid": "67robyn@heathcote.com",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -68,22 +68,22 @@
       "request_content_type": "application/x-www-form-urlencoded",
       "response_status": 201,
       "response_status_text": "Created",
-      "response_body": "{\n  \"id\": 1,\n  \"city_id\": 1,\n  \"title\": \"fish\",\n  \"price\": \"3.0\",\n  \"description\": null,\n  \"created_at\": \"2016-03-09T16:09:01.651Z\",\n  \"updated_at\": \"2016-03-09T16:09:01.651Z\",\n  \"inventory_count\": 2,\n  \"image_url\": \"uploads/product/image/default.png\"\n}",
+      "response_body": "{\n  \"id\": 1,\n  \"city_id\": 1,\n  \"title\": \"fish\",\n  \"price\": \"3.0\",\n  \"description\": null,\n  \"created_at\": \"2016-03-10T10:09:19.131Z\",\n  \"updated_at\": \"2016-03-10T10:09:19.131Z\",\n  \"inventory_count\": 2,\n  \"image_url\": \"uploads/product/image/default.png\"\n}",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
         "Location": "http://example.org/products/1",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"2add4ebf9ef4172ecf8dafe48d7ea418\"",
+        "ETag": "W/\"a31bd18be2e19d7ea4285da85c3cd409\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=ZEZlWGZOTmlxcFNLM3A5ZExZSys5bWJuZjJHZ3lLcUNWUEdWYkswU0FHWjV5MDFtRnlyd24yVVBHKzdxWGRUNVl5eWhqZzFIaTJuSVdVUjN6ZEM5bk9JWDZHNHQ0dUcwa0NqVmV0K3FBL2dWb0RsbXpQeUd0ZTBZZGZCaG9BTXhwa1dBclQyTndtZVE3MDRlQVp6NTcyZDQwVnZZYkc1aGRnUHFsbmVwaXBVYXp3V0kyQ05ubzJqeURWejZ6MjZtLS0yMUM1bmpKMjloK2tiVEZwQUZ6RlFnPT0%3D--894a4e0bd0b6945e447f894eccc0a46e7fd3f708; path=/; HttpOnly",
-        "X-Request-Id": "3de5829f-f7f0-4f7b-988b-48142d61c41c",
-        "X-Runtime": "0.094390",
+        "Set-Cookie": "_session_id=WnBKOHFINWRnQ3k0d1JEQUtnekVNSVVQenVhV2xIck55QkhRVHFhaElVaE5nK1g5QXpCUnNZRkJkNTZmSnpIbEt4TG54K2hWL0dOODltUVowRHZYNlFSb0w1aWdtSGVsNnBrdldseVVnL3pjU0xzTEhPOEV4WHRwbVV6ZzUwUXpLdnhWRENPS01tRU00andBY0VCa0NCbVFRQ3JLNjR3RGxUTTkvVXZ5M1lxRjVYdkFmNVlZcFIxYkptaG8vMS80LS1mcHBSaFRMa09yclJJRTlZZ21Lb0FBPT0%3D--50e2e915d6607aa54a78f458467cb5cc1a7ca6a2; path=/; HttpOnly",
+        "X-Request-Id": "bdc60483-12a9-4adc-9cf0-4c3f348f04c6",
+        "X-Runtime": "0.093770",
         "Content-Length": "216"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/admin/products\" -d 'product[title]=fish&product[price]=3.0&product[inventory_count]=2&product[city_id]=1&product[category_ids][]=1' -X POST \\\n\t-H \"Access-Token: 876s9n4JotQYsmflboYrTA\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: sE4dk8aFT-MidRM5UE05Ww\" \\\n\t-H \"Expiry: 1458749341\" \\\n\t-H \"Uid: 67modesto.schiller@schuppe.biz\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/admin/products\" -d 'product[title]=fish&product[price]=3.0&product[inventory_count]=2&product[city_id]=1&product[category_ids][]=1' -X POST \\\n\t-H \"Access-Token: -bOGJC6Y1mU26L3vjpBsOA\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: R22uHmGWO17TdIjSt__e7A\" \\\n\t-H \"Expiry: 1458814159\" \\\n\t-H \"Uid: 67robyn@heathcote.com\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

@@ -32,8 +32,11 @@ resource 'client: orders', type: :request do
 	end
 
 	get '/client/orders/:id' do
-		parameter :include_
+		parameter :include_, 'line_items/address'
 		example "get current user's order" do
+			db = FactoryGirl.create :delivery_boy
+			user_order.update! delivery_boy_id: db.id
+
 			do_request id: user_order.id
 
 			expect(status).to eq(200)
@@ -48,6 +51,7 @@ resource 'client: orders', type: :request do
 				:delivery_charge,
 				:total_price
 			expect(json.keys).not_to include :admin_comment, :line_items, :address
+			expect(json[:delivery_boy_phone]).to eq(db.user.phone)
 		end
 	end
 

@@ -16,11 +16,11 @@
       "request_path": "/admin/addresses/1",
       "request_body": null,
       "request_headers": {
-        "Access-Token": "JvV6-PMBrMZtFM7TNif2zg",
+        "Access-Token": "bYKpwMzYGWq6qpjF1G8lfw",
         "Token-Type": "Bearer",
-        "Client": "1vFNryAmwPc4b4cmt1qhww",
-        "Expiry": "1458749335",
-        "Uid": "9lue_howe@metzgoyette.biz",
+        "Client": "xdubhqKgTm48bijY287B8A",
+        "Expiry": "1458814153",
+        "Uid": "9elouise@funk.com",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -37,13 +37,13 @@
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "text/html",
         "Cache-Control": "no-cache",
-        "Set-Cookie": "_session_id=NnR4d2Fwc1hrUmNmVkRRazdwWUpxMnpLcFNOZGdrbDhRR2s0cVUrdDFLNE1kRXRVNzZnd2cyaVViZGI5d0FheS8zbHgxRXZESFIwUkJGSjlRNUJNZElranI3eFE2UE13UUpRUlhYdG9zZ1VLY0xNV0ZOazFROGp3R0VPb05KN3Y5b1R0T2lHWVhTK2UvRzhTVmpHZkl0MDZZcDFQVDlCaUpUS1laODNGd3NLT3RIOWVlSXhJTTduREVkK3l0ZC9qLS0zbzJLY0tPV3pCaUtTZlhWaXlKS0dnPT0%3D--980223dd1d9f51af2e21cf3545b0faf709b42001; path=/; HttpOnly",
-        "X-Request-Id": "cdb5cdf5-cce4-4c93-b14a-87fd9a48e3d8",
-        "X-Runtime": "0.106159",
+        "Set-Cookie": "_session_id=M2U0b1ZTWDk4dmYzRjVPaCtVeDVINFJpVVUwS1FiNk5rd2ljVmdsV3JBeGplSGRJM2RDMFplRGpJcjh0Q3FLNkJ3bGpuUHg5VTNiQVZLUy9USUJCQ3EySGM3MTVKbW1ldVR3RlZBK2w0R0pvNVRsNE5EZ1hyUkpyRUF3S0IzYXFpTmNBTDZmdzc4dHR3ekl6V2tUQ2o4RDRLRmhrdW9URkVXOUlhd1hqSUZTd3pTSndPK3dKc1FpMmYrN2luWnprLS1idGQ2RnNSdEsvYmo1Y0ZkZThkSEZnPT0%3D--fc2e152f2a118260f080536344f2ecd28139b0a7; path=/; HttpOnly",
+        "X-Request-Id": "56b0826b-7231-4740-a556-02decff59060",
+        "X-Runtime": "0.082061",
         "Content-Length": "0"
       },
       "response_content_type": "text/html",
-      "curl": "curl \"http://localhost:3000/admin/addresses/1\" -d '' -X DELETE \\\n\t-H \"Access-Token: JvV6-PMBrMZtFM7TNif2zg\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: 1vFNryAmwPc4b4cmt1qhww\" \\\n\t-H \"Expiry: 1458749335\" \\\n\t-H \"Uid: 9lue_howe@metzgoyette.biz\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/admin/addresses/1\" -d '' -X DELETE \\\n\t-H \"Access-Token: bYKpwMzYGWq6qpjF1G8lfw\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: xdubhqKgTm48bijY287B8A\" \\\n\t-H \"Expiry: 1458814153\" \\\n\t-H \"Uid: 9elouise@funk.com\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

@@ -35,17 +35,17 @@
       "request_content_type": null,
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "[\n  {\n    \"id\": 1,\n    \"name\": \"Torphyburgh_95\",\n    \"active\": true,\n    \"areas\": [\n      {\n        \"id\": 1,\n        \"name\": \"Powlowskiville_area_2\"\n      }\n    ]\n  },\n  {\n    \"id\": 2,\n    \"name\": \"North Audrey_96\",\n    \"active\": true,\n    \"areas\": [\n\n    ]\n  },\n  {\n    \"id\": 3,\n    \"name\": \"Welchbury_97\",\n    \"active\": true,\n    \"areas\": [\n\n    ]\n  },\n  {\n    \"id\": 6,\n    \"name\": \"Emmanuelbury_100\",\n    \"active\": true,\n    \"areas\": [\n\n    ]\n  }\n]",
+      "response_body": "[\n  {\n    \"id\": 1,\n    \"name\": \"Hortensefort_95\",\n    \"active\": true,\n    \"areas\": [\n      {\n        \"id\": 1,\n        \"name\": \"East Bertrand_area_2\"\n      }\n    ]\n  },\n  {\n    \"id\": 2,\n    \"name\": \"West Vladimirmouth_96\",\n    \"active\": true,\n    \"areas\": [\n\n    ]\n  },\n  {\n    \"id\": 3,\n    \"name\": \"East Lillie_97\",\n    \"active\": true,\n    \"areas\": [\n\n    ]\n  },\n  {\n    \"id\": 6,\n    \"name\": \"Lamarmouth_100\",\n    \"active\": true,\n    \"areas\": [\n\n    ]\n  }\n]",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"e4cffb745039594ea6eb849390b03bb1\"",
+        "ETag": "W/\"161fe90b800d220f8f1949949dcf424f\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "X-Request-Id": "6b07b0b3-b113-4d67-bddf-7a384764a2cd",
-        "X-Runtime": "0.012305",
-        "Content-Length": "273"
+        "X-Request-Id": "3bbfc870-45cb-469d-9229-def4792a4280",
+        "X-Runtime": "0.012140",
+        "Content-Length": "279"
       },
       "response_content_type": "application/json; charset=utf-8",
       "curl": "curl \"http://localhost:3000/cities?include[]=areas&active=1\" -X GET \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""

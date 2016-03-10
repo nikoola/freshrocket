@@ -27,11 +27,11 @@
       "request_path": "/admin/delivery_boys?status=fired",
       "request_body": null,
       "request_headers": {
-        "Access-Token": "I9igN0dBnklEMD5-ABtTXA",
+        "Access-Token": "pcndCaWwb7MMq5a1j7hC7w",
         "Token-Type": "Bearer",
-        "Client": "DOz50d0U2HtxOu7fxNwi4w",
-        "Expiry": "1458749338",
-        "Uid": "25craig@stamm.net",
+        "Client": "NHhDUdDoWaLc_9T9MYYmiA",
+        "Expiry": "1458814156",
+        "Uid": "25raegan.bernhard@ullrich.info",
         "Host": "example.org",
         "Cookie": ""
       },
@@ -49,13 +49,13 @@
         "Content-Type": "application/json; charset=utf-8",
         "ETag": "W/\"e1107ced0523b4f0db47dca6182afeec\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=bnBlcFVOdGpkMFFxZ21JVmZTWFJkd0tLZVF0bnQvSk9hVlFNdXNTVDZmZGxFS1ZOMWpVTm5ud0VEWENKbC9XTXpYOHRWLzhaTlJUYTN6WkhjZDQrVGJjZXlLZXhpUWovREVyaURoL3FnYnZSbG1GRFRJTVp3MUhzcWN0ekNXSTUzb3ZOR2Y0bFhFb0VaYWZacjlDZTFlQ0M2eGdvMUF0c1JzTEZrbVd3Wk5wMG9Vc0xaWUMyaXROUnA5TERSaUhQLS1tQkRka3Z6eFJHUEd2RWwxeWg2N1RRPT0%3D--7fa9945ee7931239d701e939f56a3c1e0fa79f97; path=/; HttpOnly",
-        "X-Request-Id": "83afe714-3206-4815-9790-16c9f424a074",
-        "X-Runtime": "0.086773",
+        "Set-Cookie": "_session_id=c3FyWUM5Nk9ia1g1Ynk1RDVFRXd5cDhpVFFVR1REQzJ0VDJwSlZ5TnlUWFdxNHRLanhXcGxzWDVwUFBGZTcwVzZmWWxmL2RhelcrS1ZibjRCL1B3dlpBZXQxK0NJS3pTdGx4MUlJK0NuTlFqM25jL2xCQlBERXJZUlBaWlNRSHphdEgxa204M0tUaDcxMHpZTTU3dTZob0hiY2xSbjZtSFdwNzhBWk41c0hFcm1Gem1NSmppUEVwY3E2bkhMVC9iLS1GRnZvOHp5Q29aRWR5VEg3VVNsdmlnPT0%3D--58426f2715e45b81ea174bc5f2ea848016f70b3e; path=/; HttpOnly",
+        "X-Request-Id": "7a540dfb-a260-45df-917b-b6488ad58a2c",
+        "X-Runtime": "0.079133",
         "Content-Length": "62"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/admin/delivery_boys?status=fired\" -X GET \\\n\t-H \"Access-Token: I9igN0dBnklEMD5-ABtTXA\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: DOz50d0U2HtxOu7fxNwi4w\" \\\n\t-H \"Expiry: 1458749338\" \\\n\t-H \"Uid: 25craig@stamm.net\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/admin/delivery_boys?status=fired\" -X GET \\\n\t-H \"Access-Token: pcndCaWwb7MMq5a1j7hC7w\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: NHhDUdDoWaLc_9T9MYYmiA\" \\\n\t-H \"Expiry: 1458814156\" \\\n\t-H \"Uid: 25raegan.bernhard@ullrich.info\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
     }
   ]
 }
