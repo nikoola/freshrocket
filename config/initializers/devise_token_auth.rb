@@ -75,7 +75,8 @@ module DeviseTokenAuth
 			user.assign_attributes({
 				first_name:     auth_hash['info']['first_name'],
 				last_name:      auth_hash['info']['last_name'],
-				email:          auth_hash['info']['email']
+				email:          auth_hash['info']['email'],
+				phone:          '910000000000'
 			})
 		end
 

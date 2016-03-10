@@ -17,8 +17,8 @@ class User < ActiveRecord::Base
 		numericality: { only_integer: true },
 		length:       { is: 12 },
 		presence:     true,
-		uniqueness:   true,
-		unless:       -> { self.provider == 'facebook' and self.new_record? }
+		uniqueness:   true
+		# unless:       -> { self.provider == 'facebook' }
 
 
 	before_update :reset_verification, if: :phone_changed? #will run on create too because of autosave (http://stackoverflow.com/a/28034043/3192470)
