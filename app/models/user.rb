@@ -11,14 +11,14 @@ class User < ActiveRecord::Base
 	has_many :orders    #no dependent: :destroy since we can't delete users
 	has_many :addresses
 
-	validates_presence_of   :first_name, :last_name
+	validates_presence_of :first_name, :last_name
 
-	validates               :phone, 
+	validates             :phone, 
 		numericality: { only_integer: true },
 		length:       { is: 12 },
 		presence:     true,
 		uniqueness:   true,
-		unless:       -> { self.provider == 'facebook' }
+		unless:       -> { self.provider == 'facebook' and self.new_record? }
 
 
 	before_update :reset_verification, if: :phone_changed? #will run on create too because of autosave (http://stackoverflow.com/a/28034043/3192470)
@@ -36,7 +36,7 @@ class User < ActiveRecord::Base
 	include Filterable
 	scope :email_includes, -> (text)    { where("email like ?", "%#{text}%") }
 	scope :phone_includes, -> (text)    { where("phone like ?", "%#{text}%") }
-	scope :has_ability,   -> (ability) { tagged_with(ability) }
+	scope :has_ability,    -> (ability) { tagged_with(ability) }
 
 
 
