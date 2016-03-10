@@ -11,12 +11,14 @@ class User < ActiveRecord::Base
 	has_many :orders    #no dependent: :destroy since we can't delete users
 	has_many :addresses
 
-	validates_presence_of   :phone, :first_name, :last_name
-	validates_uniqueness_of :phone
+	validates_presence_of   :first_name, :last_name
 
 	validates               :phone, 
 		numericality: { only_integer: true },
-		length:       { is: 12 }
+		length:       { is: 12 },
+		presence:     true,
+		uniqueness:   true,
+		unless:       -> { self.provider == 'facebook' }
 
 
 	before_update :reset_verification, if: :phone_changed? #will run on create too because of autosave (http://stackoverflow.com/a/28034043/3192470)
