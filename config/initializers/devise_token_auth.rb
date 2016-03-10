@@ -74,9 +74,16 @@ module DeviseTokenAuth
 		def assign_provider_attrs(user, auth_hash)
 			p auth_hash
 			puts "___________________________________________________________________"
+			# user.assign_attributes({
+			# 	first_name:     auth_hash['info']['first_name'],
+			# 	last_name:      auth_hash['info']['last_name'],
+			# 	email:          auth_hash['info']['email'],
+			# 	phone:          '914444555577',
+			# 	is_verified:    true
+			# })
 			user.assign_attributes({
-				first_name:     auth_hash['info']['first_name'],
-				last_name:      auth_hash['info']['last_name'],
+				first_name:     auth_hash['info']['name'],
+				last_name:      auth_hash['info']['name'],
 				email:          auth_hash['info']['email'],
 				phone:          '914444555577',
 				is_verified:    true
