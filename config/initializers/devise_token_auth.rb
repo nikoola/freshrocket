@@ -74,7 +74,7 @@ module DeviseTokenAuth
 		def assign_provider_attrs(user, auth_hash)
 			p auth_hash
 			puts "___________________________________________________________________"
-			p auth.extra.raw_info
+			p auth_hash.extra.raw_info
 			user.assign_attributes({
 				first_name:     auth_hash['info']['first_name'],
 				last_name:      auth_hash['info']['last_name'],
