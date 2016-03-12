@@ -89,6 +89,23 @@ gem 'virtus' #for FormModel
 # if you require 'sinatra' you get the DSL extended to Object
 gem 'sinatra', :require => nil
 
+
+
+
+
+
+
+
+
+
+
+gem "fog", require: 'fog/aws'
+
+
+
+
+
+
 ruby '2.2.1'
 
 

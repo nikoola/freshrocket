@@ -67,17 +67,16 @@ resource 'admin: products', type: :request do
 		end
 
 		it 'creates product with image', document: false do
-			binding.pry
-			# image = "#{Rails.root}/spec/files/hi.jpg"
-			# file = Rack::Test::UploadedFile.new image, "image/jpeg"
-			# valid_params_with_image = valid_params.merge({image: file})
+			image = "#{Rails.root}/spec/files/hi.jpg"
+			file = Rack::Test::UploadedFile.new image, "image/jpeg"
+			valid_params_with_image = valid_params.merge({image: file})
 
-			# post admin_products_path, { product: valid_params_with_image }, auth_headers
+			post admin_products_path, { product: valid_params_with_image }, auth_headers
 
-			# product = Product.last
-			# expect(product.image.url).to eq("/uploads/product/image/#{product.id}/hi.jpg")
+			product = Product.last
+			expect(product.image.url).to eq("https://freshrocket.s3.amazonaws.com/uploads/product/image/#{product.id}/hi.jpg")
 
-			# FileUtils.rm_rf(Rails.root.to_s + '/public/uploads/product/image/#{product.id}')
+			product.remove_image!
 		end
 	end
 
