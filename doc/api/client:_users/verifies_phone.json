@@ -19,11 +19,11 @@
       "request_path": "/client/verify",
       "request_body": "verification_code",
       "request_headers": {
-        "Access-Token": "cOd9RDnxtr8TisNA5OVwjg",
+        "Access-Token": "CUhvt_5M9gvPsB0vZwfNaw",
         "Token-Type": "Bearer",
-        "Client": "2PBY1ZW1v5DpsAm4JzoSNw",
-        "Expiry": "1458814173",
-        "Uid": "168claudia.dooley@hane.name",
+        "Client": "hoAhSs21CyJ7iTCaS-5gdg",
+        "Expiry": "1458966353",
+        "Uid": "168tyler@strackebreitenberg.name",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -40,13 +40,13 @@
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "text/html",
         "Cache-Control": "no-cache",
-        "Set-Cookie": "_session_id=bHc2RXF3ZEtUeERPeUJvZGo5Nys4TGpueW5DbW9ScGhaNGdVK1Mya2xqUG4vcEJZME9MWEYyWnNJVWZIbTlUSHZvM25OcWl5VGhYTHJSck5PTFhZeU91V0ZBTTY5UE5taFRub09vWjJDMUdpdkhxWCtxYUZQSzhtdThTQ0RkZEdGN05lM3VUZXFJN0tRbU0yTXAvaFNIZVRadVdSenpaQlFhRTVLeGFYc296eUNuVU5WTUM3bFQ0Nm9SRTFxQjUyLS1weDYxVm9lL1VQZ0lrdzRKZHMyczdnPT0%3D--5fafed3cf914b45c06f4ee0b7b54ce7e7243e0b1; path=/; HttpOnly",
-        "X-Request-Id": "f9a1e164-465b-4ee8-af53-04682b00ccd3",
-        "X-Runtime": "0.079681",
+        "Set-Cookie": "_session_id=dGc0UUZxSUJMNFRFMG9odjkxMnkrVEZzRVo0cGtsNWR6VGZENVY3c2VteXloSXZjUW9EejhTaHhMbzNFYzdqRy9sUFZEd0NMTW9UOG5qaFEzUGtaZU1VSURvWXpKY1YwWmZwZlRjbHlyVnhrTGJ5ZkVNN0dTaW5ZYWJlbmxyT3ZGdm1XZmt5UWxCMTBGVm5LSDBTMEsycUh4SE0vU2l2SkhOYVJnaTVPd2RDSDNUSHdSaXR3L2J0b2cyTzRGVFRGLS01ODBHUDdKQVVrbEFlYXlpOEppd3FnPT0%3D--b610942350b6459995e290b9338349d6a5a78d2e; path=/; HttpOnly",
+        "X-Request-Id": "c0cc7176-bc52-4a00-b445-66485ef66fe9",
+        "X-Runtime": "0.078052",
         "Content-Length": "0"
       },
       "response_content_type": "text/html",
-      "curl": "curl \"http://localhost:3000/client/verify\" -d 'verification_code' -X PUT \\\n\t-H \"Access-Token: cOd9RDnxtr8TisNA5OVwjg\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: 2PBY1ZW1v5DpsAm4JzoSNw\" \\\n\t-H \"Expiry: 1458814173\" \\\n\t-H \"Uid: 168claudia.dooley@hane.name\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/client/verify\" -d 'verification_code' -X PUT \\\n\t-H \"Access-Token: CUhvt_5M9gvPsB0vZwfNaw\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: hoAhSs21CyJ7iTCaS-5gdg\" \\\n\t-H \"Expiry: 1458966353\" \\\n\t-H \"Uid: 168tyler@strackebreitenberg.name\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

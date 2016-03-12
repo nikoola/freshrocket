@@ -19,11 +19,11 @@
       "request_path": "/client/payments/new?order_id=3",
       "request_body": null,
       "request_headers": {
-        "Access-Token": "wdFZR76rCxPWjHuCxofCaw",
+        "Access-Token": "HNf__xsjT8ktTiExNGnoxw",
         "Token-Type": "Bearer",
-        "Client": "LmNLtITRQzZ6gFTGU7gyiA",
-        "Expiry": "1458814172",
-        "Uid": "158kamren@schuster.net",
+        "Client": "PkNAeZsUg2-6xNp7A5Y7VQ",
+        "Expiry": "1458966351",
+        "Uid": "158dortha@corkery.info",
         "Host": "example.org",
         "Cookie": ""
       },
@@ -33,21 +33,21 @@
       "request_content_type": null,
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\n  \"citrus\": {\n    \"action\": \"https://sandbox.citruspay.com/kouqfeaav0\",\n    \"method\": \"POST\",\n    \"fields\": {\n      \"merchantTxnId\": \"3\",\n      \"merchantAccessKey\": \"T82TNCTLNBZ282BLHAGD\",\n      \"orderAmount\": \"228.35\",\n      \"currency\": \"USD\",\n      \"secret_key\": \"1690a1e29ecec2a5f852b678dd5362616c79916a\",\n      \"pmt_url\": \"kouqfeaav0\",\n      \"returnUrl\": \"http://localhost:3000/client/payments/citrus\",\n      \"paymentMode\": \"NET_BANKING\",\n      \"reqtime\": \"1457604572000\",\n      \"secSignature\": \"16055d2470aa3b2001007b0bd8086106d677f8b2\"\n    }\n  }\n}",
+      "response_body": "{\n  \"citrus\": {\n    \"action\": \"https://sandbox.citruspay.com/kouqfeaav0\",\n    \"method\": \"POST\",\n    \"fields\": {\n      \"merchantTxnId\": \"3\",\n      \"merchantAccessKey\": \"T82TNCTLNBZ282BLHAGD\",\n      \"orderAmount\": \"227.0\",\n      \"currency\": \"USD\",\n      \"secret_key\": \"1690a1e29ecec2a5f852b678dd5362616c79916a\",\n      \"pmt_url\": \"kouqfeaav0\",\n      \"returnUrl\": \"http://localhost:3000/client/payments/citrus\",\n      \"paymentMode\": \"NET_BANKING\",\n      \"reqtime\": \"1457756752000\",\n      \"secSignature\": \"96fae4b6caca44a9d024cb083704409a2474b4f3\"\n    }\n  }\n}",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"ba6d1277de3eee7674d707c0f52010ad\"",
+        "ETag": "W/\"dce303a710d1cf5fde38ddee796ad27a\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=Y3JEY1lVOGd5YitiRHl0WXBHYmozb3dIaXNDY2YwUjNKZGFwVnRUbS9GTWNYNU1tcFY1WktFVnNYZjdFbGhrbTV3eTQrR1QvKyt3aFFqMmhDczBmbUtQazMzMXVOS0ZnRk5UODZxZU5jNjhTbmgyZTd4MVkzVlVrL0F4bHZPQks3WGpQUndvdksyV0xVZm1tTHUwY2pON0xEc2xRUC96M1paUVFNV0ZjNkJYbmd4RlhlejA3cnhCSTYvQWF0RUVOLS05c0VRaXJnUzdEbGpJWTVkaW0yVEt3PT0%3D--a6c6bd79d86b20c3edb5eb54f9b652eabaca1959; path=/; HttpOnly",
-        "X-Request-Id": "3c81eb8a-9808-4946-b173-28f3226621fd",
-        "X-Runtime": "0.086100",
-        "Content-Length": "444"
+        "Set-Cookie": "_session_id=QmVYWWhtQ2tFVEIwMkdIdTdES0FsektlQ0NXOGxXZ1JFQ0JwOVJQUmZLWXlsYjd6QVg3REMrd1JjUzdSU2xINmtOdU9FSGZad1NYeW1XbFJ0bHdUdUlCT3luN2VsaHVmT21BYnNpNWIvTUQzcG5BNlM4ZWpOem9RSjZCWGhzSzZDZHhTZVFlbkRrUkVkd0ZpejBoMmdzV2xCUVM2Um5MdlJ1WlJBR243T1MyOEE2MXpRYVg4VlpxSHVzSEJkMFpMLS1KLzJUcEpOME5IWHlxTnJLaVNJUVdBPT0%3D--3b2b979a98b7547b1f9c8a2fee5f31f7111d0d43; path=/; HttpOnly",
+        "X-Request-Id": "83f6ee56-e46b-4ad5-9053-186ba2c9bbf5",
+        "X-Runtime": "0.113947",
+        "Content-Length": "443"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/client/payments/new?order_id=3\" -X GET \\\n\t-H \"Access-Token: wdFZR76rCxPWjHuCxofCaw\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: LmNLtITRQzZ6gFTGU7gyiA\" \\\n\t-H \"Expiry: 1458814172\" \\\n\t-H \"Uid: 158kamren@schuster.net\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/client/payments/new?order_id=3\" -X GET \\\n\t-H \"Access-Token: HNf__xsjT8ktTiExNGnoxw\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: PkNAeZsUg2-6xNp7A5Y7VQ\" \\\n\t-H \"Expiry: 1458966351\" \\\n\t-H \"Uid: 158dortha@corkery.info\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

@@ -19,11 +19,11 @@
       "request_path": "deliver/orders/3",
       "request_body": "order[is_paid]=true",
       "request_headers": {
-        "Access-Token": "c5w6ciM7DjR_gjxqtb72Zg",
+        "Access-Token": "BPdG26NtDuXiEdr83EyaBg",
         "Token-Type": "Bearer",
-        "Client": "A2aHVgGPfrfl7qV-N3fmSQ",
-        "Expiry": "1458814174",
-        "Uid": "181sherman_vandervort@tromp.io",
+        "Client": "v1dbEnLk1vllwNQJOVwtYg",
+        "Expiry": "1458966354",
+        "Uid": "181dwight_damore@heathcote.co",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -33,21 +33,21 @@
       "request_content_type": "application/x-www-form-urlencoded",
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\n  \"id\": 3,\n  \"user_id\": 6,\n  \"status\": \"unconfirmed\",\n  \"created_at\": \"2016-03-10T10:09:34.165Z\",\n  \"confirmed_at\": null,\n  \"approved_at\": null,\n  \"dispacthed_at\": null,\n  \"delivered_at\": null,\n  \"canceled_at\": null,\n  \"pure_product_price\": \"27.0\",\n  \"tax\": \"1.35\",\n  \"delivery_charge\": \"200.0\",\n  \"total_price\": \"228.35\",\n  \"coupon_code\": null,\n  \"delivery_boy_id\": 1,\n  \"delivery_boy_phone\": \"915352204733\",\n  \"wanted_time\": null,\n  \"wanted_date\": null,\n  \"payment_type\": \"cash\",\n  \"is_paid\": true,\n  \"feedback\": null,\n  \"comment\": null,\n  \"source_type\": null\n}",
+      "response_body": "{\n  \"id\": 3,\n  \"user_id\": 6,\n  \"status\": \"unconfirmed\",\n  \"created_at\": \"2016-03-12T04:25:54.067Z\",\n  \"confirmed_at\": null,\n  \"approved_at\": null,\n  \"dispacthed_at\": null,\n  \"delivered_at\": null,\n  \"canceled_at\": null,\n  \"pure_product_price\": \"27.0\",\n  \"tax\": \"0.0\",\n  \"delivery_charge\": \"200.0\",\n  \"total_price\": \"227.0\",\n  \"coupon_code\": null,\n  \"delivery_boy_id\": 1,\n  \"delivery_boy_phone\": \"918626019571\",\n  \"wanted_time\": null,\n  \"wanted_date\": null,\n  \"payment_type\": \"cash\",\n  \"is_paid\": true,\n  \"feedback\": null,\n  \"comment\": null,\n  \"source_type\": null\n}",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"a7feaa974c8bba7ea4cf6f8013210581\"",
+        "ETag": "W/\"c4e35c8396d385bda302b6b07202fe70\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=K1p0azNUTXJ3OEhYblhtMjdnOHBuZkVDU0pZUVo4Z1lmTXMvYWhSK1ErZW1jVjhrOG5MWFRZbDVFbDNJTmdoUTFocWNMQ2hRRmhtYzdPUDE5KzNLeHYvVU9FZjNWSWJnZ2dmSHlvZHN0RHFpZThVZ09aKzZvU3ZBdnhzK1UwSlpITUJWMm9VN0xhZkoxUnZwUXdpaDNtb2RLakszblM3VVlacTRuNnJaR0xKUTVrT0V5VFdCQUtIZ1RwbnVDQ0V0LS1ycFRaTHhuNEw3ZnIvNWlSbFJWaXR3PT0%3D--9fe96801cdac46e0606c732fb665aba8a86e03da; path=/; HttpOnly",
-        "X-Request-Id": "a6069f8b-d190-4b03-ba3e-ec2d01099b5a",
-        "X-Runtime": "0.085961",
-        "Content-Length": "472"
+        "Set-Cookie": "_session_id=eFhhbUxOWnQ4U1lVM2tTS0Y1bTJzbFlkcFhPNzRKOXFtSmlQbXZ5VlJpN0lva2c2SnM1SWU5dHFWUWxCNzZMVlNQdzBBK3NyRFdZRFozOUZYc2pxUjdMNk9ndExzZzV3VE11aUphUUlaQ2VWQlIxM3o1SVRPQ2tyZi9KSVU3Q1dxNC96NVNXbTJtSlY2OE8xazZlTmd4Z29BcWpWcE1jNkhqRUZ5eE5TQUJpelJNWVhoQW15TCtieXNpSzRBcWpPLS1ZcW44T0pUR2lhSlV1RU1oUEZDMm93PT0%3D--03a72f7024f94f9ccdcf2e5037fd6c01a00f3a64; path=/; HttpOnly",
+        "X-Request-Id": "31f75c69-3b17-43b6-a1e9-cd818dc55df7",
+        "X-Runtime": "0.084747",
+        "Content-Length": "470"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000deliver/orders/3\" -d 'order[is_paid]=true' -X PUT \\\n\t-H \"Access-Token: c5w6ciM7DjR_gjxqtb72Zg\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: A2aHVgGPfrfl7qV-N3fmSQ\" \\\n\t-H \"Expiry: 1458814174\" \\\n\t-H \"Uid: 181sherman_vandervort@tromp.io\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000deliver/orders/3\" -d 'order[is_paid]=true' -X PUT \\\n\t-H \"Access-Token: BPdG26NtDuXiEdr83EyaBg\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: v1dbEnLk1vllwNQJOVwtYg\" \\\n\t-H \"Expiry: 1458966354\" \\\n\t-H \"Uid: 181dwight_damore@heathcote.co\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

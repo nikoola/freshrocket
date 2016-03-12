@@ -16,11 +16,11 @@
       "request_path": "/auth",
       "request_body": "phone=%2B79174446666",
       "request_headers": {
-        "Access-Token": "KFG_0MgorFXoC4XRLnTAxQ",
+        "Access-Token": "68F48YeibyAR7BFsy3ij0Q",
         "Token-Type": "Bearer",
-        "Client": "8tZ1MkYjP9a12PE20MQfrQ",
-        "Expiry": "1458814172",
-        "Uid": "164dameon_gleichner@steuber.name",
+        "Client": "W2dbmi6a81fV8KZgrDUXRg",
+        "Expiry": "1458966352",
+        "Uid": "164virginie@weber.io",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -30,21 +30,21 @@
       "request_content_type": "application/x-www-form-urlencoded",
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\n  \"status\": \"success\",\n  \"data\": {\n    \"id\": 5,\n    \"first_name\": \"Christopher\",\n    \"last_name\": \"Walker\",\n    \"email\": \"164dameon_gleichner@steuber.name\",\n    \"provider\": \"email\",\n    \"uid\": \"164dameon_gleichner@steuber.name\",\n    \"phone\": \"+79174446666\",\n    \"verification_code\": null,\n    \"is_verified\": false,\n    \"created_at\": \"2016-03-10T10:09:32.546Z\",\n    \"updated_at\": \"2016-03-10T10:09:32.699Z\",\n    \"how_did_you_hear_about_us\": null\n  }\n}",
+      "response_body": "{\n  \"status\": \"success\",\n  \"data\": {\n    \"id\": 5,\n    \"first_name\": \"Mossie\",\n    \"last_name\": \"Cassin\",\n    \"email\": \"164virginie@weber.io\",\n    \"provider\": \"email\",\n    \"uid\": \"164virginie@weber.io\",\n    \"phone\": \"+79174446666\",\n    \"verification_code\": null,\n    \"is_verified\": false,\n    \"created_at\": \"2016-03-12T04:25:52.490Z\",\n    \"updated_at\": \"2016-03-12T04:25:52.640Z\",\n    \"how_did_you_hear_about_us\": null\n  }\n}",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"ca8c4669f9a70ebe9181c41edf693435\"",
+        "ETag": "W/\"7ca418237849b18c647099eda80e5c20\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=bXg2NVBIUS9DZGhSY3Ftb24wN0NBWEN4cEtHWjc2cVMxNml3ckpnRllVNEtXU3BWSlkrcnhwQzBCb1FQajZMSHlGNC8zZWIxdXJUNXczNmhYdVNGY3kvcDFvWUtGWi94UjZUb3dKblNVMTNSdENLMVFUeE1CN1lSRFpZdmtaYXNkRmg2ZWtKRWhKZndGSjE2NmIycE5yQkk3WnhTWHZMbnVWMHozUnVxKzIvYUR0bFluMjRseDBBOW45V1JlTXdiLS0zZGtRS3J4Mk9mUHdIQ3FQVmRVdXpnPT0%3D--70f0a22f5432e92bb060a3ea378eb3db4d273726; path=/; HttpOnly",
-        "X-Request-Id": "4c2311c5-e3f4-47ed-a5f8-ada8f9f2092a",
-        "X-Runtime": "0.081954",
-        "Content-Length": "368"
+        "Set-Cookie": "_session_id=bmhIckhnZyt0cytYdjNDYncxUWc0OHpLbm1raXNhQ1lVNUh2RG9GejlxSVlQK2ZQMlVLcjAwb2ZjSW5tUEtlZUlQUkdlNk9FSDRRVUNRZ1QwZWtyUDg1cTFYeHJaVWI0T1FiTFBsNkVkQWFWZEEyK2wvZUZLaGdKd3RUaldkWGZlRmt0UXFnd1g5eVovZzRMdnprUDZHRHBOakpJLzFPR1Z5aVFxOTZnM2h2cnk2ekp5ekdTV2Y3LzZVeGdWT1dDLS1rdUtXTkFqdzBQWkRHSDFZMHA3MXdnPT0%3D--3591948a05b7fb058d4637da0f4256b8a4ae48bf; path=/; HttpOnly",
+        "X-Request-Id": "3f350b2d-aac3-432e-becc-5eb011c860bf",
+        "X-Runtime": "0.080397",
+        "Content-Length": "339"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/auth\" -d 'phone=%2B79174446666' -X PUT \\\n\t-H \"Access-Token: KFG_0MgorFXoC4XRLnTAxQ\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: 8tZ1MkYjP9a12PE20MQfrQ\" \\\n\t-H \"Expiry: 1458814172\" \\\n\t-H \"Uid: 164dameon_gleichner@steuber.name\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/auth\" -d 'phone=%2B79174446666' -X PUT \\\n\t-H \"Access-Token: 68F48YeibyAR7BFsy3ij0Q\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: W2dbmi6a81fV8KZgrDUXRg\" \\\n\t-H \"Expiry: 1458966352\" \\\n\t-H \"Uid: 164virginie@weber.io\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

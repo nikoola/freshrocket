@@ -16,11 +16,11 @@
       "request_path": "/admin/cities/1",
       "request_body": null,
       "request_headers": {
-        "Access-Token": "1myZCF32XmKYbCyjMDosAA",
+        "Access-Token": "RlUfWeZDL4Zfu9DgUbzfBQ",
         "Token-Type": "Bearer",
-        "Client": "u_zo_w66TwyxRs3dqGoT8Q",
-        "Expiry": "1458814155",
-        "Uid": "17thora.wolff@friesen.name",
+        "Client": "3x0qTfyzY2wWE6byIfjsYQ",
+        "Expiry": "1458966334",
+        "Uid": "17macy@schumm.name",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -37,13 +37,13 @@
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "text/html",
         "Cache-Control": "no-cache",
-        "Set-Cookie": "_session_id=OGxtUWRMN1NWcDBZbWtQRnZtdjR1c256UkVIY0NtVG16UDRyTitSZHUvSnZTczhUc3JGWHdvNkIzL2FMWUx3ajYzYnZ1Y2FoTWlwanBjTks2WXRrTFNVUTBVeCtEZ2VvalYxcERveXlzYS9NbEdVRDl5dWp3Smw4ZFJVNWhSTjkvcHozVExnNGNaeDlXWks1N3hYcFJGL0lINXlkdFZsVmsxelFhTzJBNGlKMERZSG93N0J5RHpBUVJBOFJ4c2luLS0wZkpRdGNTVjFGR3UyTU52LzVkOUpBPT0%3D--53c0d1065077617adeb36754fba40d926429bed8; path=/; HttpOnly",
-        "X-Request-Id": "b16f8469-426d-45f9-8a88-9f38cc208e80",
-        "X-Runtime": "0.087052",
+        "Set-Cookie": "_session_id=Z3FYSHdMS2NDRnROalA1Q2JtakJIbTA4bkFNU3hUWEZwZi9qMGcxVk9KQkUzZG9FUjQ0RGpudFlzZTluejRwOXdXRUo0blFnM25hendnQTd4ZDhaN2RsUW8xdjFIamVaQWdKWkxhT2FVYWlUenNVUlpzT0hhV0FWaFd2NGh2YmZoZ2cvRzVHMjFwK0Jra3lkYWlmTDJycUIrT05IOGpQVWhKaGJBVVB0bEF4S21Wa1ZsdFV3SHpueUpURUlyRXpKLS1hZXpmeWM2Y1RxU2tWMUZOL3NqTkpRPT0%3D--b5243228091ba316fd968c9fd395511d5cd41b1a; path=/; HttpOnly",
+        "X-Request-Id": "0b8e3a5b-7c70-4281-82f7-1761f9e4d251",
+        "X-Runtime": "0.086409",
         "Content-Length": "0"
       },
       "response_content_type": "text/html",
-      "curl": "curl \"http://localhost:3000/admin/cities/1\" -d '' -X DELETE \\\n\t-H \"Access-Token: 1myZCF32XmKYbCyjMDosAA\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: u_zo_w66TwyxRs3dqGoT8Q\" \\\n\t-H \"Expiry: 1458814155\" \\\n\t-H \"Uid: 17thora.wolff@friesen.name\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/admin/cities/1\" -d '' -X DELETE \\\n\t-H \"Access-Token: RlUfWeZDL4Zfu9DgUbzfBQ\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: 3x0qTfyzY2wWE6byIfjsYQ\" \\\n\t-H \"Expiry: 1458966334\" \\\n\t-H \"Uid: 17macy@schumm.name\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

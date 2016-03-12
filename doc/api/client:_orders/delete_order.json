@@ -16,11 +16,11 @@
       "request_path": "/client/orders/3",
       "request_body": null,
       "request_headers": {
-        "Access-Token": "2UNYV72D1SN5Ow4oM-tkYA",
+        "Access-Token": "5iuOs13uZP3InFMx9uIEyA",
         "Token-Type": "Bearer",
-        "Client": "mXgkmAcjTiHE-md3qrzisA",
-        "Expiry": "1458814170",
-        "Uid": "142janis@smitham.com",
+        "Client": "oefEVQCW2sFxaTNKI8Rh-g",
+        "Expiry": "1458966350",
+        "Uid": "142domenic@zulauf.biz",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -37,13 +37,13 @@
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "text/html",
         "Cache-Control": "no-cache",
-        "Set-Cookie": "_session_id=enJzUDhPNkRNN09nM00wYXFRMk5jN3ZIeUE5Y2doMk5GZEdSUGZjbjUxemNYU1hXVnZDYzRHVXU5M2U1d2w1dHJnSFNkQm1yQmpkRVhHY2pvU2hBbjd4djFSazhjUURZZXl3OVB2MWg0UldkWkhVR1lWcksxNXRaQU9NbDBGR2FwVmhVMXJ1ZlY5NCtCTWRrWEQ3K1hENDMrNmZlNWRXSjEvTHkwVkd6THFLUGNSK3BlNXpuL0JkUGZsN1JIZnl3LS1HL0FrNE5DREtmRC94VlV2d0MrSGJnPT0%3D--02b28591bb111d3351b6ff2f52c6dce514217c8d; path=/; HttpOnly",
-        "X-Request-Id": "1f202254-d251-4455-9868-55d3422b259a",
-        "X-Runtime": "0.086649",
+        "Set-Cookie": "_session_id=b1lUVjZFR1RXa3kvS0JqVFVTM2ZPdWRCdXRrYkMvekMxSmVtcklRMmxlcFdETnZRRnZia1BXN2xRYzZwME1xYTBXeDg1MkpmMUZkdmwwT0pVcEZwTDBOQzRIRkZWeXFEbTF4NmFMYkkxb3g1Z3hYVUNrY0g4c3JIVmVYUUpGSjgrZEE4UGFUSWpLTnM4TEJQOWNmazNMbndTVnl3OGIwRzZxaVVQWjNJcFdEekFjZ2RpbFg4Yld0T2pRVGJ0QmhhLS1ua2wrZEdiWmhjQ3J5UzE3b0xwNENBPT0%3D--83f1922496058899dc0abd306c016ce2e6876ab7; path=/; HttpOnly",
+        "X-Request-Id": "9c4abd71-9a01-4730-b559-44b142788448",
+        "X-Runtime": "0.080802",
         "Content-Length": "0"
       },
       "response_content_type": "text/html",
-      "curl": "curl \"http://localhost:3000/client/orders/3\" -d '' -X DELETE \\\n\t-H \"Access-Token: 2UNYV72D1SN5Ow4oM-tkYA\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: mXgkmAcjTiHE-md3qrzisA\" \\\n\t-H \"Expiry: 1458814170\" \\\n\t-H \"Uid: 142janis@smitham.com\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/client/orders/3\" -d '' -X DELETE \\\n\t-H \"Access-Token: 5iuOs13uZP3InFMx9uIEyA\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: oefEVQCW2sFxaTNKI8Rh-g\" \\\n\t-H \"Expiry: 1458966350\" \\\n\t-H \"Uid: 142domenic@zulauf.biz\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

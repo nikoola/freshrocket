@@ -35,17 +35,17 @@
       "request_content_type": null,
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "[\n  {\n    \"id\": 1,\n    \"name\": \"Hortensefort_95\",\n    \"active\": true,\n    \"areas\": [\n      {\n        \"id\": 1,\n        \"name\": \"East Bertrand_area_2\"\n      }\n    ]\n  },\n  {\n    \"id\": 2,\n    \"name\": \"West Vladimirmouth_96\",\n    \"active\": true,\n    \"areas\": [\n\n    ]\n  },\n  {\n    \"id\": 3,\n    \"name\": \"East Lillie_97\",\n    \"active\": true,\n    \"areas\": [\n\n    ]\n  },\n  {\n    \"id\": 6,\n    \"name\": \"Lamarmouth_100\",\n    \"active\": true,\n    \"areas\": [\n\n    ]\n  }\n]",
+      "response_body": "[\n  {\n    \"id\": 1,\n    \"name\": \"Kleinbury_95\",\n    \"active\": true,\n    \"areas\": [\n      {\n        \"id\": 1,\n        \"name\": \"Strosinburgh_area_2\"\n      }\n    ]\n  },\n  {\n    \"id\": 2,\n    \"name\": \"West Natbury_96\",\n    \"active\": true,\n    \"areas\": [\n\n    ]\n  },\n  {\n    \"id\": 3,\n    \"name\": \"Lake Zaria_97\",\n    \"active\": true,\n    \"areas\": [\n\n    ]\n  },\n  {\n    \"id\": 6,\n    \"name\": \"Maribelview_100\",\n    \"active\": true,\n    \"areas\": [\n\n    ]\n  }\n]",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"161fe90b800d220f8f1949949dcf424f\"",
+        "ETag": "W/\"d78d67f7cb6ba2c33275502406cf411e\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "X-Request-Id": "3bbfc870-45cb-469d-9229-def4792a4280",
-        "X-Runtime": "0.012140",
-        "Content-Length": "279"
+        "X-Request-Id": "08698252-d370-4bb3-bb46-125b6a64ecf9",
+        "X-Runtime": "0.015806",
+        "Content-Length": "269"
       },
       "response_content_type": "application/json; charset=utf-8",
       "curl": "curl \"http://localhost:3000/cities?include[]=areas&active=1\" -X GET \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""

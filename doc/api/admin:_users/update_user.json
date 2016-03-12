@@ -16,11 +16,11 @@
       "request_path": "/admin/users/1",
       "request_body": "user[email]=hi%40hi.hey&user[phone]=%2B79177878978",
       "request_headers": {
-        "Access-Token": "wTyHC8KCoM3gGQS365Dytg",
+        "Access-Token": "3xiPek9Kgg5GQpN5oKRPLg",
         "Token-Type": "Bearer",
-        "Client": "EWJM45TC7SWEftrhAu9-GQ",
-        "Expiry": "1458814162",
-        "Uid": "101alta@koelpinschiller.name",
+        "Client": "gCz9CXNnEG3O3KXNOaOyQQ",
+        "Expiry": "1458966341",
+        "Uid": "101ro@hermiston.net",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -30,21 +30,21 @@
       "request_content_type": "application/x-www-form-urlencoded",
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\n  \"id\": 1,\n  \"first_name\": \"Josefa\",\n  \"last_name\": \"Mohr\",\n  \"email\": \"hi@hi.hey\",\n  \"phone\": \"+79177878978\",\n  \"is_verified\": false,\n  \"provider\": \"email\",\n  \"uid\": \"hi@hi.hey\",\n  \"created_at\": \"2016-03-10T10:09:22.772Z\",\n  \"abilities\": {\n    \"orders\": 0,\n    \"products\": 0,\n    \"users\": 0,\n    \"categories\": 1,\n    \"coupons\": 0,\n    \"settings\": 0,\n    \"cities\": 0,\n    \"delivery_boy\": 0\n  }\n}",
+      "response_body": "{\n  \"id\": 1,\n  \"first_name\": \"Cathrine\",\n  \"last_name\": \"Lueilwitz\",\n  \"email\": \"hi@hi.hey\",\n  \"phone\": \"+79177878978\",\n  \"is_verified\": false,\n  \"provider\": \"email\",\n  \"uid\": \"hi@hi.hey\",\n  \"created_at\": \"2016-03-12T04:25:41.843Z\",\n  \"abilities\": {\n    \"orders\": 0,\n    \"products\": 0,\n    \"users\": 0,\n    \"categories\": 1,\n    \"coupons\": 0,\n    \"settings\": 0,\n    \"cities\": 0,\n    \"delivery_boy\": 0\n  }\n}",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"dbde1f9fa8dbcdf2baad31d7228c8b74\"",
+        "ETag": "W/\"82054196777953479eabcf002516c413\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=RHJ1NEsybS9BQXdNTUpyV0tsN2lNTmpSaGJJc0dYcWQ4bmpXeS90VmhzUzgrK1FrYkkxaFM1amxUYjZUYUtyZmxVVEQ3RjdPL0FBbkJYZWt1Yml1bUJJRjJUdDVBa3QvS0ZRaDcxTlJsNWg5WjM5UFEwalZsekdETDRMaEF2aTN3eE5HRWpRR1FnU1BrZW9GbUtQU2tFM1NOYkRUejhHNFpTTUEwT0hqeGZDUGZXc2VOM3M4V3hXdHBJTHRaUTVoLS16OFBEWFVGZmlJbS93V0lhcHdzcXhBPT0%3D--7ef8c92cf873f8baa8211b23765d43db02e58e74; path=/; HttpOnly",
-        "X-Request-Id": "6f6d3b05-53ce-41ab-95f5-0bcf364bf0ea",
-        "X-Runtime": "0.084826",
-        "Content-Length": "305"
+        "Set-Cookie": "_session_id=ZVVZUTJZQkhiczkySHpONjRSdmFBTENUbHloUEJpbTJaSERHdGR3UkpBcC9EZDl4ZnRjaGEvZUp4M0dhSGZGbmFOcHMzREI3VGN5SXQ4TU5mcmt3T1JlVHlYSlY2a0VBcEVaOWVBNml4MTBTQmhvRjNxb1dlMll2Q2xwU2hDNmZQV1p3VUI3cmluUXFYL3p6bE1ZTHRsQU5Ld1MxNytXdDFVYUpXWi82ZmlnTFJiS0NiQ2NSNkhkNFdIMUo1cHlJLS12aVZSUVRLYjdzbUhaZnloZFRSZTZBPT0%3D--b996a6fd2f247554d8d0a666cdfc49bca1d68d38; path=/; HttpOnly",
+        "X-Request-Id": "9eacdbac-8bb6-4014-9ec5-eab045754b5b",
+        "X-Runtime": "0.083198",
+        "Content-Length": "312"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/admin/users/1\" -d 'user[email]=hi%40hi.hey&user[phone]=%2B79177878978' -X PUT \\\n\t-H \"Access-Token: wTyHC8KCoM3gGQS365Dytg\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: EWJM45TC7SWEftrhAu9-GQ\" \\\n\t-H \"Expiry: 1458814162\" \\\n\t-H \"Uid: 101alta@koelpinschiller.name\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/admin/users/1\" -d 'user[email]=hi%40hi.hey&user[phone]=%2B79177878978' -X PUT \\\n\t-H \"Access-Token: 3xiPek9Kgg5GQpN5oKRPLg\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: gCz9CXNnEG3O3KXNOaOyQQ\" \\\n\t-H \"Expiry: 1458966341\" \\\n\t-H \"Uid: 101ro@hermiston.net\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

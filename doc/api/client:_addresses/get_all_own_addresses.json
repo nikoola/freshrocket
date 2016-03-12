@@ -19,11 +19,11 @@
       "request_path": "/client/addresses?active=0",
       "request_body": null,
       "request_headers": {
-        "Access-Token": "_PJ4VTaBT1KKcUL63FUcTw",
+        "Access-Token": "ezMXtlGdlm0sLv6Wj4wY-g",
         "Token-Type": "Bearer",
-        "Client": "QbZF0snsWTZwhzkpfo-_ZQ",
-        "Expiry": "1458814164",
-        "Uid": "115deron@kuhn.biz",
+        "Client": "1ZBK1tdmxpdemUZ6L3DSNA",
+        "Expiry": "1458966343",
+        "Uid": "115rebekah_bogan@rath.com",
         "Host": "example.org",
         "Cookie": ""
       },
@@ -33,21 +33,21 @@
       "request_content_type": null,
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "[\n  {\n    \"id\": 1,\n    \"city_id\": 1,\n    \"user_id\": 1,\n    \"street_and_house\": \"2295 Boehm Pine\",\n    \"door_number\": \"5\"\n  },\n  {\n    \"id\": 2,\n    \"city_id\": 2,\n    \"user_id\": 1,\n    \"street_and_house\": \"452 Herzog Rapids\",\n    \"door_number\": \"5\"\n  },\n  {\n    \"id\": 3,\n    \"city_id\": 3,\n    \"user_id\": 1,\n    \"street_and_house\": \"639 Gleason Divide\",\n    \"door_number\": \"5\"\n  }\n]",
+      "response_body": "[\n  {\n    \"id\": 1,\n    \"city_id\": 1,\n    \"user_id\": 1,\n    \"street_and_house\": \"22827 Evelyn Vista\",\n    \"door_number\": \"5\"\n  },\n  {\n    \"id\": 2,\n    \"city_id\": 2,\n    \"user_id\": 1,\n    \"street_and_house\": \"88209 Quitzon Gardens\",\n    \"door_number\": \"5\"\n  },\n  {\n    \"id\": 3,\n    \"city_id\": 3,\n    \"user_id\": 1,\n    \"street_and_house\": \"5678 Ilene Trail\",\n    \"door_number\": \"5\"\n  }\n]",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"1e676799e1e2d7ede88ec779fd9fdd8d\"",
+        "ETag": "W/\"bca9b1a124acc17ba8406009c044a982\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=SW95RjF1MzI3NHlUZng2Rk9RZTBrS3dpMUljdUtFNFBSaFQ1NWYra21ab0tORnhJZ0R2cFVub29ZcnFlaDJTR2ZjZUZyd2dxaGpoS2tpemI1Wkkzb0ppeE9SWWcwVHRFQjhCNFF4TjI1ZjYvTjdSdWJrcVJzQnl3WnFoL1FPMGh6aEthVHdiYXgwMy9qdldSdEJ4QXFtR1p2WlFqSUhoZy93SC9QZFlkUUVVSnhUY3JYdXFuQU1qT1M3cUZMQktDLS1CNExmZHVVOUo3MEErRTdkdGhqbzVnPT0%3D--a74e25f7e93f543824a5b15b757a4b2930a41420; path=/; HttpOnly",
-        "X-Request-Id": "05a3101b-89f7-4580-88f9-257af9327fd6",
-        "X-Runtime": "0.088654",
-        "Content-Length": "270"
+        "Set-Cookie": "_session_id=aytmWm9wYXQrZDhCbzNjNWZaKzMyYWlLTWlSajF0VkV1ZmQ4WitTUmMrdmZJOEdVTjNtNW9xN21kUkhOWkhqUEJzV1VFWUtmNjJtVXhBQXRMWFlYYjRjZ0wvSjBDd2s5Y2I1cTNMUDZiMFdzNjJLbmRORUJiOW1ncUVoN0czNGlmRTJQWVFncGhJbjNxenFTdm96dDZ0Ny8xMWgxR1VOM1JUNHhoc0NnakZtYm1MVWVWclVTcmRRL1hHTVFvakZHLS1va3Q2aldVMm5rUTZ1TGNzSzB6dEd3PT0%3D--00d2c774ac051943fdb09ed4264e883045a37c37; path=/; HttpOnly",
+        "X-Request-Id": "bd20066f-ac34-4bf8-ab3f-6c1a6062107a",
+        "X-Runtime": "0.097745",
+        "Content-Length": "275"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/client/addresses?active=0\" -X GET \\\n\t-H \"Access-Token: _PJ4VTaBT1KKcUL63FUcTw\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: QbZF0snsWTZwhzkpfo-_ZQ\" \\\n\t-H \"Expiry: 1458814164\" \\\n\t-H \"Uid: 115deron@kuhn.biz\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/client/addresses?active=0\" -X GET \\\n\t-H \"Access-Token: ezMXtlGdlm0sLv6Wj4wY-g\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: 1ZBK1tdmxpdemUZ6L3DSNA\" \\\n\t-H \"Expiry: 1458966343\" \\\n\t-H \"Uid: 115rebekah_bogan@rath.com\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

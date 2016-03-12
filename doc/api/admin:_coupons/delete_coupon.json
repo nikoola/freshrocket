@@ -16,11 +16,11 @@
       "request_path": "/admin/coupons/1",
       "request_body": null,
       "request_headers": {
-        "Access-Token": "hgxHQDQB-L3n4SGYXdecqA",
+        "Access-Token": "KbjpEH459mbc2zAHKwH9gQ",
         "Token-Type": "Bearer",
-        "Client": "fHHdmSUPXPuoG_VOWWKfrA",
-        "Expiry": "1458814155",
-        "Uid": "21daryl@feil.info",
+        "Client": "Hc-CWlLY_xiEGsDfd6ZBvQ",
+        "Expiry": "1458966334",
+        "Uid": "21adolf@mayerthettinger.info",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -37,13 +37,13 @@
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "text/html",
         "Cache-Control": "no-cache",
-        "Set-Cookie": "_session_id=bHAwR0RxenFVQlFIdEZGbWQzWFV3dlBKZUowZGVCTW5lcHkvY2pnVU9nNForTVZXMVArZlN1Uk0rZnpnNDJZS2FGVGY2SGt0Tk42T25LR2xWOUJrRjg2OHBDNEFORUFONEJPTjh3dXh1Nzh0V0dtSFVFdWxmYlByMWcxNk1wU24yb2g4OHFpd29Cb1Arc1U3NkxRRXhGMGZkbnJyejZ3Z1hTSFNpaU8vU09ONFZvbG1uVVNRcHRXeFFBdjFvN2Q5LS1kdnFoUkFIeXAyejZRWEpUTXkyTVpBPT0%3D--233fd0973f34f1bbf83322e7dee4af916bfaa45d; path=/; HttpOnly",
-        "X-Request-Id": "5bb61c74-3858-40a9-a461-7af2f4ac06ce",
-        "X-Runtime": "0.077622",
+        "Set-Cookie": "_session_id=c0VqeFl1UXZFeEFRVG9uOFR4VDBxSXM5dGZYTEI1RWVpVjk0eHh5OWIzOWxoTFphTW9ybXV4amM1VEtVZGMvMzArRC9PckxVK3JqSjZOQ0VkanpuM21SM0hJQk1Yd2JBYUJCc0o0MndncjE5aVdMUTVzcnhTTnBxa2NjN1F3Mk1ldm81dm5teWZJcnNWeWhPWlRRK3BqcGllSHVyL1dxRzhnakZZUEphblAzR0FmeG16NW40cDhXNmpNM0loYWFoLS1haUhLejdjc25vdlBPZzNlS1FieXZ3PT0%3D--46a83dde94e65d92691783ef0ff59bfcfdf94bc2; path=/; HttpOnly",
+        "X-Request-Id": "804eecee-17c3-4425-b314-cb6b004f4767",
+        "X-Runtime": "0.079956",
         "Content-Length": "0"
       },
       "response_content_type": "text/html",
-      "curl": "curl \"http://localhost:3000/admin/coupons/1\" -d '' -X DELETE \\\n\t-H \"Access-Token: hgxHQDQB-L3n4SGYXdecqA\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: fHHdmSUPXPuoG_VOWWKfrA\" \\\n\t-H \"Expiry: 1458814155\" \\\n\t-H \"Uid: 21daryl@feil.info\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/admin/coupons/1\" -d '' -X DELETE \\\n\t-H \"Access-Token: KbjpEH459mbc2zAHKwH9gQ\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: Hc-CWlLY_xiEGsDfd6ZBvQ\" \\\n\t-H \"Expiry: 1458966334\" \\\n\t-H \"Uid: 21adolf@mayerthettinger.info\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

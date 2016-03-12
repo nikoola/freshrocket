@@ -67,7 +67,7 @@ resource 'admin: products', type: :request do
 		end
 
 		it 'creates product with image', document: false do
-			image = '/home/lakesare/Desktop/rivo/spec/files/hi.jpg'
+			image = "#{Rails.root}/spec/files/hi.jpg"
 			file = Rack::Test::UploadedFile.new image, "image/jpeg"
 			valid_params_with_image = valid_params.merge({image: file})
 

@@ -24,3 +24,6 @@
 
 /.env
 /hi.rb
+
+# /public/uploads/*
+# !default.png

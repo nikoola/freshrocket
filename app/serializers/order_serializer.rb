@@ -12,8 +12,9 @@ class OrderSerializer < ActiveModel::Serializer
 
 
 
-	has_many :line_items
-	has_one  :address
+	has_many   :line_items
+	has_one    :address
+	belongs_to :delivery_boy
 
 
 	def current_user_can_manage_admins

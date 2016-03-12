@@ -43,13 +43,13 @@
     {
       "request_method": "POST",
       "request_path": "/admin/addresses",
-      "request_body": "address[street_and_house]=795+Watsica+Loaf&address[door_number]=5&address[city_id]=1&address[user_id]=1",
+      "request_body": "address[street_and_house]=78775+Reta+Lock&address[door_number]=5&address[city_id]=1&address[user_id]=1",
       "request_headers": {
-        "Access-Token": "ziQxsTkEi0vSn1btKzD2iQ",
+        "Access-Token": "XWPdnlumT3_sSKn3bi9y4g",
         "Token-Type": "Bearer",
-        "Client": "vSTRet4Ub-aidPmgdIuPXg",
-        "Expiry": "1458814153",
-        "Uid": "7dina@stracke.info",
+        "Client": "2Ap1BMyaqVbY8vt178ZScQ",
+        "Expiry": "1458966332",
+        "Uid": "7uriah@kutchbeahan.name",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -59,21 +59,21 @@
       "request_content_type": "application/x-www-form-urlencoded",
       "response_status": 201,
       "response_status_text": "Created",
-      "response_body": "{\n  \"id\": 1,\n  \"city_id\": 1,\n  \"user_id\": 1,\n  \"street_and_house\": \"795 Watsica Loaf\",\n  \"door_number\": \"5\"\n}",
+      "response_body": "{\n  \"id\": 1,\n  \"city_id\": 1,\n  \"user_id\": 1,\n  \"street_and_house\": \"78775 Reta Lock\",\n  \"door_number\": \"5\"\n}",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"ea73da18ed8c0ff5bbd76eac47997ac4\"",
+        "ETag": "W/\"0ec7f0af718b9c40e9d9febc5be74775\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=YUVETGJweFJiSGloNmFLSnJ5aXUwK2dGaHRleHRJZTFlbjc5M0tBTUhjWm9EWDYvM2lSVktiV0V2VkMvdTZOenQ1T1o2TzlyTVYrSHJlSThXajZtc3MzU2VJZVVzYkZ3MUQwem9mMHBIQ3BTdUlOV1NNU0R6U3BjdXBMcktkbzlSRkNnb3Zta2JuODhEMGQrUmY0OFg5N2dwUTYxWTVFRVBad296bWpyL1dmakQ0eTdocXhOSVNzallXMjc5ZmpDLS1sVEFMQUlNSVJFZm91UDI1U0FKbkhnPT0%3D--0193c8872cf4f40d17867ef82c03c98f9bf36197; path=/; HttpOnly",
-        "X-Request-Id": "93bf3621-b5ab-4f98-8ab1-0d797b8c1702",
-        "X-Runtime": "0.082461",
-        "Content-Length": "88"
+        "Set-Cookie": "_session_id=bHBpMVZnekk1WE9LQ01jeTBBeUxwejFkQkszWG51d2R3S2pMbUxYQmxMdXVVcHlRTDAvUmgvdEIwME56QnRGaTdkVXdNMDlSMUtyQ2V5THJETHYwM3pCL1ZGbSt3N0R0NWgrZitpQlhvcWxGMHppWklOWFViaklTeHVxeUx6WDVNaDdCajFhZGtPVXdWQlNPMGNiT1grU3V4L1FucDhCTWFjSkhQRlNrTm5rZjkyeEV3N3JsWDl0ZmlJUzZDeGFvLS1EUEhaRldMbkYvMHU3TVZ0T0xGcmR3PT0%3D--a56d0b3733e4be12d613c44f3dec5bb2e3115cb7; path=/; HttpOnly",
+        "X-Request-Id": "bac75c47-8a87-4a68-b59c-5e654d091594",
+        "X-Runtime": "0.084053",
+        "Content-Length": "87"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/admin/addresses\" -d 'address[street_and_house]=795+Watsica+Loaf&address[door_number]=5&address[city_id]=1&address[user_id]=1' -X POST \\\n\t-H \"Access-Token: ziQxsTkEi0vSn1btKzD2iQ\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: vSTRet4Ub-aidPmgdIuPXg\" \\\n\t-H \"Expiry: 1458814153\" \\\n\t-H \"Uid: 7dina@stracke.info\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/admin/addresses\" -d 'address[street_and_house]=78775+Reta+Lock&address[door_number]=5&address[city_id]=1&address[user_id]=1' -X POST \\\n\t-H \"Access-Token: XWPdnlumT3_sSKn3bi9y4g\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: 2Ap1BMyaqVbY8vt178ZScQ\" \\\n\t-H \"Expiry: 1458966332\" \\\n\t-H \"Uid: 7uriah@kutchbeahan.name\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

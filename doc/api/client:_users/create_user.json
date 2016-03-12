@@ -47,13 +47,13 @@
     {
       "request_method": "POST",
       "request_path": "/auth",
-      "request_body": "email=160vita_stracke%40schroeder.name&password=secrety_bickety&password_confirmation=secrety_bickety&first_name=Rhea&last_name=Moen&phone=%2B79172343270",
+      "request_body": "email=160daisha_satterfield%40rosenbaum.io&password=secrety_bickety&password_confirmation=secrety_bickety&first_name=Jenifer&last_name=O%27Keefe&phone=%2B79172343270",
       "request_headers": {
-        "Access-Token": "DQa3OFiG0NssA4kowhzRWg",
+        "Access-Token": "sQHJ_F9_lwH4Pxqp9Tf9Kw",
         "Token-Type": "Bearer",
-        "Client": "TW3q-nAYM5_8-IBl0gceqg",
-        "Expiry": "1458814172",
-        "Uid": "161derick.emmerich@bradtkemante.io",
+        "Client": "xzexw7zmx6goe34OnpMY4g",
+        "Expiry": "1458966352",
+        "Uid": "161bryana_bednar@jones.biz",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -63,25 +63,25 @@
       "request_content_type": "application/x-www-form-urlencoded",
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\n  \"status\": \"success\",\n  \"data\": {\n    \"id\": 6,\n    \"first_name\": \"Rhea\",\n    \"last_name\": \"Moen\",\n    \"email\": \"160vita_stracke@schroeder.name\",\n    \"provider\": \"email\",\n    \"uid\": \"160vita_stracke@schroeder.name\",\n    \"phone\": \"+79172343270\",\n    \"verification_code\": null,\n    \"is_verified\": false,\n    \"created_at\": \"2016-03-10T10:09:32.291Z\",\n    \"updated_at\": \"2016-03-10T10:09:32.435Z\",\n    \"how_did_you_hear_about_us\": null\n  }\n}",
+      "response_body": "{\n  \"status\": \"success\",\n  \"data\": {\n    \"id\": 6,\n    \"first_name\": \"Jenifer\",\n    \"last_name\": \"O'Keefe\",\n    \"email\": \"160daisha_satterfield@rosenbaum.io\",\n    \"provider\": \"email\",\n    \"uid\": \"160daisha_satterfield@rosenbaum.io\",\n    \"phone\": \"+79172343270\",\n    \"verification_code\": null,\n    \"is_verified\": false,\n    \"created_at\": \"2016-03-12T04:25:52.238Z\",\n    \"updated_at\": \"2016-03-12T04:25:52.380Z\",\n    \"how_did_you_hear_about_us\": null\n  }\n}",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
-        "access-token": "7Io8ailXM3pu5wPunfVLnQ",
+        "access-token": "uaxxZ2_FYZnIYYnSvuvREA",
         "token-type": "Bearer",
-        "client": "nGOzuHYJHJd779Hw4P3c3Q",
-        "expiry": "1458814172",
-        "uid": "160vita_stracke@schroeder.name",
+        "client": "yT950rWbx5ES7OOwNnOmHg",
+        "expiry": "1458966352",
+        "uid": "160daisha_satterfield@rosenbaum.io",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"b01c9434d9a2adcadb45341a5afedd31\"",
+        "ETag": "W/\"0a65861bb03419b4a340eaad0ec078f6\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "X-Request-Id": "6ed0d8c2-eaa2-40f2-8a63-f8bff615471e",
-        "X-Runtime": "0.161290",
-        "Content-Length": "355"
+        "X-Request-Id": "55c0fd31-f8c4-454e-9a45-c111c023a4ab",
+        "X-Runtime": "0.189203",
+        "Content-Length": "369"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/auth\" -d 'email=160vita_stracke%40schroeder.name&password=secrety_bickety&password_confirmation=secrety_bickety&first_name=Rhea&last_name=Moen&phone=%2B79172343270' -X POST \\\n\t-H \"Access-Token: DQa3OFiG0NssA4kowhzRWg\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: TW3q-nAYM5_8-IBl0gceqg\" \\\n\t-H \"Expiry: 1458814172\" \\\n\t-H \"Uid: 161derick.emmerich@bradtkemante.io\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/auth\" -d 'email=160daisha_satterfield%40rosenbaum.io&password=secrety_bickety&password_confirmation=secrety_bickety&first_name=Jenifer&last_name=O%27Keefe&phone=%2B79172343270' -X POST \\\n\t-H \"Access-Token: sQHJ_F9_lwH4Pxqp9Tf9Kw\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: xzexw7zmx6goe34OnpMY4g\" \\\n\t-H \"Expiry: 1458966352\" \\\n\t-H \"Uid: 161bryana_bednar@jones.biz\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

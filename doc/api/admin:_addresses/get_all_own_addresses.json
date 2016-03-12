@@ -19,11 +19,11 @@
       "request_path": "/admin/addresses?active=0",
       "request_body": null,
       "request_headers": {
-        "Access-Token": "Kx1HRtCMLMzVmDYvLEjb4g",
+        "Access-Token": "azPalX2NhrPORYK_ABeHKQ",
         "Token-Type": "Bearer",
-        "Client": "iXuNd25TZVoV10TLxXPowQ",
-        "Expiry": "1458814153",
-        "Uid": "6fatima.bahringer@spencerbauch.net",
+        "Client": "zzGCcDiBBlG3UEuOPg84kA",
+        "Expiry": "1458966332",
+        "Uid": "6andre@predovic.com",
         "Host": "example.org",
         "Cookie": ""
       },
@@ -33,21 +33,21 @@
       "request_content_type": null,
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "[\n  {\n    \"id\": 1,\n    \"city_id\": 1,\n    \"user_id\": 1,\n    \"street_and_house\": \"710 Hettinger Radial\",\n    \"door_number\": \"5\"\n  },\n  {\n    \"id\": 2,\n    \"city_id\": 2,\n    \"user_id\": 2,\n    \"street_and_house\": \"455 Grady Avenue\",\n    \"door_number\": \"5\"\n  },\n  {\n    \"id\": 3,\n    \"city_id\": 3,\n    \"user_id\": 3,\n    \"street_and_house\": \"75679 Kirlin Courts\",\n    \"door_number\": \"5\"\n  }\n]",
+      "response_body": "[\n  {\n    \"id\": 1,\n    \"city_id\": 1,\n    \"user_id\": 1,\n    \"street_and_house\": \"727 Reilly Haven\",\n    \"door_number\": \"5\"\n  },\n  {\n    \"id\": 2,\n    \"city_id\": 2,\n    \"user_id\": 2,\n    \"street_and_house\": \"636 Rick Mall\",\n    \"door_number\": \"5\"\n  },\n  {\n    \"id\": 3,\n    \"city_id\": 3,\n    \"user_id\": 3,\n    \"street_and_house\": \"7556 Adams Flats\",\n    \"door_number\": \"5\"\n  }\n]",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"7d0251b22c183f53d6b16bd5fc8ae126\"",
+        "ETag": "W/\"ffa693512b5cbb4b0cdfdcfd36edf28e\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=MDV1dmhpZXVSM1dRd0w0SGpkNVdTOW1zQTY1UUwxL0Nua2huRVNzcWNKUzdGWEtnMVNPUFRPdDc3NHdxUnZJYjN4VlFnb05pU3RKSkJNSThySlhBZHZ5UVU5dGw3a0x0STEveFczZnh1MWRHdDF5dFlGNGNCdUwvaWJ5OFpUazg4NGhjRnhwaUlJODV1Y2h0SElHdjlJR0NKYTlRLzVBWkk1NENrUUJRdERlTmt5NjI2bi95YW52QjAwK3ZQdDZNLS1xQzhTNTJzRjVhOEZoZEdWZUxHajV3PT0%3D--2ba3de7fb2da6bb808a40bca95d9fdb79e4e9395; path=/; HttpOnly",
-        "X-Request-Id": "1367bd17-cae6-474d-a6e9-56de2721ed4f",
-        "X-Runtime": "0.117335",
-        "Content-Length": "275"
+        "Set-Cookie": "_session_id=UjdRQXVZZnBlYlkrcWxEQk8xZWFBckFhN2xNaURHNlRrU2MzU1pLRVZ4V0VMVThUUVNrZFhiT3VpRVNWa1pWM00xdk9wY20xbVdYYVZaNlcxNFNaejJCNTRGKzBYeHdpSkJhQmhsT0VHYitTMzVQbWo2eUlZY0dxRlRWYjF6SlBnZjg0U0ZpNk44UTVBZi9walJodFZHdlcrVjBMdEQyM0MxQUpnazlOUHB6Z2lqdVlGeXNDRXJoeTFCcEhMQ2VKLS01b2NnUUYrOWZsT0NxL3dncElQdkxRPT0%3D--69f0f7bdf7c0fe3bbba0d1e248ec6924890cf683; path=/; HttpOnly",
+        "X-Request-Id": "5c99a62c-cc9e-4e31-a774-f4d0a45f555c",
+        "X-Runtime": "0.114076",
+        "Content-Length": "265"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/admin/addresses?active=0\" -X GET \\\n\t-H \"Access-Token: Kx1HRtCMLMzVmDYvLEjb4g\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: iXuNd25TZVoV10TLxXPowQ\" \\\n\t-H \"Expiry: 1458814153\" \\\n\t-H \"Uid: 6fatima.bahringer@spencerbauch.net\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/admin/addresses?active=0\" -X GET \\\n\t-H \"Access-Token: azPalX2NhrPORYK_ABeHKQ\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: zzGCcDiBBlG3UEuOPg84kA\" \\\n\t-H \"Expiry: 1458966332\" \\\n\t-H \"Uid: 6andre@predovic.com\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

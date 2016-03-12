@@ -16,11 +16,11 @@
       "request_path": "/admin/products/1",
       "request_body": "product[title]",
       "request_headers": {
-        "Access-Token": "Obg32zpe5pyeX_uFPIKeIg",
+        "Access-Token": "6VYY_cXYaZV_3ClNlAniPg",
         "Token-Type": "Bearer",
-        "Client": "j1xtTiB5rFT8QDl255k5zg",
-        "Expiry": "1458814160",
-        "Uid": "72edgar@barton.biz",
+        "Client": "cvdV1JFODMpoAiGsS5T9Iw",
+        "Expiry": "1458966339",
+        "Uid": "72caroline@ebert.org",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -37,13 +37,13 @@
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "application/json; charset=utf-8",
         "Cache-Control": "no-cache",
-        "Set-Cookie": "_session_id=U0hOT3E2QmZKNGwvYWpzdmx6RW5xTU5hUU04RnphUmhHTnBmeTYvQzdhTEZIQ1diNG5uL3poSE5hSGVISURkdmROSytPYjBTZjljbXh5aklFR0tPbzRjSWQ4WlE0TTdNNDQzcmoyMDBxcDVGQjR3dUdqRWJHU1hJOEVMNURBZjlwQzllOEJ0RHoxVWhMQ3kyN0FTY1I2alFGelgzRmhLTHlTRkFZVFhyKzdDWWcxU2tuMDN6SXR5c1hhQ0tjQitoLS1oTGFkejRmSW9FSk4xdDFvUFhoN1pnPT0%3D--11160ecede159f99d57f3e464e6ec212b14e2e55; path=/; HttpOnly",
-        "X-Request-Id": "b2036878-f78d-486d-81ac-0453069fc6f2",
-        "X-Runtime": "0.079909",
+        "Set-Cookie": "_session_id=WWxhNnlRbjFOY2FSY1MrczZEMXlqeTRXeVVhYm5HVllzeXVSZ25rWkxuRzZrSTQzNDE5a0RVQWFzSGljTXhISnJXTXZqeGNldEpVMCsvVTlmSncraWF2ais2L285Wk1QWUxJK21lWjVQN0NIRzRUUjg4VnhFWDd2cXhKK2o3KzUwRjJKWFN2WllSaE5kYlJlUEZvVkdtakFWTWo5bEF4bUVESUFJeHFSMWFpNnloNmpRKzRuZEdDRStmTUFXdUhzLS14dEhhVjBZUWFQdCtpNHNoOUVJR0l3PT0%3D--85a0172eb2cb53acca57b1f70bb3ba1d80912beb; path=/; HttpOnly",
+        "X-Request-Id": "0a898142-0ede-4eaa-aa66-4a8d4e545749",
+        "X-Runtime": "0.079321",
         "Content-Length": "28"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/admin/products/1\" -d 'product[title]' -X PUT \\\n\t-H \"Access-Token: Obg32zpe5pyeX_uFPIKeIg\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: j1xtTiB5rFT8QDl255k5zg\" \\\n\t-H \"Expiry: 1458814160\" \\\n\t-H \"Uid: 72edgar@barton.biz\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/admin/products/1\" -d 'product[title]' -X PUT \\\n\t-H \"Access-Token: 6VYY_cXYaZV_3ClNlAniPg\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: cvdV1JFODMpoAiGsS5T9Iw\" \\\n\t-H \"Expiry: 1458966339\" \\\n\t-H \"Uid: 72caroline@ebert.org\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

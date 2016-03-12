@@ -18,7 +18,7 @@ resource 'admin: orders', type: :request do
 		parameter :status_, 'status. only get [unconfirmed, confirmed, approved, dispatched, delivered, canceled] orders'
 		parameter :user_id
 		parameter :city_id, 'returns orders which have addresses in this city'
-		parameter :include_, 'line_items, address - whether to include association'
+		parameter :include_, 'line_items, address, delivery_boy - whether to include association'
 
 		it 'nonauthenticated - 401', document: false do
 			get '/admin/orders'
@@ -43,7 +43,8 @@ resource 'admin: orders', type: :request do
 		example 'get filtered orders' do
 			FactoryGirl.create_list :order, 6
 
-			do_request limit: 5, offset: 2
+			do_request limit: 5, offset: 2, 
+				include: ['delivery_boy']
 
 
 			returned_ids = jsons.pluck(:id)
@@ -52,6 +53,7 @@ resource 'admin: orders', type: :request do
 			expect(status).to eq(200)
 			expect(returned_ids).to match_array(expected_ids)
 			expect(jsons[0].keys).not_to include :address, :line_items
+			expect(jsons[0].keys).to     include :delivery_boy
 		end
 
 	end

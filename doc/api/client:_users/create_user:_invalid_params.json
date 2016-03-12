@@ -47,13 +47,13 @@
     {
       "request_method": "POST",
       "request_path": "/auth",
-      "request_body": "email=162cordelia.murray%40sporerhartmann.com&password=secrety_bickety&password_confirmation=secrety_bickety&first_name=Lora&last_name=Jacobs&phone",
+      "request_body": "email=162rodger.crist%40kuhlmanpacocha.biz&password=secrety_bickety&password_confirmation=secrety_bickety&first_name=Branson&last_name=Leffler&phone",
       "request_headers": {
-        "Access-Token": "yIJO_CqJD8ftyQD-szp4yQ",
+        "Access-Token": "syB8GRElpYc_rTEGZgP70A",
         "Token-Type": "Bearer",
-        "Client": "DrFOf0Yp2f5W7NuxXTBF1A",
-        "Expiry": "1458814172",
-        "Uid": "163kristopher@langosh.name",
+        "Client": "phD9PtjIfKzt25JtNAT1-Q",
+        "Expiry": "1458966352",
+        "Uid": "163rylee_bahringer@mann.info",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -63,19 +63,19 @@
       "request_content_type": "application/x-www-form-urlencoded",
       "response_status": 403,
       "response_status_text": "Forbidden",
-      "response_body": "{\n  \"status\": \"error\",\n  \"data\": {\n    \"id\": null,\n    \"first_name\": \"Lora\",\n    \"last_name\": \"Jacobs\",\n    \"email\": \"162cordelia.murray@sporerhartmann.com\",\n    \"provider\": \"email\",\n    \"uid\": \"\",\n    \"phone\": null,\n    \"verification_code\": null,\n    \"is_verified\": false,\n    \"created_at\": null,\n    \"updated_at\": null,\n    \"how_did_you_hear_about_us\": null\n  },\n  \"errors\": {\n    \"phone\": [\n      \"can't be blank\",\n      \"is not a number\",\n      \"is the wrong length (should be 12 characters)\"\n    ],\n    \"full_messages\": [\n      \"Phone can't be blank\",\n      \"Phone is not a number\",\n      \"Phone is the wrong length (should be 12 characters)\"\n    ]\n  }\n}",
+      "response_body": "{\n  \"status\": \"error\",\n  \"data\": {\n    \"id\": null,\n    \"first_name\": \"Branson\",\n    \"last_name\": \"Leffler\",\n    \"email\": \"162rodger.crist@kuhlmanpacocha.biz\",\n    \"provider\": \"email\",\n    \"uid\": \"\",\n    \"phone\": null,\n    \"verification_code\": null,\n    \"is_verified\": false,\n    \"created_at\": null,\n    \"updated_at\": null,\n    \"how_did_you_hear_about_us\": null\n  },\n  \"errors\": {\n    \"phone\": [\n      \"is not a number\",\n      \"is the wrong length (should be 12 characters)\",\n      \"can't be blank\"\n    ],\n    \"full_messages\": [\n      \"Phone is not a number\",\n      \"Phone is the wrong length (should be 12 characters)\",\n      \"Phone can't be blank\"\n    ]\n  }\n}",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "application/json; charset=utf-8",
         "Cache-Control": "no-cache",
-        "X-Request-Id": "c71ff7c3-57b0-4c6e-bd90-134c8183c594",
-        "X-Runtime": "0.009387",
-        "Content-Length": "504"
+        "X-Request-Id": "fe0b7863-e9d5-4a84-9e09-f4a1a6bc94e7",
+        "X-Runtime": "0.010617",
+        "Content-Length": "505"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/auth\" -d 'email=162cordelia.murray%40sporerhartmann.com&password=secrety_bickety&password_confirmation=secrety_bickety&first_name=Lora&last_name=Jacobs&phone' -X POST \\\n\t-H \"Access-Token: yIJO_CqJD8ftyQD-szp4yQ\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: DrFOf0Yp2f5W7NuxXTBF1A\" \\\n\t-H \"Expiry: 1458814172\" \\\n\t-H \"Uid: 163kristopher@langosh.name\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/auth\" -d 'email=162rodger.crist%40kuhlmanpacocha.biz&password=secrety_bickety&password_confirmation=secrety_bickety&first_name=Branson&last_name=Leffler&phone' -X POST \\\n\t-H \"Access-Token: syB8GRElpYc_rTEGZgP70A\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: phD9PtjIfKzt25JtNAT1-Q\" \\\n\t-H \"Expiry: 1458966352\" \\\n\t-H \"Uid: 163rylee_bahringer@mann.info\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

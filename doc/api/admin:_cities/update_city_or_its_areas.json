@@ -39,13 +39,13 @@
     {
       "request_method": "PUT",
       "request_path": "/admin/cities/1",
-      "request_body": "city[name]=North+Faustohaven_11&city[areas_attributes][][id]=1&city[areas_attributes][][_destroy]=1",
+      "request_body": "city[name]=South+Orie_11&city[areas_attributes][][id]=1&city[areas_attributes][][_destroy]=1",
       "request_headers": {
-        "Access-Token": "iZYwYyIzO9oUHOMJCVnbMg",
+        "Access-Token": "murSIoIGTnBvwqj4AzmEaQ",
         "Token-Type": "Bearer",
-        "Client": "sOSE1756SscwAaEq11i2EA",
-        "Expiry": "1458814155",
-        "Uid": "16bradford@rutherford.io",
+        "Client": "KUexF7ANZBNDSAyNmf8IRA",
+        "Expiry": "1458966334",
+        "Uid": "16krystina_macgyver@walsh.info",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -55,21 +55,21 @@
       "request_content_type": "application/x-www-form-urlencoded",
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\n  \"id\": 1,\n  \"name\": \"North Faustohaven_11\",\n  \"active\": true\n}",
+      "response_body": "{\n  \"id\": 1,\n  \"name\": \"South Orie_11\",\n  \"active\": true\n}",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"13bdbc0f7b82339ef360f2cd23518da3\"",
+        "ETag": "W/\"c401e6995fa51876d54f61b5dea6cdca\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=SUxJVm1CRzZ3Rm9TYm5WQlFuWTNxY1J0SU5xZ2JMM0JDUTlRYnF1UEZyVDMrOGpUNzEyTm1Oa0dsb1UwenhTazB5RER6SDJUWDFGN1VsYzBYNFVIbkorWXFvV3liOFFHK1pBbUV3dVBxbUZNcEIzNVRzZ3p2Y2x6ZEJKcDNzeGt4OGZwdGFTUGJ2YnRlTlAxemNVNDJwbGhkMTlybXI5WTFFMjBaUC8yTkRORWFqNDM2amR4ZllkSDZZUURwS3dOLS15OThlc3B1THRIZzlGZEcvTjNYNEhnPT0%3D--10042f0e1d987afff56c25d1fe9dee497fddf441; path=/; HttpOnly",
-        "X-Request-Id": "2a031688-204a-4c2b-9b9c-c4aea388752e",
-        "X-Runtime": "0.084090",
-        "Content-Length": "52"
+        "Set-Cookie": "_session_id=U1Zxd1BHNHkxb21EUTZLZzMyMEZKV2QwNFRLMVR1N3ZLdXB3b1Y2NXdDclcxS0ppK2JsS0xIV3pRa04yNUNOcnovMDlReXpJcGVZeHo1SXR6VDMvczBQeE5RZWJTeEZZTGpFMlBHYVBSTHNWQUwrelVnVFFlUDFTKzlWUXg1UVgwTVZVVDNYdjNvdjF0YnAwUnBnUjVubElLeFVpODBCdDNiWEFhaDk5UHZRLzVPRmFhNE9odmFvUnBTTjFyYVhvLS1FaERCRTY4U2IrTTJPZ0YxQ3BxYmh3PT0%3D--0f4cf16eb103127d2893e42ce43c2a1a0e2b0374; path=/; HttpOnly",
+        "X-Request-Id": "09e04fda-3535-4bfa-81cb-117bdc0d37db",
+        "X-Runtime": "0.080330",
+        "Content-Length": "45"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/admin/cities/1\" -d 'city[name]=North+Faustohaven_11&city[areas_attributes][][id]=1&city[areas_attributes][][_destroy]=1' -X PUT \\\n\t-H \"Access-Token: iZYwYyIzO9oUHOMJCVnbMg\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: sOSE1756SscwAaEq11i2EA\" \\\n\t-H \"Expiry: 1458814155\" \\\n\t-H \"Uid: 16bradford@rutherford.io\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/admin/cities/1\" -d 'city[name]=South+Orie_11&city[areas_attributes][][id]=1&city[areas_attributes][][_destroy]=1' -X PUT \\\n\t-H \"Access-Token: murSIoIGTnBvwqj4AzmEaQ\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: KUexF7ANZBNDSAyNmf8IRA\" \\\n\t-H \"Expiry: 1458966334\" \\\n\t-H \"Uid: 16krystina_macgyver@walsh.info\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }
