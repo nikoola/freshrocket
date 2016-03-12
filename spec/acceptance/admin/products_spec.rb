@@ -74,7 +74,7 @@ resource 'admin: products', type: :request do
 			post admin_products_path, { product: valid_params_with_image }, auth_headers
 
 			product = Product.last
-			expect(product.image.url).to eq("https://freshrocket.s3.amazonaws.com/uploads/product/image/#{product.id}/hi.jpg")
+			expect(product.image.url).to eq("https://#{ENV['aws.fog_directory']}.s3.amazonaws.com/uploads/product/image/#{product.id}/hi.jpg")
 
 			product.remove_image!
 		end
