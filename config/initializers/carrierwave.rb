@@ -3,8 +3,6 @@ require 'carrierwave/orm/activerecord'
 
 CarrierWave.configure do |config|
 
-	puts "__________________________"
-	p ENV
 	config.fog_credentials = {
 		provider:              'AWS',                      
 		aws_access_key_id:     ENV['aws.access_key_id'],   
