@@ -5,7 +5,7 @@ there is an angular plugin for a smooth integration with that gem and a jquery l
 
 authorization is role-based. sign up is common for clients and admins.  
 client becomes an admin when we add ability to it. for example, if we update
-`https://rivo.herokuapp.com/api/docs/admin:_users/update_user_abilities` put client with 'products' ability, they'll be able to manage products on backend.
+https://rivo.herokuapp.com/api/docs/admin:_users/update_user_abilities with 'products' ability, they'll be able to manage products on backend.
 
 you can see explanations for some of my decisions in the */why* folder.
 
@@ -58,6 +58,12 @@ ___
 
 to check out background jobs: https://rivo.herokuapp.com/sidekiq. passwords are at https://dashboard.heroku.com/apps/rivo/settings.
 
+___
+
+sidekiq reset:
+
+	To reset statistics:
+	Sidekiq::Stats.new.reset
 
 
 
