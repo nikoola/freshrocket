@@ -47,13 +47,13 @@
     {
       "request_method": "POST",
       "request_path": "/auth",
-      "request_body": "email=162rodger.crist%40kuhlmanpacocha.biz&password=secrety_bickety&password_confirmation=secrety_bickety&first_name=Branson&last_name=Leffler&phone",
+      "request_body": "email=165anna_eichmann%40schoen.com&password=secrety_bickety&password_confirmation=secrety_bickety&first_name=Priscilla&last_name=Kozey&phone",
       "request_headers": {
-        "Access-Token": "syB8GRElpYc_rTEGZgP70A",
+        "Access-Token": "3xtJ5p4x65jgizvGk-hFEw",
         "Token-Type": "Bearer",
-        "Client": "phD9PtjIfKzt25JtNAT1-Q",
-        "Expiry": "1458966352",
-        "Uid": "163rylee_bahringer@mann.info",
+        "Client": "YEoA2rCK3n4ldhQIoloDvQ",
+        "Expiry": "1459096785",
+        "Uid": "166cali.kirlin@braun.co",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -63,19 +63,19 @@
       "request_content_type": "application/x-www-form-urlencoded",
       "response_status": 403,
       "response_status_text": "Forbidden",
-      "response_body": "{\n  \"status\": \"error\",\n  \"data\": {\n    \"id\": null,\n    \"first_name\": \"Branson\",\n    \"last_name\": \"Leffler\",\n    \"email\": \"162rodger.crist@kuhlmanpacocha.biz\",\n    \"provider\": \"email\",\n    \"uid\": \"\",\n    \"phone\": null,\n    \"verification_code\": null,\n    \"is_verified\": false,\n    \"created_at\": null,\n    \"updated_at\": null,\n    \"how_did_you_hear_about_us\": null\n  },\n  \"errors\": {\n    \"phone\": [\n      \"is not a number\",\n      \"is the wrong length (should be 12 characters)\",\n      \"can't be blank\"\n    ],\n    \"full_messages\": [\n      \"Phone is not a number\",\n      \"Phone is the wrong length (should be 12 characters)\",\n      \"Phone can't be blank\"\n    ]\n  }\n}",
+      "response_body": "{\n  \"status\": \"error\",\n  \"data\": {\n    \"id\": null,\n    \"first_name\": \"Priscilla\",\n    \"last_name\": \"Kozey\",\n    \"email\": \"165anna_eichmann@schoen.com\",\n    \"provider\": \"email\",\n    \"uid\": \"\",\n    \"phone\": null,\n    \"verification_code\": null,\n    \"is_verified\": false,\n    \"created_at\": null,\n    \"updated_at\": null,\n    \"how_did_you_hear_about_us\": null\n  },\n  \"errors\": {\n    \"phone\": [\n      \"is not a number\",\n      \"is the wrong length (should be 10 characters)\",\n      \"can't be blank\"\n    ],\n    \"full_messages\": [\n      \"Phone is not a number\",\n      \"Phone is the wrong length (should be 10 characters)\",\n      \"Phone can't be blank\"\n    ]\n  }\n}",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "application/json; charset=utf-8",
         "Cache-Control": "no-cache",
-        "X-Request-Id": "fe0b7863-e9d5-4a84-9e09-f4a1a6bc94e7",
-        "X-Runtime": "0.010617",
-        "Content-Length": "505"
+        "X-Request-Id": "01f9380e-352c-4367-bfb6-11e7e561ad63",
+        "X-Runtime": "0.008836",
+        "Content-Length": "498"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/auth\" -d 'email=162rodger.crist%40kuhlmanpacocha.biz&password=secrety_bickety&password_confirmation=secrety_bickety&first_name=Branson&last_name=Leffler&phone' -X POST \\\n\t-H \"Access-Token: syB8GRElpYc_rTEGZgP70A\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: phD9PtjIfKzt25JtNAT1-Q\" \\\n\t-H \"Expiry: 1458966352\" \\\n\t-H \"Uid: 163rylee_bahringer@mann.info\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/auth\" -d 'email=165anna_eichmann%40schoen.com&password=secrety_bickety&password_confirmation=secrety_bickety&first_name=Priscilla&last_name=Kozey&phone' -X POST \\\n\t-H \"Access-Token: 3xtJ5p4x65jgizvGk-hFEw\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: YEoA2rCK3n4ldhQIoloDvQ\" \\\n\t-H \"Expiry: 1459096785\" \\\n\t-H \"Uid: 166cali.kirlin@braun.co\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

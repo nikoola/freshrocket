@@ -19,11 +19,11 @@
       "request_path": "/client/orders/3",
       "request_body": null,
       "request_headers": {
-        "Access-Token": "yqSa2hux4ojB4z6TRDRvWA",
+        "Access-Token": "vvAxLXVfVJ0Zx3WidYf8tg",
         "Token-Type": "Bearer",
-        "Client": "MQJuLCTaybXBYkX57-og2A",
-        "Expiry": "1458966349",
-        "Uid": "132pierre@lesch.net",
+        "Client": "dNwYFlmGl2ylKfS70kD6YQ",
+        "Expiry": "1459096782",
+        "Uid": "134lavon@bartell.com",
         "Host": "example.org",
         "Cookie": ""
       },
@@ -32,21 +32,21 @@
       "request_content_type": null,
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\n  \"id\": 3,\n  \"user_id\": 5,\n  \"status\": \"unconfirmed\",\n  \"created_at\": \"2016-03-12T04:25:49.244Z\",\n  \"confirmed_at\": null,\n  \"approved_at\": null,\n  \"dispacthed_at\": null,\n  \"delivered_at\": null,\n  \"canceled_at\": null,\n  \"pure_product_price\": \"27.0\",\n  \"tax\": \"0.0\",\n  \"delivery_charge\": \"200.0\",\n  \"total_price\": \"227.0\",\n  \"coupon_code\": null,\n  \"delivery_boy_id\": 1,\n  \"delivery_boy_phone\": \"911149530394\",\n  \"wanted_time\": null,\n  \"wanted_date\": null,\n  \"payment_type\": \"cash\",\n  \"is_paid\": false,\n  \"feedback\": null,\n  \"comment\": null,\n  \"source_type\": null\n}",
+      "response_body": "{\n  \"id\": 3,\n  \"user_id\": 5,\n  \"status\": \"unconfirmed\",\n  \"created_at\": \"2016-03-13T16:39:42.255Z\",\n  \"confirmed_at\": null,\n  \"approved_at\": null,\n  \"dispacthed_at\": null,\n  \"delivered_at\": null,\n  \"canceled_at\": null,\n  \"pure_product_price\": \"27.0\",\n  \"tax\": \"1.35\",\n  \"delivery_charge\": \"200.0\",\n  \"total_price\": \"228.35\",\n  \"coupon_code\": null,\n  \"delivery_boy_id\": 1,\n  \"delivery_boy_phone\": \"2343718723\",\n  \"wanted_time\": null,\n  \"wanted_date\": null,\n  \"payment_type\": \"cash\",\n  \"is_paid\": false,\n  \"feedback\": null,\n  \"comment\": null,\n  \"source_type\": null\n}",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"ac0e3a803dae0b7af9af7ea4b00eb38b\"",
+        "ETag": "W/\"8e308f8a3c73d0153c3063a2f6974b06\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=V3JZN25QVGhUbjhBSURqTittK3pEU3BBbVluZTh3S3dZZUQwKzZ1UTd2VTV5TTRTRmxNTEx4aFo5dUNNTTRqS1VtWk5iU2I0U05BWWFWZzE2QVhQclpZNzd6Mm5PcmZBa2JhRjJUYXpYOG5sT29peEpiZzFhR1E1OUNhMW51U1ZOa3BtWmo1VHJGM0lsME9LK0lHWnYwNmhTTGZJS2tHeHFqb2xERFFhT1FydnZKQ3IzUVJmYk0yb25SclU3M2VhLS02dTJIOXdiZVBUUGVPSlc2bUNpenFRPT0%3D--f7e986b6565615ddb7364c8d5331e0f4a99c379e; path=/; HttpOnly",
-        "X-Request-Id": "e50f03e7-3f9d-45e5-b130-42d7f1cedb37",
-        "X-Runtime": "0.079247",
+        "Set-Cookie": "_session_id=RldJV2JEbWJnRTIrc3hkcTQrM2NhNDJMNm9PWmYrNVo5UnBQRWVlNGxYUnNVWGpsVXNobXdxOTlLMDhGSzVJNXZUa0x5d0N6MVFLdXBjZThUalVNclBjdWtGSGNvWG81MytGVlc2b0NmUXJqTkZsbEFxQ0dEUE9RZzV3WGljQTQ1Zm5ucExpTjlyRG1kb2M0NXc1SHFGcWovTkx6MVh2YmNYaUFGbklmN09ZRFJOVStkbVdKbksydmJvbTlTNUM4LS1mdnM2WksyazYrTlBoTkF4T2dDMUl3PT0%3D--b6e5083ec8c380b15afc1eaf7088f26a0ac4a701; path=/; HttpOnly",
+        "X-Request-Id": "b22dcc34-7882-409a-97c9-87f1593c0a00",
+        "X-Runtime": "0.080015",
         "Content-Length": "471"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/client/orders/3\" -X GET \\\n\t-H \"Access-Token: yqSa2hux4ojB4z6TRDRvWA\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: MQJuLCTaybXBYkX57-og2A\" \\\n\t-H \"Expiry: 1458966349\" \\\n\t-H \"Uid: 132pierre@lesch.net\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/client/orders/3\" -X GET \\\n\t-H \"Access-Token: vvAxLXVfVJ0Zx3WidYf8tg\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: dNwYFlmGl2ylKfS70kD6YQ\" \\\n\t-H \"Expiry: 1459096782\" \\\n\t-H \"Uid: 134lavon@bartell.com\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

@@ -16,11 +16,11 @@
       "request_path": "/auth",
       "request_body": "phone",
       "request_headers": {
-        "Access-Token": "DkiyN1qR1pYhqCE3YblCJw",
+        "Access-Token": "CDCANvGYRd1_N-KqqnUL4w",
         "Token-Type": "Bearer",
-        "Client": "1jlY2sSlL72RmlDnhLJspg",
-        "Expiry": "1458966352",
-        "Uid": "165nikko.stark@hodkiewicz.biz",
+        "Client": "EAsuSrdYL8U067cFC73-Pw",
+        "Expiry": "1459096785",
+        "Uid": "169camden_windler@littlezemlak.com",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -30,20 +30,20 @@
       "request_content_type": "application/x-www-form-urlencoded",
       "response_status": 403,
       "response_status_text": "Forbidden",
-      "response_body": "{\n  \"status\": \"error\",\n  \"errors\": {\n    \"phone\": [\n      \"is not a number\",\n      \"is the wrong length (should be 12 characters)\",\n      \"can't be blank\"\n    ],\n    \"full_messages\": [\n      \"Phone is not a number\",\n      \"Phone is the wrong length (should be 12 characters)\",\n      \"Phone can't be blank\"\n    ]\n  }\n}",
+      "response_body": "{\n  \"status\": \"error\",\n  \"errors\": {\n    \"phone\": [\n      \"is not a number\",\n      \"is the wrong length (should be 10 characters)\",\n      \"can't be blank\"\n    ],\n    \"full_messages\": [\n      \"Phone is not a number\",\n      \"Phone is the wrong length (should be 10 characters)\",\n      \"Phone can't be blank\"\n    ]\n  }\n}",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "application/json; charset=utf-8",
         "Cache-Control": "no-cache",
-        "Set-Cookie": "_session_id=aTU1Ti95RlM0UURmQkpmQXVtMnZqeEVTM0pIVTI0NlVzNGtSUUVMVkxlbXlWUi83dDR0MXFXTzVSdlY3Y1NLRXdJYW9vM083NHlWclZHZUpVZXhRT0VJa3J2MXlFRlV4OHRsWi9NUDh5Mmt2Vmp3M2V3eTRKSFJjbUJmcHlZd3BGTEdVS3ZBalFwWHpBaUk0NWJZL251L05FNUVSVTA0TEp0dStZYUJ5TXovRitvQ1ArUUR1bnJqZ0YzdS9lTkFLLS10QXNUVy9tZHhyQmhpWjFqL2IydlhBPT0%3D--a2ba2f60eedc329fc84f52ac1eb5fc6d4edb96e7; path=/; HttpOnly",
-        "X-Request-Id": "89da514e-9bbc-4fec-921d-2906a3c67a88",
-        "X-Runtime": "0.074822",
+        "Set-Cookie": "_session_id=OU5pOU5BUVpaWEp3OVM2MkdIZnNnVnZIRzVBdW9lQ2N0R3N3RE4vR0ZSTTVGNjEzVkxySm41UmROZXpTZ2lmQ052Qkg1TWFJMkI3SHJnQjFsc3RxZmQ1KzNEYzlvM3ByVG1EVFV2M0Y5ODUrNENZQzB2RVdML2IyM0Z5Szk2Y2FYQmR5cW5yclNHWWFCZzVTaFBCV0Y5OHRQK1BOZnNHckU1SjJNTkVHelZ1LytkU0RvLzBSZDR0ZVFRSVBRQlU4LS1VMEljVzBTaFpnR1hLalpRc3Z2T2lBPT0%3D--a0f299de075cccf9e03ff5d0fcdffd69bc3cafa8; path=/; HttpOnly",
+        "X-Request-Id": "03772f94-732e-4ee5-9378-c4a56ee84741",
+        "X-Runtime": "0.074505",
         "Content-Length": "241"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/auth\" -d 'phone' -X PUT \\\n\t-H \"Access-Token: DkiyN1qR1pYhqCE3YblCJw\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: 1jlY2sSlL72RmlDnhLJspg\" \\\n\t-H \"Expiry: 1458966352\" \\\n\t-H \"Uid: 165nikko.stark@hodkiewicz.biz\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/auth\" -d 'phone' -X PUT \\\n\t-H \"Access-Token: CDCANvGYRd1_N-KqqnUL4w\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: EAsuSrdYL8U067cFC73-Pw\" \\\n\t-H \"Expiry: 1459096785\" \\\n\t-H \"Uid: 169camden_windler@littlezemlak.com\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

@@ -27,11 +27,11 @@
       "request_path": "/admin/users?has_ability=users",
       "request_body": null,
       "request_headers": {
-        "Access-Token": "Q3PqddnYAruP2zs8RzMICw",
+        "Access-Token": "wKxozlZ_Nt1eL0MNDi0VaQ",
         "Token-Type": "Bearer",
-        "Client": "6Ten0zTJByS4dKb_qbcddA",
-        "Expiry": "1458966340",
-        "Uid": "90orland@lakinfahey.com",
+        "Client": "oWB-ZT-RR4bibjvzpCH6Pw",
+        "Expiry": "1459096774",
+        "Uid": "90christiana.jast@leuschkekris.net",
         "Host": "example.org",
         "Cookie": ""
       },
@@ -41,21 +41,21 @@
       "request_content_type": null,
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "[\n  {\n    \"id\": 2,\n    \"first_name\": \"Mathias\",\n    \"last_name\": \"Homenick\",\n    \"email\": \"90orland@lakinfahey.com\",\n    \"phone\": \"917144093495\",\n    \"is_verified\": false,\n    \"provider\": \"email\",\n    \"uid\": \"90orland@lakinfahey.com\",\n    \"created_at\": \"2016-03-12T04:25:40.903Z\",\n    \"abilities\": {\n      \"orders\": 0,\n      \"products\": 0,\n      \"users\": 1,\n      \"categories\": 0,\n      \"coupons\": 0,\n      \"settings\": 0,\n      \"cities\": 0,\n      \"delivery_boy\": 0\n    }\n  }\n]",
+      "response_body": "[\n  {\n    \"id\": 2,\n    \"first_name\": \"Hector\",\n    \"last_name\": \"Quigley\",\n    \"email\": \"90christiana.jast@leuschkekris.net\",\n    \"phone\": \"4877412473\",\n    \"is_verified\": false,\n    \"provider\": \"email\",\n    \"uid\": \"90christiana.jast@leuschkekris.net\",\n    \"created_at\": \"2016-03-13T16:39:34.854Z\",\n    \"abilities\": {\n      \"orders\": 0,\n      \"products\": 0,\n      \"users\": 1,\n      \"categories\": 0,\n      \"coupons\": 0,\n      \"settings\": 0,\n      \"cities\": 0,\n      \"delivery_boy\": 0\n    }\n  }\n]",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"359e1cae569774146b9d11ec00b3eb7b\"",
+        "ETag": "W/\"04a9a64101181ae39e3364637019994a\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=VmVRTnR6a2VwVnR2ZHlkbDM1S292TEI2Wkx5SjN5TGxXamxLRUpzamhTWTdnaWkrakFnYlIrdm9admZrRnh0WWl1TThsQkFZQmE5NTlOYW1SVi9YRk9UZHV0S2daT0hTT1VxNURWR1N2N21PRXRGWGhnbExZbmNwZlgxcUlsMG15OWU1Vzd4Z1JwOHMxWlkyQU5JWWFxN01ISUJodmdINkIrUTYyU1FybCs5dXpVd2ovL0dkQVFMSzZIRGJhcGIwLS02ZFh0SENyWXpJNFhoYXFRVUN4YmhnPT0%3D--f9b4c5bc18fc9e262914b30ed1637d4b463724df; path=/; HttpOnly",
-        "X-Request-Id": "8d4df9e8-0d43-4d3b-84f5-7685ecb98bed",
-        "X-Runtime": "0.082862",
-        "Content-Length": "340"
+        "Set-Cookie": "_session_id=V0V2aGd3bkZLcXl3bmdNWGV2Y0YwRGNaY0tYbUtJMWtCckN5TlpOVGNKY1BpYm8yREErSmtvcFllbGJEK2NiQklYMnMyT2toZE9mSzFzYXFQaWZ4dUFtR0FPeDIySC8zYnZLWjlpS3dUMFpQaklsZ000Z1lNaXV5Ni9kYmo4Z2FpSnJzS2locVFsbFNkLzFTRnhXOGhvK1FtcEZ5bTZOT2FNRXV4Y2xOWWxoU1BBT3VCNDIxaCtLMWVFVFR3dXFvLS1md2hxSW8raEFWcklXTWUrcm80MHB3PT0%3D--1621935aa6c4568b32dad29aa655b62f3ee56340; path=/; HttpOnly",
+        "X-Request-Id": "3d68c93b-b02e-425b-81b3-2b01d040f029",
+        "X-Runtime": "0.090046",
+        "Content-Length": "358"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/admin/users?has_ability=users\" -X GET \\\n\t-H \"Access-Token: Q3PqddnYAruP2zs8RzMICw\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: 6Ten0zTJByS4dKb_qbcddA\" \\\n\t-H \"Expiry: 1458966340\" \\\n\t-H \"Uid: 90orland@lakinfahey.com\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/admin/users?has_ability=users\" -X GET \\\n\t-H \"Access-Token: wKxozlZ_Nt1eL0MNDi0VaQ\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: oWB-ZT-RR4bibjvzpCH6Pw\" \\\n\t-H \"Expiry: 1459096774\" \\\n\t-H \"Uid: 90christiana.jast@leuschkekris.net\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

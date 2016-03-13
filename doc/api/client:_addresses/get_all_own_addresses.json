@@ -19,11 +19,11 @@
       "request_path": "/client/addresses?active=0",
       "request_body": null,
       "request_headers": {
-        "Access-Token": "ezMXtlGdlm0sLv6Wj4wY-g",
+        "Access-Token": "fGalmnnZFDzCmALipSByAw",
         "Token-Type": "Bearer",
-        "Client": "1ZBK1tdmxpdemUZ6L3DSNA",
-        "Expiry": "1458966343",
-        "Uid": "115rebekah_bogan@rath.com",
+        "Client": "oVMtG1qzu-fT23Acv3Ackw",
+        "Expiry": "1459096777",
+        "Uid": "117maegan@sanford.com",
         "Host": "example.org",
         "Cookie": ""
       },
@@ -33,21 +33,21 @@
       "request_content_type": null,
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "[\n  {\n    \"id\": 1,\n    \"city_id\": 1,\n    \"user_id\": 1,\n    \"street_and_house\": \"22827 Evelyn Vista\",\n    \"door_number\": \"5\"\n  },\n  {\n    \"id\": 2,\n    \"city_id\": 2,\n    \"user_id\": 1,\n    \"street_and_house\": \"88209 Quitzon Gardens\",\n    \"door_number\": \"5\"\n  },\n  {\n    \"id\": 3,\n    \"city_id\": 3,\n    \"user_id\": 1,\n    \"street_and_house\": \"5678 Ilene Trail\",\n    \"door_number\": \"5\"\n  }\n]",
+      "response_body": "[\n  {\n    \"id\": 1,\n    \"city_id\": 1,\n    \"user_id\": 1,\n    \"street_and_house\": \"192 Raquel Stream\",\n    \"door_number\": \"5\",\n    \"zip_code\": null,\n    \"active\": false\n  },\n  {\n    \"id\": 2,\n    \"city_id\": 2,\n    \"user_id\": 1,\n    \"street_and_house\": \"447 Rowland Turnpike\",\n    \"door_number\": \"5\",\n    \"zip_code\": null,\n    \"active\": false\n  },\n  {\n    \"id\": 3,\n    \"city_id\": 3,\n    \"user_id\": 1,\n    \"street_and_house\": \"8754 Lowe Mall\",\n    \"door_number\": \"5\",\n    \"zip_code\": null,\n    \"active\": false\n  }\n]",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"bca9b1a124acc17ba8406009c044a982\"",
+        "ETag": "W/\"3f87fd098fc6c5094f0386497ad01f51\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=aytmWm9wYXQrZDhCbzNjNWZaKzMyYWlLTWlSajF0VkV1ZmQ4WitTUmMrdmZJOEdVTjNtNW9xN21kUkhOWkhqUEJzV1VFWUtmNjJtVXhBQXRMWFlYYjRjZ0wvSjBDd2s5Y2I1cTNMUDZiMFdzNjJLbmRORUJiOW1ncUVoN0czNGlmRTJQWVFncGhJbjNxenFTdm96dDZ0Ny8xMWgxR1VOM1JUNHhoc0NnakZtYm1MVWVWclVTcmRRL1hHTVFvakZHLS1va3Q2aldVMm5rUTZ1TGNzSzB6dEd3PT0%3D--00d2c774ac051943fdb09ed4264e883045a37c37; path=/; HttpOnly",
-        "X-Request-Id": "bd20066f-ac34-4bf8-ab3f-6c1a6062107a",
-        "X-Runtime": "0.097745",
-        "Content-Length": "275"
+        "Set-Cookie": "_session_id=RlFlQTFPLzhDbWtIaHd2V2dqeFdVQ0d6R3Bja1JjNmZXbklycllYS05uaVJuOGRoV3VxalpIOGhZdGp4YVg4Ym9Zd3JCL2NLbVM5MGRqRGtRUktuL3dpTkVPVXEzZFpQeDNUMTJScHl0YnBMdkJwanl4ekk0YjBpQ0dOcEtZcmdEd2t5bTk3Uk16Sjl6dUpoZ1ZJM0trUUlsVHVGK0dRM3pJSXFyYnd5UVh5TEJxL2ZBMS9NQnBqUmhsbW9JZlQ2LS00MkpjbTVLcGJvNUdyeWlKb1NvTEF3PT0%3D--c89e97d27010a738e6d11f6b8714b9a2066fbe9a; path=/; HttpOnly",
+        "X-Request-Id": "972e5f1f-bdec-43f3-ad97-cb93e34f9014",
+        "X-Runtime": "0.091302",
+        "Content-Length": "364"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/client/addresses?active=0\" -X GET \\\n\t-H \"Access-Token: ezMXtlGdlm0sLv6Wj4wY-g\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: 1ZBK1tdmxpdemUZ6L3DSNA\" \\\n\t-H \"Expiry: 1458966343\" \\\n\t-H \"Uid: 115rebekah_bogan@rath.com\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/client/addresses?active=0\" -X GET \\\n\t-H \"Access-Token: fGalmnnZFDzCmALipSByAw\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: oVMtG1qzu-fT23Acv3Ackw\" \\\n\t-H \"Expiry: 1459096777\" \\\n\t-H \"Uid: 117maegan@sanford.com\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

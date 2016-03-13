@@ -16,11 +16,11 @@
       "request_path": "/auth/sign_out",
       "request_body": null,
       "request_headers": {
-        "Access-Token": "gJ5lsAgwyyuTGfAMLBhYqA",
+        "Access-Token": "2hUHzOflaxWv8R-BA-1tvA",
         "Token-Type": "Bearer",
-        "Client": "zC9MGplgjKMnBsGckhE2WA",
-        "Expiry": "1458966344",
-        "Uid": "122damien@moen.net",
+        "Client": "ZlckZQwnouIU77BV9jqccw",
+        "Expiry": "1459096778",
+        "Uid": "124adelia@johnsonmoore.name",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -38,13 +38,13 @@
         "Content-Type": "application/json; charset=utf-8",
         "ETag": "W/\"7363e85fe9edee6f053a4b319588c086\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=dnAvc2Y1OU1zQ0NKWVdXaDRRTndqazVoM2F1MjY3MXRlUFB4MWZUd0ttV040VFp1YXJBTjhpYXJLUXZKVlZWdDJXWWpRTDNXaGxSc3kvR0dsY2syUnc9PS0tMTRuM2o0MnNhbmM1RU9uQkhEdnNDQT09--b82e9cb43c5fc5e7f6770a1b36c07e4511a81174; path=/; HttpOnly",
-        "X-Request-Id": "d4a0eff9-4d9e-4bc9-8965-280ed7cd6b9a",
-        "X-Runtime": "0.072219",
+        "Set-Cookie": "_session_id=K2ZGd0FHRU9KZWtock85S1pBUjVVazhYVlBWN0ZHUFd0dEJsa1ZWemRNVWdRRE41ZGlHcVR3akpuWjQvcExhVGdkaDBKUzNnSUZtaVIrSFBXQ2EyYUE9PS0tUEVrclRTZDAzN2N1MTc4RXpsVDFSQT09--19385780a98ec6e481aca7d0c0e9f9f9f99f7e77; path=/; HttpOnly",
+        "X-Request-Id": "0674118a-59f0-4237-a3b6-7325115430a6",
+        "X-Runtime": "0.072637",
         "Content-Length": "16"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/auth/sign_out\" -d '' -X DELETE \\\n\t-H \"Access-Token: gJ5lsAgwyyuTGfAMLBhYqA\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: zC9MGplgjKMnBsGckhE2WA\" \\\n\t-H \"Expiry: 1458966344\" \\\n\t-H \"Uid: 122damien@moen.net\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/auth/sign_out\" -d '' -X DELETE \\\n\t-H \"Access-Token: 2hUHzOflaxWv8R-BA-1tvA\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: ZlckZQwnouIU77BV9jqccw\" \\\n\t-H \"Expiry: 1459096778\" \\\n\t-H \"Uid: 124adelia@johnsonmoore.name\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

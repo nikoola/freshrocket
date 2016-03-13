@@ -37,13 +37,13 @@
     {
       "request_method": "POST",
       "request_path": "/client/addresses",
-      "request_body": "address[street_and_house]=9230+Schuster+Alley&address[door_number]=5&address[city_id]=1",
+      "request_body": "address[street_and_house]=559+Jaron+Mills&address[door_number]=5&address[city_id]=1",
       "request_headers": {
-        "Access-Token": "GATtT7sNgzaRKd2HcdcXPg",
+        "Access-Token": "duK3rG7cb5lkuBbWBYyrMA",
         "Token-Type": "Bearer",
-        "Client": "uuBRHbAubEOhABDfBNItFg",
-        "Expiry": "1458966343",
-        "Uid": "118skye@klocko.name",
+        "Client": "uzno4rOGBdX4p-8m0nTRUw",
+        "Expiry": "1459096777",
+        "Uid": "120myra@bayer.biz",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -53,21 +53,21 @@
       "request_content_type": "application/x-www-form-urlencoded",
       "response_status": 201,
       "response_status_text": "Created",
-      "response_body": "{\n  \"id\": 1,\n  \"city_id\": 1,\n  \"user_id\": 1,\n  \"street_and_house\": \"9230 Schuster Alley\",\n  \"door_number\": \"5\"\n}",
+      "response_body": "{\n  \"id\": 1,\n  \"city_id\": 1,\n  \"user_id\": 1,\n  \"street_and_house\": \"559 Jaron Mills\",\n  \"door_number\": \"5\",\n  \"zip_code\": null,\n  \"active\": true\n}",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"1bd80c4825fbb8abb85a3baeb28d0b8d\"",
+        "ETag": "W/\"5511785c1882048dcc9999f7f6ca846f\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=emlQVDI4ak1sSXJjQjhKcTdyYnFwd29EOXAxSzFMQmRZc3hkb2RNaFZ5L0NoOWM4ZE8zTjdGQ0toRG9ROEdzTVZrZ3NIbFE1dGNLaGdCVlpXT2FLdDB3NS80QmNPZHorWnZDbXczQUJ1N0xUZHZKY1g5dHByY09rRzVOTlF0cTYzRSswbzMrbFJqNkhLazVtREVPSFRQdE5GdUtYMXREU3NpWStrU1FSQlhoSWRkL1hZbGRFTGNpelh2S20xdFFJLS1GSzFTZFJlQ05DY3ZCNXFzNW1admN3PT0%3D--806b6c26bb3a23df81796cf97305743f342d8f62; path=/; HttpOnly",
-        "X-Request-Id": "c9f58314-1d10-452f-82e2-67a950c8f7f0",
-        "X-Runtime": "0.076970",
-        "Content-Length": "91"
+        "Set-Cookie": "_session_id=WG9Fa1RCckdnalJsenMrS3VpblhwZkI2ZWhTWmd5VXpTOFR3VGl6d25rYlc1anZVbVU2a05BQWZXWWUycmVSd1BoY25JR2xzaGlkTmltYy83UWtRK1E5OWp6b0dObjhibkxremxCQjBRazFSb2thQmRGODV3d29pMUJucWhIVEtWZ0Z6NElkY2g5Vk91UTZHMDlpR2pXWStaekFHeWUwVWV2TWhuK2JrcExPblRVZXpZbVc4YTdXaU5uUS9YTlM4LS0zbmtKRWw0a2Vkc0tkZisvQWpPd0F3PT0%3D--296b4b596870d4ed1276f8d06918fbd3b4edd7b5; path=/; HttpOnly",
+        "X-Request-Id": "d9fe36c2-547f-45ea-9eb7-8d503ef2bcc9",
+        "X-Runtime": "0.092101",
+        "Content-Length": "117"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/client/addresses\" -d 'address[street_and_house]=9230+Schuster+Alley&address[door_number]=5&address[city_id]=1' -X POST \\\n\t-H \"Access-Token: GATtT7sNgzaRKd2HcdcXPg\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: uuBRHbAubEOhABDfBNItFg\" \\\n\t-H \"Expiry: 1458966343\" \\\n\t-H \"Uid: 118skye@klocko.name\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/client/addresses\" -d 'address[street_and_house]=559+Jaron+Mills&address[door_number]=5&address[city_id]=1' -X POST \\\n\t-H \"Access-Token: duK3rG7cb5lkuBbWBYyrMA\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: uzno4rOGBdX4p-8m0nTRUw\" \\\n\t-H \"Expiry: 1459096777\" \\\n\t-H \"Uid: 120myra@bayer.biz\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

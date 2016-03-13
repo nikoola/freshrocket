@@ -19,11 +19,11 @@
       "request_path": "deliver/orders/3",
       "request_body": "order[is_paid]=true",
       "request_headers": {
-        "Access-Token": "BPdG26NtDuXiEdr83EyaBg",
+        "Access-Token": "Ix1HCf9FbeKyI-YkIHaexg",
         "Token-Type": "Bearer",
-        "Client": "v1dbEnLk1vllwNQJOVwtYg",
-        "Expiry": "1458966354",
-        "Uid": "181dwight_damore@heathcote.co",
+        "Client": "kYpmNOcP4UfRD0Qc3J-CSQ",
+        "Expiry": "1459096786",
+        "Uid": "185brant@bahringer.org",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -33,21 +33,21 @@
       "request_content_type": "application/x-www-form-urlencoded",
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\n  \"id\": 3,\n  \"user_id\": 6,\n  \"status\": \"unconfirmed\",\n  \"created_at\": \"2016-03-12T04:25:54.067Z\",\n  \"confirmed_at\": null,\n  \"approved_at\": null,\n  \"dispacthed_at\": null,\n  \"delivered_at\": null,\n  \"canceled_at\": null,\n  \"pure_product_price\": \"27.0\",\n  \"tax\": \"0.0\",\n  \"delivery_charge\": \"200.0\",\n  \"total_price\": \"227.0\",\n  \"coupon_code\": null,\n  \"delivery_boy_id\": 1,\n  \"delivery_boy_phone\": \"918626019571\",\n  \"wanted_time\": null,\n  \"wanted_date\": null,\n  \"payment_type\": \"cash\",\n  \"is_paid\": true,\n  \"feedback\": null,\n  \"comment\": null,\n  \"source_type\": null\n}",
+      "response_body": "{\n  \"id\": 3,\n  \"user_id\": 6,\n  \"status\": \"unconfirmed\",\n  \"created_at\": \"2016-03-13T16:39:46.890Z\",\n  \"confirmed_at\": null,\n  \"approved_at\": null,\n  \"dispacthed_at\": null,\n  \"delivered_at\": null,\n  \"canceled_at\": null,\n  \"pure_product_price\": \"27.0\",\n  \"tax\": \"1.35\",\n  \"delivery_charge\": \"200.0\",\n  \"total_price\": \"228.35\",\n  \"coupon_code\": null,\n  \"delivery_boy_id\": 1,\n  \"delivery_boy_phone\": \"2629942324\",\n  \"wanted_time\": null,\n  \"wanted_date\": null,\n  \"payment_type\": \"cash\",\n  \"is_paid\": true,\n  \"feedback\": null,\n  \"comment\": null,\n  \"source_type\": null\n}",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"c4e35c8396d385bda302b6b07202fe70\"",
+        "ETag": "W/\"b2f013250a6db3f1783dfdd1228c56a2\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=eFhhbUxOWnQ4U1lVM2tTS0Y1bTJzbFlkcFhPNzRKOXFtSmlQbXZ5VlJpN0lva2c2SnM1SWU5dHFWUWxCNzZMVlNQdzBBK3NyRFdZRFozOUZYc2pxUjdMNk9ndExzZzV3VE11aUphUUlaQ2VWQlIxM3o1SVRPQ2tyZi9KSVU3Q1dxNC96NVNXbTJtSlY2OE8xazZlTmd4Z29BcWpWcE1jNkhqRUZ5eE5TQUJpelJNWVhoQW15TCtieXNpSzRBcWpPLS1ZcW44T0pUR2lhSlV1RU1oUEZDMm93PT0%3D--03a72f7024f94f9ccdcf2e5037fd6c01a00f3a64; path=/; HttpOnly",
-        "X-Request-Id": "31f75c69-3b17-43b6-a1e9-cd818dc55df7",
-        "X-Runtime": "0.084747",
+        "Set-Cookie": "_session_id=YzhFUEpIbG9WSGlJUDl1RytySXRIcDVCVjd6NXNIQjJnQ1lQWnFrMkFtUXhCbE4rMDBzWmxUeXhYV3pEVDB5bFhZMGlHeFlLdmJueFE5Mkt1Nlg2bFh2SWpGOXM3ZUROYm1id2pTMk9URXlETzRIOEJXWEdyUnA0Wi96RDd3K3RFOVZDRDJHQUlxL2pQY3lYRU5rWkQvdnEvZm5hSVJKNC9laVlpdVhqTENUSzBZdnE0bk56SHNvZWxHZHpiait2LS1LQlpsd3BJL2lvTFg0cGpkM2M4YXZnPT0%3D--5672b18b35fbe7e8db19e06d25b1930ea0903f32; path=/; HttpOnly",
+        "X-Request-Id": "7b3960bc-60fd-43a4-a483-8c264718e1a1",
+        "X-Runtime": "0.085535",
         "Content-Length": "470"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000deliver/orders/3\" -d 'order[is_paid]=true' -X PUT \\\n\t-H \"Access-Token: BPdG26NtDuXiEdr83EyaBg\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: v1dbEnLk1vllwNQJOVwtYg\" \\\n\t-H \"Expiry: 1458966354\" \\\n\t-H \"Uid: 181dwight_damore@heathcote.co\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000deliver/orders/3\" -d 'order[is_paid]=true' -X PUT \\\n\t-H \"Access-Token: Ix1HCf9FbeKyI-YkIHaexg\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: kYpmNOcP4UfRD0Qc3J-CSQ\" \\\n\t-H \"Expiry: 1459096786\" \\\n\t-H \"Uid: 185brant@bahringer.org\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

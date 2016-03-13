@@ -5,6 +5,8 @@ resource 'client: users', type: :request do
 	let(:user) { FactoryGirl.create :user }
 	let(:auth_headers) { user.create_new_auth_token }
 
+	let(:new_phone) { FactoryGirl.attributes_for(:user)[:phone].to_s }
+
 	include_context 'shared_headers'
 
 
@@ -24,7 +26,9 @@ resource 'client: users', type: :request do
 			parameter 'how_did_you_hear_about_us'
 
 			example 'create user' do
-				do_request FactoryGirl.attributes_for(:user, phone: '+79172343270') #devise_parameter_sanitizer
+				do_request FactoryGirl.attributes_for(:user, 
+					phone: new_phone
+				) #devise_parameter_sanitizer
 
 				expect(status).to eq(200)
 				expect(json[:status]).to eq('success')
@@ -59,11 +63,11 @@ resource 'client: users', type: :request do
 
 			it 'user updates self' do
 				explanation 'if phone is updates, is_verified is set to false'
-				do_request({ phone: '+79174446666' })
+				do_request({ phone: new_phone })
 
 				user.reload
 				# expect(user.role).not_to eq('admin') #application_controller, devise_parameter_sanitizer. should not be able to make itself admin.
-				expect(user.phone).to eq('+79174446666')
+				expect(user.phone).to eq(new_phone)
 				expect(user.is_verified).to be(false)
 
 				expect(status).to eq(200)

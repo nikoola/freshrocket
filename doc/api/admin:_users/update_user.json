@@ -14,13 +14,13 @@
     {
       "request_method": "PUT",
       "request_path": "/admin/users/1",
-      "request_body": "user[email]=hi%40hi.hey&user[phone]=%2B79177878978",
+      "request_body": "user[email]=hi%40hi.hey&user[phone]=7367855072",
       "request_headers": {
-        "Access-Token": "3xiPek9Kgg5GQpN5oKRPLg",
+        "Access-Token": "x78Ionx2Nt_10-SaEuCmIw",
         "Token-Type": "Bearer",
-        "Client": "gCz9CXNnEG3O3KXNOaOyQQ",
-        "Expiry": "1458966341",
-        "Uid": "101ro@hermiston.net",
+        "Client": "zjcwC4M5CdpNHhHrwyjQ2g",
+        "Expiry": "1459096775",
+        "Uid": "102kara_ko@macejkovicbradtke.com",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -30,21 +30,21 @@
       "request_content_type": "application/x-www-form-urlencoded",
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\n  \"id\": 1,\n  \"first_name\": \"Cathrine\",\n  \"last_name\": \"Lueilwitz\",\n  \"email\": \"hi@hi.hey\",\n  \"phone\": \"+79177878978\",\n  \"is_verified\": false,\n  \"provider\": \"email\",\n  \"uid\": \"hi@hi.hey\",\n  \"created_at\": \"2016-03-12T04:25:41.843Z\",\n  \"abilities\": {\n    \"orders\": 0,\n    \"products\": 0,\n    \"users\": 0,\n    \"categories\": 1,\n    \"coupons\": 0,\n    \"settings\": 0,\n    \"cities\": 0,\n    \"delivery_boy\": 0\n  }\n}",
+      "response_body": "{\n  \"id\": 1,\n  \"first_name\": \"Gregg\",\n  \"last_name\": \"Morissette\",\n  \"email\": \"hi@hi.hey\",\n  \"phone\": \"7367855072\",\n  \"is_verified\": false,\n  \"provider\": \"email\",\n  \"uid\": \"hi@hi.hey\",\n  \"created_at\": \"2016-03-13T16:39:35.876Z\",\n  \"abilities\": {\n    \"orders\": 0,\n    \"products\": 0,\n    \"users\": 0,\n    \"categories\": 1,\n    \"coupons\": 0,\n    \"settings\": 0,\n    \"cities\": 0,\n    \"delivery_boy\": 0\n  }\n}",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"82054196777953479eabcf002516c413\"",
+        "ETag": "W/\"518ec1a6430b4c7855ca0c0914be36fc\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=ZVVZUTJZQkhiczkySHpONjRSdmFBTENUbHloUEJpbTJaSERHdGR3UkpBcC9EZDl4ZnRjaGEvZUp4M0dhSGZGbmFOcHMzREI3VGN5SXQ4TU5mcmt3T1JlVHlYSlY2a0VBcEVaOWVBNml4MTBTQmhvRjNxb1dlMll2Q2xwU2hDNmZQV1p3VUI3cmluUXFYL3p6bE1ZTHRsQU5Ld1MxNytXdDFVYUpXWi82ZmlnTFJiS0NiQ2NSNkhkNFdIMUo1cHlJLS12aVZSUVRLYjdzbUhaZnloZFRSZTZBPT0%3D--b996a6fd2f247554d8d0a666cdfc49bca1d68d38; path=/; HttpOnly",
-        "X-Request-Id": "9eacdbac-8bb6-4014-9ec5-eab045754b5b",
-        "X-Runtime": "0.083198",
-        "Content-Length": "312"
+        "Set-Cookie": "_session_id=NG9OS2Y1UDJEOWdwNmJzZ2sydzZGeWd6b202OHZ6bm5KNit2TU4yZExUQzFJTmdycUNqMjVBVVNOa2t2WlNScFdjT0xzbmpQcFRTRC9LQkZoWnVwSWJobzY5SzZOakhKZmJGRHptcGE1L0E1TWFENGVUSzFHT3oraUJKNmJqaWpaK1RzVnc3bkdsSzlDNmVpMW5uZEpjMHpCNFFSRG1VeHZXTVlobitsdWc0UWhIVFR1VGFvWXdMZUtLb3FhYnBsLS12eUJTRlkydWgrc2dRSmFuVWQ0N2lBPT0%3D--b8ff14bc30d61975f37fe734e0d20ed451c2092a; path=/; HttpOnly",
+        "X-Request-Id": "1c1ad980-9636-4e84-b1cf-6e26095f6700",
+        "X-Runtime": "0.086249",
+        "Content-Length": "308"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/admin/users/1\" -d 'user[email]=hi%40hi.hey&user[phone]=%2B79177878978' -X PUT \\\n\t-H \"Access-Token: 3xiPek9Kgg5GQpN5oKRPLg\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: gCz9CXNnEG3O3KXNOaOyQQ\" \\\n\t-H \"Expiry: 1458966341\" \\\n\t-H \"Uid: 101ro@hermiston.net\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/admin/users/1\" -d 'user[email]=hi%40hi.hey&user[phone]=7367855072' -X PUT \\\n\t-H \"Access-Token: x78Ionx2Nt_10-SaEuCmIw\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: zjcwC4M5CdpNHhHrwyjQ2g\" \\\n\t-H \"Expiry: 1459096775\" \\\n\t-H \"Uid: 102kara_ko@macejkovicbradtke.com\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

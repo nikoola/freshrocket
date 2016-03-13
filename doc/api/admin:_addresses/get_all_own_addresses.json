@@ -19,11 +19,11 @@
       "request_path": "/admin/addresses?active=0",
       "request_body": null,
       "request_headers": {
-        "Access-Token": "azPalX2NhrPORYK_ABeHKQ",
+        "Access-Token": "22P7t2Tl1RRsmTCeR3DckA",
         "Token-Type": "Bearer",
-        "Client": "zzGCcDiBBlG3UEuOPg84kA",
-        "Expiry": "1458966332",
-        "Uid": "6andre@predovic.com",
+        "Client": "DpbTcu33Xb0YjHZYv23DnQ",
+        "Expiry": "1459096761",
+        "Uid": "6greyson_champlin@kemmer.info",
         "Host": "example.org",
         "Cookie": ""
       },
@@ -33,21 +33,21 @@
       "request_content_type": null,
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "[\n  {\n    \"id\": 1,\n    \"city_id\": 1,\n    \"user_id\": 1,\n    \"street_and_house\": \"727 Reilly Haven\",\n    \"door_number\": \"5\"\n  },\n  {\n    \"id\": 2,\n    \"city_id\": 2,\n    \"user_id\": 2,\n    \"street_and_house\": \"636 Rick Mall\",\n    \"door_number\": \"5\"\n  },\n  {\n    \"id\": 3,\n    \"city_id\": 3,\n    \"user_id\": 3,\n    \"street_and_house\": \"7556 Adams Flats\",\n    \"door_number\": \"5\"\n  }\n]",
+      "response_body": "[\n  {\n    \"id\": 1,\n    \"city_id\": 1,\n    \"user_id\": 1,\n    \"street_and_house\": \"96360 Metz Hills\",\n    \"door_number\": \"5\",\n    \"zip_code\": null,\n    \"active\": false\n  },\n  {\n    \"id\": 2,\n    \"city_id\": 2,\n    \"user_id\": 2,\n    \"street_and_house\": \"7743 Dolly Centers\",\n    \"door_number\": \"5\",\n    \"zip_code\": null,\n    \"active\": false\n  },\n  {\n    \"id\": 3,\n    \"city_id\": 3,\n    \"user_id\": 3,\n    \"street_and_house\": \"840 Koch Canyon\",\n    \"door_number\": \"5\",\n    \"zip_code\": null,\n    \"active\": false\n  }\n]",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"ffa693512b5cbb4b0cdfdcfd36edf28e\"",
+        "ETag": "W/\"8dddc5f27945592fa6283659bf32e59a\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=UjdRQXVZZnBlYlkrcWxEQk8xZWFBckFhN2xNaURHNlRrU2MzU1pLRVZ4V0VMVThUUVNrZFhiT3VpRVNWa1pWM00xdk9wY20xbVdYYVZaNlcxNFNaejJCNTRGKzBYeHdpSkJhQmhsT0VHYitTMzVQbWo2eUlZY0dxRlRWYjF6SlBnZjg0U0ZpNk44UTVBZi9walJodFZHdlcrVjBMdEQyM0MxQUpnazlOUHB6Z2lqdVlGeXNDRXJoeTFCcEhMQ2VKLS01b2NnUUYrOWZsT0NxL3dncElQdkxRPT0%3D--69f0f7bdf7c0fe3bbba0d1e248ec6924890cf683; path=/; HttpOnly",
-        "X-Request-Id": "5c99a62c-cc9e-4e31-a774-f4d0a45f555c",
-        "X-Runtime": "0.114076",
-        "Content-Length": "265"
+        "Set-Cookie": "_session_id=QUpzOU5TV1BJNGdqQ090ZktESW9RQUJka1F2R0RLLzVEc3hIUFVFWEl1NjFTZFQxZVhnZW9weTdOblFnNkxzSUNRQkJ3NHhQT2pabkx5d09YR1dQU2tmM2hwbnJuYlpQVDV0YklJSElyYmlIWENIVjJ6QzZVYkFmTTBVbmgrMkdLSWdienJPRzJmRUVZQnhXNDZ0dHdTZ2t5ay8zUzV5cEZ0QUI2Uy9CQzdWUlJYaHpMQTJqWThxQlpSS2gzMDRVLS1GMzFXeUd1Y1ZkOVdlSnlzQ2hoQ2lnPT0%3D--55dec462562330d9ad44ced6363aa9dc53fba5ea; path=/; HttpOnly",
+        "X-Request-Id": "a207c88f-c922-4c24-a57d-7c739092d16e",
+        "X-Runtime": "0.117484",
+        "Content-Length": "362"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/admin/addresses?active=0\" -X GET \\\n\t-H \"Access-Token: azPalX2NhrPORYK_ABeHKQ\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: zzGCcDiBBlG3UEuOPg84kA\" \\\n\t-H \"Expiry: 1458966332\" \\\n\t-H \"Uid: 6andre@predovic.com\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/admin/addresses?active=0\" -X GET \\\n\t-H \"Access-Token: 22P7t2Tl1RRsmTCeR3DckA\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: DpbTcu33Xb0YjHZYv23DnQ\" \\\n\t-H \"Expiry: 1459096761\" \\\n\t-H \"Uid: 6greyson_champlin@kemmer.info\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

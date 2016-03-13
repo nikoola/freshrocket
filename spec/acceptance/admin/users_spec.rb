@@ -99,7 +99,7 @@ resource 'admin: users', type: :request do
 				id: prohibited_user.id,
 				user: {
 					email: 'hi@hi.hey',
-					phone: '+79177878978'
+					phone: FactoryGirl.attributes_for(:user)[:phone]
 				}
 			})
 
@@ -113,7 +113,7 @@ resource 'admin: users', type: :request do
 			do_request({
 				id: prohibited_user.id,
 				user: {
-					phone: '+79177878978',
+					phone: FactoryGirl.attributes_for(:user)[:phone],
 					is_verified: 'true'
 				}
 			})

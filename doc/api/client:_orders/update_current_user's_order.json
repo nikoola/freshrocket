@@ -16,11 +16,11 @@
       "request_path": "client/orders/3",
       "request_body": "order[comment]=hi&order[line_items_attributes][][id]=7&order[line_items_attributes][][_destroy]=true",
       "request_headers": {
-        "Access-Token": "mkXMU7a0yhFbxKKkSd9sCA",
+        "Access-Token": "pNyUqHMg9anopVBdJR33wA",
         "Token-Type": "Bearer",
-        "Client": "OmGmUZuC6FSqB9cLvzR0VA",
-        "Expiry": "1458966349",
-        "Uid": "138ted_medhurst@rolfson.org",
+        "Client": "1Gml9c-Y1MPR0Xf1s1XOdw",
+        "Expiry": "1459096782",
+        "Uid": "140jacklyn@mannfeest.com",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -30,21 +30,21 @@
       "request_content_type": "application/x-www-form-urlencoded",
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\n  \"id\": 3,\n  \"user_id\": 5,\n  \"status\": \"unconfirmed\",\n  \"created_at\": \"2016-03-12T04:25:49.756Z\",\n  \"confirmed_at\": null,\n  \"approved_at\": null,\n  \"dispacthed_at\": null,\n  \"delivered_at\": null,\n  \"canceled_at\": null,\n  \"pure_product_price\": \"27.0\",\n  \"tax\": \"0.0\",\n  \"delivery_charge\": \"200.0\",\n  \"total_price\": \"227.0\",\n  \"coupon_code\": null,\n  \"delivery_boy_id\": null,\n  \"delivery_boy_phone\": null,\n  \"wanted_time\": null,\n  \"wanted_date\": null,\n  \"payment_type\": \"cash\",\n  \"is_paid\": false,\n  \"feedback\": null,\n  \"comment\": \"hi\",\n  \"source_type\": null\n}",
+      "response_body": "{\n  \"id\": 3,\n  \"user_id\": 5,\n  \"status\": \"unconfirmed\",\n  \"created_at\": \"2016-03-13T16:39:42.737Z\",\n  \"confirmed_at\": null,\n  \"approved_at\": null,\n  \"dispacthed_at\": null,\n  \"delivered_at\": null,\n  \"canceled_at\": null,\n  \"pure_product_price\": \"27.0\",\n  \"tax\": \"1.35\",\n  \"delivery_charge\": \"200.0\",\n  \"total_price\": \"228.35\",\n  \"coupon_code\": null,\n  \"delivery_boy_id\": null,\n  \"delivery_boy_phone\": null,\n  \"wanted_time\": null,\n  \"wanted_date\": null,\n  \"payment_type\": \"cash\",\n  \"is_paid\": false,\n  \"feedback\": null,\n  \"comment\": \"hi\",\n  \"source_type\": null\n}",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"a7e73961cc8d1b8ccaa66793e3e14825\"",
+        "ETag": "W/\"0fa2e738e0bebbc60e1fc644519dcc54\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=YzdzdzNzbnJrZXRxZWNvNVN0cWRvUE94YVY5VythOUNuTnlFNjNvNU5sRzIrQ0JHZXViaXA5aXRDRCtVUHhNOEJ2RDkrckRaVUVjM0ZnVlhtVlA2UDNKaXRvbEVvbE9pUWtYc2YvTzVya01ZVW4xa2FuVnNGMGF4WVhxSXdpRTlvNmY3QWtqWC9EcHAyZWZBV0Y1ald2eUhYb0IrMkdlTVVrY0c3WlI2L3dnZFZRVGNsTkIxMmJYOHRmTSt1VzZ3LS1CQ3Fma1pYMUw3V0Y1S1g1dkZSV0dRPT0%3D--9499ad51ae7e974f0c4c8aff1fd2deec1accc691; path=/; HttpOnly",
-        "X-Request-Id": "2f122ec1-c807-4b80-a28a-42e0a246eda8",
-        "X-Runtime": "0.100802",
-        "Content-Length": "464"
+        "Set-Cookie": "_session_id=bjI1N1NtYW9Hb3g4UGxST2J3cjl5OHo1Q1dzK0xMK041bnBEUHlrWmNTNlh4TytxNUw5bmlDVndQSFVqZUNURW1lRDhUbFFNUzg4QUxkbEhvUWhsRGNQZlZ2Q1Jxa085Nmt3aHVaYmJTSWd3RGhudjUrYUZwUWtrbjZVUEF3WWlkNHljazJHYXBwZ3hoMXFEME5hYmRCR2VESVUwcXpIM3Y2K1d0c3N3b2V4aGNKUjJLL1NzYTgxb1ZMckU3TEJ6LS1RaXVzdWNLRU9NYWJObEhsOWNuZEpnPT0%3D--fe2acf1d13e25ac13d2675bdaff4f5a1f4fd072e; path=/; HttpOnly",
+        "X-Request-Id": "aab0763b-cb68-4106-9afb-a438d9d6b946",
+        "X-Runtime": "0.088619",
+        "Content-Length": "466"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000client/orders/3\" -d 'order[comment]=hi&order[line_items_attributes][][id]=7&order[line_items_attributes][][_destroy]=true' -X PUT \\\n\t-H \"Access-Token: mkXMU7a0yhFbxKKkSd9sCA\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: OmGmUZuC6FSqB9cLvzR0VA\" \\\n\t-H \"Expiry: 1458966349\" \\\n\t-H \"Uid: 138ted_medhurst@rolfson.org\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000client/orders/3\" -d 'order[comment]=hi&order[line_items_attributes][][id]=7&order[line_items_attributes][][_destroy]=true' -X PUT \\\n\t-H \"Access-Token: pNyUqHMg9anopVBdJR33wA\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: 1Gml9c-Y1MPR0Xf1s1XOdw\" \\\n\t-H \"Expiry: 1459096782\" \\\n\t-H \"Uid: 140jacklyn@mannfeest.com\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

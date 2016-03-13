@@ -16,11 +16,11 @@
       "request_path": "/client/orders/3",
       "request_body": null,
       "request_headers": {
-        "Access-Token": "5iuOs13uZP3InFMx9uIEyA",
+        "Access-Token": "YCAu8RuQrZR052zdMMUcXw",
         "Token-Type": "Bearer",
-        "Client": "oefEVQCW2sFxaTNKI8Rh-g",
-        "Expiry": "1458966350",
-        "Uid": "142domenic@zulauf.biz",
+        "Client": "wFbWOoNi-_iEGsFi6NrJYg",
+        "Expiry": "1459096783",
+        "Uid": "144gretchen@tillmanherzog.name",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -37,13 +37,13 @@
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "text/html",
         "Cache-Control": "no-cache",
-        "Set-Cookie": "_session_id=b1lUVjZFR1RXa3kvS0JqVFVTM2ZPdWRCdXRrYkMvekMxSmVtcklRMmxlcFdETnZRRnZia1BXN2xRYzZwME1xYTBXeDg1MkpmMUZkdmwwT0pVcEZwTDBOQzRIRkZWeXFEbTF4NmFMYkkxb3g1Z3hYVUNrY0g4c3JIVmVYUUpGSjgrZEE4UGFUSWpLTnM4TEJQOWNmazNMbndTVnl3OGIwRzZxaVVQWjNJcFdEekFjZ2RpbFg4Yld0T2pRVGJ0QmhhLS1ua2wrZEdiWmhjQ3J5UzE3b0xwNENBPT0%3D--83f1922496058899dc0abd306c016ce2e6876ab7; path=/; HttpOnly",
-        "X-Request-Id": "9c4abd71-9a01-4730-b559-44b142788448",
-        "X-Runtime": "0.080802",
+        "Set-Cookie": "_session_id=WGU0L1A5blZySDdrYzhtaUFhN1JKbzBKaExDY2VaME4vNUdQejd1UlJwK2NESi9iREQxUCsyNVozck5mY3dPTXNueTZHbGd2SXM2SXF1NUd1dUtJV1hMbEUydXg1RUhkenNxQ2tha1A3UW1RbEpBaVpFeU5LTVl4VnExTHlmOG9iVXl2QXpoeTVmZTdlalJzaW9kQ3A3ODllSFRtcUlYTm12TUIvMEZWOVp2enNtL0pUUkFCQTZJOFZlU2FCQUpILS1oaXRXWENPVXhmRUlPa3RpZHBXSnhBPT0%3D--89bf80976a31b4e47da46b98ab2dc96f1126cfa0; path=/; HttpOnly",
+        "X-Request-Id": "a0624410-8ac2-4055-9d5f-d399f795ad12",
+        "X-Runtime": "0.077689",
         "Content-Length": "0"
       },
       "response_content_type": "text/html",
-      "curl": "curl \"http://localhost:3000/client/orders/3\" -d '' -X DELETE \\\n\t-H \"Access-Token: 5iuOs13uZP3InFMx9uIEyA\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: oefEVQCW2sFxaTNKI8Rh-g\" \\\n\t-H \"Expiry: 1458966350\" \\\n\t-H \"Uid: 142domenic@zulauf.biz\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/client/orders/3\" -d '' -X DELETE \\\n\t-H \"Access-Token: YCAu8RuQrZR052zdMMUcXw\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: wFbWOoNi-_iEGsFi6NrJYg\" \\\n\t-H \"Expiry: 1459096783\" \\\n\t-H \"Uid: 144gretchen@tillmanherzog.name\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

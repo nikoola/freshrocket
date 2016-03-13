@@ -28,17 +28,17 @@
       "request_content_type": null,
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "[\n  {\n    \"id\": 1,\n    \"name\": \"Category 6\",\n    \"image_url\": \"uploads/category/image/default.png\"\n  }\n]",
+      "response_body": "[\n  {\n    \"id\": 1,\n    \"name\": \"Category 6\",\n    \"image_url\": \"https://freshrocket-test.s3.amazonaws.com/uploads/category/image/default.png\"\n  }\n]",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"1b68d7d2c6381c63ada3d3ed1b198a60\"",
+        "ETag": "W/\"3163907576ff1cdd235d77863c5d4ca6\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "X-Request-Id": "db864674-dc29-4131-aa79-e41a13b8bf2a",
-        "X-Runtime": "0.036298",
-        "Content-Length": "79"
+        "X-Request-Id": "0e470284-1cc7-4775-ba2c-374d22ffe6e5",
+        "X-Runtime": "0.010164",
+        "Content-Length": "121"
       },
       "response_content_type": "application/json; charset=utf-8",
       "curl": "curl \"http://localhost:3000/categories?city_id=1\" -X GET \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""

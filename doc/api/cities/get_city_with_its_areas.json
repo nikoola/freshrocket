@@ -27,17 +27,17 @@
       "request_content_type": null,
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\n  \"id\": 1,\n  \"name\": \"Waltermouth_101\",\n  \"active\": true,\n  \"areas\": [\n    {\n      \"id\": 1,\n      \"name\": \"Kolbyshire_area_3\"\n    },\n    {\n      \"id\": 2,\n      \"name\": \"New Moriahton_area_4\"\n    },\n    {\n      \"id\": 3,\n      \"name\": \"Anniehaven_area_5\"\n    }\n  ]\n}",
+      "response_body": "{\n  \"id\": 1,\n  \"name\": \"New Kelvin_101\",\n  \"active\": true,\n  \"areas\": [\n    {\n      \"id\": 1,\n      \"name\": \"Johannstad_area_3\"\n    },\n    {\n      \"id\": 2,\n      \"name\": \"Zemlakborough_area_4\"\n    },\n    {\n      \"id\": 3,\n      \"name\": \"South Albinaberg_area_5\"\n    }\n  ]\n}",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"3658a78fdb59f2e07ef82915377a44d6\"",
+        "ETag": "W/\"d0cd5f85a5b0e29989d5927b5e964b58\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "X-Request-Id": "badb92bc-0fb0-4a79-9c00-db6072ea2347",
-        "X-Runtime": "0.004424",
-        "Content-Length": "168"
+        "X-Request-Id": "4144bf5c-9f49-4b27-8351-d3bcf30bb190",
+        "X-Runtime": "0.002863",
+        "Content-Length": "173"
       },
       "response_content_type": "application/json; charset=utf-8",
       "curl": "curl \"http://localhost:3000/cities/1?include[]=areas\" -X GET \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""

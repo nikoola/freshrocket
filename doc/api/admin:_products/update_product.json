@@ -16,11 +16,11 @@
       "request_path": "/admin/products/1",
       "request_body": "product[title]=hi",
       "request_headers": {
-        "Access-Token": "llbgkFa4SfruMnRtwWh47w",
+        "Access-Token": "_KJt6IASGig2BMWy1SxCPQ",
         "Token-Type": "Bearer",
-        "Client": "sSBpvObvYqX9DBtez6HSzg",
-        "Expiry": "1458966338",
-        "Uid": "71foster@parkerherman.net",
+        "Client": "0EorhZaqbZDVFFckpEHHnw",
+        "Expiry": "1459096772",
+        "Uid": "71annabel@mraz.info",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -30,21 +30,21 @@
       "request_content_type": "application/x-www-form-urlencoded",
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\n  \"id\": 1,\n  \"city_id\": 1,\n  \"title\": \"hi\",\n  \"price\": \"3.0\",\n  \"description\": null,\n  \"created_at\": \"2016-03-12T04:25:38.869Z\",\n  \"updated_at\": \"2016-03-12T04:25:39.041Z\",\n  \"inventory_count\": 20,\n  \"image_url\": \"uploads/product/image/default.png\"\n}",
+      "response_body": "{\n  \"id\": 1,\n  \"city_id\": 1,\n  \"title\": \"hi\",\n  \"price\": \"3.0\",\n  \"description\": null,\n  \"created_at\": \"2016-03-13T16:39:32.705Z\",\n  \"updated_at\": \"2016-03-13T16:39:32.878Z\",\n  \"inventory_count\": 20,\n  \"image_url\": \"https://freshrocket-test.s3.amazonaws.com/uploads/product/image/default.png\"\n}",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"18ad82f8bf9820f5d4edc794344cc1c2\"",
+        "ETag": "W/\"32d112bf44d995db34c144b5b3c4c8af\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=S0NCSnc0aVJLeFJLNGVUS3piZ3pPakd5dEFyVkd1OWZ2eURaTmh6SkZlRHdycEhGVFloY2N4Q1FHR29LeUY5M09aNTFNL3ZHVzIxQWlZQmFWTXJGQ3YzRGtmUkUzQitYNTRVZzd3MTViN1VQRHZHYlhucEtEZVVRcWdyTXVJYStNOUY3QnI1UzZiRjNsZ0lvVlhtanJrTDd2ZmxGWklHWU1YdWFxQ1dmRllBcE9YTWxZL2RzT1IxUWUyb2dvdjlCLS01Um9FaWp5ancrSEQzTVYvby9qbDl3PT0%3D--ccdfe479f73fdaeb2a5662249837aa8a4f13f305; path=/; HttpOnly",
-        "X-Request-Id": "98574cc7-6c71-459c-a365-905bc389a927",
-        "X-Runtime": "0.080371",
-        "Content-Length": "215"
+        "Set-Cookie": "_session_id=YzZMVFU3ZVlHOWVBS3lza3RpL1BBbEVvNmM0VENkZzF2NVdnVjN0YjlXTTZLV2F2WlBIbS92dzlrUDZseGZTcHpMSnprT3d2Z3hnbHZLUnowZlNLMXpDOERDb01EY1FDUCtML3hicFA3NGNuamdwM0haL2ZLYmFncVoydXBGenRNUi9taWR4aklra2ZWek0xUUpVYkN5MTJyc0wwTy96NTV4b2JzcnJHYW1OajBJRHdPbElIWDBwMFQ3QkRTT0xXLS1oRi9ZcDRWTU9XOG40WEErUnVVM3BRPT0%3D--2128473ed722061f658b7ef1f9759abb80015aac; path=/; HttpOnly",
+        "X-Request-Id": "263ce718-f6f2-424a-a2ec-0e4b288ab2d2",
+        "X-Runtime": "0.080596",
+        "Content-Length": "257"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/admin/products/1\" -d 'product[title]=hi' -X PUT \\\n\t-H \"Access-Token: llbgkFa4SfruMnRtwWh47w\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: sSBpvObvYqX9DBtez6HSzg\" \\\n\t-H \"Expiry: 1458966338\" \\\n\t-H \"Uid: 71foster@parkerherman.net\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/admin/products/1\" -d 'product[title]=hi' -X PUT \\\n\t-H \"Access-Token: _KJt6IASGig2BMWy1SxCPQ\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: 0EorhZaqbZDVFFckpEHHnw\" \\\n\t-H \"Expiry: 1459096772\" \\\n\t-H \"Uid: 71annabel@mraz.info\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

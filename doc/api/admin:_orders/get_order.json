@@ -19,11 +19,11 @@
       "request_path": "/admin/orders/1?include[]=address",
       "request_body": null,
       "request_headers": {
-        "Access-Token": "ikwFlRljUpxqFxpo9DOb1g",
+        "Access-Token": "To8BOS_9JzWRdKS2lUG_8g",
         "Token-Type": "Bearer",
-        "Client": "Cm0_XB1myO5xx2wj5yXpcQ",
-        "Expiry": "1458966336",
-        "Uid": "46myrtice.ferry@rippinmayert.io",
+        "Client": "E5VbGtJapxTslZn615NXfg",
+        "Expiry": "1459096766",
+        "Uid": "46noelia@luettgencremin.info",
         "Host": "example.org",
         "Cookie": ""
       },
@@ -35,21 +35,21 @@
       "request_content_type": null,
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\n  \"id\": 1,\n  \"user_id\": 1,\n  \"status\": \"unconfirmed\",\n  \"created_at\": \"2016-03-12T04:25:36.404Z\",\n  \"confirmed_at\": null,\n  \"approved_at\": null,\n  \"dispacthed_at\": null,\n  \"delivered_at\": null,\n  \"canceled_at\": null,\n  \"pure_product_price\": \"27.0\",\n  \"tax\": \"0.0\",\n  \"delivery_charge\": \"200.0\",\n  \"total_price\": \"227.0\",\n  \"coupon_code\": null,\n  \"delivery_boy_id\": null,\n  \"delivery_boy_phone\": null,\n  \"wanted_time\": null,\n  \"wanted_date\": null,\n  \"payment_type\": \"cash\",\n  \"is_paid\": false,\n  \"feedback\": null,\n  \"comment\": null,\n  \"source_type\": null,\n  \"admin_comment\": null,\n  \"address\": {\n    \"id\": 1,\n    \"city_id\": 1,\n    \"user_id\": 2,\n    \"street_and_house\": \"886 Narciso Shoals\",\n    \"door_number\": \"5\"\n  }\n}",
+      "response_body": "{\n  \"id\": 1,\n  \"user_id\": 1,\n  \"status\": \"unconfirmed\",\n  \"created_at\": \"2016-03-13T16:39:26.031Z\",\n  \"confirmed_at\": null,\n  \"approved_at\": null,\n  \"dispacthed_at\": null,\n  \"delivered_at\": null,\n  \"canceled_at\": null,\n  \"pure_product_price\": \"27.0\",\n  \"tax\": \"1.35\",\n  \"delivery_charge\": \"200.0\",\n  \"total_price\": \"228.35\",\n  \"coupon_code\": null,\n  \"delivery_boy_id\": null,\n  \"delivery_boy_phone\": null,\n  \"wanted_time\": null,\n  \"wanted_date\": null,\n  \"payment_type\": \"cash\",\n  \"is_paid\": false,\n  \"feedback\": null,\n  \"comment\": null,\n  \"source_type\": null,\n  \"admin_comment\": null,\n  \"address\": {\n    \"id\": 1,\n    \"city_id\": 1,\n    \"user_id\": 2,\n    \"street_and_house\": \"9831 Amber Points\",\n    \"door_number\": \"5\",\n    \"zip_code\": null,\n    \"active\": true\n  }\n}",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"bab17c543485905505e25b37d9bf46fc\"",
+        "ETag": "W/\"2e7abd6a7221163a8317aa5982523217\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=dHVvc1Z4UmpCSHUydFBnMUp4czQvRUVLZm1sWWMvaWRjZkEzanVsb1FrTEdacStlREI2ZlhmSkRuSFIzenpsQ3BmNmNmajBNTXAvaGF5MWpGbDNFR0lzWk4vd2JRV0tJN3k4VmZPemlBaHhtbkVHVTNmRnNtWkZ3ZGZhdWNjNlhqVm1ta3p5cytmL1poNEI2aHpjQ3R4VHZ0K0V1WjNCSHJCMGYwUTZhZ0RVd016LzV5QjJXTjZGWlliajNSU0tkLS01TDMyQm8xdDJrR3JObERYaFVZRElBPT0%3D--556e322c381716cc513de26471a229a26801f805; path=/; HttpOnly",
-        "X-Request-Id": "268f1d7d-5668-4676-963d-99a6e65531a9",
-        "X-Runtime": "0.079623",
-        "Content-Length": "586"
+        "Set-Cookie": "_session_id=cFhlSmZmZFZOT3Q0OFNjRkxFSU90MHFJSDV2R0xsTmJvZHVkVHp3cFNZZE0rcCtsQjZDcTQrWG9HaityS090QmJpYnpad0NFNy9lQjNEMnRSbjhXcS9WTDJGUTZEbDFoNmJpMiszcUh2K2VENTVEdjlxSytrZ0pnL3A1QWlLWlNub1ZGQjc4djVEWFZhWnBhLzRsMmdMUnRxWDlIaUhhbDhSR0RSZW9vdkxUeEtVa2RhU1N5MFV3ZGVZSDJTaUFULS1UZnk4S0pWTHFOaS9NREVoRVJFTFNnPT0%3D--57776505044043edea26a8bf61e4d1ee3bd9d8cf; path=/; HttpOnly",
+        "X-Request-Id": "5257ae58-f282-448d-95b1-012fe0cb6321",
+        "X-Runtime": "0.080488",
+        "Content-Length": "617"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/admin/orders/1?include[]=address\" -X GET \\\n\t-H \"Access-Token: ikwFlRljUpxqFxpo9DOb1g\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: Cm0_XB1myO5xx2wj5yXpcQ\" \\\n\t-H \"Expiry: 1458966336\" \\\n\t-H \"Uid: 46myrtice.ferry@rippinmayert.io\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/admin/orders/1?include[]=address\" -X GET \\\n\t-H \"Access-Token: To8BOS_9JzWRdKS2lUG_8g\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: E5VbGtJapxTslZn615NXfg\" \\\n\t-H \"Expiry: 1459096766\" \\\n\t-H \"Uid: 46noelia@luettgencremin.info\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

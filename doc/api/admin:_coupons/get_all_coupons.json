@@ -16,11 +16,11 @@
       "request_path": "/admin/coupons",
       "request_body": null,
       "request_headers": {
-        "Access-Token": "qHEx7osXGGFfTY0YOJ09aA",
+        "Access-Token": "pNtazp4U9TVRs6XkhA2x8w",
         "Token-Type": "Bearer",
-        "Client": "hRXy143PTaO7F3xJN30n_A",
-        "Expiry": "1458966334",
-        "Uid": "18karen@marquardt.org",
+        "Client": "8ZO_t8q95zJ3P7PjHVzwDQ",
+        "Expiry": "1459096764",
+        "Uid": "18lillian@bernier.net",
         "Host": "example.org",
         "Cookie": ""
       },
@@ -29,21 +29,21 @@
       "request_content_type": null,
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "[\n  {\n    \"id\": 1,\n    \"name\": \"red\",\n    \"code\": \"24691\",\n    \"discount\": 71\n  },\n  {\n    \"id\": 2,\n    \"name\": \"red\",\n    \"code\": \"72832\",\n    \"discount\": 83\n  },\n  {\n    \"id\": 3,\n    \"name\": \"red\",\n    \"code\": \"68613\",\n    \"discount\": 46\n  },\n  {\n    \"id\": 4,\n    \"name\": \"red\",\n    \"code\": \"85634\",\n    \"discount\": 80\n  }\n]",
+      "response_body": "[\n  {\n    \"id\": 1,\n    \"name\": \"red\",\n    \"code\": \"97401\",\n    \"discount\": 90\n  },\n  {\n    \"id\": 2,\n    \"name\": \"red\",\n    \"code\": \"86022\",\n    \"discount\": 11\n  },\n  {\n    \"id\": 3,\n    \"name\": \"red\",\n    \"code\": \"32063\",\n    \"discount\": 100\n  },\n  {\n    \"id\": 4,\n    \"name\": \"red\",\n    \"code\": \"18884\",\n    \"discount\": 14\n  }\n]",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"0723675b41e8f33eec266e8588a57761\"",
+        "ETag": "W/\"ef6d00b365423d4ecc9bd1c2ae81a6e3\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=elluNi96WmE3U083ekN6UW5RTDNldnlTanN3RWZueityNzFBVnNFbGE2eE96UFNNRU5hMFl3NWZZVmZEVEk5SXdjQ1hVL3ZJUkFEUUh0aDlEdStqcmFPdmdiRzN3WWZOdGNPOCs4aldqdWhvV0QyZlJzMnF4VUZ0Qk1VVTBZeVJwWFBBNzZVd0FaakNyNzU3SHYvRXlUOFNMS3lrYjFJa01JbEplNG5YckZjN2NUWkp6RmFOR0p3cmIzNkExNE15LS16QmRXYWphZnp6Z1c2ZnBVNVk2azRRPT0%3D--8bbe48798688d92cc9ea24fc340a1286249cf4eb; path=/; HttpOnly",
-        "X-Request-Id": "1086fcbb-4bb7-4bc1-9447-9cfe73bccab9",
-        "X-Runtime": "0.083626",
-        "Content-Length": "205"
+        "Set-Cookie": "_session_id=eTQyZDRMRWtIQUdKc0lhSGp4LzhyVFBiYWRZM2I3SzRqUjVRdTh1K2Y0QnpxOXZWZXpvamllQjlYVDVMNHMveVF6WFdjYjRmUURJakRLNHRYdUN4UEtObzRSdzF0RmwwUFAvNEh6QlJnU0tyQlVnSC94aS9ORlBpeHlVUFVkamlidlBWdFBuNTBwdGhwcUlBNUpPU2JabW5PdXdYWWNqNDVPMDNvOXVscDIzRlNubnBLeWpvaHNMSkFpSG5aQmNVLS1mRkFFSm5FZ0FvbjcrbTJsWHJzdThnPT0%3D--344f19d2da67963b3b354c009dd14db1f016f496; path=/; HttpOnly",
+        "X-Request-Id": "0dfe270b-c86d-4c81-b07f-3863e2c05cca",
+        "X-Runtime": "0.085595",
+        "Content-Length": "206"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/admin/coupons\" -X GET \\\n\t-H \"Access-Token: qHEx7osXGGFfTY0YOJ09aA\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: hRXy143PTaO7F3xJN30n_A\" \\\n\t-H \"Expiry: 1458966334\" \\\n\t-H \"Uid: 18karen@marquardt.org\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/admin/coupons\" -X GET \\\n\t-H \"Access-Token: pNtazp4U9TVRs6XkhA2x8w\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: 8ZO_t8q95zJ3P7PjHVzwDQ\" \\\n\t-H \"Expiry: 1459096764\" \\\n\t-H \"Uid: 18lillian@bernier.net\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

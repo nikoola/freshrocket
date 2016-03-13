@@ -19,11 +19,11 @@
       "request_path": "/client/payments/new?order_id=3",
       "request_body": null,
       "request_headers": {
-        "Access-Token": "HNf__xsjT8ktTiExNGnoxw",
+        "Access-Token": "Uo10PnRniX11sU5np7Xhjg",
         "Token-Type": "Bearer",
-        "Client": "PkNAeZsUg2-6xNp7A5Y7VQ",
-        "Expiry": "1458966351",
-        "Uid": "158dortha@corkery.info",
+        "Client": "nkvmHyIE_skyeGUSqgtOEg",
+        "Expiry": "1459096784",
+        "Uid": "160stephan.yundt@grimes.co",
         "Host": "example.org",
         "Cookie": ""
       },
@@ -33,21 +33,21 @@
       "request_content_type": null,
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\n  \"citrus\": {\n    \"action\": \"https://sandbox.citruspay.com/kouqfeaav0\",\n    \"method\": \"POST\",\n    \"fields\": {\n      \"merchantTxnId\": \"3\",\n      \"merchantAccessKey\": \"T82TNCTLNBZ282BLHAGD\",\n      \"orderAmount\": \"227.0\",\n      \"currency\": \"USD\",\n      \"secret_key\": \"1690a1e29ecec2a5f852b678dd5362616c79916a\",\n      \"pmt_url\": \"kouqfeaav0\",\n      \"returnUrl\": \"http://localhost:3000/client/payments/citrus\",\n      \"paymentMode\": \"NET_BANKING\",\n      \"reqtime\": \"1457756752000\",\n      \"secSignature\": \"96fae4b6caca44a9d024cb083704409a2474b4f3\"\n    }\n  }\n}",
+      "response_body": "{\n  \"citrus\": {\n    \"action\": \"https://sandbox.citruspay.com/kouqfeaav0\",\n    \"method\": \"POST\",\n    \"fields\": {\n      \"merchantTxnId\": \"3\",\n      \"merchantAccessKey\": \"T82TNCTLNBZ282BLHAGD\",\n      \"orderAmount\": \"228.35\",\n      \"currency\": \"USD\",\n      \"secret_key\": \"1690a1e29ecec2a5f852b678dd5362616c79916a\",\n      \"pmt_url\": \"kouqfeaav0\",\n      \"returnUrl\": \"http://localhost:3000/client/payments/citrus\",\n      \"paymentMode\": \"NET_BANKING\",\n      \"reqtime\": \"1457887184000\",\n      \"secSignature\": \"16055d2470aa3b2001007b0bd8086106d677f8b2\"\n    }\n  }\n}",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"dce303a710d1cf5fde38ddee796ad27a\"",
+        "ETag": "W/\"74267b92b9e59cfc2c23ffd1e669a30e\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=QmVYWWhtQ2tFVEIwMkdIdTdES0FsektlQ0NXOGxXZ1JFQ0JwOVJQUmZLWXlsYjd6QVg3REMrd1JjUzdSU2xINmtOdU9FSGZad1NYeW1XbFJ0bHdUdUlCT3luN2VsaHVmT21BYnNpNWIvTUQzcG5BNlM4ZWpOem9RSjZCWGhzSzZDZHhTZVFlbkRrUkVkd0ZpejBoMmdzV2xCUVM2Um5MdlJ1WlJBR243T1MyOEE2MXpRYVg4VlpxSHVzSEJkMFpMLS1KLzJUcEpOME5IWHlxTnJLaVNJUVdBPT0%3D--3b2b979a98b7547b1f9c8a2fee5f31f7111d0d43; path=/; HttpOnly",
-        "X-Request-Id": "83f6ee56-e46b-4ad5-9053-186ba2c9bbf5",
-        "X-Runtime": "0.113947",
-        "Content-Length": "443"
+        "Set-Cookie": "_session_id=MGVLV2xpa1RiQnlBODVWalFtNitGUlhQaWJMVENYbzNhWW5MTmxUcUJhVHJhdlpBa3BjbjY2MUZQWWtkNnNsSjQ3cURtL0ZKSFhBZFBJam5OdHhGODgyaTdhWGhwOTJHR1hwc1dSUXd1cnY1TXpueXRKZ2NxQUl0ajlzRmVaQ2RuUTgyU3Fvbmt1UzJnWFYwOXhuWkhjS0FseWRQTWVkVzdsY29ramx3NlM2ZWY1bXkwL2t2NXVJUXBzcnpXeVRWLS03b2E5eGtXZS8xQnFiL3BveG42WWlnPT0%3D--283987b11b23278f5a9cbac8a5248fdfd6d6461a; path=/; HttpOnly",
+        "X-Request-Id": "b9e1d150-4a6d-47b8-817e-94bffabff534",
+        "X-Runtime": "0.085492",
+        "Content-Length": "444"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/client/payments/new?order_id=3\" -X GET \\\n\t-H \"Access-Token: HNf__xsjT8ktTiExNGnoxw\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: PkNAeZsUg2-6xNp7A5Y7VQ\" \\\n\t-H \"Expiry: 1458966351\" \\\n\t-H \"Uid: 158dortha@corkery.info\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/client/payments/new?order_id=3\" -X GET \\\n\t-H \"Access-Token: Uo10PnRniX11sU5np7Xhjg\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: nkvmHyIE_skyeGUSqgtOEg\" \\\n\t-H \"Expiry: 1459096784\" \\\n\t-H \"Uid: 160stephan.yundt@grimes.co\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
     }
   ]
 }
