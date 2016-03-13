@@ -1,11 +1,14 @@
 
 
-for authorization I used https://github.com/lynndylanhurley/devise_token_auth.  
+for authoentication I used https://github.com/lynndylanhurley/devise_token_auth.  
+there is an angular plugin for a smooth integration with that gem and a jquery library, you can choose either.
+
 authorization is role-based. sign up is common for clients and admins.  
 client becomes an admin when we add ability to it. for example, if we update
 `https://rivo.herokuapp.com/api/docs/admin:_users/update_user_abilities` put client with 'products' ability, they'll be able to manage products on backend.
 
-there is an angular plugin for a smooth integration with that gem and a jquery library, you can choose either.
+you can see explanations for some of my decisions in the */why* folder.
+
 
 
 ### to run rspecs successully:
