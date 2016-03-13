@@ -13,7 +13,6 @@ gem 'faker' #for seed file
 
 group :development, :test do
 	gem 'rspec-rails'
-
 	gem 'spring-commands-rspec'
 
 	gem 'pry'
@@ -24,6 +23,9 @@ group :development, :test do
 	gem 'dotenv-rails'
 
 	gem 'sqlite3'
+
+	gem 'sidekiq'
+	gem 'sidekiq-failures'
 end
 
 gem 'rspec_api_documentation'
@@ -70,8 +72,7 @@ gem 'omniauth-facebook'
 gem 'acts-as-taggable-on'
 
 gem 'aasm'
-gem 'sidekiq'
-gem 'sidekiq-failures'
+
 
 
 # gem 'active_model_serializers', '~>0.10.0.rc4'
