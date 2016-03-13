@@ -15,7 +15,7 @@ class User < ActiveRecord::Base
 
 	validates             :phone, 
 		numericality: { only_integer: true },
-		length:       { is: 12 },
+		length:       { is: 10 },
 		presence:     true,
 		uniqueness:   true
 		# unless:       -> { self.provider == 'facebook' }
