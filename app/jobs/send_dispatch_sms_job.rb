@@ -4,9 +4,10 @@ class SendDispatchSmsJob < ActiveJob::Base
 	def perform name, phone
 		text = "Dear #{name}, your order has been dispatched and will be delivered within 60 minutes.  Regards, FreshRocket."
 
-		client = Smslane::Client.new(SMSLANE[:username], SMSLANE[:password])
+		# client = Smslane::Client.new(SMSLANE[:username], SMSLANE[:password])
+		# client.send_sms [phone], text
 
-		client.send_sms [phone], text
+		Msg91::Client.text(phone, text)
 	end
 end
 

@@ -1,5 +1,11 @@
 class Setting < ActiveRecord::Base
 
+	DEFAULT_SETTINGS = {
+		tax_in_percentage:       5,
+		free_delivery_order_sum: 500,
+		default_delivery_cost:   200
+	}
+
 	validate :only_one_record?, on: :create
 
 
@@ -19,40 +25,21 @@ class Setting < ActiveRecord::Base
 
 
 
-
-
-
-
 	class << self
-		def set_default_record
-			if count == 0 
-				create! tax_in_percentage:  5.00,
-					free_delivery_order_sum: 500,
-					default_delivery_cost:   200
-			end
-		end
 
 		def instance
-			default_settings = {
-				tax_in_percentage:       0,
-				free_delivery_order_sum: 500,
-				default_delivery_cost:   200
-			}
-			Setting.first || Setting.create(default_settings)
+			Setting.first || Setting.create(DEFAULT_SETTINGS)
 		end
 		alias_method :i, :instance
 		alias_method :s, :instance #like Setting.s
-		# def define_singleton_methods
-		# 	column_names.each do |column_name|
-		# 		define_singleton_method column_name do
-		# 			first.send(column_name)
-		# 		end
-		# 	end
-		# end
+
+
 	end
 
-	set_default_record
-	# define_singleton_methods
+	self.instance  #in case if database is empty create
+	# Setting instance, just so we don't have to provide creation route.
+
+
 
 end
 

@@ -8,6 +8,12 @@ GIT
       rspec_api_documentation
 
 GIT
+  remote: git://github.com/shyammohankanojia/msg91-ruby.git
+  revision: de287588afa239b4e50c125e12bcfe6e7bab90cb
+  specs:
+    msg91 (0.1.0)
+
+GIT
   remote: https://github.com/brigade/active_model_serializers.git
   revision: 0b9d674da2d06185618c5bd39d961acd53992f19
   branch: default-include
@@ -432,6 +438,7 @@ GEM
     warden (1.2.6)
       rack (>= 1.0)
     websocket (1.2.2)
+    wicked_pdf (1.0.4)
     xml-simple (1.1.5)
     xpath (2.0.0)
       nokogiri (~> 1.3)
@@ -450,10 +457,12 @@ DEPENDENCIES
   database_cleaner
   devise_token_auth
   dotenv-rails
+  excon
   factory_girl_rails
   faker
   fog
   mini_magick
+  msg91!
   offsite_payments
   omniauth
   omniauth-facebook
@@ -477,6 +486,7 @@ DEPENDENCIES
   sqlite3
   uglifier
   virtus
+  wicked_pdf
 
 BUNDLED WITH
    1.11.2

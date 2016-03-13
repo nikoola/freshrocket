@@ -81,6 +81,10 @@ gem 'active_model_serializers', git: 'https://github.com/brigade/active_model_se
 # gem 'phonelib' # validates phone numbers
 gem 'smslane'
 
+gem 'excon' #msg91 is stupid and doesn't know how to reference gems from gemspec
+gem 'msg91', :github => 'shyammohankanojia/msg91-ruby'
+
+
 gem 'offsite_payments'
 
 
@@ -99,9 +103,8 @@ gem 'sinatra', :require => nil
 
 
 
-gem "fog", require: 'fog/aws'
-
-
+gem "fog", require: 'fog/aws' # S3 pic storage
+gem 'wicked_pdf'
 
 
 
