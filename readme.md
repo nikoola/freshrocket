@@ -1,6 +1,6 @@
 
 
-for authoentication I used https://github.com/lynndylanhurley/devise_token_auth.  
+for authentication I used https://github.com/lynndylanhurley/devise_token_auth.  
 there is an angular plugin for a smooth integration with that gem and a jquery library, you can choose either.
 
 authorization is role-based. sign up is common for clients and admins.  
@@ -8,6 +8,7 @@ client becomes an admin when we add ability to it. for example, if we update
 `https://rivo.herokuapp.com/api/docs/admin:_users/update_user_abilities` put client with 'products' ability, they'll be able to manage products on backend.
 
 you can see explanations for some of my decisions in the */why* folder.
+
 
 
 
@@ -53,7 +54,9 @@ will create html file in *Rails.root/tmp/letter_opener* and open it in your brow
 you'll be able to see pdf attachments there too and click on them.
 
 
+___
 
+to check out backeground jobs: https://rivo.herokuapp.com/sidekiq. passwords are at https://dashboard.heroku.com/apps/rivo/settings.
 
 
 

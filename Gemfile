@@ -71,6 +71,7 @@ gem 'acts-as-taggable-on'
 
 gem 'aasm'
 gem 'sidekiq'
+gem 'sidekiq-failures'
 
 
 # gem 'active_model_serializers', '~>0.10.0.rc4'
@@ -105,13 +106,13 @@ gem 'sinatra', :require => nil
 
 
 
-gem "fog", require: 'fog/aws' # S3 pic storage
+gem 'fog', require: 'fog/aws' # S3 pic storage
 
-gem 'wkhtmltopdf-binary', group: [:developent, :test]
+gem 'wkhtmltopdf-binary', group: [:development, :test]
 gem 'wkhtmltopdf-heroku', group: :production
 gem 'wicked_pdf'
 
-gem "letter_opener"
+gem "letter_opener",      group: :development
 
 
 
