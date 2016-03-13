@@ -76,7 +76,7 @@ module DeviseTokenAuth
 				first_name:     auth_hash['info']['first_name'],
 				last_name:      auth_hash['info']['last_name'],
 				email:          auth_hash['info']['email'],
-				phone:          '910000000000'
+				phone:          '0000000000'
 			})
 		end
 

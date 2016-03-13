@@ -7,10 +7,10 @@
 # To learn more, check out the README:
 # https://github.com/mileszs/wicked_pdf/blob/master/README.md
 
-WickedPdf.config = {
+# WickedPdf.config = {
 
 
-  # Layout file to be used for all PDFs
-  # (but can be overridden in `render :pdf` calls)
-  # layout: 'pdf.html',
-}
+#   # Layout file to be used for all PDFs
+#   # (but can be overridden in `render :pdf` calls)
+#   # layout: 'pdf.html',
+# }
