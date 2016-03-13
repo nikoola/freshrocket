@@ -26,6 +26,7 @@ resource 'client: addresses', type: :request do
 			expect(status).to eq(200)
 			expect(returned_ids).to match_array(expected_ids)
 			expect(jsons[0].keys).to include :zip_code
+			expect(jsons[0][:city_name]).to eq(Address.find(jsons[0][:id]).city.name)
 		end
 	end
 

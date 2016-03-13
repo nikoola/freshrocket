@@ -14,13 +14,13 @@
     {
       "request_method": "PUT",
       "request_path": "/auth",
-      "request_body": "phone=4678262929",
+      "request_body": "phone=1396801035",
       "request_headers": {
-        "Access-Token": "Htw8VB5eOO1gWJYvzfQQ7A",
+        "Access-Token": "qPluZg8fUzN_NwheDllMOA",
         "Token-Type": "Bearer",
-        "Client": "ABactLtEP6Kz5SSoxE_Jww",
-        "Expiry": "1459096785",
-        "Uid": "168verner@windler.org",
+        "Client": "fdZt7X3-aKJk4RxZQVk4cQ",
+        "Expiry": "1459106324",
+        "Uid": "168lennie.stroman@schulistkertzmann.biz",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -30,21 +30,21 @@
       "request_content_type": "application/x-www-form-urlencoded",
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\n  \"status\": \"success\",\n  \"data\": {\n    \"id\": 5,\n    \"first_name\": \"Alivia\",\n    \"last_name\": \"Bechtelar\",\n    \"email\": \"168verner@windler.org\",\n    \"provider\": \"email\",\n    \"uid\": \"168verner@windler.org\",\n    \"phone\": \"4678262929\",\n    \"verification_code\": null,\n    \"is_verified\": false,\n    \"created_at\": \"2016-03-13T16:39:45.336Z\",\n    \"updated_at\": \"2016-03-13T16:39:45.486Z\",\n    \"how_did_you_hear_about_us\": null\n  }\n}",
+      "response_body": "{\n  \"status\": \"success\",\n  \"data\": {\n    \"id\": 5,\n    \"first_name\": \"Zachery\",\n    \"last_name\": \"Ullrich\",\n    \"email\": \"168lennie.stroman@schulistkertzmann.biz\",\n    \"provider\": \"email\",\n    \"uid\": \"168lennie.stroman@schulistkertzmann.biz\",\n    \"phone\": \"1396801035\",\n    \"verification_code\": null,\n    \"is_verified\": false,\n    \"created_at\": \"2016-03-13T19:18:44.440Z\",\n    \"updated_at\": \"2016-03-13T19:18:44.588Z\",\n    \"how_did_you_hear_about_us\": null\n  }\n}",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"0f74b3f134c367f91b4e897f7e78e1f3\"",
+        "ETag": "W/\"4cc89a42d650b5024d13255f72ed6e08\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=RVdWd29BaG93KzVMV3o0NHhJQUx1RWVlUmtnck5iNkhxb2dCUDM2WGZuWUkzTm5jZXBkckdKcUs4RGwxNVhSZ0EvSlpqNnNlSmI4dDJJdmgwV2cwZ1IybWtxazFkR0VzemV0bThMTnJCVGwzYlBVOVpmTUtPWjVBeHc0cnhBRCtDS0Q5b1RzdDUxdU9WT21qWUdPNzc4UmVrRXB0ckV5SEhoUytTVXpJK1l4OTNUWEVkaFBMZWZTQ1c5dnVncW9OLS1vc3RVMnZrc1NTR3B2TFdqeGpGaEZ3PT0%3D--807f7a91638af4e0458954e8e81e031429072051; path=/; HttpOnly",
-        "X-Request-Id": "63f6c151-9b90-450d-9eb6-a00cf78317e1",
-        "X-Runtime": "0.080541",
-        "Content-Length": "342"
+        "Set-Cookie": "_session_id=R284emRkTG9DRUlDcVNkTTVYSE1CSy8rNmRDYzgyOUxFQW9pczNmSXdMTEhBam9mdFFvVHNUY3NubVU0ZktaLzJlSGVuN1BSb1pkYlZaaXhUcys4N2lZYlQxRHVZZk0vL3hKWkFRVHl6UEFCT2VhUUxOYjN4Q0JqSUNMWHU5MFBqVE9BditybHhaeEFXQXJMOWpYS21RQmlMZkUvWWNhakEwLzU3VlpxRVprV3FmTkRESnBUV2k5Y09LS24rYjUwLS1HRkRVbGprTTdHZWxXUWpuRytQc2Z3PT0%3D--747d37ee8add8700c3faf3a665ea62325248fc7a; path=/; HttpOnly",
+        "X-Request-Id": "ce9de87d-9389-4805-b086-ad99c895f1e7",
+        "X-Runtime": "0.079381",
+        "Content-Length": "377"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/auth\" -d 'phone=4678262929' -X PUT \\\n\t-H \"Access-Token: Htw8VB5eOO1gWJYvzfQQ7A\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: ABactLtEP6Kz5SSoxE_Jww\" \\\n\t-H \"Expiry: 1459096785\" \\\n\t-H \"Uid: 168verner@windler.org\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/auth\" -d 'phone=1396801035' -X PUT \\\n\t-H \"Access-Token: qPluZg8fUzN_NwheDllMOA\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: fdZt7X3-aKJk4RxZQVk4cQ\" \\\n\t-H \"Expiry: 1459106324\" \\\n\t-H \"Uid: 168lennie.stroman@schulistkertzmann.biz\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

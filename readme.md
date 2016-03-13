@@ -1,41 +1,67 @@
 
-it was built on rails-api gem, but another dev said he wants to use rails-admin for admin frontend and I changed it to full rails engine. can be switched back if you'll use something else.
-for authorization I used https://github.com/lynndylanhurley/devise_token_auth.
+
+for authorization I used https://github.com/lynndylanhurley/devise_token_auth.  
+authorization is role-based. sign up is common for clients and admins.  
+client becomes an admin when we add ability to it. for example, if we update
+`https://rivo.herokuapp.com/api/docs/admin:_users/update_user_abilities` put client with 'products' ability, they'll be able to manage products on backend.
+
 there is an angular plugin for a smooth integration with that gem and a jquery library, you can choose either.
 
 
+### to run rspecs successully:
 
-to run rspecs successully:
 
-	ask me for yml files with passwords etc
+ask me for .env file with passwords etc
+
 	redis-server --daemonize yes
 
-to run things in console/deloyment successfully:
-
-	ask me for yml files with passwords etc
-	redis-server --daemonize yes
-	sidekiq
-
-	
-	heroku run rake db:migrate
 
 
+### to see docs:
 
-to see docs:
+* just go see: rivo.herokuapp.com/api/docs 
 
-	rake docs:generate 
+OR
+
+* or generate your own:
+
+	rake docs:generate
 	rails server
-	and go to http://localhost:3000/api/docs
+and go to http://localhost:3000/api/docs
 
 
-for rails developer:
+
+
+### for rails developer:
 
 	rails g serializer delivery #use `spring stop` if stuck
+___
 
-	always add user ability through user.add_ability 'orders' to run callbacks.
+always add user ability through user.add_ability 'orders' to run callbacks.
+___
 
-	if 401, return json in the form of error: 'all bad'.
-	if 422, {base: ['bad'], order: ['worse']}
+to check out how emails look, I'm using **letter_opener** gem.  
+in [dev mode] console
+
+    order = FactoryGirl.create :order
+    ClientMailer.order_summary(order).deliver_now
+    
+will create html file in *Rails.root/tmp/letter_opener* and open it in your browser.  
+you'll be able to see pdf attachments there too and click on them.
+
+
+
+
+
+
+
+
+
+---
+
+https://jbt.github.io/markdown-editor (great for github markdown generation)
+
+
 
 TODO:
 

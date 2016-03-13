@@ -37,13 +37,13 @@
     {
       "request_method": "POST",
       "request_path": "/client/addresses",
-      "request_body": "address[street_and_house]=559+Jaron+Mills&address[door_number]=5&address[city_id]=1",
+      "request_body": "address[street_and_house]=12671+Renee+Plaza&address[door_number]=5&address[city_id]=1",
       "request_headers": {
-        "Access-Token": "duK3rG7cb5lkuBbWBYyrMA",
+        "Access-Token": "WZdDsKGu5eYM7oMM5-jfqQ",
         "Token-Type": "Bearer",
-        "Client": "uzno4rOGBdX4p-8m0nTRUw",
-        "Expiry": "1459096777",
-        "Uid": "120myra@bayer.biz",
+        "Client": "a8TJcz2R3u3vUOqphdu5_Q",
+        "Expiry": "1459106315",
+        "Uid": "120lane@hand.io",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -53,21 +53,21 @@
       "request_content_type": "application/x-www-form-urlencoded",
       "response_status": 201,
       "response_status_text": "Created",
-      "response_body": "{\n  \"id\": 1,\n  \"city_id\": 1,\n  \"user_id\": 1,\n  \"street_and_house\": \"559 Jaron Mills\",\n  \"door_number\": \"5\",\n  \"zip_code\": null,\n  \"active\": true\n}",
+      "response_body": "{\n  \"id\": 1,\n  \"city_id\": 1,\n  \"user_id\": 1,\n  \"street_and_house\": \"12671 Renee Plaza\",\n  \"door_number\": \"5\",\n  \"zip_code\": null,\n  \"active\": true,\n  \"city_name\": \"O'Connerbury_109\"\n}",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"5511785c1882048dcc9999f7f6ca846f\"",
+        "ETag": "W/\"4dc874dd2ba1c16d9ac9a885e0510b8d\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=WG9Fa1RCckdnalJsenMrS3VpblhwZkI2ZWhTWmd5VXpTOFR3VGl6d25rYlc1anZVbVU2a05BQWZXWWUycmVSd1BoY25JR2xzaGlkTmltYy83UWtRK1E5OWp6b0dObjhibkxremxCQjBRazFSb2thQmRGODV3d29pMUJucWhIVEtWZ0Z6NElkY2g5Vk91UTZHMDlpR2pXWStaekFHeWUwVWV2TWhuK2JrcExPblRVZXpZbVc4YTdXaU5uUS9YTlM4LS0zbmtKRWw0a2Vkc0tkZisvQWpPd0F3PT0%3D--296b4b596870d4ed1276f8d06918fbd3b4edd7b5; path=/; HttpOnly",
-        "X-Request-Id": "d9fe36c2-547f-45ea-9eb7-8d503ef2bcc9",
-        "X-Runtime": "0.092101",
-        "Content-Length": "117"
+        "Set-Cookie": "_session_id=Z1JJcmJOQ0ltTTdCb0VRR0RsSnJNVHJxVVdtYnd3VTI0Um0vZ2JrWFpybW4wQTdvQXZRMEpyL0lac0Z1QkQzdGRESlpQL2VIeXRONFhsbENjOGh5WHZ2aExzRUFyNmZQN2hpUEcxcDluRUtXZDZZTFl2ZkRscDJpdTY2S1NRTXRVUzcvZzBPdDBmaFVXa25HQVAwdUF6c0swVU9HWlNHQkYyTis1TlRJd1I3SGNwUU9NSWY5WWpzOTM2dmM5UHRPLS1Hd0tFSG1EMVhuVmhqdWR1TG9YTzFRPT0%3D--562afc91bb3405efd4493314c1b2dd765efc1d6d; path=/; HttpOnly",
+        "X-Request-Id": "b86fa0dc-46dc-4401-b928-1a423c512a58",
+        "X-Runtime": "0.079313",
+        "Content-Length": "150"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/client/addresses\" -d 'address[street_and_house]=559+Jaron+Mills&address[door_number]=5&address[city_id]=1' -X POST \\\n\t-H \"Access-Token: duK3rG7cb5lkuBbWBYyrMA\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: uzno4rOGBdX4p-8m0nTRUw\" \\\n\t-H \"Expiry: 1459096777\" \\\n\t-H \"Uid: 120myra@bayer.biz\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/client/addresses\" -d 'address[street_and_house]=12671+Renee+Plaza&address[door_number]=5&address[city_id]=1' -X POST \\\n\t-H \"Access-Token: WZdDsKGu5eYM7oMM5-jfqQ\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: a8TJcz2R3u3vUOqphdu5_Q\" \\\n\t-H \"Expiry: 1459106315\" \\\n\t-H \"Uid: 120lane@hand.io\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

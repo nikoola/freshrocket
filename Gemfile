@@ -51,6 +51,7 @@ group :production do
 
 	gem 'puma'
 	gem 'rack-cors', :require => 'rack/cors' #allow cross-origin requests in production (js is on another server)
+
 end
 
 
@@ -103,8 +104,14 @@ gem 'sinatra', :require => nil
 
 
 
+
 gem "fog", require: 'fog/aws' # S3 pic storage
+
+gem 'wkhtmltopdf-binary', group: [:developent, :test]
+gem 'wkhtmltopdf-heroku', group: :production
 gem 'wicked_pdf'
+
+gem "letter_opener"
 
 
 

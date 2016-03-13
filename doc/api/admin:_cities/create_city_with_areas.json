@@ -39,13 +39,13 @@
     {
       "request_method": "POST",
       "request_path": "/admin/cities",
-      "request_body": "city[name]=Blickmouth_9&city[areas_attributes][][name]=hi&include[]=areas",
+      "request_body": "city[name]=Reynoldsfurt_9&city[areas_attributes][][name]=hi&include[]=areas",
       "request_headers": {
-        "Access-Token": "EVU66TynjrgCYoWcq1kMaw",
+        "Access-Token": "-D03KvJ7Qj3MxCCR36fuOQ",
         "Token-Type": "Bearer",
-        "Client": "UDvCUBiiX4V7FKfUMZElmg",
-        "Expiry": "1459096763",
-        "Uid": "15andre@denesikdach.name",
+        "Client": "BGZ6HFhTuaeCm0OoqjWCNg",
+        "Expiry": "1459106300",
+        "Uid": "15delores@donnelly.io",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -55,22 +55,22 @@
       "request_content_type": "application/x-www-form-urlencoded",
       "response_status": 201,
       "response_status_text": "Created",
-      "response_body": "{\n  \"id\": 1,\n  \"name\": \"Blickmouth_9\",\n  \"active\": true\n}",
+      "response_body": "{\n  \"id\": 1,\n  \"name\": \"Reynoldsfurt_9\",\n  \"active\": true\n}",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
         "Location": "http://example.org/cities/1",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"c9d47db86788cea50570661d0708b20a\"",
+        "ETag": "W/\"0cee8118f1a2378f60b03ce93a2a397c\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=L2FPWGZtZCs4N1hodWM5ZHBVSWtPWnhwdzdlSlc4STdRVWZ3bndUZExJVDZPZDN0T0toVC9hZWhlN053dzZjSHRJZmhWa1VzbnBJbUhSY2JEeGt6eTI1d3VsNWVnR1NBelYvY293U1VJck11ZjhFM0QvU1JrQXQ4cE90YWt3NlFTcXZGVXgrZzFRMHpjb0NQSy83UEpiN0xxdEJBbTFNOUpjWUVHdUJVZFpheDU1UmhWaXNWTFRqTm5OMjhkOFlYLS0zbGh6OHhOM0JibEFMTTQxQytMMHNBPT0%3D--9198595be826bec0b5dc686ff162bec7eb6198be; path=/; HttpOnly",
-        "X-Request-Id": "0cfe6295-8504-4357-8bac-964d6fbba42d",
-        "X-Runtime": "0.097744",
-        "Content-Length": "44"
+        "Set-Cookie": "_session_id=bzlVejUvK084NHhBdEd5MDRuWStmdWlaZ2p4YTdGcmlsQ01VZy8wcVFaR2xJTU1MNGV1SVBmYzFtZlhYa2xZRGo4YmFyWlErSU1pUG9oRGhtY3R0SXV3MW5OallGQlVNcllXSHVKWGNZTmF2R05Da1drTlJVTHc1MTdEMmRGOE8yM3lIVjVERGVvNi9IVEpxNldkWll5UTR1OGFyUU5KRmxuMmIzanV2ZzNPekU4YjVHZ0xsbnMxRGxtbWtiN1R2LS1PcE5aY3BJYnhTazBlT2djNFNiVTBRPT0%3D--54fcea46015587b769ae162f4ca3eef09abe50ca; path=/; HttpOnly",
+        "X-Request-Id": "94beb4a5-4053-429f-bca6-b2b84d4e3be0",
+        "X-Runtime": "0.125825",
+        "Content-Length": "46"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/admin/cities\" -d 'city[name]=Blickmouth_9&city[areas_attributes][][name]=hi&include[]=areas' -X POST \\\n\t-H \"Access-Token: EVU66TynjrgCYoWcq1kMaw\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: UDvCUBiiX4V7FKfUMZElmg\" \\\n\t-H \"Expiry: 1459096763\" \\\n\t-H \"Uid: 15andre@denesikdach.name\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/admin/cities\" -d 'city[name]=Reynoldsfurt_9&city[areas_attributes][][name]=hi&include[]=areas' -X POST \\\n\t-H \"Access-Token: -D03KvJ7Qj3MxCCR36fuOQ\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: BGZ6HFhTuaeCm0OoqjWCNg\" \\\n\t-H \"Expiry: 1459106300\" \\\n\t-H \"Uid: 15delores@donnelly.io\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

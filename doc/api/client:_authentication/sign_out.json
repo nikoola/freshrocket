@@ -16,11 +16,11 @@
       "request_path": "/auth/sign_out",
       "request_body": null,
       "request_headers": {
-        "Access-Token": "2hUHzOflaxWv8R-BA-1tvA",
+        "Access-Token": "hg57eelNkNi0uM0A1KDSUw",
         "Token-Type": "Bearer",
-        "Client": "ZlckZQwnouIU77BV9jqccw",
-        "Expiry": "1459096778",
-        "Uid": "124adelia@johnsonmoore.name",
+        "Client": "mg57OsS526P-TaepBGkexQ",
+        "Expiry": "1459106316",
+        "Uid": "124durward@schmeler.io",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -38,13 +38,13 @@
         "Content-Type": "application/json; charset=utf-8",
         "ETag": "W/\"7363e85fe9edee6f053a4b319588c086\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=K2ZGd0FHRU9KZWtock85S1pBUjVVazhYVlBWN0ZHUFd0dEJsa1ZWemRNVWdRRE41ZGlHcVR3akpuWjQvcExhVGdkaDBKUzNnSUZtaVIrSFBXQ2EyYUE9PS0tUEVrclRTZDAzN2N1MTc4RXpsVDFSQT09--19385780a98ec6e481aca7d0c0e9f9f9f99f7e77; path=/; HttpOnly",
-        "X-Request-Id": "0674118a-59f0-4237-a3b6-7325115430a6",
-        "X-Runtime": "0.072637",
+        "Set-Cookie": "_session_id=OTl4b3dWNzZwREVBbU9NY08wMmc4bm5HTkRWYlVzcU93OGIyYW5pRmkxQk9wRElhSVBDZDhLSTlrR0tMMkxlajNsUnhycGVLL1BCdDljUzdqT1BHZ0E9PS0tSEdWUW4zdlJ5djlpZ05rSmptRFV1dz09--9a24f513f0237d150f6dfa4ad8faf1bcce3afd9a; path=/; HttpOnly",
+        "X-Request-Id": "2d51d584-e823-4891-810e-bfe5cf740f66",
+        "X-Runtime": "0.071841",
         "Content-Length": "16"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/auth/sign_out\" -d '' -X DELETE \\\n\t-H \"Access-Token: 2hUHzOflaxWv8R-BA-1tvA\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: ZlckZQwnouIU77BV9jqccw\" \\\n\t-H \"Expiry: 1459096778\" \\\n\t-H \"Uid: 124adelia@johnsonmoore.name\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/auth/sign_out\" -d '' -X DELETE \\\n\t-H \"Access-Token: hg57eelNkNi0uM0A1KDSUw\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: mg57OsS526P-TaepBGkexQ\" \\\n\t-H \"Expiry: 1459106316\" \\\n\t-H \"Uid: 124durward@schmeler.io\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

@@ -16,11 +16,11 @@
       "request_path": "/auth",
       "request_body": "phone",
       "request_headers": {
-        "Access-Token": "CDCANvGYRd1_N-KqqnUL4w",
+        "Access-Token": "ZJ8Slld3NgidL3j82QTIxQ",
         "Token-Type": "Bearer",
-        "Client": "EAsuSrdYL8U067cFC73-Pw",
-        "Expiry": "1459096785",
-        "Uid": "169camden_windler@littlezemlak.com",
+        "Client": "ss7BhRH0Nr6YG4UGO2jHjA",
+        "Expiry": "1459106324",
+        "Uid": "169rosanna_veum@hills.com",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -37,13 +37,13 @@
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "application/json; charset=utf-8",
         "Cache-Control": "no-cache",
-        "Set-Cookie": "_session_id=OU5pOU5BUVpaWEp3OVM2MkdIZnNnVnZIRzVBdW9lQ2N0R3N3RE4vR0ZSTTVGNjEzVkxySm41UmROZXpTZ2lmQ052Qkg1TWFJMkI3SHJnQjFsc3RxZmQ1KzNEYzlvM3ByVG1EVFV2M0Y5ODUrNENZQzB2RVdML2IyM0Z5Szk2Y2FYQmR5cW5yclNHWWFCZzVTaFBCV0Y5OHRQK1BOZnNHckU1SjJNTkVHelZ1LytkU0RvLzBSZDR0ZVFRSVBRQlU4LS1VMEljVzBTaFpnR1hLalpRc3Z2T2lBPT0%3D--a0f299de075cccf9e03ff5d0fcdffd69bc3cafa8; path=/; HttpOnly",
-        "X-Request-Id": "03772f94-732e-4ee5-9378-c4a56ee84741",
-        "X-Runtime": "0.074505",
+        "Set-Cookie": "_session_id=V0RZMGZPUWdhQVpYdTMzZERMb1kvdjNpYXlvangvajdPUmVBcUNvWVFqWTkyNDBIR2lxRUNuNk8rdnZSVWNFSjFlTkt1eG0xajRUVW4vWGVmekNMczBRb2hQSHdLUEcyclFuUTdQNDBEd2ZzSHJsTGEzUkF3QXhPQWFEUkVVTVgrbmtZOE1XN1BtRHZNV1hTREZpV1pId21jV1duV25senRYcjdWcEU4N1pwb3FZRVJzME1FQVBYTUY3cWdqYnorLS1YdEpKS3QvbzVGdnVoQWp4OFkvYW5BPT0%3D--b590194c37fef135bbf68b0c435ba3948d45efc8; path=/; HttpOnly",
+        "X-Request-Id": "c004476a-24ce-40a8-91cf-df2a94b0c89c",
+        "X-Runtime": "0.074296",
         "Content-Length": "241"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/auth\" -d 'phone' -X PUT \\\n\t-H \"Access-Token: CDCANvGYRd1_N-KqqnUL4w\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: EAsuSrdYL8U067cFC73-Pw\" \\\n\t-H \"Expiry: 1459096785\" \\\n\t-H \"Uid: 169camden_windler@littlezemlak.com\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/auth\" -d 'phone' -X PUT \\\n\t-H \"Access-Token: ZJ8Slld3NgidL3j82QTIxQ\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: ss7BhRH0Nr6YG4UGO2jHjA\" \\\n\t-H \"Expiry: 1459106324\" \\\n\t-H \"Uid: 169rosanna_veum@hills.com\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

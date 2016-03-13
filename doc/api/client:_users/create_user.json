@@ -47,13 +47,13 @@
     {
       "request_method": "POST",
       "request_path": "/auth",
-      "request_body": "email=163amy%40baumbachmcdermott.io&password=secrety_bickety&password_confirmation=secrety_bickety&first_name=Chaz&last_name=Abshire&phone=5890011883",
+      "request_body": "email=163rod.bartell%40jerde.info&password=secrety_bickety&password_confirmation=secrety_bickety&first_name=Curt&last_name=Homenick&phone=5432224734",
       "request_headers": {
-        "Access-Token": "VUzayu5zrYpkjyMPL5m8Fg",
+        "Access-Token": "vSYecDr6pLzzJ3HjNsJsPg",
         "Token-Type": "Bearer",
-        "Client": "KRpz_rhk1i3_n7mK6E7sjg",
-        "Expiry": "1459096785",
-        "Uid": "164kirk@johns.io",
+        "Client": "FtFEU5ZgFKYM2XceG0EHiQ",
+        "Expiry": "1459106324",
+        "Uid": "164lamont.gerhold@champlin.info",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -63,25 +63,25 @@
       "request_content_type": "application/x-www-form-urlencoded",
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\n  \"status\": \"success\",\n  \"data\": {\n    \"id\": 6,\n    \"first_name\": \"Chaz\",\n    \"last_name\": \"Abshire\",\n    \"email\": \"163amy@baumbachmcdermott.io\",\n    \"provider\": \"email\",\n    \"uid\": \"163amy@baumbachmcdermott.io\",\n    \"phone\": \"5890011883\",\n    \"verification_code\": null,\n    \"is_verified\": false,\n    \"created_at\": \"2016-03-13T16:39:45.085Z\",\n    \"updated_at\": \"2016-03-13T16:39:45.227Z\",\n    \"how_did_you_hear_about_us\": null\n  }\n}",
+      "response_body": "{\n  \"status\": \"success\",\n  \"data\": {\n    \"id\": 6,\n    \"first_name\": \"Curt\",\n    \"last_name\": \"Homenick\",\n    \"email\": \"163rod.bartell@jerde.info\",\n    \"provider\": \"email\",\n    \"uid\": \"163rod.bartell@jerde.info\",\n    \"phone\": \"5432224734\",\n    \"verification_code\": null,\n    \"is_verified\": false,\n    \"created_at\": \"2016-03-13T19:18:44.193Z\",\n    \"updated_at\": \"2016-03-13T19:18:44.334Z\",\n    \"how_did_you_hear_about_us\": null\n  }\n}",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
-        "access-token": "Zpa9JirDgUiw1jjplZnXpg",
+        "access-token": "X3Ui_CNbVYOpNMmNLAkEsw",
         "token-type": "Bearer",
-        "client": "euFlFCBaZCNylvuU8QtHCg",
-        "expiry": "1459096785",
-        "uid": "163amy@baumbachmcdermott.io",
+        "client": "CwxfU00SaqwyQKRkxvbp5A",
+        "expiry": "1459106324",
+        "uid": "163rod.bartell@jerde.info",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"8074e721b4bc453fd5c79d981ea5a3e9\"",
+        "ETag": "W/\"c48c394aa52c8d5a768ca275bf91733e\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "X-Request-Id": "60586dc7-a04c-4edd-acc3-a890d60faab3",
-        "X-Runtime": "0.158499",
-        "Content-Length": "350"
+        "X-Request-Id": "74f66c6d-8b83-4e8d-ad00-c10521972ab5",
+        "X-Runtime": "0.158256",
+        "Content-Length": "347"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/auth\" -d 'email=163amy%40baumbachmcdermott.io&password=secrety_bickety&password_confirmation=secrety_bickety&first_name=Chaz&last_name=Abshire&phone=5890011883' -X POST \\\n\t-H \"Access-Token: VUzayu5zrYpkjyMPL5m8Fg\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: KRpz_rhk1i3_n7mK6E7sjg\" \\\n\t-H \"Expiry: 1459096785\" \\\n\t-H \"Uid: 164kirk@johns.io\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/auth\" -d 'email=163rod.bartell%40jerde.info&password=secrety_bickety&password_confirmation=secrety_bickety&first_name=Curt&last_name=Homenick&phone=5432224734' -X POST \\\n\t-H \"Access-Token: vSYecDr6pLzzJ3HjNsJsPg\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: FtFEU5ZgFKYM2XceG0EHiQ\" \\\n\t-H \"Expiry: 1459106324\" \\\n\t-H \"Uid: 164lamont.gerhold@champlin.info\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

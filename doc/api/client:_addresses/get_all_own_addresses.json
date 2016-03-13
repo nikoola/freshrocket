@@ -19,11 +19,11 @@
       "request_path": "/client/addresses?active=0",
       "request_body": null,
       "request_headers": {
-        "Access-Token": "fGalmnnZFDzCmALipSByAw",
+        "Access-Token": "xTxiG0abtP7Vu1IYmnkftw",
         "Token-Type": "Bearer",
-        "Client": "oVMtG1qzu-fT23Acv3Ackw",
-        "Expiry": "1459096777",
-        "Uid": "117maegan@sanford.com",
+        "Client": "OE2eL1Oxzgs5MRyy2aGe-g",
+        "Expiry": "1459106315",
+        "Uid": "117geoffrey_bayer@kuhlman.co",
         "Host": "example.org",
         "Cookie": ""
       },
@@ -33,21 +33,21 @@
       "request_content_type": null,
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "[\n  {\n    \"id\": 1,\n    \"city_id\": 1,\n    \"user_id\": 1,\n    \"street_and_house\": \"192 Raquel Stream\",\n    \"door_number\": \"5\",\n    \"zip_code\": null,\n    \"active\": false\n  },\n  {\n    \"id\": 2,\n    \"city_id\": 2,\n    \"user_id\": 1,\n    \"street_and_house\": \"447 Rowland Turnpike\",\n    \"door_number\": \"5\",\n    \"zip_code\": null,\n    \"active\": false\n  },\n  {\n    \"id\": 3,\n    \"city_id\": 3,\n    \"user_id\": 1,\n    \"street_and_house\": \"8754 Lowe Mall\",\n    \"door_number\": \"5\",\n    \"zip_code\": null,\n    \"active\": false\n  }\n]",
+      "response_body": "[\n  {\n    \"id\": 1,\n    \"city_id\": 1,\n    \"user_id\": 1,\n    \"street_and_house\": \"130 Vergie Street\",\n    \"door_number\": \"5\",\n    \"zip_code\": null,\n    \"active\": false,\n    \"city_name\": \"Donnyport_102\"\n  },\n  {\n    \"id\": 2,\n    \"city_id\": 2,\n    \"user_id\": 1,\n    \"street_and_house\": \"904 Jose Mount\",\n    \"door_number\": \"5\",\n    \"zip_code\": null,\n    \"active\": false,\n    \"city_name\": \"Alisaport_103\"\n  },\n  {\n    \"id\": 3,\n    \"city_id\": 3,\n    \"user_id\": 1,\n    \"street_and_house\": \"3689 Schowalter Manors\",\n    \"door_number\": \"5\",\n    \"zip_code\": null,\n    \"active\": false,\n    \"city_name\": \"Douglasport_104\"\n  }\n]",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"3f87fd098fc6c5094f0386497ad01f51\"",
+        "ETag": "W/\"a76893d65b26e61255aed6d2a57edc07\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=RlFlQTFPLzhDbWtIaHd2V2dqeFdVQ0d6R3Bja1JjNmZXbklycllYS05uaVJuOGRoV3VxalpIOGhZdGp4YVg4Ym9Zd3JCL2NLbVM5MGRqRGtRUktuL3dpTkVPVXEzZFpQeDNUMTJScHl0YnBMdkJwanl4ekk0YjBpQ0dOcEtZcmdEd2t5bTk3Uk16Sjl6dUpoZ1ZJM0trUUlsVHVGK0dRM3pJSXFyYnd5UVh5TEJxL2ZBMS9NQnBqUmhsbW9JZlQ2LS00MkpjbTVLcGJvNUdyeWlKb1NvTEF3PT0%3D--c89e97d27010a738e6d11f6b8714b9a2066fbe9a; path=/; HttpOnly",
-        "X-Request-Id": "972e5f1f-bdec-43f3-ad97-cb93e34f9014",
-        "X-Runtime": "0.091302",
-        "Content-Length": "364"
+        "Set-Cookie": "_session_id=ejkrRklqQ2hic3puemN1TWEyMm1rZWQvTlRpK1h4M0lQMUdwV0N6N2UxZTllaFF1OU1od3lHR3M2ZDVSWDNSR1RheFFpMk1xUHJudUpHMmhmMTZ4Y0tBbTdZVVpzOXZPbjRzTit2VVNEdTF5YnpvaDlXblJPNVY5RlNFQklBSkFLY3lGVkJBSnZCVUJBemllYzZnY2duZ3NmcHByM1o3ck53bERDb25HSkVvNkloVmxGWUlkVS9zZ1hMaUF5Nk1qLS0yeXJsL3hsQkhQY2xQK0JCMi9QbEdnPT0%3D--034b37e083a0cc064c1546c228ea48a9a358a937; path=/; HttpOnly",
+        "X-Request-Id": "be7e50c9-1238-4808-acbd-014e8425c57c",
+        "X-Runtime": "0.118956",
+        "Content-Length": "452"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/client/addresses?active=0\" -X GET \\\n\t-H \"Access-Token: fGalmnnZFDzCmALipSByAw\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: oVMtG1qzu-fT23Acv3Ackw\" \\\n\t-H \"Expiry: 1459096777\" \\\n\t-H \"Uid: 117maegan@sanford.com\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/client/addresses?active=0\" -X GET \\\n\t-H \"Access-Token: xTxiG0abtP7Vu1IYmnkftw\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: OE2eL1Oxzgs5MRyy2aGe-g\" \\\n\t-H \"Expiry: 1459106315\" \\\n\t-H \"Uid: 117geoffrey_bayer@kuhlman.co\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

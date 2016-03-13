@@ -43,13 +43,13 @@
     {
       "request_method": "POST",
       "request_path": "/admin/addresses",
-      "request_body": "address[street_and_house]=482+Keely+Plains&address[door_number]=5&address[city_id]=1&address[user_id]=1",
+      "request_body": "address[street_and_house]=235+Paucek+Walks&address[door_number]=5&address[city_id]=1&address[user_id]=1",
       "request_headers": {
-        "Access-Token": "Ys4GU5TRv6Xi8QSzKCYqzw",
+        "Access-Token": "hsQznRIN6IVxeF3kYgeJEg",
         "Token-Type": "Bearer",
-        "Client": "Wf9G3n6iET4AFeAMFzUOYw",
-        "Expiry": "1459096762",
-        "Uid": "7howard_heel@jast.info",
+        "Client": "1dDnGvVKjyR6_yzrsjzukg",
+        "Expiry": "1459106298",
+        "Uid": "7arvilla@berge.info",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -59,21 +59,21 @@
       "request_content_type": "application/x-www-form-urlencoded",
       "response_status": 201,
       "response_status_text": "Created",
-      "response_body": "{\n  \"id\": 1,\n  \"city_id\": 1,\n  \"user_id\": 1,\n  \"street_and_house\": \"482 Keely Plains\",\n  \"door_number\": \"5\",\n  \"zip_code\": null,\n  \"active\": true\n}",
+      "response_body": "{\n  \"id\": 1,\n  \"city_id\": 1,\n  \"user_id\": 1,\n  \"street_and_house\": \"235 Paucek Walks\",\n  \"door_number\": \"5\",\n  \"zip_code\": null,\n  \"active\": true,\n  \"city_name\": \"Lednerburgh_6\"\n}",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"33751a298c333939157d16a77b4a9ecf\"",
+        "ETag": "W/\"743548482825ff59e4120e1ae463e507\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=L0d1Q1hCOEVjOGgveWF0T09NOTdkYkxmYjN1dXh2S1FQWWt0V0R1bkIwNGNLUm5zdFBGWUQrdU9ZcG5DLy9Hendqd0FBTmJKQi9CTTcyMFRYWjlhSnpJWGV4VG1IbFdpTndjbTIxeVBaaEt3dnJJcGxHQjRCR25UblpxVDNEdjVVRW0rUnRDRVdkUWxIVWVxa0hhM3gzdEhBK1phblRhWnRsSUlkYXpjK3VVNGI1SlQyRTJaT2tnR3pzZ29hNkVpLS1wMlJLdkVpZ20vSHBYRjFBZ2d2WGlBPT0%3D--7267da4429698bb9f76c89224e41b589a07a3224; path=/; HttpOnly",
-        "X-Request-Id": "2d2b8758-906e-42ea-9d8d-60fea8b194bd",
-        "X-Runtime": "0.083073",
-        "Content-Length": "118"
+        "Set-Cookie": "_session_id=aDZubG15d3F2OUczaG9HTDF5MHNjRXhld2Nnc2hvQ0QwcG1SdTFkTExXRm5Wc0QwQm9XZ2JKZ0RkU2hQemlqSExkQXZWZklSN1Y0cmxrZWFFS2dHMnp4dWF1WUQ4em9EQ2o0cVpVQ2s4dVJUSXlITGpIRzUrNGJUUjdXcVcxWWpSOEZXbXZJTmVHMDVxL0I1Y281TnFIdU00SWhYOFY0ZDM5R1gxMlY4R1c5OHZmcll0WFordUVqV1hZZTZWT0NQLS0yMkpGRElRTGFnQVRMK2JoejgzdUFRPT0%3D--e35f621196b4e6eb6711f8c7fedb4dcb03849b5f; path=/; HttpOnly",
+        "X-Request-Id": "de1183a7-5e58-4d75-90ad-52751653a01c",
+        "X-Runtime": "0.095468",
+        "Content-Length": "146"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/admin/addresses\" -d 'address[street_and_house]=482+Keely+Plains&address[door_number]=5&address[city_id]=1&address[user_id]=1' -X POST \\\n\t-H \"Access-Token: Ys4GU5TRv6Xi8QSzKCYqzw\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: Wf9G3n6iET4AFeAMFzUOYw\" \\\n\t-H \"Expiry: 1459096762\" \\\n\t-H \"Uid: 7howard_heel@jast.info\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/admin/addresses\" -d 'address[street_and_house]=235+Paucek+Walks&address[door_number]=5&address[city_id]=1&address[user_id]=1' -X POST \\\n\t-H \"Access-Token: hsQznRIN6IVxeF3kYgeJEg\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: 1dDnGvVKjyR6_yzrsjzukg\" \\\n\t-H \"Expiry: 1459106298\" \\\n\t-H \"Uid: 7arvilla@berge.info\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

@@ -39,13 +39,13 @@
     {
       "request_method": "PUT",
       "request_path": "/admin/cities/1",
-      "request_body": "city[name]=West+Bonnie_11&city[areas_attributes][][id]=1&city[areas_attributes][][_destroy]=1",
+      "request_body": "city[name]=Rainabury_11&city[areas_attributes][][id]=1&city[areas_attributes][][_destroy]=1",
       "request_headers": {
-        "Access-Token": "hExeQxGxvtxEj3tr0PDOAQ",
+        "Access-Token": "AdiI26LuejwwID9ggO24AA",
         "Token-Type": "Bearer",
-        "Client": "n_IhvmvCueLF2UdzMz3lHQ",
-        "Expiry": "1459096763",
-        "Uid": "16kennedy.champlin@mccullough.com",
+        "Client": "HvlxPqfl8ObfmtXfukO51A",
+        "Expiry": "1459106300",
+        "Uid": "16gunner.balistreri@watsica.com",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -55,21 +55,21 @@
       "request_content_type": "application/x-www-form-urlencoded",
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\n  \"id\": 1,\n  \"name\": \"West Bonnie_11\",\n  \"active\": true\n}",
+      "response_body": "{\n  \"id\": 1,\n  \"name\": \"Rainabury_11\",\n  \"active\": true\n}",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"4ca2ab8351517b1df833900f38ce6f5f\"",
+        "ETag": "W/\"3bd48faa2501897b7dbcf86f48a7af07\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=UmNReUZyV1RLampadmxidmVTRURUWFVMd0xkM1YwV0V3RzhKK3dZaUJEd0M4OEpwYUNGY1I4eEluV3M4c0xwMEtSc0Iyd1NoRThqTlhyV3k3YUJVZDQ3anJCTEdQczRsRndPVXpJL0ozK3BGaW80Wjc0cTdXdHczRzdVbFltZlFkS0JDd1dBVVFQczJuSzhxYXhuaUpuTGh1eDNST2llMStValFvL1F2L1FzWk5wcEVWUDFmTFBwWUZhUS9IZXVCLS1yRkdSSjBDMzd0QmE2NW9hVnFhblh3PT0%3D--00cd83dcf2ff98eded5670f5bd7dee096584feca; path=/; HttpOnly",
-        "X-Request-Id": "455e89b4-052e-491e-9966-e21285f10470",
-        "X-Runtime": "0.080300",
-        "Content-Length": "46"
+        "Set-Cookie": "_session_id=bUd6c3dUNVZDaG90RmlXaHFlZkFvQXFsM0IzckFaUnhvdDhuNG1mT1M1S2dEWFZsK0htWTFrMTYrT0VrbSs0OTZoVXpheGU1R2ozSXhRemwwZzBJNEhRbGJoT21KdDVNNzljSlZOdWU5SytFRjRiYVdKQ0xDTlNBSEFSNkg2ZVB4Q3FFcE85L3hnQjdJbmwzcEhxTURTQ3QwNEZadTR0UytjZVRyRXBBOEg3YzBabmxxU2VObzhYNkZ1czdUcmloLS12T1NadzFZd0tzVXpnVWM0L3NsSlRBPT0%3D--ee9dfa28bbc528f423f2cf1bccaac8a7f78f4c4d; path=/; HttpOnly",
+        "X-Request-Id": "47c03b7d-7750-4853-9688-a2af7dfa1078",
+        "X-Runtime": "0.084174",
+        "Content-Length": "44"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/admin/cities/1\" -d 'city[name]=West+Bonnie_11&city[areas_attributes][][id]=1&city[areas_attributes][][_destroy]=1' -X PUT \\\n\t-H \"Access-Token: hExeQxGxvtxEj3tr0PDOAQ\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: n_IhvmvCueLF2UdzMz3lHQ\" \\\n\t-H \"Expiry: 1459096763\" \\\n\t-H \"Uid: 16kennedy.champlin@mccullough.com\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/admin/cities/1\" -d 'city[name]=Rainabury_11&city[areas_attributes][][id]=1&city[areas_attributes][][_destroy]=1' -X PUT \\\n\t-H \"Access-Token: AdiI26LuejwwID9ggO24AA\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: HvlxPqfl8ObfmtXfukO51A\" \\\n\t-H \"Expiry: 1459106300\" \\\n\t-H \"Uid: 16gunner.balistreri@watsica.com\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

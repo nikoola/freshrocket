@@ -13,37 +13,37 @@
   "requests": [
     {
       "request_method": "GET",
-      "request_path": "/auth/validate_token?access-token=Y8901MANt7WHEV2KFvPaTQ&token-type=Bearer&client=D9Nm-UXArQI4x1ra_t0lYg&expiry=1459096778&uid=125taylor%40klein.org",
+      "request_path": "/auth/validate_token?access-token=Y8uffN8v-0G9xVJaxZwYmg&token-type=Bearer&client=_afc1jTid3NesABftNoABg&expiry=1459106316&uid=125adeline.schiller%40adams.com",
       "request_body": null,
       "request_headers": {
         "Host": "example.org",
         "Cookie": ""
       },
       "request_query_parameters": {
-        "access-token": "Y8901MANt7WHEV2KFvPaTQ",
+        "access-token": "Y8uffN8v-0G9xVJaxZwYmg",
         "token-type": "Bearer",
-        "client": "D9Nm-UXArQI4x1ra_t0lYg",
-        "expiry": "1459096778",
-        "uid": "125taylor@klein.org"
+        "client": "_afc1jTid3NesABftNoABg",
+        "expiry": "1459106316",
+        "uid": "125adeline.schiller@adams.com"
       },
       "request_content_type": null,
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\n  \"success\": true,\n  \"data\": {\n    \"id\": 1,\n    \"first_name\": \"Ashlynn\",\n    \"last_name\": \"Corkery\",\n    \"email\": \"125taylor@klein.org\",\n    \"phone\": \"3891038000\",\n    \"is_verified\": false,\n    \"provider\": \"email\",\n    \"uid\": \"125taylor@klein.org\",\n    \"created_at\": \"2016-03-13T16:39:38.561Z\",\n    \"abilities\": {\n      \"orders\": 0,\n      \"products\": 0,\n      \"users\": 0,\n      \"categories\": 0,\n      \"coupons\": 0,\n      \"settings\": 0,\n      \"cities\": 0,\n      \"delivery_boy\": 0\n    }\n  }\n}",
+      "response_body": "{\n  \"success\": true,\n  \"data\": {\n    \"id\": 1,\n    \"first_name\": \"Roger\",\n    \"last_name\": \"Green\",\n    \"email\": \"125adeline.schiller@adams.com\",\n    \"phone\": \"2679547326\",\n    \"is_verified\": false,\n    \"provider\": \"email\",\n    \"uid\": \"125adeline.schiller@adams.com\",\n    \"created_at\": \"2016-03-13T19:18:36.599Z\",\n    \"abilities\": {\n      \"orders\": 0,\n      \"products\": 0,\n      \"users\": 0,\n      \"categories\": 0,\n      \"coupons\": 0,\n      \"settings\": 0,\n      \"cities\": 0,\n      \"delivery_boy\": 0\n    }\n  }\n}",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"5c14f297c30dc088c8eacd9c10dc7a78\"",
+        "ETag": "W/\"17755eabded9e6b61d5f852480f162de\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=SGcyNDdrenJEUTk4T1JXYXRjMzFTeWsrc0d0WG1RMWo5ZDZrcndVK0RhOU5xc0VCYUlwbGthTWlsUEpOcWtQQkxLQ1lpRmpBKzVMaWw5bWtXdWRYZFFZMjFTTWdRZkJBVjVHcUxVSmR2cEhjM21QZ1B2YXIzQllYZyt4emcxdURScXo2TFhvRWZYcy9pSCtabWd4d0daQXBWczRqYVlNMlNNem1Ud2l3c1JjbFRPQTVRaDFtWXRpOHlRaVQzdlZ3LS1IS3dLQWhMbnBrQ0VkTVg3bXdoMUVnPT0%3D--94cc26163cecdacda26c4682ac6ffdb6935ba733; path=/; HttpOnly",
-        "X-Request-Id": "bd52247a-ef5a-49ec-bd97-045503ef8fb2",
-        "X-Runtime": "0.078462",
-        "Content-Length": "351"
+        "Set-Cookie": "_session_id=TmN0SEp2M3RCTVVzcG9GMlN3Slp1bk82MFFrelNlR2k3YVA0WW5OKzUvY0hYWnlaQTY0M0ZFTnZQZlVmZW82TzlVc3JyMzZhaWJyZ0MxQ3VYK2RzdCs1S2NVRVpGYXBHeURlWlJKQkI3aklqMGJTZ0VxR1IvTms2Um1kTjZKWjRaMFl6Y2c0VHcwd0xCVTJ5U1ZRdGg3b0w4VmlEcjI5cjNrWTBCaFFHRXpEZ0IxMTBTU1JqVHdGQk00K3J4THFHLS1vWlEzWlp3aHo4c2VuZWdCQklaOGZnPT0%3D--720cdb9dbe28d62566852932eabf3d8eaee11415; path=/; HttpOnly",
+        "X-Request-Id": "b3ece14f-6e31-4a95-a8d6-bdacdfd97528",
+        "X-Runtime": "0.078253",
+        "Content-Length": "367"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/auth/validate_token?access-token=Y8901MANt7WHEV2KFvPaTQ&token-type=Bearer&client=D9Nm-UXArQI4x1ra_t0lYg&expiry=1459096778&uid=125taylor%40klein.org\" -X GET \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/auth/validate_token?access-token=Y8uffN8v-0G9xVJaxZwYmg&token-type=Bearer&client=_afc1jTid3NesABftNoABg&expiry=1459106316&uid=125adeline.schiller%40adams.com\" -X GET \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

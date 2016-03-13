@@ -23,7 +23,7 @@
     {
       "request_method": "POST",
       "request_path": "/auth/sign_in",
-      "request_body": "email=123hanna_kiehn%40dickinsonswift.name&password=secrety_bickety",
+      "request_body": "email=123christine%40hodkiewicz.io&password=secrety_bickety",
       "request_headers": {
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
@@ -34,25 +34,25 @@
       "request_content_type": "application/x-www-form-urlencoded",
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\n  \"data\": {\n    \"id\": 1,\n    \"first_name\": \"Hillard\",\n    \"last_name\": \"Effertz\",\n    \"email\": \"123hanna_kiehn@dickinsonswift.name\",\n    \"phone\": \"3899656598\",\n    \"is_verified\": false,\n    \"provider\": \"email\",\n    \"uid\": \"123hanna_kiehn@dickinsonswift.name\",\n    \"created_at\": \"2016-03-13T16:39:38.230Z\",\n    \"abilities\": {\n      \"orders\": 0,\n      \"products\": 0,\n      \"users\": 0,\n      \"categories\": 0,\n      \"coupons\": 0,\n      \"settings\": 0,\n      \"cities\": 0,\n      \"delivery_boy\": 0\n    }\n  }\n}",
+      "response_body": "{\n  \"data\": {\n    \"id\": 1,\n    \"first_name\": \"Oceane\",\n    \"last_name\": \"Kertzmann\",\n    \"email\": \"123christine@hodkiewicz.io\",\n    \"phone\": \"4086383001\",\n    \"is_verified\": false,\n    \"provider\": \"email\",\n    \"uid\": \"123christine@hodkiewicz.io\",\n    \"created_at\": \"2016-03-13T19:18:36.266Z\",\n    \"abilities\": {\n      \"orders\": 0,\n      \"products\": 0,\n      \"users\": 0,\n      \"categories\": 0,\n      \"coupons\": 0,\n      \"settings\": 0,\n      \"cities\": 0,\n      \"delivery_boy\": 0\n    }\n  }\n}",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
-        "access-token": "H2A9uLSjxnY_OI2na9iGcg",
+        "access-token": "VtKUd1scGC8HquJmRWo5_Q",
         "token-type": "Bearer",
-        "client": "aOvMbFRqrKXz422n_qP8IQ",
-        "expiry": "1459096778",
-        "uid": "123hanna_kiehn@dickinsonswift.name",
+        "client": "MN_cnd_Hkmu2StTTWVYhzg",
+        "expiry": "1459106316",
+        "uid": "123christine@hodkiewicz.io",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"cca9ccbddcf48b2726ad701b0ca7f8aa\"",
+        "ETag": "W/\"21bc55579ce39f11c12315956f12858c\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "X-Request-Id": "814a4c3f-837a-4ca3-8e9f-9222409caa3a",
-        "X-Runtime": "0.154061",
-        "Content-Length": "366"
+        "X-Request-Id": "5fa38711-bac5-453b-a46e-7f1db74f2d60",
+        "X-Runtime": "0.157168",
+        "Content-Length": "351"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/auth/sign_in\" -d 'email=123hanna_kiehn%40dickinsonswift.name&password=secrety_bickety' -X POST \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/auth/sign_in\" -d 'email=123christine%40hodkiewicz.io&password=secrety_bickety' -X POST \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }
