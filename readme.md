@@ -56,7 +56,7 @@ you'll be able to see pdf attachments there too and click on them.
 
 ___
 
-to check out backeground jobs: https://rivo.herokuapp.com/sidekiq. passwords are at https://dashboard.heroku.com/apps/rivo/settings.
+to check out background jobs: https://rivo.herokuapp.com/sidekiq. passwords are at https://dashboard.heroku.com/apps/rivo/settings.
 
 
 

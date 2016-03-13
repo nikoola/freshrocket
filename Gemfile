@@ -24,8 +24,6 @@ group :development, :test do
 
 	gem 'sqlite3'
 
-	gem 'sidekiq'
-	gem 'sidekiq-failures'
 end
 
 gem 'rspec_api_documentation'
@@ -70,10 +68,11 @@ gem 'omniauth-facebook'
 # gem 'regulator' # like pundit, but allows policy namespacing.
 
 gem 'acts-as-taggable-on'
-
 gem 'aasm'
 
 
+gem 'sidekiq'
+gem 'sidekiq-failures'
 
 # gem 'active_model_serializers', '~>0.10.0.rc4'
 gem 'active_model_serializers', git: 'https://github.com/brigade/active_model_serializers.git', branch: 'default-include'
@@ -82,7 +81,7 @@ gem 'active_model_serializers', git: 'https://github.com/brigade/active_model_se
 
 # gem 'twilio-ruby' #not twilio, smslane
 # gem 'phonelib' # validates phone numbers
-gem 'smslane'
+# gem 'smslane' #tried but didnt like it, as it said 'template didn't match' when they did
 
 gem 'excon' #msg91 is stupid and doesn't know how to reference gems from gemspec
 gem 'msg91', :github => 'shyammohankanojia/msg91-ruby'
