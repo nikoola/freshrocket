@@ -39,13 +39,13 @@
     {
       "request_method": "PUT",
       "request_path": "/admin/cities/1",
-      "request_body": "city[name]=Rainabury_11&city[areas_attributes][][id]=1&city[areas_attributes][][_destroy]=1",
+      "request_body": "city[name]=South+Antonio_11&city[areas_attributes][][id]=1&city[areas_attributes][][_destroy]=1",
       "request_headers": {
-        "Access-Token": "AdiI26LuejwwID9ggO24AA",
+        "Access-Token": "48gqJIyzHIMoTj7k17DIMw",
         "Token-Type": "Bearer",
-        "Client": "HvlxPqfl8ObfmtXfukO51A",
-        "Expiry": "1459106300",
-        "Uid": "16gunner.balistreri@watsica.com",
+        "Client": "rPlLnF9izHD-QT4YdwtgcQ",
+        "Expiry": "1459268037",
+        "Uid": "16halie_rohan@kirlinwalsh.info",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -55,21 +55,21 @@
       "request_content_type": "application/x-www-form-urlencoded",
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\n  \"id\": 1,\n  \"name\": \"Rainabury_11\",\n  \"active\": true\n}",
+      "response_body": "{\n  \"id\": 1,\n  \"name\": \"South Antonio_11\",\n  \"active\": true\n}",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"3bd48faa2501897b7dbcf86f48a7af07\"",
+        "ETag": "W/\"0a78bc4ce489c2386460bcd5175baa07\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=bUd6c3dUNVZDaG90RmlXaHFlZkFvQXFsM0IzckFaUnhvdDhuNG1mT1M1S2dEWFZsK0htWTFrMTYrT0VrbSs0OTZoVXpheGU1R2ozSXhRemwwZzBJNEhRbGJoT21KdDVNNzljSlZOdWU5SytFRjRiYVdKQ0xDTlNBSEFSNkg2ZVB4Q3FFcE85L3hnQjdJbmwzcEhxTURTQ3QwNEZadTR0UytjZVRyRXBBOEg3YzBabmxxU2VObzhYNkZ1czdUcmloLS12T1NadzFZd0tzVXpnVWM0L3NsSlRBPT0%3D--ee9dfa28bbc528f423f2cf1bccaac8a7f78f4c4d; path=/; HttpOnly",
-        "X-Request-Id": "47c03b7d-7750-4853-9688-a2af7dfa1078",
-        "X-Runtime": "0.084174",
-        "Content-Length": "44"
+        "Set-Cookie": "_session_id=aERjU3FyWHVRNm02emk5Ui95ODZZYi8yaUdGamgzNHlleFhGZEcraE9kTWczNVFLL2paQXZ2SmtBU1lFQklRd1FQTEJOUjFxcDJqdS9PQ3d0NlF0V0V2TXY1bWFqUk9pTzlxQ1RpL2NwWDFORGZ3SnQzbndvMmZoVjJlUVpERlE3TkVZazFJU2h6NW5yYzd3R2g3eFdzU1VNaitJWW9nNmdPSjZRWDhrY0M5L2lsN3NsZm5ac1g5K2JMaUtPY3dMLS1qRU9hTUZiL2tmQnovUHZLdUxQZkpBPT0%3D--dacf3a11058360e85202f27fab684582977c0078; path=/; HttpOnly",
+        "X-Request-Id": "8dba3530-83ea-451b-bfaf-23c0735d132a",
+        "X-Runtime": "0.079825",
+        "Content-Length": "48"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/admin/cities/1\" -d 'city[name]=Rainabury_11&city[areas_attributes][][id]=1&city[areas_attributes][][_destroy]=1' -X PUT \\\n\t-H \"Access-Token: AdiI26LuejwwID9ggO24AA\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: HvlxPqfl8ObfmtXfukO51A\" \\\n\t-H \"Expiry: 1459106300\" \\\n\t-H \"Uid: 16gunner.balistreri@watsica.com\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/admin/cities/1\" -d 'city[name]=South+Antonio_11&city[areas_attributes][][id]=1&city[areas_attributes][][_destroy]=1' -X PUT \\\n\t-H \"Access-Token: 48gqJIyzHIMoTj7k17DIMw\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: rPlLnF9izHD-QT4YdwtgcQ\" \\\n\t-H \"Expiry: 1459268037\" \\\n\t-H \"Uid: 16halie_rohan@kirlinwalsh.info\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

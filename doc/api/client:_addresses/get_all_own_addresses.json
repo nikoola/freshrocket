@@ -19,11 +19,11 @@
       "request_path": "/client/addresses?active=0",
       "request_body": null,
       "request_headers": {
-        "Access-Token": "xTxiG0abtP7Vu1IYmnkftw",
+        "Access-Token": "4v2bZilV6sCJ2M8zxk7HpQ",
         "Token-Type": "Bearer",
-        "Client": "OE2eL1Oxzgs5MRyy2aGe-g",
-        "Expiry": "1459106315",
-        "Uid": "117geoffrey_bayer@kuhlman.co",
+        "Client": "IclwuzkFLPg4cIYOGyLzRQ",
+        "Expiry": "1459268050",
+        "Uid": "117jevon.douglas@hermiston.info",
         "Host": "example.org",
         "Cookie": ""
       },
@@ -33,21 +33,21 @@
       "request_content_type": null,
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "[\n  {\n    \"id\": 1,\n    \"city_id\": 1,\n    \"user_id\": 1,\n    \"street_and_house\": \"130 Vergie Street\",\n    \"door_number\": \"5\",\n    \"zip_code\": null,\n    \"active\": false,\n    \"city_name\": \"Donnyport_102\"\n  },\n  {\n    \"id\": 2,\n    \"city_id\": 2,\n    \"user_id\": 1,\n    \"street_and_house\": \"904 Jose Mount\",\n    \"door_number\": \"5\",\n    \"zip_code\": null,\n    \"active\": false,\n    \"city_name\": \"Alisaport_103\"\n  },\n  {\n    \"id\": 3,\n    \"city_id\": 3,\n    \"user_id\": 1,\n    \"street_and_house\": \"3689 Schowalter Manors\",\n    \"door_number\": \"5\",\n    \"zip_code\": null,\n    \"active\": false,\n    \"city_name\": \"Douglasport_104\"\n  }\n]",
+      "response_body": "[\n  {\n    \"id\": 1,\n    \"city_id\": 1,\n    \"user_id\": 1,\n    \"street_and_house\": \"78159 Amalia Points\",\n    \"door_number\": \"5\",\n    \"zip_code\": null,\n    \"active\": false,\n    \"city_name\": \"Marielletown_102\"\n  },\n  {\n    \"id\": 2,\n    \"city_id\": 2,\n    \"user_id\": 1,\n    \"street_and_house\": \"4519 Drew Square\",\n    \"door_number\": \"5\",\n    \"zip_code\": null,\n    \"active\": false,\n    \"city_name\": \"Nadermouth_103\"\n  },\n  {\n    \"id\": 3,\n    \"city_id\": 3,\n    \"user_id\": 1,\n    \"street_and_house\": \"2259 Evalyn Shoal\",\n    \"door_number\": \"5\",\n    \"zip_code\": null,\n    \"active\": false,\n    \"city_name\": \"Stephaniamouth_104\"\n  }\n]",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"a76893d65b26e61255aed6d2a57edc07\"",
+        "ETag": "W/\"f926fa5c04fe646b5a2daa25b9240e2f\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=ejkrRklqQ2hic3puemN1TWEyMm1rZWQvTlRpK1h4M0lQMUdwV0N6N2UxZTllaFF1OU1od3lHR3M2ZDVSWDNSR1RheFFpMk1xUHJudUpHMmhmMTZ4Y0tBbTdZVVpzOXZPbjRzTit2VVNEdTF5YnpvaDlXblJPNVY5RlNFQklBSkFLY3lGVkJBSnZCVUJBemllYzZnY2duZ3NmcHByM1o3ck53bERDb25HSkVvNkloVmxGWUlkVS9zZ1hMaUF5Nk1qLS0yeXJsL3hsQkhQY2xQK0JCMi9QbEdnPT0%3D--034b37e083a0cc064c1546c228ea48a9a358a937; path=/; HttpOnly",
-        "X-Request-Id": "be7e50c9-1238-4808-acbd-014e8425c57c",
-        "X-Runtime": "0.118956",
-        "Content-Length": "452"
+        "Set-Cookie": "_session_id=NWdraTh4ZXl5Q0J1NEJzRGNIdkswbUlQbFhkaXVrM0NCVUpVR0d6ajNxSGhuZTlkVGg2YytoWXI4czAxOTFNVzdzN3MwRHpEK0Q3RURoRnR6ODNMTDd1ekhYUFA2Qy9jakFuQkxtcmliR2xCUHRJdnFPQU13aGVqNHZ0ODc3R1RZTE9aVGhKeUtwWjJIN2xycTlVMWc3T1RIR1RiR1lxdFNFb3R1b3RXZEdrZ0cxU2pIeWRBN1ZkSXZWVVVhdUVkLS11WEZrWSt3S0VEYjJoMGhRaFpNTm5nPT0%3D--438828b5d96a237bbffef226a592bf811aa7add3; path=/; HttpOnly",
+        "X-Request-Id": "6ebb8d56-3f16-4eda-9c03-3bcf8a7a055e",
+        "X-Runtime": "0.093780",
+        "Content-Length": "458"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/client/addresses?active=0\" -X GET \\\n\t-H \"Access-Token: xTxiG0abtP7Vu1IYmnkftw\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: OE2eL1Oxzgs5MRyy2aGe-g\" \\\n\t-H \"Expiry: 1459106315\" \\\n\t-H \"Uid: 117geoffrey_bayer@kuhlman.co\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/client/addresses?active=0\" -X GET \\\n\t-H \"Access-Token: 4v2bZilV6sCJ2M8zxk7HpQ\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: IclwuzkFLPg4cIYOGyLzRQ\" \\\n\t-H \"Expiry: 1459268050\" \\\n\t-H \"Uid: 117jevon.douglas@hermiston.info\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

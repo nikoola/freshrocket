@@ -558,6 +558,25 @@
       ]
     },
     {
+      "name": "deliver: orders/1/positions",
+      "examples": [
+        {
+          "description": "get a map trace for own order",
+          "link": "deliver:_orders/1/positions/get_a_map_trace_for_own_order.json",
+          "groups": "all",
+          "route": "/orders/:id/positions",
+          "method": "get"
+        },
+        {
+          "description": "mark new position",
+          "link": "deliver:_orders/1/positions/mark_new_position.json",
+          "groups": "all",
+          "route": "/deliver/orders/:id/positions",
+          "method": "post"
+        }
+      ]
+    },
+    {
       "name": "forms",
       "examples": [
         {

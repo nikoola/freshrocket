@@ -21,7 +21,7 @@ module Deliver
 
 			def delivery_boy_params
 				params.require(:delivery_boy).permit([
-					:lat, :long, :status
+					:current_order_id, :status
 				])
 			end
 	end

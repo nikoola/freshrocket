@@ -19,11 +19,11 @@
       "request_path": "/admin/addresses?active=0",
       "request_body": null,
       "request_headers": {
-        "Access-Token": "catXYh7TP3OVnc6LzY6RmA",
+        "Access-Token": "UMTBbxHPvDME_O0x0D7t2Q",
         "Token-Type": "Bearer",
-        "Client": "r8XZ3n8Px8PV5BXy6sWYyA",
-        "Expiry": "1459106298",
-        "Uid": "6andrew@okunevaaltenwerth.org",
+        "Client": "hvaXPmceyPoShsTkHWx79Q",
+        "Expiry": "1459268035",
+        "Uid": "6cordell@hartmann.net",
         "Host": "example.org",
         "Cookie": ""
       },
@@ -33,21 +33,21 @@
       "request_content_type": null,
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "[\n  {\n    \"id\": 1,\n    \"city_id\": 1,\n    \"user_id\": 1,\n    \"street_and_house\": \"88665 Gutmann Loop\",\n    \"door_number\": \"5\",\n    \"zip_code\": null,\n    \"active\": false,\n    \"city_name\": \"Port Adolphus_1\"\n  },\n  {\n    \"id\": 2,\n    \"city_id\": 2,\n    \"user_id\": 2,\n    \"street_and_house\": \"9993 Evelyn Orchard\",\n    \"door_number\": \"5\",\n    \"zip_code\": null,\n    \"active\": false,\n    \"city_name\": \"Kassandraland_2\"\n  },\n  {\n    \"id\": 3,\n    \"city_id\": 3,\n    \"user_id\": 3,\n    \"street_and_house\": \"5185 Ariel Isle\",\n    \"door_number\": \"5\",\n    \"zip_code\": null,\n    \"active\": false,\n    \"city_name\": \"Port Allene_3\"\n  }\n]",
+      "response_body": "[\n  {\n    \"id\": 1,\n    \"city_id\": 1,\n    \"user_id\": 1,\n    \"street_and_house\": \"8629 Ledner Place\",\n    \"door_number\": \"5\",\n    \"zip_code\": null,\n    \"active\": false,\n    \"city_name\": \"South Coraliefurt_1\"\n  },\n  {\n    \"id\": 2,\n    \"city_id\": 2,\n    \"user_id\": 2,\n    \"street_and_house\": \"680 Bell Trail\",\n    \"door_number\": \"5\",\n    \"zip_code\": null,\n    \"active\": false,\n    \"city_name\": \"Dantetown_2\"\n  },\n  {\n    \"id\": 3,\n    \"city_id\": 3,\n    \"user_id\": 3,\n    \"street_and_house\": \"57329 Rohan Harbors\",\n    \"door_number\": \"5\",\n    \"zip_code\": null,\n    \"active\": false,\n    \"city_name\": \"Eliside_3\"\n  }\n]",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"db7f43476b35df800d9f164259c9faa0\"",
+        "ETag": "W/\"a07a4d95dce9f550809893c03bb55b56\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=NjlaWkRlT3lnMG1vTWMyRXpOSzRjVVAvNkVRSG9UTjdpeXhJcWczVlZHeXVHTkFBQkVlbUNYVW5rUnduanZBWjBmMHlYazZOVUlBQytyaWlSWXZLNmVtK0E0ODBidmxwbU9FZEswWHlCVFBmdWdyQm5sdUkyUkZGWmZrSENjTWphbTdkLzNVRU5mQnd6YXlGM0M5Y2NqdFAwUHNhYWdMa2FLeG5EZEVieHZHUXJVNFh2TTFVeHFvRHdaV1pFNFhULS13M1J5NnlodEF0czJKRjZQanNpL3B3PT0%3D--a2899b8a50d107e852c8782de87b1ef336e1f50f; path=/; HttpOnly",
-        "X-Request-Id": "108f2d5e-763e-4999-91c4-cda7b676c333",
-        "X-Runtime": "0.119500",
-        "Content-Length": "453"
+        "Set-Cookie": "_session_id=bW1KL1htNEtFMGQxZTYwY3dsZ09jR3B6RHh4U3JaRnlXcVRHYTUvcE9vWDhzci9iakNheHl0SXRwck0zemFpL2Iyd3U1SkxFUXJpRm54TVppVDV1TFVvYi9LY3BQZUJKazJoWjg5SmxZc3paRkUrdlRFczlBWGlIbEJoN3NDSnFBZ0FuVW41YmZ3YjJJT0pmbzRKdU8zemhiUUpBQ0lFVVlzTjZoelg2KzR6eTFTeGREMmRMeWx5SGlBZk5xK3p2LS1jSXQ5b296VmhIR3l6ZThWUVRZTWZnPT0%3D--ba677a3a2bb9e468578e1681f16d262f154c700b; path=/; HttpOnly",
+        "X-Request-Id": "0a9631ce-caee-454c-a6c1-0e12fc6ac46a",
+        "X-Runtime": "0.122457",
+        "Content-Length": "447"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/admin/addresses?active=0\" -X GET \\\n\t-H \"Access-Token: catXYh7TP3OVnc6LzY6RmA\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: r8XZ3n8Px8PV5BXy6sWYyA\" \\\n\t-H \"Expiry: 1459106298\" \\\n\t-H \"Uid: 6andrew@okunevaaltenwerth.org\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/admin/addresses?active=0\" -X GET \\\n\t-H \"Access-Token: UMTBbxHPvDME_O0x0D7t2Q\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: hvaXPmceyPoShsTkHWx79Q\" \\\n\t-H \"Expiry: 1459268035\" \\\n\t-H \"Uid: 6cordell@hartmann.net\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

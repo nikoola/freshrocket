@@ -1,0 +1,48 @@
+{
+  "resource": "deliver: orders/1/positions",
+  "http_method": "GET",
+  "route": "/orders/:id/positions",
+  "description": "get a map trace for own order",
+  "explanation": null,
+  "parameters": [
+
+  ],
+  "response_fields": [
+
+  ],
+  "requests": [
+    {
+      "request_method": "GET",
+      "request_path": "/orders/3/positions",
+      "request_body": null,
+      "request_headers": {
+        "Access-Token": "7Myzg9LS1W_Ajn6aUbpb0Q",
+        "Token-Type": "Bearer",
+        "Client": "3i1KYSCSO4iTzxSiB3eRmA",
+        "Expiry": "1459268061",
+        "Uid": "196lenore@schinnerwisozk.com",
+        "Host": "example.org",
+        "Cookie": ""
+      },
+      "request_query_parameters": {
+      },
+      "request_content_type": null,
+      "response_status": 200,
+      "response_status_text": "OK",
+      "response_body": "{\n  \"positions\": [\n    \"42.10808340000001,87.735895\",\n    \"42.10808340000001,87.735895\"\n  ]\n}",
+      "response_headers": {
+        "X-Frame-Options": "SAMEORIGIN",
+        "X-XSS-Protection": "1; mode=block",
+        "X-Content-Type-Options": "nosniff",
+        "Content-Type": "application/json; charset=utf-8",
+        "ETag": "W/\"a937efd08db370f5db8882721233b807\"",
+        "Cache-Control": "max-age=0, private, must-revalidate",
+        "X-Request-Id": "f2646663-c934-4703-a188-4fd6b52dc36f",
+        "X-Runtime": "0.197748",
+        "Content-Length": "75"
+      },
+      "response_content_type": "application/json; charset=utf-8",
+      "curl": "curl \"http://localhost:3000/orders/3/positions\" -X GET \\\n\t-H \"Access-Token: 7Myzg9LS1W_Ajn6aUbpb0Q\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: 3i1KYSCSO4iTzxSiB3eRmA\" \\\n\t-H \"Expiry: 1459268061\" \\\n\t-H \"Uid: 196lenore@schinnerwisozk.com\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
+    }
+  ]
+}

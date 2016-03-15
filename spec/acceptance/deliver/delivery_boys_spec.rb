@@ -1,7 +1,7 @@
 require 'rails_helper'
 
 resource 'deliver: delivery boys', type: :request do
-	let(:user) { FactoryGirl.create :user }
+	let(:user) { FactoryGirl.create :user, abilities: ['delivery_boy'] }
 	let(:auth_headers) { user.create_new_auth_token }
 
 	include_context 'shared_headers'
@@ -9,22 +9,21 @@ resource 'deliver: delivery boys', type: :request do
 	put '/deliver/delivery_boy' do
 
 		with_options scope: :delivery_boy do
-			parameter :lat
-			parameter :long
-			parameter :statuss
+			parameter :statuss, 'unavailable/available/busy/fired'
+			parameter :current_order_id, "delivery boy may have multiple nondelivered orders in the same time. current_order_id is the order she's currently delivering"
 		end
 
 
 		example 'update self' do
-			user.add_ability 'delivery_boy'
+			order = FactoryGirl.create :order
+
 			do_request({
 				delivery_boy: {
-					lat: '3278789789'
+					current_order_id: order.id
 				}
 			})
 
-			expect(status).to eq(200)
-			expect(user.reload.delivery_boy.lat).to eq('3278789789')
+			expect(user.delivery_boy.current_order.id).to eq order.id
 		end
 	end
 

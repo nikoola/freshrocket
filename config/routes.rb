@@ -6,6 +6,10 @@ Rails.application.routes.draw do
 	resources :products,   only: [:index, :show]
 	resources :cities,     only: [:index, :show]
 
+	resources :orders, only: [] do
+		resources :positions,  only: [:index]
+	end
+
 	scope :forms do
 		controller :forms do
 			post :contact
@@ -81,6 +85,7 @@ Rails.application.routes.draw do
 		resources :orders,        only: [:index, :update] do
 			member {
 				put :update_status
+				resources :positions, only: [:create]
 			}
 		end
 		

@@ -86,3 +86,6 @@ module DeviseTokenAuth
 
 
 end
+
+
+

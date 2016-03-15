@@ -16,11 +16,11 @@
       "request_path": "/admin/orders/1",
       "request_body": "order[delivery_boy_id]=1",
       "request_headers": {
-        "Access-Token": "Mz6miYHgsbPKrEZdN7Nt6w",
+        "Access-Token": "HGtnjvTlXgQ9pWzQayeoxQ",
         "Token-Type": "Bearer",
-        "Client": "ZdwPOOTLTC38pwJUQHEnqw",
-        "Expiry": "1459106303",
-        "Uid": "53kadin@hirthewill.org",
+        "Client": "9Zm06fyLhBQu8sIa1bpc_g",
+        "Expiry": "1459268040",
+        "Uid": "53adolphus@jaskolski.biz",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -30,21 +30,21 @@
       "request_content_type": "application/x-www-form-urlencoded",
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\n  \"id\": 1,\n  \"user_id\": 2,\n  \"status\": \"unconfirmed\",\n  \"created_at\": \"2016-03-13T19:18:23.730Z\",\n  \"confirmed_at\": null,\n  \"approved_at\": null,\n  \"dispacthed_at\": null,\n  \"delivered_at\": null,\n  \"canceled_at\": null,\n  \"pure_product_price\": \"27.0\",\n  \"tax\": \"1.35\",\n  \"delivery_charge\": \"200.0\",\n  \"total_price\": \"228.35\",\n  \"coupon_code\": null,\n  \"delivery_boy_id\": 1,\n  \"delivery_boy_phone\": \"7412438597\",\n  \"wanted_time\": null,\n  \"wanted_date\": null,\n  \"payment_type\": \"cash\",\n  \"is_paid\": false,\n  \"feedback\": null,\n  \"comment\": null,\n  \"source_type\": null,\n  \"admin_comment\": null\n}",
+      "response_body": "{\n  \"id\": 1,\n  \"user_id\": 2,\n  \"status\": \"unconfirmed\",\n  \"created_at\": \"2016-03-15T16:14:00.263Z\",\n  \"confirmed_at\": null,\n  \"approved_at\": null,\n  \"dispacthed_at\": null,\n  \"delivered_at\": null,\n  \"canceled_at\": null,\n  \"pure_product_price\": \"27.0\",\n  \"tax\": \"1.35\",\n  \"delivery_charge\": \"200.0\",\n  \"total_price\": \"228.35\",\n  \"coupon_code\": null,\n  \"delivery_boy_id\": 1,\n  \"delivery_boy_phone\": \"4231108526\",\n  \"wanted_time\": null,\n  \"wanted_date\": null,\n  \"payment_type\": \"cash\",\n  \"is_paid\": false,\n  \"feedback\": null,\n  \"comment\": null,\n  \"source_type\": null,\n  \"admin_comment\": null\n}",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"6b475363e0f0c452420d48cf38d9d83f\"",
+        "ETag": "W/\"a8d0687d8ad2aa4b2f96fb2bbc4400fe\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=MXlUajk3elQ0eVJYR3dHWjlvL1lIbzEyTWMrMk5vT21WMW1NQVFJWk5HRHBvblZGUU5hRDhBeGwyYytIZU5lRGlMQ0tWekJTd1BvcHkvRy82NmdmdmxjR1g4N3BuMnlodzFCaHVHd1h6SUdGYkk4TFpoVlFGYmZUajRVWE8veDU2YnVoSldVYVJLaEtPaDZDTm1xMGFLK0x3ZFkxdUFCbzhTTmRSbTBzelRrTW1IV01hZ3FBSWo4SkNJOFNuS3RILS00T0ZQa3RxZzJZMzBwbTl0Wml4SEV3PT0%3D--9909334c640c81e25aef07c68fbc226cb1203a86; path=/; HttpOnly",
-        "X-Request-Id": "38e37f7e-c004-42b0-8662-a6a74705dd54",
-        "X-Runtime": "0.093255",
+        "Set-Cookie": "_session_id=QkxrV2VGQTJ6eDFqZ3RiTXRSVDhELzFnQ0xCTzc3OFo2WU0weGZKNUtpaHQ2eFg4aWdFMGkxdkJ2ck5wTnFCdWNmYmVTUUdxNklGZTVzUW9CeW5TUEFLQ3F0VWVGd3o3UG9KaXZYRjVvM1AvZTJQdjJsOGlCMWt1eEFNS0JaMm1Edm5tQ1JJNVhZcG9FV2dOTFY4KzRiUzBqS1RDdWxpc1hHcUUrRzJLMjBpQW1mK3dBUjVxMVhpQ1MyZ20rUjhFLS05b0M1L21BRUMyNU4vSUxYU1JkKzJnPT0%3D--681012ffbeeaaa5a5bea4cd22b1bd48ca4f10efd; path=/; HttpOnly",
+        "X-Request-Id": "d95af6c9-678b-453b-bc1b-0056016cf723",
+        "X-Runtime": "0.084732",
         "Content-Length": "492"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/admin/orders/1\" -d 'order[delivery_boy_id]=1' -X PUT \\\n\t-H \"Access-Token: Mz6miYHgsbPKrEZdN7Nt6w\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: ZdwPOOTLTC38pwJUQHEnqw\" \\\n\t-H \"Expiry: 1459106303\" \\\n\t-H \"Uid: 53kadin@hirthewill.org\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/admin/orders/1\" -d 'order[delivery_boy_id]=1' -X PUT \\\n\t-H \"Access-Token: HGtnjvTlXgQ9pWzQayeoxQ\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: 9Zm06fyLhBQu8sIa1bpc_g\" \\\n\t-H \"Expiry: 1459268040\" \\\n\t-H \"Uid: 53adolphus@jaskolski.biz\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

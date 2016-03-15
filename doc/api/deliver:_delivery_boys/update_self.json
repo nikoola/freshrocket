@@ -7,18 +7,13 @@
   "parameters": [
     {
       "scope": "delivery_boy",
-      "name": "lat",
-      "description": "Delivery boy lat"
-    },
-    {
-      "scope": "delivery_boy",
-      "name": "long",
-      "description": "Delivery boy long"
-    },
-    {
-      "scope": "delivery_boy",
       "name": "statuss",
-      "description": "Delivery boy statuss"
+      "description": "unavailable/available/busy/fired"
+    },
+    {
+      "scope": "delivery_boy",
+      "name": "current_order_id",
+      "description": "delivery boy may have multiple nondelivered orders in the same time. current_order_id is the order she's currently delivering"
     }
   ],
   "response_fields": [
@@ -28,13 +23,13 @@
     {
       "request_method": "PUT",
       "request_path": "/deliver/delivery_boy",
-      "request_body": "delivery_boy[lat]=3278789789",
+      "request_body": "delivery_boy[current_order_id]=3",
       "request_headers": {
-        "Access-Token": "LQkgK_vbB5lOju8Et9suvA",
+        "Access-Token": "2BBFGMaIosfqCfPZW7V72A",
         "Token-Type": "Bearer",
-        "Client": "yzFEm9v-j2EungoWaezbFQ",
-        "Expiry": "1459106325",
-        "Uid": "173lelia_jerde@powlowski.name",
+        "Client": "N6aJhMSu7O5VHfc4YQ2H3Q",
+        "Expiry": "1459268059",
+        "Uid": "175dina_crooks@thompsoncorwin.io",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -51,13 +46,13 @@
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "text/html",
         "Cache-Control": "no-cache",
-        "Set-Cookie": "_session_id=NFYyNVBYR09BVndYeGpncUhCRUY4OTR4NW5vVkgzM1pSYTAwOWtGVkJrWGhXQlFaWStIdGZjejM1RDI3aDBvTGtrQTdiOExRUEtkSUZyM1o1aTcvV3VKRitvVnVVYS9lYzhJSWZhd3FGaERLRE5jd2VQNFF3MUFlVC82L0QyaGh2aFA1WTU2YUtuaTU1M0lOeEprUjlwb1ZodmxTTERFV1dGWFBXUkNFRU1wMHRkN2hEYTRxVVpIVUNUT3JBaW9QLS1KeWlSbHZCejI3R3gxSHV5UW5PdkdBPT0%3D--bc2231ef1469a09c47c0d2464ea5a5710985046c; path=/; HttpOnly",
-        "X-Request-Id": "7e36562c-918e-46d8-a0b0-480637955b5e",
-        "X-Runtime": "0.092206",
+        "Set-Cookie": "_session_id=dW9EQ2xYdEMxVDUwZjJTalJBZC92L2NXQzg4clQ1Q2xYWnBQYWpUQXRFOU1Pa3VCUDN5dWFYYkdQc2Nlbk5tOE5uRDVvUEs3MVduM2U4cGVOdW16L3Bhak5TL2V1REpEejF4VWZkZWVsL1J2dzJjNnpOSGVHVnM3ZFN5bXVhTHMwdVpMaXdqaTh1TzZGbXM0d0Rtb21ZRGw4SlN4UHgxempmN0ZrV252emZCaElzTjg0QU9oOFI5TUdKR1gwSGRpLS1BcjB4MGJVMGpYZjNZcHQ3emxhcU13PT0%3D--35540bf632a7b629eeab03e198c48708e4c81842; path=/; HttpOnly",
+        "X-Request-Id": "61da85df-077f-4990-9726-68b72640bd8b",
+        "X-Runtime": "0.091034",
         "Content-Length": "0"
       },
       "response_content_type": "text/html",
-      "curl": "curl \"http://localhost:3000/deliver/delivery_boy\" -d 'delivery_boy[lat]=3278789789' -X PUT \\\n\t-H \"Access-Token: LQkgK_vbB5lOju8Et9suvA\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: yzFEm9v-j2EungoWaezbFQ\" \\\n\t-H \"Expiry: 1459106325\" \\\n\t-H \"Uid: 173lelia_jerde@powlowski.name\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/deliver/delivery_boy\" -d 'delivery_boy[current_order_id]=3' -X PUT \\\n\t-H \"Access-Token: 2BBFGMaIosfqCfPZW7V72A\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: N6aJhMSu7O5VHfc4YQ2H3Q\" \\\n\t-H \"Expiry: 1459268059\" \\\n\t-H \"Uid: 175dina_crooks@thompsoncorwin.io\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

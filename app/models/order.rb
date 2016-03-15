@@ -65,6 +65,7 @@ class Order < ActiveRecord::Base
 			after {
 				touch :dispacthed_at
 				SendDispatchSmsJob.perform_later user.name, user.phone
+				delivery_boy.update status: :busy
 			}
 			transitions :from => :approved, :to => :dispatched, 
 				guard: :delivery_boy_assigned?

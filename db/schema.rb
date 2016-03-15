@@ -53,8 +53,7 @@ ActiveRecord::Schema.define(version: 20160127185541) do
 
   create_table "delivery_boys", force: :cascade do |t|
     t.integer "user_id"
-    t.string  "lat"
-    t.string  "long"
+    t.integer "current_order_id"
     t.string  "status"
   end
 

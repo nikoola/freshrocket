@@ -39,13 +39,13 @@
     {
       "request_method": "POST",
       "request_path": "/admin/cities",
-      "request_body": "city[name]=Reynoldsfurt_9&city[areas_attributes][][name]=hi&include[]=areas",
+      "request_body": "city[name]=Karlieville_9&city[areas_attributes][][name]=hi&include[]=areas",
       "request_headers": {
-        "Access-Token": "-D03KvJ7Qj3MxCCR36fuOQ",
+        "Access-Token": "MEPCo7HLxHSfkE350jTzeA",
         "Token-Type": "Bearer",
-        "Client": "BGZ6HFhTuaeCm0OoqjWCNg",
-        "Expiry": "1459106300",
-        "Uid": "15delores@donnelly.io",
+        "Client": "i9MnNJue-xp4cYcwYGhvdg",
+        "Expiry": "1459268037",
+        "Uid": "15sabina@renner.info",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -55,22 +55,22 @@
       "request_content_type": "application/x-www-form-urlencoded",
       "response_status": 201,
       "response_status_text": "Created",
-      "response_body": "{\n  \"id\": 1,\n  \"name\": \"Reynoldsfurt_9\",\n  \"active\": true\n}",
+      "response_body": "{\n  \"id\": 1,\n  \"name\": \"Karlieville_9\",\n  \"active\": true\n}",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
         "Location": "http://example.org/cities/1",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"0cee8118f1a2378f60b03ce93a2a397c\"",
+        "ETag": "W/\"8006100a58e2d39b7595189775e9c0a0\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=bzlVejUvK084NHhBdEd5MDRuWStmdWlaZ2p4YTdGcmlsQ01VZy8wcVFaR2xJTU1MNGV1SVBmYzFtZlhYa2xZRGo4YmFyWlErSU1pUG9oRGhtY3R0SXV3MW5OallGQlVNcllXSHVKWGNZTmF2R05Da1drTlJVTHc1MTdEMmRGOE8yM3lIVjVERGVvNi9IVEpxNldkWll5UTR1OGFyUU5KRmxuMmIzanV2ZzNPekU4YjVHZ0xsbnMxRGxtbWtiN1R2LS1PcE5aY3BJYnhTazBlT2djNFNiVTBRPT0%3D--54fcea46015587b769ae162f4ca3eef09abe50ca; path=/; HttpOnly",
-        "X-Request-Id": "94beb4a5-4053-429f-bca6-b2b84d4e3be0",
-        "X-Runtime": "0.125825",
-        "Content-Length": "46"
+        "Set-Cookie": "_session_id=UC96TzhNVldPRVZKUmNjVTlRcnZJTkQ1TmRrTlBYa1QvVXpLQjhxQ0FWVkJuOUx6NGpIWmNiN1BMYTJpVzBTMHV6NzBINFgzRHlWOFF3WWVOaUFQVEhuNTd6b3BHUkNOM0JYUTVsdk94cHpPWVF1aU1JbmlpVkthQUpvK3F0WkNNWHFJMkRiRE90K3RTSzhIemk3M25KdlJKUCs1Z3UrRkJKVGhOK29DVWgrVnBEN2g5M0RZMjlwTEEwTjZWOERrLS00bHZxUlhGL3crdThxaGRGVjFyUVNBPT0%3D--30dfa6bcf134441ef83ac81dfb01409418b7a919; path=/; HttpOnly",
+        "X-Request-Id": "522a5a16-2e67-4bdb-9005-6b0219bf4228",
+        "X-Runtime": "0.096543",
+        "Content-Length": "45"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/admin/cities\" -d 'city[name]=Reynoldsfurt_9&city[areas_attributes][][name]=hi&include[]=areas' -X POST \\\n\t-H \"Access-Token: -D03KvJ7Qj3MxCCR36fuOQ\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: BGZ6HFhTuaeCm0OoqjWCNg\" \\\n\t-H \"Expiry: 1459106300\" \\\n\t-H \"Uid: 15delores@donnelly.io\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/admin/cities\" -d 'city[name]=Karlieville_9&city[areas_attributes][][name]=hi&include[]=areas' -X POST \\\n\t-H \"Access-Token: MEPCo7HLxHSfkE350jTzeA\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: i9MnNJue-xp4cYcwYGhvdg\" \\\n\t-H \"Expiry: 1459268037\" \\\n\t-H \"Uid: 15sabina@renner.info\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

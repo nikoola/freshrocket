@@ -152,8 +152,7 @@ class SetupSchema < ActiveRecord::Migration
 	# TODO add indexes
 	create_table 'delivery_boys', force: :cascade do |t|
 		t.integer 'user_id'
-		t.string  'lat' 
-		t.string  'long'   # current position, so that can be appointed a delivery
+		t.integer 'current_order_id'
 		t.string  'status' # available, busy, not_available
 	end
 

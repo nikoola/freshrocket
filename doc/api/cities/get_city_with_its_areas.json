@@ -27,17 +27,17 @@
       "request_content_type": null,
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\n  \"id\": 1,\n  \"name\": \"Port Adriel_101\",\n  \"active\": true,\n  \"areas\": [\n    {\n      \"id\": 1,\n      \"name\": \"Joyceshire_area_3\"\n    },\n    {\n      \"id\": 2,\n      \"name\": \"New Lennie_area_4\"\n    },\n    {\n      \"id\": 3,\n      \"name\": \"Sheridanmouth_area_5\"\n    }\n  ]\n}",
+      "response_body": "{\n  \"id\": 1,\n  \"name\": \"New Joanahaven_101\",\n  \"active\": true,\n  \"areas\": [\n    {\n      \"id\": 1,\n      \"name\": \"Gracieton_area_3\"\n    },\n    {\n      \"id\": 2,\n      \"name\": \"Port Lizzieland_area_4\"\n    },\n    {\n      \"id\": 3,\n      \"name\": \"North Rossieburgh_area_5\"\n    }\n  ]\n}",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"e054c796d34f1a4161b42182e7e1834e\"",
+        "ETag": "W/\"406ce92f1687e9294686b536ae3f1562\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "X-Request-Id": "74325912-471f-4c27-aeb2-0ceb5983a80c",
-        "X-Runtime": "0.008751",
-        "Content-Length": "168"
+        "X-Request-Id": "93ed75e5-0f6f-4dd5-bf11-c13016616bd7",
+        "X-Runtime": "0.002766",
+        "Content-Length": "179"
       },
       "response_content_type": "application/json; charset=utf-8",
       "curl": "curl \"http://localhost:3000/cities/1?include[]=areas\" -X GET \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""

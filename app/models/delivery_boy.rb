@@ -3,6 +3,7 @@ class DeliveryBoy < ActiveRecord::Base
 	include Filterable
 
 	belongs_to :user
+	belongs_to :current_order, class_name: Order #because delivery boy chooses herself where to go
 
 	has_many :orders
 
@@ -15,6 +16,7 @@ class DeliveryBoy < ActiveRecord::Base
 	end
 
 	scope :status, -> (status)    { where status: status }
+	# scope :current_order_id
 
 
 

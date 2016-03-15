@@ -27,11 +27,11 @@
       "request_path": "/admin/delivery_boys?status=fired",
       "request_body": null,
       "request_headers": {
-        "Access-Token": "a8OzY9Re_mdSSLm5QEciTQ",
+        "Access-Token": "Iur9GyAz6jkkA8dKc0hZVA",
         "Token-Type": "Bearer",
-        "Client": "czC38JdpbgZI_SXUni08uA",
-        "Expiry": "1459106301",
-        "Uid": "25bud@breitenberg.org",
+        "Client": "Dc_tZK9FEOVqCC4ZBGgHug",
+        "Expiry": "1459268038",
+        "Uid": "25eulah.renner@bashirian.biz",
         "Host": "example.org",
         "Cookie": ""
       },
@@ -41,21 +41,21 @@
       "request_content_type": null,
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "[\n  {\n    \"id\": 1,\n    \"user_id\": 1,\n    \"lat\": null,\n    \"long\": null,\n    \"status\": \"fired\"\n  }\n]",
+      "response_body": "[\n  {\n    \"id\": 1,\n    \"user_id\": 1,\n    \"current_order_id\": null,\n    \"status\": \"fired\"\n  }\n]",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"e1107ced0523b4f0db47dca6182afeec\"",
+        "ETag": "W/\"21235323636dfe99916ba2e0d016ae77\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=RSs4V3lnc0dJcDd0Qm9DZFQyeEl1d2F4cHJ6SGNpN0hmNlZWYVJQZnBJVGZnQlhuVmwyNGF4SmxsN1NJck1oRXpUSTlYMXowdzdqdStBdDNmNy9INXhjTWV2THZWd05CVHlxOW9JWEtHZ1NwRzQrSXBhYlRuYnRuYUZBdFVwK3lpWi9RQWxzWFNOcURrSGVUL0lwNjhUZWtOWlVKRGZaL2ZsSGhZNEhjckgwNGxNWjBKcmVzaVFBYnFJVWhOVGJhLS16OVJPSmZTaDNuMzJGeUh6TUdxUUpnPT0%3D--77074ebde08d5b8588b64713da5be40646551116; path=/; HttpOnly",
-        "X-Request-Id": "8efcf179-0113-46af-8bff-5f0530939d73",
-        "X-Runtime": "0.096835",
-        "Content-Length": "62"
+        "Set-Cookie": "_session_id=ZC9qL0xwSHY5MWRqL081Tkt0RG82TmJIM1NqMU1BMnNrUmdNQmo0dFpVcEU4Q0F5aG9VR2tBUjhXdHZaUEovcjhJT2lMbmNKSW5ySzNsYzN1blRhaW9vQXIxTlVrR2tFRUNhWTd1clArbHRtM255ZmFrNE45OWZaMTZyTW5VV09QSHJ1U2NJUlRiMjlWWWwxalR5aVZrd013ZFl5K1VMM2JwTk9pSjc1STYwaE5qanJpUnVGZFhpVFErbXpzd3kvLS1Hbi9NZzZPRFg1T3ZCckl4Nmg2N2hnPT0%3D--ec3a42aed939dda5b11405719de3274ded535478; path=/; HttpOnly",
+        "X-Request-Id": "23d5947a-0eab-4d23-93bb-d1aea6c9e39f",
+        "X-Runtime": "0.078611",
+        "Content-Length": "63"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/admin/delivery_boys?status=fired\" -X GET \\\n\t-H \"Access-Token: a8OzY9Re_mdSSLm5QEciTQ\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: czC38JdpbgZI_SXUni08uA\" \\\n\t-H \"Expiry: 1459106301\" \\\n\t-H \"Uid: 25bud@breitenberg.org\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/admin/delivery_boys?status=fired\" -X GET \\\n\t-H \"Access-Token: Iur9GyAz6jkkA8dKc0hZVA\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: Dc_tZK9FEOVqCC4ZBGgHug\" \\\n\t-H \"Expiry: 1459268038\" \\\n\t-H \"Uid: 25eulah.renner@bashirian.biz\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

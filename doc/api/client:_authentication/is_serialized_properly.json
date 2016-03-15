@@ -13,37 +13,37 @@
   "requests": [
     {
       "request_method": "GET",
-      "request_path": "/auth/validate_token?access-token=Y8uffN8v-0G9xVJaxZwYmg&token-type=Bearer&client=_afc1jTid3NesABftNoABg&expiry=1459106316&uid=125adeline.schiller%40adams.com",
+      "request_path": "/auth/validate_token?access-token=U5yKI-IAbEWE1QE8wq4rMw&token-type=Bearer&client=2eK1l6L2Vn-ZMBSB6DR03g&expiry=1459268051&uid=125thalia_macejkovic%40walsh.com",
       "request_body": null,
       "request_headers": {
         "Host": "example.org",
         "Cookie": ""
       },
       "request_query_parameters": {
-        "access-token": "Y8uffN8v-0G9xVJaxZwYmg",
+        "access-token": "U5yKI-IAbEWE1QE8wq4rMw",
         "token-type": "Bearer",
-        "client": "_afc1jTid3NesABftNoABg",
-        "expiry": "1459106316",
-        "uid": "125adeline.schiller@adams.com"
+        "client": "2eK1l6L2Vn-ZMBSB6DR03g",
+        "expiry": "1459268051",
+        "uid": "125thalia_macejkovic@walsh.com"
       },
       "request_content_type": null,
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\n  \"success\": true,\n  \"data\": {\n    \"id\": 1,\n    \"first_name\": \"Roger\",\n    \"last_name\": \"Green\",\n    \"email\": \"125adeline.schiller@adams.com\",\n    \"phone\": \"2679547326\",\n    \"is_verified\": false,\n    \"provider\": \"email\",\n    \"uid\": \"125adeline.schiller@adams.com\",\n    \"created_at\": \"2016-03-13T19:18:36.599Z\",\n    \"abilities\": {\n      \"orders\": 0,\n      \"products\": 0,\n      \"users\": 0,\n      \"categories\": 0,\n      \"coupons\": 0,\n      \"settings\": 0,\n      \"cities\": 0,\n      \"delivery_boy\": 0\n    }\n  }\n}",
+      "response_body": "{\n  \"success\": true,\n  \"data\": {\n    \"id\": 1,\n    \"first_name\": \"Cassidy\",\n    \"last_name\": \"Reilly\",\n    \"email\": \"125thalia_macejkovic@walsh.com\",\n    \"phone\": \"8809818536\",\n    \"is_verified\": false,\n    \"provider\": \"email\",\n    \"uid\": \"125thalia_macejkovic@walsh.com\",\n    \"created_at\": \"2016-03-15T16:14:11.271Z\",\n    \"abilities\": {\n      \"orders\": 0,\n      \"products\": 0,\n      \"users\": 0,\n      \"categories\": 0,\n      \"coupons\": 0,\n      \"settings\": 0,\n      \"cities\": 0,\n      \"delivery_boy\": 0\n    }\n  }\n}",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"17755eabded9e6b61d5f852480f162de\"",
+        "ETag": "W/\"aecb967a98a2bd8a3ed7205624fd47cf\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=TmN0SEp2M3RCTVVzcG9GMlN3Slp1bk82MFFrelNlR2k3YVA0WW5OKzUvY0hYWnlaQTY0M0ZFTnZQZlVmZW82TzlVc3JyMzZhaWJyZ0MxQ3VYK2RzdCs1S2NVRVpGYXBHeURlWlJKQkI3aklqMGJTZ0VxR1IvTms2Um1kTjZKWjRaMFl6Y2c0VHcwd0xCVTJ5U1ZRdGg3b0w4VmlEcjI5cjNrWTBCaFFHRXpEZ0IxMTBTU1JqVHdGQk00K3J4THFHLS1vWlEzWlp3aHo4c2VuZWdCQklaOGZnPT0%3D--720cdb9dbe28d62566852932eabf3d8eaee11415; path=/; HttpOnly",
-        "X-Request-Id": "b3ece14f-6e31-4a95-a8d6-bdacdfd97528",
-        "X-Runtime": "0.078253",
-        "Content-Length": "367"
+        "Set-Cookie": "_session_id=dW8vdDVrYmp0U3U3UnFSa3ZYVXpSQ2hOZXZ2Y2E5dVBCNzk3L2VwVElCK3FoNUUyYjJvVi8rRWQxSGdhelg5ZnNSL3g0R1Zhb0hwUUFETk84QzI1eUlsZlcyQ3RNZVZ3NEJQaWtzLzNkSmk4RkdFbDdBWEdFZ1ZBUkhpK0FaZWY4akNhVDN5bXJmVE1KQWFoeTJWLzZXam8xWWpVK3ppdkhmalI4TzdMd0p4UzBrWDgvSEtJVTBUc3Q5akhLZU14LS1FbmRlOUR3ODg4Ri9BUVBVUU40ODRBPT0%3D--183f9d3631c32c0446e2a3c0a7543b0b7530ea4e; path=/; HttpOnly",
+        "X-Request-Id": "9e098196-05e3-4896-8fd6-7321c8d0de27",
+        "X-Runtime": "0.077602",
+        "Content-Length": "372"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/auth/validate_token?access-token=Y8uffN8v-0G9xVJaxZwYmg&token-type=Bearer&client=_afc1jTid3NesABftNoABg&expiry=1459106316&uid=125adeline.schiller%40adams.com\" -X GET \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/auth/validate_token?access-token=U5yKI-IAbEWE1QE8wq4rMw&token-type=Bearer&client=2eK1l6L2Vn-ZMBSB6DR03g&expiry=1459268051&uid=125thalia_macejkovic%40walsh.com\" -X GET \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
     }
   ]
 }
