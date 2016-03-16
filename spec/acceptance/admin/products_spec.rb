@@ -21,9 +21,10 @@ resource 'admin: products', type: :request do
 			parameter :price, '', required: true
 			parameter :inventory_count, 'amount of product in stock', required: true
 			parameter :city_id, 'product served at city', required: true
-			parameter :image
-			parameter :category_ids, 'array of ids of categories product belongs to'
 			parameter :description
+			parameter :image
+			parameter :remove_image
+			parameter :category_ids, 'array of ids of categories product belongs to'
 		end
 
 		example 'create product' do
@@ -86,7 +87,7 @@ resource 'admin: products', type: :request do
 			do_request({ 
 				id: product.id, 
 				product: { 
-					title: 'hi' 
+					title: 'hi'
 				} 
 			})
 

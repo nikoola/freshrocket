@@ -58,6 +58,7 @@ end
 
 gem 'carrierwave'
 gem 'mini_magick'
+gem 'carrierwave-base64' #for api upload
 
 # gem 'devise'
 gem 'devise_token_auth' # Token based authentication for Rails JSON APIs

@@ -1,12 +1,15 @@
 
 class Product < ActiveRecord::Base
 
+	mount_base64_uploader :image, ImageUploader
+	before_destroy :remove_image! #https://github.com/carrierwaveuploader/carrierwave/issues/456
+
+
 	has_many :categories_products_joins, inverse_of: :product, dependent: :destroy
 	has_many :categories, through: :categories_products_joins
 	
 	accepts_nested_attributes_for :categories_products_joins, allow_destroy: true
 
-	mount_uploader :image, ImageUploader
 
 	has_many :line_items
 	has_many :orders, through: :line_items #no dependent destroy
@@ -31,8 +34,9 @@ class Product < ActiveRecord::Base
 	scope :category_id,  -> (category_id) { joins(:categories).where('categories.id': category_id) }
 
 
-	validates_processing_of :image  # Makes the record invalid if the file couldn't be processed
+	validates_processing_of :image # Makes the record invalid if the file couldn't be processed
 	validate :image_size_validation
+
 
 
 

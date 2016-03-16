@@ -7,6 +7,8 @@ authorization is role-based. sign up is common for clients and admins.
 client becomes an admin when we add ability to it. for example, if we update
 https://rivo.herokuapp.com/api/docs/admin:_users/update_user_abilities with 'products' ability, they'll be able to manage products on backend.
 
+image are uploaded with https://github.com/lebedev-yury/carrierwave-base64.
+
 you can see explanations for some of my decisions in the */why* folder.
 
 

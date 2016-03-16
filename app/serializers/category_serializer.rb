@@ -4,6 +4,12 @@ class CategorySerializer < ActiveModel::Serializer
 
 
 	def image_url
-		object.image.url
+		# binding.pry
+		# if object.changed?
+		# 	object.reload.image.url
+		# else
+			object.image.url
+		# end
 	end
 end
+

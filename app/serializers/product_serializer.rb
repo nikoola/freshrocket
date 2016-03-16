@@ -8,6 +8,6 @@ class ProductSerializer < ActiveModel::Serializer
 	has_many :categories
 
 	def image_url
-		object.image.url
+		object.image ? object.image.url : nil
 	end
 end
