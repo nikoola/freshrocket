@@ -16,11 +16,11 @@
       "request_path": "/admin/products/1",
       "request_body": "product[title]=hi",
       "request_headers": {
-        "Access-Token": "nopm-tbtxB5VqZGHbFFzCw",
+        "Access-Token": "Yxa2aNjCiQ-2o9fIouVC9A",
         "Token-Type": "Bearer",
-        "Client": "c4OenIO6e_qhrocX0NxdfA",
-        "Expiry": "1459268045",
-        "Uid": "71gregory_mcclure@powlowski.name",
+        "Client": "ly-SsD5bzl6NOaJys82znw",
+        "Expiry": "1459372659",
+        "Uid": "71kelsi@lockmantrantow.co",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -30,21 +30,21 @@
       "request_content_type": "application/x-www-form-urlencoded",
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\n  \"id\": 1,\n  \"city_id\": 1,\n  \"title\": \"hi\",\n  \"price\": \"3.0\",\n  \"description\": null,\n  \"created_at\": \"2016-03-15T16:14:05.683Z\",\n  \"updated_at\": \"2016-03-15T16:14:05.862Z\",\n  \"inventory_count\": 20,\n  \"image_url\": \"https://freshrocket-test.s3.amazonaws.com/uploads/product/image/default.png\"\n}",
+      "response_body": "{\n  \"id\": 1,\n  \"city_id\": 1,\n  \"title\": \"hi\",\n  \"price\": \"3.0\",\n  \"description\": null,\n  \"created_at\": \"2016-03-16T21:17:39.147Z\",\n  \"updated_at\": \"2016-03-16T21:17:39.322Z\",\n  \"inventory_count\": 20,\n  \"image_url\": \"https://freshrocket-test.s3.amazonaws.com/uploads/product/image/default.png\"\n}",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"31af93c5892d1bc766b25d589bbf2808\"",
+        "ETag": "W/\"b8cf7e8c91ce53625cc4298156af4132\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=M1J4RXV5UVZYYVdsWEtQa21oTGlXUlI3dkgzT2dUMVFxQ0Z4bjBLZWtIM3REbXBhWHhadk9BWmlvdXh3Y2N1UkFuSlRKYkppQTV4d0s5Z3Y3b2lDdFV3ZmVDWmhEUG5KV2k0czJMM0hiaFlTZ3p3Q00yVDRVcDJPVytvTndJbzN3cmJhNHNQbTNWV1JWSXJ3L3pJMHVvTHRPZjltRHNoSkRnRkVSV0hQTjEyZklYV3dTTW9lNmkxVWh6WXJrQ3V2LS1MNHFtL1NZNTBreTVzL0RXaXc5SEtRPT0%3D--7949690426845d35ae7aa93a81ba1655de74653e; path=/; HttpOnly",
-        "X-Request-Id": "4c034491-8734-416f-8a71-db3adbad2c7d",
-        "X-Runtime": "0.079982",
+        "Set-Cookie": "_session_id=YUxrT2krM1lwczFCa2VsTXJNN3UyYnRuaGkrRjRkTWR6blZSb3JiZ2JRVG1VVGVPUGZndnJlbDV4SnllN1pkS1JTeCs2S1c1WjJPS0NyVG1PNkUrTzJEajlWVEJkejh5VktmSUIyQ2FZUVUvUCs4M2pxRFlLbDhPd1JGKzcwbE90NytsdndSSVZzTUdLdTlLL1NzdXg1alNraWVyVDl0QS9hQkRmZEZRRTk0aUdoeEpxZ0owSThqcUNoWktrWG9yLS1LbTBaOVlFUUlybHpuRmVxRkl4K29RPT0%3D--b2a23b20fcce1a3934fb624be1373501dfce8b95; path=/; HttpOnly",
+        "X-Request-Id": "4eb72076-7b25-485e-8e92-a6618ac33432",
+        "X-Runtime": "0.082552",
         "Content-Length": "257"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/admin/products/1\" -d 'product[title]=hi' -X PUT \\\n\t-H \"Access-Token: nopm-tbtxB5VqZGHbFFzCw\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: c4OenIO6e_qhrocX0NxdfA\" \\\n\t-H \"Expiry: 1459268045\" \\\n\t-H \"Uid: 71gregory_mcclure@powlowski.name\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/admin/products/1\" -d 'product[title]=hi' -X PUT \\\n\t-H \"Access-Token: Yxa2aNjCiQ-2o9fIouVC9A\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: ly-SsD5bzl6NOaJys82znw\" \\\n\t-H \"Expiry: 1459372659\" \\\n\t-H \"Uid: 71kelsi@lockmantrantow.co\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

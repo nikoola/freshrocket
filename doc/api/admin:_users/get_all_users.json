@@ -27,11 +27,11 @@
       "request_path": "/admin/users?has_ability=users",
       "request_body": null,
       "request_headers": {
-        "Access-Token": "E2RuzCJjfTujPTi0adduEA",
+        "Access-Token": "KRnTTOGqO-XJcwhaPsJG9g",
         "Token-Type": "Bearer",
-        "Client": "l1IT30xYmjbCkn9zmrtnog",
-        "Expiry": "1459268047",
-        "Uid": "90grayce@schuster.com",
+        "Client": "3TXDvTg-WesUXI05rJEvag",
+        "Expiry": "1459372661",
+        "Uid": "90giovanna@trantow.name",
         "Host": "example.org",
         "Cookie": ""
       },
@@ -41,21 +41,21 @@
       "request_content_type": null,
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "[\n  {\n    \"id\": 2,\n    \"first_name\": \"Hershel\",\n    \"last_name\": \"Reilly\",\n    \"email\": \"90grayce@schuster.com\",\n    \"phone\": \"8279720511\",\n    \"is_verified\": false,\n    \"provider\": \"email\",\n    \"uid\": \"90grayce@schuster.com\",\n    \"created_at\": \"2016-03-15T16:14:07.714Z\",\n    \"abilities\": {\n      \"orders\": 0,\n      \"products\": 0,\n      \"users\": 1,\n      \"categories\": 0,\n      \"coupons\": 0,\n      \"settings\": 0,\n      \"cities\": 0,\n      \"delivery_boy\": 0\n    }\n  }\n]",
+      "response_body": "[\n  {\n    \"id\": 2,\n    \"first_name\": \"Micaela\",\n    \"last_name\": \"Blanda\",\n    \"email\": \"90giovanna@trantow.name\",\n    \"phone\": \"4718783423\",\n    \"is_verified\": false,\n    \"provider\": \"email\",\n    \"uid\": \"90giovanna@trantow.name\",\n    \"created_at\": \"2016-03-16T21:17:41.487Z\",\n    \"abilities\": {\n      \"orders\": 0,\n      \"products\": 0,\n      \"users\": 1,\n      \"categories\": 0,\n      \"coupons\": 0,\n      \"settings\": 0,\n      \"cities\": 0,\n      \"delivery_boy\": 0\n    }\n  }\n]",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"f0d4653763c2b98e8e2afefb953aa7f6\"",
+        "ETag": "W/\"271629def2e515a79ee249817627edcd\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=dDZzSXcrVEJza2E5QjdTRFJmOFJkL1UybXpNUlhBM3d4WFlOT3ZpUG5NWStnWHd0a3g0U1dDZTFrMkxOaVUyakptLzY1QTY1MGlTSE5idHg0VVNqNkp4UzRZdTgyeGlPWU9LSlRXTHowRFdJZGVOaXB6SHZzZjJVUEkxTWsrWEk1bCs2SXF3dkw4U3RHdVo3VTZCMXQxSFRobytNa0VJS3VuU2FKeTZEaWoybmw3ZEtOUzl4WkZuU2Zxd1JLQW0yLS1HOVpJL1F0ZVdNQytnd1p4V3UwbUFBPT0%3D--a01e753ff4aeee9a4458e2f3045ca131940588b1; path=/; HttpOnly",
-        "X-Request-Id": "63ed13a2-c912-4ac5-824c-8715779e65ae",
-        "X-Runtime": "0.082804",
-        "Content-Length": "332"
+        "Set-Cookie": "_session_id=VW5qakZ3dzRrMElpME1HUE9MWlVMT1Vuc2ZUV05uaGJOWHNRM2RvbHAxcEJuczBCcGVnUktmeWJzaTNQOWNneHQweWdvVzRSWjRSb2lvSGVVZXRIMTBSOCs2Y1VqSGhMbUFxajYzQ2xldEpsMFdDVWtmOTNQamx3eWJsaWFiaTFYYU9kZFFOYzFNTDhkeTZ1NDRuL1dBdFA4emFGR1BkNVpxZE41L3h2RWxCLy9zVmZLa2t1WWY4anFoV0ZZSEFGLS1xV2JjZW5WSUhuOTMzelM5YmRDK0tBPT0%3D--41f5656c4feec6e6f6d3cca0c172bd7f60a35f23; path=/; HttpOnly",
+        "X-Request-Id": "aa5b4874-f7d0-45b8-93a0-d8282ea96556",
+        "X-Runtime": "0.098465",
+        "Content-Length": "336"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/admin/users?has_ability=users\" -X GET \\\n\t-H \"Access-Token: E2RuzCJjfTujPTi0adduEA\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: l1IT30xYmjbCkn9zmrtnog\" \\\n\t-H \"Expiry: 1459268047\" \\\n\t-H \"Uid: 90grayce@schuster.com\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/admin/users?has_ability=users\" -X GET \\\n\t-H \"Access-Token: KRnTTOGqO-XJcwhaPsJG9g\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: 3TXDvTg-WesUXI05rJEvag\" \\\n\t-H \"Expiry: 1459372661\" \\\n\t-H \"Uid: 90giovanna@trantow.name\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

@@ -37,13 +37,13 @@
     {
       "request_method": "POST",
       "request_path": "/client/addresses",
-      "request_body": "address[street_and_house]=115+Myrtis+Coves&address[door_number]=5&address[city_id]=1",
+      "request_body": "address[street_and_house]=882+Eichmann+Extensions&address[door_number]=5&address[city_id]=1",
       "request_headers": {
-        "Access-Token": "BJe2Dc0RUh90T8DK-ZX9dg",
+        "Access-Token": "hVwdE6F3n3J_dHCFICZA5g",
         "Token-Type": "Bearer",
-        "Client": "jZcv8_5W1_AWaeSJG_8Klg",
-        "Expiry": "1459268050",
-        "Uid": "120baby@uptonvolkman.info",
+        "Client": "s2zUbfIBp5zL791d6F93cw",
+        "Expiry": "1459372664",
+        "Uid": "120kendrick_ziemann@leffler.name",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -53,21 +53,21 @@
       "request_content_type": "application/x-www-form-urlencoded",
       "response_status": 201,
       "response_status_text": "Created",
-      "response_body": "{\n  \"id\": 1,\n  \"city_id\": 1,\n  \"user_id\": 1,\n  \"street_and_house\": \"115 Myrtis Coves\",\n  \"door_number\": \"5\",\n  \"zip_code\": null,\n  \"active\": true,\n  \"city_name\": \"Port Joeltown_109\"\n}",
+      "response_body": "{\n  \"id\": 1,\n  \"city_id\": 1,\n  \"user_id\": 1,\n  \"street_and_house\": \"882 Eichmann Extensions\",\n  \"door_number\": \"5\",\n  \"zip_code\": null,\n  \"active\": true,\n  \"city_name\": \"Braunburgh_109\"\n}",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"79e65a099b654487968719b17f5e656c\"",
+        "ETag": "W/\"791696e74e08abee97b7850cd68b71dc\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=eEdoTExqOFg5cTU2a2lpZktiajE4NmkzYlR2MXRHUXJ1SmFsNTRqK3NTTTZDNFAvNHJCVEtVLy9CcFFPWHVSbUViNTFEdkErQUNBVzBmSmFHVnpiaGhMSFBLdmJhdGdGYm8zWVRwaXo1cXZKR1pUUUFSWVdtaktKUDQ3elhkbllrV1czVjg4RjlYU1c0SmdZek1vVFFEL2ozVm5oM3dBSDQxM3lNaWw1Rk9oQTRkajBQRmxML21vdHBHdFpzSCtZLS05TmlKQlRRUmFkZVFWQy8vY0dSdkl3PT0%3D--565ff45572b9a42274fe5d3ba3b47822eca8db8b; path=/; HttpOnly",
-        "X-Request-Id": "afe3b8c9-4e42-4026-a60b-b4e8858990b1",
-        "X-Runtime": "0.077500",
-        "Content-Length": "150"
+        "Set-Cookie": "_session_id=Z2p1MUFqNVN5YkhUT3dPUnpvUStLQjIyc2cvWjhBeGdXNG03KzFUYVVKdkkydmdwbjdIcXhVWkRiMDZqZC91NFRrc1dYdHorTzE1TUs0TVV5cXAxOWVMUnNXUjBJMWFGK3RCWkZuVjB3cEVxWlZCZmhidGdzUHFiQkcvVUtiWUxGMEVnR0xSWS83dDQ4ay9nTjBTYlExSUw0MHp2TjRlVGlZNUJwSjhaclp1WjlmT3g2WHlTSEpzQVZJcVdrNXRQLS1VSTVhWmFFdUtzekNkNk9BUWM4eDdRPT0%3D--9b294e541f7fedafd68a18373981c922e1d36eed; path=/; HttpOnly",
+        "X-Request-Id": "bc636b5b-ff77-47d6-b236-cde6803084e4",
+        "X-Runtime": "0.078853",
+        "Content-Length": "154"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/client/addresses\" -d 'address[street_and_house]=115+Myrtis+Coves&address[door_number]=5&address[city_id]=1' -X POST \\\n\t-H \"Access-Token: BJe2Dc0RUh90T8DK-ZX9dg\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: jZcv8_5W1_AWaeSJG_8Klg\" \\\n\t-H \"Expiry: 1459268050\" \\\n\t-H \"Uid: 120baby@uptonvolkman.info\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/client/addresses\" -d 'address[street_and_house]=882+Eichmann+Extensions&address[door_number]=5&address[city_id]=1' -X POST \\\n\t-H \"Access-Token: hVwdE6F3n3J_dHCFICZA5g\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: s2zUbfIBp5zL791d6F93cw\" \\\n\t-H \"Expiry: 1459372664\" \\\n\t-H \"Uid: 120kendrick_ziemann@leffler.name\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

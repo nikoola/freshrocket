@@ -16,11 +16,11 @@
       "request_path": "/admin/cities/1",
       "request_body": null,
       "request_headers": {
-        "Access-Token": "ZxbpRmMsH0OrhcujVZT7xg",
+        "Access-Token": "VImz7KpBW93yzzBw-3n96Q",
         "Token-Type": "Bearer",
-        "Client": "l_jOZSrT6RZzdj1mLaF83Q",
-        "Expiry": "1459268037",
-        "Uid": "17maiya@emmerich.com",
+        "Client": "3tABP09l-HdmG3slHActEQ",
+        "Expiry": "1459372650",
+        "Uid": "17cathryn_gerlach@eichmann.com",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -37,13 +37,13 @@
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "text/html",
         "Cache-Control": "no-cache",
-        "Set-Cookie": "_session_id=aFFCOHM3RUk5eGowdlVwb2ExeFBSVDIzVnZwNktMSlB4QWNrazVzT3ArWk5FNnhBSDQ4ZmJrRzJUNnE3VklSNUM3TkhURzNJanFtYmxtdHVnQ0lqUVVoY2VXOTlYSmVtWXJDNVZhang3QU1sMnVMWkJFMi83NENrWXhRT3dMSU9sa1Zvb0l0OWZQUDVmSWFQRGZDUnF6RzhJMmc0SHNxRVp2NWZHSUxxS0JMN3A4aElldGxMWVBzeVNSb2VYZisyLS1jUzd5SVllaTFxcDYxbjBHeXNjdlp3PT0%3D--615b841cecfefab6ca60076f4e93467733fb3223; path=/; HttpOnly",
-        "X-Request-Id": "8208fe2b-4f8c-4c84-ba88-31301dc3b7f2",
-        "X-Runtime": "0.085743",
+        "Set-Cookie": "_session_id=ekpEWVFtQmlZbElkZ2VBei9wSTVod3NtQmZLQ01RWnl0N3dPSUt3c1FnbCs2RE12c2ZxQklNZ2cxTVQwNUhTbXVvUDhON0VzVmRUdjQ3cCtPSm9wZndPV1ViOVkvNHkzR2ViZlRBb3FFYVhVQUVtcm9mNXcrcGxSUFEreGtTdHNZR0loaFgxS0drQ3dpRDJ5QXRpNGdHVmZ3em9xVVVCcmVCbVloNUFINDVWY2lsdjdET3Zuc0VuNndwY3lyc0x2LS1mcysvOStTYWVuRmlRSVo3ZnY1bXl3PT0%3D--9874de71198237b1833c9bf8f90e3b684c29e98e; path=/; HttpOnly",
+        "X-Request-Id": "07131238-22b4-492c-899c-d720946b2b65",
+        "X-Runtime": "0.086358",
         "Content-Length": "0"
       },
       "response_content_type": "text/html",
-      "curl": "curl \"http://localhost:3000/admin/cities/1\" -d '' -X DELETE \\\n\t-H \"Access-Token: ZxbpRmMsH0OrhcujVZT7xg\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: l_jOZSrT6RZzdj1mLaF83Q\" \\\n\t-H \"Expiry: 1459268037\" \\\n\t-H \"Uid: 17maiya@emmerich.com\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/admin/cities/1\" -d '' -X DELETE \\\n\t-H \"Access-Token: VImz7KpBW93yzzBw-3n96Q\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: 3tABP09l-HdmG3slHActEQ\" \\\n\t-H \"Expiry: 1459372650\" \\\n\t-H \"Uid: 17cathryn_gerlach@eichmann.com\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

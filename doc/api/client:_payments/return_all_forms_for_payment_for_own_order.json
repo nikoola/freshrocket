@@ -19,11 +19,11 @@
       "request_path": "/client/payments/new?order_id=3",
       "request_body": null,
       "request_headers": {
-        "Access-Token": "abABWAcFjmobMh5pJRIILw",
+        "Access-Token": "-a4pZ63X1Z89fTyPP0ydRQ",
         "Token-Type": "Bearer",
-        "Client": "ZXqx_na2wc6CzmfRX8YTeg",
-        "Expiry": "1459268057",
-        "Uid": "160price.skiles@rohan.info",
+        "Client": "XUFl0f9sLWOTh6xTnsK0ng",
+        "Expiry": "1459372673",
+        "Uid": "160arvel_shields@vonrueden.com",
         "Host": "example.org",
         "Cookie": ""
       },
@@ -33,21 +33,21 @@
       "request_content_type": null,
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\n  \"citrus\": {\n    \"action\": \"https://sandbox.citruspay.com/kouqfeaav0\",\n    \"method\": \"POST\",\n    \"fields\": {\n      \"merchantTxnId\": \"3\",\n      \"merchantAccessKey\": \"T82TNCTLNBZ282BLHAGD\",\n      \"orderAmount\": \"228.35\",\n      \"currency\": \"USD\",\n      \"secret_key\": \"1690a1e29ecec2a5f852b678dd5362616c79916a\",\n      \"pmt_url\": \"kouqfeaav0\",\n      \"returnUrl\": \"http://localhost:3000/client/payments/citrus\",\n      \"paymentMode\": \"NET_BANKING\",\n      \"reqtime\": \"1458058457000\",\n      \"secSignature\": \"16055d2470aa3b2001007b0bd8086106d677f8b2\"\n    }\n  }\n}",
+      "response_body": "{\n  \"citrus\": {\n    \"action\": \"https://sandbox.citruspay.com/kouqfeaav0\",\n    \"method\": \"POST\",\n    \"fields\": {\n      \"merchantTxnId\": \"3\",\n      \"merchantAccessKey\": \"T82TNCTLNBZ282BLHAGD\",\n      \"orderAmount\": \"228.35\",\n      \"currency\": \"USD\",\n      \"secret_key\": \"1690a1e29ecec2a5f852b678dd5362616c79916a\",\n      \"pmt_url\": \"kouqfeaav0\",\n      \"returnUrl\": \"http://localhost:3000/client/payments/citrus\",\n      \"paymentMode\": \"NET_BANKING\",\n      \"reqtime\": \"1458163073000\",\n      \"secSignature\": \"16055d2470aa3b2001007b0bd8086106d677f8b2\"\n    }\n  }\n}",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"56f54ac79424659ccf4a568a69ddd74d\"",
+        "ETag": "W/\"4ddd6ec15049c00e038cf889417a5938\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=N3BzcGlvWnQ3TGZhRk5HT3Z4MmhTN0VwdnpXckNDY01GcXdLRk96ZExrWXorOStET0xqUG5nMmpvTnlDR1psZzY0ams5OFRiVlBYcjBpUkpuWm5QQWtMTUNxbWxmcW5wVWtBa0l1bVNyQi9oS0gvOUxMNm41L0UwQ3FGUi9Bd2pmeE1HVnNPcDF6SXJBZ0d4Mk56bkhXVWV1QlB6M3BmWHc2bGEwSkVwTlRrWGU4MlhEL2ZqbC9hS3IzQVJmY05wLS1NSmFwM3lDRG0wWU1hWktRdmc4NGtRPT0%3D--70abdc4dd00d1068ff75efc5888be5cb91aee3f9; path=/; HttpOnly",
-        "X-Request-Id": "2488f952-9856-4e38-9c9f-3961551f32df",
-        "X-Runtime": "0.083777",
+        "Set-Cookie": "_session_id=RWF2RHlQYTJFM0NmMkYzSFgycmtsSWVjTGZ1NmdQUWJxdmF2ZXlJbkV4cWs0dVdGNHIxN2FNWUpERGNmUlFlNFJSWmFNRjNxTjM3QjVrVHpOeFEzelRaaDJ6ZHNyNjVQdjJ3M09BZ0dnN1E5bGFLeGRqbmhlTlV1RGRZeE9oSUIvRWMxYTZWRi9pNFpOaVBWN29YUXR3ck5FMmNlM0VZOFh3OS8vZ3hpNnlONDByQmkyMTBsK1d2QXE5YmI3THgrLS11L2VpeGlpeWhMaDh3NWRzS1p1TE9nPT0%3D--f706b00ed064cfb7fce4ab504e9800dad580b8a5; path=/; HttpOnly",
+        "X-Request-Id": "cfde6403-ab83-46c8-908d-8d6ab4f36120",
+        "X-Runtime": "0.089305",
         "Content-Length": "444"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/client/payments/new?order_id=3\" -X GET \\\n\t-H \"Access-Token: abABWAcFjmobMh5pJRIILw\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: ZXqx_na2wc6CzmfRX8YTeg\" \\\n\t-H \"Expiry: 1459268057\" \\\n\t-H \"Uid: 160price.skiles@rohan.info\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/client/payments/new?order_id=3\" -X GET \\\n\t-H \"Access-Token: -a4pZ63X1Z89fTyPP0ydRQ\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: XUFl0f9sLWOTh6xTnsK0ng\" \\\n\t-H \"Expiry: 1459372673\" \\\n\t-H \"Uid: 160arvel_shields@vonrueden.com\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

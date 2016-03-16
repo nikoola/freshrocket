@@ -13,13 +13,12 @@
     {
       "scope": "category",
       "name": "image",
-      "description": "Category image"
+      "description": "base64 encoded image"
     },
     {
-      "require": true,
       "scope": "category",
-      "name": "name",
-      "description": "name of a category"
+      "name": "remove_image",
+      "description": "Category remove image"
     }
   ],
   "response_fields": [
@@ -29,13 +28,13 @@
     {
       "request_method": "PUT",
       "request_path": "/admin/categories/1",
-      "request_body": "category[name]=hollywood",
+      "request_body": "category[remove_image]=1&category[name]=hollywood",
       "request_headers": {
-        "Access-Token": "hBcn4cu5nVPxqvBWWY0n7g",
+        "Access-Token": "J8iH7B7AaEtrM9dmI4tXug",
         "Token-Type": "Bearer",
-        "Client": "sllIPwrj6Xd5nCam8Zq7rg",
-        "Expiry": "1459268036",
-        "Uid": "12era_beier@strosin.org",
+        "Client": "harKzY4TjYQm_Is10AnD1A",
+        "Expiry": "1459372646",
+        "Uid": "12camron@mertz.org",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -53,13 +52,13 @@
         "Content-Type": "application/json; charset=utf-8",
         "ETag": "W/\"3995f6357d7a9cb859027c9bbe74eba4\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=UkUyZnRPRTEwWjB4NWp0VVg2SW54WHpSM3lLNlc2d2FXWVVKS0tvMUxsdUVsS2tBQkRQdWNPOUhMMGtwRVFMNW9od1VyOE13WWpMbkI3S05OVnZZczhMemo0S0lPd21YbEcxRk91cnVldnQwV0JxS0hQLzM0UkpVdENxSVA4cTBIbzA2ZHhCanJjY285bFlDNC9PV0ZNOXlCWDIxM21XdjlucWJ2ZkF3SDJuaWhzOVhQSVNZUzFKM1BRa0NzRlNXLS1ndjM3SVcvQXBGNGNMV0JjZ1ZLS09BPT0%3D--b570fbea20e985c64b54baf64797813ff6525e5f; path=/; HttpOnly",
-        "X-Request-Id": "f5278d2c-9d9e-471b-8b27-0bdf72186304",
-        "X-Runtime": "0.079051",
+        "Set-Cookie": "_session_id=VjV4UnU3WVJNYndwaEJvT1JOdWtKRnZmekZZb3k4S2lsUFBGNjZXOHpQODJHRTc2bEIxZ1BNTWVISXZHdGgvWElhbWhya2dhRkFQbjRhOUxlYlpDK0lVbXRMQlhwQXRick96L1E3NTNqVU1ES29xVHFwZTRuYzNrczNuQ0tMTmdVaUJmRFBjeHFLdzNCTmRlL05hNlJhL0g2dzd5NExMems0V1VYb2NtNnNvYmRKcmN5SVV0dHI1cWZaTVkzQmkxLS0zNC9RTW9DZHhBbzM0TmRncEpnMnNRPT0%3D--8b2b32eea74890d921f6d03b1f168e680f512dfb; path=/; HttpOnly",
+        "X-Request-Id": "e4a398d6-29db-48f4-8255-d961a6c1794b",
+        "X-Runtime": "2.797239",
         "Content-Length": "118"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/admin/categories/1\" -d 'category[name]=hollywood' -X PUT \\\n\t-H \"Access-Token: hBcn4cu5nVPxqvBWWY0n7g\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: sllIPwrj6Xd5nCam8Zq7rg\" \\\n\t-H \"Expiry: 1459268036\" \\\n\t-H \"Uid: 12era_beier@strosin.org\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/admin/categories/1\" -d 'category[remove_image]=1&category[name]=hollywood' -X PUT \\\n\t-H \"Access-Token: J8iH7B7AaEtrM9dmI4tXug\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: harKzY4TjYQm_Is10AnD1A\" \\\n\t-H \"Expiry: 1459372646\" \\\n\t-H \"Uid: 12camron@mertz.org\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

@@ -31,18 +31,23 @@
     },
     {
       "scope": "product",
+      "name": "description",
+      "description": "Product description"
+    },
+    {
+      "scope": "product",
       "name": "image",
       "description": "Product image"
     },
     {
       "scope": "product",
-      "name": "category_ids",
-      "description": "array of ids of categories product belongs to"
+      "name": "remove_image",
+      "description": "Product remove image"
     },
     {
       "scope": "product",
-      "name": "description",
-      "description": "Product description"
+      "name": "category_ids",
+      "description": "array of ids of categories product belongs to"
     }
   ],
   "response_fields": [
@@ -54,11 +59,11 @@
       "request_path": "/admin/products",
       "request_body": "product[title]=fish&product[price]=3.0&product[inventory_count]=2&product[city_id]=1&product[category_ids][]=1",
       "request_headers": {
-        "Access-Token": "AVzvbNnML-KzhmcLA9XKBg",
+        "Access-Token": "QGbTyLPxyvVqbQZyogz7NQ",
         "Token-Type": "Bearer",
-        "Client": "sR8vvXgIk2RHajZakbe2AA",
-        "Expiry": "1459268041",
-        "Uid": "67antonette.grady@hane.info",
+        "Client": "JgLSAwAgRmSkycJbdjgEsw",
+        "Expiry": "1459372654",
+        "Uid": "67kari@kohler.org",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -68,22 +73,22 @@
       "request_content_type": "application/x-www-form-urlencoded",
       "response_status": 201,
       "response_status_text": "Created",
-      "response_body": "{\n  \"id\": 1,\n  \"city_id\": 1,\n  \"title\": \"fish\",\n  \"price\": \"3.0\",\n  \"description\": null,\n  \"created_at\": \"2016-03-15T16:14:01.591Z\",\n  \"updated_at\": \"2016-03-15T16:14:01.591Z\",\n  \"inventory_count\": 2,\n  \"image_url\": \"https://freshrocket-test.s3.amazonaws.com/uploads/product/image/default.png\"\n}",
+      "response_body": "{\n  \"id\": 1,\n  \"city_id\": 1,\n  \"title\": \"fish\",\n  \"price\": \"3.0\",\n  \"description\": null,\n  \"created_at\": \"2016-03-16T21:17:34.557Z\",\n  \"updated_at\": \"2016-03-16T21:17:34.557Z\",\n  \"inventory_count\": 2,\n  \"image_url\": \"https://freshrocket-test.s3.amazonaws.com/uploads/product/image/default.png\"\n}",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
         "Location": "http://example.org/products/1",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"bf53f5e260cdccecafb3715594949b5d\"",
+        "ETag": "W/\"aa1eb0c83bfbee1cd88b94c77b8932ab\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=b0p3aSt3SFJJRjlldE43d3lpRlZoaWpqd2VySkJyUmY3ZzZTRkFIMTdtVU01ekFJUFNES3drNFVtRnNzNTN6RVMraWxHTnd1M2ZreVlvVEREbmRSUWlCM3JWTENncDA2S3ZDWklXTXVsTEQySzBvcW10bmVQdzJJMUxoNEszdVZ6QU1xUHZDU08xOUp2UWNyOEN6SmtDc3VDZjEzTCtaNGtQaStST2kwZVUwMkV6R0RGSXh2ODFhK3krcGhVSklBLS1PZjVvNUYzVDFNS2lKZ0tiTGtOUTZRPT0%3D--cf109c77325d4a15f991f94dc2a2369239d0c570; path=/; HttpOnly",
-        "X-Request-Id": "136d8e11-c341-4dab-8f1f-9e9d471f1d4c",
-        "X-Runtime": "0.093312",
+        "Set-Cookie": "_session_id=ZXQwSlM1ZHF1dDdBZVlHR1Q1S0hGUkgrbmxNbCtWSFJVTWVYSVNLR0JvWVZpVUFtOWpmSmNhTFNlM2ErWm9FeXNwcU9LVkQzZnlIV2FoTW9Cci9CemlZbEZnVndxcTV4UFRWZ3lqNEhUN3RUSlZ5dENyU0tZY28yY2tPVW5iV0Q2SWpTb3QyNEtDZHcvNW9yajJBTVJsZmo5NHV2UVVJejJibm5iZk1vbFdwZzQ0SGZrRkZudTVLcWpJK0pkRXk0LS1BdXIybmZVTFY2Uk1qbHkxRG9XSWVBPT0%3D--4ea5711ebbef4e38d06afcffb9e92b3d28781854; path=/; HttpOnly",
+        "X-Request-Id": "0b5dfafc-58ae-4583-8809-e694cba50eb0",
+        "X-Runtime": "0.096151",
         "Content-Length": "258"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/admin/products\" -d 'product[title]=fish&product[price]=3.0&product[inventory_count]=2&product[city_id]=1&product[category_ids][]=1' -X POST \\\n\t-H \"Access-Token: AVzvbNnML-KzhmcLA9XKBg\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: sR8vvXgIk2RHajZakbe2AA\" \\\n\t-H \"Expiry: 1459268041\" \\\n\t-H \"Uid: 67antonette.grady@hane.info\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/admin/products\" -d 'product[title]=fish&product[price]=3.0&product[inventory_count]=2&product[city_id]=1&product[category_ids][]=1' -X POST \\\n\t-H \"Access-Token: QGbTyLPxyvVqbQZyogz7NQ\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: JgLSAwAgRmSkycJbdjgEsw\" \\\n\t-H \"Expiry: 1459372654\" \\\n\t-H \"Uid: 67kari@kohler.org\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

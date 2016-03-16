@@ -47,13 +47,13 @@
     {
       "request_method": "POST",
       "request_path": "/auth",
-      "request_body": "email=163tracy%40carrollcummings.biz&password=secrety_bickety&password_confirmation=secrety_bickety&first_name=Dedric&last_name=Walter&phone=8922828091",
+      "request_body": "email=163catalina%40bergnaum.io&password=secrety_bickety&password_confirmation=secrety_bickety&first_name=Isabel&last_name=Kulas&phone=7386948940",
       "request_headers": {
-        "Access-Token": "B51-D6z2zoP2BaTOJ5mrng",
+        "Access-Token": "shJtpvXQR_WkySGQQuCYmA",
         "Token-Type": "Bearer",
-        "Client": "f1CsOxI2NZYtmFyFHhLjKg",
-        "Expiry": "1459268057",
-        "Uid": "164jimmie.gleason@naderhalvorson.name",
+        "Client": "2uMqgH1ms7uVxefkiU9ZSg",
+        "Expiry": "1459372673",
+        "Uid": "164harmony.lowe@hansen.io",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -63,25 +63,25 @@
       "request_content_type": "application/x-www-form-urlencoded",
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\n  \"status\": \"success\",\n  \"data\": {\n    \"id\": 6,\n    \"first_name\": \"Dedric\",\n    \"last_name\": \"Walter\",\n    \"email\": \"163tracy@carrollcummings.biz\",\n    \"provider\": \"email\",\n    \"uid\": \"163tracy@carrollcummings.biz\",\n    \"phone\": \"8922828091\",\n    \"verification_code\": null,\n    \"is_verified\": false,\n    \"created_at\": \"2016-03-15T16:14:17.799Z\",\n    \"updated_at\": \"2016-03-15T16:14:17.940Z\",\n    \"how_did_you_hear_about_us\": null\n  }\n}",
+      "response_body": "{\n  \"status\": \"success\",\n  \"data\": {\n    \"id\": 6,\n    \"first_name\": \"Isabel\",\n    \"last_name\": \"Kulas\",\n    \"email\": \"163catalina@bergnaum.io\",\n    \"provider\": \"email\",\n    \"uid\": \"163catalina@bergnaum.io\",\n    \"phone\": \"7386948940\",\n    \"verification_code\": null,\n    \"is_verified\": false,\n    \"created_at\": \"2016-03-16T21:17:53.947Z\",\n    \"updated_at\": \"2016-03-16T21:17:54.093Z\",\n    \"how_did_you_hear_about_us\": null\n  }\n}",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
-        "access-token": "5eULRXvVrEx3HhQs4n8xiA",
+        "access-token": "uBth9vb-T4sRfmilNnnSbw",
         "token-type": "Bearer",
-        "client": "EiJAVfOrCl38vyMghN9TPQ",
-        "expiry": "1459268057",
-        "uid": "163tracy@carrollcummings.biz",
+        "client": "swinNKehid4YttVIx_ZLIg",
+        "expiry": "1459372674",
+        "uid": "163catalina@bergnaum.io",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"ebb643724db8198746b3b3468503d60b\"",
+        "ETag": "W/\"4a19407956e1dac2a991bfb64fc6a21c\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "X-Request-Id": "0e23b330-db9f-470f-8c7d-93be111d78e2",
-        "X-Runtime": "0.157162",
-        "Content-Length": "353"
+        "X-Request-Id": "a4c1d04f-ca1e-484d-9a7b-b88f135039a1",
+        "X-Runtime": "0.164637",
+        "Content-Length": "342"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/auth\" -d 'email=163tracy%40carrollcummings.biz&password=secrety_bickety&password_confirmation=secrety_bickety&first_name=Dedric&last_name=Walter&phone=8922828091' -X POST \\\n\t-H \"Access-Token: B51-D6z2zoP2BaTOJ5mrng\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: f1CsOxI2NZYtmFyFHhLjKg\" \\\n\t-H \"Expiry: 1459268057\" \\\n\t-H \"Uid: 164jimmie.gleason@naderhalvorson.name\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/auth\" -d 'email=163catalina%40bergnaum.io&password=secrety_bickety&password_confirmation=secrety_bickety&first_name=Isabel&last_name=Kulas&phone=7386948940' -X POST \\\n\t-H \"Access-Token: shJtpvXQR_WkySGQQuCYmA\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: 2uMqgH1ms7uVxefkiU9ZSg\" \\\n\t-H \"Expiry: 1459372673\" \\\n\t-H \"Uid: 164harmony.lowe@hansen.io\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

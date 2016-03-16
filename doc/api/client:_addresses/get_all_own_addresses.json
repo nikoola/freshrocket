@@ -19,11 +19,11 @@
       "request_path": "/client/addresses?active=0",
       "request_body": null,
       "request_headers": {
-        "Access-Token": "4v2bZilV6sCJ2M8zxk7HpQ",
+        "Access-Token": "s6Ay2RBRpR10JbhkXH-xkQ",
         "Token-Type": "Bearer",
-        "Client": "IclwuzkFLPg4cIYOGyLzRQ",
-        "Expiry": "1459268050",
-        "Uid": "117jevon.douglas@hermiston.info",
+        "Client": "rRTUXCTjXvMkCwvMQ1z1rA",
+        "Expiry": "1459372664",
+        "Uid": "117katrine.white@quigley.io",
         "Host": "example.org",
         "Cookie": ""
       },
@@ -33,21 +33,21 @@
       "request_content_type": null,
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "[\n  {\n    \"id\": 1,\n    \"city_id\": 1,\n    \"user_id\": 1,\n    \"street_and_house\": \"78159 Amalia Points\",\n    \"door_number\": \"5\",\n    \"zip_code\": null,\n    \"active\": false,\n    \"city_name\": \"Marielletown_102\"\n  },\n  {\n    \"id\": 2,\n    \"city_id\": 2,\n    \"user_id\": 1,\n    \"street_and_house\": \"4519 Drew Square\",\n    \"door_number\": \"5\",\n    \"zip_code\": null,\n    \"active\": false,\n    \"city_name\": \"Nadermouth_103\"\n  },\n  {\n    \"id\": 3,\n    \"city_id\": 3,\n    \"user_id\": 1,\n    \"street_and_house\": \"2259 Evalyn Shoal\",\n    \"door_number\": \"5\",\n    \"zip_code\": null,\n    \"active\": false,\n    \"city_name\": \"Stephaniamouth_104\"\n  }\n]",
+      "response_body": "[\n  {\n    \"id\": 1,\n    \"city_id\": 1,\n    \"user_id\": 1,\n    \"street_and_house\": \"1185 Stamm Meadow\",\n    \"door_number\": \"5\",\n    \"zip_code\": null,\n    \"active\": false,\n    \"city_name\": \"Metzmouth_102\"\n  },\n  {\n    \"id\": 2,\n    \"city_id\": 2,\n    \"user_id\": 1,\n    \"street_and_house\": \"8733 Mckenzie Estate\",\n    \"door_number\": \"5\",\n    \"zip_code\": null,\n    \"active\": false,\n    \"city_name\": \"North Daija_103\"\n  },\n  {\n    \"id\": 3,\n    \"city_id\": 3,\n    \"user_id\": 1,\n    \"street_and_house\": \"92474 Kuvalis Unions\",\n    \"door_number\": \"5\",\n    \"zip_code\": null,\n    \"active\": false,\n    \"city_name\": \"Port Metaside_104\"\n  }\n]",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"f926fa5c04fe646b5a2daa25b9240e2f\"",
+        "ETag": "W/\"213f765975c29a4c6753c8278656a937\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=NWdraTh4ZXl5Q0J1NEJzRGNIdkswbUlQbFhkaXVrM0NCVUpVR0d6ajNxSGhuZTlkVGg2YytoWXI4czAxOTFNVzdzN3MwRHpEK0Q3RURoRnR6ODNMTDd1ekhYUFA2Qy9jakFuQkxtcmliR2xCUHRJdnFPQU13aGVqNHZ0ODc3R1RZTE9aVGhKeUtwWjJIN2xycTlVMWc3T1RIR1RiR1lxdFNFb3R1b3RXZEdrZ0cxU2pIeWRBN1ZkSXZWVVVhdUVkLS11WEZrWSt3S0VEYjJoMGhRaFpNTm5nPT0%3D--438828b5d96a237bbffef226a592bf811aa7add3; path=/; HttpOnly",
-        "X-Request-Id": "6ebb8d56-3f16-4eda-9c03-3bcf8a7a055e",
-        "X-Runtime": "0.093780",
-        "Content-Length": "458"
+        "Set-Cookie": "_session_id=VGttSTJEcXdlWnY3YlB6cjArazdLTE9hajRvUUc1ZXBOZzFRSzlUOWhDUC8yUzVwTnN5WHJMSkJIZ05WbXBEOHlSMTJFR3REcGEwUTlyZHFOSkhPbURGMkFoNExibEVTZEROa1BPWW5yUTZzWXFmcVRTQTByQWhwSlZCY3dJS2Vwc1EvT3ZwVkFTUUtqSGpPRUFBTEJGV1Z5c2lyS2JQVWpDblNYekdUY3lsSWswL3U4NFZaTDBZWFF2MkgwYW9OLS16MEt2RXFJK3dqLzRWQ0k4dm1ETW5RPT0%3D--fb9375293c85b7ea7926696c5aafe1c05d98ff55; path=/; HttpOnly",
+        "X-Request-Id": "7d7c0bda-8583-4702-b9f0-a4019c2d4f19",
+        "X-Runtime": "0.104714",
+        "Content-Length": "460"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/client/addresses?active=0\" -X GET \\\n\t-H \"Access-Token: 4v2bZilV6sCJ2M8zxk7HpQ\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: IclwuzkFLPg4cIYOGyLzRQ\" \\\n\t-H \"Expiry: 1459268050\" \\\n\t-H \"Uid: 117jevon.douglas@hermiston.info\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/client/addresses?active=0\" -X GET \\\n\t-H \"Access-Token: s6Ay2RBRpR10JbhkXH-xkQ\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: rRTUXCTjXvMkCwvMQ1z1rA\" \\\n\t-H \"Expiry: 1459372664\" \\\n\t-H \"Uid: 117katrine.white@quigley.io\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

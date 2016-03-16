@@ -19,11 +19,11 @@
       "request_path": "deliver/orders/3",
       "request_body": "order[is_paid]=true",
       "request_headers": {
-        "Access-Token": "wyI8Ee8VvUOWXrtoEkrPyA",
+        "Access-Token": "9qwmmN3Q3_p4w7MGqFixTg",
         "Token-Type": "Bearer",
-        "Client": "97Ed9fJZGxJ_eI2my-cJRA",
-        "Expiry": "1459268059",
-        "Uid": "187jana.hintz@lehner.co",
+        "Client": "SGmOPRHVqGoJKf9BBtROfw",
+        "Expiry": "1459372675",
+        "Uid": "187unique_pouros@corkerybeier.biz",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -33,21 +33,21 @@
       "request_content_type": "application/x-www-form-urlencoded",
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\n  \"id\": 3,\n  \"user_id\": 6,\n  \"status\": \"unconfirmed\",\n  \"created_at\": \"2016-03-15T16:14:19.685Z\",\n  \"confirmed_at\": null,\n  \"approved_at\": null,\n  \"dispacthed_at\": null,\n  \"delivered_at\": null,\n  \"canceled_at\": null,\n  \"pure_product_price\": \"27.0\",\n  \"tax\": \"1.35\",\n  \"delivery_charge\": \"200.0\",\n  \"total_price\": \"228.35\",\n  \"coupon_code\": null,\n  \"delivery_boy_id\": 1,\n  \"delivery_boy_phone\": \"8502824456\",\n  \"wanted_time\": null,\n  \"wanted_date\": null,\n  \"payment_type\": \"cash\",\n  \"is_paid\": true,\n  \"feedback\": null,\n  \"comment\": null,\n  \"source_type\": null\n}",
+      "response_body": "{\n  \"id\": 3,\n  \"user_id\": 6,\n  \"status\": \"unconfirmed\",\n  \"created_at\": \"2016-03-16T21:17:55.922Z\",\n  \"confirmed_at\": null,\n  \"approved_at\": null,\n  \"dispacthed_at\": null,\n  \"delivered_at\": null,\n  \"canceled_at\": null,\n  \"pure_product_price\": \"27.0\",\n  \"tax\": \"1.35\",\n  \"delivery_charge\": \"200.0\",\n  \"total_price\": \"228.35\",\n  \"coupon_code\": null,\n  \"delivery_boy_id\": 1,\n  \"delivery_boy_phone\": \"6123935698\",\n  \"wanted_time\": null,\n  \"wanted_date\": null,\n  \"payment_type\": \"cash\",\n  \"is_paid\": true,\n  \"feedback\": null,\n  \"comment\": null,\n  \"source_type\": null\n}",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"f2a79a3cdeaa322c50c51ee7f5e4a7e9\"",
+        "ETag": "W/\"fc3004cac34edf29cb4426aaff0d445e\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=RzF5dlpqQ2E1bmJYYU8xckpDMFlVU1NxeWhCZFlFVDN2Z3VSQkxBVUZwNkdzZktvU3pTeGZpNDNPa0syMno0MGtTTXl0aGxvbHh1OFhmRndCbDlTZGlvQkF5M0doN1VDdFpxZERwd1RMZWE4Rm1JNmZqSkdNNHdVWUg4T2hzdmsxamlVRXQ5bVhwUDRrUmxMVzBybE9FNVhrRXFYemswUHVZSG9yUG5zM2pNWVBSVVlSY094Y2ZFdENUMkt6dXRkLS10RzVKR0ViVkhKaXZ1b1pqT214RnV3PT0%3D--74eb0640d0f1739112a03dc90184f120631cee32; path=/; HttpOnly",
-        "X-Request-Id": "e3f0637f-5965-4c07-bd6c-f4bc1550f342",
-        "X-Runtime": "0.093372",
+        "Set-Cookie": "_session_id=aGJ6OFhBTVdROXFKTnRWK0UzWEdjYnJ2cVA3cU5SRnRKNXRBOEFpdUtHK2g2RGZnKzhIVldCRHV4OHJ5MzZ2V1BPYmRvWkFacEFQUjBvZHc3Um5CWHpIS3ZxWnl0Zmc3ejJLak96b0ExYmFIbHBTYUd0NzhYMGdCS2djemV0Q3dFQ3p6RDJQQXV0eFlEUWpRSm4raHBlRWJ0MExyLzhoRVdTd2oybWFuazZnenBmdG5KZTZuWnA3ZHpmRUcraUxjLS0yRjhQUjZ4ZEE4WExHM3d4V1JSY053PT0%3D--41b66141d58ca5c5d610f421fef2e16f2c39d042; path=/; HttpOnly",
+        "X-Request-Id": "240486e6-2d29-413d-93c7-e4d83f4efc85",
+        "X-Runtime": "0.096225",
         "Content-Length": "470"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000deliver/orders/3\" -d 'order[is_paid]=true' -X PUT \\\n\t-H \"Access-Token: wyI8Ee8VvUOWXrtoEkrPyA\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: 97Ed9fJZGxJ_eI2my-cJRA\" \\\n\t-H \"Expiry: 1459268059\" \\\n\t-H \"Uid: 187jana.hintz@lehner.co\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000deliver/orders/3\" -d 'order[is_paid]=true' -X PUT \\\n\t-H \"Access-Token: 9qwmmN3Q3_p4w7MGqFixTg\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: SGmOPRHVqGoJKf9BBtROfw\" \\\n\t-H \"Expiry: 1459372675\" \\\n\t-H \"Uid: 187unique_pouros@corkerybeier.biz\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

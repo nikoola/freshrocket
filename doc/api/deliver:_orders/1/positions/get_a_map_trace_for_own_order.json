@@ -16,11 +16,11 @@
       "request_path": "/orders/3/positions",
       "request_body": null,
       "request_headers": {
-        "Access-Token": "7Myzg9LS1W_Ajn6aUbpb0Q",
+        "Access-Token": "Ept8nzWfTJIf7HS0TSQTMg",
         "Token-Type": "Bearer",
-        "Client": "3i1KYSCSO4iTzxSiB3eRmA",
-        "Expiry": "1459268061",
-        "Uid": "196lenore@schinnerwisozk.com",
+        "Client": "khX3JCUWPlrEZBVvpDp74w",
+        "Expiry": "1459372677",
+        "Uid": "196shanny@ortiz.org",
         "Host": "example.org",
         "Cookie": ""
       },
@@ -29,20 +29,20 @@
       "request_content_type": null,
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\n  \"positions\": [\n    \"42.10808340000001,87.735895\",\n    \"42.10808340000001,87.735895\"\n  ]\n}",
+      "response_body": "{\n  \"positions\": [\n    \"42.10808340000001,87.735895\",\n    \"42.10808340000001,87.735895\",\n    \"42.10808340000001,87.735895\",\n    \"42.10808340000001,87.735895\",\n    \"42.10808340000001,87.735895\"\n  ]\n}",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"a937efd08db370f5db8882721233b807\"",
+        "ETag": "W/\"ca9e2fbe8f0448c14b11e326fb3281b7\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "X-Request-Id": "f2646663-c934-4703-a188-4fd6b52dc36f",
-        "X-Runtime": "0.197748",
-        "Content-Length": "75"
+        "X-Request-Id": "8f2f65ca-ae04-4250-bc00-702e5d9976be",
+        "X-Runtime": "0.183528",
+        "Content-Length": "165"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/orders/3/positions\" -X GET \\\n\t-H \"Access-Token: 7Myzg9LS1W_Ajn6aUbpb0Q\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: 3i1KYSCSO4iTzxSiB3eRmA\" \\\n\t-H \"Expiry: 1459268061\" \\\n\t-H \"Uid: 196lenore@schinnerwisozk.com\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/orders/3/positions\" -X GET \\\n\t-H \"Access-Token: Ept8nzWfTJIf7HS0TSQTMg\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: khX3JCUWPlrEZBVvpDp74w\" \\\n\t-H \"Expiry: 1459372677\" \\\n\t-H \"Uid: 196shanny@ortiz.org\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

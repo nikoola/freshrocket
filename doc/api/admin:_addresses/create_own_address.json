@@ -43,13 +43,13 @@
     {
       "request_method": "POST",
       "request_path": "/admin/addresses",
-      "request_body": "address[street_and_house]=240+Berta+Prairie&address[door_number]=5&address[city_id]=1&address[user_id]=1",
+      "request_body": "address[street_and_house]=63805+Riley+Green&address[door_number]=5&address[city_id]=1&address[user_id]=1",
       "request_headers": {
-        "Access-Token": "EXFTT8mNSrCvdikAMsPa1w",
+        "Access-Token": "SkaIYvr6ltNp2rXcgt7QJQ",
         "Token-Type": "Bearer",
-        "Client": "usuwHTWh74LMTmLu6E319g",
-        "Expiry": "1459268035",
-        "Uid": "7sheila_price@altenwerthsenger.name",
+        "Client": "pIp8sQjgvw2f9l3yuccoWQ",
+        "Expiry": "1459372641",
+        "Uid": "7juanita@jenkins.org",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -59,21 +59,21 @@
       "request_content_type": "application/x-www-form-urlencoded",
       "response_status": 201,
       "response_status_text": "Created",
-      "response_body": "{\n  \"id\": 1,\n  \"city_id\": 1,\n  \"user_id\": 1,\n  \"street_and_house\": \"240 Berta Prairie\",\n  \"door_number\": \"5\",\n  \"zip_code\": null,\n  \"active\": true,\n  \"city_name\": \"Funkmouth_6\"\n}",
+      "response_body": "{\n  \"id\": 1,\n  \"city_id\": 1,\n  \"user_id\": 1,\n  \"street_and_house\": \"63805 Riley Green\",\n  \"door_number\": \"5\",\n  \"zip_code\": null,\n  \"active\": true,\n  \"city_name\": \"Missouriview_6\"\n}",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"354183abd6cab012e84c2dcd2e1fc964\"",
+        "ETag": "W/\"34be2a6f5ec255654c2dd6d406ea8267\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=MnZzNE9xYTZvRUFpbG5SblZhSXlWak8zbUVmUEpkc2R2ZVRnc1RFd0p4ZjJmVGJZRTl5bFpPMzBUU0xFWmxJTm1RYldmYk5LUHNOdWNvMFhnYzVsQ2oyOEMvTHN3QnpJMUNLNlFnNHJBanZxSEh1L1FqSGJOQkR2cG94amgrYlJWN3JlV1FSR2pmYWpEMENhc1pLY0JLWWd6RU4wbU9uSHhCRExHYWNIcHBsOEtlQzk2VWpVTGg2UUpINUZxelFDLS0xdTRrSGI4RG5iSEpEVVVNcjIrSnZRPT0%3D--4459c96957a355e722c6a225670116841cbf5950; path=/; HttpOnly",
-        "X-Request-Id": "74183e71-0a94-474b-b8be-0110ada3fadd",
-        "X-Runtime": "0.081994",
-        "Content-Length": "145"
+        "Set-Cookie": "_session_id=UFBLZHZGYWg0clpRRU9zMmprb2lxNzRvMUdqS0ptV0NscDNvZ0plcGdkK1hmdTNpU1JBSHYzSHlKamNsNjd6QjJNZmdJeWFTWFFDMUtrV0xxSmdsNkNOYTZXRjZqM0ExMTJFYUl3Q2tyaVdiL242SDcxak94dkh4c2dEdG4vZVpYanhDSVVQR0lEN0VvbTh2Mk5GTkZWR3RZRFgrOUt0Vk1yNUNTSzRNT0xKM292c3JCRXhRMGcweXpKSlFsbVVHLS1aNUlReWl5UmVHaWhTZFByS2hKakxBPT0%3D--524e756e87935d0638575b49251d1e1880f547e4; path=/; HttpOnly",
+        "X-Request-Id": "8518135e-89f6-44eb-8bce-fc4e5a9b1647",
+        "X-Runtime": "0.109582",
+        "Content-Length": "148"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/admin/addresses\" -d 'address[street_and_house]=240+Berta+Prairie&address[door_number]=5&address[city_id]=1&address[user_id]=1' -X POST \\\n\t-H \"Access-Token: EXFTT8mNSrCvdikAMsPa1w\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: usuwHTWh74LMTmLu6E319g\" \\\n\t-H \"Expiry: 1459268035\" \\\n\t-H \"Uid: 7sheila_price@altenwerthsenger.name\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/admin/addresses\" -d 'address[street_and_house]=63805+Riley+Green&address[door_number]=5&address[city_id]=1&address[user_id]=1' -X POST \\\n\t-H \"Access-Token: SkaIYvr6ltNp2rXcgt7QJQ\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: pIp8sQjgvw2f9l3yuccoWQ\" \\\n\t-H \"Expiry: 1459372641\" \\\n\t-H \"Uid: 7juanita@jenkins.org\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

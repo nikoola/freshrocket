@@ -39,13 +39,13 @@
     {
       "request_method": "PUT",
       "request_path": "/admin/cities/1",
-      "request_body": "city[name]=South+Antonio_11&city[areas_attributes][][id]=1&city[areas_attributes][][_destroy]=1",
+      "request_body": "city[name]=Zulauffort_11&city[areas_attributes][][id]=1&city[areas_attributes][][_destroy]=1",
       "request_headers": {
-        "Access-Token": "48gqJIyzHIMoTj7k17DIMw",
+        "Access-Token": "i-zsooXBDNwK8xPLKuHBjA",
         "Token-Type": "Bearer",
-        "Client": "rPlLnF9izHD-QT4YdwtgcQ",
-        "Expiry": "1459268037",
-        "Uid": "16halie_rohan@kirlinwalsh.info",
+        "Client": "5rtuKFUy1AfoEnSxC-lzOQ",
+        "Expiry": "1459372650",
+        "Uid": "16green@lind.biz",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -55,21 +55,21 @@
       "request_content_type": "application/x-www-form-urlencoded",
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\n  \"id\": 1,\n  \"name\": \"South Antonio_11\",\n  \"active\": true\n}",
+      "response_body": "{\n  \"id\": 1,\n  \"name\": \"Zulauffort_11\",\n  \"active\": true\n}",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"0a78bc4ce489c2386460bcd5175baa07\"",
+        "ETag": "W/\"63f14ce353dda5e34371e28c2d131f5b\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=aERjU3FyWHVRNm02emk5Ui95ODZZYi8yaUdGamgzNHlleFhGZEcraE9kTWczNVFLL2paQXZ2SmtBU1lFQklRd1FQTEJOUjFxcDJqdS9PQ3d0NlF0V0V2TXY1bWFqUk9pTzlxQ1RpL2NwWDFORGZ3SnQzbndvMmZoVjJlUVpERlE3TkVZazFJU2h6NW5yYzd3R2g3eFdzU1VNaitJWW9nNmdPSjZRWDhrY0M5L2lsN3NsZm5ac1g5K2JMaUtPY3dMLS1qRU9hTUZiL2tmQnovUHZLdUxQZkpBPT0%3D--dacf3a11058360e85202f27fab684582977c0078; path=/; HttpOnly",
-        "X-Request-Id": "8dba3530-83ea-451b-bfaf-23c0735d132a",
-        "X-Runtime": "0.079825",
-        "Content-Length": "48"
+        "Set-Cookie": "_session_id=V2lnRUFWRDhsdU1uZExsL0dlU2RQQk5wOW1oa2pwRFNMN1NuYTFQWE5hTHE4aGN3em9wL1hRN1JaTlUvK1p0WFk1WGFiMlZaZW40UVJLOUJ1OWtWTGNQcDBIUVhndTZPT2ozeFg5VE1IRndVQVl0TmpmZUtMQkUxeVFiMnhGSDhQbVBNRVlnd0RPaVRjNWpKYUZYa1ZNVzRxeElwZ1o4a1Z4WTdCSFFWeVkrM3NKcFhyZE14akdvNWZxSE5CWFB5LS02aENvak5xV1dyY3l6bGxSNVBvdUxBPT0%3D--9dacd7e1b716407c3a072142151bd8df58b9c486; path=/; HttpOnly",
+        "X-Request-Id": "090c2b1d-c9be-45a3-a87c-4aaa6d6c9ef4",
+        "X-Runtime": "0.080519",
+        "Content-Length": "45"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/admin/cities/1\" -d 'city[name]=South+Antonio_11&city[areas_attributes][][id]=1&city[areas_attributes][][_destroy]=1' -X PUT \\\n\t-H \"Access-Token: 48gqJIyzHIMoTj7k17DIMw\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: rPlLnF9izHD-QT4YdwtgcQ\" \\\n\t-H \"Expiry: 1459268037\" \\\n\t-H \"Uid: 16halie_rohan@kirlinwalsh.info\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/admin/cities/1\" -d 'city[name]=Zulauffort_11&city[areas_attributes][][id]=1&city[areas_attributes][][_destroy]=1' -X PUT \\\n\t-H \"Access-Token: i-zsooXBDNwK8xPLKuHBjA\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: 5rtuKFUy1AfoEnSxC-lzOQ\" \\\n\t-H \"Expiry: 1459372650\" \\\n\t-H \"Uid: 16green@lind.biz\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }
