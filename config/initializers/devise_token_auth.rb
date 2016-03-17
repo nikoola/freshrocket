@@ -39,29 +39,29 @@ end
 
 
 module DeviseTokenAuth
-	TokenValidationsController.class_eval do
-		def render_validate_token_success
-			serializer = UserSerializer.new(@resource)
-			adapter = ActiveModel::Serializer.adapter.new serializer
+	# TokenValidationsController.class_eval do
+	# 	def render_validate_token_success
+	# 		serializer = UserSerializer.new(@resource)
+	# 		adapter = ActiveModel::Serializer.adapter.new serializer
 
-			render json: {
-				success: true,
-				data: adapter
-			}
-		end
-	end
+	# 		render json: {
+	# 			success: true,
+	# 			data: adapter
+	# 		}
+	# 	end
+	# end
 
 
-	SessionsController.class_eval do
-		def render_create_success
-			serializer = UserSerializer.new(@resource)
-			adapter = ActiveModel::Serializer.adapter.new serializer
+	# SessionsController.class_eval do
+	# 	def render_create_success
+	# 		serializer = UserSerializer.new(@resource)
+	# 		adapter = ActiveModel::Serializer.adapter.new serializer
 
-			render json: {
-				data: adapter
-			}
-		end
-	end
+	# 		render json: {
+	# 			data: adapter
+	# 		}
+	# 	end
+	# end
 
 	OmniauthCallbacksController.class_eval do
 		def assign_provider_attrs(user, auth_hash)
