@@ -1,23 +1,6 @@
 Rails.application.configure do
 
 
-	ActionMailer::Base.smtp_settings = {
-		:user_name            => ENV['SENDGRID_USERNAME'],
-		:password             => ENV['SENDGRID_PASSWORD'],
-		:domain               => 'rivo.herokuapp.com',
-		:address              => 'smtp.sendgrid.net',
-		:port                 => 587,
-		:authentication       => :plain,
-		:enable_starttls_auto => true
-	}
-
-
-
-
-
-
-
-
 
 
 	# allow cross-origin requests in production
@@ -32,9 +15,15 @@ Rails.application.configure do
 	end
 
 
-
-
-
+	config.action_mailer.smtp_settings = {
+		:user_name            => ENV['SENDGRID_USERNAME'],
+		:password             => ENV['SENDGRID_PASSWORD'],
+		:domain               => 'rivo.herokuapp.com',
+		:address              => 'smtp.sendgrid.net',
+		:port                 => 587,
+		:authentication       => :plain,
+		:enable_starttls_auto => true
+	}
 
 
 	# Settings specified here will take precedence over those in config/application.rb.

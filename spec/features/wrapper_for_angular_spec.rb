@@ -25,6 +25,10 @@ describe 'Angular: parameter wrapping', type: :request do
 	end
 
 
+
+
+
+
 	it '/admin/users' do
 		client = FactoryGirl.create :user
 		password = 'hhhhhhhhhh'

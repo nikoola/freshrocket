@@ -40,8 +40,6 @@ end
 
 module DeviseTokenAuth
 	TokenValidationsController.class_eval do
-
-
 		def render_validate_token_success
 			serializer = UserSerializer.new(@resource)
 			adapter = ActiveModel::Serializer.adapter.new serializer
@@ -51,8 +49,6 @@ module DeviseTokenAuth
 				data: adapter
 			}
 		end
-
-
 	end
 
 
@@ -68,9 +64,6 @@ module DeviseTokenAuth
 	end
 
 	OmniauthCallbacksController.class_eval do
-
-
-
 		def assign_provider_attrs(user, auth_hash)
 			user.assign_attributes({
 				first_name:     auth_hash['info']['first_name'],
@@ -79,9 +72,6 @@ module DeviseTokenAuth
 				phone:          '0000000000'
 			})
 		end
-
-
-
 	end
 
 
