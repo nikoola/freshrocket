@@ -1,4 +1,5 @@
 
+[interestingly devise-token-auth stops returning headers if legacy data doesn't pass new validation (huh)]
 
 for authentication I used https://github.com/lynndylanhurley/devise_token_auth.  
 there is an angular plugin for a smooth integration with that gem and a jquery library, you can choose either.
