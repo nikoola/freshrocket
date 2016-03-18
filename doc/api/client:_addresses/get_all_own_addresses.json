@@ -19,11 +19,11 @@
       "request_path": "/client/addresses?active=0",
       "request_body": null,
       "request_headers": {
-        "Access-Token": "s6Ay2RBRpR10JbhkXH-xkQ",
+        "Access-Token": "cVHpFVo3aIB_vLcOnWdVJg",
         "Token-Type": "Bearer",
-        "Client": "rRTUXCTjXvMkCwvMQ1z1rA",
-        "Expiry": "1459372664",
-        "Uid": "117katrine.white@quigley.io",
+        "Client": "g0DlxH4Czx77ruI7ovzHPQ",
+        "Expiry": "1459509346",
+        "Uid": "117ashlee@swaniawskishields.info",
         "Host": "example.org",
         "Cookie": ""
       },
@@ -33,21 +33,21 @@
       "request_content_type": null,
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "[\n  {\n    \"id\": 1,\n    \"city_id\": 1,\n    \"user_id\": 1,\n    \"street_and_house\": \"1185 Stamm Meadow\",\n    \"door_number\": \"5\",\n    \"zip_code\": null,\n    \"active\": false,\n    \"city_name\": \"Metzmouth_102\"\n  },\n  {\n    \"id\": 2,\n    \"city_id\": 2,\n    \"user_id\": 1,\n    \"street_and_house\": \"8733 Mckenzie Estate\",\n    \"door_number\": \"5\",\n    \"zip_code\": null,\n    \"active\": false,\n    \"city_name\": \"North Daija_103\"\n  },\n  {\n    \"id\": 3,\n    \"city_id\": 3,\n    \"user_id\": 1,\n    \"street_and_house\": \"92474 Kuvalis Unions\",\n    \"door_number\": \"5\",\n    \"zip_code\": null,\n    \"active\": false,\n    \"city_name\": \"Port Metaside_104\"\n  }\n]",
+      "response_body": "[\n  {\n    \"id\": 1,\n    \"city_id\": 1,\n    \"user_id\": 1,\n    \"street_and_house\": \"8176 Roger Dale\",\n    \"door_number\": \"5\",\n    \"zip_code\": null,\n    \"active\": false,\n    \"city_name\": \"Lefflertown_102\"\n  },\n  {\n    \"id\": 2,\n    \"city_id\": 2,\n    \"user_id\": 1,\n    \"street_and_house\": \"66581 Harber Estate\",\n    \"door_number\": \"5\",\n    \"zip_code\": null,\n    \"active\": false,\n    \"city_name\": \"West Cadeburgh_103\"\n  },\n  {\n    \"id\": 3,\n    \"city_id\": 3,\n    \"user_id\": 1,\n    \"street_and_house\": \"56610 Cruickshank Passage\",\n    \"door_number\": \"5\",\n    \"zip_code\": null,\n    \"active\": false,\n    \"city_name\": \"Lake Doyleview_104\"\n  }\n]",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"213f765975c29a4c6753c8278656a937\"",
+        "ETag": "W/\"871e2fcd3555abd7081c9f0f255513b5\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=VGttSTJEcXdlWnY3YlB6cjArazdLTE9hajRvUUc1ZXBOZzFRSzlUOWhDUC8yUzVwTnN5WHJMSkJIZ05WbXBEOHlSMTJFR3REcGEwUTlyZHFOSkhPbURGMkFoNExibEVTZEROa1BPWW5yUTZzWXFmcVRTQTByQWhwSlZCY3dJS2Vwc1EvT3ZwVkFTUUtqSGpPRUFBTEJGV1Z5c2lyS2JQVWpDblNYekdUY3lsSWswL3U4NFZaTDBZWFF2MkgwYW9OLS16MEt2RXFJK3dqLzRWQ0k4dm1ETW5RPT0%3D--fb9375293c85b7ea7926696c5aafe1c05d98ff55; path=/; HttpOnly",
-        "X-Request-Id": "7d7c0bda-8583-4702-b9f0-a4019c2d4f19",
-        "X-Runtime": "0.104714",
-        "Content-Length": "460"
+        "Set-Cookie": "_session_id=OXB4ay8xS3A1bkp6M1FobUJTMkhZTW1qVVZtdDNhNm5wNUpZUCtQVzJ5NjdqeG5qaDhNeHFtM3RoQlVuUmlzMk4xamRtbkN4TUo5RjJyTlJPYkdJQXBOdURCVEtiSkdQelc5SU1odDhab0FDMVo2V1A2Nzh1T2J3NHVUcGNzbnEvQW9kNWxpODR2TXZtTjZlWDI4eWdIa3RVQlp2dVVwUk9wUFlid0hUOUNBWEcxYnlXRjFRMTlETE1wWDV3aUlyLS05allHRHpUWVd4UXFKWWVGZjVHamtnPT0%3D--d20457c64397a5a8eb875fc02a402cafc4d2d36b; path=/; HttpOnly",
+        "X-Request-Id": "97fb8b23-8f06-4160-8576-61cc5bd3a368",
+        "X-Runtime": "0.092592",
+        "Content-Length": "468"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/client/addresses?active=0\" -X GET \\\n\t-H \"Access-Token: s6Ay2RBRpR10JbhkXH-xkQ\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: rRTUXCTjXvMkCwvMQ1z1rA\" \\\n\t-H \"Expiry: 1459372664\" \\\n\t-H \"Uid: 117katrine.white@quigley.io\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/client/addresses?active=0\" -X GET \\\n\t-H \"Access-Token: cVHpFVo3aIB_vLcOnWdVJg\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: g0DlxH4Czx77ruI7ovzHPQ\" \\\n\t-H \"Expiry: 1459509346\" \\\n\t-H \"Uid: 117ashlee@swaniawskishields.info\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

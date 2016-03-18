@@ -39,13 +39,13 @@
     {
       "request_method": "PUT",
       "request_path": "/admin/cities/1",
-      "request_body": "city[name]=Zulauffort_11&city[areas_attributes][][id]=1&city[areas_attributes][][_destroy]=1",
+      "request_body": "city[name]=Port+Fernemouth_11&city[areas_attributes][][id]=1&city[areas_attributes][][_destroy]=1",
       "request_headers": {
-        "Access-Token": "i-zsooXBDNwK8xPLKuHBjA",
+        "Access-Token": "m9420mSo4bdekIekR_VsHQ",
         "Token-Type": "Bearer",
-        "Client": "5rtuKFUy1AfoEnSxC-lzOQ",
-        "Expiry": "1459372650",
-        "Uid": "16green@lind.biz",
+        "Client": "650fQELfHYwKtfc0YnlPBg",
+        "Expiry": "1459509328",
+        "Uid": "16aleia.rogahn@dietrich.co",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -55,21 +55,21 @@
       "request_content_type": "application/x-www-form-urlencoded",
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\n  \"id\": 1,\n  \"name\": \"Zulauffort_11\",\n  \"active\": true\n}",
+      "response_body": "{\n  \"id\": 1,\n  \"name\": \"Port Fernemouth_11\",\n  \"active\": true\n}",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"63f14ce353dda5e34371e28c2d131f5b\"",
+        "ETag": "W/\"047f56efa54072079cb823f5bd706079\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=V2lnRUFWRDhsdU1uZExsL0dlU2RQQk5wOW1oa2pwRFNMN1NuYTFQWE5hTHE4aGN3em9wL1hRN1JaTlUvK1p0WFk1WGFiMlZaZW40UVJLOUJ1OWtWTGNQcDBIUVhndTZPT2ozeFg5VE1IRndVQVl0TmpmZUtMQkUxeVFiMnhGSDhQbVBNRVlnd0RPaVRjNWpKYUZYa1ZNVzRxeElwZ1o4a1Z4WTdCSFFWeVkrM3NKcFhyZE14akdvNWZxSE5CWFB5LS02aENvak5xV1dyY3l6bGxSNVBvdUxBPT0%3D--9dacd7e1b716407c3a072142151bd8df58b9c486; path=/; HttpOnly",
-        "X-Request-Id": "090c2b1d-c9be-45a3-a87c-4aaa6d6c9ef4",
-        "X-Runtime": "0.080519",
-        "Content-Length": "45"
+        "Set-Cookie": "_session_id=UEQ1YnF0NVY2TmJRY2tCYkhHcVVhNXhTZFZnMHR2WGJRVWJFckdMYzJxSG5LV0U4bzhhQUJRa2hBNDhlRWdxZS9NVjNnYkNZY01vTjAwRU8rYjhhU25kcU5Gay9OWWpkNHJuSUE5eFFKSTA3ZlJlWjVVREZaUERLY0ZrQmNTbW5hNldZQ0U1L3hnbWkvRFg0dG81Z1AxM3ZFQ214QVhpMWZLSTJsY2NjQi80dTdPdG84aDRLb1o4eDVVK3U2Z2JSLS1WL2ozbGNucFpTV1dhazlzTHIvVG1RPT0%3D--71316977f65f6c3b8a4ab17f7a07e923ded47b6e; path=/; HttpOnly",
+        "X-Request-Id": "ce023e77-fb5d-47f2-a0a8-5e6473eced9d",
+        "X-Runtime": "0.081305",
+        "Content-Length": "50"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/admin/cities/1\" -d 'city[name]=Zulauffort_11&city[areas_attributes][][id]=1&city[areas_attributes][][_destroy]=1' -X PUT \\\n\t-H \"Access-Token: i-zsooXBDNwK8xPLKuHBjA\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: 5rtuKFUy1AfoEnSxC-lzOQ\" \\\n\t-H \"Expiry: 1459372650\" \\\n\t-H \"Uid: 16green@lind.biz\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/admin/cities/1\" -d 'city[name]=Port+Fernemouth_11&city[areas_attributes][][id]=1&city[areas_attributes][][_destroy]=1' -X PUT \\\n\t-H \"Access-Token: m9420mSo4bdekIekR_VsHQ\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: 650fQELfHYwKtfc0YnlPBg\" \\\n\t-H \"Expiry: 1459509328\" \\\n\t-H \"Uid: 16aleia.rogahn@dietrich.co\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

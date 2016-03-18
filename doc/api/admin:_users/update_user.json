@@ -14,13 +14,13 @@
     {
       "request_method": "PUT",
       "request_path": "/admin/users/1",
-      "request_body": "user[email]=hi%40hi.hey&user[phone]=8881594248",
+      "request_body": "user[email]=hi%40hi.hey&user[phone]=6050776914",
       "request_headers": {
-        "Access-Token": "tC4Od194u-IuoInn7asXvA",
+        "Access-Token": "c5qR3viVfQNDFOYSaO6oNg",
         "Token-Type": "Bearer",
-        "Client": "XI3G192kGwu1mMDAzVysXA",
-        "Expiry": "1459372662",
-        "Uid": "102jude.rutherford@considine.info",
+        "Client": "wl_3kODNPHy-ZFeoqvMpNA",
+        "Expiry": "1459509344",
+        "Uid": "102meghan.parisian@carroll.net",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -30,21 +30,21 @@
       "request_content_type": "application/x-www-form-urlencoded",
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\n  \"id\": 1,\n  \"first_name\": \"Charley\",\n  \"last_name\": \"MacGyver\",\n  \"email\": \"hi@hi.hey\",\n  \"phone\": \"8881594248\",\n  \"is_verified\": false,\n  \"provider\": \"email\",\n  \"uid\": \"hi@hi.hey\",\n  \"created_at\": \"2016-03-16T21:17:42.635Z\",\n  \"abilities\": {\n    \"orders\": 0,\n    \"products\": 0,\n    \"users\": 0,\n    \"categories\": 1,\n    \"coupons\": 0,\n    \"settings\": 0,\n    \"cities\": 0,\n    \"delivery_boy\": 0\n  }\n}",
+      "response_body": "{\n  \"id\": 1,\n  \"first_name\": \"Garret\",\n  \"last_name\": \"Weber\",\n  \"email\": \"hi@hi.hey\",\n  \"phone\": \"6050776914\",\n  \"is_verified\": false,\n  \"provider\": \"email\",\n  \"uid\": \"hi@hi.hey\",\n  \"created_at\": \"2016-03-18T11:15:44.548Z\",\n  \"abilities\": {\n    \"orders\": 0,\n    \"products\": 0,\n    \"users\": 0,\n    \"categories\": 1,\n    \"coupons\": 0,\n    \"settings\": 0,\n    \"cities\": 0,\n    \"delivery_boy\": 0\n  }\n}",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"d2aa805961d044eebfb887acaa0c956a\"",
+        "ETag": "W/\"86fbba97eca3763c680dc9af277adb6f\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=cGRoZmdRUGpTdmdBbXJjU0xXS0puUWtScTI4cWN2czVrVHlPNWFNRUZPd1FKcEpMdERJVGVGL20xeSt3T2t5emQrZUxqek8yYm8yOGtUTGtUSFFJOGRxOVI3UzJkem1TVUpnWkNkeDNhT2lwdzdZRGlmTERoMWRqVis4S2REbDR6dlBMYzRDNElaYjJuMldybk1rYk5BWUtxUXVHQm5UN2FsOUw0QmlaSHFFM1ZaM1FoUXpTTDFxbno4cTczYmQ0LS14NERUL1p5cmlnVjJlMTF0Z1hRWG9BPT0%3D--1f929b32dcb2782758795e586e45a693692dc5bb; path=/; HttpOnly",
-        "X-Request-Id": "ad82d333-04d8-4034-9647-e37c4cf93c53",
-        "X-Runtime": "0.089040",
-        "Content-Length": "308"
+        "Set-Cookie": "_session_id=MXlFYnV6bC9ma0VzNldiSzZMcCtwQy9FYmNGRE84dEtCM3FMSldGOWZqTkJ0ZGtQZDE0SWxlTmxpcDhJejUvaGRkR2pqMm9BU3p6b1ozSkovQ0JlaFlabVdBR1poMGVyMFVXR2xtcXJQZlJsUEJWN3dNSGJseUdpMWk3cWFOOW9XVEJ3R2ROUDlTRVI0Wk94TFhGRGRoTHhPS2Z5aTdLaUw5VmcvMjZqL1pKY3Urd2hrWW1WZ09wZnBVR1pDY3NyLS1mMmJQRFZoMlRvWnN1SDJaU3VBZDFRPT0%3D--ab72a66e2ef6ac35a55a68c447679fe727665d02; path=/; HttpOnly",
+        "X-Request-Id": "5439332b-0233-4458-8fb5-da526d199186",
+        "X-Runtime": "0.084547",
+        "Content-Length": "304"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/admin/users/1\" -d 'user[email]=hi%40hi.hey&user[phone]=8881594248' -X PUT \\\n\t-H \"Access-Token: tC4Od194u-IuoInn7asXvA\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: XI3G192kGwu1mMDAzVysXA\" \\\n\t-H \"Expiry: 1459372662\" \\\n\t-H \"Uid: 102jude.rutherford@considine.info\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/admin/users/1\" -d 'user[email]=hi%40hi.hey&user[phone]=6050776914' -X PUT \\\n\t-H \"Access-Token: c5qR3viVfQNDFOYSaO6oNg\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: wl_3kODNPHy-ZFeoqvMpNA\" \\\n\t-H \"Expiry: 1459509344\" \\\n\t-H \"Uid: 102meghan.parisian@carroll.net\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

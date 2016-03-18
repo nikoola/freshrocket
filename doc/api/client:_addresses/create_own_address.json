@@ -37,13 +37,13 @@
     {
       "request_method": "POST",
       "request_path": "/client/addresses",
-      "request_body": "address[street_and_house]=882+Eichmann+Extensions&address[door_number]=5&address[city_id]=1",
+      "request_body": "address[street_and_house]=5918+Feeney+Extension&address[door_number]=5&address[city_id]=1",
       "request_headers": {
-        "Access-Token": "hVwdE6F3n3J_dHCFICZA5g",
+        "Access-Token": "KElE4dP1Dldaus5h3SMefA",
         "Token-Type": "Bearer",
-        "Client": "s2zUbfIBp5zL791d6F93cw",
-        "Expiry": "1459372664",
-        "Uid": "120kendrick_ziemann@leffler.name",
+        "Client": "FTPHSWpEG24cm3o4qALRtw",
+        "Expiry": "1459509346",
+        "Uid": "120elody@baileycasper.io",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -53,21 +53,21 @@
       "request_content_type": "application/x-www-form-urlencoded",
       "response_status": 201,
       "response_status_text": "Created",
-      "response_body": "{\n  \"id\": 1,\n  \"city_id\": 1,\n  \"user_id\": 1,\n  \"street_and_house\": \"882 Eichmann Extensions\",\n  \"door_number\": \"5\",\n  \"zip_code\": null,\n  \"active\": true,\n  \"city_name\": \"Braunburgh_109\"\n}",
+      "response_body": "{\n  \"id\": 1,\n  \"city_id\": 1,\n  \"user_id\": 1,\n  \"street_and_house\": \"5918 Feeney Extension\",\n  \"door_number\": \"5\",\n  \"zip_code\": null,\n  \"active\": true,\n  \"city_name\": \"West Lomamouth_109\"\n}",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"791696e74e08abee97b7850cd68b71dc\"",
+        "ETag": "W/\"81e7770a62b679f02049e6d69210a9fa\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=Z2p1MUFqNVN5YkhUT3dPUnpvUStLQjIyc2cvWjhBeGdXNG03KzFUYVVKdkkydmdwbjdIcXhVWkRiMDZqZC91NFRrc1dYdHorTzE1TUs0TVV5cXAxOWVMUnNXUjBJMWFGK3RCWkZuVjB3cEVxWlZCZmhidGdzUHFiQkcvVUtiWUxGMEVnR0xSWS83dDQ4ay9nTjBTYlExSUw0MHp2TjRlVGlZNUJwSjhaclp1WjlmT3g2WHlTSEpzQVZJcVdrNXRQLS1VSTVhWmFFdUtzekNkNk9BUWM4eDdRPT0%3D--9b294e541f7fedafd68a18373981c922e1d36eed; path=/; HttpOnly",
-        "X-Request-Id": "bc636b5b-ff77-47d6-b236-cde6803084e4",
-        "X-Runtime": "0.078853",
-        "Content-Length": "154"
+        "Set-Cookie": "_session_id=ek5xWDRQNFhWZ08yS1NvaW1FYmpMK285RGxuU2c0NnNkQlgvMklhWDVBMXdabHNLMmlmY1E3bVZsdWMyeW1oQkZyYzNWcERjMy9zZzgycmRnWU5ucmZJQTVMYUlkam03bldTOWpJSkY4bDZCNnZLVjRNdHMxMnZoRk9pN3g5VkFiaTdFQ2VqOU5zZVNtUXlpVTd2dm1ERHZIU0V0U2tNc1l2SlVWWi8wWUVabTZGVlNoM1pMYjdGRlk2NzRlSDB4LS1WQ05hL2poVUZVb2g2RTNRQkMyOGtRPT0%3D--60cb7bde22e54539b6fde5b3b0741b8baa30248e; path=/; HttpOnly",
+        "X-Request-Id": "320b8cfc-d5ae-448e-8599-27650e526e35",
+        "X-Runtime": "0.078419",
+        "Content-Length": "156"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/client/addresses\" -d 'address[street_and_house]=882+Eichmann+Extensions&address[door_number]=5&address[city_id]=1' -X POST \\\n\t-H \"Access-Token: hVwdE6F3n3J_dHCFICZA5g\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: s2zUbfIBp5zL791d6F93cw\" \\\n\t-H \"Expiry: 1459372664\" \\\n\t-H \"Uid: 120kendrick_ziemann@leffler.name\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/client/addresses\" -d 'address[street_and_house]=5918+Feeney+Extension&address[door_number]=5&address[city_id]=1' -X POST \\\n\t-H \"Access-Token: KElE4dP1Dldaus5h3SMefA\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: FTPHSWpEG24cm3o4qALRtw\" \\\n\t-H \"Expiry: 1459509346\" \\\n\t-H \"Uid: 120elody@baileycasper.io\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

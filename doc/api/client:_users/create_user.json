@@ -47,13 +47,13 @@
     {
       "request_method": "POST",
       "request_path": "/auth",
-      "request_body": "email=163catalina%40bergnaum.io&password=secrety_bickety&password_confirmation=secrety_bickety&first_name=Isabel&last_name=Kulas&phone=7386948940",
+      "request_body": "email=163madelyn%40schumm.org&password=secrety_bickety&password_confirmation=secrety_bickety&first_name=Willy&last_name=Halvorson&phone=9358130060",
       "request_headers": {
-        "Access-Token": "shJtpvXQR_WkySGQQuCYmA",
+        "Access-Token": "l3hHKvtO-1LVDpaN4JcF7A",
         "Token-Type": "Bearer",
-        "Client": "2uMqgH1ms7uVxefkiU9ZSg",
-        "Expiry": "1459372673",
-        "Uid": "164harmony.lowe@hansen.io",
+        "Client": "vy7PqEPS4CRh-jTeHw-oow",
+        "Expiry": "1459509353",
+        "Uid": "164letitia@gulgowski.net",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -63,25 +63,25 @@
       "request_content_type": "application/x-www-form-urlencoded",
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\n  \"status\": \"success\",\n  \"data\": {\n    \"id\": 6,\n    \"first_name\": \"Isabel\",\n    \"last_name\": \"Kulas\",\n    \"email\": \"163catalina@bergnaum.io\",\n    \"provider\": \"email\",\n    \"uid\": \"163catalina@bergnaum.io\",\n    \"phone\": \"7386948940\",\n    \"verification_code\": null,\n    \"is_verified\": false,\n    \"created_at\": \"2016-03-16T21:17:53.947Z\",\n    \"updated_at\": \"2016-03-16T21:17:54.093Z\",\n    \"how_did_you_hear_about_us\": null\n  }\n}",
+      "response_body": "{\n  \"status\": \"success\",\n  \"data\": {\n    \"id\": 6,\n    \"first_name\": \"Willy\",\n    \"last_name\": \"Halvorson\",\n    \"email\": \"163madelyn@schumm.org\",\n    \"provider\": \"email\",\n    \"uid\": \"163madelyn@schumm.org\",\n    \"phone\": \"9358130060\",\n    \"verification_code\": null,\n    \"is_verified\": false,\n    \"created_at\": \"2016-03-18T11:15:53.905Z\",\n    \"updated_at\": \"2016-03-18T11:15:54.048Z\",\n    \"how_did_you_hear_about_us\": null\n  }\n}",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
-        "access-token": "uBth9vb-T4sRfmilNnnSbw",
+        "access-token": "J9_j0bqci2Iv56affDlFFQ",
         "token-type": "Bearer",
-        "client": "swinNKehid4YttVIx_ZLIg",
-        "expiry": "1459372674",
-        "uid": "163catalina@bergnaum.io",
+        "client": "7yDc9rOqVvmCEjfEH2RD5g",
+        "expiry": "1459509354",
+        "uid": "163madelyn@schumm.org",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"4a19407956e1dac2a991bfb64fc6a21c\"",
+        "ETag": "W/\"c91f5be1abcada956f32982d55c4f7b5\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "X-Request-Id": "a4c1d04f-ca1e-484d-9a7b-b88f135039a1",
-        "X-Runtime": "0.164637",
-        "Content-Length": "342"
+        "X-Request-Id": "613d1b41-de32-4aed-85a9-e8de7e273ca9",
+        "X-Runtime": "0.162317",
+        "Content-Length": "341"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/auth\" -d 'email=163catalina%40bergnaum.io&password=secrety_bickety&password_confirmation=secrety_bickety&first_name=Isabel&last_name=Kulas&phone=7386948940' -X POST \\\n\t-H \"Access-Token: shJtpvXQR_WkySGQQuCYmA\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: 2uMqgH1ms7uVxefkiU9ZSg\" \\\n\t-H \"Expiry: 1459372673\" \\\n\t-H \"Uid: 164harmony.lowe@hansen.io\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/auth\" -d 'email=163madelyn%40schumm.org&password=secrety_bickety&password_confirmation=secrety_bickety&first_name=Willy&last_name=Halvorson&phone=9358130060' -X POST \\\n\t-H \"Access-Token: l3hHKvtO-1LVDpaN4JcF7A\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: vy7PqEPS4CRh-jTeHw-oow\" \\\n\t-H \"Expiry: 1459509353\" \\\n\t-H \"Uid: 164letitia@gulgowski.net\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

@@ -27,17 +27,17 @@
       "request_content_type": null,
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\n  \"id\": 1,\n  \"name\": \"Lake Lysanne_101\",\n  \"active\": true,\n  \"areas\": [\n    {\n      \"id\": 1,\n      \"name\": \"Lake Josianneberg_area_3\"\n    },\n    {\n      \"id\": 2,\n      \"name\": \"New Jordy_area_4\"\n    },\n    {\n      \"id\": 3,\n      \"name\": \"South Orvilleland_area_5\"\n    }\n  ]\n}",
+      "response_body": "{\n  \"id\": 1,\n  \"name\": \"Lake Olemouth_101\",\n  \"active\": true,\n  \"areas\": [\n    {\n      \"id\": 1,\n      \"name\": \"Clintchester_area_3\"\n    },\n    {\n      \"id\": 2,\n      \"name\": \"Lake Vickiechester_area_4\"\n    },\n    {\n      \"id\": 3,\n      \"name\": \"Vivianneburgh_area_5\"\n    }\n  ]\n}",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"097acbbcb1e9fad85920e42686925fe6\"",
+        "ETag": "W/\"40bc0f8f659d444e74bfb65394b5d1c8\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "X-Request-Id": "a33d1a8a-6255-41e0-862e-290911cc84de",
-        "X-Runtime": "0.003587",
-        "Content-Length": "179"
+        "X-Request-Id": "a4f92855-e528-442c-b8fa-d7b24ef58b6b",
+        "X-Runtime": "0.003218",
+        "Content-Length": "180"
       },
       "response_content_type": "application/json; charset=utf-8",
       "curl": "curl \"http://localhost:3000/cities/1?include[]=areas\" -X GET \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""

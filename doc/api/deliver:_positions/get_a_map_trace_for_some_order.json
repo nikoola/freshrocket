@@ -1,0 +1,49 @@
+{
+  "resource": "deliver: positions",
+  "http_method": "GET",
+  "route": "/orders/:id/positions",
+  "description": "get a map trace for some order",
+  "explanation": "available for delivery_boy's order, own client's order, or for user with orders ability",
+  "parameters": [
+
+  ],
+  "response_fields": [
+
+  ],
+  "requests": [
+    {
+      "request_method": "GET",
+      "request_path": "/orders/3/positions",
+      "request_body": null,
+      "request_headers": {
+        "Access-Token": "qsIwQmiNrk3NZ3yI74HtcQ",
+        "Token-Type": "Bearer",
+        "Client": "vn_GcUrJ3k7rqEe2pnrZuw",
+        "Expiry": "1459509357",
+        "Uid": "196valentin@trantowhickle.io",
+        "Host": "example.org",
+        "Cookie": ""
+      },
+      "request_query_parameters": {
+      },
+      "request_content_type": null,
+      "response_status": 200,
+      "response_status_text": "OK",
+      "response_body": "{\n  \"positions\": [\n    \"42.10808340000001,87.735895\",\n    \"42.10808340000001,87.735895\",\n    \"42.10808340000001,87.735895\",\n    \"42.10808340000001,87.735895\",\n    \"42.10808340000001,87.735895\",\n    \"42.10808340000001,87.735895\",\n    \"42.10808340000001,87.735895\",\n    \"42.10808340000001,87.735895\"\n  ]\n}",
+      "response_headers": {
+        "X-Frame-Options": "SAMEORIGIN",
+        "X-XSS-Protection": "1; mode=block",
+        "X-Content-Type-Options": "nosniff",
+        "Content-Type": "application/json; charset=utf-8",
+        "ETag": "W/\"1519770cdeb3c5cb3bb0c167ffa9aef5\"",
+        "Cache-Control": "max-age=0, private, must-revalidate",
+        "Set-Cookie": "_session_id=UVRIMTZOdFl4L0VXTGp6S21OamU3dDZyNGlkclY4ZDVCMmIvU29FamxOT0lCczA5RkRMRURwcktSMmRSMk9kWVc1bU1yVkFheWxuTnlMZ1dWQnF5Z1F4elhqM3phMmROQkdvL1dNUy8yQ2xsVHVDa0QxRW5YZnRucHVZem83c0FwbWM3bVJEMElIOVFrZytHYVh2b1FCSUwzQkQ5QThsdHBxWm5Jdk9WaDBhMWVKV1hlejJNOHM3ek5UREh4VmFHLS1NSUswQk1oS2dVMEwybjQvek5PM0N3PT0%3D--978827dd63c14ba67a3582c0ce96f52123c7b1bd; path=/; HttpOnly",
+        "X-Request-Id": "7b7b2544-ead1-4dbb-9604-471d322eefde",
+        "X-Runtime": "0.257753",
+        "Content-Length": "255"
+      },
+      "response_content_type": "application/json; charset=utf-8",
+      "curl": "curl \"http://localhost:3000/orders/3/positions\" -X GET \\\n\t-H \"Access-Token: qsIwQmiNrk3NZ3yI74HtcQ\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: vn_GcUrJ3k7rqEe2pnrZuw\" \\\n\t-H \"Expiry: 1459509357\" \\\n\t-H \"Uid: 196valentin@trantowhickle.io\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
+    }
+  ]
+}

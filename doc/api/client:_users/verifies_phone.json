@@ -19,11 +19,11 @@
       "request_path": "/client/verify",
       "request_body": "verification_code",
       "request_headers": {
-        "Access-Token": "IQ_ZSuG-826DUbDC7m2s2A",
+        "Access-Token": "FNonO3fK1RRQJLIwlNCbOg",
         "Token-Type": "Bearer",
-        "Client": "h60cQ5v17Mczh3fsoN39MA",
-        "Expiry": "1459372674",
-        "Uid": "172gonzalo_homenick@donnelly.org",
+        "Client": "LSmiwboIFDL6xpv3F_x6xw",
+        "Expiry": "1459509354",
+        "Uid": "172addie.gutmann@murraylakin.io",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -40,13 +40,13 @@
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "text/html",
         "Cache-Control": "no-cache",
-        "Set-Cookie": "_session_id=dGRwS3Y3Tkp1NlV2b2Vha1JDSGVXSnlCeTRkNWJnMDdYNHhuVmRXV3ZvMExaM2t4UkFLV3ZJY0FvQXlqbTlDZXBvckhiVHZKMzdtbnpjVC9uR1VXa0pHNk5TWkFJeHRDUWsranhWaEpwVFZla3FENk9LdHFjNXVnS041bVZ1TmQwWWg0L1pOTlZXRU9qQ1lHZTJDTEMxdE5VMUdqR2hXS0pjMVRIT1Zja3VaN3V4Z1V4YldQa1VNWVJNcEo4WVZYLS1wQU9MTXh2b0p0cGdRanFGY1lRNU5BPT0%3D--997daf236102053d26d99c6fae9c54384ed83490; path=/; HttpOnly",
-        "X-Request-Id": "017be561-84b5-48d1-92ba-0ed6ab8b3d40",
-        "X-Runtime": "0.093331",
+        "Set-Cookie": "_session_id=UTZnSEJEcVZZQjdMWHJvaG0zRUtPaFlyRnRtRnU4NVhVempwRFJESmt6aGpyNE02aW9ZVFEzTkdBKzFIeWMzZGtHNzNuTEJxUWdmdkNxdGdtTEpiWjRCUjFxT21GV3d6d3U3ODFUQTZQOHFSb2VsRTZCeWRmdTFUZkdJTTVxaURBa1RDeFRjQ2NnaWRkWFZCU3B5ZnF1NTRVZEtySDk4Mm16Vys5b1lNZUUwU2lLRVJnczV4a3dZTG5yUEdRSjl5LS01cjdPbEg1a3FHQ2FhZTBuL2JjR2xBPT0%3D--257df8bfa5e81a5693c2227a3b1a68a470e624ef; path=/; HttpOnly",
+        "X-Request-Id": "81aff405-7a13-46c4-8094-bfd3d11a6373",
+        "X-Runtime": "0.079286",
         "Content-Length": "0"
       },
       "response_content_type": "text/html",
-      "curl": "curl \"http://localhost:3000/client/verify\" -d 'verification_code' -X PUT \\\n\t-H \"Access-Token: IQ_ZSuG-826DUbDC7m2s2A\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: h60cQ5v17Mczh3fsoN39MA\" \\\n\t-H \"Expiry: 1459372674\" \\\n\t-H \"Uid: 172gonzalo_homenick@donnelly.org\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/client/verify\" -d 'verification_code' -X PUT \\\n\t-H \"Access-Token: FNonO3fK1RRQJLIwlNCbOg\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: LSmiwboIFDL6xpv3F_x6xw\" \\\n\t-H \"Expiry: 1459509354\" \\\n\t-H \"Uid: 172addie.gutmann@murraylakin.io\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

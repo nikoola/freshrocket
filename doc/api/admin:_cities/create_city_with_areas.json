@@ -39,13 +39,13 @@
     {
       "request_method": "POST",
       "request_path": "/admin/cities",
-      "request_body": "city[name]=South+Celestino_9&city[areas_attributes][][name]=hi&include[]=areas",
+      "request_body": "city[name]=Ameliafort_9&city[areas_attributes][][name]=hi&include[]=areas",
       "request_headers": {
-        "Access-Token": "LxjfrfINuiLxdVTk7btaqA",
+        "Access-Token": "W2PGP_Y4Xa6xkCyLlvM7gA",
         "Token-Type": "Bearer",
-        "Client": "kyTCnK0aVvE6CugtPs48zg",
-        "Expiry": "1459372649",
-        "Uid": "15queenie_collins@adamsosinski.info",
+        "Client": "ZA1cVt9GeQcFO7ReB58fcQ",
+        "Expiry": "1459509328",
+        "Uid": "15johnnie@ziemann.name",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -55,22 +55,22 @@
       "request_content_type": "application/x-www-form-urlencoded",
       "response_status": 201,
       "response_status_text": "Created",
-      "response_body": "{\n  \"id\": 1,\n  \"name\": \"South Celestino_9\",\n  \"active\": true\n}",
+      "response_body": "{\n  \"id\": 1,\n  \"name\": \"Ameliafort_9\",\n  \"active\": true\n}",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
         "Location": "http://example.org/cities/1",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"86fb3b3c2622e28cf7740b7843847b31\"",
+        "ETag": "W/\"4ecc57d13f3dfa08a831a18a17e3a632\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=YzVIa1JCdDRSZERKVEdwTkF5eWxWYll3cUkvTVQ0VWlxYVFkeHU3cWJkRVhpeUtUbjBmcHVFWmlIRVYvckhLV3JNc24yV1YxREN2WEhWRTZVWE9xTzlmVWV5RE9oTEt1aVBRL2VuL3VvT3dHZjJTaEJlNDM0Nlp3U0crdk0rY0kwSkpKemcvb0hmWVNyNGUwWkR4Qm5KbXhTRzJUUWY1Rit5dmp2cVpVM1hIMkdaV1FlOGxMaFYxZGZyc3FySzJaLS11NWprN2M4WTZIRUhhS3NUYm1vYk5nPT0%3D--f3c5756bb35721a3982e36162890c1ae6fa2d6f2; path=/; HttpOnly",
-        "X-Request-Id": "3d48bb72-b7d9-431e-8fcb-1fa5553e4d14",
-        "X-Runtime": "0.098853",
-        "Content-Length": "49"
+        "Set-Cookie": "_session_id=MEk4Q1N1WEwyS2pKUURuK285Q2w0Z3pGdFFVVjRjWCtvNGw4REhZTUtPdFRqTU5hYTdnYWhWMnh1YjJGQ0xPeFY4YWIrWlYzbU9saDN4eDlJMXRsWTJBUk5ZWnBMRnZ5a291M2I1dElLUmxoM0RyOS9FT0dkYTJ2RzYxcS9MTWk5cnRINks1NkNqSGRZTjVKcm02SXcyYitlczgvQ09Mc05jZFdETUYrSlBYVmJxKzZwL0Yva1pRUG9UYm0xSlVWLS1ZUzZCalVmUm1FaVlicmk1QXJ5THdnPT0%3D--844530bb8916a72d1cd4632e8ab865b7133c46af; path=/; HttpOnly",
+        "X-Request-Id": "25502474-4832-493f-aca3-8d91729ec236",
+        "X-Runtime": "0.100458",
+        "Content-Length": "44"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/admin/cities\" -d 'city[name]=South+Celestino_9&city[areas_attributes][][name]=hi&include[]=areas' -X POST \\\n\t-H \"Access-Token: LxjfrfINuiLxdVTk7btaqA\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: kyTCnK0aVvE6CugtPs48zg\" \\\n\t-H \"Expiry: 1459372649\" \\\n\t-H \"Uid: 15queenie_collins@adamsosinski.info\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/admin/cities\" -d 'city[name]=Ameliafort_9&city[areas_attributes][][name]=hi&include[]=areas' -X POST \\\n\t-H \"Access-Token: W2PGP_Y4Xa6xkCyLlvM7gA\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: ZA1cVt9GeQcFO7ReB58fcQ\" \\\n\t-H \"Expiry: 1459509328\" \\\n\t-H \"Uid: 15johnnie@ziemann.name\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

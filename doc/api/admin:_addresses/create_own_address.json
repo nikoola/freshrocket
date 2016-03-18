@@ -43,13 +43,13 @@
     {
       "request_method": "POST",
       "request_path": "/admin/addresses",
-      "request_body": "address[street_and_house]=63805+Riley+Green&address[door_number]=5&address[city_id]=1&address[user_id]=1",
+      "request_body": "address[street_and_house]=176+Richie+Trail&address[door_number]=5&address[city_id]=1&address[user_id]=1",
       "request_headers": {
-        "Access-Token": "SkaIYvr6ltNp2rXcgt7QJQ",
+        "Access-Token": "gsRukWdZPE4OQ7c-8hmWDA",
         "Token-Type": "Bearer",
-        "Client": "pIp8sQjgvw2f9l3yuccoWQ",
-        "Expiry": "1459372641",
-        "Uid": "7juanita@jenkins.org",
+        "Client": "RQ_GzfFZpoYmpKnaP4IaXQ",
+        "Expiry": "1459509307",
+        "Uid": "7alfred_marquardt@abbott.name",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -59,21 +59,21 @@
       "request_content_type": "application/x-www-form-urlencoded",
       "response_status": 201,
       "response_status_text": "Created",
-      "response_body": "{\n  \"id\": 1,\n  \"city_id\": 1,\n  \"user_id\": 1,\n  \"street_and_house\": \"63805 Riley Green\",\n  \"door_number\": \"5\",\n  \"zip_code\": null,\n  \"active\": true,\n  \"city_name\": \"Missouriview_6\"\n}",
+      "response_body": "{\n  \"id\": 1,\n  \"city_id\": 1,\n  \"user_id\": 1,\n  \"street_and_house\": \"176 Richie Trail\",\n  \"door_number\": \"5\",\n  \"zip_code\": null,\n  \"active\": true,\n  \"city_name\": \"Leonardotown_6\"\n}",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"34be2a6f5ec255654c2dd6d406ea8267\"",
+        "ETag": "W/\"adaf6ac3d5bc5025b45cf874ab2f36a7\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=UFBLZHZGYWg0clpRRU9zMmprb2lxNzRvMUdqS0ptV0NscDNvZ0plcGdkK1hmdTNpU1JBSHYzSHlKamNsNjd6QjJNZmdJeWFTWFFDMUtrV0xxSmdsNkNOYTZXRjZqM0ExMTJFYUl3Q2tyaVdiL242SDcxak94dkh4c2dEdG4vZVpYanhDSVVQR0lEN0VvbTh2Mk5GTkZWR3RZRFgrOUt0Vk1yNUNTSzRNT0xKM292c3JCRXhRMGcweXpKSlFsbVVHLS1aNUlReWl5UmVHaWhTZFByS2hKakxBPT0%3D--524e756e87935d0638575b49251d1e1880f547e4; path=/; HttpOnly",
-        "X-Request-Id": "8518135e-89f6-44eb-8bce-fc4e5a9b1647",
-        "X-Runtime": "0.109582",
-        "Content-Length": "148"
+        "Set-Cookie": "_session_id=b0M4NVRPamRiNUNEL0t0c2UxVUtEZUZFd3FoTVlFTDJicTlQVW1GMEs2Kzh6YmFVUjFsdlBsNXowZFpXU0tQWEg2a1dId2RZaHNlanNydkY1cjdtajNxYTEwbmNoZzZ4K1FjY21FeTZJdzdneHdqWW5FQVpSQVFGK2F1a0RUdVV5ZFUxK0xyUmZwZmlIYi9MOTFheHhOTGFoWU9wSWFvVUtkTlZBVnZvYUw3ZmhGTjgrQVhxVmpNVWZQWURaN2F6LS15bzVHNmhYdWg3UVA3WVlzcU8zcW1BPT0%3D--53dcb2ea5a3229368b2f602d3eda27dc3dd97dbb; path=/; HttpOnly",
+        "X-Request-Id": "028fe9b3-a2a4-4a45-bebe-ae678755bf79",
+        "X-Runtime": "0.098972",
+        "Content-Length": "147"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/admin/addresses\" -d 'address[street_and_house]=63805+Riley+Green&address[door_number]=5&address[city_id]=1&address[user_id]=1' -X POST \\\n\t-H \"Access-Token: SkaIYvr6ltNp2rXcgt7QJQ\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: pIp8sQjgvw2f9l3yuccoWQ\" \\\n\t-H \"Expiry: 1459372641\" \\\n\t-H \"Uid: 7juanita@jenkins.org\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/admin/addresses\" -d 'address[street_and_house]=176+Richie+Trail&address[door_number]=5&address[city_id]=1&address[user_id]=1' -X POST \\\n\t-H \"Access-Token: gsRukWdZPE4OQ7c-8hmWDA\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: RQ_GzfFZpoYmpKnaP4IaXQ\" \\\n\t-H \"Expiry: 1459509307\" \\\n\t-H \"Uid: 7alfred_marquardt@abbott.name\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

@@ -16,11 +16,11 @@
       "request_path": "/admin/products/1",
       "request_body": null,
       "request_headers": {
-        "Access-Token": "G6XHxZKRgfvYyZ0dmudiZw",
+        "Access-Token": "udHqVonaGIo043HmbYg_-w",
         "Token-Type": "Bearer",
-        "Client": "mLvf3cfr3PSlwtKHCo4r5Q",
-        "Expiry": "1459372659",
-        "Uid": "73danial_volkman@balistreri.net",
+        "Client": "CyU1OH0BHZ2oOcX_lFcIWQ",
+        "Expiry": "1459509342",
+        "Uid": "73keith_goyette@lindgren.co",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -37,13 +37,13 @@
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "text/html",
         "Cache-Control": "no-cache",
-        "Set-Cookie": "_session_id=amQ4NGpESjI1dkl4Ymx4eHBqWC9JaVFlSU50Q1JrU1BpMU9KbEZrQnlRd3RtVkQrQzRIa0JkdkQ5L3hoNEpiZWxkbjFlNzc2QU5uL3NGbzFaeHlRY0o4aE5ScU0zU05Ydm9YMUpJd2h6R3U0Mi9JNHgwZkhkRDV4bitnMkJzdkUyV0xYVTlidysrTW5OWkw4dTJUa25mZUw5NmQySzJnRWNFNHZLVmx1RWJqRm9zWlRpc25hZ0d4NTNNVDZYdHBKLS1LMHphZnhPcjA1S3R6WXJPRWRjdGZBPT0%3D--94339f44d5fa60a7634c3087590d61fb6b11b2f1; path=/; HttpOnly",
-        "X-Request-Id": "a49eb889-fa07-4d79-93a2-4e9f0d2053cf",
-        "X-Runtime": "0.081218",
+        "Set-Cookie": "_session_id=RDhQTnlIZXR2VHc2cHpra0RROUdXdnlZc2lrQ3hWaWo0a3BtYzdlYk5uZzhJaS9hRFIvNjlTUGVYb2k1MGhtWngvN2FEZXFRUnBXcHdaM01La0xYekhLbjJLTGZRTW9zc2VQUnlFR0htQk9RWFNhMXNsSDluWUQ0ZWNTdTNDb1VreEFaQ0kvT2RkWkZmRFZkYTBVSHJDbytkNG54d2FpdmVHdkF0d1RKd1hVOEZaWlFnc25qSy91TXYrTnNTWEYyLS1GTXUwblJHSjJuc0JjMnV5bWt2a0R3PT0%3D--e66bfc2d7dcffcf2b315e8ccc64d745fa805b9b9; path=/; HttpOnly",
+        "X-Request-Id": "08219f8a-437c-463a-9bfc-a539751f6577",
+        "X-Runtime": "0.083198",
         "Content-Length": "0"
       },
       "response_content_type": "text/html",
-      "curl": "curl \"http://localhost:3000/admin/products/1\" -d '' -X DELETE \\\n\t-H \"Access-Token: G6XHxZKRgfvYyZ0dmudiZw\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: mLvf3cfr3PSlwtKHCo4r5Q\" \\\n\t-H \"Expiry: 1459372659\" \\\n\t-H \"Uid: 73danial_volkman@balistreri.net\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/admin/products/1\" -d '' -X DELETE \\\n\t-H \"Access-Token: udHqVonaGIo043HmbYg_-w\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: CyU1OH0BHZ2oOcX_lFcIWQ\" \\\n\t-H \"Expiry: 1459509342\" \\\n\t-H \"Uid: 73keith_goyette@lindgren.co\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

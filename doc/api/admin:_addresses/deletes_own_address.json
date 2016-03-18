@@ -16,11 +16,11 @@
       "request_path": "/admin/addresses/1",
       "request_body": null,
       "request_headers": {
-        "Access-Token": "Tx0IkjfkJ9vdmPNr4p_vnA",
+        "Access-Token": "qycxjRXuzfEBFDGgHpBqng",
         "Token-Type": "Bearer",
-        "Client": "3Fd8ezZdUTWqL3B7sxUimQ",
-        "Expiry": "1459372641",
-        "Uid": "9eudora@abbottweimann.io",
+        "Client": "oQm-foUyTjgHPbOUAthe8w",
+        "Expiry": "1459509308",
+        "Uid": "9kiarra@raynor.org",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -37,13 +37,13 @@
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "text/html",
         "Cache-Control": "no-cache",
-        "Set-Cookie": "_session_id=SDJDSTFvUm5pZmdEbkUrK0xZMzZoUi92UlNrblQrcHZBTnJSdXRKTnhiY1NqSEc4K3ArZ05UY2tyZ1FBbmVvUlB6a3d1RURDcmVSNEx6MHF0QkUxMDJ3MFdPZXVPM29hUzhRcjZ0QVExWS93em1QK1lBK0xuUHdUTXN5REEzWWdnS1M4Z3kwUVhMY1ZDV0s2WXdxM0U1anRzTEFqWUV0c29NbmJIWWlobHRrVlBoS2pYa0E5MkxWeUNqSENONC9DLS0vZGxkUE43dGdCSno2SEoySGJVc3ZRPT0%3D--969060d44ff79079090d3b08f74813a2f0dc34e8; path=/; HttpOnly",
-        "X-Request-Id": "3bdddb51-edc3-4085-838f-2b488e448b31",
-        "X-Runtime": "0.106892",
+        "Set-Cookie": "_session_id=ZmdNREFiL2NUOU16d1RuV2JuZjdYOUJvZ2FPc2FFMDBFUlJTZ2g4MzJ3bmdFNWUrOE1rSmxBdndLNFFSUGhvc0FTM2I4T2pKeVlOdkFCdW0zR3VrbzFOcWdRaGdRMVpMQWo2UWJBME91MFZab013eldPS0s0MFY1Yi9ZK0tTdTZOVEd1a3NTUHJjaDI5UjBlQ0txaGNhU2RkY0JIc28ycTVTejMvdHB5Zmp2WEl5OWdMZUs4eFIySVl3T0x1WiszLS1SL1FSbWpickpkbkhRUDhrOUZmYTB3PT0%3D--8ed73460da0e7d8c130a79bca2bd21e656ebffcf; path=/; HttpOnly",
+        "X-Request-Id": "8f7b548d-0e7b-4a10-885c-f1c829e38a0b",
+        "X-Runtime": "0.107590",
         "Content-Length": "0"
       },
       "response_content_type": "text/html",
-      "curl": "curl \"http://localhost:3000/admin/addresses/1\" -d '' -X DELETE \\\n\t-H \"Access-Token: Tx0IkjfkJ9vdmPNr4p_vnA\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: 3Fd8ezZdUTWqL3B7sxUimQ\" \\\n\t-H \"Expiry: 1459372641\" \\\n\t-H \"Uid: 9eudora@abbottweimann.io\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/admin/addresses/1\" -d '' -X DELETE \\\n\t-H \"Access-Token: qycxjRXuzfEBFDGgHpBqng\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: oQm-foUyTjgHPbOUAthe8w\" \\\n\t-H \"Expiry: 1459509308\" \\\n\t-H \"Uid: 9kiarra@raynor.org\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

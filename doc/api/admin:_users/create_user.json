@@ -53,13 +53,13 @@
     {
       "request_method": "POST",
       "request_path": "/admin/users",
-      "request_body": "user[email]=96reymundo_heidenreich%40bernhard.info&user[password]=secrety_bickety&user[password_confirmation]=secrety_bickety&user[first_name]=Itzel&user[last_name]=Bauch&user[phone]=7949928185&user[is_verified]=true",
+      "request_body": "user[email]=96alphonso.oconnell%40conroycorkery.net&user[password]=secrety_bickety&user[password_confirmation]=secrety_bickety&user[first_name]=Charity&user[last_name]=Tremblay&user[phone]=6426519275&user[is_verified]=true",
       "request_headers": {
-        "Access-Token": "6VTz6rphU5QaBSppz1iYsA",
+        "Access-Token": "fByLk1RWcEYhMXBPdbQZPg",
         "Token-Type": "Bearer",
-        "Client": "MjMUad2kq7XOWchNZUnO6g",
-        "Expiry": "1459372662",
-        "Uid": "97ashleigh.bednar@sipes.io",
+        "Client": "NvdW4VM4cv-bqwuFsXEptA",
+        "Expiry": "1459509344",
+        "Uid": "97conner@purdy.com",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -69,22 +69,22 @@
       "request_content_type": "application/x-www-form-urlencoded",
       "response_status": 201,
       "response_status_text": "Created",
-      "response_body": "{\n  \"id\": 2,\n  \"first_name\": \"Itzel\",\n  \"last_name\": \"Bauch\",\n  \"email\": \"96reymundo_heidenreich@bernhard.info\",\n  \"phone\": \"7949928185\",\n  \"is_verified\": true,\n  \"provider\": \"email\",\n  \"uid\": \"96reymundo_heidenreich@bernhard.info\",\n  \"created_at\": \"2016-03-16T21:17:42.379Z\",\n  \"abilities\": {\n    \"orders\": 0,\n    \"products\": 0,\n    \"users\": 0,\n    \"categories\": 0,\n    \"coupons\": 0,\n    \"settings\": 0,\n    \"cities\": 0,\n    \"delivery_boy\": 0\n  }\n}",
+      "response_body": "{\n  \"id\": 2,\n  \"first_name\": \"Charity\",\n  \"last_name\": \"Tremblay\",\n  \"email\": \"96alphonso.oconnell@conroycorkery.net\",\n  \"phone\": \"6426519275\",\n  \"is_verified\": true,\n  \"provider\": \"email\",\n  \"uid\": \"96alphonso.oconnell@conroycorkery.net\",\n  \"created_at\": \"2016-03-18T11:15:44.338Z\",\n  \"abilities\": {\n    \"orders\": 0,\n    \"products\": 0,\n    \"users\": 0,\n    \"categories\": 0,\n    \"coupons\": 0,\n    \"settings\": 0,\n    \"cities\": 0,\n    \"delivery_boy\": 0\n  }\n}",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
         "Location": "/admin/users/2",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"dacc40cf85685ec28c920cca279c3323\"",
+        "ETag": "W/\"ae06505b04451814ddbfdb0445981e39\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=eXc1QVZwUXpYLytySnlWUTFFTlhOTjBDMTd2OEh2V0RLVVdZUUVFY0ovY0RvR1B6a3hlUXBMN2pvM3JiditPZ25HTWVjbGZBWFNlWENqeFZ2V1gyazRzZWdCSGlOSVphSHB0eFdWVnBnRGdjYjA1MlNmbmVuUG9JZjJmSFJMUi9CRXpNMDZSbnE3dnhYOWFQRnlZRE5jOVRaclFHSXhXbVk3Nlp5RjhwM09SSUhnbnRld1JnVFBhQjZTb2UraTFJLS0wQXY0cGZyOVp0MTNReDUvbXZsdHdRPT0%3D--27be747cb968b0b7f0830afe6918c8c5f3f17dee; path=/; HttpOnly",
-        "X-Request-Id": "87b035a4-3e3d-413d-aa26-781bdd2f57a0",
-        "X-Runtime": "0.105472",
-        "Content-Length": "356"
+        "Set-Cookie": "_session_id=ekdQdzdUcUFQbk1HV29ETFJsaTIxTm5vSnBMMU9KcWJmT0xLQ1Z5K1Fna0JLR1Y4R2wrem54V2xoWmMvVHhpOE5oa011SXh4ZnQwK2k1bGJOZUUzWUdFOWwxN2Q1ejFkVFM2UWJYMmFHcFNnZUwvNHlXSld1TllHbUZqWlQzb3hScEkwSjZKUlBROEU3RXQvLzN1K3dLTU5OTGtYN0pYQVRIeHF3d2VVUDIyOUpqS0h0Z1ZjMnRQNVdGa3lRUEhTLS00QTQrWktrTUl0YlRUdklSZTU0cWFnPT0%3D--c89f75868f8c05e042dbfef66861f3f9b1bbb7a8; path=/; HttpOnly",
+        "X-Request-Id": "7d607b9e-22e2-46ac-91df-b614980126da",
+        "X-Runtime": "0.088648",
+        "Content-Length": "363"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/admin/users\" -d 'user[email]=96reymundo_heidenreich%40bernhard.info&user[password]=secrety_bickety&user[password_confirmation]=secrety_bickety&user[first_name]=Itzel&user[last_name]=Bauch&user[phone]=7949928185&user[is_verified]=true' -X POST \\\n\t-H \"Access-Token: 6VTz6rphU5QaBSppz1iYsA\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: MjMUad2kq7XOWchNZUnO6g\" \\\n\t-H \"Expiry: 1459372662\" \\\n\t-H \"Uid: 97ashleigh.bednar@sipes.io\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/admin/users\" -d 'user[email]=96alphonso.oconnell%40conroycorkery.net&user[password]=secrety_bickety&user[password_confirmation]=secrety_bickety&user[first_name]=Charity&user[last_name]=Tremblay&user[phone]=6426519275&user[is_verified]=true' -X POST \\\n\t-H \"Access-Token: fByLk1RWcEYhMXBPdbQZPg\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: NvdW4VM4cv-bqwuFsXEptA\" \\\n\t-H \"Expiry: 1459509344\" \\\n\t-H \"Uid: 97conner@purdy.com\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

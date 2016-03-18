@@ -16,11 +16,11 @@
       "request_path": "/admin/coupons",
       "request_body": null,
       "request_headers": {
-        "Access-Token": "MB4Fycq8fVbTFUKp6s4ofA",
+        "Access-Token": "dSI3en8YeX2WqpCJWUxrgg",
         "Token-Type": "Bearer",
-        "Client": "bk8XseZ_35fTpFaHfc3nrA",
-        "Expiry": "1459372650",
-        "Uid": "18tomasa.carroll@toyharber.com",
+        "Client": "mRVp7Pha5_CdFHNjKOhxCA",
+        "Expiry": "1459509328",
+        "Uid": "18lola@reichertdoyle.co",
         "Host": "example.org",
         "Cookie": ""
       },
@@ -29,21 +29,21 @@
       "request_content_type": null,
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "[\n  {\n    \"id\": 1,\n    \"name\": \"red\",\n    \"code\": \"74531\",\n    \"discount\": 82\n  },\n  {\n    \"id\": 2,\n    \"name\": \"red\",\n    \"code\": \"90312\",\n    \"discount\": 11\n  },\n  {\n    \"id\": 3,\n    \"name\": \"red\",\n    \"code\": \"92703\",\n    \"discount\": 52\n  },\n  {\n    \"id\": 4,\n    \"name\": \"red\",\n    \"code\": \"39304\",\n    \"discount\": 49\n  }\n]",
+      "response_body": "[\n  {\n    \"id\": 1,\n    \"name\": \"red\",\n    \"code\": \"43331\",\n    \"discount\": 76\n  },\n  {\n    \"id\": 2,\n    \"name\": \"red\",\n    \"code\": \"65802\",\n    \"discount\": 25\n  },\n  {\n    \"id\": 3,\n    \"name\": \"red\",\n    \"code\": \"17733\",\n    \"discount\": 3\n  },\n  {\n    \"id\": 4,\n    \"name\": \"red\",\n    \"code\": \"36634\",\n    \"discount\": 82\n  }\n]",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"551f21bafb849a6bf0b64e5ef12af186\"",
+        "ETag": "W/\"f56a7b1f4f4f8333e74ada1ab9f44fa3\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=NnhUeVoyY2tCOEUzbHZmUzFOczdYNFlJMkNTNVJndmdIWDRGTjcyakZVOUE5ZzRyL0VTMWM3SlQ1U1dGc0FhSmV4Yy9RTCtjM1ViWjBkcnZBSmU2eTRiSCs1R2pucVRtQkIrMEc0cmVweEtVRVhOeDJiUXUyR09WYm9DUUtGK2ZNWmFhQllPRUYzN3NUT2NtN1FDZlJKWFRhZ1dLdmpadDdETjJzSlFXWm9xZU5GTDB6Y0ZSZjFvM0diSlVGOGtTLS16bjdUUnloQ3c0Y3dzMU1iOFVIMUhnPT0%3D--f20f59f1ae6a9696e002977dec58e8af03c1aa53; path=/; HttpOnly",
-        "X-Request-Id": "fb4df590-2b88-4eff-99fc-38b3926dc6f3",
-        "X-Runtime": "0.086567",
-        "Content-Length": "205"
+        "Set-Cookie": "_session_id=MUR1SmJQS3htRmNFK1pKTmlyYlc5YllrRGxMWkZUMnlLdFlPeGRya05CMFM4NzJMTHhuNm15K084VENkeXp0aFFtczU3TUNXZnNqR2dIODFVY2dJeGZCYW1YMUhvUE5yemdENjNHajdhcHdOS09zRzFQemo5ZFBMOHlwTjZhR3RsbFpIL3hpZkN2eUJsMmtjeGNuYnhhRkphczBqbmRtTThXc21sSWFrMGh5VWZ5dGVKTi9DbEdtTk8zREVRWmlHLS1wa2VTbXdvb05iWWtTZW5zRWlnSklBPT0%3D--e904347e0fdbd014234d7ae03e1057898a78156a; path=/; HttpOnly",
+        "X-Request-Id": "175cb44b-2da9-408a-b5a9-c50410478a1f",
+        "X-Runtime": "0.087403",
+        "Content-Length": "204"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/admin/coupons\" -X GET \\\n\t-H \"Access-Token: MB4Fycq8fVbTFUKp6s4ofA\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: bk8XseZ_35fTpFaHfc3nrA\" \\\n\t-H \"Expiry: 1459372650\" \\\n\t-H \"Uid: 18tomasa.carroll@toyharber.com\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/admin/coupons\" -X GET \\\n\t-H \"Access-Token: dSI3en8YeX2WqpCJWUxrgg\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: mRVp7Pha5_CdFHNjKOhxCA\" \\\n\t-H \"Expiry: 1459509328\" \\\n\t-H \"Uid: 18lola@reichertdoyle.co\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

@@ -27,11 +27,11 @@
       "request_path": "/admin/users?has_ability=users",
       "request_body": null,
       "request_headers": {
-        "Access-Token": "KRnTTOGqO-XJcwhaPsJG9g",
+        "Access-Token": "5cf0fw-5O9as2hpWB_i3HQ",
         "Token-Type": "Bearer",
-        "Client": "3TXDvTg-WesUXI05rJEvag",
-        "Expiry": "1459372661",
-        "Uid": "90giovanna@trantow.name",
+        "Client": "qs3fprJYm9DrjPanX6wmTQ",
+        "Expiry": "1459509343",
+        "Uid": "90jayce_tremblay@gusikowskiabbott.com",
         "Host": "example.org",
         "Cookie": ""
       },
@@ -41,21 +41,21 @@
       "request_content_type": null,
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "[\n  {\n    \"id\": 2,\n    \"first_name\": \"Micaela\",\n    \"last_name\": \"Blanda\",\n    \"email\": \"90giovanna@trantow.name\",\n    \"phone\": \"4718783423\",\n    \"is_verified\": false,\n    \"provider\": \"email\",\n    \"uid\": \"90giovanna@trantow.name\",\n    \"created_at\": \"2016-03-16T21:17:41.487Z\",\n    \"abilities\": {\n      \"orders\": 0,\n      \"products\": 0,\n      \"users\": 1,\n      \"categories\": 0,\n      \"coupons\": 0,\n      \"settings\": 0,\n      \"cities\": 0,\n      \"delivery_boy\": 0\n    }\n  }\n]",
+      "response_body": "[\n  {\n    \"id\": 2,\n    \"first_name\": \"Genesis\",\n    \"last_name\": \"Zboncak\",\n    \"email\": \"90jayce_tremblay@gusikowskiabbott.com\",\n    \"phone\": \"6451088004\",\n    \"is_verified\": false,\n    \"provider\": \"email\",\n    \"uid\": \"90jayce_tremblay@gusikowskiabbott.com\",\n    \"created_at\": \"2016-03-18T11:15:43.582Z\",\n    \"abilities\": {\n      \"orders\": 0,\n      \"products\": 0,\n      \"users\": 1,\n      \"categories\": 0,\n      \"coupons\": 0,\n      \"settings\": 0,\n      \"cities\": 0,\n      \"delivery_boy\": 0\n    }\n  }\n]",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"271629def2e515a79ee249817627edcd\"",
+        "ETag": "W/\"ea4023c3d90eecd3b25902eec297c82f\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=VW5qakZ3dzRrMElpME1HUE9MWlVMT1Vuc2ZUV05uaGJOWHNRM2RvbHAxcEJuczBCcGVnUktmeWJzaTNQOWNneHQweWdvVzRSWjRSb2lvSGVVZXRIMTBSOCs2Y1VqSGhMbUFxajYzQ2xldEpsMFdDVWtmOTNQamx3eWJsaWFiaTFYYU9kZFFOYzFNTDhkeTZ1NDRuL1dBdFA4emFGR1BkNVpxZE41L3h2RWxCLy9zVmZLa2t1WWY4anFoV0ZZSEFGLS1xV2JjZW5WSUhuOTMzelM5YmRDK0tBPT0%3D--41f5656c4feec6e6f6d3cca0c172bd7f60a35f23; path=/; HttpOnly",
-        "X-Request-Id": "aa5b4874-f7d0-45b8-93a0-d8282ea96556",
-        "X-Runtime": "0.098465",
-        "Content-Length": "336"
+        "Set-Cookie": "_session_id=ZW8wSUY1MlIzTGFrOVdUS05Ob1JDZWJhanBDS1BDTlhDMlRPQy9MdzFmb3ROUmxQekF2L2hERWtJWEd3aWkxSmRXZUdiTjVaL1kyVkpFcWNHOCtCNjJqUTRUa1VreVp4V0ZuTWNYVWgwUkQya3hoTTJkQVUwbjdzaDI0YTBQZWJuSkQ0RitXVm9TQmdReWVmejJEVDlTTU9neU5uWHA3VFFhTjRPV1NXR0t4L3FnMit2THlGYURnQnRkQ3A5NUFILS1oUHJaRXczSDlpd1p1R0VmV0dxcjd3PT0%3D--fef2d5671b4ff1652c1b1802604048b72ffcf6b6; path=/; HttpOnly",
+        "X-Request-Id": "e84f3ab2-8e71-4c68-8a9e-e6738b2f853c",
+        "X-Runtime": "0.083642",
+        "Content-Length": "365"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/admin/users?has_ability=users\" -X GET \\\n\t-H \"Access-Token: KRnTTOGqO-XJcwhaPsJG9g\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: 3TXDvTg-WesUXI05rJEvag\" \\\n\t-H \"Expiry: 1459372661\" \\\n\t-H \"Uid: 90giovanna@trantow.name\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/admin/users?has_ability=users\" -X GET \\\n\t-H \"Access-Token: 5cf0fw-5O9as2hpWB_i3HQ\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: qs3fprJYm9DrjPanX6wmTQ\" \\\n\t-H \"Expiry: 1459509343\" \\\n\t-H \"Uid: 90jayce_tremblay@gusikowskiabbott.com\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

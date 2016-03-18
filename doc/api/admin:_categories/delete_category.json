@@ -16,11 +16,11 @@
       "request_path": "/admin/categories/1",
       "request_body": null,
       "request_headers": {
-        "Access-Token": "M1MRhCxRecDcM7REIx_8pQ",
+        "Access-Token": "Jmv5JcYKDNumgUHyUjgMNg",
         "Token-Type": "Bearer",
-        "Client": "stu6IZcmMIExnwISzpJ3rA",
-        "Expiry": "1459372649",
-        "Uid": "14eusebio_kuvalis@cole.name",
+        "Client": "uM2GIjgMZmdBY5RaFGJrOA",
+        "Expiry": "1459509327",
+        "Uid": "14buford@murphy.info",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -37,13 +37,13 @@
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "text/html",
         "Cache-Control": "no-cache",
-        "Set-Cookie": "_session_id=UDlHWWVuWGpyUjJTaGlMcklSYm9wOVZ5a29Cbm12ckRvVXlyR1JNS01hZnBJa255K0RwdXhYSjVVcVVWMkpZeUtKZXhncndhV0VrWUlDYzdmMUt3ZXk2NXM5ei9ncFYrSlBKSURROW1XMy9KaXBwaHpCY202VG1lbFhxQlZTdkdKVUQ1RXhDa2JrTkFpaFlIOVVnTjFFcjF2MkcvbWgvVFEySDB6alFReHdRN3ExajFJQ2JCbm84eXdTR0NqWkZwLS1hYkNHSUE2S2tRbVJuZ21kUUkzK2RBPT0%3D--3279d27af2a7e8b40e4764382cac22ab66931fe4; path=/; HttpOnly",
-        "X-Request-Id": "47e86dad-a31e-4a11-ab79-9e77007e760e",
-        "X-Runtime": "0.080461",
+        "Set-Cookie": "_session_id=ZjBaQnJZdGZyeVNMN0tLNDYzdnBEMUlTckd3ckJUcGkyeXI1bmN4SGxpSDEzK1VVbGdQQ2FoMklxLzZYSWU3WlRSVGpvdzJlc3R4MGx0Smk0L2tiL2lFMVc1L2pjcS9seWY4SGVqN2I0OHBUMFpJdkxLNWNaNmVya1d0SjB6TFhtU3ZjYWp1WTRPaXlQS2dHa0w3M05FVm9EM1ZWMkR2MFA4c3l0OHhaOUk5VW1JMjFUTFZRdksxUzEwY3l4aEhELS1zTDRHaGtQQk9Lb3czdGJKLzNWRnp3PT0%3D--d696fe305ee316c3a7cc7b65b266c3f9a7cb637b; path=/; HttpOnly",
+        "X-Request-Id": "72493517-0704-4116-bf21-a117c070815a",
+        "X-Runtime": "0.080322",
         "Content-Length": "0"
       },
       "response_content_type": "text/html",
-      "curl": "curl \"http://localhost:3000/admin/categories/1\" -d '' -X DELETE \\\n\t-H \"Access-Token: M1MRhCxRecDcM7REIx_8pQ\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: stu6IZcmMIExnwISzpJ3rA\" \\\n\t-H \"Expiry: 1459372649\" \\\n\t-H \"Uid: 14eusebio_kuvalis@cole.name\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/admin/categories/1\" -d '' -X DELETE \\\n\t-H \"Access-Token: Jmv5JcYKDNumgUHyUjgMNg\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: uM2GIjgMZmdBY5RaFGJrOA\" \\\n\t-H \"Expiry: 1459509327\" \\\n\t-H \"Uid: 14buford@murphy.info\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

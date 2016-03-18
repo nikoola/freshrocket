@@ -19,11 +19,11 @@
       "request_path": "/admin/addresses?active=0",
       "request_body": null,
       "request_headers": {
-        "Access-Token": "BxqpD_hsIbmDVy90T4G5Tg",
+        "Access-Token": "0kGdA98iZi4SE5jCbWo4AQ",
         "Token-Type": "Bearer",
-        "Client": "i95mSA5EARJpXXp6qHJnEA",
-        "Expiry": "1459372640",
-        "Uid": "6keaton_shanahan@bauch.com",
+        "Client": "YvKjQcTNQVy7vj5mIz4p8w",
+        "Expiry": "1459509307",
+        "Uid": "6easton.frami@vondoyle.co",
         "Host": "example.org",
         "Cookie": ""
       },
@@ -33,21 +33,21 @@
       "request_content_type": null,
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "[\n  {\n    \"id\": 1,\n    \"city_id\": 1,\n    \"user_id\": 1,\n    \"street_and_house\": \"4494 Immanuel Street\",\n    \"door_number\": \"5\",\n    \"zip_code\": null,\n    \"active\": false,\n    \"city_name\": \"New Roryburgh_1\"\n  },\n  {\n    \"id\": 2,\n    \"city_id\": 2,\n    \"user_id\": 2,\n    \"street_and_house\": \"2392 Kirlin Alley\",\n    \"door_number\": \"5\",\n    \"zip_code\": null,\n    \"active\": false,\n    \"city_name\": \"Port Serena_2\"\n  },\n  {\n    \"id\": 3,\n    \"city_id\": 3,\n    \"user_id\": 3,\n    \"street_and_house\": \"263 Brekke Falls\",\n    \"door_number\": \"5\",\n    \"zip_code\": null,\n    \"active\": false,\n    \"city_name\": \"Ciaraview_3\"\n  }\n]",
+      "response_body": "[\n  {\n    \"id\": 1,\n    \"city_id\": 1,\n    \"user_id\": 1,\n    \"street_and_house\": \"2316 Liam Flats\",\n    \"door_number\": \"5\",\n    \"zip_code\": null,\n    \"active\": false,\n    \"city_name\": \"Conorstad_1\"\n  },\n  {\n    \"id\": 2,\n    \"city_id\": 2,\n    \"user_id\": 2,\n    \"street_and_house\": \"329 Leffler Greens\",\n    \"door_number\": \"5\",\n    \"zip_code\": null,\n    \"active\": false,\n    \"city_name\": \"South Ena_2\"\n  },\n  {\n    \"id\": 3,\n    \"city_id\": 3,\n    \"user_id\": 3,\n    \"street_and_house\": \"296 Mandy Shoals\",\n    \"door_number\": \"5\",\n    \"zip_code\": null,\n    \"active\": false,\n    \"city_name\": \"Lake Zenamouth_3\"\n  }\n]",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"10bc97769df9a2673ba4a672d98e004e\"",
+        "ETag": "W/\"3495efc68bc8b128f2aa19e9220639e8\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=Z1duMDhUUDlqUnlDeHdYQk1xSzF3cFVxRGdUakVRN2E3NDl0eWdwOFhMRUgyUU56Q05IbUFSVDkvMml5ZVFVSldyemhGcXNHOHM0c2RwVjdqMjdvTG1HWXhPMGdsWGFCaTZaaVJ2dEZBR21rdmVTdlhTMUFqbHkvc1gvQ3pXUHhvQWIxa0tGaFFnTVVmWkwzUkMySjhyVmZCVncwNHVMbzhNVUFJR3YxMi9YREtLdlFxN25uYXljUFpOT0poc0lvLS1YYlpoanU3ekpRN3FGWUdSWmQ1cjhRPT0%3D--5a2840fa7d09c823853094bc24aebe718b7e280c; path=/; HttpOnly",
-        "X-Request-Id": "2d237022-2d59-4b0a-ac4d-92064e614c66",
-        "X-Runtime": "0.152863",
-        "Content-Length": "450"
+        "Set-Cookie": "_session_id=cVlPRWFIb1dPdzNmT0hVaDE0b1YyWEJSbzh2c3FxUzdrTnBLdCs0QWVzU20xWnFsbzZoeG9pZm5KRFZBZXBrZHE3eHUxNmI1bWVUbzN3ZWowSEkrT2Nxc2lVZHdhQ0swMnF3UTcyR2NBd2xFMll6T1h1alE0Ymk5SVBPdjZ6MHdqUFRmRUlOK3o0UWI4ZUZBNkdDTXdNV05UZlBva1FFMVFxN1IzYTUvSXdXVFo1YS9jUjAyT0FwdXlOU0wyanB0LS13SFlPcEVPMVFPbVZSSCsrYXRZdG1nPT0%3D--0d2256077874648dd559e26387ae44c735365a6a; path=/; HttpOnly",
+        "X-Request-Id": "a61e5a1b-2fd4-4e90-95f9-3938af73749f",
+        "X-Runtime": "0.129697",
+        "Content-Length": "445"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/admin/addresses?active=0\" -X GET \\\n\t-H \"Access-Token: BxqpD_hsIbmDVy90T4G5Tg\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: i95mSA5EARJpXXp6qHJnEA\" \\\n\t-H \"Expiry: 1459372640\" \\\n\t-H \"Uid: 6keaton_shanahan@bauch.com\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/admin/addresses?active=0\" -X GET \\\n\t-H \"Access-Token: 0kGdA98iZi4SE5jCbWo4AQ\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: YvKjQcTNQVy7vj5mIz4p8w\" \\\n\t-H \"Expiry: 1459509307\" \\\n\t-H \"Uid: 6easton.frami@vondoyle.co\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

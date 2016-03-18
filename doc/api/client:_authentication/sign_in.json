@@ -23,7 +23,7 @@
     {
       "request_method": "POST",
       "request_path": "/auth/sign_in",
-      "request_body": "email=123dean%40cartwright.info&password=secrety_bickety",
+      "request_body": "email=123keyon%40hegmann.name&password=secrety_bickety",
       "request_headers": {
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
@@ -34,25 +34,25 @@
       "request_content_type": "application/x-www-form-urlencoded",
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\n  \"data\": {\n    \"id\": 1,\n    \"first_name\": \"Jaden\",\n    \"last_name\": \"Torp\",\n    \"email\": \"123dean@cartwright.info\",\n    \"phone\": \"4457386377\",\n    \"is_verified\": false,\n    \"provider\": \"email\",\n    \"uid\": \"123dean@cartwright.info\",\n    \"created_at\": \"2016-03-16T21:17:45.165Z\",\n    \"abilities\": {\n      \"orders\": 0,\n      \"products\": 0,\n      \"users\": 0,\n      \"categories\": 0,\n      \"coupons\": 0,\n      \"settings\": 0,\n      \"cities\": 0,\n      \"delivery_boy\": 0\n    }\n  }\n}",
+      "response_body": "{\n  \"data\": {\n    \"id\": 1,\n    \"first_name\": \"Timothy\",\n    \"last_name\": \"Yost\",\n    \"email\": \"123keyon@hegmann.name\",\n    \"phone\": \"7726567556\",\n    \"is_verified\": false,\n    \"provider\": \"email\",\n    \"uid\": \"123keyon@hegmann.name\",\n    \"created_at\": \"2016-03-18T11:15:46.794Z\",\n    \"abilities\": {\n      \"orders\": 0,\n      \"products\": 0,\n      \"users\": 0,\n      \"categories\": 0,\n      \"coupons\": 0,\n      \"settings\": 0,\n      \"cities\": 0,\n      \"delivery_boy\": 0\n    }\n  }\n}",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
-        "access-token": "0MwqbJx4gdToRjDD64twng",
+        "access-token": "GAOUL_TUg3QMvXZe-fuAcg",
         "token-type": "Bearer",
-        "client": "DWpmc7uSzDSU9L7VB3viIA",
-        "expiry": "1459372665",
-        "uid": "123dean@cartwright.info",
+        "client": "L53XVbjuj3FzH-W6KjNf2g",
+        "expiry": "1459509346",
+        "uid": "123keyon@hegmann.name",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"905c95ed251987c22da5e9ea3fcbac7f\"",
+        "ETag": "W/\"fd8684a7313cbe43374a3ee51b86851a\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "X-Request-Id": "2bcd1e2a-c339-4a9f-8ba2-8f510ae56793",
-        "X-Runtime": "0.163096",
-        "Content-Length": "339"
+        "X-Request-Id": "07715cb7-1c45-495c-bd48-b92cec4bf0d6",
+        "X-Runtime": "0.156079",
+        "Content-Length": "337"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/auth/sign_in\" -d 'email=123dean%40cartwright.info&password=secrety_bickety' -X POST \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/auth/sign_in\" -d 'email=123keyon%40hegmann.name&password=secrety_bickety' -X POST \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

@@ -2,7 +2,7 @@ class City < ActiveRecord::Base
 
 	has_many :products
 
-	has_many :areas, dependent: :destroy
+	has_many :areas, inverse_of: :city, dependent: :destroy
 	accepts_nested_attributes_for :areas, allow_destroy: true #Note that the :autosave option is automatically enabled on every association that #accepts_nested_attributes_for is used for
 
 

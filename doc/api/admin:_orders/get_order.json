@@ -19,11 +19,11 @@
       "request_path": "/admin/orders/1?include[]=address",
       "request_body": null,
       "request_headers": {
-        "Access-Token": "y9MdfZbtpH-0R73jsZRizQ",
+        "Access-Token": "RYtAbVIExkPpZoQmLmnvMA",
         "Token-Type": "Bearer",
-        "Client": "AI3q680Jrsen5w4HNZJU4Q",
-        "Expiry": "1459372652",
-        "Uid": "46lolita@thompson.org",
+        "Client": "HkdKklIqSloNpSkQMAyV-g",
+        "Expiry": "1459509330",
+        "Uid": "46leopoldo@hagenes.biz",
         "Host": "example.org",
         "Cookie": ""
       },
@@ -35,21 +35,21 @@
       "request_content_type": null,
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\n  \"id\": 1,\n  \"user_id\": 1,\n  \"status\": \"unconfirmed\",\n  \"created_at\": \"2016-03-16T21:17:32.594Z\",\n  \"confirmed_at\": null,\n  \"approved_at\": null,\n  \"dispacthed_at\": null,\n  \"delivered_at\": null,\n  \"canceled_at\": null,\n  \"pure_product_price\": \"27.0\",\n  \"tax\": \"1.35\",\n  \"delivery_charge\": \"200.0\",\n  \"total_price\": \"228.35\",\n  \"coupon_code\": null,\n  \"delivery_boy_id\": null,\n  \"delivery_boy_phone\": null,\n  \"wanted_time\": null,\n  \"wanted_date\": null,\n  \"payment_type\": \"cash\",\n  \"is_paid\": false,\n  \"feedback\": null,\n  \"comment\": null,\n  \"source_type\": null,\n  \"admin_comment\": null,\n  \"address\": {\n    \"id\": 1,\n    \"city_id\": 1,\n    \"user_id\": 2,\n    \"street_and_house\": \"48860 Jast Harbors\",\n    \"door_number\": \"5\",\n    \"zip_code\": null,\n    \"active\": true,\n    \"city_name\": \"East Rickeyland_45\"\n  }\n}",
+      "response_body": "{\n  \"id\": 1,\n  \"user_id\": 1,\n  \"status\": \"unconfirmed\",\n  \"created_at\": \"2016-03-18T11:15:30.557Z\",\n  \"confirmed_at\": null,\n  \"approved_at\": null,\n  \"dispacthed_at\": null,\n  \"delivered_at\": null,\n  \"canceled_at\": null,\n  \"pure_product_price\": \"27.0\",\n  \"tax\": \"1.35\",\n  \"delivery_charge\": \"200.0\",\n  \"total_price\": \"228.35\",\n  \"coupon_code\": null,\n  \"delivery_boy_id\": null,\n  \"delivery_boy_phone\": null,\n  \"wanted_time\": null,\n  \"wanted_date\": null,\n  \"payment_type\": \"cash\",\n  \"is_paid\": false,\n  \"feedback\": null,\n  \"comment\": null,\n  \"source_type\": null,\n  \"admin_comment\": null,\n  \"address\": {\n    \"id\": 1,\n    \"city_id\": 1,\n    \"user_id\": 2,\n    \"street_and_house\": \"558 Grace Track\",\n    \"door_number\": \"5\",\n    \"zip_code\": null,\n    \"active\": true,\n    \"city_name\": \"Bernhardmouth_45\"\n  }\n}",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"da8b15afb149df28c7c4b647ccdfdd07\"",
+        "ETag": "W/\"15668251e3acf31bf4739b8e4c457560\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=WVZoaU9kR21yRmZvbDR6SjMvT1liS2MxY3NSamphK0JXSFJEMHcvY1BycEY5R3RtQTFGUXJtelgwenpLZ1Z0RGh5RnJVc1pKREJRSlpwMjhpQnUrTkM2R1JVclNJUE5FT1RvRHE2aFNXSS9LNjlnY28yZ1pjWWdtU1J6bCtTVUkyTTRzMHpVVzdRMDc3NUZyY3BIVzV4bGRRdzRKdVkyeG5WcVlTbTcvcVpWNDl0aitoSFd2Z1lqTXFwT2N2MFl5LS1CTU1ZbTRiSWFvVjEvMSt2UHJPQVl3PT0%3D--74122cf7ad6e9012abdf37fa1544938dd11b1804; path=/; HttpOnly",
-        "X-Request-Id": "912f010b-429e-464c-a2eb-fc639ac3fb37",
-        "X-Runtime": "0.102628",
-        "Content-Length": "651"
+        "Set-Cookie": "_session_id=NXhSQVNMYVVsSEtjRTViUmxMTy8zSGVUL1RUc0tmRjRqNXZCVHpnTUxUS3JwTlplNFp3cmcvUWRJdHl4ZjI0MjRVUXZNMGIwbkdhajBaU2JKK1lNOWJ4RWRUU3JXOTY5TldqVUgxejFxZklhZjgwNEhtSzVpZGI0b3FvVmt3bjkzQUtsSytmbmdjMjVESDl2U3p0OU0yOHlUNi8xV0ViYmg4TlF6bytISWk0by93d2tUYWp2R3k4SFlrVE0vSUROLS1TNHp5RVRJV1dDdUN5YjhtZFlPZ0JnPT0%3D--a36a6513dfcba5f114798affb8c835e015ad83dc; path=/; HttpOnly",
+        "X-Request-Id": "41e73c5b-3a05-46ab-a3f5-e2ae6342b511",
+        "X-Runtime": "0.079903",
+        "Content-Length": "646"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/admin/orders/1?include[]=address\" -X GET \\\n\t-H \"Access-Token: y9MdfZbtpH-0R73jsZRizQ\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: AI3q680Jrsen5w4HNZJU4Q\" \\\n\t-H \"Expiry: 1459372652\" \\\n\t-H \"Uid: 46lolita@thompson.org\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/admin/orders/1?include[]=address\" -X GET \\\n\t-H \"Access-Token: RYtAbVIExkPpZoQmLmnvMA\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: HkdKklIqSloNpSkQMAyV-g\" \\\n\t-H \"Expiry: 1459509330\" \\\n\t-H \"Uid: 46leopoldo@hagenes.biz\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
     }
   ]
 }
