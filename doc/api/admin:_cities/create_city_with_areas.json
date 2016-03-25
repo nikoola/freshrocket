@@ -39,13 +39,13 @@
     {
       "request_method": "POST",
       "request_path": "/admin/cities",
-      "request_body": "city[name]=Ameliafort_9&city[areas_attributes][][name]=hi&include[]=areas",
+      "request_body": "city[name]=New+Cristianton_9&city[areas_attributes][][name]=hi&include[]=areas",
       "request_headers": {
-        "Access-Token": "W2PGP_Y4Xa6xkCyLlvM7gA",
+        "Access-Token": "ozV0EXAWyfo-LG4huLR0jg",
         "Token-Type": "Bearer",
-        "Client": "ZA1cVt9GeQcFO7ReB58fcQ",
-        "Expiry": "1459509328",
-        "Uid": "15johnnie@ziemann.name",
+        "Client": "j4LZ2n9CMmxnU8Hj0Oa7Yg",
+        "Expiry": "1460076324",
+        "Uid": "15maeve_stamm@rutherforddaugherty.biz",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -55,22 +55,22 @@
       "request_content_type": "application/x-www-form-urlencoded",
       "response_status": 201,
       "response_status_text": "Created",
-      "response_body": "{\n  \"id\": 1,\n  \"name\": \"Ameliafort_9\",\n  \"active\": true\n}",
+      "response_body": "{\n  \"id\": 1,\n  \"name\": \"New Cristianton_9\",\n  \"active\": true\n}",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
         "Location": "http://example.org/cities/1",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"4ecc57d13f3dfa08a831a18a17e3a632\"",
+        "ETag": "W/\"200d3ad0cd1627cc87243317f99dc9bf\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=MEk4Q1N1WEwyS2pKUURuK285Q2w0Z3pGdFFVVjRjWCtvNGw4REhZTUtPdFRqTU5hYTdnYWhWMnh1YjJGQ0xPeFY4YWIrWlYzbU9saDN4eDlJMXRsWTJBUk5ZWnBMRnZ5a291M2I1dElLUmxoM0RyOS9FT0dkYTJ2RzYxcS9MTWk5cnRINks1NkNqSGRZTjVKcm02SXcyYitlczgvQ09Mc05jZFdETUYrSlBYVmJxKzZwL0Yva1pRUG9UYm0xSlVWLS1ZUzZCalVmUm1FaVlicmk1QXJ5THdnPT0%3D--844530bb8916a72d1cd4632e8ab865b7133c46af; path=/; HttpOnly",
-        "X-Request-Id": "25502474-4832-493f-aca3-8d91729ec236",
-        "X-Runtime": "0.100458",
-        "Content-Length": "44"
+        "Set-Cookie": "_session_id=UEFPWG00UDJBT3dQcFc4bENxdklLcmN1M0RmRDdGaEhLMWZhUUs1d1VrUStYUEI2anhPRTVxbHJqNE1UbnF5M05VRFJqSTBIc1dkdXpxSXp3MXd1V1BUVzJnUmtPY0EwMWRMRGlIYkRwMHppVVY5b3hIYU5EZjJnM0ZpNkxtRjBweGRvSlZhQktrdmtzNVphOG1EL2pwUHcxRGlTc2VoUm9sN3dNSy8rNnFlcTUwaTlpZnZPOGhFTSt4Mk5YblBCLS0yTGxhekVCMWpPNDVJZTAxcTJqOUt3PT0%3D--473942917250217e25f6d86b16c3fcf31de43e8d; path=/; HttpOnly",
+        "X-Request-Id": "32511b34-4b65-41f1-8ffd-435136b527c7",
+        "X-Runtime": "0.143280",
+        "Content-Length": "49"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/admin/cities\" -d 'city[name]=Ameliafort_9&city[areas_attributes][][name]=hi&include[]=areas' -X POST \\\n\t-H \"Access-Token: W2PGP_Y4Xa6xkCyLlvM7gA\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: ZA1cVt9GeQcFO7ReB58fcQ\" \\\n\t-H \"Expiry: 1459509328\" \\\n\t-H \"Uid: 15johnnie@ziemann.name\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/admin/cities\" -d 'city[name]=New+Cristianton_9&city[areas_attributes][][name]=hi&include[]=areas' -X POST \\\n\t-H \"Access-Token: ozV0EXAWyfo-LG4huLR0jg\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: j4LZ2n9CMmxnU8Hj0Oa7Yg\" \\\n\t-H \"Expiry: 1460076324\" \\\n\t-H \"Uid: 15maeve_stamm@rutherforddaugherty.biz\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

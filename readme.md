@@ -78,7 +78,7 @@ https://jbt.github.io/markdown-editor (great for github markdown generation)
 
 
 
-TODO:
+possible todos:
 
 	maybe change aato to rolify. it supports proper callbacks.
 

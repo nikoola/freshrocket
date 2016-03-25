@@ -25,9 +25,10 @@ class Product < ActiveRecord::Base
 	include Filterable
 	scope :city_id,      -> (city_id) { where city_id: city_id }
 	scope :in_stock,     -> (bool) { 
-		if bool.to_s == '1' 
+		case bool.to_s
+		when '1', true #'1' for json query
 			where('inventory_count > ?', 0)
-		elsif bool.to_s == '0'
+		when '0', false
 			where(inventory_count: 0)
 		end
 	}

@@ -16,11 +16,11 @@
       "request_path": "/client/addresses/1",
       "request_body": "address[street_and_house]=good",
       "request_headers": {
-        "Access-Token": "iUG5CWn38N6TQd-6qUSiSw",
+        "Access-Token": "3d0qPIxswifSgvJJ7wT8ow",
         "Token-Type": "Bearer",
-        "Client": "JFa8YW8DSs7fEZOz6qUDqA",
-        "Expiry": "1459509346",
-        "Uid": "121charity@walterschmitt.io",
+        "Client": "8ng8ht-8NxNpqcNJoqfS0A",
+        "Expiry": "1460076338",
+        "Uid": "121nickolas_koepp@kilback.com",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -30,21 +30,21 @@
       "request_content_type": "application/x-www-form-urlencoded",
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\n  \"id\": 1,\n  \"city_id\": 1,\n  \"user_id\": 1,\n  \"street_and_house\": \"good\",\n  \"door_number\": \"5\",\n  \"zip_code\": null,\n  \"active\": true,\n  \"city_name\": \"Lake Mac_110\"\n}",
+      "response_body": "{\n  \"id\": 1,\n  \"city_id\": 1,\n  \"user_id\": 1,\n  \"street_and_house\": \"good\",\n  \"door_number\": \"5\",\n  \"zip_code\": null,\n  \"active\": true,\n  \"city_name\": \"Schillerton_110\"\n}",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"8d961c3999b89bee4949d2731153efa4\"",
+        "ETag": "W/\"e8f0c5fdd85d68f0343a2155a27a5a17\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=b2RrbnBsODNXL2IwMkQzM3VFaE5aOUtabnpzNzUrVHNiLzBSMEVqZ3VaSWF3M2hWVkRoUEpvbjB5cFJQOCtEVURjS3RpMHhkZFY0WXFFK3FjS3diRlFZelk5MnU0UEdkYmlkMDhWYWdick96YmZDMVZ6U1dBSmsrVGZHYVluQ1ZMcDdIZG5uK1hhaElYdVVLUmx4bTdaNE1vQnJOUnQ3bFQyc2dlWVJyYk8vSWxzR28zbnVXQzgyTG5ydjdsRE8xLS1DckJIbGdqa3NtajQrVFlGQWgyaVNBPT0%3D--3485056ba3a3d29137ce4d6b7f350f3f21437393; path=/; HttpOnly",
-        "X-Request-Id": "2482440f-66c2-49df-aa46-8a7b03e930ae",
-        "X-Runtime": "0.080721",
-        "Content-Length": "133"
+        "Set-Cookie": "_session_id=K0d3ZnpDRGYzL3JxbHdtaFFFTFdpcXN3SUpKV2NFalB3eGNVYnJuUWU0U3NLbDRtZU9Jdzl4bENvQm80RTFoMGNTUDZTTm9GRzRXRkJQSUdPU3NyM1ZmOTZCYlRMSnZvQUFpcnRjRmphS1ZxMTZMQXRZeGFlM3g0aDlEQlJyck8vYzVBc2NzZ0dNVEF2QzUxRW1SL0UrRUM5a2l2djVzRWR5UmdJTDFXbTNUT3hxTzZGU3kvTG41T0xqaUVYVUEwLS1mVzZ0M1NpWWtyYzVqMFdwQUlwVDZ3PT0%3D--78a5fab4955902499a14b98a365b2b5dc81c28c7; path=/; HttpOnly",
+        "X-Request-Id": "fa1166be-fd11-4657-8079-24fc09ce0b81",
+        "X-Runtime": "0.079423",
+        "Content-Length": "136"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/client/addresses/1\" -d 'address[street_and_house]=good' -X PUT \\\n\t-H \"Access-Token: iUG5CWn38N6TQd-6qUSiSw\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: JFa8YW8DSs7fEZOz6qUDqA\" \\\n\t-H \"Expiry: 1459509346\" \\\n\t-H \"Uid: 121charity@walterschmitt.io\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/client/addresses/1\" -d 'address[street_and_house]=good' -X PUT \\\n\t-H \"Access-Token: 3d0qPIxswifSgvJJ7wT8ow\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: 8ng8ht-8NxNpqcNJoqfS0A\" \\\n\t-H \"Expiry: 1460076338\" \\\n\t-H \"Uid: 121nickolas_koepp@kilback.com\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

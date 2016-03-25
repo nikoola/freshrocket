@@ -27,11 +27,11 @@
       "request_path": "/admin/users?has_ability=users",
       "request_body": null,
       "request_headers": {
-        "Access-Token": "5cf0fw-5O9as2hpWB_i3HQ",
+        "Access-Token": "l0S3W3NMOfgNPsSgFWwSfw",
         "Token-Type": "Bearer",
-        "Client": "qs3fprJYm9DrjPanX6wmTQ",
-        "Expiry": "1459509343",
-        "Uid": "90jayce_tremblay@gusikowskiabbott.com",
+        "Client": "I5-L_QHAgNxNWoQN7iiWnA",
+        "Expiry": "1460076335",
+        "Uid": "90christ@littel.co",
         "Host": "example.org",
         "Cookie": ""
       },
@@ -41,21 +41,21 @@
       "request_content_type": null,
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "[\n  {\n    \"id\": 2,\n    \"first_name\": \"Genesis\",\n    \"last_name\": \"Zboncak\",\n    \"email\": \"90jayce_tremblay@gusikowskiabbott.com\",\n    \"phone\": \"6451088004\",\n    \"is_verified\": false,\n    \"provider\": \"email\",\n    \"uid\": \"90jayce_tremblay@gusikowskiabbott.com\",\n    \"created_at\": \"2016-03-18T11:15:43.582Z\",\n    \"abilities\": {\n      \"orders\": 0,\n      \"products\": 0,\n      \"users\": 1,\n      \"categories\": 0,\n      \"coupons\": 0,\n      \"settings\": 0,\n      \"cities\": 0,\n      \"delivery_boy\": 0\n    }\n  }\n]",
+      "response_body": "[\n  {\n    \"id\": 2,\n    \"first_name\": \"Lilliana\",\n    \"last_name\": \"Marquardt\",\n    \"email\": \"90christ@littel.co\",\n    \"phone\": \"8831661236\",\n    \"is_verified\": false,\n    \"provider\": \"email\",\n    \"uid\": \"90christ@littel.co\",\n    \"created_at\": \"2016-03-25T00:45:35.059Z\",\n    \"abilities\": {\n      \"orders\": 0,\n      \"products\": 0,\n      \"users\": 1,\n      \"categories\": 0,\n      \"coupons\": 0,\n      \"settings\": 0,\n      \"cities\": 0,\n      \"delivery_boy\": 0\n    }\n  }\n]",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"ea4023c3d90eecd3b25902eec297c82f\"",
+        "ETag": "W/\"8d42b7dfee8f6c4d743c20f701e03912\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=ZW8wSUY1MlIzTGFrOVdUS05Ob1JDZWJhanBDS1BDTlhDMlRPQy9MdzFmb3ROUmxQekF2L2hERWtJWEd3aWkxSmRXZUdiTjVaL1kyVkpFcWNHOCtCNjJqUTRUa1VreVp4V0ZuTWNYVWgwUkQya3hoTTJkQVUwbjdzaDI0YTBQZWJuSkQ0RitXVm9TQmdReWVmejJEVDlTTU9neU5uWHA3VFFhTjRPV1NXR0t4L3FnMit2THlGYURnQnRkQ3A5NUFILS1oUHJaRXczSDlpd1p1R0VmV0dxcjd3PT0%3D--fef2d5671b4ff1652c1b1802604048b72ffcf6b6; path=/; HttpOnly",
-        "X-Request-Id": "e84f3ab2-8e71-4c68-8a9e-e6738b2f853c",
-        "X-Runtime": "0.083642",
-        "Content-Length": "365"
+        "Set-Cookie": "_session_id=TnRFdnhtSkwxQm4xYnVFV1E3c2REMWZmS0I1WVRvQVZBeiswLzFESisyQTN1UnNTTklTRVlYbFdGbVhXSC95ZnhtTlZLclRvc1I4bkVNU2hmMkF2dllLUlRlUVBxVkMycGRmdVFSOHIzVXIzbHhiaG4rV1dRNnpiRUJvSW1RaUg1azhaalhOd25sZ2VQRGUxeFZwM3ZkTUVIdGYvQVdJTmJielpTY3pvWmY4bE9IQjhyelZDSUxoMVdEbEk5ZVVnLS12QmxFcHJxSzRSRm0zcFkrcWRjM0VnPT0%3D--5a68ab9a01970c657f0717cc309b0f7d05c5328c; path=/; HttpOnly",
+        "X-Request-Id": "fd805df9-ef04-4ec3-9d9a-ba4e92c1621b",
+        "X-Runtime": "0.171165",
+        "Content-Length": "330"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/admin/users?has_ability=users\" -X GET \\\n\t-H \"Access-Token: 5cf0fw-5O9as2hpWB_i3HQ\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: qs3fprJYm9DrjPanX6wmTQ\" \\\n\t-H \"Expiry: 1459509343\" \\\n\t-H \"Uid: 90jayce_tremblay@gusikowskiabbott.com\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/admin/users?has_ability=users\" -X GET \\\n\t-H \"Access-Token: l0S3W3NMOfgNPsSgFWwSfw\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: I5-L_QHAgNxNWoQN7iiWnA\" \\\n\t-H \"Expiry: 1460076335\" \\\n\t-H \"Uid: 90christ@littel.co\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

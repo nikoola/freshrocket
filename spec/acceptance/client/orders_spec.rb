@@ -27,7 +27,7 @@ resource 'client: orders', type: :request do
 
 		it 'unauthenticated user - 401', document: false do
 			get path
-			expect_status 401 #TODO
+			expect_status 401
 		end
 	end
 
@@ -257,6 +257,31 @@ resource 'client: orders', type: :request do
 
 	end
 
+
+	post '/client/orders/precalculate_price' do
+
+		example 'get approximate prices for a new order' do
+			explanation '(they may change later if admin changes product price or tax etc)'
+
+			do_request({
+
+				order: {
+					line_items_attributes: [
+						{ product_id: product.id, amount: 1000 }
+					],
+					coupon_code: FactoryGirl.create(:coupon).code
+				}
+
+			})
+
+			expect(status).to eq(200)
+			expect(json).to include(:pure_product_price, :tax, :coupon_discount)
+		end
+
+
+
+
+	end
 
 
 

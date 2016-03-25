@@ -19,11 +19,11 @@
       "request_path": "/client/verify",
       "request_body": "verification_code",
       "request_headers": {
-        "Access-Token": "FNonO3fK1RRQJLIwlNCbOg",
+        "Access-Token": "2-vDNEuDhdUQ0jev8cpPaw",
         "Token-Type": "Bearer",
-        "Client": "LSmiwboIFDL6xpv3F_x6xw",
-        "Expiry": "1459509354",
-        "Uid": "172addie.gutmann@murraylakin.io",
+        "Client": "0dgG-r8vtHE6k9g6mTefwA",
+        "Expiry": "1460076348",
+        "Uid": "174armando@wilkinsonhermiston.info",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -40,13 +40,13 @@
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "text/html",
         "Cache-Control": "no-cache",
-        "Set-Cookie": "_session_id=UTZnSEJEcVZZQjdMWHJvaG0zRUtPaFlyRnRtRnU4NVhVempwRFJESmt6aGpyNE02aW9ZVFEzTkdBKzFIeWMzZGtHNzNuTEJxUWdmdkNxdGdtTEpiWjRCUjFxT21GV3d6d3U3ODFUQTZQOHFSb2VsRTZCeWRmdTFUZkdJTTVxaURBa1RDeFRjQ2NnaWRkWFZCU3B5ZnF1NTRVZEtySDk4Mm16Vys5b1lNZUUwU2lLRVJnczV4a3dZTG5yUEdRSjl5LS01cjdPbEg1a3FHQ2FhZTBuL2JjR2xBPT0%3D--257df8bfa5e81a5693c2227a3b1a68a470e624ef; path=/; HttpOnly",
-        "X-Request-Id": "81aff405-7a13-46c4-8094-bfd3d11a6373",
-        "X-Runtime": "0.079286",
+        "Set-Cookie": "_session_id=QUwwbXBydmlOa3hmcmhXWDFOZjZUL1hBQVI0NmhZNGdKSWJhSlNDVVFmZ0RPVllrQjdyNFNiYVhrZ3A4bXVSMlVKMWFGNHg3TnhCOWlqR0x2amFlcHpZemFkeE1CcEJZRncybWI3enV5di9sM2pBUm5hcWx1ZFpnODd6Unk2dHBGMFZqMEx5MDZKU25GbGhNY011N2NHYW83UDF5N1RaMEJIeEFXOTZXb2hsdUFjR2Z4RjZXN011aW5VWkFWRTdzLS12Q2w0TitwSDZuUnR3VGhyOUdYRkN3PT0%3D--7e16918f1c75a2b436ccecf63c8a11c225d59afa; path=/; HttpOnly",
+        "X-Request-Id": "2dec8c6d-7db8-41db-834a-86960ffea4ef",
+        "X-Runtime": "0.079076",
         "Content-Length": "0"
       },
       "response_content_type": "text/html",
-      "curl": "curl \"http://localhost:3000/client/verify\" -d 'verification_code' -X PUT \\\n\t-H \"Access-Token: FNonO3fK1RRQJLIwlNCbOg\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: LSmiwboIFDL6xpv3F_x6xw\" \\\n\t-H \"Expiry: 1459509354\" \\\n\t-H \"Uid: 172addie.gutmann@murraylakin.io\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/client/verify\" -d 'verification_code' -X PUT \\\n\t-H \"Access-Token: 2-vDNEuDhdUQ0jev8cpPaw\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: 0dgG-r8vtHE6k9g6mTefwA\" \\\n\t-H \"Expiry: 1460076348\" \\\n\t-H \"Uid: 174armando@wilkinsonhermiston.info\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

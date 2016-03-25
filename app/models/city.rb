@@ -9,13 +9,7 @@ class City < ActiveRecord::Base
 	validates :name, presence: true, uniqueness: true
 
 	include Filterable
-	scope :active, -> (bool) {
-		if bool.to_s == '1'
-			where active: true 
-		elsif bool.to_s == '0'
-			where active: false
-		end
-	}
+	scope :active, -> (bool) { where active: param_to_bool(bool) }
 
 
 

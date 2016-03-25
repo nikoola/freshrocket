@@ -36,6 +36,9 @@ Rails.application.routes.draw do
 			member {
 				put :update_status
 			}
+			collection{
+				post :precalculate_price
+			}
 		end
 
 

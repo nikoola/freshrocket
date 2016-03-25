@@ -16,11 +16,11 @@
       "request_path": "/client/addresses/1",
       "request_body": null,
       "request_headers": {
-        "Access-Token": "YSCTgJA8zTGDbuy8_Tb0Zg",
+        "Access-Token": "ST695A9_154Ep0KbXVvOhA",
         "Token-Type": "Bearer",
-        "Client": "RD7jfx--GlJ-KbMCF_DJMA",
-        "Expiry": "1459509346",
-        "Uid": "122maggie_gulgowski@schneidercasper.org",
+        "Client": "zA_p0rUb9Xuuye8xPjQAvw",
+        "Expiry": "1460076338",
+        "Uid": "122kaley@hilllkris.net",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -37,13 +37,13 @@
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "text/html",
         "Cache-Control": "no-cache",
-        "Set-Cookie": "_session_id=MUxQYi9tSGpjQU11NXEzRkUwZlpmbXJEMm5MUitQQ053ckRVZ2E3Q3U0bFFaNmRFMStFSzRDSXpLYThrbDZ2OXBOaFpOTVcvRE50N2VUblZIcEhEa2xOSEs1L1d6RE9uOEZpQVBGT2dTYUtnaUJ5aWU2N0VDRGVJcW1lbHZVZElOUWNieTIxKzUvamdvOWR6LzFFY2JJVUpTTkFoTS9vMis1NzVieDUrZDJTb0wycEtwWmtBSlBTQThTZkVyY2tjLS1McThQK252WjdkMG5EZTlqb3U0UWRnPT0%3D--c58ae2c730d16e8241c9d89f553ca6b1e5f9223f; path=/; HttpOnly",
-        "X-Request-Id": "25867bee-3dfb-4a09-bc66-64ce667b772a",
-        "X-Runtime": "0.077852",
+        "Set-Cookie": "_session_id=Q2lML0RqUzVmdTEwVGpBZnR2VzlhbkZMNWlnL2pjS2NaR29SZ1NmUEZLQmhXN29xY1hHSjRLdCtuUjZTMUlYRE5PMURBMHpBZCs0N2VQWWtva0V6WnlUa1ovcG4rRjBmTWpIdEY1V2Iyd1RMNDZFMytuYkpaQzY4RkduajhqVzQ5U1Ryc3JqcDM1azcxTmFaakZZQ3pTd090UkxjUkxnbzJqdi94cmUrejBXL3M4ZzFPS0pVU2J2QnpaTGJzYVgwLS0xdW5uN1VZeGFuOUFlS2Fsei8wTkhnPT0%3D--0fb524e2ff6f239ea833413d2d0dc8cf406d41e4; path=/; HttpOnly",
+        "X-Request-Id": "e178aaf3-5ede-4266-9929-192d0efb9172",
+        "X-Runtime": "0.078491",
         "Content-Length": "0"
       },
       "response_content_type": "text/html",
-      "curl": "curl \"http://localhost:3000/client/addresses/1\" -d '' -X DELETE \\\n\t-H \"Access-Token: YSCTgJA8zTGDbuy8_Tb0Zg\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: RD7jfx--GlJ-KbMCF_DJMA\" \\\n\t-H \"Expiry: 1459509346\" \\\n\t-H \"Uid: 122maggie_gulgowski@schneidercasper.org\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/client/addresses/1\" -d '' -X DELETE \\\n\t-H \"Access-Token: ST695A9_154Ep0KbXVvOhA\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: zA_p0rUb9Xuuye8xPjQAvw\" \\\n\t-H \"Expiry: 1460076338\" \\\n\t-H \"Uid: 122kaley@hilllkris.net\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

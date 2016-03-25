@@ -4,7 +4,7 @@ Rails.application.configure do
 	config.middleware.use Rack::Cors do
 		allow do
 			origins '*'
-			resource '*', #TODO whitelist only necessary server
+			resource '*', # may whitelist only necessary server
 				:headers => :any,
 				:expose  => ['access-token', 'expiry', 'token-type', 'uid', 'client'],
 				:methods => [:get, :post, :options, :delete, :put]

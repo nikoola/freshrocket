@@ -16,11 +16,11 @@
       "request_path": "/auth/sign_out",
       "request_body": null,
       "request_headers": {
-        "Access-Token": "QIPHfkyJn9egfO1-j_uNrg",
+        "Access-Token": "8gQ3NXE5ipObZQsKCbn2hw",
         "Token-Type": "Bearer",
-        "Client": "qUOJHyo5DeMJOpNMpuzCTw",
-        "Expiry": "1459509347",
-        "Uid": "124giovanna@murphy.co",
+        "Client": "Ywj1V7cMxLa09eUuaRm2hA",
+        "Expiry": "1460076338",
+        "Uid": "124guie.blanda@aufderharsawayn.co",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -38,13 +38,13 @@
         "Content-Type": "application/json; charset=utf-8",
         "ETag": "W/\"7363e85fe9edee6f053a4b319588c086\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=Z1NlL29VMGtPMkFSL21vd2RnaXRSY3RpanMxU2tadE15UnIxQ0cxMksyUDlUUmh4NHZvWG1ZWktzTG4wRlBGOTNKbHRFQ0ZRdmJKUDQ5bTFSUG5tZFE9PS0tMXRpcHpoVjc1aEpqTUZGVS9RVXVldz09--1184635c4cfa381bd70e7075afe6f07acb17d955; path=/; HttpOnly",
-        "X-Request-Id": "631a4422-0d3b-4c29-83d3-bd797ebc8e54",
-        "X-Runtime": "0.074064",
+        "Set-Cookie": "_session_id=eXVuV1B6TjErR3JEMVhNa3pCREpHZzV5bzRsN29zSUlENU9pYlI0aDFYUkdwSnU5c2lJSXZUZTh0dDU4UzJDWG5VTnZ5ek0rN0k3Wkc5S1lEVHpqSkE9PS0tRFdnZ2tiWitqdlhMUmpydGh6K05idz09--e90d85e43547ba8fd33b6f4dfe9f289421462669; path=/; HttpOnly",
+        "X-Request-Id": "e227bf8a-13fa-4315-a0a4-ebba8e18e428",
+        "X-Runtime": "0.078038",
         "Content-Length": "16"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/auth/sign_out\" -d '' -X DELETE \\\n\t-H \"Access-Token: QIPHfkyJn9egfO1-j_uNrg\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: qUOJHyo5DeMJOpNMpuzCTw\" \\\n\t-H \"Expiry: 1459509347\" \\\n\t-H \"Uid: 124giovanna@murphy.co\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/auth/sign_out\" -d '' -X DELETE \\\n\t-H \"Access-Token: 8gQ3NXE5ipObZQsKCbn2hw\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: Ywj1V7cMxLa09eUuaRm2hA\" \\\n\t-H \"Expiry: 1460076338\" \\\n\t-H \"Uid: 124guie.blanda@aufderharsawayn.co\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

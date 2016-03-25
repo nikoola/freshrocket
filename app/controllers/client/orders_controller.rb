@@ -62,6 +62,21 @@ module Client
 			end
 		end
 
+		def precalculate_price
+			pricing = CalculateOrderPrice.new Order.new(order_params)
+
+			json = {
+				pure_product_price: pricing.pure_product_price,
+				tax:                pricing.tax,
+				delivery_charge:    pricing.delivery_charge,
+				coupon_discount:    pricing.coupon_discount,
+
+				total_price:        pricing.total
+			}
+
+			render json: json, status: 200
+		end
+
 
 
 		private

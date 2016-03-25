@@ -10,15 +10,7 @@ class Address < ActiveRecord::Base
 
 
 	include Filterable
-	scope :active,     -> (bool) { 
-		if bool.to_s == '1' 
-			where active: true
-		elsif bool.to_s == '0'
-			where active: false
-		end
-	}
-
-
+	scope :active, -> (bool) { where active: param_to_bool(bool) }
 
 
 
@@ -33,7 +25,6 @@ class Address < ActiveRecord::Base
 			update active: false
 		end
 
-		#TODO rspec it
 		def has_no_approved_orders?
 			if self.orders.any? { |order| order.approved? }
 				errors.add 'address', "can't be changed after some approved order uses it"

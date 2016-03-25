@@ -438,6 +438,13 @@
           "method": "get"
         },
         {
+          "description": "get approximate prices for a new order",
+          "link": "client:_orders/get_approximate_prices_for_a_new_order.json",
+          "groups": "all",
+          "route": "/client/orders/precalculate_price",
+          "method": "post"
+        },
+        {
           "description": "get current user's order",
           "link": "client:_orders/get_current_user's_order.json",
           "groups": "all",

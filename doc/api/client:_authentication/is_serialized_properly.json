@@ -13,37 +13,37 @@
   "requests": [
     {
       "request_method": "GET",
-      "request_path": "/auth/validate_token?access-token=USBwuv5REvoxeCyl5SnE6w&token-type=Bearer&client=31YhbHMwTu0wKBL6RsnQuA&expiry=1459509347&uid=125iliana%40millsdach.com",
+      "request_path": "/auth/validate_token?access-token=8T-993Ykp76sN4YxpGOshg&token-type=Bearer&client=2k0vD_dUTx95mSEtYfkBZA&expiry=1460076338&uid=125alford_sawayn%40luettgenferry.co",
       "request_body": null,
       "request_headers": {
         "Host": "example.org",
         "Cookie": ""
       },
       "request_query_parameters": {
-        "access-token": "USBwuv5REvoxeCyl5SnE6w",
+        "access-token": "8T-993Ykp76sN4YxpGOshg",
         "token-type": "Bearer",
-        "client": "31YhbHMwTu0wKBL6RsnQuA",
-        "expiry": "1459509347",
-        "uid": "125iliana@millsdach.com"
+        "client": "2k0vD_dUTx95mSEtYfkBZA",
+        "expiry": "1460076338",
+        "uid": "125alford_sawayn@luettgenferry.co"
       },
       "request_content_type": null,
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\n  \"success\": true,\n  \"data\": {\n    \"id\": 1,\n    \"first_name\": \"Guido\",\n    \"last_name\": \"Hills\",\n    \"email\": \"125iliana@millsdach.com\",\n    \"phone\": \"7867096692\",\n    \"is_verified\": false,\n    \"provider\": \"email\",\n    \"uid\": \"125iliana@millsdach.com\",\n    \"created_at\": \"2016-03-18T11:15:47.130Z\",\n    \"abilities\": {\n      \"orders\": 0,\n      \"products\": 0,\n      \"users\": 0,\n      \"categories\": 0,\n      \"coupons\": 0,\n      \"settings\": 0,\n      \"cities\": 0,\n      \"delivery_boy\": 0\n    }\n  }\n}",
+      "response_body": "{\n  \"success\": true,\n  \"data\": {\n    \"id\": 1,\n    \"first_name\": \"Valentina\",\n    \"last_name\": \"Schimmel\",\n    \"email\": \"125alford_sawayn@luettgenferry.co\",\n    \"phone\": \"5546410912\",\n    \"is_verified\": false,\n    \"provider\": \"email\",\n    \"uid\": \"125alford_sawayn@luettgenferry.co\",\n    \"created_at\": \"2016-03-25T00:45:38.859Z\",\n    \"abilities\": {\n      \"orders\": 0,\n      \"products\": 0,\n      \"users\": 0,\n      \"categories\": 0,\n      \"coupons\": 0,\n      \"settings\": 0,\n      \"cities\": 0,\n      \"delivery_boy\": 0\n    }\n  }\n}",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"96bf73082cc1f0fd709bab9837d969b8\"",
+        "ETag": "W/\"c4c3528b7522cb01c147b8476a9f5872\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=bkpjWXlIc3UrSVQybjBZQWE3VkJ6cW9rVnRIU1pHeUhTWGhnRXlqRzl1MjFuV0tFdzU3L1dQZm51SkZvZEQ4S3NTS2xRcWNOblpjWHRWZGsrUHVPQldjaGU3dmVTUjNqdDZMaFdpM3JHRWE2dS9ubStnRlZ2MEVXN2pDNFVSTXdXZmhlR3d4VFFqSlI0cnlqYk9FenhsZW9jWW8rV2lxQVpDamdMMGp2MVhnQmpUWEhsMk9sWTV6eDEwWFlNZFVQLS1lWkV6djdFdFBaRitrSHhXTGRVa3VRPT0%3D--cc9e54aef61847f61940dd5b9dc4589ef7b924a2; path=/; HttpOnly",
-        "X-Request-Id": "71f1b004-ce02-470a-99a3-f53162c761f7",
-        "X-Runtime": "0.078521",
-        "Content-Length": "355"
+        "Set-Cookie": "_session_id=a3lYZlhwWDl4ZVZmS09mQng2KzBEODRETDc5RTVNYkt2Um1ZNFJQQ3FxZmJsVWxOMmJQNVFGRlNxeUlQb2Y5elBleE5wWS9Rd1FIN3lrNHZEWXJRa1FtMWhxaTNTUy92TDRuSjdmZitNamdYVlVGa0RYOTVuTDJVQXV3MlY1cklrY3Avb0NQTkV2RTN1SDNoZXAxT2lBT0lEV1BFdlphcytjTlJxOVdkODJvakh3Q0JlWmJzWkZaTXJvNkNjK2xaLS1wbGpCSVpTRWtRSmhDRXQwcDVYWG1RPT0%3D--7972593e929f90774c00b796278e998f0146216f; path=/; HttpOnly",
+        "X-Request-Id": "1713708a-63a7-43f8-8bcc-4b56c66b6822",
+        "X-Runtime": "0.078719",
+        "Content-Length": "382"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/auth/validate_token?access-token=USBwuv5REvoxeCyl5SnE6w&token-type=Bearer&client=31YhbHMwTu0wKBL6RsnQuA&expiry=1459509347&uid=125iliana%40millsdach.com\" -X GET \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/auth/validate_token?access-token=8T-993Ykp76sN4YxpGOshg&token-type=Bearer&client=2k0vD_dUTx95mSEtYfkBZA&expiry=1460076338&uid=125alford_sawayn%40luettgenferry.co\" -X GET \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

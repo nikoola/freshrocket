@@ -43,13 +43,13 @@
     {
       "request_method": "POST",
       "request_path": "/admin/addresses",
-      "request_body": "address[street_and_house]=176+Richie+Trail&address[door_number]=5&address[city_id]=1&address[user_id]=1",
+      "request_body": "address[street_and_house]=6895+Dicki+Vista&address[door_number]=5&address[city_id]=1&address[user_id]=1",
       "request_headers": {
-        "Access-Token": "gsRukWdZPE4OQ7c-8hmWDA",
+        "Access-Token": "WDafw2an6lgh-WE-7QfcfQ",
         "Token-Type": "Bearer",
-        "Client": "RQ_GzfFZpoYmpKnaP4IaXQ",
-        "Expiry": "1459509307",
-        "Uid": "7alfred_marquardt@abbott.name",
+        "Client": "nBp_xEYhBXx-RQzA0J_6TQ",
+        "Expiry": "1460076317",
+        "Uid": "7dorcas@schowalterosinski.net",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -59,21 +59,21 @@
       "request_content_type": "application/x-www-form-urlencoded",
       "response_status": 201,
       "response_status_text": "Created",
-      "response_body": "{\n  \"id\": 1,\n  \"city_id\": 1,\n  \"user_id\": 1,\n  \"street_and_house\": \"176 Richie Trail\",\n  \"door_number\": \"5\",\n  \"zip_code\": null,\n  \"active\": true,\n  \"city_name\": \"Leonardotown_6\"\n}",
+      "response_body": "{\n  \"id\": 1,\n  \"city_id\": 1,\n  \"user_id\": 1,\n  \"street_and_house\": \"6895 Dicki Vista\",\n  \"door_number\": \"5\",\n  \"zip_code\": null,\n  \"active\": true,\n  \"city_name\": \"Port Camronberg_6\"\n}",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"adaf6ac3d5bc5025b45cf874ab2f36a7\"",
+        "ETag": "W/\"721c542ff0239760f93671a25a03e31a\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=b0M4NVRPamRiNUNEL0t0c2UxVUtEZUZFd3FoTVlFTDJicTlQVW1GMEs2Kzh6YmFVUjFsdlBsNXowZFpXU0tQWEg2a1dId2RZaHNlanNydkY1cjdtajNxYTEwbmNoZzZ4K1FjY21FeTZJdzdneHdqWW5FQVpSQVFGK2F1a0RUdVV5ZFUxK0xyUmZwZmlIYi9MOTFheHhOTGFoWU9wSWFvVUtkTlZBVnZvYUw3ZmhGTjgrQVhxVmpNVWZQWURaN2F6LS15bzVHNmhYdWg3UVA3WVlzcU8zcW1BPT0%3D--53dcb2ea5a3229368b2f602d3eda27dc3dd97dbb; path=/; HttpOnly",
-        "X-Request-Id": "028fe9b3-a2a4-4a45-bebe-ae678755bf79",
-        "X-Runtime": "0.098972",
-        "Content-Length": "147"
+        "Set-Cookie": "_session_id=bXdIZFI4MzVSanY1WDZxWkpKRUhtUFp1d0FyZ1dxMk1qa2V0aFI5UmVaK0ZZTTNDeU55c0pGOFU0RGpuYnFpS3V6S3FCWHdZeUdONVkrYmNUdGRnUVpwL2VSUXE2RnZFeEdMTnp2WDhtb2NuQnQvZ0hGbVJVWlR1N25kUkxpRnpxZmphazE0MVFQSENiV3doZyttcVllS1h6ajFDanV0WjdZOGc5dGZwNzR3R09TeU5JZmJDZGQ1L0dTMEhwMldyLS1nT1lNVnAxeXdWblBvWWw2T1FwM3l3PT0%3D--94f77712f8bc984dc3f05627a7f493d8a72f0ac2; path=/; HttpOnly",
+        "X-Request-Id": "2ce5ad18-be79-4264-8a29-fc51bce88cc4",
+        "X-Runtime": "0.081477",
+        "Content-Length": "150"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/admin/addresses\" -d 'address[street_and_house]=176+Richie+Trail&address[door_number]=5&address[city_id]=1&address[user_id]=1' -X POST \\\n\t-H \"Access-Token: gsRukWdZPE4OQ7c-8hmWDA\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: RQ_GzfFZpoYmpKnaP4IaXQ\" \\\n\t-H \"Expiry: 1459509307\" \\\n\t-H \"Uid: 7alfred_marquardt@abbott.name\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/admin/addresses\" -d 'address[street_and_house]=6895+Dicki+Vista&address[door_number]=5&address[city_id]=1&address[user_id]=1' -X POST \\\n\t-H \"Access-Token: WDafw2an6lgh-WE-7QfcfQ\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: nBp_xEYhBXx-RQzA0J_6TQ\" \\\n\t-H \"Expiry: 1460076317\" \\\n\t-H \"Uid: 7dorcas@schowalterosinski.net\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

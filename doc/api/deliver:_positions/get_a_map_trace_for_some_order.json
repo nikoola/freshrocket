@@ -16,11 +16,11 @@
       "request_path": "/orders/3/positions",
       "request_body": null,
       "request_headers": {
-        "Access-Token": "qsIwQmiNrk3NZ3yI74HtcQ",
+        "Access-Token": "OBUUXW558DG5bjUkMWc1bA",
         "Token-Type": "Bearer",
-        "Client": "vn_GcUrJ3k7rqEe2pnrZuw",
-        "Expiry": "1459509357",
-        "Uid": "196valentin@trantowhickle.io",
+        "Client": "KbMsb2uqfGyhGS8Rsds7WQ",
+        "Expiry": "1460076350",
+        "Uid": "198jeremie_leffler@gerlach.com",
         "Host": "example.org",
         "Cookie": ""
       },
@@ -29,21 +29,21 @@
       "request_content_type": null,
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\n  \"positions\": [\n    \"42.10808340000001,87.735895\",\n    \"42.10808340000001,87.735895\",\n    \"42.10808340000001,87.735895\",\n    \"42.10808340000001,87.735895\",\n    \"42.10808340000001,87.735895\",\n    \"42.10808340000001,87.735895\",\n    \"42.10808340000001,87.735895\",\n    \"42.10808340000001,87.735895\"\n  ]\n}",
+      "response_body": "{\n  \"positions\": [\n    \"42.10808340000001,87.735895\",\n    \"42.10808340000001,87.735895\"\n  ]\n}",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"1519770cdeb3c5cb3bb0c167ffa9aef5\"",
+        "ETag": "W/\"a937efd08db370f5db8882721233b807\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=UVRIMTZOdFl4L0VXTGp6S21OamU3dDZyNGlkclY4ZDVCMmIvU29FamxOT0lCczA5RkRMRURwcktSMmRSMk9kWVc1bU1yVkFheWxuTnlMZ1dWQnF5Z1F4elhqM3phMmROQkdvL1dNUy8yQ2xsVHVDa0QxRW5YZnRucHVZem83c0FwbWM3bVJEMElIOVFrZytHYVh2b1FCSUwzQkQ5QThsdHBxWm5Jdk9WaDBhMWVKV1hlejJNOHM3ek5UREh4VmFHLS1NSUswQk1oS2dVMEwybjQvek5PM0N3PT0%3D--978827dd63c14ba67a3582c0ce96f52123c7b1bd; path=/; HttpOnly",
-        "X-Request-Id": "7b7b2544-ead1-4dbb-9604-471d322eefde",
-        "X-Runtime": "0.257753",
-        "Content-Length": "255"
+        "Set-Cookie": "_session_id=L1JUb3FpSFBoaVl1bVZ3b2gxZEVzam9WVmVlUEpsUTB2enFkbmdYZXR4OWFvbitYRmxIQ2RDeENsTCtWa3BzZlRPd2w0c0JTdlpJeE84TjdDd1dwL015OUhOaVN4NCtWQWVjQkZZT05ZK3dqVHBuTVhZenFjdmNqMDAxTjNSbTNpcUkrV0pSaWpONzdoYldWUWRpYmxocHlvQ0FmcFdpdFVXWmxvdldDYU51R1E2MTlNOFdrUENMN3hpejNjY1I5LS0zeEJBNDduZUswZ252Y2JaeXliYzBRPT0%3D--621f0a1ca299e9dada6a00705036164cf9f46d29; path=/; HttpOnly",
+        "X-Request-Id": "902b7d3c-f0f5-4790-8741-4433e065d588",
+        "X-Runtime": "0.101886",
+        "Content-Length": "75"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/orders/3/positions\" -X GET \\\n\t-H \"Access-Token: qsIwQmiNrk3NZ3yI74HtcQ\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: vn_GcUrJ3k7rqEe2pnrZuw\" \\\n\t-H \"Expiry: 1459509357\" \\\n\t-H \"Uid: 196valentin@trantowhickle.io\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/orders/3/positions\" -X GET \\\n\t-H \"Access-Token: OBUUXW558DG5bjUkMWc1bA\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: KbMsb2uqfGyhGS8Rsds7WQ\" \\\n\t-H \"Expiry: 1460076350\" \\\n\t-H \"Uid: 198jeremie_leffler@gerlach.com\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

@@ -59,11 +59,11 @@
       "request_path": "/admin/products",
       "request_body": "product[title]=fish&product[price]=3.0&product[inventory_count]=2&product[city_id]=1&product[category_ids][]=1",
       "request_headers": {
-        "Access-Token": "sLOGY5077tfaiBpQ3IHb3w",
+        "Access-Token": "1yKpr33gZ5TAaTblthR01g",
         "Token-Type": "Bearer",
-        "Client": "wR3jKLinfHnAmnVDbnvqNA",
-        "Expiry": "1459509332",
-        "Uid": "67savanah@abshire.co",
+        "Client": "g6c6H6hB2zlI2jwjg-EIig",
+        "Expiry": "1460076329",
+        "Uid": "67clemens@kerluke.io",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -73,22 +73,22 @@
       "request_content_type": "application/x-www-form-urlencoded",
       "response_status": 201,
       "response_status_text": "Created",
-      "response_body": "{\n  \"id\": 1,\n  \"city_id\": 1,\n  \"title\": \"fish\",\n  \"price\": \"3.0\",\n  \"description\": null,\n  \"created_at\": \"2016-03-18T11:15:32.343Z\",\n  \"updated_at\": \"2016-03-18T11:15:32.343Z\",\n  \"inventory_count\": 2,\n  \"image_url\": \"https://freshrocket-test.s3.amazonaws.com/uploads/product/image/default.png\"\n}",
+      "response_body": "{\n  \"id\": 1,\n  \"city_id\": 1,\n  \"title\": \"fish\",\n  \"price\": \"3.0\",\n  \"description\": null,\n  \"created_at\": \"2016-03-25T00:45:29.526Z\",\n  \"updated_at\": \"2016-03-25T00:45:29.526Z\",\n  \"inventory_count\": 2,\n  \"image_url\": \"https://freshrocket-test.s3.amazonaws.com/uploads/product/image/default.png\"\n}",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
         "Location": "http://example.org/products/1",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"738c1c3fc35e21aa1bd6070d6692c29a\"",
+        "ETag": "W/\"776a8033b8e8d9af9c92cfbfc2971014\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=d0tYR1o3WDE3UjV6TGdKVGVLOEc3RjBmcjNNdjdsNkN5R1pKVzBjN1dwSFdCejlXYlp1K2RhSUtpaVozM2k4WjNYZWlFaHFRU0lyQUFVMGxEU0w0N2ZiUlFmU1RuOWMybk1qRDN4WUxUb2pkZC9XL3Q0TCtYb2VQRkhwU3dLV2JrQlVlSURKcUd3MzRqdG80aE9sWjY1VCtkVFQ2MUw5dEpxM0EzLzV3WWxkdVFpWUJxakFhZDdScjZjcUpkeFQxLS0rbEFmdkVCbTZCbmFkK2NlRWlCWUx3PT0%3D--26f7c6dc7ec225ed6c6a47b295b0340d53e9325f; path=/; HttpOnly",
-        "X-Request-Id": "1ab6a270-57bf-464a-98d1-5a123e401c41",
-        "X-Runtime": "0.099820",
+        "Set-Cookie": "_session_id=amVBNDdLcVdmaS9rTEhwS09qK1VhMy92bXlTWGo5aklYRnhhVHFsY1NtY0JIdkpWdEtabHdEc2VlcDhhUU9mLzlOSENZbGtzMXVWNUtiL25xRHNlSWIxQjBtbEk4K3FtWmpTekZMUFpBc3BOWkl2Nlp1T0hXQ2N1TlVhdXlWWDVBa2NoeGJueXc0WU4yZkt0REFsSDlVd05SaytCaHVOVlZNZ2tyNzVTell6a0IwWGVBWnBjODRzMmd3bWt4VXBhLS1uTjhVWnVJVTdSbUFNOHJjZ2RwZnh3PT0%3D--da7342d4b2f9ca415db1573963f12777830a7c64; path=/; HttpOnly",
+        "X-Request-Id": "9f1badc0-8256-4695-8724-7a5060a25966",
+        "X-Runtime": "0.179669",
         "Content-Length": "258"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/admin/products\" -d 'product[title]=fish&product[price]=3.0&product[inventory_count]=2&product[city_id]=1&product[category_ids][]=1' -X POST \\\n\t-H \"Access-Token: sLOGY5077tfaiBpQ3IHb3w\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: wR3jKLinfHnAmnVDbnvqNA\" \\\n\t-H \"Expiry: 1459509332\" \\\n\t-H \"Uid: 67savanah@abshire.co\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/admin/products\" -d 'product[title]=fish&product[price]=3.0&product[inventory_count]=2&product[city_id]=1&product[category_ids][]=1' -X POST \\\n\t-H \"Access-Token: 1yKpr33gZ5TAaTblthR01g\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: g6c6H6hB2zlI2jwjg-EIig\" \\\n\t-H \"Expiry: 1460076329\" \\\n\t-H \"Uid: 67clemens@kerluke.io\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

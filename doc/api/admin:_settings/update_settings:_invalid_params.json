@@ -30,11 +30,11 @@
       "request_path": "/admin/settings",
       "request_body": "settings[tax_in_percentage]=150&settings[default_delivery_cost]=120",
       "request_headers": {
-        "Access-Token": "4Syv6UKAcrdFlUopu_Nmdg",
+        "Access-Token": "K85x5doEVFUl2TYmjgKPgw",
         "Token-Type": "Bearer",
-        "Client": "tMrHvPksLmvWkVZ_kSwC9g",
-        "Expiry": "1459509342",
-        "Uid": "80domenic@feeney.biz",
+        "Client": "YfF6oT_Bp3WNDVU49wtX2g",
+        "Expiry": "1460076334",
+        "Uid": "80felton.von@fahey.io",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -51,13 +51,13 @@
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "application/json; charset=utf-8",
         "Cache-Control": "no-cache",
-        "Set-Cookie": "_session_id=RFBhSHdhVHI5b1lKQkZFNDRpL2krNUFmSnFRbHJDeHpaK29BY3VWaU5EeHdvTVU5UjV6cDFvQ2NMWUo0ZFBrM1VxNVhTMkJwRGd4UnJESHNZbFpLdHNkTWF1M2UvV2RycnRTWU9adnRMME5NR3N2ZjRuNVRzQ0U3SjdFR0dyd2MyR2tSUHdGS1JUY3lqNVFkU056Znp6VlpITVlVNE5ybXczdjJZL0lyYlFRdnNsT3JJbmtadUFFQm9tN0hSNFhZLS1DR1FmUmcvaVV4cno5Wnd0TFVrTEFRPT0%3D--2ab88aee373574c23215c2625488f71fca63c6bc; path=/; HttpOnly",
-        "X-Request-Id": "44a583d6-5121-4366-8a57-13b06b59c49a",
-        "X-Runtime": "0.080698",
+        "Set-Cookie": "_session_id=bExWMUpBYmdEVlZEMnRWbnlOOWtQRDVhTFBhelFhaE9aNllRbW1kN2pYaVYxMjdHY0locEZwbEhpbFhxaDFTaEpHK1U5K2lMYUxJZkdyVmNEbU1DcHRURTEwUXkvTjBsQnAyTmJ0d0xXVFk2bXFyZEMzWVp0YkloOTNKVzd2N2VITXJwYXZPcEsvMkRNQjFmMlMwK0lqT0IyMEFyc003cUUrT2V1M0xNODFsV0ptVEt1cHZHY2pLejkrSUlHc3VNLS04d25KREVjU0FlbXVXM0dyZnNxR2Z3PT0%3D--644f43f00f856a63e8753c38b01ee42d5f8ffbff; path=/; HttpOnly",
+        "X-Request-Id": "628d2b71-2560-41d7-9fcf-5a46f0b6c36b",
+        "X-Runtime": "0.079210",
         "Content-Length": "59"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/admin/settings\" -d 'settings[tax_in_percentage]=150&settings[default_delivery_cost]=120' -X PUT \\\n\t-H \"Access-Token: 4Syv6UKAcrdFlUopu_Nmdg\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: tMrHvPksLmvWkVZ_kSwC9g\" \\\n\t-H \"Expiry: 1459509342\" \\\n\t-H \"Uid: 80domenic@feeney.biz\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/admin/settings\" -d 'settings[tax_in_percentage]=150&settings[default_delivery_cost]=120' -X PUT \\\n\t-H \"Access-Token: K85x5doEVFUl2TYmjgKPgw\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: YfF6oT_Bp3WNDVU49wtX2g\" \\\n\t-H \"Expiry: 1460076334\" \\\n\t-H \"Uid: 80felton.von@fahey.io\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

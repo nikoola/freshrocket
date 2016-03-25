@@ -7,7 +7,7 @@ module Client
 
 			helper = OffsitePayments::Integrations::Citrus::Helper.new(
 				@order.id, CITRUS[:access_key],
-				amount: @order.total_price, currency: 'USD', #TODO what currency
+				amount: @order.total_price, currency: 'INR',
 				credential2: CITRUS[:secret_key],
 				credential3: CITRUS[:vanity_url],
 				return_url:  CITRUS[:return_url]

@@ -19,11 +19,11 @@
       "request_path": "deliver/orders/3",
       "request_body": "order[is_paid]=true",
       "request_headers": {
-        "Access-Token": "sJl1pMkbKTEoFwX5Axuknw",
+        "Access-Token": "bbJBWAHPIk9q2vaWyrHaaw",
         "Token-Type": "Bearer",
-        "Client": "_QydCeC1HrDrNAg6fQBRdA",
-        "Expiry": "1459509355",
-        "Uid": "187charity@andersonlowe.com",
+        "Client": "hX10gIhXFmP-GX5i1y6zJw",
+        "Expiry": "1460076349",
+        "Uid": "189brycen@grimeshudson.biz",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -33,21 +33,21 @@
       "request_content_type": "application/x-www-form-urlencoded",
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\n  \"id\": 3,\n  \"user_id\": 6,\n  \"status\": \"unconfirmed\",\n  \"created_at\": \"2016-03-18T11:15:55.836Z\",\n  \"confirmed_at\": null,\n  \"approved_at\": null,\n  \"dispacthed_at\": null,\n  \"delivered_at\": null,\n  \"canceled_at\": null,\n  \"pure_product_price\": \"27.0\",\n  \"tax\": \"1.35\",\n  \"delivery_charge\": \"200.0\",\n  \"total_price\": \"228.35\",\n  \"coupon_code\": null,\n  \"delivery_boy_id\": 1,\n  \"delivery_boy_phone\": \"8591953196\",\n  \"wanted_time\": null,\n  \"wanted_date\": null,\n  \"payment_type\": \"cash\",\n  \"is_paid\": true,\n  \"feedback\": null,\n  \"comment\": null,\n  \"source_type\": null\n}",
+      "response_body": "{\n  \"id\": 3,\n  \"user_id\": 6,\n  \"status\": \"unconfirmed\",\n  \"created_at\": \"2016-03-25T00:45:49.241Z\",\n  \"confirmed_at\": null,\n  \"approved_at\": null,\n  \"dispacthed_at\": null,\n  \"delivered_at\": null,\n  \"canceled_at\": null,\n  \"pure_product_price\": \"27.0\",\n  \"tax\": \"1.35\",\n  \"delivery_charge\": \"200.0\",\n  \"total_price\": \"228.35\",\n  \"coupon_code\": null,\n  \"delivery_boy_id\": 1,\n  \"delivery_boy_phone\": \"9690759841\",\n  \"wanted_time\": null,\n  \"wanted_date\": null,\n  \"payment_type\": \"cash\",\n  \"is_paid\": true,\n  \"feedback\": null,\n  \"comment\": null,\n  \"source_type\": null\n}",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"e4686576822d936ab447cbc42d1dbee6\"",
+        "ETag": "W/\"f8734321ee157b011c04fcf56a0993f8\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=S0hzUEdrdmhKWC96RmJ5cXhONXF2ZlY4WXNnNUVXM09IcHlrYnlXRngrNDNEYUFWR3FPVkpLQXJiREFCbVIwamNPb2grcFNmd0h4YjA2T2Z0S1lJZ2FiR2thWVhnUXNOUDNTZUgwQkZOMFhoUEs5Q3p6TS93TGZlUHB1WGxFSHZJelRDa0s1cXZmZGpvdVE3SVgxMzVWV2wwdnpjNWx2cVlLQmZzeHkyL3F5SnZPMnhYdjkrVEdiWlh5Vkh3b1JRLS1MZkhEdGJaYUFIUzFwMDlydklZdE53PT0%3D--5ec5e0e247c1c86e26cb078cb61b583aee708c37; path=/; HttpOnly",
-        "X-Request-Id": "62d31dab-10c9-4b6f-a3e5-a049cd736c8a",
-        "X-Runtime": "0.085515",
+        "Set-Cookie": "_session_id=ZUloa1pqWWt4V3EwQ01VMW9ra1d1cVNzVGhwUXRvTVFablhuYks3OHJHZVY3VWxZVm9TZ0syMHBaMXJTdktvUzlhTld6YlJoR1VnZUkxck4xSklCdGZVdGtQaXp6TkNVdFdUalpuYmczaVVweTRzZmNwUmpKd1VPVlI4bmVSd0t3QS9qYjlZTkZ5OVE2aWJjOHFSTnBRV2JFZ01SY0hYeGVHVTdsZFRQNnF2Y0VHblVpdnU3SkdIL3FxOVlnL1VlLS1pNlB2eGt2b3Jrb29IbmU4WEhCM2l3PT0%3D--2d692e7a119fdf7f4508b3d092cb8429231e1065; path=/; HttpOnly",
+        "X-Request-Id": "814604c5-b2c0-434d-842a-58d87415b9a2",
+        "X-Runtime": "0.087114",
         "Content-Length": "470"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000deliver/orders/3\" -d 'order[is_paid]=true' -X PUT \\\n\t-H \"Access-Token: sJl1pMkbKTEoFwX5Axuknw\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: _QydCeC1HrDrNAg6fQBRdA\" \\\n\t-H \"Expiry: 1459509355\" \\\n\t-H \"Uid: 187charity@andersonlowe.com\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000deliver/orders/3\" -d 'order[is_paid]=true' -X PUT \\\n\t-H \"Access-Token: bbJBWAHPIk9q2vaWyrHaaw\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: hX10gIhXFmP-GX5i1y6zJw\" \\\n\t-H \"Expiry: 1460076349\" \\\n\t-H \"Uid: 189brycen@grimeshudson.biz\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

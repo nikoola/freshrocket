@@ -19,11 +19,11 @@
       "request_path": "/admin/addresses?active=0",
       "request_body": null,
       "request_headers": {
-        "Access-Token": "0kGdA98iZi4SE5jCbWo4AQ",
+        "Access-Token": "Qss6X9qBrmCoEGbDgjdhBQ",
         "Token-Type": "Bearer",
-        "Client": "YvKjQcTNQVy7vj5mIz4p8w",
-        "Expiry": "1459509307",
-        "Uid": "6easton.frami@vondoyle.co",
+        "Client": "ZGH5RvDWZz7hlkLkabXBTg",
+        "Expiry": "1460076317",
+        "Uid": "6stanley_schulist@oreilly.io",
         "Host": "example.org",
         "Cookie": ""
       },
@@ -33,21 +33,21 @@
       "request_content_type": null,
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "[\n  {\n    \"id\": 1,\n    \"city_id\": 1,\n    \"user_id\": 1,\n    \"street_and_house\": \"2316 Liam Flats\",\n    \"door_number\": \"5\",\n    \"zip_code\": null,\n    \"active\": false,\n    \"city_name\": \"Conorstad_1\"\n  },\n  {\n    \"id\": 2,\n    \"city_id\": 2,\n    \"user_id\": 2,\n    \"street_and_house\": \"329 Leffler Greens\",\n    \"door_number\": \"5\",\n    \"zip_code\": null,\n    \"active\": false,\n    \"city_name\": \"South Ena_2\"\n  },\n  {\n    \"id\": 3,\n    \"city_id\": 3,\n    \"user_id\": 3,\n    \"street_and_house\": \"296 Mandy Shoals\",\n    \"door_number\": \"5\",\n    \"zip_code\": null,\n    \"active\": false,\n    \"city_name\": \"Lake Zenamouth_3\"\n  }\n]",
+      "response_body": "[\n  {\n    \"id\": 1,\n    \"city_id\": 1,\n    \"user_id\": 1,\n    \"street_and_house\": \"281 Rafaela Junction\",\n    \"door_number\": \"5\",\n    \"zip_code\": null,\n    \"active\": false,\n    \"city_name\": \"Schillerfurt_1\"\n  },\n  {\n    \"id\": 2,\n    \"city_id\": 2,\n    \"user_id\": 2,\n    \"street_and_house\": \"90070 Aidan Villages\",\n    \"door_number\": \"5\",\n    \"zip_code\": null,\n    \"active\": false,\n    \"city_name\": \"Lake Rebeca_2\"\n  },\n  {\n    \"id\": 3,\n    \"city_id\": 3,\n    \"user_id\": 3,\n    \"street_and_house\": \"5090 Tyson Overpass\",\n    \"door_number\": \"5\",\n    \"zip_code\": null,\n    \"active\": false,\n    \"city_name\": \"West Brownborough_3\"\n  }\n]",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"3495efc68bc8b128f2aa19e9220639e8\"",
+        "ETag": "W/\"6c1c0e2a25ac58bf4daeb7c925d7d6c9\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=cVlPRWFIb1dPdzNmT0hVaDE0b1YyWEJSbzh2c3FxUzdrTnBLdCs0QWVzU20xWnFsbzZoeG9pZm5KRFZBZXBrZHE3eHUxNmI1bWVUbzN3ZWowSEkrT2Nxc2lVZHdhQ0swMnF3UTcyR2NBd2xFMll6T1h1alE0Ymk5SVBPdjZ6MHdqUFRmRUlOK3o0UWI4ZUZBNkdDTXdNV05UZlBva1FFMVFxN1IzYTUvSXdXVFo1YS9jUjAyT0FwdXlOU0wyanB0LS13SFlPcEVPMVFPbVZSSCsrYXRZdG1nPT0%3D--0d2256077874648dd559e26387ae44c735365a6a; path=/; HttpOnly",
-        "X-Request-Id": "a61e5a1b-2fd4-4e90-95f9-3938af73749f",
-        "X-Runtime": "0.129697",
-        "Content-Length": "445"
+        "Set-Cookie": "_session_id=QlR4V0k5dDd5OUp6cy8xMmRpbTRualdoRXNZZElxYzlCeXBNbGdrV3BMTUVIVW9RS29GSStGaDlnK3dnb0FydGNWR1ptSmV2NWUrZThORnJjWmxBSC9wSHFUYXU0UTBTNHlMZXoyYUpWSGZ2Q3JYNGFmVkg5elRrdUZXVitsU1BNM2dRM1Y5N1lMUTdNdXdkREJ1MkZMNWcrclVmbExxd1cwc0lncTZTZWpyK01OeGs0TFE1dEUxdXpsN1ptNmRXLS12ZFdOTmZmKytGNm92UTE1WXdxMnp3PT0%3D--ed71417a9578be304ba9671ea3854694dbe039dc; path=/; HttpOnly",
+        "X-Request-Id": "9c5199b8-b691-4540-b435-61ef00f145b0",
+        "X-Runtime": "0.272814",
+        "Content-Length": "463"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/admin/addresses?active=0\" -X GET \\\n\t-H \"Access-Token: 0kGdA98iZi4SE5jCbWo4AQ\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: YvKjQcTNQVy7vj5mIz4p8w\" \\\n\t-H \"Expiry: 1459509307\" \\\n\t-H \"Uid: 6easton.frami@vondoyle.co\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/admin/addresses?active=0\" -X GET \\\n\t-H \"Access-Token: Qss6X9qBrmCoEGbDgjdhBQ\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: ZGH5RvDWZz7hlkLkabXBTg\" \\\n\t-H \"Expiry: 1460076317\" \\\n\t-H \"Uid: 6stanley_schulist@oreilly.io\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

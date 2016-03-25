@@ -10,6 +10,8 @@ module Client
 			render json: @addresses
 		end
 
+
+
 		# POST /client/addresses
 		def create
 			@address = current_user.addresses.new(address_params)

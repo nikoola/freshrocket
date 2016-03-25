@@ -56,7 +56,7 @@ describe '', type: :request do
 
 
 
-		# puts 'admin creates city' TODO?
+		# puts 'admin creates city' to do?
 		# post '/admin/cities', { city: { name: 'New York' } }, admin_headers
 		# expect_status 201
 		city = City.create name: 'New York'

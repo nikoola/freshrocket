@@ -35,17 +35,17 @@
       "request_content_type": null,
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "[\n  {\n    \"id\": 1,\n    \"name\": \"Zulaufland_95\",\n    \"active\": true,\n    \"areas\": [\n      {\n        \"id\": 1,\n        \"name\": \"Kuvalisburgh_area_2\"\n      }\n    ]\n  },\n  {\n    \"id\": 2,\n    \"name\": \"Kulasbury_96\",\n    \"active\": true,\n    \"areas\": [\n\n    ]\n  },\n  {\n    \"id\": 3,\n    \"name\": \"South Vitoville_97\",\n    \"active\": true,\n    \"areas\": [\n\n    ]\n  },\n  {\n    \"id\": 6,\n    \"name\": \"Karianneshire_100\",\n    \"active\": true,\n    \"areas\": [\n\n    ]\n  }\n]",
+      "response_body": "[\n  {\n    \"id\": 1,\n    \"name\": \"Johnathonview_95\",\n    \"active\": true,\n    \"areas\": [\n      {\n        \"id\": 1,\n        \"name\": \"Lake Moniqueville_area_2\"\n      }\n    ]\n  },\n  {\n    \"id\": 2,\n    \"name\": \"Sethville_96\",\n    \"active\": true,\n    \"areas\": [\n\n    ]\n  },\n  {\n    \"id\": 3,\n    \"name\": \"New Jacinthe_97\",\n    \"active\": true,\n    \"areas\": [\n\n    ]\n  },\n  {\n    \"id\": 6,\n    \"name\": \"Port Zachary_100\",\n    \"active\": true,\n    \"areas\": [\n\n    ]\n  }\n]",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"4f5ee90bb203bd686a73e83d53a3b706\"",
+        "ETag": "W/\"29b563bb962c7308cc5e168656c38da8\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "X-Request-Id": "403a851f-5017-492e-9a1c-8bb1cbc19737",
-        "X-Runtime": "0.014331",
-        "Content-Length": "274"
+        "X-Request-Id": "7d9a1134-fe27-49ea-9988-a67ef92b53b4",
+        "X-Runtime": "0.029402",
+        "Content-Length": "278"
       },
       "response_content_type": "application/json; charset=utf-8",
       "curl": "curl \"http://localhost:3000/cities?include[]=areas&active=1\" -X GET \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""

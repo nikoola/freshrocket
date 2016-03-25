@@ -30,11 +30,11 @@
       "request_path": "/admin/settings",
       "request_body": "settings[tax_in_percentage]=99.0&settings[default_delivery_cost]=115",
       "request_headers": {
-        "Access-Token": "ddH264oBQ0ox9FMsRzA6hA",
+        "Access-Token": "JKJFDIQXKltWinA8RHxizw",
         "Token-Type": "Bearer",
-        "Client": "ULNAqUH3DZFi1dM46yv1rA",
-        "Expiry": "1459509342",
-        "Uid": "79darlene_schultz@grimes.io",
+        "Client": "ucDOFaYqdlDhT78lHjEuQQ",
+        "Expiry": "1460076334",
+        "Uid": "79aric_botsford@greenfelder.org",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -52,13 +52,13 @@
         "Content-Type": "application/json; charset=utf-8",
         "ETag": "W/\"4ddda431891f4279fd1337c4e6d39d32\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=blZHYWY3S2dBTkkrdlpJRUxyZ1ZNaHJOQWtpY3ozcDZOVnBYcEhBeTlPQVkrU2V2eUNsOUpyZS9OTzFVOUlXNWtXZ3dSWGNsMkkvRUZjb0QwQVhCazB2dWhnVjhNbjZEcklPS1dScE5YbVBIY0U2dVNDVHJyaThNY1FzTUJUQUtUQ0ZEQ2ZwT3pYSXlhdlNhcHFrb0NpZ01FM2lOSjV1NTdLU05Bb0w3UTNMZi9sMUxvMzBPRnA2WDdTN3BvZTVhLS1mYlFNSUhoUUw1b0U0Z0p0Q1ZaTStnPT0%3D--9858f960d90d8561c93cff8fc81d02322b6f58dd; path=/; HttpOnly",
-        "X-Request-Id": "c8919722-2f60-4d96-a2bf-61e6d5b7fafe",
-        "X-Runtime": "0.079893",
+        "Set-Cookie": "_session_id=eldLQnRtd25GY3pMaFA2MFErcmRyZ3ZRRlU5bE43bmRMaDBOQTBKcGNaeDE3TkxoMVJzK25oK1FVVHhEUFRzNU1scnpWdkFnYUdVdGZaRHF1U3lwM0NRQW5qMHNBZkJUNVBrbTRQU3NhVEVFQjEwaS85d2QyV2cvS3h1Y3pGZVJCMURiZnJ2bWZ0bjU3UDYyaktGRzBmZHRNaENucnI0dGNuUDBXci8wbkJJelZsL2F4cCsxZDlXdW1MYVhPdEdaLS1TQy9yaDBKdDVLc0Rmc1dwYlJNY0tnPT0%3D--85b4607ac6e2b0f5b1f41f8c81eca8b11ce0eeef; path=/; HttpOnly",
+        "X-Request-Id": "1767f43c-d148-42aa-b589-78cb1fd03610",
+        "X-Runtime": "0.079635",
         "Content-Length": "101"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/admin/settings\" -d 'settings[tax_in_percentage]=99.0&settings[default_delivery_cost]=115' -X PUT \\\n\t-H \"Access-Token: ddH264oBQ0ox9FMsRzA6hA\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: ULNAqUH3DZFi1dM46yv1rA\" \\\n\t-H \"Expiry: 1459509342\" \\\n\t-H \"Uid: 79darlene_schultz@grimes.io\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/admin/settings\" -d 'settings[tax_in_percentage]=99.0&settings[default_delivery_cost]=115' -X PUT \\\n\t-H \"Access-Token: JKJFDIQXKltWinA8RHxizw\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: ucDOFaYqdlDhT78lHjEuQQ\" \\\n\t-H \"Expiry: 1460076334\" \\\n\t-H \"Uid: 79aric_botsford@greenfelder.org\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

@@ -1,5 +1,4 @@
 class ClientMailer < ApplicationMailer
-	default from: 'notifications@example.com' #TODO
 
 	def order_summary(order)
 		@order = order

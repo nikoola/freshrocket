@@ -16,11 +16,11 @@
       "request_path": "/admin/coupons",
       "request_body": null,
       "request_headers": {
-        "Access-Token": "dSI3en8YeX2WqpCJWUxrgg",
+        "Access-Token": "8HpBiGiZtkXuZpvhsIxn8Q",
         "Token-Type": "Bearer",
-        "Client": "mRVp7Pha5_CdFHNjKOhxCA",
-        "Expiry": "1459509328",
-        "Uid": "18lola@reichertdoyle.co",
+        "Client": "FPmyA-P5yviGM6aTHMN9DQ",
+        "Expiry": "1460076325",
+        "Uid": "18heidi_hettinger@ziemann.info",
         "Host": "example.org",
         "Cookie": ""
       },
@@ -29,21 +29,21 @@
       "request_content_type": null,
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "[\n  {\n    \"id\": 1,\n    \"name\": \"red\",\n    \"code\": \"43331\",\n    \"discount\": 76\n  },\n  {\n    \"id\": 2,\n    \"name\": \"red\",\n    \"code\": \"65802\",\n    \"discount\": 25\n  },\n  {\n    \"id\": 3,\n    \"name\": \"red\",\n    \"code\": \"17733\",\n    \"discount\": 3\n  },\n  {\n    \"id\": 4,\n    \"name\": \"red\",\n    \"code\": \"36634\",\n    \"discount\": 82\n  }\n]",
+      "response_body": "[\n  {\n    \"id\": 1,\n    \"name\": \"red\",\n    \"code\": \"61651\",\n    \"discount\": 1\n  },\n  {\n    \"id\": 2,\n    \"name\": \"red\",\n    \"code\": \"83892\",\n    \"discount\": 37\n  },\n  {\n    \"id\": 3,\n    \"name\": \"red\",\n    \"code\": \"54903\",\n    \"discount\": 96\n  },\n  {\n    \"id\": 4,\n    \"name\": \"red\",\n    \"code\": \"18554\",\n    \"discount\": 46\n  }\n]",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"f56a7b1f4f4f8333e74ada1ab9f44fa3\"",
+        "ETag": "W/\"35c00e1e3d986348abc8701d0c813052\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=MUR1SmJQS3htRmNFK1pKTmlyYlc5YllrRGxMWkZUMnlLdFlPeGRya05CMFM4NzJMTHhuNm15K084VENkeXp0aFFtczU3TUNXZnNqR2dIODFVY2dJeGZCYW1YMUhvUE5yemdENjNHajdhcHdOS09zRzFQemo5ZFBMOHlwTjZhR3RsbFpIL3hpZkN2eUJsMmtjeGNuYnhhRkphczBqbmRtTThXc21sSWFrMGh5VWZ5dGVKTi9DbEdtTk8zREVRWmlHLS1wa2VTbXdvb05iWWtTZW5zRWlnSklBPT0%3D--e904347e0fdbd014234d7ae03e1057898a78156a; path=/; HttpOnly",
-        "X-Request-Id": "175cb44b-2da9-408a-b5a9-c50410478a1f",
-        "X-Runtime": "0.087403",
+        "Set-Cookie": "_session_id=Z3FOMmtjY0NjWjVDWVc1U3BXbFE3SmhGU25Wb2ZFOTQ3dkRTMUVDcDNpT0F3VHhJSGp4cXI5WnZyamE5YjZTcGxsTFNEd1hwSjNURFdDOHpzNEdRdERPMTRPdjA4MXJyRmk4S3hiYUZXdHJVdlVha2djT2VRN0d6RFZXcTNQMUhoWHExN2Jzd1JCOUkzUXA1MjV0NkVsV3ZZWXU3UklSMG05bG1VcWJRQ2RBWWxOZGYzZ0FJVEtxRlJtWVc2bS83LS1oK1psMVZxcW9xelBLaWI4bEFmRjNnPT0%3D--545923e1eccdd2880a6049e393d1d62014446e35; path=/; HttpOnly",
+        "X-Request-Id": "0aa065f2-1349-4ce0-9242-a9dfeb95d440",
+        "X-Runtime": "0.122687",
         "Content-Length": "204"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/admin/coupons\" -X GET \\\n\t-H \"Access-Token: dSI3en8YeX2WqpCJWUxrgg\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: mRVp7Pha5_CdFHNjKOhxCA\" \\\n\t-H \"Expiry: 1459509328\" \\\n\t-H \"Uid: 18lola@reichertdoyle.co\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/admin/coupons\" -X GET \\\n\t-H \"Access-Token: 8HpBiGiZtkXuZpvhsIxn8Q\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: FPmyA-P5yviGM6aTHMN9DQ\" \\\n\t-H \"Expiry: 1460076325\" \\\n\t-H \"Uid: 18heidi_hettinger@ziemann.info\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

@@ -27,17 +27,17 @@
       "request_content_type": null,
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\n  \"id\": 1,\n  \"name\": \"Lake Olemouth_101\",\n  \"active\": true,\n  \"areas\": [\n    {\n      \"id\": 1,\n      \"name\": \"Clintchester_area_3\"\n    },\n    {\n      \"id\": 2,\n      \"name\": \"Lake Vickiechester_area_4\"\n    },\n    {\n      \"id\": 3,\n      \"name\": \"Vivianneburgh_area_5\"\n    }\n  ]\n}",
+      "response_body": "{\n  \"id\": 1,\n  \"name\": \"Aufderharhaven_101\",\n  \"active\": true,\n  \"areas\": [\n    {\n      \"id\": 1,\n      \"name\": \"East Maynard_area_3\"\n    },\n    {\n      \"id\": 2,\n      \"name\": \"Harrisonchester_area_4\"\n    },\n    {\n      \"id\": 3,\n      \"name\": \"East Freda_area_5\"\n    }\n  ]\n}",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"40bc0f8f659d444e74bfb65394b5d1c8\"",
+        "ETag": "W/\"a2b70b494180c99df78ec43004e21719\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "X-Request-Id": "a4f92855-e528-442c-b8fa-d7b24ef58b6b",
-        "X-Runtime": "0.003218",
-        "Content-Length": "180"
+        "X-Request-Id": "e71f1aa8-464e-4464-8288-07a71d008b22",
+        "X-Runtime": "0.003708",
+        "Content-Length": "175"
       },
       "response_content_type": "application/json; charset=utf-8",
       "curl": "curl \"http://localhost:3000/cities/1?include[]=areas\" -X GET \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
