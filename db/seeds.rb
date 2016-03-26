@@ -10,7 +10,7 @@ area_names = ["TRICHY ROAD", "ONDIPUDUR", "VASANTHAMILL", "NEELIKONAMPALAYAM", "
 
 puts 'creating cities'
 city_1 = FactoryGirl.create :city, name: 'Helsinki'
-city_2 = FactoryGirl.create_list :city, name: 'Paris'
+city_2 = FactoryGirl.create :city, name: 'Paris'
 
 puts 'creating areas'
 city = City.create!(name: city_name)
