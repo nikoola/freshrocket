@@ -11,8 +11,7 @@ resource 'categories', type: :request do
 			product = FactoryGirl.create :product, city_id: city.id
 
 			category = FactoryGirl.create :category
-			category.products = [product]
-			category.save!
+			category.products << product
 
 			FactoryGirl.create_list :category, 3
 

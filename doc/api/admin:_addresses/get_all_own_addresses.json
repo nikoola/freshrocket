@@ -19,11 +19,11 @@
       "request_path": "/admin/addresses?active=0",
       "request_body": null,
       "request_headers": {
-        "Access-Token": "Qss6X9qBrmCoEGbDgjdhBQ",
+        "Access-Token": "f5RsKYhWR9jDCmpDS825uQ",
         "Token-Type": "Bearer",
-        "Client": "ZGH5RvDWZz7hlkLkabXBTg",
-        "Expiry": "1460076317",
-        "Uid": "6stanley_schulist@oreilly.io",
+        "Client": "sEf-VzUJFox_w1s6-RKf2A",
+        "Expiry": "1460491396",
+        "Uid": "6werner.stehr@simonis.com",
         "Host": "example.org",
         "Cookie": ""
       },
@@ -33,21 +33,21 @@
       "request_content_type": null,
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "[\n  {\n    \"id\": 1,\n    \"city_id\": 1,\n    \"user_id\": 1,\n    \"street_and_house\": \"281 Rafaela Junction\",\n    \"door_number\": \"5\",\n    \"zip_code\": null,\n    \"active\": false,\n    \"city_name\": \"Schillerfurt_1\"\n  },\n  {\n    \"id\": 2,\n    \"city_id\": 2,\n    \"user_id\": 2,\n    \"street_and_house\": \"90070 Aidan Villages\",\n    \"door_number\": \"5\",\n    \"zip_code\": null,\n    \"active\": false,\n    \"city_name\": \"Lake Rebeca_2\"\n  },\n  {\n    \"id\": 3,\n    \"city_id\": 3,\n    \"user_id\": 3,\n    \"street_and_house\": \"5090 Tyson Overpass\",\n    \"door_number\": \"5\",\n    \"zip_code\": null,\n    \"active\": false,\n    \"city_name\": \"West Brownborough_3\"\n  }\n]",
+      "response_body": "[\n  {\n    \"id\": 1,\n    \"city_id\": 1,\n    \"user_id\": 1,\n    \"street_and_house\": \"28637 Hipolito Knoll\",\n    \"door_number\": \"5\",\n    \"zip_code\": null,\n    \"active\": false,\n    \"city_name\": \"Delhi\"\n  },\n  {\n    \"id\": 2,\n    \"city_id\": 2,\n    \"user_id\": 2,\n    \"street_and_house\": \"8914 Auer Camp\",\n    \"door_number\": \"5\",\n    \"zip_code\": null,\n    \"active\": false,\n    \"city_name\": \"Bengaluru\"\n  },\n  {\n    \"id\": 3,\n    \"city_id\": 3,\n    \"user_id\": 3,\n    \"street_and_house\": \"57823 Powlowski Lakes\",\n    \"door_number\": \"5\",\n    \"zip_code\": null,\n    \"active\": false,\n    \"city_name\": \"Ahmedabad\"\n  }\n]",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"6c1c0e2a25ac58bf4daeb7c925d7d6c9\"",
+        "ETag": "W/\"74ca666a388185684c2b3fb7b7db650f\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=QlR4V0k5dDd5OUp6cy8xMmRpbTRualdoRXNZZElxYzlCeXBNbGdrV3BMTUVIVW9RS29GSStGaDlnK3dnb0FydGNWR1ptSmV2NWUrZThORnJjWmxBSC9wSHFUYXU0UTBTNHlMZXoyYUpWSGZ2Q3JYNGFmVkg5elRrdUZXVitsU1BNM2dRM1Y5N1lMUTdNdXdkREJ1MkZMNWcrclVmbExxd1cwc0lncTZTZWpyK01OeGs0TFE1dEUxdXpsN1ptNmRXLS12ZFdOTmZmKytGNm92UTE1WXdxMnp3PT0%3D--ed71417a9578be304ba9671ea3854694dbe039dc; path=/; HttpOnly",
-        "X-Request-Id": "9c5199b8-b691-4540-b435-61ef00f145b0",
-        "X-Runtime": "0.272814",
-        "Content-Length": "463"
+        "Set-Cookie": "_session_id=ZzFIRXpMdEo5SjNZV3V6d0ZFRDYvQ2gvNEs4SWxuLzZvSW1lRWdKcm5qZEgwZlZ2ZEpMUktGSUZtS0t5VVNPZ1B2aEl1ZGNKVVhvdW0xakNYdzlLN21jOTFkTG9zaG1aN2Z4NlhjYjJwOGZWSjdGMEJsMWVQT3JHdnpxUHhLSDhTaGJZTTdFbmZiaVl1cEtMazFRMWZ4aXk2dDZzV2lEMG9YTmF6UnhGVktYcmY0cmdvY016dVJ4SVM4ZDR6czNmLS0rK1R5Rld4MGYzMkJQaWlsZnNYQ0VRPT0%3D--6fc41f2fdfc66aa09b04868af8ca9fd0c4f94157; path=/; HttpOnly",
+        "X-Request-Id": "d6a8a4e1-298f-4399-b1f9-df1ed2ef3880",
+        "X-Runtime": "0.132248",
+        "Content-Length": "436"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/admin/addresses?active=0\" -X GET \\\n\t-H \"Access-Token: Qss6X9qBrmCoEGbDgjdhBQ\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: ZGH5RvDWZz7hlkLkabXBTg\" \\\n\t-H \"Expiry: 1460076317\" \\\n\t-H \"Uid: 6stanley_schulist@oreilly.io\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/admin/addresses?active=0\" -X GET \\\n\t-H \"Access-Token: f5RsKYhWR9jDCmpDS825uQ\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: sEf-VzUJFox_w1s6-RKf2A\" \\\n\t-H \"Expiry: 1460491396\" \\\n\t-H \"Uid: 6werner.stehr@simonis.com\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

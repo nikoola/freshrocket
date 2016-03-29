@@ -16,11 +16,11 @@
       "request_path": "/client",
       "request_body": null,
       "request_headers": {
-        "Access-Token": "NOfSksMPBHEvK9r5uvz6SQ",
+        "Access-Token": "4zVwy9DDwDhGsa_h5GFvCg",
         "Token-Type": "Bearer",
-        "Client": "ksM8PocSWY2rLK0Hh0plOQ",
-        "Expiry": "1460076348",
-        "Uid": "173javonte@berge.name",
+        "Client": "_1_TVzjmxkK3YBMmrn221w",
+        "Expiry": "1460491431",
+        "Uid": "173hilton@goodwin.co",
         "Host": "example.org",
         "Cookie": ""
       },
@@ -29,21 +29,21 @@
       "request_content_type": null,
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\n  \"id\": 5,\n  \"first_name\": \"Jamal\",\n  \"last_name\": \"Kreiger\",\n  \"email\": \"173javonte@berge.name\",\n  \"phone\": \"8506782780\",\n  \"is_verified\": false,\n  \"provider\": \"email\",\n  \"uid\": \"173javonte@berge.name\",\n  \"created_at\": \"2016-03-25T00:45:48.014Z\",\n  \"abilities\": {\n    \"orders\": 0,\n    \"products\": 0,\n    \"users\": 0,\n    \"categories\": 0,\n    \"coupons\": 0,\n    \"settings\": 0,\n    \"cities\": 0,\n    \"delivery_boy\": 0\n  }\n}",
+      "response_body": "{\n  \"id\": 5,\n  \"first_name\": \"Cary\",\n  \"last_name\": \"Mueller\",\n  \"email\": \"173hilton@goodwin.co\",\n  \"phone\": \"4080267172\",\n  \"is_verified\": false,\n  \"provider\": \"email\",\n  \"uid\": \"173hilton@goodwin.co\",\n  \"created_at\": \"2016-03-29T20:03:51.337Z\",\n  \"abilities\": {\n    \"orders\": 0,\n    \"products\": 0,\n    \"users\": 0,\n    \"categories\": 0,\n    \"coupons\": 0,\n    \"settings\": 0,\n    \"cities\": 0,\n    \"delivery_boy\": 0\n  }\n}",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"e1e366c297750890368eec1da54ccd41\"",
+        "ETag": "W/\"f1598e810aaa1e71ff10a5e480789038\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=TFFHeVd6UTVFdFNkdmJPejRzaUtYZXhsZks1d0paMkZXWDVmeERXWEJrWHMrVXVqSDZxbVNoWWNRNy90OVBqN1haMDhMYklQejZadmVhZTNBZmJHQyswK1pnYjhCSlVoQWNnZzNQRlU1eGQvOFhkckc4Y0dLUldCVTBCTWZndjc1NVBjTjVON1VxM0lYUUFPUDJJQzMwSGFWbExBSDVtdzFXSGZPSXlxV242M2tLSU51TDdGalBNQ0dPVFQyRGdZLS0xOEgzZDRFdk1VNWdaaldURTM3bzVBPT0%3D--b343cf0727216a3a677c7369989888106599581b; path=/; HttpOnly",
-        "X-Request-Id": "870dba8a-f45b-40c6-90b2-6a1c522c51ec",
-        "X-Runtime": "0.090562",
-        "Content-Length": "329"
+        "Set-Cookie": "_session_id=aGNEY1FrbWtqTjZzaFE4REJhRkNjQlgxVGQrUmJWdnB4SWxMUjh1bC8yeENxT2lady9zanh1SlRXVlg4ZEVKV0hzKzVCeFg2aURUY1RJV0dkQ3RXQnBscW1VeVBZNzJSNUdaMVp4Y1RaUEhwMEpvOEhlTG9TVUJXSCtkdUVvRG5VaUplQ0hPbUdueVNDaEpQcUZmREwrS0pjS2VQTUQ2aTRQQmFXcDlUM2VDeWZmSkNPZUlZSVZQQlhrMXBFM3NQLS1Mdi83OW1YQWRrRlg2TkJmVWtXTUhnPT0%3D--9498a21ffe81449abf2e84dbdd51975fada03c05; path=/; HttpOnly",
+        "X-Request-Id": "fd7d121c-4845-4312-84a7-45d03ee59b6a",
+        "X-Runtime": "0.084155",
+        "Content-Length": "326"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/client\" -X GET \\\n\t-H \"Access-Token: NOfSksMPBHEvK9r5uvz6SQ\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: ksM8PocSWY2rLK0Hh0plOQ\" \\\n\t-H \"Expiry: 1460076348\" \\\n\t-H \"Uid: 173javonte@berge.name\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/client\" -X GET \\\n\t-H \"Access-Token: 4zVwy9DDwDhGsa_h5GFvCg\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: _1_TVzjmxkK3YBMmrn221w\" \\\n\t-H \"Expiry: 1460491431\" \\\n\t-H \"Uid: 173hilton@goodwin.co\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

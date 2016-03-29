@@ -39,13 +39,13 @@
     {
       "request_method": "PUT",
       "request_path": "/admin/cities/1",
-      "request_body": "city[name]=Jamesonton_11&city[areas_attributes][][id]=1&city[areas_attributes][][_destroy]=1",
+      "request_body": "city[name]=Kanpur&city[areas_attributes][][id]=1&city[areas_attributes][][_destroy]=1",
       "request_headers": {
-        "Access-Token": "Ww-VhgHLkkIQna46xR_4jQ",
+        "Access-Token": "BCSd3CL050VN9ESE1x5-aw",
         "Token-Type": "Bearer",
-        "Client": "ES4BJYLdhQm3iHSDt0yPGQ",
-        "Expiry": "1460076324",
-        "Uid": "16linda_cruickshank@turnerpadberg.biz",
+        "Client": "PYWR3T-vNkdSKbTW5-mdVg",
+        "Expiry": "1460491404",
+        "Uid": "16david.ward@mccullough.co",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -55,21 +55,21 @@
       "request_content_type": "application/x-www-form-urlencoded",
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\n  \"id\": 1,\n  \"name\": \"Jamesonton_11\",\n  \"active\": true\n}",
+      "response_body": "{\n  \"id\": 1,\n  \"name\": \"Kanpur\",\n  \"active\": true\n}",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"9317302595b61deef44234111535f803\"",
+        "ETag": "W/\"8a0b7d80f70bf929772e5757982f28a4\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=SW0yR3ZScWJBZWtpUllhckRMejJGY2N6OFhvUVdoMHN3dktZMlkrS2FWbW9UUitNRnZjeTVpZXdXeUFDZ2hURkdTNWs2RWlkV2FrQTY5d0kwekk3YXhIbGJxQUowUTMrVzVvTkYrbm12U1hvbWQ1cWdOUi9UcW5TUmgva2c2cUNWVERFL0dZWDV2QmQ4R2Q5Q01ldnBmSHM0T0o4Q3FSU3dmcWRHejE4Mys2bmIrMzBpSmhuQzJ1czhsKzZKR1hELS04bmFkNDBrWkNuRk4vTnNoY0dEYnVRPT0%3D--72e7199b377b12f05548c63b3f257b5af9f37774; path=/; HttpOnly",
-        "X-Request-Id": "15f7a5f1-628a-4c23-9890-6b8084d5bb59",
-        "X-Runtime": "0.081997",
-        "Content-Length": "45"
+        "Set-Cookie": "_session_id=MDVIRXlWYnF4SjNMeDFrbWw0VFVvcGlUazhoZiswdno4bXhhSGhDOWtpN0xPNWYwc0FrbFVrLzJINlgwZ3FBWFBEU3laRjZCaktMQkhxMUp6UitpZEswWXRiNDZHMUU5QzVoYjZ6WUJlOEI5azFLSDRTcXNsaXRVS0VjRU14VU1qR1VNOVlRbzBjUEkxZklKYmNwbE1xalA4WW1iMlFUc0JsY3ZoQnp6a3QvZk0vUWhLK3EzUUtFVEZZWktxTzRILS1DOUZTaVZGeHJ6VFFaN08zczErTzBRPT0%3D--e77508b66c7f9fdd0a522146535cb6d3c17fc542; path=/; HttpOnly",
+        "X-Request-Id": "231e4e1f-9287-412d-a597-74f03e98c18b",
+        "X-Runtime": "0.087859",
+        "Content-Length": "38"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/admin/cities/1\" -d 'city[name]=Jamesonton_11&city[areas_attributes][][id]=1&city[areas_attributes][][_destroy]=1' -X PUT \\\n\t-H \"Access-Token: Ww-VhgHLkkIQna46xR_4jQ\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: ES4BJYLdhQm3iHSDt0yPGQ\" \\\n\t-H \"Expiry: 1460076324\" \\\n\t-H \"Uid: 16linda_cruickshank@turnerpadberg.biz\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/admin/cities/1\" -d 'city[name]=Kanpur&city[areas_attributes][][id]=1&city[areas_attributes][][_destroy]=1' -X PUT \\\n\t-H \"Access-Token: BCSd3CL050VN9ESE1x5-aw\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: PYWR3T-vNkdSKbTW5-mdVg\" \\\n\t-H \"Expiry: 1460491404\" \\\n\t-H \"Uid: 16david.ward@mccullough.co\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

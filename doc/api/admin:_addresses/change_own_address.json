@@ -16,11 +16,11 @@
       "request_path": "/admin/addresses/1",
       "request_body": "address[street_and_house]=good",
       "request_headers": {
-        "Access-Token": "rTitRQbX_D32-Kn4a0mdVw",
+        "Access-Token": "CPZZgVNR6WnuCrqQboYWSQ",
         "Token-Type": "Bearer",
-        "Client": "K5lYgop_PpYYth4yH1GZuA",
-        "Expiry": "1460076317",
-        "Uid": "8aida.mcglynn@kirlin.info",
+        "Client": "XVhXH5Jv_PNnbdd4GY5Pcg",
+        "Expiry": "1460491397",
+        "Uid": "8veda@olson.net",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -30,21 +30,21 @@
       "request_content_type": "application/x-www-form-urlencoded",
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\n  \"id\": 1,\n  \"city_id\": 1,\n  \"user_id\": 1,\n  \"street_and_house\": \"good\",\n  \"door_number\": \"5\",\n  \"zip_code\": null,\n  \"active\": true,\n  \"city_name\": \"Lake Staceybury_7\"\n}",
+      "response_body": "{\n  \"id\": 1,\n  \"city_id\": 1,\n  \"user_id\": 1,\n  \"street_and_house\": \"good\",\n  \"door_number\": \"5\",\n  \"zip_code\": null,\n  \"active\": true,\n  \"city_name\": \"Pune\"\n}",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"9ba384348b9e6c12ea1a0e9df8bb1f47\"",
+        "ETag": "W/\"c8020b6cc54da26011e70ed91a0a740c\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=K051ZVBseWQ0NTNQOGJXeUZqVlB3dmEzR21lOEFTdXdkaTVoUEVqUzdLMzFFdFYvVnI5aWl2Z1pzakV0UENzRklBanpRbm45akVvdXo2VGFYYVk3cmdvM1RIOU1pU2xiRVFTT3ZaM1g1L2srY3pCT2QxODVicVZWdHFyVnBMQTYvSlhiSnhlcTB0WXp5L2NMdjV4UXZlVFBWUDVUWlJZRlYwWldQeGlDM0oyVmt6Q3F6NXlDb3N2T0xNbW5Rb3hsLS1uS1VnUVhObmdYU2dWMWV1eGYwRm5BPT0%3D--887869502852427e927d07ead018f6736a759e57; path=/; HttpOnly",
-        "X-Request-Id": "cfe80288-03f4-4d0a-a61a-0c8018920f23",
-        "X-Runtime": "0.111347",
-        "Content-Length": "138"
+        "Set-Cookie": "_session_id=VzJOcVFJWDEwOXNnbmtRb1JWUmZUSzNPL2JWVDdrRVFaY3dMODdvcWJ6WkVBMk90VjdFWVZjWkdoUnYvNTB5bVlXMHF3UklhTitoMXZYYjRBbERVODdWbE13cklPRUJaRzZRV0h1RWRtRytwMnVkTHVldk9rVXRxL2VFRDFOWWdVTzhpQ0VsWENrSXorYzgyTjhabUtwVmtOM3ZLSXpTMlVQNi8veUNISkdOenlGdXZZTkdOeXhzdjBaSTZ2aTI4LS1BRkpIb3lVb0M4Yy80VDBLRFg4dXdBPT0%3D--54fb088ce975515d62e596687db59ec17c132ac7; path=/; HttpOnly",
+        "X-Request-Id": "188029d7-2a81-4e79-a437-ab698d762af5",
+        "X-Runtime": "0.120254",
+        "Content-Length": "125"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/admin/addresses/1\" -d 'address[street_and_house]=good' -X PUT \\\n\t-H \"Access-Token: rTitRQbX_D32-Kn4a0mdVw\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: K5lYgop_PpYYth4yH1GZuA\" \\\n\t-H \"Expiry: 1460076317\" \\\n\t-H \"Uid: 8aida.mcglynn@kirlin.info\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/admin/addresses/1\" -d 'address[street_and_house]=good' -X PUT \\\n\t-H \"Access-Token: CPZZgVNR6WnuCrqQboYWSQ\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: XVhXH5Jv_PNnbdd4GY5Pcg\" \\\n\t-H \"Expiry: 1460491397\" \\\n\t-H \"Uid: 8veda@olson.net\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

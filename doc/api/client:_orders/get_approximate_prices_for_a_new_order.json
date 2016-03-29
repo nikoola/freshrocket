@@ -14,13 +14,13 @@
     {
       "request_method": "POST",
       "request_path": "/client/orders/precalculate_price",
-      "request_body": "order[line_items_attributes][][product_id]=10&order[line_items_attributes][][amount]=1000&order[coupon_code]=62787",
+      "request_body": "order[line_items_attributes][][product_id]=10&order[line_items_attributes][][amount]=1000&order[coupon_code]=18017",
       "request_headers": {
-        "Access-Token": "oYlgK9ZTl0IfXYy0ezt19g",
+        "Access-Token": "UAHMJZcPOl7N2ecddwFMAA",
         "Token-Type": "Bearer",
-        "Client": "gqfx2AdnDN8CF7BJG5W26A",
-        "Expiry": "1460076346",
-        "Uid": "160zoe.goyette@rolfson.com",
+        "Client": "RRcbsD2wbJF_Z69EN31IxQ",
+        "Expiry": "1460491430",
+        "Uid": "160melody@bashirian.name",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -30,21 +30,21 @@
       "request_content_type": "application/x-www-form-urlencoded",
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\n  \"pure_product_price\": \"3000.0\",\n  \"tax\": \"150.0\",\n  \"delivery_charge\": 0,\n  \"coupon_discount\": 83,\n  \"total_price\": \"3067.0\"\n}",
+      "response_body": "{\n  \"pure_product_price\": \"3000.0\",\n  \"tax\": \"150.0\",\n  \"delivery_charge\": 0,\n  \"coupon_discount\": 79,\n  \"total_price\": \"3071.0\"\n}",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"d249f6a25609156dcae4217fe4b4ab44\"",
+        "ETag": "W/\"c2361c5e9778da9b607a487005966486\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=VW9ZODhtZkV1S3pWZmFYb0EzbmR1cmorQnFDVFBPK0lWRThVVEpISnREUlh5ZmdjMTFaY2ZtSVZkZVRveFByRTlYb0d6Ri80dTlmamM0TTlWdjNIODVENWZTd0diTGY2ZHBJQzlWNlR4cmtSY2pZY1hocVN1SldGazVkT3c4RExaYVkwR21CeFVmajhubHlvdGdpdDJSK1lZM0VVK1hXSEdRdjlXS0Voc3dlelpWaWxEQXAvVSs2SVduaE5mYlRvLS02aU1kaC9vQWRxZTgxVWVOZ0VtNitnPT0%3D--b8c263cb8f24f52f9bac0abe96ee1a2d97fdedff; path=/; HttpOnly",
-        "X-Request-Id": "277b877c-9831-44ee-ad6c-02727db78ee2",
-        "X-Runtime": "0.084781",
+        "Set-Cookie": "_session_id=SWRLRWdHVUtXaUpHUDZEam9vMkFaY3lPSzRPaCtzWE1IMXRiWlZyZWpYby9WREV2TExpYWJCOEh1NjJEOTlwQzA1VnFhc3NtUFFYSkJrakpXTnBLeXRPUEx0ek10aE1nQ3FjRXJ6cjRUR1NiVm1LeVRWTTh6anVScjl1RGRuVHA3R3FVbmtDbVNoQVpRWlFWQU9PbTI5TUQ4MFlCM2x2MzdxbnVBZXpQNEh4OWZIKzJpc21kNlVSN0twUERpK3RILS1iUXFhQll0cUZWMHJWQ2RNVTBSZ0hRPT0%3D--fe13da4a22ed3df0d81e88013d592ad163787c28; path=/; HttpOnly",
+        "X-Request-Id": "cdc00a40-ece8-491d-994f-8f49278f7446",
+        "X-Runtime": "0.080683",
         "Content-Length": "109"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/client/orders/precalculate_price\" -d 'order[line_items_attributes][][product_id]=10&order[line_items_attributes][][amount]=1000&order[coupon_code]=62787' -X POST \\\n\t-H \"Access-Token: oYlgK9ZTl0IfXYy0ezt19g\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: gqfx2AdnDN8CF7BJG5W26A\" \\\n\t-H \"Expiry: 1460076346\" \\\n\t-H \"Uid: 160zoe.goyette@rolfson.com\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/client/orders/precalculate_price\" -d 'order[line_items_attributes][][product_id]=10&order[line_items_attributes][][amount]=1000&order[coupon_code]=18017' -X POST \\\n\t-H \"Access-Token: UAHMJZcPOl7N2ecddwFMAA\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: RRcbsD2wbJF_Z69EN31IxQ\" \\\n\t-H \"Expiry: 1460491430\" \\\n\t-H \"Uid: 160melody@bashirian.name\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

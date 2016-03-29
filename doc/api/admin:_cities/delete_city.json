@@ -16,11 +16,11 @@
       "request_path": "/admin/cities/1",
       "request_body": null,
       "request_headers": {
-        "Access-Token": "XntUmdJqC1-W9tYb6U1V-Q",
+        "Access-Token": "oG3UNRc_LGivpoKvDqcbpA",
         "Token-Type": "Bearer",
-        "Client": "k15CA7vvuI46zH70_w1mDQ",
-        "Expiry": "1460076325",
-        "Uid": "17marcos_okeefe@koelpin.name",
+        "Client": "6a8GZAV7M_QbP-_FbJJ-Ew",
+        "Expiry": "1460491404",
+        "Uid": "17sabrina@roobward.info",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -37,13 +37,13 @@
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "text/html",
         "Cache-Control": "no-cache",
-        "Set-Cookie": "_session_id=Y2tqbmJTaWI1M0l0ZDJtbElXc1g3YXo5d1g4ZWkvRnVFQk1lb3ZaZnltQzVxUzZXcHFwTVZ3Q2lCYXFCYzZvRk1oWm9YekRITXRvRVJVTXRuTmpLd3dMRDAvcVJZdjhiTndWeERLRkZkTEZwQWRRYnFpQjR4ZVhJcGZUYWVEenN6emlHU2lkUzRsT3c1aUpJWWY4a21aT2xHVUpGVldtUWh2N2VzWERheGtnWEhpbXFMbnZTSlhoRlVodTFpc3hkLS05ODBHRkVYZzhJbW8zNGdPOU9BYWJ3PT0%3D--6bb19d4b5d2caecf7ad44177a8102b89b6307309; path=/; HttpOnly",
-        "X-Request-Id": "43d3ab79-3f0f-4a9b-8db8-3c3812edf8cd",
-        "X-Runtime": "0.087509",
+        "Set-Cookie": "_session_id=ZGN0TnpKeGV5bzNvYlN1TnRGbC9kTHl0MVZqY1ArR1hLK2dGdzRFQ3RoT0QzSjB3bnJFZWRUVzJCYzZ1cmJWZGMxNVZkempBMGdGd2hBNFl5N0pmOHpjQzQ1ankwMjVPWGozK1dwak4wTkVmbXdpUDFONlVoZ0FrTXF4YmVaa2QyZ0JMTzFOV3l2WHcvckZkbUU2MTRqNGxJVkRVenB0V2ZQZkxMMllJM1B2N3RLYUdiMjhuYkVzWmdsVk9MVHdpLS1KVW1YQXNxd0FNdFBqYXpzUG9ZVUV3PT0%3D--67e5e19b6ac3e0e6214169d675a5a9a820cf134c; path=/; HttpOnly",
+        "X-Request-Id": "004dc2ff-6132-44cd-936a-63de6bfe9494",
+        "X-Runtime": "0.105725",
         "Content-Length": "0"
       },
       "response_content_type": "text/html",
-      "curl": "curl \"http://localhost:3000/admin/cities/1\" -d '' -X DELETE \\\n\t-H \"Access-Token: XntUmdJqC1-W9tYb6U1V-Q\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: k15CA7vvuI46zH70_w1mDQ\" \\\n\t-H \"Expiry: 1460076325\" \\\n\t-H \"Uid: 17marcos_okeefe@koelpin.name\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/admin/cities/1\" -d '' -X DELETE \\\n\t-H \"Access-Token: oG3UNRc_LGivpoKvDqcbpA\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: 6a8GZAV7M_QbP-_FbJJ-Ew\" \\\n\t-H \"Expiry: 1460491404\" \\\n\t-H \"Uid: 17sabrina@roobward.info\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

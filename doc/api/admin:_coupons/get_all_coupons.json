@@ -16,11 +16,11 @@
       "request_path": "/admin/coupons",
       "request_body": null,
       "request_headers": {
-        "Access-Token": "8HpBiGiZtkXuZpvhsIxn8Q",
+        "Access-Token": "7iQHXoxSOffUNjrt-iWk5w",
         "Token-Type": "Bearer",
-        "Client": "FPmyA-P5yviGM6aTHMN9DQ",
-        "Expiry": "1460076325",
-        "Uid": "18heidi_hettinger@ziemann.info",
+        "Client": "7Zqu0dVTsmr9_AUb2Zo5EA",
+        "Expiry": "1460491405",
+        "Uid": "18chaim.torp@torp.io",
         "Host": "example.org",
         "Cookie": ""
       },
@@ -29,21 +29,21 @@
       "request_content_type": null,
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "[\n  {\n    \"id\": 1,\n    \"name\": \"red\",\n    \"code\": \"61651\",\n    \"discount\": 1\n  },\n  {\n    \"id\": 2,\n    \"name\": \"red\",\n    \"code\": \"83892\",\n    \"discount\": 37\n  },\n  {\n    \"id\": 3,\n    \"name\": \"red\",\n    \"code\": \"54903\",\n    \"discount\": 96\n  },\n  {\n    \"id\": 4,\n    \"name\": \"red\",\n    \"code\": \"18554\",\n    \"discount\": 46\n  }\n]",
+      "response_body": "[\n  {\n    \"id\": 1,\n    \"name\": \"red\",\n    \"code\": \"51051\",\n    \"discount\": 56\n  },\n  {\n    \"id\": 2,\n    \"name\": \"red\",\n    \"code\": \"99512\",\n    \"discount\": 33\n  },\n  {\n    \"id\": 3,\n    \"name\": \"red\",\n    \"code\": \"32843\",\n    \"discount\": 70\n  },\n  {\n    \"id\": 4,\n    \"name\": \"red\",\n    \"code\": \"67824\",\n    \"discount\": 3\n  }\n]",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"35c00e1e3d986348abc8701d0c813052\"",
+        "ETag": "W/\"8a922ca146f3306e047453991e8c8e7e\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=Z3FOMmtjY0NjWjVDWVc1U3BXbFE3SmhGU25Wb2ZFOTQ3dkRTMUVDcDNpT0F3VHhJSGp4cXI5WnZyamE5YjZTcGxsTFNEd1hwSjNURFdDOHpzNEdRdERPMTRPdjA4MXJyRmk4S3hiYUZXdHJVdlVha2djT2VRN0d6RFZXcTNQMUhoWHExN2Jzd1JCOUkzUXA1MjV0NkVsV3ZZWXU3UklSMG05bG1VcWJRQ2RBWWxOZGYzZ0FJVEtxRlJtWVc2bS83LS1oK1psMVZxcW9xelBLaWI4bEFmRjNnPT0%3D--545923e1eccdd2880a6049e393d1d62014446e35; path=/; HttpOnly",
-        "X-Request-Id": "0aa065f2-1349-4ce0-9242-a9dfeb95d440",
-        "X-Runtime": "0.122687",
+        "Set-Cookie": "_session_id=RjZnZEpOSXlDejdmSHkxcEV1bjhta3RxV2pEVk5IaW1VY0F3bWhrdzF0MnhxRWhxcmt5Y0h2aFB2dnJkYS9iMTBFdDRLcVJvdHJ0ZEhma25admdQTFpxdUxPVk9WT0s0eittRmlNMGRPVEs4OWt2RFcxSy8vNkV0V3pxdW9Vd1lScVNuRGprY1RCN2FXUHdBNzk0VGlqeVdZdWRrRU9vOUZaU2hyOVE5cXZtSFBLWHM5dVJRcGZTNmljNzkxbkNULS1BRHhSQUlDUVgrYkplQ0NUc1VHdHh3PT0%3D--7654d687cf4bbee233d76f4a6a01115ee276c1a9; path=/; HttpOnly",
+        "X-Request-Id": "7cad0dd9-7128-4722-8a56-a3a1f3dc21f9",
+        "X-Runtime": "0.088406",
         "Content-Length": "204"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/admin/coupons\" -X GET \\\n\t-H \"Access-Token: 8HpBiGiZtkXuZpvhsIxn8Q\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: FPmyA-P5yviGM6aTHMN9DQ\" \\\n\t-H \"Expiry: 1460076325\" \\\n\t-H \"Uid: 18heidi_hettinger@ziemann.info\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/admin/coupons\" -X GET \\\n\t-H \"Access-Token: 7iQHXoxSOffUNjrt-iWk5w\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: 7Zqu0dVTsmr9_AUb2Zo5EA\" \\\n\t-H \"Expiry: 1460491405\" \\\n\t-H \"Uid: 18chaim.torp@torp.io\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

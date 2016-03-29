@@ -16,11 +16,11 @@
       "request_path": "/auth",
       "request_body": "phone",
       "request_headers": {
-        "Access-Token": "5hBaGjUVd6DWaItOokmdeg",
+        "Access-Token": "jIbPW8tdDJejwQgqvFn3Bg",
         "Token-Type": "Bearer",
-        "Client": "wv-FsPYvXXP3PLvOEjwRcQ",
-        "Expiry": "1460076347",
-        "Uid": "171nathan@mullerbatz.org",
+        "Client": "eF4mPVZTuVLVkW4cHEnDGA",
+        "Expiry": "1460491431",
+        "Uid": "171lola@king.org",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -37,13 +37,13 @@
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "application/json; charset=utf-8",
         "Cache-Control": "no-cache",
-        "Set-Cookie": "_session_id=Y2hYd1B3VHBFMDdsbUdoVGpNU2p6Mi9MNkFRdjBnZUpaSmtxYWRVVnI4Sk9YWStyQm1Ka1dpWC9CQ0VyMTJyWjNiL2RDQzd0MSt4OFA5T3RWcVBKVWFFbCtkM2NkcEJnRkNzRWpzay9MZEN0eEFpMlIzemZmV3R6clpnWUcyeXA2elp3U0k5RFhtdHN3L1NBYmR5YTVOYWpZTGpTSmx5V3pxVEx1bFlqaXNTb3MybUUwOVp5TnBTOXFLSlh3S0czLS1KcGpPbG51TUE2ZkNkeEF2bHQ0WUx3PT0%3D--0e68e95727f23146d183320730829d207c7f18da; path=/; HttpOnly",
-        "X-Request-Id": "0b10ea83-28b5-454f-9fa0-1cfca899457b",
-        "X-Runtime": "0.074924",
+        "Set-Cookie": "_session_id=M1UxOFpTc1hWdWswOUpTdmdyeXlVdTlHUzZyWmlUZmR5TE50eEhNTjJFVkdXdUwrYjZ4eDB4YzRHVG0vcFNZOXR6b0tDemFmVktuQ3ZZRlNvU2tFU1gxUCtRa3R0b3VzRGc3Sm96c3VZRWNzL0lxKy9GTTFVOFZoRThiKzFqbnBlallTKzI4bXF0ZGlJT2pQU3B0SG9TV1BSeDAwTTJOZ1ljR1JBcERpVEFFQkwyMENnZlVhNk1OWUpWQlBIWHNVLS1reURxYi8xa2FDRUxaMjVsNDZlYWlBPT0%3D--be57c169e786d153bccb911abc3111afe5d5f6e4; path=/; HttpOnly",
+        "X-Request-Id": "46014165-685a-4c18-a48a-e935a3453524",
+        "X-Runtime": "0.074928",
         "Content-Length": "241"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/auth\" -d 'phone' -X PUT \\\n\t-H \"Access-Token: 5hBaGjUVd6DWaItOokmdeg\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: wv-FsPYvXXP3PLvOEjwRcQ\" \\\n\t-H \"Expiry: 1460076347\" \\\n\t-H \"Uid: 171nathan@mullerbatz.org\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/auth\" -d 'phone' -X PUT \\\n\t-H \"Access-Token: jIbPW8tdDJejwQgqvFn3Bg\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: eF4mPVZTuVLVkW4cHEnDGA\" \\\n\t-H \"Expiry: 1460491431\" \\\n\t-H \"Uid: 171lola@king.org\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

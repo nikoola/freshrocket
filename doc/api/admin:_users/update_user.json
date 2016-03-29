@@ -14,13 +14,13 @@
     {
       "request_method": "PUT",
       "request_path": "/admin/users/1",
-      "request_body": "user[email]=hi%40hi.hey&user[phone]=9199514931",
+      "request_body": "user[email]=hi%40hi.hey&user[phone]=7319611646",
       "request_headers": {
-        "Access-Token": "6Tl_SGHxO7g4AXnFEwuTEg",
+        "Access-Token": "QMxANorVM34kvaKbgMv3VA",
         "Token-Type": "Bearer",
-        "Client": "sObOkRADSwtCzx40v_d6Xw",
-        "Expiry": "1460076336",
-        "Uid": "102taya.okon@lowe.co",
+        "Client": "vfS1IRUTe-RU2pkk1VWzsg",
+        "Expiry": "1460491421",
+        "Uid": "102gennaro.rempel@osinskibahringer.io",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -30,21 +30,21 @@
       "request_content_type": "application/x-www-form-urlencoded",
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\n  \"id\": 1,\n  \"first_name\": \"Rosendo\",\n  \"last_name\": \"Weber\",\n  \"email\": \"hi@hi.hey\",\n  \"phone\": \"9199514931\",\n  \"is_verified\": false,\n  \"provider\": \"email\",\n  \"uid\": \"hi@hi.hey\",\n  \"created_at\": \"2016-03-25T00:45:36.113Z\",\n  \"abilities\": {\n    \"orders\": 0,\n    \"products\": 0,\n    \"users\": 0,\n    \"categories\": 1,\n    \"coupons\": 0,\n    \"settings\": 0,\n    \"cities\": 0,\n    \"delivery_boy\": 0\n  }\n}",
+      "response_body": "{\n  \"id\": 1,\n  \"first_name\": \"Raul\",\n  \"last_name\": \"Jast\",\n  \"email\": \"hi@hi.hey\",\n  \"phone\": \"7319611646\",\n  \"is_verified\": false,\n  \"provider\": \"email\",\n  \"uid\": \"hi@hi.hey\",\n  \"created_at\": \"2016-03-29T20:03:41.109Z\",\n  \"abilities\": {\n    \"orders\": 0,\n    \"products\": 0,\n    \"users\": 0,\n    \"categories\": 1,\n    \"coupons\": 0,\n    \"settings\": 0,\n    \"cities\": 0,\n    \"delivery_boy\": 0\n  }\n}",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"716825e981ed227a782afd437d7fca4d\"",
+        "ETag": "W/\"2723859c2512df0c968037ba87fefd57\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=ZXpSSFhubzk4VVFkWDVrME53bFd4Wk42UllZQ1Via29kdFVEUGtCRnY0czNKYlcwSDlWNVNOR0pNYnd4VDk4SnMvSlExR3MvUm5ibEpQTm5NbURWaDh2M0dQVmlpR1Z6YjZwdFQ2WTlUdEVWdmFxWUQ5Rk11M0EydXdkWFRZbVpXY3FDWnJmcWV0d1pyYzVqZS9MUWNJNWo1SWxyMGh2YWdRTkhMQnY1MFk1Y2RlOXdaQzdMRytzMnRKOWxrUW5MLS1JT1hOTm1UNFFhK2ZEVXNKK2twQldBPT0%3D--933e4af179e2bdb3bb01644212c319291b4171f1; path=/; HttpOnly",
-        "X-Request-Id": "4e73d12c-175d-44d6-b3b8-634a1f0ef135",
-        "X-Runtime": "0.085064",
-        "Content-Length": "305"
+        "Set-Cookie": "_session_id=WVRaejBBeTQySDZETE5keWpYZWRWc24rRThvMkpkRVQ0cHJqQ0lpQXRjdnVMYkMzL09sUjQ2dWx4NVBSZmRXa2lBQVZ5aVRhOFVtL2hWbUJkZnd1QWFZYWJleUoyOERjMHdTMjNaVXdZSnYrQXBHTXBsUFlDTklGUXJuVTdRUCtJSEZZNHA4NCtSRHFpU1RhckkyK0VGOGp1NzlSM2RiOVpZUUsvZmx5WWlPRXViVVBqcmZyTVFnWmNnK2RBL0xiLS0vQVN6MCtTVytlYk5pRWdmYmZIVnlnPT0%3D--120a7582ab0180eee043193db480d30df0be28e7; path=/; HttpOnly",
+        "X-Request-Id": "83dc255d-f5f8-4a9a-9b59-6b768561e9cc",
+        "X-Runtime": "0.090556",
+        "Content-Length": "301"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/admin/users/1\" -d 'user[email]=hi%40hi.hey&user[phone]=9199514931' -X PUT \\\n\t-H \"Access-Token: 6Tl_SGHxO7g4AXnFEwuTEg\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: sObOkRADSwtCzx40v_d6Xw\" \\\n\t-H \"Expiry: 1460076336\" \\\n\t-H \"Uid: 102taya.okon@lowe.co\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/admin/users/1\" -d 'user[email]=hi%40hi.hey&user[phone]=7319611646' -X PUT \\\n\t-H \"Access-Token: QMxANorVM34kvaKbgMv3VA\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: vfS1IRUTe-RU2pkk1VWzsg\" \\\n\t-H \"Expiry: 1460491421\" \\\n\t-H \"Uid: 102gennaro.rempel@osinskibahringer.io\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

@@ -23,7 +23,7 @@
     {
       "request_method": "POST",
       "request_path": "/auth/sign_in",
-      "request_body": "email=123ignacio.bernier%40grady.name&password=secrety_bickety",
+      "request_body": "email=123sebastian%40gerholdbogisich.org&password=secrety_bickety",
       "request_headers": {
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
@@ -34,25 +34,25 @@
       "request_content_type": "application/x-www-form-urlencoded",
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\n  \"data\": {\n    \"id\": 1,\n    \"first_name\": \"Curtis\",\n    \"last_name\": \"Fay\",\n    \"email\": \"123ignacio.bernier@grady.name\",\n    \"phone\": \"5440745596\",\n    \"is_verified\": false,\n    \"provider\": \"email\",\n    \"uid\": \"123ignacio.bernier@grady.name\",\n    \"created_at\": \"2016-03-25T00:45:38.468Z\",\n    \"abilities\": {\n      \"orders\": 0,\n      \"products\": 0,\n      \"users\": 0,\n      \"categories\": 0,\n      \"coupons\": 0,\n      \"settings\": 0,\n      \"cities\": 0,\n      \"delivery_boy\": 0\n    }\n  }\n}",
+      "response_body": "{\n  \"data\": {\n    \"id\": 1,\n    \"first_name\": \"Ramon\",\n    \"last_name\": \"Upton\",\n    \"email\": \"123sebastian@gerholdbogisich.org\",\n    \"phone\": \"8449471071\",\n    \"is_verified\": false,\n    \"provider\": \"email\",\n    \"uid\": \"123sebastian@gerholdbogisich.org\",\n    \"created_at\": \"2016-03-29T20:03:43.457Z\",\n    \"abilities\": {\n      \"orders\": 0,\n      \"products\": 0,\n      \"users\": 0,\n      \"categories\": 0,\n      \"coupons\": 0,\n      \"settings\": 0,\n      \"cities\": 0,\n      \"delivery_boy\": 0\n    }\n  }\n}",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
-        "access-token": "oj3P3ZyJ8uOBh4PIZ9RFiw",
+        "access-token": "hjKlC5AK4ElvcTyhORVazg",
         "token-type": "Bearer",
-        "client": "jwARAoIJxM7KeqCT-jMOfg",
-        "expiry": "1460076338",
-        "uid": "123ignacio.bernier@grady.name",
+        "client": "dcJu4wLyB2eUws7dx3d36Q",
+        "expiry": "1460491423",
+        "uid": "123sebastian@gerholdbogisich.org",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"63fa4246181821a39346f86447d745cd\"",
+        "ETag": "W/\"75c1ee9ece626d7bdfbbbe83df7a33f2\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "X-Request-Id": "fc2cef69-85c8-46a9-adae-bb11ef559d19",
-        "X-Runtime": "0.205803",
-        "Content-Length": "351"
+        "X-Request-Id": "954b7df2-6148-490b-bf40-964d53917c78",
+        "X-Runtime": "0.157202",
+        "Content-Length": "358"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/auth/sign_in\" -d 'email=123ignacio.bernier%40grady.name&password=secrety_bickety' -X POST \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/auth/sign_in\" -d 'email=123sebastian%40gerholdbogisich.org&password=secrety_bickety' -X POST \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

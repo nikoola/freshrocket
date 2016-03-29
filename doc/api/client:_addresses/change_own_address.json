@@ -16,11 +16,11 @@
       "request_path": "/client/addresses/1",
       "request_body": "address[street_and_house]=good",
       "request_headers": {
-        "Access-Token": "3d0qPIxswifSgvJJ7wT8ow",
+        "Access-Token": "tp1seBFkt0LGC8ytWTG1mA",
         "Token-Type": "Bearer",
-        "Client": "8ng8ht-8NxNpqcNJoqfS0A",
-        "Expiry": "1460076338",
-        "Uid": "121nickolas_koepp@kilback.com",
+        "Client": "YPF8jiN5zXXLj6K2DGNJeg",
+        "Expiry": "1460491423",
+        "Uid": "121henderson@bogisich.net",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -30,21 +30,21 @@
       "request_content_type": "application/x-www-form-urlencoded",
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\n  \"id\": 1,\n  \"city_id\": 1,\n  \"user_id\": 1,\n  \"street_and_house\": \"good\",\n  \"door_number\": \"5\",\n  \"zip_code\": null,\n  \"active\": true,\n  \"city_name\": \"Schillerton_110\"\n}",
+      "response_body": "{\n  \"id\": 1,\n  \"city_id\": 1,\n  \"user_id\": 1,\n  \"street_and_house\": \"good\",\n  \"door_number\": \"5\",\n  \"zip_code\": null,\n  \"active\": true,\n  \"city_name\": \"Thrissur\"\n}",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"e8f0c5fdd85d68f0343a2155a27a5a17\"",
+        "ETag": "W/\"b53909c3e5dec8c20a88d803491701bf\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=K0d3ZnpDRGYzL3JxbHdtaFFFTFdpcXN3SUpKV2NFalB3eGNVYnJuUWU0U3NLbDRtZU9Jdzl4bENvQm80RTFoMGNTUDZTTm9GRzRXRkJQSUdPU3NyM1ZmOTZCYlRMSnZvQUFpcnRjRmphS1ZxMTZMQXRZeGFlM3g0aDlEQlJyck8vYzVBc2NzZ0dNVEF2QzUxRW1SL0UrRUM5a2l2djVzRWR5UmdJTDFXbTNUT3hxTzZGU3kvTG41T0xqaUVYVUEwLS1mVzZ0M1NpWWtyYzVqMFdwQUlwVDZ3PT0%3D--78a5fab4955902499a14b98a365b2b5dc81c28c7; path=/; HttpOnly",
-        "X-Request-Id": "fa1166be-fd11-4657-8079-24fc09ce0b81",
-        "X-Runtime": "0.079423",
-        "Content-Length": "136"
+        "Set-Cookie": "_session_id=d0d5b08zUmxNeVE1M2U4NGJjZG9id25JNTZKUGVjdkFhKzU1L3huODVvdUJBdnBlNzZzNTFycmQ0N3kySnNwZlFaTC84RXNtQXlXYVZiMTNkRmducFd4TVR4bW9FTGo2eDk3bHNuUWVEcXhkdXJsZEFIaHpJdXFNUTBTVzdtOVkxWnVqRE9mZGd2Z1pmNkZyaWhxNlcraTlMQ0NQbE9ZYnNYakJtaW5kYVc4eGpBRENZanpCaU11M1AzTmJqRlZiLS1TV29XcXJ3MVR5SHFLdHd4cm4rekdnPT0%3D--8c36196f804973f90ddf6063ad85f12d1b93bace; path=/; HttpOnly",
+        "X-Request-Id": "5b82df51-a791-4adb-8ebc-dd84081d8908",
+        "X-Runtime": "0.081016",
+        "Content-Length": "129"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/client/addresses/1\" -d 'address[street_and_house]=good' -X PUT \\\n\t-H \"Access-Token: 3d0qPIxswifSgvJJ7wT8ow\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: 8ng8ht-8NxNpqcNJoqfS0A\" \\\n\t-H \"Expiry: 1460076338\" \\\n\t-H \"Uid: 121nickolas_koepp@kilback.com\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/client/addresses/1\" -d 'address[street_and_house]=good' -X PUT \\\n\t-H \"Access-Token: tp1seBFkt0LGC8ytWTG1mA\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: YPF8jiN5zXXLj6K2DGNJeg\" \\\n\t-H \"Expiry: 1460491423\" \\\n\t-H \"Uid: 121henderson@bogisich.net\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

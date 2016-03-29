@@ -19,11 +19,11 @@
       "request_path": "/client/verify",
       "request_body": "verification_code",
       "request_headers": {
-        "Access-Token": "2-vDNEuDhdUQ0jev8cpPaw",
+        "Access-Token": "9WUs9uIP0SU82JKc_BHrWg",
         "Token-Type": "Bearer",
-        "Client": "0dgG-r8vtHE6k9g6mTefwA",
-        "Expiry": "1460076348",
-        "Uid": "174armando@wilkinsonhermiston.info",
+        "Client": "Sag_A4EKGAGzsf2-hQYjnw",
+        "Expiry": "1460491431",
+        "Uid": "174courtney@wunsch.io",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -40,13 +40,13 @@
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "text/html",
         "Cache-Control": "no-cache",
-        "Set-Cookie": "_session_id=QUwwbXBydmlOa3hmcmhXWDFOZjZUL1hBQVI0NmhZNGdKSWJhSlNDVVFmZ0RPVllrQjdyNFNiYVhrZ3A4bXVSMlVKMWFGNHg3TnhCOWlqR0x2amFlcHpZemFkeE1CcEJZRncybWI3enV5di9sM2pBUm5hcWx1ZFpnODd6Unk2dHBGMFZqMEx5MDZKU25GbGhNY011N2NHYW83UDF5N1RaMEJIeEFXOTZXb2hsdUFjR2Z4RjZXN011aW5VWkFWRTdzLS12Q2w0TitwSDZuUnR3VGhyOUdYRkN3PT0%3D--7e16918f1c75a2b436ccecf63c8a11c225d59afa; path=/; HttpOnly",
-        "X-Request-Id": "2dec8c6d-7db8-41db-834a-86960ffea4ef",
-        "X-Runtime": "0.079076",
+        "Set-Cookie": "_session_id=RnRhYkkvcE9QdnVBcjVsY1piSmVCNlg4cjY2VlFtaitFOVh4QWIrdHBYV010R3UwaktlVk1JTDVSNWpMb0EybTV5NkI1T2djelRKOW1VZDBuTzVnZ2kza0RTVjFlcmZXVWNuMksyT3lPL045VzhJNjJJSlEwVzdBbEx3VkFMcE1HRkM4clNHUS9vM2x3cEFvUkRtdXBDV2QyNEZkTHJQQXFzRlFRZEJEL2l2VU1KL29TSTVqT2VZUi85bU5sMTErLS1wR1JUM093Tk83ZUZ6ek5qcG43N3ZBPT0%3D--0c5f103d2b5dd9e1ad9f2c9850f4290b6430ca87; path=/; HttpOnly",
+        "X-Request-Id": "866dd761-a456-47d1-a523-7cc3d5009b39",
+        "X-Runtime": "0.079204",
         "Content-Length": "0"
       },
       "response_content_type": "text/html",
-      "curl": "curl \"http://localhost:3000/client/verify\" -d 'verification_code' -X PUT \\\n\t-H \"Access-Token: 2-vDNEuDhdUQ0jev8cpPaw\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: 0dgG-r8vtHE6k9g6mTefwA\" \\\n\t-H \"Expiry: 1460076348\" \\\n\t-H \"Uid: 174armando@wilkinsonhermiston.info\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/client/verify\" -d 'verification_code' -X PUT \\\n\t-H \"Access-Token: 9WUs9uIP0SU82JKc_BHrWg\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: Sag_A4EKGAGzsf2-hQYjnw\" \\\n\t-H \"Expiry: 1460491431\" \\\n\t-H \"Uid: 174courtney@wunsch.io\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

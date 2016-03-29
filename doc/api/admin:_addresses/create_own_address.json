@@ -43,13 +43,13 @@
     {
       "request_method": "POST",
       "request_path": "/admin/addresses",
-      "request_body": "address[street_and_house]=6895+Dicki+Vista&address[door_number]=5&address[city_id]=1&address[user_id]=1",
+      "request_body": "address[street_and_house]=8122+Dare+Lodge&address[door_number]=5&address[city_id]=1&address[user_id]=1",
       "request_headers": {
-        "Access-Token": "WDafw2an6lgh-WE-7QfcfQ",
+        "Access-Token": "lrMmt9qmJCqqTV_JKKNhUA",
         "Token-Type": "Bearer",
-        "Client": "nBp_xEYhBXx-RQzA0J_6TQ",
-        "Expiry": "1460076317",
-        "Uid": "7dorcas@schowalterosinski.net",
+        "Client": "IExv39vXiFoCpOZD7PUVyA",
+        "Expiry": "1460491397",
+        "Uid": "7leonel_grady@lueilwitz.co",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -59,21 +59,21 @@
       "request_content_type": "application/x-www-form-urlencoded",
       "response_status": 201,
       "response_status_text": "Created",
-      "response_body": "{\n  \"id\": 1,\n  \"city_id\": 1,\n  \"user_id\": 1,\n  \"street_and_house\": \"6895 Dicki Vista\",\n  \"door_number\": \"5\",\n  \"zip_code\": null,\n  \"active\": true,\n  \"city_name\": \"Port Camronberg_6\"\n}",
+      "response_body": "{\n  \"id\": 1,\n  \"city_id\": 1,\n  \"user_id\": 1,\n  \"street_and_house\": \"8122 Dare Lodge\",\n  \"door_number\": \"5\",\n  \"zip_code\": null,\n  \"active\": true,\n  \"city_name\": \"Kolkata\"\n}",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"721c542ff0239760f93671a25a03e31a\"",
+        "ETag": "W/\"aae4c6c71d9409d3663ce1ea6d6aa683\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=bXdIZFI4MzVSanY1WDZxWkpKRUhtUFp1d0FyZ1dxMk1qa2V0aFI5UmVaK0ZZTTNDeU55c0pGOFU0RGpuYnFpS3V6S3FCWHdZeUdONVkrYmNUdGRnUVpwL2VSUXE2RnZFeEdMTnp2WDhtb2NuQnQvZ0hGbVJVWlR1N25kUkxpRnpxZmphazE0MVFQSENiV3doZyttcVllS1h6ajFDanV0WjdZOGc5dGZwNzR3R09TeU5JZmJDZGQ1L0dTMEhwMldyLS1nT1lNVnAxeXdWblBvWWw2T1FwM3l3PT0%3D--94f77712f8bc984dc3f05627a7f493d8a72f0ac2; path=/; HttpOnly",
-        "X-Request-Id": "2ce5ad18-be79-4264-8a29-fc51bce88cc4",
-        "X-Runtime": "0.081477",
-        "Content-Length": "150"
+        "Set-Cookie": "_session_id=N0hlbEZ4VHY3T25XTnRsYkFYbXp3SXBWMjV0aDFuUkFjamlxR1FFZXlrZ2ZRWlNqTGZkczlyMzNQaHp5TXlBYlZseldnVUNsbVdBV0JFWGhTR0xKcTYvNS83eWRyQnFvYW91cEZlbmZWNFI4UXVERVY4Q0djVFZaeFJEWUdXZlJ4bFJCMzRHbFdLM1QyQWNTa3RCU0dqY1ZNMVB6SGF4YmIrTzQ3dUFIazFvV3VTSkZXTUQ4QVNic3NDU3pmcnpPLS11RzA3SkJ3d2N3anhsTkhWclJMQU5nPT0%3D--0fb76dcfbf1e9d254025f70af2b4c8013ea3845e; path=/; HttpOnly",
+        "X-Request-Id": "1899d4bf-f589-4694-934c-2fefa5737b44",
+        "X-Runtime": "0.088557",
+        "Content-Length": "139"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/admin/addresses\" -d 'address[street_and_house]=6895+Dicki+Vista&address[door_number]=5&address[city_id]=1&address[user_id]=1' -X POST \\\n\t-H \"Access-Token: WDafw2an6lgh-WE-7QfcfQ\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: nBp_xEYhBXx-RQzA0J_6TQ\" \\\n\t-H \"Expiry: 1460076317\" \\\n\t-H \"Uid: 7dorcas@schowalterosinski.net\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/admin/addresses\" -d 'address[street_and_house]=8122+Dare+Lodge&address[door_number]=5&address[city_id]=1&address[user_id]=1' -X POST \\\n\t-H \"Access-Token: lrMmt9qmJCqqTV_JKKNhUA\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: IExv39vXiFoCpOZD7PUVyA\" \\\n\t-H \"Expiry: 1460491397\" \\\n\t-H \"Uid: 7leonel_grady@lueilwitz.co\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

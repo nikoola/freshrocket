@@ -19,11 +19,11 @@
       "request_path": "deliver/orders/3",
       "request_body": "order[is_paid]=true",
       "request_headers": {
-        "Access-Token": "bbJBWAHPIk9q2vaWyrHaaw",
+        "Access-Token": "qgCEOOypjE9IYr0Pb89TAQ",
         "Token-Type": "Bearer",
-        "Client": "hX10gIhXFmP-GX5i1y6zJw",
-        "Expiry": "1460076349",
-        "Uid": "189brycen@grimeshudson.biz",
+        "Client": "kEPTFLbQXnQVBeRXKzsMtA",
+        "Expiry": "1460491432",
+        "Uid": "189marina@baumbach.name",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -33,21 +33,21 @@
       "request_content_type": "application/x-www-form-urlencoded",
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\n  \"id\": 3,\n  \"user_id\": 6,\n  \"status\": \"unconfirmed\",\n  \"created_at\": \"2016-03-25T00:45:49.241Z\",\n  \"confirmed_at\": null,\n  \"approved_at\": null,\n  \"dispacthed_at\": null,\n  \"delivered_at\": null,\n  \"canceled_at\": null,\n  \"pure_product_price\": \"27.0\",\n  \"tax\": \"1.35\",\n  \"delivery_charge\": \"200.0\",\n  \"total_price\": \"228.35\",\n  \"coupon_code\": null,\n  \"delivery_boy_id\": 1,\n  \"delivery_boy_phone\": \"9690759841\",\n  \"wanted_time\": null,\n  \"wanted_date\": null,\n  \"payment_type\": \"cash\",\n  \"is_paid\": true,\n  \"feedback\": null,\n  \"comment\": null,\n  \"source_type\": null\n}",
+      "response_body": "{\n  \"id\": 3,\n  \"user_id\": 6,\n  \"status\": \"unconfirmed\",\n  \"created_at\": \"2016-03-29T20:03:52.478Z\",\n  \"confirmed_at\": null,\n  \"approved_at\": null,\n  \"dispacthed_at\": null,\n  \"delivered_at\": null,\n  \"canceled_at\": null,\n  \"pure_product_price\": \"27.0\",\n  \"tax\": \"1.35\",\n  \"delivery_charge\": \"200.0\",\n  \"total_price\": \"228.35\",\n  \"coupon_code\": null,\n  \"delivery_boy_id\": 1,\n  \"delivery_boy_phone\": \"7820062901\",\n  \"wanted_time\": null,\n  \"wanted_date\": null,\n  \"payment_type\": \"cash\",\n  \"is_paid\": true,\n  \"feedback\": null,\n  \"comment\": null,\n  \"source_type\": null\n}",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"f8734321ee157b011c04fcf56a0993f8\"",
+        "ETag": "W/\"734c3ec02ba721120437863db4bc6b86\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=ZUloa1pqWWt4V3EwQ01VMW9ra1d1cVNzVGhwUXRvTVFablhuYks3OHJHZVY3VWxZVm9TZ0syMHBaMXJTdktvUzlhTld6YlJoR1VnZUkxck4xSklCdGZVdGtQaXp6TkNVdFdUalpuYmczaVVweTRzZmNwUmpKd1VPVlI4bmVSd0t3QS9qYjlZTkZ5OVE2aWJjOHFSTnBRV2JFZ01SY0hYeGVHVTdsZFRQNnF2Y0VHblVpdnU3SkdIL3FxOVlnL1VlLS1pNlB2eGt2b3Jrb29IbmU4WEhCM2l3PT0%3D--2d692e7a119fdf7f4508b3d092cb8429231e1065; path=/; HttpOnly",
-        "X-Request-Id": "814604c5-b2c0-434d-842a-58d87415b9a2",
-        "X-Runtime": "0.087114",
+        "Set-Cookie": "_session_id=UW5tQ2JSbEF3WmVIZFBLZVI0Ky9zQTkxSGdoNXMyQmp5NHFGZUgrbmFWaDAwTHNFZnJ4c2VXekJZWlg1YXJlQ1BjL0dOMEJ3NGthdWNPOTNOaWRSVmVzVi9iKzZxUER3WFZNRUxDRzM3RGFxeVZuME5YbFZYMXo2Q29rQnVIbWpNaHVTQ0hRVVo3UUZYOXpqRkplYzVPNlFNM1c2N2Zmc3B6L3VzMU93TDVIQ2JaQXRLNW96bVJ2WlVnK0Y2UFJsLS1PaFVSOHZMYzRFOGNKYWhJd09BM01RPT0%3D--d4ea0947fcbb5b492bdd83f609069b1bd2ef1e09; path=/; HttpOnly",
+        "X-Request-Id": "465dbedc-4236-4aea-8906-50eb9c9ff9f3",
+        "X-Runtime": "0.085874",
         "Content-Length": "470"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000deliver/orders/3\" -d 'order[is_paid]=true' -X PUT \\\n\t-H \"Access-Token: bbJBWAHPIk9q2vaWyrHaaw\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: hX10gIhXFmP-GX5i1y6zJw\" \\\n\t-H \"Expiry: 1460076349\" \\\n\t-H \"Uid: 189brycen@grimeshudson.biz\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000deliver/orders/3\" -d 'order[is_paid]=true' -X PUT \\\n\t-H \"Access-Token: qgCEOOypjE9IYr0Pb89TAQ\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: kEPTFLbQXnQVBeRXKzsMtA\" \\\n\t-H \"Expiry: 1460491432\" \\\n\t-H \"Uid: 189marina@baumbach.name\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

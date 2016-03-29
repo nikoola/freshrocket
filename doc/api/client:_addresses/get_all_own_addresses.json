@@ -19,11 +19,11 @@
       "request_path": "/client/addresses?active=0",
       "request_body": null,
       "request_headers": {
-        "Access-Token": "KK4eLZVerNT_E5GPci2zmA",
+        "Access-Token": "z-ozFIh5topAlMbgBpJV-w",
         "Token-Type": "Bearer",
-        "Client": "F_YowR1Hhl3goJsLxuCzyQ",
-        "Expiry": "1460076337",
-        "Uid": "117jody@hagenes.org",
+        "Client": "4Tcj1yriABvLx8xZV3psFA",
+        "Expiry": "1460491422",
+        "Uid": "117eladio.hills@hilll.biz",
         "Host": "example.org",
         "Cookie": ""
       },
@@ -33,21 +33,21 @@
       "request_content_type": null,
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "[\n  {\n    \"id\": 1,\n    \"city_id\": 1,\n    \"user_id\": 1,\n    \"street_and_house\": \"466 Jennie Alley\",\n    \"door_number\": \"5\",\n    \"zip_code\": null,\n    \"active\": false,\n    \"city_name\": \"East Leonie_102\"\n  },\n  {\n    \"id\": 2,\n    \"city_id\": 2,\n    \"user_id\": 1,\n    \"street_and_house\": \"71915 Purdy Branch\",\n    \"door_number\": \"5\",\n    \"zip_code\": null,\n    \"active\": false,\n    \"city_name\": \"Lake Dalton_103\"\n  },\n  {\n    \"id\": 3,\n    \"city_id\": 3,\n    \"user_id\": 1,\n    \"street_and_house\": \"4197 Destiney Spring\",\n    \"door_number\": \"5\",\n    \"zip_code\": null,\n    \"active\": false,\n    \"city_name\": \"Lynchstad_104\"\n  }\n]",
+      "response_body": "[\n  {\n    \"id\": 1,\n    \"city_id\": 1,\n    \"user_id\": 1,\n    \"street_and_house\": \"8323 O'Kon Camp\",\n    \"door_number\": \"5\",\n    \"zip_code\": null,\n    \"active\": false,\n    \"city_name\": \"Brahmapur\"\n  },\n  {\n    \"id\": 2,\n    \"city_id\": 2,\n    \"user_id\": 1,\n    \"street_and_house\": \"560 Hoppe Key\",\n    \"door_number\": \"5\",\n    \"zip_code\": null,\n    \"active\": false,\n    \"city_name\": \"Mysore\"\n  },\n  {\n    \"id\": 3,\n    \"city_id\": 3,\n    \"user_id\": 1,\n    \"street_and_house\": \"35705 Sigurd Groves\",\n    \"door_number\": \"5\",\n    \"zip_code\": null,\n    \"active\": false,\n    \"city_name\": \"Muzaffarpur\"\n  }\n]",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"5b2e919515e844adae6f2fa540bec9d8\"",
+        "ETag": "W/\"7afa539b9852176a774e0ba4e79d4407\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=SWZBZzFZTWQ5NWgydlNyZDZrQk1MbWI5WEozRUVTYmxRdnlXWUo3NWhsYVEzMC9DTzQ5NFY4VTdQcGV4NytXSjJRMVk0RVl5bk1tQy9JZTNsb0VXNjNvZlh5cXV2VUw2SUs3Y21SampDWkRkZElZUnVYSjk2MDNtNDBXbytxZ1M4TElpNVRYVmg4L1ozc0pKYWNSWjFsUUxOWFg5emR1MlYydmIyeTFUQlZNMER0N1R3MTBwNnJZY0dBQXhqMHZvLS1IU2FXeWFKWTMzZU15UFV5RVVoWnd3PT0%3D--af31d7a66c3ea778d03d09cbf8791f132f63caa1; path=/; HttpOnly",
-        "X-Request-Id": "0cfba726-2a2d-43ea-8c2f-6fdfc2e84657",
-        "X-Runtime": "0.100063",
-        "Content-Length": "455"
+        "Set-Cookie": "_session_id=MGkzSmhWSHhrY2l0YjN3K2tiSXhiaTNyWDFuc2QvT2VXdGV1bWpNYTRPRGNmNHZjd0dVVmdsWTVVRkdmNklsMGo2dEltcjVDSmdNVCthRElKVzZmTlZ2QytzMDBnWWgybVZXUTFucDg3TzI1RXI5ZGVlM0VMQzhUcnZnWEhGTTYyYXBQYzhDV0Q2WGlWMjl6OHc1RitLNW8xYlhZVVBaRW12MCsxT0JtV21UNWZpUnBraXpxZmRxWThnL1IrZjR6LS1JenFKRHZVcUJ6UXFsMk85bm0rcDhnPT0%3D--34edb226aa38e292d10859764b35552f43d5b292; path=/; HttpOnly",
+        "X-Request-Id": "a4b49fdb-0af8-45b1-a97d-795b13b280cf",
+        "X-Runtime": "0.094357",
+        "Content-Length": "431"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/client/addresses?active=0\" -X GET \\\n\t-H \"Access-Token: KK4eLZVerNT_E5GPci2zmA\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: F_YowR1Hhl3goJsLxuCzyQ\" \\\n\t-H \"Expiry: 1460076337\" \\\n\t-H \"Uid: 117jody@hagenes.org\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/client/addresses?active=0\" -X GET \\\n\t-H \"Access-Token: z-ozFIh5topAlMbgBpJV-w\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: 4Tcj1yriABvLx8xZV3psFA\" \\\n\t-H \"Expiry: 1460491422\" \\\n\t-H \"Uid: 117eladio.hills@hilll.biz\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

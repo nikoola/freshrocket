@@ -20,11 +20,11 @@
       "request_path": "/admin/users/1/update_abilities",
       "request_body": "abilities[users]=1&abilities[products]=0&abilities[orders]=0&abilities[categories]=0",
       "request_headers": {
-        "Access-Token": "PG1dQiS3ye7ZA-olUV-KPw",
+        "Access-Token": "3HNRIjRkX_dNrsfnlb_MZg",
         "Token-Type": "Bearer",
-        "Client": "Pn-uKGhfYOW4Opy5RS46fQ",
-        "Expiry": "1460076336",
-        "Uid": "109brianne_flatley@feest.biz",
+        "Client": "5UpKxgkygvMXzI9RIcj_5A",
+        "Expiry": "1460491421",
+        "Uid": "109blaise@adamsmcglynn.name",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -41,13 +41,13 @@
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "text/html",
         "Cache-Control": "no-cache",
-        "Set-Cookie": "_session_id=bCtRM2VsZlVlTFE0bklRUXc0QjVoOHBzYXEwemFWeVVUQ3pWekh0ZlppN1pnZjhxeGdseDFSUlVwY0c1SzlhSE9kVnRQejBXY1VOQmNlRGd1WTFINk5IYTBadlY0bTN5bUxQTFdTa2FidDYyUmJpdm93akE5U0k3TS9pMy93Y3N5OFo4dmJzMnIwalBNU1BYcnFhSHgzVmlqT05QM0EweWdKOGxPL01uN2s5am9vdUVTQytvZzZNRVpQemlyaEhoLS1EMFBKVTFJeitMSlZKaElhSmZwS0dnPT0%3D--116bf2475541b464f49f94f9bd067b5c69532caf; path=/; HttpOnly",
-        "X-Request-Id": "38578559-0b3f-4f0a-b6bd-4d512c334d50",
-        "X-Runtime": "0.093378",
+        "Set-Cookie": "_session_id=Wnora0tmVnJUTmxZM0lweFpQM3pOcEd3UUJFVk12U2lPcWZjdzJyVnBuN2UwUkdMTjdISHhFWVV1ZzcvSUMvWVdpV3k0R2JrZWt3WExmTHRpLytmSE1pWU9vblpCb0JXcGZrUmtodHBQS2xXVmU5TjJsYmpHcERFZDhleUl1Uk41UTNGMGVMUjdIdFA5WVB0Zk5TL0tDL3ZIV0FsRzhPdjkxekQ0aVVYS0YvUVJmUXVEN0ZTK0kzQUpncTF4eG14LS16S05QVW9wdGE5T09IbzU3Wkp4WHlnPT0%3D--ab783089072d5b7409e9577e0257081d8be5f2d6; path=/; HttpOnly",
+        "X-Request-Id": "1c8c371b-a000-4280-a1d9-c3371fd7cea7",
+        "X-Runtime": "0.091907",
         "Content-Length": "0"
       },
       "response_content_type": "text/html",
-      "curl": "curl \"http://localhost:3000/admin/users/1/update_abilities\" -d 'abilities[users]=1&abilities[products]=0&abilities[orders]=0&abilities[categories]=0' -X PUT \\\n\t-H \"Access-Token: PG1dQiS3ye7ZA-olUV-KPw\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: Pn-uKGhfYOW4Opy5RS46fQ\" \\\n\t-H \"Expiry: 1460076336\" \\\n\t-H \"Uid: 109brianne_flatley@feest.biz\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/admin/users/1/update_abilities\" -d 'abilities[users]=1&abilities[products]=0&abilities[orders]=0&abilities[categories]=0' -X PUT \\\n\t-H \"Access-Token: 3HNRIjRkX_dNrsfnlb_MZg\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: 5UpKxgkygvMXzI9RIcj_5A\" \\\n\t-H \"Expiry: 1460491421\" \\\n\t-H \"Uid: 109blaise@adamsmcglynn.name\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

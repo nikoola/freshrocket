@@ -16,11 +16,11 @@
       "request_path": "/admin/products/1",
       "request_body": null,
       "request_headers": {
-        "Access-Token": "yaIhg4ApqkUty-MFY0HS4Q",
+        "Access-Token": "O3RyjPV4cW491CLlYuA7lA",
         "Token-Type": "Bearer",
-        "Client": "f4YZ2IFbKbxIH5eQSi_cQw",
-        "Expiry": "1460076333",
-        "Uid": "73shaun@cummerata.io",
+        "Client": "hudhfarZQv-5cXawoY6LzA",
+        "Expiry": "1460491418",
+        "Uid": "73mckayla.bosco@rolfson.org",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -37,13 +37,13 @@
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "text/html",
         "Cache-Control": "no-cache",
-        "Set-Cookie": "_session_id=V1BUS3d6MGJ3bGlrbWgwS1FIbWZFcmk3K2krcXVMSm1ycUFybnBDWW8zTHhxZXBGRThQWmNINDBzbERzU0REc1NPemwveitTc2xGVXhhMm9JUW5zWTE0ODZDOWkxdUdDVElXT3EvaVBGSG1UanFicmxOWWVTbzhEeUdCMDdwamlwbnpmcmMvcW1WYTg4Q0VUZWVqZ1lqZ3c4M3ZnSWpEQk5mdklaczdmbDBhd2QrMzBuOHJyQm0vU09RaEhYWlNqLS1pY3RmbFM3cXNueGFlb0d2RWtHcFV3PT0%3D--447fccd5abee09ea73a1f61bea563b3496507757; path=/; HttpOnly",
-        "X-Request-Id": "e1b554f3-0b6f-44b6-b6fa-5438fd0ff1c7",
-        "X-Runtime": "0.080061",
+        "Set-Cookie": "_session_id=aWczWHBDaDIvbm5TVEY1UlRDbHdsQk52RWN2WERBY0RNTHM4RWlFemp1cmtqdTlUa3YwZzkvSFJxek8xYjRKam9uc25HMjUxMXpBZ2tZdTV5bTh2SVhJaE1vWVdGNXVzWmd4SzVWVlVYdnVvTzBhZVFKck9naFVMYlZsWWU3Qmh6OFZNNWdCWlB4R1dDa1BaNFBjMXI1eXJUNVB4a29ycXp5NXFuWndXeEFKNCttREtYQVRlMll1YkN1YnVvc3BlLS00Q3cwZGt5WnhGWDhCTDlWNCtpZ2p3PT0%3D--2a0a4c932d2a3408f4d37d54d6745a2c77c02dd9; path=/; HttpOnly",
+        "X-Request-Id": "43a073c4-852e-4d20-9547-5f5c53847be4",
+        "X-Runtime": "0.086221",
         "Content-Length": "0"
       },
       "response_content_type": "text/html",
-      "curl": "curl \"http://localhost:3000/admin/products/1\" -d '' -X DELETE \\\n\t-H \"Access-Token: yaIhg4ApqkUty-MFY0HS4Q\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: f4YZ2IFbKbxIH5eQSi_cQw\" \\\n\t-H \"Expiry: 1460076333\" \\\n\t-H \"Uid: 73shaun@cummerata.io\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/admin/products/1\" -d '' -X DELETE \\\n\t-H \"Access-Token: O3RyjPV4cW491CLlYuA7lA\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: hudhfarZQv-5cXawoY6LzA\" \\\n\t-H \"Expiry: 1460491418\" \\\n\t-H \"Uid: 73mckayla.bosco@rolfson.org\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

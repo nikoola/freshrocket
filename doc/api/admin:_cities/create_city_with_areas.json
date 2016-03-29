@@ -39,13 +39,13 @@
     {
       "request_method": "POST",
       "request_path": "/admin/cities",
-      "request_body": "city[name]=New+Cristianton_9&city[areas_attributes][][name]=hi&include[]=areas",
+      "request_body": "city[name]=Surat&city[areas_attributes][][name]=hi&include[]=areas",
       "request_headers": {
-        "Access-Token": "ozV0EXAWyfo-LG4huLR0jg",
+        "Access-Token": "jTlr8pGat179i-dQ_JB4EA",
         "Token-Type": "Bearer",
-        "Client": "j4LZ2n9CMmxnU8Hj0Oa7Yg",
-        "Expiry": "1460076324",
-        "Uid": "15maeve_stamm@rutherforddaugherty.biz",
+        "Client": "25NksjVoRQBDKSRKP5BNDA",
+        "Expiry": "1460491404",
+        "Uid": "15glen@carter.info",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -55,22 +55,22 @@
       "request_content_type": "application/x-www-form-urlencoded",
       "response_status": 201,
       "response_status_text": "Created",
-      "response_body": "{\n  \"id\": 1,\n  \"name\": \"New Cristianton_9\",\n  \"active\": true\n}",
+      "response_body": "{\n  \"id\": 1,\n  \"name\": \"Surat\",\n  \"active\": true\n}",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
         "Location": "http://example.org/cities/1",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"200d3ad0cd1627cc87243317f99dc9bf\"",
+        "ETag": "W/\"eecf0648542f044a0ce6372c474776f3\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=UEFPWG00UDJBT3dQcFc4bENxdklLcmN1M0RmRDdGaEhLMWZhUUs1d1VrUStYUEI2anhPRTVxbHJqNE1UbnF5M05VRFJqSTBIc1dkdXpxSXp3MXd1V1BUVzJnUmtPY0EwMWRMRGlIYkRwMHppVVY5b3hIYU5EZjJnM0ZpNkxtRjBweGRvSlZhQktrdmtzNVphOG1EL2pwUHcxRGlTc2VoUm9sN3dNSy8rNnFlcTUwaTlpZnZPOGhFTSt4Mk5YblBCLS0yTGxhekVCMWpPNDVJZTAxcTJqOUt3PT0%3D--473942917250217e25f6d86b16c3fcf31de43e8d; path=/; HttpOnly",
-        "X-Request-Id": "32511b34-4b65-41f1-8ffd-435136b527c7",
-        "X-Runtime": "0.143280",
-        "Content-Length": "49"
+        "Set-Cookie": "_session_id=ZXR3SGJlVEF1dTBYWjFPNTZib0VDTTNjUzhHSCtVSTVaWEVOTnZpNUo1elN5R1RCengrV3hzeG1DRFpVQ3NKdjVaM1RCNlNqNGdHcFlnRmd5eDh3TU9aQ1VJZ0x2QzZ2M2poT0pUVmVFVndLbThzemhRV0liR3ArMWJqd1JPWTYrMVVXZEs2RWpSd0JZL2dWb3Q1MEFRaTBKcXpQNTlNMEFUUW5NbkYyTlY1U1Z1NVNzNm1WRkcrR0hGb0I2TEh6LS13Tm8xdEx2Z2FnNHd5SnUxWFpnVFZ3PT0%3D--f445886766e9f4fa769dbb68adc890a49074c7ea; path=/; HttpOnly",
+        "X-Request-Id": "686c9c4c-ace0-489d-afae-35759f4af8af",
+        "X-Runtime": "0.118392",
+        "Content-Length": "37"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/admin/cities\" -d 'city[name]=New+Cristianton_9&city[areas_attributes][][name]=hi&include[]=areas' -X POST \\\n\t-H \"Access-Token: ozV0EXAWyfo-LG4huLR0jg\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: j4LZ2n9CMmxnU8Hj0Oa7Yg\" \\\n\t-H \"Expiry: 1460076324\" \\\n\t-H \"Uid: 15maeve_stamm@rutherforddaugherty.biz\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/admin/cities\" -d 'city[name]=Surat&city[areas_attributes][][name]=hi&include[]=areas' -X POST \\\n\t-H \"Access-Token: jTlr8pGat179i-dQ_JB4EA\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: 25NksjVoRQBDKSRKP5BNDA\" \\\n\t-H \"Expiry: 1460491404\" \\\n\t-H \"Uid: 15glen@carter.info\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }
