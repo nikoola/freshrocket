@@ -16,11 +16,11 @@
       "request_path": "/client",
       "request_body": null,
       "request_headers": {
-        "Access-Token": "4zVwy9DDwDhGsa_h5GFvCg",
+        "Access-Token": "CW2tD4AwUvfWfVMxnZPXKA",
         "Token-Type": "Bearer",
-        "Client": "_1_TVzjmxkK3YBMmrn221w",
-        "Expiry": "1460491431",
-        "Uid": "173hilton@goodwin.co",
+        "Client": "v9prK3JyvLvjuquBUC4zdA",
+        "Expiry": "1461236704",
+        "Uid": "173talia.friesen@murray.co",
         "Host": "example.org",
         "Cookie": ""
       },
@@ -29,21 +29,21 @@
       "request_content_type": null,
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\n  \"id\": 5,\n  \"first_name\": \"Cary\",\n  \"last_name\": \"Mueller\",\n  \"email\": \"173hilton@goodwin.co\",\n  \"phone\": \"4080267172\",\n  \"is_verified\": false,\n  \"provider\": \"email\",\n  \"uid\": \"173hilton@goodwin.co\",\n  \"created_at\": \"2016-03-29T20:03:51.337Z\",\n  \"abilities\": {\n    \"orders\": 0,\n    \"products\": 0,\n    \"users\": 0,\n    \"categories\": 0,\n    \"coupons\": 0,\n    \"settings\": 0,\n    \"cities\": 0,\n    \"delivery_boy\": 0\n  }\n}",
+      "response_body": "{\n  \"id\": 5,\n  \"first_name\": \"Flossie\",\n  \"last_name\": \"Harris\",\n  \"email\": \"173talia.friesen@murray.co\",\n  \"phone\": \"2694120662\",\n  \"is_verified\": false,\n  \"provider\": \"email\",\n  \"uid\": \"173talia.friesen@murray.co\",\n  \"created_at\": \"2016-04-07T11:05:04.018Z\",\n  \"abilities\": {\n    \"orders\": 0,\n    \"products\": 0,\n    \"users\": 0,\n    \"categories\": 0,\n    \"coupons\": 0,\n    \"settings\": 0,\n    \"cities\": 0,\n    \"delivery_boy\": 0\n  }\n}",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"f1598e810aaa1e71ff10a5e480789038\"",
+        "ETag": "W/\"9e10da640522111ac92d4be2a3657cee\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=aGNEY1FrbWtqTjZzaFE4REJhRkNjQlgxVGQrUmJWdnB4SWxMUjh1bC8yeENxT2lady9zanh1SlRXVlg4ZEVKV0hzKzVCeFg2aURUY1RJV0dkQ3RXQnBscW1VeVBZNzJSNUdaMVp4Y1RaUEhwMEpvOEhlTG9TVUJXSCtkdUVvRG5VaUplQ0hPbUdueVNDaEpQcUZmREwrS0pjS2VQTUQ2aTRQQmFXcDlUM2VDeWZmSkNPZUlZSVZQQlhrMXBFM3NQLS1Mdi83OW1YQWRrRlg2TkJmVWtXTUhnPT0%3D--9498a21ffe81449abf2e84dbdd51975fada03c05; path=/; HttpOnly",
-        "X-Request-Id": "fd7d121c-4845-4312-84a7-45d03ee59b6a",
-        "X-Runtime": "0.084155",
-        "Content-Length": "326"
+        "Set-Cookie": "_session_id=TXdHZGdBaGpBQXhWZXFZTGJvbUlXR3lOVUoydWhxK0VKdS9sNVNtY2YwZlFzTzMxRHFRZitTVm55akZlMkNNWW8wMmppWEM0ODdUaUpLWGptOVU5dkJ3RjZpa3Y2b005ZmhBanVKay9ZbDB3R1ZkcmZSOWNBUldaR3V3dzFKMmMwOUlqT1pSZHpnQ3h1MnlRY3d4KzlBS1JpMExpYjlFWXRrSmZtaWtDUXpKeitoS1F4c1d0aHpjRS81M1haNml3LS1oS3BvTkFnTVVISFZDMmdWdHlLSEhRPT0%3D--645f5571efe62dde6496d23cdd5ccec012af3dff; path=/; HttpOnly",
+        "X-Request-Id": "583257fb-d34c-44a7-ad9b-fe62fe5d4a2a",
+        "X-Runtime": "0.083144",
+        "Content-Length": "340"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/client\" -X GET \\\n\t-H \"Access-Token: 4zVwy9DDwDhGsa_h5GFvCg\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: _1_TVzjmxkK3YBMmrn221w\" \\\n\t-H \"Expiry: 1460491431\" \\\n\t-H \"Uid: 173hilton@goodwin.co\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/client\" -X GET \\\n\t-H \"Access-Token: CW2tD4AwUvfWfVMxnZPXKA\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: v9prK3JyvLvjuquBUC4zdA\" \\\n\t-H \"Expiry: 1461236704\" \\\n\t-H \"Uid: 173talia.friesen@murray.co\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

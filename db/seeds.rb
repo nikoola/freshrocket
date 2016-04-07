@@ -1,23 +1,17 @@
 
 
 
+Dir[Rails.root.join('spec/fixtures/*.rb'  )].each { |f| require f }
 require 'factory_girl_rails'
 require 'faker'
 
 
-city_name = 'COIMBATORE'
-area_names = ["TRICHY ROAD", "ONDIPUDUR", "VASANTHAMILL", "NEELIKONAMPALAYAM", "SINGANALLUR", "UPPILIPALAYAM", "RAMANATHA PURAM", "NANJUNDAPURAM", "SOWRIPALYAM", "PULIYAKULAM", "OLAMBUS", "SUNGAM", "TOWNHALL", "SELVAPURAM", "TELUNGUPALAYA", "GV RESIDENCY", "PALAKAD ROAD",   "KUNIYAMUTHUR", "KALAVAI", "ATHUPALAM", "POLLACHI ROAD",  "SUNDARAPURAM", "KURUCHI", "KARUMBUKADAI", "UKKADAM", "AVINASHI ROAD",  "HOPES", "THANEER PANTHAL", "MASAKALIPALAYAM", "PEELAMEDU", "NAVA INDIA", "AVARAMPALYAM", "LAKSHMI MILLS", "ANNA SILAI", "PAPANAIKAM PALAYAM", "RACE COURSE",  "SAIBABA COLONY", "BARATHI PARK", "NORTH COIMBATORE", "POOMARKET", "LOLLY ROAD", "RS.PURAM", "GANDHI PARK", "SUKRAVAR PETTAI", "SAKTHI ROAD", "GANAPATHY", "SANGANOOR", "SIDHAPUDUR", "RATHINAPURI", "TATABAD", "GANDHIPURAM", "NANJAPA ROAD", "VOC"]
 
 puts 'creating cities'
-city_1 = FactoryGirl.create :city, name: 'Helsinki'
-city_2 = FactoryGirl.create :city, name: 'Paris'
+city_1, city_2 = FactoryGirl.create_list :city, 2
 
-puts 'creating areas'
-city = City.create!(name: city_name)
 
-area_names.each do |area_name|
-	Area.create! name: area_name, city_id: city.id
-end
+
 
 
 

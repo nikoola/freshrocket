@@ -16,11 +16,11 @@
       "request_path": "/admin/stats",
       "request_body": null,
       "request_headers": {
-        "Access-Token": "h4zkyzTjo4QPEnTq3KbA0g",
+        "Access-Token": "tCQGS1sR5HUuidRQKqSBYQ",
         "Token-Type": "Bearer",
-        "Client": "TyXZE7TIMoiIjtBReGNNsw",
-        "Expiry": "1460491419",
-        "Uid": "87viviane.glover@west.io",
+        "Client": "6lntTFmRXmDu98_DQo2C9g",
+        "Expiry": "1461236692",
+        "Uid": "87karianne@wiza.io",
         "Host": "example.org",
         "Cookie": ""
       },
@@ -37,13 +37,13 @@
         "Content-Type": "application/json; charset=utf-8",
         "ETag": "W/\"9033f0c26566828000184e476ae429e1\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=RVJVcmY0UlZHaE96TTRXZUVobEZJMFEyNzB6K1JzM29YNHlqRndtaXRnK1JiM3RvOVo3b3FvMjZUTG1KYzA2MCtVcEE5dUp2d01xQTltaUpnN1RqbjNvNUhPVXRnNUVXUlRST0RmbXZQYkJ5L0NwRGVqMm8zV2ZkODhxcXQ0Zk5GTGFwYjk0TktVangvNDVuaHhUL0ZVeTlybnkxdkM3dkQ5TU55b0xsOE9RUFkzcnJTTC9pWUx4dHUrbjhpMWFFLS0zd1dLY1R6VHZ4RnNvV1FFNEY4ZC93PT0%3D--cb5dbd1877cf7f6a598cac35ec8f38a10953c5c9; path=/; HttpOnly",
-        "X-Request-Id": "a3ff4e59-84ae-42b0-99aa-f9c72703e916",
-        "X-Runtime": "0.090240",
+        "Set-Cookie": "_session_id=eVhzUnBTNko3MGExSTFWa1FDT0JreDdoQzdYWllNaUJqdUo1clJlVittSms0UjZMRTZsRnhJUzdueHFveG10Sk5pV1U1bzZFVytzYVhrRE5sU0hydGtod2d3Si9hYVpXM3hmem5TTVl5ZlBBSmV6bmg5QnQ2Ykh4Vndjempua1p3UzZNS2ZaM0h6elZXRkl5UStHVmxZbHVMTStjOEMrRVREM0VvVUpNYUxZKzRaaitiU0JuVGR2cERvbVd3UmNoLS1NZUpSYmtYT1daRTVVNEtCMGxBOUF3PT0%3D--004ecbc15b602892cf7e64f4b9a87db6028213ad; path=/; HttpOnly",
+        "X-Request-Id": "c60eb1ce-9c9b-48c8-a94b-1d238acfb407",
+        "X-Runtime": "0.088642",
         "Content-Length": "139"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/admin/stats\" -X GET \\\n\t-H \"Access-Token: h4zkyzTjo4QPEnTq3KbA0g\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: TyXZE7TIMoiIjtBReGNNsw\" \\\n\t-H \"Expiry: 1460491419\" \\\n\t-H \"Uid: 87viviane.glover@west.io\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/admin/stats\" -X GET \\\n\t-H \"Access-Token: tCQGS1sR5HUuidRQKqSBYQ\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: 6lntTFmRXmDu98_DQo2C9g\" \\\n\t-H \"Expiry: 1461236692\" \\\n\t-H \"Uid: 87karianne@wiza.io\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

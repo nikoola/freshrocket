@@ -13,7 +13,7 @@ resource 'admin: addresses', type: :request do
 	get '/admin/addresses' do
 		parameter :active, '0/1. is inactive if user tried to delete order, but it was already mentioned in any orders'
 
-		example 'get all own addresses' do
+		example 'get all addresses' do
 			FactoryGirl.create_list :address, 3, active: false
 			FactoryGirl.create_list :address, 2
 
@@ -35,9 +35,10 @@ resource 'admin: addresses', type: :request do
 			parameter :door_number
 			parameter :user_id
 			parameter :zip_code,        required: false
+			parameter :coordinate
 		end
 
-		example 'create own address' do
+		example 'create address' do
 			do_request address: FactoryGirl.attributes_for(:address, city_id: city.id, user_id: user.id)
 
 			expect(status).to eq(201)
@@ -49,7 +50,7 @@ resource 'admin: addresses', type: :request do
 
 	put '/admin/addresses/:id' do
 
-		example 'change own address' do
+		example 'change address' do
 			explanation 'fails if address has been used in any approved orders'
 			do_request id: address.id, address: { street_and_house: 'good' }
 
@@ -61,7 +62,7 @@ resource 'admin: addresses', type: :request do
 
 	delete '/admin/addresses/:id' do
 
-		example 'deletes own address' do
+		example 'deletes address' do
 			explanation 'marks as inactive if address has been used in any orders'
 
 			do_request id: address.id

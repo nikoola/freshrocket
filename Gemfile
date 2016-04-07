@@ -8,7 +8,7 @@ gem 'rails', '4.2.5'
 
 
 # gem 'rails-api'
-gem 'factory_girl_rails'
+gem 'factory_girl_rails', require: false #because of fixtures and seeds.rb
 gem 'faker' #for seed file
 
 group :development, :test do
@@ -116,7 +116,7 @@ gem 'wicked_pdf'
 gem "letter_opener",      group: :development
 
 
-
+gem 'geokit'
 
 ruby '2.2.1'
 

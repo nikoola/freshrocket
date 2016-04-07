@@ -2,7 +2,7 @@
   "resource": "admin: addresses",
   "http_method": "PUT",
   "route": "/admin/addresses/:id",
-  "description": "change own address",
+  "description": "change address",
   "explanation": "fails if address has been used in any approved orders",
   "parameters": [
 
@@ -16,11 +16,11 @@
       "request_path": "/admin/addresses/1",
       "request_body": "address[street_and_house]=good",
       "request_headers": {
-        "Access-Token": "CPZZgVNR6WnuCrqQboYWSQ",
+        "Access-Token": "E_MjqIJaER1JcppIU1i_VQ",
         "Token-Type": "Bearer",
-        "Client": "XVhXH5Jv_PNnbdd4GY5Pcg",
-        "Expiry": "1460491397",
-        "Uid": "8veda@olson.net",
+        "Client": "bNutAG2Ds-rjffIG910b_g",
+        "Expiry": "1461236671",
+        "Uid": "8heaven.rowe@prohaska.com",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -38,13 +38,13 @@
         "Content-Type": "application/json; charset=utf-8",
         "ETag": "W/\"c8020b6cc54da26011e70ed91a0a740c\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=VzJOcVFJWDEwOXNnbmtRb1JWUmZUSzNPL2JWVDdrRVFaY3dMODdvcWJ6WkVBMk90VjdFWVZjWkdoUnYvNTB5bVlXMHF3UklhTitoMXZYYjRBbERVODdWbE13cklPRUJaRzZRV0h1RWRtRytwMnVkTHVldk9rVXRxL2VFRDFOWWdVTzhpQ0VsWENrSXorYzgyTjhabUtwVmtOM3ZLSXpTMlVQNi8veUNISkdOenlGdXZZTkdOeXhzdjBaSTZ2aTI4LS1BRkpIb3lVb0M4Yy80VDBLRFg4dXdBPT0%3D--54fb088ce975515d62e596687db59ec17c132ac7; path=/; HttpOnly",
-        "X-Request-Id": "188029d7-2a81-4e79-a437-ab698d762af5",
-        "X-Runtime": "0.120254",
+        "Set-Cookie": "_session_id=YjZNUDNmM3lQNGlPMEdSN0pYT00venptTzFCUkxoam1UUWpkWDNLWFkrR2JHdWl3RXFqWXBpZE9GN0pXYjhpUytHRUdoVDIxb2lSQWgvc0ljUXB1Q0htcVQvYzFIblMxc3c5Y2Zpa0lhZ2g0Q3NDRC85NC90UGRWY2VXb21aVGNibEo0MmpFUHFHaitDRFhUREMwdmFERk1EaTYxVmNKV1g3cXFIdVRjbjRlenc0enhXYTUrcnhlQVNHZHMxL3ByLS1mdVRFT1lnb3FrQW9pQS9ldTRNV3p3PT0%3D--b6e285aa34378a7b80e9a3f7f0eb5acdf440e871; path=/; HttpOnly",
+        "X-Request-Id": "94c0af0c-126a-4394-8321-1854faeff3d5",
+        "X-Runtime": "0.116092",
         "Content-Length": "125"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/admin/addresses/1\" -d 'address[street_and_house]=good' -X PUT \\\n\t-H \"Access-Token: CPZZgVNR6WnuCrqQboYWSQ\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: XVhXH5Jv_PNnbdd4GY5Pcg\" \\\n\t-H \"Expiry: 1460491397\" \\\n\t-H \"Uid: 8veda@olson.net\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/admin/addresses/1\" -d 'address[street_and_house]=good' -X PUT \\\n\t-H \"Access-Token: E_MjqIJaER1JcppIU1i_VQ\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: bNutAG2Ds-rjffIG910b_g\" \\\n\t-H \"Expiry: 1461236671\" \\\n\t-H \"Uid: 8heaven.rowe@prohaska.com\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

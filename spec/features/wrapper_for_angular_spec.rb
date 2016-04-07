@@ -11,17 +11,14 @@ describe 'Angular: parameter wrapping', type: :request do
 	let(:auth_headers) { user.create_new_auth_token }
 
 	it '/admin/cities' do
+		city_attrs = FactoryGirl.attributes_for(:city)
 
 		# we need to set additional headers for parameters wrapping to work
-		post '/admin/cities', { name: 'wow', areas_attributes: [
-			{ name: 'area_1' },
-			{ name: 'area_2' }
-		] }.to_json, auth_headers.merge('ACCEPT' => 'application/json', 'CONTENT_TYPE' => 'application/json')
+		post '/admin/cities', city_attrs.to_json, auth_headers.merge('ACCEPT' => 'application/json', 'CONTENT_TYPE' => 'application/json')
 		# to_json is necessary
 
 		city = City.find(json_body[:id])
-
-		expect(city.areas.count).to eq(2)
+		expect(city.polygon).to eq( JSON.parse(city_attrs[:stringified_polygon]) )
 	end
 
 

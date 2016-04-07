@@ -248,6 +248,7 @@ GEM
       fog-core
       nokogiri (~> 1.5, >= 1.5.11)
     formatador (0.2.5)
+    geokit (1.10.0)
     globalid (0.3.6)
       activesupport (>= 4.1.0)
     hashie (3.4.3)
@@ -467,6 +468,7 @@ DEPENDENCIES
   factory_girl_rails
   faker
   fog
+  geokit
   letter_opener
   mini_magick
   msg91!

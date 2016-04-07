@@ -1,0 +1,53 @@
+{
+  "resource": "admin: addresses",
+  "http_method": "GET",
+  "route": "/admin/addresses",
+  "description": "get all addresses",
+  "explanation": null,
+  "parameters": [
+    {
+      "name": "active",
+      "description": "0/1. is inactive if user tried to delete order, but it was already mentioned in any orders"
+    }
+  ],
+  "response_fields": [
+
+  ],
+  "requests": [
+    {
+      "request_method": "GET",
+      "request_path": "/admin/addresses?active=0",
+      "request_body": null,
+      "request_headers": {
+        "Access-Token": "HRyYI0nC0QxNb97H11qwtg",
+        "Token-Type": "Bearer",
+        "Client": "hdVz4zAVu4F-gGFOuGvuXw",
+        "Expiry": "1461236670",
+        "Uid": "6ezekiel@heidenreich.com",
+        "Host": "example.org",
+        "Cookie": ""
+      },
+      "request_query_parameters": {
+        "active": "0"
+      },
+      "request_content_type": null,
+      "response_status": 200,
+      "response_status_text": "OK",
+      "response_body": "[\n  {\n    \"id\": 1,\n    \"city_id\": 1,\n    \"user_id\": 1,\n    \"street_and_house\": \"470 Devin Landing\",\n    \"door_number\": \"5\",\n    \"zip_code\": null,\n    \"active\": false,\n    \"city_name\": \"Delhi\"\n  },\n  {\n    \"id\": 2,\n    \"city_id\": 2,\n    \"user_id\": 2,\n    \"street_and_house\": \"868 Reinger Plains\",\n    \"door_number\": \"5\",\n    \"zip_code\": null,\n    \"active\": false,\n    \"city_name\": \"Bengaluru\"\n  },\n  {\n    \"id\": 3,\n    \"city_id\": 3,\n    \"user_id\": 3,\n    \"street_and_house\": \"59761 Tillman Centers\",\n    \"door_number\": \"5\",\n    \"zip_code\": null,\n    \"active\": false,\n    \"city_name\": \"Ahmedabad\"\n  }\n]",
+      "response_headers": {
+        "X-Frame-Options": "SAMEORIGIN",
+        "X-XSS-Protection": "1; mode=block",
+        "X-Content-Type-Options": "nosniff",
+        "Content-Type": "application/json; charset=utf-8",
+        "ETag": "W/\"e8404e197b53b721ff337d6dc41826e9\"",
+        "Cache-Control": "max-age=0, private, must-revalidate",
+        "Set-Cookie": "_session_id=Z0JmMklPWVhEQzNtSys4cW5SR2pmVzd4RTMwa2t5UkVlZXhYeUlPOHZVaEcycThkdThDdFVkZEkzaWs3NElwNS9FY29PNUxGbVJnMWFVN1dNS3FkWDhlWE1nSFIyRWF5RzFSRmQ1blpETEZHMUhSYUdVT2c1aTVRZG5pdG5iek4xVzJxS1FvQ2J5SWM0ejBKMXhCQ3ZNL1NkOWZEM1ZEQzhMaE11VWRCbEswTmdmVkVtVjNKakdnNmx5V1k1aURRLS1YRFBpc0F0RlVZWjY1cTBaMXpzMUhRPT0%3D--a1d66e7dd42049d1717626b445a19dd6605d2215; path=/; HttpOnly",
+        "X-Request-Id": "0d193ba8-f6b9-43f3-9a07-d470ec93251d",
+        "X-Runtime": "0.123122",
+        "Content-Length": "437"
+      },
+      "response_content_type": "application/json; charset=utf-8",
+      "curl": "curl \"http://localhost:3000/admin/addresses?active=0\" -X GET \\\n\t-H \"Access-Token: HRyYI0nC0QxNb97H11qwtg\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: hdVz4zAVu4F-gGFOuGvuXw\" \\\n\t-H \"Expiry: 1461236670\" \\\n\t-H \"Uid: 6ezekiel@heidenreich.com\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
+    }
+  ]
+}

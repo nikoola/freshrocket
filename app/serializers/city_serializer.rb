@@ -1,6 +1,6 @@
 class CitySerializer < ActiveModel::Serializer
 	attributes :id, 
-		:name, :active
+		:name, :active, :polygon
 
-	has_many :areas
+
 end

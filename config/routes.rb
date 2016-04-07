@@ -6,9 +6,7 @@ Rails.application.routes.draw do
 	resources :products,   only: [:index, :show]
 	resources :cities,     only: [:index, :show]
 
-	resources :orders, only: [] do
-		resources :positions,  only: [:index]
-	end
+
 
 	scope :forms do
 		controller :forms do
@@ -22,6 +20,11 @@ Rails.application.routes.draw do
 		end
 	end
 
+
+	# custom authentication needed
+	resources :orders, only: [] do
+		resources :positions,  only: [:index]
+	end
 
 
 
@@ -45,6 +48,7 @@ Rails.application.routes.draw do
 		resources :payments,  only: [:new] do
 			member {
 				post :citrus
+				post :paytm
 			}
 		end
 

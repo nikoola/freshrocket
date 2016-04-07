@@ -16,11 +16,11 @@
       "request_path": "/admin/coupons",
       "request_body": null,
       "request_headers": {
-        "Access-Token": "7iQHXoxSOffUNjrt-iWk5w",
+        "Access-Token": "YP1omoTqa5eCfesBWnHPRA",
         "Token-Type": "Bearer",
-        "Client": "7Zqu0dVTsmr9_AUb2Zo5EA",
-        "Expiry": "1460491405",
-        "Uid": "18chaim.torp@torp.io",
+        "Client": "ZPjImVnPieaDv7Hzu8qfkg",
+        "Expiry": "1461236683",
+        "Uid": "18kasandra_stanton@kilback.net",
         "Host": "example.org",
         "Cookie": ""
       },
@@ -29,21 +29,21 @@
       "request_content_type": null,
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "[\n  {\n    \"id\": 1,\n    \"name\": \"red\",\n    \"code\": \"51051\",\n    \"discount\": 56\n  },\n  {\n    \"id\": 2,\n    \"name\": \"red\",\n    \"code\": \"99512\",\n    \"discount\": 33\n  },\n  {\n    \"id\": 3,\n    \"name\": \"red\",\n    \"code\": \"32843\",\n    \"discount\": 70\n  },\n  {\n    \"id\": 4,\n    \"name\": \"red\",\n    \"code\": \"67824\",\n    \"discount\": 3\n  }\n]",
+      "response_body": "[\n  {\n    \"id\": 1,\n    \"name\": \"red\",\n    \"code\": \"88291\",\n    \"discount\": 38\n  },\n  {\n    \"id\": 2,\n    \"name\": \"red\",\n    \"code\": \"27692\",\n    \"discount\": 57\n  },\n  {\n    \"id\": 3,\n    \"name\": \"red\",\n    \"code\": \"71793\",\n    \"discount\": 88\n  },\n  {\n    \"id\": 4,\n    \"name\": \"red\",\n    \"code\": \"27134\",\n    \"discount\": 41\n  }\n]",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"8a922ca146f3306e047453991e8c8e7e\"",
+        "ETag": "W/\"0d1bca277b2a69c120361fc8c7255960\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=RjZnZEpOSXlDejdmSHkxcEV1bjhta3RxV2pEVk5IaW1VY0F3bWhrdzF0MnhxRWhxcmt5Y0h2aFB2dnJkYS9iMTBFdDRLcVJvdHJ0ZEhma25admdQTFpxdUxPVk9WT0s0eittRmlNMGRPVEs4OWt2RFcxSy8vNkV0V3pxdW9Vd1lScVNuRGprY1RCN2FXUHdBNzk0VGlqeVdZdWRrRU9vOUZaU2hyOVE5cXZtSFBLWHM5dVJRcGZTNmljNzkxbkNULS1BRHhSQUlDUVgrYkplQ0NUc1VHdHh3PT0%3D--7654d687cf4bbee233d76f4a6a01115ee276c1a9; path=/; HttpOnly",
-        "X-Request-Id": "7cad0dd9-7128-4722-8a56-a3a1f3dc21f9",
-        "X-Runtime": "0.088406",
-        "Content-Length": "204"
+        "Set-Cookie": "_session_id=MEU2MElzVUpjWllrOFZGUjR5WHhaWlhaeFE2elI1WmpZTGUwWGhBSUFPUjl2NnBkSzFkbkorQTA1bzQ5MnpoYk1GSjFybXE4RldIU0dhM1lYYXZYSTJaSlRuU3NhQ1ZDQ3VpLzdERjFjSk96L2IxbzROeVp4NGNLb2VSV1dxS1V1dEU0TkpXQkJXTUJLR2JQTytaeEltNmxrR3FhZUVhbUVXV0dwR1c0ZDZFWXgxa2MvV29aZUpYUkRtYVNjeEc2LS1LVzlBUm1JSmwvM1QxRU9XUzlGaUNRPT0%3D--8eb981d2294ccb9d402581c18be58921f7e83321; path=/; HttpOnly",
+        "X-Request-Id": "09c1a075-b243-4e93-8e7c-899a7cf0565d",
+        "X-Runtime": "0.084440",
+        "Content-Length": "205"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/admin/coupons\" -X GET \\\n\t-H \"Access-Token: 7iQHXoxSOffUNjrt-iWk5w\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: 7Zqu0dVTsmr9_AUb2Zo5EA\" \\\n\t-H \"Expiry: 1460491405\" \\\n\t-H \"Uid: 18chaim.torp@torp.io\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/admin/coupons\" -X GET \\\n\t-H \"Access-Token: YP1omoTqa5eCfesBWnHPRA\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: ZPjImVnPieaDv7Hzu8qfkg\" \\\n\t-H \"Expiry: 1461236683\" \\\n\t-H \"Uid: 18kasandra_stanton@kilback.net\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

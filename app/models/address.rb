@@ -4,16 +4,28 @@ class Address < ActiveRecord::Base
 	belongs_to :city
 	has_many   :orders
 
-	validates_presence_of :user, :city, :street_and_house, :door_number
+	validates_presence_of :user,
+		:city, :coordinate, :street_and_house, :door_number
 
 	validate :has_no_approved_orders?, on: :update
+	validate :is_in_deliverable_area?, if: -> { city and coordinate }
 
 
 	include Filterable
 	scope :active, -> (bool) { where active: param_to_bool(bool) }
 
+	serialize :coordinate, Array
+
+	def is_in_deliverable_area?
+		unless city.contains_coordinate? coordinate
+			errors.add :coordinate, 'is not deliverable'
+		end
+	end
 
 
+	def stringified_coordinate= string
+		self.coordinate = JSON.parse(string)
+	end
 
 	def destroy_or_disable
 		self.orders.any? ? disable : destroy

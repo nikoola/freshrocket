@@ -2,15 +2,36 @@ class City < ActiveRecord::Base
 
 	has_many :products
 
-	has_many :areas, inverse_of: :city, dependent: :destroy
-	accepts_nested_attributes_for :areas, allow_destroy: true #Note that the :autosave option is automatically enabled on every association that #accepts_nested_attributes_for is used for
-
-
 	validates :name, presence: true, uniqueness: true
+	validates_presence_of :polygon
 
 	include Filterable
 	scope :active, -> (bool) { where active: param_to_bool(bool) }
+	scope :containing_coordinate, -> (coordinate) {
+		select do |city|
+			city.contains_coordinate? coordinate
+		end
+	}
 
+
+	serialize :polygon, Array
+
+
+
+	def geokited_polygon
+		array_of_coordinates = polygon.map { |lat, lng| Geokit::LatLng.new(lat, lng) }
+		Geokit::Polygon.new array_of_coordinates
+	end
+
+	def contains_coordinate? coordinate # [10, 40]
+		lat, lng = coordinate.map(&:to_i)
+		geokited_lat_lng = Geokit::LatLng.new(lat, lng) #to_i because params turn into ['4', '6']
+		geokited_polygon.contains? geokited_lat_lng
+	end
+
+	def stringified_polygon= string
+		self.polygon = JSON.parse(string)
+	end
 
 
 
@@ -19,11 +40,19 @@ class City < ActiveRecord::Base
 	end
 
 
+
 	private
 		def disable
 			update active: false
 		end
 
+
+
+
+
+
+
+		
 
 
 

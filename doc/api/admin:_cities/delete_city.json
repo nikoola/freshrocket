@@ -3,7 +3,7 @@
   "http_method": "DELETE",
   "route": "/admin/cities/:id",
   "description": "delete city",
-  "explanation": "delete city if no products in it, disable it if there are products present. if city actually gets deleted, all its area will get deleted too",
+  "explanation": "delete city if no products in it, disable it if there are products present",
   "parameters": [
 
   ],
@@ -16,11 +16,11 @@
       "request_path": "/admin/cities/1",
       "request_body": null,
       "request_headers": {
-        "Access-Token": "oG3UNRc_LGivpoKvDqcbpA",
+        "Access-Token": "t4n8SzEd27oH4n-JPfQj1Q",
         "Token-Type": "Bearer",
-        "Client": "6a8GZAV7M_QbP-_FbJJ-Ew",
-        "Expiry": "1460491404",
-        "Uid": "17sabrina@roobward.info",
+        "Client": "aAUBZ9Be-An1mx3cbWQUzA",
+        "Expiry": "1461236683",
+        "Uid": "17gianni_price@gibson.net",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -37,13 +37,13 @@
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "text/html",
         "Cache-Control": "no-cache",
-        "Set-Cookie": "_session_id=ZGN0TnpKeGV5bzNvYlN1TnRGbC9kTHl0MVZqY1ArR1hLK2dGdzRFQ3RoT0QzSjB3bnJFZWRUVzJCYzZ1cmJWZGMxNVZkempBMGdGd2hBNFl5N0pmOHpjQzQ1ankwMjVPWGozK1dwak4wTkVmbXdpUDFONlVoZ0FrTXF4YmVaa2QyZ0JMTzFOV3l2WHcvckZkbUU2MTRqNGxJVkRVenB0V2ZQZkxMMllJM1B2N3RLYUdiMjhuYkVzWmdsVk9MVHdpLS1KVW1YQXNxd0FNdFBqYXpzUG9ZVUV3PT0%3D--67e5e19b6ac3e0e6214169d675a5a9a820cf134c; path=/; HttpOnly",
-        "X-Request-Id": "004dc2ff-6132-44cd-936a-63de6bfe9494",
-        "X-Runtime": "0.105725",
+        "Set-Cookie": "_session_id=d1hOa3pzZ2R1cHFTMlB2b2duZDRTZWk4Qzg2VzloR0tHREJMelBaZTV4NklVNVNPL3lKdDRzYVFzNWprUTVPTXZ0aVB1MGNLbDU2angxNzRVTjVWakI2amJmbHRwaUpmZmQxaEx1MEFpU2Jha3BJSy9TNWJxdzl1MjZ1ZWd0dlo4SjZaYWxMenZodlgzYzdaVjVRRWFjbUxuWmJFYTcrOVllRVFVY1dTNmVQSk5aMkNyODZrQjFuMnJNV1dLM1Q1LS1USUpUUWZnWGFiM2g4MUxZM1NEOHF3PT0%3D--b1461bc67eb27c246a4a4850bfd99dc3497ac3d5; path=/; HttpOnly",
+        "X-Request-Id": "72711c8d-2d31-4ecf-94c2-fbcda830d114",
+        "X-Runtime": "0.085129",
         "Content-Length": "0"
       },
       "response_content_type": "text/html",
-      "curl": "curl \"http://localhost:3000/admin/cities/1\" -d '' -X DELETE \\\n\t-H \"Access-Token: oG3UNRc_LGivpoKvDqcbpA\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: 6a8GZAV7M_QbP-_FbJJ-Ew\" \\\n\t-H \"Expiry: 1460491404\" \\\n\t-H \"Uid: 17sabrina@roobward.info\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/admin/cities/1\" -d '' -X DELETE \\\n\t-H \"Access-Token: t4n8SzEd27oH4n-JPfQj1Q\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: aAUBZ9Be-An1mx3cbWQUzA\" \\\n\t-H \"Expiry: 1461236683\" \\\n\t-H \"Uid: 17gianni_price@gibson.net\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

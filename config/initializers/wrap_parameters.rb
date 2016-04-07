@@ -19,11 +19,13 @@ module ActionController
 
 					unless super || exclude
 						if m.respond_to?(:attribute_names) && m.attribute_names.any?
-							# wrap_parameters add: [:password, :password_confirmation] #for devise to work, may want to limit to more specific cotrollers later.
+							# wrap_parameters add: [:password, :password_confirmation] #for devise to work, may want to limit to more specific cotrollers later. #no :add method now, kinda tricky to implement. use below method for now:
 							custom = if m == User
 								[:password, :password_confirmation]
 							elsif m == Product
 								[:category_ids]
+							elsif m == City
+								[:stringified_polygon]
 							else
 								[]
 							end

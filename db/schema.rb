@@ -18,13 +18,9 @@ ActiveRecord::Schema.define(version: 20160127185541) do
     t.integer "city_id"
     t.string  "street_and_house"
     t.string  "door_number"
+    t.string  "coordinate"
     t.integer "zip_code"
     t.boolean "active",           default: true
-  end
-
-  create_table "areas", force: :cascade do |t|
-    t.string  "name"
-    t.integer "city_id"
   end
 
   create_table "categories", force: :cascade do |t|
@@ -42,7 +38,8 @@ ActiveRecord::Schema.define(version: 20160127185541) do
 
   create_table "cities", force: :cascade do |t|
     t.string  "name"
-    t.boolean "active", default: true
+    t.string  "polygon"
+    t.boolean "active",  default: true
   end
 
   create_table "coupons", force: :cascade do |t|

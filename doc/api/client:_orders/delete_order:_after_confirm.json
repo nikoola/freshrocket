@@ -16,11 +16,11 @@
       "request_path": "/client/orders/3",
       "request_body": null,
       "request_headers": {
-        "Access-Token": "4hmz2Fxgy7mS8JVYNMq2fw",
+        "Access-Token": "qBKJslr9QKpavvll29Tjag",
         "Token-Type": "Bearer",
-        "Client": "IMDGCEFvfCB3h4KWO8ty-g",
-        "Expiry": "1460491428",
-        "Uid": "146haan@abbottokon.io",
+        "Client": "cX_EIanWfowy5MMkhr0h5w",
+        "Expiry": "1461236701",
+        "Uid": "146chanel@okunevamacejkovic.co",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -37,13 +37,13 @@
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "application/json; charset=utf-8",
         "Cache-Control": "no-cache",
-        "Set-Cookie": "_session_id=aVg3d1F2L2RQckhvQXpuemdDbEtQMGpFTEpyNUdZQVRQRXVCVWc2UEo5Y3BWV2dSZ09Td01SRXVEaWsvSnFJMU5YS011Tm1rTWg1N2V0dVFRK3hkNVVhTUhWSHdsbnJEaTZGNFM0aDJQc1NjazZPaGdiZEQ3YWFzRUczUmxGeTF5cE9ReVFZTjB1UWsxUXo5OXRSbldJczRWL3pWUkNhN2lqZml5eVlPSFBqMVNDTHpJYTZsR1dYa1RtcEhNVWdvLS16UzlTdTIyY3NGLzU0czNkM01QOVBBPT0%3D--a26f1bd948f4f42402277613d00262c214ab9e05; path=/; HttpOnly",
-        "X-Request-Id": "50d58a4c-1f15-4a87-bf0e-536ffb87919c",
-        "X-Runtime": "0.077070",
+        "Set-Cookie": "_session_id=Z3ZWa2tZZ3lMcndMbWpJMWdsdlZhVE9QT2tvYml0cnp6NXE0OHora0NKQlFPSmVRUTRqbXhlQnkzdjcraEdXamdPdGh3Q01PeXZyZjhwUzV2dDI5cDFScllvZWN0dE5hOGNvVzU3ODFLdkpKR0dtKzMxakY1ektPUFAvbGlzK1ZNc3JMWlhOZXVLcDAyMEZQWnAyM0MraVVwTUpIUzRwVGplUzVnZjFPcDRzKytNa2JVZ2dLTmxISk9LZGI2eUZELS1oQU9yeVE2WlBVUFNzRTRKdWlKQkF3PT0%3D--fd5484ac5a0c034ce6d77e18620fe57fef1c5f10; path=/; HttpOnly",
+        "X-Request-Id": "c2889673-b334-40c8-8066-b8bc3c8102cb",
+        "X-Runtime": "0.077592",
         "Content-Length": "83"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/client/orders/3\" -d '' -X DELETE \\\n\t-H \"Access-Token: 4hmz2Fxgy7mS8JVYNMq2fw\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: IMDGCEFvfCB3h4KWO8ty-g\" \\\n\t-H \"Expiry: 1460491428\" \\\n\t-H \"Uid: 146haan@abbottokon.io\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/client/orders/3\" -d '' -X DELETE \\\n\t-H \"Access-Token: qBKJslr9QKpavvll29Tjag\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: cX_EIanWfowy5MMkhr0h5w\" \\\n\t-H \"Expiry: 1461236701\" \\\n\t-H \"Uid: 146chanel@okunevamacejkovic.co\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

@@ -59,15 +59,15 @@ describe '', type: :request do
 		# puts 'admin creates city' to do?
 		# post '/admin/cities', { city: { name: 'New York' } }, admin_headers
 		# expect_status 201
-		city = City.create name: 'New York'
+		city = City.create FactoryGirl.attributes_for(:city)
 
 
 
 
 		puts 'admin creates product'
 		post '/admin/products', { product: { title: 'fish', price: '3.0', inventory_count: 2, city_id: city.id, category_ids: [category.id] } }, admin_headers
-		product = Product.find(json_body[:id])
 		expect_status 201
+		product = Product.find(json_body[:id])
 		expect(product.categories.pluck(:id)).to eq([category.id])
 
 

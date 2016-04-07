@@ -5,7 +5,7 @@ module Client
 		def new
 			head status: 404 unless @order = current_user.orders.find_by(id: params[:order_id])
 
-			helper = OffsitePayments::Integrations::Citrus::Helper.new(
+			citrus_helper = OffsitePayments::Integrations::Citrus::Helper.new(
 				@order.id, CITRUS[:access_key],
 				amount: @order.total_price, currency: 'INR',
 				credential2: CITRUS[:secret_key],
@@ -13,13 +13,31 @@ module Client
 				return_url:  CITRUS[:return_url]
 			)
 
+			# paytm_helper = OffsitePayments::Integrations::Paytm::Helper.new('order-500', 'cody@example.com',
+			# 	amount:            500,
+			# 	transaction_type: 'DEFAULT',
+			# 	device_used:      'WEB',
+			# 	customer: {
+			# 		email: 'hi@hi.com',
+			# 		phone: '9111111111',
+			# 		id:    1
+			# 	},
+			# 	industry_type_id: 3,
+			# 	website:          'http://hi.com'
+			# )
+	
 
 			render json: {
 				citrus: { 
-					action: helper.credential_based_url, 
-					method: helper.form_method, 
-					fields: helper.form_fields 
-				}
+					action: citrus_helper.credential_based_url, 
+					method: citrus_helper.form_method, 
+					fields: citrus_helper.form_fields
+				}#,
+				# paytm: {
+				# 	action: OffsitePayments::Integrations::Paytm.service_url, 
+				# 	method: paytm_helper.form_method, 
+				# 	fields: paytm_helper.form_fields 
+				# }
 			}
 		end
 	

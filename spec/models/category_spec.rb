@@ -18,7 +18,7 @@ describe Category, type: :model do
 	# it 'deletes '
 
 	it 'accepts nested categories_products_joins' do
-		city = City.create! name: 'Springfield'
+		city = City.create! FactoryGirl.attributes_for(:city)
 		product = Product.create!(FactoryGirl.attributes_for :product, city_id: city.id)
 
 		product.update!({ categories_products_joins_attributes: [

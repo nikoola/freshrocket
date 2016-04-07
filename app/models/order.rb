@@ -105,7 +105,7 @@ class Order < ActiveRecord::Base
 	validate :wanted_date_is_set_if_wanted_time_is_set
 
 
-	PAYMENT_TYPES = ['cash', 'citrus']
+	PAYMENT_TYPES = ['cash', 'citrus', 'paytm']
 	validates_inclusion_of :payment_type, in: PAYMENT_TYPES, 
 		allow_blank: true, 
 		message: "%{value} is not permitted. can be #{PAYMENT_TYPES}"

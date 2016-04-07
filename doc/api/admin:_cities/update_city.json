@@ -1,0 +1,50 @@
+{
+  "resource": "admin: cities",
+  "http_method": "PUT",
+  "route": "/admin/cities/:id",
+  "description": "update city",
+  "explanation": null,
+  "parameters": [
+
+  ],
+  "response_fields": [
+
+  ],
+  "requests": [
+    {
+      "request_method": "PUT",
+      "request_path": "/admin/cities/1",
+      "request_body": "city[name]=hi",
+      "request_headers": {
+        "Access-Token": "vUQq_ZLMl-Fi2FWvu28xeg",
+        "Token-Type": "Bearer",
+        "Client": "U8cx62WMBf6Eo-Z7nf02nA",
+        "Expiry": "1461236683",
+        "Uid": "16jadyn@sporer.com",
+        "Host": "example.org",
+        "Content-Type": "application/x-www-form-urlencoded",
+        "Cookie": ""
+      },
+      "request_query_parameters": {
+      },
+      "request_content_type": "application/x-www-form-urlencoded",
+      "response_status": 200,
+      "response_status_text": "OK",
+      "response_body": "{\n  \"id\": 1,\n  \"name\": \"hi\",\n  \"active\": true,\n  \"polygon\": [\n    [\n      3,\n      5\n    ],\n    [\n      0,\n      0\n    ],\n    [\n      10,\n      10\n    ]\n  ]\n}",
+      "response_headers": {
+        "X-Frame-Options": "SAMEORIGIN",
+        "X-XSS-Protection": "1; mode=block",
+        "X-Content-Type-Options": "nosniff",
+        "Content-Type": "application/json; charset=utf-8",
+        "ETag": "W/\"21bd986c8f9101f546e375eff10eb4d3\"",
+        "Cache-Control": "max-age=0, private, must-revalidate",
+        "Set-Cookie": "_session_id=Q0pWcldPMzhiUWpBWlJIcEhBWmJBSTFJcndWL2xGTGRpUWpxaFdxNzVzeGRjdEk0aXh6UmNkVE1uNnJYNUxSK2VDeW1hb2pVdXZ6ZkhhVzFQcXNOYkVoSDY3MkpuOFdsaFE0OTVISkpyc2hYV2tYYzdjYlRVRm9xY1V1alJvQTdiZUYySGFkS2oveHFNbW54akJEeEIvalZpRzBSdU5EeVUrOWJwSnRMa2p5dHQxZ3NBbEFvc1NaV2NWbWVRbytOLS1ZRWxEa2crd0ZBYWNnd0J5QnhlYW9BPT0%3D--3fe54f253e6f118f597d2f6dac96532204a5d73e; path=/; HttpOnly",
+        "X-Request-Id": "d382fb24-d490-47f4-b1fe-4214b204f02f",
+        "X-Runtime": "0.079262",
+        "Content-Length": "66"
+      },
+      "response_content_type": "application/json; charset=utf-8",
+      "curl": "curl \"http://localhost:3000/admin/cities/1\" -d 'city[name]=hi' -X PUT \\\n\t-H \"Access-Token: vUQq_ZLMl-Fi2FWvu28xeg\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: U8cx62WMBf6Eo-Z7nf02nA\" \\\n\t-H \"Expiry: 1461236683\" \\\n\t-H \"Uid: 16jadyn@sporer.com\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+    }
+  ]
+}

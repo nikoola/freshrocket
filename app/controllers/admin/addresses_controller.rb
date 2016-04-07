@@ -43,7 +43,7 @@ module Admin
 			def address_params
 				params.require(:address).permit([
 					:city_id, :user_id,
-					:street_and_house, :door_number, :zip_code
+					:street_and_house, :door_number, :zip_code, :stringified_coordinate
 				])
 
 				# no :active

@@ -16,11 +16,11 @@
       "request_path": "/auth/sign_out",
       "request_body": null,
       "request_headers": {
-        "Access-Token": "6L1e5MSSBcEwswJ8OSeq2A",
+        "Access-Token": "Sz5tABM-ELoPcaQmk2EtRA",
         "Token-Type": "Bearer",
-        "Client": "nEprpR2rSQfZW_O0eSo7Mg",
-        "Expiry": "1460491423",
-        "Uid": "124jena_dicki@leannon.info",
+        "Client": "Bd1y-C9nKUIk6dPoO-28zA",
+        "Expiry": "1461236696",
+        "Uid": "124nyasia@pfeffer.co",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -38,13 +38,13 @@
         "Content-Type": "application/json; charset=utf-8",
         "ETag": "W/\"7363e85fe9edee6f053a4b319588c086\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=ZGR3WFhTTFdvSExZeUQ0ODEwTDY5cG5EUzhKSmxTVHI1ZGMwN25vTldldE40NDhFWmpla05Yc2VjNFJDYy85WVN5cFA5eU1BYXhOTHZ0M2lHU2E1bGc9PS0tU1R1b2g4TklkS1dPVGN4bUhWdjZ0Zz09--39f0ac3e9a1ae53375f6f0a47eb4ea9e48bfa2dd; path=/; HttpOnly",
-        "X-Request-Id": "4513d186-67c8-4fbb-af94-bd6bf1caafb4",
-        "X-Runtime": "0.073295",
+        "Set-Cookie": "_session_id=K0toM2dzN2QyRkxhZWpudkFHemI4clY0aDFOT0NiQVBaaWk2L0Z6US9TYkFIS3ZuWVEza1h4cW9uYVZBTDlabFQ3QjlDUzFqRlhrVzBHbmpqN3g3bXc9PS0tbzBTdFRiQVlRZVlLVXV3Sk0yRWdSZz09--a73bb1b0ae323b6b34ab6c569da9afa9246a3f7c; path=/; HttpOnly",
+        "X-Request-Id": "ac86d53b-c325-49e1-906d-52eab71220f1",
+        "X-Runtime": "0.082308",
         "Content-Length": "16"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/auth/sign_out\" -d '' -X DELETE \\\n\t-H \"Access-Token: 6L1e5MSSBcEwswJ8OSeq2A\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: nEprpR2rSQfZW_O0eSo7Mg\" \\\n\t-H \"Expiry: 1460491423\" \\\n\t-H \"Uid: 124jena_dicki@leannon.info\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/auth/sign_out\" -d '' -X DELETE \\\n\t-H \"Access-Token: Sz5tABM-ELoPcaQmk2EtRA\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: Bd1y-C9nKUIk6dPoO-28zA\" \\\n\t-H \"Expiry: 1461236696\" \\\n\t-H \"Uid: 124nyasia@pfeffer.co\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

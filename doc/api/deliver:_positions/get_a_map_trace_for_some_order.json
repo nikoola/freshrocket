@@ -16,11 +16,11 @@
       "request_path": "/orders/3/positions",
       "request_body": null,
       "request_headers": {
-        "Access-Token": "RZEWocOVeP1JgB3FPtA88w",
+        "Access-Token": "C3PmK-GbeSN9ig2W37KgxA",
         "Token-Type": "Bearer",
-        "Client": "nC0RcyfwvklDdvTQmbnKpg",
-        "Expiry": "1460491433",
-        "Uid": "198berry.flatley@breitenberghintz.com",
+        "Client": "PNia7oHvZ-PSR_CkrN16Gg",
+        "Expiry": "1461236706",
+        "Uid": "198cory@hintzgoldner.biz",
         "Host": "example.org",
         "Cookie": ""
       },
@@ -29,21 +29,21 @@
       "request_content_type": null,
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\n  \"positions\": [\n    \"42.10808340000001,87.735895\",\n    \"42.10808340000001,87.735895\",\n    \"42.10808340000001,87.735895\",\n    \"42.10808340000001,87.735895\",\n    \"42.10808340000001,87.735895\",\n    \"42.10808340000001,87.735895\"\n  ]\n}",
+      "response_body": "{\n  \"positions\": [\n    \"42.10808340000001,87.735895\",\n    \"42.10808340000001,87.735895\",\n    \"42.10808340000001,87.735895\",\n    \"42.10808340000001,87.735895\",\n    \"42.10808340000001,87.735895\",\n    \"42.10808340000001,87.735895\",\n    \"42.10808340000001,87.735895\",\n    \"42.10808340000001,87.735895\",\n    \"42.10808340000001,87.735895\",\n    \"42.10808340000001,87.735895\",\n    \"42.10808340000001,87.735895\",\n    \"42.10808340000001,87.735895\",\n    \"42.10808340000001,87.735895\",\n    \"42.10808340000001,87.735895\",\n    \"42.10808340000001,87.735895\",\n    \"42.10808340000001,87.735895\",\n    \"42.10808340000001,87.735895\",\n    \"42.10808340000001,87.735895\"\n  ]\n}",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"8967cd2f7374c0fa3ba3ed307cdcd249\"",
+        "ETag": "W/\"22de04665a38c67f28fd6d4b379166a0\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=YXJ2eFlLZENFSUY1OWlUTWpTMERMSE16dmxBWUVHQXdEaVEzT2RuUzNoZ3FNQ1hvdFZpTEc4VllmalBDS0tHWE5WZVFOdzV6NXk5SVJJd05xa2J0Tm94ZVFDeHZPT0FOa1l1c0pzTzlZK29KYTlqYnZhVkhRNFdmOG5DUmJTeDR1Sy96WHdoOGJpNkpsTUpRYWtLZXA3bmxwRHpkT3NRR2dIcEpRODdlY3NJU2I0N1NtZ1hJNEQvL1E0N1B4LzdLLS10UU8wTjlrTy80YzhRS3JlS3c0RkZnPT0%3D--21372fa7bb1dac474f9ea09187a2978e8fa439de; path=/; HttpOnly",
-        "X-Request-Id": "53417ecc-f267-4946-a22b-fa0ead931cfe",
-        "X-Runtime": "0.085525",
-        "Content-Length": "195"
+        "Set-Cookie": "_session_id=MitjSVVxL1RFU1VJOHdQVkZ1RUJCNWtNU0VxVVpKSlB1R2pFUkpDRG9ER1g3a01JdUxYb0RGSFdqZkw1M0s4NTFpSDRWYnZubWZrbTZXZVdNYWZubWVHUlZOdGtIcFBSdjJOcVhVNyt5enJaK3BGakx2S3FnYW9GR1dFUlZZMjQrZWgrdDB0TVJSZGJjdkdWU2x1WTVjekl0WjdzZ2d4SmxxcW94TXJ1VGwyTFRGOHl0eVA5cnpxVnM2ZzBWRXkwLS1WbU5nSW82WlIvMHpTRmFYck8rN2RBPT0%3D--f703c188b103df321dfdd5ce5d7238dce4dee567; path=/; HttpOnly",
+        "X-Request-Id": "9f0f419c-d66e-40b8-a87f-fefd43b013d0",
+        "X-Runtime": "0.085155",
+        "Content-Length": "555"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/orders/3/positions\" -X GET \\\n\t-H \"Access-Token: RZEWocOVeP1JgB3FPtA88w\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: nC0RcyfwvklDdvTQmbnKpg\" \\\n\t-H \"Expiry: 1460491433\" \\\n\t-H \"Uid: 198berry.flatley@breitenberghintz.com\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/orders/3/positions\" -X GET \\\n\t-H \"Access-Token: C3PmK-GbeSN9ig2W37KgxA\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: PNia7oHvZ-PSR_CkrN16Gg\" \\\n\t-H \"Expiry: 1461236706\" \\\n\t-H \"Uid: 198cory@hintzgoldner.biz\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

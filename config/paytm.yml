@@ -1,0 +1,12 @@
+test: &test
+  vanity_url: 'rivo'
+  secret_key: <%= ENV['paytm.secret_key'] %>
+  access_key: <%= ENV['paytm.access_key'] %>
+
+development:
+  <<: *test
+
+production:
+  <<: *test
+
+

@@ -49,7 +49,7 @@ module Client
 			def address_params
 				params.require(:address).permit([
 					:city_id, 
-					:street_and_house, :door_number, :zip_code
+					:street_and_house, :door_number, :zip_code, :stringified_coordinate
 				])
 
 				# no :user_id, :active

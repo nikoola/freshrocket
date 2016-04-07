@@ -21,6 +21,9 @@ require 'rspec/rails'
 # require only the support files necessary.
 #
 Dir[Rails.root.join('spec/support/**/*.rb')].each { |f| require f }
+Dir[Rails.root.join('spec/fixtures/*.rb'  )].each { |f| require f }
+require 'factory_girl_rails' #after fixtures
+
 
 # Checks for pending migration and applies them before tests are run.
 # If you are not using ActiveRecord, you can remove this line.

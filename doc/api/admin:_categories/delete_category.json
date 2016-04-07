@@ -16,11 +16,11 @@
       "request_path": "/admin/categories/1",
       "request_body": null,
       "request_headers": {
-        "Access-Token": "tO4RcsL8TzrmxqKrijz8lQ",
+        "Access-Token": "RF55w_PWZRMJJTvAJaoC0w",
         "Token-Type": "Bearer",
-        "Client": "PxLGWhdhPGgTuW1lZLyq1g",
-        "Expiry": "1460491404",
-        "Uid": "14jennifer.pollich@kulasheaney.info",
+        "Client": "noW6jDOT5VoW05CsmJiHSw",
+        "Expiry": "1461236682",
+        "Uid": "14nathanael_moore@murazik.co",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -37,13 +37,13 @@
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "text/html",
         "Cache-Control": "no-cache",
-        "Set-Cookie": "_session_id=c2lSb1N4Rzk3dVZqQmN6elJzY2JUdXBjYXBqOHhGVWdjZDdtUFFpbWtmMUo5ZE1iTW1KWFc3M051QzNwNkxrWkJDdC9NMVl6MGhkVzlQN08xUnZrZVR4ZVlIUFFnR2tVVEZBNkxsejRLdE5oSExnNU9TdExwZDgxdmQzNnhsMkU3ODd0RXJNUnp5TzRxcTdsSDVVV1AwUXd4Nlk2Q3liVzA1WGdPTFFCR2hRWXlJajllY05scmRoalhrTDNzajh3LS0xemxEaWE1SG10b1lQbGdFUy81TEVnPT0%3D--4d9a3fe688d2ce023f20b40657f093e4f8a6c082; path=/; HttpOnly",
-        "X-Request-Id": "395c3d64-90a7-47b0-ab56-2d095e7f59cd",
-        "X-Runtime": "0.082747",
+        "Set-Cookie": "_session_id=RktrNmRJOHpaVkE2bmtoSUhHaWprYmZFRzdaejVFOEhDY1VqU1AvMUUxTkhINVRwT3p6WmtDQkFnV2NHaWhiRk5DcThCNFB5M0RtL0NFRDgxWmNYa05ISG5WN2dHd3k5SDIxUWdPRmpzMkZNWnVYSno1WGY1NFE5RmRBY0lRb1NCaGxpZnRkMHhCQUtmVVV1akVlZkU1NnBkT2toZXg2Zi90cnREU2pOTzhMbW9DTkN2ZzFzRXlZZEsyNGQ1dlJLLS1KNjFLcWRoeTRvKzEwUFBGeCtCSlB3PT0%3D--c2756d9551af7966d5e41bc60045ad541bec2951; path=/; HttpOnly",
+        "X-Request-Id": "f57e519b-9aa4-4e5e-99da-ac4731be74f5",
+        "X-Runtime": "0.079941",
         "Content-Length": "0"
       },
       "response_content_type": "text/html",
-      "curl": "curl \"http://localhost:3000/admin/categories/1\" -d '' -X DELETE \\\n\t-H \"Access-Token: tO4RcsL8TzrmxqKrijz8lQ\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: PxLGWhdhPGgTuW1lZLyq1g\" \\\n\t-H \"Expiry: 1460491404\" \\\n\t-H \"Uid: 14jennifer.pollich@kulasheaney.info\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/admin/categories/1\" -d '' -X DELETE \\\n\t-H \"Access-Token: RF55w_PWZRMJJTvAJaoC0w\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: noW6jDOT5VoW05CsmJiHSw\" \\\n\t-H \"Expiry: 1461236682\" \\\n\t-H \"Uid: 14nathanael_moore@murazik.co\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

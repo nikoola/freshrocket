@@ -4,29 +4,29 @@
       "name": "admin: addresses",
       "examples": [
         {
-          "description": "change own address",
-          "link": "admin:_addresses/change_own_address.json",
+          "description": "change address",
+          "link": "admin:_addresses/change_address.json",
           "groups": "all",
           "route": "/admin/addresses/:id",
           "method": "put"
         },
         {
-          "description": "create own address",
-          "link": "admin:_addresses/create_own_address.json",
+          "description": "create address",
+          "link": "admin:_addresses/create_address.json",
           "groups": "all",
           "route": "/admin/addresses",
           "method": "post"
         },
         {
-          "description": "deletes own address",
-          "link": "admin:_addresses/deletes_own_address.json",
+          "description": "deletes address",
+          "link": "admin:_addresses/deletes_address.json",
           "groups": "all",
           "route": "/admin/addresses/:id",
           "method": "delete"
         },
         {
-          "description": "get all own addresses",
-          "link": "admin:_addresses/get_all_own_addresses.json",
+          "description": "get all addresses",
+          "link": "admin:_addresses/get_all_addresses.json",
           "groups": "all",
           "route": "/admin/addresses",
           "method": "get"
@@ -63,8 +63,8 @@
       "name": "admin: cities",
       "examples": [
         {
-          "description": "create city with areas",
-          "link": "admin:_cities/create_city_with_areas.json",
+          "description": "create city",
+          "link": "admin:_cities/create_city.json",
           "groups": "all",
           "route": "/admin/cities",
           "method": "post"
@@ -77,8 +77,8 @@
           "method": "delete"
         },
         {
-          "description": "update city or its areas",
-          "link": "admin:_cities/update_city_or_its_areas.json",
+          "description": "update city",
+          "link": "admin:_cities/update_city.json",
           "groups": "all",
           "route": "/admin/cities/:id",
           "method": "put"
@@ -304,15 +304,15 @@
       "name": "cities",
       "examples": [
         {
-          "description": "get all cities with their areas",
-          "link": "cities/get_all_cities_with_their_areas.json",
+          "description": "get all cities",
+          "link": "cities/get_all_cities.json",
           "groups": "all",
           "route": "/cities",
           "method": "get"
         },
         {
-          "description": "get city with its areas",
-          "link": "cities/get_city_with_its_areas.json",
+          "description": "get city",
+          "link": "cities/get_city.json",
           "groups": "all",
           "route": "/cities/:id",
           "method": "get"

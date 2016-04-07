@@ -13,22 +13,17 @@ resource 'admin: cities', type: :request do
 		with_options scope: :city do
 			parameter :name,     'city name', required: true
 			parameter :active,   '0/1'
-			with_options scope: :areas_attributes do
-				parameter :id
-				parameter :name,     'area name'
-				parameter :_destroy, "true/1/whatever, as long as it evaluates to true (well it's a string, so add any value). "
-			end
+			parameter :stringified_polygon, '[[10, 50], ...], where 10 is lat, and 50 is lng of the first point of polygon'
 		end
 
-		example 'create city with areas' do
+		example 'create city' do
 			do_request city: FactoryGirl.attributes_for(:city).merge(
-				areas_attributes: [
-					{ name: 'hi' }
-				]
-			), include: ['areas']
+				stringified_polygon: '[[10, 50], [20, 60], [30, 10]]'
+			)
 
 			city = City.find(json[:id])
-			
+
+			expect(city.polygon).to eq [[10, 50], [20, 60], [30, 10]]
 			expect(status).to eq(201)
 		end
 
@@ -36,38 +31,20 @@ resource 'admin: cities', type: :request do
 
 	put '/admin/cities/:id' do
 
-		with_options scope: :city do
-			parameter :name,     'city name', required: true
-			parameter :active,   '0/1'
-			with_options scope: :areas_attributes do
-				parameter :id
-				parameter :name,     'area name'
-				parameter :_destroy, "true/1/whatever, as long as it evaluates to true (well it's a string, so add any value). "
-			end
-		end
-
-		it 'update city or its areas' do
-			area = FactoryGirl.create :area, city_id: city.id
-			expect(city.reload.areas).to be_present
-
-			do_request id: city.id, city: FactoryGirl.attributes_for(:city).merge(
-				areas_attributes: [
-					{ 
-						id:       area.id,
-						_destroy: 1
-					}
-				]
-			)
+		it 'update city' do
+			do_request id: city.id, city: {
+				name: 'hi'
+			}
 
 			expect(status).to eq(200)
-			expect(city.reload.areas).to be_blank
+			expect(city.reload.name).to eq('hi')
 		end
 	end
 
 	delete '/admin/cities/:id' do
 
 		it 'delete city' do
-			explanation 'delete city if no products in it, disable it if there are products present. if city actually gets deleted, all its area will get deleted too'
+			explanation 'delete city if no products in it, disable it if there are products present'
 
 			do_request id: city.id
 

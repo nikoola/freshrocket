@@ -1,0 +1,66 @@
+{
+  "resource": "admin: cities",
+  "http_method": "POST",
+  "route": "/admin/cities",
+  "description": "create city",
+  "explanation": null,
+  "parameters": [
+    {
+      "scope": "city",
+      "required": true,
+      "name": "name",
+      "description": "city name"
+    },
+    {
+      "scope": "city",
+      "name": "active",
+      "description": "0/1"
+    },
+    {
+      "scope": "city",
+      "name": "stringified_polygon",
+      "description": "[[10, 50], ...], where 10 is lat, and 50 is lng of the first point of polygon"
+    }
+  ],
+  "response_fields": [
+
+  ],
+  "requests": [
+    {
+      "request_method": "POST",
+      "request_path": "/admin/cities",
+      "request_body": "city[name]=Surat&city[stringified_polygon]=%5B%5B10%2C+50%5D%2C+%5B20%2C+60%5D%2C+%5B30%2C+10%5D%5D",
+      "request_headers": {
+        "Access-Token": "TmkI8DIFJzepREItAyl8fg",
+        "Token-Type": "Bearer",
+        "Client": "ma7O9ZLKeShetToSubNgSQ",
+        "Expiry": "1461236682",
+        "Uid": "15duane@crist.net",
+        "Host": "example.org",
+        "Content-Type": "application/x-www-form-urlencoded",
+        "Cookie": ""
+      },
+      "request_query_parameters": {
+      },
+      "request_content_type": "application/x-www-form-urlencoded",
+      "response_status": 201,
+      "response_status_text": "Created",
+      "response_body": "{\n  \"id\": 1,\n  \"name\": \"Surat\",\n  \"active\": true,\n  \"polygon\": [\n    [\n      10,\n      50\n    ],\n    [\n      20,\n      60\n    ],\n    [\n      30,\n      10\n    ]\n  ]\n}",
+      "response_headers": {
+        "X-Frame-Options": "SAMEORIGIN",
+        "X-XSS-Protection": "1; mode=block",
+        "X-Content-Type-Options": "nosniff",
+        "Location": "http://example.org/cities/1",
+        "Content-Type": "application/json; charset=utf-8",
+        "ETag": "W/\"33fad33a691390e11f07b5f1d59fb3e7\"",
+        "Cache-Control": "max-age=0, private, must-revalidate",
+        "Set-Cookie": "_session_id=SmhpWExxSkNpQ0VQYmk1UXlQTTFXTTNmQklQTHpsaUVPMXQrd29IcVBVTkNOZzFST2Z2RmdCSkcwRmVLRTh0U1Q2UDdGMWdKRTFYWEczMmVFSlZLd3RkQ0d0SEhuK3dmbHl4dkhIUmJXblZBanN5UVJtMitCZ2UxdG5ReWEwcjQ4QTFsbzNKcmp2cVFuSUZ0Rm9OeVpHcDdnbEtsaDJ5blVaUTFDQkROQjZ4bGo0MHNXNm55NTN0aFNkYk1lUWdhLS1BTVd3cTFDckhpdW1HTkJ1T09aOFJ3PT0%3D--281b79c1a5968ba69f2d83b352cf52a31f24582e; path=/; HttpOnly",
+        "X-Request-Id": "3031ab35-3d33-4c8b-a3ed-782934295ccc",
+        "X-Runtime": "0.089438",
+        "Content-Length": "73"
+      },
+      "response_content_type": "application/json; charset=utf-8",
+      "curl": "curl \"http://localhost:3000/admin/cities\" -d 'city[name]=Surat&city[stringified_polygon]=%5B%5B10%2C+50%5D%2C+%5B20%2C+60%5D%2C+%5B30%2C+10%5D%5D' -X POST \\\n\t-H \"Access-Token: TmkI8DIFJzepREItAyl8fg\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: ma7O9ZLKeShetToSubNgSQ\" \\\n\t-H \"Expiry: 1461236682\" \\\n\t-H \"Uid: 15duane@crist.net\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+    }
+  ]
+}

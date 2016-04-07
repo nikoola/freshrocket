@@ -13,37 +13,37 @@
   "requests": [
     {
       "request_method": "GET",
-      "request_path": "/auth/validate_token?access-token=AWj0wqPE5QN7Q4dvFBIjqg&token-type=Bearer&client=nRLQXAfN2kPWIitMXvzIkA&expiry=1460491423&uid=125frank.gorczany%40wilderman.co",
+      "request_path": "/auth/validate_token?access-token=cf59Pydk8VGYVSFBONxW7Q&token-type=Bearer&client=LCDWbimomMVRK9t_ZVB3uA&expiry=1461236696&uid=125hanna.sawayn%40davishayes.name",
       "request_body": null,
       "request_headers": {
         "Host": "example.org",
         "Cookie": ""
       },
       "request_query_parameters": {
-        "access-token": "AWj0wqPE5QN7Q4dvFBIjqg",
+        "access-token": "cf59Pydk8VGYVSFBONxW7Q",
         "token-type": "Bearer",
-        "client": "nRLQXAfN2kPWIitMXvzIkA",
-        "expiry": "1460491423",
-        "uid": "125frank.gorczany@wilderman.co"
+        "client": "LCDWbimomMVRK9t_ZVB3uA",
+        "expiry": "1461236696",
+        "uid": "125hanna.sawayn@davishayes.name"
       },
       "request_content_type": null,
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\n  \"success\": true,\n  \"data\": {\n    \"id\": 1,\n    \"first_name\": \"Glennie\",\n    \"last_name\": \"Wunsch\",\n    \"email\": \"125frank.gorczany@wilderman.co\",\n    \"phone\": \"5147790292\",\n    \"is_verified\": false,\n    \"provider\": \"email\",\n    \"uid\": \"125frank.gorczany@wilderman.co\",\n    \"created_at\": \"2016-03-29T20:03:43.796Z\",\n    \"abilities\": {\n      \"orders\": 0,\n      \"products\": 0,\n      \"users\": 0,\n      \"categories\": 0,\n      \"coupons\": 0,\n      \"settings\": 0,\n      \"cities\": 0,\n      \"delivery_boy\": 0\n    }\n  }\n}",
+      "response_body": "{\n  \"success\": true,\n  \"data\": {\n    \"id\": 1,\n    \"first_name\": \"Linwood\",\n    \"last_name\": \"Zulauf\",\n    \"email\": \"125hanna.sawayn@davishayes.name\",\n    \"phone\": \"5418221344\",\n    \"is_verified\": false,\n    \"provider\": \"email\",\n    \"uid\": \"125hanna.sawayn@davishayes.name\",\n    \"created_at\": \"2016-04-07T11:04:56.299Z\",\n    \"abilities\": {\n      \"orders\": 0,\n      \"products\": 0,\n      \"users\": 0,\n      \"categories\": 0,\n      \"coupons\": 0,\n      \"settings\": 0,\n      \"cities\": 0,\n      \"delivery_boy\": 0\n    }\n  }\n}",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"0b29a60d53d1ce19dd7ccf9184beb23a\"",
+        "ETag": "W/\"0e0b4a49693950923502e5b6b51a9f1f\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=eXM5anppNDFIN1FTUjNQcmJNZTA0R3liMEtiRk5nK2R5b2YrNVdDcDUrR2hqMzlibjhxV08yeURncmdmYzZ3V2ZXOXJEelVMM1BXcG9RUUtzbEJqYlBueVBCYWZiQ05sdWl3ZE1FYXE4Nzh3aHE4UStvM1d6akpMb1FBQzR2ZU0wVFpyaUNZQ05tSld2eEdUNkF5RlV5MTJnQStwQWJpUE9QYzhsTUk5MUZXM3RmL2JCdVEvenJSUlBuSGZrZ0hILS1ydnArSm01NUZ6dHZMRnlwQ092ODBRPT0%3D--a87a4a54e19788282db66f679b290c9a771f005f; path=/; HttpOnly",
-        "X-Request-Id": "78b48c30-8248-45b3-ae99-dd72900fe539",
-        "X-Runtime": "0.079499",
-        "Content-Length": "372"
+        "Set-Cookie": "_session_id=ak4xSk1JUDdEZEV5a1hsR3F5alFTSmNiWUl6WUd0N05VVDQ0eGJ5MWNTY3JHQXdtZGhsUW9PeHF5eXBmSTl2di8wOWQ5UmdiQUhIZkF1Z2lJVGFmS3JVbmFlYTM5VFZ6OUdsYXFJLy9BZlBVUWxSNDhyN0dOdTA0RkRia25XaW54U1FUczM3d2lSV1J2SkxPYUVOMk1Hbmc2aHRUMEJ5dzduTXNYSEZCdEk3VjA5ZnQzMHZZNnpick04WjROOHRYLS1Nd1Jvbko1Ti9UM2hVcis5V041TkRRPT0%3D--f8c1615c9a48120c66d3e51f665a50c2a3712b7a; path=/; HttpOnly",
+        "X-Request-Id": "cde955ad-16fe-408f-9906-9555b6804881",
+        "X-Runtime": "0.078378",
+        "Content-Length": "374"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/auth/validate_token?access-token=AWj0wqPE5QN7Q4dvFBIjqg&token-type=Bearer&client=nRLQXAfN2kPWIitMXvzIkA&expiry=1460491423&uid=125frank.gorczany%40wilderman.co\" -X GET \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/auth/validate_token?access-token=cf59Pydk8VGYVSFBONxW7Q&token-type=Bearer&client=LCDWbimomMVRK9t_ZVB3uA&expiry=1461236696&uid=125hanna.sawayn%40davishayes.name\" -X GET \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
     }
   ]
 }
