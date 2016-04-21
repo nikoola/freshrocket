@@ -11,3 +11,4 @@ class SendConfirmationSmsJob < ActiveJob::Base
 	end
 end
 
+

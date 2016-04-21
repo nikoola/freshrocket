@@ -12,11 +12,8 @@ city_1, city_2 = FactoryGirl.create_list :city, 2
 
 
 
-
-
-
 puts 'creating admin'
-FactoryGirl.create :user, email: 'admin@admin.admin', password: 'adminadminadmin', password_confirmation: 'adminadminadmin', abilities: %w(orders products users categories coupons settings cities delivery_boy)
+FactoryGirl.create :user, email: 'admin@admin.admin', password: 'adminadminadmin', password_confirmation: 'adminadminadmin', abilities: %w(orders products users categories coupons settings cities delivery_boy), is_verified: true
 
 puts 'creating verified users'
 FactoryGirl.create_list :verified_user, 2

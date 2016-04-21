@@ -46,7 +46,7 @@ Rails.application.routes.draw do
 
 
 		resources :payments,  only: [:new] do
-			member {
+			collection {
 				post :citrus
 				post :paytm
 			}

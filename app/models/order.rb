@@ -1,6 +1,7 @@
 class Order < ActiveRecord::Base
 	include AASM
 	include Filterable
+	
 
 	belongs_to :user
 	belongs_to :delivery_boy
@@ -20,6 +21,10 @@ class Order < ActiveRecord::Base
 		unless: -> { coupon_code.blank? }
 
 	before_save           :set_order_pricing, if: :unconfirmed?
+	# def method_name
+	# 	self.random_unique_token = rand(10000000..9999999)
+		
+	# end
 
 	include Filterable
 	scope :status,  -> (status) { where status: status }
@@ -120,6 +125,8 @@ class Order < ActiveRecord::Base
 
 
 	delegate :city_id, to: :address
+
+
 
 
 

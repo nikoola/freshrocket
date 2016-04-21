@@ -3,41 +3,47 @@ module Client
 		before_action :authenticate_user!, only: [:new]
 
 		def new
-			head status: 404 unless @order = current_user.orders.find_by(id: params[:order_id])
+			unless @order = current_user.orders.find_by(id: params[:order_id])
+				head status: 404
+			end
 
-			citrus_helper = OffsitePayments::Integrations::Citrus::Helper.new(
-				@order.id, CITRUS[:access_key],
-				amount: @order.total_price, currency: 'INR',
-				credential2: CITRUS[:secret_key],
-				credential3: CITRUS[:vanity_url],
-				return_url:  CITRUS[:return_url]
-			)
-
-			# paytm_helper = OffsitePayments::Integrations::Paytm::Helper.new('order-500', 'cody@example.com',
-			# 	amount:            500,
-			# 	transaction_type: 'DEFAULT',
-			# 	device_used:      'WEB',
-			# 	customer: {
-			# 		email: 'hi@hi.com',
-			# 		phone: '9111111111',
-			# 		id:    1
-			# 	},
-			# 	industry_type_id: 3,
-			# 	website:          'http://hi.com'
+			# citrus_helper = OffsitePayments::Integrations::Citrus::Helper.new(
+			# 	@order.id, CITRUS[:access_key],
+			# 	amount: @order.total_price, currency: 'INR',
+			# 	credential2: CITRUS[:secret_key],
+			# 	credential3: CITRUS[:vanity_url],
+			# 	return_url:  CITRUS[:return_url]
 			# )
+
+
+			account = 'FreshD33860006728322'
+			paytm_helper = OffsitePayments::Integrations::Paytm::Helper.new(@order.id, account, {
+				merchant_key:      ENV['paytm.merchant_key'],
+				amount:            params[:total_price],
+				transaction_type: 'DEFAULT',
+				device_used:      'WEB',
+				customer: {
+					email: current_user.email,
+					phone: current_user.phone,
+					id:    current_user.id
+				},
+				industry_type_id: 'Retail',
+				website:          'FreshDispatchweb',
+				notify_url:       'http://requestb.in/136wzmc1' 
+			})
 	
 
 			render json: {
-				citrus: { 
-					action: citrus_helper.credential_based_url, 
-					method: citrus_helper.form_method, 
-					fields: citrus_helper.form_fields
-				}#,
-				# paytm: {
-				# 	action: OffsitePayments::Integrations::Paytm.service_url, 
-				# 	method: paytm_helper.form_method, 
-				# 	fields: paytm_helper.form_fields 
-				# }
+				# citrus: { 
+				# 	action: citrus_helper.credential_based_url,
+				# 	method: citrus_helper.form_method, 
+				# 	fields: citrus_helper.form_fields
+				# },
+				paytm: {
+					action: OffsitePayments::Integrations::Paytm.service_url,
+					method: paytm_helper.form_method, 
+					fields: paytm_helper.form_fields 
+				}
 			}
 		end
 	
@@ -58,6 +64,24 @@ module Client
 				head 200
 			else
 				head :bad_request
+			end
+
+		end
+
+
+		def paytm
+			notification = OffsitePayments::Integrations::Paytm::Notification.new params.except(:controller, :action)
+			if notification.acknowledge ENV['paytm.merchant_key']
+				if notification.success?
+					order = Order.find(notification.item_id)
+					order.update(payment_type: :paytm, is_paid: true)
+
+					head 200
+				else
+					render json: { status: notification.status }
+				end
+			else
+				render json: { status: "It's not Paytm sending us stuff" }, status: :bad_request
 			end
 
 		end
