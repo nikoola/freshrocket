@@ -47,13 +47,13 @@
     {
       "request_method": "POST",
       "request_path": "/auth",
-      "request_body": "email=167porter%40dickensjacobs.org&password=secrety_bickety&password_confirmation=secrety_bickety&first_name=Kristofer&last_name=Kassulke&phone",
+      "request_body": "email=167urban_breitenberg%40ondricka.io&password=secrety_bickety&password_confirmation=secrety_bickety&first_name=Lysanne&last_name=Ward&phone",
       "request_headers": {
-        "Access-Token": "eKsHGzSdXGlG3vIJYsY-Jg",
+        "Access-Token": "HQJ_C5oi2ooU6HBTNCAQew",
         "Token-Type": "Bearer",
-        "Client": "tWxEQ1l9t-1IbYWhsa87Gg",
-        "Expiry": "1461236703",
-        "Uid": "168eunice@hackett.io",
+        "Client": "YYhqSxGBMr6IyQn-dTjfOg",
+        "Expiry": "1467100272",
+        "Uid": "168cortney_bins@rolfson.org",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -63,19 +63,19 @@
       "request_content_type": "application/x-www-form-urlencoded",
       "response_status": 403,
       "response_status_text": "Forbidden",
-      "response_body": "{\n  \"status\": \"error\",\n  \"data\": {\n    \"id\": null,\n    \"first_name\": \"Kristofer\",\n    \"last_name\": \"Kassulke\",\n    \"email\": \"167porter@dickensjacobs.org\",\n    \"provider\": \"email\",\n    \"uid\": \"\",\n    \"phone\": null,\n    \"verification_code\": null,\n    \"is_verified\": false,\n    \"created_at\": null,\n    \"updated_at\": null,\n    \"how_did_you_hear_about_us\": null\n  },\n  \"errors\": {\n    \"phone\": [\n      \"is not a number\",\n      \"is the wrong length (should be 10 characters)\",\n      \"can't be blank\"\n    ],\n    \"full_messages\": [\n      \"Phone is not a number\",\n      \"Phone is the wrong length (should be 10 characters)\",\n      \"Phone can't be blank\"\n    ]\n  }\n}",
+      "response_body": "{\n  \"status\": \"error\",\n  \"data\": {\n    \"id\": null,\n    \"first_name\": \"Lysanne\",\n    \"last_name\": \"Ward\",\n    \"email\": \"167urban_breitenberg@ondricka.io\",\n    \"provider\": \"email\",\n    \"uid\": \"\",\n    \"phone\": null,\n    \"verification_code\": null,\n    \"is_verified\": false,\n    \"created_at\": null,\n    \"updated_at\": null,\n    \"how_did_you_hear_about_us\": null\n  },\n  \"errors\": {\n    \"phone\": [\n      \"is not a number\",\n      \"is the wrong length (should be 10 characters)\",\n      \"can't be blank\"\n    ],\n    \"full_messages\": [\n      \"Phone is not a number\",\n      \"Phone is the wrong length (should be 10 characters)\",\n      \"Phone can't be blank\"\n    ]\n  }\n}",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "application/json; charset=utf-8",
         "Cache-Control": "no-cache",
-        "X-Request-Id": "3140f93b-6d1c-4165-be95-b0881177d42c",
-        "X-Runtime": "0.008828",
-        "Content-Length": "501"
+        "X-Request-Id": "1231ee68-8276-4dce-b432-94b7ae006cb2",
+        "X-Runtime": "0.009426",
+        "Content-Length": "500"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/auth\" -d 'email=167porter%40dickensjacobs.org&password=secrety_bickety&password_confirmation=secrety_bickety&first_name=Kristofer&last_name=Kassulke&phone' -X POST \\\n\t-H \"Access-Token: eKsHGzSdXGlG3vIJYsY-Jg\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: tWxEQ1l9t-1IbYWhsa87Gg\" \\\n\t-H \"Expiry: 1461236703\" \\\n\t-H \"Uid: 168eunice@hackett.io\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/auth\" -d 'email=167urban_breitenberg%40ondricka.io&password=secrety_bickety&password_confirmation=secrety_bickety&first_name=Lysanne&last_name=Ward&phone' -X POST \\\n\t-H \"Access-Token: HQJ_C5oi2ooU6HBTNCAQew\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: YYhqSxGBMr6IyQn-dTjfOg\" \\\n\t-H \"Expiry: 1467100272\" \\\n\t-H \"Uid: 168cortney_bins@rolfson.org\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

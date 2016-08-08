@@ -6,6 +6,7 @@ class ProductSerializer < ActiveModel::Serializer
 		:inventory_count, :image_url
 
 	has_many :categories
+	has_many :options
 
 	def image_url
 		object.image ? object.image.url : nil

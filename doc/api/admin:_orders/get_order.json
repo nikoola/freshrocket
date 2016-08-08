@@ -19,11 +19,11 @@
       "request_path": "/admin/orders/1?include[]=address",
       "request_body": null,
       "request_headers": {
-        "Access-Token": "Ksh37JMSUSWLpxkp5sPC4Q",
+        "Access-Token": "0rFyB4WSlsPWBbkW-LuxZg",
         "Token-Type": "Bearer",
-        "Client": "bDAWQswYNeu3IB1IOki49Q",
-        "Expiry": "1461236685",
-        "Uid": "46luella.price@heidenreich.name",
+        "Client": "1eAvr5tVPSncTGRXLDUNXg",
+        "Expiry": "1467100261",
+        "Uid": "46jerrell_rolfson@wilderman.io",
         "Host": "example.org",
         "Cookie": ""
       },
@@ -35,21 +35,21 @@
       "request_content_type": null,
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\n  \"id\": 1,\n  \"user_id\": 1,\n  \"status\": \"unconfirmed\",\n  \"created_at\": \"2016-04-07T11:04:45.610Z\",\n  \"confirmed_at\": null,\n  \"approved_at\": null,\n  \"dispacthed_at\": null,\n  \"delivered_at\": null,\n  \"canceled_at\": null,\n  \"pure_product_price\": \"27.0\",\n  \"tax\": \"1.35\",\n  \"delivery_charge\": \"200.0\",\n  \"total_price\": \"228.35\",\n  \"coupon_code\": null,\n  \"delivery_boy_id\": null,\n  \"delivery_boy_phone\": null,\n  \"wanted_time\": null,\n  \"wanted_date\": null,\n  \"payment_type\": \"cash\",\n  \"is_paid\": false,\n  \"feedback\": null,\n  \"comment\": null,\n  \"source_type\": null,\n  \"admin_comment\": null,\n  \"address\": {\n    \"id\": 1,\n    \"city_id\": 1,\n    \"user_id\": 2,\n    \"street_and_house\": \"6313 Rowe Spring\",\n    \"door_number\": \"5\",\n    \"zip_code\": null,\n    \"active\": true,\n    \"city_name\": \"Hubli-Dharwad\"\n  }\n}",
+      "response_body": "{\n  \"id\": 1,\n  \"user_id\": 1,\n  \"status\": \"unconfirmed\",\n  \"created_at\": \"2016-06-14T07:51:01.568Z\",\n  \"confirmed_at\": null,\n  \"approved_at\": null,\n  \"dispacthed_at\": null,\n  \"delivered_at\": null,\n  \"canceled_at\": null,\n  \"pure_product_price\": \"27.0\",\n  \"tax\": \"1.35\",\n  \"delivery_charge\": \"200.0\",\n  \"total_price\": \"228.35\",\n  \"coupon_code\": null,\n  \"delivery_boy_id\": null,\n  \"delivery_boy_phone\": null,\n  \"wanted_time\": null,\n  \"wanted_date\": null,\n  \"payment_type\": \"cash\",\n  \"is_paid\": false,\n  \"feedback\": null,\n  \"comment\": null,\n  \"source_type\": null,\n  \"admin_comment\": null,\n  \"address\": {\n    \"id\": 1,\n    \"city_id\": 1,\n    \"user_id\": 2,\n    \"street_and_house\": \"950 Gusikowski Light\",\n    \"door_number\": \"5\",\n    \"zip_code\": null,\n    \"active\": true,\n    \"city_name\": \"Hubli-Dharwad\"\n  }\n}",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"1c38bdc03ded95bc52b24e99c26c2908\"",
+        "ETag": "W/\"99466ddceb40056960f9b16c31ede655\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=VUFhWEtJaEluS2cyK3Mvd3VVaFBFZ0RBVE9seWxleklsNWNjdlVtb3BkSUZlYWcydUFSRUN3Q1dOa1U4N3UzVVp5aGNRQ0JPMk1aelJNNTU0K0sydHFqTitSbWUwb0QrbUxhRG5YMmhwVzBjM015enh2SlkrT1dCWnNaS0gwTERWOWNoTXZpMFMzWDE0RFFHN3ZvcHovU1ZQK0t2MElxalVhWkhmK0NCOVRIRFNBWHpaUjczc0VWd1QvQlgyMEFFLS05SEJ6c2FpRkFuV1VqU0lhb1hZR0NnPT0%3D--4e1336a7953db4aeba517ae2b41625aac58c9fe8; path=/; HttpOnly",
-        "X-Request-Id": "2c2c5dde-e877-4107-ae59-9502b999aa64",
-        "X-Runtime": "0.079973",
-        "Content-Length": "644"
+        "Set-Cookie": "_session_id=ZE9TeTdNSlVTSXZ4ckx0SDF5UjBTaWFQTmV0bmdid09LNFhTbG5hQ21ZSEc1RUZyYmRla0puM3hFZjE3L0lsdjhOMEh5OUFBQ3hVczRWeXhQbkZvNkx0WnhVVGMrNkFBUkN5aXZJM1poaTFyYWxrYi9TUWM3Y3gwRGlneUMrSGdOMnhPQkdOd0U1NC85UDFQNUYrSHNWSzNOQmtUZzU3MEpLbGpTTEhwVlB2czZFOGtFTEJGZ0p1aVk0WUp2OG9vLS1ZUDRTWU1vemQvWUJVOCs5NFVIMUt3PT0%3D--df522e95af33e5a6d0ec5086cc5b31754affb8d7; path=/; HttpOnly",
+        "X-Request-Id": "7234f7e3-0760-4a07-8367-22821540f94f",
+        "X-Runtime": "0.072337",
+        "Content-Length": "648"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/admin/orders/1?include[]=address\" -X GET \\\n\t-H \"Access-Token: Ksh37JMSUSWLpxkp5sPC4Q\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: bDAWQswYNeu3IB1IOki49Q\" \\\n\t-H \"Expiry: 1461236685\" \\\n\t-H \"Uid: 46luella.price@heidenreich.name\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/admin/orders/1?include[]=address\" -X GET \\\n\t-H \"Access-Token: 0rFyB4WSlsPWBbkW-LuxZg\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: 1eAvr5tVPSncTGRXLDUNXg\" \\\n\t-H \"Expiry: 1467100261\" \\\n\t-H \"Uid: 46jerrell_rolfson@wilderman.io\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

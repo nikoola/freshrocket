@@ -49,13 +49,13 @@
     {
       "request_method": "POST",
       "request_path": "/admin/addresses",
-      "request_body": "address[street_and_house]=747+Bartell+Ridges&address[stringified_coordinate]=%5B4%2C+6%5D&address[door_number]=5&address[city_id]=1&address[user_id]=1",
+      "request_body": "address[street_and_house]=2353+Rice+Burg&address[stringified_coordinate]=%5B4%2C+6%5D&address[door_number]=5&address[city_id]=1&address[user_id]=1",
       "request_headers": {
-        "Access-Token": "wpV_9dhH03EGmyfzpDzeUA",
+        "Access-Token": "emsQUzFgbrxRbwMGD0J6xg",
         "Token-Type": "Bearer",
-        "Client": "0P-sEi9zJFFIx29dkje_wQ",
-        "Expiry": "1461236670",
-        "Uid": "7ru@beahanswift.net",
+        "Client": "5FBK2LyytfB01sDZwFqnIw",
+        "Expiry": "1467100258",
+        "Uid": "7henri@ankundingmitchell.org",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -65,21 +65,21 @@
       "request_content_type": "application/x-www-form-urlencoded",
       "response_status": 201,
       "response_status_text": "Created",
-      "response_body": "{\n  \"id\": 1,\n  \"city_id\": 1,\n  \"user_id\": 1,\n  \"street_and_house\": \"747 Bartell Ridges\",\n  \"door_number\": \"5\",\n  \"zip_code\": null,\n  \"active\": true,\n  \"city_name\": \"Kolkata\"\n}",
+      "response_body": "{\n  \"id\": 1,\n  \"city_id\": 1,\n  \"user_id\": 1,\n  \"street_and_house\": \"2353 Rice Burg\",\n  \"door_number\": \"5\",\n  \"zip_code\": null,\n  \"active\": true,\n  \"city_name\": \"Kolkata\"\n}",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"962803dfb50a8b38e0f5567ca180c236\"",
+        "ETag": "W/\"3dfd747a899f6c7226acc1dbc9543cd2\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=UkJGdGhZdkdta0tuOFIvVTREQWliaklJZ0orL3d5OHRhZ0VobmQ3OE5oSWUyckRkczlZMzhrMExZQnNEazg3TWdVcUNKbzhuekUzdTJ5cE0rKzA5NXF6cVQ4Nk1IS1BibitrSlZQbjh6MlJPd29iSXVvVmhOSmVjeGtwSXltZUQySFBrSGtJR2ljNkVmYXBUemN4TndjR1I1bmVkVWlMZkRxR3doQTE1aTk0UkFTSUFiWGdZWGVGSW5hdk1BOWMrLS1rQk1NWkpDdTRGT3VKNzNJa0xxaWRRPT0%3D--3d473718f93162f222a9a6f80a0e1ac5fb64eb6e; path=/; HttpOnly",
-        "X-Request-Id": "eda339ae-806d-4eac-8df4-ee54fecaeb51",
-        "X-Runtime": "0.085752",
-        "Content-Length": "142"
+        "Set-Cookie": "_session_id=R0xvT3VUUkZleWpjTnVaWWhRL1FjSVRmWmRSZ1g2Q0FmRndtckFyK1FSRVZuQk9xN0NRM2pRSTd0MEMrL1RWbElzVFVCNmlzZmNqT1pmSTdoRlJQVmhNamY0ci9QWnl5NzU0Z0FETVl6N0picFBTcFFvek1RL1E3T1FDc0k2K0tFaEY5bkVRRU9hcnlrSjEwbUtWMnRrZXFPQVFpY0VnZFFtN0JzVmNCZnBtRDB4UDRsbmhheEkrSWdoYXNxNHRjLS1FZ3Fjdk9SSTJxc1R0b042cmp0WTVBPT0%3D--d9b9b6beab4fee05d874c3e8a8676e884beee248; path=/; HttpOnly",
+        "X-Request-Id": "dc03bad9-7d78-4f7d-9507-5f66c4d47b59",
+        "X-Runtime": "0.086540",
+        "Content-Length": "138"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/admin/addresses\" -d 'address[street_and_house]=747+Bartell+Ridges&address[stringified_coordinate]=%5B4%2C+6%5D&address[door_number]=5&address[city_id]=1&address[user_id]=1' -X POST \\\n\t-H \"Access-Token: wpV_9dhH03EGmyfzpDzeUA\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: 0P-sEi9zJFFIx29dkje_wQ\" \\\n\t-H \"Expiry: 1461236670\" \\\n\t-H \"Uid: 7ru@beahanswift.net\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/admin/addresses\" -d 'address[street_and_house]=2353+Rice+Burg&address[stringified_coordinate]=%5B4%2C+6%5D&address[door_number]=5&address[city_id]=1&address[user_id]=1' -X POST \\\n\t-H \"Access-Token: emsQUzFgbrxRbwMGD0J6xg\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: 5FBK2LyytfB01sDZwFqnIw\" \\\n\t-H \"Expiry: 1467100258\" \\\n\t-H \"Uid: 7henri@ankundingmitchell.org\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

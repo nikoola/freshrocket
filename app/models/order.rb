@@ -26,7 +26,6 @@ class Order < ActiveRecord::Base
 		
 	# end
 
-	include Filterable
 	scope :status,  -> (status) { where status: status }
 	scope :user_id, -> (id)     { where user_id: id }
 	scope :city_id, -> (id)     { joins(:address).where( 'addresses.city_id': id ) }

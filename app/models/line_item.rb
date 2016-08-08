@@ -1,6 +1,5 @@
 class LineItem < ActiveRecord::Base
 	#doesn't exist out of order context
-
 	belongs_to :order
 	belongs_to :product
 

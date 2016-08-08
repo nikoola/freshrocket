@@ -5,11 +5,12 @@ class Address < ActiveRecord::Base
 	has_many   :orders
 
 	validates_presence_of :user,
-		:city, :coordinate, :street_and_house, :door_number
+		:city, :street_and_house, :door_number
 
 	validate :has_no_approved_orders?, on: :update
-	validate :is_in_deliverable_area?, if: -> { city and coordinate }
+	validate :is_in_deliverable_area?, if: -> { city }
 
+  before_validation :set_coordinate
 
 	include Filterable
 	scope :active, -> (bool) { where active: param_to_bool(bool) }
@@ -32,6 +33,10 @@ class Address < ActiveRecord::Base
 	end
 
 	private
+
+		def set_coordinate
+			self.coordinate = [Geokit::Geocoders::MultiGeocoder.geocode(street_and_house).lat, Geokit::Geocoders::MultiGeocoder.geocode(street_and_house).lng]
+		end
 
 		def disable
 			update active: false

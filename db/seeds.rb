@@ -28,6 +28,11 @@ FactoryGirl.create_list :user, 2
 puts 'creating cities'
 FactoryGirl.create_list :city, 3
 
+puts 'creating orders'
+FactoryGirl.create_list :order, 5, comment: Faker::Hacker.say_something_smart
+
+puts 'creating coupons'
+FactoryGirl.create_list :coupon, 3
 
 puts 'creating categories'
 
@@ -59,12 +64,7 @@ end
 
 
 
-puts 'creating orders'
-FactoryGirl.create_list :order, 5, comment: Faker::Hacker.say_something_smart
 
-
-puts 'creating coupons'
-FactoryGirl.create_list :coupon, 3
 
 
 

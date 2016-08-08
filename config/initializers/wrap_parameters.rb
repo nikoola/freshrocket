@@ -23,7 +23,7 @@ module ActionController
 							custom = if m == User
 								[:password, :password_confirmation]
 							elsif m == Product
-								[:category_ids]
+								[:category_ids, :option_ids]
 							elsif m == City
 								[:stringified_polygon]
 							else

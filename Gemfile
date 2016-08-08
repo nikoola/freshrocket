@@ -5,8 +5,6 @@ source 'https://rubygems.org'
 gem 'rails', '4.2.5'
 
 
-
-
 # gem 'rails-api'
 gem 'factory_girl_rails', require: false #because of fixtures and seeds.rb
 gem 'faker' #for seed file
@@ -14,13 +12,15 @@ gem 'faker' #for seed file
 group :development, :test do
 	gem 'rspec-rails'
 	gem 'spring-commands-rspec'
-
+	gem 'byebug'
 	gem 'pry'
 	gem 'pry-rescue'
 	gem 'pry-rails'
 	
 
 	gem 'dotenv-rails'
+	gem 'rack-cors', :require => 'rack/cors' #allow cross-origin requests in production (js is on another server)
+  																				 #needful also at the development due to chrome policy.
 
 	gem 'sqlite3'
 
@@ -76,7 +76,7 @@ gem 'sidekiq'
 gem 'sidekiq-failures'
 
 # gem 'active_model_serializers', '~>0.10.0.rc4'
-gem 'active_model_serializers', git: 'https://github.com/brigade/active_model_serializers.git', branch: 'default-include'
+gem 'active_model_serializers', git: 'https://github.com/brigade/active_model_serializers.git'
 
 
 

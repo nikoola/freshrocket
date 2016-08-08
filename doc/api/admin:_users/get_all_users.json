@@ -27,11 +27,11 @@
       "request_path": "/admin/users?has_ability=users",
       "request_body": null,
       "request_headers": {
-        "Access-Token": "ZuxL42DPKsr41efO27VCvQ",
+        "Access-Token": "k6AyUqlvbi0UJYEjovSmkQ",
         "Token-Type": "Bearer",
-        "Client": "pWhS7q9mBsC6V4O5Kh4vmA",
-        "Expiry": "1461236692",
-        "Uid": "90alejandra_kunze@baumbach.io",
+        "Client": "Qxb9JXq6saDxn4pXFZuj2w",
+        "Expiry": "1467100265",
+        "Uid": "90braeden@wilderman.io",
         "Host": "example.org",
         "Cookie": ""
       },
@@ -41,21 +41,21 @@
       "request_content_type": null,
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "[\n  {\n    \"id\": 2,\n    \"first_name\": \"Lacey\",\n    \"last_name\": \"Schmeler\",\n    \"email\": \"90alejandra_kunze@baumbach.io\",\n    \"phone\": \"1866851835\",\n    \"is_verified\": false,\n    \"provider\": \"email\",\n    \"uid\": \"90alejandra_kunze@baumbach.io\",\n    \"created_at\": \"2016-04-07T11:04:52.803Z\",\n    \"abilities\": {\n      \"orders\": 0,\n      \"products\": 0,\n      \"users\": 1,\n      \"categories\": 0,\n      \"coupons\": 0,\n      \"settings\": 0,\n      \"cities\": 0,\n      \"delivery_boy\": 0\n    }\n  }\n]",
+      "response_body": "[\n  {\n    \"id\": 2,\n    \"first_name\": \"Irving\",\n    \"last_name\": \"Kozey\",\n    \"email\": \"90braeden@wilderman.io\",\n    \"phone\": \"7469422992\",\n    \"is_verified\": false,\n    \"provider\": \"email\",\n    \"uid\": \"90braeden@wilderman.io\",\n    \"created_at\": \"2016-06-14T07:51:05.523Z\",\n    \"abilities\": {\n      \"orders\": 0,\n      \"products\": 0,\n      \"users\": 1,\n      \"categories\": 0,\n      \"coupons\": 0,\n      \"settings\": 0,\n      \"cities\": 0,\n      \"delivery_boy\": 0\n    },\n    \"addresses\": [\n\n    ],\n    \"orders\": [\n\n    ]\n  }\n]",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"bd7d20a37c91a7e9bfd360d707586bf3\"",
+        "ETag": "W/\"74fb6cea9121f3ab52b91353674fc4cb\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=bFQ2WUtrTzdtaDI3cmV2R3h6WlQ5UmVZZDl3U0Ywb1RtWlVvdWxwR2YwYXl5TzlCZHVMdU0vMEY2VEsvY2hKUThSYzkzNDZaMVQ1L0pmdzE2NzNSdm0xSWR3NFlzdFRuT3ZURjNPeVhzV0hMcGZ1bHF0TXNGUVlGeFJKRUtjYm0wR2F6aU1yQUczeENDL2dCbEFsMlQrMTVOd3M2WDVNRldMbDlwQTRzMktqM1NoQzZlbU80SVZ6VFRPZVFYc1dmLS1hZmhHeWFpQjFKUGJnY05oWXVTNmN3PT0%3D--057e37d3aec1e99c6a04fbb078f7d22f6fde3c1e; path=/; HttpOnly",
-        "X-Request-Id": "381722cd-b932-463a-b009-81317404f14a",
-        "X-Runtime": "0.081254",
-        "Content-Length": "348"
+        "Set-Cookie": "_session_id=aDBBRkQ2VHZXb0ZMR0s0V2lTczlPckxwNzJLVDlpR0lJeWUySnhkRjRhR05ic1JDQVhsUFovZzVSOW1jclVZRDRCc0RKV2VQZDFON3kwQkN4OVJWb2dhMHVyTmFWdHdodklTQ2M5bUVxcklkZlUzRE55N2RVQnlhVTdBbVdGMnNmc0NnQXNLMUlEemZoSTNDbUlHVUdHRGZteHZQUXRrdDNDQlFtYzhpZER4Sit6TEMxdDJvdW4yNVpzS3ZnNStjLS1CLzNtY2tZc0RDSmlTcHZEbUg3KzZ3PT0%3D--34f2c4ff2e1f0a73716f6ec713f6367b59eb79b5; path=/; HttpOnly",
+        "X-Request-Id": "d0d71e9e-e0d7-4071-b41a-f7728f267011",
+        "X-Runtime": "0.078354",
+        "Content-Length": "359"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/admin/users?has_ability=users\" -X GET \\\n\t-H \"Access-Token: ZuxL42DPKsr41efO27VCvQ\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: pWhS7q9mBsC6V4O5Kh4vmA\" \\\n\t-H \"Expiry: 1461236692\" \\\n\t-H \"Uid: 90alejandra_kunze@baumbach.io\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/admin/users?has_ability=users\" -X GET \\\n\t-H \"Access-Token: k6AyUqlvbi0UJYEjovSmkQ\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: Qxb9JXq6saDxn4pXFZuj2w\" \\\n\t-H \"Expiry: 1467100265\" \\\n\t-H \"Uid: 90braeden@wilderman.io\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

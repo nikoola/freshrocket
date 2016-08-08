@@ -14,13 +14,13 @@
     {
       "request_method": "POST",
       "request_path": "/client/orders/precalculate_price",
-      "request_body": "order[line_items_attributes][][product_id]=10&order[line_items_attributes][][amount]=1000&order[coupon_code]=48807",
+      "request_body": "order[line_items_attributes][][product_id]=10&order[line_items_attributes][][amount]=1000&order[coupon_code]=75577",
       "request_headers": {
-        "Access-Token": "1-3kJwO2t17k2JD7W_6xJg",
+        "Access-Token": "n3CRfC9YEfz8YbfdcceLaQ",
         "Token-Type": "Bearer",
-        "Client": "fDlvO5dxWF4yh61q5EB01w",
-        "Expiry": "1461236702",
-        "Uid": "160armando@schultzoreilly.biz",
+        "Client": "u4j7gVxF1NXQ3gmkX9UWbQ",
+        "Expiry": "1467100272",
+        "Uid": "160graham@kovacek.biz",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -30,21 +30,21 @@
       "request_content_type": "application/x-www-form-urlencoded",
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\n  \"pure_product_price\": \"3000.0\",\n  \"tax\": \"150.0\",\n  \"delivery_charge\": 0,\n  \"coupon_discount\": 51,\n  \"total_price\": \"3099.0\"\n}",
+      "response_body": "{\n  \"pure_product_price\": \"3000.0\",\n  \"tax\": \"150.0\",\n  \"delivery_charge\": 0,\n  \"coupon_discount\": 94,\n  \"total_price\": \"3056.0\"\n}",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"479c6dd2489dd684be80039d6f140ed5\"",
+        "ETag": "W/\"281abce2151ec9a26bacc381dc217d1c\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=MG5Dajl3cWt3NEZ3MWZZN1VYcGR5bS9BWVhkbW0yTlJjSkJhYnNZb2tOa2dUekdPSUxReDFtM2w1WkRMcDdCbkpUN3BWcHU3WkRTWC9BZCszUHk4cjFDK1ZRSHZ2WTdjR1E4bGRKWFh5VXRwZFZHbEVMTGkzNHEwTDZrOGxvT3ZJMzFxalBXNDlDY0c1emhBaUN0aUtzL0lFOStpWkExSnVSdkZHQVNhY2JCMHI4SlZVZnZTa0pvNGhWQjZMRmFzLS1Jb1lZZXQ0bW9hVGJMdkxscEZXUTZnPT0%3D--c247b03d4dd04e3d894e6ba1aa1533d38fb9d50a; path=/; HttpOnly",
-        "X-Request-Id": "5557509a-4c66-40b3-acf0-d27f7d10a08e",
-        "X-Runtime": "0.078718",
+        "Set-Cookie": "_session_id=OTRLVWEyTnZ1Sk5OVlducm9xZXdIRlNCT0pWQTRWcEMvVzJ2Rzg0eTRsTk5hUTBLdG1sZUV2Ry9Takc1RXVwMnFCY2lHSWVmSTZnM3VEd0ttVjhRakRlbW5qeTVEU1lzMzNHRnJEY3RUb1p1a0dqS1MvNmducVl2U29ySitQWGg2V3V3WDk5b3QyQ2xDbVVLaGJZR3JHNzF3SVk3OXNDdUVxc1FxWlRFMzFtVXVmV3daVXptbFNkWTdRR0RUZ3prLS1NaXFkVlE3MmZYendVc0tkUXpLalVBPT0%3D--b2e6606f09f5fe26b41c46f60d7ae2176fa18bfa; path=/; HttpOnly",
+        "X-Request-Id": "8ba4a3e8-3e31-4ebc-bc89-c76e9c181731",
+        "X-Runtime": "0.070022",
         "Content-Length": "109"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/client/orders/precalculate_price\" -d 'order[line_items_attributes][][product_id]=10&order[line_items_attributes][][amount]=1000&order[coupon_code]=48807' -X POST \\\n\t-H \"Access-Token: 1-3kJwO2t17k2JD7W_6xJg\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: fDlvO5dxWF4yh61q5EB01w\" \\\n\t-H \"Expiry: 1461236702\" \\\n\t-H \"Uid: 160armando@schultzoreilly.biz\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/client/orders/precalculate_price\" -d 'order[line_items_attributes][][product_id]=10&order[line_items_attributes][][amount]=1000&order[coupon_code]=75577' -X POST \\\n\t-H \"Access-Token: n3CRfC9YEfz8YbfdcceLaQ\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: u4j7gVxF1NXQ3gmkX9UWbQ\" \\\n\t-H \"Expiry: 1467100272\" \\\n\t-H \"Uid: 160graham@kovacek.biz\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

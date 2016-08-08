@@ -16,11 +16,11 @@
       "request_path": "/client/addresses/1",
       "request_body": null,
       "request_headers": {
-        "Access-Token": "zVzsyBlOCF751C46hZ9jNw",
+        "Access-Token": "MuvR3kSHaPKO3j5xfsYPsQ",
         "Token-Type": "Bearer",
-        "Client": "qbLSMhRKiCWuXoQmAwRpNA",
-        "Expiry": "1461236695",
-        "Uid": "122arlie.conroy@howell.io",
+        "Client": "Pt-jcfvD_0nWnFW2vQQrdg",
+        "Expiry": "1467100268",
+        "Uid": "122rowland@braun.net",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -37,13 +37,13 @@
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "text/html",
         "Cache-Control": "no-cache",
-        "Set-Cookie": "_session_id=SmQ4VHU0ZHNpaFFnalphTE5scFhlMGFSellzbFhZbmQxUVc4U2tKaDNwZEYvUWZaNE1ZbUFxOFBEY3piZWR0c0hXL3lEVHEyYkpjT2RpeGZ6WDJIaW1CeWxFY2E1dHU5S1ZEem9IWkROeWEvdkkzQlNVbzQ3ZlJacmhtQ1JIOGl1Z2lYajFJanVuQWx6YUU4VURPdnN0VVQvVDRzNFVTc3dDajlVV1hkYUtoeUlSWWYvS2p3OGVzQjI0MkFYYWpFLS1GUm1Gc0F5M0FnbFJDT2hEdzJQYkJBPT0%3D--e2e5d0819ec7a06861d1530ee7d84537bc5e2426; path=/; HttpOnly",
-        "X-Request-Id": "c8f7ee8b-c4c0-43cd-a10c-fbbb807d7d9e",
-        "X-Runtime": "0.076772",
+        "Set-Cookie": "_session_id=Z2hIWmJNS2xhQjV1SE8yUUYxSjRNZk5hM3pWRnA0OUxkUWxsM250eVVnYitVVzNHbUx1YlhycHNwUkF6MEkySGRBd01rQ3NETVlmeDRxSDlLU1k4dnc0aWo5WXlMVnZGbnRsVURrK1UrWmVwR1NMZytWNXN4ME00SmNmT1ZFL0tXV3htd1Q3ZkZkY0ZYZnhna2c5UndibjJReFZKemNXblRKZEtZdEdxWjJPZElHQllDNHRsb0c1Tk1iZXJxVlloLS1uVE9SY0VwcHdacmx4R0ROVk54ZC93PT0%3D--20fd9361b594fd3e37094d6b43ff02c99df7dcbf; path=/; HttpOnly",
+        "X-Request-Id": "78728325-b0b9-46c9-92fd-09ff90363fcf",
+        "X-Runtime": "0.069350",
         "Content-Length": "0"
       },
       "response_content_type": "text/html",
-      "curl": "curl \"http://localhost:3000/client/addresses/1\" -d '' -X DELETE \\\n\t-H \"Access-Token: zVzsyBlOCF751C46hZ9jNw\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: qbLSMhRKiCWuXoQmAwRpNA\" \\\n\t-H \"Expiry: 1461236695\" \\\n\t-H \"Uid: 122arlie.conroy@howell.io\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/client/addresses/1\" -d '' -X DELETE \\\n\t-H \"Access-Token: MuvR3kSHaPKO3j5xfsYPsQ\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: Pt-jcfvD_0nWnFW2vQQrdg\" \\\n\t-H \"Expiry: 1467100268\" \\\n\t-H \"Uid: 122rowland@braun.net\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

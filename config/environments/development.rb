@@ -1,7 +1,17 @@
 Rails.application.configure do
   config.action_mailer.perform_deliveries = true #may be useless, haven't checked
   config.action_mailer.delivery_method    = :letter_opener
-  
+
+  # allow cross-origin requests in production
+  config.middleware.use Rack::Cors do
+    allow do
+      origins '*'
+      resource '*', # may whitelist only necessary server
+               :headers => :any,
+               :expose  => ['access-token', 'expiry', 'token-type', 'uid', 'client'],
+               :methods => [:get, :post, :options, :delete, :put]
+    end
+  end
   # Settings specified here will take precedence over those in config/application.rb.
 
   # In the development environment your application's code is reloaded on

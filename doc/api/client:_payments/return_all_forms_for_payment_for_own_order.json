@@ -19,11 +19,11 @@
       "request_path": "/client/payments/new?order_id=3",
       "request_body": null,
       "request_headers": {
-        "Access-Token": "7BdET9ukHpAFJ3XEoHPr6A",
+        "Access-Token": "zm89rpGPPPzQItdRB8aR5g",
         "Token-Type": "Bearer",
-        "Client": "PVX-LXRVRaPEH_-WgNOzPQ",
-        "Expiry": "1461236703",
-        "Uid": "162hellen_kiehn@cormier.biz",
+        "Client": "_5zhoFT0K1uo-_Cg-yVsNw",
+        "Expiry": "1467100272",
+        "Uid": "162doris.pollich@kerlukemann.com",
         "Host": "example.org",
         "Cookie": ""
       },
@@ -33,21 +33,21 @@
       "request_content_type": null,
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\n  \"citrus\": {\n    \"action\": \"https://sandbox.citruspay.com/kouqfeaav0\",\n    \"method\": \"POST\",\n    \"fields\": {\n      \"merchantTxnId\": \"3\",\n      \"merchantAccessKey\": \"T82TNCTLNBZ282BLHAGD\",\n      \"orderAmount\": \"228.35\",\n      \"currency\": \"INR\",\n      \"secret_key\": \"1690a1e29ecec2a5f852b678dd5362616c79916a\",\n      \"pmt_url\": \"kouqfeaav0\",\n      \"returnUrl\": \"http://localhost:3000/client/payments/citrus\",\n      \"paymentMode\": \"NET_BANKING\",\n      \"reqtime\": \"1460027103000\",\n      \"secSignature\": \"7c55210ab8315ae6882b2a3034eb1a4c2d3b7fcc\"\n    }\n  }\n}",
+      "response_body": "{\n  \"paytm\": {\n    \"action\": \"https://pguat.paytm.com/oltp-web/processTransaction\",\n    \"method\": \"POST\",\n    \"fields\": {\n      \"ORDER_ID\": \"3\",\n      \"MID\": \"FreshD33860006728322\",\n      \"CALLBACK_URL\": \"http://requestb.in/136wzmc1\",\n      \"CHANNEL_ID\": \"WEB\",\n      \"EMAIL\": \"162doris.pollich@kerlukemann.com\",\n      \"MOBILE_NO\": \"3900284609\",\n      \"CUST_ID\": \"5\",\n      \"INDUSTRY_TYPE_ID\": \"Retail\",\n      \"WEBSITE\": \"FreshDispatchweb\",\n      \"REQUEST_TYPE\": \"DEFAULT\",\n      \"CHECKSUMHASH\": \"FNSWLvQ66CwOxyYzCjOSU0U7A9vPbBCTHlbrS2N82OrHiMMmCBI4WkHlNX79rFN9sK7WAX/3fByVo+LjCdGoigG3MDSaDqYi2WXk4S8FKhI=\"\n    }\n  }\n}",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"3c5b6b3152604ba09c54b481681df675\"",
+        "ETag": "W/\"571aae142f96f3d7bd408f1fe344b630\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=WHRPc0FTWXRGczU1MGE0b1VJcFUyWkk3UTMvRU04YWhHZXVwcTV3T2s0YUE2aGZmTUJqc2dtUU5rOFQ1TVl0aFc4QUd0SEl5K0FMT2NtOTVZNXNaVDUvM1hWa1l4UVBZNU5leFEzUG5xQmVqRHEwQUxzTTd0S1h6eDl3b0FVck05bUJMSVYvdnNrY3BzM1Q0RkNPTW1oaVJtTkhrWW1jVjZFWWV1Z3ZXaytmRVZ2cDVzREpDWHRxL2VQdEhySG1sLS15WWRac2ZZTEo0eTJJTDFnbG1PamdRPT0%3D--3b25a95fd8ed9dca47f5ab0244041addec1317ab; path=/; HttpOnly",
-        "X-Request-Id": "8074d913-7a9d-4644-ac70-597816894c19",
-        "X-Runtime": "0.083880",
-        "Content-Length": "444"
+        "Set-Cookie": "_session_id=Q2I0VkJ2a2FFcnY5TmZocmJXVnVlZGhnMzYwUStsOS95YzRkZUJVREdqSVdXb20rY3BYMkh3Q2QrZzdOZXIwOSs4cmlaeTJxSFVhUG5PYVpQd2RFN0g2RWpaTkhlc0pvUXhLaUZPTUdMc0wyVnNPck5pa2tscnRPQlJMb3V0bVl5S3NPTHUydzBlS1RPTVpQTytCc2JaSXVtWnRKcXlTd0prb3lxYWtDNkJMekMwejFZSndBZlo0c1M0SXU5MVVmLS1KNHEyRE9FOGhaTmhoM2tjcW81VHFBPT0%3D--a02dee7fd50bb65b5ed6db56c76f00299944058f; path=/; HttpOnly",
+        "X-Request-Id": "5dbf2692-bacc-447e-960d-6e29dc5c81cf",
+        "X-Runtime": "0.074850",
+        "Content-Length": "499"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/client/payments/new?order_id=3\" -X GET \\\n\t-H \"Access-Token: 7BdET9ukHpAFJ3XEoHPr6A\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: PVX-LXRVRaPEH_-WgNOzPQ\" \\\n\t-H \"Expiry: 1461236703\" \\\n\t-H \"Uid: 162hellen_kiehn@cormier.biz\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/client/payments/new?order_id=3\" -X GET \\\n\t-H \"Access-Token: zm89rpGPPPzQItdRB8aR5g\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: _5zhoFT0K1uo-_Cg-yVsNw\" \\\n\t-H \"Expiry: 1467100272\" \\\n\t-H \"Uid: 162doris.pollich@kerlukemann.com\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

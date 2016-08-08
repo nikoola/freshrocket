@@ -37,13 +37,13 @@
     {
       "request_method": "POST",
       "request_path": "/client/addresses",
-      "request_body": "address[street_and_house]=1817+Santino+Lake&address[stringified_coordinate]=%5B4%2C+6%5D&address[door_number]=5&address[city_id]=1",
+      "request_body": "address[street_and_house]=558+Norwood+View&address[stringified_coordinate]=%5B4%2C+6%5D&address[door_number]=5&address[city_id]=1",
       "request_headers": {
-        "Access-Token": "qpNxgnyoC0i7yx8XwMavMw",
+        "Access-Token": "oRTnUybqriAFcdzPYLTOjw",
         "Token-Type": "Bearer",
-        "Client": "5ea1CkJ_0v3zyXIAAjqevg",
-        "Expiry": "1461236695",
-        "Uid": "120shane_renner@strosinfeil.com",
+        "Client": "01jlTURb7toVW0D7eWKypg",
+        "Expiry": "1467100267",
+        "Uid": "120francisca_lind@sporer.org",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -53,21 +53,21 @@
       "request_content_type": "application/x-www-form-urlencoded",
       "response_status": 201,
       "response_status_text": "Created",
-      "response_body": "{\n  \"id\": 1,\n  \"city_id\": 1,\n  \"user_id\": 1,\n  \"street_and_house\": \"1817 Santino Lake\",\n  \"door_number\": \"5\",\n  \"zip_code\": null,\n  \"active\": true,\n  \"city_name\": \"Alwar\"\n}",
+      "response_body": "{\n  \"id\": 1,\n  \"city_id\": 1,\n  \"user_id\": 1,\n  \"street_and_house\": \"558 Norwood View\",\n  \"door_number\": \"5\",\n  \"zip_code\": null,\n  \"active\": true,\n  \"city_name\": \"Alwar\"\n}",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"b6138d47bb3e07f691a18d71e28f3d54\"",
+        "ETag": "W/\"3e7c173d6e897fa8e162dae77cabfcbd\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=aDdYaVNVL21nYVhaVm5UclYzWWVnbnNLVmpiM1k4WlRlRzU0MDN1aVhPeHhHMjcrM2JsSmhoM2pIUlB5QjhjNG8xQ1BxQ3dGak5FYVZQdnlNK2c3bm5iUlhFWXlqMkYrZ0NWWkdzWlRDR0hIYng0U1JuWFNLL3EvNnJGL1JFMUl0aXNPZ2JWUkVjVmFEdmtZWnJOSGxYMjZrTGNkMnJzMTEvNXloU2x2cDRodTY4dGJwRGJ2OS9DcTF3OGlDanNvLS1zaEU2K2R3eFRGY0RFeXNocHlyNHdnPT0%3D--48ae15de3dfa6f3502da623c7577885295f26a0d; path=/; HttpOnly",
-        "X-Request-Id": "1aa87271-8b92-4ec0-a312-e39bc2a1d040",
-        "X-Runtime": "0.078755",
-        "Content-Length": "139"
+        "Set-Cookie": "_session_id=dXNZdmhwaVhrcUYzd3FJRnplNkZ4ekRRekN1U3V1dWI0UHg5SXVWeFlRdjFRRW1MVTh6cUdRTko5QmM5YlJLTkphMGNNSkhNUERWYUFBelkvckRBdTdKS29WZzRjZlpmMVZ0RkRhSjJRMHJSOGR6NmE3U2tWNlNPUWZ6d0NyckF3OWxoVWJVOFRQeVdrZzkzUjVzVXlXOEZtR252Z2ZEMGVVM1VpYXBkNFBFMDIybDFTSXdFcnY2Z1RPN21qV2crLS1kcVhqWlNMT050cWY2QUZINDZnU3dRPT0%3D--d59b4b0351329482deb0d0f4dbb2bbaab40e6db7; path=/; HttpOnly",
+        "X-Request-Id": "9e7609b5-70f7-4a6e-83b0-efe7bddb5dd4",
+        "X-Runtime": "0.072066",
+        "Content-Length": "138"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/client/addresses\" -d 'address[street_and_house]=1817+Santino+Lake&address[stringified_coordinate]=%5B4%2C+6%5D&address[door_number]=5&address[city_id]=1' -X POST \\\n\t-H \"Access-Token: qpNxgnyoC0i7yx8XwMavMw\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: 5ea1CkJ_0v3zyXIAAjqevg\" \\\n\t-H \"Expiry: 1461236695\" \\\n\t-H \"Uid: 120shane_renner@strosinfeil.com\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/client/addresses\" -d 'address[street_and_house]=558+Norwood+View&address[stringified_coordinate]=%5B4%2C+6%5D&address[door_number]=5&address[city_id]=1' -X POST \\\n\t-H \"Access-Token: oRTnUybqriAFcdzPYLTOjw\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: 01jlTURb7toVW0D7eWKypg\" \\\n\t-H \"Expiry: 1467100267\" \\\n\t-H \"Uid: 120francisca_lind@sporer.org\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

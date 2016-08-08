@@ -24,7 +24,7 @@ class City < ActiveRecord::Base
 	end
 
 	def contains_coordinate? coordinate # [10, 40]
-		lat, lng = coordinate.map(&:to_i)
+		lat, lng = coordinate.map(&:to_f)
 		geokited_lat_lng = Geokit::LatLng.new(lat, lng) #to_i because params turn into ['4', '6']
 		geokited_polygon.contains? geokited_lat_lng
 	end

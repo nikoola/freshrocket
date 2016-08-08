@@ -19,11 +19,11 @@
       "request_path": "/admin/addresses?active=0",
       "request_body": null,
       "request_headers": {
-        "Access-Token": "HRyYI0nC0QxNb97H11qwtg",
+        "Access-Token": "zzCdHt2i25OC-NJr9XOIdQ",
         "Token-Type": "Bearer",
-        "Client": "hdVz4zAVu4F-gGFOuGvuXw",
-        "Expiry": "1461236670",
-        "Uid": "6ezekiel@heidenreich.com",
+        "Client": "YU7Qd5SsAXYpG4txH4-vwg",
+        "Expiry": "1467100257",
+        "Uid": "6julius@labadie.net",
         "Host": "example.org",
         "Cookie": ""
       },
@@ -33,21 +33,21 @@
       "request_content_type": null,
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "[\n  {\n    \"id\": 1,\n    \"city_id\": 1,\n    \"user_id\": 1,\n    \"street_and_house\": \"470 Devin Landing\",\n    \"door_number\": \"5\",\n    \"zip_code\": null,\n    \"active\": false,\n    \"city_name\": \"Delhi\"\n  },\n  {\n    \"id\": 2,\n    \"city_id\": 2,\n    \"user_id\": 2,\n    \"street_and_house\": \"868 Reinger Plains\",\n    \"door_number\": \"5\",\n    \"zip_code\": null,\n    \"active\": false,\n    \"city_name\": \"Bengaluru\"\n  },\n  {\n    \"id\": 3,\n    \"city_id\": 3,\n    \"user_id\": 3,\n    \"street_and_house\": \"59761 Tillman Centers\",\n    \"door_number\": \"5\",\n    \"zip_code\": null,\n    \"active\": false,\n    \"city_name\": \"Ahmedabad\"\n  }\n]",
+      "response_body": "[\n  {\n    \"id\": 1,\n    \"city_id\": 1,\n    \"user_id\": 1,\n    \"street_and_house\": \"834 Bins Junction\",\n    \"door_number\": \"5\",\n    \"zip_code\": null,\n    \"active\": false,\n    \"city_name\": \"Delhi\"\n  },\n  {\n    \"id\": 2,\n    \"city_id\": 2,\n    \"user_id\": 2,\n    \"street_and_house\": \"30315 Sawayn Light\",\n    \"door_number\": \"5\",\n    \"zip_code\": null,\n    \"active\": false,\n    \"city_name\": \"Bengaluru\"\n  },\n  {\n    \"id\": 3,\n    \"city_id\": 3,\n    \"user_id\": 3,\n    \"street_and_house\": \"189 Colin Stravenue\",\n    \"door_number\": \"5\",\n    \"zip_code\": null,\n    \"active\": false,\n    \"city_name\": \"Ahmedabad\"\n  }\n]",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"e8404e197b53b721ff337d6dc41826e9\"",
+        "ETag": "W/\"e845c65d7c7b9a0fb232961922312f2d\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=Z0JmMklPWVhEQzNtSys4cW5SR2pmVzd4RTMwa2t5UkVlZXhYeUlPOHZVaEcycThkdThDdFVkZEkzaWs3NElwNS9FY29PNUxGbVJnMWFVN1dNS3FkWDhlWE1nSFIyRWF5RzFSRmQ1blpETEZHMUhSYUdVT2c1aTVRZG5pdG5iek4xVzJxS1FvQ2J5SWM0ejBKMXhCQ3ZNL1NkOWZEM1ZEQzhMaE11VWRCbEswTmdmVkVtVjNKakdnNmx5V1k1aURRLS1YRFBpc0F0RlVZWjY1cTBaMXpzMUhRPT0%3D--a1d66e7dd42049d1717626b445a19dd6605d2215; path=/; HttpOnly",
-        "X-Request-Id": "0d193ba8-f6b9-43f3-9a07-d470ec93251d",
-        "X-Runtime": "0.123122",
-        "Content-Length": "437"
+        "Set-Cookie": "_session_id=MHNUNFowdjF5Tmd1YjQzWDkwVWJPU0lDY3FmNWhaczgzcHRjcnZ2cE1VWm96QThpK3B4cGY2SC9oclExQ3JONWllT2duK3Y3Sk1NZHJtemhoWkhIbWx1ZXhXRlNPRm9KbG5uZzVyTUgwakdiTXl0aFpzQlI0RXNXbHYwdkhrTVdmUi81R1UwS1J5QTNsam9XV1E1bEFtMXdTS1ZYbHo1R3F1aTZZdWhxd2RvNnQrdjdmV0M5TFZSS1IyNEJPWENsLS1yMWxsSUQxTUFJMVNOU0drVTN4eVl3PT0%3D--174f00205d12b617f8b310a323dad6b49fca60cb; path=/; HttpOnly",
+        "X-Request-Id": "c98b1bc0-0159-48a2-a8ea-c98ded3952c9",
+        "X-Runtime": "0.106819",
+        "Content-Length": "435"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/admin/addresses?active=0\" -X GET \\\n\t-H \"Access-Token: HRyYI0nC0QxNb97H11qwtg\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: hdVz4zAVu4F-gGFOuGvuXw\" \\\n\t-H \"Expiry: 1461236670\" \\\n\t-H \"Uid: 6ezekiel@heidenreich.com\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/admin/addresses?active=0\" -X GET \\\n\t-H \"Access-Token: zzCdHt2i25OC-NJr9XOIdQ\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: YU7Qd5SsAXYpG4txH4-vwg\" \\\n\t-H \"Expiry: 1467100257\" \\\n\t-H \"Uid: 6julius@labadie.net\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

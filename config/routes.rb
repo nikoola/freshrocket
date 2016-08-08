@@ -5,6 +5,7 @@ Rails.application.routes.draw do
 	resources :categories, only: [:index]
 	resources :products,   only: [:index, :show]
 	resources :cities,     only: [:index, :show]
+  resources :options,    only: [:index, :show]
 
 
 
@@ -64,7 +65,8 @@ Rails.application.routes.draw do
 			member {
 				put :update_image
 			}
-		end 
+    end
+    resources :options, only: [:create, :update, :destroy]
 		resources :products,      only: [:create, :update, :destroy]
 		resources :orders,        only: [:index, :show, :create, :update] do
 			member {

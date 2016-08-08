@@ -19,11 +19,11 @@
       "request_path": "/client/addresses?active=0",
       "request_body": null,
       "request_headers": {
-        "Access-Token": "Y8NNWz-_irNu3PZkCxrX1g",
+        "Access-Token": "O0B25QnR61qR3amy9H0kUw",
         "Token-Type": "Bearer",
-        "Client": "vxWBBuazmIojH42dRbv-Kw",
-        "Expiry": "1461236695",
-        "Uid": "117vincenzo_mante@gutkowskismitham.com",
+        "Client": "Q1DzwlvRQWY-7gjPcWuczg",
+        "Expiry": "1467100267",
+        "Uid": "117marty_farrell@kovacek.io",
         "Host": "example.org",
         "Cookie": ""
       },
@@ -33,21 +33,21 @@
       "request_content_type": null,
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "[\n  {\n    \"id\": 1,\n    \"city_id\": 1,\n    \"user_id\": 1,\n    \"street_and_house\": \"5975 Maggie Shores\",\n    \"door_number\": \"5\",\n    \"zip_code\": null,\n    \"active\": false,\n    \"city_name\": \"Muzaffarpur\"\n  },\n  {\n    \"id\": 2,\n    \"city_id\": 2,\n    \"user_id\": 1,\n    \"street_and_house\": \"30174 Donny Mount\",\n    \"door_number\": \"5\",\n    \"zip_code\": null,\n    \"active\": false,\n    \"city_name\": \"Ahmednagar\"\n  },\n  {\n    \"id\": 3,\n    \"city_id\": 3,\n    \"user_id\": 1,\n    \"street_and_house\": \"111 Mazie Path\",\n    \"door_number\": \"5\",\n    \"zip_code\": null,\n    \"active\": false,\n    \"city_name\": \"Kollam\"\n  }\n]",
+      "response_body": "[\n  {\n    \"id\": 1,\n    \"city_id\": 1,\n    \"user_id\": 1,\n    \"street_and_house\": \"4333 Konopelski View\",\n    \"door_number\": \"5\",\n    \"zip_code\": null,\n    \"active\": false,\n    \"city_name\": \"Muzaffarpur\"\n  },\n  {\n    \"id\": 2,\n    \"city_id\": 2,\n    \"user_id\": 1,\n    \"street_and_house\": \"116 Strosin Alley\",\n    \"door_number\": \"5\",\n    \"zip_code\": null,\n    \"active\": false,\n    \"city_name\": \"Ahmednagar\"\n  },\n  {\n    \"id\": 3,\n    \"city_id\": 3,\n    \"user_id\": 1,\n    \"street_and_house\": \"1170 Tavares Village\",\n    \"door_number\": \"5\",\n    \"zip_code\": null,\n    \"active\": false,\n    \"city_name\": \"Kollam\"\n  }\n]",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"a3d443b9af78bb9c3ec25cefec21f459\"",
+        "ETag": "W/\"ecea02c45fd57d256f0b255afbd579ba\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=MzFLWG5EbUJxa29yaWhMOFltQlpaNVUvUlJKWk9USThvNVNHVTB4YTY4Szh5N2JWTGtNOTBvcXBHaXVNWmc0NVlTdjhRKzU1elZlbXN5L2FXUm12SWlyd21KVThSNy9SSkxFcHFQOUFZVTZkcWJwZm1WbzZBdWxRaWY4M1hseFdScnEwcm5nbG14YTFxU08zc2tkeEN4NGw4OVQ1TUZSMUQ0d0hneURRZ3IrUVFkN1I5Z3FSNFJuV1lmRS93ZURlLS1MM3hVRnBGVWhMZzdIWGovRkdCVG1RPT0%3D--482172a01458195d19ccbb3edf0f07faf40bc5cb; path=/; HttpOnly",
-        "X-Request-Id": "0bdccd2b-294b-47ac-8409-c20b190f7ef6",
-        "X-Runtime": "0.092144",
-        "Content-Length": "434"
+        "Set-Cookie": "_session_id=T1BsL2RCNm9ET0d6TVJ1Z01JK0ZmeHExeUJyMXVtRDFGWkNFbzhjb0NGLzFpckR5ajFBU0R2UjJMSUVtWWwxdVBmc1E1eGd5M25RNWMxMmZmdjdUTWVLNlViK3VIaDBqSlpvMVR1SjdKaFdwVjkrVjdMc2RNVGc0TWFVcEkwMVJaaC9RNEUwMkNlT1IxdjJ0VS8yTzlZYnJkcHB4M0wzRDhGZ1VsNTVrVjI0a0I1c3ozMzliYTJ3ZEg3djFaVDdaLS1QMU41bTdia3RROHBKNXB3UE9QbnZ3PT0%3D--062ad1593238866071b3d8455cceb49ccea9e6ed; path=/; HttpOnly",
+        "X-Request-Id": "7f762f29-cb12-446e-aff9-27bfedd149e5",
+        "X-Runtime": "0.082524",
+        "Content-Length": "442"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/client/addresses?active=0\" -X GET \\\n\t-H \"Access-Token: Y8NNWz-_irNu3PZkCxrX1g\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: vxWBBuazmIojH42dRbv-Kw\" \\\n\t-H \"Expiry: 1461236695\" \\\n\t-H \"Uid: 117vincenzo_mante@gutkowskismitham.com\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/client/addresses?active=0\" -X GET \\\n\t-H \"Access-Token: O0B25QnR61qR3amy9H0kUw\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: Q1DzwlvRQWY-7gjPcWuczg\" \\\n\t-H \"Expiry: 1467100267\" \\\n\t-H \"Uid: 117marty_farrell@kovacek.io\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

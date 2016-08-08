@@ -16,11 +16,11 @@
       "request_path": "/admin/cities/1",
       "request_body": "city[name]=hi",
       "request_headers": {
-        "Access-Token": "vUQq_ZLMl-Fi2FWvu28xeg",
+        "Access-Token": "Nix3-HMY4fJcfJXj-HZqHA",
         "Token-Type": "Bearer",
-        "Client": "U8cx62WMBf6Eo-Z7nf02nA",
-        "Expiry": "1461236683",
-        "Uid": "16jadyn@sporer.com",
+        "Client": "2pRdtIHj8zg7do-1FLQi3g",
+        "Expiry": "1467100259",
+        "Uid": "16keegan@koelpin.name",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -38,13 +38,13 @@
         "Content-Type": "application/json; charset=utf-8",
         "ETag": "W/\"21bd986c8f9101f546e375eff10eb4d3\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=Q0pWcldPMzhiUWpBWlJIcEhBWmJBSTFJcndWL2xGTGRpUWpxaFdxNzVzeGRjdEk0aXh6UmNkVE1uNnJYNUxSK2VDeW1hb2pVdXZ6ZkhhVzFQcXNOYkVoSDY3MkpuOFdsaFE0OTVISkpyc2hYV2tYYzdjYlRVRm9xY1V1alJvQTdiZUYySGFkS2oveHFNbW54akJEeEIvalZpRzBSdU5EeVUrOWJwSnRMa2p5dHQxZ3NBbEFvc1NaV2NWbWVRbytOLS1ZRWxEa2crd0ZBYWNnd0J5QnhlYW9BPT0%3D--3fe54f253e6f118f597d2f6dac96532204a5d73e; path=/; HttpOnly",
-        "X-Request-Id": "d382fb24-d490-47f4-b1fe-4214b204f02f",
-        "X-Runtime": "0.079262",
+        "Set-Cookie": "_session_id=OWcxZENuaDRrRElCWll1T2Z0OW9uU3FvTi92c2ZqSWlJNU54YkVZMnVrVzF5R3RBVkd5S3RJQ1ZyclVsYTJSdFhRSHh1b01xWXNreWY4NXhJZ3ZyUDhNZE5EdG9wNGtLUzYxN0FQRkpxWXUrQTlrUHJjQVpKSWhsR2dlQ0hFOVpwZldUbzgrS09pNTdvem16b3J2UEw3bHJrZHVvRC9QT3NXRnUzMjRESGpKNWg4RTZLMDBjTnBnN0pOL1hicFBMLS1EYm1VOVErZFd5ZmtRWUlpWFVRQTVBPT0%3D--a539c41beedef2df394dc1d8cee9e26d774f6ab3; path=/; HttpOnly",
+        "X-Request-Id": "e5252640-8035-4229-81db-4e947b737767",
+        "X-Runtime": "0.071425",
         "Content-Length": "66"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/admin/cities/1\" -d 'city[name]=hi' -X PUT \\\n\t-H \"Access-Token: vUQq_ZLMl-Fi2FWvu28xeg\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: U8cx62WMBf6Eo-Z7nf02nA\" \\\n\t-H \"Expiry: 1461236683\" \\\n\t-H \"Uid: 16jadyn@sporer.com\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/admin/cities/1\" -d 'city[name]=hi' -X PUT \\\n\t-H \"Access-Token: Nix3-HMY4fJcfJXj-HZqHA\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: 2pRdtIHj8zg7do-1FLQi3g\" \\\n\t-H \"Expiry: 1467100259\" \\\n\t-H \"Uid: 16keegan@koelpin.name\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

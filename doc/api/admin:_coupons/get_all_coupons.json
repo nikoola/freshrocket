@@ -16,11 +16,11 @@
       "request_path": "/admin/coupons",
       "request_body": null,
       "request_headers": {
-        "Access-Token": "YP1omoTqa5eCfesBWnHPRA",
+        "Access-Token": "NTyOU3xIIAFlHFJXjZAoHw",
         "Token-Type": "Bearer",
-        "Client": "ZPjImVnPieaDv7Hzu8qfkg",
-        "Expiry": "1461236683",
-        "Uid": "18kasandra_stanton@kilback.net",
+        "Client": "BvBbt1SEOPkL5mppVV5c9Q",
+        "Expiry": "1467100259",
+        "Uid": "18gina.lemke@romagueracrooks.co",
         "Host": "example.org",
         "Cookie": ""
       },
@@ -29,21 +29,21 @@
       "request_content_type": null,
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "[\n  {\n    \"id\": 1,\n    \"name\": \"red\",\n    \"code\": \"88291\",\n    \"discount\": 38\n  },\n  {\n    \"id\": 2,\n    \"name\": \"red\",\n    \"code\": \"27692\",\n    \"discount\": 57\n  },\n  {\n    \"id\": 3,\n    \"name\": \"red\",\n    \"code\": \"71793\",\n    \"discount\": 88\n  },\n  {\n    \"id\": 4,\n    \"name\": \"red\",\n    \"code\": \"27134\",\n    \"discount\": 41\n  }\n]",
+      "response_body": "[\n  {\n    \"id\": 1,\n    \"name\": \"red\",\n    \"code\": \"52891\",\n    \"discount\": 92\n  },\n  {\n    \"id\": 2,\n    \"name\": \"red\",\n    \"code\": \"80052\",\n    \"discount\": 17\n  },\n  {\n    \"id\": 3,\n    \"name\": \"red\",\n    \"code\": \"79163\",\n    \"discount\": 49\n  },\n  {\n    \"id\": 4,\n    \"name\": \"red\",\n    \"code\": \"40464\",\n    \"discount\": 27\n  }\n]",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"0d1bca277b2a69c120361fc8c7255960\"",
+        "ETag": "W/\"643b1838cbcfb38547c48578be2df11b\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=MEU2MElzVUpjWllrOFZGUjR5WHhaWlhaeFE2elI1WmpZTGUwWGhBSUFPUjl2NnBkSzFkbkorQTA1bzQ5MnpoYk1GSjFybXE4RldIU0dhM1lYYXZYSTJaSlRuU3NhQ1ZDQ3VpLzdERjFjSk96L2IxbzROeVp4NGNLb2VSV1dxS1V1dEU0TkpXQkJXTUJLR2JQTytaeEltNmxrR3FhZUVhbUVXV0dwR1c0ZDZFWXgxa2MvV29aZUpYUkRtYVNjeEc2LS1LVzlBUm1JSmwvM1QxRU9XUzlGaUNRPT0%3D--8eb981d2294ccb9d402581c18be58921f7e83321; path=/; HttpOnly",
-        "X-Request-Id": "09c1a075-b243-4e93-8e7c-899a7cf0565d",
-        "X-Runtime": "0.084440",
+        "Set-Cookie": "_session_id=R2wxeFVybVBZYjQzNE1WUkd5eHYyUTFPSXFTODFQa3l6aEE0RjVzV0pVRTIzT2w5ZHRiZ0RDa045eExlR0YyWGgzNGJ0SE1NazQ5WGFVY3dxa0NFdU1sWFVoN2FhbENkK29RczJGVmcwZ1pWK0dCZVpYM2hRajdPclFRSUVQVDhxUnd0d2U5ZktFLzdlWWd4ZXNocDhYTU1hS1RUYXdaK2NYdUlNUlp2czVma1A0RW9ZNGZNNFdkZUxiQlM4bXQrLS13aHhhcUt1N2ZacCtGaExNcWVmbFdRPT0%3D--0824f81dd8bc137d4c2c66a4c9c9e310cd4f81f3; path=/; HttpOnly",
+        "X-Request-Id": "7bbfa82e-8cce-437f-9f2a-bc6e7bb56fb6",
+        "X-Runtime": "0.075503",
         "Content-Length": "205"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/admin/coupons\" -X GET \\\n\t-H \"Access-Token: YP1omoTqa5eCfesBWnHPRA\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: ZPjImVnPieaDv7Hzu8qfkg\" \\\n\t-H \"Expiry: 1461236683\" \\\n\t-H \"Uid: 18kasandra_stanton@kilback.net\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/admin/coupons\" -X GET \\\n\t-H \"Access-Token: NTyOU3xIIAFlHFJXjZAoHw\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: BvBbt1SEOPkL5mppVV5c9Q\" \\\n\t-H \"Expiry: 1467100259\" \\\n\t-H \"Uid: 18gina.lemke@romagueracrooks.co\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

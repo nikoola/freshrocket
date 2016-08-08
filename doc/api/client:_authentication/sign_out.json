@@ -16,11 +16,11 @@
       "request_path": "/auth/sign_out",
       "request_body": null,
       "request_headers": {
-        "Access-Token": "Sz5tABM-ELoPcaQmk2EtRA",
+        "Access-Token": "a1Kj8z6BZQZ5WFhuQFhCKQ",
         "Token-Type": "Bearer",
-        "Client": "Bd1y-C9nKUIk6dPoO-28zA",
-        "Expiry": "1461236696",
-        "Uid": "124nyasia@pfeffer.co",
+        "Client": "L6fvhkjt_jPa9Ir4YefXNA",
+        "Expiry": "1467100268",
+        "Uid": "124vergie@breitenberg.net",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -38,13 +38,13 @@
         "Content-Type": "application/json; charset=utf-8",
         "ETag": "W/\"7363e85fe9edee6f053a4b319588c086\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=K0toM2dzN2QyRkxhZWpudkFHemI4clY0aDFOT0NiQVBaaWk2L0Z6US9TYkFIS3ZuWVEza1h4cW9uYVZBTDlabFQ3QjlDUzFqRlhrVzBHbmpqN3g3bXc9PS0tbzBTdFRiQVlRZVlLVXV3Sk0yRWdSZz09--a73bb1b0ae323b6b34ab6c569da9afa9246a3f7c; path=/; HttpOnly",
-        "X-Request-Id": "ac86d53b-c325-49e1-906d-52eab71220f1",
-        "X-Runtime": "0.082308",
+        "Set-Cookie": "_session_id=MU03eTlLVERibEZpRkswOS9MQ1VQWGcxeTRjZ2xHbVVxZEYzVUpOelNpK05jSklmVWJzMWZmNjR0aXc1emRBZStpa25HVFRURWkzNXYyeXVaOExQNXc9PS0tOWY0MGxuR3RoNEp3cWNMNjJWQnVtUT09--2f9010416faf768face26219b104f451c0925819; path=/; HttpOnly",
+        "X-Request-Id": "e8eb38a2-46b0-44a9-9513-6db3d661fad5",
+        "X-Runtime": "0.064899",
         "Content-Length": "16"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/auth/sign_out\" -d '' -X DELETE \\\n\t-H \"Access-Token: Sz5tABM-ELoPcaQmk2EtRA\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: Bd1y-C9nKUIk6dPoO-28zA\" \\\n\t-H \"Expiry: 1461236696\" \\\n\t-H \"Uid: 124nyasia@pfeffer.co\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/auth/sign_out\" -d '' -X DELETE \\\n\t-H \"Access-Token: a1Kj8z6BZQZ5WFhuQFhCKQ\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: L6fvhkjt_jPa9Ir4YefXNA\" \\\n\t-H \"Expiry: 1467100268\" \\\n\t-H \"Uid: 124vergie@breitenberg.net\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

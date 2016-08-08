@@ -6,14 +6,17 @@ module Client
 
 		# GET /client/orders
 		def index
+
 			@orders = current_user.orders.filter params.slice(:status)
 
 			render json: @orders, include: params[:include]
+
 		end
 
 		# GET /client/orders/1
 		def show
 			render json: @order, include: params[:include]
+
 		end
 
 		# POST /client/orders
@@ -82,7 +85,8 @@ module Client
 		private
 
 			def set_order
-				head status: 404 unless @order = current_user.orders.find_by(id: params[:id])
+				# head status: 404 unless
+				@order = current_user.orders.find_by(id: params[:id])
 			end
 
 			def order_params
@@ -92,7 +96,7 @@ module Client
 					:coupon_code,
 					:feedback,
 					:comment, :wanted_date, :wanted_time,
-					line_items_attributes: [:_destroy, :id, :amount, :product_id]
+					line_items_attributes: [:_destroy, :id, :amount, :product_id, :option_id]
 				])
 
 				# no :fixed_price, :status, :user_id, :payment_type, :is_paid

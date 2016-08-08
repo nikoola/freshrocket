@@ -74,11 +74,11 @@
       "request_path": "/admin/orders",
       "request_body": "order[address_id]=1&order[user_id]=2&order[line_items_attributes][][product_id]=1&order[line_items_attributes][][amount]=3",
       "request_headers": {
-        "Access-Token": "lhKypp9-p7KaSwvNkia7Sg",
+        "Access-Token": "kNpBkGCmgPWXBtPdWpiXmQ",
         "Token-Type": "Bearer",
-        "Client": "sn2l9dZskr-bIVXvbKBWgg",
-        "Expiry": "1461236685",
-        "Uid": "49janet@walter.org",
+        "Client": "yT3Tm5Ue4ajTZmdIUUOSJA",
+        "Expiry": "1467100261",
+        "Uid": "49jadon.moore@creminthiel.net",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -88,21 +88,21 @@
       "request_content_type": "application/x-www-form-urlencoded",
       "response_status": 201,
       "response_status_text": "Created",
-      "response_body": "{\n  \"id\": 1,\n  \"user_id\": 2,\n  \"status\": \"approved\",\n  \"created_at\": \"2016-04-07T11:04:45.973Z\",\n  \"confirmed_at\": \"2016-04-07T11:04:45.975Z\",\n  \"approved_at\": \"2016-04-07T11:04:45.980Z\",\n  \"dispacthed_at\": null,\n  \"delivered_at\": null,\n  \"canceled_at\": null,\n  \"pure_product_price\": null,\n  \"tax\": null,\n  \"delivery_charge\": null,\n  \"total_price\": null,\n  \"coupon_code\": null,\n  \"delivery_boy_id\": null,\n  \"delivery_boy_phone\": null,\n  \"wanted_time\": null,\n  \"wanted_date\": null,\n  \"payment_type\": \"cash\",\n  \"is_paid\": false,\n  \"feedback\": null,\n  \"comment\": null,\n  \"source_type\": null,\n  \"admin_comment\": null\n}",
+      "response_body": "{\n  \"id\": 1,\n  \"user_id\": 2,\n  \"status\": \"approved\",\n  \"created_at\": \"2016-06-14T07:51:01.896Z\",\n  \"confirmed_at\": \"2016-06-14T07:51:01.897Z\",\n  \"approved_at\": \"2016-06-14T07:51:01.901Z\",\n  \"dispacthed_at\": null,\n  \"delivered_at\": null,\n  \"canceled_at\": null,\n  \"pure_product_price\": null,\n  \"tax\": null,\n  \"delivery_charge\": null,\n  \"total_price\": null,\n  \"coupon_code\": null,\n  \"delivery_boy_id\": null,\n  \"delivery_boy_phone\": null,\n  \"wanted_time\": null,\n  \"wanted_date\": null,\n  \"payment_type\": \"cash\",\n  \"is_paid\": false,\n  \"feedback\": null,\n  \"comment\": null,\n  \"source_type\": null,\n  \"admin_comment\": null,\n  \"line_items\": [\n    {\n      \"id\": 1,\n      \"order_id\": 1,\n      \"amount\": 3,\n      \"fixed_price\": null\n    }\n  ],\n  \"address\": {\n    \"id\": 1,\n    \"city_id\": 1,\n    \"user_id\": 1,\n    \"street_and_house\": \"6310 Effertz Center\",\n    \"door_number\": \"5\",\n    \"zip_code\": null,\n    \"active\": true,\n    \"city_name\": \"Aligarh\"\n  },\n  \"delivery_boy\": null\n}",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"994ac9dbd6220e31a606b8606b121f09\"",
+        "ETag": "W/\"1a72e61be84fa5c361608484b5d0891b\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=L3pFVnZWOTBUcUI3OW1LaXVyTTlzZnhKSzZCZWdTajRnWlNsd2RBQUoydjlNSkp4MXFjaXYzZXJXSFJpUGplY21Ud2F6U3hPUFJJZHRaRkNsa0toajB5Y1B4Um5jWUVzNFQ2aGYzeUg5cE93Vm9KVFlpdEROaHlRMFI2S1Q2YWhzTktvN2xxU2tINENHb3ZVdGJmTmlCQjd4eWM3NDRUQXZpTnduTk94RjZGYVpRVVhZTHdrVkhPUVF1aHg0dEtGLS1oc3A4NUdnMW1Wc1pyTG1KZzFCd0FRPT0%3D--80df6ddb45dd32ee36a47f5b8ce39bb22d573e40; path=/; HttpOnly",
-        "X-Request-Id": "38bfbb80-3623-4477-819d-63837ad57659",
-        "X-Runtime": "0.104808",
-        "Content-Length": "517"
+        "Set-Cookie": "_session_id=SDYxbkEwMTNqMnoxRDRYNDNSYnZvRTlCZXFaZVBPeUVBYzEwYlovbm1XZHJkeFAzSFNkUmt2K2JRdldWU1dxMGNzNzNPYkt5NDZWUnJNZWQrc0psME5MVlNJaXJ2LzFOTW5MZWt1S2ZwYWZzaExJT0JGQTljbHd2SkR5NjltcjBRejQxN3h3QVBaRmF6ODd4QUgvSzhLODB2S0pGaWxtM1JSTlEvdEpxOUU4VmFRUThkd3pCQXdsMTU3dUVVc25qLS1zRC8xUVhMbDBwdE9NM3ZlbUdxTWVRPT0%3D--819de717dfa986efed19f14bede79f370fb05b29; path=/; HttpOnly",
+        "X-Request-Id": "b2139ee3-597d-49b1-b394-2741dbf51cc1",
+        "X-Runtime": "0.097774",
+        "Content-Length": "758"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/admin/orders\" -d 'order[address_id]=1&order[user_id]=2&order[line_items_attributes][][product_id]=1&order[line_items_attributes][][amount]=3' -X POST \\\n\t-H \"Access-Token: lhKypp9-p7KaSwvNkia7Sg\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: sn2l9dZskr-bIVXvbKBWgg\" \\\n\t-H \"Expiry: 1461236685\" \\\n\t-H \"Uid: 49janet@walter.org\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/admin/orders\" -d 'order[address_id]=1&order[user_id]=2&order[line_items_attributes][][product_id]=1&order[line_items_attributes][][amount]=3' -X POST \\\n\t-H \"Access-Token: kNpBkGCmgPWXBtPdWpiXmQ\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: yT3Tm5Ue4ajTZmdIUUOSJA\" \\\n\t-H \"Expiry: 1467100261\" \\\n\t-H \"Uid: 49jadon.moore@creminthiel.net\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

@@ -16,11 +16,11 @@
       "request_path": "/client/orders/3",
       "request_body": null,
       "request_headers": {
-        "Access-Token": "fcCGfJTdz3XmQAayFiZYgg",
+        "Access-Token": "eapLRw9lpcZYhszEV9w1Kw",
         "Token-Type": "Bearer",
-        "Client": "W2Rd9oKxcbtQIYp1K1m6gg",
-        "Expiry": "1461236701",
-        "Uid": "144pierre@faheyweimann.net",
+        "Client": "e1lrwi_uUgJwOqQeFT6EWQ",
+        "Expiry": "1467100270",
+        "Uid": "144alva@zboncak.biz",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -37,13 +37,13 @@
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "text/html",
         "Cache-Control": "no-cache",
-        "Set-Cookie": "_session_id=UVBpaUZucXdVL3kzMWc4YXVYNkFkUlRpelp6cDNWUGVrZlFBcGV1L08zdG4vSk9DVmFJVjR0ajJmNnRkRENRVG94TkRQNEJzdUpJazBwUEw2S01DYmJ1NXZVazEvU0NVU0gyeHhMM0ltejJMR2QvdTM0VkhleEtxWW9YQW8vS0NBWmhObmdZK0VYbEVlSmdXd09hQlMvZUFNcjVuVWtwdVh2MjlLVzVFOEdHVVBUL1A2ZXRvMXlrcDNrTmtnQUdoLS1yN0Rhd1JFSWtwUUo4aUNCdnFGcjh3PT0%3D--070a1c0a2190e29d6843b76b68f40fd974e04796; path=/; HttpOnly",
-        "X-Request-Id": "7de4c1b3-a480-42f6-a04d-303444bf4892",
-        "X-Runtime": "0.078731",
+        "Set-Cookie": "_session_id=REJoWmNUa2FyTmxqZllGTFNDZ3BmYm1vdWpPRzMwaHQ2TTBXL0NITjM2ZzlRc0VGZko4ZjhaUnBCSXJtL2V1RDdvWVdOTHlEVFdsOFdwdy9CYjhEdm9LSWd2WCtWV3lvYVozdFIrWGRYUlV3MlNoWXViU01CbmNubUJNcXVYQ0NVemJmYWhtRnFtVkMrTjF2TERuaVdpQXJMUnhSbzhlUWxuc2VkN2dzY0JWZzU4MXJDNkpvRE1hVldpSkZhby91LS1rbFg5bC9wR01LSmNXMnNnSWk0L293PT0%3D--9618cb6e24e79484317c03ee1b992a9f3792e87a; path=/; HttpOnly",
+        "X-Request-Id": "5def2b3d-6fd9-4fb1-9221-2261f4022e66",
+        "X-Runtime": "0.072305",
         "Content-Length": "0"
       },
       "response_content_type": "text/html",
-      "curl": "curl \"http://localhost:3000/client/orders/3\" -d '' -X DELETE \\\n\t-H \"Access-Token: fcCGfJTdz3XmQAayFiZYgg\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: W2Rd9oKxcbtQIYp1K1m6gg\" \\\n\t-H \"Expiry: 1461236701\" \\\n\t-H \"Uid: 144pierre@faheyweimann.net\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/client/orders/3\" -d '' -X DELETE \\\n\t-H \"Access-Token: eapLRw9lpcZYhszEV9w1Kw\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: e1lrwi_uUgJwOqQeFT6EWQ\" \\\n\t-H \"Expiry: 1467100270\" \\\n\t-H \"Uid: 144alva@zboncak.biz\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

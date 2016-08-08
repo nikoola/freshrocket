@@ -16,11 +16,11 @@
       "request_path": "/admin/orders/1",
       "request_body": "order[delivery_boy_id]=1",
       "request_headers": {
-        "Access-Token": "pyLnhryBup4BpUgwcZAThA",
+        "Access-Token": "HEiTdQcYeVF5QxLeHkCH9g",
         "Token-Type": "Bearer",
-        "Client": "WXLF2S83jDtAgClWoGQlsQ",
-        "Expiry": "1461236686",
-        "Uid": "53ulices@wehner.co",
+        "Client": "r59BYZw-SDsHKZw1WtcMmw",
+        "Expiry": "1467100262",
+        "Uid": "53kathryn@legrosmertz.net",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -30,21 +30,21 @@
       "request_content_type": "application/x-www-form-urlencoded",
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\n  \"id\": 1,\n  \"user_id\": 2,\n  \"status\": \"unconfirmed\",\n  \"created_at\": \"2016-04-07T11:04:46.077Z\",\n  \"confirmed_at\": null,\n  \"approved_at\": null,\n  \"dispacthed_at\": null,\n  \"delivered_at\": null,\n  \"canceled_at\": null,\n  \"pure_product_price\": \"27.0\",\n  \"tax\": \"1.35\",\n  \"delivery_charge\": \"200.0\",\n  \"total_price\": \"228.35\",\n  \"coupon_code\": null,\n  \"delivery_boy_id\": 1,\n  \"delivery_boy_phone\": \"7830108915\",\n  \"wanted_time\": null,\n  \"wanted_date\": null,\n  \"payment_type\": \"cash\",\n  \"is_paid\": false,\n  \"feedback\": null,\n  \"comment\": null,\n  \"source_type\": null,\n  \"admin_comment\": null\n}",
+      "response_body": "{\n  \"id\": 1,\n  \"user_id\": 2,\n  \"status\": \"unconfirmed\",\n  \"created_at\": \"2016-06-14T07:51:01.993Z\",\n  \"confirmed_at\": null,\n  \"approved_at\": null,\n  \"dispacthed_at\": null,\n  \"delivered_at\": null,\n  \"canceled_at\": null,\n  \"pure_product_price\": \"27.0\",\n  \"tax\": \"1.35\",\n  \"delivery_charge\": \"200.0\",\n  \"total_price\": \"228.35\",\n  \"coupon_code\": null,\n  \"delivery_boy_id\": 1,\n  \"delivery_boy_phone\": \"1283397218\",\n  \"wanted_time\": null,\n  \"wanted_date\": null,\n  \"payment_type\": \"cash\",\n  \"is_paid\": false,\n  \"feedback\": null,\n  \"comment\": null,\n  \"source_type\": null,\n  \"admin_comment\": null,\n  \"line_items\": [\n    {\n      \"id\": 1,\n      \"order_id\": 1,\n      \"amount\": 3,\n      \"fixed_price\": \"9.0\"\n    },\n    {\n      \"id\": 2,\n      \"order_id\": 1,\n      \"amount\": 3,\n      \"fixed_price\": \"9.0\"\n    },\n    {\n      \"id\": 3,\n      \"order_id\": 1,\n      \"amount\": 3,\n      \"fixed_price\": \"9.0\"\n    }\n  ],\n  \"address\": {\n    \"id\": 1,\n    \"city_id\": 1,\n    \"user_id\": 3,\n    \"street_and_house\": \"636 Susie Tunnel\",\n    \"door_number\": \"5\",\n    \"zip_code\": null,\n    \"active\": true,\n    \"city_name\": \"Ranchi\"\n  },\n  \"delivery_boy\": {\n    \"id\": 1,\n    \"user_id\": 1,\n    \"current_order_id\": null,\n    \"status\": \"available\"\n  }\n}",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"3157734f421fc0ec3decfc9e98a409c4\"",
+        "ETag": "W/\"cd81ced9b952d276384a1eb6b724aa16\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=Wi8wVjRhZHg0SndLS01NMXQ0UUN2MUFBMG40NUJ5OUlGWHFUcTZuK2R6aHpVWDRUK3pEb3VKT0xIZ0xCUStQcFlDaU5ZWFk5M3poTUlNWnk3anNwN0FOamh3UHNaZHlPRG51UVFxMUpycU42dm9POVlVQ0RUM1lYM1ViTWhvMnBoTGdNZHoyUmZlVzJkTnBMUkxUbi8zdDZ2b0hrdytNOVBJR3ZESzRxaUNrS3BKaEI5b1Z6YkI1TThxdit5Q0ExLS1scDFGQzlhOHlmRlhkV2NDeW1LRWZBPT0%3D--83c3cc3a87c5f8bc2b21ab6cd48c41eb104466f1; path=/; HttpOnly",
-        "X-Request-Id": "1c7b98cf-a1db-4a49-a61b-0a801bc34515",
-        "X-Runtime": "0.086008",
-        "Content-Length": "492"
+        "Set-Cookie": "_session_id=N1lMUGJVYlFXTUZRbXllcjB6Tm4xSk1BS3dDZzhYVlZ5ZUYrSHNkK1l2TTRQUnhDZmMxZVlxZ0M3UzhXV1dxekZGbHhyeXF1bHJ2MDFFbHAxbWpYM0JpV2xwTFdBK1FSa29HMFBOM3JBTUZFTG9YcDFUU0ZzWlpoOXRCRVB6OEt4Mi9QbW5PcjB2dVJKby9PN3pKeGtHM0x5cWdXVjRCUmVFS1YxOWlIZG5ycUNLYlJlR2FJNUExdXNkZHpXUDFMLS1BRnB1VktMSTg2U2dmNGt1MWJLZkJnPT0%3D--62ad9d0b38b23fe32ca755138dc54fd6c1e99d57; path=/; HttpOnly",
+        "X-Request-Id": "3f1a38f2-e4b7-4fc8-93e8-042ff6ba23d9",
+        "X-Runtime": "0.080651",
+        "Content-Length": "897"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/admin/orders/1\" -d 'order[delivery_boy_id]=1' -X PUT \\\n\t-H \"Access-Token: pyLnhryBup4BpUgwcZAThA\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: WXLF2S83jDtAgClWoGQlsQ\" \\\n\t-H \"Expiry: 1461236686\" \\\n\t-H \"Uid: 53ulices@wehner.co\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/admin/orders/1\" -d 'order[delivery_boy_id]=1' -X PUT \\\n\t-H \"Access-Token: HEiTdQcYeVF5QxLeHkCH9g\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: r59BYZw-SDsHKZw1WtcMmw\" \\\n\t-H \"Expiry: 1467100262\" \\\n\t-H \"Uid: 53kathryn@legrosmertz.net\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

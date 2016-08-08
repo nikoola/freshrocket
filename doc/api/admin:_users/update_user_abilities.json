@@ -20,11 +20,11 @@
       "request_path": "/admin/users/1/update_abilities",
       "request_body": "abilities[users]=1&abilities[products]=0&abilities[orders]=0&abilities[categories]=0",
       "request_headers": {
-        "Access-Token": "f3yfp1I5gNHv5abatDdpjw",
+        "Access-Token": "GrC29gDKdcdmYW-8qWzIEQ",
         "Token-Type": "Bearer",
-        "Client": "l9sjhD-BhCFx6RrvLvhVBw",
-        "Expiry": "1461236694",
-        "Uid": "109adolph@bosco.name",
+        "Client": "lMeYuWEAgNz6-kRWbC1zpw",
+        "Expiry": "1467100266",
+        "Uid": "109antonia@jacobsbergstrom.name",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -41,13 +41,13 @@
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "text/html",
         "Cache-Control": "no-cache",
-        "Set-Cookie": "_session_id=N0REWTJpTUpYZ1U5NEhJY0tieHNXbnZYMnBNQVZKLzBGRWxFejMvUHpjbzVwemhPQ3p2ZlRpOXkrZDNRZk1vNlRrWng3Y2JKQmRJYm1jRVV5K1FuY2g5OE9nRnkwbDYyM0NjZVhQc0YxZ2c3VTY4bTBqVEdlcjhxVzZQZzdxV3VYQkg1SGxYMnFHL0VLYnZxVHArYlN2QjJWNlZlY2VmVXdDZ1VzNXpzVlo0R0VteEdENmlNdE9yNUl2OWtBaWhkLS0yWnZzZkllRUNxdDNCNEVlTEE0Q1dRPT0%3D--56a73b236730ebe520d34045dc0d2780edfb0a8c; path=/; HttpOnly",
-        "X-Request-Id": "a09f1c7b-0860-40e8-a4eb-18a2aa127bb3",
-        "X-Runtime": "0.088520",
+        "Set-Cookie": "_session_id=d1M2dzdzbVc0WEZBbTRnNmdwTW91TkNxN1NsSlF3QWZPMTF6bzR3U2xGb1I2Zk5vcERLR1I5Z2N1VEs5aXlrVVJzRldqVVZrdUR2SFQydjdoSFllQVBJVXdPRlZkVm8vbU9mQkxmbmtSSEwwWFQ3ZCtNRFZOZytWQmFjWFVIenYweTZvZkxtR21VVG1MNjY5MW9EZ25ZYytDcC90VlhsV3F6ZGFTWVQvd1FHUHB5L0F2ak5lOFc5MStFMDcvL0JwLS0xWE16MWtLTVA4eVd5Yi9kWDZTeS9nPT0%3D--cdd14d1570a3909fe435e2f2154165b0e8ff6e0f; path=/; HttpOnly",
+        "X-Request-Id": "c15ef580-5d52-47c6-b5d8-d3ce04065713",
+        "X-Runtime": "0.080640",
         "Content-Length": "0"
       },
       "response_content_type": "text/html",
-      "curl": "curl \"http://localhost:3000/admin/users/1/update_abilities\" -d 'abilities[users]=1&abilities[products]=0&abilities[orders]=0&abilities[categories]=0' -X PUT \\\n\t-H \"Access-Token: f3yfp1I5gNHv5abatDdpjw\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: l9sjhD-BhCFx6RrvLvhVBw\" \\\n\t-H \"Expiry: 1461236694\" \\\n\t-H \"Uid: 109adolph@bosco.name\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/admin/users/1/update_abilities\" -d 'abilities[users]=1&abilities[products]=0&abilities[orders]=0&abilities[categories]=0' -X PUT \\\n\t-H \"Access-Token: GrC29gDKdcdmYW-8qWzIEQ\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: lMeYuWEAgNz6-kRWbC1zpw\" \\\n\t-H \"Expiry: 1467100266\" \\\n\t-H \"Uid: 109antonia@jacobsbergstrom.name\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

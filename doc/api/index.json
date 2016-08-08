@@ -37,25 +37,11 @@
       "name": "admin: categories",
       "examples": [
         {
-          "description": "create category",
-          "link": "admin:_categories/create_category.json",
-          "groups": "all",
-          "route": "/admin/categories",
-          "method": "post"
-        },
-        {
           "description": "delete category",
           "link": "admin:_categories/delete_category.json",
           "groups": "all",
           "route": "/admin/categories/:id",
           "method": "delete"
-        },
-        {
-          "description": "update category",
-          "link": "admin:_categories/update_category.json",
-          "groups": "all",
-          "route": "/admin/categories/:id",
-          "method": "put"
         }
       ]
     },
@@ -445,13 +431,6 @@
           "method": "post"
         },
         {
-          "description": "get current user's order",
-          "link": "client:_orders/get_current_user's_order.json",
-          "groups": "all",
-          "route": "/client/orders/:id",
-          "method": "get"
-        },
-        {
           "description": "if order is approved it cant be confirmed",
           "link": "client:_orders/if_order_is_approved_it_cant_be_confirmed.json",
           "groups": "all",
@@ -561,25 +540,6 @@
           "groups": "all",
           "route": "deliver/orders/:id/update_status",
           "method": "put"
-        }
-      ]
-    },
-    {
-      "name": "deliver: positions",
-      "examples": [
-        {
-          "description": "get a map trace for some order",
-          "link": "deliver:_positions/get_a_map_trace_for_some_order.json",
-          "groups": "all",
-          "route": "/orders/:id/positions",
-          "method": "get"
-        },
-        {
-          "description": "mark new position",
-          "link": "deliver:_positions/mark_new_position.json",
-          "groups": "all",
-          "route": "/deliver/orders/:id/positions",
-          "method": "post"
         }
       ]
     },

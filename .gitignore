@@ -20,8 +20,10 @@
 
 /dump.rdb 
 
-
-
+.byebug_history
+.idea
+zeus.json
+.zeus.sock
 /.env
 /hi.rb
 
