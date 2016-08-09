@@ -65,7 +65,7 @@ module Admin
 					:coupon_code,
 					:feedback, :comment, :admin_comment,
 					:wanted_date, :wanted_time,
-					line_items_attributes: [:_destroy, :id, :amount, :product_id, :option_id]
+					line_items_attributes: [:_destroy, :id, :amount, :product_id]
 				])
 
 				# no payment_type (it's set automatically)

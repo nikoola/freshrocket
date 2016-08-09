@@ -96,7 +96,7 @@ module Client
 					:coupon_code,
 					:feedback,
 					:comment, :wanted_date, :wanted_time,
-					line_items_attributes: [:_destroy, :id, :amount, :product_id, :option_id]
+					line_items_attributes: [:_destroy, :id, :amount, :product_id]
 				])
 
 				# no :fixed_price, :status, :user_id, :payment_type, :is_paid
