@@ -5,7 +5,7 @@ module Admin
 
 
 		def index
-			@delivery_boys = DeliveryBoy.filter(params.slice(:status)).joins(:user).where('user.city_id = ?', params[:city_id])
+			@delivery_boys = DeliveryBoy.filter(params.slice(:status)).joins(:user => :addresses ).where( :addresses => {city_id: params[:city_id]} )
 			render json: @delivery_boys
 		end
 
