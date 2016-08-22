@@ -15,9 +15,13 @@ test:
   <<: *default
   database: db/test.sqlite3
 
+#production:
+#  adapter:  postgresql
+#  database: rivo
+#  username: ENV['database.username']
+#  password: ENV['database.password']
+#  host:     localhost
+
 production:
-  adapter:  postgresql
-  database: rivo
-  username: ENV['database.username']
-  password: ENV['database.password']
-  host:     localhost
+    <<: *default
+    database: db/development.sqlite3

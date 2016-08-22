@@ -32,6 +32,10 @@ class Address < ActiveRecord::Base
 		self.orders.any? ? disable : destroy
 	end
 
+	def self.get_address_by_city_id(city_id)
+		self.where(city_id: city_id).first
+	end
+
 	private
 
 		def set_coordinate

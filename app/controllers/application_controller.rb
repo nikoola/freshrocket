@@ -18,12 +18,14 @@ class ApplicationController < ActionController::Base
 				:first_name, :last_name, 
 				:how_did_you_hear_about_us
 			].each do |attribute|
-				devise_parameter_sanitizer.for(:account_update) << attribute
-				devise_parameter_sanitizer.for(:sign_up)        << attribute
+				# devise_parameter_sanitizer.for(:account_update) << attribute
+				devise_parameter_sanitizer.permit(:account_update, keys: [attribute])
+				devise_parameter_sanitizer.permit(:sign_up, keys: [attribute])
+				# devise_parameter_sanitizer.for(:sign_up)        << attribute
 			end
 
 
-			devise_parameter_sanitizer.for(:account_update) { |u| 
+			devise_parameter_sanitizer.permit(:account_update) { |u|
 			  u.permit(:password, :password_confirmation, :current_password) 
 			} #timely
 

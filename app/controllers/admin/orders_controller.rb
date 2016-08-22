@@ -5,9 +5,13 @@ module Admin
 
 		# GET /admin/orders
 		def index
-			@orders = Order.filter params.slice(:city_id, :user_id, :status, :limit, :offset)
-
+			city_id = params[:city].present? ? JSON.parse(params[:city])['id'] : nil
+			if city_id && Address.get_address_by_city_id(city_id)
+			@orders = Address.get_address_by_city_id(city_id).orders
 			render json: @orders, include: params[:include]
+			else
+				render json:[]
+			end
 		end
 
 		# GET /admin/orders/1

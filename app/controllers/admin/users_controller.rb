@@ -6,8 +6,10 @@ module Admin
 
 		# GET /users
 		def index
-			@users = User.filter params.slice(:email_includes, :phone_includes, :has_ability)
-
+			city_id = params[:city].present? ? JSON.parse(params[:city])['id'] : nil
+			addresses =  Address.where(city_id: city_id)
+			@users = []
+			addresses.map { |address| @users << address.user}
 			render json: @users, include: params[:include]
 		end
 
