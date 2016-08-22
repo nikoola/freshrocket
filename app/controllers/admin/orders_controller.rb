@@ -16,9 +16,6 @@ module Admin
 
 		# GET /admin/orders/1
 		def show
-			puts 'debuggin!'
-			puts @order.to_json
-			puts params[:include]
 			render json: @order, include: params[:include]
 		end
 
