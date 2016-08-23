@@ -4,8 +4,12 @@ class ProductsController < ApplicationController
 
 	# GET /category/1/products
 	def index
-		city_id = params[:city].present? ? JSON.parse(params[:city])['id'] : nil
-		@products = Product.where(city_id: city_id)
+		if params[:city].present?
+			city_id = JSON.parse(params[:city])['id']
+			@products = Product.where(city_id: city_id)
+		else
+			@products = Product.filter params.slice(:city_id, :in_stock, :category_id)
+		end
 		render json: @products, include: params[:include]
 	end
 
