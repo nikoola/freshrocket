@@ -39,7 +39,8 @@ class Address < ActiveRecord::Base
 	private
 
 		def set_coordinate
-			self.coordinate = [Geokit::Geocoders::MultiGeocoder.geocode(street_and_house).lat, Geokit::Geocoders::MultiGeocoder.geocode(street_and_house).lng]
+			full_address = "#{self.city.name}, #{street_and_house}"
+			self.coordinate = [Geokit::Geocoders::MultiGeocoder.geocode(full_address).lat, Geokit::Geocoders::MultiGeocoder.geocode(full_address).lng]
 		end
 
 		def disable
