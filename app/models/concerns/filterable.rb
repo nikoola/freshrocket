@@ -11,6 +11,7 @@ module Filterable
 					results = results.public_send(:starts_with, value) # if value.present?					
 				else
 					results = results.public_send(key, value) # if value.present?
+				end
 				# User.active(true)
 			end
 			results
