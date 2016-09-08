@@ -20,11 +20,11 @@
       "request_path": "/admin/users/1/update_abilities",
       "request_body": "abilities[users]=1&abilities[products]=0&abilities[orders]=0&abilities[categories]=0",
       "request_headers": {
-        "Access-Token": "68NT2g1Q2ZgKSOMGByVMtA",
+        "Access-Token": "W4ti6C33ULRoEQDkF5AwlA",
         "Token-Type": "Bearer",
-        "Client": "p2k7SWQYHO9hGRoFl9cCAg",
-        "Expiry": "1474546712",
-        "Uid": "108carole@beckermarvin.io",
+        "Client": "0E8CHU7DJg8UwJeh_jQgWw",
+        "Expiry": "1474547815",
+        "Uid": "108ericka@gutmann.org",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -39,20 +39,20 @@
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
-        "access-token": "68NT2g1Q2ZgKSOMGByVMtA",
+        "access-token": "W4ti6C33ULRoEQDkF5AwlA",
         "token-type": "Bearer",
-        "client": "p2k7SWQYHO9hGRoFl9cCAg",
-        "expiry": "1474546712",
-        "uid": "108carole@beckermarvin.io",
+        "client": "0E8CHU7DJg8UwJeh_jQgWw",
+        "expiry": "1474547815",
+        "uid": "108ericka@gutmann.org",
         "Content-Type": "text/html",
         "Cache-Control": "no-cache",
-        "Set-Cookie": "_session_id=eUFVU2Jua3Z6dm4yQTVwY29Gd1pTZVd0VUZTYWl6SGlVclltcm9oNDRZcjNhdzVUTWRkeUxQTGhhNzdQeWt0K3diTEdlcThsTkpOTTRtTlJJVDlzaTIrQXJsQ3hSZ1JDNGtpZGo2QmNTWjlLY1RFZU1SZCtqdmlPL05mS0FySjJuV3c1aUswZFlXbjRXekFDZXd3VG8zOHZPbWszUE4wNktrTW5GdXF0c1N6TklsT3NwR3NDNmxzM3FneWJ2endxLS1WYnFhYTB2UFpMU3NGZFdkVUg0bkVnPT0%3D--71636b31fe92a45bada77231e7a10487aaaf55ec; path=/; HttpOnly",
-        "X-Request-Id": "9ba6b714-f815-48f2-a90b-095bf6052e63",
-        "X-Runtime": "0.117261",
+        "Set-Cookie": "_session_id=bXRxSGlSSlU5Z2piY1NwMVJLUTc0dmxxSEhzakVOSG0wNHhpZ0hIbFZDNG1nNFdEaCsvMDZRYitNN2ZONTNKVk03RUJsc2x3RzlZM0Q3Ym5nQUY0VzdKVCtta0RrT0lkNWlRSllvMWJUclBKcWpPdWg4VUZpNEl6RWpESDZHWUpLeUxwWTVDZ2tGL2hKU0RXVTFlajk0Vmt1N250K01GelNaY3VidEE3K3ZDUDRNMWxTbXpEc203djVmU1l2NWo5LS1MWU5ZSXZienI4Vjd3U213d01zTlNBPT0%3D--79e93f8d19746b862b2a7bd9013922c252da9960; path=/; HttpOnly",
+        "X-Request-Id": "9b58c0ae-e43b-4efc-8ce2-ea8391332979",
+        "X-Runtime": "0.132025",
         "Content-Length": "0"
       },
       "response_content_type": "text/html",
-      "curl": "curl \"http://localhost:3000/admin/users/1/update_abilities\" -d 'abilities[users]=1&abilities[products]=0&abilities[orders]=0&abilities[categories]=0' -X PUT \\\n\t-H \"Access-Token: 68NT2g1Q2ZgKSOMGByVMtA\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: p2k7SWQYHO9hGRoFl9cCAg\" \\\n\t-H \"Expiry: 1474546712\" \\\n\t-H \"Uid: 108carole@beckermarvin.io\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/admin/users/1/update_abilities\" -d 'abilities[users]=1&abilities[products]=0&abilities[orders]=0&abilities[categories]=0' -X PUT \\\n\t-H \"Access-Token: W4ti6C33ULRoEQDkF5AwlA\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: 0E8CHU7DJg8UwJeh_jQgWw\" \\\n\t-H \"Expiry: 1474547815\" \\\n\t-H \"Uid: 108ericka@gutmann.org\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

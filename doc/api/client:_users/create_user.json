@@ -47,13 +47,13 @@
     {
       "request_method": "POST",
       "request_path": "/auth",
-      "request_body": "email=162clement_kuphal%40romaguera.io&password=secrety_bickety&password_confirmation=secrety_bickety&first_name=Sylvia&last_name=Mohr&phone=5477682235",
+      "request_body": "email=162donato_hirthe%40strackebailey.co&password=secrety_bickety&password_confirmation=secrety_bickety&first_name=Delilah&last_name=Jacobson&phone=3288276751",
       "request_headers": {
-        "Access-Token": "NZ3VA3qBedyeQjo38WhNuQ",
+        "Access-Token": "2nfl6EByNfA_LIygq_vwxQ",
         "Token-Type": "Bearer",
-        "Client": "SATu6Xd2GMgRnrkrbhn9Bw",
-        "Expiry": "1474546912",
-        "Uid": "163chris.connelly@turner.name",
+        "Client": "RkEjooSiU-TAN8RJRkHBqQ",
+        "Expiry": "1474548065",
+        "Uid": "163julius@abshire.info",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -63,25 +63,25 @@
       "request_content_type": "application/x-www-form-urlencoded",
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\n  \"status\": \"success\",\n  \"data\": {\n    \"id\": 6,\n    \"first_name\": \"Sylvia\",\n    \"last_name\": \"Mohr\",\n    \"email\": \"162clement_kuphal@romaguera.io\",\n    \"provider\": \"email\",\n    \"uid\": \"162clement_kuphal@romaguera.io\",\n    \"phone\": \"5477682235\",\n    \"verification_code\": null,\n    \"is_verified\": false,\n    \"created_at\": \"2016-09-08T12:21:52.730Z\",\n    \"updated_at\": \"2016-09-08T12:21:52.805Z\",\n    \"how_did_you_hear_about_us\": null\n  }\n}",
+      "response_body": "{\n  \"status\": \"success\",\n  \"data\": {\n    \"id\": 6,\n    \"first_name\": \"Delilah\",\n    \"last_name\": \"Jacobson\",\n    \"email\": \"162donato_hirthe@strackebailey.co\",\n    \"provider\": \"email\",\n    \"uid\": \"162donato_hirthe@strackebailey.co\",\n    \"phone\": \"3288276751\",\n    \"verification_code\": null,\n    \"is_verified\": false,\n    \"created_at\": \"2016-09-08T12:41:05.795Z\",\n    \"updated_at\": \"2016-09-08T12:41:05.865Z\",\n    \"how_did_you_hear_about_us\": null\n  }\n}",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
-        "access-token": "aj3nwbN_Nt3EiEl1JUSGxw",
+        "access-token": "rJX1wLVuUR3VUyKdber6yA",
         "token-type": "Bearer",
-        "client": "uJJZAmNv6lCdun6cn4jUUA",
-        "expiry": "1474546912",
-        "uid": "162clement_kuphal@romaguera.io",
+        "client": "OWHRgBEX_BaBUJ1OGIEnbw",
+        "expiry": "1474548065",
+        "uid": "162donato_hirthe@strackebailey.co",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"efec48c814f8c8c10299e0510fc43ad8\"",
+        "ETag": "W/\"bdb7e2b9af8366b36e7ac0cf2979cbc0\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "X-Request-Id": "5ec52a72-318c-446b-882e-75c6222a372b",
-        "X-Runtime": "0.153926",
-        "Content-Length": "355"
+        "X-Request-Id": "80c09d34-daea-414b-ab3f-f9e69c3f9152",
+        "X-Runtime": "0.136941",
+        "Content-Length": "366"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/auth\" -d 'email=162clement_kuphal%40romaguera.io&password=secrety_bickety&password_confirmation=secrety_bickety&first_name=Sylvia&last_name=Mohr&phone=5477682235' -X POST \\\n\t-H \"Access-Token: NZ3VA3qBedyeQjo38WhNuQ\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: SATu6Xd2GMgRnrkrbhn9Bw\" \\\n\t-H \"Expiry: 1474546912\" \\\n\t-H \"Uid: 163chris.connelly@turner.name\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/auth\" -d 'email=162donato_hirthe%40strackebailey.co&password=secrety_bickety&password_confirmation=secrety_bickety&first_name=Delilah&last_name=Jacobson&phone=3288276751' -X POST \\\n\t-H \"Access-Token: 2nfl6EByNfA_LIygq_vwxQ\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: RkEjooSiU-TAN8RJRkHBqQ\" \\\n\t-H \"Expiry: 1474548065\" \\\n\t-H \"Uid: 163julius@abshire.info\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

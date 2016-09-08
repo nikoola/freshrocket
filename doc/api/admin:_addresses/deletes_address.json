@@ -16,11 +16,11 @@
       "request_path": "/admin/addresses/1",
       "request_body": null,
       "request_headers": {
-        "Access-Token": "qrDQVYIEh1ZFq8xqaX8Ggw",
+        "Access-Token": "ms9SMvCm50PSpxvF3Q102Q",
         "Token-Type": "Bearer",
-        "Client": "o6YHKr0pJ7ykUVuPoKU2NQ",
-        "Expiry": "1474546521",
-        "Uid": "4libby.mueller@marquardt.co",
+        "Client": "R7l77xNtrdR_DeD_MCn4zg",
+        "Expiry": "1474547640",
+        "Uid": "4linwood.vonrueden@farrell.org",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -35,20 +35,20 @@
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
-        "access-token": "qrDQVYIEh1ZFq8xqaX8Ggw",
+        "access-token": "ms9SMvCm50PSpxvF3Q102Q",
         "token-type": "Bearer",
-        "client": "o6YHKr0pJ7ykUVuPoKU2NQ",
-        "expiry": "1474546521",
-        "uid": "4libby.mueller@marquardt.co",
+        "client": "R7l77xNtrdR_DeD_MCn4zg",
+        "expiry": "1474547640",
+        "uid": "4linwood.vonrueden@farrell.org",
         "Content-Type": "text/html",
         "Cache-Control": "no-cache",
-        "Set-Cookie": "_session_id=UGVhVGpIMkdVcnZnQmJpMjBWYVVYcFJmczNDQ2xUNDdQOUR2ZEJuUFl6cFdpa0NLdXpxRHpDK0dCcXNjcGpGSi9ETDc5YnhZQmJLUG9oVlJRYlovZjNEaC85d1lSUUMxY3VRYmVQdmJKSzNlam13RE5RelJtejhPYS9NRDZpM0FnVnRqbU4rcUxUMFlPN2ZISEs2V1J0NWlpZVVkcE5MdDRiNUV1dHJ4UHZFRms5YWU5RzZzcDI0cVY2RXZoSUROLS0vNHdsSm1nZ2JpdHVnK0FqNDFoM0dBPT0%3D--c7f4eea321d03d3bb74533f77d548dc64107bb14; path=/; HttpOnly",
-        "X-Request-Id": "181d8b4b-1e8b-4a5f-bf5a-b8f380bb7535",
-        "X-Runtime": "0.146672",
+        "Set-Cookie": "_session_id=cXJuMFV5VGllVkwyb3Arc05yUGV2SHhpNkZtZi8yellhZDVzSmQ2Uit2dGpXWk5oREcwTnVVS09DVEluQ0pHcVJFUVJjeGJ6Si9PMnlqWEYzbTZ2VVZsbk5UYWZ6MzljemNjWFUzbDB3dlNZTEhPUUJGekhiSDBHaG1LT0l1U3JSRXk1REx0MkNXak1PTFZXeTdIYUdjYmFRSXNnRU9LU050WTFQaU1yYjd0Tno1NmcxZmxBMk5vU1N3ODQ0cWptLS0zR0tpbUxXamZma2UrUHpyVGFPaWp3PT0%3D--9db3121bf33e3717f08f5350e70d818f471576dc; path=/; HttpOnly",
+        "X-Request-Id": "77558ac5-1114-4dae-a1be-1eb101e6d740",
+        "X-Runtime": "0.157447",
         "Content-Length": "0"
       },
       "response_content_type": "text/html",
-      "curl": "curl \"http://localhost:3000/admin/addresses/1\" -d '' -X DELETE \\\n\t-H \"Access-Token: qrDQVYIEh1ZFq8xqaX8Ggw\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: o6YHKr0pJ7ykUVuPoKU2NQ\" \\\n\t-H \"Expiry: 1474546521\" \\\n\t-H \"Uid: 4libby.mueller@marquardt.co\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/admin/addresses/1\" -d '' -X DELETE \\\n\t-H \"Access-Token: ms9SMvCm50PSpxvF3Q102Q\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: R7l77xNtrdR_DeD_MCn4zg\" \\\n\t-H \"Expiry: 1474547640\" \\\n\t-H \"Uid: 4linwood.vonrueden@farrell.org\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

@@ -19,11 +19,11 @@
       "request_path": "/client/verify",
       "request_body": "verification_code",
       "request_headers": {
-        "Access-Token": "KJPLoEwvYTQj-TyPRMKsIw",
+        "Access-Token": "hZi4lBTj_5oad0LInS6KdA",
         "Token-Type": "Bearer",
-        "Client": "Z2JP9Y6fM0ZeZu9MzrjgjQ",
-        "Expiry": "1474546913",
-        "Uid": "171pat_feeney@grahamfarrell.biz",
+        "Client": "yhmeueApDc0rfdcDHYERIw",
+        "Expiry": "1474548066",
+        "Uid": "171leonard.grady@brekkecollins.name",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -38,20 +38,20 @@
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
-        "access-token": "KJPLoEwvYTQj-TyPRMKsIw",
+        "access-token": "hZi4lBTj_5oad0LInS6KdA",
         "token-type": "Bearer",
-        "client": "Z2JP9Y6fM0ZeZu9MzrjgjQ",
-        "expiry": "1474546913",
-        "uid": "171pat_feeney@grahamfarrell.biz",
+        "client": "yhmeueApDc0rfdcDHYERIw",
+        "expiry": "1474548066",
+        "uid": "171leonard.grady@brekkecollins.name",
         "Content-Type": "text/html",
         "Cache-Control": "no-cache",
-        "Set-Cookie": "_session_id=K0MreUR4SHd2TG5oTzZKRFI4alRzTHJpajhJZTFKcUk4VEVHNk1PbXFEQVd1U2krbWRHTFI2SFpPRkRnQS8wWnVCeW12Z3NwSjFzYUthRjA2MHJ4dlNHeXZ2aUJJcXNWSit4VVR6ZkdvZHdNaE44MVgvWWh6ZW1rWExPalBwRXVGbllTZnRtazJ5anB1SElNNVJRZGR4VmJFWk9qVDVSaTAwZHBTbG5lbHN4QjI3enU1MThiWGxENDVONFRkOUkyLS1aS2trN0NlNHY5U3krRDBOeFZnQ2JBPT0%3D--7e574b749141aecf605caf54b6e12970a4d59ccb; path=/; HttpOnly",
-        "X-Request-Id": "ee72fda6-0cdf-4455-ba74-1490870fc386",
-        "X-Runtime": "0.076283",
+        "Set-Cookie": "_session_id=c0lvTXp3OVNEMFI2ZGw4YlBlVWZYUTlyZ0xPVTAyUEJzSDQzSmhQTm41dmc1Q0Y1MGVsVXpKcjdOWEx6SSswSGFndy8rN2lST2ZIRVhHNkdaUHhXSkZaQ2NnN3g3VXpUa3l1TzhWWlQ0NkIrcUlielgycThOYUxCa2U2Mk1SbDhTRkFZRFV1Q1N6cU9rZFhZcVRGUGpMVnN4eUZzS0VKMDFoTVdrcmpQcDU0SFV0SzVVQUhWaDNHZjBBbmh2R1ptLS1ZZzdPUVlVUUlyaytOY1pzMXo1OEZRPT0%3D--cd513e8a12fc5e2bd42dfd7ad6b8ad550cdd6f5e; path=/; HttpOnly",
+        "X-Request-Id": "b26edbc4-f503-41f1-99c9-745d1a334171",
+        "X-Runtime": "0.236555",
         "Content-Length": "0"
       },
       "response_content_type": "text/html",
-      "curl": "curl \"http://localhost:3000/client/verify\" -d 'verification_code' -X PUT \\\n\t-H \"Access-Token: KJPLoEwvYTQj-TyPRMKsIw\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: Z2JP9Y6fM0ZeZu9MzrjgjQ\" \\\n\t-H \"Expiry: 1474546913\" \\\n\t-H \"Uid: 171pat_feeney@grahamfarrell.biz\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/client/verify\" -d 'verification_code' -X PUT \\\n\t-H \"Access-Token: hZi4lBTj_5oad0LInS6KdA\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: yhmeueApDc0rfdcDHYERIw\" \\\n\t-H \"Expiry: 1474548066\" \\\n\t-H \"Uid: 171leonard.grady@brekkecollins.name\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

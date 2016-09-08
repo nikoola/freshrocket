@@ -51,11 +51,11 @@
       "request_path": "/admin/addresses",
       "request_body": "address[id]&address[user_id]=1&address[city_id]=3&address[area_id]=1&address[street_and_house]=Hazrataganj+Crossing+Bus+Stop%2C+Ashok+Marg%2C+Hazratganj%2C+Lucknow%2C+Uttar+Pradesh+226001%2C+India&address[door_number]=5&address[coordinate]&address[zip_code]&address[lat]=26.8469631&address[lng]=80.9462034&address[active]=true&address[stringified_coordinate]=%5B26.8469631%2C80.9462034%5D",
       "request_headers": {
-        "Access-Token": "IUTmZhbhnJW_gnehbALx5Q",
+        "Access-Token": "BppGUNa_wNMqvLphP2_0og",
         "Token-Type": "Bearer",
-        "Client": "YgOdwjgID9s-Q0DHv4Zhrw",
-        "Expiry": "1474546506",
-        "Uid": "2santina_kulas@dickenskovacek.info",
+        "Client": "Hh3b3CNa37Pkhp3cL6s8rQ",
+        "Expiry": "1474547626",
+        "Uid": "2lorena.ohara@brown.biz",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -70,21 +70,21 @@
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
-        "access-token": "IUTmZhbhnJW_gnehbALx5Q",
+        "access-token": "BppGUNa_wNMqvLphP2_0og",
         "token-type": "Bearer",
-        "client": "YgOdwjgID9s-Q0DHv4Zhrw",
-        "expiry": "1474546506",
-        "uid": "2santina_kulas@dickenskovacek.info",
+        "client": "Hh3b3CNa37Pkhp3cL6s8rQ",
+        "expiry": "1474547626",
+        "uid": "2lorena.ohara@brown.biz",
         "Content-Type": "application/json; charset=utf-8",
         "ETag": "W/\"67401bd522e72e311dc5f2a1c8b99e61\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=U01KZEdCeGI1NWpRK0krMCsrVExHZTN2cjZXUjN6ejV4dlJzK2ZtU2FVeklLbjQ1Skx4d1MyUmN0djF5cDdDYjNKYk1zWjVKdXB5Y3VHWWU1UnYzcmZjejNFV2pEVkVkRWtRUmZUejF3U3FuVGRzOWd6cnZ0YVE4eHJyY041YVB1ZmpIU1Vqc2FTVlRaWGhxTWxkTU5QK3krOEJxZ3IxV2Zod0UxK3lNd0pDczFMdGZCUFo2N2hUd1duV2l0bElGLS0xMnJPdG1XTzZnSVZQc0JwM0UycE13PT0%3D--dbf9e9e63e49d1dbed284a05d44f3bd08dbe6207; path=/; HttpOnly",
-        "X-Request-Id": "94d8e8e4-0cba-484a-89d0-b19c8a7b8b46",
-        "X-Runtime": "0.107597",
+        "Set-Cookie": "_session_id=WThnWkxNVXhOT3JPN3lsSy92cllYWkYrOUVPWGF0OWl0ZC80S0VJQ1haQTVmMzlpZklaNTVDVk9TOStFWUJaSnM2T3hPdjFlYU1MQVhxQi9EUHo5OVVFVitibVlhQWFjMXFuR0w1NFVIOG1CcHVXQjRKTVRRcE9KWXYyZi9JVUd4anRCUTd0Q3FPZHhZU0FPVkJmMzl3anJGblplK0dtRzhURzIvd29JTFhKc2I3QlNYVkNLZExjRW85M2lENjZYLS1PTG5xQzhLRjMwNXFUYmVhSnlnSE5BPT0%3D--4474ab92bca8a16ece1196a0f161ed99b7a056dc; path=/; HttpOnly",
+        "X-Request-Id": "e9e17cdf-ccca-4587-a6a9-865ff1153b43",
+        "X-Runtime": "0.085444",
         "Content-Length": "199"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/admin/addresses\" -d 'address[id]&address[user_id]=1&address[city_id]=3&address[area_id]=1&address[street_and_house]=Hazrataganj+Crossing+Bus+Stop%2C+Ashok+Marg%2C+Hazratganj%2C+Lucknow%2C+Uttar+Pradesh+226001%2C+India&address[door_number]=5&address[coordinate]&address[zip_code]&address[lat]=26.8469631&address[lng]=80.9462034&address[active]=true&address[stringified_coordinate]=%5B26.8469631%2C80.9462034%5D' -X POST \\\n\t-H \"Access-Token: IUTmZhbhnJW_gnehbALx5Q\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: YgOdwjgID9s-Q0DHv4Zhrw\" \\\n\t-H \"Expiry: 1474546506\" \\\n\t-H \"Uid: 2santina_kulas@dickenskovacek.info\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/admin/addresses\" -d 'address[id]&address[user_id]=1&address[city_id]=3&address[area_id]=1&address[street_and_house]=Hazrataganj+Crossing+Bus+Stop%2C+Ashok+Marg%2C+Hazratganj%2C+Lucknow%2C+Uttar+Pradesh+226001%2C+India&address[door_number]=5&address[coordinate]&address[zip_code]&address[lat]=26.8469631&address[lng]=80.9462034&address[active]=true&address[stringified_coordinate]=%5B26.8469631%2C80.9462034%5D' -X POST \\\n\t-H \"Access-Token: BppGUNa_wNMqvLphP2_0og\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: Hh3b3CNa37Pkhp3cL6s8rQ\" \\\n\t-H \"Expiry: 1474547626\" \\\n\t-H \"Uid: 2lorena.ohara@brown.biz\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

@@ -14,13 +14,13 @@
     {
       "request_method": "POST",
       "request_path": "/client/orders/precalculate_price",
-      "request_body": "order[line_items_attributes][][product_id]=10&order[line_items_attributes][][amount]=1000&order[coupon_code]=47817",
+      "request_body": "order[line_items_attributes][][product_id]=10&order[line_items_attributes][][amount]=1000&order[coupon_code]=33197",
       "request_headers": {
-        "Access-Token": "pNM3ZyHx871jw6sz-PC1gA",
+        "Access-Token": "wTf9mbO13j4SikLHRU1huA",
         "Token-Type": "Bearer",
-        "Client": "FNBXUxXVJbgcF6bGEnyoSQ",
-        "Expiry": "1474546905",
-        "Uid": "157antone@casperkoepp.name",
+        "Client": "qz2e0mKMiuadvvicizGrxg",
+        "Expiry": "1474548058",
+        "Uid": "157creola@runtefisher.co",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -30,26 +30,26 @@
       "request_content_type": "application/x-www-form-urlencoded",
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\n  \"pure_product_price\": \"3000.0\",\n  \"tax\": \"150.0\",\n  \"delivery_charge\": 0,\n  \"coupon_discount\": 79,\n  \"total_price\": \"3071.0\"\n}",
+      "response_body": "{\n  \"pure_product_price\": \"3000.0\",\n  \"tax\": \"150.0\",\n  \"delivery_charge\": 0,\n  \"coupon_discount\": 29,\n  \"total_price\": \"3121.0\"\n}",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
-        "access-token": "pNM3ZyHx871jw6sz-PC1gA",
+        "access-token": "wTf9mbO13j4SikLHRU1huA",
         "token-type": "Bearer",
-        "client": "FNBXUxXVJbgcF6bGEnyoSQ",
-        "expiry": "1474546905",
-        "uid": "157antone@casperkoepp.name",
+        "client": "qz2e0mKMiuadvvicizGrxg",
+        "expiry": "1474548058",
+        "uid": "157creola@runtefisher.co",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"c2361c5e9778da9b607a487005966486\"",
+        "ETag": "W/\"462a2bddd283c28e5e6c9c14ce2b8a6e\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=d2NWN2h3U1ZEVHJxdEVHV2pNZy90OCtFQTdVdEdnbjVQVHkxRXlSbkwxT1RXSnlkMTltaVlVNHQ2S2k3VHlTVFF0NUZ0aGd5WWVhaUh3S1lZYnVGSU4vQWJPTDU5WHNXQURaV0ZSNm5XU1lEYnlUWStYeW9sT3dQeHg0d3VZRzJFNUhxNkt2VHZHemY4WGdtdjY0eWtVYnVUbnVtL3BzVGtFaUR0MFhhN3d4Y2xTSXNBM0xrQUpBanphWllIeHhaLS1Wc0xNS1REUERXS0owclE2RGUrUjFnPT0%3D--8326aa6df74ee7d740c36c49d338f018eb34f07b; path=/; HttpOnly",
-        "X-Request-Id": "1e6d7732-354d-4b37-b492-3c6af4883025",
-        "X-Runtime": "0.117321",
+        "Set-Cookie": "_session_id=RG1lbmp0WDNTQld6WHRGODJCR1BjYktPbnc1QytRaHJOSlVhejBqV1VibENKZ2paajduUnhSZG9xY0JGbFVXWDNjRVY1bE9GZzdNNWtoaEl0MDBwWHpQc2RnOWxvUVF0VHY2aGRpSUJMbGNYa3FuOVpiQS84OUZBQzkrVlgrNlR5RFpsdTVISGcxS3pHTEhIbVRYR0dab2hGSFF6SmRUTHQ3SUJjNVBGZ3pDU0lJRHZJOTdXSFN3QmtZS1VCS3dkLS1GWFJobER3YWs5cGFGL1JEc3ZiRkV3PT0%3D--e23551e4671dc1b1ec8f6c4aa9fe391e2a4dd1f3; path=/; HttpOnly",
+        "X-Request-Id": "de960181-6428-4b0d-8520-fa60e0a15a9f",
+        "X-Runtime": "0.090998",
         "Content-Length": "109"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/client/orders/precalculate_price\" -d 'order[line_items_attributes][][product_id]=10&order[line_items_attributes][][amount]=1000&order[coupon_code]=47817' -X POST \\\n\t-H \"Access-Token: pNM3ZyHx871jw6sz-PC1gA\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: FNBXUxXVJbgcF6bGEnyoSQ\" \\\n\t-H \"Expiry: 1474546905\" \\\n\t-H \"Uid: 157antone@casperkoepp.name\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/client/orders/precalculate_price\" -d 'order[line_items_attributes][][product_id]=10&order[line_items_attributes][][amount]=1000&order[coupon_code]=33197' -X POST \\\n\t-H \"Access-Token: wTf9mbO13j4SikLHRU1huA\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: qz2e0mKMiuadvvicizGrxg\" \\\n\t-H \"Expiry: 1474548058\" \\\n\t-H \"Uid: 157creola@runtefisher.co\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

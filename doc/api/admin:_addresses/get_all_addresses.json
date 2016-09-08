@@ -19,11 +19,11 @@
       "request_path": "/admin/addresses?active=0",
       "request_body": null,
       "request_headers": {
-        "Access-Token": "7WgP8icmi01JxsGaPaPPig",
+        "Access-Token": "ecezJTThAtqS_5kQfCPokw",
         "Token-Type": "Bearer",
-        "Client": "_wKqVDu8QYHuqTbiMeQx1g",
-        "Expiry": "1474546497",
-        "Uid": "1megane@spencer.com",
+        "Client": "6UMi4yZ_jSI7hqYs-Oh8Yg",
+        "Expiry": "1474547617",
+        "Uid": "1joannie@okeefe.net",
         "Host": "example.org",
         "Cookie": ""
       },
@@ -38,21 +38,21 @@
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
-        "access-token": "7WgP8icmi01JxsGaPaPPig",
+        "access-token": "ecezJTThAtqS_5kQfCPokw",
         "token-type": "Bearer",
-        "client": "_wKqVDu8QYHuqTbiMeQx1g",
-        "expiry": "1474546497",
-        "uid": "1megane@spencer.com",
+        "client": "6UMi4yZ_jSI7hqYs-Oh8Yg",
+        "expiry": "1474547617",
+        "uid": "1joannie@okeefe.net",
         "Content-Type": "application/json; charset=utf-8",
         "ETag": "W/\"d8ee08754f36462f7214141e94c27b08\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=SHhKVmhlUG10NFRob3dOTWJGSDA3dUttTDNtYjFkZk4rOWE0MUNXUTBzMFlPZElIZ05DbjU5UkFGeGFzb2pndU5GOFBWVTJueFdaTHlBYk5jdlhmU0xEekJzUjhvdlplMHJIRHF2TXpmdXE2MDJ5RUNiRE8rc2lpbCtjeUxGZTBCNVBlcVFaU3ozQ0tqUHplSWNyaWh2V1p1Qk9aam84K0QxOW9lZkxlOVRKUmVtK3ZQRDdNNVRCZDFnaUNtM2QwLS1EZkhaUUtjNldpNWxvUlUrOHlhb1JnPT0%3D--5a2eedd4b2faa4819cee02f833260c3e79ec6976; path=/; HttpOnly",
-        "X-Request-Id": "a0757651-86c6-4832-b88d-bcc8a9aba625",
-        "X-Runtime": "0.253791",
+        "Set-Cookie": "_session_id=VTVBNTUvZGNHN29BdkVEM3hDOUZzK0s4Qm5GSTJaWm10cGRHMTdFT1hoLzdsVDJRK0RSQ2FmQ1RPWXd2NllEWTIwYjNSUkdJS1BVenVTYWttSWdCVzZNSmQ5dERIejFFWlBNUEZNMlozczlVa3R6RWZIRUdBV2JqNXEzdDNPMjloVUQyQmxKb21JUEpvMm9ITjV4ZUNVSHIxN3NSM2FSTG84bWMwL0pLU2VYZTMxSUZTaWFZRlRvUW1ZUENJeVEzLS1sNG5ETmtBR1VWUFdaRWQ2Zi9mWURBPT0%3D--fc90193a60b68d54c5182ced3c53c466c6f43e53; path=/; HttpOnly",
+        "X-Request-Id": "a7c28136-4470-4f09-b143-31f2f6582136",
+        "X-Runtime": "0.204647",
         "Content-Length": "594"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/admin/addresses?active=0\" -X GET \\\n\t-H \"Access-Token: 7WgP8icmi01JxsGaPaPPig\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: _wKqVDu8QYHuqTbiMeQx1g\" \\\n\t-H \"Expiry: 1474546497\" \\\n\t-H \"Uid: 1megane@spencer.com\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/admin/addresses?active=0\" -X GET \\\n\t-H \"Access-Token: ecezJTThAtqS_5kQfCPokw\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: 6UMi4yZ_jSI7hqYs-Oh8Yg\" \\\n\t-H \"Expiry: 1474547617\" \\\n\t-H \"Uid: 1joannie@okeefe.net\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

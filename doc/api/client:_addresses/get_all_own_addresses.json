@@ -1,0 +1,58 @@
+{
+  "resource": "client: addresses",
+  "http_method": "GET",
+  "route": "/client/addresses",
+  "description": "get all own addresses",
+  "explanation": null,
+  "parameters": [
+    {
+      "name": "active",
+      "description": "0/1. is inactive if user tried to delete order, but it was already mentioned in any orders"
+    }
+  ],
+  "response_fields": [
+
+  ],
+  "requests": [
+    {
+      "request_method": "GET",
+      "request_path": "/client/addresses?active=0",
+      "request_body": null,
+      "request_headers": {
+        "Access-Token": "HWw2kdz7nvfgcLMa9zWLGw",
+        "Token-Type": "Bearer",
+        "Client": "Jq2a_n1UiiFYM_ZahT6Clg",
+        "Expiry": "1474547870",
+        "Uid": "116ozella.ondricka@ryansauer.net",
+        "Host": "example.org",
+        "Cookie": ""
+      },
+      "request_query_parameters": {
+        "active": "0"
+      },
+      "request_content_type": null,
+      "response_status": 200,
+      "response_status_text": "OK",
+      "response_body": "[\n  {\n    \"id\": 1,\n    \"city_id\": 3,\n    \"user_id\": 1,\n    \"street_and_house\": \"Andhra Pradesh 516001, India\",\n    \"door_number\": \"5\",\n    \"active\": false,\n    \"city_name\": \"Kadapa\"\n  },\n  {\n    \"id\": 2,\n    \"city_id\": 4,\n    \"user_id\": 1,\n    \"street_and_house\": \"Telangana 505208, India\",\n    \"door_number\": \"5\",\n    \"active\": false,\n    \"city_name\": \"Ramagundam\"\n  },\n  {\n    \"id\": 3,\n    \"city_id\": 5,\n    \"user_id\": 1,\n    \"street_and_house\": \"Rajasthan 306401, India\",\n    \"door_number\": \"5\",\n    \"active\": false,\n    \"city_name\": \"Pali\"\n  }\n]",
+      "response_headers": {
+        "X-Frame-Options": "SAMEORIGIN",
+        "X-XSS-Protection": "1; mode=block",
+        "X-Content-Type-Options": "nosniff",
+        "access-token": "HWw2kdz7nvfgcLMa9zWLGw",
+        "token-type": "Bearer",
+        "client": "Jq2a_n1UiiFYM_ZahT6Clg",
+        "expiry": "1474547870",
+        "uid": "116ozella.ondricka@ryansauer.net",
+        "Content-Type": "application/json; charset=utf-8",
+        "ETag": "W/\"46dc34d0e3574f974f82693a15d0f125\"",
+        "Cache-Control": "max-age=0, private, must-revalidate",
+        "Set-Cookie": "_session_id=WE1VOTVTZE1OQlQwZTlRcTF5V29jaVZxSnUzSm8rTzAzYUVFS1FudExwWFlUcFBUZnppTmloam5RUEw0eklscUNEekF2WDNoY0dNUmhoaEhOWEV3VzFYK0lZbG1iWHpUaU51ekNaeVRHQ1cyVHNheUsvdmRZSG1WM2ZWZHh0TExQVzI5MDgwRWU3b1NpSGxHODQ3dFpvQjU5Q0RoMjcwR0tDN2JNTUxPRTVrVzdLWVoxRmdIaXJ3TG13dHJRM0RZLS1JSGJkcnU3L0hVUUJTOGZTMmo5Q0tBPT0%3D--c4551ccebb0855bf2478612994b9e3db74a2f8fc; path=/; HttpOnly",
+        "X-Request-Id": "f478270a-2595-4924-b30c-09625a501497",
+        "X-Runtime": "0.161782",
+        "Content-Length": "404"
+      },
+      "response_content_type": "application/json; charset=utf-8",
+      "curl": "curl \"http://localhost:3000/client/addresses?active=0\" -X GET \\\n\t-H \"Access-Token: HWw2kdz7nvfgcLMa9zWLGw\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: Jq2a_n1UiiFYM_ZahT6Clg\" \\\n\t-H \"Expiry: 1474547870\" \\\n\t-H \"Uid: 116ozella.ondricka@ryansauer.net\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
+    }
+  ]
+}

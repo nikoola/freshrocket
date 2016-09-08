@@ -30,11 +30,11 @@
       "request_path": "/admin/coupons/1",
       "request_body": "coupon[name]=green",
       "request_headers": {
-        "Access-Token": "-KzDtmiZwokoS_LMggWvkg",
+        "Access-Token": "9Al7c7VriF6Qq13RxEGrFw",
         "Token-Type": "Bearer",
-        "Client": "z0VsPXcwP3R_pHBhTgWYgg",
-        "Expiry": "1474546553",
-        "Uid": "19joan@pagacfeest.co",
+        "Client": "_iK8lO-LtvzjFjsblGx6MA",
+        "Expiry": "1474547671",
+        "Uid": "19joan@stoltenberg.info",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -44,26 +44,26 @@
       "request_content_type": "application/x-www-form-urlencoded",
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\n  \"id\": 1,\n  \"name\": \"green\",\n  \"code\": \"83285\",\n  \"discount\": 16\n}",
+      "response_body": "{\n  \"id\": 1,\n  \"name\": \"green\",\n  \"code\": \"27755\",\n  \"discount\": 60\n}",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
-        "access-token": "-KzDtmiZwokoS_LMggWvkg",
+        "access-token": "9Al7c7VriF6Qq13RxEGrFw",
         "token-type": "Bearer",
-        "client": "z0VsPXcwP3R_pHBhTgWYgg",
-        "expiry": "1474546553",
-        "uid": "19joan@pagacfeest.co",
+        "client": "_iK8lO-LtvzjFjsblGx6MA",
+        "expiry": "1474547671",
+        "uid": "19joan@stoltenberg.info",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"92c46c382d141d11fc9a65df37c10058\"",
+        "ETag": "W/\"a1776a909f9e8549066bab5416ab7966\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=dmJBQlhnQWNLdXp2bkh4VU9sTWF6dFU4R0J3MlRWWXAxYUpzRy9SWVZ3V1A3VS84OGJBTlNTV3hoV29uNTRNQXh3TDRGTkl5Tkh0SjZ5c1pXRTNOUUU5eVNuQTdmS1dZMjNhdHBCQVVOQldrRXNXOWpaU3NlSThnVGZsODZYMk90dFdrc1cvZFdyT2dkTERoSlAzQXZYRE5sVkpMY1RuaUpzWmVlU1laK204V2poSldJNU9xRzB3aWxhbzFmajdlLS10M1ljUXVzMTFrbkxRc0t0L0U3ajZnPT0%3D--fa4d269434f1eb29c9c199eacbf0cf8f61735f57; path=/; HttpOnly",
-        "X-Request-Id": "90428118-896a-46ca-a5e2-a6f80e53f1fb",
-        "X-Runtime": "0.081339",
+        "Set-Cookie": "_session_id=aWtNQjduK3ZFTlJvOTdsWk00UUcyYXNoK0kvM1JsUHl4b1JXekI3YXZGOE1QVjRFU3V2SmtaQXhRM1hyTnNacE5CSUdmRkU0ZVFtMTJ3enBpTkRPMFdFSUl1T3VzOUd1K2xZeUNTMk1tQlZLV3hKZGlESkhFRDErRVRLMmxpZVMvOVJYcVRieUN4RGNKV0wwVmdWTVVBVE1aemtlNnp4UHZPSy9ya3Q0ZGtNSVRqcDZ0ZXR1dCtmQVg1VllZdmlELS1SZ0kyVE5BK0FzTGxkb2MrNHFvVjVRPT0%3D--a002c91fb11d76bb05955f107418155bc8191685; path=/; HttpOnly",
+        "X-Request-Id": "caaeec35-d646-47b8-ae86-dc5f610c804f",
+        "X-Runtime": "0.087117",
         "Content-Length": "52"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/admin/coupons/1\" -d 'coupon[name]=green' -X PUT \\\n\t-H \"Access-Token: -KzDtmiZwokoS_LMggWvkg\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: z0VsPXcwP3R_pHBhTgWYgg\" \\\n\t-H \"Expiry: 1474546553\" \\\n\t-H \"Uid: 19joan@pagacfeest.co\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/admin/coupons/1\" -d 'coupon[name]=green' -X PUT \\\n\t-H \"Access-Token: 9Al7c7VriF6Qq13RxEGrFw\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: _iK8lO-LtvzjFjsblGx6MA\" \\\n\t-H \"Expiry: 1474547671\" \\\n\t-H \"Uid: 19joan@stoltenberg.info\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

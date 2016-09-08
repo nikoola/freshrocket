@@ -82,11 +82,25 @@
       "name": "admin: cities",
       "examples": [
         {
+          "description": "create city",
+          "link": "admin:_cities/create_city.json",
+          "groups": "all",
+          "route": "/admin/cities",
+          "method": "post"
+        },
+        {
           "description": "delete city",
           "link": "admin:_cities/delete_city.json",
           "groups": "all",
           "route": "/admin/cities/:id",
           "method": "delete"
+        },
+        {
+          "description": "update city",
+          "link": "admin:_cities/update_city.json",
+          "groups": "all",
+          "route": "/admin/cities/:id",
+          "method": "put"
         }
       ]
     },
@@ -266,6 +280,25 @@
       ]
     },
     {
+      "name": "cities",
+      "examples": [
+        {
+          "description": "get all cities",
+          "link": "cities/get_all_cities.json",
+          "groups": "all",
+          "route": "/cities",
+          "method": "get"
+        },
+        {
+          "description": "get city",
+          "link": "cities/get_city.json",
+          "groups": "all",
+          "route": "/cities/:id",
+          "method": "get"
+        }
+      ]
+    },
+    {
       "name": "client: addresses",
       "examples": [
         {
@@ -281,6 +314,13 @@
           "groups": "all",
           "route": "/client/addresses/:id",
           "method": "delete"
+        },
+        {
+          "description": "get all own addresses",
+          "link": "client:_addresses/get_all_own_addresses.json",
+          "groups": "all",
+          "route": "/client/addresses",
+          "method": "get"
         }
       ]
     },

@@ -67,13 +67,13 @@
     {
       "request_method": "POST",
       "request_path": "client/orders",
-      "request_body": "order[address_id]=4&order[line_items_attributes][][product_id]=10&order[line_items_attributes][][amount]=1000&order[delivery_attributes][wanted_date]=2016-09-08+14%3A20%3A29+%2B0200",
+      "request_body": "order[address_id]=4&order[line_items_attributes][][product_id]=10&order[line_items_attributes][][amount]=1000&order[delivery_attributes][wanted_date]=2016-09-08+14%3A39%3A01+%2B0200",
       "request_headers": {
-        "Access-Token": "FuBNfo0UBhGzrBSa30dTcA",
+        "Access-Token": "tUmGp2QhBGpcM0gF4aeGNw",
         "Token-Type": "Bearer",
-        "Client": "-nkc5hkOXs6bg5sr3JjMkw",
-        "Expiry": "1474546829",
-        "Uid": "134dayna@volkmanstokes.org",
+        "Client": "eeQMnawD3GMZ_ebdwgWbaA",
+        "Expiry": "1474547941",
+        "Uid": "134amya_murphy@satterfield.org",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -83,27 +83,27 @@
       "request_content_type": "application/x-www-form-urlencoded",
       "response_status": 201,
       "response_status_text": "Created",
-      "response_body": "{\n  \"id\": 4,\n  \"user_id\": 5,\n  \"status\": \"unconfirmed\",\n  \"created_at\": \"2016-09-08T12:20:29.714Z\",\n  \"confirmed_at\": null,\n  \"approved_at\": null,\n  \"dispacthed_at\": null,\n  \"delivered_at\": null,\n  \"canceled_at\": null,\n  \"pure_product_price\": \"3000.0\",\n  \"tax\": \"150.0\",\n  \"delivery_charge\": \"0.0\",\n  \"total_price\": \"3150.0\",\n  \"coupon_code\": null,\n  \"delivery_boy_id\": null,\n  \"delivery_boy_phone\": null,\n  \"wanted_time\": null,\n  \"wanted_date\": null,\n  \"payment_type\": \"cash\",\n  \"is_paid\": false,\n  \"feedback\": null,\n  \"comment\": null,\n  \"source_type\": null,\n  \"admin_comment\": null,\n  \"line_items\": [\n    {\n      \"id\": 10,\n      \"order_id\": 4,\n      \"amount\": 1000,\n      \"fixed_price\": \"3000.0\",\n      \"product_id\": 10\n    }\n  ],\n  \"address\": {\n    \"id\": 4,\n    \"city_id\": 17,\n    \"user_id\": 7,\n    \"street_and_house\": \"West Bengal 712101, India\",\n    \"door_number\": \"5\",\n    \"active\": true,\n    \"city_name\": \"Hugli-Chinsurah\"\n  },\n  \"delivery_boy\": null\n}",
+      "response_body": "{\n  \"id\": 4,\n  \"user_id\": 5,\n  \"status\": \"unconfirmed\",\n  \"created_at\": \"2016-09-08T12:39:01.457Z\",\n  \"confirmed_at\": null,\n  \"approved_at\": null,\n  \"dispacthed_at\": null,\n  \"delivered_at\": null,\n  \"canceled_at\": null,\n  \"pure_product_price\": \"3000.0\",\n  \"tax\": \"150.0\",\n  \"delivery_charge\": \"0.0\",\n  \"total_price\": \"3150.0\",\n  \"coupon_code\": null,\n  \"delivery_boy_id\": null,\n  \"delivery_boy_phone\": null,\n  \"wanted_time\": null,\n  \"wanted_date\": null,\n  \"payment_type\": \"cash\",\n  \"is_paid\": false,\n  \"feedback\": null,\n  \"comment\": null,\n  \"source_type\": null,\n  \"admin_comment\": null,\n  \"line_items\": [\n    {\n      \"id\": 10,\n      \"order_id\": 4,\n      \"amount\": 1000,\n      \"fixed_price\": \"3000.0\",\n      \"product_id\": 10\n    }\n  ],\n  \"address\": {\n    \"id\": 4,\n    \"city_id\": 17,\n    \"user_id\": 7,\n    \"street_and_house\": \"West Bengal 712101, India\",\n    \"door_number\": \"5\",\n    \"active\": true,\n    \"city_name\": \"Hugli-Chinsurah\"\n  },\n  \"delivery_boy\": null\n}",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
         "Location": "/client/orders/4",
-        "access-token": "FuBNfo0UBhGzrBSa30dTcA",
+        "access-token": "tUmGp2QhBGpcM0gF4aeGNw",
         "token-type": "Bearer",
-        "client": "-nkc5hkOXs6bg5sr3JjMkw",
-        "expiry": "1474546829",
-        "uid": "134dayna@volkmanstokes.org",
+        "client": "eeQMnawD3GMZ_ebdwgWbaA",
+        "expiry": "1474547941",
+        "uid": "134amya_murphy@satterfield.org",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"8af1ac83676f5c3ee155ee593786e1d0\"",
+        "ETag": "W/\"46a353cbdf0fb0d5339854d7fad9155f\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=QmZYQUpHMWp2Nm9yUlJrV0tiTGRvMjNqY1R0TXVtbUo0VFdmc3ZjM2huOUxub29ZNUViTGl2bUxrejVYSkZJcVhYbUQ2eVRiVlJLeHNYdGp4cEU5T1pDbkNFbHlKMFVJczhEU2dtUkljWFlNUmVHVW55Qkp1eTBQN3lzWjMyOFN5NUIrR2ZCVWNOYUpNLzAzRFl1YjlYdE9nRlNyaHV2OVhVdGMwZkhiMG9OUUU1NzYrV3g2ZnM0L2dmRzlLdFBtLS1hdHJJR1NuRFp0RHE1OWIyNUh0QnpnPT0%3D--a5e50923d151895ae3f9bb1ecdfe933e4f4ef60b; path=/; HttpOnly",
-        "X-Request-Id": "fc09684f-4a97-4108-9af6-73f2275f5528",
-        "X-Runtime": "0.093868",
+        "Set-Cookie": "_session_id=OW9WdmMxQ0ZFV2xnTElPVzNod0M5K2VPMkxsQi9kK05qVHVydDBSaGlidC9JQVE0NTFWT2NsSVIySmdCWmxiQk1lTGF1dDV5cFZxbFY1SFRtOTNhbzFJT0pkRkl6dTVvQ1Z3MjBySHIyWi9QVGxHempjSTd1SFErdUlYYlBZTzZKYytPa1FXeU5PaWVhbXlKa1dmRmEwZXFFOE9pclZlOTlyK3VJa0p1RXhmcnZtSkdEMmw2WkJIUnRhdzZ5WEtvLS13MysvUThaZXNSZmNuTzJFU1BzNFRBPT0%3D--cad36b57eefc2ab5fb1079c373682870d48f992b; path=/; HttpOnly",
+        "X-Request-Id": "252af8a4-a0c7-4fe0-a4e7-6378d7c679d8",
+        "X-Runtime": "0.170777",
         "Content-Length": "752"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000client/orders\" -d 'order[address_id]=4&order[line_items_attributes][][product_id]=10&order[line_items_attributes][][amount]=1000&order[delivery_attributes][wanted_date]=2016-09-08+14%3A20%3A29+%2B0200' -X POST \\\n\t-H \"Access-Token: FuBNfo0UBhGzrBSa30dTcA\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: -nkc5hkOXs6bg5sr3JjMkw\" \\\n\t-H \"Expiry: 1474546829\" \\\n\t-H \"Uid: 134dayna@volkmanstokes.org\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000client/orders\" -d 'order[address_id]=4&order[line_items_attributes][][product_id]=10&order[line_items_attributes][][amount]=1000&order[delivery_attributes][wanted_date]=2016-09-08+14%3A39%3A01+%2B0200' -X POST \\\n\t-H \"Access-Token: tUmGp2QhBGpcM0gF4aeGNw\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: eeQMnawD3GMZ_ebdwgWbaA\" \\\n\t-H \"Expiry: 1474547941\" \\\n\t-H \"Uid: 134amya_murphy@satterfield.org\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

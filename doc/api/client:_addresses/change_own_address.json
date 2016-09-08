@@ -16,11 +16,11 @@
       "request_path": "/client/addresses/1",
       "request_body": "address[street_and_house]=good",
       "request_headers": {
-        "Access-Token": "z1JzsMRCxevdA5jfr-kCrg",
+        "Access-Token": "gaqrNnd1vY1tj1_N-8MZhg",
         "Token-Type": "Bearer",
-        "Client": "wn0Ok0B-xrOKsA4ibbp3jA",
-        "Expiry": "1474546776",
-        "Uid": "118kylie@lueilwitzhansen.io",
+        "Client": "6FTairzA5vHi-alrCFz04w",
+        "Expiry": "1474547881",
+        "Uid": "118audreanne@feest.com",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -35,21 +35,21 @@
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
-        "access-token": "z1JzsMRCxevdA5jfr-kCrg",
+        "access-token": "gaqrNnd1vY1tj1_N-8MZhg",
         "token-type": "Bearer",
-        "client": "wn0Ok0B-xrOKsA4ibbp3jA",
-        "expiry": "1474546776",
-        "uid": "118kylie@lueilwitzhansen.io",
+        "client": "6FTairzA5vHi-alrCFz04w",
+        "expiry": "1474547881",
+        "uid": "118audreanne@feest.com",
         "Content-Type": "application/json; charset=utf-8",
         "ETag": "W/\"46d348e78f8a38a13e82f1352d617187\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=dzRDRUR3Z3VLRkVFaUhaeTFNM2lDZkxlZ2I5QkJEc0RsSzNQM2JXVjFPNFZ6YW0zYXdJUVRSTWFVVnc2eFNGeldHSUlWNzFNQlMvbmoveC9ibXE2VnM4YTdwVm83dGNocjhaZHNTNEpmU1BMMEtRS2ZZQUFwOXptUlNjeC9vdFZlSm1lZnZxblBXeHJwbXMxMHZ4eDZMRjNYa0tLTC9UNkFzOEx4V1lsL01tUEsyYUlJU3JRR2luVVg3VHl5U1dFLS1KTEpLMGM3aEsrUFZyUUhHTDkyamJBPT0%3D--842eba6e1f1788933d0bcf225b561258f81fbffe; path=/; HttpOnly",
-        "X-Request-Id": "3454a713-3561-49f5-af3d-57aff5baaec8",
-        "X-Runtime": "0.080415",
+        "Set-Cookie": "_session_id=YnRiN01xZmdGVnZ5R0lFU3FydGxGMmtIM1M0REdsVU1EbjVSWXdoS1F3TEQwSU9UTHV1emU3UHBpeFFrdWkrL29OTHlzNHJnbFB0KzkyN0kvQTdNbE5DN3ExS3lPNHdObXFIRjJuc3ZheTh2aytKYUtEVjF5Z0JIMDVmK1NtVFZtbjRyTm1xNk1oRTk0aTlpK2E4TnFQR1FoRk5YSTU0YzZ2QjIvYWhrSzJ6OWhud1cvbWx0bGl4YysrNkF0TkU2LS0xTnNFeGpFTEhIZGo1MG40U2dBc3ZnPT0%3D--34cb1d68a1eddf08dac07c5e3c6449aac0c8fd5e; path=/; HttpOnly",
+        "X-Request-Id": "8710c5cf-dfb3-4b44-96ef-ec4526dabba5",
+        "X-Runtime": "0.082201",
         "Content-Length": "120"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/client/addresses/1\" -d 'address[street_and_house]=good' -X PUT \\\n\t-H \"Access-Token: z1JzsMRCxevdA5jfr-kCrg\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: wn0Ok0B-xrOKsA4ibbp3jA\" \\\n\t-H \"Expiry: 1474546776\" \\\n\t-H \"Uid: 118kylie@lueilwitzhansen.io\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/client/addresses/1\" -d 'address[street_and_house]=good' -X PUT \\\n\t-H \"Access-Token: gaqrNnd1vY1tj1_N-8MZhg\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: 6FTairzA5vHi-alrCFz04w\" \\\n\t-H \"Expiry: 1474547881\" \\\n\t-H \"Uid: 118audreanne@feest.com\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

@@ -20,11 +20,11 @@
       "request_path": "/admin/users/1/update_abilities",
       "request_body": "abilities[lalala]=1",
       "request_headers": {
-        "Access-Token": "1dOHXaHK6tS5O1enI6ngsA",
+        "Access-Token": "majgfKP-9X8YhPVdcdOK5g",
         "Token-Type": "Bearer",
-        "Client": "1DwlQhHOZiYDzH-dcjkNlA",
-        "Expiry": "1474546713",
-        "Uid": "110jan.lebsack@adamhields.org",
+        "Client": "ZyGYH5J3D3GXZ1vIAnMfOw",
+        "Expiry": "1474547815",
+        "Uid": "110anna.olson@ornharber.name",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -39,20 +39,20 @@
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
-        "access-token": "1dOHXaHK6tS5O1enI6ngsA",
+        "access-token": "majgfKP-9X8YhPVdcdOK5g",
         "token-type": "Bearer",
-        "client": "1DwlQhHOZiYDzH-dcjkNlA",
-        "expiry": "1474546713",
-        "uid": "110jan.lebsack@adamhields.org",
+        "client": "ZyGYH5J3D3GXZ1vIAnMfOw",
+        "expiry": "1474547815",
+        "uid": "110anna.olson@ornharber.name",
         "Content-Type": "application/json; charset=utf-8",
         "Cache-Control": "no-cache",
-        "Set-Cookie": "_session_id=ajFHOGw2eFNCWFI4R0VwSGxxSmJYeWdqTzNPZ2FRd1RVdi9vRktOMzdpVE1tQnZCSXlmQVNXb3JrV0I3dzN3TXpUWEVaNmpOSWVhZkxiOHRXYVQ0Zm9vbTBjNUhrem0vcEM4V2JsTXJENVlYRWtlbDROTndzajlRWUJ3bGFzNVcxL1VySVBKa2NXUXJpVEp0NUpKUEYwcGpKTnpXNGY1S2IzLzQ0OG0rS3N2YWM5Y3RxYWlveVEwaHZ6dks3d3d4LS1Sd24vWE9mRld6WTNUb0hzelJoNVJnPT0%3D--0ed4f2096c2a2070ce1fbab66458c7823227901b; path=/; HttpOnly",
-        "X-Request-Id": "92b126d5-4e5b-4ab1-b54a-06617dfd6d21",
-        "X-Runtime": "0.082942",
+        "Set-Cookie": "_session_id=TXFJNi9Yb0dPTGtoTHMvUCtGd1I5Q1ZlL3FOVlBZOUozM3JhZTFCVDQ4UEpIb3ozNU9xMXNFUFk1MmJGTlJacVZoSXdzZFZxc0dUZENQTTBhM1R5NUxmb1FnVEdJT3Z1Zkd0eEpWUDVNODd3L1NLelF1aGxTaGVQb1hMVlVjU0JabTBqTFdWWVNGQWhxV2QwRmthK1BvM0FOTVpBOStjeUpMSjF5MzFrVm04SEQzVTdsVEVrTml4b1FrbkZwT3dwLS1LTVNwU3RBME5wbncrTXpCeSs0eWN3PT0%3D--caf33deb8314538790bd98578732a4e517f4ef51; path=/; HttpOnly",
+        "X-Request-Id": "f46e77b7-e0be-4914-b42a-3fd4d16574df",
+        "X-Runtime": "0.101835",
         "Content-Length": "47"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/admin/users/1/update_abilities\" -d 'abilities[lalala]=1' -X PUT \\\n\t-H \"Access-Token: 1dOHXaHK6tS5O1enI6ngsA\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: 1DwlQhHOZiYDzH-dcjkNlA\" \\\n\t-H \"Expiry: 1474546713\" \\\n\t-H \"Uid: 110jan.lebsack@adamhields.org\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/admin/users/1/update_abilities\" -d 'abilities[lalala]=1' -X PUT \\\n\t-H \"Access-Token: majgfKP-9X8YhPVdcdOK5g\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: ZyGYH5J3D3GXZ1vIAnMfOw\" \\\n\t-H \"Expiry: 1474547815\" \\\n\t-H \"Uid: 110anna.olson@ornharber.name\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

@@ -45,11 +45,11 @@
       "request_path": "/admin/areas",
       "request_body": "area[id]&area[name]=Siliguri%2C+West+Bengal+734001%2C+India&area[radius]=5.0&area[city_id]=1&area[active]=true&area[lat]=26.7271012&area[lng]=88.3952861&area[created_at]&area[updated_at]&area[stringified_coordinate]=%5B26.7271012%2C88.3952861%5D",
       "request_headers": {
-        "Access-Token": "tU_Rsnrth9evWmERnOLk4A",
+        "Access-Token": "8btUBji0AX4BrDWujl_LbA",
         "Token-Type": "Bearer",
-        "Client": "O49Feru2gB3T2lSVdr0DJw",
-        "Expiry": "1474546543",
-        "Uid": "6joana.gorczany@prosacco.co",
+        "Client": "gm9ERFBCHNzCzqEUwURWsw",
+        "Expiry": "1474547662",
+        "Uid": "6wilma@harrisgislason.info",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -64,21 +64,21 @@
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
-        "access-token": "tU_Rsnrth9evWmERnOLk4A",
+        "access-token": "8btUBji0AX4BrDWujl_LbA",
         "token-type": "Bearer",
-        "client": "O49Feru2gB3T2lSVdr0DJw",
-        "expiry": "1474546543",
-        "uid": "6joana.gorczany@prosacco.co",
+        "client": "gm9ERFBCHNzCzqEUwURWsw",
+        "expiry": "1474547662",
+        "uid": "6wilma@harrisgislason.info",
         "Content-Type": "application/json; charset=utf-8",
         "ETag": "W/\"74f55f87f37b76052780c5198c5b4df1\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=blhKcXlwVnM4YjRydmNFVFZ3c3hqcXBYdnd2ejE1TVg3TjhTQnIvSzJUOHRnbmI1eW1nVzRLTTdoUTIxNytIQTZ6ajlUellWd0svRE9lbFE3cWZnd3dSRVh0WE1teEZXNytlU3ZuaGJDMXNBanRFRzYxeUc2c3U1a2hOL0ZBYUZGOG9aYm9TN2dlZFlVZ0ZsNjZNR1ZrWHdoZmh2czZEcnUzV2J1NlM3elpXTUVlMmFlaXZHOE9QMlhZL3gvQlB3LS10Q3NURjQ1MGkxUERpOTVJdUd4WU9nPT0%3D--c0190485fd4acfd070dde5de3c29201a7e7dde9e; path=/; HttpOnly",
-        "X-Request-Id": "7044a010-d1af-41c1-9574-69e44970568b",
-        "X-Runtime": "0.082413",
+        "Set-Cookie": "_session_id=MWI1Y0RXcFpTMStOUHJ2cTRBcHhFM2daZ290MTY3UVNDVllUNGZFZnF2dUdVQU1KSDJPYVlVdk5CTVhQM1paRjFWa3dZQ2lvV21WYjYwa1NRRTNhTkpTTzJtTmluUVdybTg2YzVZM0VrcWtzUHI5c3RWWmlTOGZVMlhNcUpCWmJBQ3BTNGYxZWsybEg4V1hTOCtFOXprNGFtR1cxdnlkak9YNGhuaWVxM0pKLzl0ZDJIVHJYR1RmWHZqeFZBYXlnLS16WlRjQ2ZFVFdQMWlyVGtLZ3V6L0VBPT0%3D--1f47d3a9d2526b18036fc748c88219d10e08dd41; path=/; HttpOnly",
+        "X-Request-Id": "6b05d5ad-0184-4e69-b87c-1e2e2a29a953",
+        "X-Runtime": "0.099353",
         "Content-Length": "82"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/admin/areas\" -d 'area[id]&area[name]=Siliguri%2C+West+Bengal+734001%2C+India&area[radius]=5.0&area[city_id]=1&area[active]=true&area[lat]=26.7271012&area[lng]=88.3952861&area[created_at]&area[updated_at]&area[stringified_coordinate]=%5B26.7271012%2C88.3952861%5D' -X POST \\\n\t-H \"Access-Token: tU_Rsnrth9evWmERnOLk4A\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: O49Feru2gB3T2lSVdr0DJw\" \\\n\t-H \"Expiry: 1474546543\" \\\n\t-H \"Uid: 6joana.gorczany@prosacco.co\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/admin/areas\" -d 'area[id]&area[name]=Siliguri%2C+West+Bengal+734001%2C+India&area[radius]=5.0&area[city_id]=1&area[active]=true&area[lat]=26.7271012&area[lng]=88.3952861&area[created_at]&area[updated_at]&area[stringified_coordinate]=%5B26.7271012%2C88.3952861%5D' -X POST \\\n\t-H \"Access-Token: 8btUBji0AX4BrDWujl_LbA\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: gm9ERFBCHNzCzqEUwURWsw\" \\\n\t-H \"Expiry: 1474547662\" \\\n\t-H \"Uid: 6wilma@harrisgislason.info\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

@@ -21,11 +21,11 @@
       "request_path": "/client/orders/4/update_status",
       "request_body": "order[action]=confirm",
       "request_headers": {
-        "Access-Token": "x2jl0cuvEeyuyfRzdBjJAQ",
+        "Access-Token": "Z11VpLPSVRUR2US0RD0zOQ",
         "Token-Type": "Bearer",
-        "Client": "JIwZzEfMamIBXZFBAlrTOg",
-        "Expiry": "1474546899",
-        "Uid": "154prince@sipeslehner.net",
+        "Client": "QWacxARov9eoE4Pk0qsHeA",
+        "Expiry": "1474548050",
+        "Uid": "154carmel@weber.com",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -40,20 +40,20 @@
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
-        "access-token": "x2jl0cuvEeyuyfRzdBjJAQ",
+        "access-token": "Z11VpLPSVRUR2US0RD0zOQ",
         "token-type": "Bearer",
-        "client": "JIwZzEfMamIBXZFBAlrTOg",
-        "expiry": "1474546899",
-        "uid": "154prince@sipeslehner.net",
+        "client": "QWacxARov9eoE4Pk0qsHeA",
+        "expiry": "1474548050",
+        "uid": "154carmel@weber.com",
         "Content-Type": "application/json; charset=utf-8",
         "Cache-Control": "no-cache",
-        "Set-Cookie": "_session_id=SFM2bzBabmRUNlRiRkcrdzJ2Mmw0SmM5eVBKdGRnNHFlWWxaVXg1a3pVdktSU21DVEFCMFBzT21WS0xORW5HN1NQTmtCOUk2NVBQd05uQzdDTmZzb1hDaFdjMXFDUVdYRFdydlF3V1k0dXJxWGpUY1dCYzN1M0lGNGtsRElRMWw5N3RMV0ZaMGM0Mk5PRWlkdnRkSVorRitacmJGaFB4bm5NeGxrTndsSkgrNkI1MHRBKzBtYVA3eFZnSUtMMURtLS1vM1pMT2NCK0FQcHoyTnFkcndwVzFRPT0%3D--71d11320242f6d245a2799594bc0c05d4f587b1f; path=/; HttpOnly",
-        "X-Request-Id": "9c2f27db-8f6c-4839-94f7-de51d839f510",
-        "X-Runtime": "0.086659",
+        "Set-Cookie": "_session_id=RHZ1RHJyT25FYS8xRUNmbFdLR01KcXV3N1czREh4WmlpbHNNSEhyOGR6aTAyMzF2bTgrWllZQTg0bzdvcXVUM1A0eWV1VkVnTDJKTjRJTGErbDF5SmdZaDB4NWcwWXpuOEtGQ25GQ2h2MVM5ZG9McGdUZjJKc0RwZ2UrdE9zRXlSV3QxbDFneVYvYkNHbVd4allyZkJpRHZtVlFzbXNTV2dsbURSUVlmdEdJT1hoOGtBWU5WVVFocjNtMk5DNG4vLS1FWmNDZDFhN2pDWXgvazRRanFzdkRRPT0%3D--03db3a84bd221b585bdaaf406c9d6e62ceda5145; path=/; HttpOnly",
+        "X-Request-Id": "9ba026c4-071e-4b80-bb97-594365e79b22",
+        "X-Runtime": "0.109108",
         "Content-Length": "105"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/client/orders/4/update_status\" -d 'order[action]=confirm' -X PUT \\\n\t-H \"Access-Token: x2jl0cuvEeyuyfRzdBjJAQ\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: JIwZzEfMamIBXZFBAlrTOg\" \\\n\t-H \"Expiry: 1474546899\" \\\n\t-H \"Uid: 154prince@sipeslehner.net\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/client/orders/4/update_status\" -d 'order[action]=confirm' -X PUT \\\n\t-H \"Access-Token: Z11VpLPSVRUR2US0RD0zOQ\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: QWacxARov9eoE4Pk0qsHeA\" \\\n\t-H \"Expiry: 1474548050\" \\\n\t-H \"Uid: 154carmel@weber.com\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

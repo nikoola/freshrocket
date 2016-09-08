@@ -1,14 +1,11 @@
 {
-  "resource": "categories",
+  "resource": "cities",
   "http_method": "GET",
-  "route": "/categories",
-  "description": "get all categories",
+  "route": "/cities/:id",
+  "description": "get city",
   "explanation": null,
   "parameters": [
-    {
-      "name": "city_id",
-      "description": "get categories that have products with :city_id"
-    }
+
   ],
   "response_fields": [
 
@@ -16,32 +13,31 @@
   "requests": [
     {
       "request_method": "GET",
-      "request_path": "/categories?city_id=1",
+      "request_path": "/cities/1",
       "request_body": null,
       "request_headers": {
         "Host": "example.org",
         "Cookie": ""
       },
       "request_query_parameters": {
-        "city_id": "1"
       },
       "request_content_type": null,
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "[\n  {\n    \"id\": 1,\n    \"name\": \"Category 5\",\n    \"image_url\": \"https://freshrocket-test.s3.amazonaws.com/uploads/category/image/default.png\"\n  }\n]",
+      "response_body": "{\n  \"id\": 1,\n  \"name\": \"Begusarai\",\n  \"active\": true\n}",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"497ca8d1b274809cf3205a42cc2db1b0\"",
+        "ETag": "W/\"bc23732c7b204a886fa089cfd5962097\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "X-Request-Id": "5fe74495-8a0d-497a-9601-f8a52cdbb3d3",
-        "X-Runtime": "0.081986",
-        "Content-Length": "121"
+        "X-Request-Id": "b6e09332-8200-4b39-a7ee-b7179efe835a",
+        "X-Runtime": "0.005222",
+        "Content-Length": "41"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/categories?city_id=1\" -X GET \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/cities/1\" -X GET \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

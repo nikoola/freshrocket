@@ -23,7 +23,7 @@
     {
       "request_method": "POST",
       "request_path": "/auth/sign_in",
-      "request_body": "email=120barton.hauck%40jacobibartell.info&password=secrety_bickety",
+      "request_body": "email=120zelda%40bernhard.com&password=secrety_bickety",
       "request_headers": {
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
@@ -34,25 +34,25 @@
       "request_content_type": "application/x-www-form-urlencoded",
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\n  \"data\": {\n    \"id\": 1,\n    \"first_name\": \"Dino\",\n    \"last_name\": \"Towne\",\n    \"email\": \"120barton.hauck@jacobibartell.info\",\n    \"phone\": \"2939920514\",\n    \"is_verified\": false,\n    \"provider\": \"email\",\n    \"uid\": \"120barton.hauck@jacobibartell.info\",\n    \"created_at\": \"2016-09-08T12:19:44.374Z\",\n    \"abilities\": {\n      \"orders\": 0,\n      \"products\": 0,\n      \"users\": 0,\n      \"categories\": 0,\n      \"coupons\": 0,\n      \"settings\": 0,\n      \"cities\": 0,\n      \"delivery_boy\": 0\n    },\n    \"addresses\": [\n\n    ],\n    \"orders\": [\n\n    ]\n  }\n}",
+      "response_body": "{\n  \"data\": {\n    \"id\": 1,\n    \"first_name\": \"Lonny\",\n    \"last_name\": \"Jacobson\",\n    \"email\": \"120zelda@bernhard.com\",\n    \"phone\": \"9579491600\",\n    \"is_verified\": false,\n    \"provider\": \"email\",\n    \"uid\": \"120zelda@bernhard.com\",\n    \"created_at\": \"2016-09-08T12:38:09.192Z\",\n    \"abilities\": {\n      \"orders\": 0,\n      \"products\": 0,\n      \"users\": 0,\n      \"categories\": 0,\n      \"coupons\": 0,\n      \"settings\": 0,\n      \"cities\": 0,\n      \"delivery_boy\": 0\n    },\n    \"addresses\": [\n\n    ],\n    \"orders\": [\n\n    ]\n  }\n}",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
-        "access-token": "fnAE4p7ZkAVTLocCJBTVVA",
+        "access-token": "Hpq5yCr6_tBAYkyCS36VKg",
         "token-type": "Bearer",
-        "client": "UVF1HDBNADzlux50aoojZQ",
-        "expiry": "1474546784",
-        "uid": "120barton.hauck@jacobibartell.info",
+        "client": "uHLzooGsvTtxqB-tWF-72A",
+        "expiry": "1474547889",
+        "uid": "120zelda@bernhard.com",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"39225de93416f13534eee14faf90cca5\"",
+        "ETag": "W/\"486470896af7e410d7f9479c822018d1\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "X-Request-Id": "f26a4bfb-4504-40e5-a362-1b1e794c7675",
-        "X-Runtime": "0.157891",
-        "Content-Length": "388"
+        "X-Request-Id": "3b4da9c2-94b9-4cc8-b5f4-024a64831835",
+        "X-Runtime": "0.160850",
+        "Content-Length": "366"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/auth/sign_in\" -d 'email=120barton.hauck%40jacobibartell.info&password=secrety_bickety' -X POST \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/auth/sign_in\" -d 'email=120zelda%40bernhard.com&password=secrety_bickety' -X POST \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

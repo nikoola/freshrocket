@@ -1,0 +1,55 @@
+{
+  "resource": "admin: cities",
+  "http_method": "PUT",
+  "route": "/admin/cities/:id",
+  "description": "update city",
+  "explanation": null,
+  "parameters": [
+
+  ],
+  "response_fields": [
+
+  ],
+  "requests": [
+    {
+      "request_method": "PUT",
+      "request_path": "/admin/cities/1",
+      "request_body": "city[name]=hi",
+      "request_headers": {
+        "Access-Token": "dlyTdvzpL6JTfJKr285-HQ",
+        "Token-Type": "Bearer",
+        "Client": "Noh0TILysdGVTWy7ivMfTQ",
+        "Expiry": "1474547671",
+        "Uid": "15nestor@dare.co",
+        "Host": "example.org",
+        "Content-Type": "application/x-www-form-urlencoded",
+        "Cookie": ""
+      },
+      "request_query_parameters": {
+      },
+      "request_content_type": "application/x-www-form-urlencoded",
+      "response_status": 200,
+      "response_status_text": "OK",
+      "response_body": "{\n  \"id\": 1,\n  \"name\": \"hi\",\n  \"active\": true\n}",
+      "response_headers": {
+        "X-Frame-Options": "SAMEORIGIN",
+        "X-XSS-Protection": "1; mode=block",
+        "X-Content-Type-Options": "nosniff",
+        "access-token": "dlyTdvzpL6JTfJKr285-HQ",
+        "token-type": "Bearer",
+        "client": "Noh0TILysdGVTWy7ivMfTQ",
+        "expiry": "1474547671",
+        "uid": "15nestor@dare.co",
+        "Content-Type": "application/json; charset=utf-8",
+        "ETag": "W/\"c382965718afa649ad29062210139e6d\"",
+        "Cache-Control": "max-age=0, private, must-revalidate",
+        "Set-Cookie": "_session_id=MnVBUVhZVGxvN3luSDNGMlBhM2NOWHhHSUlMV01aTXRvZzJ0ZmR5eUVMZzM3RldITFNidGZoVFFEclhhMGt0MkhPSGdYREpVWXg5Y1RhdmxYWlliRmIzZDRjN0dJazdUaGNUVjh6bGhQNWx5UFExaEhpcng1U0J6MUdUNFBEckZZT0lQbXJTSXJQMiszRmRtMW5tb21tQVJhUVhsTE5NVENNVE9hUEtSRTdGQTMyeEFyeDRXM2plT25sOWY0bVRNLS1haGNITVdJT2FpWDk0NTArRXJOVmNRPT0%3D--637d9e51d137ada1af50afd89d7d1b8d719537bd; path=/; HttpOnly",
+        "X-Request-Id": "119df1cf-e627-4439-b8f2-3376f4eb6a81",
+        "X-Runtime": "0.082350",
+        "Content-Length": "34"
+      },
+      "response_content_type": "application/json; charset=utf-8",
+      "curl": "curl \"http://localhost:3000/admin/cities/1\" -d 'city[name]=hi' -X PUT \\\n\t-H \"Access-Token: dlyTdvzpL6JTfJKr285-HQ\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: Noh0TILysdGVTWy7ivMfTQ\" \\\n\t-H \"Expiry: 1474547671\" \\\n\t-H \"Uid: 15nestor@dare.co\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+    }
+  ]
+}

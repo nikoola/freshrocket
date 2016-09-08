@@ -16,11 +16,11 @@
       "request_path": "/client/orders/3",
       "request_body": null,
       "request_headers": {
-        "Access-Token": "CWBrxgv6xbUoa5VJQ96XFA",
+        "Access-Token": "5rSpiIkhAaAls-fMimUofw",
         "Token-Type": "Bearer",
-        "Client": "u2YQHDpXnMZCjCuaLJ-H_Q",
-        "Expiry": "1474546856",
-        "Uid": "143kasandra_ruel@schowalterschuppe.com",
+        "Client": "72okRmOMQ-qKHvi4yvICag",
+        "Expiry": "1474547976",
+        "Uid": "143rogers@sanford.name",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -35,20 +35,20 @@
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
-        "access-token": "CWBrxgv6xbUoa5VJQ96XFA",
+        "access-token": "5rSpiIkhAaAls-fMimUofw",
         "token-type": "Bearer",
-        "client": "u2YQHDpXnMZCjCuaLJ-H_Q",
-        "expiry": "1474546856",
-        "uid": "143kasandra_ruel@schowalterschuppe.com",
+        "client": "72okRmOMQ-qKHvi4yvICag",
+        "expiry": "1474547976",
+        "uid": "143rogers@sanford.name",
         "Content-Type": "application/json; charset=utf-8",
         "Cache-Control": "no-cache",
-        "Set-Cookie": "_session_id=bW1WelorcVgyM3B6Mk1HNVh0K0tIQmFaSmhUZlQ2czZBSnVzRTJtM3ZrY3hMbG1pa1VEZkQrRE4yN2p2VWdHZS93ekhNOUhDMG5tUzBIbURzUDdWNlhOQmJmNkVHa3FLZlZOdVZKWG1TK0JnVFh6eWNOTS9IWTkvQW5ZV3RpclVnZUNnbDRSTkIvVWZ5UXhQbVJodVp2NFBEVjh3ekJQY1Qyc2NBWHRWOWhlWUhvblV6RHhRcGxPak54azA1MmZOLS04Y0VOWkVrYmcwQ1k0eU83WXBwdE9nPT0%3D--9e973273fe47dbcb94c2009792bb74fd84b68eb8; path=/; HttpOnly",
-        "X-Request-Id": "fb07ff3d-dcb1-4882-a5b5-045a3e5f5192",
-        "X-Runtime": "0.077364",
+        "Set-Cookie": "_session_id=c3V0ampDVmovbk1JUkdDbWFyQjlkclhpbldqazFxK3RmZ2ExbkVGRGdNTjZVeHF1UVhXU0RoeXVlTktHSzR2THJycHBmRTVqS1A3eTRDdEZWWkNDT0EreWJNYk1LTElMbmdoS1pnZjJONG9lR1ZaV1lmOFZNMVFlM1ZoSUlKemxtSmJvcXBNbGs4cDFPVXpwM0JYSlZiK1FXSGFqUVN2N2tGL0NuZ0NIUXBNMXhuSnJTMnhPRWRseTE2Tnd2TlR6LS03RUN2S2dIQUtLZm9Ydy9Zai9KNEVRPT0%3D--6d6cfa4f99281af0a3116212b8831f4c61b0a33a; path=/; HttpOnly",
+        "X-Request-Id": "9b9f4970-1747-4bc9-969e-94ec422ab0bf",
+        "X-Runtime": "0.108293",
         "Content-Length": "83"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/client/orders/3\" -d '' -X DELETE \\\n\t-H \"Access-Token: CWBrxgv6xbUoa5VJQ96XFA\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: u2YQHDpXnMZCjCuaLJ-H_Q\" \\\n\t-H \"Expiry: 1474546856\" \\\n\t-H \"Uid: 143kasandra_ruel@schowalterschuppe.com\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/client/orders/3\" -d '' -X DELETE \\\n\t-H \"Access-Token: 5rSpiIkhAaAls-fMimUofw\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: 72okRmOMQ-qKHvi4yvICag\" \\\n\t-H \"Expiry: 1474547976\" \\\n\t-H \"Uid: 143rogers@sanford.name\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

@@ -1,0 +1,47 @@
+{
+  "resource": "cities",
+  "http_method": "GET",
+  "route": "/cities",
+  "description": "get all cities",
+  "explanation": null,
+  "parameters": [
+    {
+      "name": "active",
+      "description": "1/0 get cities marked as active"
+    }
+  ],
+  "response_fields": [
+
+  ],
+  "requests": [
+    {
+      "request_method": "GET",
+      "request_path": "/cities?active=1",
+      "request_body": null,
+      "request_headers": {
+        "Host": "example.org",
+        "Cookie": ""
+      },
+      "request_query_parameters": {
+        "active": "1"
+      },
+      "request_content_type": null,
+      "response_status": 200,
+      "response_status_text": "OK",
+      "response_body": "[\n  {\n    \"id\": 1,\n    \"name\": \"Imphal\",\n    \"active\": true\n  },\n  {\n    \"id\": 2,\n    \"name\": \"Hapur\",\n    \"active\": true\n  },\n  {\n    \"id\": 3,\n    \"name\": \"Ranipet\",\n    \"active\": true\n  },\n  {\n    \"id\": 6,\n    \"name\": \"Karimnagar\",\n    \"active\": true\n  },\n  {\n    \"id\": 7,\n    \"name\": \"Parbhani\",\n    \"active\": true\n  },\n  {\n    \"id\": 8,\n    \"name\": \"Etawah\",\n    \"active\": true\n  },\n  {\n    \"id\": 9,\n    \"name\": \"Bharatpur\",\n    \"active\": true\n  }\n]",
+      "response_headers": {
+        "X-Frame-Options": "SAMEORIGIN",
+        "X-XSS-Protection": "1; mode=block",
+        "X-Content-Type-Options": "nosniff",
+        "Content-Type": "application/json; charset=utf-8",
+        "ETag": "W/\"58567a719a250c30c8ccf7d88ef548cb\"",
+        "Cache-Control": "max-age=0, private, must-revalidate",
+        "X-Request-Id": "42845b1b-7519-4ffd-8166-6598ba8ea32b",
+        "X-Runtime": "0.028727",
+        "Content-Length": "283"
+      },
+      "response_content_type": "application/json; charset=utf-8",
+      "curl": "curl \"http://localhost:3000/cities?active=1\" -X GET \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
+    }
+  ]
+}

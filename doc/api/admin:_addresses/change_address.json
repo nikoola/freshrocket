@@ -16,11 +16,11 @@
       "request_path": "/admin/addresses/1",
       "request_body": "address[street_and_house]=good",
       "request_headers": {
-        "Access-Token": "7zGspBro5zEeXUE0_-5dZg",
+        "Access-Token": "n5XsWqaXQzjElsa-QPyDhQ",
         "Token-Type": "Bearer",
-        "Client": "LkDJeK8pRhqSencude_ApQ",
-        "Expiry": "1474546512",
-        "Uid": "3rhea@denesikmarvin.co",
+        "Client": "vf5nEfx7n4WB7x_O6ayRxw",
+        "Expiry": "1474547632",
+        "Uid": "3darian_leannon@beier.com",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -35,21 +35,21 @@
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
-        "access-token": "7zGspBro5zEeXUE0_-5dZg",
+        "access-token": "n5XsWqaXQzjElsa-QPyDhQ",
         "token-type": "Bearer",
-        "client": "LkDJeK8pRhqSencude_ApQ",
-        "expiry": "1474546512",
-        "uid": "3rhea@denesikmarvin.co",
+        "client": "vf5nEfx7n4WB7x_O6ayRxw",
+        "expiry": "1474547632",
+        "uid": "3darian_leannon@beier.com",
         "Content-Type": "application/json; charset=utf-8",
         "ETag": "W/\"cff73ee192966b587272dee54eca7d96\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=eFJQZ2pNMGQzazhPdE0wVjdJbjRJUHdORkIyV2hOZmswalZTSG5iaitISnBJTDZhNnhiUFNKeE9TWmtmKzFZL0hybVNPRjI0RDdHU2pIM2s2a09ManVBUzM1WWZjc3ZDVlQ5U2ZYQ3BoR3Q4M2g1MWFyZ3k0SU5ybldGYWpncy9RWVBEelJmaVBITVQvUzhaMlNpdWRldFhwWXFwZzFjNTFWVCtIQ2lpTWxuRWpzOEhHU0RIMUVjQTNqL05NcTcxLS1LdlBudGYyOHoweTBKYjBoRUlQMC93PT0%3D--e7e1e023a04e118f853c4de2063ffd33340cf097; path=/; HttpOnly",
-        "X-Request-Id": "8eb81865-0d6f-491c-9c21-1be06268d7a8",
-        "X-Runtime": "0.126974",
+        "Set-Cookie": "_session_id=T1ZGNEFHMDNpYkZKM1FreXNVcWFsVm44VWJNbTBYT2ZYN1lzWElDakl3c1FHMEdjSXhtYzZkVUhvVWtrV09WNWhwZU1zREl2YnZzZ09MMXJoL1lveE5JVDd4UnUxb25MaWs4M085SHh5bDM0TGZtdkt5WTlLSkt3YW5iZ2cyb1k1REdTTlRYbFlSZmIrZGNlelZETVdrNjFtY3VqSjdFK2xKYVlWb0ltZkpqbi9hcHJkVEt4MmxUeHdxd3hHZEw1LS1XbzVJZ1ltSHRyTGowbTVBalpsQjFnPT0%3D--86f6591046e2da0e74f136a9120cd4a98dd97c71; path=/; HttpOnly",
+        "X-Request-Id": "6a5975d9-59b6-404d-869b-e37bee754179",
+        "X-Runtime": "0.081407",
         "Content-Length": "111"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/admin/addresses/1\" -d 'address[street_and_house]=good' -X PUT \\\n\t-H \"Access-Token: 7zGspBro5zEeXUE0_-5dZg\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: LkDJeK8pRhqSencude_ApQ\" \\\n\t-H \"Expiry: 1474546512\" \\\n\t-H \"Uid: 3rhea@denesikmarvin.co\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/admin/addresses/1\" -d 'address[street_and_house]=good' -X PUT \\\n\t-H \"Access-Token: n5XsWqaXQzjElsa-QPyDhQ\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: vf5nEfx7n4WB7x_O6ayRxw\" \\\n\t-H \"Expiry: 1474547632\" \\\n\t-H \"Uid: 3darian_leannon@beier.com\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

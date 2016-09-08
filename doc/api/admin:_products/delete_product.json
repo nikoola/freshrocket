@@ -16,11 +16,11 @@
       "request_path": "/admin/products/1",
       "request_body": null,
       "request_headers": {
-        "Access-Token": "AIEjycsRihBUeUqat6imlg",
+        "Access-Token": "Avdr_YdngKGuL0x_Djw7OQ",
         "Token-Type": "Bearer",
-        "Client": "jQ5ATMvyzp83Bx2G0Hsgsw",
-        "Expiry": "1474546680",
-        "Uid": "72nannie_bartoletti@schroederschuster.io",
+        "Client": "6o9bk4-y_NkpaWXk5KTK6Q",
+        "Expiry": "1474547781",
+        "Uid": "72judy@grant.io",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -35,20 +35,20 @@
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
-        "access-token": "AIEjycsRihBUeUqat6imlg",
+        "access-token": "Avdr_YdngKGuL0x_Djw7OQ",
         "token-type": "Bearer",
-        "client": "jQ5ATMvyzp83Bx2G0Hsgsw",
-        "expiry": "1474546680",
-        "uid": "72nannie_bartoletti@schroederschuster.io",
+        "client": "6o9bk4-y_NkpaWXk5KTK6Q",
+        "expiry": "1474547781",
+        "uid": "72judy@grant.io",
         "Content-Type": "text/html",
         "Cache-Control": "no-cache",
-        "Set-Cookie": "_session_id=SlFlWldyTGM5Rjkvd0R4YTVsVzBVRmlCOUo0M2pMbHdrK1pINjJrNG0vTDNpODF2ZHRDQzQyeEVvQzhOajJTUUJZNmlxd0ZvOEcxUUllOW9peEZIdEpWVU5iWUhtVFpoUHNLUFpYY1NGOTlTTXpFbWM2VGprTG11MHZvckZ5dkVZQVFMMFlXK2FBczIzTVB6ZjNFZ1NRVjMwaWo1MFpYbXhaVjZyakdhdXZyVFlqdkV5UVZrRlBrY1BnUkxNSWtGLS1aN3MzMDBpeGgzZmp5RXBsVllWQ3B3PT0%3D--1616d25ee9b784ef3d453d8a6caf8883c07e1c63; path=/; HttpOnly",
-        "X-Request-Id": "60ec3d43-b630-4222-af54-cb501624f3d7",
-        "X-Runtime": "0.100441",
+        "Set-Cookie": "_session_id=Zk5CNnJpMU1EWWJCOXJEVHVLamNpUy9aUnFOMVVQS3pXV1lsaVh6eE81T2VzSXRwVFcxQ2xSTFk5WWY5M2JmVzh2d200d3Vqc2N1Z2RIUXJCN2wyWldGdGlodHJUWTMrcG9BcXNWK3YvVmV0Nzc0NEFMZ2hGM1lXUm5FdTQxM05relVwNjFrdGUzRWQvV3ZjMkczSDg0N29rZlJMNm12U01HRFdDTVBpUnh3dnV3eXNHSXdjKzkvT0NOb3I0SUtULS1jZlZ0MjNFWWRsSXphVWhzQWM4cElRPT0%3D--f8ff4fa9f0500baa075806928e4c3639fa88881f; path=/; HttpOnly",
+        "X-Request-Id": "90ae0e6d-4286-44ff-b95d-cddcf4cb27bb",
+        "X-Runtime": "0.092268",
         "Content-Length": "0"
       },
       "response_content_type": "text/html",
-      "curl": "curl \"http://localhost:3000/admin/products/1\" -d '' -X DELETE \\\n\t-H \"Access-Token: AIEjycsRihBUeUqat6imlg\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: jQ5ATMvyzp83Bx2G0Hsgsw\" \\\n\t-H \"Expiry: 1474546680\" \\\n\t-H \"Uid: 72nannie_bartoletti@schroederschuster.io\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/admin/products/1\" -d '' -X DELETE \\\n\t-H \"Access-Token: Avdr_YdngKGuL0x_Djw7OQ\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: 6o9bk4-y_NkpaWXk5KTK6Q\" \\\n\t-H \"Expiry: 1474547781\" \\\n\t-H \"Uid: 72judy@grant.io\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

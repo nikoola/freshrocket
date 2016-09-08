@@ -16,11 +16,11 @@
       "request_path": "/client",
       "request_body": null,
       "request_headers": {
-        "Access-Token": "V682m0l8IW8rFFC0Bot_jA",
+        "Access-Token": "st_A-BA_zkJMTgavmOTLZA",
         "Token-Type": "Bearer",
-        "Client": "V3hUUOgcdPqJ6CfgUWZyyA",
-        "Expiry": "1474546913",
-        "Uid": "170marian_gottlieb@kertzmannfay.name",
+        "Client": "1kJ2eNChgVrRdb5aeNJINQ",
+        "Expiry": "1474548066",
+        "Uid": "170verla_mueller@rath.com",
         "Host": "example.org",
         "Cookie": ""
       },
@@ -29,26 +29,26 @@
       "request_content_type": null,
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\n  \"id\": 5,\n  \"first_name\": \"Graciela\",\n  \"last_name\": \"Durgan\",\n  \"email\": \"170marian_gottlieb@kertzmannfay.name\",\n  \"phone\": \"1396599230\",\n  \"is_verified\": false,\n  \"provider\": \"email\",\n  \"uid\": \"170marian_gottlieb@kertzmannfay.name\",\n  \"created_at\": \"2016-09-08T12:21:53.430Z\",\n  \"abilities\": {\n    \"orders\": 0,\n    \"products\": 0,\n    \"users\": 0,\n    \"categories\": 0,\n    \"coupons\": 0,\n    \"settings\": 0,\n    \"cities\": 0,\n    \"delivery_boy\": 0\n  },\n  \"addresses\": [\n\n  ],\n  \"orders\": [\n\n  ]\n}",
+      "response_body": "{\n  \"id\": 5,\n  \"first_name\": \"Delta\",\n  \"last_name\": \"Parker\",\n  \"email\": \"170verla_mueller@rath.com\",\n  \"phone\": \"5541999367\",\n  \"is_verified\": false,\n  \"provider\": \"email\",\n  \"uid\": \"170verla_mueller@rath.com\",\n  \"created_at\": \"2016-09-08T12:41:06.528Z\",\n  \"abilities\": {\n    \"orders\": 0,\n    \"products\": 0,\n    \"users\": 0,\n    \"categories\": 0,\n    \"coupons\": 0,\n    \"settings\": 0,\n    \"cities\": 0,\n    \"delivery_boy\": 0\n  },\n  \"addresses\": [\n\n  ],\n  \"orders\": [\n\n  ]\n}",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
-        "access-token": "V682m0l8IW8rFFC0Bot_jA",
+        "access-token": "st_A-BA_zkJMTgavmOTLZA",
         "token-type": "Bearer",
-        "client": "V3hUUOgcdPqJ6CfgUWZyyA",
-        "expiry": "1474546913",
-        "uid": "170marian_gottlieb@kertzmannfay.name",
+        "client": "1kJ2eNChgVrRdb5aeNJINQ",
+        "expiry": "1474548066",
+        "uid": "170verla_mueller@rath.com",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"b63e53f043415e32a82e45409d347d69\"",
+        "ETag": "W/\"b512ca4cae3cde32d3b1638d7ca6eae2\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=RGFiWHkzWnBIL3A0N1VhdUtWdTZlem5tWHlxU3VXeUxucEtnVmtubDlzSDFuMnc1b2RCSkFtTHczQ1ZZTlhucURzQnJWRHBQZUpOdHovU0NjVS9YWnN2QlBCZGJtT2xmRXZEcGdyZ1FUdUc1ZnRDRGZUMDhldll3d2R5WldJZWkwSEJ5VTA4MzFkNXYxTEVLQ2c0YngxMEFhSlhxcHllNzB4clFWVkVpRVpiQjJMTFhhQXZlTkdtUHNXbmJFdDIvLS1kUS9PemRvUUE2T1FWaWFqOEl1YndnPT0%3D--2957ac4ce1bb486363f8875211417cbfa0447816; path=/; HttpOnly",
-        "X-Request-Id": "af81c234-95b2-41cb-8d98-1c06b5b67f2f",
-        "X-Runtime": "0.215633",
-        "Content-Length": "388"
+        "Set-Cookie": "_session_id=ODQ3Q0FURXpVbmEydWJrdlhaODFLUHQ5UEZkZ2dhUklQU0dIQUZYQlVDTWx1NzBJUllLMUllU3krcmlieHB4K0g5WHNzSU1uQ1dvUDNXbGRnd2F2TWZDNlZaelk3ZUxjc2p3NjM5MEtMM1dMQ0RKWUQyNTJTN0c3S216bGVTSjVudktDK3QwZFBsRnBaL2JIUDM4cGl1dXRqaEtUTW1XaklFaElrb2xlS2F0OGwwaWxkWWhSMUt4ZzdDUWtlY3J5LS1VMXFGZnovNUxxU3VRS3k5dnZCVjdnPT0%3D--afed8e0ad23c1c29b89bed3f54dd2baba6e6a6ec; path=/; HttpOnly",
+        "X-Request-Id": "e5d02d78-d92a-40ea-87d5-d75d7f01e7fc",
+        "X-Runtime": "0.098792",
+        "Content-Length": "363"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/client\" -X GET \\\n\t-H \"Access-Token: V682m0l8IW8rFFC0Bot_jA\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: V3hUUOgcdPqJ6CfgUWZyyA\" \\\n\t-H \"Expiry: 1474546913\" \\\n\t-H \"Uid: 170marian_gottlieb@kertzmannfay.name\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/client\" -X GET \\\n\t-H \"Access-Token: st_A-BA_zkJMTgavmOTLZA\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: 1kJ2eNChgVrRdb5aeNJINQ\" \\\n\t-H \"Expiry: 1474548066\" \\\n\t-H \"Uid: 170verla_mueller@rath.com\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
     }
   ]
 }
