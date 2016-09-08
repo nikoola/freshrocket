@@ -4,7 +4,7 @@ class City < ActiveRecord::Base
 
 	validates :name, presence: true, uniqueness: true
 	scope :active, -> (bool) { where active: param_to_bool(bool) }
-	scope :name, -> (name) { where name: name.to_s }
+	# scope :name, -> (name) { where name: name.to_s }
 	include Filterable
 
 	def destroy_or_disable
