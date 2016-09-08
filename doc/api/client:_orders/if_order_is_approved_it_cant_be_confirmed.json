@@ -1,0 +1,59 @@
+{
+  "resource": "client: orders",
+  "http_method": "PUT",
+  "route": "/client/orders/:id/update_status",
+  "description": "if order is approved it cant be confirmed",
+  "explanation": null,
+  "parameters": [
+    {
+      "scope": "order",
+      "required": true,
+      "name": "action",
+      "description": "only :confirm is possible for this route (for client)"
+    }
+  ],
+  "response_fields": [
+
+  ],
+  "requests": [
+    {
+      "request_method": "PUT",
+      "request_path": "/client/orders/3/update_status",
+      "request_body": "order[action]=confirm",
+      "request_headers": {
+        "Access-Token": "VfTIc95fhEjOtwR7Z0J-zw",
+        "Token-Type": "Bearer",
+        "Client": "tfZ2B4LK8m1VIGEkmVHQvw",
+        "Expiry": "1474546876",
+        "Uid": "149marques_kirlin@hickle.name",
+        "Host": "example.org",
+        "Content-Type": "application/x-www-form-urlencoded",
+        "Cookie": ""
+      },
+      "request_query_parameters": {
+      },
+      "request_content_type": "application/x-www-form-urlencoded",
+      "response_status": 422,
+      "response_status_text": "Unprocessable Entity",
+      "response_body": "{\n  \"status\": [\n    \"status cannot transition from approved to confirm\"\n  ]\n}",
+      "response_headers": {
+        "X-Frame-Options": "SAMEORIGIN",
+        "X-XSS-Protection": "1; mode=block",
+        "X-Content-Type-Options": "nosniff",
+        "access-token": "VfTIc95fhEjOtwR7Z0J-zw",
+        "token-type": "Bearer",
+        "client": "tfZ2B4LK8m1VIGEkmVHQvw",
+        "expiry": "1474546876",
+        "uid": "149marques_kirlin@hickle.name",
+        "Content-Type": "application/json; charset=utf-8",
+        "Cache-Control": "no-cache",
+        "Set-Cookie": "_session_id=VU1zRGNmZ1BHVWthd1hXSHU2VllXODBhYVVmNzZzRkNyVU9HZ1ZJR3o3WU5JSy84Z0lNMGwzUHdvWW5Qalc1bHJOL1g4WmpCcnZNRHZCWWRIVC9Ga0pPdmxSNTE5eDdZcnRqbXFRcnJOaXlia0FIUDZHOFlLMCtlVUhpcGFrMlBub0RCU3BENnM5LzdKeDlaUkZVVERJN29KelVQUm52QzNZOUlWVlRGamhNb09MeU42YXZJc1IxMmJqSjRqUHQ0LS04d0oyRzU3OUZyWnUveXkwcHoxWHpnPT0%3D--68bc1e3d4668679dd513d9c159cc966b1542aa87; path=/; HttpOnly",
+        "X-Request-Id": "1e645cb1-ce2b-4f16-89c7-3796aceb99c4",
+        "X-Runtime": "0.072060",
+        "Content-Length": "64"
+      },
+      "response_content_type": "application/json; charset=utf-8",
+      "curl": "curl \"http://localhost:3000/client/orders/3/update_status\" -d 'order[action]=confirm' -X PUT \\\n\t-H \"Access-Token: VfTIc95fhEjOtwR7Z0J-zw\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: tfZ2B4LK8m1VIGEkmVHQvw\" \\\n\t-H \"Expiry: 1474546876\" \\\n\t-H \"Uid: 149marques_kirlin@hickle.name\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+    }
+  ]
+}

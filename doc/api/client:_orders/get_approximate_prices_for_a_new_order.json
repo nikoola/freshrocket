@@ -1,0 +1,55 @@
+{
+  "resource": "client: orders",
+  "http_method": "POST",
+  "route": "/client/orders/precalculate_price",
+  "description": "get approximate prices for a new order",
+  "explanation": "(they may change later if admin changes product price or tax etc)",
+  "parameters": [
+
+  ],
+  "response_fields": [
+
+  ],
+  "requests": [
+    {
+      "request_method": "POST",
+      "request_path": "/client/orders/precalculate_price",
+      "request_body": "order[line_items_attributes][][product_id]=10&order[line_items_attributes][][amount]=1000&order[coupon_code]=47817",
+      "request_headers": {
+        "Access-Token": "pNM3ZyHx871jw6sz-PC1gA",
+        "Token-Type": "Bearer",
+        "Client": "FNBXUxXVJbgcF6bGEnyoSQ",
+        "Expiry": "1474546905",
+        "Uid": "157antone@casperkoepp.name",
+        "Host": "example.org",
+        "Content-Type": "application/x-www-form-urlencoded",
+        "Cookie": ""
+      },
+      "request_query_parameters": {
+      },
+      "request_content_type": "application/x-www-form-urlencoded",
+      "response_status": 200,
+      "response_status_text": "OK",
+      "response_body": "{\n  \"pure_product_price\": \"3000.0\",\n  \"tax\": \"150.0\",\n  \"delivery_charge\": 0,\n  \"coupon_discount\": 79,\n  \"total_price\": \"3071.0\"\n}",
+      "response_headers": {
+        "X-Frame-Options": "SAMEORIGIN",
+        "X-XSS-Protection": "1; mode=block",
+        "X-Content-Type-Options": "nosniff",
+        "access-token": "pNM3ZyHx871jw6sz-PC1gA",
+        "token-type": "Bearer",
+        "client": "FNBXUxXVJbgcF6bGEnyoSQ",
+        "expiry": "1474546905",
+        "uid": "157antone@casperkoepp.name",
+        "Content-Type": "application/json; charset=utf-8",
+        "ETag": "W/\"c2361c5e9778da9b607a487005966486\"",
+        "Cache-Control": "max-age=0, private, must-revalidate",
+        "Set-Cookie": "_session_id=d2NWN2h3U1ZEVHJxdEVHV2pNZy90OCtFQTdVdEdnbjVQVHkxRXlSbkwxT1RXSnlkMTltaVlVNHQ2S2k3VHlTVFF0NUZ0aGd5WWVhaUh3S1lZYnVGSU4vQWJPTDU5WHNXQURaV0ZSNm5XU1lEYnlUWStYeW9sT3dQeHg0d3VZRzJFNUhxNkt2VHZHemY4WGdtdjY0eWtVYnVUbnVtL3BzVGtFaUR0MFhhN3d4Y2xTSXNBM0xrQUpBanphWllIeHhaLS1Wc0xNS1REUERXS0owclE2RGUrUjFnPT0%3D--8326aa6df74ee7d740c36c49d338f018eb34f07b; path=/; HttpOnly",
+        "X-Request-Id": "1e6d7732-354d-4b37-b492-3c6af4883025",
+        "X-Runtime": "0.117321",
+        "Content-Length": "109"
+      },
+      "response_content_type": "application/json; charset=utf-8",
+      "curl": "curl \"http://localhost:3000/client/orders/precalculate_price\" -d 'order[line_items_attributes][][product_id]=10&order[line_items_attributes][][amount]=1000&order[coupon_code]=47817' -X POST \\\n\t-H \"Access-Token: pNM3ZyHx871jw6sz-PC1gA\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: FNBXUxXVJbgcF6bGEnyoSQ\" \\\n\t-H \"Expiry: 1474546905\" \\\n\t-H \"Uid: 157antone@casperkoepp.name\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+    }
+  ]
+}

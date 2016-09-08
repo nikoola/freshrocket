@@ -1,0 +1,58 @@
+{
+  "resource": "client: payments",
+  "http_method": "GET",
+  "route": "/client/payments/new",
+  "description": "return all forms for payment for own order",
+  "explanation": null,
+  "parameters": [
+    {
+      "name": "order_id",
+      "description": "unique id"
+    }
+  ],
+  "response_fields": [
+
+  ],
+  "requests": [
+    {
+      "request_method": "GET",
+      "request_path": "/client/payments/new?order_id=3",
+      "request_body": null,
+      "request_headers": {
+        "Access-Token": "DV8KF25DKjczsAHz6C4hcw",
+        "Token-Type": "Bearer",
+        "Client": "TLQ4SrYhXX15YAW7gqZVpA",
+        "Expiry": "1474546912",
+        "Uid": "159catharine@kris.net",
+        "Host": "example.org",
+        "Cookie": ""
+      },
+      "request_query_parameters": {
+        "order_id": "3"
+      },
+      "request_content_type": null,
+      "response_status": 200,
+      "response_status_text": "OK",
+      "response_body": "{\n  \"paytm\": {\n    \"action\": \"https://pguat.paytm.com/oltp-web/processTransaction\",\n    \"method\": \"POST\",\n    \"fields\": {\n      \"ORDER_ID\": \"3\",\n      \"MID\": \"FreshD33860006728322\",\n      \"CALLBACK_URL\": \"http://requestb.in/136wzmc1\",\n      \"CHANNEL_ID\": \"WEB\",\n      \"EMAIL\": \"159catharine@kris.net\",\n      \"MOBILE_NO\": \"6000915815\",\n      \"CUST_ID\": \"5\",\n      \"INDUSTRY_TYPE_ID\": \"Retail\",\n      \"WEBSITE\": \"FreshDispatchweb\",\n      \"REQUEST_TYPE\": \"DEFAULT\",\n      \"CHECKSUMHASH\": \"gXHLJhn1HNG+mOoG9dG1bHadgNOzNmAOCIyYoGpjJ7u7JCNWSdoW/0lfDznfykDb/3/zqfc17E6wJWbW3ZafzDMoBuXL2NAM/7RL7wTinwQ=\"\n    }\n  }\n}",
+      "response_headers": {
+        "X-Frame-Options": "SAMEORIGIN",
+        "X-XSS-Protection": "1; mode=block",
+        "X-Content-Type-Options": "nosniff",
+        "access-token": "DV8KF25DKjczsAHz6C4hcw",
+        "token-type": "Bearer",
+        "client": "TLQ4SrYhXX15YAW7gqZVpA",
+        "expiry": "1474546912",
+        "uid": "159catharine@kris.net",
+        "Content-Type": "application/json; charset=utf-8",
+        "ETag": "W/\"8ee7ce0492dcb1092d05708f5b1853a0\"",
+        "Cache-Control": "max-age=0, private, must-revalidate",
+        "Set-Cookie": "_session_id=RHJKMHpPeC9YYXRsTUk1dHZjK256bjdnUkZFejZucU03UFNYSzFjd1A4WmhnbTdGUWRiOVNteUwxbFp0cTdKVTBlR3MvbXlEclg4YzZVSnA2ZnRkcnVtSmdJR2hnVTd1bTQwNnVzeEVxd3ByZmN5aWViVUZ5NENTUVJNY3ZONmRnSEU1c3dJY2EyK0FSMFNOZlIvdlY2ZzhqZGJFR2ZsNGk3bGtGTERDTklQMmpML0dzYWdzV2J2a2VIdVpSb0tzLS1yK2RCTEQyZVlCR05iYi9tRk1SQlJ3PT0%3D--38c01250b36a75df891cdbe5277a29e742929254; path=/; HttpOnly",
+        "X-Request-Id": "beee09aa-ff45-4565-aa92-90961713d04b",
+        "X-Runtime": "0.088595",
+        "Content-Length": "488"
+      },
+      "response_content_type": "application/json; charset=utf-8",
+      "curl": "curl \"http://localhost:3000/client/payments/new?order_id=3\" -X GET \\\n\t-H \"Access-Token: DV8KF25DKjczsAHz6C4hcw\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: TLQ4SrYhXX15YAW7gqZVpA\" \\\n\t-H \"Expiry: 1474546912\" \\\n\t-H \"Uid: 159catharine@kris.net\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
+    }
+  ]
+}

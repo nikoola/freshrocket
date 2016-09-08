@@ -1,0 +1,54 @@
+{
+  "resource": "client: users",
+  "http_method": "GET",
+  "route": "/client",
+  "description": "user gets self",
+  "explanation": "status 401 if user unauthenticated",
+  "parameters": [
+
+  ],
+  "response_fields": [
+
+  ],
+  "requests": [
+    {
+      "request_method": "GET",
+      "request_path": "/client",
+      "request_body": null,
+      "request_headers": {
+        "Access-Token": "V682m0l8IW8rFFC0Bot_jA",
+        "Token-Type": "Bearer",
+        "Client": "V3hUUOgcdPqJ6CfgUWZyyA",
+        "Expiry": "1474546913",
+        "Uid": "170marian_gottlieb@kertzmannfay.name",
+        "Host": "example.org",
+        "Cookie": ""
+      },
+      "request_query_parameters": {
+      },
+      "request_content_type": null,
+      "response_status": 200,
+      "response_status_text": "OK",
+      "response_body": "{\n  \"id\": 5,\n  \"first_name\": \"Graciela\",\n  \"last_name\": \"Durgan\",\n  \"email\": \"170marian_gottlieb@kertzmannfay.name\",\n  \"phone\": \"1396599230\",\n  \"is_verified\": false,\n  \"provider\": \"email\",\n  \"uid\": \"170marian_gottlieb@kertzmannfay.name\",\n  \"created_at\": \"2016-09-08T12:21:53.430Z\",\n  \"abilities\": {\n    \"orders\": 0,\n    \"products\": 0,\n    \"users\": 0,\n    \"categories\": 0,\n    \"coupons\": 0,\n    \"settings\": 0,\n    \"cities\": 0,\n    \"delivery_boy\": 0\n  },\n  \"addresses\": [\n\n  ],\n  \"orders\": [\n\n  ]\n}",
+      "response_headers": {
+        "X-Frame-Options": "SAMEORIGIN",
+        "X-XSS-Protection": "1; mode=block",
+        "X-Content-Type-Options": "nosniff",
+        "access-token": "V682m0l8IW8rFFC0Bot_jA",
+        "token-type": "Bearer",
+        "client": "V3hUUOgcdPqJ6CfgUWZyyA",
+        "expiry": "1474546913",
+        "uid": "170marian_gottlieb@kertzmannfay.name",
+        "Content-Type": "application/json; charset=utf-8",
+        "ETag": "W/\"b63e53f043415e32a82e45409d347d69\"",
+        "Cache-Control": "max-age=0, private, must-revalidate",
+        "Set-Cookie": "_session_id=RGFiWHkzWnBIL3A0N1VhdUtWdTZlem5tWHlxU3VXeUxucEtnVmtubDlzSDFuMnc1b2RCSkFtTHczQ1ZZTlhucURzQnJWRHBQZUpOdHovU0NjVS9YWnN2QlBCZGJtT2xmRXZEcGdyZ1FUdUc1ZnRDRGZUMDhldll3d2R5WldJZWkwSEJ5VTA4MzFkNXYxTEVLQ2c0YngxMEFhSlhxcHllNzB4clFWVkVpRVpiQjJMTFhhQXZlTkdtUHNXbmJFdDIvLS1kUS9PemRvUUE2T1FWaWFqOEl1YndnPT0%3D--2957ac4ce1bb486363f8875211417cbfa0447816; path=/; HttpOnly",
+        "X-Request-Id": "af81c234-95b2-41cb-8d98-1c06b5b67f2f",
+        "X-Runtime": "0.215633",
+        "Content-Length": "388"
+      },
+      "response_content_type": "application/json; charset=utf-8",
+      "curl": "curl \"http://localhost:3000/client\" -X GET \\\n\t-H \"Access-Token: V682m0l8IW8rFFC0Bot_jA\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: V3hUUOgcdPqJ6CfgUWZyyA\" \\\n\t-H \"Expiry: 1474546913\" \\\n\t-H \"Uid: 170marian_gottlieb@kertzmannfay.name\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
+    }
+  ]
+}

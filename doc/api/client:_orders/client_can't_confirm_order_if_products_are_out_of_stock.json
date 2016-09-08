@@ -1,0 +1,59 @@
+{
+  "resource": "client: orders",
+  "http_method": "PUT",
+  "route": "/client/orders/:id/update_status",
+  "description": "client can't confirm order if products are out of stock",
+  "explanation": null,
+  "parameters": [
+    {
+      "scope": "order",
+      "required": true,
+      "name": "action",
+      "description": "only :confirm is possible for this route (for client)"
+    }
+  ],
+  "response_fields": [
+
+  ],
+  "requests": [
+    {
+      "request_method": "PUT",
+      "request_path": "/client/orders/4/update_status",
+      "request_body": "order[action]=confirm",
+      "request_headers": {
+        "Access-Token": "x2jl0cuvEeyuyfRzdBjJAQ",
+        "Token-Type": "Bearer",
+        "Client": "JIwZzEfMamIBXZFBAlrTOg",
+        "Expiry": "1474546899",
+        "Uid": "154prince@sipeslehner.net",
+        "Host": "example.org",
+        "Content-Type": "application/x-www-form-urlencoded",
+        "Cookie": ""
+      },
+      "request_query_parameters": {
+      },
+      "request_content_type": "application/x-www-form-urlencoded",
+      "response_status": 422,
+      "response_status_text": "Unprocessable Entity",
+      "response_body": "{\n  \"stock shortage\": [\n    {\n      \"product.inventory_count\": 0,\n      \"line_item.amount\": 5,\n      \"product.id\": 13,\n      \"line_item.id\": 13\n    }\n  ]\n}",
+      "response_headers": {
+        "X-Frame-Options": "SAMEORIGIN",
+        "X-XSS-Protection": "1; mode=block",
+        "X-Content-Type-Options": "nosniff",
+        "access-token": "x2jl0cuvEeyuyfRzdBjJAQ",
+        "token-type": "Bearer",
+        "client": "JIwZzEfMamIBXZFBAlrTOg",
+        "expiry": "1474546899",
+        "uid": "154prince@sipeslehner.net",
+        "Content-Type": "application/json; charset=utf-8",
+        "Cache-Control": "no-cache",
+        "Set-Cookie": "_session_id=SFM2bzBabmRUNlRiRkcrdzJ2Mmw0SmM5eVBKdGRnNHFlWWxaVXg1a3pVdktSU21DVEFCMFBzT21WS0xORW5HN1NQTmtCOUk2NVBQd05uQzdDTmZzb1hDaFdjMXFDUVdYRFdydlF3V1k0dXJxWGpUY1dCYzN1M0lGNGtsRElRMWw5N3RMV0ZaMGM0Mk5PRWlkdnRkSVorRitacmJGaFB4bm5NeGxrTndsSkgrNkI1MHRBKzBtYVA3eFZnSUtMMURtLS1vM1pMT2NCK0FQcHoyTnFkcndwVzFRPT0%3D--71d11320242f6d245a2799594bc0c05d4f587b1f; path=/; HttpOnly",
+        "X-Request-Id": "9c2f27db-8f6c-4839-94f7-de51d839f510",
+        "X-Runtime": "0.086659",
+        "Content-Length": "105"
+      },
+      "response_content_type": "application/json; charset=utf-8",
+      "curl": "curl \"http://localhost:3000/client/orders/4/update_status\" -d 'order[action]=confirm' -X PUT \\\n\t-H \"Access-Token: x2jl0cuvEeyuyfRzdBjJAQ\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: JIwZzEfMamIBXZFBAlrTOg\" \\\n\t-H \"Expiry: 1474546899\" \\\n\t-H \"Uid: 154prince@sipeslehner.net\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+    }
+  ]
+}

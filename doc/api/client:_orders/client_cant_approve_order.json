@@ -1,0 +1,59 @@
+{
+  "resource": "client: orders",
+  "http_method": "PUT",
+  "route": "/client/orders/:id/update_status",
+  "description": "client cant approve order",
+  "explanation": null,
+  "parameters": [
+    {
+      "scope": "order",
+      "required": true,
+      "name": "action",
+      "description": "only :confirm is possible for this route (for client)"
+    }
+  ],
+  "response_fields": [
+
+  ],
+  "requests": [
+    {
+      "request_method": "PUT",
+      "request_path": "/client/orders/3/update_status",
+      "request_body": "order[action]=approve",
+      "request_headers": {
+        "Access-Token": "nciibqD8tArAU5Zeq31Jnw",
+        "Token-Type": "Bearer",
+        "Client": "gJQBz41O4fJPSpJuLrGZvQ",
+        "Expiry": "1474546870",
+        "Uid": "147maida_pfeffer@bergecarroll.com",
+        "Host": "example.org",
+        "Content-Type": "application/x-www-form-urlencoded",
+        "Cookie": ""
+      },
+      "request_query_parameters": {
+      },
+      "request_content_type": "application/x-www-form-urlencoded",
+      "response_status": 401,
+      "response_status_text": "Unauthorized",
+      "response_body": "{\n  \"error\": \"this user can't approve order\"\n}",
+      "response_headers": {
+        "X-Frame-Options": "SAMEORIGIN",
+        "X-XSS-Protection": "1; mode=block",
+        "X-Content-Type-Options": "nosniff",
+        "access-token": "nciibqD8tArAU5Zeq31Jnw",
+        "token-type": "Bearer",
+        "client": "gJQBz41O4fJPSpJuLrGZvQ",
+        "expiry": "1474546870",
+        "uid": "147maida_pfeffer@bergecarroll.com",
+        "Content-Type": "application/json; charset=utf-8",
+        "Cache-Control": "no-cache",
+        "Set-Cookie": "_session_id=Um5xV1kvdVlmNTVaSEF5Mk12OEJJVXk3R09kT3ZSMkU5U3hJeHErWHlWS252ZERLM2N4a3Z3SmxuRHN2cnN2OGV4YkRRMWl3aXBHd3FWRTBhWWFBdHg2OXcvUDUzQ1BRdE1jWk1ReXRWdmQvVDhYUjMvZnhPOHhaQkROVlZHZkkrUnlxdWN4eGxEK1JGanZJcGsrUUpjYjN4bXd2NWwyQUhrbTgva0hMd0NDdWZKRE94K1EzMXQvenhkeW54d21FLS1lM01yK3h1VmpjUVBkSDZSMHlLU0RnPT0%3D--d5a55512e6c0d9fe49a53fadd232c761c61d6e55; path=/; HttpOnly",
+        "X-Request-Id": "3e85e797-949f-44a1-8623-3c70e8c28580",
+        "X-Runtime": "0.084286",
+        "Content-Length": "41"
+      },
+      "response_content_type": "application/json; charset=utf-8",
+      "curl": "curl \"http://localhost:3000/client/orders/3/update_status\" -d 'order[action]=approve' -X PUT \\\n\t-H \"Access-Token: nciibqD8tArAU5Zeq31Jnw\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: gJQBz41O4fJPSpJuLrGZvQ\" \\\n\t-H \"Expiry: 1474546870\" \\\n\t-H \"Uid: 147maida_pfeffer@bergecarroll.com\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+    }
+  ]
+}

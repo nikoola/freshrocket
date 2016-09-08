@@ -1,0 +1,54 @@
+{
+  "resource": "deliver: positions",
+  "http_method": "GET",
+  "route": "/orders/:id/positions",
+  "description": "get a map trace for some order",
+  "explanation": "available for delivery_boy's order, own client's order, or for user with orders ability",
+  "parameters": [
+
+  ],
+  "response_fields": [
+
+  ],
+  "requests": [
+    {
+      "request_method": "GET",
+      "request_path": "/orders/3/positions",
+      "request_body": null,
+      "request_headers": {
+        "Access-Token": "IFvCcmu3BzhmiSP0hpLIaw",
+        "Token-Type": "Bearer",
+        "Client": "Mr4noe1TQcKDF7PmYqSudA",
+        "Expiry": "1474546989",
+        "Uid": "195nicholaus_jast@kuhnborer.com",
+        "Host": "example.org",
+        "Cookie": ""
+      },
+      "request_query_parameters": {
+      },
+      "request_content_type": null,
+      "response_status": 200,
+      "response_status_text": "OK",
+      "response_body": "{\n  \"positions\": [\n    \"42.10808340000001,87.735895\"\n  ]\n}",
+      "response_headers": {
+        "X-Frame-Options": "SAMEORIGIN",
+        "X-XSS-Protection": "1; mode=block",
+        "X-Content-Type-Options": "nosniff",
+        "access-token": "IFvCcmu3BzhmiSP0hpLIaw",
+        "token-type": "Bearer",
+        "client": "Mr4noe1TQcKDF7PmYqSudA",
+        "expiry": "1474546989",
+        "uid": "195nicholaus_jast@kuhnborer.com",
+        "Content-Type": "application/json; charset=utf-8",
+        "ETag": "W/\"9b640a40281e425b74acd110f4f8c677\"",
+        "Cache-Control": "max-age=0, private, must-revalidate",
+        "Set-Cookie": "_session_id=NlY3S1NCcDNQMktjTWM0OVhQUEpKcFBnWFBuSnBaaEZiNUhwa1hpUnNlalVwYlZFUE9nZUNBaWQ4VTY2c0pVbjd6Z1NaNC9mM0FLR3NMZU5qSmVQZjNtUFhmYjQwOHNLMm04ZE9rVVBCcEhsUFZIK1duRWJxbW9CZEVJeUtWdFcxK0dLWDdSTHB0WTBwNUhsRUIraE05VXhMbHFUYUZYVjBHQWhzRGo3dUNHS2NBRGJLT0JYNElhd3lrNStxU2N6LS1MajdnMktGQ2VjN2l3YmEwZTRsU3Z3PT0%3D--7d4cb6b64008d7a81635581c21837ef520e850ba; path=/; HttpOnly",
+        "X-Request-Id": "1b9eb267-7dba-4913-b25d-52f13a1f7ae1",
+        "X-Runtime": "0.102451",
+        "Content-Length": "45"
+      },
+      "response_content_type": "application/json; charset=utf-8",
+      "curl": "curl \"http://localhost:3000/orders/3/positions\" -X GET \\\n\t-H \"Access-Token: IFvCcmu3BzhmiSP0hpLIaw\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: Mr4noe1TQcKDF7PmYqSudA\" \\\n\t-H \"Expiry: 1474546989\" \\\n\t-H \"Uid: 195nicholaus_jast@kuhnborer.com\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
+    }
+  ]
+}

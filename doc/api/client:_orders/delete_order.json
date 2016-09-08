@@ -1,0 +1,54 @@
+{
+  "resource": "client: orders",
+  "http_method": "DELETE",
+  "route": "/client/orders/:id",
+  "description": "delete order",
+  "explanation": null,
+  "parameters": [
+
+  ],
+  "response_fields": [
+
+  ],
+  "requests": [
+    {
+      "request_method": "DELETE",
+      "request_path": "/client/orders/3",
+      "request_body": null,
+      "request_headers": {
+        "Access-Token": "FrgxehKOofWRX9p07p6PIg",
+        "Token-Type": "Bearer",
+        "Client": "1Q0IiLbH-DMtzeA54UwyWA",
+        "Expiry": "1474546850",
+        "Uid": "141maryse.williamson@romagueradamore.net",
+        "Host": "example.org",
+        "Content-Type": "application/x-www-form-urlencoded",
+        "Cookie": ""
+      },
+      "request_query_parameters": {
+      },
+      "request_content_type": "application/x-www-form-urlencoded",
+      "response_status": 200,
+      "response_status_text": "OK",
+      "response_body": null,
+      "response_headers": {
+        "X-Frame-Options": "SAMEORIGIN",
+        "X-XSS-Protection": "1; mode=block",
+        "X-Content-Type-Options": "nosniff",
+        "access-token": "FrgxehKOofWRX9p07p6PIg",
+        "token-type": "Bearer",
+        "client": "1Q0IiLbH-DMtzeA54UwyWA",
+        "expiry": "1474546850",
+        "uid": "141maryse.williamson@romagueradamore.net",
+        "Content-Type": "text/html",
+        "Cache-Control": "no-cache",
+        "Set-Cookie": "_session_id=ZTBhOHhLODFqOTR0a0t3SjYrYU1pYUJvOGRveVNlZTVQRG9lV2srZUxMNWNLaFloRWJQYUd3WVFrZHQ5Uzk5S005Zis4TWlVQ3FoR3JjbnVlMEpCWUlWTXpxR1BKZHRWd3ZIWlBPZHV2eW1sRW1RY1RRUWdNR1dGSEF5UVYxanFPOEFTNTVncTJ1OG43dVl2Q1ZhYkVMNlhzZEF5NE40dlQ0NkRUNW1UWllrRnpWV0hrL0J1WktBejNOeG9id0U2LS0zazhyUngyZFpHWkR4ZzR3eUdCMDR3PT0%3D--a7c6d8e1bc6e93858978cc2dab17f0f52e79035a; path=/; HttpOnly",
+        "X-Request-Id": "f9c7cfb4-85da-485f-885b-aa0e4f061fe2",
+        "X-Runtime": "0.074473",
+        "Content-Length": "0"
+      },
+      "response_content_type": "text/html",
+      "curl": "curl \"http://localhost:3000/client/orders/3\" -d '' -X DELETE \\\n\t-H \"Access-Token: FrgxehKOofWRX9p07p6PIg\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: 1Q0IiLbH-DMtzeA54UwyWA\" \\\n\t-H \"Expiry: 1474546850\" \\\n\t-H \"Uid: 141maryse.williamson@romagueradamore.net\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+    }
+  ]
+}
