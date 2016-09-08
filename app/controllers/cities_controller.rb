@@ -1,7 +1,7 @@
 class CitiesController < ApplicationController
 
 	def index
-		@cities = City.filter params.slice(:active, :containing_coordinate)
+		@cities = City.filter params.slice(:active, :name)
 		render json: @cities, include: params[:include]
 	end
 
