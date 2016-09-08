@@ -7,7 +7,10 @@ module Filterable
 		def filter filtering_params
 			results = self.where(nil)
 			filtering_params.each do |key, value|
-				results = results.public_send(key, value) # if value.present?
+				if key == :name
+					results = results.public_send(:starts_with, value) # if value.present?					
+				else
+					results = results.public_send(key, value) # if value.present?
 				# User.active(true)
 			end
 			results
