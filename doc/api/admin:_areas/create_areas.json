@@ -1,0 +1,84 @@
+{
+  "resource": "admin: areas",
+  "http_method": "POST",
+  "route": "/admin/areas",
+  "description": "create areas",
+  "explanation": null,
+  "parameters": [
+    {
+      "scope": "area",
+      "required": true,
+      "name": "city_id",
+      "description": "Area city"
+    },
+    {
+      "scope": "area",
+      "required": true,
+      "name": "stringified_coordinate",
+      "description": "Area stringified coordinate"
+    },
+    {
+      "scope": "area",
+      "required": true,
+      "name": "radius",
+      "description": "Area radius"
+    },
+    {
+      "scope": "area",
+      "required": true,
+      "name": "name",
+      "description": "Area name"
+    },
+    {
+      "scope": "area",
+      "required": true,
+      "name": "active",
+      "description": "Area active"
+    }
+  ],
+  "response_fields": [
+
+  ],
+  "requests": [
+    {
+      "request_method": "POST",
+      "request_path": "/admin/areas",
+      "request_body": "area[id]&area[name]=Siliguri%2C+West+Bengal+734001%2C+India&area[radius]=5.0&area[city_id]=1&area[active]=true&area[lat]=26.7271012&area[lng]=88.3952861&area[created_at]&area[updated_at]&area[stringified_coordinate]=%5B26.7271012%2C88.3952861%5D",
+      "request_headers": {
+        "Access-Token": "7aLxmFO5vL5ILO9EkrF8Pg",
+        "Token-Type": "Bearer",
+        "Client": "UzDWgaz7Q6E9TrZ232maow",
+        "Expiry": "1474537054",
+        "Uid": "6jarred_smitham@mertzlockman.co",
+        "Host": "example.org",
+        "Content-Type": "application/x-www-form-urlencoded",
+        "Cookie": ""
+      },
+      "request_query_parameters": {
+      },
+      "request_content_type": "application/x-www-form-urlencoded",
+      "response_status": 201,
+      "response_status_text": "Created",
+      "response_body": "{\n  \"id\": 2,\n  \"name\": \"Siliguri, West Bengal 734001, India\",\n  \"radius\": \"5.0\",\n  \"active\": true\n}",
+      "response_headers": {
+        "X-Frame-Options": "SAMEORIGIN",
+        "X-XSS-Protection": "1; mode=block",
+        "X-Content-Type-Options": "nosniff",
+        "access-token": "7aLxmFO5vL5ILO9EkrF8Pg",
+        "token-type": "Bearer",
+        "client": "UzDWgaz7Q6E9TrZ232maow",
+        "expiry": "1474537054",
+        "uid": "6jarred_smitham@mertzlockman.co",
+        "Content-Type": "application/json; charset=utf-8",
+        "ETag": "W/\"74f55f87f37b76052780c5198c5b4df1\"",
+        "Cache-Control": "max-age=0, private, must-revalidate",
+        "Set-Cookie": "_session_id=V3ppQTI1ekZ2K1NQRVFPYzk0aHRjTWhyWEhJd2dVandEd0Y3MmtvSTF0Z2M3ZC9CM3M4ZmpOQ3hpTGRNRExYOUF0VlptK0RraGJZVy9yT1g2NmJVMi9CVGNGdkdtYTBrSXI4emw2RkZLc2w5VDE2YlVNL0pRMEJYTG1sTThzbGNhekVMUzhDRXl2b3ozQ01vUURLaUhaZnkzVTdLMXc0OTBzL3hQN2tacmhMMk9DWnhnK2JoejNFV3hvNm9YTlgzLS03NDk2QkFiMSs4K3Q0Mm9Vd0dXMmN3PT0%3D--4e0d0c9cd554f6acb803bc3c5305b40c0d95aa56; path=/; HttpOnly",
+        "X-Request-Id": "dc1f160b-a193-45e6-86dd-1151d61a62ad",
+        "X-Runtime": "0.083450",
+        "Content-Length": "82"
+      },
+      "response_content_type": "application/json; charset=utf-8",
+      "curl": "curl \"http://localhost:3000/admin/areas\" -d 'area[id]&area[name]=Siliguri%2C+West+Bengal+734001%2C+India&area[radius]=5.0&area[city_id]=1&area[active]=true&area[lat]=26.7271012&area[lng]=88.3952861&area[created_at]&area[updated_at]&area[stringified_coordinate]=%5B26.7271012%2C88.3952861%5D' -X POST \\\n\t-H \"Access-Token: 7aLxmFO5vL5ILO9EkrF8Pg\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: UzDWgaz7Q6E9TrZ232maow\" \\\n\t-H \"Expiry: 1474537054\" \\\n\t-H \"Uid: 6jarred_smitham@mertzlockman.co\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+    }
+  ]
+}

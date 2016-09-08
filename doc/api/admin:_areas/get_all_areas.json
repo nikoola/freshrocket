@@ -1,0 +1,58 @@
+{
+  "resource": "admin: areas",
+  "http_method": "GET",
+  "route": "/admin/areas",
+  "description": "get all areas",
+  "explanation": null,
+  "parameters": [
+    {
+      "name": "active",
+      "description": "0/1. is inactive if user tried to delete order, but it was already mentioned in any orders"
+    }
+  ],
+  "response_fields": [
+
+  ],
+  "requests": [
+    {
+      "request_method": "GET",
+      "request_path": "/admin/areas?active=0",
+      "request_body": null,
+      "request_headers": {
+        "Access-Token": "UwEy3PS2hJxLQqCWr8r3wg",
+        "Token-Type": "Bearer",
+        "Client": "h62bJGFT9iPxb4euOQNPrQ",
+        "Expiry": "1474537050",
+        "Uid": "5frederick_considine@pfeffer.name",
+        "Host": "example.org",
+        "Cookie": ""
+      },
+      "request_query_parameters": {
+        "active": "0"
+      },
+      "request_content_type": null,
+      "response_status": 200,
+      "response_status_text": "OK",
+      "response_body": "[\n  {\n    \"id\": 1,\n    \"name\": \"Bhopal, Madhya Pradesh 462001, India\",\n    \"radius\": \"5.0\",\n    \"active\": false\n  },\n  {\n    \"id\": 2,\n    \"name\": \"Visakhapatnam, Andhra Pradesh 530001, India\",\n    \"radius\": \"5.0\",\n    \"active\": false\n  },\n  {\n    \"id\": 3,\n    \"name\": \"Vadodara, Gujarat, India\",\n    \"radius\": \"5.0\",\n    \"active\": false\n  }\n]",
+      "response_headers": {
+        "X-Frame-Options": "SAMEORIGIN",
+        "X-XSS-Protection": "1; mode=block",
+        "X-Content-Type-Options": "nosniff",
+        "access-token": "UwEy3PS2hJxLQqCWr8r3wg",
+        "token-type": "Bearer",
+        "client": "h62bJGFT9iPxb4euOQNPrQ",
+        "expiry": "1474537050",
+        "uid": "5frederick_considine@pfeffer.name",
+        "Content-Type": "application/json; charset=utf-8",
+        "ETag": "W/\"3d946ce858aa44c92f7b2a0fa0bfca85\"",
+        "Cache-Control": "max-age=0, private, must-revalidate",
+        "Set-Cookie": "_session_id=TFBnc3VYUG9iN1VBSDh6U09mT3dNbUlkRGpVaS9OeG5YOHBUSFNvRG9DTVZycVNBUEJBTVBkYnF3S1djS0V3YnFnL3RGdklLUFJuYmpIcWVuajFmdWhpU25KY3owMUFpUjN5cklzQVZ2ZlpVTGlTZzZocllleHVPRlpWamJ5Z3I2WFdWcFhRM1hCMDZReHY1VjRhOU43VzBnVUdvOWRQREI5M0NTRS81MFVtMHVUV0IxbHhSSy85aGFxT0JvTWI1LS1QNDZoUFFQeXNUYmVDdWM2emdENkl3PT0%3D--d2584fe37bc33eeb1b12f359d1724ac2d0648500; path=/; HttpOnly",
+        "X-Request-Id": "efea9ef3-fbee-47ba-bfab-9e4397cdf9c9",
+        "X-Runtime": "0.100523",
+        "Content-Length": "251"
+      },
+      "response_content_type": "application/json; charset=utf-8",
+      "curl": "curl \"http://localhost:3000/admin/areas?active=0\" -X GET \\\n\t-H \"Access-Token: UwEy3PS2hJxLQqCWr8r3wg\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: h62bJGFT9iPxb4euOQNPrQ\" \\\n\t-H \"Expiry: 1474537050\" \\\n\t-H \"Uid: 5frederick_considine@pfeffer.name\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
+    }
+  ]
+}

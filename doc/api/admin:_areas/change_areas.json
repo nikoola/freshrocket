@@ -1,0 +1,55 @@
+{
+  "resource": "admin: areas",
+  "http_method": "PUT",
+  "route": "/admin/areas/:id",
+  "description": "change areas",
+  "explanation": "fails if area has been used in any approved orders",
+  "parameters": [
+
+  ],
+  "response_fields": [
+
+  ],
+  "requests": [
+    {
+      "request_method": "PUT",
+      "request_path": "/admin/areas/1",
+      "request_body": "area[name]=good",
+      "request_headers": {
+        "Access-Token": "elosSgYXyGf0OSjaoXHOgw",
+        "Token-Type": "Bearer",
+        "Client": "Logwg7dzIrFj2KuSpJhrAg",
+        "Expiry": "1474537057",
+        "Uid": "7joannie@monahanwill.net",
+        "Host": "example.org",
+        "Content-Type": "application/x-www-form-urlencoded",
+        "Cookie": ""
+      },
+      "request_query_parameters": {
+      },
+      "request_content_type": "application/x-www-form-urlencoded",
+      "response_status": 200,
+      "response_status_text": "OK",
+      "response_body": "{\n  \"id\": 1,\n  \"name\": \"good\",\n  \"radius\": \"5.0\",\n  \"active\": true\n}",
+      "response_headers": {
+        "X-Frame-Options": "SAMEORIGIN",
+        "X-XSS-Protection": "1; mode=block",
+        "X-Content-Type-Options": "nosniff",
+        "access-token": "elosSgYXyGf0OSjaoXHOgw",
+        "token-type": "Bearer",
+        "client": "Logwg7dzIrFj2KuSpJhrAg",
+        "expiry": "1474537057",
+        "uid": "7joannie@monahanwill.net",
+        "Content-Type": "application/json; charset=utf-8",
+        "ETag": "W/\"82fe00e5a9ec94e6ebda9ccd72b1291c\"",
+        "Cache-Control": "max-age=0, private, must-revalidate",
+        "Set-Cookie": "_session_id=Ung4NmVDNjNyeXNJVkUvblp2MFNiNlVXcmtSSnRIeHVXMXliRm5KMFYxelFGNkJReGdCM3NQV2dIVkVwYVNBTDJZcVUzcmZ3MU16L3RsS1hqT2xXUno1QUQ0Qy9sQkw2UWU5SVlQY0c1Z2poVndYZkExaHZmdG5kUFBka0pBcjIzdkFHQzduamtyUWJhUFRaTCt3RUZ3aE4yUU5qM0VldU1mUjJpbW84N3NHQ0JWOTlWZ2FueWdmODNEWFlNZTczLS1lMzZaZGwyNXlPdkg0REJMSkdLaS9RPT0%3D--abd228857db70cdcf501ffd6630a41c42b60db34; path=/; HttpOnly",
+        "X-Request-Id": "41a621a4-149f-4bb8-a6b1-6234767a634d",
+        "X-Runtime": "0.080780",
+        "Content-Length": "51"
+      },
+      "response_content_type": "application/json; charset=utf-8",
+      "curl": "curl \"http://localhost:3000/admin/areas/1\" -d 'area[name]=good' -X PUT \\\n\t-H \"Access-Token: elosSgYXyGf0OSjaoXHOgw\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: Logwg7dzIrFj2KuSpJhrAg\" \\\n\t-H \"Expiry: 1474537057\" \\\n\t-H \"Uid: 7joannie@monahanwill.net\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+    }
+  ]
+}
