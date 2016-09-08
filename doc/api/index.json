@@ -34,6 +34,39 @@
       ]
     },
     {
+      "name": "admin: areas",
+      "examples": [
+        {
+          "description": "change areas",
+          "link": "admin:_areas/change_areas.json",
+          "groups": "all",
+          "route": "/admin/areas/:id",
+          "method": "put"
+        },
+        {
+          "description": "create areas",
+          "link": "admin:_areas/create_areas.json",
+          "groups": "all",
+          "route": "/admin/areas",
+          "method": "post"
+        },
+        {
+          "description": "deletes areas",
+          "link": "admin:_areas/deletes_areas.json",
+          "groups": "all",
+          "route": "/admin/areas/:id",
+          "method": "delete"
+        },
+        {
+          "description": "get all areas",
+          "link": "admin:_areas/get_all_areas.json",
+          "groups": "all",
+          "route": "/admin/areas",
+          "method": "get"
+        }
+      ]
+    },
+    {
       "name": "admin: categories",
       "examples": [
         {
@@ -42,32 +75,6 @@
           "groups": "all",
           "route": "/admin/categories/:id",
           "method": "delete"
-        }
-      ]
-    },
-    {
-      "name": "admin: cities",
-      "examples": [
-        {
-          "description": "create city",
-          "link": "admin:_cities/create_city.json",
-          "groups": "all",
-          "route": "/admin/cities",
-          "method": "post"
-        },
-        {
-          "description": "delete city",
-          "link": "admin:_cities/delete_city.json",
-          "groups": "all",
-          "route": "/admin/cities/:id",
-          "method": "delete"
-        },
-        {
-          "description": "update city",
-          "link": "admin:_cities/update_city.json",
-          "groups": "all",
-          "route": "/admin/cities/:id",
-          "method": "put"
         }
       ]
     },
@@ -105,27 +112,8 @@
       ]
     },
     {
-      "name": "admin: delivery boys",
-      "examples": [
-        {
-          "description": "get filtered delivery_boys",
-          "link": "admin:_delivery_boys/get_filtered_delivery_boys.json",
-          "groups": "all",
-          "route": "/admin/delivery_boys",
-          "method": "get"
-        }
-      ]
-    },
-    {
       "name": "admin: orders",
       "examples": [
-        {
-          "description": "approve confirmed order",
-          "link": "admin:_orders/approve_confirmed_order.json",
-          "groups": "all",
-          "route": "/admin/orders/:id/update_status",
-          "method": "put"
-        },
         {
           "description": "cant update to dispatched if delivery has no delivery_boy",
           "link": "admin:_orders/cant_update_to_dispatched_if_delivery_has_no_delivery_boy.json",
@@ -141,25 +129,11 @@
           "method": "post"
         },
         {
-          "description": "get filtered orders",
-          "link": "admin:_orders/get_filtered_orders.json",
-          "groups": "all",
-          "route": "/admin/orders",
-          "method": "get"
-        },
-        {
           "description": "get order",
           "link": "admin:_orders/get_order.json",
           "groups": "all",
           "route": "/admin/orders/:id",
           "method": "get"
-        },
-        {
-          "description": "update order",
-          "link": "admin:_orders/update_order.json",
-          "groups": "all",
-          "route": "/admin/orders/:id",
-          "method": "put"
         }
       ]
     },
@@ -238,13 +212,6 @@
           "method": "post"
         },
         {
-          "description": "get all users",
-          "link": "admin:_users/get_all_users.json",
-          "groups": "all",
-          "route": "/admin/users",
-          "method": "get"
-        },
-        {
           "description": "get user",
           "link": "admin:_users/get_user.json",
           "groups": "all",
@@ -287,25 +254,6 @@
       ]
     },
     {
-      "name": "cities",
-      "examples": [
-        {
-          "description": "get all cities",
-          "link": "cities/get_all_cities.json",
-          "groups": "all",
-          "route": "/cities",
-          "method": "get"
-        },
-        {
-          "description": "get city",
-          "link": "cities/get_city.json",
-          "groups": "all",
-          "route": "/cities/:id",
-          "method": "get"
-        }
-      ]
-    },
-    {
       "name": "client: addresses",
       "examples": [
         {
@@ -316,25 +264,11 @@
           "method": "put"
         },
         {
-          "description": "create own address",
-          "link": "client:_addresses/create_own_address.json",
-          "groups": "all",
-          "route": "/client/addresses",
-          "method": "post"
-        },
-        {
           "description": "deletes own address",
           "link": "client:_addresses/deletes_own_address.json",
           "groups": "all",
           "route": "/client/addresses/:id",
           "method": "delete"
-        },
-        {
-          "description": "get all own addresses",
-          "link": "client:_addresses/get_all_own_addresses.json",
-          "groups": "all",
-          "route": "/client/addresses",
-          "method": "get"
         }
       ]
     },
@@ -368,228 +302,6 @@
           "groups": "all",
           "route": "/auth/sign_out",
           "method": "delete"
-        }
-      ]
-    },
-    {
-      "name": "client: orders",
-      "examples": [
-        {
-          "description": "client can't confirm order if products are out of stock",
-          "link": "client:_orders/client_can't_confirm_order_if_products_are_out_of_stock.json",
-          "groups": "all",
-          "route": "/client/orders/:id/update_status",
-          "method": "put"
-        },
-        {
-          "description": "client cant approve order",
-          "link": "client:_orders/client_cant_approve_order.json",
-          "groups": "all",
-          "route": "/client/orders/:id/update_status",
-          "method": "put"
-        },
-        {
-          "description": "client confirms order",
-          "link": "client:_orders/client_confirms_order.json",
-          "groups": "all",
-          "route": "/client/orders/:id/update_status",
-          "method": "put"
-        },
-        {
-          "description": "create current user's order",
-          "link": "client:_orders/create_current_user's_order.json",
-          "groups": "all",
-          "route": "client/orders",
-          "method": "post"
-        },
-        {
-          "description": "delete order",
-          "link": "client:_orders/delete_order.json",
-          "groups": "all",
-          "route": "/client/orders/:id",
-          "method": "delete"
-        },
-        {
-          "description": "delete order: after confirm",
-          "link": "client:_orders/delete_order:_after_confirm.json",
-          "groups": "all",
-          "route": "/client/orders/:id",
-          "method": "delete"
-        },
-        {
-          "description": "get all current user's orders",
-          "link": "client:_orders/get_all_current_user's_orders.json",
-          "groups": "all",
-          "route": "/client/orders",
-          "method": "get"
-        },
-        {
-          "description": "get approximate prices for a new order",
-          "link": "client:_orders/get_approximate_prices_for_a_new_order.json",
-          "groups": "all",
-          "route": "/client/orders/precalculate_price",
-          "method": "post"
-        },
-        {
-          "description": "if order is approved it cant be confirmed",
-          "link": "client:_orders/if_order_is_approved_it_cant_be_confirmed.json",
-          "groups": "all",
-          "route": "/client/orders/:id/update_status",
-          "method": "put"
-        },
-        {
-          "description": "update current user's order",
-          "link": "client:_orders/update_current_user's_order.json",
-          "groups": "all",
-          "route": "client/orders/:id",
-          "method": "put"
-        }
-      ]
-    },
-    {
-      "name": "client: payments",
-      "examples": [
-        {
-          "description": "return all forms for payment for own order",
-          "link": "client:_payments/return_all_forms_for_payment_for_own_order.json",
-          "groups": "all",
-          "route": "/client/payments/new",
-          "method": "get"
-        }
-      ]
-    },
-    {
-      "name": "client: users",
-      "examples": [
-        {
-          "description": "create user",
-          "link": "client:_users/create_user.json",
-          "groups": "all",
-          "route": "/auth",
-          "method": "post"
-        },
-        {
-          "description": "create user: invalid params",
-          "link": "client:_users/create_user:_invalid_params.json",
-          "groups": "all",
-          "route": "/auth",
-          "method": "post"
-        },
-        {
-          "description": "user gets self",
-          "link": "client:_users/user_gets_self.json",
-          "groups": "all",
-          "route": "/client",
-          "method": "get"
-        },
-        {
-          "description": "user updates self",
-          "link": "client:_users/user_updates_self.json",
-          "groups": "all",
-          "route": "/auth",
-          "method": "put"
-        },
-        {
-          "description": "user updates self: invalid params",
-          "link": "client:_users/user_updates_self:_invalid_params.json",
-          "groups": "all",
-          "route": "/auth",
-          "method": "put"
-        },
-        {
-          "description": "verifies phone",
-          "link": "client:_users/verifies_phone.json",
-          "groups": "all",
-          "route": "/client/verify",
-          "method": "put"
-        }
-      ]
-    },
-    {
-      "name": "deliver: delivery boys",
-      "examples": [
-        {
-          "description": "update self",
-          "link": "deliver:_delivery_boys/update_self.json",
-          "groups": "all",
-          "route": "/deliver/delivery_boy",
-          "method": "put"
-        }
-      ]
-    },
-    {
-      "name": "deliver: orders",
-      "examples": [
-        {
-          "description": "get current delivery_boy's orders",
-          "link": "deliver:_orders/get_current_delivery_boy's_orders.json",
-          "groups": "all",
-          "route": "deliver/orders",
-          "method": "get"
-        },
-        {
-          "description": "update order",
-          "link": "deliver:_orders/update_order.json",
-          "groups": "all",
-          "route": "deliver/orders/:id",
-          "method": "put"
-        },
-        {
-          "description": "update status of delivery_boy's order",
-          "link": "deliver:_orders/update_status_of_delivery_boy's_order.json",
-          "groups": "all",
-          "route": "deliver/orders/:id/update_status",
-          "method": "put"
-        }
-      ]
-    },
-    {
-      "name": "forms",
-      "examples": [
-        {
-          "description": "send email to admins",
-          "link": "forms/send_email_to_admins.json",
-          "groups": "all",
-          "route": "/forms/contact",
-          "method": "post"
-        }
-      ]
-    },
-    {
-      "name": "products",
-      "examples": [
-        {
-          "description": "get all products",
-          "link": "products/get_all_products.json",
-          "groups": "all",
-          "route": "/products",
-          "method": "get"
-        },
-        {
-          "description": "get filtered products",
-          "link": "products/get_filtered_products.json",
-          "groups": "all",
-          "route": "/products",
-          "method": "get"
-        },
-        {
-          "description": "get product",
-          "link": "products/get_product.json",
-          "groups": "all",
-          "route": "/products/:id",
-          "method": "get"
-        }
-      ]
-    },
-    {
-      "name": "users",
-      "examples": [
-        {
-          "description": "sends password recovery email",
-          "link": "users/sends_password_recovery_email.json",
-          "groups": "all",
-          "route": "/users/send_sms_with_recovery_password",
-          "method": "post"
         }
       ]
     }

@@ -13,37 +13,42 @@
   "requests": [
     {
       "request_method": "GET",
-      "request_path": "/auth/validate_token?access-token=R316wYh6_CCn8CCZO4QHNw&token-type=Bearer&client=GuWrfeiI4OXJpMIQ5hxSdg&expiry=1467100268&uid=125osborne.schaden%40sauer.co",
+      "request_path": "/auth/validate_token?access-token=OVYe-o0mQARIjYdLISQeoA&token-type=Bearer&client=p3PnRsdjuKi5V7Vl10rtiw&expiry=1474537278&uid=122lou.dooley%40gutmannhyatt.com",
       "request_body": null,
       "request_headers": {
         "Host": "example.org",
         "Cookie": ""
       },
       "request_query_parameters": {
-        "access-token": "R316wYh6_CCn8CCZO4QHNw",
+        "access-token": "OVYe-o0mQARIjYdLISQeoA",
         "token-type": "Bearer",
-        "client": "GuWrfeiI4OXJpMIQ5hxSdg",
-        "expiry": "1467100268",
-        "uid": "125osborne.schaden@sauer.co"
+        "client": "p3PnRsdjuKi5V7Vl10rtiw",
+        "expiry": "1474537278",
+        "uid": "122lou.dooley@gutmannhyatt.com"
       },
       "request_content_type": null,
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\n  \"success\": true,\n  \"data\": {\n    \"id\": 1,\n    \"first_name\": \"Moses\",\n    \"last_name\": \"Lynch\",\n    \"email\": \"125osborne.schaden@sauer.co\",\n    \"phone\": \"9923574943\",\n    \"is_verified\": false,\n    \"provider\": \"email\",\n    \"uid\": \"125osborne.schaden@sauer.co\",\n    \"created_at\": \"2016-06-14T07:51:08.686Z\",\n    \"abilities\": {\n      \"orders\": 0,\n      \"products\": 0,\n      \"users\": 0,\n      \"categories\": 0,\n      \"coupons\": 0,\n      \"settings\": 0,\n      \"cities\": 0,\n      \"delivery_boy\": 0\n    },\n    \"addresses\": [\n\n    ],\n    \"orders\": [\n\n    ]\n  }\n}",
+      "response_body": "{\n  \"success\": true,\n  \"data\": {\n    \"id\": 1,\n    \"first_name\": \"Ernestine\",\n    \"last_name\": \"Dare\",\n    \"email\": \"122lou.dooley@gutmannhyatt.com\",\n    \"phone\": \"8582047975\",\n    \"is_verified\": false,\n    \"provider\": \"email\",\n    \"uid\": \"122lou.dooley@gutmannhyatt.com\",\n    \"created_at\": \"2016-09-08T09:41:18.432Z\",\n    \"abilities\": {\n      \"orders\": 0,\n      \"products\": 0,\n      \"users\": 0,\n      \"categories\": 0,\n      \"coupons\": 0,\n      \"settings\": 0,\n      \"cities\": 0,\n      \"delivery_boy\": 0\n    },\n    \"addresses\": [\n\n    ],\n    \"orders\": [\n\n    ]\n  }\n}",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
+        "access-token": "OVYe-o0mQARIjYdLISQeoA",
+        "token-type": "Bearer",
+        "client": "p3PnRsdjuKi5V7Vl10rtiw",
+        "expiry": "1474537278",
+        "uid": "122lou.dooley@gutmannhyatt.com",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"6e319c0df4651785df6465a63b6c8fca\"",
+        "ETag": "W/\"7a7f150aa003aa1daab539698b5750e5\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=ZE1XM1JHaUdkclJLL3hCL1AvUTMrSjlMVFQ1TzVmVTFWelpGbEl0ZGJ3ZE5oRnp0WURacEoyN0VPVUtXUjVyVWJveHBobHJncXdkQ0ZBazA4Mkw4dGFzOU5uRXRQUG1DZis0QUljcUM0V2NHTjlDdzJXaWtITk5TM29qd0g3dlVqSWlMT2grRWlveVd4dkxyRGZyQkI0cTZFdnh3aFl1RVB4c3ZOK05tL1R2Tm9VSmZLWDZCRm1SU1FORnNkMjM2LS1YbWl2M1ZMV2R0ZGo2VmxWbC9zanZBPT0%3D--c91b59d414fb464e498079f1cb68bc3df1bb213b; path=/; HttpOnly",
-        "X-Request-Id": "b67f4777-01a1-4d68-8272-bc0c16f7ee8d",
-        "X-Runtime": "0.070555",
-        "Content-Length": "390"
+        "Set-Cookie": "_session_id=emdmR2FYOHZPMlk4cE9hTWZ2K2JsK04yTk44RWNac1Q0TS8xWWltTGdkN0FrUW9iYVZKeG5LY2haZmFqOEhNSkdPTmhUZ1VQSm1NNXlFdS9adVV4TldPUEhIV1VHM3VkSzQ2TTdNRUNQcmlscGNrb01xaFBWM0pDRG1uRnRHaVVqREYzdWJralFDQTJSYm1tTFNKblFpN3ZZb1Zycjh6dExPVUFYYmN6NlBzaVJGNEl3WFhEblV4WVVHc205aFZULS05a3dzOVo3dUVGNHBEeFIwZWtHY3pRPT0%3D--4511222eb91dfacc7ff30e8e9658c723a53cb1c1; path=/; HttpOnly",
+        "X-Request-Id": "3faebeca-7294-4c06-a417-af8068a21471",
+        "X-Runtime": "0.078010",
+        "Content-Length": "399"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/auth/validate_token?access-token=R316wYh6_CCn8CCZO4QHNw&token-type=Bearer&client=GuWrfeiI4OXJpMIQ5hxSdg&expiry=1467100268&uid=125osborne.schaden%40sauer.co\" -X GET \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/auth/validate_token?access-token=OVYe-o0mQARIjYdLISQeoA&token-type=Bearer&client=p3PnRsdjuKi5V7Vl10rtiw&expiry=1474537278&uid=122lou.dooley%40gutmannhyatt.com\" -X GET \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

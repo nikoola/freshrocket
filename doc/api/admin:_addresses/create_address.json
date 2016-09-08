@@ -31,15 +31,15 @@
     },
     {
       "scope": "address",
-      "required": false,
-      "name": "zip_code",
-      "description": "Address zip code"
+      "required": true,
+      "name": "stringified_coordinate",
+      "description": "Address stringified coordinate"
     },
     {
       "scope": "address",
-      "required": true,
-      "name": "coordinate",
-      "description": "Address coordinate"
+      "required": false,
+      "name": "zip_code",
+      "description": "Address zip code"
     }
   ],
   "response_fields": [
@@ -49,13 +49,13 @@
     {
       "request_method": "POST",
       "request_path": "/admin/addresses",
-      "request_body": "address[street_and_house]=2353+Rice+Burg&address[stringified_coordinate]=%5B4%2C+6%5D&address[door_number]=5&address[city_id]=1&address[user_id]=1",
+      "request_body": "address[id]&address[user_id]=1&address[city_id]=3&address[area_id]=1&address[street_and_house]=Hazrataganj+Crossing+Bus+Stop%2C+Ashok+Marg%2C+Hazratganj%2C+Lucknow%2C+Uttar+Pradesh+226001%2C+India&address[door_number]=5&address[coordinate]&address[zip_code]&address[lat]=26.8469631&address[lng]=80.9462034&address[active]=true&address[stringified_coordinate]=%5B26.8469631%2C80.9462034%5D",
       "request_headers": {
-        "Access-Token": "emsQUzFgbrxRbwMGD0J6xg",
+        "Access-Token": "0xxzKI-GOr5BzhzHSZ4Kew",
         "Token-Type": "Bearer",
-        "Client": "5FBK2LyytfB01sDZwFqnIw",
-        "Expiry": "1467100258",
-        "Uid": "7henri@ankundingmitchell.org",
+        "Client": "lMZz8OGRQuHyVRFcQs2N5w",
+        "Expiry": "1474537022",
+        "Uid": "2dora_collins@dare.info",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -65,21 +65,26 @@
       "request_content_type": "application/x-www-form-urlencoded",
       "response_status": 201,
       "response_status_text": "Created",
-      "response_body": "{\n  \"id\": 1,\n  \"city_id\": 1,\n  \"user_id\": 1,\n  \"street_and_house\": \"2353 Rice Burg\",\n  \"door_number\": \"5\",\n  \"zip_code\": null,\n  \"active\": true,\n  \"city_name\": \"Kolkata\"\n}",
+      "response_body": "{\n  \"id\": 1,\n  \"city_id\": 3,\n  \"user_id\": 1,\n  \"street_and_house\": \"Hazrataganj Crossing Bus Stop, Ashok Marg, Hazratganj, Lucknow, Uttar Pradesh 226001, India\",\n  \"door_number\": \"5\",\n  \"active\": true,\n  \"city_name\": \"Lucknow\"\n}",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
+        "access-token": "0xxzKI-GOr5BzhzHSZ4Kew",
+        "token-type": "Bearer",
+        "client": "lMZz8OGRQuHyVRFcQs2N5w",
+        "expiry": "1474537022",
+        "uid": "2dora_collins@dare.info",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"3dfd747a899f6c7226acc1dbc9543cd2\"",
+        "ETag": "W/\"67401bd522e72e311dc5f2a1c8b99e61\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=R0xvT3VUUkZleWpjTnVaWWhRL1FjSVRmWmRSZ1g2Q0FmRndtckFyK1FSRVZuQk9xN0NRM2pRSTd0MEMrL1RWbElzVFVCNmlzZmNqT1pmSTdoRlJQVmhNamY0ci9QWnl5NzU0Z0FETVl6N0picFBTcFFvek1RL1E3T1FDc0k2K0tFaEY5bkVRRU9hcnlrSjEwbUtWMnRrZXFPQVFpY0VnZFFtN0JzVmNCZnBtRDB4UDRsbmhheEkrSWdoYXNxNHRjLS1FZ3Fjdk9SSTJxc1R0b042cmp0WTVBPT0%3D--d9b9b6beab4fee05d874c3e8a8676e884beee248; path=/; HttpOnly",
-        "X-Request-Id": "dc03bad9-7d78-4f7d-9507-5f66c4d47b59",
-        "X-Runtime": "0.086540",
-        "Content-Length": "138"
+        "Set-Cookie": "_session_id=RVFXbk84WHNEWTVlRDBDV0VQcWRmV3FubDdJSmQ3QzM0Zi82aDhsb2djZE1lYlBBSlBFQXcvZ2RoM1RhMGRadmVxQ3h0Nlc5WEZhNytJRUUrY01TSk56Q0locXJvRUFUclp6R3RiTWRhNi9xcGwvMm5aU3J6UkNVVHNkUFNFbzFLZXBuN3R0YkN0eVdlOElZWnhtclpGKythUTBKWkNhRDd2cUJlcUk4Y3NFUHdwQlhKcTQ4QVEremlwYzduQXM0LS12U2ZaZWM2ckovZWI5dzlJY2FCS2Z3PT0%3D--43c14b226816cae841c6fb4dd5ae64cbd42041bb; path=/; HttpOnly",
+        "X-Request-Id": "82b476a1-42de-4e2e-bb59-96ba029d3c28",
+        "X-Runtime": "0.115973",
+        "Content-Length": "199"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/admin/addresses\" -d 'address[street_and_house]=2353+Rice+Burg&address[stringified_coordinate]=%5B4%2C+6%5D&address[door_number]=5&address[city_id]=1&address[user_id]=1' -X POST \\\n\t-H \"Access-Token: emsQUzFgbrxRbwMGD0J6xg\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: 5FBK2LyytfB01sDZwFqnIw\" \\\n\t-H \"Expiry: 1467100258\" \\\n\t-H \"Uid: 7henri@ankundingmitchell.org\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/admin/addresses\" -d 'address[id]&address[user_id]=1&address[city_id]=3&address[area_id]=1&address[street_and_house]=Hazrataganj+Crossing+Bus+Stop%2C+Ashok+Marg%2C+Hazratganj%2C+Lucknow%2C+Uttar+Pradesh+226001%2C+India&address[door_number]=5&address[coordinate]&address[zip_code]&address[lat]=26.8469631&address[lng]=80.9462034&address[active]=true&address[stringified_coordinate]=%5B26.8469631%2C80.9462034%5D' -X POST \\\n\t-H \"Access-Token: 0xxzKI-GOr5BzhzHSZ4Kew\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: lMZz8OGRQuHyVRFcQs2N5w\" \\\n\t-H \"Expiry: 1474537022\" \\\n\t-H \"Uid: 2dora_collins@dare.info\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

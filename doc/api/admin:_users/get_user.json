@@ -16,11 +16,11 @@
       "request_path": "/admin/users/1",
       "request_body": null,
       "request_headers": {
-        "Access-Token": "wFsChAtN5PDAwoVOiv4KnQ",
+        "Access-Token": "GaWIE7RRispe6x9IkW1iLw",
         "Token-Type": "Bearer",
-        "Client": "cVAMSRllXHlhWrwjfUn3Nw",
-        "Expiry": "1467100265",
-        "Uid": "95carole@schowaltermuller.org",
+        "Client": "GxUVEjGk_g_qKe2H6lhZ0Q",
+        "Expiry": "1474537184",
+        "Uid": "94deonte@wolffjacobs.co",
         "Host": "example.org",
         "Cookie": ""
       },
@@ -29,21 +29,26 @@
       "request_content_type": null,
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\n  \"id\": 1,\n  \"first_name\": \"Kaylee\",\n  \"last_name\": \"Cormier\",\n  \"email\": \"94rasheed_little@rempel.io\",\n  \"phone\": \"1298837181\",\n  \"is_verified\": false,\n  \"provider\": \"email\",\n  \"uid\": \"94rasheed_little@rempel.io\",\n  \"created_at\": \"2016-06-14T07:51:05.866Z\",\n  \"abilities\": {\n    \"orders\": 0,\n    \"products\": 0,\n    \"users\": 0,\n    \"categories\": 1,\n    \"coupons\": 0,\n    \"settings\": 0,\n    \"cities\": 0,\n    \"delivery_boy\": 0\n  },\n  \"addresses\": [\n\n  ],\n  \"orders\": [\n\n  ]\n}",
+      "response_body": "{\n  \"id\": 1,\n  \"first_name\": \"Andreanne\",\n  \"last_name\": \"Kunze\",\n  \"email\": \"93melyna_rowe@caingoodwin.com\",\n  \"phone\": \"2214118693\",\n  \"is_verified\": false,\n  \"provider\": \"email\",\n  \"uid\": \"93melyna_rowe@caingoodwin.com\",\n  \"created_at\": \"2016-09-08T09:39:44.235Z\",\n  \"abilities\": {\n    \"orders\": 0,\n    \"products\": 0,\n    \"users\": 0,\n    \"categories\": 1,\n    \"coupons\": 0,\n    \"settings\": 0,\n    \"cities\": 0,\n    \"delivery_boy\": 0\n  },\n  \"addresses\": [\n\n  ],\n  \"orders\": [\n\n  ]\n}",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
+        "access-token": "GaWIE7RRispe6x9IkW1iLw",
+        "token-type": "Bearer",
+        "client": "GxUVEjGk_g_qKe2H6lhZ0Q",
+        "expiry": "1474537184",
+        "uid": "94deonte@wolffjacobs.co",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"22233c398bd90e3df1cfbf55130ccefe\"",
+        "ETag": "W/\"b25d201c22de719c8b47415064b6eab8\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=RVdqNXZoVTAzeVNvdW5Uelk4ZFlTUkxmWHJzYlVYcE9xa0xSSWpCNGhrdW5GSWoyU3R1S0NNaXVMdTJleXBlTzRvcEJ4b0NxakU4VmRhTTZDSS9ldkZyK3dyRHJPNjhleUloS0RUUGdRMTlvaGREWVBNalplNi95aGZFejlVMzE5MVZ3c0tYakVSVktHZkErMm85K05mYm1DYVcrbDBQNVc5ZjBIZG9Lc2pnZkZVVkpjWHJPcm02YytkeVRwMHlkLS14SHczM041dVcyYUxlenNYQU81dzdBPT0%3D--057fbb080f07f313a4928ac623e458327ae55fb1; path=/; HttpOnly",
-        "X-Request-Id": "db805caf-f9ba-4fe3-9fe7-a4af13e2b3e3",
-        "X-Runtime": "0.072252",
-        "Content-Length": "367"
+        "Set-Cookie": "_session_id=ako1STVLbDBNK2RkNlV6b2ZXc3VxZXRpem0xM2pCT1FiZEJJemF5RFdTb21ZTCt6YlJiRVI1dmp0RFFNTk9ZRzNqSVNBejNEelZtYmdoMGJMK1FDckc0bmhlakJ0RStCcFF1bUpXNWdIWXlxWkk3VjVOdW1tSm82eEpWNUt4M1NkUmtKYUZweGpFSkQzZXZsaEphMEQ0cCtDb0ZlWXRmd1VsWXBPQzF6dU1qWHdJTTlXdlg4N3JXeE5yRHgvRUNRLS15eWRucENZSkY0d0ZrbkRYK0NxMGtBPT0%3D--71c7339d728dfe125e27d2a81155afefc432b522; path=/; HttpOnly",
+        "X-Request-Id": "a788a80e-014e-4851-82f0-e30fd1708476",
+        "X-Runtime": "0.089689",
+        "Content-Length": "374"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/admin/users/1\" -X GET \\\n\t-H \"Access-Token: wFsChAtN5PDAwoVOiv4KnQ\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: cVAMSRllXHlhWrwjfUn3Nw\" \\\n\t-H \"Expiry: 1467100265\" \\\n\t-H \"Uid: 95carole@schowaltermuller.org\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/admin/users/1\" -X GET \\\n\t-H \"Access-Token: GaWIE7RRispe6x9IkW1iLw\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: GxUVEjGk_g_qKe2H6lhZ0Q\" \\\n\t-H \"Expiry: 1474537184\" \\\n\t-H \"Uid: 94deonte@wolffjacobs.co\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

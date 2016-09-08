@@ -16,11 +16,11 @@
       "request_path": "/auth/sign_out",
       "request_body": null,
       "request_headers": {
-        "Access-Token": "a1Kj8z6BZQZ5WFhuQFhCKQ",
+        "Access-Token": "oR1YKdgDYrBxmIAXOiu3nQ",
         "Token-Type": "Bearer",
-        "Client": "L6fvhkjt_jPa9Ir4YefXNA",
-        "Expiry": "1467100268",
-        "Uid": "124vergie@breitenberg.net",
+        "Client": "mJ4NsRG300OSrQYcwwBgyQ",
+        "Expiry": "1474537278",
+        "Uid": "121leda@lemke.org",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -38,13 +38,13 @@
         "Content-Type": "application/json; charset=utf-8",
         "ETag": "W/\"7363e85fe9edee6f053a4b319588c086\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=MU03eTlLVERibEZpRkswOS9MQ1VQWGcxeTRjZ2xHbVVxZEYzVUpOelNpK05jSklmVWJzMWZmNjR0aXc1emRBZStpa25HVFRURWkzNXYyeXVaOExQNXc9PS0tOWY0MGxuR3RoNEp3cWNMNjJWQnVtUT09--2f9010416faf768face26219b104f451c0925819; path=/; HttpOnly",
-        "X-Request-Id": "e8eb38a2-46b0-44a9-9513-6db3d661fad5",
-        "X-Runtime": "0.064899",
+        "Set-Cookie": "_session_id=K0R2WVhvSnRkbEx5QjNBelBDdWhyaW5Ya2dvVW9yb2Fqamo2cnJmYTBQNGVwTnk5ZTRLLzlZaERTYnpxUkZqS1poOW4yRDZkREwra3pxcVdHeFRvNlE9PS0tWU5BNXlydUlKOFVORWwwRGlwZU8ydz09--6afe9f6dbe8336af0d3e5b8f0626bf4effdd185d; path=/; HttpOnly",
+        "X-Request-Id": "f5072f13-f141-48f2-8183-e6c4f72fbde0",
+        "X-Runtime": "0.078105",
         "Content-Length": "16"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/auth/sign_out\" -d '' -X DELETE \\\n\t-H \"Access-Token: a1Kj8z6BZQZ5WFhuQFhCKQ\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: L6fvhkjt_jPa9Ir4YefXNA\" \\\n\t-H \"Expiry: 1467100268\" \\\n\t-H \"Uid: 124vergie@breitenberg.net\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/auth/sign_out\" -d '' -X DELETE \\\n\t-H \"Access-Token: oR1YKdgDYrBxmIAXOiu3nQ\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: mJ4NsRG300OSrQYcwwBgyQ\" \\\n\t-H \"Expiry: 1474537278\" \\\n\t-H \"Uid: 121leda@lemke.org\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

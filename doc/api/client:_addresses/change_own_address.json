@@ -16,11 +16,11 @@
       "request_path": "/client/addresses/1",
       "request_body": "address[street_and_house]=good",
       "request_headers": {
-        "Access-Token": "TY6c28hfqDOtY3aQDZP53w",
+        "Access-Token": "V-2_cWh0VipsHtIhSpN0MA",
         "Token-Type": "Bearer",
-        "Client": "_-8ixdQF7KpstsLD54xjaQ",
-        "Expiry": "1467100268",
-        "Uid": "121briana@hyatt.io",
+        "Client": "QBgqiO2YNrZwx_Nd4P9dhQ",
+        "Expiry": "1474537269",
+        "Uid": "118rafael@heathcoteruecker.com",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -30,21 +30,26 @@
       "request_content_type": "application/x-www-form-urlencoded",
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\n  \"id\": 1,\n  \"city_id\": 1,\n  \"user_id\": 1,\n  \"street_and_house\": \"good\",\n  \"door_number\": \"5\",\n  \"zip_code\": null,\n  \"active\": true,\n  \"city_name\": \"Kakinada\"\n}",
+      "response_body": "{\n  \"id\": 1,\n  \"city_id\": 2,\n  \"user_id\": 1,\n  \"street_and_house\": \"good\",\n  \"door_number\": \"5\",\n  \"active\": true,\n  \"city_name\": \"Pali\"\n}",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
+        "access-token": "V-2_cWh0VipsHtIhSpN0MA",
+        "token-type": "Bearer",
+        "client": "QBgqiO2YNrZwx_Nd4P9dhQ",
+        "expiry": "1474537269",
+        "uid": "118rafael@heathcoteruecker.com",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"7199d862d1619b442d679713775f00a5\"",
+        "ETag": "W/\"6a7805d7ba9b25285b18a5844dc4d96a\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=SUJJbjRueGFzZWhXSVB2ckRjLzBMdUxDbG5qRjdxQWVuMm44UFE3a054V1NQcTUzMHRjZEVHL0pmTjJBNTFabmdPREt1YlczNEg5VHErSDlJWEJyTThSWXBQa3NHLzdRdGtUSXorZW14N1BmYkdYT2xLb3NNSUZnMHpuUHVrODkzWDVSYnFqeCs3UFdlLzJHTDdSSW9MSDJtNi84UWF1TE5jMHoxZVVVd21lOGxCZE0rcktVWG1ZQnc5aU8xS01qLS1EWk5mR2kzamdRZG02RTB5dlFQTjdnPT0%3D--703b35a3f27745d55ccc453b5bbef1c16a78559d; path=/; HttpOnly",
-        "X-Request-Id": "3be3e891-7f2a-441c-80c1-6280f92d5d6b",
-        "X-Runtime": "0.071838",
-        "Content-Length": "129"
+        "Set-Cookie": "_session_id=QlNlVW51TzJ1elBEeStWNWJWZ0ZZcG5zMzZoUVF3VzZWWS8vblA3Q2hoblREQjJmWS9GMzJsUktWWllHZHdpRnJHUTBNMEUwZDdJdCtad1NEZkJ6amtFbmw4WGtoVVJUenp0a3VtREVKTFBIVGlWdUNWVHJwVFA1b3lWZVlLVkJqdVFJS3VIclhaQ1JjWGtnV1EwYnNNSVh2a2srZXhGMjFxd2xsQWVmZkhFbVZLQmkxWVR3MEFrbDkrTWJLSWZqLS1vKzF6ek9ndDF1WVpIQU51Y1p3RldnPT0%3D--d83abfc7772429eea3a5e8d0b55a3027f568051a; path=/; HttpOnly",
+        "X-Request-Id": "84d4df93-f501-4271-a828-5afa5835bb91",
+        "X-Runtime": "0.109792",
+        "Content-Length": "109"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/client/addresses/1\" -d 'address[street_and_house]=good' -X PUT \\\n\t-H \"Access-Token: TY6c28hfqDOtY3aQDZP53w\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: _-8ixdQF7KpstsLD54xjaQ\" \\\n\t-H \"Expiry: 1467100268\" \\\n\t-H \"Uid: 121briana@hyatt.io\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/client/addresses/1\" -d 'address[street_and_house]=good' -X PUT \\\n\t-H \"Access-Token: V-2_cWh0VipsHtIhSpN0MA\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: QBgqiO2YNrZwx_Nd4P9dhQ\" \\\n\t-H \"Expiry: 1474537269\" \\\n\t-H \"Uid: 118rafael@heathcoteruecker.com\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

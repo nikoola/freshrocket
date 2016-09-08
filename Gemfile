@@ -32,10 +32,11 @@ gem 'apitome', git: 'git://github.com/modeset/apitome.git' #from master, because
 
 group :development do
 	gem 'spring' # Spring speeds up development by keeping your application running in the background.
-	
+	gem 'guard'
+	gem 'guard-rspec'
 	gem 'railroady' # RailRoady generates Rails 3/4 model (ActiveRecord, Mongoid, Datamapper) and controller UML diagrams. rake diagram:all
 end
-
+gem 'parallel_tests', group: [:development, :test]
 group :test do
 	gem 'airborne' #expect_json
 	gem 'database_cleaner'
@@ -117,7 +118,8 @@ gem "letter_opener",      group: :development
 
 
 gem 'geokit'
+# gem 'geokit-rails'
 
-ruby '2.2.1'
+# ruby '2.2.1'
 
 

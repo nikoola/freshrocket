@@ -2,8 +2,12 @@ module Admin
 	class AddressesController < BaseController
 		before_action :set_address, only: [:update, :destroy]
 		before_action -> { authorize 'users' }
+		before_action :containing_address, only: [:create]
+
+		
 
 		def index
+			# binding.pry
 			@addresses = Address.filter params.slice(:active)
 
 			render json: @addresses
@@ -33,7 +37,6 @@ module Admin
 		end
 
 
-
 		private
 
 			def set_address
@@ -48,7 +51,15 @@ module Admin
 
 				# no :active
 			end
-
+			#check if the address is in areas
+			def containing_address
+				#@address = Address.new(address_params)
+				coordinate = JSON.parse(address_params[:stringified_coordinate])
+				res = Area.containing_coordinate(coordinate)
+				unless res
+					render json: { error: "Not Reachable Address." }, status: 400
+				end
+			end
 
 	end
 end

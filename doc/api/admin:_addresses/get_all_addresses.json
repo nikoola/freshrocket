@@ -19,11 +19,11 @@
       "request_path": "/admin/addresses?active=0",
       "request_body": null,
       "request_headers": {
-        "Access-Token": "zzCdHt2i25OC-NJr9XOIdQ",
+        "Access-Token": "jBtpeKVNry9XZMFTKOkqsQ",
         "Token-Type": "Bearer",
-        "Client": "YU7Qd5SsAXYpG4txH4-vwg",
-        "Expiry": "1467100257",
-        "Uid": "6julius@labadie.net",
+        "Client": "_vvQDSaWom6Lbtc73qp_0w",
+        "Expiry": "1474537015",
+        "Uid": "1jeremie@walker.net",
         "Host": "example.org",
         "Cookie": ""
       },
@@ -33,21 +33,26 @@
       "request_content_type": null,
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "[\n  {\n    \"id\": 1,\n    \"city_id\": 1,\n    \"user_id\": 1,\n    \"street_and_house\": \"834 Bins Junction\",\n    \"door_number\": \"5\",\n    \"zip_code\": null,\n    \"active\": false,\n    \"city_name\": \"Delhi\"\n  },\n  {\n    \"id\": 2,\n    \"city_id\": 2,\n    \"user_id\": 2,\n    \"street_and_house\": \"30315 Sawayn Light\",\n    \"door_number\": \"5\",\n    \"zip_code\": null,\n    \"active\": false,\n    \"city_name\": \"Bengaluru\"\n  },\n  {\n    \"id\": 3,\n    \"city_id\": 3,\n    \"user_id\": 3,\n    \"street_and_house\": \"189 Colin Stravenue\",\n    \"door_number\": \"5\",\n    \"zip_code\": null,\n    \"active\": false,\n    \"city_name\": \"Ahmedabad\"\n  }\n]",
+      "response_body": "[\n  {\n    \"id\": 1,\n    \"city_id\": 3,\n    \"user_id\": 1,\n    \"street_and_house\": \"109, Ashram Rd, Ellisbridge, Ahmedabad, Gujarat 380006, India\",\n    \"door_number\": \"5\",\n    \"active\": false,\n    \"city_name\": \"Ahmedabad\"\n  },\n  {\n    \"id\": 2,\n    \"city_id\": 4,\n    \"user_id\": 1,\n    \"street_and_house\": \"Omnitech InfoSolutions, 1st Floor, Bulding No 17, Koti Main Rd, Goutam Nagar, Badi Chowdi, Kachiguda, Hyderabad, Telangana 501301, India\",\n    \"door_number\": \"5\",\n    \"active\": false,\n    \"city_name\": \"Hyderabad\"\n  },\n  {\n    \"id\": 3,\n    \"city_id\": 5,\n    \"user_id\": 1,\n    \"street_and_house\": \"49, Sydenhams Rd, Park Town, Chennai, Tamil Nadu 600003, India\",\n    \"door_number\": \"5\",\n    \"active\": false,\n    \"city_name\": \"Chennai\"\n  }\n]",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
+        "access-token": "jBtpeKVNry9XZMFTKOkqsQ",
+        "token-type": "Bearer",
+        "client": "_vvQDSaWom6Lbtc73qp_0w",
+        "expiry": "1474537015",
+        "uid": "1jeremie@walker.net",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"e845c65d7c7b9a0fb232961922312f2d\"",
+        "ETag": "W/\"d8ee08754f36462f7214141e94c27b08\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=MHNUNFowdjF5Tmd1YjQzWDkwVWJPU0lDY3FmNWhaczgzcHRjcnZ2cE1VWm96QThpK3B4cGY2SC9oclExQ3JONWllT2duK3Y3Sk1NZHJtemhoWkhIbWx1ZXhXRlNPRm9KbG5uZzVyTUgwakdiTXl0aFpzQlI0RXNXbHYwdkhrTVdmUi81R1UwS1J5QTNsam9XV1E1bEFtMXdTS1ZYbHo1R3F1aTZZdWhxd2RvNnQrdjdmV0M5TFZSS1IyNEJPWENsLS1yMWxsSUQxTUFJMVNOU0drVTN4eVl3PT0%3D--174f00205d12b617f8b310a323dad6b49fca60cb; path=/; HttpOnly",
-        "X-Request-Id": "c98b1bc0-0159-48a2-a8ea-c98ded3952c9",
-        "X-Runtime": "0.106819",
-        "Content-Length": "435"
+        "Set-Cookie": "_session_id=cjl6MFNvZFNSQTVMYldMd0xRLzcyUHg1MWZ1UU5KTTEwUHhIc1ZFUmRuNmtPK0hDNW5qbWdKN2dVdGJFM0U4Z1V4ZmhyUFlreXVuOXV1cFN2VzI2aFNMelg5dUdRSDk3TTB1RzF4SktNODY3ZDVsYWp2dGY0aFlqbkwrUXh5eTk1R2dhRm1qYXgxeHFGOHhLeElJQTlZT0hZbE5MTmZHcldtaTBNODFjazlCeTl5NUM0N0NBRXBXd1FzTDdyS3FaLS1XdHA4cUtWeklWR2ZsbTQ0dGZHanpRPT0%3D--1ec1637903b1501b697022c667e8dfcdd9af9e48; path=/; HttpOnly",
+        "X-Request-Id": "fa942a3a-b5b5-4cec-94f0-a206e6947f64",
+        "X-Runtime": "0.154627",
+        "Content-Length": "594"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/admin/addresses?active=0\" -X GET \\\n\t-H \"Access-Token: zzCdHt2i25OC-NJr9XOIdQ\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: YU7Qd5SsAXYpG4txH4-vwg\" \\\n\t-H \"Expiry: 1467100257\" \\\n\t-H \"Uid: 6julius@labadie.net\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/admin/addresses?active=0\" -X GET \\\n\t-H \"Access-Token: jBtpeKVNry9XZMFTKOkqsQ\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: _vvQDSaWom6Lbtc73qp_0w\" \\\n\t-H \"Expiry: 1474537015\" \\\n\t-H \"Uid: 1jeremie@walker.net\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

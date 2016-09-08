@@ -16,7 +16,7 @@ class SetupSchema < ActiveRecord::Migration
 
 	create_table "cities", force: :cascade do |t|
 		t.string  "name"
-		t.string  'polygon'
+		#t.string  'polygon'
 		t.boolean "active", default: true
 	end
 
@@ -70,10 +70,13 @@ class SetupSchema < ActiveRecord::Migration
 	create_table "addresses", force: :cascade do |t|
 	  t.integer  "user_id"
 	  t.integer  "city_id"
+	  t.integer  :area_id
 	  t.string   "street_and_house"
 	  t.string   "door_number"
 	  t.string   "coordinate"
 	  t.integer  "zip_code"
+	  t.decimal :lat
+	  t.decimal :lng
 	  t.boolean  "active",      default: true
 	end
 

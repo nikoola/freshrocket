@@ -16,11 +16,11 @@
       "request_path": "/client/addresses/1",
       "request_body": null,
       "request_headers": {
-        "Access-Token": "MuvR3kSHaPKO3j5xfsYPsQ",
+        "Access-Token": "cD42CBhMehOxwAuWgds5gQ",
         "Token-Type": "Bearer",
-        "Client": "Pt-jcfvD_0nWnFW2vQQrdg",
-        "Expiry": "1467100268",
-        "Uid": "122rowland@braun.net",
+        "Client": "0PFJLsMoWW-KRXBk7-Qnkw",
+        "Expiry": "1474537278",
+        "Uid": "119afton_legros@mayert.name",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -35,15 +35,20 @@
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
+        "access-token": "cD42CBhMehOxwAuWgds5gQ",
+        "token-type": "Bearer",
+        "client": "0PFJLsMoWW-KRXBk7-Qnkw",
+        "expiry": "1474537278",
+        "uid": "119afton_legros@mayert.name",
         "Content-Type": "text/html",
         "Cache-Control": "no-cache",
-        "Set-Cookie": "_session_id=Z2hIWmJNS2xhQjV1SE8yUUYxSjRNZk5hM3pWRnA0OUxkUWxsM250eVVnYitVVzNHbUx1YlhycHNwUkF6MEkySGRBd01rQ3NETVlmeDRxSDlLU1k4dnc0aWo5WXlMVnZGbnRsVURrK1UrWmVwR1NMZytWNXN4ME00SmNmT1ZFL0tXV3htd1Q3ZkZkY0ZYZnhna2c5UndibjJReFZKemNXblRKZEtZdEdxWjJPZElHQllDNHRsb0c1Tk1iZXJxVlloLS1uVE9SY0VwcHdacmx4R0ROVk54ZC93PT0%3D--20fd9361b594fd3e37094d6b43ff02c99df7dcbf; path=/; HttpOnly",
-        "X-Request-Id": "78728325-b0b9-46c9-92fd-09ff90363fcf",
-        "X-Runtime": "0.069350",
+        "Set-Cookie": "_session_id=Y0VJZ1JKUER6S2VKcHdKOEhwN2toWnBKb2R1R3JGcWhMM05sS3pEdVA3M3FWV2t5bnBhdTZ6V3FKNzFBZmoxSWRNMnRQTU1iK3FkT1lPaUdCVnJiYUFBSmo3ZDlPSEUvQ011dERUQ2VWWnFEems3S25KNzY4NXhCNGZ4WTBzMW51WUxoL0VUdkl2anlvNEtPU3NkRTY4M0Z3M2hkTXJiK1k2UWxBejQxc09jeTRyR0xZV2FaYUpmN0VuUm9ESWlLLS1JcDRsSjFyT3ZuMUduQlZDZkVDczBnPT0%3D--a2fab8f05c8b04d7fe71461c11bd07f26dc536b4; path=/; HttpOnly",
+        "X-Request-Id": "675be59b-94a0-46e4-9871-625d74afb6e7",
+        "X-Runtime": "0.076972",
         "Content-Length": "0"
       },
       "response_content_type": "text/html",
-      "curl": "curl \"http://localhost:3000/client/addresses/1\" -d '' -X DELETE \\\n\t-H \"Access-Token: MuvR3kSHaPKO3j5xfsYPsQ\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: Pt-jcfvD_0nWnFW2vQQrdg\" \\\n\t-H \"Expiry: 1467100268\" \\\n\t-H \"Uid: 122rowland@braun.net\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/client/addresses/1\" -d '' -X DELETE \\\n\t-H \"Access-Token: cD42CBhMehOxwAuWgds5gQ\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: 0PFJLsMoWW-KRXBk7-Qnkw\" \\\n\t-H \"Expiry: 1474537278\" \\\n\t-H \"Uid: 119afton_legros@mayert.name\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

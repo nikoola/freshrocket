@@ -14,13 +14,13 @@
     {
       "request_method": "PUT",
       "request_path": "/admin/users/1",
-      "request_body": "user[email]=hi%40hi.hey&user[phone]=3235827651",
+      "request_body": "user[email]=hi%40hi.hey&user[phone]=7965694984",
       "request_headers": {
-        "Access-Token": "afhDlUHmOxSzsHRrbs4yXw",
+        "Access-Token": "5WeuCt31YU7DlDVPE7cxvQ",
         "Token-Type": "Bearer",
-        "Client": "uMihDJU62rTFTYowcrEnxw",
-        "Expiry": "1467100266",
-        "Uid": "102camryn.metz@crona.info",
+        "Client": "eXkFkSbSUDxdPBv6KFZXsA",
+        "Expiry": "1474537184",
+        "Uid": "101macey@harber.com",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -30,21 +30,26 @@
       "request_content_type": "application/x-www-form-urlencoded",
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\n  \"id\": 1,\n  \"first_name\": \"Viva\",\n  \"last_name\": \"Feil\",\n  \"email\": \"hi@hi.hey\",\n  \"phone\": \"3235827651\",\n  \"is_verified\": false,\n  \"provider\": \"email\",\n  \"uid\": \"hi@hi.hey\",\n  \"created_at\": \"2016-06-14T07:51:06.353Z\",\n  \"abilities\": {\n    \"orders\": 0,\n    \"products\": 0,\n    \"users\": 0,\n    \"categories\": 1,\n    \"coupons\": 0,\n    \"settings\": 0,\n    \"cities\": 0,\n    \"delivery_boy\": 0\n  },\n  \"addresses\": [\n\n  ],\n  \"orders\": [\n\n  ]\n}",
+      "response_body": "{\n  \"id\": 1,\n  \"first_name\": \"Pietro\",\n  \"last_name\": \"Wolff\",\n  \"email\": \"hi@hi.hey\",\n  \"phone\": \"7965694984\",\n  \"is_verified\": false,\n  \"provider\": \"email\",\n  \"uid\": \"hi@hi.hey\",\n  \"created_at\": \"2016-09-08T09:39:44.856Z\",\n  \"abilities\": {\n    \"orders\": 0,\n    \"products\": 0,\n    \"users\": 0,\n    \"categories\": 1,\n    \"coupons\": 0,\n    \"settings\": 0,\n    \"cities\": 0,\n    \"delivery_boy\": 0\n  },\n  \"addresses\": [\n\n  ],\n  \"orders\": [\n\n  ]\n}",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
+        "access-token": "5WeuCt31YU7DlDVPE7cxvQ",
+        "token-type": "Bearer",
+        "client": "eXkFkSbSUDxdPBv6KFZXsA",
+        "expiry": "1474537184",
+        "uid": "101macey@harber.com",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"e110012bbc555e53cd13c2e56655cc50\"",
+        "ETag": "W/\"fdb064cf9d1f63df49e78c329236eb91\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=TlVscHE3dER5MzVOcVJDSFBTUmlURDRJa21zQWtnejl5MzFGOFVRcEs1RXo0R05GM2tvRjIvMTFqS2N2aEIvM2R6cEl0djhwSllpRlVhWjFESDZUMDQ1Qm1USGVDbjU5WThLbVJuWFdaNUJ4bytpdFpkZ2I2WWYzSERmSHh2RW9SK0ord0ZkV2U1Tjc5RUhKUHhYc1pFZk4yV3UzQlRwQ3hxaGFoT3QxMjlGSUJqTW5obTBOY21CU2svcGtXSlByLS1NRDlUU0RvQmlhZkhzNis5NktnSThRPT0%3D--8a1bfc98f963f8c46385add596eac9950570d652; path=/; HttpOnly",
-        "X-Request-Id": "569d9d07-5214-42b7-ae34-94b6bf27a444",
-        "X-Runtime": "0.076797",
-        "Content-Length": "328"
+        "Set-Cookie": "_session_id=ZVFkd1JnUzl5bnJiejJpQ3R2V3YyVDFEdGJMT2JkVm9pcmYwb1REVEhvbHdKQUhGOVE1bnRpZUR5dTdKcUJHRmg2dlI0NmkwOTc4RlBxZlVSQzZhZnU4bDJkTHhuVTI1SVdLUXlBM2RxaVQvdjg5ZHZpRitHeFNHTlYraDJ3bVdVdEJHQUlwN3A1bGFXV1pJQU1TTFp1TUlGcTdRNlg2RFhqUm1Iamwyb1lDb1JvOXgrVXRPWEg5VXliNXBYamtTLS1iT3NYamEveFlzVTNEOENPUVdSTk5nPT0%3D--46c02ff83c2bace3d6f404aedb1099cc6b73265f; path=/; HttpOnly",
+        "X-Request-Id": "52f624b6-3a94-427a-812d-5042393698ec",
+        "X-Runtime": "0.096583",
+        "Content-Length": "331"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/admin/users/1\" -d 'user[email]=hi%40hi.hey&user[phone]=3235827651' -X PUT \\\n\t-H \"Access-Token: afhDlUHmOxSzsHRrbs4yXw\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: uMihDJU62rTFTYowcrEnxw\" \\\n\t-H \"Expiry: 1467100266\" \\\n\t-H \"Uid: 102camryn.metz@crona.info\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/admin/users/1\" -d 'user[email]=hi%40hi.hey&user[phone]=7965694984' -X PUT \\\n\t-H \"Access-Token: 5WeuCt31YU7DlDVPE7cxvQ\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: eXkFkSbSUDxdPBv6KFZXsA\" \\\n\t-H \"Expiry: 1474537184\" \\\n\t-H \"Uid: 101macey@harber.com\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

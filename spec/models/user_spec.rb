@@ -36,11 +36,6 @@ describe User, type: :model do
 			expect(@user.abilities.map(&:name)).to contain_exactly('orders', 'products')
 		end
 	end
-
-
-
-
-
 end
 
 

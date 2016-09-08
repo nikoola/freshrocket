@@ -20,11 +20,11 @@
       "request_path": "/admin/users/1/update_abilities",
       "request_body": "abilities[lalala]=1",
       "request_headers": {
-        "Access-Token": "Yssn-zDAJD-4mtO1z11pfw",
+        "Access-Token": "zdp2P4FaN4qWBsRJMgPe9A",
         "Token-Type": "Bearer",
-        "Client": "tamoQU4XvfI5RoPnNgBb3A",
-        "Expiry": "1467100267",
-        "Uid": "111hollie@brown.io",
+        "Client": "OLCeMvyJzs2I-IL9oCEBYg",
+        "Expiry": "1474537185",
+        "Uid": "110iva.zulauf@rutherford.org",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -39,15 +39,20 @@
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
+        "access-token": "zdp2P4FaN4qWBsRJMgPe9A",
+        "token-type": "Bearer",
+        "client": "OLCeMvyJzs2I-IL9oCEBYg",
+        "expiry": "1474537185",
+        "uid": "110iva.zulauf@rutherford.org",
         "Content-Type": "application/json; charset=utf-8",
         "Cache-Control": "no-cache",
-        "Set-Cookie": "_session_id=T0tBZUF5RTJQU2xhdGg5cFk4b0txZStZUnpnWUdxUkk1RlNrNndGSnkvRnV3cUJLcjBabE80R0hwck43SDlBcXovcjcwSENwQWtwQlg2b1JiMnZOVUZGdlBqenNHa213Qk9PRDlhck1pc1ZXTG1zUG9GWnpCNnpMMTVPN21jTVJQanFsdkZVUHg3dUZPZXdnSEVvNG9mSWNrZlYyRXI0TWh1aTR3ak84QUhXVE9CZVpmNjhxbWlHSGZNUmRpWXhMLS1rN1Fvc2NFaU1KN3N0M3lPMFJxbURBPT0%3D--9b2968584da59587fd4554effccbd4e2c36b2c3a; path=/; HttpOnly",
-        "X-Request-Id": "a7c42849-a010-4c24-99e9-3c38bb56847a",
-        "X-Runtime": "0.071668",
+        "Set-Cookie": "_session_id=MnVKOURqRWk0S0ZwdkN6aDdkN1VSMVpJTmkrdUlCN1dsaVlpRVpjV3hLeVNKaXo5ZnlNYkJsek9pOUo5bVBVam5Fa0Q3eVNaek5QTFBiT0M5dXRRQ2dUTVV6RlVLcktxYUk2WmI4OWhabVlzNmg4MmoyczNCcXViMlVLaUpPQ0p4bEZ2dWZ1Z3RwYzN6bHYySm9qa0h0WUxsVER3TkU1Z3h2K2xqOUVqWDE0ZmtkN3JMK1hTMzlBcSswVzBlT0szLS11SmRIaUNTZi9kcWl2RXNMUWV3elBBPT0%3D--37cb550b658a5dd87cbada551ac5d2663a6aba32; path=/; HttpOnly",
+        "X-Request-Id": "6bf91e8c-cfb6-49b7-aed7-8adf84c9423b",
+        "X-Runtime": "0.093816",
         "Content-Length": "47"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/admin/users/1/update_abilities\" -d 'abilities[lalala]=1' -X PUT \\\n\t-H \"Access-Token: Yssn-zDAJD-4mtO1z11pfw\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: tamoQU4XvfI5RoPnNgBb3A\" \\\n\t-H \"Expiry: 1467100267\" \\\n\t-H \"Uid: 111hollie@brown.io\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/admin/users/1/update_abilities\" -d 'abilities[lalala]=1' -X PUT \\\n\t-H \"Access-Token: zdp2P4FaN4qWBsRJMgPe9A\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: OLCeMvyJzs2I-IL9oCEBYg\" \\\n\t-H \"Expiry: 1474537185\" \\\n\t-H \"Uid: 110iva.zulauf@rutherford.org\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

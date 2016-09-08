@@ -16,11 +16,11 @@
       "request_path": "/admin/addresses/1",
       "request_body": null,
       "request_headers": {
-        "Access-Token": "hs16Ld8SrSjdl26wXepMZQ",
+        "Access-Token": "Rf84g8vE-tmBQnrPzgYNrQ",
         "Token-Type": "Bearer",
-        "Client": "c0VW7zWJQoBe5od9pAYJ1w",
-        "Expiry": "1467100258",
-        "Uid": "9rachael_price@klockocole.info",
+        "Client": "cAkpZgjJv8ZIcitjE6sqDg",
+        "Expiry": "1474537034",
+        "Uid": "4rosie@carterlueilwitz.biz",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -35,15 +35,20 @@
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
+        "access-token": "Rf84g8vE-tmBQnrPzgYNrQ",
+        "token-type": "Bearer",
+        "client": "cAkpZgjJv8ZIcitjE6sqDg",
+        "expiry": "1474537034",
+        "uid": "4rosie@carterlueilwitz.biz",
         "Content-Type": "text/html",
         "Cache-Control": "no-cache",
-        "Set-Cookie": "_session_id=V2RDRVhQVUNSNXhLNkpYWmVNOSt1VkU0WUw5d21ZNHNTSStqYW5UaVdHUllzSlZXS0VWZ2xXVnZ4WjFjNjUzelM4aXZaRXYrbDVFaXUrRTA2aHV4b0x2NmVMcU40OURsN1kvWUdSb1MxMi9VR2VMVDJsaEh6eEVPTEx0QVV1TTdERWZZQmI1Z3Z3b2phYlZuZlE1R2VGQXMvanJpOGd6NnJLMWZ3dkU3Z2V2cGZ5QjZvbmJFV0RJVDFWMHdqQ0wrLS0vNWcrOEh4L013SUdtQkNOQTJSak53PT0%3D--7b9f5d8ba7e703775ebb4a0d1f8849051d452dfa; path=/; HttpOnly",
-        "X-Request-Id": "c25a940d-3462-43df-9607-806e25f77bd3",
-        "X-Runtime": "0.080463",
+        "Set-Cookie": "_session_id=SFp2NVcwWEpsSG16Z2R4NlZqb3hIY2RLWTE4TytQSjRFb2YzNldoNENuMU9XU3VyL0t6SVR6RkpDdGdjUHhJM05jQVVMNUNabmF5MnpIMUMvK2VDeC9oVWlvZjRQK2R0cnhPb2dJMVU4aVk1NmVGbHFMSHhoUG1kUXhGMWhpcFRHUzRJNHpNL0JwS3A3YTJmblhPdkhoaE14bUZ5cUxTd29EVmIvZStsNEUyNVZId3ltcElUL1lRcmdiYnJCU0lQLS1GQ0N2ZkE5L2JJc2sxK2daTkFGb1dRPT0%3D--4b7f7890667a4829afbdb5f19e0ddbc70c518ad5; path=/; HttpOnly",
+        "X-Request-Id": "be571eed-24d6-4472-8de1-3ec55ad1dff1",
+        "X-Runtime": "0.113306",
         "Content-Length": "0"
       },
       "response_content_type": "text/html",
-      "curl": "curl \"http://localhost:3000/admin/addresses/1\" -d '' -X DELETE \\\n\t-H \"Access-Token: hs16Ld8SrSjdl26wXepMZQ\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: c0VW7zWJQoBe5od9pAYJ1w\" \\\n\t-H \"Expiry: 1467100258\" \\\n\t-H \"Uid: 9rachael_price@klockocole.info\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/admin/addresses/1\" -d '' -X DELETE \\\n\t-H \"Access-Token: Rf84g8vE-tmBQnrPzgYNrQ\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: cAkpZgjJv8ZIcitjE6sqDg\" \\\n\t-H \"Expiry: 1474537034\" \\\n\t-H \"Uid: 4rosie@carterlueilwitz.biz\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

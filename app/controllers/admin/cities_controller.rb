@@ -41,7 +41,7 @@ module Admin
 			end
 
 			def city_params
-				params.require(:city).permit(:name, :active, :stringified_polygon)
+				params.require(:city).permit(:name, :active)
 			end
 	end
 end

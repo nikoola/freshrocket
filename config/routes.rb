@@ -1,13 +1,17 @@
 Rails.application.routes.draw do
 
 
+  	resources :areas,only: [:index, :show]
+
 	# no authentication needed.
 	resources :categories, only: [:index]
 	resources :products,   only: [:index, :show]
 	resources :cities,     only: [:index, :show]
-  resources :options,    only: [:index, :show]
+  	resources :options,    only: [:index, :show]
 
-
+  	namespace :addresses do
+  		get :containing_address
+  	end
 
 	scope :forms do
 		controller :forms do
@@ -54,7 +58,7 @@ Rails.application.routes.draw do
 		end
 
 		resources :addresses, only: [:index, :create, :update, :destroy]
-
+		# resources :areas
 
 	end
 
@@ -65,8 +69,8 @@ Rails.application.routes.draw do
 			member {
 				put :update_image
 			}
-    end
-    resources :options, only: [:create, :update, :destroy]
+	    end
+	    resources :options, only: [:create, :update, :destroy]
 		resources :products,      only: [:create, :update, :destroy]
 		resources :orders,        only: [:index, :show, :create, :update] do
 			member {
@@ -83,6 +87,7 @@ Rails.application.routes.draw do
 		resources :coupons,       only: [:index, :create, :update, :destroy]
 		resources :cities,        only: [:create, :update, :destroy]
 		resources :addresses,     only: [:index, :create, :update, :destroy]
+		resources :areas
 
 		get '/stats' => 'stats#stats'
 	end

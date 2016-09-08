@@ -23,7 +23,7 @@
     {
       "request_method": "POST",
       "request_path": "/auth/sign_in",
-      "request_body": "email=123ella.quigley%40ratke.com&password=secrety_bickety",
+      "request_body": "email=120leie.crona%40stokeslabadie.org&password=secrety_bickety",
       "request_headers": {
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
@@ -34,25 +34,25 @@
       "request_content_type": "application/x-www-form-urlencoded",
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\n  \"data\": {\n    \"id\": 1,\n    \"first_name\": \"Lilliana\",\n    \"last_name\": \"Doyle\",\n    \"email\": \"123ella.quigley@ratke.com\",\n    \"phone\": \"4907190368\",\n    \"is_verified\": false,\n    \"provider\": \"email\",\n    \"uid\": \"123ella.quigley@ratke.com\",\n    \"created_at\": \"2016-06-14T07:51:08.375Z\",\n    \"abilities\": {\n      \"orders\": 0,\n      \"products\": 0,\n      \"users\": 0,\n      \"categories\": 0,\n      \"coupons\": 0,\n      \"settings\": 0,\n      \"cities\": 0,\n      \"delivery_boy\": 0\n    },\n    \"addresses\": [\n\n    ],\n    \"orders\": [\n\n    ]\n  }\n}",
+      "response_body": "{\n  \"data\": {\n    \"id\": 1,\n    \"first_name\": \"Chaz\",\n    \"last_name\": \"Hamill\",\n    \"email\": \"120leie.crona@stokeslabadie.org\",\n    \"phone\": \"3250636889\",\n    \"is_verified\": false,\n    \"provider\": \"email\",\n    \"uid\": \"120leie.crona@stokeslabadie.org\",\n    \"created_at\": \"2016-09-08T09:41:18.113Z\",\n    \"abilities\": {\n      \"orders\": 0,\n      \"products\": 0,\n      \"users\": 0,\n      \"categories\": 0,\n      \"coupons\": 0,\n      \"settings\": 0,\n      \"cities\": 0,\n      \"delivery_boy\": 0\n    },\n    \"addresses\": [\n\n    ],\n    \"orders\": [\n\n    ]\n  }\n}",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
-        "access-token": "JgtAPjUsDtKWLovEE8pn1g",
+        "access-token": "C_bQlLzlMfQ-cU9V_LYaNw",
         "token-type": "Bearer",
-        "client": "vVVf6MFv3OrcXSMX9VXMew",
-        "expiry": "1467100268",
-        "uid": "123ella.quigley@ratke.com",
+        "client": "f1vXhk7DBTtUGoNIZIqVuA",
+        "expiry": "1474537278",
+        "uid": "120leie.crona@stokeslabadie.org",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"c89c963472c5679fd78d8d09275d511d\"",
+        "ETag": "W/\"9352a5abf727ba08f88c6f5537bf17c2\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "X-Request-Id": "409d91a3-171f-4604-8716-19afa9a65c2a",
-        "X-Runtime": "0.152644",
-        "Content-Length": "374"
+        "X-Request-Id": "3b41235f-9403-4b73-89fc-da74b714fd81",
+        "X-Runtime": "0.116235",
+        "Content-Length": "383"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/auth/sign_in\" -d 'email=123ella.quigley%40ratke.com&password=secrety_bickety' -X POST \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/auth/sign_in\" -d 'email=120leie.crona%40stokeslabadie.org&password=secrety_bickety' -X POST \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

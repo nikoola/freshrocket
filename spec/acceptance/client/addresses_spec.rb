@@ -9,14 +9,15 @@ resource 'client: addresses', type: :request do
 
 	let(:address) { FactoryGirl.create :address, user_id: user.id }
 	let(:city)    { FactoryGirl.create :city }
+	let(:area) {FactoryGirl.create :area, city_id: city.id}
 
 	get '/client/addresses' do
 		parameter :active, '0/1. is inactive if user tried to delete order, but it was already mentioned in any orders'
 
 		example 'get all own addresses' do
-			FactoryGirl.create_list :address, 3, user_id: user.id, active: false
-			FactoryGirl.create_list :address, 2, user_id: user.id
-			FactoryGirl.create_list :address, 2
+			FactoryGirl.create_list :address, 3, area_id: area.id, city_id: city.id, user_id: user.id, active: false
+			FactoryGirl.create_list :address, 2, area_id: area.id, city_id: city.id, user_id: user.id
+			FactoryGirl.create_list :address, 2, area_id: area.id, city_id: city.id, user_id: user.id
 
 			do_request active: 0
 
@@ -34,13 +35,16 @@ resource 'client: addresses', type: :request do
 	post '/client/addresses' do
 		with_options scope: :address, required: true do
 			parameter :city_id
+			# parameter :area_id
 			parameter :street_and_house
 			parameter :door_number
+			parameter :lat
+			parameter :lng
 			parameter :zip_code,        required: false
 		end
 
 		example 'create own address' do
-			do_request address: FactoryGirl.attributes_for(:address, city_id: city.id)
+			do_request address: FactoryGirl.attributes_for(:address, city_id: city.id, area_id: area.id)
 
 			expect(status).to eq(201)
 			expect(json[:user_id]).to eq(user.id)

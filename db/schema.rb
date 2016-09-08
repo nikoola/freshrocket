@@ -11,16 +11,30 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20160713091946) do
+ActiveRecord::Schema.define(version: 20160901192421) do
 
   create_table "addresses", force: :cascade do |t|
     t.integer "user_id"
     t.integer "city_id"
+    t.integer "area_id"
     t.string  "street_and_house"
     t.string  "door_number"
     t.string  "coordinate"
     t.integer "zip_code"
+    t.decimal "lat"
+    t.decimal "lng"
     t.boolean "active",           default: true
+  end
+
+  create_table "areas", force: :cascade do |t|
+    t.string   "name"
+    t.decimal  "radius"
+    t.integer  "city_id"
+    t.boolean  "active",     default: true
+    t.decimal  "lat"
+    t.decimal  "lng"
+    t.datetime "created_at",                null: false
+    t.datetime "updated_at",                null: false
   end
 
   create_table "categories", force: :cascade do |t|
@@ -38,8 +52,7 @@ ActiveRecord::Schema.define(version: 20160713091946) do
 
   create_table "cities", force: :cascade do |t|
     t.string  "name"
-    t.string  "polygon"
-    t.boolean "active",  default: true
+    t.boolean "active", default: true
   end
 
   create_table "coupons", force: :cascade do |t|
@@ -59,7 +72,6 @@ ActiveRecord::Schema.define(version: 20160713091946) do
     t.integer "product_id"
     t.integer "amount"
     t.decimal "fixed_price", precision: 8, scale: 2
-    t.integer "option_id"
   end
 
   add_index "line_items", ["order_id"], name: "index_line_items_on_order_id"

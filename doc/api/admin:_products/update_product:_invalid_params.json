@@ -16,11 +16,11 @@
       "request_path": "/admin/products/1",
       "request_body": "product[title]",
       "request_headers": {
-        "Access-Token": "a1exDpXIxyzXKwQhjwmVrQ",
+        "Access-Token": "qVDIz0a24iExoxmZO8SXSg",
         "Token-Type": "Bearer",
-        "Client": "CUvUZDEQee8We-00OUcEYQ",
-        "Expiry": "1467100263",
-        "Uid": "72dominique_johns@mosciskimurazik.name",
+        "Client": "f3Mw2AHpe5HUHKXGzZr4zQ",
+        "Expiry": "1474537157",
+        "Uid": "71ned_mcglynn@wisozk.biz",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -35,15 +35,20 @@
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
+        "access-token": "qVDIz0a24iExoxmZO8SXSg",
+        "token-type": "Bearer",
+        "client": "f3Mw2AHpe5HUHKXGzZr4zQ",
+        "expiry": "1474537157",
+        "uid": "71ned_mcglynn@wisozk.biz",
         "Content-Type": "application/json; charset=utf-8",
         "Cache-Control": "no-cache",
-        "Set-Cookie": "_session_id=UGc5TjFQUmFlNHRZc1VHU3JIdTVrOWljemVqN0h0M0xxdkkrSGZPTm9zUXJvVmJPNUY2QnBQclJIT3dkK2FmMkdxNE5GbjFYZmlnbElwbkNUK1JWVVZRZEkvOWRra2ZjL05UZnFKYmV1dWRFRVYyT2VKZnhwMW1tZVVJUkxGemZZSVZhOExoK1lOZHFVdWNjMGV5b3A3WXg1Q2hUN0tFMHh6dW90WDFVWVE3RWUybUU0TXo2QXBhMmZzdUZtYUtxLS1icUIzRTdRMGplQmdlWVJDRmxCTVJnPT0%3D--7f6a84151b6080b0a1973aaba18d258ee8ecee17; path=/; HttpOnly",
-        "X-Request-Id": "a1dd2634-f7d8-4b0d-b544-26812ff40262",
-        "X-Runtime": "0.072907",
+        "Set-Cookie": "_session_id=L0F0WTV2NHNtOUs3RTJzeWdwRUFvQmdCL0ovK09ZQ0xaSWkrT2tlWG9DVEJzNVNjTlBTUU81Sk94OE92YXJGRVJhcS8zOEtoMyswWkJYNVY4VzVRZktPdStRckNpNkhCZ1Q3VDZkRE4zSld0ME9SWVViMDV3cERlUVkrZC9OWTljNzY0TThueDRoR2ZPMERDVitPSSsxRkttcWtxNDlyZklLaFF5UVQvNlFPYzI1andFOFVCUVBQcGtXejZrQ2U3LS1wU1VyUWZKdmlrcm4xdkl3Mko1c21BPT0%3D--e07de13458e53843a58c948a61bef9b9654bfdaf; path=/; HttpOnly",
+        "X-Request-Id": "afe57e60-8985-4a2a-8203-bb792ca47779",
+        "X-Runtime": "0.082697",
         "Content-Length": "28"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/admin/products/1\" -d 'product[title]' -X PUT \\\n\t-H \"Access-Token: a1exDpXIxyzXKwQhjwmVrQ\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: CUvUZDEQee8We-00OUcEYQ\" \\\n\t-H \"Expiry: 1467100263\" \\\n\t-H \"Uid: 72dominique_johns@mosciskimurazik.name\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/admin/products/1\" -d 'product[title]' -X PUT \\\n\t-H \"Access-Token: qVDIz0a24iExoxmZO8SXSg\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: f3Mw2AHpe5HUHKXGzZr4zQ\" \\\n\t-H \"Expiry: 1474537157\" \\\n\t-H \"Uid: 71ned_mcglynn@wisozk.biz\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

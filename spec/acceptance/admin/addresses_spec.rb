@@ -9,13 +9,15 @@ resource 'admin: addresses', type: :request do
 
 	let(:address) { FactoryGirl.create :address, user_id: user.id }
 	let(:city)    { FactoryGirl.create :city }
+	let(:area) {FactoryGirl.create :area, city_id: city.id}
+	
 
 	get '/admin/addresses' do
 		parameter :active, '0/1. is inactive if user tried to delete order, but it was already mentioned in any orders'
 
 		example 'get all addresses' do
-			FactoryGirl.create_list :address, 3, active: false
-			FactoryGirl.create_list :address, 2
+			FactoryGirl.create_list :address, 3, area_id: area.id, city_id: area.city.id, user_id: user.id, active: false
+			FactoryGirl.create_list :address, 2, area_id: area.id, city_id: area.city.id, user_id: user.id
 
 			do_request active: 0
 
@@ -28,19 +30,30 @@ resource 'admin: addresses', type: :request do
 	end
 
 
-	post '/admin/addresses' do
+	post '/admin/addresses'  do
 		with_options scope: :address, required: true do
 			parameter :city_id
 			parameter :street_and_house
 			parameter :door_number
 			parameter :user_id
+			# parameter :area_id
+			# parameter :lat
+			# parameter :lng
+			parameter :stringified_coordinate
 			parameter :zip_code,        required: false
-			parameter :coordinate
+			# parameter :coordinate
 		end
 
-		example 'create address' do
-			do_request address: FactoryGirl.attributes_for(:address, city_id: city.id, user_id: user.id)
-
+		example 'create address', :focus => true do
+			#################################
+			# add stringified_coordinate to the params
+			#
+			add = FactoryGirl.build(:address, area_id: area.id, city_id: area.city.id, user_id: user.id)
+			hash = add.attributes
+			hash[:stringified_coordinate] = "["+add.lat.to_s+","+add.lng.to_s+"]"
+			# puts hash
+			#####################################
+			do_request address: hash	
 			expect(status).to eq(201)
 		end
 
