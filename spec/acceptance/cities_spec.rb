@@ -15,8 +15,8 @@ resource 'cities', type: :request do
 			FactoryGirl.create_list :city, 4
 
 
-			do_request active: '1'
-				
+			do_request active: '1',name: City.first.name
+							
 			returned_ids = jsons.pluck(:id)
 			expected_ids = City.where(active: true).pluck(:id)
 
