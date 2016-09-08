@@ -59,11 +59,11 @@
       "request_path": "/admin/products",
       "request_body": "product[title]=fish&product[price]=3.0&product[inventory_count]=2&product[city_id]=1&product[category_ids][]=1",
       "request_headers": {
-        "Access-Token": "1yV6T4CIrlzA5aB-AxQGqg",
+        "Access-Token": "5D1b1n746PSLawTeTZpShQ",
         "Token-Type": "Bearer",
-        "Client": "fjKpQBDvWIG1hH-1rdjpsQ",
-        "Expiry": "1474537156",
-        "Uid": "66anais@bernhardschmeler.org",
+        "Client": "EqoLHtEbF8ROCfWI7Zv-1g",
+        "Expiry": "1474546679",
+        "Uid": "66sterling@schultzreinger.info",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -73,27 +73,27 @@
       "request_content_type": "application/x-www-form-urlencoded",
       "response_status": 201,
       "response_status_text": "Created",
-      "response_body": "{\n  \"id\": 1,\n  \"city_id\": 1,\n  \"title\": \"fish\",\n  \"price\": \"3.0\",\n  \"description\": null,\n  \"created_at\": \"2016-09-08T09:39:16.837Z\",\n  \"updated_at\": \"2016-09-08T09:39:16.837Z\",\n  \"inventory_count\": 2,\n  \"image_url\": \"https://freshrocket-test.s3.amazonaws.com/uploads/product/image/default.png\",\n  \"categories\": [\n    {\n      \"id\": 1,\n      \"name\": \"Category 3\",\n      \"image_url\": \"https://freshrocket-test.s3.amazonaws.com/uploads/category/image/default.png\"\n    }\n  ],\n  \"options\": [\n\n  ]\n}",
+      "response_body": "{\n  \"id\": 1,\n  \"city_id\": 1,\n  \"title\": \"fish\",\n  \"price\": \"3.0\",\n  \"description\": null,\n  \"created_at\": \"2016-09-08T12:17:59.533Z\",\n  \"updated_at\": \"2016-09-08T12:17:59.533Z\",\n  \"inventory_count\": 2,\n  \"image_url\": \"https://freshrocket-test.s3.amazonaws.com/uploads/product/image/default.png\",\n  \"categories\": [\n    {\n      \"id\": 1,\n      \"name\": \"Category 3\",\n      \"image_url\": \"https://freshrocket-test.s3.amazonaws.com/uploads/category/image/default.png\"\n    }\n  ],\n  \"options\": [\n\n  ]\n}",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
         "Location": "http://example.org/products/1",
-        "access-token": "1yV6T4CIrlzA5aB-AxQGqg",
+        "access-token": "5D1b1n746PSLawTeTZpShQ",
         "token-type": "Bearer",
-        "client": "fjKpQBDvWIG1hH-1rdjpsQ",
-        "expiry": "1474537156",
-        "uid": "66anais@bernhardschmeler.org",
+        "client": "EqoLHtEbF8ROCfWI7Zv-1g",
+        "expiry": "1474546679",
+        "uid": "66sterling@schultzreinger.info",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"13e9549a42b2d26761544555ffa5060e\"",
+        "ETag": "W/\"e09f8f1a3b92f11a8fdff0f07c7bf45e\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=WC9BaXpMOUpJcXJsUk1JbTVXdS9nSG9yTlBGVGo3dU45R2FnK0MvYVpkQTNrNTE4VlhlS1VUbjF4ZzVEbmVOekxqdmovcWJhdys2cFFid1c4Y0xmRkgxN1ZwLzNFSUpERGZ4SXRWSk5KT3p4SzhTUUNwbXlMNHovT0RIdWFDY3RYSWh2bnNieVBhbTdOcW5mL2lBUGoyS0xHRXMxSWpMbFhka1BTcGJiNDBkQ3U3WU04KzVGMkRVL2tITlpZdG45LS03b2Z6QmR6VVJwUmpsNFdzRkRrR0pnPT0%3D--726603e8c2ae6091787bdfcd5429641e17df0a2f; path=/; HttpOnly",
-        "X-Request-Id": "d1b54abd-b499-4eba-9971-59e3031536a1",
-        "X-Runtime": "0.124626",
+        "Set-Cookie": "_session_id=YWowV0VYN0h3VWZRMkRLblM3aHZzTUQzTnJWaHJLODhJOUt4VnpieHVFQ0MxNjJ6ZlRPQVQ3cmdsS3diT1VUSExoamNFY216YWZLWlNMQkNhVTRvaldXcnlmdlc0YnlPV0g2VGxZaVBUMG8wRGIyeThpeU4wNUhDSWxRb082RGFJUG00dUlCeTdpek00WnNuZmNlMkQ2RGdXR0hKNEVWNS9ockwvd1lnOWZlbWtmOFVOM3BzSzBqc25rbHBGM2J1LS1tWHdETzNEKy9hemtnWksyUTR2cUR3PT0%3D--e183426f992b506157d838fb05fa768fba273a71; path=/; HttpOnly",
+        "X-Request-Id": "4fec8e0b-9139-40a7-bee4-18fcff162e96",
+        "X-Runtime": "0.153097",
         "Content-Length": "406"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/admin/products\" -d 'product[title]=fish&product[price]=3.0&product[inventory_count]=2&product[city_id]=1&product[category_ids][]=1' -X POST \\\n\t-H \"Access-Token: 1yV6T4CIrlzA5aB-AxQGqg\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: fjKpQBDvWIG1hH-1rdjpsQ\" \\\n\t-H \"Expiry: 1474537156\" \\\n\t-H \"Uid: 66anais@bernhardschmeler.org\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/admin/products\" -d 'product[title]=fish&product[price]=3.0&product[inventory_count]=2&product[city_id]=1&product[category_ids][]=1' -X POST \\\n\t-H \"Access-Token: 5D1b1n746PSLawTeTZpShQ\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: EqoLHtEbF8ROCfWI7Zv-1g\" \\\n\t-H \"Expiry: 1474546679\" \\\n\t-H \"Uid: 66sterling@schultzreinger.info\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

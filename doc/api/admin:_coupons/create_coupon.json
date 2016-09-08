@@ -30,11 +30,11 @@
       "request_path": "/admin/coupons",
       "request_body": "coupon[name]=red&coupon[code]=181513&coupon[discount]=5",
       "request_headers": {
-        "Access-Token": "qn1UINUvA_NVX-WCh48NYg",
+        "Access-Token": "12mlbOZu3eGeE8vL61y0-Q",
         "Token-Type": "Bearer",
-        "Client": "swbE_XajNo7AhiHU6OzDnw",
-        "Expiry": "1474537062",
-        "Uid": "18jayson.braun@reynoldscarroll.org",
+        "Client": "umVzSyUDoV7-r0aI6f8A5w",
+        "Expiry": "1474546553",
+        "Uid": "18ike@mayergrady.io",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -49,21 +49,21 @@
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
-        "access-token": "qn1UINUvA_NVX-WCh48NYg",
+        "access-token": "12mlbOZu3eGeE8vL61y0-Q",
         "token-type": "Bearer",
-        "client": "swbE_XajNo7AhiHU6OzDnw",
-        "expiry": "1474537062",
-        "uid": "18jayson.braun@reynoldscarroll.org",
+        "client": "umVzSyUDoV7-r0aI6f8A5w",
+        "expiry": "1474546553",
+        "uid": "18ike@mayergrady.io",
         "Content-Type": "application/json; charset=utf-8",
         "ETag": "W/\"c0ff8c233de26b716569ce1f824141ec\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=WERDck1lQkhYTG5SR3RlQ2FYRGZTT3haM3ZaZDk2VEw4MTlxOHltTDBaNjcvZmJuMDgwYmVVUXhnZXduVDJ0OXRBTDkyTGgzcHdNWkdMZDNvTjNSUWlINGgyLzVGRDdOaGViRkN4WEJRQmlWMUlDY2hYWW5vbzcwc212WHZubmxHYkhyMjlpSngvVW5HbWJSTVliRnA2b0Y3UjBrQVBiSE1zSGQrMW1icWs5bCsyRHlra1dvV2RESWxjbndhRnJGLS1XVlA5K1pWdkxRRWlaTExrRkxqaEJBPT0%3D--bebef9018732249c5fefbaff74ee5a35359a325a; path=/; HttpOnly",
-        "X-Request-Id": "0610a964-a609-4061-a71e-090548fbd96e",
-        "X-Runtime": "0.079788",
+        "Set-Cookie": "_session_id=bnNiZ0FMRmR5VEgyL2JqdHVDMnBySWhvVndGNUlpNmNidUxlSjZnNXJManFJQzBTOTV5U2JWQkJzaG92UDNRQ200QWcxbFppdXZwYzNIeTU5RG41QzdrL3N2WCtGZ0grWVUzNXVkZW1KNDR3WmppN3FMWEhxbi9uMXVaMGQ3cUVwektJMXBMUEoycmY5Tklxd3I3Tk1LSEYxdkU1b0d1VFQ5dVFZZnBsc2huZ0Y1c1dNZXF4bHRCYzZZNlUwWHpBLS1uYy83MGRNL1R2WVdzdTFyUTFhWFFnPT0%3D--61721324581157be422e9ea166cdf69390f8ce30; path=/; HttpOnly",
+        "X-Request-Id": "47b618af-44dd-4b52-8b52-68420cdda07e",
+        "X-Runtime": "0.100084",
         "Content-Length": "50"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/admin/coupons\" -d 'coupon[name]=red&coupon[code]=181513&coupon[discount]=5' -X POST \\\n\t-H \"Access-Token: qn1UINUvA_NVX-WCh48NYg\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: swbE_XajNo7AhiHU6OzDnw\" \\\n\t-H \"Expiry: 1474537062\" \\\n\t-H \"Uid: 18jayson.braun@reynoldscarroll.org\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/admin/coupons\" -d 'coupon[name]=red&coupon[code]=181513&coupon[discount]=5' -X POST \\\n\t-H \"Access-Token: 12mlbOZu3eGeE8vL61y0-Q\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: umVzSyUDoV7-r0aI6f8A5w\" \\\n\t-H \"Expiry: 1474546553\" \\\n\t-H \"Uid: 18ike@mayergrady.io\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

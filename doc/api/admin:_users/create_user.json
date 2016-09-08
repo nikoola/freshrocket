@@ -53,13 +53,13 @@
     {
       "request_method": "POST",
       "request_path": "/admin/users",
-      "request_body": "user[email]=95alia.yundt%40fisherweinat.net&user[password]=secrety_bickety&user[password_confirmation]=secrety_bickety&user[first_name]=Curtis&user[last_name]=Boehm&user[phone]=2750954575&user[is_verified]=true",
+      "request_body": "user[email]=95adaline_maggio%40stark.info&user[password]=secrety_bickety&user[password_confirmation]=secrety_bickety&user[first_name]=Kailee&user[last_name]=Cronin&user[phone]=6812227073&user[is_verified]=true",
       "request_headers": {
-        "Access-Token": "GZJn7S7ptbwIRCx8JKZsFw",
+        "Access-Token": "_pxfDeFeSmgVhdFxf4PE_g",
         "Token-Type": "Bearer",
-        "Client": "Qf7mwdz-vAxv_GtX6fLU_w",
-        "Expiry": "1474537184",
-        "Uid": "96brandi@hudson.net",
+        "Client": "vglhZT_GU8mYzQ_S0Ps1cA",
+        "Expiry": "1474546711",
+        "Uid": "96natasha@waters.org",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -69,27 +69,27 @@
       "request_content_type": "application/x-www-form-urlencoded",
       "response_status": 201,
       "response_status_text": "Created",
-      "response_body": "{\n  \"id\": 2,\n  \"first_name\": \"Curtis\",\n  \"last_name\": \"Boehm\",\n  \"email\": \"95alia.yundt@fisherweinat.net\",\n  \"phone\": \"2750954575\",\n  \"is_verified\": true,\n  \"provider\": \"email\",\n  \"uid\": \"95alia.yundt@fisherweinat.net\",\n  \"created_at\": \"2016-09-08T09:39:44.610Z\",\n  \"abilities\": {\n    \"orders\": 0,\n    \"products\": 0,\n    \"users\": 0,\n    \"categories\": 0,\n    \"coupons\": 0,\n    \"settings\": 0,\n    \"cities\": 0,\n    \"delivery_boy\": 0\n  },\n  \"addresses\": [\n\n  ],\n  \"orders\": [\n\n  ]\n}",
+      "response_body": "{\n  \"id\": 2,\n  \"first_name\": \"Kailee\",\n  \"last_name\": \"Cronin\",\n  \"email\": \"95adaline_maggio@stark.info\",\n  \"phone\": \"6812227073\",\n  \"is_verified\": true,\n  \"provider\": \"email\",\n  \"uid\": \"95adaline_maggio@stark.info\",\n  \"created_at\": \"2016-09-08T12:18:31.815Z\",\n  \"abilities\": {\n    \"orders\": 0,\n    \"products\": 0,\n    \"users\": 0,\n    \"categories\": 0,\n    \"coupons\": 0,\n    \"settings\": 0,\n    \"cities\": 0,\n    \"delivery_boy\": 0\n  },\n  \"addresses\": [\n\n  ],\n  \"orders\": [\n\n  ]\n}",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
         "Location": "/admin/users/2",
-        "access-token": "GZJn7S7ptbwIRCx8JKZsFw",
+        "access-token": "_pxfDeFeSmgVhdFxf4PE_g",
         "token-type": "Bearer",
-        "client": "Qf7mwdz-vAxv_GtX6fLU_w",
-        "expiry": "1474537184",
-        "uid": "96brandi@hudson.net",
+        "client": "vglhZT_GU8mYzQ_S0Ps1cA",
+        "expiry": "1474546711",
+        "uid": "96natasha@waters.org",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"b8828ddf86bb6988a959d5634a4ac8e5\"",
+        "ETag": "W/\"7da57f427029bede6d73d43cefa62065\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=dmU0OHR4S2FacDZmZnFmS1l3dE1WUUE0TUZJR1dXSFV1SWE1RTI5SzJ1RFdIT0ZrUzIzUDBKLzRvMGQvTk81Zk0xUE5iNUVkUlRnRDFLVWkzYTh1UDZNcFhuT0I5T0hOaEZiQkZTOU5WUnl6MkNMZ0VETTNzSjdsMEhnNVJwakxqUmpiVzVJQVlhSjM4aEJmQnZoSGt5djZLd0RzUThDU09RTmpBd1I1ZWZoNUlIRE1IUXJUN3lhR2pmZXd0UVpSLS1kcGM3WHB6ZVZubmUrV1VmOXpkT2FRPT0%3D--e496161c19b6dd11efa92f387198e601e498dfb8; path=/; HttpOnly",
-        "X-Request-Id": "8ee725d6-6936-448f-b7fe-2930474b4140",
-        "X-Runtime": "0.096375",
-        "Content-Length": "370"
+        "Set-Cookie": "_session_id=ZGNraDBOZ05jcGpHcUNBa1BWVjY2U04rbW5SMW5BZ2NxNFdlQmZqSkhGdUlBcWZHN2VsRkp3ejFBZkZaUHF2M0NuQzFvUjR2NU9HRkE2RmRuZDlaeGRDSXJzY29vV0JWRDRDQ1dad0pWZk1GWWNPNjNMU1V4NUZQYUFtUHpNeWorZW5lM1A1bGZKK1VKNDc0UFluT3ZETzBQSEtSS2hpT2VoYzZrS3dzYWcxNGx3YWpOM05JS1Z4U00xZ0hudGxiLS1pZGh6WUw5NUwwbFQ5bkZ0eTJFL1dnPT0%3D--7a0f0b1a3a8587958973fb20b66d0d0a2c05806a; path=/; HttpOnly",
+        "X-Request-Id": "598a92ee-26fc-4c3d-aac8-c470457b0560",
+        "X-Runtime": "0.095661",
+        "Content-Length": "367"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/admin/users\" -d 'user[email]=95alia.yundt%40fisherweinat.net&user[password]=secrety_bickety&user[password_confirmation]=secrety_bickety&user[first_name]=Curtis&user[last_name]=Boehm&user[phone]=2750954575&user[is_verified]=true' -X POST \\\n\t-H \"Access-Token: GZJn7S7ptbwIRCx8JKZsFw\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: Qf7mwdz-vAxv_GtX6fLU_w\" \\\n\t-H \"Expiry: 1474537184\" \\\n\t-H \"Uid: 96brandi@hudson.net\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/admin/users\" -d 'user[email]=95adaline_maggio%40stark.info&user[password]=secrety_bickety&user[password_confirmation]=secrety_bickety&user[first_name]=Kailee&user[last_name]=Cronin&user[phone]=6812227073&user[is_verified]=true' -X POST \\\n\t-H \"Access-Token: _pxfDeFeSmgVhdFxf4PE_g\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: vglhZT_GU8mYzQ_S0Ps1cA\" \\\n\t-H \"Expiry: 1474546711\" \\\n\t-H \"Uid: 96natasha@waters.org\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

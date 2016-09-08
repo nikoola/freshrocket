@@ -16,11 +16,11 @@
       "request_path": "/admin/areas/1",
       "request_body": null,
       "request_headers": {
-        "Access-Token": "yoPIB9nfgcbMwv-eJvrn2g",
+        "Access-Token": "u2Q3733gnzaY9kT6nwYWRQ",
         "Token-Type": "Bearer",
-        "Client": "dY57jzntGyrp4zG3wOkUwg",
-        "Expiry": "1474537060",
-        "Uid": "8melia@hyattkirlin.co",
+        "Client": "CHSx8_UVeq9_t9CTWjz9qQ",
+        "Expiry": "1474546551",
+        "Uid": "8demario@howe.biz",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -35,20 +35,20 @@
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
-        "access-token": "yoPIB9nfgcbMwv-eJvrn2g",
+        "access-token": "u2Q3733gnzaY9kT6nwYWRQ",
         "token-type": "Bearer",
-        "client": "dY57jzntGyrp4zG3wOkUwg",
-        "expiry": "1474537060",
-        "uid": "8melia@hyattkirlin.co",
+        "client": "CHSx8_UVeq9_t9CTWjz9qQ",
+        "expiry": "1474546551",
+        "uid": "8demario@howe.biz",
         "Content-Type": "text/html",
         "Cache-Control": "no-cache",
-        "Set-Cookie": "_session_id=NHZCN3JFSS9vM3ZwWDZlRms1SUpCMkRFc1pRdjNod1V4a3VjbWdwT1FFWXRob040YWd4V29XRDZINFI2WHBYYytwZkhoczlWenZEOURRNmMydEFlWENPYm01K2laN0c2VmtHU3p5b0JydmM5RGo5aUlHUVkzd1RtNmZjaURiUUtMMXlPRlA0bDdnU2kvaVBsVkJ3U0dMbFpKU2VmNlJ1TGhkMUdLN2IyczVVd0J4QUxQZmNTNWNuMjQxcFEzK2ViLS03Sk1CRlFaQ1BVdG1QZUVRK3B3cjhnPT0%3D--457d714f79addb4a34675b1828fa373ac91be9dc; path=/; HttpOnly",
-        "X-Request-Id": "086049a1-7cb1-4c95-b42f-446c23721de2",
-        "X-Runtime": "0.082220",
+        "Set-Cookie": "_session_id=SnIzNU5kOWFubFFQY0JhL2lPUW1KbWdTd3ZuR3BtZTdmRzQzRk1ESDVWeXJ6aXpsVE1OUTFiR1g5STdaV2NQWHFNbWdWd3dvMTBjb3F3SzdBS09IczVkeXhyT2hWaGUrbDNCR1dncnh5WXpoU21uQ0VGcTJQcW4xYThmSk5tWlVyUlhxU09FSk5VQzRWdnErUzkzblBxdjhrQUVyYXc4aTUvWjVncDE0Ym52NEFaUHNmdnExT2hXNkpSMEJYZXR2LS1xWS9ZVDErNndlYjQ3N0xNbzIyUXFBPT0%3D--2c71d374bf0c67b5268652a2fca303a9c5b4e9d1; path=/; HttpOnly",
+        "X-Request-Id": "f4b95447-943b-4254-9286-d57826629f71",
+        "X-Runtime": "0.084216",
         "Content-Length": "0"
       },
       "response_content_type": "text/html",
-      "curl": "curl \"http://localhost:3000/admin/areas/1\" -d '' -X DELETE \\\n\t-H \"Access-Token: yoPIB9nfgcbMwv-eJvrn2g\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: dY57jzntGyrp4zG3wOkUwg\" \\\n\t-H \"Expiry: 1474537060\" \\\n\t-H \"Uid: 8melia@hyattkirlin.co\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/admin/areas/1\" -d '' -X DELETE \\\n\t-H \"Access-Token: u2Q3733gnzaY9kT6nwYWRQ\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: CHSx8_UVeq9_t9CTWjz9qQ\" \\\n\t-H \"Expiry: 1474546551\" \\\n\t-H \"Uid: 8demario@howe.biz\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

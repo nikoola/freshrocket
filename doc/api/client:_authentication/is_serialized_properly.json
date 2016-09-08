@@ -13,42 +13,42 @@
   "requests": [
     {
       "request_method": "GET",
-      "request_path": "/auth/validate_token?access-token=OVYe-o0mQARIjYdLISQeoA&token-type=Bearer&client=p3PnRsdjuKi5V7Vl10rtiw&expiry=1474537278&uid=122lou.dooley%40gutmannhyatt.com",
+      "request_path": "/auth/validate_token?access-token=3XZj2HYmf0LySJWZHw2x6A&token-type=Bearer&client=aI0sbVQol1SI3HiQTeOoOg&expiry=1474546784&uid=122kathlyn_abbott%40metzbartell.info",
       "request_body": null,
       "request_headers": {
         "Host": "example.org",
         "Cookie": ""
       },
       "request_query_parameters": {
-        "access-token": "OVYe-o0mQARIjYdLISQeoA",
+        "access-token": "3XZj2HYmf0LySJWZHw2x6A",
         "token-type": "Bearer",
-        "client": "p3PnRsdjuKi5V7Vl10rtiw",
-        "expiry": "1474537278",
-        "uid": "122lou.dooley@gutmannhyatt.com"
+        "client": "aI0sbVQol1SI3HiQTeOoOg",
+        "expiry": "1474546784",
+        "uid": "122kathlyn_abbott@metzbartell.info"
       },
       "request_content_type": null,
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\n  \"success\": true,\n  \"data\": {\n    \"id\": 1,\n    \"first_name\": \"Ernestine\",\n    \"last_name\": \"Dare\",\n    \"email\": \"122lou.dooley@gutmannhyatt.com\",\n    \"phone\": \"8582047975\",\n    \"is_verified\": false,\n    \"provider\": \"email\",\n    \"uid\": \"122lou.dooley@gutmannhyatt.com\",\n    \"created_at\": \"2016-09-08T09:41:18.432Z\",\n    \"abilities\": {\n      \"orders\": 0,\n      \"products\": 0,\n      \"users\": 0,\n      \"categories\": 0,\n      \"coupons\": 0,\n      \"settings\": 0,\n      \"cities\": 0,\n      \"delivery_boy\": 0\n    },\n    \"addresses\": [\n\n    ],\n    \"orders\": [\n\n    ]\n  }\n}",
+      "response_body": "{\n  \"success\": true,\n  \"data\": {\n    \"id\": 1,\n    \"first_name\": \"Quentin\",\n    \"last_name\": \"Homenick\",\n    \"email\": \"122kathlyn_abbott@metzbartell.info\",\n    \"phone\": \"3911517975\",\n    \"is_verified\": false,\n    \"provider\": \"email\",\n    \"uid\": \"122kathlyn_abbott@metzbartell.info\",\n    \"created_at\": \"2016-09-08T12:19:44.716Z\",\n    \"abilities\": {\n      \"orders\": 0,\n      \"products\": 0,\n      \"users\": 0,\n      \"categories\": 0,\n      \"coupons\": 0,\n      \"settings\": 0,\n      \"cities\": 0,\n      \"delivery_boy\": 0\n    },\n    \"addresses\": [\n\n    ],\n    \"orders\": [\n\n    ]\n  }\n}",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
-        "access-token": "OVYe-o0mQARIjYdLISQeoA",
+        "access-token": "3XZj2HYmf0LySJWZHw2x6A",
         "token-type": "Bearer",
-        "client": "p3PnRsdjuKi5V7Vl10rtiw",
-        "expiry": "1474537278",
-        "uid": "122lou.dooley@gutmannhyatt.com",
+        "client": "aI0sbVQol1SI3HiQTeOoOg",
+        "expiry": "1474546784",
+        "uid": "122kathlyn_abbott@metzbartell.info",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"7a7f150aa003aa1daab539698b5750e5\"",
+        "ETag": "W/\"bb96c977fc7c25f254a468321f030ce7\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=emdmR2FYOHZPMlk4cE9hTWZ2K2JsK04yTk44RWNac1Q0TS8xWWltTGdkN0FrUW9iYVZKeG5LY2haZmFqOEhNSkdPTmhUZ1VQSm1NNXlFdS9adVV4TldPUEhIV1VHM3VkSzQ2TTdNRUNQcmlscGNrb01xaFBWM0pDRG1uRnRHaVVqREYzdWJralFDQTJSYm1tTFNKblFpN3ZZb1Zycjh6dExPVUFYYmN6NlBzaVJGNEl3WFhEblV4WVVHc205aFZULS05a3dzOVo3dUVGNHBEeFIwZWtHY3pRPT0%3D--4511222eb91dfacc7ff30e8e9658c723a53cb1c1; path=/; HttpOnly",
-        "X-Request-Id": "3faebeca-7294-4c06-a417-af8068a21471",
-        "X-Runtime": "0.078010",
-        "Content-Length": "399"
+        "Set-Cookie": "_session_id=UkJzMUV1YW1WOXIrQWp5SUwwY3FWR1dVWWxuSDhaVVA3dndvVlhrdmx1Ym5TdnFYNTJ3dEZzK0NrYkVpdU9sYmhIZFhDU291RTFqUi80UDBWVFRWVFZnV2NDdlpuVkpsRXBzM1h3V2V1cHdiZVRlaytnSzJCVEcwbFJhekdUMk5ydDltZTVUbmpkT0h5R2JnUU5YN3VVbHI5eUdvZGtGY3hxbk00L2habURsVUoycmRhaittZlduVnJpeWd5R0RFLS1ObC9vS1hhQ0NGTVc5MVZDd1ZGTEtnPT0%3D--da59231e5b4ab5156e0d24d5bdc15131cb6f0edb; path=/; HttpOnly",
+        "X-Request-Id": "7f9e9833-5e91-4281-8d28-adc743fea005",
+        "X-Runtime": "0.076174",
+        "Content-Length": "409"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/auth/validate_token?access-token=OVYe-o0mQARIjYdLISQeoA&token-type=Bearer&client=p3PnRsdjuKi5V7Vl10rtiw&expiry=1474537278&uid=122lou.dooley%40gutmannhyatt.com\" -X GET \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/auth/validate_token?access-token=3XZj2HYmf0LySJWZHw2x6A&token-type=Bearer&client=aI0sbVQol1SI3HiQTeOoOg&expiry=1474546784&uid=122kathlyn_abbott%40metzbartell.info\" -X GET \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

@@ -74,11 +74,11 @@
       "request_path": "/admin/orders",
       "request_body": "order[address_id]=1&order[user_id]=2&order[line_items_attributes][][product_id]=1&order[line_items_attributes][][amount]=3",
       "request_headers": {
-        "Access-Token": "yN-NMwhvaC2PuQb1COoHMw",
+        "Access-Token": "TyshNsvNnU3riC7GQzPAxw",
         "Token-Type": "Bearer",
-        "Client": "jxYafbiOBZw4siizxj6F_A",
-        "Expiry": "1474537123",
-        "Uid": "48ashly.schneider@ward.net",
+        "Client": "y1L-yNNxLsgLQ-95-qipxg",
+        "Expiry": "1474546644",
+        "Uid": "48mona@kihnkilback.net",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -88,26 +88,26 @@
       "request_content_type": "application/x-www-form-urlencoded",
       "response_status": 201,
       "response_status_text": "Created",
-      "response_body": "{\n  \"id\": 1,\n  \"user_id\": 2,\n  \"status\": \"approved\",\n  \"created_at\": \"2016-09-08T09:38:43.793Z\",\n  \"confirmed_at\": \"2016-09-08T09:38:43.795Z\",\n  \"approved_at\": \"2016-09-08T09:38:43.802Z\",\n  \"dispacthed_at\": null,\n  \"delivered_at\": null,\n  \"canceled_at\": null,\n  \"pure_product_price\": null,\n  \"tax\": null,\n  \"delivery_charge\": null,\n  \"total_price\": null,\n  \"coupon_code\": null,\n  \"delivery_boy_id\": null,\n  \"delivery_boy_phone\": null,\n  \"wanted_time\": null,\n  \"wanted_date\": null,\n  \"payment_type\": \"cash\",\n  \"is_paid\": false,\n  \"feedback\": null,\n  \"comment\": null,\n  \"source_type\": null,\n  \"admin_comment\": null,\n  \"line_items\": [\n    {\n      \"id\": 1,\n      \"order_id\": 1,\n      \"amount\": 3,\n      \"fixed_price\": null,\n      \"product_id\": 1\n    }\n  ],\n  \"address\": {\n    \"id\": 1,\n    \"city_id\": 2,\n    \"user_id\": 1,\n    \"street_and_house\": \"Maharashtra 413713, India\",\n    \"door_number\": \"5\",\n    \"active\": true,\n    \"city_name\": \"Loni\"\n  },\n  \"delivery_boy\": null\n}",
+      "response_body": "{\n  \"id\": 1,\n  \"user_id\": 2,\n  \"status\": \"approved\",\n  \"created_at\": \"2016-09-08T12:17:24.683Z\",\n  \"confirmed_at\": \"2016-09-08T12:17:24.685Z\",\n  \"approved_at\": \"2016-09-08T12:17:24.695Z\",\n  \"dispacthed_at\": null,\n  \"delivered_at\": null,\n  \"canceled_at\": null,\n  \"pure_product_price\": null,\n  \"tax\": null,\n  \"delivery_charge\": null,\n  \"total_price\": null,\n  \"coupon_code\": null,\n  \"delivery_boy_id\": null,\n  \"delivery_boy_phone\": null,\n  \"wanted_time\": null,\n  \"wanted_date\": null,\n  \"payment_type\": \"cash\",\n  \"is_paid\": false,\n  \"feedback\": null,\n  \"comment\": null,\n  \"source_type\": null,\n  \"admin_comment\": null,\n  \"line_items\": [\n    {\n      \"id\": 1,\n      \"order_id\": 1,\n      \"amount\": 3,\n      \"fixed_price\": null,\n      \"product_id\": 1\n    }\n  ],\n  \"address\": {\n    \"id\": 1,\n    \"city_id\": 2,\n    \"user_id\": 1,\n    \"street_and_house\": \"Maharashtra 413713, India\",\n    \"door_number\": \"5\",\n    \"active\": true,\n    \"city_name\": \"Loni\"\n  },\n  \"delivery_boy\": null\n}",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
-        "access-token": "yN-NMwhvaC2PuQb1COoHMw",
+        "access-token": "TyshNsvNnU3riC7GQzPAxw",
         "token-type": "Bearer",
-        "client": "jxYafbiOBZw4siizxj6F_A",
-        "expiry": "1474537123",
-        "uid": "48ashly.schneider@ward.net",
+        "client": "y1L-yNNxLsgLQ-95-qipxg",
+        "expiry": "1474546644",
+        "uid": "48mona@kihnkilback.net",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"ab3d34665acd05adaa96fed8e1f5b76d\"",
+        "ETag": "W/\"a80b73ed8685f747d7a493ee49afc617\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=VzN2b1dzNmFEeVlrUVVrc21jazhyWm4rQkJld0xMY0xMaWVZTS81UjRSS1FnMFcvZEF0c2JUenNST2hzOWxJdk1jbGF1T1VScDdQZFY2ekREd1BHdjJOQThRNmlVaGs4SEl4Nlhna2FjbFBpd0ZFQU1za2d3T0tYbnZBTzBaVStkei9hZk9DUG9RaC9IS0J3SzZSUGoyVTNWM1k5bDgxN0JUdXZxOG1YaGFXTTRJOUJMRDZLWUJrTjNpUmxyVXZwLS1NRWZtRit0QlNiSTh2VEs1YVZSQWNBPT0%3D--e318721f78647c0e655daedbcf844e982e52d02a; path=/; HttpOnly",
-        "X-Request-Id": "b31d9b30-a358-4746-a244-1fdc115be811",
-        "X-Runtime": "0.222047",
+        "Set-Cookie": "_session_id=b1NyRkF2YWdLVXZycnlWOEpxY2hrK1VtZjIya2VlcHZIeDZpRHNVMGNSQ09kWDYway8wQW5SY3dPTkVjdXh3OFdzeVJYaUF0K21BTjJMZlI4Y2NCSzUwSk81cGxsTTdOVlZ3MGZxdEk5VEVlbHpXaGllVm1yUVgwTlI4WllwVWlrUmtmdXVEV1FlQ3FpMnoxMWt5QWt1S21JcjJod3F2dHJDSVByKzdsQ3JQMU5GUHUwSi9DYS92Qk5WOTVsaWpyLS13dDcyUW5rdUJBMEhNcWQ4SGtsTExnPT0%3D--b83440973dfe2821f1c80ef9b1dd5073dacd5aca; path=/; HttpOnly",
+        "X-Request-Id": "7844c9b0-ecfa-4a4a-8c93-29fcb6a2e1fb",
+        "X-Runtime": "0.266066",
         "Content-Length": "760"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/admin/orders\" -d 'order[address_id]=1&order[user_id]=2&order[line_items_attributes][][product_id]=1&order[line_items_attributes][][amount]=3' -X POST \\\n\t-H \"Access-Token: yN-NMwhvaC2PuQb1COoHMw\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: jxYafbiOBZw4siizxj6F_A\" \\\n\t-H \"Expiry: 1474537123\" \\\n\t-H \"Uid: 48ashly.schneider@ward.net\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/admin/orders\" -d 'order[address_id]=1&order[user_id]=2&order[line_items_attributes][][product_id]=1&order[line_items_attributes][][amount]=3' -X POST \\\n\t-H \"Access-Token: TyshNsvNnU3riC7GQzPAxw\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: y1L-yNNxLsgLQ-95-qipxg\" \\\n\t-H \"Expiry: 1474546644\" \\\n\t-H \"Uid: 48mona@kihnkilback.net\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

@@ -21,11 +21,11 @@
       "request_path": "/admin/orders/1/update_status",
       "request_body": "order[action]=dispatch",
       "request_headers": {
-        "Access-Token": "V4etDUfPWVWZPj-Iq4SBRg",
+        "Access-Token": "1RPilcQWbV9RboXWrtW4mQ",
         "Token-Type": "Bearer",
-        "Client": "rO9Q3Ys2IJVBcOUkkWTpzg",
-        "Expiry": "1474537156",
-        "Uid": "65mathias.hegmann@kaulkejenkins.net",
+        "Client": "kvZ8fJfUD9LX_czSg2fbwg",
+        "Expiry": "1474546679",
+        "Uid": "65moises@bauchheller.org",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -40,20 +40,20 @@
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
-        "access-token": "V4etDUfPWVWZPj-Iq4SBRg",
+        "access-token": "1RPilcQWbV9RboXWrtW4mQ",
         "token-type": "Bearer",
-        "client": "rO9Q3Ys2IJVBcOUkkWTpzg",
-        "expiry": "1474537156",
-        "uid": "65mathias.hegmann@kaulkejenkins.net",
+        "client": "kvZ8fJfUD9LX_czSg2fbwg",
+        "expiry": "1474546679",
+        "uid": "65moises@bauchheller.org",
         "Content-Type": "application/json; charset=utf-8",
         "Cache-Control": "no-cache",
-        "Set-Cookie": "_session_id=QlNkWW53MU85UVg4OGo1K2IzMEhkVjJ5UkVCNVlmN010QzNFMzc1VjVnYTFYMmxDUmNzZ1doMUdDMHMxZGtZd1FtUU9lYkkxWVpjOHFqa0NzRkpBaU5sNnRkeE9kMm91NElYN0tFU1V6cjdMWk0wbUduRlFaMGhRSXZIWjhMalJiY0tWaWtZcUx5bndGL1ZrZmloWkh3V3l3RW5yTHVjeXhiQXpGU254KzJkQVpLb3BUeEIzSGwyd29FRzZkWHpsLS05WUU3SVpIMVlKMEFJeStUVkIzclF3PT0%3D--4352ae16c5f891313b5a112fb21e8cf68a882f42; path=/; HttpOnly",
-        "X-Request-Id": "4e262600-39a8-4d6d-97f6-a6582f74195f",
-        "X-Runtime": "0.096477",
+        "Set-Cookie": "_session_id=L1gweHZ2S3ZiQnRpZExMUnZZOXVPMXpvN1N6NUpVa0FRZVByUTR0aTlxNXZmSThZOWtMaVZhMGREWjN4aUpBY1dZa1pNME50eVNnUEtMSlBTaktqNGZwRnN6VUpGTklORmNtdlJBc25tUDY5SUtPNW8yMFNKa1ZoZXNVWURJbVJoRWE0cTY4YkxaNWxYdTJaOCtYdE8zL3lWaCt6Rzk0cU1RRGRhOFFJNSt5MXUvTXFGODErZkhVb1RTeWtSY1RmLS1PM3F6czBKcGU5dDVHRHZLMFJ3b29BPT0%3D--d78b09a6d203b00b12b1cd1ac2dc54fb3bf23d2c; path=/; HttpOnly",
+        "X-Request-Id": "5f29bcbd-3600-410e-b6e5-6ad407b5dec8",
+        "X-Runtime": "0.088055",
         "Content-Length": "138"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/admin/orders/1/update_status\" -d 'order[action]=dispatch' -X PUT \\\n\t-H \"Access-Token: V4etDUfPWVWZPj-Iq4SBRg\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: rO9Q3Ys2IJVBcOUkkWTpzg\" \\\n\t-H \"Expiry: 1474537156\" \\\n\t-H \"Uid: 65mathias.hegmann@kaulkejenkins.net\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/admin/orders/1/update_status\" -d 'order[action]=dispatch' -X PUT \\\n\t-H \"Access-Token: 1RPilcQWbV9RboXWrtW4mQ\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: kvZ8fJfUD9LX_czSg2fbwg\" \\\n\t-H \"Expiry: 1474546679\" \\\n\t-H \"Uid: 65moises@bauchheller.org\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

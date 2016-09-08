@@ -16,11 +16,11 @@
       "request_path": "/admin/products/1",
       "request_body": "product[title]=hi",
       "request_headers": {
-        "Access-Token": "k-5lrr2QQoYtYl2pXfi-sg",
+        "Access-Token": "0I9nKBa_xCQMex-uGnUp1w",
         "Token-Type": "Bearer",
-        "Client": "3ejDT-bH3K4Y9164tPWrXw",
-        "Expiry": "1474537157",
-        "Uid": "70dean_cartwright@lednerlubowitz.com",
+        "Client": "0QUUMsB8q73nW3UVFryZ1g",
+        "Expiry": "1474546680",
+        "Uid": "70jettie@wolf.com",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -30,26 +30,26 @@
       "request_content_type": "application/x-www-form-urlencoded",
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\n  \"id\": 1,\n  \"city_id\": 1,\n  \"title\": \"hi\",\n  \"price\": \"3.0\",\n  \"description\": null,\n  \"created_at\": \"2016-09-08T09:39:17.513Z\",\n  \"updated_at\": \"2016-09-08T09:39:17.675Z\",\n  \"inventory_count\": 20,\n  \"image_url\": \"https://freshrocket-test.s3.amazonaws.com/uploads/product/image/default.png\",\n  \"categories\": [\n\n  ],\n  \"options\": [\n\n  ]\n}",
+      "response_body": "{\n  \"id\": 1,\n  \"city_id\": 1,\n  \"title\": \"hi\",\n  \"price\": \"3.0\",\n  \"description\": null,\n  \"created_at\": \"2016-09-08T12:18:00.298Z\",\n  \"updated_at\": \"2016-09-08T12:18:00.493Z\",\n  \"inventory_count\": 20,\n  \"image_url\": \"https://freshrocket-test.s3.amazonaws.com/uploads/product/image/default.png\",\n  \"categories\": [\n\n  ],\n  \"options\": [\n\n  ]\n}",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
-        "access-token": "k-5lrr2QQoYtYl2pXfi-sg",
+        "access-token": "0I9nKBa_xCQMex-uGnUp1w",
         "token-type": "Bearer",
-        "client": "3ejDT-bH3K4Y9164tPWrXw",
-        "expiry": "1474537157",
-        "uid": "70dean_cartwright@lednerlubowitz.com",
+        "client": "0QUUMsB8q73nW3UVFryZ1g",
+        "expiry": "1474546680",
+        "uid": "70jettie@wolf.com",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"3cceea4e5fd1243d084ff4ecf40f4215\"",
+        "ETag": "W/\"c6d53f32192716518e2c9dfdc821fce1\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=YlY1NVZuR1h0My9nN1ZGeTc5VEtGd2N0R1BtMUZERFJtbkJRRDNVbVQyN2RDdkhlMytucy9TREIwbjhqL0lYMXYyQ0xQVndzQnA3cm95NXMzMGx2Wk9adzQvSkhrWjdrZTJhRkp4by93Q29DeUhKeTU0ek56SmFuM1A3ajNEdEsrZ3N6QmlWc08wcFMyWFBZUXl6WTNmOHNKZlJFSUZLTklONXJVMkUzTXBSU1dveG42emtIMEcyZGxEbmpJcEZSLS1DVDNmZWdSMzlsWXZzQmdmMkkrL1hnPT0%3D--13fd9b1a90851cf672962de8b532601faa0f3605; path=/; HttpOnly",
-        "X-Request-Id": "0809b6c4-19b7-4e04-96f1-5d7a263bdb90",
-        "X-Runtime": "0.084937",
+        "Set-Cookie": "_session_id=ZEVQNG5kRmRFbXZweGVlalNsbUNCVGlyWngwbVpWYUUyVGRsVlBlUDRYYzB5czRDcUZwSEhkNkJyOGNlOENydlg3ckM3czFMWWFVKzR0U2V0ZkFIaEE2Mlh5U2ZaNzAxR0diOXVlVzBmbDNaZ2tYejI5d29MVkxRSkFsb0FSWlZvTXZITURqSFRHQjVnNys0T3l2Q0xINXF1RXFkMWo1RnFTSHh4M0IvQmlWeFhHWVNhWTFZQzdjbWVmSnpRQjlYLS13YjFZeVhyaHYxNGh4RWlObjl1K1hBPT0%3D--c5e2054849f500c47cff3cde4f0ed7b5cf53d8e4; path=/; HttpOnly",
+        "X-Request-Id": "8c93bfcd-4e40-4040-9e7f-18c912b2d76f",
+        "X-Runtime": "0.085082",
         "Content-Length": "286"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/admin/products/1\" -d 'product[title]=hi' -X PUT \\\n\t-H \"Access-Token: k-5lrr2QQoYtYl2pXfi-sg\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: 3ejDT-bH3K4Y9164tPWrXw\" \\\n\t-H \"Expiry: 1474537157\" \\\n\t-H \"Uid: 70dean_cartwright@lednerlubowitz.com\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/admin/products/1\" -d 'product[title]=hi' -X PUT \\\n\t-H \"Access-Token: 0I9nKBa_xCQMex-uGnUp1w\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: 0QUUMsB8q73nW3UVFryZ1g\" \\\n\t-H \"Expiry: 1474546680\" \\\n\t-H \"Uid: 70jettie@wolf.com\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

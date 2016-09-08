@@ -16,11 +16,11 @@
       "request_path": "/client/addresses/1",
       "request_body": "address[street_and_house]=good",
       "request_headers": {
-        "Access-Token": "V-2_cWh0VipsHtIhSpN0MA",
+        "Access-Token": "z1JzsMRCxevdA5jfr-kCrg",
         "Token-Type": "Bearer",
-        "Client": "QBgqiO2YNrZwx_Nd4P9dhQ",
-        "Expiry": "1474537269",
-        "Uid": "118rafael@heathcoteruecker.com",
+        "Client": "wn0Ok0B-xrOKsA4ibbp3jA",
+        "Expiry": "1474546776",
+        "Uid": "118kylie@lueilwitzhansen.io",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -30,26 +30,26 @@
       "request_content_type": "application/x-www-form-urlencoded",
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\n  \"id\": 1,\n  \"city_id\": 2,\n  \"user_id\": 1,\n  \"street_and_house\": \"good\",\n  \"door_number\": \"5\",\n  \"active\": true,\n  \"city_name\": \"Pali\"\n}",
+      "response_body": "{\n  \"id\": 1,\n  \"city_id\": 2,\n  \"user_id\": 1,\n  \"street_and_house\": \"good\",\n  \"door_number\": \"5\",\n  \"active\": true,\n  \"city_name\": \"Murwara (Katni)\"\n}",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
-        "access-token": "V-2_cWh0VipsHtIhSpN0MA",
+        "access-token": "z1JzsMRCxevdA5jfr-kCrg",
         "token-type": "Bearer",
-        "client": "QBgqiO2YNrZwx_Nd4P9dhQ",
-        "expiry": "1474537269",
-        "uid": "118rafael@heathcoteruecker.com",
+        "client": "wn0Ok0B-xrOKsA4ibbp3jA",
+        "expiry": "1474546776",
+        "uid": "118kylie@lueilwitzhansen.io",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"6a7805d7ba9b25285b18a5844dc4d96a\"",
+        "ETag": "W/\"46d348e78f8a38a13e82f1352d617187\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=QlNlVW51TzJ1elBEeStWNWJWZ0ZZcG5zMzZoUVF3VzZWWS8vblA3Q2hoblREQjJmWS9GMzJsUktWWllHZHdpRnJHUTBNMEUwZDdJdCtad1NEZkJ6amtFbmw4WGtoVVJUenp0a3VtREVKTFBIVGlWdUNWVHJwVFA1b3lWZVlLVkJqdVFJS3VIclhaQ1JjWGtnV1EwYnNNSVh2a2srZXhGMjFxd2xsQWVmZkhFbVZLQmkxWVR3MEFrbDkrTWJLSWZqLS1vKzF6ek9ndDF1WVpIQU51Y1p3RldnPT0%3D--d83abfc7772429eea3a5e8d0b55a3027f568051a; path=/; HttpOnly",
-        "X-Request-Id": "84d4df93-f501-4271-a828-5afa5835bb91",
-        "X-Runtime": "0.109792",
-        "Content-Length": "109"
+        "Set-Cookie": "_session_id=dzRDRUR3Z3VLRkVFaUhaeTFNM2lDZkxlZ2I5QkJEc0RsSzNQM2JXVjFPNFZ6YW0zYXdJUVRSTWFVVnc2eFNGeldHSUlWNzFNQlMvbmoveC9ibXE2VnM4YTdwVm83dGNocjhaZHNTNEpmU1BMMEtRS2ZZQUFwOXptUlNjeC9vdFZlSm1lZnZxblBXeHJwbXMxMHZ4eDZMRjNYa0tLTC9UNkFzOEx4V1lsL01tUEsyYUlJU3JRR2luVVg3VHl5U1dFLS1KTEpLMGM3aEsrUFZyUUhHTDkyamJBPT0%3D--842eba6e1f1788933d0bcf225b561258f81fbffe; path=/; HttpOnly",
+        "X-Request-Id": "3454a713-3561-49f5-af3d-57aff5baaec8",
+        "X-Runtime": "0.080415",
+        "Content-Length": "120"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/client/addresses/1\" -d 'address[street_and_house]=good' -X PUT \\\n\t-H \"Access-Token: V-2_cWh0VipsHtIhSpN0MA\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: QBgqiO2YNrZwx_Nd4P9dhQ\" \\\n\t-H \"Expiry: 1474537269\" \\\n\t-H \"Uid: 118rafael@heathcoteruecker.com\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/client/addresses/1\" -d 'address[street_and_house]=good' -X PUT \\\n\t-H \"Access-Token: z1JzsMRCxevdA5jfr-kCrg\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: wn0Ok0B-xrOKsA4ibbp3jA\" \\\n\t-H \"Expiry: 1474546776\" \\\n\t-H \"Uid: 118kylie@lueilwitzhansen.io\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

@@ -30,11 +30,11 @@
       "request_path": "/admin/settings",
       "request_body": "settings[tax_in_percentage]=99.0&settings[default_delivery_cost]=115",
       "request_headers": {
-        "Access-Token": "srnnjLz74XudSNc9wZ40Wg",
+        "Access-Token": "FcILGRM6s37gP1AvGfb5MQ",
         "Token-Type": "Bearer",
-        "Client": "Rw_3ot_persMNCvfn_iPDg",
-        "Expiry": "1474537164",
-        "Uid": "78bennie.zieme@schuppesmith.name",
+        "Client": "t82Yk7ji_44q7JUDW3v5oA",
+        "Expiry": "1474546689",
+        "Uid": "78william@conroysteuber.com",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -49,21 +49,21 @@
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
-        "access-token": "srnnjLz74XudSNc9wZ40Wg",
+        "access-token": "FcILGRM6s37gP1AvGfb5MQ",
         "token-type": "Bearer",
-        "client": "Rw_3ot_persMNCvfn_iPDg",
-        "expiry": "1474537164",
-        "uid": "78bennie.zieme@schuppesmith.name",
+        "client": "t82Yk7ji_44q7JUDW3v5oA",
+        "expiry": "1474546689",
+        "uid": "78william@conroysteuber.com",
         "Content-Type": "application/json; charset=utf-8",
         "ETag": "W/\"4ddda431891f4279fd1337c4e6d39d32\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=S053aCtuM0NhTDBUeGhpTXFWZ2IxRVNNRjZwcklQZVlsYVc3YkxxMDhPS21tTW5kNld2ZHRZTmJEWXdVcTlBTTZ4NDFKT3lrSlJvM0RNZFBGU3pLOTlqRW5aaHBpdjkvcUE4S3Y5M1dyMFNnSGdBSktUMDdFUXdobUd4Qnk2QUFVaTJET2VTSXQ4OWUzQ0dmVFA2K2ZTRk9kQTJNSGdKcng0QW5xYmE1UmJtRHUzTHBtTDg0d2VrUzQydjhSaXRwLS1SQW5MZlJLMFhVZ1V6R1lyNjBDVzZBPT0%3D--23a5f5d6a94b1735dc52d928d6e711edc73a0e84; path=/; HttpOnly",
-        "X-Request-Id": "2f8bed25-f9d3-4042-be27-6c7c32fa57fa",
-        "X-Runtime": "0.078707",
+        "Set-Cookie": "_session_id=bGxYaFh1Y3NzeFdaZUVrRHozemJPK3pRRy9jZHFaNUJZSi9pTkJsSWRESmhxMUtLVTlsR3p5OFJwbEN3eXJFdVpDOFZEU0VaSGNjZmhQUjJRK3dBbkZVaG94VFR4dnF3dDdKUGZEM25CdUVmZ0ZMYUN2SE02ZGQ4Y3hHbFhjdVo4clVFakViUE9sSXBXZEhBL29hcW13eEV4ZjVQWHVUNE1XRlVIS0JSRkErMW1LU1pDYnpIUHdZaVltdWF6RjdKLS1Dajd5OUdhZG5XRXVsa0cxQlFzUmFBPT0%3D--258f41a6e95e12039e44747e4a76df427024cf30; path=/; HttpOnly",
+        "X-Request-Id": "01bc7efd-2b69-42b5-89b9-96a300e6b657",
+        "X-Runtime": "0.094419",
         "Content-Length": "101"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/admin/settings\" -d 'settings[tax_in_percentage]=99.0&settings[default_delivery_cost]=115' -X PUT \\\n\t-H \"Access-Token: srnnjLz74XudSNc9wZ40Wg\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: Rw_3ot_persMNCvfn_iPDg\" \\\n\t-H \"Expiry: 1474537164\" \\\n\t-H \"Uid: 78bennie.zieme@schuppesmith.name\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/admin/settings\" -d 'settings[tax_in_percentage]=99.0&settings[default_delivery_cost]=115' -X PUT \\\n\t-H \"Access-Token: FcILGRM6s37gP1AvGfb5MQ\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: t82Yk7ji_44q7JUDW3v5oA\" \\\n\t-H \"Expiry: 1474546689\" \\\n\t-H \"Uid: 78william@conroysteuber.com\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

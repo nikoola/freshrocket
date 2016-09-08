@@ -16,11 +16,11 @@
       "request_path": "/admin/coupons",
       "request_body": null,
       "request_headers": {
-        "Access-Token": "DsuvCOW3de6ZMk7Bh94gnA",
+        "Access-Token": "i803yj0l3b3AhX8EcSgMvQ",
         "Token-Type": "Bearer",
-        "Client": "GndxKVEs0kWN-NoixVnafw",
-        "Expiry": "1474537062",
-        "Uid": "17pattie_walsh@pagacbuckridge.com",
+        "Client": "vbUA_Ku-iT6wiIbO7dVEZQ",
+        "Expiry": "1474546552",
+        "Uid": "17robyn_barton@sawaynarmstrong.io",
         "Host": "example.org",
         "Cookie": ""
       },
@@ -29,26 +29,26 @@
       "request_content_type": null,
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "[\n  {\n    \"id\": 1,\n    \"name\": \"red\",\n    \"code\": \"11041\",\n    \"discount\": 64\n  },\n  {\n    \"id\": 2,\n    \"name\": \"red\",\n    \"code\": \"22452\",\n    \"discount\": 46\n  },\n  {\n    \"id\": 3,\n    \"name\": \"red\",\n    \"code\": \"60093\",\n    \"discount\": 22\n  },\n  {\n    \"id\": 4,\n    \"name\": \"red\",\n    \"code\": \"60594\",\n    \"discount\": 87\n  }\n]",
+      "response_body": "[\n  {\n    \"id\": 1,\n    \"name\": \"red\",\n    \"code\": \"85311\",\n    \"discount\": 25\n  },\n  {\n    \"id\": 2,\n    \"name\": \"red\",\n    \"code\": \"98532\",\n    \"discount\": 77\n  },\n  {\n    \"id\": 3,\n    \"name\": \"red\",\n    \"code\": \"88813\",\n    \"discount\": 62\n  },\n  {\n    \"id\": 4,\n    \"name\": \"red\",\n    \"code\": \"35824\",\n    \"discount\": 54\n  }\n]",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
-        "access-token": "DsuvCOW3de6ZMk7Bh94gnA",
+        "access-token": "i803yj0l3b3AhX8EcSgMvQ",
         "token-type": "Bearer",
-        "client": "GndxKVEs0kWN-NoixVnafw",
-        "expiry": "1474537062",
-        "uid": "17pattie_walsh@pagacbuckridge.com",
+        "client": "vbUA_Ku-iT6wiIbO7dVEZQ",
+        "expiry": "1474546552",
+        "uid": "17robyn_barton@sawaynarmstrong.io",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"fafafdb7ef4bb7bf0ae39a0da7336966\"",
+        "ETag": "W/\"430865fc3f2560320d8961c1e700d0d0\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=WjUvNW5WYmUrWlE0blY4ZjhIdm5abDc5Yk85VkJqcVRwVDgxNlNlaGdYTzIxQWhLUnpZQ3pocEhwQ2FFS2Z4NlphSi94RHhNZlV4VmF6Njd5QTA2RmRVb3kzbWtEaTNKTmtjLzNMQ2t5TTY4WlVVOVg5OHJVYlhDSmNLMkhiL2NDT0pRVHBlNmpyRHl0ZW5leGxoOURkRTZoRVZ6TlM3bE90VTZuYTcwQmxpOGpFZyt2enRtZHV5Z1MyQlRYaEswLS1qdUx0NnAvVVQ2am8veUxEZDlYa3F3PT0%3D--a3a26b2081c401f14b08e71dfeb1f12793af6f45; path=/; HttpOnly",
-        "X-Request-Id": "7c7b2b8e-5bdb-4143-a396-f8d843d90013",
-        "X-Runtime": "0.087364",
+        "Set-Cookie": "_session_id=Z1RxaldZQ2krVlg0VXdFcHB4Unh5QSs2QTRNdmlGMEFTMjB2dVFEQnZMTkpCTmc5bit6Z2hCZ3Y1cU5pdHlpbi9BUyt0bWRhTmVid2VQSE5HMUZSaWV6S0VmRllsYUUxMDZjeXZOZ1ZBWTdaVlJhWUZ2MndqWnFIeHBRdjYxVVpvdEZTNEtFVjNEeGJDQjk5S1oyRTR0aDZ3N3I3RlJOZXhqaGlJYWxBZ0NpWHdkYUQvKzZjNVBqcWhZQ1dBWWdXLS1pTFMzeHBQVXBXbGFUUE5scVczazRnPT0%3D--1a371aacfc3c90929515bc51da327e0e75895f00; path=/; HttpOnly",
+        "X-Request-Id": "bbee91a2-6136-431d-b3b7-ac67f3713d0f",
+        "X-Runtime": "0.094821",
         "Content-Length": "205"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/admin/coupons\" -X GET \\\n\t-H \"Access-Token: DsuvCOW3de6ZMk7Bh94gnA\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: GndxKVEs0kWN-NoixVnafw\" \\\n\t-H \"Expiry: 1474537062\" \\\n\t-H \"Uid: 17pattie_walsh@pagacbuckridge.com\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/admin/coupons\" -X GET \\\n\t-H \"Access-Token: i803yj0l3b3AhX8EcSgMvQ\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: vbUA_Ku-iT6wiIbO7dVEZQ\" \\\n\t-H \"Expiry: 1474546552\" \\\n\t-H \"Uid: 17robyn_barton@sawaynarmstrong.io\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

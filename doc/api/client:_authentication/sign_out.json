@@ -16,11 +16,11 @@
       "request_path": "/auth/sign_out",
       "request_body": null,
       "request_headers": {
-        "Access-Token": "oR1YKdgDYrBxmIAXOiu3nQ",
+        "Access-Token": "LiE8HE5OEARLsFPo-yjZLQ",
         "Token-Type": "Bearer",
-        "Client": "mJ4NsRG300OSrQYcwwBgyQ",
-        "Expiry": "1474537278",
-        "Uid": "121leda@lemke.org",
+        "Client": "vHWB06LOmWJALMw-I2b2lQ",
+        "Expiry": "1474546784",
+        "Uid": "121holden_armstrong@price.net",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -38,13 +38,13 @@
         "Content-Type": "application/json; charset=utf-8",
         "ETag": "W/\"7363e85fe9edee6f053a4b319588c086\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=K0R2WVhvSnRkbEx5QjNBelBDdWhyaW5Ya2dvVW9yb2Fqamo2cnJmYTBQNGVwTnk5ZTRLLzlZaERTYnpxUkZqS1poOW4yRDZkREwra3pxcVdHeFRvNlE9PS0tWU5BNXlydUlKOFVORWwwRGlwZU8ydz09--6afe9f6dbe8336af0d3e5b8f0626bf4effdd185d; path=/; HttpOnly",
-        "X-Request-Id": "f5072f13-f141-48f2-8183-e6c4f72fbde0",
-        "X-Runtime": "0.078105",
+        "Set-Cookie": "_session_id=RVBIc2pEUXZ5WTBxeUtsTTB5YTZOaWFHeHhmNFpiUXUwVk5MZ3RDYkpaL0g1RkpEbGtGVG4ybVdGdVpDa282NEU5V1ZvcVpLWHc1aVo4RTBIME00eEE9PS0tZXlkanRUSEZabS81WHpGcFVaYzhKUT09--35de8e27f282edd525a5fce9085098cbf5da8f62; path=/; HttpOnly",
+        "X-Request-Id": "28056a98-ce3b-47a2-acc7-a632b154d12c",
+        "X-Runtime": "0.070130",
         "Content-Length": "16"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/auth/sign_out\" -d '' -X DELETE \\\n\t-H \"Access-Token: oR1YKdgDYrBxmIAXOiu3nQ\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: mJ4NsRG300OSrQYcwwBgyQ\" \\\n\t-H \"Expiry: 1474537278\" \\\n\t-H \"Uid: 121leda@lemke.org\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/auth/sign_out\" -d '' -X DELETE \\\n\t-H \"Access-Token: LiE8HE5OEARLsFPo-yjZLQ\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: vHWB06LOmWJALMw-I2b2lQ\" \\\n\t-H \"Expiry: 1474546784\" \\\n\t-H \"Uid: 121holden_armstrong@price.net\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

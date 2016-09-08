@@ -16,11 +16,11 @@
       "request_path": "/admin/addresses/1",
       "request_body": null,
       "request_headers": {
-        "Access-Token": "Rf84g8vE-tmBQnrPzgYNrQ",
+        "Access-Token": "qrDQVYIEh1ZFq8xqaX8Ggw",
         "Token-Type": "Bearer",
-        "Client": "cAkpZgjJv8ZIcitjE6sqDg",
-        "Expiry": "1474537034",
-        "Uid": "4rosie@carterlueilwitz.biz",
+        "Client": "o6YHKr0pJ7ykUVuPoKU2NQ",
+        "Expiry": "1474546521",
+        "Uid": "4libby.mueller@marquardt.co",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -35,20 +35,20 @@
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
-        "access-token": "Rf84g8vE-tmBQnrPzgYNrQ",
+        "access-token": "qrDQVYIEh1ZFq8xqaX8Ggw",
         "token-type": "Bearer",
-        "client": "cAkpZgjJv8ZIcitjE6sqDg",
-        "expiry": "1474537034",
-        "uid": "4rosie@carterlueilwitz.biz",
+        "client": "o6YHKr0pJ7ykUVuPoKU2NQ",
+        "expiry": "1474546521",
+        "uid": "4libby.mueller@marquardt.co",
         "Content-Type": "text/html",
         "Cache-Control": "no-cache",
-        "Set-Cookie": "_session_id=SFp2NVcwWEpsSG16Z2R4NlZqb3hIY2RLWTE4TytQSjRFb2YzNldoNENuMU9XU3VyL0t6SVR6RkpDdGdjUHhJM05jQVVMNUNabmF5MnpIMUMvK2VDeC9oVWlvZjRQK2R0cnhPb2dJMVU4aVk1NmVGbHFMSHhoUG1kUXhGMWhpcFRHUzRJNHpNL0JwS3A3YTJmblhPdkhoaE14bUZ5cUxTd29EVmIvZStsNEUyNVZId3ltcElUL1lRcmdiYnJCU0lQLS1GQ0N2ZkE5L2JJc2sxK2daTkFGb1dRPT0%3D--4b7f7890667a4829afbdb5f19e0ddbc70c518ad5; path=/; HttpOnly",
-        "X-Request-Id": "be571eed-24d6-4472-8de1-3ec55ad1dff1",
-        "X-Runtime": "0.113306",
+        "Set-Cookie": "_session_id=UGVhVGpIMkdVcnZnQmJpMjBWYVVYcFJmczNDQ2xUNDdQOUR2ZEJuUFl6cFdpa0NLdXpxRHpDK0dCcXNjcGpGSi9ETDc5YnhZQmJLUG9oVlJRYlovZjNEaC85d1lSUUMxY3VRYmVQdmJKSzNlam13RE5RelJtejhPYS9NRDZpM0FnVnRqbU4rcUxUMFlPN2ZISEs2V1J0NWlpZVVkcE5MdDRiNUV1dHJ4UHZFRms5YWU5RzZzcDI0cVY2RXZoSUROLS0vNHdsSm1nZ2JpdHVnK0FqNDFoM0dBPT0%3D--c7f4eea321d03d3bb74533f77d548dc64107bb14; path=/; HttpOnly",
+        "X-Request-Id": "181d8b4b-1e8b-4a5f-bf5a-b8f380bb7535",
+        "X-Runtime": "0.146672",
         "Content-Length": "0"
       },
       "response_content_type": "text/html",
-      "curl": "curl \"http://localhost:3000/admin/addresses/1\" -d '' -X DELETE \\\n\t-H \"Access-Token: Rf84g8vE-tmBQnrPzgYNrQ\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: cAkpZgjJv8ZIcitjE6sqDg\" \\\n\t-H \"Expiry: 1474537034\" \\\n\t-H \"Uid: 4rosie@carterlueilwitz.biz\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/admin/addresses/1\" -d '' -X DELETE \\\n\t-H \"Access-Token: qrDQVYIEh1ZFq8xqaX8Ggw\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: o6YHKr0pJ7ykUVuPoKU2NQ\" \\\n\t-H \"Expiry: 1474546521\" \\\n\t-H \"Uid: 4libby.mueller@marquardt.co\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }
