@@ -29,3 +29,4 @@ zeus.json
 
 # /public/uploads/*
 # !default.png
+#/config/initializers/parallel_test.rb
