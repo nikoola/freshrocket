@@ -9,6 +9,7 @@ Rails.application.routes.draw do
 	resources :cities,     only: [:index, :show] do
 		member {
 			get :containing_areas
+			get :recommend_areas
 		}
 	end
 

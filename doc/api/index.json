@@ -280,32 +280,6 @@
       ]
     },
     {
-      "name": "cities",
-      "examples": [
-        {
-          "description": "get all areas in city",
-          "link": "cities/get_all_areas_in_city.json",
-          "groups": "all",
-          "route": "/cities/:id/containing_areas",
-          "method": "get"
-        },
-        {
-          "description": "get all cities",
-          "link": "cities/get_all_cities.json",
-          "groups": "all",
-          "route": "/cities",
-          "method": "get"
-        },
-        {
-          "description": "get city",
-          "link": "cities/get_city.json",
-          "groups": "all",
-          "route": "/cities/:id",
-          "method": "get"
-        }
-      ]
-    },
-    {
       "name": "forms",
       "examples": [
         {
@@ -422,6 +396,32 @@
           "link": "client:_orders/get_all_current_user's_orders.json",
           "groups": "all",
           "route": "/client/orders",
+          "method": "get"
+        }
+      ]
+    },
+    {
+      "name": "cities",
+      "examples": [
+        {
+          "description": "get all areas containing delhi using google place api",
+          "link": "cities/get_all_areas_containing_delhi_using_google_place_api.json",
+          "groups": "all",
+          "route": "/cities/:id/recommend_areas",
+          "method": "get"
+        },
+        {
+          "description": "get all cities",
+          "link": "cities/get_all_cities.json",
+          "groups": "all",
+          "route": "/cities",
+          "method": "get"
+        },
+        {
+          "description": "get city",
+          "link": "cities/get_city.json",
+          "groups": "all",
+          "route": "/cities/:id",
           "method": "get"
         }
       ]

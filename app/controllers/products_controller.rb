@@ -19,7 +19,4 @@ class ProductsController < ApplicationController
 		render json: @product, include: params[:include]
 	end
 
-
-
-
 end

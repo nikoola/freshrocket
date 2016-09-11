@@ -32,19 +32,20 @@ class Area < ActiveRecord::Base
 	def stringified_coordinate= string
 		self.lat, self.lng = JSON.parse(string)
 	end
+	
 	private 
 		def disable
 			update active: false
 		end
-	def reverse_geocode
-		# res=Geokit::Geocoders::GoogleGeocoder.reverse_geocode "#{lat},#{lng}"    #warning:no return state check!
-		# # => #<Geokit::GeoLoc:0x558ed0 ...
-		# # res.full_address "101-115 Main St, San Francisco, CA 94105, USA"
-		# unless res.success
-		# 	errors.add :city_name, "City and Area City name not matching #{res.city} : #{city.name}"
-		# end
-		# name = res.full_address
+		def reverse_geocode
+			# res=Geokit::Geocoders::GoogleGeocoder.reverse_geocode "#{lat},#{lng}"    #warning:no return state check!
+			# # => #<Geokit::GeoLoc:0x558ed0 ...
+			# # res.full_address "101-115 Main St, San Francisco, CA 94105, USA"
+			# unless res.success
+			# 	errors.add :city_name, "City and Area City name not matching #{res.city} : #{city.name}"
+			# end
+			# name = res.full_address
 
 
+		end
 	end
-end

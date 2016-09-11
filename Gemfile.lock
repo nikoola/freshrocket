@@ -275,6 +275,9 @@ GEM
     google-v3-geocoder (1.0.0)
       geokit (>= 1.5.0)
       json
+    google_places_autocomplete (0.0.3)
+      hashie
+      httparty
     guard (2.14.0)
       formatador (>= 0.2.4)
       listen (>= 2.7, < 4.0)
@@ -292,6 +295,8 @@ GEM
     hashie (3.4.4)
     http-cookie (1.0.2)
       domain_name (~> 0.5)
+    httparty (0.14.0)
+      multi_xml (>= 0.5.2)
     i18n (0.7.0)
     ice_nine (0.11.2)
     inflecto (0.0.2)
@@ -530,6 +535,7 @@ DEPENDENCIES
   geokit
   geokit-rails
   google-v3-geocoder (= 1.0.0)
+  google_places_autocomplete (~> 0.0.3)
   guard
   guard-rspec
   letter_opener

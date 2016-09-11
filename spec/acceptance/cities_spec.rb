@@ -42,26 +42,40 @@ resource 'cities', type: :request do
 
 	end
 
-	get '/cities/:id/containing_areas' do
+	# get '/cities/:id/containing_areas' do
+	# 	let(:city)    { FactoryGirl.create :city }
+	# 	parameter :id, 'city id'
+
+	# 	example 'get all areas in city', :focus => true do
+	# 		FactoryGirl.create_list :area, 3, city_id: city.id, active: false
+	# 		FactoryGirl.create_list :area, 2, city_id: city.id
+
+	# 		do_request id: city.id 
+
+	# 		# returned_ids = jsons.pluck(:id)
+	# 		# expected_ids = Area.where(active: false).pluck(:id)
+
+	# 		expect(status).to eq(200)
+	# 	    returned_ids = jsons.pluck(:id)
+	# 		expected_ids = Area.pluck(:id)
+	# 		# puts jsons
+	# 		expect(returned_ids).to match_array(expected_ids)
+	# 	end
+	# end
+
+	get '/cities/:id/recommend_areas' do
 		let(:city)    { FactoryGirl.create :city }
-		parameter :id, 'city id'
+		parameter :input, "the keyword"
+		parameter :id, "city id"
 
-		example 'get all areas in city', :focus => true do
-			FactoryGirl.create_list :area, 3, city_id: city.id, active: false
-			FactoryGirl.create_list :area, 2, city_id: city.id
-
-			do_request id: city.id 
-
-			# returned_ids = jsons.pluck(:id)
-			# expected_ids = Area.where(active: false).pluck(:id)
-
-			expect(status).to eq(200)
-		    returned_ids = jsons.pluck(:id)
-			expected_ids = Area.pluck(:id)
-			# puts jsons
-			expect(returned_ids).to match_array(expected_ids)
+		example 'get all areas containing delhi using google place api' do
+			do_request input: "delhi", id: city.id
+			# puts json
+			# binding.pry
+			expect(jsons).not_to be_nil
 		end
 	end
+
 
 
 
