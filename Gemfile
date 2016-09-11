@@ -8,7 +8,8 @@ gem 'rails', '4.2.5'
 # gem 'rails-api'
 gem 'factory_girl_rails', require: false #because of fixtures and seeds.rb
 gem 'faker' #for seed file
-
+gem 'rack-cors', :require => 'rack/cors' #allow cross-origin requests in production (js is on another server)
+  																				 #needful also at the development due to chrome policy.
 group :development, :test do
 	gem 'rspec-rails'
 	gem 'spring-commands-rspec'
@@ -19,8 +20,7 @@ group :development, :test do
 	
 
 	gem 'dotenv-rails'
-	gem 'rack-cors', :require => 'rack/cors' #allow cross-origin requests in production (js is on another server)
-  																				 #needful also at the development due to chrome policy.
+	
 
 	gem 'sqlite3'
 
@@ -51,7 +51,7 @@ group :production do
 	gem 'uglifier'
 
 	gem 'puma'
-	gem 'rack-cors', :require => 'rack/cors' #allow cross-origin requests in production (js is on another server)
+
 
 end
 
