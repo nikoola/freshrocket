@@ -1,0 +1,54 @@
+{
+  "resource": "client: orders",
+  "http_method": "DELETE",
+  "route": "/client/orders/:id",
+  "description": "delete order",
+  "explanation": null,
+  "parameters": [
+
+  ],
+  "response_fields": [
+
+  ],
+  "requests": [
+    {
+      "request_method": "DELETE",
+      "request_path": "/client/orders/3",
+      "request_body": null,
+      "request_headers": {
+        "Access-Token": "IAsYpv0ftKokBRdTVCRJjg",
+        "Token-Type": "Bearer",
+        "Client": "KlC6rQAc4wGTmEe0hkwYzw",
+        "Expiry": "1474824718",
+        "Uid": "26walter_aufderhar@ernser.name",
+        "Host": "example.org",
+        "Content-Type": "application/x-www-form-urlencoded",
+        "Cookie": ""
+      },
+      "request_query_parameters": {
+      },
+      "request_content_type": "application/x-www-form-urlencoded",
+      "response_status": 200,
+      "response_status_text": "OK",
+      "response_body": null,
+      "response_headers": {
+        "X-Frame-Options": "SAMEORIGIN",
+        "X-XSS-Protection": "1; mode=block",
+        "X-Content-Type-Options": "nosniff",
+        "access-token": "IAsYpv0ftKokBRdTVCRJjg",
+        "token-type": "Bearer",
+        "client": "KlC6rQAc4wGTmEe0hkwYzw",
+        "expiry": "1474824718",
+        "uid": "26walter_aufderhar@ernser.name",
+        "Content-Type": "text/html",
+        "Cache-Control": "no-cache",
+        "Set-Cookie": "_session_id=Z2tJYzlSV0RRN0o3eFZ1bjhGWFkrZllRS05oNW5VeGovOC90Ti84NjZkSHBoYmI1aFBXa0YwMDFmUmcyckJTOEJiR3lsKzBnMjlUbUw5bGhrbGNQclJjK0E3ZXlidEtpMTVvcTMzZXU3d3JiZGV0R0Vka0VhZ1RJREptVVJsODBqZHNiZXFyd215TUpCNkhFWEJKcTZUc1IvckdoT25xTHg4cExCSUJZR1JBUHRCQjk5S0UxY3lMaFBYL0Q1SUozLS0veFFjQ3JtUVQyTlU0c2ZIQjRWVlhBPT0%3D--a998ecb7b463cb417dbcbcfbd8d30ace7954f0fd; path=/; HttpOnly",
+        "X-Request-Id": "0988bdbb-d228-4504-b83d-ae2ba1fada3c",
+        "X-Runtime": "0.073904",
+        "Content-Length": "0"
+      },
+      "response_content_type": "text/html",
+      "curl": "curl \"http://localhost:3000/client/orders/3\" -d '' -X DELETE \\\n\t-H \"Access-Token: IAsYpv0ftKokBRdTVCRJjg\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: KlC6rQAc4wGTmEe0hkwYzw\" \\\n\t-H \"Expiry: 1474824718\" \\\n\t-H \"Uid: 26walter_aufderhar@ernser.name\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+    }
+  ]
+}

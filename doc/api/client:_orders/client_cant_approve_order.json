@@ -1,0 +1,59 @@
+{
+  "resource": "client: orders",
+  "http_method": "PUT",
+  "route": "/client/orders/:id/update_status",
+  "description": "client cant approve order",
+  "explanation": null,
+  "parameters": [
+    {
+      "scope": "order",
+      "required": true,
+      "name": "action",
+      "description": "only :confirm is possible for this route (for client)"
+    }
+  ],
+  "response_fields": [
+
+  ],
+  "requests": [
+    {
+      "request_method": "PUT",
+      "request_path": "/client/orders/3/update_status",
+      "request_body": "order[action]=approve",
+      "request_headers": {
+        "Access-Token": "mgMokOLzfrutdaRB_o3tuQ",
+        "Token-Type": "Bearer",
+        "Client": "Yd4Q2fytE8Cp61nl28EAsQ",
+        "Expiry": "1474824737",
+        "Uid": "32elody@crist.co",
+        "Host": "example.org",
+        "Content-Type": "application/x-www-form-urlencoded",
+        "Cookie": ""
+      },
+      "request_query_parameters": {
+      },
+      "request_content_type": "application/x-www-form-urlencoded",
+      "response_status": 401,
+      "response_status_text": "Unauthorized",
+      "response_body": "{\n  \"error\": \"this user can't approve order\"\n}",
+      "response_headers": {
+        "X-Frame-Options": "SAMEORIGIN",
+        "X-XSS-Protection": "1; mode=block",
+        "X-Content-Type-Options": "nosniff",
+        "access-token": "mgMokOLzfrutdaRB_o3tuQ",
+        "token-type": "Bearer",
+        "client": "Yd4Q2fytE8Cp61nl28EAsQ",
+        "expiry": "1474824737",
+        "uid": "32elody@crist.co",
+        "Content-Type": "application/json; charset=utf-8",
+        "Cache-Control": "no-cache",
+        "Set-Cookie": "_session_id=T1cvUmV2T0wzc2dTTVRmVFhKbVBGeDBoaE13WnpidlVFWXNUekRQOW1wZ2kxR3liV0w3UFZHdmlneVl1V3VxMG4zME9tRjZqM0Vrb09Ucm1NL3pCVTk1VjcyclJRbDE0dXFKLzAwQmo2aTJpTk9BUi9OcWVGdFQ5NlBmcUtKUkRUWlQxRUJrMWdZUjdYSDFHdjZrLy9pcFhCaDRHaG5jTnFrT1NtaldsNEJVZXJEazRwWHlQdGp0VHFxbk1zbHdkLS1qNTZINVpHYnlFKzNUR2ZTZGI2NE1RPT0%3D--3af62d91bff07e9467c9d015c25c05d2b3dd96a6; path=/; HttpOnly",
+        "X-Request-Id": "661eacbc-7a6a-4d1f-b03a-7232c24edc1a",
+        "X-Runtime": "0.071058",
+        "Content-Length": "41"
+      },
+      "response_content_type": "application/json; charset=utf-8",
+      "curl": "curl \"http://localhost:3000/client/orders/3/update_status\" -d 'order[action]=approve' -X PUT \\\n\t-H \"Access-Token: mgMokOLzfrutdaRB_o3tuQ\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: Yd4Q2fytE8Cp61nl28EAsQ\" \\\n\t-H \"Expiry: 1474824737\" \\\n\t-H \"Uid: 32elody@crist.co\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+    }
+  ]
+}

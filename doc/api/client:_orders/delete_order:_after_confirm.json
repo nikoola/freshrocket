@@ -1,0 +1,54 @@
+{
+  "resource": "client: orders",
+  "http_method": "DELETE",
+  "route": "/client/orders/:id",
+  "description": "delete order: after confirm",
+  "explanation": null,
+  "parameters": [
+
+  ],
+  "response_fields": [
+
+  ],
+  "requests": [
+    {
+      "request_method": "DELETE",
+      "request_path": "/client/orders/3",
+      "request_body": null,
+      "request_headers": {
+        "Access-Token": "yzP4TruQTWtauqSk54VCmw",
+        "Token-Type": "Bearer",
+        "Client": "CKtWIjQQ7WPXKGsI29rxlw",
+        "Expiry": "1474824725",
+        "Uid": "28lafayette.streich@feest.name",
+        "Host": "example.org",
+        "Content-Type": "application/x-www-form-urlencoded",
+        "Cookie": ""
+      },
+      "request_query_parameters": {
+      },
+      "request_content_type": "application/x-www-form-urlencoded",
+      "response_status": 422,
+      "response_status_text": "Unprocessable Entity",
+      "response_body": "{\n  \"order\": [\n    \"can't be destroyed after confirmation, please try calling the support\"\n  ]\n}",
+      "response_headers": {
+        "X-Frame-Options": "SAMEORIGIN",
+        "X-XSS-Protection": "1; mode=block",
+        "X-Content-Type-Options": "nosniff",
+        "access-token": "yzP4TruQTWtauqSk54VCmw",
+        "token-type": "Bearer",
+        "client": "CKtWIjQQ7WPXKGsI29rxlw",
+        "expiry": "1474824725",
+        "uid": "28lafayette.streich@feest.name",
+        "Content-Type": "application/json; charset=utf-8",
+        "Cache-Control": "no-cache",
+        "Set-Cookie": "_session_id=dGNwQzdKMk1ZRFdnYTNPMUNCS2JiZVMvVFJGVkZTRUxRSnpicWR1SmdJeTNnTWJKMC9RZXNJdDBCSEpGVzVpQkpHb0ZYdXRhMkIwVnBCMUYxSiszaUJuYXZQUHcwUHVVZHBzZW5tWjlHdnBWZFJBZWlTNVdwK1lHZUp4VjFYN0owVEkxTkxteUNiYTVHU3l4UTBLTDNnWXd0RzYzN0hCNG5RMXRPNWlqOU5KNjFYS1hjZFN0ZU5ETWVIMHN0NXpOLS02K2NSVU5uU3Vxc1RGZGcyc242UnB3PT0%3D--e03197b87e3d0a826d7db26f6305c6ab52cc8fd4; path=/; HttpOnly",
+        "X-Request-Id": "c7f471ef-23b8-4ec7-b572-328c4d3ddd1a",
+        "X-Runtime": "0.070783",
+        "Content-Length": "83"
+      },
+      "response_content_type": "application/json; charset=utf-8",
+      "curl": "curl \"http://localhost:3000/client/orders/3\" -d '' -X DELETE \\\n\t-H \"Access-Token: yzP4TruQTWtauqSk54VCmw\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: CKtWIjQQ7WPXKGsI29rxlw\" \\\n\t-H \"Expiry: 1474824725\" \\\n\t-H \"Uid: 28lafayette.streich@feest.name\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+    }
+  ]
+}

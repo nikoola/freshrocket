@@ -1,0 +1,54 @@
+{
+  "resource": "client: users",
+  "http_method": "GET",
+  "route": "/client",
+  "description": "user gets self",
+  "explanation": "status 401 if user unauthenticated",
+  "parameters": [
+
+  ],
+  "response_fields": [
+
+  ],
+  "requests": [
+    {
+      "request_method": "GET",
+      "request_path": "/client",
+      "request_body": null,
+      "request_headers": {
+        "Access-Token": "4Aguy18Yvm1tA5eV3rx01w",
+        "Token-Type": "Bearer",
+        "Client": "zBUYuwR25QTUdMzJwlWISQ",
+        "Expiry": "1474824775",
+        "Uid": "55myrtle.fahey@klingkilback.name",
+        "Host": "example.org",
+        "Cookie": ""
+      },
+      "request_query_parameters": {
+      },
+      "request_content_type": null,
+      "response_status": 200,
+      "response_status_text": "OK",
+      "response_body": "{\n  \"id\": 5,\n  \"first_name\": \"Dejuan\",\n  \"last_name\": \"Labadie\",\n  \"email\": \"55myrtle.fahey@klingkilback.name\",\n  \"phone\": \"1207214154\",\n  \"is_verified\": false,\n  \"provider\": \"email\",\n  \"uid\": \"55myrtle.fahey@klingkilback.name\",\n  \"created_at\": \"2016-09-11T17:32:55.175Z\",\n  \"abilities\": {\n    \"orders\": 0,\n    \"products\": 0,\n    \"users\": 0,\n    \"categories\": 0,\n    \"coupons\": 0,\n    \"settings\": 0,\n    \"cities\": 0,\n    \"delivery_boy\": 0\n  },\n  \"addresses\": [\n\n  ],\n  \"orders\": [\n\n  ]\n}",
+      "response_headers": {
+        "X-Frame-Options": "SAMEORIGIN",
+        "X-XSS-Protection": "1; mode=block",
+        "X-Content-Type-Options": "nosniff",
+        "access-token": "4Aguy18Yvm1tA5eV3rx01w",
+        "token-type": "Bearer",
+        "client": "zBUYuwR25QTUdMzJwlWISQ",
+        "expiry": "1474824775",
+        "uid": "55myrtle.fahey@klingkilback.name",
+        "Content-Type": "application/json; charset=utf-8",
+        "ETag": "W/\"533e7ae88583d57394e6331bccc28e7c\"",
+        "Cache-Control": "max-age=0, private, must-revalidate",
+        "Set-Cookie": "_session_id=SE9zS1Mrb1NhelNLSDZNa0YrUDdDQjUxNUs3c3lWcm9IUE9TdjhVVmNHc083R3ZaTyswMXZpbStNYWwrWFp1OXJ4czhmbURuMXc1bXFDKzR2ZHRpV3ZqbjZoZzJyWmF6OVBjVk95NEcvc0tQeXhrejhXalcwSEtHWFFhTTNJZUVyK2V6cUp0a2pDUDFPQkQyUXFyaHlVbmNNSVNoM084YlV2a3dvbU1Qb3pPWVN3UEJ2cm1tcUJqSjA5Z2lOc1B6LS1pVisveWt4UVRMSmlueGNiNjVNWURnPT0%3D--9325d76e2e488a435f6bded5b0986661721727ce; path=/; HttpOnly",
+        "X-Request-Id": "db42e8a0-83dd-42cc-b5bd-437d3bb6075f",
+        "X-Runtime": "0.102453",
+        "Content-Length": "379"
+      },
+      "response_content_type": "application/json; charset=utf-8",
+      "curl": "curl \"http://localhost:3000/client\" -X GET \\\n\t-H \"Access-Token: 4Aguy18Yvm1tA5eV3rx01w\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: zBUYuwR25QTUdMzJwlWISQ\" \\\n\t-H \"Expiry: 1474824775\" \\\n\t-H \"Uid: 55myrtle.fahey@klingkilback.name\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "resource": "client: payments",
+  "http_method": "GET",
+  "route": "/client/payments/new",
+  "description": "return all forms for payment for own order",
+  "explanation": null,
+  "parameters": [
+    {
+      "name": "order_id",
+      "description": "unique id"
+    }
+  ],
+  "response_fields": [
+
+  ],
+  "requests": [
+    {
+      "request_method": "GET",
+      "request_path": "/client/payments/new?order_id=3",
+      "request_body": null,
+      "request_headers": {
+        "Access-Token": "LPN2O3N7CiWOIyfvnHYRFA",
+        "Token-Type": "Bearer",
+        "Client": "anmV8u2SfkJ5IwwSrC0dIg",
+        "Expiry": "1474824774",
+        "Uid": "44jerrell_mueller@smithkuhlman.biz",
+        "Host": "example.org",
+        "Cookie": ""
+      },
+      "request_query_parameters": {
+        "order_id": "3"
+      },
+      "request_content_type": null,
+      "response_status": 200,
+      "response_status_text": "OK",
+      "response_body": "{\n  \"paytm\": {\n    \"action\": \"https://pguat.paytm.com/oltp-web/processTransaction\",\n    \"method\": \"POST\",\n    \"fields\": {\n      \"ORDER_ID\": \"3\",\n      \"MID\": \"FreshD33860006728322\",\n      \"CALLBACK_URL\": \"http://requestb.in/136wzmc1\",\n      \"CHANNEL_ID\": \"WEB\",\n      \"EMAIL\": \"44jerrell_mueller@smithkuhlman.biz\",\n      \"MOBILE_NO\": \"1535807749\",\n      \"CUST_ID\": \"5\",\n      \"INDUSTRY_TYPE_ID\": \"Retail\",\n      \"WEBSITE\": \"FreshDispatchweb\",\n      \"REQUEST_TYPE\": \"DEFAULT\",\n      \"CHECKSUMHASH\": \"zKhX14fi0N2pbFx54ggCHbc0mT8Bg5wkFhQB1F4wHRyIB1Cgp3qf8HWN34FWxfOodSa5Nry5cPE8jV6+QYnTgzYz0I5WPmBa7zmQBf18CbY=\"\n    }\n  }\n}",
+      "response_headers": {
+        "X-Frame-Options": "SAMEORIGIN",
+        "X-XSS-Protection": "1; mode=block",
+        "X-Content-Type-Options": "nosniff",
+        "access-token": "LPN2O3N7CiWOIyfvnHYRFA",
+        "token-type": "Bearer",
+        "client": "anmV8u2SfkJ5IwwSrC0dIg",
+        "expiry": "1474824774",
+        "uid": "44jerrell_mueller@smithkuhlman.biz",
+        "Content-Type": "application/json; charset=utf-8",
+        "ETag": "W/\"a22156f6e901527713ac973373ec1045\"",
+        "Cache-Control": "max-age=0, private, must-revalidate",
+        "Set-Cookie": "_session_id=M3RnKy9qVHlCV1cxb2NaVUZhNEd1bjZDcGMyRVlKQkhPNTM2UXdpbmd3S1Z4S2tXUnFSdnFCMHNUMXMzVTJkLzNwUVhEMC9ZcXVhSSt3UlNFSXdaWm1URXBUZU50OG5MZllBSmpzV0U3MmFrRisxQVRaNEdCcmtkMDIyalU2anZlVTVjVFkrTXZKemg2RXVBS2ROTGpxRklaTE5kQlNLajlYSWRjSEpFWGZqUkdoZVgrRU5SNVhYNU9VVnRMdyt1LS03aTkzTmlBbkJRcDRMN1gzb2dVRGd3PT0%3D--d45bd2bcf7ff56c2c333f6da27a31fbd1134d907; path=/; HttpOnly",
+        "X-Request-Id": "0196e0da-8518-4cd2-8a62-189dd4c3ab54",
+        "X-Runtime": "0.081278",
+        "Content-Length": "501"
+      },
+      "response_content_type": "application/json; charset=utf-8",
+      "curl": "curl \"http://localhost:3000/client/payments/new?order_id=3\" -X GET \\\n\t-H \"Access-Token: LPN2O3N7CiWOIyfvnHYRFA\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: anmV8u2SfkJ5IwwSrC0dIg\" \\\n\t-H \"Expiry: 1474824774\" \\\n\t-H \"Uid: 44jerrell_mueller@smithkuhlman.biz\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
+    }
+  ]
+}

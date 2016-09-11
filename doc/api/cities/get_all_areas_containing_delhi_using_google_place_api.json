@@ -1,0 +1,51 @@
+{
+  "resource": "cities",
+  "http_method": "GET",
+  "route": "/cities/:id/recommend_areas",
+  "description": "get all areas containing delhi using google place api",
+  "explanation": null,
+  "parameters": [
+    {
+      "name": "input",
+      "description": "the keyword"
+    },
+    {
+      "name": "id",
+      "description": "city id"
+    }
+  ],
+  "response_fields": [
+
+  ],
+  "requests": [
+    {
+      "request_method": "GET",
+      "request_path": "/cities/1/recommend_areas?input=delhi",
+      "request_body": null,
+      "request_headers": {
+        "Host": "example.org",
+        "Cookie": ""
+      },
+      "request_query_parameters": {
+        "input": "delhi"
+      },
+      "request_content_type": null,
+      "response_status": 200,
+      "response_status_text": "OK",
+      "response_body": "[\n  {\n    \"address\": \"Delhi, India\",\n    \"lat\": 28.6618976,\n    \"lng\": 77.2273958\n  },\n  {\n    \"address\": \"Delhi Cantonment, New Delhi, Delhi, India\",\n    \"lat\": 28.5961279,\n    \"lng\": 77.1587375\n  },\n  {\n    \"address\": \"394 Jail Rd Nangal Village Delhi, Delhi Cantonment Nangal, Village Delhi Cantonment, Kirby Place, Delhi Cantonment, New Delhi, Delhi 110010, India\",\n    \"lat\": 28.6119222,\n    \"lng\": 77.1156424\n  },\n  {\n    \"address\": \"Delhi - Jaipur Expy, India\",\n    \"lat\": 27.8281108,\n    \"lng\": 76.2598714\n  },\n  {\n    \"address\": \"Delhi Noida Direct Flyway, New Delhi, Delhi, India\",\n    \"lat\": 28.57775620000001,\n    \"lng\": 77.2894756\n  }\n]",
+      "response_headers": {
+        "X-Frame-Options": "SAMEORIGIN",
+        "X-XSS-Protection": "1; mode=block",
+        "X-Content-Type-Options": "nosniff",
+        "Content-Type": "application/json; charset=utf-8",
+        "ETag": "W/\"9578f8a7e0ae92a26d5c746de6d00cd2\"",
+        "Cache-Control": "max-age=0, private, must-revalidate",
+        "X-Request-Id": "2e4490de-ed26-4c99-85c8-eb3f04a71019",
+        "X-Runtime": "8.949560",
+        "Content-Length": "528"
+      },
+      "response_content_type": "application/json; charset=utf-8",
+      "curl": "curl \"http://localhost:3000/cities/1/recommend_areas?input=delhi\" -X GET \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
+    }
+  ]
+}
