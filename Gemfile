@@ -121,7 +121,7 @@ gem 'geokit'
 gem 'google-v3-geocoder', '1.0.0'
 gem 'geokit-rails'
 # gem 'places'
-gem 'google_places'
+gem 'google_places', git: "https://github.com/qpowell/google_places.git"
 gem 'google_places_autocomplete', '~> 0.0.3'
 
 # ruby '2.2.1'

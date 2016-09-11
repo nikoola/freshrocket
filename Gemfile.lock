@@ -275,6 +275,8 @@ GEM
     google-v3-geocoder (1.0.0)
       geokit (>= 1.5.0)
       json
+    google_places (0.21.0)
+      httparty
     google_places_autocomplete (0.0.3)
       hashie
       httparty
@@ -535,6 +537,7 @@ DEPENDENCIES
   geokit
   geokit-rails
   google-v3-geocoder (= 1.0.0)
+  google_places
   google_places_autocomplete (~> 0.0.3)
   guard
   guard-rspec
