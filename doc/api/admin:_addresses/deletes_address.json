@@ -16,11 +16,11 @@
       "request_path": "/admin/addresses/1",
       "request_body": null,
       "request_headers": {
-        "Access-Token": "C9QVqY9W1paZUNnUtr6Yuw",
+        "Access-Token": "bioAiRQ_QISJN3jli1ZYHA",
         "Token-Type": "Bearer",
-        "Client": "3bE2mt-AfTiyczj57Ahm8Q",
-        "Expiry": "1474783709",
-        "Uid": "4vella_feest@hilpert.net",
+        "Client": "uwicLSWkO-oK7pI5zQ1caw",
+        "Expiry": "1474824360",
+        "Uid": "4bethel@kreiger.com",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -35,20 +35,20 @@
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
-        "access-token": "C9QVqY9W1paZUNnUtr6Yuw",
+        "access-token": "bioAiRQ_QISJN3jli1ZYHA",
         "token-type": "Bearer",
-        "client": "3bE2mt-AfTiyczj57Ahm8Q",
-        "expiry": "1474783709",
-        "uid": "4vella_feest@hilpert.net",
+        "client": "uwicLSWkO-oK7pI5zQ1caw",
+        "expiry": "1474824360",
+        "uid": "4bethel@kreiger.com",
         "Content-Type": "text/html",
         "Cache-Control": "no-cache",
-        "Set-Cookie": "_session_id=T2x6RDFzLzExdlJPNHUzMFlYSTkrTGl3RkpLZ1NsbXJiSGVSYmhRRi9yQXpqajh4VmNGbDI4MzFVQVp2aGlqM3ZwbnppczZ6L0FISEsxOG5xd3VtV2RJRTAzZmp5SU9zMTlRdmlEbSs4NWhDMFV3ZHI5RzNscXpBQ3BvSEk0bkkzUTdCa3pLQkVWUkdRYnprbWQzZ3JSYW1yOGNBanRsWkNFK1phdmEvSGZjTE5YcnVZYzNJMG9LS21JU0xMaFlXLS12T2FBOUl5ZGx4c0EyQ2ZleUtPVjVBPT0%3D--b3b986a1e7261862a1adbba66657670279e6c78b; path=/; HttpOnly",
-        "X-Request-Id": "a0a24a8d-1fc4-478d-b09c-17a00f63c7a3",
-        "X-Runtime": "0.126219",
+        "Set-Cookie": "_session_id=NWFmRFA2bHJ5OG5WdXVwVDdqeWx6MGVLMzBSVkhSaVZGRytKMDhGUjArL0dPeHhLekt6ak8vNEh2aTNYSzFMaW1udmtVa0t0U0pCbUJWbGJva2xJVG9DeUNXWkVVWVNiSE1KS3RySVJaelZRRmppYm9JR0dhakFWQmxmZ1VXbzhBTTNhNlJoNWJpVUJwY3RxaFA2c2RKOStvaVRqR3VBNGo5b1lQaUpPVDFwUjRjcE9WR05OZkUvd2crK0hLRFZSLS1WSnMrbisrS3lhdjRQRSsvTXFJZmxRPT0%3D--24c8ff11aaac1b903c7c1667317bea9f361318c2; path=/; HttpOnly",
+        "X-Request-Id": "bd3c70f0-11c9-4250-8df1-0a7ccd5126a5",
+        "X-Runtime": "0.096662",
         "Content-Length": "0"
       },
       "response_content_type": "text/html",
-      "curl": "curl \"http://localhost:3000/admin/addresses/1\" -d '' -X DELETE \\\n\t-H \"Access-Token: C9QVqY9W1paZUNnUtr6Yuw\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: 3bE2mt-AfTiyczj57Ahm8Q\" \\\n\t-H \"Expiry: 1474783709\" \\\n\t-H \"Uid: 4vella_feest@hilpert.net\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/admin/addresses/1\" -d '' -X DELETE \\\n\t-H \"Access-Token: bioAiRQ_QISJN3jli1ZYHA\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: uwicLSWkO-oK7pI5zQ1caw\" \\\n\t-H \"Expiry: 1474824360\" \\\n\t-H \"Uid: 4bethel@kreiger.com\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

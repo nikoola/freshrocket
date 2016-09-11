@@ -16,11 +16,11 @@
       "request_path": "/client/addresses/1",
       "request_body": null,
       "request_headers": {
-        "Access-Token": "YXVIBS3tWxxJA-lfuRNc-g",
+        "Access-Token": "92-5nzeaWdvOAiHsCRnGTQ",
         "Token-Type": "Bearer",
-        "Client": "GUCqxuLTuhKlPR29WwwxPQ",
-        "Expiry": "1474785888",
-        "Uid": "4madeline_volkman@baileymonahan.com",
+        "Client": "JnaaRTihmJAs89wwqg-AuA",
+        "Expiry": "1474824658",
+        "Uid": "4sibyl@littelbailey.biz",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -35,20 +35,20 @@
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
-        "access-token": "YXVIBS3tWxxJA-lfuRNc-g",
+        "access-token": "92-5nzeaWdvOAiHsCRnGTQ",
         "token-type": "Bearer",
-        "client": "GUCqxuLTuhKlPR29WwwxPQ",
-        "expiry": "1474785888",
-        "uid": "4madeline_volkman@baileymonahan.com",
+        "client": "JnaaRTihmJAs89wwqg-AuA",
+        "expiry": "1474824658",
+        "uid": "4sibyl@littelbailey.biz",
         "Content-Type": "text/html",
         "Cache-Control": "no-cache",
-        "Set-Cookie": "_session_id=RTRrckVJcmdSMHgxSllZVDJXdFRoVjR5cm1aZVRiaGVuV05UckZBZGhQYWFselNnNnRYRGQ3U29HbWlpbmU4MXZ3dnJacGVOdW5kVTN2SlFHeGVNWm9laSt2VHhhaHVJNVM5SzZuUC9NaW9UTUdJclFSOUVSVUY4T1p0dkloQ29OMkdPejlYVG5CNytmL2RaWlBHR2xXREVIblUzTHk0Z1EzNmswb2dBTExDUG1WOUJEYUFpc2hxUjJyNGVnSWxpLS00c3JINkZBSGxtRmFHU3gxVU1adFFnPT0%3D--4c70beaeacec278612816f661c3b98cc5a6dbadb; path=/; HttpOnly",
-        "X-Request-Id": "f0a1b916-1711-4436-aee8-7f423b4a07ca",
-        "X-Runtime": "0.106788",
+        "Set-Cookie": "_session_id=U0Q4U05UbFUxcDc3WmxsQkt1T2lEY2dwR3pTSFJIejdkQmdSNHRZOTJsc3JCVVU4b3ZtV0srSXArcmtWNlJqbjh2T29NazNTcVVQWlV2RHVnNHBEVlpLdktYVU03Um10NVpQcElOS3BrQnV6Z3UxS1hacUlmeDdsNHF6STk4b29aOVBrbWdyNktmeGc2dW9KWXZuWWpQU0Y3TVFpK2FoOU9IWkp5YXFKdEo0cTY4L0FFd1JXWThVTEVIVFpJZjJrLS1IbXY2UUhDQngyRThOYmtoR0pVVTl3PT0%3D--25d38155871884478040b2bb0c75da4ef2449b40; path=/; HttpOnly",
+        "X-Request-Id": "f43a7d70-d4af-4e4a-9a7e-dd40b2f3a3fa",
+        "X-Runtime": "0.093101",
         "Content-Length": "0"
       },
       "response_content_type": "text/html",
-      "curl": "curl \"http://localhost:3000/client/addresses/1\" -d '' -X DELETE \\\n\t-H \"Access-Token: YXVIBS3tWxxJA-lfuRNc-g\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: GUCqxuLTuhKlPR29WwwxPQ\" \\\n\t-H \"Expiry: 1474785888\" \\\n\t-H \"Uid: 4madeline_volkman@baileymonahan.com\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/client/addresses/1\" -d '' -X DELETE \\\n\t-H \"Access-Token: 92-5nzeaWdvOAiHsCRnGTQ\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: JnaaRTihmJAs89wwqg-AuA\" \\\n\t-H \"Expiry: 1474824658\" \\\n\t-H \"Uid: 4sibyl@littelbailey.biz\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

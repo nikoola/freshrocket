@@ -17,7 +17,8 @@ FactoryGirl.define do
 			unless res.success
 				#errors.add :geocode, "GeoCoding Failure"
 				puts "error in Geokit"
-				byebug
+				# byebug
+				binding.pry
 				exit
 			end
 			#area.city = city

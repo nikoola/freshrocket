@@ -19,11 +19,11 @@
       "request_path": "/client/addresses?active=0",
       "request_body": null,
       "request_headers": {
-        "Access-Token": "bNwKAdviQntpflhpgoAfWg",
+        "Access-Token": "FR4b-I3h9OdXtKv6NpUbHQ",
         "Token-Type": "Bearer",
-        "Client": "eMa_fbsTuFrFhyzmRAxdgQ",
-        "Expiry": "1474785861",
-        "Uid": "1dejon@treutelbarrows.com",
+        "Client": "c587QE2dwyqDxGZBSjr5pg",
+        "Expiry": "1474824643",
+        "Uid": "1omari@herzogrowe.io",
         "Host": "example.org",
         "Cookie": ""
       },
@@ -38,21 +38,21 @@
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
-        "access-token": "bNwKAdviQntpflhpgoAfWg",
+        "access-token": "FR4b-I3h9OdXtKv6NpUbHQ",
         "token-type": "Bearer",
-        "client": "eMa_fbsTuFrFhyzmRAxdgQ",
-        "expiry": "1474785861",
-        "uid": "1dejon@treutelbarrows.com",
+        "client": "c587QE2dwyqDxGZBSjr5pg",
+        "expiry": "1474824643",
+        "uid": "1omari@herzogrowe.io",
         "Content-Type": "application/json; charset=utf-8",
         "ETag": "W/\"d8ee08754f36462f7214141e94c27b08\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=K01jaE5CVGUzNDllN0NEbFViNUdZSGc4TnNLaVkxRWFyR0d2MENsby9RTG1Ra1J1YXBPd1doQ3F1ZnE3d0V4cDh5cFZJMWpCUW4wQTRLdXNZcWxXYlhuSmpqMmtjVGNQUXJFQW82Y0ZpZmR0MTRqaTN2Q0Vaa281V1BBYnUrVEV4Wm43NFFsZE1yZnBnL3ZnYmtrWk13VzIyOXBnaDhRUU5IY0dNU1BvczNrQm9LTkFnMEdSdXF1UjBiMUhJaUcxLS1YYnlpSHdMQ0VVOXhmdXBNMzVNK253PT0%3D--bc370c8c22c96662636d4a486afc39eae6bf240b; path=/; HttpOnly",
-        "X-Request-Id": "8ceb2cc9-e363-4735-88b6-db9f7567587c",
-        "X-Runtime": "0.156396",
+        "Set-Cookie": "_session_id=QWF3K0cwRzdPWm1ERklJMFR0YlJaSzVHYUoyaDBCVGdPWTNQR2E1Y0hxWVp6YnJ6TVNOSDQ5dkZSUGJxOFpTa3V5UDkzb0h4a3FkM0xaelY4Vi9Tc3JBcXpSL1dwUzhGbTR1b2JwWm5laFBXdkwxRTIyQ0FaZUVvVXpXcS9rRGZKUHhFMkthUzZiY3RBZk5QMURlMU94dW9Ncy9uVVVqcklCZkMzNjgxT0xzbXpoZVBDck9DQ3Qyd0RBcW5jNkduLS05bkhTNmU5VFVwZnp5OUMxUlVuSFhnPT0%3D--b7b800f19350ad2b7d9c78e2f2e022236219aa05; path=/; HttpOnly",
+        "X-Request-Id": "1f7a9f9f-21b3-42b4-bae0-337ca2af66ad",
+        "X-Runtime": "0.192519",
         "Content-Length": "594"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/client/addresses?active=0\" -X GET \\\n\t-H \"Access-Token: bNwKAdviQntpflhpgoAfWg\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: eMa_fbsTuFrFhyzmRAxdgQ\" \\\n\t-H \"Expiry: 1474785861\" \\\n\t-H \"Uid: 1dejon@treutelbarrows.com\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/client/addresses?active=0\" -X GET \\\n\t-H \"Access-Token: FR4b-I3h9OdXtKv6NpUbHQ\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: c587QE2dwyqDxGZBSjr5pg\" \\\n\t-H \"Expiry: 1474824643\" \\\n\t-H \"Uid: 1omari@herzogrowe.io\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

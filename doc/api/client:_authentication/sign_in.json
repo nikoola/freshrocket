@@ -23,7 +23,7 @@
     {
       "request_method": "POST",
       "request_path": "/auth/sign_in",
-      "request_body": "email=5mustafa_paucek%40lakin.info&password=secrety_bickety",
+      "request_body": "email=5ericka_moen%40koepp.name&password=secrety_bickety",
       "request_headers": {
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
@@ -34,25 +34,25 @@
       "request_content_type": "application/x-www-form-urlencoded",
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\n  \"data\": {\n    \"id\": 1,\n    \"first_name\": \"Brent\",\n    \"last_name\": \"Pouros\",\n    \"email\": \"5mustafa_paucek@lakin.info\",\n    \"phone\": \"2892803432\",\n    \"is_verified\": false,\n    \"provider\": \"email\",\n    \"uid\": \"5mustafa_paucek@lakin.info\",\n    \"created_at\": \"2016-09-11T06:44:48.153Z\",\n    \"abilities\": {\n      \"orders\": 0,\n      \"products\": 0,\n      \"users\": 0,\n      \"categories\": 0,\n      \"coupons\": 0,\n      \"settings\": 0,\n      \"cities\": 0,\n      \"delivery_boy\": 0\n    },\n    \"addresses\": [\n\n    ],\n    \"orders\": [\n\n    ]\n  }\n}",
+      "response_body": "{\n  \"data\": {\n    \"id\": 1,\n    \"first_name\": \"Mason\",\n    \"last_name\": \"Raynor\",\n    \"email\": \"5ericka_moen@koepp.name\",\n    \"phone\": \"8623307203\",\n    \"is_verified\": false,\n    \"provider\": \"email\",\n    \"uid\": \"5ericka_moen@koepp.name\",\n    \"created_at\": \"2016-09-11T17:30:58.919Z\",\n    \"abilities\": {\n      \"orders\": 0,\n      \"products\": 0,\n      \"users\": 0,\n      \"categories\": 0,\n      \"coupons\": 0,\n      \"settings\": 0,\n      \"cities\": 0,\n      \"delivery_boy\": 0\n    },\n    \"addresses\": [\n\n    ],\n    \"orders\": [\n\n    ]\n  }\n}",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
-        "access-token": "RoYL8xE7I_u07ryw4Io3TQ",
+        "access-token": "7xD2k0ueb4cWy9bgY3HEhQ",
         "token-type": "Bearer",
-        "client": "Fm97-YFXMF5_XtQgAyVztg",
-        "expiry": "1474785888",
-        "uid": "5mustafa_paucek@lakin.info",
+        "client": "BZLDKDZLYJKSzZHAKh0sEg",
+        "expiry": "1474824659",
+        "uid": "5ericka_moen@koepp.name",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"bf15456f00d7d7e8308a596450988a2e\"",
+        "ETag": "W/\"5960be86c95ebbd9bc242c6764880c3e\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "X-Request-Id": "f9a2dd08-ff9f-4238-84a0-6fa7e95d1c4b",
-        "X-Runtime": "0.140757",
-        "Content-Length": "374"
+        "X-Request-Id": "a291561c-94b6-41fc-8a96-76e1e52847cd",
+        "X-Runtime": "0.182136",
+        "Content-Length": "368"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/auth/sign_in\" -d 'email=5mustafa_paucek%40lakin.info&password=secrety_bickety' -X POST \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/auth/sign_in\" -d 'email=5ericka_moen%40koepp.name&password=secrety_bickety' -X POST \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

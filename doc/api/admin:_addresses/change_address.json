@@ -16,11 +16,11 @@
       "request_path": "/admin/addresses/1",
       "request_body": "address[street_and_house]=good",
       "request_headers": {
-        "Access-Token": "-4eTmBWMiL0tBjIBePm8Gw",
+        "Access-Token": "xLQyG2IJVpmhHU7vWSrf1A",
         "Token-Type": "Bearer",
-        "Client": "mDWKBxt7GL40gYkm5UOdYw",
-        "Expiry": "1474783703",
-        "Uid": "3sebastian@kilback.info",
+        "Client": "o-sH_5bF39TygiOeJwz_ww",
+        "Expiry": "1474824354",
+        "Uid": "3maxine.kautzer@hintz.co",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -35,21 +35,21 @@
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
-        "access-token": "-4eTmBWMiL0tBjIBePm8Gw",
+        "access-token": "xLQyG2IJVpmhHU7vWSrf1A",
         "token-type": "Bearer",
-        "client": "mDWKBxt7GL40gYkm5UOdYw",
-        "expiry": "1474783703",
-        "uid": "3sebastian@kilback.info",
+        "client": "o-sH_5bF39TygiOeJwz_ww",
+        "expiry": "1474824354",
+        "uid": "3maxine.kautzer@hintz.co",
         "Content-Type": "application/json; charset=utf-8",
         "ETag": "W/\"cff73ee192966b587272dee54eca7d96\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=MXFyKzhib0x0dG1JRy85UDBvZktvb0pPR2FuVGdNalV5UXBicHF4MDdDa2JSMU1pQ2FYaTlKNkdVSEVpdjdaZzhESGJhVGhYcEZVaGpjem9NVW16eElPQ2w5Y2R2QlNtQlUySnFuTUx1YTlPY2hIWCtJbFd5eVA1dGFzTUs3N0hCOHBzZzRmNWlrVThQaWlKd3hQWUNPcXJTQ040dzRlaklqaTgzN1FWYlJXc3RQS0oxaWY1dDMzOUlEUFdoRFRCLS1xdURUWmRsQzFRSXI1QnFvbGZ1cmFnPT0%3D--3101426f4b20aa9ed4e455fb3cd147b50aba3a63; path=/; HttpOnly",
-        "X-Request-Id": "b3a94d86-ac18-48ac-b366-9a7606baa94c",
-        "X-Runtime": "0.077709",
+        "Set-Cookie": "_session_id=NUZkMlIycnVRU0VGZ0w4UUdCWEdmWUdqeU50WEdyWFZMVHMvUlpMaGkyYlBrREY0bUo5SWF4eklDNlBpdWFSYXlMTjN0UEsrUVBVWU1SSk02dXBoaURFTWgzZm1adXRqVlowaDRiQ0tFYWdOMUsrd29VdElQeWJpMkJGQ3NVM0pqdEJwWmd1UnR3VDdKeGx1cFp0MjBiY05EVU1FVkFqZXR1czY4YkpRY2paM1NBNmp4K0oxUVFFeEIyUEord0M3LS1qZGEzYy9ta0VFVXZnd3Y3aHl0OEdnPT0%3D--dae56b377bd780128483f48b0d5a24db8534729d; path=/; HttpOnly",
+        "X-Request-Id": "aa8333a0-e752-426f-a07d-7f08d652f846",
+        "X-Runtime": "0.076878",
         "Content-Length": "111"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/admin/addresses/1\" -d 'address[street_and_house]=good' -X PUT \\\n\t-H \"Access-Token: -4eTmBWMiL0tBjIBePm8Gw\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: mDWKBxt7GL40gYkm5UOdYw\" \\\n\t-H \"Expiry: 1474783703\" \\\n\t-H \"Uid: 3sebastian@kilback.info\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/admin/addresses/1\" -d 'address[street_and_house]=good' -X PUT \\\n\t-H \"Access-Token: xLQyG2IJVpmhHU7vWSrf1A\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: o-sH_5bF39TygiOeJwz_ww\" \\\n\t-H \"Expiry: 1474824354\" \\\n\t-H \"Uid: 3maxine.kautzer@hintz.co\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

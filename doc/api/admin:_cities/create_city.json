@@ -26,11 +26,11 @@
       "request_path": "/admin/cities",
       "request_body": "city[name]=Kalyan-Dombivali",
       "request_headers": {
-        "Access-Token": "xZmHhnqCpWPxDZy2_Di4CA",
+        "Access-Token": "ofrUTjayxKd8jIRaCwpBFA",
         "Token-Type": "Bearer",
-        "Client": "9PgqqDNfCsrv0B-FYoMUyw",
-        "Expiry": "1474783741",
-        "Uid": "14nolan_durgan@zboncakwintheiser.info",
+        "Client": "3qEEkRMcVxB4OoA9JOpIMQ",
+        "Expiry": "1474824386",
+        "Uid": "14ethelyn_gaylord@ziemanncarroll.com",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -46,21 +46,21 @@
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
         "Location": "http://example.org/cities/1",
-        "access-token": "xZmHhnqCpWPxDZy2_Di4CA",
+        "access-token": "ofrUTjayxKd8jIRaCwpBFA",
         "token-type": "Bearer",
-        "client": "9PgqqDNfCsrv0B-FYoMUyw",
-        "expiry": "1474783741",
-        "uid": "14nolan_durgan@zboncakwintheiser.info",
+        "client": "3qEEkRMcVxB4OoA9JOpIMQ",
+        "expiry": "1474824386",
+        "uid": "14ethelyn_gaylord@ziemanncarroll.com",
         "Content-Type": "application/json; charset=utf-8",
         "ETag": "W/\"e6b32dc84da4c25b5c15ec14719b9f6f\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=SkZkZ055VXlEZzR0Rm9TZ2pPSlUweWFLV3NFRFRMTUpWTzVPeUdGTVVubFVPSk1PcHFDM3ZQbkg5WEJkdGFMaklpSXQxZHBTeVVmNXBaRmV1eEt4YXl1WnIxbFZ5TVpXMEhaYnVIZ3ZxVm41aFFqK05yM0lrN2hxMXZLSXd0cDlrcmF2NlJNanNXZEtFVzMxeVRzd2pjMW5heW5FZEJxVjV5cFRzNUsxdGdjb2JSOElrWWZYSXNiNUp2VFF0enVQLS1CMElhVXFzQjNIVWkxeFBaRFRic2hnPT0%3D--aeb702966e1518f87a07b8d8c2594186a6310df3; path=/; HttpOnly",
-        "X-Request-Id": "4e9f3843-3961-46df-abd7-d002891385ee",
-        "X-Runtime": "0.114758",
+        "Set-Cookie": "_session_id=dXZHaGxTeDFuMFplcm5WejdNVmdLVUgzUlVtL2ZlMGk2QkJnS2dlU0p3bzU0WGs5NXdBbDZvSlgxQzlWVDJuWi9qMDYwbEZ2UTR2M1lPUUxyTXpubDBSN29vVnNMWDU1aHlYdk5Oa0dqREtzd1hQVFA1Z281UTVxU3JMcGVMdE03ZkJ5aGZ4RWJPcjNCeGxxSjN1eEZGQUVLTWYydEVKcXJuWkQ0a09EVjZad3dVZXNwYkNNbmdTdVRvRGhuRkswLS1yU3JiVHNOTDExVEV3endFMEVNK1lRPT0%3D--245df1df96c160e7b0aaacb45342f532317d63a2; path=/; HttpOnly",
+        "X-Request-Id": "0925f46e-0f5e-4cb9-8f4c-3ac72d12850c",
+        "X-Runtime": "0.091142",
         "Content-Length": "48"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/admin/cities\" -d 'city[name]=Kalyan-Dombivali' -X POST \\\n\t-H \"Access-Token: xZmHhnqCpWPxDZy2_Di4CA\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: 9PgqqDNfCsrv0B-FYoMUyw\" \\\n\t-H \"Expiry: 1474783741\" \\\n\t-H \"Uid: 14nolan_durgan@zboncakwintheiser.info\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/admin/cities\" -d 'city[name]=Kalyan-Dombivali' -X POST \\\n\t-H \"Access-Token: ofrUTjayxKd8jIRaCwpBFA\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: 3qEEkRMcVxB4OoA9JOpIMQ\" \\\n\t-H \"Expiry: 1474824386\" \\\n\t-H \"Uid: 14ethelyn_gaylord@ziemanncarroll.com\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

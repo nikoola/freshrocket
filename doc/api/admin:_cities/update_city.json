@@ -16,11 +16,11 @@
       "request_path": "/admin/cities/1",
       "request_body": "city[name]=hi",
       "request_headers": {
-        "Access-Token": "pT5tFOEpyf5gTGUUun4VkA",
+        "Access-Token": "MssxaJThqopy3JLrXe5cMw",
         "Token-Type": "Bearer",
-        "Client": "t3icaO6JGQrXteE41Oy74w",
-        "Expiry": "1474783741",
-        "Uid": "15shaun@quitzondouglas.co",
+        "Client": "GG5JWcISYAjZtI-CU-de-w",
+        "Expiry": "1474824386",
+        "Uid": "15kylee@corkery.io",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -35,21 +35,21 @@
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
-        "access-token": "pT5tFOEpyf5gTGUUun4VkA",
+        "access-token": "MssxaJThqopy3JLrXe5cMw",
         "token-type": "Bearer",
-        "client": "t3icaO6JGQrXteE41Oy74w",
-        "expiry": "1474783741",
-        "uid": "15shaun@quitzondouglas.co",
+        "client": "GG5JWcISYAjZtI-CU-de-w",
+        "expiry": "1474824386",
+        "uid": "15kylee@corkery.io",
         "Content-Type": "application/json; charset=utf-8",
         "ETag": "W/\"c382965718afa649ad29062210139e6d\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=RWRObW1ZQjFKOXdsVWNzNlNrazdqNmJMUzdzamJlS0kxUHhaSGNnVUV4SWJ3VUpLc21JaWtMZnV4bHRmQW1aUnZNcXJ0d21hbXdicjg1S0JpbWprZ0xFSWF5diswQlhuT1NqbjhoZGlDU1lmbEI3ZGppbGlrOEszdEJHSnRnTkhCWXhPQUo2RUgwbW5lMjFFSGRQM1dSRklKcy9yUGVlaTZHNXdUUEl6cWpiWVluaVFSeTJKQmxmR3QzYW1QS1NwLS1OdVRxWDNDOUhIK1lkTlhBSGFMNVBnPT0%3D--29b9b4492dac122093b514f7228bd0d0b0365694; path=/; HttpOnly",
-        "X-Request-Id": "e609cfc4-d195-4c9b-8dbe-eaaaffdd30a4",
-        "X-Runtime": "0.082796",
+        "Set-Cookie": "_session_id=ZjRHazhvek0rZ0lnNS8xM3ltWndNVDlueGg4TEFiZENMUy8wTjJzc0VaZ2tDMHFuejVBOWlOOSs5WGFnZW9TUTRVMFYwcnIvSFQ1eGpqMUM2YitzSjVSckZMNVR4SEZjeVVUbzR6MldwbFFWRW9RZW5oZTFhYmkrTUhTM3k2MWtKSHVnbkNaRFd0cG9yTVR3U1gvSjVMY055VFFQNUcwTFd3bEtib3JXU2Z4aldwY3VTVzB2VFZDUVFzNUNINjJKLS1weDJhNkFnTE1qV1BjNkxvQUFuMS93PT0%3D--afc486df5e1a9f6673df8709b81b2b38a761f373; path=/; HttpOnly",
+        "X-Request-Id": "e9f1bbbb-67dd-4a06-b7f7-0bab708dec69",
+        "X-Runtime": "0.075189",
         "Content-Length": "34"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/admin/cities/1\" -d 'city[name]=hi' -X PUT \\\n\t-H \"Access-Token: pT5tFOEpyf5gTGUUun4VkA\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: t3icaO6JGQrXteE41Oy74w\" \\\n\t-H \"Expiry: 1474783741\" \\\n\t-H \"Uid: 15shaun@quitzondouglas.co\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/admin/cities/1\" -d 'city[name]=hi' -X PUT \\\n\t-H \"Access-Token: MssxaJThqopy3JLrXe5cMw\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: GG5JWcISYAjZtI-CU-de-w\" \\\n\t-H \"Expiry: 1474824386\" \\\n\t-H \"Uid: 15kylee@corkery.io\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

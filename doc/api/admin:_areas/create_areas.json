@@ -45,11 +45,11 @@
       "request_path": "/admin/areas",
       "request_body": "area[id]&area[name]=Siliguri%2C+West+Bengal+734001%2C+India&area[radius]=5.0&area[city_id]=1&area[active]=true&area[lat]=26.7271012&area[lng]=88.3952861&area[created_at]&area[updated_at]&area[stringified_coordinate]=%5B26.7271012%2C88.3952861%5D",
       "request_headers": {
-        "Access-Token": "XfMja2EB_rDEiXkm6yjSbg",
+        "Access-Token": "mMMLil7oChfbpFGuVmtrZw",
         "Token-Type": "Bearer",
-        "Client": "tcHrNIeyLgo3VoGwsp14jw",
-        "Expiry": "1474783733",
-        "Uid": "6horacio_hettinger@stoltenberg.com",
+        "Client": "qwCxw82eCeXCFAtGDxxv-w",
+        "Expiry": "1474824379",
+        "Uid": "6gabriel@considine.io",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -59,26 +59,26 @@
       "request_content_type": "application/x-www-form-urlencoded",
       "response_status": 201,
       "response_status_text": "Created",
-      "response_body": "{\n  \"id\": 2,\n  \"name\": \"Siliguri, West Bengal 734001, India\",\n  \"radius\": \"5.0\",\n  \"active\": true,\n  \"lat\": \"26.7271012\",\n  \"lng\": \"88.3952861\"\n}",
+      "response_body": "{\n  \"id\": 2,\n  \"name\": \"Siliguri, West Bengal 734001, India\",\n  \"radius\": \"5.0\",\n  \"active\": true,\n  \"lat\": \"26.7271012\",\n  \"lng\": \"88.3952861\",\n  \"city_id\": 1\n}",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
-        "access-token": "XfMja2EB_rDEiXkm6yjSbg",
+        "access-token": "mMMLil7oChfbpFGuVmtrZw",
         "token-type": "Bearer",
-        "client": "tcHrNIeyLgo3VoGwsp14jw",
-        "expiry": "1474783733",
-        "uid": "6horacio_hettinger@stoltenberg.com",
+        "client": "qwCxw82eCeXCFAtGDxxv-w",
+        "expiry": "1474824379",
+        "uid": "6gabriel@considine.io",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"4f81d48dbcff149525db9ccd1cf2a793\"",
+        "ETag": "W/\"9bd5755d67464e5283fb311ccd8e4a29\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=M1QxU2o0RGcvSHptazJvQVV2Q0VtejFNZjFPQ0pmZjI5MGl6dmVtZWlaWmNzaEtsWk1sanJ4cEZFdlVnWUR5a1QzMXZKL0NhWFhWbGdFcmZHdGtvKzY3U2RYOWZVZ3JpdjRSczArL1RhUUNpaWwrUk9HbkEzc0tjUHdrL1hDT2RXUFlZZUNWcFdpZkQySjJ0MmgwUjhqWm1HNDZRbFk0b0Z6UzJoczZCRnRWdnI5c1VVZmhWZ1FROElmVVgraHBqLS11MUFuWTJ1OXNUR01LYzhmbnpucnZ3PT0%3D--cb1939451162a96404749987c42a13e13ce1ce1e; path=/; HttpOnly",
-        "X-Request-Id": "4e94315f-69cf-4ea1-8c22-ddfc62886095",
-        "X-Runtime": "0.080616",
-        "Content-Length": "120"
+        "Set-Cookie": "_session_id=QlVHdmtzUU9jQTJXWmlwWFNxbzZTNDZyQ2VuZjVJeGtpS0k5L0FSMGxPZGR5cjg1aVJOMTAwWGcxd3lqUlNoOG9CRlFCYmo0Z1BpV0JxT2lydG1ybm5DOGlnN2FSUm1PTUszUDVJK3dxY3Rxd2VZemIzUURQVEVKZjgxaFpML2ZrZVZwekxZc25rYkd0QzJDVDFWa2lvV2o1WTlaMlA0VTJOODNQOUlFQlpvU05EOERuRWl1RVhWS0NwblZsVml1LS1DQ1FYYjhncXd0bm9wTnVRSE1rUXhRPT0%3D--8812a0de13eae498bf3d1563d8cd48a7e69a628a; path=/; HttpOnly",
+        "X-Request-Id": "ffc7ae02-58fb-4bc0-8360-1420c5b6674a",
+        "X-Runtime": "0.078610",
+        "Content-Length": "132"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/admin/areas\" -d 'area[id]&area[name]=Siliguri%2C+West+Bengal+734001%2C+India&area[radius]=5.0&area[city_id]=1&area[active]=true&area[lat]=26.7271012&area[lng]=88.3952861&area[created_at]&area[updated_at]&area[stringified_coordinate]=%5B26.7271012%2C88.3952861%5D' -X POST \\\n\t-H \"Access-Token: XfMja2EB_rDEiXkm6yjSbg\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: tcHrNIeyLgo3VoGwsp14jw\" \\\n\t-H \"Expiry: 1474783733\" \\\n\t-H \"Uid: 6horacio_hettinger@stoltenberg.com\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/admin/areas\" -d 'area[id]&area[name]=Siliguri%2C+West+Bengal+734001%2C+India&area[radius]=5.0&area[city_id]=1&area[active]=true&area[lat]=26.7271012&area[lng]=88.3952861&area[created_at]&area[updated_at]&area[stringified_coordinate]=%5B26.7271012%2C88.3952861%5D' -X POST \\\n\t-H \"Access-Token: mMMLil7oChfbpFGuVmtrZw\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: qwCxw82eCeXCFAtGDxxv-w\" \\\n\t-H \"Expiry: 1474824379\" \\\n\t-H \"Uid: 6gabriel@considine.io\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

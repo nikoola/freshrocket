@@ -30,11 +30,11 @@
       "request_path": "/admin/coupons",
       "request_body": "coupon[name]=red&coupon[code]=181513&coupon[discount]=5",
       "request_headers": {
-        "Access-Token": "CSZg-1Rp_8Wgy6jVu4ndrQ",
+        "Access-Token": "94kKKFgGIj67UoxJEVUYfQ",
         "Token-Type": "Bearer",
-        "Client": "wbNTzJuCkJedEhSxrbLg9A",
-        "Expiry": "1474783742",
-        "Uid": "18natalia@kozey.org",
+        "Client": "GjGVLGp4Sk9Yf224HMF-lA",
+        "Expiry": "1474824387",
+        "Uid": "18ralph@thompsonrice.info",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -49,21 +49,21 @@
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
-        "access-token": "CSZg-1Rp_8Wgy6jVu4ndrQ",
+        "access-token": "94kKKFgGIj67UoxJEVUYfQ",
         "token-type": "Bearer",
-        "client": "wbNTzJuCkJedEhSxrbLg9A",
-        "expiry": "1474783742",
-        "uid": "18natalia@kozey.org",
+        "client": "GjGVLGp4Sk9Yf224HMF-lA",
+        "expiry": "1474824387",
+        "uid": "18ralph@thompsonrice.info",
         "Content-Type": "application/json; charset=utf-8",
         "ETag": "W/\"c0ff8c233de26b716569ce1f824141ec\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=OTh1OE5DNXJFc2ZNL2RodTdQLzJZUU1OUnlES1ljYlNvS2RjbW5qYnVGRlZsNmhGNGJsT05ubnpQNkdybEZUS2hBNnpGZ0VnT0hHRWUwQTlIMHZPUkRqSkxaVUxCbnRCN091TElwam9iM0FhSmNSREVDeC9ibTU5OUlsWFIxU0N2NnJRajlrUXlnZVc5cGUxT0ZpNmVWM0RsUXRQVkFNUWRDMGxBYy9CV0RSbDRpN1laMklJVDhEdElHbFBtd000LS04WFZKS0tvSW9XR2ttVlBlcnQ3Ull3PT0%3D--23a58e809fec9cfb90efc68f253ea547cf5ef97c; path=/; HttpOnly",
-        "X-Request-Id": "8c248a9a-368a-4f64-8467-9d2433c4e89d",
-        "X-Runtime": "0.191058",
+        "Set-Cookie": "_session_id=UnY2Z0M5T0RVWTNtb3lmdHRxRWhUZGJwOGRWMFl5b3B6QVcrdzh5VjFIaEVISXFBWisxcGhIalQramFSaVFoUndUQ2xib3lXek16UzV4VktCSHRMUXdFaWFrMXI2bDRKbFhuQktwVUhLYXJKSkE1dWVLOUFUU2ZQOXRRcWlxMFFiNTY0UHRsWDhlRkU4K0hTT3ZVNXV3NitRc3dXODF6bnJGZXJ4RlBTK09qdU5USkkxM1pnVGUvc2VGdzdVWWdOLS0wL3VQUFM5NnpScFZPWUQzcEpzN2F3PT0%3D--eeb9e1a654110cb0d7c01c5a2f32a722b6bffc44; path=/; HttpOnly",
+        "X-Request-Id": "e6bfafc1-3051-4baa-bdef-9b43989831a2",
+        "X-Runtime": "0.077838",
         "Content-Length": "50"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/admin/coupons\" -d 'coupon[name]=red&coupon[code]=181513&coupon[discount]=5' -X POST \\\n\t-H \"Access-Token: CSZg-1Rp_8Wgy6jVu4ndrQ\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: wbNTzJuCkJedEhSxrbLg9A\" \\\n\t-H \"Expiry: 1474783742\" \\\n\t-H \"Uid: 18natalia@kozey.org\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/admin/coupons\" -d 'coupon[name]=red&coupon[code]=181513&coupon[discount]=5' -X POST \\\n\t-H \"Access-Token: 94kKKFgGIj67UoxJEVUYfQ\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: GjGVLGp4Sk9Yf224HMF-lA\" \\\n\t-H \"Expiry: 1474824387\" \\\n\t-H \"Uid: 18ralph@thompsonrice.info\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

@@ -16,11 +16,11 @@
       "request_path": "/auth/sign_out",
       "request_body": null,
       "request_headers": {
-        "Access-Token": "XxHLp9NgK0cUkDkJh_92ug",
+        "Access-Token": "TTRDhblB9FIlt4E270WSFw",
         "Token-Type": "Bearer",
-        "Client": "2bkxhTIPmzXb3PLfwc_32Q",
-        "Expiry": "1474785888",
-        "Uid": "6fanny@osinskiparisian.info",
+        "Client": "mwOFZ5Z7fKb-aGN5XgdYmA",
+        "Expiry": "1474824659",
+        "Uid": "6jammie_mayer@botsfordhackett.org",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -38,13 +38,13 @@
         "Content-Type": "application/json; charset=utf-8",
         "ETag": "W/\"7363e85fe9edee6f053a4b319588c086\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=Y2EvRXUwS2FCemhQWUw1SVBpekNGTU90anpmTlRYT3c5ZnI2RHNPZTYrTGdWTndzNCtEb25DbnJUK2RlaFlXOUFPUVZvZDRTOEtGWXdGS0xLcGlrTlE9PS0tTERYaFAxd280TkEvUnlzK0hJS1NxUT09--d04b64f1b9f67911f81468e2b480f976734ff000; path=/; HttpOnly",
-        "X-Request-Id": "ecfd3068-cb97-4c0f-b4ac-366173427fb5",
-        "X-Runtime": "0.068531",
+        "Set-Cookie": "_session_id=YnM0bU1BQjJKL0hhemU3RXNwbUR5U2dSaTFpdXZsdHRpV2xmUmRoWVpSaGpEbGdsalY2UUo5aWkyLzZaYittQ0RpYmtYZTY4dVNIaWV2L2UxQlhjOXc9PS0tKzFQREpscklyUHFDdURUeTBvVjdZUT09--b330cf145d7f2a7342535dcaa98f503bfedc12b8; path=/; HttpOnly",
+        "X-Request-Id": "0a1a06d7-24b1-4a76-9cce-0e37658eba0b",
+        "X-Runtime": "0.069257",
         "Content-Length": "16"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/auth/sign_out\" -d '' -X DELETE \\\n\t-H \"Access-Token: XxHLp9NgK0cUkDkJh_92ug\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: 2bkxhTIPmzXb3PLfwc_32Q\" \\\n\t-H \"Expiry: 1474785888\" \\\n\t-H \"Uid: 6fanny@osinskiparisian.info\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/auth/sign_out\" -d '' -X DELETE \\\n\t-H \"Access-Token: TTRDhblB9FIlt4E270WSFw\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: mwOFZ5Z7fKb-aGN5XgdYmA\" \\\n\t-H \"Expiry: 1474824659\" \\\n\t-H \"Uid: 6jammie_mayer@botsfordhackett.org\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

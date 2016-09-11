@@ -16,11 +16,11 @@
       "request_path": "/admin/areas/1",
       "request_body": null,
       "request_headers": {
-        "Access-Token": "SG22aHRzbn3Uef8uC1ZjKg",
+        "Access-Token": "HEYy1-7sXNLj0q4U9k6G1w",
         "Token-Type": "Bearer",
-        "Client": "RfpEHLEc9TVn_Dvam3L6BA",
-        "Expiry": "1474783740",
-        "Uid": "8katlynn_connelly@goldner.biz",
+        "Client": "Ffp95_VRvXGcnd56xzL1cg",
+        "Expiry": "1474824385",
+        "Uid": "8kathryne_hudson@townepagac.net",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -35,20 +35,20 @@
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
-        "access-token": "SG22aHRzbn3Uef8uC1ZjKg",
+        "access-token": "HEYy1-7sXNLj0q4U9k6G1w",
         "token-type": "Bearer",
-        "client": "RfpEHLEc9TVn_Dvam3L6BA",
-        "expiry": "1474783740",
-        "uid": "8katlynn_connelly@goldner.biz",
+        "client": "Ffp95_VRvXGcnd56xzL1cg",
+        "expiry": "1474824385",
+        "uid": "8kathryne_hudson@townepagac.net",
         "Content-Type": "text/html",
         "Cache-Control": "no-cache",
-        "Set-Cookie": "_session_id=ZmFMekl3MVV0QkoxaFF6SjFZSFQ0V3BXZmNRb2RLQ3VaVnI4TksvcFh4ak9kODgrVkwvczZOMUVIN255OG91Tk90SGFqYnhGcXNjU1dxUUp3WkM1RFNBdDZZNnAwWUh6WUtDOFdUYXpCOXlJeEpMWkJFamllZEtpWWh4elJCRDQ2UFJjQzVYNHRNWHVlOTdCQS9wL0V0SW1mZHZPdmVVUmVIOGs3bWFoL1p4dFZzMUVDdTBUeVIvQnM0bHFoZ01oLS1hbERvb1N2R0FwbldpWDNQOHpDaFZnPT0%3D--6160a0c7a818da1a644f73f5a8a9df0974b9d53f; path=/; HttpOnly",
-        "X-Request-Id": "800de62b-2854-4b6d-9225-cc58f0068ab5",
-        "X-Runtime": "0.085162",
+        "Set-Cookie": "_session_id=R2hJUVpkNS82K0ZnMjJxSmhkR3NFVDB5d2VPejVja0pndk84ZFhlZXdqd25oRFZWTmlzK3owVTZDdTVSUkdQUUpwOGppNUJlQ21OS3YzNU1DbFgydkdRZ25RV3g2ellHWisycmpaUU9zN0FTdXdISS9aWXVhUDQwM2dhdzNvalMxQ3BVaGhDNjdiWWs0TkhKSWRvU2QyWnRFOE4vZUw3d0htQjNDWlpxaUZLSUdwcFFVcXZxbmNkNm9aOC9DL09VLS0xZTYrNnBmMENpaGx3NmE1dmpFK0ZnPT0%3D--f165b530dc635f79170ad06dcad19102b18ff653; path=/; HttpOnly",
+        "X-Request-Id": "64c9b60a-69fe-49bc-93f0-b86bc1cf2772",
+        "X-Runtime": "0.077554",
         "Content-Length": "0"
       },
       "response_content_type": "text/html",
-      "curl": "curl \"http://localhost:3000/admin/areas/1\" -d '' -X DELETE \\\n\t-H \"Access-Token: SG22aHRzbn3Uef8uC1ZjKg\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: RfpEHLEc9TVn_Dvam3L6BA\" \\\n\t-H \"Expiry: 1474783740\" \\\n\t-H \"Uid: 8katlynn_connelly@goldner.biz\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/admin/areas/1\" -d '' -X DELETE \\\n\t-H \"Access-Token: HEYy1-7sXNLj0q4U9k6G1w\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: Ffp95_VRvXGcnd56xzL1cg\" \\\n\t-H \"Expiry: 1474824385\" \\\n\t-H \"Uid: 8kathryne_hudson@townepagac.net\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

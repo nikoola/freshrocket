@@ -138,198 +138,6 @@
       ]
     },
     {
-      "name": "admin: orders",
-      "examples": [
-        {
-          "description": "cant update to dispatched if delivery has no delivery_boy",
-          "link": "admin:_orders/cant_update_to_dispatched_if_delivery_has_no_delivery_boy.json",
-          "groups": "all",
-          "route": "/admin/orders/:id/update_status",
-          "method": "put"
-        },
-        {
-          "description": "create order",
-          "link": "admin:_orders/create_order.json",
-          "groups": "all",
-          "route": "/admin/orders",
-          "method": "post"
-        },
-        {
-          "description": "get order",
-          "link": "admin:_orders/get_order.json",
-          "groups": "all",
-          "route": "/admin/orders/:id",
-          "method": "get"
-        }
-      ]
-    },
-    {
-      "name": "admin: products",
-      "examples": [
-        {
-          "description": "create product",
-          "link": "admin:_products/create_product.json",
-          "groups": "all",
-          "route": "/admin/products",
-          "method": "post"
-        },
-        {
-          "description": "delete product",
-          "link": "admin:_products/delete_product.json",
-          "groups": "all",
-          "route": "/admin/products/:id",
-          "method": "delete"
-        },
-        {
-          "description": "update product",
-          "link": "admin:_products/update_product.json",
-          "groups": "all",
-          "route": "/admin/products/:id",
-          "method": "put"
-        },
-        {
-          "description": "update product: invalid_params",
-          "link": "admin:_products/update_product:_invalid_params.json",
-          "groups": "all",
-          "route": "/admin/products/:id",
-          "method": "put"
-        }
-      ]
-    },
-    {
-      "name": "admin: settings",
-      "examples": [
-        {
-          "description": "update settings",
-          "link": "admin:_settings/update_settings.json",
-          "groups": "all",
-          "route": "/admin/settings",
-          "method": "put"
-        },
-        {
-          "description": "update settings: invalid params",
-          "link": "admin:_settings/update_settings:_invalid_params.json",
-          "groups": "all",
-          "route": "/admin/settings",
-          "method": "put"
-        }
-      ]
-    },
-    {
-      "name": "admin: stats",
-      "examples": [
-        {
-          "description": "get stats",
-          "link": "admin:_stats/get_stats.json",
-          "groups": "all",
-          "route": "/admin/stats",
-          "method": "get"
-        }
-      ]
-    },
-    {
-      "name": "admin: users",
-      "examples": [
-        {
-          "description": "create user",
-          "link": "admin:_users/create_user.json",
-          "groups": "all",
-          "route": "/admin/users",
-          "method": "post"
-        },
-        {
-          "description": "get user",
-          "link": "admin:_users/get_user.json",
-          "groups": "all",
-          "route": "/admin/users/:id",
-          "method": "get"
-        },
-        {
-          "description": "update user",
-          "link": "admin:_users/update_user.json",
-          "groups": "all",
-          "route": "/admin/users/:id",
-          "method": "put"
-        },
-        {
-          "description": "update user abilities",
-          "link": "admin:_users/update_user_abilities.json",
-          "groups": "all",
-          "route": "/admin/users/:id/update_abilities",
-          "method": "put"
-        },
-        {
-          "description": "update user abilities: invalid params",
-          "link": "admin:_users/update_user_abilities:_invalid_params.json",
-          "groups": "all",
-          "route": "/admin/users/:id/update_abilities",
-          "method": "put"
-        }
-      ]
-    },
-    {
-      "name": "categories",
-      "examples": [
-        {
-          "description": "get all categories",
-          "link": "categories/get_all_categories.json",
-          "groups": "all",
-          "route": "/categories",
-          "method": "get"
-        }
-      ]
-    },
-    {
-      "name": "forms",
-      "examples": [
-        {
-          "description": "send email to admins",
-          "link": "forms/send_email_to_admins.json",
-          "groups": "all",
-          "route": "/forms/contact",
-          "method": "post"
-        }
-      ]
-    },
-    {
-      "name": "products",
-      "examples": [
-        {
-          "description": "get all products",
-          "link": "products/get_all_products.json",
-          "groups": "all",
-          "route": "/products",
-          "method": "get"
-        },
-        {
-          "description": "get filtered products",
-          "link": "products/get_filtered_products.json",
-          "groups": "all",
-          "route": "/products",
-          "method": "get"
-        },
-        {
-          "description": "get product",
-          "link": "products/get_product.json",
-          "groups": "all",
-          "route": "/products/:id",
-          "method": "get"
-        }
-      ]
-    },
-    {
-      "name": "users",
-      "examples": [
-        {
-          "description": "sends password recovery email",
-          "link": "users/sends_password_recovery_email.json",
-          "groups": "all",
-          "route": "/users/send_sms_with_recovery_password",
-          "method": "post"
-        }
-      ]
-    },
-    {
       "name": "client: addresses",
       "examples": [
         {
@@ -392,10 +200,102 @@
       "name": "client: orders",
       "examples": [
         {
+          "description": "client can't confirm order if products are out of stock",
+          "link": "client:_orders/client_can't_confirm_order_if_products_are_out_of_stock.json",
+          "groups": "all",
+          "route": "/client/orders/:id/update_status",
+          "method": "put"
+        },
+        {
+          "description": "client cant approve order",
+          "link": "client:_orders/client_cant_approve_order.json",
+          "groups": "all",
+          "route": "/client/orders/:id/update_status",
+          "method": "put"
+        },
+        {
+          "description": "create current user's order",
+          "link": "client:_orders/create_current_user's_order.json",
+          "groups": "all",
+          "route": "client/orders",
+          "method": "post"
+        },
+        {
+          "description": "delete order",
+          "link": "client:_orders/delete_order.json",
+          "groups": "all",
+          "route": "/client/orders/:id",
+          "method": "delete"
+        },
+        {
+          "description": "delete order: after confirm",
+          "link": "client:_orders/delete_order:_after_confirm.json",
+          "groups": "all",
+          "route": "/client/orders/:id",
+          "method": "delete"
+        },
+        {
           "description": "get all current user's orders",
           "link": "client:_orders/get_all_current_user's_orders.json",
           "groups": "all",
           "route": "/client/orders",
+          "method": "get"
+        },
+        {
+          "description": "get approximate prices for a new order",
+          "link": "client:_orders/get_approximate_prices_for_a_new_order.json",
+          "groups": "all",
+          "route": "/client/orders/precalculate_price",
+          "method": "post"
+        }
+      ]
+    },
+    {
+      "name": "client: payments",
+      "examples": [
+        {
+          "description": "return all forms for payment for own order",
+          "link": "client:_payments/return_all_forms_for_payment_for_own_order.json",
+          "groups": "all",
+          "route": "/client/payments/new",
+          "method": "get"
+        }
+      ]
+    },
+    {
+      "name": "client: users",
+      "examples": [
+        {
+          "description": "create user",
+          "link": "client:_users/create_user.json",
+          "groups": "all",
+          "route": "/auth",
+          "method": "post"
+        },
+        {
+          "description": "user gets self",
+          "link": "client:_users/user_gets_self.json",
+          "groups": "all",
+          "route": "/client",
+          "method": "get"
+        },
+        {
+          "description": "verifies phone",
+          "link": "client:_users/verifies_phone.json",
+          "groups": "all",
+          "route": "/client/verify",
+          "method": "put"
+        }
+      ]
+    },
+    {
+      "name": "categories",
+      "examples": [
+        {
+          "description": "get all categories",
+          "link": "categories/get_all_categories.json",
+          "groups": "all",
+          "route": "/categories",
           "method": "get"
         }
       ]
@@ -423,6 +323,56 @@
           "groups": "all",
           "route": "/cities/:id",
           "method": "get"
+        }
+      ]
+    },
+    {
+      "name": "forms",
+      "examples": [
+        {
+          "description": "send email to admins",
+          "link": "forms/send_email_to_admins.json",
+          "groups": "all",
+          "route": "/forms/contact",
+          "method": "post"
+        }
+      ]
+    },
+    {
+      "name": "products",
+      "examples": [
+        {
+          "description": "get all products",
+          "link": "products/get_all_products.json",
+          "groups": "all",
+          "route": "/products",
+          "method": "get"
+        },
+        {
+          "description": "get filtered products",
+          "link": "products/get_filtered_products.json",
+          "groups": "all",
+          "route": "/products",
+          "method": "get"
+        },
+        {
+          "description": "get product",
+          "link": "products/get_product.json",
+          "groups": "all",
+          "route": "/products/:id",
+          "method": "get"
+        }
+      ]
+    },
+    {
+      "name": "users",
+      "examples": [
+        {
+          "description": "sends password recovery email",
+          "link": "users/sends_password_recovery_email.json",
+          "groups": "all",
+          "route": "/users/send_sms_with_recovery_password",
+          "method": "post"
         }
       ]
     }
