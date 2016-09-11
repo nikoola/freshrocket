@@ -37,7 +37,7 @@ class User < ActiveRecord::Base
 	scope :email_includes, -> (text)    { where("email like ?", "%#{text}%") }
 	scope :phone_includes, -> (text)    { where("phone like ?", "%#{text}%") }
 	scope :has_ability,    -> (ability) { tagged_with(ability) }
-
+	scope :city_id,		   -> (id)	    { joins(:addresses).where( 'addresses.city_id': id ) }
 
 
 

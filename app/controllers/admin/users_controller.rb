@@ -6,11 +6,22 @@ module Admin
 
 		# GET /users
 		def index
-			city_id = params[:city].present? ? JSON.parse(params[:city])['id'] : nil
-			addresses =  Address.where(city_id: city_id)
-			@users = []
-			addresses.map { |address| @users << address.user}
-			render json: @users, include: params[:include]
+			
+			city_id = params[:city].present? ? JSON.parse(params[:city])['id'] : '*'
+			#city_id filter is not working now
+			# unless city_id
+				users = User.filter params.slice(:has_ability, :city_id)#.merge({:city_id => city_id})
+				# binding.pry
+				render json: users #and return true
+
+			# end
+
+			# # addresses =  Address.where(city_id: city_id)
+			# # @users = []
+			# # addresses.map { |address| @users << address.user}
+
+			# @users = User.city_id city_id
+			# render json: @users, include: params[:include]
 		end
 
 		# GET /users/1
