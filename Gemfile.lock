@@ -25,7 +25,7 @@ GIT
 GEM
   remote: https://rubygems.org/
   specs:
-    CFPropertyList (2.3.2)
+    CFPropertyList (2.3.3)
     aasm (4.11.0)
     actionmailer (4.2.5)
       actionpack (= 4.2.5)
@@ -68,7 +68,7 @@ GEM
     acts-as-taggable-on (4.0.0)
       activerecord (>= 4.0)
     addressable (2.4.0)
-    airborne (0.2.6)
+    airborne (0.2.7)
       activesupport (>= 3.0, < 5.0)
       rack (< 2.0)
       rack-test (~> 0.6, >= 0.6.2)
@@ -82,7 +82,7 @@ GEM
     bcrypt (3.1.11)
     builder (3.2.2)
     byebug (9.0.5)
-    capybara (2.8.0)
+    capybara (2.8.1)
       addressable
       mime-types (>= 1.16)
       nokogiri (>= 1.3.3)
@@ -117,7 +117,7 @@ GEM
       devise (> 3.5.2, <= 4.2)
       rails (< 6)
     diff-lcs (1.2.5)
-    domain_name (0.5.20160615)
+    domain_name (0.5.20160826)
       unf (>= 0.0.5, < 1.0.0)
     dotenv (2.1.1)
     dotenv-rails (2.1.1)
@@ -125,7 +125,7 @@ GEM
       railties (>= 4.0, < 5.1)
     equalizer (0.0.11)
     erubis (2.7.0)
-    excon (0.51.0)
+    excon (0.52.0)
     execjs (2.7.0)
     factory_girl (4.7.0)
       activesupport (>= 3.0.0)
@@ -210,7 +210,7 @@ GEM
       multi_json (~> 1.10)
     fog-local (0.3.0)
       fog-core (~> 1.27)
-    fog-openstack (0.1.11)
+    fog-openstack (0.1.12)
       fog-core (>= 1.40)
       fog-json (>= 1.0)
       ipaddress (>= 0.8)
@@ -241,7 +241,7 @@ GEM
     fog-serverlove (0.1.2)
       fog-core
       fog-json
-    fog-softlayer (1.1.3)
+    fog-softlayer (1.1.4)
       fog-core
       fog-json
     fog-storm_on_demand (0.1.1)
@@ -256,9 +256,9 @@ GEM
     fog-voxel (0.1.0)
       fog-core
       fog-xml
-    fog-vsphere (1.0.0)
+    fog-vsphere (1.0.1)
       fog-core
-      rbvmomi (~> 1.8)
+      rbvmomi (~> 1.8.0)
     fog-xenserver (0.2.3)
       fog-core
       fog-xml
@@ -275,8 +275,6 @@ GEM
     google-v3-geocoder (1.0.0)
       geokit (>= 1.5.0)
       json
-    google_places (0.21.0)
-      httparty
     google_places_autocomplete (0.0.3)
       hashie
       httparty
@@ -367,7 +365,7 @@ GEM
       omniauth (~> 1.2)
     orm_adapter (0.5.0)
     parallel (1.9.0)
-    parallel_tests (2.7.1)
+    parallel_tests (2.8.0)
       parallel
     pg (0.18.4)
     pkg-config (1.1.7)
@@ -436,7 +434,7 @@ GEM
       rspec-core (~> 3.5.0)
       rspec-expectations (~> 3.5.0)
       rspec-mocks (~> 3.5.0)
-    rspec-core (3.5.2)
+    rspec-core (3.5.3)
       rspec-support (~> 3.5.0)
     rspec-expectations (3.5.0)
       diff-lcs (>= 1.2.0, < 2.0)
@@ -444,7 +442,7 @@ GEM
     rspec-mocks (3.5.0)
       diff-lcs (>= 1.2.0, < 2.0)
       rspec-support (~> 3.5.0)
-    rspec-rails (3.5.1)
+    rspec-rails (3.5.2)
       actionpack (>= 3.0)
       activesupport (>= 3.0)
       railties (>= 3.0)
@@ -483,7 +481,7 @@ GEM
     sprockets (3.7.0)
       concurrent-ruby (~> 1.0)
       rack (> 1, < 3)
-    sprockets-rails (3.1.1)
+    sprockets-rails (3.2.0)
       actionpack (>= 4.0)
       activesupport (>= 4.0)
       sprockets (>= 3.0.0)
@@ -494,7 +492,7 @@ GEM
     trollop (2.1.2)
     tzinfo (1.2.2)
       thread_safe (~> 0.1)
-    uglifier (3.0.1)
+    uglifier (3.0.2)
       execjs (>= 0.3.0, < 3)
     unf (0.1.4)
       unf_ext
@@ -507,7 +505,7 @@ GEM
     warden (1.2.6)
       rack (>= 1.0)
     websocket (1.2.3)
-    wicked_pdf (1.0.6)
+    wicked_pdf (1.1.0)
     wkhtmltopdf-binary (0.12.3)
     wkhtmltopdf-heroku (2.12.3.0)
     xml-simple (1.1.5)
@@ -537,7 +535,6 @@ DEPENDENCIES
   geokit
   geokit-rails
   google-v3-geocoder (= 1.0.0)
-  google_places
   google_places_autocomplete (~> 0.0.3)
   guard
   guard-rspec
