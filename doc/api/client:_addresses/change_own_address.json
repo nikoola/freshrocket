@@ -16,11 +16,11 @@
       "request_path": "/client/addresses/1",
       "request_body": "address[street_and_house]=good",
       "request_headers": {
-        "Access-Token": "gaqrNnd1vY1tj1_N-8MZhg",
+        "Access-Token": "zSE7WssHFg6PW5O2247-dw",
         "Token-Type": "Bearer",
-        "Client": "6FTairzA5vHi-alrCFz04w",
-        "Expiry": "1474547881",
-        "Uid": "118audreanne@feest.com",
+        "Client": "uYX4TEakMHpusNCoPn-aTw",
+        "Expiry": "1474780426",
+        "Uid": "118lisa@schuster.org",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -30,26 +30,26 @@
       "request_content_type": "application/x-www-form-urlencoded",
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\n  \"id\": 1,\n  \"city_id\": 2,\n  \"user_id\": 1,\n  \"street_and_house\": \"good\",\n  \"door_number\": \"5\",\n  \"active\": true,\n  \"city_name\": \"Murwara (Katni)\"\n}",
+      "response_body": "{\n  \"id\": 1,\n  \"city_id\": 2,\n  \"user_id\": 1,\n  \"street_and_house\": \"good\",\n  \"door_number\": \"5\",\n  \"active\": true,\n  \"city_name\": \"English Bazar\"\n}",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
-        "access-token": "gaqrNnd1vY1tj1_N-8MZhg",
+        "access-token": "zSE7WssHFg6PW5O2247-dw",
         "token-type": "Bearer",
-        "client": "6FTairzA5vHi-alrCFz04w",
-        "expiry": "1474547881",
-        "uid": "118audreanne@feest.com",
+        "client": "uYX4TEakMHpusNCoPn-aTw",
+        "expiry": "1474780426",
+        "uid": "118lisa@schuster.org",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"46d348e78f8a38a13e82f1352d617187\"",
+        "ETag": "W/\"6697c3519095246b726a57f89ad1c54f\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=YnRiN01xZmdGVnZ5R0lFU3FydGxGMmtIM1M0REdsVU1EbjVSWXdoS1F3TEQwSU9UTHV1emU3UHBpeFFrdWkrL29OTHlzNHJnbFB0KzkyN0kvQTdNbE5DN3ExS3lPNHdObXFIRjJuc3ZheTh2aytKYUtEVjF5Z0JIMDVmK1NtVFZtbjRyTm1xNk1oRTk0aTlpK2E4TnFQR1FoRk5YSTU0YzZ2QjIvYWhrSzJ6OWhud1cvbWx0bGl4YysrNkF0TkU2LS0xTnNFeGpFTEhIZGo1MG40U2dBc3ZnPT0%3D--34cb1d68a1eddf08dac07c5e3c6449aac0c8fd5e; path=/; HttpOnly",
-        "X-Request-Id": "8710c5cf-dfb3-4b44-96ef-ec4526dabba5",
-        "X-Runtime": "0.082201",
-        "Content-Length": "120"
+        "Set-Cookie": "_session_id=QU8vTndQL1Y5NklBOUVjUi9CakViekF3TkkwS2RFNlNHUWMwMDJwQjZpc2RhNVRIOTIzZUFrUDhWeDk0NmVKRWk3aGE0VlUvYk9RUy9NL0RvL0lHSmFxc2duVDFpWXpHRDRvazdYMHdWcVlXUUQ3MUozVlk5eWsrZHhmVU8wbzdMcHpLOXdDSW1zWXpqc0xKWmROT0xXdmE3TFRVVEVEV1A0RThvK3BVRndYRndVZW11OW5mSGRMNzNGa3JlZTNwLS1HY0tlYlI5R0h5R05XMmVtYUl1RmpBPT0%3D--9274cd0e56003c6cdfe815a5bbef8d87edd3a733; path=/; HttpOnly",
+        "X-Request-Id": "74970d5b-0c8f-45b3-bcc7-54a1071d5b6a",
+        "X-Runtime": "0.083208",
+        "Content-Length": "118"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/client/addresses/1\" -d 'address[street_and_house]=good' -X PUT \\\n\t-H \"Access-Token: gaqrNnd1vY1tj1_N-8MZhg\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: 6FTairzA5vHi-alrCFz04w\" \\\n\t-H \"Expiry: 1474547881\" \\\n\t-H \"Uid: 118audreanne@feest.com\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/client/addresses/1\" -d 'address[street_and_house]=good' -X PUT \\\n\t-H \"Access-Token: zSE7WssHFg6PW5O2247-dw\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: uYX4TEakMHpusNCoPn-aTw\" \\\n\t-H \"Expiry: 1474780426\" \\\n\t-H \"Uid: 118lisa@schuster.org\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

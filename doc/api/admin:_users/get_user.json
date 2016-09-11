@@ -16,11 +16,11 @@
       "request_path": "/admin/users/1",
       "request_body": null,
       "request_headers": {
-        "Access-Token": "Urt2OKykXcQKqojacayyYg",
+        "Access-Token": "S5N5nKJYHmxRE4ylZI53_g",
         "Token-Type": "Bearer",
-        "Client": "1XnZIBo7PEMZDJzDyG6LJQ",
-        "Expiry": "1474547813",
-        "Uid": "94guadalupe@ritchiejacobson.co",
+        "Client": "pSYXY-nwB7hNNbabqv6jUw",
+        "Expiry": "1474780323",
+        "Uid": "94priscilla.gerlach@wunschankunding.info",
         "Host": "example.org",
         "Cookie": ""
       },
@@ -29,26 +29,26 @@
       "request_content_type": null,
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\n  \"id\": 1,\n  \"first_name\": \"Alexandra\",\n  \"last_name\": \"Hartmann\",\n  \"email\": \"93orlando.batz@davis.biz\",\n  \"phone\": \"6551783807\",\n  \"is_verified\": false,\n  \"provider\": \"email\",\n  \"uid\": \"93orlando.batz@davis.biz\",\n  \"created_at\": \"2016-09-08T12:36:53.807Z\",\n  \"abilities\": {\n    \"orders\": 0,\n    \"products\": 0,\n    \"users\": 0,\n    \"categories\": 1,\n    \"coupons\": 0,\n    \"settings\": 0,\n    \"cities\": 0,\n    \"delivery_boy\": 0\n  },\n  \"addresses\": [\n\n  ],\n  \"orders\": [\n\n  ]\n}",
+      "response_body": "{\n  \"id\": 1,\n  \"first_name\": \"Anjali\",\n  \"last_name\": \"Walter\",\n  \"email\": \"93kattie_berge@kohler.name\",\n  \"phone\": \"8019457543\",\n  \"is_verified\": false,\n  \"provider\": \"email\",\n  \"uid\": \"93kattie_berge@kohler.name\",\n  \"created_at\": \"2016-09-11T05:12:03.022Z\",\n  \"abilities\": {\n    \"orders\": 0,\n    \"products\": 0,\n    \"users\": 0,\n    \"categories\": 1,\n    \"coupons\": 0,\n    \"settings\": 0,\n    \"cities\": 0,\n    \"delivery_boy\": 0\n  },\n  \"addresses\": [\n\n  ],\n  \"orders\": [\n\n  ]\n}",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
-        "access-token": "Urt2OKykXcQKqojacayyYg",
+        "access-token": "S5N5nKJYHmxRE4ylZI53_g",
         "token-type": "Bearer",
-        "client": "1XnZIBo7PEMZDJzDyG6LJQ",
-        "expiry": "1474547813",
-        "uid": "94guadalupe@ritchiejacobson.co",
+        "client": "pSYXY-nwB7hNNbabqv6jUw",
+        "expiry": "1474780323",
+        "uid": "94priscilla.gerlach@wunschankunding.info",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"9c26b36832a13fc79904710e221909ba\"",
+        "ETag": "W/\"d664c40b09325b392906441f4b97388c\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=OEErQ1NoSUtJL3ZKR00rV0UwQmp2WUxCbVF0YU5xOHh5VTlTOHgzazJYcUN6YnJXNThZUGk5dThTYkdLKzZTOVVwY0Jvbi8vVVB5T3IyN1BaR3o4N1Z5QkY3UWNjZU9IdklIVVNkWEVaUUQ2QmhkWmhjdnNYQ3FTaWpFN2ludG5ZdnRPejVCdmNPVk10OUQxMTV3eTllWU5pWUY3K0xFOHNoZlE0VjNnQm1WQzlLbGpQVG5kTlNsYkpyelZlSlVNLS1NRDI5UkVpR3l2Wm5ET2I0ZVF0TW9BPT0%3D--ee5f2cbb9a77454fbc2dc45bf0b11d9dd120b10c; path=/; HttpOnly",
-        "X-Request-Id": "b89f4cfb-a317-4484-bf84-2ca1c85fab79",
-        "X-Runtime": "0.125520",
-        "Content-Length": "367"
+        "Set-Cookie": "_session_id=UFlwWFRXRHBsSy9ET0M2S3UrSVJjMnY2NEkraTAxUWt1cExtL2VYbkU1bERpcUdaT0pVY2FrSGwrS2o0aDBwSmlveVlPUW5WWEZnQUs5NDU3ZkFSU1RwVnY0NkI0UVFZZmRmRXhWN3RGcy9wdVJjU0paU25ISXlpaVQvbHRQWmUxV0lWRnRpN2ZLTDlPbU9pSldJZEtPdVFjdnhTblpINDNlUDJwQnlqZUNmQ1puYWZZdVo5YU9XYytPSDdVL1U3LS1TMjU5VEJ1bjV2TDVYWkRFQlo4ajJnPT0%3D--7b688f025f691444528d4bf8144ca663707abbb3; path=/; HttpOnly",
+        "X-Request-Id": "b9d55a4f-5ed3-410b-a835-a8837f95f1e3",
+        "X-Runtime": "0.104826",
+        "Content-Length": "366"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/admin/users/1\" -X GET \\\n\t-H \"Access-Token: Urt2OKykXcQKqojacayyYg\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: 1XnZIBo7PEMZDJzDyG6LJQ\" \\\n\t-H \"Expiry: 1474547813\" \\\n\t-H \"Uid: 94guadalupe@ritchiejacobson.co\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/admin/users/1\" -X GET \\\n\t-H \"Access-Token: S5N5nKJYHmxRE4ylZI53_g\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: pSYXY-nwB7hNNbabqv6jUw\" \\\n\t-H \"Expiry: 1474780323\" \\\n\t-H \"Uid: 94priscilla.gerlach@wunschankunding.info\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

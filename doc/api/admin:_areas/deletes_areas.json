@@ -16,11 +16,11 @@
       "request_path": "/admin/areas/1",
       "request_body": null,
       "request_headers": {
-        "Access-Token": "C34qU_LoLQdaYhalu0YvJg",
+        "Access-Token": "dlZry-XBvWDkr7dq39Q-cw",
         "Token-Type": "Bearer",
-        "Client": "iXqyNj23vb0_63yOmceDAg",
-        "Expiry": "1474547669",
-        "Uid": "8terence_okuneva@hermiston.net",
+        "Client": "IrRXq-wuyBzUlODYkeJCLw",
+        "Expiry": "1474780174",
+        "Uid": "8maureen.larkin@murphygraham.com",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -35,20 +35,20 @@
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
-        "access-token": "C34qU_LoLQdaYhalu0YvJg",
+        "access-token": "dlZry-XBvWDkr7dq39Q-cw",
         "token-type": "Bearer",
-        "client": "iXqyNj23vb0_63yOmceDAg",
-        "expiry": "1474547669",
-        "uid": "8terence_okuneva@hermiston.net",
+        "client": "IrRXq-wuyBzUlODYkeJCLw",
+        "expiry": "1474780174",
+        "uid": "8maureen.larkin@murphygraham.com",
         "Content-Type": "text/html",
         "Cache-Control": "no-cache",
-        "Set-Cookie": "_session_id=aW9rTEg2cSt6WVhtcHhPaUpFaTlNbDFTdDBYWE9ZOEYrOTRmeWJQV2p6YXZjeGxxZ2RUVzVpVXYwT3RZaE5aS1pSeG5KMmU1L1A2RldBYlREQkFybTVpV2ZtRHhQcDBwM3JjMjBES1NtMWNEYlg5emV2bVI3cEhLc21xS1NlSFJITkdiOGZOQ1hvQ2tMV2ZoVnRWL2hyZDgyeUVDK0JNNFR3T1BXamE3dlBSUG1VUzBSMTkvUkpOZEEvbkR4WlZ4LS0zc3g5ZzVmNGwvVXpoL2o3T1BrRWtRPT0%3D--4e49942ef4112559948b11a4f471412ef12fd6a5; path=/; HttpOnly",
-        "X-Request-Id": "e6d59789-9cfb-472f-818d-0b56a52545eb",
-        "X-Runtime": "0.093696",
+        "Set-Cookie": "_session_id=bXZteDdxRjEvbGRpSmc5K2dTeTI0RGFxSzJvdUVWN3ZOa1Q5WjBTM3V1di9KOWdvc3YxLzRPazdHQ1hBdmJhekVZTk91d09YRWhqeUdnaVA1YnRCWHFaaTZxSTZvYS9JclY1SDhHM1gwR1hmcXQxZWNqaHdndHRDeHh4WVZPREJPdkxuTmVvU2grVFVaTm9RdFBOYnBvZE1HSHdmRm5LTFYyVWo0VkVla2lzNzNrVXV4UjdYTk85TW5kdlNXV3lRLS01ajgrRENxaUdWa0c1anBTelg2aGhBPT0%3D--847b33e7511a45bc5880ba210c57ad340044c88e; path=/; HttpOnly",
+        "X-Request-Id": "ea4d0f26-a534-48c1-9026-f6c67a3fb911",
+        "X-Runtime": "0.078892",
         "Content-Length": "0"
       },
       "response_content_type": "text/html",
-      "curl": "curl \"http://localhost:3000/admin/areas/1\" -d '' -X DELETE \\\n\t-H \"Access-Token: C34qU_LoLQdaYhalu0YvJg\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: iXqyNj23vb0_63yOmceDAg\" \\\n\t-H \"Expiry: 1474547669\" \\\n\t-H \"Uid: 8terence_okuneva@hermiston.net\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/admin/areas/1\" -d '' -X DELETE \\\n\t-H \"Access-Token: dlZry-XBvWDkr7dq39Q-cw\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: IrRXq-wuyBzUlODYkeJCLw\" \\\n\t-H \"Expiry: 1474780174\" \\\n\t-H \"Uid: 8maureen.larkin@murphygraham.com\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

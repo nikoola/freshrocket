@@ -20,11 +20,11 @@
       "request_path": "/admin/users/1/update_abilities",
       "request_body": "abilities[users]=1&abilities[products]=0&abilities[orders]=0&abilities[categories]=0",
       "request_headers": {
-        "Access-Token": "W4ti6C33ULRoEQDkF5AwlA",
+        "Access-Token": "V_BbdgNXgBukFy7O-BSyYg",
         "Token-Type": "Bearer",
-        "Client": "0E8CHU7DJg8UwJeh_jQgWw",
-        "Expiry": "1474547815",
-        "Uid": "108ericka@gutmann.org",
+        "Client": "CoiDVhI0TDgipfp9FHMueQ",
+        "Expiry": "1474780324",
+        "Uid": "108ellie_lebsack@ebert.io",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -39,20 +39,20 @@
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
-        "access-token": "W4ti6C33ULRoEQDkF5AwlA",
+        "access-token": "V_BbdgNXgBukFy7O-BSyYg",
         "token-type": "Bearer",
-        "client": "0E8CHU7DJg8UwJeh_jQgWw",
-        "expiry": "1474547815",
-        "uid": "108ericka@gutmann.org",
+        "client": "CoiDVhI0TDgipfp9FHMueQ",
+        "expiry": "1474780324",
+        "uid": "108ellie_lebsack@ebert.io",
         "Content-Type": "text/html",
         "Cache-Control": "no-cache",
-        "Set-Cookie": "_session_id=bXRxSGlSSlU5Z2piY1NwMVJLUTc0dmxxSEhzakVOSG0wNHhpZ0hIbFZDNG1nNFdEaCsvMDZRYitNN2ZONTNKVk03RUJsc2x3RzlZM0Q3Ym5nQUY0VzdKVCtta0RrT0lkNWlRSllvMWJUclBKcWpPdWg4VUZpNEl6RWpESDZHWUpLeUxwWTVDZ2tGL2hKU0RXVTFlajk0Vmt1N250K01GelNaY3VidEE3K3ZDUDRNMWxTbXpEc203djVmU1l2NWo5LS1MWU5ZSXZienI4Vjd3U213d01zTlNBPT0%3D--79e93f8d19746b862b2a7bd9013922c252da9960; path=/; HttpOnly",
-        "X-Request-Id": "9b58c0ae-e43b-4efc-8ce2-ea8391332979",
-        "X-Runtime": "0.132025",
+        "Set-Cookie": "_session_id=SjEzaFJXSTZJK1dlMTJodnZzeVJRdnIyYkhqRW41KzVPcDBIMk5ZV3ZQNjhFN0thZzBZTlpYUWN5YnNHcXhNaWY1MDNHeVhLdVNzbklmQUZCS3cwa0JGTlFwaXFtNjlyMmVXN1dnbTZjcm9ZcWJBQTdUSGxQREVwVTVwYUoyQjhURy9uZ2l6VzNhRGRuaXMrQWRQbklFYTRYSDFycmN1RGwrb0dtaXFSR3F5dm5NMUhlQWFVdFhuMlgwQXc1Nm5qLS1uQktNTDh0OElWbjFVVFg0TlZ4M0N3PT0%3D--0246b606c9f51fd6d928f7c926e7eb4af4c8a601; path=/; HttpOnly",
+        "X-Request-Id": "ed87fe0d-d0db-481b-bf29-fb57e09b6bf8",
+        "X-Runtime": "0.101120",
         "Content-Length": "0"
       },
       "response_content_type": "text/html",
-      "curl": "curl \"http://localhost:3000/admin/users/1/update_abilities\" -d 'abilities[users]=1&abilities[products]=0&abilities[orders]=0&abilities[categories]=0' -X PUT \\\n\t-H \"Access-Token: W4ti6C33ULRoEQDkF5AwlA\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: 0E8CHU7DJg8UwJeh_jQgWw\" \\\n\t-H \"Expiry: 1474547815\" \\\n\t-H \"Uid: 108ericka@gutmann.org\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/admin/users/1/update_abilities\" -d 'abilities[users]=1&abilities[products]=0&abilities[orders]=0&abilities[categories]=0' -X PUT \\\n\t-H \"Access-Token: V_BbdgNXgBukFy7O-BSyYg\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: CoiDVhI0TDgipfp9FHMueQ\" \\\n\t-H \"Expiry: 1474780324\" \\\n\t-H \"Uid: 108ellie_lebsack@ebert.io\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

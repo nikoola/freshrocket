@@ -118,7 +118,8 @@ gem "letter_opener",      group: :development
 
 
 gem 'geokit'
-# gem 'geokit-rails'
+gem 'google-v3-geocoder', '1.0.0'
+gem 'geokit-rails'
 
 # ruby '2.2.1'
 

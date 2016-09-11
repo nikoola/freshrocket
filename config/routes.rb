@@ -6,7 +6,12 @@ Rails.application.routes.draw do
 	# no authentication needed.
 	resources :categories, only: [:index]
 	resources :products,   only: [:index, :show]
-	resources :cities,     only: [:index, :show]
+	resources :cities,     only: [:index, :show] do
+		member {
+			get :containing_areas
+		}
+	end
+
   	resources :options,    only: [:index, :show]
 
   	namespace :addresses do

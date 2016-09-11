@@ -11,7 +11,9 @@ class Area < ActiveRecord::Base
 			area.contains_coordinate? coordinate
 		end.count
 	}
+	scope :containing_name, -> (text) { where("name like ?", "%#{text}%") }
 	scope :active, -> (bool) { where active: param_to_bool(bool) }
+	scope :city_id, -> (city_id) { where city_id: city_id }
 	
 	include Filterable
 
@@ -34,13 +36,15 @@ class Area < ActiveRecord::Base
 		def disable
 			update active: false
 		end
-	# def reverse_geocode
-	# 	res=Geokit::Geocoders::GoogleGeocoder.reverse_geocode "#{lat},#{lng}"    #warning:no return state check!
-	# 	# => #<Geokit::GeoLoc:0x558ed0 ...
-	# 	# res.full_address "101-115 Main St, San Francisco, CA 94105, USA"
-	# 	unless res.success
-	# 		errors.add :city_name, "City and Area City name not matching #{res.city} : #{city.name}"
-	# 	end
-	# 	name = res.full_address
-	# end
+	def reverse_geocode
+		# res=Geokit::Geocoders::GoogleGeocoder.reverse_geocode "#{lat},#{lng}"    #warning:no return state check!
+		# # => #<Geokit::GeoLoc:0x558ed0 ...
+		# # res.full_address "101-115 Main St, San Francisco, CA 94105, USA"
+		# unless res.success
+		# 	errors.add :city_name, "City and Area City name not matching #{res.city} : #{city.name}"
+		# end
+		# name = res.full_address
+
+
+	end
 end

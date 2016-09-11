@@ -19,11 +19,11 @@
       "request_path": "/admin/areas?active=0",
       "request_body": null,
       "request_headers": {
-        "Access-Token": "gTFvjQVtos3YKhX-z_o_oA",
+        "Access-Token": "9SV-E-rncP1cNuqfrUDKmw",
         "Token-Type": "Bearer",
-        "Client": "iZzL8r_r2nXvVHkwjoJxww",
-        "Expiry": "1474547657",
-        "Uid": "5elton_douglas@kovacek.info",
+        "Client": "thDNCOjXjFiZFmlL8gsJVQ",
+        "Expiry": "1474780163",
+        "Uid": "5elizabeth_bahringer@kozey.com",
         "Host": "example.org",
         "Cookie": ""
       },
@@ -33,26 +33,26 @@
       "request_content_type": null,
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "[\n  {\n    \"id\": 1,\n    \"name\": \"Bhopal, Madhya Pradesh 462001, India\",\n    \"radius\": \"5.0\",\n    \"active\": false\n  },\n  {\n    \"id\": 2,\n    \"name\": \"Visakhapatnam, Andhra Pradesh 530001, India\",\n    \"radius\": \"5.0\",\n    \"active\": false\n  },\n  {\n    \"id\": 3,\n    \"name\": \"Vadodara, Gujarat, India\",\n    \"radius\": \"5.0\",\n    \"active\": false\n  }\n]",
+      "response_body": "[\n  {\n    \"id\": 1,\n    \"name\": \"Patna, Bihar 800001, India\",\n    \"radius\": \"5.0\",\n    \"active\": false\n  },\n  {\n    \"id\": 2,\n    \"name\": \"Indore, Madhya Pradesh 452001, India\",\n    \"radius\": \"5.0\",\n    \"active\": false\n  },\n  {\n    \"id\": 3,\n    \"name\": \"Thane, Maharashtra 400601, India\",\n    \"radius\": \"5.0\",\n    \"active\": false\n  }\n]",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
-        "access-token": "gTFvjQVtos3YKhX-z_o_oA",
+        "access-token": "9SV-E-rncP1cNuqfrUDKmw",
         "token-type": "Bearer",
-        "client": "iZzL8r_r2nXvVHkwjoJxww",
-        "expiry": "1474547657",
-        "uid": "5elton_douglas@kovacek.info",
+        "client": "thDNCOjXjFiZFmlL8gsJVQ",
+        "expiry": "1474780163",
+        "uid": "5elizabeth_bahringer@kozey.com",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"3d946ce858aa44c92f7b2a0fa0bfca85\"",
+        "ETag": "W/\"f81b5f3c13615029c95c6124b58ddd96\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=YXZ5clQreUVrd2dKL29ZYVUwYjl2TGlvVWtpbFhscU1Tbjc0czZuVG5OVFhybDVFUTRJL1dLR3BmK09WSW4reXF3MHh2MjlzWndYOEx5Mzc2QWRSMEIveE14Yk9yd3lycC83aGdPdkM3ZDRKcVFHQWdTeEIreWdMdHlNc2ZseU43Szg1TGZGMmFKdVJ6a2RTV3JYZUxqMm1mTnoveDV6QVgyYjBFTXA4ZVN0eVVWMlhTT25qTXlmdFdSWHlZRW9yLS1zaStaeHoxSjVOcjNYbFQrN3FZWVZBPT0%3D--8194da03ff95de5be092e4e061ea111b3bd38392; path=/; HttpOnly",
-        "X-Request-Id": "06172d53-008d-4b26-a1cc-0951925881b2",
-        "X-Runtime": "0.138687",
-        "Content-Length": "251"
+        "Set-Cookie": "_session_id=MTVramVDWjlwSXFuaXFXbCt0ZTYxK2dHQnNFRGJscDRtd0pVRWRWSXl5N3JURVBUL1dMV2Niclp2V2g1WDBuRkFySUtPVDhzcFBybGdUSHplK3Z5MlpNTmFkaW5ibGxubCsrZmpJcHNtUzdjTzQvUnp2TFVCNVdHVk1nRzExeHRZNjJubUdwMm55RkhFYmxDcFBYdURJQXNUQWo3ZzIyWktHQkJHTmdya0I3ZUdwNTRqOUJLekV3QS85cGNPakVpLS13dzVrRWR1WXlXSWJWOTN3MjFmanlRPT0%3D--c84f5bb6bdc5a97939b68906f0cc2d7a229ad60f; path=/; HttpOnly",
+        "X-Request-Id": "83d0d55f-7e15-422b-b4f5-fb68191d26b5",
+        "X-Runtime": "0.101553",
+        "Content-Length": "242"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/admin/areas?active=0\" -X GET \\\n\t-H \"Access-Token: gTFvjQVtos3YKhX-z_o_oA\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: iZzL8r_r2nXvVHkwjoJxww\" \\\n\t-H \"Expiry: 1474547657\" \\\n\t-H \"Uid: 5elton_douglas@kovacek.info\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/admin/areas?active=0\" -X GET \\\n\t-H \"Access-Token: 9SV-E-rncP1cNuqfrUDKmw\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: thDNCOjXjFiZFmlL8gsJVQ\" \\\n\t-H \"Expiry: 1474780163\" \\\n\t-H \"Uid: 5elizabeth_bahringer@kozey.com\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

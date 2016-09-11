@@ -16,11 +16,11 @@
       "request_path": "/admin/coupons/1",
       "request_body": null,
       "request_headers": {
-        "Access-Token": "r96uWdpIJl-1DvCx4QiDfA",
+        "Access-Token": "doK4Gm12OtYUxhx14kfNUw",
         "Token-Type": "Bearer",
-        "Client": "pqXIBe-9ZiWF-Wkiu1OS5w",
-        "Expiry": "1474547672",
-        "Uid": "20antone_bergstrom@hillslindgren.org",
+        "Client": "_zmQt0enXhiaBwFhU1JVfA",
+        "Expiry": "1474780177",
+        "Uid": "20aisha@damoredibbert.co",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -35,20 +35,20 @@
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
-        "access-token": "r96uWdpIJl-1DvCx4QiDfA",
+        "access-token": "doK4Gm12OtYUxhx14kfNUw",
         "token-type": "Bearer",
-        "client": "pqXIBe-9ZiWF-Wkiu1OS5w",
-        "expiry": "1474547672",
-        "uid": "20antone_bergstrom@hillslindgren.org",
+        "client": "_zmQt0enXhiaBwFhU1JVfA",
+        "expiry": "1474780177",
+        "uid": "20aisha@damoredibbert.co",
         "Content-Type": "text/html",
         "Cache-Control": "no-cache",
-        "Set-Cookie": "_session_id=WDZJNFpndU1udEpnRlFCWjRXQnFycnQrVlFSTHRIMm5yZllwQStqR3VBS0hJTE5LN2h2bnJyR3ZCMWo2eThickY4SzJueHl5Qkxwcy8wVWxrdVFUcjZub3U4VS85MlA0NDZjWUxrNU1rY0ZBQzlZTUlUMXdkRzVHWmF0WXlobW5hVWJ2UFdWM1ovM1oxaTEvTUcxcWw5SVdqYnpWbGRuVWlwTWJjSTcwWk9UT3RERnVtRlhTbysrWWxnN1B0cmo0LS1VMHBTZ3ZkSkN3MUJtb0FiUmZKRmV3PT0%3D--d92227af8c2613cacc40fb41457310c318b10295; path=/; HttpOnly",
-        "X-Request-Id": "53c4c3b0-ba06-4ba0-9d6c-771030587f78",
-        "X-Runtime": "0.093778",
+        "Set-Cookie": "_session_id=emV2NnFHKzAyR29wRmQ0Y2pCdjc0RjlqVUQzbk9hc2NKclNMNy8vUEJ3ejYxWHVyc2NvL2pWMm54dURRa2ZyWTI2KzFQdmlPOGc5QXN3anhYUXBPTU1TeERUaTFCM3NkdWIrTFlaZ21MVEp4NFEvRDJ2YXVKbUsrbmgxR1VkM3N0VWc5R2wwQ3cvZlFZNGRaV2U4cXplN3BET241NzJKV1BMV005Y1pXaWZId1htYzVDTFRaS0M3aXBXdnVEOVdaLS1HMm1kTWVHK0FCWVBaM01vNitsY1VBPT0%3D--d4c376bfca80a5452fbcd8cbe0ab40e676dd2ddd; path=/; HttpOnly",
+        "X-Request-Id": "fcdaf35e-e11f-483b-a22a-7482c637c9ba",
+        "X-Runtime": "0.074205",
         "Content-Length": "0"
       },
       "response_content_type": "text/html",
-      "curl": "curl \"http://localhost:3000/admin/coupons/1\" -d '' -X DELETE \\\n\t-H \"Access-Token: r96uWdpIJl-1DvCx4QiDfA\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: pqXIBe-9ZiWF-Wkiu1OS5w\" \\\n\t-H \"Expiry: 1474547672\" \\\n\t-H \"Uid: 20antone_bergstrom@hillslindgren.org\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/admin/coupons/1\" -d '' -X DELETE \\\n\t-H \"Access-Token: doK4Gm12OtYUxhx14kfNUw\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: _zmQt0enXhiaBwFhU1JVfA\" \\\n\t-H \"Expiry: 1474780177\" \\\n\t-H \"Uid: 20aisha@damoredibbert.co\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

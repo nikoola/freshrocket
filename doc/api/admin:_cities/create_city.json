@@ -24,13 +24,13 @@
     {
       "request_method": "POST",
       "request_path": "/admin/cities",
-      "request_body": "city[name]=Kalyan-Dombivali",
+      "request_body": "city[name]=Faridabad",
       "request_headers": {
-        "Access-Token": "lDY_1wtk4OT-gFFZgYHSLw",
+        "Access-Token": "MZuyh-euFkMccl5wGMVFGg",
         "Token-Type": "Bearer",
-        "Client": "20vF-cLYtMVcQNhUAhLbPg",
-        "Expiry": "1474547671",
-        "Uid": "14josephine@gislasonmcglynn.org",
+        "Client": "GuHqv21oXsdTW4qukYAJZg",
+        "Expiry": "1474780175",
+        "Uid": "14lavern_klocko@bernier.name",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -40,27 +40,27 @@
       "request_content_type": "application/x-www-form-urlencoded",
       "response_status": 201,
       "response_status_text": "Created",
-      "response_body": "{\n  \"id\": 1,\n  \"name\": \"Kalyan-Dombivali\",\n  \"active\": true\n}",
+      "response_body": "{\n  \"id\": 1,\n  \"name\": \"Faridabad\",\n  \"active\": true\n}",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
         "Location": "http://example.org/cities/1",
-        "access-token": "lDY_1wtk4OT-gFFZgYHSLw",
+        "access-token": "MZuyh-euFkMccl5wGMVFGg",
         "token-type": "Bearer",
-        "client": "20vF-cLYtMVcQNhUAhLbPg",
-        "expiry": "1474547671",
-        "uid": "14josephine@gislasonmcglynn.org",
+        "client": "GuHqv21oXsdTW4qukYAJZg",
+        "expiry": "1474780175",
+        "uid": "14lavern_klocko@bernier.name",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"e6b32dc84da4c25b5c15ec14719b9f6f\"",
+        "ETag": "W/\"1e86fd23fd09d0012be3824a41a6072e\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=cFJiVlFHUVh1M2VaRTJ1ZkozeEo3ay91azFXQlgxQzJuUThwaXM1b1UvOU50S2dXckpFREUvKzk2TVRGZzdDaXBnK0E1djRXOXhlM1YzZUxDbDlrVXVOM1NzT1Q0b25WU1FDcTVzSGxRZ3NOUE1EUTZ0aWpWQjQ5NXJSTHBPQURLRk0xekhKNU1lK0JrMmNJTDZweGdHY0VFWjJPbDdBTHVBQUo3eVJldzEybnArVnF1UDZpMXlKRXZ0UlJtTUdyLS0wNHdNemVtdzhwdFQ1SjIwTHc2d0NnPT0%3D--828d1410bb823e2ac75c3ebd9076a3fbf5f5cde7; path=/; HttpOnly",
-        "X-Request-Id": "7e6a935c-22c9-48a6-8646-6e523b79042a",
-        "X-Runtime": "0.100457",
-        "Content-Length": "48"
+        "Set-Cookie": "_session_id=dHcreWFBVHZvOFNHNFFUUGkyVWdDbEppM2FER0hENTZKY3I3ZTBNaTR4ZWZqV2pzZUVJelcrNkZvQ1FjbDBWT3Z3Zzk1aEpQMEVsMTcxM2NoVTIxRWk5dWROSWNmdVJPM3Zmc1c2SDI4OXMwb1FSSGhQd1E5WWFleVBQSm1QRkdPZWJLTTBEYjJ2KzFiQjRudGVSUkJqNHpwcDIwVVdvVDJhVzNydjJWVEg2OE9IWXZOZzR2L0pTdDZ0WXJHK0VRLS1LY2hrcnFVQnZSQnhWM0RmWWtXWUdnPT0%3D--c7df37571d496d196be4ba574cb34610cd33ef28; path=/; HttpOnly",
+        "X-Request-Id": "064b9ed0-2613-4710-b46b-f82f493e8b43",
+        "X-Runtime": "0.088377",
+        "Content-Length": "41"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/admin/cities\" -d 'city[name]=Kalyan-Dombivali' -X POST \\\n\t-H \"Access-Token: lDY_1wtk4OT-gFFZgYHSLw\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: 20vF-cLYtMVcQNhUAhLbPg\" \\\n\t-H \"Expiry: 1474547671\" \\\n\t-H \"Uid: 14josephine@gislasonmcglynn.org\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/admin/cities\" -d 'city[name]=Faridabad' -X POST \\\n\t-H \"Access-Token: MZuyh-euFkMccl5wGMVFGg\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: GuHqv21oXsdTW4qukYAJZg\" \\\n\t-H \"Expiry: 1474780175\" \\\n\t-H \"Uid: 14lavern_klocko@bernier.name\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

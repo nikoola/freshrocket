@@ -23,13 +23,6 @@
           "groups": "all",
           "route": "/admin/addresses/:id",
           "method": "delete"
-        },
-        {
-          "description": "get all addresses",
-          "link": "admin:_addresses/get_all_addresses.json",
-          "groups": "all",
-          "route": "/admin/addresses",
-          "method": "get"
         }
       ]
     },
@@ -283,6 +276,13 @@
       "name": "cities",
       "examples": [
         {
+          "description": "get all areas in city",
+          "link": "cities/get_all_areas_in_city.json",
+          "groups": "all",
+          "route": "/cities/:id/containing_areas",
+          "method": "get"
+        },
+        {
           "description": "get all cities",
           "link": "cities/get_all_cities.json",
           "groups": "all",
@@ -465,37 +465,6 @@
           "groups": "all",
           "route": "/deliver/delivery_boy",
           "method": "put"
-        }
-      ]
-    },
-    {
-      "name": "deliver: orders",
-      "examples": [
-        {
-          "description": "get current delivery_boy's orders",
-          "link": "deliver:_orders/get_current_delivery_boy's_orders.json",
-          "groups": "all",
-          "route": "deliver/orders",
-          "method": "get"
-        }
-      ]
-    },
-    {
-      "name": "deliver: positions",
-      "examples": [
-        {
-          "description": "get a map trace for some order",
-          "link": "deliver:_positions/get_a_map_trace_for_some_order.json",
-          "groups": "all",
-          "route": "/orders/:id/positions",
-          "method": "get"
-        },
-        {
-          "description": "mark new position",
-          "link": "deliver:_positions/mark_new_position.json",
-          "groups": "all",
-          "route": "/deliver/orders/:id/positions",
-          "method": "post"
         }
       ]
     },

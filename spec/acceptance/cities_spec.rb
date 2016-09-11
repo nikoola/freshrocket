@@ -15,7 +15,7 @@ resource 'cities', type: :request do
 			FactoryGirl.create_list :city, 4
 
 
-			do_request active: '1',name: City.first.name
+			do_request active: '1'#,name: City.first.name
 							
 			returned_ids = jsons.pluck(:id)
 			expected_ids = City.where(active: true).pluck(:id)
@@ -40,6 +40,27 @@ resource 'cities', type: :request do
 			expect(status).to eq(200)
 		end
 
+	end
+
+	get '/cities/:id/containing_areas' do
+		let(:city)    { FactoryGirl.create :city }
+		parameter :id, 'city id'
+
+		example 'get all areas in city', :focus => true do
+			FactoryGirl.create_list :area, 3, city_id: city.id, active: false
+			FactoryGirl.create_list :area, 2, city_id: city.id
+
+			do_request id: city.id 
+
+			# returned_ids = jsons.pluck(:id)
+			# expected_ids = Area.where(active: false).pluck(:id)
+
+			expect(status).to eq(200)
+		    returned_ids = jsons.pluck(:id)
+			expected_ids = Area.pluck(:id)
+
+			expect(returned_ids).to match_array(expected_ids)
+		end
 	end
 
 

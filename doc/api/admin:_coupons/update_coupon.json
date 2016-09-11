@@ -30,11 +30,11 @@
       "request_path": "/admin/coupons/1",
       "request_body": "coupon[name]=green",
       "request_headers": {
-        "Access-Token": "9Al7c7VriF6Qq13RxEGrFw",
+        "Access-Token": "FaTE7uxKchVpxjhK5klgTQ",
         "Token-Type": "Bearer",
-        "Client": "_iK8lO-LtvzjFjsblGx6MA",
-        "Expiry": "1474547671",
-        "Uid": "19joan@stoltenberg.info",
+        "Client": "x4wGNIQZC5WvB5QVlUcnsA",
+        "Expiry": "1474780176",
+        "Uid": "19joannie_roob@greenfelderboyer.name",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -44,26 +44,26 @@
       "request_content_type": "application/x-www-form-urlencoded",
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\n  \"id\": 1,\n  \"name\": \"green\",\n  \"code\": \"27755\",\n  \"discount\": 60\n}",
+      "response_body": "{\n  \"id\": 1,\n  \"name\": \"green\",\n  \"code\": \"76385\",\n  \"discount\": 46\n}",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
-        "access-token": "9Al7c7VriF6Qq13RxEGrFw",
+        "access-token": "FaTE7uxKchVpxjhK5klgTQ",
         "token-type": "Bearer",
-        "client": "_iK8lO-LtvzjFjsblGx6MA",
-        "expiry": "1474547671",
-        "uid": "19joan@stoltenberg.info",
+        "client": "x4wGNIQZC5WvB5QVlUcnsA",
+        "expiry": "1474780176",
+        "uid": "19joannie_roob@greenfelderboyer.name",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"a1776a909f9e8549066bab5416ab7966\"",
+        "ETag": "W/\"98155dab6edaffbfbb58b2808d220210\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=aWtNQjduK3ZFTlJvOTdsWk00UUcyYXNoK0kvM1JsUHl4b1JXekI3YXZGOE1QVjRFU3V2SmtaQXhRM1hyTnNacE5CSUdmRkU0ZVFtMTJ3enBpTkRPMFdFSUl1T3VzOUd1K2xZeUNTMk1tQlZLV3hKZGlESkhFRDErRVRLMmxpZVMvOVJYcVRieUN4RGNKV0wwVmdWTVVBVE1aemtlNnp4UHZPSy9ya3Q0ZGtNSVRqcDZ0ZXR1dCtmQVg1VllZdmlELS1SZ0kyVE5BK0FzTGxkb2MrNHFvVjVRPT0%3D--a002c91fb11d76bb05955f107418155bc8191685; path=/; HttpOnly",
-        "X-Request-Id": "caaeec35-d646-47b8-ae86-dc5f610c804f",
-        "X-Runtime": "0.087117",
+        "Set-Cookie": "_session_id=dUxiZ0dudFBsL1dmeWlkdUE0NzRXY2ZGQ0ZGWHlVTHpuSER1WXNYTFZlZWxhejRHbFdheXFCbXZIUWJJRnBpVkxUTzhBS0VMekg3aUpwZWpuNjRtdnVHSzZVdWRxTTZTc29DTDJLcm5Lb3ozOWFMaU9qK3VWci9CMWFHTDNMTE04eUhLbTZNVVROYmVFTnAzTU42ZURseCtDSzk5czdPTkVVa1p4Yk9sV0VINnVUTXppaEpHY2pFUG9tY3RQL0piLS14WDhKQnpwUlQ3M21CalJGYkxTN1FnPT0%3D--264e1a6520ceb48529f58949d86f8271c7c8e98f; path=/; HttpOnly",
+        "X-Request-Id": "dac8bd62-9a10-4738-a861-9913c89491bb",
+        "X-Runtime": "0.077946",
         "Content-Length": "52"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/admin/coupons/1\" -d 'coupon[name]=green' -X PUT \\\n\t-H \"Access-Token: 9Al7c7VriF6Qq13RxEGrFw\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: _iK8lO-LtvzjFjsblGx6MA\" \\\n\t-H \"Expiry: 1474547671\" \\\n\t-H \"Uid: 19joan@stoltenberg.info\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/admin/coupons/1\" -d 'coupon[name]=green' -X PUT \\\n\t-H \"Access-Token: FaTE7uxKchVpxjhK5klgTQ\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: x4wGNIQZC5WvB5QVlUcnsA\" \\\n\t-H \"Expiry: 1474780176\" \\\n\t-H \"Uid: 19joannie_roob@greenfelderboyer.name\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

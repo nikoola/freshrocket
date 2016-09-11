@@ -267,8 +267,14 @@ GEM
       nokogiri (~> 1.5, >= 1.5.11)
     formatador (0.2.5)
     geokit (1.10.0)
+    geokit-rails (2.2.0)
+      geokit (~> 1.5)
+      rails (>= 3.0)
     globalid (0.3.7)
       activesupport (>= 4.1.0)
+    google-v3-geocoder (1.0.0)
+      geokit (>= 1.5.0)
+      json
     guard (2.14.0)
       formatador (>= 0.2.4)
       listen (>= 2.7, < 4.0)
@@ -522,6 +528,8 @@ DEPENDENCIES
   faker
   fog
   geokit
+  geokit-rails
+  google-v3-geocoder (= 1.0.0)
   guard
   guard-rspec
   letter_opener
@@ -556,4 +564,4 @@ DEPENDENCIES
   wkhtmltopdf-heroku
 
 BUNDLED WITH
-   1.12.5
+   1.13.0

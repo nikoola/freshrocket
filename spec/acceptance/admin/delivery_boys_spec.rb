@@ -39,7 +39,9 @@ resource 'admin: delivery boys', type: :request do
 			a.add_ability 'users'
 			a.save #additional user to test filters
 
-			do_request({ status: 'fired' })
+			address = FactoryGirl.create :address, user_id: a.id
+
+			do_request({ status: 'fired', city_id: address.city_id })
 
 			returned_ids = jsons.pluck(:id)
 			expected_ids = DeliveryBoy.where(status: 'fired').pluck(:id)

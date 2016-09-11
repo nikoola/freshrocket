@@ -5,6 +5,7 @@ module Filterable
 
 		# User.filter active: true
 		def filter filtering_params
+			# binding.pry
 			results = self.where(nil)
 			filtering_params.each do |key, value|
 				if key == "name"

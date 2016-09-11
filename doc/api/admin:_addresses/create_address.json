@@ -49,13 +49,13 @@
     {
       "request_method": "POST",
       "request_path": "/admin/addresses",
-      "request_body": "address[id]&address[user_id]=1&address[city_id]=3&address[area_id]=1&address[street_and_house]=Hazrataganj+Crossing+Bus+Stop%2C+Ashok+Marg%2C+Hazratganj%2C+Lucknow%2C+Uttar+Pradesh+226001%2C+India&address[door_number]=5&address[coordinate]&address[zip_code]&address[lat]=26.8469631&address[lng]=80.9462034&address[active]=true&address[stringified_coordinate]=%5B26.8469631%2C80.9462034%5D",
+      "request_body": "address[id]&address[user_id]=1&address[city_id]=3&address[area_id]=1&address[street_and_house]=204%2C+Sardar+Mujumdar+Marg%2C+Dattwadi%2C+Shobhapur%2C+Kasba+Peth%2C+Pune%2C+Maharashtra+411011%2C+India&address[door_number]=5&address[coordinate]&address[zip_code]&address[lat]=18.5200906&address[lng]=73.8567652&address[active]=true&address[stringified_coordinate]=%5B18.5200906%2C73.8567652%5D",
       "request_headers": {
-        "Access-Token": "BppGUNa_wNMqvLphP2_0og",
+        "Access-Token": "bIFckwBQyOF_6GafkU-oIg",
         "Token-Type": "Bearer",
-        "Client": "Hh3b3CNa37Pkhp3cL6s8rQ",
-        "Expiry": "1474547626",
-        "Uid": "2lorena.ohara@brown.biz",
+        "Client": "Ox3OntONwFjRUCPluwEs_w",
+        "Expiry": "1474780130",
+        "Uid": "2sydnie_cain@tremblay.io",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -65,26 +65,26 @@
       "request_content_type": "application/x-www-form-urlencoded",
       "response_status": 201,
       "response_status_text": "Created",
-      "response_body": "{\n  \"id\": 1,\n  \"city_id\": 3,\n  \"user_id\": 1,\n  \"street_and_house\": \"Hazrataganj Crossing Bus Stop, Ashok Marg, Hazratganj, Lucknow, Uttar Pradesh 226001, India\",\n  \"door_number\": \"5\",\n  \"active\": true,\n  \"city_name\": \"Lucknow\"\n}",
+      "response_body": "{\n  \"id\": 1,\n  \"city_id\": 3,\n  \"user_id\": 1,\n  \"street_and_house\": \"204, Sardar Mujumdar Marg, Dattwadi, Shobhapur, Kasba Peth, Pune, Maharashtra 411011, India\",\n  \"door_number\": \"5\",\n  \"active\": true,\n  \"city_name\": \"Pune\"\n}",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
-        "access-token": "BppGUNa_wNMqvLphP2_0og",
+        "access-token": "bIFckwBQyOF_6GafkU-oIg",
         "token-type": "Bearer",
-        "client": "Hh3b3CNa37Pkhp3cL6s8rQ",
-        "expiry": "1474547626",
-        "uid": "2lorena.ohara@brown.biz",
+        "client": "Ox3OntONwFjRUCPluwEs_w",
+        "expiry": "1474780130",
+        "uid": "2sydnie_cain@tremblay.io",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"67401bd522e72e311dc5f2a1c8b99e61\"",
+        "ETag": "W/\"331fb2e388d3c13e6bad1293879b5659\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=WThnWkxNVXhOT3JPN3lsSy92cllYWkYrOUVPWGF0OWl0ZC80S0VJQ1haQTVmMzlpZklaNTVDVk9TOStFWUJaSnM2T3hPdjFlYU1MQVhxQi9EUHo5OVVFVitibVlhQWFjMXFuR0w1NFVIOG1CcHVXQjRKTVRRcE9KWXYyZi9JVUd4anRCUTd0Q3FPZHhZU0FPVkJmMzl3anJGblplK0dtRzhURzIvd29JTFhKc2I3QlNYVkNLZExjRW85M2lENjZYLS1PTG5xQzhLRjMwNXFUYmVhSnlnSE5BPT0%3D--4474ab92bca8a16ece1196a0f161ed99b7a056dc; path=/; HttpOnly",
-        "X-Request-Id": "e9e17cdf-ccca-4587-a6a9-865ff1153b43",
-        "X-Runtime": "0.085444",
-        "Content-Length": "199"
+        "Set-Cookie": "_session_id=ajhaNS9lLzRmV1grbkE2ZzkyQkFJS1N1WHBETCt6Mkx4VldSMUFzekNTMy8zNjdPVVlkWVFkYW5OU0pRT01hQ1JmdzdTVWpjUVR1ZjJnYXhFKzMxa09uOHFBd0hBcTdzMDhTa0N6VmlhMDdIS1plMDBpRUdVYjIrQ3Vad2ZNY2sxbWRTeEI2UnIzVDRkQVpCZmJHenBFLzFjOHYxQkJQbkltdnh2Rk1OejV6TjBPbDFGWDdoZ0hrUEgwTGVFKzFMLS1EQUFQRlRrc2J6MUNXSWdvU1pEYVN3PT0%3D--b55516895f3e84e18d4fbc0a070b4c1c28ed48b3; path=/; HttpOnly",
+        "X-Request-Id": "7bcdb5d3-bd33-4dcc-a03f-a518c15fe6db",
+        "X-Runtime": "0.166019",
+        "Content-Length": "196"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/admin/addresses\" -d 'address[id]&address[user_id]=1&address[city_id]=3&address[area_id]=1&address[street_and_house]=Hazrataganj+Crossing+Bus+Stop%2C+Ashok+Marg%2C+Hazratganj%2C+Lucknow%2C+Uttar+Pradesh+226001%2C+India&address[door_number]=5&address[coordinate]&address[zip_code]&address[lat]=26.8469631&address[lng]=80.9462034&address[active]=true&address[stringified_coordinate]=%5B26.8469631%2C80.9462034%5D' -X POST \\\n\t-H \"Access-Token: BppGUNa_wNMqvLphP2_0og\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: Hh3b3CNa37Pkhp3cL6s8rQ\" \\\n\t-H \"Expiry: 1474547626\" \\\n\t-H \"Uid: 2lorena.ohara@brown.biz\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/admin/addresses\" -d 'address[id]&address[user_id]=1&address[city_id]=3&address[area_id]=1&address[street_and_house]=204%2C+Sardar+Mujumdar+Marg%2C+Dattwadi%2C+Shobhapur%2C+Kasba+Peth%2C+Pune%2C+Maharashtra+411011%2C+India&address[door_number]=5&address[coordinate]&address[zip_code]&address[lat]=18.5200906&address[lng]=73.8567652&address[active]=true&address[stringified_coordinate]=%5B18.5200906%2C73.8567652%5D' -X POST \\\n\t-H \"Access-Token: bIFckwBQyOF_6GafkU-oIg\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: Ox3OntONwFjRUCPluwEs_w\" \\\n\t-H \"Expiry: 1474780130\" \\\n\t-H \"Uid: 2sydnie_cain@tremblay.io\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

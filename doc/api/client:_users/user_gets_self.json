@@ -16,11 +16,11 @@
       "request_path": "/client",
       "request_body": null,
       "request_headers": {
-        "Access-Token": "st_A-BA_zkJMTgavmOTLZA",
+        "Access-Token": "0YrSpq9LBVj6PF6Hu-nHww",
         "Token-Type": "Bearer",
-        "Client": "1kJ2eNChgVrRdb5aeNJINQ",
-        "Expiry": "1474548066",
-        "Uid": "170verla_mueller@rath.com",
+        "Client": "qqwYyjtzJN1PMaNfmNeO3Q",
+        "Expiry": "1474780574",
+        "Uid": "170giovani@kozey.biz",
         "Host": "example.org",
         "Cookie": ""
       },
@@ -29,26 +29,26 @@
       "request_content_type": null,
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\n  \"id\": 5,\n  \"first_name\": \"Delta\",\n  \"last_name\": \"Parker\",\n  \"email\": \"170verla_mueller@rath.com\",\n  \"phone\": \"5541999367\",\n  \"is_verified\": false,\n  \"provider\": \"email\",\n  \"uid\": \"170verla_mueller@rath.com\",\n  \"created_at\": \"2016-09-08T12:41:06.528Z\",\n  \"abilities\": {\n    \"orders\": 0,\n    \"products\": 0,\n    \"users\": 0,\n    \"categories\": 0,\n    \"coupons\": 0,\n    \"settings\": 0,\n    \"cities\": 0,\n    \"delivery_boy\": 0\n  },\n  \"addresses\": [\n\n  ],\n  \"orders\": [\n\n  ]\n}",
+      "response_body": "{\n  \"id\": 5,\n  \"first_name\": \"Micaela\",\n  \"last_name\": \"Huels\",\n  \"email\": \"170giovani@kozey.biz\",\n  \"phone\": \"1202950650\",\n  \"is_verified\": false,\n  \"provider\": \"email\",\n  \"uid\": \"170giovani@kozey.biz\",\n  \"created_at\": \"2016-09-11T05:16:14.414Z\",\n  \"abilities\": {\n    \"orders\": 0,\n    \"products\": 0,\n    \"users\": 0,\n    \"categories\": 0,\n    \"coupons\": 0,\n    \"settings\": 0,\n    \"cities\": 0,\n    \"delivery_boy\": 0\n  },\n  \"addresses\": [\n\n  ],\n  \"orders\": [\n\n  ]\n}",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
-        "access-token": "st_A-BA_zkJMTgavmOTLZA",
+        "access-token": "0YrSpq9LBVj6PF6Hu-nHww",
         "token-type": "Bearer",
-        "client": "1kJ2eNChgVrRdb5aeNJINQ",
-        "expiry": "1474548066",
-        "uid": "170verla_mueller@rath.com",
+        "client": "qqwYyjtzJN1PMaNfmNeO3Q",
+        "expiry": "1474780574",
+        "uid": "170giovani@kozey.biz",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"b512ca4cae3cde32d3b1638d7ca6eae2\"",
+        "ETag": "W/\"c65b28ccd0976ec77974f735add9160d\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=ODQ3Q0FURXpVbmEydWJrdlhaODFLUHQ5UEZkZ2dhUklQU0dIQUZYQlVDTWx1NzBJUllLMUllU3krcmlieHB4K0g5WHNzSU1uQ1dvUDNXbGRnd2F2TWZDNlZaelk3ZUxjc2p3NjM5MEtMM1dMQ0RKWUQyNTJTN0c3S216bGVTSjVudktDK3QwZFBsRnBaL2JIUDM4cGl1dXRqaEtUTW1XaklFaElrb2xlS2F0OGwwaWxkWWhSMUt4ZzdDUWtlY3J5LS1VMXFGZnovNUxxU3VRS3k5dnZCVjdnPT0%3D--afed8e0ad23c1c29b89bed3f54dd2baba6e6a6ec; path=/; HttpOnly",
-        "X-Request-Id": "e5d02d78-d92a-40ea-87d5-d75d7f01e7fc",
-        "X-Runtime": "0.098792",
-        "Content-Length": "363"
+        "Set-Cookie": "_session_id=ZU1mNFdMRjB0L3RSU2hmNWkvSEliMkdJZ01WUHRzam9QV3J6dFFvZk9ZMlVFMkNiY0o5THEvakJNeDF5OG9ORWpHTE9DT1h4eW9rQWNPYm9xTkZuek1JUjdMZSswWG1oaUxjWGRMQjNFeXl4S3MwQUQ2Rm5OeUhQU215b3A1UXhDbE1WUElTSHRIYVQzcUllQW5tT2ZGRkd1Ym9nSDMxYXBEZk5ZNURBazJJTTRCK0ZXZ0kxYTdjNXU2Q0M0dmp2LS1qOG00cnBCckJSbnF4R1NqNTBuUnpRPT0%3D--dfb5d62d0fa5c52695a9b7205b66bddddc9a8981; path=/; HttpOnly",
+        "X-Request-Id": "917c054d-83b1-4033-9c07-7c9ae0c45abc",
+        "X-Runtime": "0.096006",
+        "Content-Length": "354"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/client\" -X GET \\\n\t-H \"Access-Token: st_A-BA_zkJMTgavmOTLZA\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: 1kJ2eNChgVrRdb5aeNJINQ\" \\\n\t-H \"Expiry: 1474548066\" \\\n\t-H \"Uid: 170verla_mueller@rath.com\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/client\" -X GET \\\n\t-H \"Access-Token: 0YrSpq9LBVj6PF6Hu-nHww\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: qqwYyjtzJN1PMaNfmNeO3Q\" \\\n\t-H \"Expiry: 1474780574\" \\\n\t-H \"Uid: 170giovani@kozey.biz\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
     }
   ]
 }
