@@ -58,7 +58,7 @@ resource 'cities', type: :request do
 			expect(status).to eq(200)
 		    returned_ids = jsons.pluck(:id)
 			expected_ids = Area.pluck(:id)
-
+			# puts jsons
 			expect(returned_ids).to match_array(expected_ids)
 		end
 	end

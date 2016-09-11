@@ -30,11 +30,11 @@
       "request_path": "/admin/coupons",
       "request_body": "coupon[name]=red&coupon[code]=181513&coupon[discount]=5",
       "request_headers": {
-        "Access-Token": "kd6R0j0AxFSQXPL6Qxwe3Q",
+        "Access-Token": "CSZg-1Rp_8Wgy6jVu4ndrQ",
         "Token-Type": "Bearer",
-        "Client": "tnjzcQsmyc8YEYEGcvapLw",
-        "Expiry": "1474780176",
-        "Uid": "18laverne_bergnaum@goldner.info",
+        "Client": "wbNTzJuCkJedEhSxrbLg9A",
+        "Expiry": "1474783742",
+        "Uid": "18natalia@kozey.org",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -49,21 +49,21 @@
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
-        "access-token": "kd6R0j0AxFSQXPL6Qxwe3Q",
+        "access-token": "CSZg-1Rp_8Wgy6jVu4ndrQ",
         "token-type": "Bearer",
-        "client": "tnjzcQsmyc8YEYEGcvapLw",
-        "expiry": "1474780176",
-        "uid": "18laverne_bergnaum@goldner.info",
+        "client": "wbNTzJuCkJedEhSxrbLg9A",
+        "expiry": "1474783742",
+        "uid": "18natalia@kozey.org",
         "Content-Type": "application/json; charset=utf-8",
         "ETag": "W/\"c0ff8c233de26b716569ce1f824141ec\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=NjNhbjhrdjdjRGpBeEpPd1NGTEFiVnlPZTlDS2s5Ty9xUXBKUEdRTlZPcjJXREpwVXdaU0FHWE5QSkZONDNPZ3NoV2NYYURvR25RWjRJVUJwR3g4S0tnblkwdVVKZ3RMVVZHR2VvQVAvQ0x0Wkg1bWpndHBJZzVQUzFYYlk5bzF3aHdHTzFzN3loM1JQWmRDbURtV3J5YS82ZkRHTERIWE1yV2MzejQ1V1lTckwrSnl3QkhvZjJTeU9sS0M5RkZtLS01WURwTVBEVUF5ZjNqUkNMbXFIY0xBPT0%3D--b35cbd076cce37d2557ce108f42862224f636b3d; path=/; HttpOnly",
-        "X-Request-Id": "a7317986-d913-47c6-9722-909009154807",
-        "X-Runtime": "0.092167",
+        "Set-Cookie": "_session_id=OTh1OE5DNXJFc2ZNL2RodTdQLzJZUU1OUnlES1ljYlNvS2RjbW5qYnVGRlZsNmhGNGJsT05ubnpQNkdybEZUS2hBNnpGZ0VnT0hHRWUwQTlIMHZPUkRqSkxaVUxCbnRCN091TElwam9iM0FhSmNSREVDeC9ibTU5OUlsWFIxU0N2NnJRajlrUXlnZVc5cGUxT0ZpNmVWM0RsUXRQVkFNUWRDMGxBYy9CV0RSbDRpN1laMklJVDhEdElHbFBtd000LS04WFZKS0tvSW9XR2ttVlBlcnQ3Ull3PT0%3D--23a58e809fec9cfb90efc68f253ea547cf5ef97c; path=/; HttpOnly",
+        "X-Request-Id": "8c248a9a-368a-4f64-8467-9d2433c4e89d",
+        "X-Runtime": "0.191058",
         "Content-Length": "50"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/admin/coupons\" -d 'coupon[name]=red&coupon[code]=181513&coupon[discount]=5' -X POST \\\n\t-H \"Access-Token: kd6R0j0AxFSQXPL6Qxwe3Q\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: tnjzcQsmyc8YEYEGcvapLw\" \\\n\t-H \"Expiry: 1474780176\" \\\n\t-H \"Uid: 18laverne_bergnaum@goldner.info\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/admin/coupons\" -d 'coupon[name]=red&coupon[code]=181513&coupon[discount]=5' -X POST \\\n\t-H \"Access-Token: CSZg-1Rp_8Wgy6jVu4ndrQ\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: wbNTzJuCkJedEhSxrbLg9A\" \\\n\t-H \"Expiry: 1474783742\" \\\n\t-H \"Uid: 18natalia@kozey.org\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

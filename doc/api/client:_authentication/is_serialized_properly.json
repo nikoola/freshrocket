@@ -13,42 +13,42 @@
   "requests": [
     {
       "request_method": "GET",
-      "request_path": "/auth/validate_token?access-token=XA1sWiCR8oOSqOpQ7okQsg&token-type=Bearer&client=qPfM2ZQkkdeJ9BtoCmrEqA&expiry=1474780434&uid=122aylin%40bartoletti.info",
+      "request_path": "/auth/validate_token?access-token=oYETUBZxKORUrzOrcBMWoQ&token-type=Bearer&client=JP0LKENa74fORfQiGkPoVg&expiry=1474785888&uid=7titus.heidenreich%40denesiktreutel.info",
       "request_body": null,
       "request_headers": {
         "Host": "example.org",
         "Cookie": ""
       },
       "request_query_parameters": {
-        "access-token": "XA1sWiCR8oOSqOpQ7okQsg",
+        "access-token": "oYETUBZxKORUrzOrcBMWoQ",
         "token-type": "Bearer",
-        "client": "qPfM2ZQkkdeJ9BtoCmrEqA",
-        "expiry": "1474780434",
-        "uid": "122aylin@bartoletti.info"
+        "client": "JP0LKENa74fORfQiGkPoVg",
+        "expiry": "1474785888",
+        "uid": "7titus.heidenreich@denesiktreutel.info"
       },
       "request_content_type": null,
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\n  \"success\": true,\n  \"data\": {\n    \"id\": 1,\n    \"first_name\": \"Daron\",\n    \"last_name\": \"Swaniawski\",\n    \"email\": \"122aylin@bartoletti.info\",\n    \"phone\": \"3126308033\",\n    \"is_verified\": false,\n    \"provider\": \"email\",\n    \"uid\": \"122aylin@bartoletti.info\",\n    \"created_at\": \"2016-09-11T05:13:54.332Z\",\n    \"abilities\": {\n      \"orders\": 0,\n      \"products\": 0,\n      \"users\": 0,\n      \"categories\": 0,\n      \"coupons\": 0,\n      \"settings\": 0,\n      \"cities\": 0,\n      \"delivery_boy\": 0\n    },\n    \"addresses\": [\n\n    ],\n    \"orders\": [\n\n    ]\n  }\n}",
+      "response_body": "{\n  \"success\": true,\n  \"data\": {\n    \"id\": 1,\n    \"first_name\": \"Gia\",\n    \"last_name\": \"Ondricka\",\n    \"email\": \"7titus.heidenreich@denesiktreutel.info\",\n    \"phone\": \"2367849969\",\n    \"is_verified\": false,\n    \"provider\": \"email\",\n    \"uid\": \"7titus.heidenreich@denesiktreutel.info\",\n    \"created_at\": \"2016-09-11T06:44:48.511Z\",\n    \"abilities\": {\n      \"orders\": 0,\n      \"products\": 0,\n      \"users\": 0,\n      \"categories\": 0,\n      \"coupons\": 0,\n      \"settings\": 0,\n      \"cities\": 0,\n      \"delivery_boy\": 0\n    },\n    \"addresses\": [\n\n    ],\n    \"orders\": [\n\n    ]\n  }\n}",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
-        "access-token": "XA1sWiCR8oOSqOpQ7okQsg",
+        "access-token": "oYETUBZxKORUrzOrcBMWoQ",
         "token-type": "Bearer",
-        "client": "qPfM2ZQkkdeJ9BtoCmrEqA",
-        "expiry": "1474780434",
-        "uid": "122aylin@bartoletti.info",
+        "client": "JP0LKENa74fORfQiGkPoVg",
+        "expiry": "1474785888",
+        "uid": "7titus.heidenreich@denesiktreutel.info",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"ed84bbbeca539a943705361c3207afd7\"",
+        "ETag": "W/\"02573d2ccc631d2856196945f6311841\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=bDNrWG9NUEE5RE9zeTcrOXNJUUVKQUM1Zm8zc3pxOXY3c0hGQ2lZRldDWlVYeElOSmhxbnVUaDJiKzhwbnRhWGlrOVd4RFhXeTkvYU9PdkRZQjhzSWRlalcxa3NEWjV4dlpxNTlvZ3V1bzltNVE0dFI1d1RKYTErR1N3amJIaEVPOUdPNDdEQlpHc05PZHU2WlRhVHQrUWRIUnhPQU1sUUNuRnhCd1dJSFZhTHZrN0FoZGZWVXNBL0QvV3J3bitLLS1RSTltSTc1WGpPM0hYd2pJQXNVajRRPT0%3D--51ee076543b7a7fa8ea9449a1767bf6778c3b014; path=/; HttpOnly",
-        "X-Request-Id": "05c23764-38f9-447c-a82c-5d1c6f6599f4",
-        "X-Runtime": "0.079688",
-        "Content-Length": "389"
+        "Set-Cookie": "_session_id=enpxQVVLQ09kUEVBMDFwNDVzcklqd1BUdmVOS2ZZM2E2RVJCajdHekFGbkkvTzR0QnRPYVhOVDJsaFJQTmJxVTllb21wV0h5QW9KbHRCenpDdy9yVkNEZS95cllPa2tUcDJoL1NodFlFbWIzOFJmUENMTzg2cGd4eDRYYXo3UGZIZ1lkSm95OGlsbnZrcjVyRGZaSDhvOGdHOStXcDlXVEhkVWdXbVhzSFIxeVlzY1FTOEFtT0F3ZEJrMVJ4Ti96LS1rL2E3OUovdzJqOFExTHlQVytiMVVBPT0%3D--25c61c3708cf92cdf775c6bf03953555a7210f8d; path=/; HttpOnly",
+        "X-Request-Id": "f53e8948-a982-4a25-ad03-13e8619f7cbb",
+        "X-Runtime": "0.076504",
+        "Content-Length": "413"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/auth/validate_token?access-token=XA1sWiCR8oOSqOpQ7okQsg&token-type=Bearer&client=qPfM2ZQkkdeJ9BtoCmrEqA&expiry=1474780434&uid=122aylin%40bartoletti.info\" -X GET \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/auth/validate_token?access-token=oYETUBZxKORUrzOrcBMWoQ&token-type=Bearer&client=JP0LKENa74fORfQiGkPoVg&expiry=1474785888&uid=7titus.heidenreich%40denesiktreutel.info\" -X GET \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

@@ -74,11 +74,11 @@
       "request_path": "/admin/orders",
       "request_body": "order[address_id]=1&order[user_id]=2&order[line_items_attributes][][product_id]=1&order[line_items_attributes][][amount]=3",
       "request_headers": {
-        "Access-Token": "KbEuUfMkIgTVlktFElpqlA",
+        "Access-Token": "366SDWfw9sm-l0sCg2Y1dA",
         "Token-Type": "Bearer",
-        "Client": "OApVWMS0ytaKpmpXPKFDOw",
-        "Expiry": "1474780254",
-        "Uid": "48benton.jerde@friesen.co",
+        "Client": "mpywOV0txoGCrIT1XQzlwA",
+        "Expiry": "1474783830",
+        "Uid": "48alf@smith.co",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -88,26 +88,26 @@
       "request_content_type": "application/x-www-form-urlencoded",
       "response_status": 201,
       "response_status_text": "Created",
-      "response_body": "{\n  \"id\": 1,\n  \"user_id\": 2,\n  \"status\": \"approved\",\n  \"created_at\": \"2016-09-11T05:10:54.687Z\",\n  \"confirmed_at\": \"2016-09-11T05:10:54.690Z\",\n  \"approved_at\": \"2016-09-11T05:10:54.696Z\",\n  \"dispacthed_at\": null,\n  \"delivered_at\": null,\n  \"canceled_at\": null,\n  \"pure_product_price\": null,\n  \"tax\": null,\n  \"delivery_charge\": null,\n  \"total_price\": null,\n  \"coupon_code\": null,\n  \"delivery_boy_id\": null,\n  \"delivery_boy_phone\": null,\n  \"wanted_time\": null,\n  \"wanted_date\": null,\n  \"payment_type\": \"cash\",\n  \"is_paid\": false,\n  \"feedback\": null,\n  \"comment\": null,\n  \"source_type\": null,\n  \"admin_comment\": null,\n  \"line_items\": [\n    {\n      \"id\": 1,\n      \"order_id\": 1,\n      \"amount\": 3,\n      \"fixed_price\": null,\n      \"product_id\": 1\n    }\n  ],\n  \"address\": {\n    \"id\": 1,\n    \"city_id\": 2,\n    \"user_id\": 1,\n    \"street_and_house\": \"699A, South Shivaji Nagar, Nishant Colony, Sangli, Maharashtra 416416, India\",\n    \"door_number\": \"5\",\n    \"active\": true,\n    \"city_name\": \"Sangli\"\n  },\n  \"delivery_boy\": null\n}",
+      "response_body": "{\n  \"id\": 1,\n  \"user_id\": 2,\n  \"status\": \"approved\",\n  \"created_at\": \"2016-09-11T06:10:30.230Z\",\n  \"confirmed_at\": \"2016-09-11T06:10:30.231Z\",\n  \"approved_at\": \"2016-09-11T06:10:30.238Z\",\n  \"dispacthed_at\": null,\n  \"delivered_at\": null,\n  \"canceled_at\": null,\n  \"pure_product_price\": null,\n  \"tax\": null,\n  \"delivery_charge\": null,\n  \"total_price\": null,\n  \"coupon_code\": null,\n  \"delivery_boy_id\": null,\n  \"delivery_boy_phone\": null,\n  \"wanted_time\": null,\n  \"wanted_date\": null,\n  \"payment_type\": \"cash\",\n  \"is_paid\": false,\n  \"feedback\": null,\n  \"comment\": null,\n  \"source_type\": null,\n  \"admin_comment\": null,\n  \"line_items\": [\n    {\n      \"id\": 1,\n      \"order_id\": 1,\n      \"amount\": 3,\n      \"fixed_price\": null,\n      \"product_id\": 1\n    }\n  ],\n  \"address\": {\n    \"id\": 1,\n    \"city_id\": 2,\n    \"user_id\": 1,\n    \"street_and_house\": \"Puducherry 605004, India\",\n    \"door_number\": \"5\",\n    \"active\": true,\n    \"city_name\": \"Pondicherry\"\n  },\n  \"delivery_boy\": null\n}",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
-        "access-token": "KbEuUfMkIgTVlktFElpqlA",
+        "access-token": "366SDWfw9sm-l0sCg2Y1dA",
         "token-type": "Bearer",
-        "client": "OApVWMS0ytaKpmpXPKFDOw",
-        "expiry": "1474780254",
-        "uid": "48benton.jerde@friesen.co",
+        "client": "mpywOV0txoGCrIT1XQzlwA",
+        "expiry": "1474783830",
+        "uid": "48alf@smith.co",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"5f354e01c668bc265e1f3dc2a41d2fd0\"",
+        "ETag": "W/\"3955ce45772d4af902aea777033cf4d0\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=U3pGTkRZem5qaVV5YmVkV2FEbTV6Y3VWZ0xjTW5CeTdYcmJFT0dOQjZYSjRoZ21YNlRYdzNlRXc5RUJnQ0d0Nm0renRQcTB6Z0EwNzJDVTZCYjNYYWo2azVxVXlaaHJNZzNjRGF2WEVpVDZQeHVVZTZ0TVlFaXRyeW9Tc3djWHdtWHVYUGhLRGNIUEVvYUIvL2puZHAwWDJESUdwME4wZGhycEJaZFgzcU1rZHN0ZXkyUFZhbXJtRFZnWlNManFWLS1VSndLeTZ2Tm9KM1krU2FWTnVJdnNRPT0%3D--339d912ce3ebe9b2f604e33d6d219cd5e57869f1; path=/; HttpOnly",
-        "X-Request-Id": "1b6a20d3-e334-4f97-a0a6-7c03130edc37",
-        "X-Runtime": "0.153924",
-        "Content-Length": "813"
+        "Set-Cookie": "_session_id=a3JTL0xERmFFV0o5bksxWDNBNUsxSmRtL1BISzYzYVZWZXRIbXlzWFhMbCtYWEpyT0JvLzhFSTM4MTRZR2hDMDJXREMyRWJWSFBkc2tOeVJuUkhWRzJPZ0plR3NrZ3RUSlJiOXltdlM5YnBYVGFSbkhZWld3NDRZclkwSk05bm1UZXc5dGVMTE5OUE1UUUsvU01RZXZRaEo5U3V2YWl0MndUYzMyOEs4d2p6Wm02SW8rTFoyc3VaY2liM1dCbThULS1xU0sxSXViOS9IS1lucmszUnVGMzl3PT0%3D--0ae9fd085aae05cd447a8a69b85d6637f9009320; path=/; HttpOnly",
+        "X-Request-Id": "a5b764a5-8682-4a9a-813d-e57d47db9b54",
+        "X-Runtime": "0.191949",
+        "Content-Length": "766"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/admin/orders\" -d 'order[address_id]=1&order[user_id]=2&order[line_items_attributes][][product_id]=1&order[line_items_attributes][][amount]=3' -X POST \\\n\t-H \"Access-Token: KbEuUfMkIgTVlktFElpqlA\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: OApVWMS0ytaKpmpXPKFDOw\" \\\n\t-H \"Expiry: 1474780254\" \\\n\t-H \"Uid: 48benton.jerde@friesen.co\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/admin/orders\" -d 'order[address_id]=1&order[user_id]=2&order[line_items_attributes][][product_id]=1&order[line_items_attributes][][amount]=3' -X POST \\\n\t-H \"Access-Token: 366SDWfw9sm-l0sCg2Y1dA\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: mpywOV0txoGCrIT1XQzlwA\" \\\n\t-H \"Expiry: 1474783830\" \\\n\t-H \"Uid: 48alf@smith.co\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

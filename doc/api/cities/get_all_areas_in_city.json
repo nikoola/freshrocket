@@ -27,17 +27,17 @@
       "request_content_type": null,
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "[\n  {\n    \"id\": 1,\n    \"name\": \"New Delhi, Delhi 110001, India\",\n    \"radius\": \"5.0\",\n    \"active\": false\n  },\n  {\n    \"id\": 2,\n    \"name\": \"Chhapra, Bihar 841301, India\",\n    \"radius\": \"5.0\",\n    \"active\": false\n  },\n  {\n    \"id\": 3,\n    \"name\": \"Kadapa, Andhra Pradesh, India\",\n    \"radius\": \"5.0\",\n    \"active\": false\n  },\n  {\n    \"id\": 4,\n    \"name\": \"Ramagundam, Telangana 505208, India\",\n    \"radius\": \"5.0\",\n    \"active\": true\n  },\n  {\n    \"id\": 5,\n    \"name\": \"Pali, Rajasthan 306401, India\",\n    \"radius\": \"5.0\",\n    \"active\": true\n  }\n]",
+      "response_body": "[\n  {\n    \"id\": 1,\n    \"name\": \"Patna, Bihar 800001, India\",\n    \"radius\": \"5.0\",\n    \"active\": false,\n    \"lat\": \"25.5940947\",\n    \"lng\": \"85.1375645\"\n  },\n  {\n    \"id\": 2,\n    \"name\": \"Indore, Madhya Pradesh 452001, India\",\n    \"radius\": \"5.0\",\n    \"active\": false,\n    \"lat\": \"22.7195687\",\n    \"lng\": \"75.8577258\"\n  },\n  {\n    \"id\": 3,\n    \"name\": \"Thane, Maharashtra 400601, India\",\n    \"radius\": \"5.0\",\n    \"active\": false,\n    \"lat\": \"19.2183307\",\n    \"lng\": \"72.9780897\"\n  },\n  {\n    \"id\": 4,\n    \"name\": \"Bhopal, Madhya Pradesh 462001, India\",\n    \"radius\": \"5.0\",\n    \"active\": true,\n    \"lat\": \"23.2599333\",\n    \"lng\": \"77.412615\"\n  },\n  {\n    \"id\": 5,\n    \"name\": \"Visakhapatnam, Andhra Pradesh 530001, India\",\n    \"radius\": \"5.0\",\n    \"active\": true,\n    \"lat\": \"17.6868159\",\n    \"lng\": \"83.2184815\"\n  }\n]",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"c5336cd1b3fb74402fff7f27522919f9\"",
+        "ETag": "W/\"10a43ea5947e07d606088984fb624194\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "X-Request-Id": "5e2b39cb-c2f8-4d15-8fe5-f585cb4e57f2",
-        "X-Runtime": "0.012290",
-        "Content-Length": "395"
+        "X-Request-Id": "aa8ba122-ebb9-4af6-9ee3-fda5a6503ce5",
+        "X-Runtime": "0.008889",
+        "Content-Length": "606"
       },
       "response_content_type": "application/json; charset=utf-8",
       "curl": "curl \"http://localhost:3000/cities/1/containing_areas\" -X GET \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""

@@ -16,11 +16,11 @@
       "request_path": "/auth/sign_out",
       "request_body": null,
       "request_headers": {
-        "Access-Token": "_-BigtX2hd1A0rTByWYp5A",
+        "Access-Token": "XxHLp9NgK0cUkDkJh_92ug",
         "Token-Type": "Bearer",
-        "Client": "gSDfijG_ZOG3NqZXq631gQ",
-        "Expiry": "1474780434",
-        "Uid": "121rosalia@christiansen.io",
+        "Client": "2bkxhTIPmzXb3PLfwc_32Q",
+        "Expiry": "1474785888",
+        "Uid": "6fanny@osinskiparisian.info",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -38,13 +38,13 @@
         "Content-Type": "application/json; charset=utf-8",
         "ETag": "W/\"7363e85fe9edee6f053a4b319588c086\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=aC9wL2lCQ2pPQ2VjTG5CdEozQmFQamdDM1EvMkQ1OXdmd2hPeDZCZ1FGb1JkN2wyajNjK3hDSXgwZ2hxR3NFdHJISmhvZmpCVGQ2bmJ4Y3pYdFlJTGc9PS0tTGlIQmhScG0ycFQyQVJwZXJleGJBQT09--8fe950299dd264ffd09a10a9135440618edde333; path=/; HttpOnly",
-        "X-Request-Id": "3a05b92a-b209-404a-bca2-838e5c4bb872",
-        "X-Runtime": "0.069088",
+        "Set-Cookie": "_session_id=Y2EvRXUwS2FCemhQWUw1SVBpekNGTU90anpmTlRYT3c5ZnI2RHNPZTYrTGdWTndzNCtEb25DbnJUK2RlaFlXOUFPUVZvZDRTOEtGWXdGS0xLcGlrTlE9PS0tTERYaFAxd280TkEvUnlzK0hJS1NxUT09--d04b64f1b9f67911f81468e2b480f976734ff000; path=/; HttpOnly",
+        "X-Request-Id": "ecfd3068-cb97-4c0f-b4ac-366173427fb5",
+        "X-Runtime": "0.068531",
         "Content-Length": "16"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/auth/sign_out\" -d '' -X DELETE \\\n\t-H \"Access-Token: _-BigtX2hd1A0rTByWYp5A\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: gSDfijG_ZOG3NqZXq631gQ\" \\\n\t-H \"Expiry: 1474780434\" \\\n\t-H \"Uid: 121rosalia@christiansen.io\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/auth/sign_out\" -d '' -X DELETE \\\n\t-H \"Access-Token: XxHLp9NgK0cUkDkJh_92ug\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: 2bkxhTIPmzXb3PLfwc_32Q\" \\\n\t-H \"Expiry: 1474785888\" \\\n\t-H \"Uid: 6fanny@osinskiparisian.info\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

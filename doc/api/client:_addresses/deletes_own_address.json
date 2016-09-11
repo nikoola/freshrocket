@@ -16,11 +16,11 @@
       "request_path": "/client/addresses/1",
       "request_body": null,
       "request_headers": {
-        "Access-Token": "o-Xv_dnRj4066YYUAFwajw",
+        "Access-Token": "YXVIBS3tWxxJA-lfuRNc-g",
         "Token-Type": "Bearer",
-        "Client": "FC5AbbSJNyxq20b8VCGVKA",
-        "Expiry": "1474780433",
-        "Uid": "119aglae@nienow.co",
+        "Client": "GUCqxuLTuhKlPR29WwwxPQ",
+        "Expiry": "1474785888",
+        "Uid": "4madeline_volkman@baileymonahan.com",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -35,20 +35,20 @@
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
-        "access-token": "o-Xv_dnRj4066YYUAFwajw",
+        "access-token": "YXVIBS3tWxxJA-lfuRNc-g",
         "token-type": "Bearer",
-        "client": "FC5AbbSJNyxq20b8VCGVKA",
-        "expiry": "1474780433",
-        "uid": "119aglae@nienow.co",
+        "client": "GUCqxuLTuhKlPR29WwwxPQ",
+        "expiry": "1474785888",
+        "uid": "4madeline_volkman@baileymonahan.com",
         "Content-Type": "text/html",
         "Cache-Control": "no-cache",
-        "Set-Cookie": "_session_id=NnpqWDJtM21LQ0JIQTZ2M3BoU0NpaGJqaXIyVU1hMW1TWDRzMmFQY1pSOTBPNjdzYmUvUG0yU2grYllmdUlUbUhIRjZ4Um44T3F4RzJYKzJDbTI2ZmhBSktPeStkNEZCaVRqOFZUNGs1Q3RzZjhFNFVMTFNVbyt6dVRadVpmbWFham1PSExiYkxvbWwzV3RML0tMRWFTU0lNY0NTVDNheXplcDJBV09CL0FwYkJQczVwVEVHc3UvNHFxbmtLMmxRLS1SUUcvVkJVc2dLZlNTT3BHeCtZVFRnPT0%3D--b5421d4ef0ccb09474b22bc4098a13fe4beb5a17; path=/; HttpOnly",
-        "X-Request-Id": "419eb3f8-67f5-4589-9611-3ca946ad64b3",
-        "X-Runtime": "0.071040",
+        "Set-Cookie": "_session_id=RTRrckVJcmdSMHgxSllZVDJXdFRoVjR5cm1aZVRiaGVuV05UckZBZGhQYWFselNnNnRYRGQ3U29HbWlpbmU4MXZ3dnJacGVOdW5kVTN2SlFHeGVNWm9laSt2VHhhaHVJNVM5SzZuUC9NaW9UTUdJclFSOUVSVUY4T1p0dkloQ29OMkdPejlYVG5CNytmL2RaWlBHR2xXREVIblUzTHk0Z1EzNmswb2dBTExDUG1WOUJEYUFpc2hxUjJyNGVnSWxpLS00c3JINkZBSGxtRmFHU3gxVU1adFFnPT0%3D--4c70beaeacec278612816f661c3b98cc5a6dbadb; path=/; HttpOnly",
+        "X-Request-Id": "f0a1b916-1711-4436-aee8-7f423b4a07ca",
+        "X-Runtime": "0.106788",
         "Content-Length": "0"
       },
       "response_content_type": "text/html",
-      "curl": "curl \"http://localhost:3000/client/addresses/1\" -d '' -X DELETE \\\n\t-H \"Access-Token: o-Xv_dnRj4066YYUAFwajw\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: FC5AbbSJNyxq20b8VCGVKA\" \\\n\t-H \"Expiry: 1474780433\" \\\n\t-H \"Uid: 119aglae@nienow.co\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/client/addresses/1\" -d '' -X DELETE \\\n\t-H \"Access-Token: YXVIBS3tWxxJA-lfuRNc-g\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: GUCqxuLTuhKlPR29WwwxPQ\" \\\n\t-H \"Expiry: 1474785888\" \\\n\t-H \"Uid: 4madeline_volkman@baileymonahan.com\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

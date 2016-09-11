@@ -19,11 +19,11 @@
       "request_path": "/client/addresses?active=0",
       "request_body": null,
       "request_headers": {
-        "Access-Token": "TwsOxXCZ6Okw6B1iA2kjiA",
+        "Access-Token": "bNwKAdviQntpflhpgoAfWg",
         "Token-Type": "Bearer",
-        "Client": "fT8AGpQTnF0Jn9XGpB20Ug",
-        "Expiry": "1474780414",
-        "Uid": "116ashton.batz@johnsonhalvorson.name",
+        "Client": "eMa_fbsTuFrFhyzmRAxdgQ",
+        "Expiry": "1474785861",
+        "Uid": "1dejon@treutelbarrows.com",
         "Host": "example.org",
         "Cookie": ""
       },
@@ -33,26 +33,26 @@
       "request_content_type": null,
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "[\n  {\n    \"id\": 1,\n    \"city_id\": 3,\n    \"user_id\": 1,\n    \"street_and_house\": \"Bihar 854105, India\",\n    \"door_number\": \"5\",\n    \"active\": false,\n    \"city_name\": \"Katihar\"\n  },\n  {\n    \"id\": 2,\n    \"city_id\": 4,\n    \"user_id\": 1,\n    \"street_and_house\": \"Uttarakhand 249401, India\",\n    \"door_number\": \"5\",\n    \"active\": false,\n    \"city_name\": \"Hardwar\"\n  },\n  {\n    \"id\": 3,\n    \"city_id\": 5,\n    \"user_id\": 1,\n    \"street_and_house\": \"131029, India\",\n    \"door_number\": \"5\",\n    \"active\": false,\n    \"city_name\": \"Sonipat\"\n  }\n]",
+      "response_body": "[\n  {\n    \"id\": 1,\n    \"city_id\": 3,\n    \"user_id\": 1,\n    \"street_and_house\": \"109, Ashram Rd, Ellisbridge, Ahmedabad, Gujarat 380006, India\",\n    \"door_number\": \"5\",\n    \"active\": false,\n    \"city_name\": \"Ahmedabad\"\n  },\n  {\n    \"id\": 2,\n    \"city_id\": 4,\n    \"user_id\": 1,\n    \"street_and_house\": \"Omnitech InfoSolutions, 1st Floor, Bulding No 17, Koti Main Rd, Goutam Nagar, Badi Chowdi, Kachiguda, Hyderabad, Telangana 501301, India\",\n    \"door_number\": \"5\",\n    \"active\": false,\n    \"city_name\": \"Hyderabad\"\n  },\n  {\n    \"id\": 3,\n    \"city_id\": 5,\n    \"user_id\": 1,\n    \"street_and_house\": \"49, Sydenhams Rd, Park Town, Chennai, Tamil Nadu 600003, India\",\n    \"door_number\": \"5\",\n    \"active\": false,\n    \"city_name\": \"Chennai\"\n  }\n]",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
-        "access-token": "TwsOxXCZ6Okw6B1iA2kjiA",
+        "access-token": "bNwKAdviQntpflhpgoAfWg",
         "token-type": "Bearer",
-        "client": "fT8AGpQTnF0Jn9XGpB20Ug",
-        "expiry": "1474780414",
-        "uid": "116ashton.batz@johnsonhalvorson.name",
+        "client": "eMa_fbsTuFrFhyzmRAxdgQ",
+        "expiry": "1474785861",
+        "uid": "1dejon@treutelbarrows.com",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"a7e397afa5be1391f0ac965af29959fb\"",
+        "ETag": "W/\"d8ee08754f36462f7214141e94c27b08\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=cGJXU1B5a0xNa2I4M0hvSVYzNGJIVDV5cGE2dHZhdmk0dTNrdG5PTWRmZGxvaVcxQXZEMWJIK2VqQWIzMU5IaFJsays4YWpBQzBJU3lFUDRGVXYwRHlVaXVVWmRXU1VPRDRFNlVRSWd1aHE3aStnY3JkclYzSkRmd283SnNGU3ZNSWNTaWdwdGpsRk9IUmQyTXZqbDljTEhTT1NYQjFSUURDSldYL3A0L3o0WW54UVA4cFI0MzlHcHkxQU1MVWdtLS1WR0lmcXB6TVZidnpSS3luQ29neXlBPT0%3D--abeb770c82a9ca4b76d617a10d7c8125b5beb075; path=/; HttpOnly",
-        "X-Request-Id": "d5aaf49e-5261-448e-88a8-aea0cfb2d69f",
-        "X-Runtime": "0.131306",
-        "Content-Length": "388"
+        "Set-Cookie": "_session_id=K01jaE5CVGUzNDllN0NEbFViNUdZSGc4TnNLaVkxRWFyR0d2MENsby9RTG1Ra1J1YXBPd1doQ3F1ZnE3d0V4cDh5cFZJMWpCUW4wQTRLdXNZcWxXYlhuSmpqMmtjVGNQUXJFQW82Y0ZpZmR0MTRqaTN2Q0Vaa281V1BBYnUrVEV4Wm43NFFsZE1yZnBnL3ZnYmtrWk13VzIyOXBnaDhRUU5IY0dNU1BvczNrQm9LTkFnMEdSdXF1UjBiMUhJaUcxLS1YYnlpSHdMQ0VVOXhmdXBNMzVNK253PT0%3D--bc370c8c22c96662636d4a486afc39eae6bf240b; path=/; HttpOnly",
+        "X-Request-Id": "8ceb2cc9-e363-4735-88b6-db9f7567587c",
+        "X-Runtime": "0.156396",
+        "Content-Length": "594"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/client/addresses?active=0\" -X GET \\\n\t-H \"Access-Token: TwsOxXCZ6Okw6B1iA2kjiA\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: fT8AGpQTnF0Jn9XGpB20Ug\" \\\n\t-H \"Expiry: 1474780414\" \\\n\t-H \"Uid: 116ashton.batz@johnsonhalvorson.name\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/client/addresses?active=0\" -X GET \\\n\t-H \"Access-Token: bNwKAdviQntpflhpgoAfWg\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: eMa_fbsTuFrFhyzmRAxdgQ\" \\\n\t-H \"Expiry: 1474785861\" \\\n\t-H \"Uid: 1dejon@treutelbarrows.com\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

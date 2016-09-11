@@ -19,11 +19,11 @@
       "request_path": "/admin/areas?active=0",
       "request_body": null,
       "request_headers": {
-        "Access-Token": "9SV-E-rncP1cNuqfrUDKmw",
+        "Access-Token": "X7zVnUGhr45C8UgxbxzCfw",
         "Token-Type": "Bearer",
-        "Client": "thDNCOjXjFiZFmlL8gsJVQ",
-        "Expiry": "1474780163",
-        "Uid": "5elizabeth_bahringer@kozey.com",
+        "Client": "etZAjSONpNeaugaSecHK8Q",
+        "Expiry": "1474783727",
+        "Uid": "5genesis@cummings.info",
         "Host": "example.org",
         "Cookie": ""
       },
@@ -33,26 +33,26 @@
       "request_content_type": null,
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "[\n  {\n    \"id\": 1,\n    \"name\": \"Patna, Bihar 800001, India\",\n    \"radius\": \"5.0\",\n    \"active\": false\n  },\n  {\n    \"id\": 2,\n    \"name\": \"Indore, Madhya Pradesh 452001, India\",\n    \"radius\": \"5.0\",\n    \"active\": false\n  },\n  {\n    \"id\": 3,\n    \"name\": \"Thane, Maharashtra 400601, India\",\n    \"radius\": \"5.0\",\n    \"active\": false\n  }\n]",
+      "response_body": "[\n  {\n    \"id\": 1,\n    \"name\": \"Bhopal, Madhya Pradesh 462001, India\",\n    \"radius\": \"5.0\",\n    \"active\": false,\n    \"lat\": \"23.2599333\",\n    \"lng\": \"77.412615\"\n  },\n  {\n    \"id\": 2,\n    \"name\": \"Visakhapatnam, Andhra Pradesh 530001, India\",\n    \"radius\": \"5.0\",\n    \"active\": false,\n    \"lat\": \"17.6868159\",\n    \"lng\": \"83.2184815\"\n  },\n  {\n    \"id\": 3,\n    \"name\": \"Vadodara, Gujarat, India\",\n    \"radius\": \"5.0\",\n    \"active\": false,\n    \"lat\": \"22.3071588\",\n    \"lng\": \"73.1812187\"\n  }\n]",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
-        "access-token": "9SV-E-rncP1cNuqfrUDKmw",
+        "access-token": "X7zVnUGhr45C8UgxbxzCfw",
         "token-type": "Bearer",
-        "client": "thDNCOjXjFiZFmlL8gsJVQ",
-        "expiry": "1474780163",
-        "uid": "5elizabeth_bahringer@kozey.com",
+        "client": "etZAjSONpNeaugaSecHK8Q",
+        "expiry": "1474783727",
+        "uid": "5genesis@cummings.info",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"f81b5f3c13615029c95c6124b58ddd96\"",
+        "ETag": "W/\"61a2f9fa4ec18815a8d6d46b98e0f522\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=MTVramVDWjlwSXFuaXFXbCt0ZTYxK2dHQnNFRGJscDRtd0pVRWRWSXl5N3JURVBUL1dMV2Niclp2V2g1WDBuRkFySUtPVDhzcFBybGdUSHplK3Z5MlpNTmFkaW5ibGxubCsrZmpJcHNtUzdjTzQvUnp2TFVCNVdHVk1nRzExeHRZNjJubUdwMm55RkhFYmxDcFBYdURJQXNUQWo3ZzIyWktHQkJHTmdya0I3ZUdwNTRqOUJLekV3QS85cGNPakVpLS13dzVrRWR1WXlXSWJWOTN3MjFmanlRPT0%3D--c84f5bb6bdc5a97939b68906f0cc2d7a229ad60f; path=/; HttpOnly",
-        "X-Request-Id": "83d0d55f-7e15-422b-b4f5-fb68191d26b5",
-        "X-Runtime": "0.101553",
-        "Content-Length": "242"
+        "Set-Cookie": "_session_id=MWZSV2dCalU5eTRNN0M1UlAyU3FiNVpVZ0FrU00rMWtxanZucFRDSkcydEhmcCt3Z2hEMGs3QlVWdGxoc3kydEcwUTRqMVF6OHpaT0FsV2ZxL00rTkRyU09YZUVsTndLUlJBTkZWUW9qMkRnNjY5WVI4Uk5FUGQ0V3VwWHpZd2xMWGVGUjhGeXlYQS9DaVBkNzJINnpkMkdWeEM3cWluMmV5STF3ZFhQd0hkQnltQVdWR0dwQ1lhcnhPNHZQanNrLS1SVzhnUzcvNHBKSW9zVEVWY211V1RBPT0%3D--51c68327836d4af977f784b13c62f88952e36ae1; path=/; HttpOnly",
+        "X-Request-Id": "98630d88-6279-441d-8772-d45aa32168db",
+        "X-Runtime": "0.089272",
+        "Content-Length": "364"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/admin/areas?active=0\" -X GET \\\n\t-H \"Access-Token: 9SV-E-rncP1cNuqfrUDKmw\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: thDNCOjXjFiZFmlL8gsJVQ\" \\\n\t-H \"Expiry: 1474780163\" \\\n\t-H \"Uid: 5elizabeth_bahringer@kozey.com\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/admin/areas?active=0\" -X GET \\\n\t-H \"Access-Token: X7zVnUGhr45C8UgxbxzCfw\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: etZAjSONpNeaugaSecHK8Q\" \\\n\t-H \"Expiry: 1474783727\" \\\n\t-H \"Uid: 5genesis@cummings.info\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

@@ -16,11 +16,11 @@
       "request_path": "/admin/coupons/1",
       "request_body": null,
       "request_headers": {
-        "Access-Token": "doK4Gm12OtYUxhx14kfNUw",
+        "Access-Token": "vPbdusgwEtiK1wy1eUsq6A",
         "Token-Type": "Bearer",
-        "Client": "_zmQt0enXhiaBwFhU1JVfA",
-        "Expiry": "1474780177",
-        "Uid": "20aisha@damoredibbert.co",
+        "Client": "eUAeYQ_Y2E6P_wc7iBjQ7w",
+        "Expiry": "1474783742",
+        "Uid": "20teagan_brakus@doyle.biz",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -35,20 +35,20 @@
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
-        "access-token": "doK4Gm12OtYUxhx14kfNUw",
+        "access-token": "vPbdusgwEtiK1wy1eUsq6A",
         "token-type": "Bearer",
-        "client": "_zmQt0enXhiaBwFhU1JVfA",
-        "expiry": "1474780177",
-        "uid": "20aisha@damoredibbert.co",
+        "client": "eUAeYQ_Y2E6P_wc7iBjQ7w",
+        "expiry": "1474783742",
+        "uid": "20teagan_brakus@doyle.biz",
         "Content-Type": "text/html",
         "Cache-Control": "no-cache",
-        "Set-Cookie": "_session_id=emV2NnFHKzAyR29wRmQ0Y2pCdjc0RjlqVUQzbk9hc2NKclNMNy8vUEJ3ejYxWHVyc2NvL2pWMm54dURRa2ZyWTI2KzFQdmlPOGc5QXN3anhYUXBPTU1TeERUaTFCM3NkdWIrTFlaZ21MVEp4NFEvRDJ2YXVKbUsrbmgxR1VkM3N0VWc5R2wwQ3cvZlFZNGRaV2U4cXplN3BET241NzJKV1BMV005Y1pXaWZId1htYzVDTFRaS0M3aXBXdnVEOVdaLS1HMm1kTWVHK0FCWVBaM01vNitsY1VBPT0%3D--d4c376bfca80a5452fbcd8cbe0ab40e676dd2ddd; path=/; HttpOnly",
-        "X-Request-Id": "fcdaf35e-e11f-483b-a22a-7482c637c9ba",
-        "X-Runtime": "0.074205",
+        "Set-Cookie": "_session_id=dllpVVFDWFhNTTlQZlM1RmxMQUdrSUVqV1lFT1N0NTYxYkZvN2VyRWxGR2ZSVXpxYTU5d2JoRXNFd1huRTd0dlQ2NXVsY2JVQlAvM1VWSThuMHBKeVhPU3NHZVN5MGU3aS8rajhYNWorMzhFM2xnME1MZXRWbm9PSUxZTUl0VS9FbVBZZ1JNYndhd2w0YjZnZDFDdy80WVd1N0lteGY2YmVTVHVSMVhOczhVbTJ3ckczZ2FmalZpcExzdWVIRFMrLS0wZURaS2FtUmtiWHJDdXZ2ZXNPSlNnPT0%3D--ba99c46ad274be103123658fd9a6f19ab5ea269f; path=/; HttpOnly",
+        "X-Request-Id": "c4a5327e-bbc2-4a49-b086-df48b8b048e5",
+        "X-Runtime": "0.076193",
         "Content-Length": "0"
       },
       "response_content_type": "text/html",
-      "curl": "curl \"http://localhost:3000/admin/coupons/1\" -d '' -X DELETE \\\n\t-H \"Access-Token: doK4Gm12OtYUxhx14kfNUw\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: _zmQt0enXhiaBwFhU1JVfA\" \\\n\t-H \"Expiry: 1474780177\" \\\n\t-H \"Uid: 20aisha@damoredibbert.co\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/admin/coupons/1\" -d '' -X DELETE \\\n\t-H \"Access-Token: vPbdusgwEtiK1wy1eUsq6A\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: eUAeYQ_Y2E6P_wc7iBjQ7w\" \\\n\t-H \"Expiry: 1474783742\" \\\n\t-H \"Uid: 20teagan_brakus@doyle.biz\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

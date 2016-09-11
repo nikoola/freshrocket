@@ -53,13 +53,13 @@
     {
       "request_method": "POST",
       "request_path": "/admin/users",
-      "request_body": "user[email]=95vanea%40ebertlangworth.com&user[password]=secrety_bickety&user[password_confirmation]=secrety_bickety&user[first_name]=Reina&user[last_name]=Murray&user[phone]=8859003391&user[is_verified]=true",
+      "request_body": "user[email]=95jerrold%40conroylittle.net&user[password]=secrety_bickety&user[password_confirmation]=secrety_bickety&user[first_name]=Scottie&user[last_name]=Botsford&user[phone]=4100588461&user[is_verified]=true",
       "request_headers": {
-        "Access-Token": "wNyu1Q2f2z52wihzMN6Trg",
+        "Access-Token": "F1wOvZrkiPf3MuXdwajyGw",
         "Token-Type": "Bearer",
-        "Client": "5PvmaDmG1wEakZ92r8MeDw",
-        "Expiry": "1474780323",
-        "Uid": "96noah@gusikowskischneider.com",
+        "Client": "L4zJTROrVEewpQK_f4D9FQ",
+        "Expiry": "1474783900",
+        "Uid": "96maximilian@conn.io",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -69,27 +69,27 @@
       "request_content_type": "application/x-www-form-urlencoded",
       "response_status": 201,
       "response_status_text": "Created",
-      "response_body": "{\n  \"id\": 2,\n  \"first_name\": \"Reina\",\n  \"last_name\": \"Murray\",\n  \"email\": \"95vanea@ebertlangworth.com\",\n  \"phone\": \"8859003391\",\n  \"is_verified\": true,\n  \"provider\": \"email\",\n  \"uid\": \"95vanea@ebertlangworth.com\",\n  \"created_at\": \"2016-09-11T05:12:03.408Z\",\n  \"abilities\": {\n    \"orders\": 0,\n    \"products\": 0,\n    \"users\": 0,\n    \"categories\": 0,\n    \"coupons\": 0,\n    \"settings\": 0,\n    \"cities\": 0,\n    \"delivery_boy\": 0\n  },\n  \"addresses\": [\n\n  ],\n  \"orders\": [\n\n  ]\n}",
+      "response_body": "{\n  \"id\": 2,\n  \"first_name\": \"Scottie\",\n  \"last_name\": \"Botsford\",\n  \"email\": \"95jerrold@conroylittle.net\",\n  \"phone\": \"4100588461\",\n  \"is_verified\": true,\n  \"provider\": \"email\",\n  \"uid\": \"95jerrold@conroylittle.net\",\n  \"created_at\": \"2016-09-11T06:11:40.820Z\",\n  \"abilities\": {\n    \"orders\": 0,\n    \"products\": 0,\n    \"users\": 0,\n    \"categories\": 0,\n    \"coupons\": 0,\n    \"settings\": 0,\n    \"cities\": 0,\n    \"delivery_boy\": 0\n  },\n  \"addresses\": [\n\n  ],\n  \"orders\": [\n\n  ]\n}",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
         "Location": "/admin/users/2",
-        "access-token": "wNyu1Q2f2z52wihzMN6Trg",
+        "access-token": "F1wOvZrkiPf3MuXdwajyGw",
         "token-type": "Bearer",
-        "client": "5PvmaDmG1wEakZ92r8MeDw",
-        "expiry": "1474780323",
-        "uid": "96noah@gusikowskischneider.com",
+        "client": "L4zJTROrVEewpQK_f4D9FQ",
+        "expiry": "1474783900",
+        "uid": "96maximilian@conn.io",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"c1c54b72fc296a341628bf5cfc0ec305\"",
+        "ETag": "W/\"619c3699bc2a0658d5a4d5f2e43fb59c\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=ejMxS2dUVHIrc09WbUtQcXJ4by9KQ0ZGTi9GSkpOOVhkcTlOSTJSTFVJSjZQYXowbUdxa2NRbGdFVmRZeGROTEk0UldaazBrTXhyQVBqS0Q4c0RYQnhVRGNmbGRURVdsWkg0d0dxZWdOaUhoTldDZjg3a0dnNzJlUkF0Ry9aYzFWN0xOSXU0SmxVcmY5NzNRRk90WnAySGtFNzh4a3JYL2gyT1VHSHhpQzlOaVhuRWphT3Q0VTAzTTVqNnBZVEpPLS1LNkR5RXJRQVh0V3ZlQ1dTcm1mSGN3PT0%3D--ad6a495214e1d7209630210a7f818e9d69525089; path=/; HttpOnly",
-        "X-Request-Id": "e2a87dc5-a0f3-406e-97ce-66c7b5d53239",
-        "X-Runtime": "0.122442",
-        "Content-Length": "364"
+        "Set-Cookie": "_session_id=TzFCNUd1MWttTm1za2hleUo0Zjg2Qmx2Si82VVcxcWZiMEV4dm0zeGdMeTIvSVFDWkJZeEorMndyZ3pkUFp2MUkxMFAyT0NRNWNJbmMrTnAyemtSWEYxNmdPU0xYeVJLOXRTbGVGanpFN0JrTGVBUlUzRDZPakJRek41OXRCbVV6bVlMc2JNMW1zUTlBSTZXbmxCMk5ZMVpXMGxWdWtuMUIzT01qR0dSRzRVamNqSkhsZDRLZGltNWlXaXk0aU9MLS14ZDNvWHRNaUhBNU10dElYYkEybm93PT0%3D--53ebb2d6c838674168db6197894cef0067b52c13; path=/; HttpOnly",
+        "X-Request-Id": "519d496e-f396-452e-ab20-b18782c8535a",
+        "X-Runtime": "0.093905",
+        "Content-Length": "368"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/admin/users\" -d 'user[email]=95vanea%40ebertlangworth.com&user[password]=secrety_bickety&user[password_confirmation]=secrety_bickety&user[first_name]=Reina&user[last_name]=Murray&user[phone]=8859003391&user[is_verified]=true' -X POST \\\n\t-H \"Access-Token: wNyu1Q2f2z52wihzMN6Trg\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: 5PvmaDmG1wEakZ92r8MeDw\" \\\n\t-H \"Expiry: 1474780323\" \\\n\t-H \"Uid: 96noah@gusikowskischneider.com\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/admin/users\" -d 'user[email]=95jerrold%40conroylittle.net&user[password]=secrety_bickety&user[password_confirmation]=secrety_bickety&user[first_name]=Scottie&user[last_name]=Botsford&user[phone]=4100588461&user[is_verified]=true' -X POST \\\n\t-H \"Access-Token: F1wOvZrkiPf3MuXdwajyGw\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: L4zJTROrVEewpQK_f4D9FQ\" \\\n\t-H \"Expiry: 1474783900\" \\\n\t-H \"Uid: 96maximilian@conn.io\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

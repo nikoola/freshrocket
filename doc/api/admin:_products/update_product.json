@@ -16,11 +16,11 @@
       "request_path": "/admin/products/1",
       "request_body": "product[title]=hi",
       "request_headers": {
-        "Access-Token": "EQ_ID4Uuu8nefjwfZyRxlQ",
+        "Access-Token": "uYDSnkrb-cj8Ar_4MAWviQ",
         "Token-Type": "Bearer",
-        "Client": "6qAQG9Y1wtr5O_Gr0Jcb5g",
-        "Expiry": "1474780294",
-        "Uid": "70keshaun@hilll.org",
+        "Client": "WMNhbp44YjxoLGvv_ipWuQ",
+        "Expiry": "1474783867",
+        "Uid": "70garry@boscoframi.info",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -30,26 +30,26 @@
       "request_content_type": "application/x-www-form-urlencoded",
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\n  \"id\": 1,\n  \"city_id\": 1,\n  \"title\": \"hi\",\n  \"price\": \"3.0\",\n  \"description\": null,\n  \"created_at\": \"2016-09-11T05:11:33.920Z\",\n  \"updated_at\": \"2016-09-11T05:11:34.133Z\",\n  \"inventory_count\": 20,\n  \"image_url\": \"https://freshrocket-test.s3.amazonaws.com/uploads/product/image/default.png\",\n  \"categories\": [\n\n  ],\n  \"options\": [\n\n  ]\n}",
+      "response_body": "{\n  \"id\": 1,\n  \"city_id\": 1,\n  \"title\": \"hi\",\n  \"price\": \"3.0\",\n  \"description\": null,\n  \"created_at\": \"2016-09-11T06:11:07.544Z\",\n  \"updated_at\": \"2016-09-11T06:11:07.716Z\",\n  \"inventory_count\": 20,\n  \"image_url\": \"https://freshrocket-test.s3.amazonaws.com/uploads/product/image/default.png\",\n  \"categories\": [\n\n  ],\n  \"options\": [\n\n  ]\n}",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
-        "access-token": "EQ_ID4Uuu8nefjwfZyRxlQ",
+        "access-token": "uYDSnkrb-cj8Ar_4MAWviQ",
         "token-type": "Bearer",
-        "client": "6qAQG9Y1wtr5O_Gr0Jcb5g",
-        "expiry": "1474780294",
-        "uid": "70keshaun@hilll.org",
+        "client": "WMNhbp44YjxoLGvv_ipWuQ",
+        "expiry": "1474783867",
+        "uid": "70garry@boscoframi.info",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"4970831eb106e06ce70ee4efc5a2c720\"",
+        "ETag": "W/\"0a554c615a2a2c6fd2365deaf9bca15b\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=TkxsVEZxemRMU2tTMkF0bkR0RmtXUDV1b2ZTdWlyTUhHdzFZRzFVQ2FSS0RNbysxeS9oY25keFZPZSthajJsT2ZlZEdvdExKWU9ZVzhYdk91MFgvVVI4SXNSdDlHYkh0ZW9qc1ZZdGc1UlZQNjlxQ3dadXk2ZUhQak1DZTE2RVZWOFpwcTUzQ0g0bmlWMnRsU0JjcklKSDZhc2psTVN6VzlxRVd6ZUlGR0dxZWlobTBaT1phZkZwV1IzYitLMm5ULS1yam1jYVh1RjNQZU9lVTVLc05aUWpnPT0%3D--094c419d51e73114b7e8a5a740e04add589ea664; path=/; HttpOnly",
-        "X-Request-Id": "8f43aabc-eb51-4b07-9401-899a6ae8dda0",
-        "X-Runtime": "0.108859",
+        "Set-Cookie": "_session_id=Y3BIY1Q3Q0IxRE5pdWVxREtPZzJPVHRYSXBFMTB0dEIwTUNQR3IrZytxR2lOVkhnclB0OHBob1VYNnNEbUowWU5IbXRwZlNSL1dBdUlIbEorOFkzZ3d5NHJ1a2tXd2dqZUo4MFFKVERKRVE1WERYWW9Ec1FVVUtBWXRmVkxnSy9jUHlRcXJURmlBOElWQUJoeDBrRXdsVmhOR2hwWWE4cXZma2ZMUEhrRkF2bVp5VHlVZkxZdGdvMGdDZFEwQ1hNLS1lZnIySmJpMm91bm85RXUvUlIxK2NnPT0%3D--f7356b81db222ae14caa0a64e05a22ddfce00cc8; path=/; HttpOnly",
+        "X-Request-Id": "3a34dd8f-3865-4fc5-a410-2da7257c2b4a",
+        "X-Runtime": "0.084869",
         "Content-Length": "286"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/admin/products/1\" -d 'product[title]=hi' -X PUT \\\n\t-H \"Access-Token: EQ_ID4Uuu8nefjwfZyRxlQ\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: 6qAQG9Y1wtr5O_Gr0Jcb5g\" \\\n\t-H \"Expiry: 1474780294\" \\\n\t-H \"Uid: 70keshaun@hilll.org\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/admin/products/1\" -d 'product[title]=hi' -X PUT \\\n\t-H \"Access-Token: uYDSnkrb-cj8Ar_4MAWviQ\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: WMNhbp44YjxoLGvv_ipWuQ\" \\\n\t-H \"Expiry: 1474783867\" \\\n\t-H \"Uid: 70garry@boscoframi.info\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

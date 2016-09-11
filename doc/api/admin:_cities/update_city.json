@@ -16,11 +16,11 @@
       "request_path": "/admin/cities/1",
       "request_body": "city[name]=hi",
       "request_headers": {
-        "Access-Token": "DAmpg1iZZXwLfKsYhqZ5cQ",
+        "Access-Token": "pT5tFOEpyf5gTGUUun4VkA",
         "Token-Type": "Bearer",
-        "Client": "CEYiL3HSVVTe_eWJ-lPjdg",
-        "Expiry": "1474780176",
-        "Uid": "15michel_quigley@friesen.name",
+        "Client": "t3icaO6JGQrXteE41Oy74w",
+        "Expiry": "1474783741",
+        "Uid": "15shaun@quitzondouglas.co",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -35,21 +35,21 @@
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
-        "access-token": "DAmpg1iZZXwLfKsYhqZ5cQ",
+        "access-token": "pT5tFOEpyf5gTGUUun4VkA",
         "token-type": "Bearer",
-        "client": "CEYiL3HSVVTe_eWJ-lPjdg",
-        "expiry": "1474780176",
-        "uid": "15michel_quigley@friesen.name",
+        "client": "t3icaO6JGQrXteE41Oy74w",
+        "expiry": "1474783741",
+        "uid": "15shaun@quitzondouglas.co",
         "Content-Type": "application/json; charset=utf-8",
         "ETag": "W/\"c382965718afa649ad29062210139e6d\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=cThqTEtTQnIxb3lMWVVYelJTYTRoR095TEQ3N3V0VEl6bUhkbWZKUER0ZzJkRG9UR0pnVklJa1lSMWRFYUV5YWQrQnl5QXFDWFZ2MWE1N2hBTkpvVmVKM2M3Q3A2cW55T1VqeGZxR0pwTXFEUlNtNHdnaXNjdjB2OUVkS1ZzUkpzY1hPUU50Y0xQUDczL3VCaEU5RlpYVXRlQ1VEcGJFNEpzUmlwQ1VoSitHMzl4Rkd4WlpJWHpObVdveXRiZWRWLS0yWEYxMUN5aC9CdWFZVmJnd2VjVkR3PT0%3D--9679a70dfb1ae8307b5be52527ce21cced2ede47; path=/; HttpOnly",
-        "X-Request-Id": "b25156f4-e390-4c53-9581-247ffa7ebf54",
-        "X-Runtime": "0.075737",
+        "Set-Cookie": "_session_id=RWRObW1ZQjFKOXdsVWNzNlNrazdqNmJMUzdzamJlS0kxUHhaSGNnVUV4SWJ3VUpLc21JaWtMZnV4bHRmQW1aUnZNcXJ0d21hbXdicjg1S0JpbWprZ0xFSWF5diswQlhuT1NqbjhoZGlDU1lmbEI3ZGppbGlrOEszdEJHSnRnTkhCWXhPQUo2RUgwbW5lMjFFSGRQM1dSRklKcy9yUGVlaTZHNXdUUEl6cWpiWVluaVFSeTJKQmxmR3QzYW1QS1NwLS1OdVRxWDNDOUhIK1lkTlhBSGFMNVBnPT0%3D--29b9b4492dac122093b514f7228bd0d0b0365694; path=/; HttpOnly",
+        "X-Request-Id": "e609cfc4-d195-4c9b-8dbe-eaaaffdd30a4",
+        "X-Runtime": "0.082796",
         "Content-Length": "34"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/admin/cities/1\" -d 'city[name]=hi' -X PUT \\\n\t-H \"Access-Token: DAmpg1iZZXwLfKsYhqZ5cQ\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: CEYiL3HSVVTe_eWJ-lPjdg\" \\\n\t-H \"Expiry: 1474780176\" \\\n\t-H \"Uid: 15michel_quigley@friesen.name\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/admin/cities/1\" -d 'city[name]=hi' -X PUT \\\n\t-H \"Access-Token: pT5tFOEpyf5gTGUUun4VkA\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: t3icaO6JGQrXteE41Oy74w\" \\\n\t-H \"Expiry: 1474783741\" \\\n\t-H \"Uid: 15shaun@quitzondouglas.co\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

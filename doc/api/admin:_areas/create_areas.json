@@ -43,13 +43,13 @@
     {
       "request_method": "POST",
       "request_path": "/admin/areas",
-      "request_body": "area[id]&area[name]=Ludhiana%2C+Punjab+141001%2C+India&area[radius]=5.0&area[city_id]=1&area[active]=true&area[lat]=30.900965&area[lng]=75.8572758&area[created_at]&area[updated_at]&area[stringified_coordinate]=%5B30.900965%2C75.8572758%5D",
+      "request_body": "area[id]&area[name]=Siliguri%2C+West+Bengal+734001%2C+India&area[radius]=5.0&area[city_id]=1&area[active]=true&area[lat]=26.7271012&area[lng]=88.3952861&area[created_at]&area[updated_at]&area[stringified_coordinate]=%5B26.7271012%2C88.3952861%5D",
       "request_headers": {
-        "Access-Token": "6dsWap5Z3CR_2lUZz5Efzg",
+        "Access-Token": "XfMja2EB_rDEiXkm6yjSbg",
         "Token-Type": "Bearer",
-        "Client": "mfKLYfxItlkG6NMD5kPkyA",
-        "Expiry": "1474780168",
-        "Uid": "6bertrand.vonrueden@hirthe.org",
+        "Client": "tcHrNIeyLgo3VoGwsp14jw",
+        "Expiry": "1474783733",
+        "Uid": "6horacio_hettinger@stoltenberg.com",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -59,26 +59,26 @@
       "request_content_type": "application/x-www-form-urlencoded",
       "response_status": 201,
       "response_status_text": "Created",
-      "response_body": "{\n  \"id\": 2,\n  \"name\": \"Ludhiana, Punjab 141001, India\",\n  \"radius\": \"5.0\",\n  \"active\": true\n}",
+      "response_body": "{\n  \"id\": 2,\n  \"name\": \"Siliguri, West Bengal 734001, India\",\n  \"radius\": \"5.0\",\n  \"active\": true,\n  \"lat\": \"26.7271012\",\n  \"lng\": \"88.3952861\"\n}",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
-        "access-token": "6dsWap5Z3CR_2lUZz5Efzg",
+        "access-token": "XfMja2EB_rDEiXkm6yjSbg",
         "token-type": "Bearer",
-        "client": "mfKLYfxItlkG6NMD5kPkyA",
-        "expiry": "1474780168",
-        "uid": "6bertrand.vonrueden@hirthe.org",
+        "client": "tcHrNIeyLgo3VoGwsp14jw",
+        "expiry": "1474783733",
+        "uid": "6horacio_hettinger@stoltenberg.com",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"60c57d6342cd8a1b671219479b9ce277\"",
+        "ETag": "W/\"4f81d48dbcff149525db9ccd1cf2a793\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=YnNkcEhheVJOdVRPaFp6U3ZZd3VPV1ovWmRjUEcrNXpnUW5Bc0RzQkJkMXlCWC9RWi8xQ3cxNURLbCtSUEpCMy9vZS91VlVSdDdJRjd4dXpCcWVldjA1Y2ZRSVVpdmdOV0NrRUR1SDBhZnJoc2NlNEhUY21LTHp1Yk1LQkpaUkVSTVpHbGR6d1dCbGJoWng0czUxL2RKdUxuS3FabEVteUdXQmUyWjF5RlBIaCtpVjR2R3Jsci9WSWpCcFA1aHFBLS1ZZEgzd3BqOGpxSE5zaE03OTdIa2pnPT0%3D--796a00e8650147f8c0f4e83a49c99e476553f42a; path=/; HttpOnly",
-        "X-Request-Id": "9e71b4c7-b7e1-4548-a830-15211610e70c",
-        "X-Runtime": "0.086722",
-        "Content-Length": "77"
+        "Set-Cookie": "_session_id=M1QxU2o0RGcvSHptazJvQVV2Q0VtejFNZjFPQ0pmZjI5MGl6dmVtZWlaWmNzaEtsWk1sanJ4cEZFdlVnWUR5a1QzMXZKL0NhWFhWbGdFcmZHdGtvKzY3U2RYOWZVZ3JpdjRSczArL1RhUUNpaWwrUk9HbkEzc0tjUHdrL1hDT2RXUFlZZUNWcFdpZkQySjJ0MmgwUjhqWm1HNDZRbFk0b0Z6UzJoczZCRnRWdnI5c1VVZmhWZ1FROElmVVgraHBqLS11MUFuWTJ1OXNUR01LYzhmbnpucnZ3PT0%3D--cb1939451162a96404749987c42a13e13ce1ce1e; path=/; HttpOnly",
+        "X-Request-Id": "4e94315f-69cf-4ea1-8c22-ddfc62886095",
+        "X-Runtime": "0.080616",
+        "Content-Length": "120"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/admin/areas\" -d 'area[id]&area[name]=Ludhiana%2C+Punjab+141001%2C+India&area[radius]=5.0&area[city_id]=1&area[active]=true&area[lat]=30.900965&area[lng]=75.8572758&area[created_at]&area[updated_at]&area[stringified_coordinate]=%5B30.900965%2C75.8572758%5D' -X POST \\\n\t-H \"Access-Token: 6dsWap5Z3CR_2lUZz5Efzg\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: mfKLYfxItlkG6NMD5kPkyA\" \\\n\t-H \"Expiry: 1474780168\" \\\n\t-H \"Uid: 6bertrand.vonrueden@hirthe.org\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/admin/areas\" -d 'area[id]&area[name]=Siliguri%2C+West+Bengal+734001%2C+India&area[radius]=5.0&area[city_id]=1&area[active]=true&area[lat]=26.7271012&area[lng]=88.3952861&area[created_at]&area[updated_at]&area[stringified_coordinate]=%5B26.7271012%2C88.3952861%5D' -X POST \\\n\t-H \"Access-Token: XfMja2EB_rDEiXkm6yjSbg\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: tcHrNIeyLgo3VoGwsp14jw\" \\\n\t-H \"Expiry: 1474783733\" \\\n\t-H \"Uid: 6horacio_hettinger@stoltenberg.com\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

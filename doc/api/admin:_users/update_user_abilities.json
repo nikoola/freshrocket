@@ -20,11 +20,11 @@
       "request_path": "/admin/users/1/update_abilities",
       "request_body": "abilities[users]=1&abilities[products]=0&abilities[orders]=0&abilities[categories]=0",
       "request_headers": {
-        "Access-Token": "V_BbdgNXgBukFy7O-BSyYg",
+        "Access-Token": "yIyOWDJAR6jAMrLah3zbJA",
         "Token-Type": "Bearer",
-        "Client": "CoiDVhI0TDgipfp9FHMueQ",
-        "Expiry": "1474780324",
-        "Uid": "108ellie_lebsack@ebert.io",
+        "Client": "Z5XeNNToSf8aycbHvcW82Q",
+        "Expiry": "1474783901",
+        "Uid": "108federico_medhurst@monahan.info",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -39,20 +39,20 @@
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
-        "access-token": "V_BbdgNXgBukFy7O-BSyYg",
+        "access-token": "yIyOWDJAR6jAMrLah3zbJA",
         "token-type": "Bearer",
-        "client": "CoiDVhI0TDgipfp9FHMueQ",
-        "expiry": "1474780324",
-        "uid": "108ellie_lebsack@ebert.io",
+        "client": "Z5XeNNToSf8aycbHvcW82Q",
+        "expiry": "1474783901",
+        "uid": "108federico_medhurst@monahan.info",
         "Content-Type": "text/html",
         "Cache-Control": "no-cache",
-        "Set-Cookie": "_session_id=SjEzaFJXSTZJK1dlMTJodnZzeVJRdnIyYkhqRW41KzVPcDBIMk5ZV3ZQNjhFN0thZzBZTlpYUWN5YnNHcXhNaWY1MDNHeVhLdVNzbklmQUZCS3cwa0JGTlFwaXFtNjlyMmVXN1dnbTZjcm9ZcWJBQTdUSGxQREVwVTVwYUoyQjhURy9uZ2l6VzNhRGRuaXMrQWRQbklFYTRYSDFycmN1RGwrb0dtaXFSR3F5dm5NMUhlQWFVdFhuMlgwQXc1Nm5qLS1uQktNTDh0OElWbjFVVFg0TlZ4M0N3PT0%3D--0246b606c9f51fd6d928f7c926e7eb4af4c8a601; path=/; HttpOnly",
-        "X-Request-Id": "ed87fe0d-d0db-481b-bf29-fb57e09b6bf8",
-        "X-Runtime": "0.101120",
+        "Set-Cookie": "_session_id=Mm16UlZQWXNrbXZpMjNGczg4MStHRkxmS1hoeHNTcE9ZcTBnZWZHTmJYNkY1YU5LbHFFMEtlZllwRCtoOU1WZFJpQVE5Qk5LRVdjdUFjbGlLMFRwQnBNQ0k1dlJXbGRGR2RHeE1Gb1ZNRjFYcExNMkVQR01jUnZseFM4V0JjNUIvZmZ2bThWaFh1UDViWklnbTBvSC9IVGlxQ0ZwTGU5Vitkc0tuS2d5bU9tZitoM2h0MVlkZEdvU212WDVtdkptLS1SODV2OVl1QjFydmYwSXVUTVFYM0hBPT0%3D--c646173e7f67f59b657b2bb482b5bb3454002888; path=/; HttpOnly",
+        "X-Request-Id": "2f570ed0-b8d2-4307-83ea-df1e0ff0721e",
+        "X-Runtime": "0.091225",
         "Content-Length": "0"
       },
       "response_content_type": "text/html",
-      "curl": "curl \"http://localhost:3000/admin/users/1/update_abilities\" -d 'abilities[users]=1&abilities[products]=0&abilities[orders]=0&abilities[categories]=0' -X PUT \\\n\t-H \"Access-Token: V_BbdgNXgBukFy7O-BSyYg\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: CoiDVhI0TDgipfp9FHMueQ\" \\\n\t-H \"Expiry: 1474780324\" \\\n\t-H \"Uid: 108ellie_lebsack@ebert.io\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/admin/users/1/update_abilities\" -d 'abilities[users]=1&abilities[products]=0&abilities[orders]=0&abilities[categories]=0' -X PUT \\\n\t-H \"Access-Token: yIyOWDJAR6jAMrLah3zbJA\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: Z5XeNNToSf8aycbHvcW82Q\" \\\n\t-H \"Expiry: 1474783901\" \\\n\t-H \"Uid: 108federico_medhurst@monahan.info\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

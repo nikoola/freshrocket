@@ -21,11 +21,11 @@
       "request_path": "/admin/orders/1/update_status",
       "request_body": "order[action]=dispatch",
       "request_headers": {
-        "Access-Token": "-JLzyXgRpln1L7aWT1B33A",
+        "Access-Token": "hZ6BBvx0EbFwS9J1DFUqWA",
         "Token-Type": "Bearer",
-        "Client": "ClVWqw3T3I0jtaaRKT6wvg",
-        "Expiry": "1474780292",
-        "Uid": "65marvin_metz@krajcik.biz",
+        "Client": "C6WaAXh7gG65i7O5mBfLxg",
+        "Expiry": "1474783866",
+        "Uid": "65domenico@gerlachcruickshank.com",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -40,20 +40,20 @@
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
-        "access-token": "-JLzyXgRpln1L7aWT1B33A",
+        "access-token": "hZ6BBvx0EbFwS9J1DFUqWA",
         "token-type": "Bearer",
-        "client": "ClVWqw3T3I0jtaaRKT6wvg",
-        "expiry": "1474780292",
-        "uid": "65marvin_metz@krajcik.biz",
+        "client": "C6WaAXh7gG65i7O5mBfLxg",
+        "expiry": "1474783866",
+        "uid": "65domenico@gerlachcruickshank.com",
         "Content-Type": "application/json; charset=utf-8",
         "Cache-Control": "no-cache",
-        "Set-Cookie": "_session_id=SThZd2lVNEd5b3JrUEJCZlY1Vm1QaWdLN3NidEJLZVRWeUJmT1dlTWtrdW1hS1V0NDFjcHZTMW5qaTdOOXhxeU01RWdDTDVGWXg2b2ErVHg1ZlhtcVlmdGZHN0Z4eXc0ZkdHVFpzZHdJQWdVSDQyRG5tTDVLQlA3OG0xMnlZV1VPZDFKYWFOUlJhMVpUTDNDYkRLbS9JVExzYjRPRG9seVRuNzJKWXJRRWMrZU5pa0pVSHF2L0NWaGhYME91Y2p6LS13YXRyTkhHTnNGQUkvSnA1MXhpUFFRPT0%3D--14cd034f45ab1921e743b53dc35feca228ec8a5e; path=/; HttpOnly",
-        "X-Request-Id": "6abd6407-6afc-4e55-b160-5ca917b7dc70",
-        "X-Runtime": "0.080579",
+        "Set-Cookie": "_session_id=MFc0QzdTN0x3YnMrMVlYYlZDR2hiUEM5Z3ZMU1krSGpySDlHYm51NUNHaXRYQ3EvMGNSYUN3ZDNNdHVuRWdSNnF3SE9zRTZHcmhFR0ZJV3FDRFI1OTIvd2NiL2FlcGNWR3REa2RrSEFDM0F6V3hOais0WUhWbEVCTkxMZHE2MEd6QzRRdVd1cjNYMHBCaTQ1U2VzTlJrM1J5ZGRhRVk2OVcvUTZ1WW5rNjhUamJHc0NvTmhtS0dqeER2WGJrNTJpLS03cmZkZEpOTzIrUENWRUNjSEcwcjZRPT0%3D--fc89ac0516353e6ba051bea81f1e439cdda585d9; path=/; HttpOnly",
+        "X-Request-Id": "b11ee57a-64d6-45d2-a94d-69da7d7c5f40",
+        "X-Runtime": "0.073361",
         "Content-Length": "138"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/admin/orders/1/update_status\" -d 'order[action]=dispatch' -X PUT \\\n\t-H \"Access-Token: -JLzyXgRpln1L7aWT1B33A\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: ClVWqw3T3I0jtaaRKT6wvg\" \\\n\t-H \"Expiry: 1474780292\" \\\n\t-H \"Uid: 65marvin_metz@krajcik.biz\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/admin/orders/1/update_status\" -d 'order[action]=dispatch' -X PUT \\\n\t-H \"Access-Token: hZ6BBvx0EbFwS9J1DFUqWA\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: C6WaAXh7gG65i7O5mBfLxg\" \\\n\t-H \"Expiry: 1474783866\" \\\n\t-H \"Uid: 65domenico@gerlachcruickshank.com\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

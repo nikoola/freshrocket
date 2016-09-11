@@ -16,11 +16,11 @@
       "request_path": "/admin/products/1",
       "request_body": "product[title]",
       "request_headers": {
-        "Access-Token": "vxNvnRzCbvl_A6jUWKAsZQ",
+        "Access-Token": "Zs8xbJfvueS_GWrZ1UOkJA",
         "Token-Type": "Bearer",
-        "Client": "Am_r-5TUrKxQZ7tQM5lTqw",
-        "Expiry": "1474780294",
-        "Uid": "71shaun@olson.net",
+        "Client": "mk1W8tACeEhjtlTpY-LWUg",
+        "Expiry": "1474783867",
+        "Uid": "71bernhard.lehner@west.co",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -35,20 +35,20 @@
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
-        "access-token": "vxNvnRzCbvl_A6jUWKAsZQ",
+        "access-token": "Zs8xbJfvueS_GWrZ1UOkJA",
         "token-type": "Bearer",
-        "client": "Am_r-5TUrKxQZ7tQM5lTqw",
-        "expiry": "1474780294",
-        "uid": "71shaun@olson.net",
+        "client": "mk1W8tACeEhjtlTpY-LWUg",
+        "expiry": "1474783867",
+        "uid": "71bernhard.lehner@west.co",
         "Content-Type": "application/json; charset=utf-8",
         "Cache-Control": "no-cache",
-        "Set-Cookie": "_session_id=WThCSmJrSUJ6OTN2NlpWSXcvWjg3OUJzcisycXRmVGNodHJlVkxxaHYzQlVxN1djVXdQVlBvTlFhK2lUSEt2UW83ekpjalZ3Sko5MHZ4MllPODlRdCt4YVp6VEFlTWF6U3BIQ3ZNUURMRyt4ZGJybjh5RzVDRk4wV1VYbDZXK3g2VjA4VWFOazhsQjlUY21vVkRKeWhobjBwby9HOEU2N2ZZcjViaVVjamJJWjlRL3dyeSt3UThrOUZQbDR6NVZlLS1RcGM5MG5FTnFUUXhzUVM5clVGY1NnPT0%3D--5676e4cfd30fd8f9ca14c793f073b5a608238a08; path=/; HttpOnly",
-        "X-Request-Id": "fd44b54a-2d0f-47d5-bb34-040f463eb0b6",
-        "X-Runtime": "0.108828",
+        "Set-Cookie": "_session_id=TWJkVFl2dWloWXBLeFZrNWh6WWx3Z2p0Sk93NHo1OVUvOWwreXZWQXlWcWhKSmp4SHZ6QzJaWVlBcXJtdlFHR0gvK1pWaEZNTnYwbXZyMyt1ckFnUHMxUFNaZFNjYXV6U2J0Q016cXNKMmlyNlAyd1haN1RPdEwwMHdqMlVkL0hVLzIvWHF3WlVVTmdnMXdwV0JRVzJmMTQwU1pFSHpyWTdVRVBYeVNmMVlWL1UxYnZteTduSmFTMGc0NXR5bmJaLS1Tc25FcjRrNy9mYXFTOEpiN1VoNlB3PT0%3D--a9c9ceb93e94fa2d31fbc71cad07f9f2d5272678; path=/; HttpOnly",
+        "X-Request-Id": "3dc9cb26-28aa-422a-85a5-3ee6302f7cf6",
+        "X-Runtime": "0.091933",
         "Content-Length": "28"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/admin/products/1\" -d 'product[title]' -X PUT \\\n\t-H \"Access-Token: vxNvnRzCbvl_A6jUWKAsZQ\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: Am_r-5TUrKxQZ7tQM5lTqw\" \\\n\t-H \"Expiry: 1474780294\" \\\n\t-H \"Uid: 71shaun@olson.net\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/admin/products/1\" -d 'product[title]' -X PUT \\\n\t-H \"Access-Token: Zs8xbJfvueS_GWrZ1UOkJA\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: mk1W8tACeEhjtlTpY-LWUg\" \\\n\t-H \"Expiry: 1474783867\" \\\n\t-H \"Uid: 71bernhard.lehner@west.co\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

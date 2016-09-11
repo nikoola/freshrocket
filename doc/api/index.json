@@ -23,6 +23,13 @@
           "groups": "all",
           "route": "/admin/addresses/:id",
           "method": "delete"
+        },
+        {
+          "description": "get all addresses",
+          "link": "admin:_addresses/get_all_addresses.json",
+          "groups": "all",
+          "route": "/admin/addresses",
+          "method": "get"
         }
       ]
     },
@@ -299,6 +306,56 @@
       ]
     },
     {
+      "name": "forms",
+      "examples": [
+        {
+          "description": "send email to admins",
+          "link": "forms/send_email_to_admins.json",
+          "groups": "all",
+          "route": "/forms/contact",
+          "method": "post"
+        }
+      ]
+    },
+    {
+      "name": "products",
+      "examples": [
+        {
+          "description": "get all products",
+          "link": "products/get_all_products.json",
+          "groups": "all",
+          "route": "/products",
+          "method": "get"
+        },
+        {
+          "description": "get filtered products",
+          "link": "products/get_filtered_products.json",
+          "groups": "all",
+          "route": "/products",
+          "method": "get"
+        },
+        {
+          "description": "get product",
+          "link": "products/get_product.json",
+          "groups": "all",
+          "route": "/products/:id",
+          "method": "get"
+        }
+      ]
+    },
+    {
+      "name": "users",
+      "examples": [
+        {
+          "description": "sends password recovery email",
+          "link": "users/sends_password_recovery_email.json",
+          "groups": "all",
+          "route": "/users/send_sms_with_recovery_password",
+          "method": "post"
+        }
+      ]
+    },
+    {
       "name": "client: addresses",
       "examples": [
         {
@@ -361,160 +418,11 @@
       "name": "client: orders",
       "examples": [
         {
-          "description": "client can't confirm order if products are out of stock",
-          "link": "client:_orders/client_can't_confirm_order_if_products_are_out_of_stock.json",
-          "groups": "all",
-          "route": "/client/orders/:id/update_status",
-          "method": "put"
-        },
-        {
-          "description": "client cant approve order",
-          "link": "client:_orders/client_cant_approve_order.json",
-          "groups": "all",
-          "route": "/client/orders/:id/update_status",
-          "method": "put"
-        },
-        {
-          "description": "create current user's order",
-          "link": "client:_orders/create_current_user's_order.json",
-          "groups": "all",
-          "route": "client/orders",
-          "method": "post"
-        },
-        {
-          "description": "delete order",
-          "link": "client:_orders/delete_order.json",
-          "groups": "all",
-          "route": "/client/orders/:id",
-          "method": "delete"
-        },
-        {
-          "description": "delete order: after confirm",
-          "link": "client:_orders/delete_order:_after_confirm.json",
-          "groups": "all",
-          "route": "/client/orders/:id",
-          "method": "delete"
-        },
-        {
           "description": "get all current user's orders",
           "link": "client:_orders/get_all_current_user's_orders.json",
           "groups": "all",
           "route": "/client/orders",
           "method": "get"
-        },
-        {
-          "description": "get approximate prices for a new order",
-          "link": "client:_orders/get_approximate_prices_for_a_new_order.json",
-          "groups": "all",
-          "route": "/client/orders/precalculate_price",
-          "method": "post"
-        },
-        {
-          "description": "if order is approved it cant be confirmed",
-          "link": "client:_orders/if_order_is_approved_it_cant_be_confirmed.json",
-          "groups": "all",
-          "route": "/client/orders/:id/update_status",
-          "method": "put"
-        }
-      ]
-    },
-    {
-      "name": "client: payments",
-      "examples": [
-        {
-          "description": "return all forms for payment for own order",
-          "link": "client:_payments/return_all_forms_for_payment_for_own_order.json",
-          "groups": "all",
-          "route": "/client/payments/new",
-          "method": "get"
-        }
-      ]
-    },
-    {
-      "name": "client: users",
-      "examples": [
-        {
-          "description": "create user",
-          "link": "client:_users/create_user.json",
-          "groups": "all",
-          "route": "/auth",
-          "method": "post"
-        },
-        {
-          "description": "user gets self",
-          "link": "client:_users/user_gets_self.json",
-          "groups": "all",
-          "route": "/client",
-          "method": "get"
-        },
-        {
-          "description": "verifies phone",
-          "link": "client:_users/verifies_phone.json",
-          "groups": "all",
-          "route": "/client/verify",
-          "method": "put"
-        }
-      ]
-    },
-    {
-      "name": "deliver: delivery boys",
-      "examples": [
-        {
-          "description": "update self",
-          "link": "deliver:_delivery_boys/update_self.json",
-          "groups": "all",
-          "route": "/deliver/delivery_boy",
-          "method": "put"
-        }
-      ]
-    },
-    {
-      "name": "forms",
-      "examples": [
-        {
-          "description": "send email to admins",
-          "link": "forms/send_email_to_admins.json",
-          "groups": "all",
-          "route": "/forms/contact",
-          "method": "post"
-        }
-      ]
-    },
-    {
-      "name": "products",
-      "examples": [
-        {
-          "description": "get all products",
-          "link": "products/get_all_products.json",
-          "groups": "all",
-          "route": "/products",
-          "method": "get"
-        },
-        {
-          "description": "get filtered products",
-          "link": "products/get_filtered_products.json",
-          "groups": "all",
-          "route": "/products",
-          "method": "get"
-        },
-        {
-          "description": "get product",
-          "link": "products/get_product.json",
-          "groups": "all",
-          "route": "/products/:id",
-          "method": "get"
-        }
-      ]
-    },
-    {
-      "name": "users",
-      "examples": [
-        {
-          "description": "sends password recovery email",
-          "link": "users/sends_password_recovery_email.json",
-          "groups": "all",
-          "route": "/users/send_sms_with_recovery_password",
-          "method": "post"
         }
       ]
     }

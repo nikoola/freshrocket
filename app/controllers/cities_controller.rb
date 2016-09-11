@@ -15,6 +15,8 @@ class CitiesController < ApplicationController
 	    # binding.pry
 	    # byebug
 	    res = Area.filter :city_id => params[:id]
+	    # binding.pry
+	    
 	    render json: res
   	end
 

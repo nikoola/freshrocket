@@ -16,11 +16,11 @@
       "request_path": "/client/addresses/1",
       "request_body": "address[street_and_house]=good",
       "request_headers": {
-        "Access-Token": "zSE7WssHFg6PW5O2247-dw",
+        "Access-Token": "x64THG5IV2x8Gh2_bSEUcw",
         "Token-Type": "Bearer",
-        "Client": "uYX4TEakMHpusNCoPn-aTw",
-        "Expiry": "1474780426",
-        "Uid": "118lisa@schuster.org",
+        "Client": "ol9BowOd_ta7brjUPNm-UA",
+        "Expiry": "1474785877",
+        "Uid": "3katelyn.kuhn@bartonkirlin.net",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -30,26 +30,26 @@
       "request_content_type": "application/x-www-form-urlencoded",
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\n  \"id\": 1,\n  \"city_id\": 2,\n  \"user_id\": 1,\n  \"street_and_house\": \"good\",\n  \"door_number\": \"5\",\n  \"active\": true,\n  \"city_name\": \"English Bazar\"\n}",
+      "response_body": "{\n  \"id\": 1,\n  \"city_id\": 2,\n  \"user_id\": 1,\n  \"street_and_house\": \"good\",\n  \"door_number\": \"5\",\n  \"active\": true,\n  \"city_name\": \"Patna\"\n}",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
-        "access-token": "zSE7WssHFg6PW5O2247-dw",
+        "access-token": "x64THG5IV2x8Gh2_bSEUcw",
         "token-type": "Bearer",
-        "client": "uYX4TEakMHpusNCoPn-aTw",
-        "expiry": "1474780426",
-        "uid": "118lisa@schuster.org",
+        "client": "ol9BowOd_ta7brjUPNm-UA",
+        "expiry": "1474785877",
+        "uid": "3katelyn.kuhn@bartonkirlin.net",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"6697c3519095246b726a57f89ad1c54f\"",
+        "ETag": "W/\"34ca416b5692e9eadba2f88a8de6db53\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=QU8vTndQL1Y5NklBOUVjUi9CakViekF3TkkwS2RFNlNHUWMwMDJwQjZpc2RhNVRIOTIzZUFrUDhWeDk0NmVKRWk3aGE0VlUvYk9RUy9NL0RvL0lHSmFxc2duVDFpWXpHRDRvazdYMHdWcVlXUUQ3MUozVlk5eWsrZHhmVU8wbzdMcHpLOXdDSW1zWXpqc0xKWmROT0xXdmE3TFRVVEVEV1A0RThvK3BVRndYRndVZW11OW5mSGRMNzNGa3JlZTNwLS1HY0tlYlI5R0h5R05XMmVtYUl1RmpBPT0%3D--9274cd0e56003c6cdfe815a5bbef8d87edd3a733; path=/; HttpOnly",
-        "X-Request-Id": "74970d5b-0c8f-45b3-bcc7-54a1071d5b6a",
-        "X-Runtime": "0.083208",
-        "Content-Length": "118"
+        "Set-Cookie": "_session_id=Y3JEbHhyZ0tWRkVHb3RKZEVIZGozaGo2Z1RqQTdOR1dQTUdsQS81ZFdyano5S1JTWEQ0Z21JWm5HdnFkamhpUjVFTUs2b3VIV1dVUEd2c2tSVXVqWVJkZFZJaGdQMTltQm50M2ZPVFQzUkpkSUJHenI3TVA4QUZmNWpuQ2xHMk9DdWpad2N5bGRwdlE4RDJURVRpOVRvWXdBNGdMRkNYNmNOREFvMFN6cE04Y2FZcS90RVlwZHdsTEJMRkVROE4xLS1ETjJ6b2Q1VDRkNzlQOG15N0UwL3l3PT0%3D--638ddbe5736e601975a9d459e9340a347c62ae07; path=/; HttpOnly",
+        "X-Request-Id": "c968b3c3-c101-483e-b884-292b7a2bd66c",
+        "X-Runtime": "0.091691",
+        "Content-Length": "110"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/client/addresses/1\" -d 'address[street_and_house]=good' -X PUT \\\n\t-H \"Access-Token: zSE7WssHFg6PW5O2247-dw\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: uYX4TEakMHpusNCoPn-aTw\" \\\n\t-H \"Expiry: 1474780426\" \\\n\t-H \"Uid: 118lisa@schuster.org\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/client/addresses/1\" -d 'address[street_and_house]=good' -X PUT \\\n\t-H \"Access-Token: x64THG5IV2x8Gh2_bSEUcw\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: ol9BowOd_ta7brjUPNm-UA\" \\\n\t-H \"Expiry: 1474785877\" \\\n\t-H \"Uid: 3katelyn.kuhn@bartonkirlin.net\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

@@ -28,17 +28,17 @@
       "request_content_type": null,
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "[\n  {\n    \"id\": 1,\n    \"name\": \"Shillong\",\n    \"active\": true\n  },\n  {\n    \"id\": 2,\n    \"name\": \"Imphal\",\n    \"active\": true\n  },\n  {\n    \"id\": 3,\n    \"name\": \"Hapur\",\n    \"active\": true\n  },\n  {\n    \"id\": 6,\n    \"name\": \"Arrah\",\n    \"active\": true\n  },\n  {\n    \"id\": 7,\n    \"name\": \"Karimnagar\",\n    \"active\": true\n  },\n  {\n    \"id\": 8,\n    \"name\": \"Parbhani\",\n    \"active\": true\n  },\n  {\n    \"id\": 9,\n    \"name\": \"Etawah\",\n    \"active\": true\n  }\n]",
+      "response_body": "[\n  {\n    \"id\": 1,\n    \"name\": \"Bengaluru\",\n    \"active\": true\n  },\n  {\n    \"id\": 2,\n    \"name\": \"Ahmedabad\",\n    \"active\": true\n  },\n  {\n    \"id\": 3,\n    \"name\": \"Hyderabad\",\n    \"active\": true\n  },\n  {\n    \"id\": 6,\n    \"name\": \"Pune\",\n    \"active\": true\n  },\n  {\n    \"id\": 7,\n    \"name\": \"Jaipur\",\n    \"active\": true\n  },\n  {\n    \"id\": 8,\n    \"name\": \"Surat\",\n    \"active\": true\n  },\n  {\n    \"id\": 9,\n    \"name\": \"Lucknow\",\n    \"active\": true\n  }\n]",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"94aaf88886eb693bd3c55193849d5e15\"",
+        "ETag": "W/\"813ac4815ca3ab7841724dc90a9377a1\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "X-Request-Id": "e4b0ac36-a4fc-4737-a3c7-f1860006be5d",
-        "X-Runtime": "0.015550",
-        "Content-Length": "280"
+        "X-Request-Id": "d35f0f04-c681-48e1-ab21-6828b2a1df73",
+        "X-Runtime": "0.023782",
+        "Content-Length": "281"
       },
       "response_content_type": "application/json; charset=utf-8",
       "curl": "curl \"http://localhost:3000/cities?active=1\" -X GET \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
