@@ -25,11 +25,11 @@
       "request_path": "/admin/delivery_boys",
       "request_body": "delivery_boy[user_id]=1&delivery_boy[status]=available",
       "request_headers": {
-        "Access-Token": "xwtq5zPc1WJk_N761MxYLA",
+        "Access-Token": "s04Qg7fz6ydzsXx4giFE7Q",
         "Token-Type": "Bearer",
-        "Client": "p-CCS2g9BkgI5AVmW8eDJA",
-        "Expiry": "1474991026",
-        "Uid": "2lexus.gibson@littlewatsica.com",
+        "Client": "iDKaofbtkAEY29PRWZDxuQ",
+        "Expiry": "1474992456",
+        "Uid": "2cleta@price.name",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -39,26 +39,26 @@
       "request_content_type": "application/x-www-form-urlencoded",
       "response_status": 201,
       "response_status_text": "Created",
-      "response_body": "{\n  \"id\": 1,\n  \"user_id\": 1,\n  \"current_order_id\": null,\n  \"status\": \"available\",\n  \"user\": {\n    \"id\": 1,\n    \"first_name\": \"Halle\",\n    \"last_name\": \"Shanahan\",\n    \"email\": \"1keith_williamson@medhurstyundt.info\",\n    \"phone\": \"8093368678\",\n    \"is_verified\": false,\n    \"provider\": \"email\",\n    \"uid\": \"1keith_williamson@medhurstyundt.info\",\n    \"created_at\": \"2016-09-13T15:43:45.787Z\",\n    \"abilities\": {\n      \"orders\": 0,\n      \"products\": 0,\n      \"users\": 0,\n      \"categories\": 1,\n      \"coupons\": 0,\n      \"settings\": 0,\n      \"cities\": 0,\n      \"delivery_boy\": 1\n    }\n  }\n}",
+      "response_body": "{\n  \"id\": 1,\n  \"user_id\": 1,\n  \"current_order_id\": null,\n  \"status\": \"available\",\n  \"user\": {\n    \"id\": 1,\n    \"first_name\": \"Merl\",\n    \"last_name\": \"Swift\",\n    \"email\": \"1jared_runolfsdottir@murphystiedemann.co\",\n    \"phone\": \"5620803045\",\n    \"is_verified\": false,\n    \"provider\": \"email\",\n    \"uid\": \"1jared_runolfsdottir@murphystiedemann.co\",\n    \"created_at\": \"2016-09-13T16:07:36.018Z\",\n    \"abilities\": {\n      \"orders\": 0,\n      \"products\": 0,\n      \"users\": 0,\n      \"categories\": 1,\n      \"coupons\": 0,\n      \"settings\": 0,\n      \"cities\": 0,\n      \"delivery_boy\": 1\n    }\n  }\n}",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
-        "access-token": "xwtq5zPc1WJk_N761MxYLA",
+        "access-token": "s04Qg7fz6ydzsXx4giFE7Q",
         "token-type": "Bearer",
-        "client": "p-CCS2g9BkgI5AVmW8eDJA",
-        "expiry": "1474991026",
-        "uid": "2lexus.gibson@littlewatsica.com",
+        "client": "iDKaofbtkAEY29PRWZDxuQ",
+        "expiry": "1474992456",
+        "uid": "2cleta@price.name",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"c59c10627713d3d0e780b3af2744e0bc\"",
+        "ETag": "W/\"23940319944f3e06fefa324c897c4526\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=RTAwak9pQkFPNGJPWFVJN2Iyb3pFbnUvU0FReFlwVWM3dmdROVE3T1Z4Y3VCZlQ3MVJLMDJkMlBMWmcwVWdqLzlvVU5JdWZYRFRRc25lNGQyeW5IbVBEdUhVcFB0elRRR0RCVSs3WDdYbnhhQlE4SWV0RWxpTUJVT3VHVDdBUTkrRUEwQjVsMThqQU92WG1HRTZCeUo2QkM4T1c2eFJjeU1ScExWRXovbkRQQ3EzMmpLQWVKaWxHM0REY3I1dy9sLS0vZUZ3ZUwyL2VKTjFza1pTRmRlTTR3PT0%3D--3a8d12c98b6c28a2dc1a18a958628a8346515ec6; path=/; HttpOnly",
-        "X-Request-Id": "340eeeb2-f835-4e46-b741-f701a6a39c6e",
-        "X-Runtime": "0.290014",
-        "Content-Length": "433"
+        "Set-Cookie": "_session_id=Mzk5Ky80QWgrcFJSaDVVUjJ2WkE4WSt2SDdUZXFEakJuamI1MW5LSFZ6YlVmaEJBaTdLVi9wcS9UdWkvMy9VVkVoUVozOVF5VllESWhVZm9wQURlTjNEL3dqOEh0VE1lRG5nMW10Yk8rUlUzb3hZY2VaVTNnZWs0cVJGemRDOGRJdmtNN24vWksreDdJdUsvQjlaRFpBb0ppSXVoWGJKZ29RYVBNVWdaYkdLMWVuMzZnaFYwYWhta21KYVluVkgxLS1jeVNQdHNwV083VjEvcnZzNWJoYlB3PT0%3D--2bebb6011cbb7d7147743446bdcea6ef39b65a12; path=/; HttpOnly",
+        "X-Request-Id": "898fce08-cc7a-478b-a2ff-9421a06e194a",
+        "X-Runtime": "0.206562",
+        "Content-Length": "437"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/admin/delivery_boys\" -d 'delivery_boy[user_id]=1&delivery_boy[status]=available' -X POST \\\n\t-H \"Access-Token: xwtq5zPc1WJk_N761MxYLA\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: p-CCS2g9BkgI5AVmW8eDJA\" \\\n\t-H \"Expiry: 1474991026\" \\\n\t-H \"Uid: 2lexus.gibson@littlewatsica.com\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/admin/delivery_boys\" -d 'delivery_boy[user_id]=1&delivery_boy[status]=available' -X POST \\\n\t-H \"Access-Token: s04Qg7fz6ydzsXx4giFE7Q\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: iDKaofbtkAEY29PRWZDxuQ\" \\\n\t-H \"Expiry: 1474992456\" \\\n\t-H \"Uid: 2cleta@price.name\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

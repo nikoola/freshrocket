@@ -45,11 +45,11 @@ resource 'admin: delivery boys', type: :request do
 			del_boys.first.user.addresses = [add]
 			
 			do_request status: :available, city_id: add.city_id
-# binding.pry
+# binding.pry	
 			expect(jsons.count).to be >= 0
 		end
 	end
-	
+
 
 
 end

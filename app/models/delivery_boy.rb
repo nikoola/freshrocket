@@ -18,6 +18,8 @@ class DeliveryBoy < ActiveRecord::Base
 	end
 
 	scope :status, -> (status)    { where status: status }
+	scope :city_id, -> (city_id) {joins(:user => {:addresses => :city}).
+									where( "cities.id" => city_id) }
 	# scope :current_order_id
 
 
