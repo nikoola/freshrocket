@@ -17,7 +17,7 @@ Basically we have :user that can have any role.
 if :user is fired from :delivery_boy position (no :delivery_boy ability anymore), her :delivery_boy status changes to :fired.
 
 
-
+put '/admin/users/:id/update_abilities' ======
 
 
 ___heroku-specific things

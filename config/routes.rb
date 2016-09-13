@@ -88,7 +88,7 @@ Rails.application.routes.draw do
 				put :update_abilities  # update abilities for a user
 			}
 		end
-		resources :delivery_boys, only: [:index]
+		resources :delivery_boys#, only: [:index]
 		resource  :settings,      only: [:show, :update]
 		resources :coupons,       only: [:index, :create, :update, :destroy]
 		resources :cities,        only: [:create, :update, :destroy]

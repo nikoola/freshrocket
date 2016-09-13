@@ -17,6 +17,7 @@ group :development, :test do
 	gem 'pry'
 	gem 'pry-rescue'
 	gem 'pry-rails'
+	gem 'pry-byebug'
 	
 
 	gem 'dotenv-rails'

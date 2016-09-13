@@ -373,6 +373,9 @@ GEM
       coderay (~> 1.1.0)
       method_source (~> 0.8.1)
       slop (~> 3.4)
+    pry-byebug (3.4.0)
+      byebug (~> 9.0)
+      pry (~> 0.10)
     pry-rails (0.3.4)
       pry (>= 0.9.10)
     pry-rescue (1.4.4)
@@ -547,6 +550,7 @@ DEPENDENCIES
   parallel_tests
   pg
   pry
+  pry-byebug
   pry-rails
   pry-rescue
   puma

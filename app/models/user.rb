@@ -57,6 +57,7 @@ class User < ActiveRecord::Base
 				if delivery_boy
 					delivery_boy.status = :unavailable #from fired to unavailable.
 				else
+					# binding.pry
 					build_delivery_boy
 				end
 			end #alternative to callbacks. because well, there are no callbacks for aato.

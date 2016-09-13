@@ -375,6 +375,25 @@
           "method": "post"
         }
       ]
+    },
+    {
+      "name": "admin: delivery boys",
+      "examples": [
+        {
+          "description": "create delivery boy",
+          "link": "admin:_delivery_boys/create_delivery_boy.json",
+          "groups": "all",
+          "route": "/admin/delivery_boys",
+          "method": "post"
+        },
+        {
+          "description": "get available delivery boys",
+          "link": "admin:_delivery_boys/get_available_delivery_boys.json",
+          "groups": "all",
+          "route": "/admin/delivery_boys",
+          "method": "get"
+        }
+      ]
     }
   ]
 }

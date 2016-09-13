@@ -7,6 +7,8 @@ class DeliveryBoy < ActiveRecord::Base
 
 	has_many :orders
 
+	validates_presence_of :user
+	
 	aasm column: :status do
 		state :unavailable, :initial => true
 		state :available
