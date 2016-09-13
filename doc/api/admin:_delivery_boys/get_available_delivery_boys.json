@@ -23,11 +23,11 @@
       "request_path": "/admin/delivery_boys?status=available&city_id=2",
       "request_body": null,
       "request_headers": {
-        "Access-Token": "GB6rZWxYzjDLH3KHGYpwMQ",
+        "Access-Token": "J4Ryq3N2TIFu2HVh-r45tQ",
         "Token-Type": "Bearer",
-        "Client": "BFEJyh9PdfwJDojd0md6bA",
-        "Expiry": "1474988355",
-        "Uid": "8gregoria_leannon@casperpollich.org",
+        "Client": "3xcHG546VcA7AhZ0f7Ny-g",
+        "Expiry": "1474990089",
+        "Uid": "8dewitt_feeney@stamm.org",
         "Host": "example.org",
         "Cookie": ""
       },
@@ -38,26 +38,26 @@
       "request_content_type": null,
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "[\n  {\n    \"id\": 1,\n    \"user_id\": 1,\n    \"current_order_id\": null,\n    \"status\": \"available\"\n  }\n]",
+      "response_body": "[\n  {\n    \"id\": 1,\n    \"user_id\": 1,\n    \"current_order_id\": null,\n    \"status\": \"available\",\n    \"user\": {\n      \"id\": 1,\n      \"first_name\": \"Elyssa\",\n      \"last_name\": \"DuBuque\",\n      \"email\": \"3mitchel_gleichner@schiller.info\",\n      \"provider\": \"email\",\n      \"uid\": \"3mitchel_gleichner@schiller.info\",\n      \"phone\": \"3748314875\",\n      \"verification_code\": null,\n      \"is_verified\": false,\n      \"created_at\": \"2016-09-13T15:28:01.529Z\",\n      \"updated_at\": \"2016-09-13T15:28:01.529Z\",\n      \"how_did_you_hear_about_us\": null\n    }\n  }\n]",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
-        "access-token": "GB6rZWxYzjDLH3KHGYpwMQ",
+        "access-token": "J4Ryq3N2TIFu2HVh-r45tQ",
         "token-type": "Bearer",
-        "client": "BFEJyh9PdfwJDojd0md6bA",
-        "expiry": "1474988355",
-        "uid": "8gregoria_leannon@casperpollich.org",
+        "client": "3xcHG546VcA7AhZ0f7Ny-g",
+        "expiry": "1474990089",
+        "uid": "8dewitt_feeney@stamm.org",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"05e42c3730cda9de1944b3ce8cc9385b\"",
+        "ETag": "W/\"f18b3e566d497a70d5d12ae7612797fe\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=Q1BMOGVSNWRsMWJ2a2tyZ29Hei9VM3JlVVM3cE11SkJXM1Yza2RhdFdScTc5N2R0U2g2eHBqdm00OVVSanNXSURhZVNoWGVaczJVL2dTUmlYZm1ENUtIZnJwZG55L3FFWXR1VTNjd2NKUm94djZQeE1LQzNJOUhSMzcvSENyWlJDRURsLytOSW9BaGZ0V0dJZTN4a21wQnpTQW9sQU1peGt2NlJZaEFDTWxFZUx1dzhsUEZpcjdPK0RjZzBsUVN3LS1ScXlGSkFhQXJRcW1hRHkweDZYSFh3PT0%3D--8fd323dc12e111f412a416499e02ab643bba6a8d; path=/; HttpOnly",
-        "X-Request-Id": "9aea0935-6e12-4111-82cf-10ac5ca2b06e",
-        "X-Runtime": "0.105799",
-        "Content-Length": "67"
+        "Set-Cookie": "_session_id=K0FwQkJ4QUZ6RG5QbWVQLy9oTEdmUzhVRVVzZjBpRGtCUjJTVzVWUHNDVDRsSXRaeXBxV3ZvUE90TUhyTVZhVkhmcUNyaGxrcmttMGoycC9KMlpaeDdFbnltWlRuL09qV3NZTmtJNFhBODNxLzlLMElEMjFqVlU5K1U3dXNHd3dyclVyNXI4UXl0MkVuSFU3aG5JamEwRzdyU1FwSlZqWVdHaU9jS3lSQU1tMjF0V0lQcjZvemg5Wk90NEE0RldXLS1ldUNyVkNtQ1ZBNUxrb3RncVVQWGtBPT0%3D--daee7545401d7fa39a0c0b5c475ecf256f457a95; path=/; HttpOnly",
+        "X-Request-Id": "d1afb7d8-0d54-4554-8c86-436bf2b7f63d",
+        "X-Runtime": "0.111860",
+        "Content-Length": "409"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/admin/delivery_boys?status=available&city_id=2\" -X GET \\\n\t-H \"Access-Token: GB6rZWxYzjDLH3KHGYpwMQ\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: BFEJyh9PdfwJDojd0md6bA\" \\\n\t-H \"Expiry: 1474988355\" \\\n\t-H \"Uid: 8gregoria_leannon@casperpollich.org\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/admin/delivery_boys?status=available&city_id=2\" -X GET \\\n\t-H \"Access-Token: J4Ryq3N2TIFu2HVh-r45tQ\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: 3xcHG546VcA7AhZ0f7Ny-g\" \\\n\t-H \"Expiry: 1474990089\" \\\n\t-H \"Uid: 8dewitt_feeney@stamm.org\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

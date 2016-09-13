@@ -43,9 +43,9 @@ resource 'admin: delivery boys', type: :request do
 			del_boys = FactoryGirl.create_list :delivery_boy, 4
 			add = FactoryGirl.create :address
 			del_boys.first.user.addresses = [add]
-			# binding.pry
-			do_request status: :available, city_id: DeliveryBoy.first.user.addresses.first.city_id
-
+			
+			do_request status: :available, city_id: add.city_id
+# binding.pry
 			expect(jsons.count).to be >= 0
 		end
 	end

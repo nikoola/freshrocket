@@ -25,11 +25,11 @@
       "request_path": "/admin/delivery_boys",
       "request_body": "delivery_boy[user_id]=1&delivery_boy[status]=available",
       "request_headers": {
-        "Access-Token": "fq83TiKjiBWmdO4CF8XHcw",
+        "Access-Token": "umSQEZztq88ALVEaPpSmtw",
         "Token-Type": "Bearer",
-        "Client": "Kh6pwKShPGO8ayB-BUAVZw",
-        "Expiry": "1474988347",
-        "Uid": "2kavon@turnerwest.net",
+        "Client": "5wxxfSBm1iOuoYNgFvZh1g",
+        "Expiry": "1474990081",
+        "Uid": "2london@flatley.io",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -39,26 +39,26 @@
       "request_content_type": "application/x-www-form-urlencoded",
       "response_status": 201,
       "response_status_text": "Created",
-      "response_body": "{\n  \"id\": 1,\n  \"user_id\": 1,\n  \"current_order_id\": null,\n  \"status\": \"available\"\n}",
+      "response_body": "{\n  \"id\": 1,\n  \"user_id\": 1,\n  \"current_order_id\": null,\n  \"status\": \"available\",\n  \"user\": {\n    \"id\": 1,\n    \"first_name\": \"Jordan\",\n    \"last_name\": \"Dickens\",\n    \"email\": \"1deborah@willms.name\",\n    \"provider\": \"email\",\n    \"uid\": \"1deborah@willms.name\",\n    \"phone\": \"3284074628\",\n    \"verification_code\": null,\n    \"is_verified\": false,\n    \"created_at\": \"2016-09-13T15:28:01.094Z\",\n    \"updated_at\": \"2016-09-13T15:28:01.094Z\",\n    \"how_did_you_hear_about_us\": null\n  }\n}",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
-        "access-token": "fq83TiKjiBWmdO4CF8XHcw",
+        "access-token": "umSQEZztq88ALVEaPpSmtw",
         "token-type": "Bearer",
-        "client": "Kh6pwKShPGO8ayB-BUAVZw",
-        "expiry": "1474988347",
-        "uid": "2kavon@turnerwest.net",
+        "client": "5wxxfSBm1iOuoYNgFvZh1g",
+        "expiry": "1474990081",
+        "uid": "2london@flatley.io",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"35669026c116b03d12a2568dde6ca8e1\"",
+        "ETag": "W/\"eb93466ca233f485947ea760c3567a25\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=Y1RRZDZZMTVuakIvZloxbHZ3K2FjZWZSeDZTQmJTRkFhTnZ6a3VCVGVLS2lWQXR3bjRKSjcvdlludDRJK05QR3JzczFtYXlPbGZLOVdpSGFKdjE2b2lzSmd1SkRjMFF0U05IQW9rVGFQbHZVQ3YrUkduM3loOExDWERoeEIwekllMHIva1p1VEc3dnNHUU5pVmpEd1A3U2h4bUNldlV3S2lKRUpBc1BhSjl5ZklTTWNnTE04SkRjZTFyR1dZOFlLLS1KSzh6UmdDcVRJV2VWVElLWTdRQklBPT0%3D--4dad98a816b8d861e9884449b2e8f3a52da6f4a3; path=/; HttpOnly",
-        "X-Request-Id": "ad07d7e0-9cb5-4ba4-8ffd-8edca6f9110c",
-        "X-Runtime": "0.182123",
-        "Content-Length": "65"
+        "Set-Cookie": "_session_id=RkpUSjJHSnZwV09LYTdMenhFTHFvNkhMODNFUHp0aG1nNDM3MnpsYlhaa2g2NjVsT09zRWlaWFdERWdieVVmQzFCTU96enV6NjE3VDd2c0d5QVVxR09VWEZKNDZEWnNVQTFxT1ViTjhpbmJyb2Q1VFE2bW1zY2VmUUpVdVN2MTJRblVHM2wraXB2Yk8vOElLQ20weWluQmE3TS9tRm5HeGtCOHpLUHROazdqRHozbWpoc0JQYnZMbTZidGlXZ0lsLS1sTkM2UXV4Z3MvTDR4cVBVYnphckJRPT0%3D--7be07bc7444cec2ebe87d1e9d807109c4084e722; path=/; HttpOnly",
+        "X-Request-Id": "dbff0bfb-a7ac-47d9-ba25-a3734c3d0819",
+        "X-Runtime": "0.185255",
+        "Content-Length": "383"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/admin/delivery_boys\" -d 'delivery_boy[user_id]=1&delivery_boy[status]=available' -X POST \\\n\t-H \"Access-Token: fq83TiKjiBWmdO4CF8XHcw\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: Kh6pwKShPGO8ayB-BUAVZw\" \\\n\t-H \"Expiry: 1474988347\" \\\n\t-H \"Uid: 2kavon@turnerwest.net\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/admin/delivery_boys\" -d 'delivery_boy[user_id]=1&delivery_boy[status]=available' -X POST \\\n\t-H \"Access-Token: umSQEZztq88ALVEaPpSmtw\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: 5wxxfSBm1iOuoYNgFvZh1g\" \\\n\t-H \"Expiry: 1474990081\" \\\n\t-H \"Uid: 2london@flatley.io\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }
