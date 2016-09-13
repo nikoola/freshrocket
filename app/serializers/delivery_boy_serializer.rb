@@ -1,8 +1,6 @@
 class DeliveryBoySerializer < ActiveModel::Serializer
 	attributes :id, :user_id,
-		:current_order_id, :status, :user
+		:current_order_id, :status
 
-	def user 
-		User.find(object.user_id)
-	end
+	belongs_to :user
 end

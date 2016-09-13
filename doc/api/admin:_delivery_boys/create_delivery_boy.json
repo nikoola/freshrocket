@@ -25,11 +25,11 @@
       "request_path": "/admin/delivery_boys",
       "request_body": "delivery_boy[user_id]=1&delivery_boy[status]=available",
       "request_headers": {
-        "Access-Token": "umSQEZztq88ALVEaPpSmtw",
+        "Access-Token": "xwtq5zPc1WJk_N761MxYLA",
         "Token-Type": "Bearer",
-        "Client": "5wxxfSBm1iOuoYNgFvZh1g",
-        "Expiry": "1474990081",
-        "Uid": "2london@flatley.io",
+        "Client": "p-CCS2g9BkgI5AVmW8eDJA",
+        "Expiry": "1474991026",
+        "Uid": "2lexus.gibson@littlewatsica.com",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -39,26 +39,26 @@
       "request_content_type": "application/x-www-form-urlencoded",
       "response_status": 201,
       "response_status_text": "Created",
-      "response_body": "{\n  \"id\": 1,\n  \"user_id\": 1,\n  \"current_order_id\": null,\n  \"status\": \"available\",\n  \"user\": {\n    \"id\": 1,\n    \"first_name\": \"Jordan\",\n    \"last_name\": \"Dickens\",\n    \"email\": \"1deborah@willms.name\",\n    \"provider\": \"email\",\n    \"uid\": \"1deborah@willms.name\",\n    \"phone\": \"3284074628\",\n    \"verification_code\": null,\n    \"is_verified\": false,\n    \"created_at\": \"2016-09-13T15:28:01.094Z\",\n    \"updated_at\": \"2016-09-13T15:28:01.094Z\",\n    \"how_did_you_hear_about_us\": null\n  }\n}",
+      "response_body": "{\n  \"id\": 1,\n  \"user_id\": 1,\n  \"current_order_id\": null,\n  \"status\": \"available\",\n  \"user\": {\n    \"id\": 1,\n    \"first_name\": \"Halle\",\n    \"last_name\": \"Shanahan\",\n    \"email\": \"1keith_williamson@medhurstyundt.info\",\n    \"phone\": \"8093368678\",\n    \"is_verified\": false,\n    \"provider\": \"email\",\n    \"uid\": \"1keith_williamson@medhurstyundt.info\",\n    \"created_at\": \"2016-09-13T15:43:45.787Z\",\n    \"abilities\": {\n      \"orders\": 0,\n      \"products\": 0,\n      \"users\": 0,\n      \"categories\": 1,\n      \"coupons\": 0,\n      \"settings\": 0,\n      \"cities\": 0,\n      \"delivery_boy\": 1\n    }\n  }\n}",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
-        "access-token": "umSQEZztq88ALVEaPpSmtw",
+        "access-token": "xwtq5zPc1WJk_N761MxYLA",
         "token-type": "Bearer",
-        "client": "5wxxfSBm1iOuoYNgFvZh1g",
-        "expiry": "1474990081",
-        "uid": "2london@flatley.io",
+        "client": "p-CCS2g9BkgI5AVmW8eDJA",
+        "expiry": "1474991026",
+        "uid": "2lexus.gibson@littlewatsica.com",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"eb93466ca233f485947ea760c3567a25\"",
+        "ETag": "W/\"c59c10627713d3d0e780b3af2744e0bc\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=RkpUSjJHSnZwV09LYTdMenhFTHFvNkhMODNFUHp0aG1nNDM3MnpsYlhaa2g2NjVsT09zRWlaWFdERWdieVVmQzFCTU96enV6NjE3VDd2c0d5QVVxR09VWEZKNDZEWnNVQTFxT1ViTjhpbmJyb2Q1VFE2bW1zY2VmUUpVdVN2MTJRblVHM2wraXB2Yk8vOElLQ20weWluQmE3TS9tRm5HeGtCOHpLUHROazdqRHozbWpoc0JQYnZMbTZidGlXZ0lsLS1sTkM2UXV4Z3MvTDR4cVBVYnphckJRPT0%3D--7be07bc7444cec2ebe87d1e9d807109c4084e722; path=/; HttpOnly",
-        "X-Request-Id": "dbff0bfb-a7ac-47d9-ba25-a3734c3d0819",
-        "X-Runtime": "0.185255",
-        "Content-Length": "383"
+        "Set-Cookie": "_session_id=RTAwak9pQkFPNGJPWFVJN2Iyb3pFbnUvU0FReFlwVWM3dmdROVE3T1Z4Y3VCZlQ3MVJLMDJkMlBMWmcwVWdqLzlvVU5JdWZYRFRRc25lNGQyeW5IbVBEdUhVcFB0elRRR0RCVSs3WDdYbnhhQlE4SWV0RWxpTUJVT3VHVDdBUTkrRUEwQjVsMThqQU92WG1HRTZCeUo2QkM4T1c2eFJjeU1ScExWRXovbkRQQ3EzMmpLQWVKaWxHM0REY3I1dy9sLS0vZUZ3ZUwyL2VKTjFza1pTRmRlTTR3PT0%3D--3a8d12c98b6c28a2dc1a18a958628a8346515ec6; path=/; HttpOnly",
+        "X-Request-Id": "340eeeb2-f835-4e46-b741-f701a6a39c6e",
+        "X-Runtime": "0.290014",
+        "Content-Length": "433"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/admin/delivery_boys\" -d 'delivery_boy[user_id]=1&delivery_boy[status]=available' -X POST \\\n\t-H \"Access-Token: umSQEZztq88ALVEaPpSmtw\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: 5wxxfSBm1iOuoYNgFvZh1g\" \\\n\t-H \"Expiry: 1474990081\" \\\n\t-H \"Uid: 2london@flatley.io\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/admin/delivery_boys\" -d 'delivery_boy[user_id]=1&delivery_boy[status]=available' -X POST \\\n\t-H \"Access-Token: xwtq5zPc1WJk_N761MxYLA\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: p-CCS2g9BkgI5AVmW8eDJA\" \\\n\t-H \"Expiry: 1474991026\" \\\n\t-H \"Uid: 2lexus.gibson@littlewatsica.com\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }
