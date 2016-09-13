@@ -16,11 +16,11 @@
       "request_path": "/admin/coupons/1",
       "request_body": null,
       "request_headers": {
-        "Access-Token": "BMSqGlARaMy2qqTU-xF65g",
+        "Access-Token": "AdWsfBVuPXOfGTrjcEnYDg",
         "Token-Type": "Bearer",
-        "Client": "CV-rrBTlxHBNQm1_mZ1GGw",
-        "Expiry": "1474824387",
-        "Uid": "20antonetta.fritsch@rippin.net",
+        "Client": "9X2pPRECvuWRtLLBHOm0KQ",
+        "Expiry": "1475008569",
+        "Uid": "20joanne@steuberpowlowski.info",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -35,20 +35,20 @@
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
-        "access-token": "BMSqGlARaMy2qqTU-xF65g",
+        "access-token": "AdWsfBVuPXOfGTrjcEnYDg",
         "token-type": "Bearer",
-        "client": "CV-rrBTlxHBNQm1_mZ1GGw",
-        "expiry": "1474824387",
-        "uid": "20antonetta.fritsch@rippin.net",
+        "client": "9X2pPRECvuWRtLLBHOm0KQ",
+        "expiry": "1475008569",
+        "uid": "20joanne@steuberpowlowski.info",
         "Content-Type": "text/html",
         "Cache-Control": "no-cache",
-        "Set-Cookie": "_session_id=UFN1MytRWTNNNFc0d0VTN3kxRmxHNDJpd3Ewa1ZXVlRtTThER2x4OThhc0RKK0NqNTlTUk0yOUF4ai9DOVlCSmxpU3kyRjJxMmtrMEp3SDVvWGxXZ2tQaEJGTU8zWC9aZVQwZzBQK0Rqcnk0OFd1WEwvUnVpNzBzak1Nb3FLaHpzYWZJeDNjZXBnR1BjUno2bldRRytacXFNaXlodGxmRE0ycXU0V3I4NUtLdFUvNlBKTEJxRDRHN2dlYURmZ01LLS1VTmdROHM3cTZBZDRQaDV6cFdKeUtRPT0%3D--7422fdb3401d0b960946a41f8d8df33b25a9c0c3; path=/; HttpOnly",
-        "X-Request-Id": "5bd60226-b04e-4a6f-af69-fb42415bcf27",
-        "X-Runtime": "0.072333",
+        "Set-Cookie": "_session_id=YW9FZE1NWHVxd2lkOFl5TWk1NDQrbkhxeEhNTU5jSWxSOGN1Zk5pVTNHeG1QWTRybVVBbGVEdW9BYzA2bGxkdko3eEdkYmg0bnRjUWVvL0g0NWZRbHZXbVl6R2o1TWVCcWwweVJSckhOSmExb1A2ZlNkM0cwT1lsZFlLNHJXbHU0dm5md05ObHoyMWlpWkUxanBEZWlIQnZDNmhray81bGVFQTl6TzkxdjV1V3JGb3RjMk1TeHpNdHNFR2lHVHZ3LS1VTWNQcWJndk05UkVtSVBVejQzOWZBPT0%3D--2add90a0ec30b138a75cc030110da72a4c03a45f; path=/; HttpOnly",
+        "X-Request-Id": "ec58fe3e-3e75-4548-b1cd-856401f72ffa",
+        "X-Runtime": "0.079737",
         "Content-Length": "0"
       },
       "response_content_type": "text/html",
-      "curl": "curl \"http://localhost:3000/admin/coupons/1\" -d '' -X DELETE \\\n\t-H \"Access-Token: BMSqGlARaMy2qqTU-xF65g\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: CV-rrBTlxHBNQm1_mZ1GGw\" \\\n\t-H \"Expiry: 1474824387\" \\\n\t-H \"Uid: 20antonetta.fritsch@rippin.net\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/admin/coupons/1\" -d '' -X DELETE \\\n\t-H \"Access-Token: AdWsfBVuPXOfGTrjcEnYDg\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: 9X2pPRECvuWRtLLBHOm0KQ\" \\\n\t-H \"Expiry: 1475008569\" \\\n\t-H \"Uid: 20joanne@steuberpowlowski.info\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

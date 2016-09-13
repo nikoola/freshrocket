@@ -28,17 +28,17 @@
       "request_content_type": null,
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "[\n  {\n    \"id\": 1,\n    \"name\": \"Bengaluru\",\n    \"active\": true\n  },\n  {\n    \"id\": 2,\n    \"name\": \"Ahmedabad\",\n    \"active\": true\n  },\n  {\n    \"id\": 3,\n    \"name\": \"Hyderabad\",\n    \"active\": true\n  },\n  {\n    \"id\": 6,\n    \"name\": \"Pune\",\n    \"active\": true\n  },\n  {\n    \"id\": 7,\n    \"name\": \"Jaipur\",\n    \"active\": true\n  },\n  {\n    \"id\": 8,\n    \"name\": \"Surat\",\n    \"active\": true\n  },\n  {\n    \"id\": 9,\n    \"name\": \"Lucknow\",\n    \"active\": true\n  }\n]",
+      "response_body": "[\n  {\n    \"id\": 1,\n    \"name\": \"Ranipet\",\n    \"active\": true\n  },\n  {\n    \"id\": 2,\n    \"name\": \"Anantapur\",\n    \"active\": true\n  },\n  {\n    \"id\": 3,\n    \"name\": \"Arrah\",\n    \"active\": true\n  },\n  {\n    \"id\": 6,\n    \"name\": \"Etawah\",\n    \"active\": true\n  },\n  {\n    \"id\": 7,\n    \"name\": \"Bharatpur\",\n    \"active\": true\n  },\n  {\n    \"id\": 8,\n    \"name\": \"Begusarai\",\n    \"active\": true\n  },\n  {\n    \"id\": 9,\n    \"name\": \"New Delhi\",\n    \"active\": true\n  }\n]",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"813ac4815ca3ab7841724dc90a9377a1\"",
+        "ETag": "W/\"da930355b1ee4b98c7a3f950a1d866e7\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "X-Request-Id": "e02a0b7d-ac75-4f68-9734-ed4597bab953",
-        "X-Runtime": "0.014239",
-        "Content-Length": "281"
+        "X-Request-Id": "42613edb-922e-4fb4-a61b-8fc747624b37",
+        "X-Runtime": "0.032148",
+        "Content-Length": "286"
       },
       "response_content_type": "application/json; charset=utf-8",
       "curl": "curl \"http://localhost:3000/cities?active=1\" -X GET \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""

@@ -16,11 +16,11 @@
       "request_path": "/client/addresses/1",
       "request_body": "address[street_and_house]=good",
       "request_headers": {
-        "Access-Token": "QeI7iVDle1MjU5E1ZJHHSQ",
+        "Access-Token": "IbG-6a-qw22clo9Hct1EVw",
         "Token-Type": "Bearer",
-        "Client": "yPlLrrSIbK1mpz-6YNj4EQ",
-        "Expiry": "1474824652",
-        "Uid": "3rebekah@mclaughlin.co",
+        "Client": "uRQKJb2wqko4QBNA6NIZIA",
+        "Expiry": "1475008745",
+        "Uid": "122max_powlowski@oberbrunner.net",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -30,26 +30,26 @@
       "request_content_type": "application/x-www-form-urlencoded",
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\n  \"id\": 1,\n  \"city_id\": 2,\n  \"user_id\": 1,\n  \"street_and_house\": \"good\",\n  \"door_number\": \"5\",\n  \"active\": true,\n  \"city_name\": \"Patna\"\n}",
+      "response_body": "{\n  \"id\": 1,\n  \"city_id\": 2,\n  \"user_id\": 1,\n  \"street_and_house\": \"good\",\n  \"door_number\": \"5\",\n  \"active\": true,\n  \"city_name\": \"Nadiad\"\n}",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
-        "access-token": "QeI7iVDle1MjU5E1ZJHHSQ",
+        "access-token": "IbG-6a-qw22clo9Hct1EVw",
         "token-type": "Bearer",
-        "client": "yPlLrrSIbK1mpz-6YNj4EQ",
-        "expiry": "1474824652",
-        "uid": "3rebekah@mclaughlin.co",
+        "client": "uRQKJb2wqko4QBNA6NIZIA",
+        "expiry": "1475008745",
+        "uid": "122max_powlowski@oberbrunner.net",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"34ca416b5692e9eadba2f88a8de6db53\"",
+        "ETag": "W/\"d44e980c680e693fe583a4ad3c41972b\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=V1Uwa1d4Y0x0N1F3ZFU1V2d5OEVEbkZmV0Rsa1hjbWp4S0Fzb2JET0R4aEN3c2hWWW5yUFhNb0lxUG03d2ZiajEvRVQxemlVNWYvVlhVaEE5ZFpSVEpDOGpoTHlJOHpEd25OaHBoN2dCYVVmUHhWQVo0UXpPMlRkSWFhZU9GSUhQTWxMZWRGOEdLUUhtb3g1emROYWY5U3NKVXFYeXJUcjBxcklLUG91UXVIdHFhUDZrYlVkcTdiaVo0NTlpVmlJLS1NOS9SZkZlSFdVVlQyWGlrZ0svZ1FRPT0%3D--c4d3577b53d2cf90705db12c34e52c73e9d1d888; path=/; HttpOnly",
-        "X-Request-Id": "65f147b5-677e-4955-aa6d-f5c130d1cd69",
-        "X-Runtime": "0.077459",
-        "Content-Length": "110"
+        "Set-Cookie": "_session_id=eHJ3bG41QlpiYWJBejBiSXZTMkZLaUhvUVE0SXAzNkVpODBkbHF0V1NwOGNqRzVaa3R0ZmlER2p2dTVjdDc2N29TSVcyWjIzTTFZRjA0SGFiN0RQdkhsdFYyeWc4T0I4anpXZjk1d0hNWXJYSFVmaSt0ZXo5T0t1OVFSamQybmhtaHA4WjJKRHB1Mlk5N291L1paWVlqVFhvK0J1VTY5OHhLWXpRYVRlMHk0Y3JTNEt6RWowZEJZM2pqelVPSXk4LS1pbTZ0NGNHUnVSM2dMZXJUck93NVVRPT0%3D--762588fc0baca554bb627baad49a5bf09ca248f3; path=/; HttpOnly",
+        "X-Request-Id": "b07ef578-bb75-41a6-b5ef-bbd8ac905498",
+        "X-Runtime": "0.074329",
+        "Content-Length": "111"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/client/addresses/1\" -d 'address[street_and_house]=good' -X PUT \\\n\t-H \"Access-Token: QeI7iVDle1MjU5E1ZJHHSQ\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: yPlLrrSIbK1mpz-6YNj4EQ\" \\\n\t-H \"Expiry: 1474824652\" \\\n\t-H \"Uid: 3rebekah@mclaughlin.co\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/client/addresses/1\" -d 'address[street_and_house]=good' -X PUT \\\n\t-H \"Access-Token: IbG-6a-qw22clo9Hct1EVw\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: uRQKJb2wqko4QBNA6NIZIA\" \\\n\t-H \"Expiry: 1475008745\" \\\n\t-H \"Uid: 122max_powlowski@oberbrunner.net\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

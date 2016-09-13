@@ -14,13 +14,13 @@
     {
       "request_method": "POST",
       "request_path": "/client/orders/precalculate_price",
-      "request_body": "order[line_items_attributes][][product_id]=10&order[line_items_attributes][][amount]=1000&order[coupon_code]=90311",
+      "request_body": "order[line_items_attributes][][product_id]=10&order[line_items_attributes][][amount]=1000&order[coupon_code]=18457",
       "request_headers": {
-        "Access-Token": "HwwTWM6sSiI6meziMEOKUA",
+        "Access-Token": "VaHRghI3UOxzFTysZa53WA",
         "Token-Type": "Bearer",
-        "Client": "AFfuICHtt76jGihaaE9zLQ",
-        "Expiry": "1474824768",
-        "Uid": "42adriana@nikolaus.org",
+        "Client": "hD76k_NEDDzfWsfDwO0gcg",
+        "Expiry": "1475008859",
+        "Uid": "161augusta@pouros.io",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -30,26 +30,26 @@
       "request_content_type": "application/x-www-form-urlencoded",
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\n  \"pure_product_price\": \"3000.0\",\n  \"tax\": \"150.0\",\n  \"delivery_charge\": 0,\n  \"coupon_discount\": 94,\n  \"total_price\": \"3056.0\"\n}",
+      "response_body": "{\n  \"pure_product_price\": \"3000.0\",\n  \"tax\": \"150.0\",\n  \"delivery_charge\": 0,\n  \"coupon_discount\": 54,\n  \"total_price\": \"3096.0\"\n}",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
-        "access-token": "HwwTWM6sSiI6meziMEOKUA",
+        "access-token": "VaHRghI3UOxzFTysZa53WA",
         "token-type": "Bearer",
-        "client": "AFfuICHtt76jGihaaE9zLQ",
-        "expiry": "1474824768",
-        "uid": "42adriana@nikolaus.org",
+        "client": "hD76k_NEDDzfWsfDwO0gcg",
+        "expiry": "1475008859",
+        "uid": "161augusta@pouros.io",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"281abce2151ec9a26bacc381dc217d1c\"",
+        "ETag": "W/\"725d4b13ae0166f49d7efbbd703d1fca\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=SzFvdmRDSUY4Z1lNczhLbG5OZWI5YU5YK1l3bHNVWG5YN0hGRkhSVy9zZWdIKzhacmhxWHFvTnBWcEROQVZaU3dDVXlrUW1TYmdrOFI3TnRuQTQyRzN5Zm1aYXFNRmlESUZOS0hRQmNLSVVRM1F4aGhJRWZRYkZTWXlzRnNacS81WFFuOGJlT3JvMS8rZU0zaUJzYncybXhoWTh3NEZ0M3V2dFVWOFF1amxlVExXMmc0eE41bTZrVnJlaUVDNXJpLS1RRGlaRDhZV09WRG5aSlExTkpJZGtBPT0%3D--a0b3d84d1296437bd6f5ba9d43bfa91f26a2746c; path=/; HttpOnly",
-        "X-Request-Id": "79183171-ad2f-4f3d-b192-9ac7ef56ce5a",
-        "X-Runtime": "0.074887",
+        "Set-Cookie": "_session_id=WXNaSk1KQlhhT3cybEZaUHA4aHpyMmkwRzUrdmZyRnpHOXJ2ekd2VG5NcU5CU0N4M0FqS3NtdkI1ZjVXUHhHWGhRemZYVUkzTzM2QlkvSHR1dm5jUy9RWEZFUFlZa3lVWExjNjcxSEhCR0hmNDRTMUoxWHlUWWhTUUhiZTBvVDVPL3BXU25mU205RnE4S1YrVm4xQ09GNDRyVkJNS2VLdm10d0dCMEVuVjdoUHBkeUZXenQxRmdrSUdZai9VaTR3LS1udEcxT1ZNMktXZmtOczloK1huOU5RPT0%3D--465b94b7e616fc60cbb0aa1be5735a5207a37085; path=/; HttpOnly",
+        "X-Request-Id": "cc0c73f4-6606-4adb-98f9-4871fbe61303",
+        "X-Runtime": "0.074536",
         "Content-Length": "109"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/client/orders/precalculate_price\" -d 'order[line_items_attributes][][product_id]=10&order[line_items_attributes][][amount]=1000&order[coupon_code]=90311' -X POST \\\n\t-H \"Access-Token: HwwTWM6sSiI6meziMEOKUA\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: AFfuICHtt76jGihaaE9zLQ\" \\\n\t-H \"Expiry: 1474824768\" \\\n\t-H \"Uid: 42adriana@nikolaus.org\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/client/orders/precalculate_price\" -d 'order[line_items_attributes][][product_id]=10&order[line_items_attributes][][amount]=1000&order[coupon_code]=18457' -X POST \\\n\t-H \"Access-Token: VaHRghI3UOxzFTysZa53WA\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: hD76k_NEDDzfWsfDwO0gcg\" \\\n\t-H \"Expiry: 1475008859\" \\\n\t-H \"Uid: 161augusta@pouros.io\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

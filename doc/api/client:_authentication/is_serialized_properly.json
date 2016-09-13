@@ -13,42 +13,42 @@
   "requests": [
     {
       "request_method": "GET",
-      "request_path": "/auth/validate_token?access-token=WFZnnImmT41t2A1C243Z7g&token-type=Bearer&client=cFyaHmpx-1sX1k69QEbQOw&expiry=1474824659&uid=7electa.douglas%40rosenbaum.com",
+      "request_path": "/auth/validate_token?access-token=p4WPM-QvD5R0HKKSEJyMDw&token-type=Bearer&client=ZVnk7rK9C6TxT3deS4n4aw&expiry=1475008751&uid=126alex.batz%40quigleyschmeler.net",
       "request_body": null,
       "request_headers": {
         "Host": "example.org",
         "Cookie": ""
       },
       "request_query_parameters": {
-        "access-token": "WFZnnImmT41t2A1C243Z7g",
+        "access-token": "p4WPM-QvD5R0HKKSEJyMDw",
         "token-type": "Bearer",
-        "client": "cFyaHmpx-1sX1k69QEbQOw",
-        "expiry": "1474824659",
-        "uid": "7electa.douglas@rosenbaum.com"
+        "client": "ZVnk7rK9C6TxT3deS4n4aw",
+        "expiry": "1475008751",
+        "uid": "126alex.batz@quigleyschmeler.net"
       },
       "request_content_type": null,
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\n  \"success\": true,\n  \"data\": {\n    \"id\": 1,\n    \"first_name\": \"Columbus\",\n    \"last_name\": \"Pfannerstill\",\n    \"email\": \"7electa.douglas@rosenbaum.com\",\n    \"phone\": \"6603835399\",\n    \"is_verified\": false,\n    \"provider\": \"email\",\n    \"uid\": \"7electa.douglas@rosenbaum.com\",\n    \"created_at\": \"2016-09-11T17:30:59.285Z\",\n    \"abilities\": {\n      \"orders\": 0,\n      \"products\": 0,\n      \"users\": 0,\n      \"categories\": 0,\n      \"coupons\": 0,\n      \"settings\": 0,\n      \"cities\": 0,\n      \"delivery_boy\": 0\n    },\n    \"addresses\": [\n\n    ],\n    \"orders\": [\n\n    ]\n  }\n}",
+      "response_body": "{\n  \"success\": true,\n  \"data\": {\n    \"id\": 1,\n    \"first_name\": \"Brady\",\n    \"last_name\": \"Goodwin\",\n    \"email\": \"126alex.batz@quigleyschmeler.net\",\n    \"phone\": \"4510442062\",\n    \"is_verified\": false,\n    \"provider\": \"email\",\n    \"uid\": \"126alex.batz@quigleyschmeler.net\",\n    \"created_at\": \"2016-09-13T20:39:11.723Z\",\n    \"abilities\": {\n      \"orders\": 0,\n      \"products\": 0,\n      \"users\": 0,\n      \"categories\": 0,\n      \"coupons\": 0,\n      \"settings\": 0,\n      \"cities\": 0,\n      \"delivery_boy\": 0\n    },\n    \"addresses\": [\n\n    ],\n    \"orders\": [\n\n    ]\n  }\n}",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
-        "access-token": "WFZnnImmT41t2A1C243Z7g",
+        "access-token": "p4WPM-QvD5R0HKKSEJyMDw",
         "token-type": "Bearer",
-        "client": "cFyaHmpx-1sX1k69QEbQOw",
-        "expiry": "1474824659",
-        "uid": "7electa.douglas@rosenbaum.com",
+        "client": "ZVnk7rK9C6TxT3deS4n4aw",
+        "expiry": "1475008751",
+        "uid": "126alex.batz@quigleyschmeler.net",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"14c5ee27ffa8639bf5a4f795d86745b8\"",
+        "ETag": "W/\"55f5b846ceb9049e5b3864f1c95e36e6\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=WGpGUlEwcnI0cEFmYWt2KzVZVzN3V2dsalhhcTlLcEk4RHR1c1Z2cEhwNUQrRnIzMUFkenhJL1Jad1RoVUVMdDRHZFRYQXdxOXY3TW42cmI5blZ0V0hHUHZGa2w2N3dTNklnN2lRY1RCZVQ0UHJENlpDdTJsZ1U4aGlGOWVRMklrWUdpU2hiamlqdVBxVXUxWGRJNXNCZ3BTbXE3Nlp0RHlKZzkzTDdtVHk3UzcxR21sM0JneDV4YlczL3ZxVzFHLS1KU0QwSDJ4YmdiVnVwM2c2OFFZUmJRPT0%3D--3fb8decdd4605d8bad286a829ec83adea84da663; path=/; HttpOnly",
-        "X-Request-Id": "ae3c15c7-2d8f-4181-9b62-e25c50cb4f23",
-        "X-Runtime": "0.076904",
-        "Content-Length": "404"
+        "Set-Cookie": "_session_id=U0FVUnZQL3l6ZDhjbHRRY21CSFBaeWJwaFZrNXRXY2FhQ2F6alBrNzAycU0wNmhHR1RJQm14K0U2ejl0YmhSMDFSQndhK1NjUWhZbG16aHZtV2VYTVUwRU9YM3FkRWdPbnE5dE12OXMzK2tLVGFFRHhoUmRQTzJPMGxMcnBIZ3g4cERnU09zZXdOUkxJcXJLUEpTNHNabFNlV2JkZldtSU9YZWdpb0NEUHZQVnB5Wi9CUzBrSEZIcnlmMGN6YW9aLS1KWjVlNUJyM0laSnVaWDVKOWJBWk5RPT0%3D--e3a0ddb062a350e045a89411cd6dbd7a4a8584ed; path=/; HttpOnly",
+        "X-Request-Id": "43d4a39e-4e96-49fe-a3c4-4737f19440e0",
+        "X-Runtime": "0.076500",
+        "Content-Length": "402"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/auth/validate_token?access-token=WFZnnImmT41t2A1C243Z7g&token-type=Bearer&client=cFyaHmpx-1sX1k69QEbQOw&expiry=1474824659&uid=7electa.douglas%40rosenbaum.com\" -X GET \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/auth/validate_token?access-token=p4WPM-QvD5R0HKKSEJyMDw&token-type=Bearer&client=ZVnk7rK9C6TxT3deS4n4aw&expiry=1475008751&uid=126alex.batz%40quigleyschmeler.net\" -X GET \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

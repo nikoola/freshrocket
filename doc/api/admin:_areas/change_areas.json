@@ -16,11 +16,11 @@
       "request_path": "/admin/areas/1",
       "request_body": "area[name]=good",
       "request_headers": {
-        "Access-Token": "EEAkVivPexFAhpKn1r9qUA",
+        "Access-Token": "79d3wlzHO_lxrJEsyArITA",
         "Token-Type": "Bearer",
-        "Client": "W1n5VcgQ2ZBJ9BICQD7D5Q",
-        "Expiry": "1474824382",
-        "Uid": "7andreanne@predovic.info",
+        "Client": "rjofRuez3GSuIyJsEhs9xA",
+        "Expiry": "1475008563",
+        "Uid": "7ova@volkman.io",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -35,21 +35,21 @@
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
-        "access-token": "EEAkVivPexFAhpKn1r9qUA",
+        "access-token": "79d3wlzHO_lxrJEsyArITA",
         "token-type": "Bearer",
-        "client": "W1n5VcgQ2ZBJ9BICQD7D5Q",
-        "expiry": "1474824382",
-        "uid": "7andreanne@predovic.info",
+        "client": "rjofRuez3GSuIyJsEhs9xA",
+        "expiry": "1475008563",
+        "uid": "7ova@volkman.io",
         "Content-Type": "application/json; charset=utf-8",
         "ETag": "W/\"45e468d788c466d6ec5f4c77d8c02cb9\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=b1BGdEZESDA0YS8raE5jN2JHdHJNK0lNazdTSnhEMjg2VUpuTTViOXlpdkVhNHBpcXZvSzIzWHluWFErS0Z5cEtLZkdUbWdyT2VIcnFnVTZHMHAvNkhZZmdoT2RrZmkwbXJRN0hqWVAyalU5cjhVNUU4ZGtJdkxQZXN1eG5mODUyRU12NnBWNmd5U2U0Qm5ZU3p3NW1zUlNYeEVXOUxUTjlUWHBMNE1mcnR2RjZwdzhZVi9YTGNPWStXVEFRdjlaLS02NDdHdENRS3A3Z2d6cHdtVWFwRkx3PT0%3D--53d358eb7ed27d53e57fb6092e894fc62b529835; path=/; HttpOnly",
-        "X-Request-Id": "bfe11116-bb7c-4979-b7a2-4a5c8e41fc7d",
-        "X-Runtime": "0.077732",
+        "Set-Cookie": "_session_id=ZmFmdXpQR1Bza0ErNUZ4S3VEM1IyZXpxZEc1MkwzWWpOM3JndmVhKy9GaE41RDNPRTM5T1ZNMGd4SXZsZFpXaCsxK1liQXgwRXlBSXQ5ckV1R0J4ZS9nR2NxNVNrNHRJa215NE9MNU5ydTlZNW9ZZ2pvaER1NTJrY1FtNFFVMVl6QkJlaERBZy9oMWVodDhiRGNwUWVrYnpvTWNMUUhRdkk2SlFpTjNZYW1EbERQM3lwNktWaHZwRDVKUG9DYy8xLS1oSVRGb1RoKzkxY2dtbUs0Sk9BeE5BPT0%3D--9297ea17f534324e17e18dbf3c0c688b3e199729; path=/; HttpOnly",
+        "X-Request-Id": "e050ae21-2fca-4703-95f7-9937ce2f057f",
+        "X-Runtime": "0.081062",
         "Content-Length": "101"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/admin/areas/1\" -d 'area[name]=good' -X PUT \\\n\t-H \"Access-Token: EEAkVivPexFAhpKn1r9qUA\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: W1n5VcgQ2ZBJ9BICQD7D5Q\" \\\n\t-H \"Expiry: 1474824382\" \\\n\t-H \"Uid: 7andreanne@predovic.info\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/admin/areas/1\" -d 'area[name]=good' -X PUT \\\n\t-H \"Access-Token: 79d3wlzHO_lxrJEsyArITA\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: rjofRuez3GSuIyJsEhs9xA\" \\\n\t-H \"Expiry: 1475008563\" \\\n\t-H \"Uid: 7ova@volkman.io\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

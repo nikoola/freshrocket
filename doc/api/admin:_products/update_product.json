@@ -1,0 +1,55 @@
+{
+  "resource": "admin: products",
+  "http_method": "PUT",
+  "route": "/admin/products/:id",
+  "description": "update product",
+  "explanation": null,
+  "parameters": [
+
+  ],
+  "response_fields": [
+
+  ],
+  "requests": [
+    {
+      "request_method": "PUT",
+      "request_path": "/admin/products/1",
+      "request_body": "product[title]=hi",
+      "request_headers": {
+        "Access-Token": "D8_BQAnBIr6PyBjTQVKheg",
+        "Token-Type": "Bearer",
+        "Client": "PdPE_QRLsZJ-lObE4SriHw",
+        "Expiry": "1475008660",
+        "Uid": "74shaylee@johns.org",
+        "Host": "example.org",
+        "Content-Type": "application/x-www-form-urlencoded",
+        "Cookie": ""
+      },
+      "request_query_parameters": {
+      },
+      "request_content_type": "application/x-www-form-urlencoded",
+      "response_status": 200,
+      "response_status_text": "OK",
+      "response_body": "{\n  \"id\": 1,\n  \"city_id\": 1,\n  \"title\": \"hi\",\n  \"price\": \"3.0\",\n  \"description\": null,\n  \"created_at\": \"2016-09-13T20:37:40.821Z\",\n  \"updated_at\": \"2016-09-13T20:37:40.988Z\",\n  \"inventory_count\": 20,\n  \"image_url\": \"https://freshrocket-test.s3.amazonaws.com/uploads/product/image/default.png\",\n  \"categories\": [\n\n  ],\n  \"options\": [\n\n  ]\n}",
+      "response_headers": {
+        "X-Frame-Options": "SAMEORIGIN",
+        "X-XSS-Protection": "1; mode=block",
+        "X-Content-Type-Options": "nosniff",
+        "access-token": "D8_BQAnBIr6PyBjTQVKheg",
+        "token-type": "Bearer",
+        "client": "PdPE_QRLsZJ-lObE4SriHw",
+        "expiry": "1475008660",
+        "uid": "74shaylee@johns.org",
+        "Content-Type": "application/json; charset=utf-8",
+        "ETag": "W/\"cf68afdd38bb5d67ebc4dc0b39b8b637\"",
+        "Cache-Control": "max-age=0, private, must-revalidate",
+        "Set-Cookie": "_session_id=SmJsb3YwM0FKcXRGTmloQmVNUENtLzFNaXRoa1FITlorSFI0dnF5bHRPZVV6c3hic2NHWWZGR0E2SnRzWmZtZ0VxSGtXRERQYlFmY3l1VVB5ZzJ3dXJ6cStTWDRIcTB1OGU0VXpUQmxhK2NsK2pVOVA0azNzdzdsdzVZZ255cGE5bXNhSVVSbGUzTTNVaHhia3dLMG5VeURLNWtRS2JycnhQYUNvWjdCVnY5aHNGM1hSVnNDdGpJaFRRRmJ2V2EwLS12N1VtdG9HcEg4QzVtd3lhM004cmlRPT0%3D--afd911ec9031cc7e01b413cd97acde0ff7846cca; path=/; HttpOnly",
+        "X-Request-Id": "9501cb4c-9a16-41a4-bfa5-028c0313370f",
+        "X-Runtime": "0.082607",
+        "Content-Length": "286"
+      },
+      "response_content_type": "application/json; charset=utf-8",
+      "curl": "curl \"http://localhost:3000/admin/products/1\" -d 'product[title]=hi' -X PUT \\\n\t-H \"Access-Token: D8_BQAnBIr6PyBjTQVKheg\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: PdPE_QRLsZJ-lObE4SriHw\" \\\n\t-H \"Expiry: 1475008660\" \\\n\t-H \"Uid: 74shaylee@johns.org\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+    }
+  ]
+}

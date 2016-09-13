@@ -1,0 +1,55 @@
+{
+  "resource": "admin: users",
+  "http_method": "PUT",
+  "route": "/admin/users/:id",
+  "description": "update user",
+  "explanation": null,
+  "parameters": [
+
+  ],
+  "response_fields": [
+
+  ],
+  "requests": [
+    {
+      "request_method": "PUT",
+      "request_path": "/admin/users/1",
+      "request_body": "user[email]=hi%40hi.hey&user[phone]=4477445171",
+      "request_headers": {
+        "Access-Token": "QSQ4zBPg-HL_iLDnIkiCPw",
+        "Token-Type": "Bearer",
+        "Client": "eIF_JixnexclucLKiRkCaw",
+        "Expiry": "1475008686",
+        "Uid": "105jackie@grantko.io",
+        "Host": "example.org",
+        "Content-Type": "application/x-www-form-urlencoded",
+        "Cookie": ""
+      },
+      "request_query_parameters": {
+      },
+      "request_content_type": "application/x-www-form-urlencoded",
+      "response_status": 200,
+      "response_status_text": "OK",
+      "response_body": "{\n  \"id\": 1,\n  \"first_name\": \"Addison\",\n  \"last_name\": \"Kutch\",\n  \"email\": \"hi@hi.hey\",\n  \"phone\": \"4477445171\",\n  \"is_verified\": false,\n  \"provider\": \"email\",\n  \"uid\": \"hi@hi.hey\",\n  \"created_at\": \"2016-09-13T20:38:06.138Z\",\n  \"abilities\": {\n    \"orders\": 0,\n    \"products\": 0,\n    \"users\": 0,\n    \"categories\": 1,\n    \"coupons\": 0,\n    \"settings\": 0,\n    \"cities\": 0,\n    \"delivery_boy\": 0\n  },\n  \"addresses\": [\n\n  ],\n  \"orders\": [\n\n  ]\n}",
+      "response_headers": {
+        "X-Frame-Options": "SAMEORIGIN",
+        "X-XSS-Protection": "1; mode=block",
+        "X-Content-Type-Options": "nosniff",
+        "access-token": "QSQ4zBPg-HL_iLDnIkiCPw",
+        "token-type": "Bearer",
+        "client": "eIF_JixnexclucLKiRkCaw",
+        "expiry": "1475008686",
+        "uid": "105jackie@grantko.io",
+        "Content-Type": "application/json; charset=utf-8",
+        "ETag": "W/\"6ba4ca336b5f7427432ede38476bb185\"",
+        "Cache-Control": "max-age=0, private, must-revalidate",
+        "Set-Cookie": "_session_id=K2hjRnlqSFdTUDFqRUQyR1ZNeU9pVmZNMlphMCt2STFkN0phazFLdTBZOWxuOGRaQWpKV2dBWlVjNzhJS21YamYwNUNUSW9JZldBZVEyWVJWYmVmZk4zbE9KckZOVTdYWi8yYjR5QlVQcm5EblRKZkJ2MHRvbk5qR3F1cnBmQmdYb21IY3dUY05NZzA2djZWaWhMcmh3ajdyekd4WjJOL3hUUi9sUnUxVTlqTWhneUh5UGVIRE5Cd2RPK0c0MSttLS05ZVRwWXpoQk9wc3JSaUVqQmY2UktRPT0%3D--2571d0465a38add6364fb3046b8d068d18a91db7; path=/; HttpOnly",
+        "X-Request-Id": "991cae73-e01a-4a02-8563-702580722d24",
+        "X-Runtime": "0.084312",
+        "Content-Length": "332"
+      },
+      "response_content_type": "application/json; charset=utf-8",
+      "curl": "curl \"http://localhost:3000/admin/users/1\" -d 'user[email]=hi%40hi.hey&user[phone]=4477445171' -X PUT \\\n\t-H \"Access-Token: QSQ4zBPg-HL_iLDnIkiCPw\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: eIF_JixnexclucLKiRkCaw\" \\\n\t-H \"Expiry: 1475008686\" \\\n\t-H \"Uid: 105jackie@grantko.io\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+    }
+  ]
+}

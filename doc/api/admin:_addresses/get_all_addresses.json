@@ -19,11 +19,11 @@
       "request_path": "/admin/addresses?active=0",
       "request_body": null,
       "request_headers": {
-        "Access-Token": "pN9CWzBLh2a2TkC03Iozuw",
+        "Access-Token": "gQ6QQXS4TY2jKQjcOxfm1A",
         "Token-Type": "Bearer",
-        "Client": "53EYiBFHKnrX1yaLOKDaqw",
-        "Expiry": "1474824340",
-        "Uid": "1sebastian.miller@rathlebsack.org",
+        "Client": "VG_VOwgOzHW-pkcUFS0iVQ",
+        "Expiry": "1475008519",
+        "Uid": "1berneice@schimmelsanford.org",
         "Host": "example.org",
         "Cookie": ""
       },
@@ -38,21 +38,21 @@
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
-        "access-token": "pN9CWzBLh2a2TkC03Iozuw",
+        "access-token": "gQ6QQXS4TY2jKQjcOxfm1A",
         "token-type": "Bearer",
-        "client": "53EYiBFHKnrX1yaLOKDaqw",
-        "expiry": "1474824340",
-        "uid": "1sebastian.miller@rathlebsack.org",
+        "client": "VG_VOwgOzHW-pkcUFS0iVQ",
+        "expiry": "1475008519",
+        "uid": "1berneice@schimmelsanford.org",
         "Content-Type": "application/json; charset=utf-8",
         "ETag": "W/\"d8ee08754f36462f7214141e94c27b08\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=WWtQNGVjK2ZTcHBkSU8zVXh1RnhycUFDN1RpQlIwY1pkTVY4RS9TVnhOOVZXTTVTREdJU2tUMm1WeTJaUTBDWlJJcWU2YThQUzYvOTR5cTQrd1F0RzAwT1lULzFzRWdqbGtDSjNGbnRhUlJ2VWwraFU3eE1ER3BGKzBNc1JJV2JQNmRKRndTR0d0NWVrbGROZEdaZzFpQW9hb3REUDk3TVZGem91VERTbElIYVFtUjZBTU54ZTBKdmowNlFDSTRhLS1laVpkYk40c2NWS2tRcmdjalA0YVpnPT0%3D--40b32198fe759b87716ecc9976b485d8ee3fcf6e; path=/; HttpOnly",
-        "X-Request-Id": "b1d835ce-ab3f-45e5-87a9-d1ff943a30df",
-        "X-Runtime": "0.133556",
+        "Set-Cookie": "_session_id=SnRFZUxFREJFc0VtZTRhTHo1TnV2VVMvMVQwSWtMZUZOTnZocDdPTXFNd1ZHRy9sRlUwSEZCRHhBTUFzOWplcE11emFZVEJIcFFMckFoRjJvaGo0RS92SWNjVmp5TXJMU3dHbnFnK0U4L2Q5ak1tVitQMGNVeWswUlY5bnlwcGZqWVJ4Q3ZZbEJLV2c1U0duQ1dNSHRCZHQ5Y0ZFL1NQb25KZjFZcGRzUzU5U2NsQTVlMTR6TWR6Q0VOUGhlemNkLS1idFR3a2dvaThUNnhUMXEydWk5cFF3PT0%3D--e22601c9637e056a6a942584b6ef6bde6b866d06; path=/; HttpOnly",
+        "X-Request-Id": "5f935e2b-16e7-423d-afd2-9c5f7ce5d4b6",
+        "X-Runtime": "0.130548",
         "Content-Length": "594"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/admin/addresses?active=0\" -X GET \\\n\t-H \"Access-Token: pN9CWzBLh2a2TkC03Iozuw\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: 53EYiBFHKnrX1yaLOKDaqw\" \\\n\t-H \"Expiry: 1474824340\" \\\n\t-H \"Uid: 1sebastian.miller@rathlebsack.org\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/admin/addresses?active=0\" -X GET \\\n\t-H \"Access-Token: gQ6QQXS4TY2jKQjcOxfm1A\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: VG_VOwgOzHW-pkcUFS0iVQ\" \\\n\t-H \"Expiry: 1475008519\" \\\n\t-H \"Uid: 1berneice@schimmelsanford.org\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

@@ -1,0 +1,60 @@
+{
+  "resource": "admin: orders",
+  "http_method": "GET",
+  "route": "/admin/orders/:id",
+  "description": "get order",
+  "explanation": "user with :order ability can get any order",
+  "parameters": [
+    {
+      "name": "include",
+      "description": "line_items, address - whether to include association"
+    }
+  ],
+  "response_fields": [
+
+  ],
+  "requests": [
+    {
+      "request_method": "GET",
+      "request_path": "/admin/orders/1?include[]=address",
+      "request_body": null,
+      "request_headers": {
+        "Access-Token": "7El7LzPBefdx2gcX18NmdA",
+        "Token-Type": "Bearer",
+        "Client": "AXwhmo34mk_kq1Cx7YiGYQ",
+        "Expiry": "1475008625",
+        "Uid": "49emerald.mann@bashirianbayer.com",
+        "Host": "example.org",
+        "Cookie": ""
+      },
+      "request_query_parameters": {
+        "include": [
+          "address"
+        ]
+      },
+      "request_content_type": null,
+      "response_status": 200,
+      "response_status_text": "OK",
+      "response_body": "{\n  \"id\": 1,\n  \"user_id\": 1,\n  \"status\": \"unconfirmed\",\n  \"created_at\": \"2016-09-13T20:37:05.542Z\",\n  \"confirmed_at\": null,\n  \"approved_at\": null,\n  \"dispacthed_at\": null,\n  \"delivered_at\": null,\n  \"canceled_at\": null,\n  \"pure_product_price\": \"27.0\",\n  \"tax\": \"1.35\",\n  \"delivery_charge\": \"200.0\",\n  \"total_price\": \"228.35\",\n  \"coupon_code\": null,\n  \"delivery_boy_id\": null,\n  \"delivery_boy_phone\": null,\n  \"wanted_time\": null,\n  \"wanted_date\": null,\n  \"payment_type\": \"cash\",\n  \"is_paid\": false,\n  \"feedback\": null,\n  \"comment\": null,\n  \"source_type\": null,\n  \"admin_comment\": null,\n  \"address\": {\n    \"id\": 1,\n    \"city_id\": 5,\n    \"user_id\": 2,\n    \"street_and_house\": \"Maharashtra 413713, India\",\n    \"door_number\": \"5\",\n    \"active\": true,\n    \"city_name\": \"Loni\"\n  }\n}",
+      "response_headers": {
+        "X-Frame-Options": "SAMEORIGIN",
+        "X-XSS-Protection": "1; mode=block",
+        "X-Content-Type-Options": "nosniff",
+        "access-token": "7El7LzPBefdx2gcX18NmdA",
+        "token-type": "Bearer",
+        "client": "AXwhmo34mk_kq1Cx7YiGYQ",
+        "expiry": "1475008625",
+        "uid": "49emerald.mann@bashirianbayer.com",
+        "Content-Type": "application/json; charset=utf-8",
+        "ETag": "W/\"e792b426243d273cfbfbc980547f7489\"",
+        "Cache-Control": "max-age=0, private, must-revalidate",
+        "Set-Cookie": "_session_id=dlY4WVVabnc2eDNIUko4SjE2NmE2MUxyRjgvb2o2ZE1HVVFSTkFIcVhlc3F4UWwrRWJSNTR4SmlDbHVKYTdIZFdCcktObGl0RURJT0VuUGlhYTlmL1hsN3B0YVF6RE5HemJ1T3M3ai9DL0ZTNkNJc01la3lrbVlFZjBXM0hOVW4zTFFmd0d3SytkZGl3alQyK2NoNHpUQ3prcUU2Vm1qZFZEQ0RBT1pTeEc1cDVVTWgyQTYwazBTZlZlQUNDdHY4LS1TS3o4bjBSMmlha2cyQlVQWGtSVHB3PT0%3D--0ff340463be5d38abaa16099d71a40e5df17d9ef; path=/; HttpOnly",
+        "X-Request-Id": "de3fd82b-881e-4b92-869c-c586fe834c70",
+        "X-Runtime": "0.092229",
+        "Content-Length": "628"
+      },
+      "response_content_type": "application/json; charset=utf-8",
+      "curl": "curl \"http://localhost:3000/admin/orders/1?include[]=address\" -X GET \\\n\t-H \"Access-Token: 7El7LzPBefdx2gcX18NmdA\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: AXwhmo34mk_kq1Cx7YiGYQ\" \\\n\t-H \"Expiry: 1475008625\" \\\n\t-H \"Uid: 49emerald.mann@bashirianbayer.com\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
+    }
+  ]
+}

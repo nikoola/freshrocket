@@ -47,13 +47,13 @@
     {
       "request_method": "POST",
       "request_path": "/auth",
-      "request_body": "email=47glenna_durgan%40bernier.name&password=secrety_bickety&password_confirmation=secrety_bickety&first_name=Elvie&last_name=Wuckert&phone=8240502558",
+      "request_body": "email=166kristoffer%40douglasgleichner.net&password=secrety_bickety&password_confirmation=secrety_bickety&first_name=Bennett&last_name=Reichert&phone=8565676700",
       "request_headers": {
-        "Access-Token": "Mlm5TfyceXF80gcxQkLIRQ",
+        "Access-Token": "Zhyno21Ivtf6AbjamBqrfQ",
         "Token-Type": "Bearer",
-        "Client": "M6xAfUaOmyOrnWjhb3ygEw",
-        "Expiry": "1474824774",
-        "Uid": "48baron@goyette.com",
+        "Client": "mA5H3uvmidW_RjgMAhrUnQ",
+        "Expiry": "1475008865",
+        "Uid": "167roger_schamberger@schroederweinat.biz",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -63,25 +63,25 @@
       "request_content_type": "application/x-www-form-urlencoded",
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\n  \"status\": \"success\",\n  \"data\": {\n    \"id\": 6,\n    \"first_name\": \"Elvie\",\n    \"last_name\": \"Wuckert\",\n    \"email\": \"47glenna_durgan@bernier.name\",\n    \"provider\": \"email\",\n    \"uid\": \"47glenna_durgan@bernier.name\",\n    \"phone\": \"8240502558\",\n    \"verification_code\": null,\n    \"is_verified\": false,\n    \"created_at\": \"2016-09-11T17:32:54.499Z\",\n    \"updated_at\": \"2016-09-11T17:32:54.563Z\",\n    \"how_did_you_hear_about_us\": null\n  }\n}",
+      "response_body": "{\n  \"status\": \"success\",\n  \"data\": {\n    \"id\": 6,\n    \"first_name\": \"Bennett\",\n    \"last_name\": \"Reichert\",\n    \"email\": \"166kristoffer@douglasgleichner.net\",\n    \"provider\": \"email\",\n    \"uid\": \"166kristoffer@douglasgleichner.net\",\n    \"phone\": \"8565676700\",\n    \"verification_code\": null,\n    \"is_verified\": false,\n    \"created_at\": \"2016-09-13T20:41:05.427Z\",\n    \"updated_at\": \"2016-09-13T20:41:05.491Z\",\n    \"how_did_you_hear_about_us\": null\n  }\n}",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
-        "access-token": "P7pkjSbV66EsAv0FcnakWw",
+        "access-token": "wB8dcCLK0ZIUsA8PETLWVw",
         "token-type": "Bearer",
-        "client": "81XkAcBaJu5k3ZrmKZEMNw",
-        "expiry": "1474824774",
-        "uid": "47glenna_durgan@bernier.name",
+        "client": "ZkVJiXqS2sZgGkjeFdzhRw",
+        "expiry": "1475008865",
+        "uid": "166kristoffer@douglasgleichner.net",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"793e346982fed7cdcd650a8848d41a85\"",
+        "ETag": "W/\"783e667fba958f0b6047e892fc8dbd89\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "X-Request-Id": "c6f85e44-6dbb-4743-927d-e873c53c9089",
-        "X-Runtime": "0.158917",
-        "Content-Length": "353"
+        "X-Request-Id": "cb192847-af4e-4510-8e59-d9e168001ea3",
+        "X-Runtime": "0.130991",
+        "Content-Length": "368"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/auth\" -d 'email=47glenna_durgan%40bernier.name&password=secrety_bickety&password_confirmation=secrety_bickety&first_name=Elvie&last_name=Wuckert&phone=8240502558' -X POST \\\n\t-H \"Access-Token: Mlm5TfyceXF80gcxQkLIRQ\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: M6xAfUaOmyOrnWjhb3ygEw\" \\\n\t-H \"Expiry: 1474824774\" \\\n\t-H \"Uid: 48baron@goyette.com\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/auth\" -d 'email=166kristoffer%40douglasgleichner.net&password=secrety_bickety&password_confirmation=secrety_bickety&first_name=Bennett&last_name=Reichert&phone=8565676700' -X POST \\\n\t-H \"Access-Token: Zhyno21Ivtf6AbjamBqrfQ\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: mA5H3uvmidW_RjgMAhrUnQ\" \\\n\t-H \"Expiry: 1475008865\" \\\n\t-H \"Uid: 167roger_schamberger@schroederweinat.biz\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

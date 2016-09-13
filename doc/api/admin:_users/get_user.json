@@ -1,0 +1,54 @@
+{
+  "resource": "admin: users",
+  "http_method": "GET",
+  "route": "/admin/users/:id",
+  "description": "get user",
+  "explanation": null,
+  "parameters": [
+
+  ],
+  "response_fields": [
+
+  ],
+  "requests": [
+    {
+      "request_method": "GET",
+      "request_path": "/admin/users/1",
+      "request_body": null,
+      "request_headers": {
+        "Access-Token": "eGUvtFnKGsb3lP8wxxkqxg",
+        "Token-Type": "Bearer",
+        "Client": "MsFf8QmmPh_BiriQ1lPOcw",
+        "Expiry": "1475008685",
+        "Uid": "98ali@hermiston.net",
+        "Host": "example.org",
+        "Cookie": ""
+      },
+      "request_query_parameters": {
+      },
+      "request_content_type": null,
+      "response_status": 200,
+      "response_status_text": "OK",
+      "response_body": "{\n  \"id\": 1,\n  \"first_name\": \"Lavonne\",\n  \"last_name\": \"Considine\",\n  \"email\": \"97wayne.braun@goldnerrobel.info\",\n  \"phone\": \"1701741407\",\n  \"is_verified\": false,\n  \"provider\": \"email\",\n  \"uid\": \"97wayne.braun@goldnerrobel.info\",\n  \"created_at\": \"2016-09-13T20:38:05.571Z\",\n  \"abilities\": {\n    \"orders\": 0,\n    \"products\": 0,\n    \"users\": 0,\n    \"categories\": 1,\n    \"coupons\": 0,\n    \"settings\": 0,\n    \"cities\": 0,\n    \"delivery_boy\": 0\n  },\n  \"addresses\": [\n\n  ],\n  \"orders\": [\n\n  ]\n}",
+      "response_headers": {
+        "X-Frame-Options": "SAMEORIGIN",
+        "X-XSS-Protection": "1; mode=block",
+        "X-Content-Type-Options": "nosniff",
+        "access-token": "eGUvtFnKGsb3lP8wxxkqxg",
+        "token-type": "Bearer",
+        "client": "MsFf8QmmPh_BiriQ1lPOcw",
+        "expiry": "1475008685",
+        "uid": "98ali@hermiston.net",
+        "Content-Type": "application/json; charset=utf-8",
+        "ETag": "W/\"d7fa7f949fc8f979b73b978028ff25b8\"",
+        "Cache-Control": "max-age=0, private, must-revalidate",
+        "Set-Cookie": "_session_id=ZmxmclN0TVY1T3ZCZXd6NXNqTnltYy96U1pLNVBKTUlkL1BlV0RQTVREeUY3bStnMmpIVzJPRnZsdHVWV3pVUWFpSkhIRjdIS0FUV1Z3Q3NaZmU3RWFBSXZsVXlleUVuZERVQ3piZGtncTQyd1EzeVFtcThPeUhXUUxOcUFmUEZ6OU85bU9IZlN2YWhTKzBaYnlOT3Z4WmltcVVVRUFEaGJ2dnNDV0txbjJ6YXhZWVRURzJSUWdlcWI3bno0ZURLLS1QMTlBSitSWHJuYlRPUkZSbmNWT1lRPT0%3D--219fc33f21c0b639752123400b0adfd159fa1c81; path=/; HttpOnly",
+        "X-Request-Id": "346a7403-3d53-41ef-9e57-fc4ca1c84725",
+        "X-Runtime": "0.087943",
+        "Content-Length": "380"
+      },
+      "response_content_type": "application/json; charset=utf-8",
+      "curl": "curl \"http://localhost:3000/admin/users/1\" -X GET \\\n\t-H \"Access-Token: eGUvtFnKGsb3lP8wxxkqxg\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: MsFf8QmmPh_BiriQ1lPOcw\" \\\n\t-H \"Expiry: 1475008685\" \\\n\t-H \"Uid: 98ali@hermiston.net\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
+    }
+  ]
+}

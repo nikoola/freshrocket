@@ -26,11 +26,11 @@
       "request_path": "/admin/cities",
       "request_body": "city[name]=Kalyan-Dombivali",
       "request_headers": {
-        "Access-Token": "ofrUTjayxKd8jIRaCwpBFA",
+        "Access-Token": "wtspzr0tjJ7aCLFdy1x4EQ",
         "Token-Type": "Bearer",
-        "Client": "3qEEkRMcVxB4OoA9JOpIMQ",
-        "Expiry": "1474824386",
-        "Uid": "14ethelyn_gaylord@ziemanncarroll.com",
+        "Client": "bKSQw0qscpiWpw3kXM8FtQ",
+        "Expiry": "1475008568",
+        "Uid": "14eino.gibson@emmerichzulauf.info",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -46,21 +46,21 @@
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
         "Location": "http://example.org/cities/1",
-        "access-token": "ofrUTjayxKd8jIRaCwpBFA",
+        "access-token": "wtspzr0tjJ7aCLFdy1x4EQ",
         "token-type": "Bearer",
-        "client": "3qEEkRMcVxB4OoA9JOpIMQ",
-        "expiry": "1474824386",
-        "uid": "14ethelyn_gaylord@ziemanncarroll.com",
+        "client": "bKSQw0qscpiWpw3kXM8FtQ",
+        "expiry": "1475008568",
+        "uid": "14eino.gibson@emmerichzulauf.info",
         "Content-Type": "application/json; charset=utf-8",
         "ETag": "W/\"e6b32dc84da4c25b5c15ec14719b9f6f\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=dXZHaGxTeDFuMFplcm5WejdNVmdLVUgzUlVtL2ZlMGk2QkJnS2dlU0p3bzU0WGs5NXdBbDZvSlgxQzlWVDJuWi9qMDYwbEZ2UTR2M1lPUUxyTXpubDBSN29vVnNMWDU1aHlYdk5Oa0dqREtzd1hQVFA1Z281UTVxU3JMcGVMdE03ZkJ5aGZ4RWJPcjNCeGxxSjN1eEZGQUVLTWYydEVKcXJuWkQ0a09EVjZad3dVZXNwYkNNbmdTdVRvRGhuRkswLS1yU3JiVHNOTDExVEV3endFMEVNK1lRPT0%3D--245df1df96c160e7b0aaacb45342f532317d63a2; path=/; HttpOnly",
-        "X-Request-Id": "0925f46e-0f5e-4cb9-8f4c-3ac72d12850c",
-        "X-Runtime": "0.091142",
+        "Set-Cookie": "_session_id=RmV4OVdxaFo2VCt6Z2g5emZHSlFlQ3RKV0p0eEpQRVN2ZHFBMU1oM2xoOHFKRllodXprT3oyandWVFMvZVNnWGZoMmJaUE9jczN1blhDS3Q3VTJTRnQzTUFpdUdFQkpOVFp0OWNzQ3A4elRjZW1STzNOd1pQTFUrSzdMSjFkd0ZlUitDVitTS082VDh4bGVON0dqdU1tMllWVUR2a0w5bXFNUVpRNFlxRGFBQVR2R0lseTExUThIczhwNzkvN1dpLS04SG5ZdFRPN0RBbGVHNVo5bGp1UXl3PT0%3D--5db266d4d25da5e50d40cc95adfa216ea18a97df; path=/; HttpOnly",
+        "X-Request-Id": "eafd6a9e-f80e-4746-9f83-ae55350f72b1",
+        "X-Runtime": "0.093322",
         "Content-Length": "48"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/admin/cities\" -d 'city[name]=Kalyan-Dombivali' -X POST \\\n\t-H \"Access-Token: ofrUTjayxKd8jIRaCwpBFA\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: 3qEEkRMcVxB4OoA9JOpIMQ\" \\\n\t-H \"Expiry: 1474824386\" \\\n\t-H \"Uid: 14ethelyn_gaylord@ziemanncarroll.com\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/admin/cities\" -d 'city[name]=Kalyan-Dombivali' -X POST \\\n\t-H \"Access-Token: wtspzr0tjJ7aCLFdy1x4EQ\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: bKSQw0qscpiWpw3kXM8FtQ\" \\\n\t-H \"Expiry: 1475008568\" \\\n\t-H \"Uid: 14eino.gibson@emmerichzulauf.info\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

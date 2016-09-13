@@ -1,0 +1,59 @@
+{
+  "resource": "admin: orders",
+  "http_method": "PUT",
+  "route": "/admin/orders/:id/update_status",
+  "description": "cant update to dispatched if delivery has no delivery_boy",
+  "explanation": null,
+  "parameters": [
+    {
+      "scope": "order",
+      "required": true,
+      "name": "action",
+      "description": ":approve, :dispatch, :deliver, :cancel"
+    }
+  ],
+  "response_fields": [
+
+  ],
+  "requests": [
+    {
+      "request_method": "PUT",
+      "request_path": "/admin/orders/1/update_status",
+      "request_body": "order[action]=dispatch",
+      "request_headers": {
+        "Access-Token": "xMRrTPAVnqCcb9p9HxkkhA",
+        "Token-Type": "Bearer",
+        "Client": "9wQ0vvo-AJajGgqxcszr1A",
+        "Expiry": "1475008659",
+        "Uid": "69haleigh_bosco@bruenlangosh.com",
+        "Host": "example.org",
+        "Content-Type": "application/x-www-form-urlencoded",
+        "Cookie": ""
+      },
+      "request_query_parameters": {
+      },
+      "request_content_type": "application/x-www-form-urlencoded",
+      "response_status": 422,
+      "response_status_text": "Unprocessable Entity",
+      "response_body": "{\n  \"order\": [\n    \"needs to be assigned to some delivery boy before dispatching\"\n  ],\n  \"status\": [\n    \"status cannot transition from approved to dispatch\"\n  ]\n}",
+      "response_headers": {
+        "X-Frame-Options": "SAMEORIGIN",
+        "X-XSS-Protection": "1; mode=block",
+        "X-Content-Type-Options": "nosniff",
+        "access-token": "xMRrTPAVnqCcb9p9HxkkhA",
+        "token-type": "Bearer",
+        "client": "9wQ0vvo-AJajGgqxcszr1A",
+        "expiry": "1475008659",
+        "uid": "69haleigh_bosco@bruenlangosh.com",
+        "Content-Type": "application/json; charset=utf-8",
+        "Cache-Control": "no-cache",
+        "Set-Cookie": "_session_id=UjNVMjRIZ0xmTFUxUllpVzNySWdDdExuRDFKd3VhMmVqNjBjNVV3OTVuWklGTS9udUFYVnBzS0dENWsrclRZK041M2MrdmpQa0wzTmpMWDFZUkUyb1ZSaGZBdGlmVkhJckpHMUVnMVpCMmViY0J2eVBMV1lZWmc4Y2NmYzZBNWFHY3dkOFRKekdDay9ZeFR0UnZLdkVRd285MmZNMGhidmg2WE1UcjdGcXJ2SVhJMlU3RHhlOURmM0JFMFpKUG9jLS1BVUNZczFxd2RqU0p4amEwRkE1Y05BPT0%3D--92bcbb3e72d77f37276ac81a58ac5c3e6a218c33; path=/; HttpOnly",
+        "X-Request-Id": "61525432-4553-4c4d-8a23-37b5f1828f86",
+        "X-Runtime": "0.084092",
+        "Content-Length": "138"
+      },
+      "response_content_type": "application/json; charset=utf-8",
+      "curl": "curl \"http://localhost:3000/admin/orders/1/update_status\" -d 'order[action]=dispatch' -X PUT \\\n\t-H \"Access-Token: xMRrTPAVnqCcb9p9HxkkhA\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: 9wQ0vvo-AJajGgqxcszr1A\" \\\n\t-H \"Expiry: 1475008659\" \\\n\t-H \"Uid: 69haleigh_bosco@bruenlangosh.com\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+    }
+  ]
+}

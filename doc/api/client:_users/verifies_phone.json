@@ -19,11 +19,11 @@
       "request_path": "/client/verify",
       "request_body": "verification_code",
       "request_headers": {
-        "Access-Token": "NAI3OWKGIHlfn3pmamsoZw",
+        "Access-Token": "VAw3HuWYR6ttodjWP7TIaA",
         "Token-Type": "Bearer",
-        "Client": "ZiOQIqtjYmB6l8s5Sks2bA",
-        "Expiry": "1474824775",
-        "Uid": "56rosina@gerlach.com",
+        "Client": "lmgjleMpRQz6u6Fp7-Mfeg",
+        "Expiry": "1475008866",
+        "Uid": "175herta.bahringer@ritchie.org",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -38,20 +38,20 @@
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
-        "access-token": "NAI3OWKGIHlfn3pmamsoZw",
+        "access-token": "VAw3HuWYR6ttodjWP7TIaA",
         "token-type": "Bearer",
-        "client": "ZiOQIqtjYmB6l8s5Sks2bA",
-        "expiry": "1474824775",
-        "uid": "56rosina@gerlach.com",
+        "client": "lmgjleMpRQz6u6Fp7-Mfeg",
+        "expiry": "1475008866",
+        "uid": "175herta.bahringer@ritchie.org",
         "Content-Type": "text/html",
         "Cache-Control": "no-cache",
-        "Set-Cookie": "_session_id=dWcwNmxFaHZlTTF2Si9DZDI0TFJjT0YvQkFPcVpoVEhEazlJczRQT1R5dXRBcWs5Zmo3T0FRWDM1aHhodnZhbFlpYnlZMUdJN2hEOWV5Y0Y1VnVQcks3OVc1M2hHU3ZTcGt1clpDMnI5SnRsdWdCN01UQTV0RzgvSkRVcUJuRzZFVzlpUmZVN3p1dmwwQ2U4dVZUV293aVErNUlBd0RWRWZDNEpMbWFBM01FSHFPUWFMWTVoOG9pTDQrR3Y3N0l4LS1xVjJwM1BEb1p2SElyK1l5NjZ4ZW9RPT0%3D--21b04a0ab62aa0486ddbdffea86db1689e81b8c5; path=/; HttpOnly",
-        "X-Request-Id": "67375eb6-94ac-46ab-84a1-a3fdfab64fcd",
-        "X-Runtime": "0.077386",
+        "Set-Cookie": "_session_id=MUhMR0hTNDBHb1dVSCtVVVVmOGNLY0k5YjRjR2o4NHVmeWVhZnhieTFHWFd3VVBkeTNxMGs0RkpKMEF0dzZKK1NoZlRIVUt1RWNzbTNPOVVBeGtOWWtUOFRqUTNPdDVzVHhXdnFrcWFiZjhYVXlrSURxbTJRKzNManhQT3NUMmQwUlQ0RGliMVNoMldsZ3pKTmtIRnIyWXY1VElVdnp5MjVicHVpbHI2VXlyOE9OM0VrMFkrVlFPSmJ1SzFuUXNELS1NdU1vcXk5STBwK0srZitJM2htTEpBPT0%3D--87375d0f5a1d7846dcec80d5b798e15af9be2f68; path=/; HttpOnly",
+        "X-Request-Id": "9dc24444-61ec-48c4-90de-1a5195c82948",
+        "X-Runtime": "0.075083",
         "Content-Length": "0"
       },
       "response_content_type": "text/html",
-      "curl": "curl \"http://localhost:3000/client/verify\" -d 'verification_code' -X PUT \\\n\t-H \"Access-Token: NAI3OWKGIHlfn3pmamsoZw\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: ZiOQIqtjYmB6l8s5Sks2bA\" \\\n\t-H \"Expiry: 1474824775\" \\\n\t-H \"Uid: 56rosina@gerlach.com\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/client/verify\" -d 'verification_code' -X PUT \\\n\t-H \"Access-Token: VAw3HuWYR6ttodjWP7TIaA\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: lmgjleMpRQz6u6Fp7-Mfeg\" \\\n\t-H \"Expiry: 1475008866\" \\\n\t-H \"Uid: 175herta.bahringer@ritchie.org\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

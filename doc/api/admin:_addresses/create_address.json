@@ -51,11 +51,11 @@
       "request_path": "/admin/addresses",
       "request_body": "address[id]&address[user_id]=1&address[city_id]=3&address[area_id]=1&address[street_and_house]=Hazrataganj+Crossing+Bus+Stop%2C+Ashok+Marg%2C+Hazratganj%2C+Lucknow%2C+Uttar+Pradesh+226001%2C+India&address[door_number]=5&address[coordinate]&address[zip_code]&address[lat]=26.8469631&address[lng]=80.9462034&address[active]=true&address[stringified_coordinate]=%5B26.8469631%2C80.9462034%5D",
       "request_headers": {
-        "Access-Token": "N9rPc_f3J4fXD0mtEtkReA",
+        "Access-Token": "1c_8BWQ7J-PjaRXAXFB4qQ",
         "Token-Type": "Bearer",
-        "Client": "e2RSqfRfSJyRmpi9tT0SmQ",
-        "Expiry": "1474824348",
-        "Uid": "2caroline@olson.co",
+        "Client": "sqJ9u_L7PYAI6vxSVipJGg",
+        "Expiry": "1475008526",
+        "Uid": "2houston@macejkovic.net",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -70,21 +70,21 @@
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
-        "access-token": "N9rPc_f3J4fXD0mtEtkReA",
+        "access-token": "1c_8BWQ7J-PjaRXAXFB4qQ",
         "token-type": "Bearer",
-        "client": "e2RSqfRfSJyRmpi9tT0SmQ",
-        "expiry": "1474824348",
-        "uid": "2caroline@olson.co",
+        "client": "sqJ9u_L7PYAI6vxSVipJGg",
+        "expiry": "1475008526",
+        "uid": "2houston@macejkovic.net",
         "Content-Type": "application/json; charset=utf-8",
         "ETag": "W/\"67401bd522e72e311dc5f2a1c8b99e61\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=Y1U3OHFZTjBqakF0U0FKdjVWMTdOSmVNbG9BVmJBb3ZMRkl1cE5YMGVKQVludkJKUDJmUno2N2V3dm0xdVZHT2prVUhhMWk1VjM3aEJKcUpFbGlZT1NTYjZsQ01HVnZJeXlTc29CM0lzZzFHRlhPZ0FTN2lzKzlkR0gzc20wMEtnNkJGNTgvQ25nU2lVRjJtT3o5QlI0YXR3QWxZY2IxZW1xbHZUS3JQbWN0Ujh5L3lCYXBlMzkyRERPZjRkeEtXLS1RTUpOa1JWMWxaUXZLdVplaWwwMTNnPT0%3D--aeffff059d1cde9e4bca33357848a06f87cb5e6e; path=/; HttpOnly",
-        "X-Request-Id": "1e7b44d5-bdeb-47fc-8a61-4c7e78540db4",
-        "X-Runtime": "0.080480",
+        "Set-Cookie": "_session_id=ZkR4NG9UZjYzRUdDWExmb1cxWXhzZnF4akhFWDBrMHRQK1paUXo0blJiQnVDZkgrL2p5Z0pFTkRuUUVOSm8xdyt0U0JLcG45MzFMTkFDMHJxRi91UnVDZUJuSDFBenp4MzhyeERWTHAwa2YzQm5LL1I4bnRVV0o2aXRYQk52OEwyZ1VLRnFzU0lZTEQ5ME1OOWV3ck4zNmlCQWxSK0w4SzJXejBUWTkyN1hWSzNsZHA3OTVqTXptNE82aU90djFoLS10THNoMFM4MUtpSWgySFhVaHhmZ1Z3PT0%3D--997661ddd5fcaddd26f3431402b7d98a28d52793; path=/; HttpOnly",
+        "X-Request-Id": "3357f7a3-3541-49a0-8838-17613bbd2604",
+        "X-Runtime": "0.083618",
         "Content-Length": "199"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/admin/addresses\" -d 'address[id]&address[user_id]=1&address[city_id]=3&address[area_id]=1&address[street_and_house]=Hazrataganj+Crossing+Bus+Stop%2C+Ashok+Marg%2C+Hazratganj%2C+Lucknow%2C+Uttar+Pradesh+226001%2C+India&address[door_number]=5&address[coordinate]&address[zip_code]&address[lat]=26.8469631&address[lng]=80.9462034&address[active]=true&address[stringified_coordinate]=%5B26.8469631%2C80.9462034%5D' -X POST \\\n\t-H \"Access-Token: N9rPc_f3J4fXD0mtEtkReA\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: e2RSqfRfSJyRmpi9tT0SmQ\" \\\n\t-H \"Expiry: 1474824348\" \\\n\t-H \"Uid: 2caroline@olson.co\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/admin/addresses\" -d 'address[id]&address[user_id]=1&address[city_id]=3&address[area_id]=1&address[street_and_house]=Hazrataganj+Crossing+Bus+Stop%2C+Ashok+Marg%2C+Hazratganj%2C+Lucknow%2C+Uttar+Pradesh+226001%2C+India&address[door_number]=5&address[coordinate]&address[zip_code]&address[lat]=26.8469631&address[lng]=80.9462034&address[active]=true&address[stringified_coordinate]=%5B26.8469631%2C80.9462034%5D' -X POST \\\n\t-H \"Access-Token: 1c_8BWQ7J-PjaRXAXFB4qQ\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: sqJ9u_L7PYAI6vxSVipJGg\" \\\n\t-H \"Expiry: 1475008526\" \\\n\t-H \"Uid: 2houston@macejkovic.net\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

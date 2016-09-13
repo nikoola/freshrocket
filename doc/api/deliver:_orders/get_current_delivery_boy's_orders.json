@@ -1,0 +1,57 @@
+{
+  "resource": "deliver: orders",
+  "http_method": "GET",
+  "route": "deliver/orders",
+  "description": "get current delivery_boy's orders",
+  "explanation": null,
+  "parameters": [
+    {
+      "name": "statuss",
+      "description": "[dispatched, delivered]"
+    }
+  ],
+  "response_fields": [
+
+  ],
+  "requests": [
+    {
+      "request_method": "GET",
+      "request_path": "deliver/orders",
+      "request_body": null,
+      "request_headers": {
+        "Access-Token": "TobDBdp9h3maousjWrdcfQ",
+        "Token-Type": "Bearer",
+        "Client": "zfPfS9iJCjcBtgP610G__A",
+        "Expiry": "1475008899",
+        "Uid": "179angie@rennerstehr.info",
+        "Host": "example.org",
+        "Cookie": ""
+      },
+      "request_query_parameters": {
+      },
+      "request_content_type": null,
+      "response_status": 200,
+      "response_status_text": "OK",
+      "response_body": "[\n  {\n    \"id\": 3,\n    \"user_id\": 6,\n    \"status\": \"unconfirmed\",\n    \"created_at\": \"2016-09-13T20:41:17.815Z\",\n    \"confirmed_at\": null,\n    \"approved_at\": null,\n    \"dispacthed_at\": null,\n    \"delivered_at\": null,\n    \"canceled_at\": null,\n    \"pure_product_price\": \"27.0\",\n    \"tax\": \"1.35\",\n    \"delivery_charge\": \"200.0\",\n    \"total_price\": \"228.35\",\n    \"coupon_code\": null,\n    \"delivery_boy_id\": 1,\n    \"delivery_boy_phone\": \"5938007171\",\n    \"wanted_time\": null,\n    \"wanted_date\": null,\n    \"payment_type\": \"cash\",\n    \"is_paid\": false,\n    \"feedback\": null,\n    \"comment\": null,\n    \"source_type\": null,\n    \"admin_comment\": null,\n    \"line_items\": [\n      {\n        \"id\": 7,\n        \"order_id\": 3,\n        \"amount\": 3,\n        \"fixed_price\": \"9.0\",\n        \"product_id\": 7\n      },\n      {\n        \"id\": 8,\n        \"order_id\": 3,\n        \"amount\": 3,\n        \"fixed_price\": \"9.0\",\n        \"product_id\": 8\n      },\n      {\n        \"id\": 9,\n        \"order_id\": 3,\n        \"amount\": 3,\n        \"fixed_price\": \"9.0\",\n        \"product_id\": 9\n      }\n    ],\n    \"address\": {\n      \"id\": 3,\n      \"city_id\": 15,\n      \"user_id\": 7,\n      \"street_and_house\": \"262001, India\",\n      \"door_number\": \"5\",\n      \"active\": true,\n      \"city_name\": \"Pilibhit\"\n    },\n    \"delivery_boy\": {\n      \"id\": 1,\n      \"user_id\": 5,\n      \"current_order_id\": null,\n      \"status\": \"unavailable\"\n    }\n  },\n  {\n    \"id\": 4,\n    \"user_id\": 8,\n    \"status\": \"unconfirmed\",\n    \"created_at\": \"2016-09-13T20:41:23.315Z\",\n    \"confirmed_at\": null,\n    \"approved_at\": null,\n    \"dispacthed_at\": null,\n    \"delivered_at\": null,\n    \"canceled_at\": null,\n    \"pure_product_price\": \"27.0\",\n    \"tax\": \"1.35\",\n    \"delivery_charge\": \"200.0\",\n    \"total_price\": \"228.35\",\n    \"coupon_code\": null,\n    \"delivery_boy_id\": 1,\n    \"delivery_boy_phone\": \"5938007171\",\n    \"wanted_time\": null,\n    \"wanted_date\": null,\n    \"payment_type\": \"cash\",\n    \"is_paid\": false,\n    \"feedback\": null,\n    \"comment\": null,\n    \"source_type\": null,\n    \"admin_comment\": null,\n    \"line_items\": [\n      {\n        \"id\": 10,\n        \"order_id\": 4,\n        \"amount\": 3,\n        \"fixed_price\": \"9.0\",\n        \"product_id\": 10\n      },\n      {\n        \"id\": 11,\n        \"order_id\": 4,\n        \"amount\": 3,\n        \"fixed_price\": \"9.0\",\n        \"product_id\": 11\n      },\n      {\n        \"id\": 12,\n        \"order_id\": 4,\n        \"amount\": 3,\n        \"fixed_price\": \"9.0\",\n        \"product_id\": 12\n      }\n    ],\n    \"address\": {\n      \"id\": 4,\n      \"city_id\": 20,\n      \"user_id\": 9,\n      \"street_and_house\": \"14-39, Gita Bhawan Rd, P.R.T street, Indiranagar, Dharmavaram, Andhra Pradesh 515671, India\",\n      \"door_number\": \"5\",\n      \"active\": true,\n      \"city_name\": \"Dharmavaram\"\n    },\n    \"delivery_boy\": {\n      \"id\": 1,\n      \"user_id\": 5,\n      \"current_order_id\": null,\n      \"status\": \"unavailable\"\n    }\n  },\n  {\n    \"id\": 5,\n    \"user_id\": 10,\n    \"status\": \"unconfirmed\",\n    \"created_at\": \"2016-09-13T20:41:28.814Z\",\n    \"confirmed_at\": null,\n    \"approved_at\": null,\n    \"dispacthed_at\": null,\n    \"delivered_at\": null,\n    \"canceled_at\": null,\n    \"pure_product_price\": \"27.0\",\n    \"tax\": \"1.35\",\n    \"delivery_charge\": \"200.0\",\n    \"total_price\": \"228.35\",\n    \"coupon_code\": null,\n    \"delivery_boy_id\": 1,\n    \"delivery_boy_phone\": \"5938007171\",\n    \"wanted_time\": null,\n    \"wanted_date\": null,\n    \"payment_type\": \"cash\",\n    \"is_paid\": false,\n    \"feedback\": null,\n    \"comment\": null,\n    \"source_type\": null,\n    \"admin_comment\": null,\n    \"line_items\": [\n      {\n        \"id\": 13,\n        \"order_id\": 5,\n        \"amount\": 3,\n        \"fixed_price\": \"9.0\",\n        \"product_id\": 13\n      },\n      {\n        \"id\": 14,\n        \"order_id\": 5,\n        \"amount\": 3,\n        \"fixed_price\": \"9.0\",\n        \"product_id\": 14\n      },\n      {\n        \"id\": 15,\n        \"order_id\": 5,\n        \"amount\": 3,\n        \"fixed_price\": \"9.0\",\n        \"product_id\": 15\n      }\n    ],\n    \"address\": {\n      \"id\": 5,\n      \"city_id\": 25,\n      \"user_id\": 11,\n      \"street_and_house\": \"Balaji Residency, Rajendra Nagar, Santhi Nagar, Gudivada, Andhra Pradesh 521301, India\",\n      \"door_number\": \"5\",\n      \"active\": true,\n      \"city_name\": \"Gudivada\"\n    },\n    \"delivery_boy\": {\n      \"id\": 1,\n      \"user_id\": 5,\n      \"current_order_id\": null,\n      \"status\": \"unavailable\"\n    }\n  },\n  {\n    \"id\": 6,\n    \"user_id\": 12,\n    \"status\": \"unconfirmed\",\n    \"created_at\": \"2016-09-13T20:41:34.291Z\",\n    \"confirmed_at\": null,\n    \"approved_at\": null,\n    \"dispacthed_at\": null,\n    \"delivered_at\": null,\n    \"canceled_at\": null,\n    \"pure_product_price\": \"27.0\",\n    \"tax\": \"1.35\",\n    \"delivery_charge\": \"200.0\",\n    \"total_price\": \"228.35\",\n    \"coupon_code\": null,\n    \"delivery_boy_id\": 1,\n    \"delivery_boy_phone\": \"5938007171\",\n    \"wanted_time\": null,\n    \"wanted_date\": null,\n    \"payment_type\": \"cash\",\n    \"is_paid\": false,\n    \"feedback\": null,\n    \"comment\": null,\n    \"source_type\": null,\n    \"admin_comment\": null,\n    \"line_items\": [\n      {\n        \"id\": 16,\n        \"order_id\": 6,\n        \"amount\": 3,\n        \"fixed_price\": \"9.0\",\n        \"product_id\": 16\n      },\n      {\n        \"id\": 17,\n        \"order_id\": 6,\n        \"amount\": 3,\n        \"fixed_price\": \"9.0\",\n        \"product_id\": 17\n      },\n      {\n        \"id\": 18,\n        \"order_id\": 6,\n        \"amount\": 3,\n        \"fixed_price\": \"9.0\",\n        \"product_id\": 18\n      }\n    ],\n    \"address\": {\n      \"id\": 6,\n      \"city_id\": 30,\n      \"user_id\": 13,\n      \"street_and_house\": \"Maharashtra 445001, India\",\n      \"door_number\": \"5\",\n      \"active\": true,\n      \"city_name\": \"Yavatmal\"\n    },\n    \"delivery_boy\": {\n      \"id\": 1,\n      \"user_id\": 5,\n      \"current_order_id\": null,\n      \"status\": \"unavailable\"\n    }\n  },\n  {\n    \"id\": 7,\n    \"user_id\": 14,\n    \"status\": \"unconfirmed\",\n    \"created_at\": \"2016-09-13T20:41:39.864Z\",\n    \"confirmed_at\": null,\n    \"approved_at\": null,\n    \"dispacthed_at\": null,\n    \"delivered_at\": null,\n    \"canceled_at\": null,\n    \"pure_product_price\": \"27.0\",\n    \"tax\": \"1.35\",\n    \"delivery_charge\": \"200.0\",\n    \"total_price\": \"228.35\",\n    \"coupon_code\": null,\n    \"delivery_boy_id\": 1,\n    \"delivery_boy_phone\": \"5938007171\",\n    \"wanted_time\": null,\n    \"wanted_date\": null,\n    \"payment_type\": \"cash\",\n    \"is_paid\": false,\n    \"feedback\": null,\n    \"comment\": null,\n    \"source_type\": null,\n    \"admin_comment\": null,\n    \"line_items\": [\n      {\n        \"id\": 19,\n        \"order_id\": 7,\n        \"amount\": 3,\n        \"fixed_price\": \"9.0\",\n        \"product_id\": 19\n      },\n      {\n        \"id\": 20,\n        \"order_id\": 7,\n        \"amount\": 3,\n        \"fixed_price\": \"9.0\",\n        \"product_id\": 20\n      },\n      {\n        \"id\": 21,\n        \"order_id\": 7,\n        \"amount\": 3,\n        \"fixed_price\": \"9.0\",\n        \"product_id\": 21\n      }\n    ],\n    \"address\": {\n      \"id\": 7,\n      \"city_id\": 35,\n      \"user_id\": 15,\n      \"street_and_house\": \"Uttarakhand 247667, India\",\n      \"door_number\": \"5\",\n      \"active\": true,\n      \"city_name\": \"Roorkee\"\n    },\n    \"delivery_boy\": {\n      \"id\": 1,\n      \"user_id\": 5,\n      \"current_order_id\": null,\n      \"status\": \"unavailable\"\n    }\n  }\n]",
+      "response_headers": {
+        "X-Frame-Options": "SAMEORIGIN",
+        "X-XSS-Protection": "1; mode=block",
+        "X-Content-Type-Options": "nosniff",
+        "access-token": "TobDBdp9h3maousjWrdcfQ",
+        "token-type": "Bearer",
+        "client": "zfPfS9iJCjcBtgP610G__A",
+        "expiry": "1475008899",
+        "uid": "179angie@rennerstehr.info",
+        "Content-Type": "application/json; charset=utf-8",
+        "ETag": "W/\"5efbdacf01ea20d157ba5bfac48d6199\"",
+        "Cache-Control": "max-age=0, private, must-revalidate",
+        "Set-Cookie": "_session_id=bmhmWmZnNENTcWJzMXM4Vm81TFdSdnNZK0tTb3FVTmNPVU9SYzhDQ2M4Z3poMmwvK25UTmlxL1RvQXdzRktYWFJRMzNuakhmQjRSTnlla2swY1FsdGQwcnV3dlJWRTBoNEh4dFVOaHhVbDFtWEJ2WWdnOE5xUnYvUWt3UmowTFd5Y3pIOU9sRDl4NVVpUmE4STh0TlZqd2xKR3M2SHE0SWl2ZUUxZElyamIwcU01R0tFS3ZmTTlwUndBUkZQbnFpLS1SQmJRMEhDVy9oMWxzVHJvVWtWSjV3PT0%3D--bef2851a859ce57e7bc245d821b3679a6dd2224f; path=/; HttpOnly",
+        "X-Request-Id": "0fc04a0a-843d-4e09-9aad-399b85775980",
+        "X-Runtime": "0.100528",
+        "Content-Length": "4853"
+      },
+      "response_content_type": "application/json; charset=utf-8",
+      "curl": "curl \"http://localhost:3000deliver/orders\" -X GET \\\n\t-H \"Access-Token: TobDBdp9h3maousjWrdcfQ\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: zfPfS9iJCjcBtgP610G__A\" \\\n\t-H \"Expiry: 1475008899\" \\\n\t-H \"Uid: 179angie@rennerstehr.info\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
+    }
+  ]
+}

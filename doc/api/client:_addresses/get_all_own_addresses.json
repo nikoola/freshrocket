@@ -19,11 +19,11 @@
       "request_path": "/client/addresses?active=0",
       "request_body": null,
       "request_headers": {
-        "Access-Token": "FR4b-I3h9OdXtKv6NpUbHQ",
+        "Access-Token": "02pvNP-17i7wL4pzED4Ndw",
         "Token-Type": "Bearer",
-        "Client": "c587QE2dwyqDxGZBSjr5pg",
-        "Expiry": "1474824643",
-        "Uid": "1omari@herzogrowe.io",
+        "Client": "7pAo5jRSp4wjx4p6nWc6zg",
+        "Expiry": "1475008737",
+        "Uid": "120moses@fahey.io",
         "Host": "example.org",
         "Cookie": ""
       },
@@ -33,26 +33,26 @@
       "request_content_type": null,
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "[\n  {\n    \"id\": 1,\n    \"city_id\": 3,\n    \"user_id\": 1,\n    \"street_and_house\": \"109, Ashram Rd, Ellisbridge, Ahmedabad, Gujarat 380006, India\",\n    \"door_number\": \"5\",\n    \"active\": false,\n    \"city_name\": \"Ahmedabad\"\n  },\n  {\n    \"id\": 2,\n    \"city_id\": 4,\n    \"user_id\": 1,\n    \"street_and_house\": \"Omnitech InfoSolutions, 1st Floor, Bulding No 17, Koti Main Rd, Goutam Nagar, Badi Chowdi, Kachiguda, Hyderabad, Telangana 501301, India\",\n    \"door_number\": \"5\",\n    \"active\": false,\n    \"city_name\": \"Hyderabad\"\n  },\n  {\n    \"id\": 3,\n    \"city_id\": 5,\n    \"user_id\": 1,\n    \"street_and_house\": \"49, Sydenhams Rd, Park Town, Chennai, Tamil Nadu 600003, India\",\n    \"door_number\": \"5\",\n    \"active\": false,\n    \"city_name\": \"Chennai\"\n  }\n]",
+      "response_body": "[\n  {\n    \"id\": 1,\n    \"city_id\": 3,\n    \"user_id\": 1,\n    \"street_and_house\": \"Madhya Pradesh 485001, India\",\n    \"door_number\": \"5\",\n    \"active\": false,\n    \"city_name\": \"Satna\"\n  },\n  {\n    \"id\": 2,\n    \"city_id\": 4,\n    \"user_id\": 1,\n    \"street_and_house\": \"Andhra Pradesh 535003, India\",\n    \"door_number\": \"5\",\n    \"active\": false,\n    \"city_name\": \"Vizianagaram\"\n  },\n  {\n    \"id\": 3,\n    \"city_id\": 5,\n    \"user_id\": 1,\n    \"street_and_house\": \"Bihar 854105, India\",\n    \"door_number\": \"5\",\n    \"active\": false,\n    \"city_name\": \"Katihar\"\n  }\n]",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
-        "access-token": "FR4b-I3h9OdXtKv6NpUbHQ",
+        "access-token": "02pvNP-17i7wL4pzED4Ndw",
         "token-type": "Bearer",
-        "client": "c587QE2dwyqDxGZBSjr5pg",
-        "expiry": "1474824643",
-        "uid": "1omari@herzogrowe.io",
+        "client": "7pAo5jRSp4wjx4p6nWc6zg",
+        "expiry": "1475008737",
+        "uid": "120moses@fahey.io",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"d8ee08754f36462f7214141e94c27b08\"",
+        "ETag": "W/\"f89dbf92ff53c0e99ac42ab6a20591b3\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=QWF3K0cwRzdPWm1ERklJMFR0YlJaSzVHYUoyaDBCVGdPWTNQR2E1Y0hxWVp6YnJ6TVNOSDQ5dkZSUGJxOFpTa3V5UDkzb0h4a3FkM0xaelY4Vi9Tc3JBcXpSL1dwUzhGbTR1b2JwWm5laFBXdkwxRTIyQ0FaZUVvVXpXcS9rRGZKUHhFMkthUzZiY3RBZk5QMURlMU94dW9Ncy9uVVVqcklCZkMzNjgxT0xzbXpoZVBDck9DQ3Qyd0RBcW5jNkduLS05bkhTNmU5VFVwZnp5OUMxUlVuSFhnPT0%3D--b7b800f19350ad2b7d9c78e2f2e022236219aa05; path=/; HttpOnly",
-        "X-Request-Id": "1f7a9f9f-21b3-42b4-bae0-337ca2af66ad",
-        "X-Runtime": "0.192519",
-        "Content-Length": "594"
+        "Set-Cookie": "_session_id=OW5rV2x0VUhrcDJyOWZ5dFRCT3dZeXRJSGwyOFY4K2ZualI5ME9PUUFFOGlSVUJDYjZpZjlDN3FrczJYaENuS29iV2hJYU1zMEgzUHBkdUNBZHpnZlg0Mlk4MHBuWE5kRXNoVExXTnBkeVYzMXN6eE9PRFpEYUNJN0o2YmMva0dLV21RbkNtRE9ZLzZZekFobEoremtNRTZXV1BxK0RWNE1XaC90SG16UklxNkJJd2c4d0VHQ0U0ejB5TTdxeUYxLS14ZWp3MWVWc2RSSEtpUjJNQ0hwSFBBPT0%3D--12e061077025bdd2058e0929dc76d14cb9ef97ad; path=/; HttpOnly",
+        "X-Request-Id": "8115524b-8795-41cc-95db-577a5fc5af54",
+        "X-Runtime": "0.163184",
+        "Content-Length": "409"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/client/addresses?active=0\" -X GET \\\n\t-H \"Access-Token: FR4b-I3h9OdXtKv6NpUbHQ\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: c587QE2dwyqDxGZBSjr5pg\" \\\n\t-H \"Expiry: 1474824643\" \\\n\t-H \"Uid: 1omari@herzogrowe.io\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/client/addresses?active=0\" -X GET \\\n\t-H \"Access-Token: 02pvNP-17i7wL4pzED4Ndw\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: 7pAo5jRSp4wjx4p6nWc6zg\" \\\n\t-H \"Expiry: 1475008737\" \\\n\t-H \"Uid: 120moses@fahey.io\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

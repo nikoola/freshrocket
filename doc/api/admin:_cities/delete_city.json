@@ -16,11 +16,11 @@
       "request_path": "/admin/cities/1",
       "request_body": null,
       "request_headers": {
-        "Access-Token": "ylvCG-_54ouu14ASG9n90g",
+        "Access-Token": "aOzcJuukc-SSRt1g0_CWqA",
         "Token-Type": "Bearer",
-        "Client": "CIsTKf9mlaiGpzWx2krviw",
-        "Expiry": "1474824387",
-        "Uid": "16marcos@legros.io",
+        "Client": "okGcgmrcAadGJ0B0g2DVtw",
+        "Expiry": "1475008568",
+        "Uid": "16bria_fay@jacobs.name",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -35,20 +35,20 @@
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
-        "access-token": "ylvCG-_54ouu14ASG9n90g",
+        "access-token": "aOzcJuukc-SSRt1g0_CWqA",
         "token-type": "Bearer",
-        "client": "CIsTKf9mlaiGpzWx2krviw",
-        "expiry": "1474824387",
-        "uid": "16marcos@legros.io",
+        "client": "okGcgmrcAadGJ0B0g2DVtw",
+        "expiry": "1475008568",
+        "uid": "16bria_fay@jacobs.name",
         "Content-Type": "text/html",
         "Cache-Control": "no-cache",
-        "Set-Cookie": "_session_id=YzRHbUpiT0J0Wkg5cERXenBMWEFzVzV5NzU5bDdZd2VKRFNERjhVc2U5U1pVSStGQm81OUJaL0ozd0ZQOC9GRmU1bWF5Qk5GVG1rL25wdThuSlRuUDg3YkFNQU92TmJ1RytKdWpVTDN5eWVRanlpU0dQYlRHWFhJaGwwb3dnMDhPUjJLelNaUVNDbGU5TVQ2SytvVXB4UXZkc3hqZmxoWG5mL3AxRFc2d2ptM1VxdmQwQlRCUCtOd1pUZmc1WnpzLS1kNld3TDgvVHdxWGdia1BDaDB3N21nPT0%3D--5bdad948d5274fcd60a715d2369b754baf46fb75; path=/; HttpOnly",
-        "X-Request-Id": "f976c36a-0981-4edc-acf6-d79e84f9ca30",
-        "X-Runtime": "0.088589",
+        "Set-Cookie": "_session_id=SnRTTXpnQkE0NEdpY09DNWIwMGRZMEFtUUlkNk1SbjFYZEJMNTB5OHJCOWNoa3o3S3c5ZFowNVlicVpsQXZVc21PWTZoRTZRQ1Ayaitkc1ljNU8zV1V5NHJMTW1Vd3NPNGQvbzJndGV4ai96cTd3WHlieEdRM25RSXcrVHVjbjM0d25OUk1iaUhqWFBtVU40bTgrMXFvSEpCdzhIWk9RY1lTbGZXSVhEN0RvMitveFFQZUMyV3R5ZHFYTlBZaEUxLS1EVkM2WnYyYTd0aVVXYjQ1VlE4YkZBPT0%3D--fdad430f1da2a4bd08fcd1fd58d6128d0a14ede8; path=/; HttpOnly",
+        "X-Request-Id": "c9201d6e-272f-4f96-93f5-6f72e0a8b5f9",
+        "X-Runtime": "0.084515",
         "Content-Length": "0"
       },
       "response_content_type": "text/html",
-      "curl": "curl \"http://localhost:3000/admin/cities/1\" -d '' -X DELETE \\\n\t-H \"Access-Token: ylvCG-_54ouu14ASG9n90g\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: CIsTKf9mlaiGpzWx2krviw\" \\\n\t-H \"Expiry: 1474824387\" \\\n\t-H \"Uid: 16marcos@legros.io\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/admin/cities/1\" -d '' -X DELETE \\\n\t-H \"Access-Token: aOzcJuukc-SSRt1g0_CWqA\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: okGcgmrcAadGJ0B0g2DVtw\" \\\n\t-H \"Expiry: 1475008568\" \\\n\t-H \"Uid: 16bria_fay@jacobs.name\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

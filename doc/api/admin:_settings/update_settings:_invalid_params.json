@@ -1,0 +1,68 @@
+{
+  "resource": "admin: settings",
+  "http_method": "PUT",
+  "route": "/admin/settings",
+  "description": "update settings: invalid params",
+  "explanation": null,
+  "parameters": [
+    {
+      "scope": "settings",
+      "name": "tax_in_percentage",
+      "description": "order cost = products cost + products cost * tax"
+    },
+    {
+      "scope": "settings",
+      "name": "free_delivery_order_sum",
+      "description": "after this order sum, delivery is free"
+    },
+    {
+      "scope": "settings",
+      "name": "default_delivery_cost",
+      "description": "delivery costs this much if order doesn't sum up to more than :free_delivery_order_sum"
+    }
+  ],
+  "response_fields": [
+
+  ],
+  "requests": [
+    {
+      "request_method": "PUT",
+      "request_path": "/admin/settings",
+      "request_body": "settings[tax_in_percentage]=150&settings[default_delivery_cost]=120",
+      "request_headers": {
+        "Access-Token": "JUZP9bhUcjiZ7Zz5j7N_NA",
+        "Token-Type": "Bearer",
+        "Client": "eeL9UBc645kMFbLebi8xfg",
+        "Expiry": "1475008667",
+        "Uid": "83milo.ratke@wehner.net",
+        "Host": "example.org",
+        "Content-Type": "application/x-www-form-urlencoded",
+        "Cookie": ""
+      },
+      "request_query_parameters": {
+      },
+      "request_content_type": "application/x-www-form-urlencoded",
+      "response_status": 422,
+      "response_status_text": "Unprocessable Entity",
+      "response_body": "{\n  \"tax_in_percentage\": [\n    \"must be less than or equal to 100\"\n  ]\n}",
+      "response_headers": {
+        "X-Frame-Options": "SAMEORIGIN",
+        "X-XSS-Protection": "1; mode=block",
+        "X-Content-Type-Options": "nosniff",
+        "access-token": "JUZP9bhUcjiZ7Zz5j7N_NA",
+        "token-type": "Bearer",
+        "client": "eeL9UBc645kMFbLebi8xfg",
+        "expiry": "1475008667",
+        "uid": "83milo.ratke@wehner.net",
+        "Content-Type": "application/json; charset=utf-8",
+        "Cache-Control": "no-cache",
+        "Set-Cookie": "_session_id=cks5WSsyZjRiakozZzB1aEN3dVgwT1p0NmgwaEpLN0pKNEZveWZmK2JHd0puSmZOMG1tUVJJMUt2M3RRU2lOQVJyRXdJOGNkbFFGSXp6MEtiZUFUWmRYWGdJaFFWQ0JXZ1E5Mmp2dGtKdnJsUTAzSzEwQXhpLzVraGdoVXdza2ttb2JCanBFZ0FUM3JVOCsvL1h6cU1Vb0xuVW9iNmp1TFdGN1BxUE13bjN3d0RoK1dXTjluVzZlUENQYjd6aDY2LS1DejlSa0JoT1U3cnQ1WTdTWldVUXZBPT0%3D--d58482c0f6e6bda34a086f773bc5dbf66f93fcd5; path=/; HttpOnly",
+        "X-Request-Id": "9440ec08-7d1f-48a4-a6d0-ad3024f63e79",
+        "X-Runtime": "0.079861",
+        "Content-Length": "59"
+      },
+      "response_content_type": "application/json; charset=utf-8",
+      "curl": "curl \"http://localhost:3000/admin/settings\" -d 'settings[tax_in_percentage]=150&settings[default_delivery_cost]=120' -X PUT \\\n\t-H \"Access-Token: JUZP9bhUcjiZ7Zz5j7N_NA\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: eeL9UBc645kMFbLebi8xfg\" \\\n\t-H \"Expiry: 1475008667\" \\\n\t-H \"Uid: 83milo.ratke@wehner.net\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+    }
+  ]
+}

@@ -19,11 +19,11 @@
       "request_path": "/admin/areas?active=0",
       "request_body": null,
       "request_headers": {
-        "Access-Token": "vIhVJ3049iCiAv3mjM2x_g",
+        "Access-Token": "iJ6xISmRcDUvnJDWFcUZ6g",
         "Token-Type": "Bearer",
-        "Client": "3rQGuB--LHnIqs2zzl64yQ",
-        "Expiry": "1474824374",
-        "Uid": "5lia@pagac.co",
+        "Client": "zc-1xltN0bnt5UHzLIOhiA",
+        "Expiry": "1475008556",
+        "Uid": "5jonas_jast@mckenzie.info",
         "Host": "example.org",
         "Cookie": ""
       },
@@ -38,21 +38,21 @@
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
-        "access-token": "vIhVJ3049iCiAv3mjM2x_g",
+        "access-token": "iJ6xISmRcDUvnJDWFcUZ6g",
         "token-type": "Bearer",
-        "client": "3rQGuB--LHnIqs2zzl64yQ",
-        "expiry": "1474824374",
-        "uid": "5lia@pagac.co",
+        "client": "zc-1xltN0bnt5UHzLIOhiA",
+        "expiry": "1475008556",
+        "uid": "5jonas_jast@mckenzie.info",
         "Content-Type": "application/json; charset=utf-8",
         "ETag": "W/\"60cae1135f06c945ac7c3901460d6ff9\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=UWMrUzhGWFI1NVNyRmUwSE5UMUJFSFRVOFhwSWJBOEtnekVSSWd3NVdoR2x4V0ZuWTRMRnUwOUZmSFFjV1ZLVzhEN2t3WnRzeVNLYUM3eVlySFRxd01TRmd6QnpEd2UzSWxGN2N0dXNRQTlIUERhbjV3YjI0M3JHYmJCNmRvN2lPYy92VVlnSEt3TGFYdHUwZWwxNTJ2VTlEbHRCYkxtRzNCSmNBY29FYitUNmlDQml2Wm9UUFVwMWxpcjUyalFSLS03aXRPYk9uT3BWOExGVE1MS1hsOFRBPT0%3D--e1b4e5463594934fe600fbe62917a8e939b9758c; path=/; HttpOnly",
-        "X-Request-Id": "356769f8-bf86-4413-9724-2de1c07e02ce",
-        "X-Runtime": "0.086817",
+        "Set-Cookie": "_session_id=SUo5QnJVaUdhWHdqV2RGTU1ESzNlM2d6MzNybHU4S2M0VTl6c3ZjS0U0bXNFb2VtbkFtQlNQSVpHZjR0ZGVBNExXcjZjbXFlaFlZTlBiOElLQXk4eklNc1ZMSmx0VFdnaWxUTWsyamtjZHVwUlV0ZVVWb3ZKQWs1UnF3UG1xOVhsbHBVb0VScDduSkV1VkVVTXVwUy9RZmJ3bHVndWY4ditLNk1rOU5KSnMzdzIvMzVnNGl4RGVOSVF1eHpvak5DLS1wMEJBeWp1SWZJNEEvSkg5UndMYlhBPT0%3D--6581208186aad86cdd1e3ef1ec6fe0f873883db3; path=/; HttpOnly",
+        "X-Request-Id": "86c9866e-ce0e-4fe2-b542-a8ae1fe6523f",
+        "X-Runtime": "0.147653",
         "Content-Length": "400"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/admin/areas?active=0\" -X GET \\\n\t-H \"Access-Token: vIhVJ3049iCiAv3mjM2x_g\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: 3rQGuB--LHnIqs2zzl64yQ\" \\\n\t-H \"Expiry: 1474824374\" \\\n\t-H \"Uid: 5lia@pagac.co\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/admin/areas?active=0\" -X GET \\\n\t-H \"Access-Token: iJ6xISmRcDUvnJDWFcUZ6g\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: zc-1xltN0bnt5UHzLIOhiA\" \\\n\t-H \"Expiry: 1475008556\" \\\n\t-H \"Uid: 5jonas_jast@mckenzie.info\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

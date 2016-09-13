@@ -16,11 +16,11 @@
       "request_path": "/admin/coupons",
       "request_body": null,
       "request_headers": {
-        "Access-Token": "ZMITdREq-BiBdVih-8D61g",
+        "Access-Token": "wAnPyqbv4nL2EonGW6VTWw",
         "Token-Type": "Bearer",
-        "Client": "A8uo2IYH90dtocFASru5Tw",
-        "Expiry": "1474824387",
-        "Uid": "17franz.walter@gutmannbeatty.name",
+        "Client": "AoFUjPOqJ-8y8uHFZULxFg",
+        "Expiry": "1475008568",
+        "Uid": "17braulio@reilly.name",
         "Host": "example.org",
         "Cookie": ""
       },
@@ -29,26 +29,26 @@
       "request_content_type": null,
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "[\n  {\n    \"id\": 1,\n    \"name\": \"red\",\n    \"code\": \"11151\",\n    \"discount\": 7\n  },\n  {\n    \"id\": 2,\n    \"name\": \"red\",\n    \"code\": \"31512\",\n    \"discount\": 62\n  },\n  {\n    \"id\": 3,\n    \"name\": \"red\",\n    \"code\": \"50133\",\n    \"discount\": 24\n  },\n  {\n    \"id\": 4,\n    \"name\": \"red\",\n    \"code\": \"14544\",\n    \"discount\": 51\n  }\n]",
+      "response_body": "[\n  {\n    \"id\": 1,\n    \"name\": \"red\",\n    \"code\": \"28131\",\n    \"discount\": 31\n  },\n  {\n    \"id\": 2,\n    \"name\": \"red\",\n    \"code\": \"18422\",\n    \"discount\": 13\n  },\n  {\n    \"id\": 3,\n    \"name\": \"red\",\n    \"code\": \"56253\",\n    \"discount\": 21\n  },\n  {\n    \"id\": 4,\n    \"name\": \"red\",\n    \"code\": \"15204\",\n    \"discount\": 55\n  }\n]",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
-        "access-token": "ZMITdREq-BiBdVih-8D61g",
+        "access-token": "wAnPyqbv4nL2EonGW6VTWw",
         "token-type": "Bearer",
-        "client": "A8uo2IYH90dtocFASru5Tw",
-        "expiry": "1474824387",
-        "uid": "17franz.walter@gutmannbeatty.name",
+        "client": "AoFUjPOqJ-8y8uHFZULxFg",
+        "expiry": "1475008568",
+        "uid": "17braulio@reilly.name",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"25c8a7ef9ce3372f0f530b4727321b08\"",
+        "ETag": "W/\"f96bbc3d3c59c5d076e014f1c402b8a0\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=NzNOd1d3ZFVzNmlDeWYzdXBpM0tQb0IyN2hLOXZRSnFHRjQwSWNmOWVpY1lBTk9JUE1NSnB0dnYzUlNlbnZENjNYT2R2YVZmZTNQT0JGL1k0eDQwbmNMMWkwZlpVQ0JKSWJDUWdzTzlHa1Q3eVBWV0R1TFBXWE10UkJVUi9LNkd6L0Q1aWlFV2N1Ykl6VVk5dlA0bEh6eGc2cnVqalZEKzRxZEM1ei9XdGtscXY4MEJFUDA3MThBdFZvaFVoaXBkLS1wMzJoMUNEUHdQcThoeGVrbG9acmtBPT0%3D--8bb262c8d3c3f38983a81d9ef0e6a6856cd54905; path=/; HttpOnly",
-        "X-Request-Id": "4929cb7e-61e1-427a-af77-acf0817a2a27",
-        "X-Runtime": "0.083308",
-        "Content-Length": "204"
+        "Set-Cookie": "_session_id=eFZuL2R3RWkzVTlMNHI0eUppaUc4OHZWaHdJT2pVTmFNcGc5aDRtZHNyRFBSa0tZbGZYMW1sc3BXYktNWU9XTmRSbWNpQStkRFE2TUhMSWhQZUt2MHV1VXBqMG5DQTRJUHd3Misyb1pNOU44K3Y0S1JPSmhKalZhTisxOWVTa09PUTI5K3ljdDZDelM1ZXMrKzBFU244YlVmZ0lFSnZkb0dwZkhNTVMwNG5Ld0lkZXdnbjNXUXVvMkNoeFRKS2NRLS0xYlhvaGcxR3cwTlBacG5wQ3UzODFBPT0%3D--5f951e9e6f00ddf413103577082d5cf83ec1c6e7; path=/; HttpOnly",
+        "X-Request-Id": "f08ed7c9-bbc1-4269-a4e4-ae52cfe657c8",
+        "X-Runtime": "0.089732",
+        "Content-Length": "205"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/admin/coupons\" -X GET \\\n\t-H \"Access-Token: ZMITdREq-BiBdVih-8D61g\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: A8uo2IYH90dtocFASru5Tw\" \\\n\t-H \"Expiry: 1474824387\" \\\n\t-H \"Uid: 17franz.walter@gutmannbeatty.name\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/admin/coupons\" -X GET \\\n\t-H \"Access-Token: wAnPyqbv4nL2EonGW6VTWw\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: AoFUjPOqJ-8y8uHFZULxFg\" \\\n\t-H \"Expiry: 1475008568\" \\\n\t-H \"Uid: 17braulio@reilly.name\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

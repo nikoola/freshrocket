@@ -1,0 +1,54 @@
+{
+  "resource": "admin: stats",
+  "http_method": "GET",
+  "route": "/admin/stats",
+  "description": "get stats",
+  "explanation": null,
+  "parameters": [
+
+  ],
+  "response_fields": [
+
+  ],
+  "requests": [
+    {
+      "request_method": "GET",
+      "request_path": "/admin/stats",
+      "request_body": null,
+      "request_headers": {
+        "Access-Token": "b53wrLZKZ4AOBt-_hUas7g",
+        "Token-Type": "Bearer",
+        "Client": "YrQ1_s6alMkrVNoIODh30A",
+        "Expiry": "1475008684",
+        "Uid": "90nestor@abbott.net",
+        "Host": "example.org",
+        "Cookie": ""
+      },
+      "request_query_parameters": {
+      },
+      "request_content_type": null,
+      "response_status": 200,
+      "response_status_text": "OK",
+      "response_body": "{\n  \"orders\": {\n    \"today\": 3,\n    \"this week\": 3,\n    \"unconfirmed\": 3,\n    \"confirmed\": 0,\n    \"approved\": 0,\n    \"dispatched\": 0,\n    \"delivered\": 0,\n    \"canceled\": 0\n  },\n  \"users\": {\n    \"all\": 7\n  }\n}",
+      "response_headers": {
+        "X-Frame-Options": "SAMEORIGIN",
+        "X-XSS-Protection": "1; mode=block",
+        "X-Content-Type-Options": "nosniff",
+        "access-token": "b53wrLZKZ4AOBt-_hUas7g",
+        "token-type": "Bearer",
+        "client": "YrQ1_s6alMkrVNoIODh30A",
+        "expiry": "1475008684",
+        "uid": "90nestor@abbott.net",
+        "Content-Type": "application/json; charset=utf-8",
+        "ETag": "W/\"9033f0c26566828000184e476ae429e1\"",
+        "Cache-Control": "max-age=0, private, must-revalidate",
+        "Set-Cookie": "_session_id=a3pxTGd6MWcxek53TjBmb1ZLR1FReXpZblNhVXlnVm96NCtQNDZFYndkTWIrVUxNVnBJNjV5Z0VoVW1DZXlZU0lVdm9sTnNwR0NpTHZyYWJ5YVBTcFdGVUxUT1I3cU9oc29ZWWFRODMvM28xOE9IOHphME5qMFNQMVovME5DM0xaWDJjWUsvVnJERVdmdG8wRlgwZUZicnlQbU1oVDYwSFhBUXJhQWJYMlhZcGtFTzlpZ0U2SVVTSUYxNDl0ekdZLS0vWjA3dEorcWRGM0tEbFVEdTA2Q3dBPT0%3D--fb2d7890ca2c145df982981b94832a3e22e549be; path=/; HttpOnly",
+        "X-Request-Id": "30658ab3-a787-4967-868c-4d551f1ef9da",
+        "X-Runtime": "0.088971",
+        "Content-Length": "139"
+      },
+      "response_content_type": "application/json; charset=utf-8",
+      "curl": "curl \"http://localhost:3000/admin/stats\" -X GET \\\n\t-H \"Access-Token: b53wrLZKZ4AOBt-_hUas7g\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: YrQ1_s6alMkrVNoIODh30A\" \\\n\t-H \"Expiry: 1475008684\" \\\n\t-H \"Uid: 90nestor@abbott.net\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
+    }
+  ]
+}

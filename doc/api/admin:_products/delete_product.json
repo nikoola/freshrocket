@@ -1,0 +1,54 @@
+{
+  "resource": "admin: products",
+  "http_method": "DELETE",
+  "route": "/admin/products/:id",
+  "description": "delete product",
+  "explanation": "deletes product if it's not in any order, disables it (inventory_count: 0) otherwise",
+  "parameters": [
+
+  ],
+  "response_fields": [
+
+  ],
+  "requests": [
+    {
+      "request_method": "DELETE",
+      "request_path": "/admin/products/1",
+      "request_body": null,
+      "request_headers": {
+        "Access-Token": "AMX78yG_Z2EcbolAdmNYkg",
+        "Token-Type": "Bearer",
+        "Client": "QCIreTcR-C69jFn1g7YniA",
+        "Expiry": "1475008661",
+        "Uid": "76adelle@borergoodwin.org",
+        "Host": "example.org",
+        "Content-Type": "application/x-www-form-urlencoded",
+        "Cookie": ""
+      },
+      "request_query_parameters": {
+      },
+      "request_content_type": "application/x-www-form-urlencoded",
+      "response_status": 200,
+      "response_status_text": "OK",
+      "response_body": null,
+      "response_headers": {
+        "X-Frame-Options": "SAMEORIGIN",
+        "X-XSS-Protection": "1; mode=block",
+        "X-Content-Type-Options": "nosniff",
+        "access-token": "AMX78yG_Z2EcbolAdmNYkg",
+        "token-type": "Bearer",
+        "client": "QCIreTcR-C69jFn1g7YniA",
+        "expiry": "1475008661",
+        "uid": "76adelle@borergoodwin.org",
+        "Content-Type": "text/html",
+        "Cache-Control": "no-cache",
+        "Set-Cookie": "_session_id=ZnJXWjNRUzZ2ZWFHQ2dkV1VYT3JlUGZva1lnRlhsYm9TdHRPOWg5T3ptVmx5LzN0bjdZNWJkVTFrblFIWWVGOTV4NmhPNkJtaVd4c0p5YzlSNWIyazZ0RFN3b2dSaUJMZkhTOGlJLzdrVk1kZ1NjcG0reDhoM2M4TDBQWnJJLzBXTFpxeENYWWhMdytHZGpLRm01T1hRdlB3bTRhdmJ6a2w4VmVYYldDeUlXbWNSeHo3NHN4MXFJZnNTZnQ5bkRvLS1qVGNwaXdHNFRLTHQweXQ3WjFDaXVBPT0%3D--3a3ad297cc70459d7a7aa1a24e6533cc546e909f; path=/; HttpOnly",
+        "X-Request-Id": "a877b0fd-7c7e-4ec0-b29e-24b1da03a3d1",
+        "X-Runtime": "0.078539",
+        "Content-Length": "0"
+      },
+      "response_content_type": "text/html",
+      "curl": "curl \"http://localhost:3000/admin/products/1\" -d '' -X DELETE \\\n\t-H \"Access-Token: AMX78yG_Z2EcbolAdmNYkg\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: QCIreTcR-C69jFn1g7YniA\" \\\n\t-H \"Expiry: 1475008661\" \\\n\t-H \"Uid: 76adelle@borergoodwin.org\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+    }
+  ]
+}

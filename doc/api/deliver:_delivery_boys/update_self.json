@@ -1,0 +1,63 @@
+{
+  "resource": "deliver: delivery boys",
+  "http_method": "PUT",
+  "route": "/deliver/delivery_boy",
+  "description": "update self",
+  "explanation": null,
+  "parameters": [
+    {
+      "scope": "delivery_boy",
+      "name": "statuss",
+      "description": "unavailable/available/busy/fired"
+    },
+    {
+      "scope": "delivery_boy",
+      "name": "current_order_id",
+      "description": "delivery boy may have multiple nondelivered orders in the same time. current_order_id is the order she's currently delivering"
+    }
+  ],
+  "response_fields": [
+
+  ],
+  "requests": [
+    {
+      "request_method": "PUT",
+      "request_path": "/deliver/delivery_boy",
+      "request_body": "delivery_boy[current_order_id]=3",
+      "request_headers": {
+        "Access-Token": "fY24qJrYg8D6m5Pb-AWGRw",
+        "Token-Type": "Bearer",
+        "Client": "3pg7BwTGMVccgDwy4w7CVw",
+        "Expiry": "1475008872",
+        "Uid": "178bertrand_fisher@schultz.biz",
+        "Host": "example.org",
+        "Content-Type": "application/x-www-form-urlencoded",
+        "Cookie": ""
+      },
+      "request_query_parameters": {
+      },
+      "request_content_type": "application/x-www-form-urlencoded",
+      "response_status": 200,
+      "response_status_text": "OK",
+      "response_body": null,
+      "response_headers": {
+        "X-Frame-Options": "SAMEORIGIN",
+        "X-XSS-Protection": "1; mode=block",
+        "X-Content-Type-Options": "nosniff",
+        "access-token": "fY24qJrYg8D6m5Pb-AWGRw",
+        "token-type": "Bearer",
+        "client": "3pg7BwTGMVccgDwy4w7CVw",
+        "expiry": "1475008872",
+        "uid": "178bertrand_fisher@schultz.biz",
+        "Content-Type": "text/html",
+        "Cache-Control": "no-cache",
+        "Set-Cookie": "_session_id=eC95OS96UUptaGJFaG8rbVZISFU5aEtIWkZKaHVmWjM1a1d0ZkNlcHdMc2U2emxwcGZlZ2JreUwrbU9XQ3NHZkQ3WjVhOVZJd09Xa3VHa1lWaHB0MDlOUlFEdVBzd3RvVlplZFl5SUFvU2szaDNFUnZwWWlMV2dKU0s4TGRSQlFOT0RVU0JaL2FKL2RrYlZXcGZMRllwRlFFRmFZUjJ4UERhRjcvWHREczlvNWFua3N0eXpyRXN2cHd6K0tXN2hVLS16V1lPM2hpSG5ZczkvRnNHVGJmd2JRPT0%3D--0eec76d63f5bac822bfe0d853fe15565b5f8c84f; path=/; HttpOnly",
+        "X-Request-Id": "59fabb02-ba77-4a21-b426-e81d4709dd61",
+        "X-Runtime": "0.099353",
+        "Content-Length": "0"
+      },
+      "response_content_type": "text/html",
+      "curl": "curl \"http://localhost:3000/deliver/delivery_boy\" -d 'delivery_boy[current_order_id]=3' -X PUT \\\n\t-H \"Access-Token: fY24qJrYg8D6m5Pb-AWGRw\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: 3pg7BwTGMVccgDwy4w7CVw\" \\\n\t-H \"Expiry: 1475008872\" \\\n\t-H \"Uid: 178bertrand_fisher@schultz.biz\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+    }
+  ]
+}

@@ -16,11 +16,11 @@
       "request_path": "/admin/areas/1",
       "request_body": null,
       "request_headers": {
-        "Access-Token": "HEYy1-7sXNLj0q4U9k6G1w",
+        "Access-Token": "6PRiaSefIfIbxmcfvNHZBA",
         "Token-Type": "Bearer",
-        "Client": "Ffp95_VRvXGcnd56xzL1cg",
-        "Expiry": "1474824385",
-        "Uid": "8kathryne_hudson@townepagac.net",
+        "Client": "IE2SfmifctPSmPlHqIBH_g",
+        "Expiry": "1475008566",
+        "Uid": "8haley_berge@dubuque.biz",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -35,20 +35,20 @@
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
-        "access-token": "HEYy1-7sXNLj0q4U9k6G1w",
+        "access-token": "6PRiaSefIfIbxmcfvNHZBA",
         "token-type": "Bearer",
-        "client": "Ffp95_VRvXGcnd56xzL1cg",
-        "expiry": "1474824385",
-        "uid": "8kathryne_hudson@townepagac.net",
+        "client": "IE2SfmifctPSmPlHqIBH_g",
+        "expiry": "1475008566",
+        "uid": "8haley_berge@dubuque.biz",
         "Content-Type": "text/html",
         "Cache-Control": "no-cache",
-        "Set-Cookie": "_session_id=R2hJUVpkNS82K0ZnMjJxSmhkR3NFVDB5d2VPejVja0pndk84ZFhlZXdqd25oRFZWTmlzK3owVTZDdTVSUkdQUUpwOGppNUJlQ21OS3YzNU1DbFgydkdRZ25RV3g2ellHWisycmpaUU9zN0FTdXdISS9aWXVhUDQwM2dhdzNvalMxQ3BVaGhDNjdiWWs0TkhKSWRvU2QyWnRFOE4vZUw3d0htQjNDWlpxaUZLSUdwcFFVcXZxbmNkNm9aOC9DL09VLS0xZTYrNnBmMENpaGx3NmE1dmpFK0ZnPT0%3D--f165b530dc635f79170ad06dcad19102b18ff653; path=/; HttpOnly",
-        "X-Request-Id": "64c9b60a-69fe-49bc-93f0-b86bc1cf2772",
-        "X-Runtime": "0.077554",
+        "Set-Cookie": "_session_id=YjBadk9QczlwV3RLaTREMDNXUS9UUHdYNVdxc0M4OWhWb29LMnB6WFdZVnE5OHFrYk5LSllVZEljQWM5aUJjNVBmTWNPcUFHbC91aGJHT1BhdXRkc1IybTJiMThRYlV6TC9ReXErNFJpUFN3WWJLMGJLQ0M5MFp2UUpXSXBCeGF5M01NN25BWGRDUFNPS0tNYjFFelZ5eTExZjRxeFMzMFNtc3NFWTU2bnYyQmJsYktmNGZ2Q0VaWXhQZlZDWmQyLS02NkxTUUdyZlgvaTZSSmJrRkl2a3hRPT0%3D--e0f1766d1946d5f6848091d2479857df1ffaa3ae; path=/; HttpOnly",
+        "X-Request-Id": "637e11bb-d6aa-427a-a79c-46f28a14ae8b",
+        "X-Runtime": "0.090091",
         "Content-Length": "0"
       },
       "response_content_type": "text/html",
-      "curl": "curl \"http://localhost:3000/admin/areas/1\" -d '' -X DELETE \\\n\t-H \"Access-Token: HEYy1-7sXNLj0q4U9k6G1w\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: Ffp95_VRvXGcnd56xzL1cg\" \\\n\t-H \"Expiry: 1474824385\" \\\n\t-H \"Uid: 8kathryne_hudson@townepagac.net\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/admin/areas/1\" -d '' -X DELETE \\\n\t-H \"Access-Token: 6PRiaSefIfIbxmcfvNHZBA\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: IE2SfmifctPSmPlHqIBH_g\" \\\n\t-H \"Expiry: 1475008566\" \\\n\t-H \"Uid: 8haley_berge@dubuque.biz\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

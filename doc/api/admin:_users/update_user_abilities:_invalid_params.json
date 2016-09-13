@@ -1,0 +1,58 @@
+{
+  "resource": "admin: users",
+  "http_method": "PUT",
+  "route": "/admin/users/:id/update_abilities",
+  "description": "update user abilities: invalid params",
+  "explanation": null,
+  "parameters": [
+    {
+      "required": true,
+      "name": "abilities",
+      "description": "{'users' => 1, 'products' => 0, 'orders' => 0, 'categories' => 1} - describes resource user has access to. only users with 'users' ability can update other user's abilities"
+    }
+  ],
+  "response_fields": [
+
+  ],
+  "requests": [
+    {
+      "request_method": "PUT",
+      "request_path": "/admin/users/1/update_abilities",
+      "request_body": "abilities[lalala]=1",
+      "request_headers": {
+        "Access-Token": "1JPnyI0dTh769orwUA_ezQ",
+        "Token-Type": "Bearer",
+        "Client": "Ufsnw6wGOA1hSim9_939tA",
+        "Expiry": "1475008687",
+        "Uid": "114zena.romaguera@crona.name",
+        "Host": "example.org",
+        "Content-Type": "application/x-www-form-urlencoded",
+        "Cookie": ""
+      },
+      "request_query_parameters": {
+      },
+      "request_content_type": "application/x-www-form-urlencoded",
+      "response_status": 422,
+      "response_status_text": "Unprocessable Entity",
+      "response_body": "{\n  \"abilities\": [\n    \"lalala is not a valid ability\"\n  ]\n}",
+      "response_headers": {
+        "X-Frame-Options": "SAMEORIGIN",
+        "X-XSS-Protection": "1; mode=block",
+        "X-Content-Type-Options": "nosniff",
+        "access-token": "1JPnyI0dTh769orwUA_ezQ",
+        "token-type": "Bearer",
+        "client": "Ufsnw6wGOA1hSim9_939tA",
+        "expiry": "1475008687",
+        "uid": "114zena.romaguera@crona.name",
+        "Content-Type": "application/json; charset=utf-8",
+        "Cache-Control": "no-cache",
+        "Set-Cookie": "_session_id=NWZWNjVrU2NISE9qdzVFUVExbWdSWjUyM3dKa0pyNmdPTU1NVUR4eHAwWkdEQ1RxcTc0RmFlMTM4azBDdGxQb013a2pIZWNLaXk0QjYvamh3a3Q3WXBBZTRPVWV4bXAxZ3llb1VtbmV4dTEyc2RZMXVpMm44SkJWbUswTGgvSVF1RFJhL2E5T2tVZU5WZ01KdTJjWTZKUlN4bElSNitEZUdZTk5HN0F2QnZ2aWh6TExvTnR4Y1VLQ3NaRGFJUE4xLS1mc2hkTmJBTkp1ZU4vQndCeHEvNUlBPT0%3D--8a98b98df3193e82417854059d89d2594ff48200; path=/; HttpOnly",
+        "X-Request-Id": "594815ab-6503-4960-9ba7-221b2d87d8f5",
+        "X-Runtime": "0.079436",
+        "Content-Length": "47"
+      },
+      "response_content_type": "application/json; charset=utf-8",
+      "curl": "curl \"http://localhost:3000/admin/users/1/update_abilities\" -d 'abilities[lalala]=1' -X PUT \\\n\t-H \"Access-Token: 1JPnyI0dTh769orwUA_ezQ\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: Ufsnw6wGOA1hSim9_939tA\" \\\n\t-H \"Expiry: 1475008687\" \\\n\t-H \"Uid: 114zena.romaguera@crona.name\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+    }
+  ]
+}

@@ -16,11 +16,11 @@
       "request_path": "/client/addresses/1",
       "request_body": null,
       "request_headers": {
-        "Access-Token": "92-5nzeaWdvOAiHsCRnGTQ",
+        "Access-Token": "0MKpzzMFJIah7nAlsbgQ3w",
         "Token-Type": "Bearer",
-        "Client": "JnaaRTihmJAs89wwqg-AuA",
-        "Expiry": "1474824658",
-        "Uid": "4sibyl@littelbailey.biz",
+        "Client": "pSacUhKKAWI8HemWV4_QVA",
+        "Expiry": "1475008751",
+        "Uid": "123patience@fahey.org",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -35,20 +35,20 @@
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
-        "access-token": "92-5nzeaWdvOAiHsCRnGTQ",
+        "access-token": "0MKpzzMFJIah7nAlsbgQ3w",
         "token-type": "Bearer",
-        "client": "JnaaRTihmJAs89wwqg-AuA",
-        "expiry": "1474824658",
-        "uid": "4sibyl@littelbailey.biz",
+        "client": "pSacUhKKAWI8HemWV4_QVA",
+        "expiry": "1475008751",
+        "uid": "123patience@fahey.org",
         "Content-Type": "text/html",
         "Cache-Control": "no-cache",
-        "Set-Cookie": "_session_id=U0Q4U05UbFUxcDc3WmxsQkt1T2lEY2dwR3pTSFJIejdkQmdSNHRZOTJsc3JCVVU4b3ZtV0srSXArcmtWNlJqbjh2T29NazNTcVVQWlV2RHVnNHBEVlpLdktYVU03Um10NVpQcElOS3BrQnV6Z3UxS1hacUlmeDdsNHF6STk4b29aOVBrbWdyNktmeGc2dW9KWXZuWWpQU0Y3TVFpK2FoOU9IWkp5YXFKdEo0cTY4L0FFd1JXWThVTEVIVFpJZjJrLS1IbXY2UUhDQngyRThOYmtoR0pVVTl3PT0%3D--25d38155871884478040b2bb0c75da4ef2449b40; path=/; HttpOnly",
-        "X-Request-Id": "f43a7d70-d4af-4e4a-9a7e-dd40b2f3a3fa",
-        "X-Runtime": "0.093101",
+        "Set-Cookie": "_session_id=UklPVkFWQ1h5TGJJOEpuMDJPKzdQc0ViUjE0UWczaERXaE9NaGppVmlYVFZNYUFON2s3dGxnbnZ5blI1YjFLY244aXp3K0NoTkdUWTlORXI5cjQweU9mdGFVWWtGSkhzWHJpQjRVVy9CNllFbzRER3k1Y0U0b3RXS2ozNFhFdkhYK3dENXdMb0I2ZkxvYWwvZEJQbU5IZjZxRW0waHZQU0JtZ0NZT1lPMDh2RlpMSEZPRENXZUsya0ptYUxPS3RhLS1ML2RNVitLb0l3dy9PUVYyd091MTZRPT0%3D--7d85e59741878f1fd7505de3b2c01e3d917926ee; path=/; HttpOnly",
+        "X-Request-Id": "b0857531-6253-4fa8-9a64-087f60f5ff7b",
+        "X-Runtime": "0.073918",
         "Content-Length": "0"
       },
       "response_content_type": "text/html",
-      "curl": "curl \"http://localhost:3000/client/addresses/1\" -d '' -X DELETE \\\n\t-H \"Access-Token: 92-5nzeaWdvOAiHsCRnGTQ\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: JnaaRTihmJAs89wwqg-AuA\" \\\n\t-H \"Expiry: 1474824658\" \\\n\t-H \"Uid: 4sibyl@littelbailey.biz\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/client/addresses/1\" -d '' -X DELETE \\\n\t-H \"Access-Token: 0MKpzzMFJIah7nAlsbgQ3w\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: pSacUhKKAWI8HemWV4_QVA\" \\\n\t-H \"Expiry: 1475008751\" \\\n\t-H \"Uid: 123patience@fahey.org\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

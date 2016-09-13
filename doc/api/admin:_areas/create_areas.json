@@ -45,11 +45,11 @@
       "request_path": "/admin/areas",
       "request_body": "area[id]&area[name]=Siliguri%2C+West+Bengal+734001%2C+India&area[radius]=5.0&area[city_id]=1&area[active]=true&area[lat]=26.7271012&area[lng]=88.3952861&area[created_at]&area[updated_at]&area[stringified_coordinate]=%5B26.7271012%2C88.3952861%5D",
       "request_headers": {
-        "Access-Token": "mMMLil7oChfbpFGuVmtrZw",
+        "Access-Token": "9aiMgmuQsnFX3HfFK8yUWw",
         "Token-Type": "Bearer",
-        "Client": "qwCxw82eCeXCFAtGDxxv-w",
-        "Expiry": "1474824379",
-        "Uid": "6gabriel@considine.io",
+        "Client": "owSKTUrCCzNzx5ZMbJfVpg",
+        "Expiry": "1475008561",
+        "Uid": "6amparo_fritsch@lockmanoconner.name",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -64,21 +64,21 @@
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
-        "access-token": "mMMLil7oChfbpFGuVmtrZw",
+        "access-token": "9aiMgmuQsnFX3HfFK8yUWw",
         "token-type": "Bearer",
-        "client": "qwCxw82eCeXCFAtGDxxv-w",
-        "expiry": "1474824379",
-        "uid": "6gabriel@considine.io",
+        "client": "owSKTUrCCzNzx5ZMbJfVpg",
+        "expiry": "1475008561",
+        "uid": "6amparo_fritsch@lockmanoconner.name",
         "Content-Type": "application/json; charset=utf-8",
         "ETag": "W/\"9bd5755d67464e5283fb311ccd8e4a29\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=QlVHdmtzUU9jQTJXWmlwWFNxbzZTNDZyQ2VuZjVJeGtpS0k5L0FSMGxPZGR5cjg1aVJOMTAwWGcxd3lqUlNoOG9CRlFCYmo0Z1BpV0JxT2lydG1ybm5DOGlnN2FSUm1PTUszUDVJK3dxY3Rxd2VZemIzUURQVEVKZjgxaFpML2ZrZVZwekxZc25rYkd0QzJDVDFWa2lvV2o1WTlaMlA0VTJOODNQOUlFQlpvU05EOERuRWl1RVhWS0NwblZsVml1LS1DQ1FYYjhncXd0bm9wTnVRSE1rUXhRPT0%3D--8812a0de13eae498bf3d1563d8cd48a7e69a628a; path=/; HttpOnly",
-        "X-Request-Id": "ffc7ae02-58fb-4bc0-8360-1420c5b6674a",
-        "X-Runtime": "0.078610",
+        "Set-Cookie": "_session_id=QUozZDRPcnI4TDVvN3BJaG1MVVpPZ3RSRUJvT3VRYTBTcDBCTExIMTlVMGRaVTJkZ3c5azc0a3lkTGZVanBvdlRmemlCVit5RWJtV1BVVUszSnJvVVNWVzJUdEoxK1JSeUx5cm5sOEduS3U0aEMxZ2gwWmVwazg0U0cxaDBhbWxRNUxDMEJlMnhVZ0lPTy9ERldQYU5qTW13R0FtMjZPYzZSREhYdkwwY0o0Nno4T1VFN0Fzdi92TXZ1SS9Xc1p3LS1udDhKYVltZG9Qd3JRYkpUM0dYKzJnPT0%3D--7232eb07692bb4e0451c0387060a9c48c914cc2e; path=/; HttpOnly",
+        "X-Request-Id": "e82bf708-30a1-4f51-923c-04194dfeb221",
+        "X-Runtime": "0.081041",
         "Content-Length": "132"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/admin/areas\" -d 'area[id]&area[name]=Siliguri%2C+West+Bengal+734001%2C+India&area[radius]=5.0&area[city_id]=1&area[active]=true&area[lat]=26.7271012&area[lng]=88.3952861&area[created_at]&area[updated_at]&area[stringified_coordinate]=%5B26.7271012%2C88.3952861%5D' -X POST \\\n\t-H \"Access-Token: mMMLil7oChfbpFGuVmtrZw\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: qwCxw82eCeXCFAtGDxxv-w\" \\\n\t-H \"Expiry: 1474824379\" \\\n\t-H \"Uid: 6gabriel@considine.io\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/admin/areas\" -d 'area[id]&area[name]=Siliguri%2C+West+Bengal+734001%2C+India&area[radius]=5.0&area[city_id]=1&area[active]=true&area[lat]=26.7271012&area[lng]=88.3952861&area[created_at]&area[updated_at]&area[stringified_coordinate]=%5B26.7271012%2C88.3952861%5D' -X POST \\\n\t-H \"Access-Token: 9aiMgmuQsnFX3HfFK8yUWw\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: owSKTUrCCzNzx5ZMbJfVpg\" \\\n\t-H \"Expiry: 1475008561\" \\\n\t-H \"Uid: 6amparo_fritsch@lockmanoconner.name\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }
