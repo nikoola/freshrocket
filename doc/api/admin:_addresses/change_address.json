@@ -16,11 +16,11 @@
       "request_path": "/admin/addresses/1",
       "request_body": "address[street_and_house]=good",
       "request_headers": {
-        "Access-Token": "EOjjifwSVxwVZA5xSHEMRg",
+        "Access-Token": "Hm7dtUUf8DJFka_G7g49qw",
         "Token-Type": "Bearer",
-        "Client": "4FqbFLw2rwUFEVunxfYbYQ",
-        "Expiry": "1475008532",
-        "Uid": "3yvette@gutmannwest.co",
+        "Client": "xb0X9W9_bgnKiqKTlaA3LQ",
+        "Expiry": "1475019667",
+        "Uid": "3abigail.donnelly@kuphalheathcote.com",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -35,21 +35,21 @@
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
-        "access-token": "EOjjifwSVxwVZA5xSHEMRg",
+        "access-token": "Hm7dtUUf8DJFka_G7g49qw",
         "token-type": "Bearer",
-        "client": "4FqbFLw2rwUFEVunxfYbYQ",
-        "expiry": "1475008532",
-        "uid": "3yvette@gutmannwest.co",
+        "client": "xb0X9W9_bgnKiqKTlaA3LQ",
+        "expiry": "1475019667",
+        "uid": "3abigail.donnelly@kuphalheathcote.com",
         "Content-Type": "application/json; charset=utf-8",
         "ETag": "W/\"cff73ee192966b587272dee54eca7d96\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=OHZDV3FZdlRKWk5UZjNNMGd0R25rM3BDUVQ4cVdtYTE4UTlIckFEd3gyVE1hSXMvNGF2eUJXS1c0Y3R0SWFpTEpXWWFVNDNQWE9GQXAyc0x0anBzc3lRNlJ3OHZRZ3NTZkRZQ0h3cDRsd25yMlhmUlh2ejlMT29BRWRBUEFEYzZOa2tqRHl4T0hlRG9zRmNvbUlCazFUbGdXTXFEeVZKbklLUFZvY1Jtbm9OMExIdnhka0xDcUFZUEFoNHY5a1BSLS0wYUVqcVhFdXVkT0VPVGVIVVJBVy93PT0%3D--c5a22495157bdc2c4319a4707e579c1bd985c481; path=/; HttpOnly",
-        "X-Request-Id": "4416b1cb-918e-465c-8391-d96e2e8bc878",
-        "X-Runtime": "0.081806",
+        "Set-Cookie": "_session_id=OGRxOFR0aU9BRUpuVFZqcmN3VVlOaFRjYnh1MDFEZDBXQWlqTmRhbGF4MkF3eGpqZDVsTjdWVG1qZHVzQlM3VWVIZjVSWTgyVit3TTM0MjAvcnd2MGZWcEZRMTUrcjQrTUJOdkhVdWNNbVNRNWpoYlU0S0FnYmhPZ0dmYThKeHhETmNyOUFxbmxPMVJIOWNyUGx3OXkxV2dHVEtWS1c1MVVLWlVjWVhIRjNId1pJNjNTU1dRNjdodjZpREVweU45LS1uRXFmN1dkdXFZRWZJMEp5bzhqM3Z3PT0%3D--8d8b14a4c42c00a52d63068bcfeda8311c47bb1f; path=/; HttpOnly",
+        "X-Request-Id": "e31e9e0c-ad4b-4788-9d54-502abf429e26",
+        "X-Runtime": "0.100981",
         "Content-Length": "111"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/admin/addresses/1\" -d 'address[street_and_house]=good' -X PUT \\\n\t-H \"Access-Token: EOjjifwSVxwVZA5xSHEMRg\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: 4FqbFLw2rwUFEVunxfYbYQ\" \\\n\t-H \"Expiry: 1475008532\" \\\n\t-H \"Uid: 3yvette@gutmannwest.co\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/admin/addresses/1\" -d 'address[street_and_house]=good' -X PUT \\\n\t-H \"Access-Token: Hm7dtUUf8DJFka_G7g49qw\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: xb0X9W9_bgnKiqKTlaA3LQ\" \\\n\t-H \"Expiry: 1475019667\" \\\n\t-H \"Uid: 3abigail.donnelly@kuphalheathcote.com\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

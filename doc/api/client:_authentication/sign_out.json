@@ -16,11 +16,11 @@
       "request_path": "/auth/sign_out",
       "request_body": null,
       "request_headers": {
-        "Access-Token": "ysTIlLCHzxp3_SsuU_GApw",
+        "Access-Token": "gJPU0sWrimKoblPDIblwxg",
         "Token-Type": "Bearer",
-        "Client": "U0Fc5cBby1bmi_AJ_midLg",
-        "Expiry": "1475008751",
-        "Uid": "125ervin@schuster.name",
+        "Client": "YQCIyFU66Fd14Z-3C6m4SQ",
+        "Expiry": "1475019925",
+        "Uid": "128eli@cummingsdeckow.io",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -38,13 +38,13 @@
         "Content-Type": "application/json; charset=utf-8",
         "ETag": "W/\"7363e85fe9edee6f053a4b319588c086\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=dTBwbUtyQ0FVTXBPNVV2ckJtbUdDV0h6alRmaXl0SVMzUVRaMDJVc2NTK3pZQlpYdUR4dDNKR3ZnbFhpNW1JWnNMZjY1c3hpSGFkSFUrRHE5UE54REE9PS0tcFpWeHM0R0hud3hSK3lBWDhmVVdqZz09--a5d57db83fa8a20c49bcdf439708ff3eabeb5f3b; path=/; HttpOnly",
-        "X-Request-Id": "9a9ec74d-0886-4cc8-99d4-86314875370d",
-        "X-Runtime": "0.070744",
+        "Set-Cookie": "_session_id=czZnVlBHQit3OWpTNG8yeUN2YWlJaWRVUldBaEFTQkwzck5mRDd0RUlNcEV1b2U3Y25CellKTk42YmprSWZSV2tXZm10c0dFb3drNDNUVlk1TEc1bVE9PS0tUk9XMFVyRlpSTFBVNmNpQkhqblR6dz09--4799f1ed3ea450beed90f4e62d528d642603b9fa; path=/; HttpOnly",
+        "X-Request-Id": "13c8e1b2-5cda-4c95-8ae5-302cb2511349",
+        "X-Runtime": "0.070477",
         "Content-Length": "16"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/auth/sign_out\" -d '' -X DELETE \\\n\t-H \"Access-Token: ysTIlLCHzxp3_SsuU_GApw\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: U0Fc5cBby1bmi_AJ_midLg\" \\\n\t-H \"Expiry: 1475008751\" \\\n\t-H \"Uid: 125ervin@schuster.name\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/auth/sign_out\" -d '' -X DELETE \\\n\t-H \"Access-Token: gJPU0sWrimKoblPDIblwxg\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: YQCIyFU66Fd14Z-3C6m4SQ\" \\\n\t-H \"Expiry: 1475019925\" \\\n\t-H \"Uid: 128eli@cummingsdeckow.io\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

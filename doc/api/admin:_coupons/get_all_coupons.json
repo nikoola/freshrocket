@@ -16,11 +16,11 @@
       "request_path": "/admin/coupons",
       "request_body": null,
       "request_headers": {
-        "Access-Token": "wAnPyqbv4nL2EonGW6VTWw",
+        "Access-Token": "nepA63Y130Xo1fthhRqVyg",
         "Token-Type": "Bearer",
-        "Client": "AoFUjPOqJ-8y8uHFZULxFg",
-        "Expiry": "1475008568",
-        "Uid": "17braulio@reilly.name",
+        "Client": "dQQL7c7OhzHbR4qHZIhmxQ",
+        "Expiry": "1475019725",
+        "Uid": "17nichole.grant@schillerkoelpin.com",
         "Host": "example.org",
         "Cookie": ""
       },
@@ -29,26 +29,26 @@
       "request_content_type": null,
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "[\n  {\n    \"id\": 1,\n    \"name\": \"red\",\n    \"code\": \"28131\",\n    \"discount\": 31\n  },\n  {\n    \"id\": 2,\n    \"name\": \"red\",\n    \"code\": \"18422\",\n    \"discount\": 13\n  },\n  {\n    \"id\": 3,\n    \"name\": \"red\",\n    \"code\": \"56253\",\n    \"discount\": 21\n  },\n  {\n    \"id\": 4,\n    \"name\": \"red\",\n    \"code\": \"15204\",\n    \"discount\": 55\n  }\n]",
+      "response_body": "[\n  {\n    \"id\": 1,\n    \"name\": \"red\",\n    \"code\": \"32081\",\n    \"discount\": 10\n  },\n  {\n    \"id\": 2,\n    \"name\": \"red\",\n    \"code\": \"89182\",\n    \"discount\": 76\n  },\n  {\n    \"id\": 3,\n    \"name\": \"red\",\n    \"code\": \"46563\",\n    \"discount\": 42\n  },\n  {\n    \"id\": 4,\n    \"name\": \"red\",\n    \"code\": \"64024\",\n    \"discount\": 95\n  }\n]",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
-        "access-token": "wAnPyqbv4nL2EonGW6VTWw",
+        "access-token": "nepA63Y130Xo1fthhRqVyg",
         "token-type": "Bearer",
-        "client": "AoFUjPOqJ-8y8uHFZULxFg",
-        "expiry": "1475008568",
-        "uid": "17braulio@reilly.name",
+        "client": "dQQL7c7OhzHbR4qHZIhmxQ",
+        "expiry": "1475019725",
+        "uid": "17nichole.grant@schillerkoelpin.com",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"f96bbc3d3c59c5d076e014f1c402b8a0\"",
+        "ETag": "W/\"f341c2da31ee1fbaec33b9358e6646b5\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=eFZuL2R3RWkzVTlMNHI0eUppaUc4OHZWaHdJT2pVTmFNcGc5aDRtZHNyRFBSa0tZbGZYMW1sc3BXYktNWU9XTmRSbWNpQStkRFE2TUhMSWhQZUt2MHV1VXBqMG5DQTRJUHd3Misyb1pNOU44K3Y0S1JPSmhKalZhTisxOWVTa09PUTI5K3ljdDZDelM1ZXMrKzBFU244YlVmZ0lFSnZkb0dwZkhNTVMwNG5Ld0lkZXdnbjNXUXVvMkNoeFRKS2NRLS0xYlhvaGcxR3cwTlBacG5wQ3UzODFBPT0%3D--5f951e9e6f00ddf413103577082d5cf83ec1c6e7; path=/; HttpOnly",
-        "X-Request-Id": "f08ed7c9-bbc1-4269-a4e4-ae52cfe657c8",
-        "X-Runtime": "0.089732",
+        "Set-Cookie": "_session_id=TzVoREJQMDRtL0lMRHh5SXJTK1dyZFB2bzJKNC80ZDdNbXZEblBJMlNKTm9iVXBwaW41UGxLN2VpUytHZjFJNkN3NlJPSmFjUjhkRGYyTlFOU2RmTlh6QTZyNEFnZWJZSGUzQnRXS25CejVWR1hheGJCV1doZ0NwM0t3ajliR1VxWjU2blpaaVFLTjRZSlRTeVhNd2JmN0c3VlM5WGZhdWdaMlBKeURjcWRMek12WENHTkxOVnY4elZYVytNMXM0LS1JcWw1aVpFQkpKRUlmd0l0QXBFQ0dBPT0%3D--45ba775072e45b5643f1c4b42a913e71b07be4d9; path=/; HttpOnly",
+        "X-Request-Id": "0dc4a48d-1923-46bd-b0c6-7c9758225b53",
+        "X-Runtime": "0.087621",
         "Content-Length": "205"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/admin/coupons\" -X GET \\\n\t-H \"Access-Token: wAnPyqbv4nL2EonGW6VTWw\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: AoFUjPOqJ-8y8uHFZULxFg\" \\\n\t-H \"Expiry: 1475008568\" \\\n\t-H \"Uid: 17braulio@reilly.name\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/admin/coupons\" -X GET \\\n\t-H \"Access-Token: nepA63Y130Xo1fthhRqVyg\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: dQQL7c7OhzHbR4qHZIhmxQ\" \\\n\t-H \"Expiry: 1475019725\" \\\n\t-H \"Uid: 17nichole.grant@schillerkoelpin.com\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

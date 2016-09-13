@@ -20,11 +20,11 @@
       "request_path": "/admin/users/1/update_abilities",
       "request_body": "abilities[lalala]=1",
       "request_headers": {
-        "Access-Token": "1JPnyI0dTh769orwUA_ezQ",
+        "Access-Token": "6WbfK8vb9JKsuOrjwl8tyA",
         "Token-Type": "Bearer",
-        "Client": "Ufsnw6wGOA1hSim9_939tA",
-        "Expiry": "1475008687",
-        "Uid": "114zena.romaguera@crona.name",
+        "Client": "Xt7mW4wXjt8Len0H7ZAQEw",
+        "Expiry": "1475019858",
+        "Uid": "117gerardo@feil.org",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -39,20 +39,20 @@
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
-        "access-token": "1JPnyI0dTh769orwUA_ezQ",
+        "access-token": "6WbfK8vb9JKsuOrjwl8tyA",
         "token-type": "Bearer",
-        "client": "Ufsnw6wGOA1hSim9_939tA",
-        "expiry": "1475008687",
-        "uid": "114zena.romaguera@crona.name",
+        "client": "Xt7mW4wXjt8Len0H7ZAQEw",
+        "expiry": "1475019858",
+        "uid": "117gerardo@feil.org",
         "Content-Type": "application/json; charset=utf-8",
         "Cache-Control": "no-cache",
-        "Set-Cookie": "_session_id=NWZWNjVrU2NISE9qdzVFUVExbWdSWjUyM3dKa0pyNmdPTU1NVUR4eHAwWkdEQ1RxcTc0RmFlMTM4azBDdGxQb013a2pIZWNLaXk0QjYvamh3a3Q3WXBBZTRPVWV4bXAxZ3llb1VtbmV4dTEyc2RZMXVpMm44SkJWbUswTGgvSVF1RFJhL2E5T2tVZU5WZ01KdTJjWTZKUlN4bElSNitEZUdZTk5HN0F2QnZ2aWh6TExvTnR4Y1VLQ3NaRGFJUE4xLS1mc2hkTmJBTkp1ZU4vQndCeHEvNUlBPT0%3D--8a98b98df3193e82417854059d89d2594ff48200; path=/; HttpOnly",
-        "X-Request-Id": "594815ab-6503-4960-9ba7-221b2d87d8f5",
-        "X-Runtime": "0.079436",
+        "Set-Cookie": "_session_id=TTl3MittSDg2NTNuRTUvMVhKOGFOV2lqNXZtVk1zYVVCZ0lac25qS2dUWXh0YnJPSFlpSHdud1hmQ0U0SjFQdFFvZkxHdmR1ZUtvQ29yM3VSS25odEFxL2dRWno5Nm9tRXRlTUhkek95SHJYWExaRkl6TEFnNCtVRDlMTGpsY2k0V1pvY2NRUWJ5NHRVV3N2bHdMNStVZkJ0Si9GQ05yNGVJck8wcmZVWEovM1dSVnB3K1h1NkZITkZsL2U0QmJXLS1FeTdDaHJxVnluMmRMV3J6Y1B6YUVBPT0%3D--5949a87ba215f837b56e84c651c9387d6a9ae025; path=/; HttpOnly",
+        "X-Request-Id": "5bf99317-96f9-4544-8f11-45a15302fba2",
+        "X-Runtime": "0.082641",
         "Content-Length": "47"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/admin/users/1/update_abilities\" -d 'abilities[lalala]=1' -X PUT \\\n\t-H \"Access-Token: 1JPnyI0dTh769orwUA_ezQ\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: Ufsnw6wGOA1hSim9_939tA\" \\\n\t-H \"Expiry: 1475008687\" \\\n\t-H \"Uid: 114zena.romaguera@crona.name\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/admin/users/1/update_abilities\" -d 'abilities[lalala]=1' -X PUT \\\n\t-H \"Access-Token: 6WbfK8vb9JKsuOrjwl8tyA\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: Xt7mW4wXjt8Len0H7ZAQEw\" \\\n\t-H \"Expiry: 1475019858\" \\\n\t-H \"Uid: 117gerardo@feil.org\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

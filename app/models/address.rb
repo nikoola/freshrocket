@@ -1,6 +1,6 @@
 class Address < ActiveRecord::Base
 #from api at least -> city_id, user_id, door_number,
-	belongs_to :user
+	belongs_to :user, :inverse_of => :addresses
 	belongs_to :city#, though: :area
 	belongs_to :area
 	has_many   :orders

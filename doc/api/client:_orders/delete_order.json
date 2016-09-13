@@ -16,11 +16,11 @@
       "request_path": "/client/orders/3",
       "request_body": null,
       "request_headers": {
-        "Access-Token": "TzLO4-4rv3oGpiMiUN6ghA",
+        "Access-Token": "DwA6-djJe87jvd_GcduhFQ",
         "Token-Type": "Bearer",
-        "Client": "3LGUdwLIsWiPBZnIw8FUQQ",
-        "Expiry": "1475008811",
-        "Uid": "145creola@hammesbode.io",
+        "Client": "Y6N_Lx5eXoOeVQemW1Ytuw",
+        "Expiry": "1475019986",
+        "Uid": "148kim@erdman.co",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -35,20 +35,20 @@
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
-        "access-token": "TzLO4-4rv3oGpiMiUN6ghA",
+        "access-token": "DwA6-djJe87jvd_GcduhFQ",
         "token-type": "Bearer",
-        "client": "3LGUdwLIsWiPBZnIw8FUQQ",
-        "expiry": "1475008811",
-        "uid": "145creola@hammesbode.io",
+        "client": "Y6N_Lx5eXoOeVQemW1Ytuw",
+        "expiry": "1475019986",
+        "uid": "148kim@erdman.co",
         "Content-Type": "text/html",
         "Cache-Control": "no-cache",
-        "Set-Cookie": "_session_id=cTNLV29TR1hCZHdWVUxJTGJhSkFzNE5RRnpVZkRNZFNQR2JucjR2SVAvZE1xTUlicFErWFZjNHRiRUxLc2JZYmlXTDJ5V0tEd3lTaUprdnIrV3gwUWpiVVlCQTJ3T2YybFBLTldPNmNIbWs3T1MzcHdQZGxHSTRRaFFRWTN4U2dZTTNjVHNLc3Y2SWlCSVBTMnA4VHZUcXJJYkV0ZW5JTGdhOGNsdXArUHJUdWcrR1lXb2RFVGRSVDJheXBXdHpULS04aGl4Z1JZUUsrQnVmWEZaenArWHVBPT0%3D--5cb821dac11e37b728d8220f8496a1190a87fa3c; path=/; HttpOnly",
-        "X-Request-Id": "1223da9d-b0f1-4f8e-b9dc-7556dc7fe27e",
-        "X-Runtime": "0.073172",
+        "Set-Cookie": "_session_id=NTgvazlnRzBGSmlCMWJJYldKR2xtenlpM1Nxd1NmZnl4ZE53Syt1UGpkZ2MvWEREblZvOWYxWVRJek44UEZmL2doQUJTTTRsWFllRWRLWE5rVnIrUjJvR1huNE1YVEVSMXhtWTJQT3Q5b3pBYTJ2OEkvbExzdzJTem9SaS9GMVljOFd6dytyOXN4TXhzTzBjUGJWQzVtMlRNRG5xc0NkMDU5Vk81TVFTeHllakV3VUU3NUs5MFhkY0RVSHB1N1Z1LS0zcFhFWit4ZFoxNzhqSzdXczA2dTd3PT0%3D--b2913ead5dd41aa3e0e53dc7df8ea6c8b6088181; path=/; HttpOnly",
+        "X-Request-Id": "bdbeff9e-7664-4cd4-a1fb-bfb4435284f4",
+        "X-Runtime": "0.077026",
         "Content-Length": "0"
       },
       "response_content_type": "text/html",
-      "curl": "curl \"http://localhost:3000/client/orders/3\" -d '' -X DELETE \\\n\t-H \"Access-Token: TzLO4-4rv3oGpiMiUN6ghA\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: 3LGUdwLIsWiPBZnIw8FUQQ\" \\\n\t-H \"Expiry: 1475008811\" \\\n\t-H \"Uid: 145creola@hammesbode.io\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/client/orders/3\" -d '' -X DELETE \\\n\t-H \"Access-Token: DwA6-djJe87jvd_GcduhFQ\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: Y6N_Lx5eXoOeVQemW1Ytuw\" \\\n\t-H \"Expiry: 1475019986\" \\\n\t-H \"Uid: 148kim@erdman.co\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

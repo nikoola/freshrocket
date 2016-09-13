@@ -23,11 +23,11 @@
       "request_path": "/admin/delivery_boys?status=available&city_id=2",
       "request_body": null,
       "request_headers": {
-        "Access-Token": "8lElcjURTH4juclrd-12mQ",
+        "Access-Token": "isnQ_8hKNZYYedgFftEiKQ",
         "Token-Type": "Bearer",
-        "Client": "BCz4OlX_lUaf-XaorsoXbQ",
-        "Expiry": "1475008575",
-        "Uid": "28jovani@rau.net",
+        "Client": "Q6J7YWkgpqGpNkSpDRVWBA",
+        "Expiry": "1475019732",
+        "Uid": "28arno@kuhlmanstehr.com",
         "Host": "example.org",
         "Cookie": ""
       },
@@ -38,26 +38,26 @@
       "request_content_type": null,
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "[\n  {\n    \"id\": 1,\n    \"user_id\": 1,\n    \"current_order_id\": null,\n    \"status\": \"available\",\n    \"user\": {\n      \"id\": 1,\n      \"first_name\": \"Imogene\",\n      \"last_name\": \"Schamberger\",\n      \"email\": \"23jaron@daniel.biz\",\n      \"phone\": \"7632513565\",\n      \"is_verified\": false,\n      \"provider\": \"email\",\n      \"uid\": \"23jaron@daniel.biz\",\n      \"created_at\": \"2016-09-13T20:36:09.586Z\",\n      \"abilities\": {\n        \"orders\": 0,\n        \"products\": 0,\n        \"users\": 0,\n        \"categories\": 0,\n        \"coupons\": 0,\n        \"settings\": 0,\n        \"cities\": 0,\n        \"delivery_boy\": 0\n      }\n    }\n  }\n]",
+      "response_body": "[\n  {\n    \"id\": 1,\n    \"user_id\": 1,\n    \"current_order_id\": null,\n    \"status\": \"available\",\n    \"user\": {\n      \"id\": 1,\n      \"first_name\": \"Keon\",\n      \"last_name\": \"Jacobi\",\n      \"email\": \"23tevin@legros.info\",\n      \"phone\": \"8064989865\",\n      \"is_verified\": false,\n      \"provider\": \"email\",\n      \"uid\": \"23tevin@legros.info\",\n      \"created_at\": \"2016-09-13T23:42:06.338Z\",\n      \"abilities\": {\n        \"orders\": 0,\n        \"products\": 0,\n        \"users\": 0,\n        \"categories\": 0,\n        \"coupons\": 0,\n        \"settings\": 0,\n        \"cities\": 0,\n        \"delivery_boy\": 0\n      }\n    }\n  }\n]",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
-        "access-token": "8lElcjURTH4juclrd-12mQ",
+        "access-token": "isnQ_8hKNZYYedgFftEiKQ",
         "token-type": "Bearer",
-        "client": "BCz4OlX_lUaf-XaorsoXbQ",
-        "expiry": "1475008575",
-        "uid": "28jovani@rau.net",
+        "client": "Q6J7YWkgpqGpNkSpDRVWBA",
+        "expiry": "1475019732",
+        "uid": "28arno@kuhlmanstehr.com",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"60ef96d12600bdcd5e308efc37ab051d\"",
+        "ETag": "W/\"64dc0a5f1689c154d3eb3250436c13d3\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=UnROSk4zWHNmUHNlbUZ3Z0gzZExYWVdZNCtZM09KRGd2bkdsdTN2SE1lWmRKMC9zUUR4SU5TQmU4aDA2T2pVUmFDNUlQSXVBQW5BVWYzZ3YrMHZ0c0pGUmQ0a1ZJbTdXSGl6c255bVFPZjh3SnRjelNkaStKQk80MlEvTkwvZ3c4bjRaS1hycjJXZU92YXF4TXpvc0NEdmlOWTZjWUFmeVZhZkZFSldxc3VyVVM0N1QzaWVvUFR4SzM3L3MzcE9kLS1JNGN1cGFiVEx6Z3JKVzkyYUFuQ3JRPT0%3D--048fd3e1617c938e286227b09b7b5256d5fcdb1d; path=/; HttpOnly",
-        "X-Request-Id": "e66f8f46-a4f4-4f5c-91f7-c3c539d29f70",
-        "X-Runtime": "0.098065",
-        "Content-Length": "404"
+        "Set-Cookie": "_session_id=N1F6d3lOeDY3Y242TExXQTFLN1lTREQzK21SNS9ZdWowaEFsTXZGd0Zjdko5QkVHS2JUOTNrYmNlVy9WNXJSM1RMNUlJNHVZcEh0dHVXcnFzSXFxTS9CakgzaXRxMERSNVBqMHpRVytDdnFHcGcrODdtZ0tBeDU0cnNLOUxDTmQySyt5V1hQenJKTmQ5OGpzQThDdW5maVR2c29VMlB1c1NwUVIycWZVOUFJemtqU21QeUVvdytPVnRqTzdudENqLS1XUzBZdFp3YkNmQk8rVXdxTU9IRFdnPT0%3D--4ebb3c551211a66acae2274188b0ed860384d1d8; path=/; HttpOnly",
+        "X-Request-Id": "a9aa39b2-a33c-4731-9998-5b1a128618e4",
+        "X-Runtime": "0.098520",
+        "Content-Length": "398"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/admin/delivery_boys?status=available&city_id=2\" -X GET \\\n\t-H \"Access-Token: 8lElcjURTH4juclrd-12mQ\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: BCz4OlX_lUaf-XaorsoXbQ\" \\\n\t-H \"Expiry: 1475008575\" \\\n\t-H \"Uid: 28jovani@rau.net\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/admin/delivery_boys?status=available&city_id=2\" -X GET \\\n\t-H \"Access-Token: isnQ_8hKNZYYedgFftEiKQ\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: Q6J7YWkgpqGpNkSpDRVWBA\" \\\n\t-H \"Expiry: 1475019732\" \\\n\t-H \"Uid: 28arno@kuhlmanstehr.com\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

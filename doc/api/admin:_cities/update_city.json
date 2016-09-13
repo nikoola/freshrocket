@@ -16,11 +16,11 @@
       "request_path": "/admin/cities/1",
       "request_body": "city[name]=hi",
       "request_headers": {
-        "Access-Token": "z73oF2z7pD8gwGDbnK-ugw",
+        "Access-Token": "TPXVHlO6qxKWEqJpCuL6RQ",
         "Token-Type": "Bearer",
-        "Client": "jkkhA4jXHF7smOIsXtcNfA",
-        "Expiry": "1475008568",
-        "Uid": "15eryn@paucekwalsh.name",
+        "Client": "TBZ0lgmoT6mnwAnPzFsrYg",
+        "Expiry": "1475019725",
+        "Uid": "15kennith.marquardt@boehm.com",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -35,21 +35,21 @@
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
-        "access-token": "z73oF2z7pD8gwGDbnK-ugw",
+        "access-token": "TPXVHlO6qxKWEqJpCuL6RQ",
         "token-type": "Bearer",
-        "client": "jkkhA4jXHF7smOIsXtcNfA",
-        "expiry": "1475008568",
-        "uid": "15eryn@paucekwalsh.name",
+        "client": "TBZ0lgmoT6mnwAnPzFsrYg",
+        "expiry": "1475019725",
+        "uid": "15kennith.marquardt@boehm.com",
         "Content-Type": "application/json; charset=utf-8",
         "ETag": "W/\"c382965718afa649ad29062210139e6d\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=TmZNTHBRa3RyWlI3ajg5WjJTR2NNUEJGSGU0TTlFK3Z3TnBWRlVCck5GN1JjaHkxSlBjcFo4UzFOdTdQTWpQZmVHenh0SGRmNUQwdmRrLzA1WE9ZNTFneXVnQjk2a05IL0tLeUMvZkVPR0V6eS84ait0WVlJTTVMeFl5SzNqc0x6SFpiZENodU5EZzdGL2E2OUtYeTg4Tk02bHRqeUluQ2lqeXRueFQwdFZ2b09SZ3RKa0hwL3pPSTB2ajgrZmRBLS1OcUk1K1o2QXhJU2RmRHRwRC8reDhBPT0%3D--d0ef0648ba9ca844a2ffb56e88753bedf60c4a49; path=/; HttpOnly",
-        "X-Request-Id": "5cbef422-cc03-4a55-8865-26ae92036f88",
-        "X-Runtime": "0.075181",
+        "Set-Cookie": "_session_id=TjZNSDB1TDhEcDR1SEg5QVZXTHk0M1Fab0Z5Y1RVSTZzUDlJQW9oRThsWTV0dWdmS3R1bUhKZktDOXh6d2hSamRtbmlHUUw1TVh1TXZvT2dzUHJndHN4c2VpaE9aajRPVm9tSlM4aVg2TUdsSS9NVG5KMCtQakV4b1ZWYS90ancxSnFGUmI4c3lmTW5mNE8xdlZJdFhZSm5saDJIMkVYbXZRT3VJSFpnanVpUmd5TlZoVDFMbmNMbmg0c203T3JYLS1hcDAzSEhvOWt1V3BETzFqQWgxNzJ3PT0%3D--7cf3aa26fa9f618aa72a585e819ad32f890d844d; path=/; HttpOnly",
+        "X-Request-Id": "a4955ff1-f836-4301-835d-cac0bf922ac0",
+        "X-Runtime": "0.079209",
         "Content-Length": "34"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/admin/cities/1\" -d 'city[name]=hi' -X PUT \\\n\t-H \"Access-Token: z73oF2z7pD8gwGDbnK-ugw\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: jkkhA4jXHF7smOIsXtcNfA\" \\\n\t-H \"Expiry: 1475008568\" \\\n\t-H \"Uid: 15eryn@paucekwalsh.name\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/admin/cities/1\" -d 'city[name]=hi' -X PUT \\\n\t-H \"Access-Token: TPXVHlO6qxKWEqJpCuL6RQ\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: TBZ0lgmoT6mnwAnPzFsrYg\" \\\n\t-H \"Expiry: 1475019725\" \\\n\t-H \"Uid: 15kennith.marquardt@boehm.com\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

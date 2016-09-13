@@ -30,11 +30,11 @@
       "request_path": "/admin/settings",
       "request_body": "settings[tax_in_percentage]=99.0&settings[default_delivery_cost]=115",
       "request_headers": {
-        "Access-Token": "grIxsOcsu9DsuA4Z4FLYtA",
+        "Access-Token": "FHeuhYxQzqTJL2wyiV2rTA",
         "Token-Type": "Bearer",
-        "Client": "1naif0spr6WOJsm71o3unA",
-        "Expiry": "1475008667",
-        "Uid": "82araceli_bradtke@heller.co",
+        "Client": "92IdxWpaXrjcmaCCGEcYZA",
+        "Expiry": "1475019831",
+        "Uid": "82jaunita@fadelmiller.biz",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -49,21 +49,21 @@
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
-        "access-token": "grIxsOcsu9DsuA4Z4FLYtA",
+        "access-token": "FHeuhYxQzqTJL2wyiV2rTA",
         "token-type": "Bearer",
-        "client": "1naif0spr6WOJsm71o3unA",
-        "expiry": "1475008667",
-        "uid": "82araceli_bradtke@heller.co",
+        "client": "92IdxWpaXrjcmaCCGEcYZA",
+        "expiry": "1475019831",
+        "uid": "82jaunita@fadelmiller.biz",
         "Content-Type": "application/json; charset=utf-8",
         "ETag": "W/\"4ddda431891f4279fd1337c4e6d39d32\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=SEVjdW5CWDdRUm9DbUJ4YlNDYlZlYkdnSWxodzlDRWZhREpVNGl3Q2JpWlFhL1NmWm5pUi9nblVTNStnWU9Tb0MwR2ZpazhCZ1R4UkVuT28xZjM5YUhDWW9zT0Vmdm90alVJNDlOWnJHK0pobmF6TE9SK2RBaGR0Z1JXeEZ0Z0RyZFdRT25USHNyK1NneG5ZeExYVVczbXFxUTlGeTYvR3NBRXFEaTZ2NnFvUGM0MVdmY2ptK3lvdmZINU13WHVlLS1sS0piSThCTVg5UjhGYzI5SFRjQlR3PT0%3D--2becfecf3fbf68136164a74786f0178ab79fa2ca; path=/; HttpOnly",
-        "X-Request-Id": "e4bb2208-06a9-455e-a9ba-d752c74c003d",
-        "X-Runtime": "0.079809",
+        "Set-Cookie": "_session_id=ejh5SFBITnpDaFJBTUVBSnhMVDY1bnBja0EySmJaSWhxUnVhZTZJSHNRQy8rcUVSWXZmWHg5cC8zUWZndWNMbEh5WW9LZlQwbWx4N0RSWVordm84WEp3aTdhcHJkM2ZhUThhWnY5N0xlUnFSZjkzYTZaMDU3T1k2bElEZy9DSW1ucXBoNnp1d2FSVmFUMzJld1JiSG1ySHNQZURwR2hzY21LOG5LUWNWaEFUbmNBV2pSOTJRTHlwVjU4bTBFZGxBLS1sMUJ0ZXVsUXJqUGt3WkdQR2dTdk9RPT0%3D--fdb21da081a1372f33d69f697cd596cb19c676df; path=/; HttpOnly",
+        "X-Request-Id": "be6b84d8-97f3-422b-b384-9bddcb3c4416",
+        "X-Runtime": "0.077540",
         "Content-Length": "101"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/admin/settings\" -d 'settings[tax_in_percentage]=99.0&settings[default_delivery_cost]=115' -X PUT \\\n\t-H \"Access-Token: grIxsOcsu9DsuA4Z4FLYtA\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: 1naif0spr6WOJsm71o3unA\" \\\n\t-H \"Expiry: 1475008667\" \\\n\t-H \"Uid: 82araceli_bradtke@heller.co\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/admin/settings\" -d 'settings[tax_in_percentage]=99.0&settings[default_delivery_cost]=115' -X PUT \\\n\t-H \"Access-Token: FHeuhYxQzqTJL2wyiV2rTA\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: 92IdxWpaXrjcmaCCGEcYZA\" \\\n\t-H \"Expiry: 1475019831\" \\\n\t-H \"Uid: 82jaunita@fadelmiller.biz\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

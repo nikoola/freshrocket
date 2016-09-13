@@ -16,11 +16,11 @@
       "request_path": "/admin/coupons/1",
       "request_body": null,
       "request_headers": {
-        "Access-Token": "AdWsfBVuPXOfGTrjcEnYDg",
+        "Access-Token": "0iheI2blQIr6-FRztXAwxQ",
         "Token-Type": "Bearer",
-        "Client": "9X2pPRECvuWRtLLBHOm0KQ",
-        "Expiry": "1475008569",
-        "Uid": "20joanne@steuberpowlowski.info",
+        "Client": "E1M7BZuoF3XXbWr3UJncgA",
+        "Expiry": "1475019725",
+        "Uid": "20edythe@friesenschmitt.org",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -35,20 +35,20 @@
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
-        "access-token": "AdWsfBVuPXOfGTrjcEnYDg",
+        "access-token": "0iheI2blQIr6-FRztXAwxQ",
         "token-type": "Bearer",
-        "client": "9X2pPRECvuWRtLLBHOm0KQ",
-        "expiry": "1475008569",
-        "uid": "20joanne@steuberpowlowski.info",
+        "client": "E1M7BZuoF3XXbWr3UJncgA",
+        "expiry": "1475019725",
+        "uid": "20edythe@friesenschmitt.org",
         "Content-Type": "text/html",
         "Cache-Control": "no-cache",
-        "Set-Cookie": "_session_id=YW9FZE1NWHVxd2lkOFl5TWk1NDQrbkhxeEhNTU5jSWxSOGN1Zk5pVTNHeG1QWTRybVVBbGVEdW9BYzA2bGxkdko3eEdkYmg0bnRjUWVvL0g0NWZRbHZXbVl6R2o1TWVCcWwweVJSckhOSmExb1A2ZlNkM0cwT1lsZFlLNHJXbHU0dm5md05ObHoyMWlpWkUxanBEZWlIQnZDNmhray81bGVFQTl6TzkxdjV1V3JGb3RjMk1TeHpNdHNFR2lHVHZ3LS1VTWNQcWJndk05UkVtSVBVejQzOWZBPT0%3D--2add90a0ec30b138a75cc030110da72a4c03a45f; path=/; HttpOnly",
-        "X-Request-Id": "ec58fe3e-3e75-4548-b1cd-856401f72ffa",
-        "X-Runtime": "0.079737",
+        "Set-Cookie": "_session_id=VDFhTEtKY050RCtOa0V0SndmZWwweDFwVnY3QTZNUjZqY3BmOE1SRFVESDJUeExsL3Y1WGpUM1JLZmdQdEpTOWZ3RHRnMmZlLzJoQ0VjbjlKUXJwdXIrZnZJVzZFODJUR3IrdlZWNlBWL2V5Y3cyNEgxTEhRTWdnOHA5blE5TnlrMGVkeWRieUF3T0ZqTWY5U1psajJkVndkaTRRdmhQWFd0L3RNeFhpMFlZSzBuODIzTEtlT2Y3QW1rcWlpYmdsLS0zQTRuVzdxZ1M0MHJSTjRmL28yMWx3PT0%3D--bb59ea25fb77fcfb0d280f263b4764a0c7bd293f; path=/; HttpOnly",
+        "X-Request-Id": "a2f512b3-5d88-42cf-809d-b5fe45bc8c2d",
+        "X-Runtime": "0.079001",
         "Content-Length": "0"
       },
       "response_content_type": "text/html",
-      "curl": "curl \"http://localhost:3000/admin/coupons/1\" -d '' -X DELETE \\\n\t-H \"Access-Token: AdWsfBVuPXOfGTrjcEnYDg\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: 9X2pPRECvuWRtLLBHOm0KQ\" \\\n\t-H \"Expiry: 1475008569\" \\\n\t-H \"Uid: 20joanne@steuberpowlowski.info\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/admin/coupons/1\" -d '' -X DELETE \\\n\t-H \"Access-Token: 0iheI2blQIr6-FRztXAwxQ\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: E1M7BZuoF3XXbWr3UJncgA\" \\\n\t-H \"Expiry: 1475019725\" \\\n\t-H \"Uid: 20edythe@friesenschmitt.org\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

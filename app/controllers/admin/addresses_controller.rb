@@ -2,7 +2,7 @@ module Admin
 	class AddressesController < BaseController
 		before_action :set_address, only: [:update, :destroy]
 		before_action -> { authorize 'users' }
-		before_action :containing_address, only: [:create]
+		# before_action :containing_address, only: [:create]  #checking validate addresses 
 
 		
 

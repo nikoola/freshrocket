@@ -257,6 +257,13 @@
           "method": "post"
         },
         {
+          "description": "create user with addresses",
+          "link": "admin:_users/create_user_with_addresses.json",
+          "groups": "all",
+          "route": "/admin/users",
+          "method": "post"
+        },
+        {
           "description": "get all users",
           "link": "admin:_users/get_all_users.json",
           "groups": "all",
@@ -510,6 +517,25 @@
           "groups": "all",
           "route": "deliver/orders",
           "method": "get"
+        }
+      ]
+    },
+    {
+      "name": "deliver: positions",
+      "examples": [
+        {
+          "description": "get a map trace for some order",
+          "link": "deliver:_positions/get_a_map_trace_for_some_order.json",
+          "groups": "all",
+          "route": "/orders/:id/positions",
+          "method": "get"
+        },
+        {
+          "description": "mark new position",
+          "link": "deliver:_positions/mark_new_position.json",
+          "groups": "all",
+          "route": "/deliver/orders/:id/positions",
+          "method": "post"
         }
       ]
     },

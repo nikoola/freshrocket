@@ -30,11 +30,11 @@
       "request_path": "/admin/coupons",
       "request_body": "coupon[name]=red&coupon[code]=181513&coupon[discount]=5",
       "request_headers": {
-        "Access-Token": "1ClrdfQeevpSjgH6DiYX7g",
+        "Access-Token": "fCQ8afcOARWporaL4UzCdw",
         "Token-Type": "Bearer",
-        "Client": "ePliuYrdaBVgace7YK28Vg",
-        "Expiry": "1475008568",
-        "Uid": "18edmond_mclaughlin@lemke.co",
+        "Client": "pOeEkORU5XpcMNAbfMlGGg",
+        "Expiry": "1475019725",
+        "Uid": "18finn_wilderman@schultz.net",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -49,21 +49,21 @@
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
-        "access-token": "1ClrdfQeevpSjgH6DiYX7g",
+        "access-token": "fCQ8afcOARWporaL4UzCdw",
         "token-type": "Bearer",
-        "client": "ePliuYrdaBVgace7YK28Vg",
-        "expiry": "1475008568",
-        "uid": "18edmond_mclaughlin@lemke.co",
+        "client": "pOeEkORU5XpcMNAbfMlGGg",
+        "expiry": "1475019725",
+        "uid": "18finn_wilderman@schultz.net",
         "Content-Type": "application/json; charset=utf-8",
         "ETag": "W/\"c0ff8c233de26b716569ce1f824141ec\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=SUsxOG5SYzFjMDZkcGVRaVppNnpTL2E3OGtFeEN2RVdJL1ZpcCtKWGFqdzBabUNQMHB0RDJiRHdBbDVnU0hkR0ZIeGdBcmU1ZXQwZXZNdnpPU1VLamE4MXJYaEx6V3Z4eUptR3N3U2puNDZGaG5oR1AxVkM0YTJuK2lYZHowY2Jtd0Z6YVhwTDc1MmlHU2sxYTUwUHovcUlqb25yamtDMWszRWZubDV2a1YzejhkNUhUNDJ6NXhTYmVDaTR1MnlVLS1iV0lhZ3dDcUl3OFp0bGdaTEkvQmJRPT0%3D--84f95eb206b51b0e59c6166e7fa56abe70e19950; path=/; HttpOnly",
-        "X-Request-Id": "4c636c49-2dad-4b01-a92a-ffa1f7394837",
-        "X-Runtime": "0.080420",
+        "Set-Cookie": "_session_id=Rkl5ZlZ1YjM1d1UzU3pUZnk0bkhYbmhZRE43eVRpWmdMbUxiWVVOWXpmWVFMRHM0aXQwbTROdVVoa1R3UVVxRkJnS3llMWlzeEVwS3BDTHR0LzhwNzhaTnl5VFBWWk5RWkZCWTYrQzk1bDJpRzFNaVZodWRvK3dMYmpQNzlkR0xvVlNsRXdRTTVJMTJTdm9wQ3ZmOTMwbExZZnVPNExaVmJ2TytqRUlES2xlSGlyOEo2elFqVWJ4YTJ1WUJiQU1NLS1LcGVFSGJucnZlUDdyRGFRK0szZFZRPT0%3D--14b556cf10b61c487d086e3199442cdf12df310e; path=/; HttpOnly",
+        "X-Request-Id": "99061347-cc01-4bac-ad4d-a64fca2b765e",
+        "X-Runtime": "0.078060",
         "Content-Length": "50"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/admin/coupons\" -d 'coupon[name]=red&coupon[code]=181513&coupon[discount]=5' -X POST \\\n\t-H \"Access-Token: 1ClrdfQeevpSjgH6DiYX7g\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: ePliuYrdaBVgace7YK28Vg\" \\\n\t-H \"Expiry: 1475008568\" \\\n\t-H \"Uid: 18edmond_mclaughlin@lemke.co\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/admin/coupons\" -d 'coupon[name]=red&coupon[code]=181513&coupon[discount]=5' -X POST \\\n\t-H \"Access-Token: fCQ8afcOARWporaL4UzCdw\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: pOeEkORU5XpcMNAbfMlGGg\" \\\n\t-H \"Expiry: 1475019725\" \\\n\t-H \"Uid: 18finn_wilderman@schultz.net\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

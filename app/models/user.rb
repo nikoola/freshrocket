@@ -9,7 +9,7 @@ class User < ActiveRecord::Base
 	include DeviseTokenAuth::Concerns::User
 
 	has_many :orders    #no dependent: :destroy since we can't delete users
-	has_many :addresses
+	has_many :addresses, :inverse_of => :user
 
 	validates_presence_of :first_name, :last_name
 
@@ -41,7 +41,11 @@ class User < ActiveRecord::Base
 
 
 
+	accepts_nested_attributes_for :addresses, reject_if: :reject_addressess
 
+  	def reject_addressess(attributes)
+   		attributes.any? {|key,val| val.blank?}
+  	end
 
 	def has_ability? tag_name
 		self.abilities.any? { |ability| ability.name == tag_name.to_s }

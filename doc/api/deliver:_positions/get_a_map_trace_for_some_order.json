@@ -1,0 +1,54 @@
+{
+  "resource": "deliver: positions",
+  "http_method": "GET",
+  "route": "/orders/:id/positions",
+  "description": "get a map trace for some order",
+  "explanation": "available for delivery_boy's order, own client's order, or for user with orders ability",
+  "parameters": [
+
+  ],
+  "response_fields": [
+
+  ],
+  "requests": [
+    {
+      "request_method": "GET",
+      "request_path": "/orders/3/positions",
+      "request_body": null,
+      "request_headers": {
+        "Access-Token": "XYRh7-dmNFI5pe9Hxmtu9Q",
+        "Token-Type": "Bearer",
+        "Client": "ii8FbA4jva1v93d2czwHsQ",
+        "Expiry": "1475020105",
+        "Uid": "202norbert.roob@ullrichheel.net",
+        "Host": "example.org",
+        "Cookie": ""
+      },
+      "request_query_parameters": {
+      },
+      "request_content_type": null,
+      "response_status": 200,
+      "response_status_text": "OK",
+      "response_body": "{\n  \"positions\": [\n    \"42.10808340000001,87.735895\"\n  ]\n}",
+      "response_headers": {
+        "X-Frame-Options": "SAMEORIGIN",
+        "X-XSS-Protection": "1; mode=block",
+        "X-Content-Type-Options": "nosniff",
+        "access-token": "XYRh7-dmNFI5pe9Hxmtu9Q",
+        "token-type": "Bearer",
+        "client": "ii8FbA4jva1v93d2czwHsQ",
+        "expiry": "1475020105",
+        "uid": "202norbert.roob@ullrichheel.net",
+        "Content-Type": "application/json; charset=utf-8",
+        "ETag": "W/\"9b640a40281e425b74acd110f4f8c677\"",
+        "Cache-Control": "max-age=0, private, must-revalidate",
+        "Set-Cookie": "_session_id=K0wzTE5MMnE3NmVNdEdoNHhTUjZpNDdVMHd0U2hEajIxWXptUUVCT0FSbE04OGdZbTVCdnkxSlNDb3V4SFdMbG9TbWdnSXJxQzZUcDF3ZUFwdDk4d0FNRjByTi8xbWV3U1JZWjB3ZmhndTRXdzdnYndoY2dWT041TlZxTEV5UjQydllrQTRvSHN0bzljZWJkU3I3U1oydjAwZmZBajg1Y1FMM083RUpZMENKZVVIVzNuVzdxdXpqSkdDOGk0eFdJLS1vVGFVcmhYR0FjUFpLbjNFRmZrWlF3PT0%3D--e61c3ae43697e16f101b99b08155960e59f660d3; path=/; HttpOnly",
+        "X-Request-Id": "13120f5a-1ff3-43e2-aabe-49e908d02f21",
+        "X-Runtime": "0.086875",
+        "Content-Length": "45"
+      },
+      "response_content_type": "application/json; charset=utf-8",
+      "curl": "curl \"http://localhost:3000/orders/3/positions\" -X GET \\\n\t-H \"Access-Token: XYRh7-dmNFI5pe9Hxmtu9Q\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: ii8FbA4jva1v93d2czwHsQ\" \\\n\t-H \"Expiry: 1475020105\" \\\n\t-H \"Uid: 202norbert.roob@ullrichheel.net\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
+    }
+  ]
+}

@@ -21,11 +21,11 @@
       "request_path": "/client/orders/3/update_status",
       "request_body": "order[action]=confirm",
       "request_headers": {
-        "Access-Token": "nwjjN1vjt1IRJx1lJXjXBA",
+        "Access-Token": "Px5RVZx89SW_VCKcUGa5ng",
         "Token-Type": "Bearer",
-        "Client": "TvgTthCa-Ieh13AlguOyFg",
-        "Expiry": "1475008835",
-        "Uid": "153letha@labadie.org",
+        "Client": "H2bSjQXnNwqHnoXblXq6uA",
+        "Expiry": "1475020011",
+        "Uid": "156ansley@schiller.biz",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -40,20 +40,20 @@
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
-        "access-token": "nwjjN1vjt1IRJx1lJXjXBA",
+        "access-token": "Px5RVZx89SW_VCKcUGa5ng",
         "token-type": "Bearer",
-        "client": "TvgTthCa-Ieh13AlguOyFg",
-        "expiry": "1475008835",
-        "uid": "153letha@labadie.org",
+        "client": "H2bSjQXnNwqHnoXblXq6uA",
+        "expiry": "1475020011",
+        "uid": "156ansley@schiller.biz",
         "Content-Type": "application/json; charset=utf-8",
         "Cache-Control": "no-cache",
-        "Set-Cookie": "_session_id=ZVFnejBuRjd2SllJMy9qR2JlWmdsbDMwM2NUN3o2Z3pjL29xWmVEbUdrSjhPN2RDMi83WE1zR21lMHlZTkZvRHY5SDI1dFp2bUNvblVwODdLRC9lTlVUbmtOWXVMNEVpZHJ2UHBYblFtbVZGWUlhNlhHNGRybFZJWjg2T2pRUUllRGdMdkFNTlZ6TkUxMUhaa0d2VWhsbW5RZEZrb2MwVXppM3AxZ2FvSmtNRXdpSEJjeGltTUhONUhIMGNtMW56LS1vYzJOQVQ3OUdxUUM4WWZsWmVYYmJRPT0%3D--f51a40a6c88dae1a1d1ba8f25ef4ff04ebcb7364; path=/; HttpOnly",
-        "X-Request-Id": "4f11bf0c-fa8c-48c5-8135-0dfd616dcc3c",
-        "X-Runtime": "0.072601",
+        "Set-Cookie": "_session_id=UVcwMFBOUk9uOHI0YjN1Z1lnOEM3UGQ5OFU5VmJhMm9yZk14RnJkeG5GTEFQZzBmQVFvRmFWTXNUUU5Rc3M1OXQyNFd4Y1p0R1hLNGM5dTgrVzhRYUl3Uk4va2I3a25UZlRpY080QTR3YUVXTDM3Wis2clowZTN1NWVtRURWN0wySDd6Vitvb2paN3h2SkZkL1EzM0k2eDlBRXpxSk9rL0UrLytna3FMVU45M2E5ZXVEb29jVE0xdVYyRDFrc3FPLS1vL0hwMGtscjI4cURGVU51NURVTXN3PT0%3D--c8cd20e5d6a4adea93c3941de61d832409d3bb61; path=/; HttpOnly",
+        "X-Request-Id": "182e6af3-d41f-48ef-bc3a-9bd05d6f398f",
+        "X-Runtime": "0.073679",
         "Content-Length": "64"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/client/orders/3/update_status\" -d 'order[action]=confirm' -X PUT \\\n\t-H \"Access-Token: nwjjN1vjt1IRJx1lJXjXBA\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: TvgTthCa-Ieh13AlguOyFg\" \\\n\t-H \"Expiry: 1475008835\" \\\n\t-H \"Uid: 153letha@labadie.org\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/client/orders/3/update_status\" -d 'order[action]=confirm' -X PUT \\\n\t-H \"Access-Token: Px5RVZx89SW_VCKcUGa5ng\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: H2bSjQXnNwqHnoXblXq6uA\" \\\n\t-H \"Expiry: 1475020011\" \\\n\t-H \"Uid: 156ansley@schiller.biz\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

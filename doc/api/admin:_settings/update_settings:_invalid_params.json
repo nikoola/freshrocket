@@ -30,11 +30,11 @@
       "request_path": "/admin/settings",
       "request_body": "settings[tax_in_percentage]=150&settings[default_delivery_cost]=120",
       "request_headers": {
-        "Access-Token": "JUZP9bhUcjiZ7Zz5j7N_NA",
+        "Access-Token": "wzA1l9wE68lhb52xhRbcjw",
         "Token-Type": "Bearer",
-        "Client": "eeL9UBc645kMFbLebi8xfg",
-        "Expiry": "1475008667",
-        "Uid": "83milo.ratke@wehner.net",
+        "Client": "0bO_b8T80hPifvFOkpsgAw",
+        "Expiry": "1475019831",
+        "Uid": "83nora_mcdermott@orn.biz",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -49,20 +49,20 @@
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
-        "access-token": "JUZP9bhUcjiZ7Zz5j7N_NA",
+        "access-token": "wzA1l9wE68lhb52xhRbcjw",
         "token-type": "Bearer",
-        "client": "eeL9UBc645kMFbLebi8xfg",
-        "expiry": "1475008667",
-        "uid": "83milo.ratke@wehner.net",
+        "client": "0bO_b8T80hPifvFOkpsgAw",
+        "expiry": "1475019831",
+        "uid": "83nora_mcdermott@orn.biz",
         "Content-Type": "application/json; charset=utf-8",
         "Cache-Control": "no-cache",
-        "Set-Cookie": "_session_id=cks5WSsyZjRiakozZzB1aEN3dVgwT1p0NmgwaEpLN0pKNEZveWZmK2JHd0puSmZOMG1tUVJJMUt2M3RRU2lOQVJyRXdJOGNkbFFGSXp6MEtiZUFUWmRYWGdJaFFWQ0JXZ1E5Mmp2dGtKdnJsUTAzSzEwQXhpLzVraGdoVXdza2ttb2JCanBFZ0FUM3JVOCsvL1h6cU1Vb0xuVW9iNmp1TFdGN1BxUE13bjN3d0RoK1dXTjluVzZlUENQYjd6aDY2LS1DejlSa0JoT1U3cnQ1WTdTWldVUXZBPT0%3D--d58482c0f6e6bda34a086f773bc5dbf66f93fcd5; path=/; HttpOnly",
-        "X-Request-Id": "9440ec08-7d1f-48a4-a6d0-ad3024f63e79",
-        "X-Runtime": "0.079861",
+        "Set-Cookie": "_session_id=UmxocUM1bzJ3L0xiSHc2L1Z5UmlMUDJrTjVKL0dKZHIyU2c3LytIY2lqK2RucHcvZ1ZzTGMwelF6Zmx3a3VVQVBTQUZwVGpLb0VjNkZNUGN1V1JoS2dQYkIwN2kxY0pFamcwSWpmVkxpVTRwUkpQL2pzNW1KcmlnSDRjeU8vckxEUWtpejFQRE95eGMxTHo0VlRJWGxSd3kwb0Y3ZlhkTGVCQjJDWWM3V2Q5UU5raWFKcnIwVHdWRnFCQzliWXlqLS13RWdDWTNWSWlaR3FFUjNiUmY5M2ZRPT0%3D--0a7f80c74445da6014c14c6d906c9fb72c0f33ec; path=/; HttpOnly",
+        "X-Request-Id": "583c4731-db6c-4d1d-863d-0f0ae5df28f2",
+        "X-Runtime": "0.077923",
         "Content-Length": "59"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/admin/settings\" -d 'settings[tax_in_percentage]=150&settings[default_delivery_cost]=120' -X PUT \\\n\t-H \"Access-Token: JUZP9bhUcjiZ7Zz5j7N_NA\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: eeL9UBc645kMFbLebi8xfg\" \\\n\t-H \"Expiry: 1475008667\" \\\n\t-H \"Uid: 83milo.ratke@wehner.net\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/admin/settings\" -d 'settings[tax_in_percentage]=150&settings[default_delivery_cost]=120' -X PUT \\\n\t-H \"Access-Token: wzA1l9wE68lhb52xhRbcjw\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: 0bO_b8T80hPifvFOkpsgAw\" \\\n\t-H \"Expiry: 1475019831\" \\\n\t-H \"Uid: 83nora_mcdermott@orn.biz\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

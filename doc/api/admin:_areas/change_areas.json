@@ -16,11 +16,11 @@
       "request_path": "/admin/areas/1",
       "request_body": "area[name]=good",
       "request_headers": {
-        "Access-Token": "79d3wlzHO_lxrJEsyArITA",
+        "Access-Token": "cVPUL9zc6oTj4JJLuBREFQ",
         "Token-Type": "Bearer",
-        "Client": "rjofRuez3GSuIyJsEhs9xA",
-        "Expiry": "1475008563",
-        "Uid": "7ova@volkman.io",
+        "Client": "2kgzZHeN88VplrXTkAssnA",
+        "Expiry": "1475019720",
+        "Uid": "7martine.murphy@goodwin.org",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -35,21 +35,21 @@
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
-        "access-token": "79d3wlzHO_lxrJEsyArITA",
+        "access-token": "cVPUL9zc6oTj4JJLuBREFQ",
         "token-type": "Bearer",
-        "client": "rjofRuez3GSuIyJsEhs9xA",
-        "expiry": "1475008563",
-        "uid": "7ova@volkman.io",
+        "client": "2kgzZHeN88VplrXTkAssnA",
+        "expiry": "1475019720",
+        "uid": "7martine.murphy@goodwin.org",
         "Content-Type": "application/json; charset=utf-8",
         "ETag": "W/\"45e468d788c466d6ec5f4c77d8c02cb9\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=ZmFmdXpQR1Bza0ErNUZ4S3VEM1IyZXpxZEc1MkwzWWpOM3JndmVhKy9GaE41RDNPRTM5T1ZNMGd4SXZsZFpXaCsxK1liQXgwRXlBSXQ5ckV1R0J4ZS9nR2NxNVNrNHRJa215NE9MNU5ydTlZNW9ZZ2pvaER1NTJrY1FtNFFVMVl6QkJlaERBZy9oMWVodDhiRGNwUWVrYnpvTWNMUUhRdkk2SlFpTjNZYW1EbERQM3lwNktWaHZwRDVKUG9DYy8xLS1oSVRGb1RoKzkxY2dtbUs0Sk9BeE5BPT0%3D--9297ea17f534324e17e18dbf3c0c688b3e199729; path=/; HttpOnly",
-        "X-Request-Id": "e050ae21-2fca-4703-95f7-9937ce2f057f",
-        "X-Runtime": "0.081062",
+        "Set-Cookie": "_session_id=dHZyOUJCU1dDLzVOeDZ6OVZ5VGdhQjlCUWJBM2RycXFaTlRLRXI5UEZTSVYwOThoR2Yzanoyd0RwbVhlNnF0TXNJOEJZL01oNU9jcEo0YUg2QnpQb1pFa25Yc245anhHclZWU3hOSkxDblhob3pFQzFFaDdGSEQrdFNVNklIWE0vTnhrMHcxeWRJdC9tTGZUWjhVRGtOTWZsTExnZFhEdXNJSVd2TXpFZ0h5eHF1YUJjWWk4SUZmcXBGWWZpdTZTLS13dkpYZXJDekZ3ZHk5VHc2WFltZk93PT0%3D--09d15a8c3b149737d77196e81b6f5d8a9857b69f; path=/; HttpOnly",
+        "X-Request-Id": "9c5678d5-45e0-470c-b4f4-48f112198079",
+        "X-Runtime": "0.085123",
         "Content-Length": "101"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/admin/areas/1\" -d 'area[name]=good' -X PUT \\\n\t-H \"Access-Token: 79d3wlzHO_lxrJEsyArITA\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: rjofRuez3GSuIyJsEhs9xA\" \\\n\t-H \"Expiry: 1475008563\" \\\n\t-H \"Uid: 7ova@volkman.io\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/admin/areas/1\" -d 'area[name]=good' -X PUT \\\n\t-H \"Access-Token: cVPUL9zc6oTj4JJLuBREFQ\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: 2kgzZHeN88VplrXTkAssnA\" \\\n\t-H \"Expiry: 1475019720\" \\\n\t-H \"Uid: 7martine.murphy@goodwin.org\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

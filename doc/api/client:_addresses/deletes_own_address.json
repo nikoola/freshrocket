@@ -16,11 +16,11 @@
       "request_path": "/client/addresses/1",
       "request_body": null,
       "request_headers": {
-        "Access-Token": "0MKpzzMFJIah7nAlsbgQ3w",
+        "Access-Token": "5FHRESSjdLEIoaXJD-uNcg",
         "Token-Type": "Bearer",
-        "Client": "pSacUhKKAWI8HemWV4_QVA",
-        "Expiry": "1475008751",
-        "Uid": "123patience@fahey.org",
+        "Client": "5AcVcC2Di5rcL5yKQTQbGw",
+        "Expiry": "1475019925",
+        "Uid": "126sister.gleason@stantonlesch.com",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -35,20 +35,20 @@
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
-        "access-token": "0MKpzzMFJIah7nAlsbgQ3w",
+        "access-token": "5FHRESSjdLEIoaXJD-uNcg",
         "token-type": "Bearer",
-        "client": "pSacUhKKAWI8HemWV4_QVA",
-        "expiry": "1475008751",
-        "uid": "123patience@fahey.org",
+        "client": "5AcVcC2Di5rcL5yKQTQbGw",
+        "expiry": "1475019925",
+        "uid": "126sister.gleason@stantonlesch.com",
         "Content-Type": "text/html",
         "Cache-Control": "no-cache",
-        "Set-Cookie": "_session_id=UklPVkFWQ1h5TGJJOEpuMDJPKzdQc0ViUjE0UWczaERXaE9NaGppVmlYVFZNYUFON2s3dGxnbnZ5blI1YjFLY244aXp3K0NoTkdUWTlORXI5cjQweU9mdGFVWWtGSkhzWHJpQjRVVy9CNllFbzRER3k1Y0U0b3RXS2ozNFhFdkhYK3dENXdMb0I2ZkxvYWwvZEJQbU5IZjZxRW0waHZQU0JtZ0NZT1lPMDh2RlpMSEZPRENXZUsya0ptYUxPS3RhLS1ML2RNVitLb0l3dy9PUVYyd091MTZRPT0%3D--7d85e59741878f1fd7505de3b2c01e3d917926ee; path=/; HttpOnly",
-        "X-Request-Id": "b0857531-6253-4fa8-9a64-087f60f5ff7b",
-        "X-Runtime": "0.073918",
+        "Set-Cookie": "_session_id=ZHFLZmdjUUJyNiszcFVTbEJjZUptcnY1UzFnVHovMk1YNFdjSm9JUk8yUjJrUUlLaVczUzZYTVgwRVk4Y2F1TjVZbm5laTdNSFVKUHBaRjFCTTVnSWV0V0hzYndTYTZ3RmtjOCt3V2ZkWkNMZkVuT05ON1VXMFEyUFRiWEF2TllKZlZ1V3hPYzFpcVRZSnp3V2FKM3NUbm1QcDNYNlIyREV2M0xzMFVYMndGTnc1Uk5vdFZmR3VFTmErTHlRS2ZRLS0vUUF4aG9GYklKQXdiSzF3RXA4dFJ3PT0%3D--890c2f2aa37a060cfcc7316021d01a16543d97f4; path=/; HttpOnly",
+        "X-Request-Id": "5d4223b4-4fc0-44ca-9554-6d7a903f2a90",
+        "X-Runtime": "0.071479",
         "Content-Length": "0"
       },
       "response_content_type": "text/html",
-      "curl": "curl \"http://localhost:3000/client/addresses/1\" -d '' -X DELETE \\\n\t-H \"Access-Token: 0MKpzzMFJIah7nAlsbgQ3w\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: pSacUhKKAWI8HemWV4_QVA\" \\\n\t-H \"Expiry: 1475008751\" \\\n\t-H \"Uid: 123patience@fahey.org\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/client/addresses/1\" -d '' -X DELETE \\\n\t-H \"Access-Token: 5FHRESSjdLEIoaXJD-uNcg\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: 5AcVcC2Di5rcL5yKQTQbGw\" \\\n\t-H \"Expiry: 1475019925\" \\\n\t-H \"Uid: 126sister.gleason@stantonlesch.com\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

@@ -27,11 +27,11 @@
       "request_path": "/admin/users?has_ability=users",
       "request_body": null,
       "request_headers": {
-        "Access-Token": "9TTdFzXVggp0Ew4XtCTDTg",
+        "Access-Token": "Gylq-fD6aDUr67Qw5Oekmg",
         "Token-Type": "Bearer",
-        "Client": "aTt9lr_k1zyt5PwYjW8cPA",
-        "Expiry": "1475008685",
-        "Uid": "93marianne.kris@robelcorwin.org",
+        "Client": "T_Slb0HbBmYt9RSKEWMLow",
+        "Expiry": "1475019849",
+        "Uid": "93shanel.kerluke@schoencole.org",
         "Host": "example.org",
         "Cookie": ""
       },
@@ -41,26 +41,26 @@
       "request_content_type": null,
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "[\n  {\n    \"id\": 2,\n    \"first_name\": \"Corene\",\n    \"last_name\": \"Leannon\",\n    \"email\": \"93marianne.kris@robelcorwin.org\",\n    \"phone\": \"4545682339\",\n    \"is_verified\": false,\n    \"provider\": \"email\",\n    \"uid\": \"93marianne.kris@robelcorwin.org\",\n    \"created_at\": \"2016-09-13T20:38:05.166Z\",\n    \"abilities\": {\n      \"orders\": 0,\n      \"products\": 0,\n      \"users\": 1,\n      \"categories\": 0,\n      \"coupons\": 0,\n      \"settings\": 0,\n      \"cities\": 0,\n      \"delivery_boy\": 0\n    },\n    \"addresses\": [\n\n    ],\n    \"orders\": [\n\n    ]\n  }\n]",
+      "response_body": "[\n  {\n    \"id\": 2,\n    \"first_name\": \"Hanna\",\n    \"last_name\": \"Braun\",\n    \"email\": \"93shanel.kerluke@schoencole.org\",\n    \"phone\": \"8044095795\",\n    \"is_verified\": false,\n    \"provider\": \"email\",\n    \"uid\": \"93shanel.kerluke@schoencole.org\",\n    \"created_at\": \"2016-09-13T23:44:09.349Z\",\n    \"abilities\": {\n      \"orders\": 0,\n      \"products\": 0,\n      \"users\": 1,\n      \"categories\": 0,\n      \"coupons\": 0,\n      \"settings\": 0,\n      \"cities\": 0,\n      \"delivery_boy\": 0\n    },\n    \"addresses\": [\n\n    ],\n    \"orders\": [\n\n    ]\n  }\n]",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
-        "access-token": "9TTdFzXVggp0Ew4XtCTDTg",
+        "access-token": "Gylq-fD6aDUr67Qw5Oekmg",
         "token-type": "Bearer",
-        "client": "aTt9lr_k1zyt5PwYjW8cPA",
-        "expiry": "1475008685",
-        "uid": "93marianne.kris@robelcorwin.org",
+        "client": "T_Slb0HbBmYt9RSKEWMLow",
+        "expiry": "1475019849",
+        "uid": "93shanel.kerluke@schoencole.org",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"7a7521cd57bbd4e8c32828eef5902acf\"",
+        "ETag": "W/\"1c768eadbf59f5aed981efcbc948edbf\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=YlNpYXMrajFiamNrUmxWdVFPbjZpaHZDTi9BeUtpaCs2bnZwN1F3RVFkYXFpK0NTY0ppQmZKejJLT3RtMmNkY3pkVDAycnhzVk5RQVJrbXlMMlZkS0IyQ3NCdHRiSDFMb21sd09zV1ZGSUN1L0xmenNBdkZWN0ZUMnM2Z1NyNWVZVVpQMFp6ZU5OZ2Zob0g5R2YzMzVxbTA0R21yb25RUVIxTEZBbVdGK1pvN3dOZWhJYVNBSjFWdWtnM2dJZnB5LS1VUS9xeThkVExjOThQSXhPL3FuK0ZBPT0%3D--c0db9613b4c9c094f9bab2b534a5f2837a575a9f; path=/; HttpOnly",
-        "X-Request-Id": "a80c9827-45c4-4e22-94a3-adbdf9df6e08",
-        "X-Runtime": "0.082267",
-        "Content-Length": "379"
+        "Set-Cookie": "_session_id=azM4bi9aOUhPRlhXeVZrY09CNFdOeEhQQUxDQnQzZ3YvOFF2djR3TkdNYWdubk1uRjI5WFY3RlpGc0JtcS9FK0o3Nkw3MUoxbkQwUVlpQ1E4RkZwNUpPSWgyaEMwQVlpQ09jSlJPalMrNnp1WUQzenFtaWtKN1JQQnlDR0pFVUdKcG9HUlRrUkdCdG83MWZXVkJFK3VmMDI5QnlwZ0ZjRWVVbjVKbHd2OFk3Y2NFcGF3Z1JVZ25vSWpMbkhxaFNRLS1OcUU5bDlWSUN6dmd3STRZT0ZJVzZRPT0%3D--6e9b4ce93d6191fa67c9ba694ee0e69beaf9e4a6; path=/; HttpOnly",
+        "X-Request-Id": "86a0e0e7-b7a0-4353-b5ac-b7a5b81fb798",
+        "X-Runtime": "0.083944",
+        "Content-Length": "376"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/admin/users?has_ability=users\" -X GET \\\n\t-H \"Access-Token: 9TTdFzXVggp0Ew4XtCTDTg\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: aTt9lr_k1zyt5PwYjW8cPA\" \\\n\t-H \"Expiry: 1475008685\" \\\n\t-H \"Uid: 93marianne.kris@robelcorwin.org\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/admin/users?has_ability=users\" -X GET \\\n\t-H \"Access-Token: Gylq-fD6aDUr67Qw5Oekmg\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: T_Slb0HbBmYt9RSKEWMLow\" \\\n\t-H \"Expiry: 1475019849\" \\\n\t-H \"Uid: 93shanel.kerluke@schoencole.org\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

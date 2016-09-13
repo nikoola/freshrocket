@@ -24,17 +24,17 @@
       "request_content_type": null,
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\n  \"id\": 1,\n  \"name\": \"Chhapra\",\n  \"active\": true\n}",
+      "response_body": "{\n  \"id\": 1,\n  \"name\": \"Pali\",\n  \"active\": true\n}",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"dd405d1fe82c7f31a55bb3ce5768e884\"",
+        "ETag": "W/\"4ea1576e4932ad4feeb7f6d01ffb6322\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "X-Request-Id": "9d132e0d-897d-48b5-bbc8-14658341a35f",
-        "X-Runtime": "0.002431",
-        "Content-Length": "39"
+        "X-Request-Id": "ca349614-39c6-44da-a19c-9a749e18720d",
+        "X-Runtime": "0.002115",
+        "Content-Length": "36"
       },
       "response_content_type": "application/json; charset=utf-8",
       "curl": "curl \"http://localhost:3000/cities/1\" -X GET \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""

@@ -74,11 +74,11 @@
       "request_path": "/admin/orders",
       "request_body": "order[address_id]=1&order[user_id]=2&order[line_items_attributes][][product_id]=1&order[line_items_attributes][][amount]=3",
       "request_headers": {
-        "Access-Token": "K2NMPi6f5-CCdVTEx9BHrA",
+        "Access-Token": "LewONuJj_bxQPShHBXGFjA",
         "Token-Type": "Bearer",
-        "Client": "HOKbfYnv4jzb5qgw0m-n4g",
-        "Expiry": "1475008631",
-        "Uid": "52aylin_willms@blickhamill.info",
+        "Client": "upO4YeRjT8vtthEDHjkQfg",
+        "Expiry": "1475019791",
+        "Uid": "52juliet@blanda.net",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -88,26 +88,26 @@
       "request_content_type": "application/x-www-form-urlencoded",
       "response_status": 201,
       "response_status_text": "Created",
-      "response_body": "{\n  \"id\": 1,\n  \"user_id\": 2,\n  \"status\": \"approved\",\n  \"created_at\": \"2016-09-13T20:37:11.376Z\",\n  \"confirmed_at\": \"2016-09-13T20:37:11.379Z\",\n  \"approved_at\": \"2016-09-13T20:37:11.385Z\",\n  \"dispacthed_at\": null,\n  \"delivered_at\": null,\n  \"canceled_at\": null,\n  \"pure_product_price\": null,\n  \"tax\": null,\n  \"delivery_charge\": null,\n  \"total_price\": null,\n  \"coupon_code\": null,\n  \"delivery_boy_id\": null,\n  \"delivery_boy_phone\": null,\n  \"wanted_time\": null,\n  \"wanted_date\": null,\n  \"payment_type\": \"cash\",\n  \"is_paid\": false,\n  \"feedback\": null,\n  \"comment\": null,\n  \"source_type\": null,\n  \"admin_comment\": null,\n  \"line_items\": [\n    {\n      \"id\": 1,\n      \"order_id\": 1,\n      \"amount\": 3,\n      \"fixed_price\": null,\n      \"product_id\": 1\n    }\n  ],\n  \"address\": {\n    \"id\": 1,\n    \"city_id\": 2,\n    \"user_id\": 1,\n    \"street_and_house\": \"Puducherry 605004, India\",\n    \"door_number\": \"5\",\n    \"active\": true,\n    \"city_name\": \"Pondicherry\"\n  },\n  \"delivery_boy\": null\n}",
+      "response_body": "{\n  \"id\": 1,\n  \"user_id\": 2,\n  \"status\": \"approved\",\n  \"created_at\": \"2016-09-13T23:43:11.441Z\",\n  \"confirmed_at\": \"2016-09-13T23:43:11.444Z\",\n  \"approved_at\": \"2016-09-13T23:43:11.450Z\",\n  \"dispacthed_at\": null,\n  \"delivered_at\": null,\n  \"canceled_at\": null,\n  \"pure_product_price\": null,\n  \"tax\": null,\n  \"delivery_charge\": null,\n  \"total_price\": null,\n  \"coupon_code\": null,\n  \"delivery_boy_id\": null,\n  \"delivery_boy_phone\": null,\n  \"wanted_time\": null,\n  \"wanted_date\": null,\n  \"payment_type\": \"cash\",\n  \"is_paid\": false,\n  \"feedback\": null,\n  \"comment\": null,\n  \"source_type\": null,\n  \"admin_comment\": null,\n  \"line_items\": [\n    {\n      \"id\": 1,\n      \"order_id\": 1,\n      \"amount\": 3,\n      \"fixed_price\": null,\n      \"product_id\": 1\n    }\n  ],\n  \"address\": {\n    \"id\": 1,\n    \"city_id\": 2,\n    \"user_id\": 1,\n    \"street_and_house\": \"Puducherry 605004, India\",\n    \"door_number\": \"5\",\n    \"active\": true,\n    \"city_name\": \"Pondicherry\"\n  },\n  \"delivery_boy\": null\n}",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
-        "access-token": "K2NMPi6f5-CCdVTEx9BHrA",
+        "access-token": "LewONuJj_bxQPShHBXGFjA",
         "token-type": "Bearer",
-        "client": "HOKbfYnv4jzb5qgw0m-n4g",
-        "expiry": "1475008631",
-        "uid": "52aylin_willms@blickhamill.info",
+        "client": "upO4YeRjT8vtthEDHjkQfg",
+        "expiry": "1475019791",
+        "uid": "52juliet@blanda.net",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"ffed360401b089618383a29acda5f1e5\"",
+        "ETag": "W/\"3d21f00c8ec27e85cd7dd358849863cb\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=WTR6VkZoQ040UURhbmFPWnRSbHo2QkJIZjV5STBqbTc0QlpiazVES1NDWTJTb3ZHT3J0OHFCVndCV0V0L09MVWJTUXNzT0FIQ1lEYjVmTXhXSUFWYktTdU1SVmpZRUh1SHJQNVZWRlI4V09QVXhaWWhGUDJlZGtvbGJKQW0rS0N1NFhaTG1kUXNJZ2k3ZDZNUHhOaFNIVDBiclJzMnN2MzNqME9uUFlsUlFnQm5DUHN2bEZjVWtUdno4VTRBMDV5LS1kVmR3bWhQUVJNQUd6T1RrVHB3eG1nPT0%3D--be4bf2aa81690d2701518118266656edbf977500; path=/; HttpOnly",
-        "X-Request-Id": "0107f0c7-16dc-4950-bc1d-4723f5e51fee",
-        "X-Runtime": "0.173013",
+        "Set-Cookie": "_session_id=K1lqZHFRZ24vcGFDeWZzTFUxcHNiMEkwVHRkZTB2QjFGc0kyQTJreGVkZVR2enhXc0tVMzFZM0xPdVlVaVpldDBHUldsUFFVNHA3S054OVZxMzhoaXByeU1ITDVmS3R0M0NvTVE4ZTBURlJhM3lXaVJwRVBjQnlWMDBTWENJRy9Kb2lmMmE2aTRMajJkSzF4YWgzcDNBME1rM2lzM2FNQkN4NGZ2elFqa0J1NVBXcmRDL2dQbTdTT3J0SlN6OXA2LS1uTzM1NXgwUDVUYzhBVFY5eXJocTZ3PT0%3D--74f83b6be516fa9a5e72c7296feea29b005f9d66; path=/; HttpOnly",
+        "X-Request-Id": "ae1a90bb-af06-4945-9359-e1ccc1505eca",
+        "X-Runtime": "0.183827",
         "Content-Length": "766"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/admin/orders\" -d 'order[address_id]=1&order[user_id]=2&order[line_items_attributes][][product_id]=1&order[line_items_attributes][][amount]=3' -X POST \\\n\t-H \"Access-Token: K2NMPi6f5-CCdVTEx9BHrA\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: HOKbfYnv4jzb5qgw0m-n4g\" \\\n\t-H \"Expiry: 1475008631\" \\\n\t-H \"Uid: 52aylin_willms@blickhamill.info\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/admin/orders\" -d 'order[address_id]=1&order[user_id]=2&order[line_items_attributes][][product_id]=1&order[line_items_attributes][][amount]=3' -X POST \\\n\t-H \"Access-Token: LewONuJj_bxQPShHBXGFjA\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: upO4YeRjT8vtthEDHjkQfg\" \\\n\t-H \"Expiry: 1475019791\" \\\n\t-H \"Uid: 52juliet@blanda.net\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

@@ -12,7 +12,7 @@ module Admin
 			# unless city_id
 				users = User.filter params.slice(:has_ability, :city_id)#.merge({:city_id => city_id})
 				# binding.pry
-				render json: users #and return true
+				render json: users, include: params[:include] #and return true
 
 			# end
 
@@ -32,6 +32,7 @@ module Admin
 		# POST /users
 		def create
 			@user = User.new(user_params)
+			# binding.pry
 			if @user.save
 				set_is_verified
 				SendSmsWithRecoveryPasswordJob.perform_later @user.name, params[:user][:password], @user.phone
@@ -76,7 +77,8 @@ module Admin
 					:password, :password_confirmation,
 					:phone, :email,
 					:first_name, :last_name, 
-					:how_did_you_hear_about_us
+					:how_did_you_hear_about_us, 
+					:addresses_attributes => [:street_and_house,:lat, :lng, :door_number, :area_id, :city_id]
 				)
 			end
 

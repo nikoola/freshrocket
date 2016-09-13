@@ -25,11 +25,11 @@
       "request_path": "/deliver/delivery_boy",
       "request_body": "delivery_boy[current_order_id]=3",
       "request_headers": {
-        "Access-Token": "fY24qJrYg8D6m5Pb-AWGRw",
+        "Access-Token": "MXuN9o6Ofp87ZmAIZQXK3A",
         "Token-Type": "Bearer",
-        "Client": "3pg7BwTGMVccgDwy4w7CVw",
-        "Expiry": "1475008872",
-        "Uid": "178bertrand_fisher@schultz.biz",
+        "Client": "aXu0GJO49eHyt-dBnfWjNQ",
+        "Expiry": "1475020047",
+        "Uid": "181treva_koch@townereichert.net",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -44,20 +44,20 @@
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
-        "access-token": "fY24qJrYg8D6m5Pb-AWGRw",
+        "access-token": "MXuN9o6Ofp87ZmAIZQXK3A",
         "token-type": "Bearer",
-        "client": "3pg7BwTGMVccgDwy4w7CVw",
-        "expiry": "1475008872",
-        "uid": "178bertrand_fisher@schultz.biz",
+        "client": "aXu0GJO49eHyt-dBnfWjNQ",
+        "expiry": "1475020047",
+        "uid": "181treva_koch@townereichert.net",
         "Content-Type": "text/html",
         "Cache-Control": "no-cache",
-        "Set-Cookie": "_session_id=eC95OS96UUptaGJFaG8rbVZISFU5aEtIWkZKaHVmWjM1a1d0ZkNlcHdMc2U2emxwcGZlZ2JreUwrbU9XQ3NHZkQ3WjVhOVZJd09Xa3VHa1lWaHB0MDlOUlFEdVBzd3RvVlplZFl5SUFvU2szaDNFUnZwWWlMV2dKU0s4TGRSQlFOT0RVU0JaL2FKL2RrYlZXcGZMRllwRlFFRmFZUjJ4UERhRjcvWHREczlvNWFua3N0eXpyRXN2cHd6K0tXN2hVLS16V1lPM2hpSG5ZczkvRnNHVGJmd2JRPT0%3D--0eec76d63f5bac822bfe0d853fe15565b5f8c84f; path=/; HttpOnly",
-        "X-Request-Id": "59fabb02-ba77-4a21-b426-e81d4709dd61",
-        "X-Runtime": "0.099353",
+        "Set-Cookie": "_session_id=emU1ODFseFJSL2V5Mkd2dGlBTzVZQjhHZ253TVIwdXpURTZLeW52dVFGL29adHZ5aXFDUGVYcFE1K25nNmxmREgwRnNBajVpN3RHcUc0V3pKMndOb1NsMDZTbkc3L2NHTElsa2N3VmlDVUhacFBITHUzaFoxLzk4U1ZaekVnZUV2VjRSNG5TMFR2dnBOK0REWm9iQzBjSTlEa01nckZUcmJMd1JkOVU0WkY2a3VWd1ZVdElHVkVhcVhRQnNadjVmLS1ESkdDdUk3dXpsVUYvOVNBSkdvbndRPT0%3D--1f1db611c465ad27cc1b7921dde09fa6244ab7c5; path=/; HttpOnly",
+        "X-Request-Id": "cbaaa523-03fc-4b7c-800c-50f8d30b651c",
+        "X-Runtime": "0.097732",
         "Content-Length": "0"
       },
       "response_content_type": "text/html",
-      "curl": "curl \"http://localhost:3000/deliver/delivery_boy\" -d 'delivery_boy[current_order_id]=3' -X PUT \\\n\t-H \"Access-Token: fY24qJrYg8D6m5Pb-AWGRw\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: 3pg7BwTGMVccgDwy4w7CVw\" \\\n\t-H \"Expiry: 1475008872\" \\\n\t-H \"Uid: 178bertrand_fisher@schultz.biz\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/deliver/delivery_boy\" -d 'delivery_boy[current_order_id]=3' -X PUT \\\n\t-H \"Access-Token: MXuN9o6Ofp87ZmAIZQXK3A\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: aXu0GJO49eHyt-dBnfWjNQ\" \\\n\t-H \"Expiry: 1475020047\" \\\n\t-H \"Uid: 181treva_koch@townereichert.net\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

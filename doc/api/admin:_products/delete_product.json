@@ -16,11 +16,11 @@
       "request_path": "/admin/products/1",
       "request_body": null,
       "request_headers": {
-        "Access-Token": "AMX78yG_Z2EcbolAdmNYkg",
+        "Access-Token": "WWIjXT7zWZxW4COgiD72oQ",
         "Token-Type": "Bearer",
-        "Client": "QCIreTcR-C69jFn1g7YniA",
-        "Expiry": "1475008661",
-        "Uid": "76adelle@borergoodwin.org",
+        "Client": "wpkyIAQPHR5I7eM3i5zXTw",
+        "Expiry": "1475019824",
+        "Uid": "76roxanne@lakin.com",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -35,20 +35,20 @@
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
-        "access-token": "AMX78yG_Z2EcbolAdmNYkg",
+        "access-token": "WWIjXT7zWZxW4COgiD72oQ",
         "token-type": "Bearer",
-        "client": "QCIreTcR-C69jFn1g7YniA",
-        "expiry": "1475008661",
-        "uid": "76adelle@borergoodwin.org",
+        "client": "wpkyIAQPHR5I7eM3i5zXTw",
+        "expiry": "1475019824",
+        "uid": "76roxanne@lakin.com",
         "Content-Type": "text/html",
         "Cache-Control": "no-cache",
-        "Set-Cookie": "_session_id=ZnJXWjNRUzZ2ZWFHQ2dkV1VYT3JlUGZva1lnRlhsYm9TdHRPOWg5T3ptVmx5LzN0bjdZNWJkVTFrblFIWWVGOTV4NmhPNkJtaVd4c0p5YzlSNWIyazZ0RFN3b2dSaUJMZkhTOGlJLzdrVk1kZ1NjcG0reDhoM2M4TDBQWnJJLzBXTFpxeENYWWhMdytHZGpLRm01T1hRdlB3bTRhdmJ6a2w4VmVYYldDeUlXbWNSeHo3NHN4MXFJZnNTZnQ5bkRvLS1qVGNwaXdHNFRLTHQweXQ3WjFDaXVBPT0%3D--3a3ad297cc70459d7a7aa1a24e6533cc546e909f; path=/; HttpOnly",
-        "X-Request-Id": "a877b0fd-7c7e-4ec0-b29e-24b1da03a3d1",
-        "X-Runtime": "0.078539",
+        "Set-Cookie": "_session_id=Y09YNlNjSE0yejZEVktVSE0yQmc2YXM2LzVXQ09jVVRXWWhtRGxUbkx4R3NEeGt4RFN3S2thQ2lGUTBsZnl2UG0zb2JJeU5VWE5VcXFsSXhYeDlrT1BnblJldFdEdGFvdWovYXMzUTI5OHgzcGJzMmZtR21ocjI4ZEhnWFM1VTl3UjBrRVlmTm1URUJWUGNBdUYxRWNUYmppNllyeXloTGxPeVpZQ3JIYXRYb1hWYjU1NHlKc0lOVzlnWU1mbTBQLS1Oc2tsK2JVSHZVZXJ0R3RXT251OHNRPT0%3D--482885a14c2f8700813fca5b50278d1d32db2739; path=/; HttpOnly",
+        "X-Request-Id": "2c51217f-13af-4941-a33a-9e9176d3c13e",
+        "X-Runtime": "0.080007",
         "Content-Length": "0"
       },
       "response_content_type": "text/html",
-      "curl": "curl \"http://localhost:3000/admin/products/1\" -d '' -X DELETE \\\n\t-H \"Access-Token: AMX78yG_Z2EcbolAdmNYkg\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: QCIreTcR-C69jFn1g7YniA\" \\\n\t-H \"Expiry: 1475008661\" \\\n\t-H \"Uid: 76adelle@borergoodwin.org\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/admin/products/1\" -d '' -X DELETE \\\n\t-H \"Access-Token: WWIjXT7zWZxW4COgiD72oQ\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: wpkyIAQPHR5I7eM3i5zXTw\" \\\n\t-H \"Expiry: 1475019824\" \\\n\t-H \"Uid: 76roxanne@lakin.com\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

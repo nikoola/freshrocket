@@ -1,0 +1,58 @@
+{
+  "resource": "deliver: positions",
+  "http_method": "POST",
+  "route": "/deliver/orders/:id/positions",
+  "description": "mark new position",
+  "explanation": null,
+  "parameters": [
+    {
+      "required": true,
+      "name": "position",
+      "description": " position"
+    }
+  ],
+  "response_fields": [
+
+  ],
+  "requests": [
+    {
+      "request_method": "POST",
+      "request_path": "/deliver/orders/3/positions",
+      "request_body": "position=42.10808340000001%2C87.735895",
+      "request_headers": {
+        "Access-Token": "tIrz5RLB8-9Sh3B25sPy1A",
+        "Token-Type": "Bearer",
+        "Client": "9Z1bv0imQ2vpC6BMzG7_hA",
+        "Expiry": "1475020098",
+        "Uid": "199hailee@treutel.io",
+        "Host": "example.org",
+        "Content-Type": "application/x-www-form-urlencoded",
+        "Cookie": ""
+      },
+      "request_query_parameters": {
+      },
+      "request_content_type": "application/x-www-form-urlencoded",
+      "response_status": 201,
+      "response_status_text": "Created",
+      "response_body": null,
+      "response_headers": {
+        "X-Frame-Options": "SAMEORIGIN",
+        "X-XSS-Protection": "1; mode=block",
+        "X-Content-Type-Options": "nosniff",
+        "access-token": "tIrz5RLB8-9Sh3B25sPy1A",
+        "token-type": "Bearer",
+        "client": "9Z1bv0imQ2vpC6BMzG7_hA",
+        "expiry": "1475020098",
+        "uid": "199hailee@treutel.io",
+        "Content-Type": "text/html",
+        "Cache-Control": "no-cache",
+        "Set-Cookie": "_session_id=TWpxeTA4TjlLNFhaclI4RmF6S0NlQStBQmdIblBQZUhrRGowTlRJVFJyNGtPQWVzaUs1Unk5aXRTSzAzcUhCZUliakFjTnF3WFZ0a0FnR2JSSWlzY0NpV1dldkgxcjFHVGY5eDlYTWd5Zi9IR3ZjWkRQcEF2alY1QTVVMGdaa0lUNXE0RklkdXAvWUdKSnVhN0VNZDBRMFFQSURIRWl6dnZnR1RKSWFDMHBaenZiWGdaTG1nRDlhaEUrbUNvVUI0LS1lcnZFR1R1Y0QvL3JOQXNCYXNrUkxRPT0%3D--153a7b991b14a050982098b1a8f8b9661ea1cdd9; path=/; HttpOnly",
+        "X-Request-Id": "8b146804-4216-4f0c-94fd-583fb3b96690",
+        "X-Runtime": "0.087807",
+        "Content-Length": "0"
+      },
+      "response_content_type": "text/html",
+      "curl": "curl \"http://localhost:3000/deliver/orders/3/positions\" -d 'position=42.10808340000001%2C87.735895' -X POST \\\n\t-H \"Access-Token: tIrz5RLB8-9Sh3B25sPy1A\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: 9Z1bv0imQ2vpC6BMzG7_hA\" \\\n\t-H \"Expiry: 1475020098\" \\\n\t-H \"Uid: 199hailee@treutel.io\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+    }
+  ]
+}

@@ -70,12 +70,25 @@ resource 'admin: users', type: :request do
 			parameter :first_name
 			parameter :last_name
 			parameter :how_did_you_hear_about_us
+			parameter :addresses_attributes
 		end
 
 		example 'create user' do
 			explanation 'create user from the admin side, and send them their password by sms'
 
 			do_request user: FactoryGirl.attributes_for(:user, is_verified: true)
+			expect(status).to eq(201)
+			expect(json.keys).to include :id, :provider, :uid, :email, :phone, :created_at
+			expect(json[:is_verified]).to eq(true)
+		end
+
+		example 'create user with addresses', :focus => true do
+			explanation 'create user from the admin side, and send them their password by sms with addresses'
+			city = FactoryGirl.create :city
+			area = FactoryGirl.create :area, city_id: city.id
+			addes = [FactoryGirl.build(:address, area_id: area.id, city_id: area.city.id).attributes]
+			# binding.pry
+			do_request user: FactoryGirl.attributes_for(:user, is_verified: true).merge({addresses_attributes: addes})
 			expect(status).to eq(201)
 			expect(json.keys).to include :id, :provider, :uid, :email, :phone, :created_at
 			expect(json[:is_verified]).to eq(true)

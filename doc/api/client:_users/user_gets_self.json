@@ -16,11 +16,11 @@
       "request_path": "/client",
       "request_body": null,
       "request_headers": {
-        "Access-Token": "kjyLiSr7L6AlUzLm6W2pew",
+        "Access-Token": "9QfkGApYGLjUjLvjgDfARg",
         "Token-Type": "Bearer",
-        "Client": "3JINAOUBBR-ZAYtw9qz_Qw",
-        "Expiry": "1475008866",
-        "Uid": "174tatum@kingmcdermott.name",
+        "Client": "Fs5bjPK7xVbFkYj1r5JwWQ",
+        "Expiry": "1475020041",
+        "Uid": "177arthur@nitzschequigley.co",
         "Host": "example.org",
         "Cookie": ""
       },
@@ -29,26 +29,26 @@
       "request_content_type": null,
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\n  \"id\": 5,\n  \"first_name\": \"Granville\",\n  \"last_name\": \"Rempel\",\n  \"email\": \"174tatum@kingmcdermott.name\",\n  \"phone\": \"6218670011\",\n  \"is_verified\": false,\n  \"provider\": \"email\",\n  \"uid\": \"174tatum@kingmcdermott.name\",\n  \"created_at\": \"2016-09-13T20:41:06.153Z\",\n  \"abilities\": {\n    \"orders\": 0,\n    \"products\": 0,\n    \"users\": 0,\n    \"categories\": 0,\n    \"coupons\": 0,\n    \"settings\": 0,\n    \"cities\": 0,\n    \"delivery_boy\": 0\n  },\n  \"addresses\": [\n\n  ],\n  \"orders\": [\n\n  ]\n}",
+      "response_body": "{\n  \"id\": 5,\n  \"first_name\": \"Bettye\",\n  \"last_name\": \"Bednar\",\n  \"email\": \"177arthur@nitzschequigley.co\",\n  \"phone\": \"2398424775\",\n  \"is_verified\": false,\n  \"provider\": \"email\",\n  \"uid\": \"177arthur@nitzschequigley.co\",\n  \"created_at\": \"2016-09-13T23:47:21.848Z\",\n  \"abilities\": {\n    \"orders\": 0,\n    \"products\": 0,\n    \"users\": 0,\n    \"categories\": 0,\n    \"coupons\": 0,\n    \"settings\": 0,\n    \"cities\": 0,\n    \"delivery_boy\": 0\n  },\n  \"addresses\": [\n\n  ],\n  \"orders\": [\n\n  ]\n}",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
-        "access-token": "kjyLiSr7L6AlUzLm6W2pew",
+        "access-token": "9QfkGApYGLjUjLvjgDfARg",
         "token-type": "Bearer",
-        "client": "3JINAOUBBR-ZAYtw9qz_Qw",
-        "expiry": "1475008866",
-        "uid": "174tatum@kingmcdermott.name",
+        "client": "Fs5bjPK7xVbFkYj1r5JwWQ",
+        "expiry": "1475020041",
+        "uid": "177arthur@nitzschequigley.co",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"bf8ba2ffc279f2c9229d9d1b9c0997c7\"",
+        "ETag": "W/\"829e53708f44e0fe16a9a93ed2079824\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=eG5OZ0Z5VEFGMEJWbTBZY0h4Y0k2NWp0MHU2aitFU1FVeUg2QWx0YmVvV25Sb2c3a0RyVEFnUDZLbUJJZTNrRmZSWHU3THZXdzRwU1lLL25rMHl1emJKWk16aGh5aENzQTF4ZWovekdkbnN3M0xzWEtxNE8zVGcwZDhzRnJBWVJLUHdiQU1BZWQyNzlwZWFKYmh2MXFtOW5ONlB0V1RqV2pVTXllYlpOeDVlSDdlcnltaTI4aTZQbjBhbVZXVXV6LS00M3FqTzNNeHFiczBBR0ZHRm01SWtRPT0%3D--2b671f2d897b8523a9edca19cac4681a99079015; path=/; HttpOnly",
-        "X-Request-Id": "5b00a8ab-0f9f-413f-b587-300b5421c61b",
-        "X-Runtime": "0.084087",
-        "Content-Length": "371"
+        "Set-Cookie": "_session_id=QkphV2x2NWtRR3lGdWxQZnczcmRXL20wczd5VU13dytpSjJPcWN0bURUTXVBMXRscXRFZVNGTCtIclh0RC94UzRDbzdGaHQ0LzJRRmVWMzJwaVZlOFRGUlJVWVlkcFA5aHNKOEFTOGVhRkdNQ3RHK3JxejBUYThpSVVYQXdWMW9sYWwwLytIYXRib3VnUEl0WWdLeFFRTWcrYmpwSmU0L2JpT2N4OStWYWhvZUVEMTM2YTN4cVdEWjdSOWFybW9XLS15a3lZQk9QQkt0MEZSMWJBTGhzWVJBPT0%3D--14e62335bd66bff984fa4f1ccf49835bc5eb5e21; path=/; HttpOnly",
+        "X-Request-Id": "86ddbc02-a1e8-45c8-9037-3e800f0b404b",
+        "X-Runtime": "0.084448",
+        "Content-Length": "370"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/client\" -X GET \\\n\t-H \"Access-Token: kjyLiSr7L6AlUzLm6W2pew\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: 3JINAOUBBR-ZAYtw9qz_Qw\" \\\n\t-H \"Expiry: 1475008866\" \\\n\t-H \"Uid: 174tatum@kingmcdermott.name\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/client\" -X GET \\\n\t-H \"Access-Token: 9QfkGApYGLjUjLvjgDfARg\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: Fs5bjPK7xVbFkYj1r5JwWQ\" \\\n\t-H \"Expiry: 1475020041\" \\\n\t-H \"Uid: 177arthur@nitzschequigley.co\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

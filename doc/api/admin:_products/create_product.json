@@ -59,11 +59,11 @@
       "request_path": "/admin/products",
       "request_body": "product[title]=fish&product[price]=3.0&product[inventory_count]=2&product[city_id]=1&product[category_ids][]=1",
       "request_headers": {
-        "Access-Token": "LKjVO36rgNd6KIqF7YSqzg",
+        "Access-Token": "9XQEAD3vgBF3Jyt5HeqXKQ",
         "Token-Type": "Bearer",
-        "Client": "VFR5sZHi5iJrABDQR8ABwg",
-        "Expiry": "1475008660",
-        "Uid": "70savion@metz.org",
+        "Client": "l6D1EaMgPeIZO6uwDPgg1Q",
+        "Expiry": "1475019823",
+        "Uid": "70hope@lockmancartwright.name",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -73,27 +73,27 @@
       "request_content_type": "application/x-www-form-urlencoded",
       "response_status": 201,
       "response_status_text": "Created",
-      "response_body": "{\n  \"id\": 1,\n  \"city_id\": 1,\n  \"title\": \"fish\",\n  \"price\": \"3.0\",\n  \"description\": null,\n  \"created_at\": \"2016-09-13T20:37:40.189Z\",\n  \"updated_at\": \"2016-09-13T20:37:40.189Z\",\n  \"inventory_count\": 2,\n  \"image_url\": \"https://freshrocket-test.s3.amazonaws.com/uploads/product/image/default.png\",\n  \"categories\": [\n    {\n      \"id\": 1,\n      \"name\": \"Category 3\",\n      \"image_url\": \"https://freshrocket-test.s3.amazonaws.com/uploads/category/image/default.png\"\n    }\n  ],\n  \"options\": [\n\n  ]\n}",
+      "response_body": "{\n  \"id\": 1,\n  \"city_id\": 1,\n  \"title\": \"fish\",\n  \"price\": \"3.0\",\n  \"description\": null,\n  \"created_at\": \"2016-09-13T23:43:43.758Z\",\n  \"updated_at\": \"2016-09-13T23:43:43.758Z\",\n  \"inventory_count\": 2,\n  \"image_url\": \"https://freshrocket-test.s3.amazonaws.com/uploads/product/image/default.png\",\n  \"categories\": [\n    {\n      \"id\": 1,\n      \"name\": \"Category 3\",\n      \"image_url\": \"https://freshrocket-test.s3.amazonaws.com/uploads/category/image/default.png\"\n    }\n  ],\n  \"options\": [\n\n  ]\n}",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
         "Location": "http://example.org/products/1",
-        "access-token": "LKjVO36rgNd6KIqF7YSqzg",
+        "access-token": "9XQEAD3vgBF3Jyt5HeqXKQ",
         "token-type": "Bearer",
-        "client": "VFR5sZHi5iJrABDQR8ABwg",
-        "expiry": "1475008660",
-        "uid": "70savion@metz.org",
+        "client": "l6D1EaMgPeIZO6uwDPgg1Q",
+        "expiry": "1475019823",
+        "uid": "70hope@lockmancartwright.name",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"4d2c24461ac66bc31b13d88a4dd555fa\"",
+        "ETag": "W/\"3077a30ac214dfdb24c0983d58e68a01\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=RkJaN1ZMYms2VDdMODFJSGdvRkZZWDd5VENYTFZyRVdyeFJld2pnc0QwT1hCSjlVWUlvRDd0M3lXSmJYQVo2Mk9PR2ROeUtQNTVHTTJOLzFqQnUwSFd1ck5rTWs0MlQ4Y0FrWVlzbGlOT1gwMmRwZm5xK2VBdTQvQmhMT2E4SklKTmdZcTJwVjJOYXdtWklwd1FzaTJGQ0tGbmdkK3I5MjEyN3ZzU2pqajNIdllWYVBXVGxCRHNzZytmNW5iV1ZoLS1BakVIT0VTSkZRV081ZzM5L29NUThBPT0%3D--bea7511d8d1f2dbba50ffa82b683ef9080fc12d8; path=/; HttpOnly",
-        "X-Request-Id": "e54b4007-4285-459f-99a8-281498a65fac",
-        "X-Runtime": "0.113312",
+        "Set-Cookie": "_session_id=T2ptam9KTkk4QVZ3UkNyLzZzdlFwNWVhYU5BOWtBT0Y1Q1hlNjdYWU5KYUtiUjFKQWdVaWNTUjlRZ1Q2bGZoUXpmSnZUREVrVWZCamN1eTI2bUl6ME9BMk9tbE55RVpoNEdDMklGbTUwN1Q5d1MvSU1BN0N6TWltK2lRNDdCeldxalFVUzg2UTBLYWlkTG1NaTB4aGNQbGE5YWhyZU14YmgwYnljUzltWGtsYms3S3I3MkpNUEE3MTNiVVhtVkNRLS05WUwrK0tLbWIrdlMxMjg3bWJpWUZnPT0%3D--f4ef44013d00e0269f9aea697f85a41bbf07c7c6; path=/; HttpOnly",
+        "X-Request-Id": "bb53c1f3-a6c0-406e-a443-db137d9fb62d",
+        "X-Runtime": "0.114583",
         "Content-Length": "406"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/admin/products\" -d 'product[title]=fish&product[price]=3.0&product[inventory_count]=2&product[city_id]=1&product[category_ids][]=1' -X POST \\\n\t-H \"Access-Token: LKjVO36rgNd6KIqF7YSqzg\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: VFR5sZHi5iJrABDQR8ABwg\" \\\n\t-H \"Expiry: 1475008660\" \\\n\t-H \"Uid: 70savion@metz.org\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/admin/products\" -d 'product[title]=fish&product[price]=3.0&product[inventory_count]=2&product[city_id]=1&product[category_ids][]=1' -X POST \\\n\t-H \"Access-Token: 9XQEAD3vgBF3Jyt5HeqXKQ\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: l6D1EaMgPeIZO6uwDPgg1Q\" \\\n\t-H \"Expiry: 1475019823\" \\\n\t-H \"Uid: 70hope@lockmancartwright.name\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

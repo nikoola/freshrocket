@@ -21,11 +21,11 @@
       "request_path": "/client/orders/4/update_status",
       "request_body": "order[action]=confirm",
       "request_headers": {
-        "Access-Token": "sUo933AUPJvrFE1vKPD7sA",
+        "Access-Token": "ZqsFvwZK_lJB5aoP9ACTOA",
         "Token-Type": "Bearer",
-        "Client": "bgd1TlSqQkxeyVwDU-9RHw",
-        "Expiry": "1475008853",
-        "Uid": "158marianna@morarklein.io",
+        "Client": "2OdYdehb3JdQFqd2ygvnsw",
+        "Expiry": "1475020028",
+        "Uid": "161charlotte.oberbrunner@stiedemann.info",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -40,20 +40,20 @@
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
-        "access-token": "sUo933AUPJvrFE1vKPD7sA",
+        "access-token": "ZqsFvwZK_lJB5aoP9ACTOA",
         "token-type": "Bearer",
-        "client": "bgd1TlSqQkxeyVwDU-9RHw",
-        "expiry": "1475008853",
-        "uid": "158marianna@morarklein.io",
+        "client": "2OdYdehb3JdQFqd2ygvnsw",
+        "expiry": "1475020028",
+        "uid": "161charlotte.oberbrunner@stiedemann.info",
         "Content-Type": "application/json; charset=utf-8",
         "Cache-Control": "no-cache",
-        "Set-Cookie": "_session_id=aWxwbnhjZytEZGg1bEJQNjNwY3VLWVI1QmpjYjYwOU1idDY3V1lMbllzaVpXRGxoUEtGV3ViZDJ2UmxwNDg1bjNjN2p0aEtIbktpZmJ5dGRJYklYVGF5SlI4R1VwM1d2R0ZqUGdHaFhEY0NNbWlJRzVPUnErZWVBRVhQMDFCRVhDck9paGFxMDB2bFJyTHFlcWE1VXdwcHREWm1QZ1VKZDRET29JZ0xhaG5FYWZ6YzcvTlQzQVkwVHUvVlFhWnFJLS1tY2NLR1B2YzZpR2lFZWFhWEFwdExRPT0%3D--96feecaf422c16e5207696a4c3520cb9ae6701a6; path=/; HttpOnly",
-        "X-Request-Id": "08219714-5bd8-4c36-8f3e-2b878663e5a5",
-        "X-Runtime": "0.078377",
+        "Set-Cookie": "_session_id=ZjhGUlVwdnNQTzJBQXF3UWJSd21UYzB5YnE4eE9HME4vcEFTa0hjSjdvMTlDMlNjTjlJL3RKVkRMNHRGdlZubGcrOWpwd0sxVTAvUW9FNVU1aWQzYVM1VTdxTzgwUmUwTU9CdkhsdnJaSTZ1TG9neFNFQllydkpLV1hEM1RrcithL0J3akgvWDNPSW9qUTZNSnlXMnRuNGRzS25Vc3pLMG1QNWRsSjVDZE1hNVBPTWdveFRCZHVWanJ4WUZjazRDLS0ydUtjVWRHNWdWL0lqRHhvZjh5TXlnPT0%3D--eefd5dfc393cd1729a3de19e2deee271a44ad9a5; path=/; HttpOnly",
+        "X-Request-Id": "b787d7e2-d726-4ff4-8ecf-757f977322dd",
+        "X-Runtime": "0.078218",
         "Content-Length": "105"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/client/orders/4/update_status\" -d 'order[action]=confirm' -X PUT \\\n\t-H \"Access-Token: sUo933AUPJvrFE1vKPD7sA\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: bgd1TlSqQkxeyVwDU-9RHw\" \\\n\t-H \"Expiry: 1475008853\" \\\n\t-H \"Uid: 158marianna@morarklein.io\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/client/orders/4/update_status\" -d 'order[action]=confirm' -X PUT \\\n\t-H \"Access-Token: ZqsFvwZK_lJB5aoP9ACTOA\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: 2OdYdehb3JdQFqd2ygvnsw\" \\\n\t-H \"Expiry: 1475020028\" \\\n\t-H \"Uid: 161charlotte.oberbrunner@stiedemann.info\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

@@ -16,11 +16,11 @@
       "request_path": "/client/orders/3",
       "request_body": null,
       "request_headers": {
-        "Access-Token": "edbFneKd6Rc1YTJKvgFjDg",
+        "Access-Token": "ecoj2v2uzpjjFjENo1OOWQ",
         "Token-Type": "Bearer",
-        "Client": "BIGqm0WLSgvSFOnPcbjqeg",
-        "Expiry": "1475008817",
-        "Uid": "147everett@kaulke.net",
+        "Client": "IjpPtuWzAxh6t3n0IJaFkA",
+        "Expiry": "1475019992",
+        "Uid": "150lyric.wehner@hermistoncorwin.biz",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -35,20 +35,20 @@
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
-        "access-token": "edbFneKd6Rc1YTJKvgFjDg",
+        "access-token": "ecoj2v2uzpjjFjENo1OOWQ",
         "token-type": "Bearer",
-        "client": "BIGqm0WLSgvSFOnPcbjqeg",
-        "expiry": "1475008817",
-        "uid": "147everett@kaulke.net",
+        "client": "IjpPtuWzAxh6t3n0IJaFkA",
+        "expiry": "1475019992",
+        "uid": "150lyric.wehner@hermistoncorwin.biz",
         "Content-Type": "application/json; charset=utf-8",
         "Cache-Control": "no-cache",
-        "Set-Cookie": "_session_id=a2p2Q2JWRkNuK3Q1RXBJL1BlK0JWMnY3NzZmcnBDN2dUZzFYcS9jTk1kT0xhY2JlSWtuVUVKVzNXTWl0SWhVTkdwVlpEQjlhV0E0R212U29uenJ2a2NKdGNuWGNWQmtHYlBITndiQTBXK3ovOFhIcTZybzkxeWdzTmxZOVFmUWRjeVZXeXFEZWF0M2Q3VTl5U1JOcmVUdTVsVStiOUFUYUl1TzBsbEhLSzlMUXdVdXFSQWFyY2kzRDI2Rnk2cVJ1LS1YalVjUytjSWg0L1JtZTVtYzBqa3ZnPT0%3D--b58a57f343184ccee311b4df21fb5cc7e47255e6; path=/; HttpOnly",
-        "X-Request-Id": "d08add30-3c85-4505-b155-a2d033b12358",
-        "X-Runtime": "0.073311",
+        "Set-Cookie": "_session_id=dGNDQURQY2Y5SlNybUl0VjFYdkxack1WNWIzc3pHQ0VaQlFZNkwwcHZFeGxwL2lZQ1VlTGdzemRRZEZwYU4zd3R5SkNneFlpVE9DTGp3cmxSelIvN3AxdW1WdldXazJmLzFpQTVXY2ZqMHZLNmFpVlZQdTBYWWk1NkNRK2FLYTBWdTlKSlFSdU5WcDlTbkh2UURham90NGNpSTBDTHhvOWJpWFlweEliRWJ5cEt2VnJDTXIyU2NrRVN5TExLZE1KLS1oUHUwZ3V2OHhBYUQwNVNtZ1VUYmp3PT0%3D--6bd7b341c21370bd5671029cec8f8fd532bf7011; path=/; HttpOnly",
+        "X-Request-Id": "d5fa4e68-a6be-45b4-96f9-f7406e385165",
+        "X-Runtime": "0.090821",
         "Content-Length": "83"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/client/orders/3\" -d '' -X DELETE \\\n\t-H \"Access-Token: edbFneKd6Rc1YTJKvgFjDg\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: BIGqm0WLSgvSFOnPcbjqeg\" \\\n\t-H \"Expiry: 1475008817\" \\\n\t-H \"Uid: 147everett@kaulke.net\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/client/orders/3\" -d '' -X DELETE \\\n\t-H \"Access-Token: ecoj2v2uzpjjFjENo1OOWQ\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: IjpPtuWzAxh6t3n0IJaFkA\" \\\n\t-H \"Expiry: 1475019992\" \\\n\t-H \"Uid: 150lyric.wehner@hermistoncorwin.biz\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

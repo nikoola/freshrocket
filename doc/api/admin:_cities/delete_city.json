@@ -16,11 +16,11 @@
       "request_path": "/admin/cities/1",
       "request_body": null,
       "request_headers": {
-        "Access-Token": "aOzcJuukc-SSRt1g0_CWqA",
+        "Access-Token": "hg0ENdfOiroG0IQ9-qEQpA",
         "Token-Type": "Bearer",
-        "Client": "okGcgmrcAadGJ0B0g2DVtw",
-        "Expiry": "1475008568",
-        "Uid": "16bria_fay@jacobs.name",
+        "Client": "tVnmYpfmL7KJZfmhAlpDNg",
+        "Expiry": "1475019725",
+        "Uid": "16kamryn.farrell@koeppcollier.co",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -35,20 +35,20 @@
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
-        "access-token": "aOzcJuukc-SSRt1g0_CWqA",
+        "access-token": "hg0ENdfOiroG0IQ9-qEQpA",
         "token-type": "Bearer",
-        "client": "okGcgmrcAadGJ0B0g2DVtw",
-        "expiry": "1475008568",
-        "uid": "16bria_fay@jacobs.name",
+        "client": "tVnmYpfmL7KJZfmhAlpDNg",
+        "expiry": "1475019725",
+        "uid": "16kamryn.farrell@koeppcollier.co",
         "Content-Type": "text/html",
         "Cache-Control": "no-cache",
-        "Set-Cookie": "_session_id=SnRTTXpnQkE0NEdpY09DNWIwMGRZMEFtUUlkNk1SbjFYZEJMNTB5OHJCOWNoa3o3S3c5ZFowNVlicVpsQXZVc21PWTZoRTZRQ1Ayaitkc1ljNU8zV1V5NHJMTW1Vd3NPNGQvbzJndGV4ai96cTd3WHlieEdRM25RSXcrVHVjbjM0d25OUk1iaUhqWFBtVU40bTgrMXFvSEpCdzhIWk9RY1lTbGZXSVhEN0RvMitveFFQZUMyV3R5ZHFYTlBZaEUxLS1EVkM2WnYyYTd0aVVXYjQ1VlE4YkZBPT0%3D--fdad430f1da2a4bd08fcd1fd58d6128d0a14ede8; path=/; HttpOnly",
-        "X-Request-Id": "c9201d6e-272f-4f96-93f5-6f72e0a8b5f9",
-        "X-Runtime": "0.084515",
+        "Set-Cookie": "_session_id=SmhmS25zVHdSdjZ2SU5iOWo4RjRvVXFuVS9LNnlObk94Nld1S29zQ0crSUZhZXc1ZVd3R3JCRlU3RUQzRitad0hSRWdNeVlDd3BySGFCT0tLNXJPTEtqdk9lT2RxTmJMdE9JNFhBbUZwdTBMTnk5K0V2b01mOXA4Nm4zalBOdlk1MHVpMEV3MjQ5VzhLMjhETUw0Y05jdmFxM0E0TkduQWVtL0lHZm9uWmZGaWJBU1JRUGl6OFJQdmpzdm41VXlRLS11QnFrNVJhWGNBalVsbDIzSndSdFlRPT0%3D--09fef5e0cd007fa00df6dd3a5336772fb330c27b; path=/; HttpOnly",
+        "X-Request-Id": "68cb68b2-7839-40fb-a61a-ac8987964bc6",
+        "X-Runtime": "0.085574",
         "Content-Length": "0"
       },
       "response_content_type": "text/html",
-      "curl": "curl \"http://localhost:3000/admin/cities/1\" -d '' -X DELETE \\\n\t-H \"Access-Token: aOzcJuukc-SSRt1g0_CWqA\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: okGcgmrcAadGJ0B0g2DVtw\" \\\n\t-H \"Expiry: 1475008568\" \\\n\t-H \"Uid: 16bria_fay@jacobs.name\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/admin/cities/1\" -d '' -X DELETE \\\n\t-H \"Access-Token: hg0ENdfOiroG0IQ9-qEQpA\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: tVnmYpfmL7KJZfmhAlpDNg\" \\\n\t-H \"Expiry: 1475019725\" \\\n\t-H \"Uid: 16kamryn.farrell@koeppcollier.co\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }
