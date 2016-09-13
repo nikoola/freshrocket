@@ -1,0 +1,63 @@
+{
+  "resource": "admin: delivery boys",
+  "http_method": "GET",
+  "route": "/admin/delivery_boys",
+  "description": "get available delivery boys",
+  "explanation": "get delivery_boys with status <available>",
+  "parameters": [
+    {
+      "name": "statuss",
+      "description": "[unavailable available busy fired] - list of status"
+    },
+    {
+      "name": "city_id",
+      "description": "delivery_boys in city_id"
+    }
+  ],
+  "response_fields": [
+
+  ],
+  "requests": [
+    {
+      "request_method": "GET",
+      "request_path": "/admin/delivery_boys?status=available&city_id=2",
+      "request_body": null,
+      "request_headers": {
+        "Access-Token": "mucDSMrUCMpNvjZMhWrQoQ",
+        "Token-Type": "Bearer",
+        "Client": "Q3Idluu4_rfgsq5TvdckQg",
+        "Expiry": "1474987840",
+        "Uid": "8filiberto.heaney@parisian.io",
+        "Host": "example.org",
+        "Cookie": ""
+      },
+      "request_query_parameters": {
+        "status": "available",
+        "city_id": "2"
+      },
+      "request_content_type": null,
+      "response_status": 200,
+      "response_status_text": "OK",
+      "response_body": "[\n  {\n    \"id\": 1,\n    \"user_id\": 1,\n    \"current_order_id\": null,\n    \"status\": \"available\"\n  }\n]",
+      "response_headers": {
+        "X-Frame-Options": "SAMEORIGIN",
+        "X-XSS-Protection": "1; mode=block",
+        "X-Content-Type-Options": "nosniff",
+        "access-token": "mucDSMrUCMpNvjZMhWrQoQ",
+        "token-type": "Bearer",
+        "client": "Q3Idluu4_rfgsq5TvdckQg",
+        "expiry": "1474987840",
+        "uid": "8filiberto.heaney@parisian.io",
+        "Content-Type": "application/json; charset=utf-8",
+        "ETag": "W/\"05e42c3730cda9de1944b3ce8cc9385b\"",
+        "Cache-Control": "max-age=0, private, must-revalidate",
+        "Set-Cookie": "_session_id=K3hML29sS2czUVZINk02SGxVYXljcFZnL0xrelQyeS9qTHFNR09Xa1JuR2UyNWpoVlJVSStZOWkyd1F2VVV5cTMxdXVCSDVMcVpubHRPTkFocU5LanVtRGdOUWVoZXFNaGp4dDhHZDFHT0oxTGNacjdxcit0MzNBQ1hxME9SR1ZhbEJFQ0dUcGM1NVFPcnFIN0Uyb2hIcWhITitEWnN5VFd0MVdFbG83MVVQay9KRVhvODRSS295MVIyRDFSWFVCLS1DOEdLeTI3MUMxNGo2ZDRLZGN4ZDdBPT0%3D--3a81e2f5c61c6264c2f1e6aa1f881aced968eca8; path=/; HttpOnly",
+        "X-Request-Id": "2e15b27d-57e2-4d26-bb69-b4287e557e45",
+        "X-Runtime": "0.080280",
+        "Content-Length": "67"
+      },
+      "response_content_type": "application/json; charset=utf-8",
+      "curl": "curl \"http://localhost:3000/admin/delivery_boys?status=available&city_id=2\" -X GET \\\n\t-H \"Access-Token: mucDSMrUCMpNvjZMhWrQoQ\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: Q3Idluu4_rfgsq5TvdckQg\" \\\n\t-H \"Expiry: 1474987840\" \\\n\t-H \"Uid: 8filiberto.heaney@parisian.io\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "resource": "admin: delivery boys",
+  "http_method": "POST",
+  "route": "/admin/delivery_boys",
+  "description": "create delivery boy",
+  "explanation": "create Delivery boy by adding user abilibty delivery_boy",
+  "parameters": [
+    {
+      "scope": "delivery_boy",
+      "name": "user_id",
+      "description": "The id of user to make a delivery boy"
+    },
+    {
+      "scope": "delivery_boy",
+      "name": "statuss",
+      "description": "[unavailable available busy fired] - list of status"
+    }
+  ],
+  "response_fields": [
+
+  ],
+  "requests": [
+    {
+      "request_method": "POST",
+      "request_path": "/admin/delivery_boys",
+      "request_body": "delivery_boy[user_id]=1&delivery_boy[status]=available",
+      "request_headers": {
+        "Access-Token": "_wiJysfu5wPZGIIm_c3lqg",
+        "Token-Type": "Bearer",
+        "Client": "W06jcl39HvlhSsjZLC2ovA",
+        "Expiry": "1474987833",
+        "Uid": "2chaim.monahan@rogahn.info",
+        "Host": "example.org",
+        "Content-Type": "application/x-www-form-urlencoded",
+        "Cookie": ""
+      },
+      "request_query_parameters": {
+      },
+      "request_content_type": "application/x-www-form-urlencoded",
+      "response_status": 201,
+      "response_status_text": "Created",
+      "response_body": "{\n  \"id\": 1,\n  \"user_id\": 1,\n  \"current_order_id\": null,\n  \"status\": \"available\"\n}",
+      "response_headers": {
+        "X-Frame-Options": "SAMEORIGIN",
+        "X-XSS-Protection": "1; mode=block",
+        "X-Content-Type-Options": "nosniff",
+        "access-token": "_wiJysfu5wPZGIIm_c3lqg",
+        "token-type": "Bearer",
+        "client": "W06jcl39HvlhSsjZLC2ovA",
+        "expiry": "1474987833",
+        "uid": "2chaim.monahan@rogahn.info",
+        "Content-Type": "application/json; charset=utf-8",
+        "ETag": "W/\"35669026c116b03d12a2568dde6ca8e1\"",
+        "Cache-Control": "max-age=0, private, must-revalidate",
+        "Set-Cookie": "_session_id=Vmo2Ym56Q0s0UFd0ZWdVTlN6UGJiN2ErcHFIWUpldmtzY0E0OWFxMGtVYWpWb0tjTC9zZEJuOU1iTjN3ck1VblQ1VWZTd3FtVUg2RkpSeGlteFRKdjEycU1CenJXTFhILzFkMUduRVB0amdxVzRDZ2NiZ2ZUYlBIZGxFTTNIMkpWTmpRU29TNkVGc09jbmdNZmd2eXNrYWlMSytWU0UrK2xCRUZvYXBuMVcxb0VFalp5b01sMUdlQWpIUXNPVnRILS1sN0FnbWJwYklEaGdlV25iUlRGYit3PT0%3D--69c9360c8d56a7a05e140ae6bb2e4a44e1e0198e; path=/; HttpOnly",
+        "X-Request-Id": "b2fb6f4b-3736-40b9-b48d-e92f6adb0c0d",
+        "X-Runtime": "0.216327",
+        "Content-Length": "65"
+      },
+      "response_content_type": "application/json; charset=utf-8",
+      "curl": "curl \"http://localhost:3000/admin/delivery_boys\" -d 'delivery_boy[user_id]=1&delivery_boy[status]=available' -X POST \\\n\t-H \"Access-Token: _wiJysfu5wPZGIIm_c3lqg\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: W06jcl39HvlhSsjZLC2ovA\" \\\n\t-H \"Expiry: 1474987833\" \\\n\t-H \"Uid: 2chaim.monahan@rogahn.info\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+    }
+  ]
+}
