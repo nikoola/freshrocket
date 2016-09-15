@@ -19,11 +19,11 @@
       "request_path": "/client/addresses?active=0",
       "request_body": null,
       "request_headers": {
-        "Access-Token": "6Vz7_9yNwi3tZ6qvHEgsdA",
+        "Access-Token": "TVGzDgnSpiZn-irj7jp6Bw",
         "Token-Type": "Bearer",
-        "Client": "XdclT5Gpbh03qSneo1MZuA",
-        "Expiry": "1475019910",
-        "Uid": "123onie@bednar.com",
+        "Client": "Rv1WEysEIkjTfF1f5Rulfw",
+        "Expiry": "1475151492",
+        "Uid": "122dino@leannonebert.com",
         "Host": "example.org",
         "Cookie": ""
       },
@@ -33,26 +33,26 @@
       "request_content_type": null,
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "[\n  {\n    \"id\": 1,\n    \"city_id\": 3,\n    \"user_id\": 1,\n    \"street_and_house\": \"Uttarakhand 249401, India\",\n    \"door_number\": \"5\",\n    \"active\": false,\n    \"city_name\": \"Hardwar\"\n  },\n  {\n    \"id\": 2,\n    \"city_id\": 4,\n    \"user_id\": 1,\n    \"street_and_house\": \"131029, India\",\n    \"door_number\": \"5\",\n    \"active\": false,\n    \"city_name\": \"Sonipat\"\n  },\n  {\n    \"id\": 3,\n    \"city_id\": 5,\n    \"user_id\": 1,\n    \"street_and_house\": \"Tamil Nadu 629001, India\",\n    \"door_number\": \"5\",\n    \"active\": false,\n    \"city_name\": \"Nagercoil\"\n  }\n]",
+      "response_body": "[\n  {\n    \"id\": 1,\n    \"city_id\": 3,\n    \"user_id\": 1,\n    \"street_and_house\": \"Madhya Pradesh 476001, India\",\n    \"door_number\": \"5\",\n    \"active\": false,\n    \"city_name\": \"Morena\"\n  },\n  {\n    \"id\": 2,\n    \"city_id\": 4,\n    \"user_id\": 1,\n    \"street_and_house\": \"Nehru Park, Park Colony, Vijay Nagar, Bhiwani, Haryana 127021, India\",\n    \"door_number\": \"5\",\n    \"active\": false,\n    \"city_name\": \"Bhiwani\"\n  },\n  {\n    \"id\": 3,\n    \"city_id\": 5,\n    \"user_id\": 1,\n    \"street_and_house\": \"Gujarat 360578, India\",\n    \"door_number\": \"5\",\n    \"active\": false,\n    \"city_name\": \"Porbandar\"\n  }\n]",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
-        "access-token": "6Vz7_9yNwi3tZ6qvHEgsdA",
+        "access-token": "TVGzDgnSpiZn-irj7jp6Bw",
         "token-type": "Bearer",
-        "client": "XdclT5Gpbh03qSneo1MZuA",
-        "expiry": "1475019910",
-        "uid": "123onie@bednar.com",
+        "client": "Rv1WEysEIkjTfF1f5Rulfw",
+        "expiry": "1475151492",
+        "uid": "122dino@leannonebert.com",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"9ae037070883c7fc6badd612fd2d1667\"",
+        "ETag": "W/\"0f83b8fbd4da0d995ba5c3df410f9e30\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=OEhzcFpOdjF1S2RkclVGVk9HajdEZHBrVTIzMG9aQjQrVnA2cVAySGNtM3lkejRUWGlJVzFsanp2T0o1MDY1Z1pBMFdlK3ZPbDNkU3VZaldDd1hPZGE3eUdianVxUTRmdE9JbFZSc2x5RVQyRGI1Y216M0pUczlUVk8vQ1I3dzhKSjhlemdLMkNPam1idDQ2TllNYXZUSTJaUGI0RysyNkNWVC8rRUV6b2xDMHVGb0d3VHdGaTlFWkxpSzdxMHo2LS0yRjNHWmROSktJRWp0Z2NiWjM5T2NnPT0%3D--2f796f8d7b7993c1b84a9762e708db71398ee98a; path=/; HttpOnly",
-        "X-Request-Id": "bcb5922d-819b-421e-8082-b3c3e90c0665",
-        "X-Runtime": "0.146436",
-        "Content-Length": "395"
+        "Set-Cookie": "_session_id=cmJtc2tkV2tENjBSb3R0dVBKTmZNUlIvc0M1NGNENUdSMkk0VjQ0YW1TN0ViZmZNK2o2ZkJmYTJXaFI2YXpHbW92cGEvWU9IK2lVemsxd3pCSGpTdFJ4MWhLZ1F4cEFyaHROMk5ML05HRlZmU3ZGeDQvb0dEQjNnWTVwSUxFOUNHa28xVjN2eGRXTlZ4dnhtUVZQQWNTRUdpVDh3c2poY2s5TnNuZU9KSDdjU0UrS1ZGRTk0a3NObGdVUjBQWFk1LS1NUWxVNFY5cXJVL3R4OXNPNWRxMEx3PT0%3D--5b18c40ef7547af9ad94b2495b379ab8f567ec02; path=/; HttpOnly",
+        "X-Request-Id": "b6c06890-186d-4df9-bdc7-334c6e35dbd0",
+        "X-Runtime": "0.127898",
+        "Content-Length": "449"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/client/addresses?active=0\" -X GET \\\n\t-H \"Access-Token: 6Vz7_9yNwi3tZ6qvHEgsdA\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: XdclT5Gpbh03qSneo1MZuA\" \\\n\t-H \"Expiry: 1475019910\" \\\n\t-H \"Uid: 123onie@bednar.com\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/client/addresses?active=0\" -X GET \\\n\t-H \"Access-Token: TVGzDgnSpiZn-irj7jp6Bw\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: Rv1WEysEIkjTfF1f5Rulfw\" \\\n\t-H \"Expiry: 1475151492\" \\\n\t-H \"Uid: 122dino@leannonebert.com\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

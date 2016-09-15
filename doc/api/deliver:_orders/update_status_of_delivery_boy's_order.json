@@ -1,0 +1,58 @@
+{
+  "resource": "deliver: orders",
+  "http_method": "PUT",
+  "route": "deliver/orders/:id/update_status",
+  "description": "update status of delivery_boy's order",
+  "explanation": "delivery_boy can only update it to delivered",
+  "parameters": [
+    {
+      "scope": "order",
+      "name": "action",
+      "description": "[delivered]"
+    }
+  ],
+  "response_fields": [
+
+  ],
+  "requests": [
+    {
+      "request_method": "PUT",
+      "request_path": "deliver/orders/3/update_status",
+      "request_body": "order[action]=deliver",
+      "request_headers": {
+        "Access-Token": "RxcXKFmlSotLam8AUSkwKA",
+        "Token-Type": "Bearer",
+        "Client": "naR4IVhfKHo9IuPRUVbw9Q",
+        "Expiry": "1475151700",
+        "Uid": "194zion@price.io",
+        "Host": "example.org",
+        "Content-Type": "application/x-www-form-urlencoded",
+        "Cookie": ""
+      },
+      "request_query_parameters": {
+      },
+      "request_content_type": "application/x-www-form-urlencoded",
+      "response_status": 200,
+      "response_status_text": "OK",
+      "response_body": null,
+      "response_headers": {
+        "X-Frame-Options": "SAMEORIGIN",
+        "X-XSS-Protection": "1; mode=block",
+        "X-Content-Type-Options": "nosniff",
+        "access-token": "RxcXKFmlSotLam8AUSkwKA",
+        "token-type": "Bearer",
+        "client": "naR4IVhfKHo9IuPRUVbw9Q",
+        "expiry": "1475151700",
+        "uid": "194zion@price.io",
+        "Content-Type": "text/html",
+        "Cache-Control": "no-cache",
+        "Set-Cookie": "_session_id=ZzlPOHNVd2MyMUNoc0JYWmxzYjlTUDlIWWRNcHRLZ2ptWjFjMDFNV2h6V0RmUUR5TmJqemd1QThrcG5iU3lXQ3ZJRURzSDh1Y040NFRRZmNka1Ywci9DbXhGWTRvZTRyei92RTY5Tjc4cWhFR3h0aHdDVnliemF0MUg1TGN3VWV0Z05sdUp0Q0VFOTVGcEhwa1N2L3U0YWtQbTNUMENjZENWbVMwOVI5RDFWVmlEWkJsMWh1YmExWk8zdnhUSzRNLS1yZkRnYktLbi9WTEdmNnh3emRPOW9BPT0%3D--ff0ea9c8fb44eb576d074a85c3296707b720381d; path=/; HttpOnly",
+        "X-Request-Id": "b2b5b48a-aa25-48c1-9eb1-ced86d6fedc0",
+        "X-Runtime": "0.080205",
+        "Content-Length": "0"
+      },
+      "response_content_type": "text/html",
+      "curl": "curl \"http://localhost:3000deliver/orders/3/update_status\" -d 'order[action]=deliver' -X PUT \\\n\t-H \"Access-Token: RxcXKFmlSotLam8AUSkwKA\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: naR4IVhfKHo9IuPRUVbw9Q\" \\\n\t-H \"Expiry: 1475151700\" \\\n\t-H \"Uid: 194zion@price.io\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+    }
+  ]
+}

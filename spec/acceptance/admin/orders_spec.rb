@@ -44,10 +44,12 @@ resource 'admin: orders', type: :request do
 			FactoryGirl.create_list :order, 6
 
 			do_request city_id: Order.first.address.city_id, limit: 5, offset: 2, 
-				include: ['delivery_boy']
+				include: ['delivery_boy','address','line_items']
 
 			# fail because of no city_id specified expect[json].to be_nil
-			expect[jsons].not_to be_nil
+
+			expect(jsons).not_to be_nil
+			expect(jsons[0].keys).to  include :address, :line_items
 			# returned_ids = jsons.pluck(:id)
 			# expected_ids = Order.limit(5).offset(2).pluck(:id)
 

@@ -67,7 +67,8 @@ resource 'admin: products', type: :request do
 			expect(json).to include({:price=>["can't be blank"]})
 		end
 
-		it 'creates product with image', document: false do
+		it 'creates product with image', document: false ,focus: true do
+			# binding.pry
 			image = "#{Rails.root}/spec/files/hi.jpg"
 			file = Rack::Test::UploadedFile.new image, "image/jpeg"
 			valid_params_with_image = valid_params.merge({image: file})

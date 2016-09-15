@@ -160,6 +160,13 @@
       "name": "admin: orders",
       "examples": [
         {
+          "description": "approve confirmed order",
+          "link": "admin:_orders/approve_confirmed_order.json",
+          "groups": "all",
+          "route": "/admin/orders/:id/update_status",
+          "method": "put"
+        },
+        {
           "description": "cant update to dispatched if delivery has no delivery_boy",
           "link": "admin:_orders/cant_update_to_dispatched_if_delivery_has_no_delivery_boy.json",
           "groups": "all",
@@ -174,11 +181,25 @@
           "method": "post"
         },
         {
+          "description": "get filtered orders",
+          "link": "admin:_orders/get_filtered_orders.json",
+          "groups": "all",
+          "route": "/admin/orders",
+          "method": "get"
+        },
+        {
           "description": "get order",
           "link": "admin:_orders/get_order.json",
           "groups": "all",
           "route": "/admin/orders/:id",
           "method": "get"
+        },
+        {
+          "description": "update order",
+          "link": "admin:_orders/update_order.json",
+          "groups": "all",
+          "route": "/admin/orders/:id",
+          "method": "put"
         }
       ]
     },
@@ -415,6 +436,13 @@
           "method": "put"
         },
         {
+          "description": "client confirms order",
+          "link": "client:_orders/client_confirms_order.json",
+          "groups": "all",
+          "route": "/client/orders/:id/update_status",
+          "method": "put"
+        },
+        {
           "description": "create current user's order",
           "link": "client:_orders/create_current_user's_order.json",
           "groups": "all",
@@ -454,6 +482,13 @@
           "link": "client:_orders/if_order_is_approved_it_cant_be_confirmed.json",
           "groups": "all",
           "route": "/client/orders/:id/update_status",
+          "method": "put"
+        },
+        {
+          "description": "update current user's order",
+          "link": "client:_orders/update_current_user's_order.json",
+          "groups": "all",
+          "route": "client/orders/:id",
           "method": "put"
         }
       ]
@@ -512,11 +547,18 @@
       "name": "deliver: orders",
       "examples": [
         {
-          "description": "get current delivery_boy's orders",
-          "link": "deliver:_orders/get_current_delivery_boy's_orders.json",
+          "description": "update order",
+          "link": "deliver:_orders/update_order.json",
           "groups": "all",
-          "route": "deliver/orders",
-          "method": "get"
+          "route": "deliver/orders/:id",
+          "method": "put"
+        },
+        {
+          "description": "update status of delivery_boy's order",
+          "link": "deliver:_orders/update_status_of_delivery_boy's_order.json",
+          "groups": "all",
+          "route": "deliver/orders/:id/update_status",
+          "method": "put"
         }
       ]
     },

@@ -16,11 +16,11 @@
       "request_path": "/auth/sign_out",
       "request_body": null,
       "request_headers": {
-        "Access-Token": "gJPU0sWrimKoblPDIblwxg",
+        "Access-Token": "kahRooRUzNahdcQ66T3deA",
         "Token-Type": "Bearer",
-        "Client": "YQCIyFU66Fd14Z-3C6m4SQ",
-        "Expiry": "1475019925",
-        "Uid": "128eli@cummingsdeckow.io",
+        "Client": "H6BJQ9X05iaF5ZLk_-CZOg",
+        "Expiry": "1475151509",
+        "Uid": "127jamie.parisian@reynolds.net",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -38,13 +38,13 @@
         "Content-Type": "application/json; charset=utf-8",
         "ETag": "W/\"7363e85fe9edee6f053a4b319588c086\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=czZnVlBHQit3OWpTNG8yeUN2YWlJaWRVUldBaEFTQkwzck5mRDd0RUlNcEV1b2U3Y25CellKTk42YmprSWZSV2tXZm10c0dFb3drNDNUVlk1TEc1bVE9PS0tUk9XMFVyRlpSTFBVNmNpQkhqblR6dz09--4799f1ed3ea450beed90f4e62d528d642603b9fa; path=/; HttpOnly",
-        "X-Request-Id": "13c8e1b2-5cda-4c95-8ae5-302cb2511349",
-        "X-Runtime": "0.070477",
+        "Set-Cookie": "_session_id=SElYRE9JNkNUY2hUR240aW9TRHpFTjhqZ3FtZHBhWjhGdnlpUGhFanZmR3YxTU5zVGpVN2puVkJic0JDUHRwakJ0SXJDcHZuQ1FvdEluV0xpc1RYVkE9PS0tanhKL2N3d1FIVEVaT2tvbWZSZjJPdz09--b0b07ec4adc6e579e0190ffef94d9e5a50f10014; path=/; HttpOnly",
+        "X-Request-Id": "cb61da02-edac-4800-b61b-c2f75781b164",
+        "X-Runtime": "0.069696",
         "Content-Length": "16"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/auth/sign_out\" -d '' -X DELETE \\\n\t-H \"Access-Token: gJPU0sWrimKoblPDIblwxg\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: YQCIyFU66Fd14Z-3C6m4SQ\" \\\n\t-H \"Expiry: 1475019925\" \\\n\t-H \"Uid: 128eli@cummingsdeckow.io\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/auth/sign_out\" -d '' -X DELETE \\\n\t-H \"Access-Token: kahRooRUzNahdcQ66T3deA\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: H6BJQ9X05iaF5ZLk_-CZOg\" \\\n\t-H \"Expiry: 1475151509\" \\\n\t-H \"Uid: 127jamie.parisian@reynolds.net\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

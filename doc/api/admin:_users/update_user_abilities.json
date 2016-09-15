@@ -20,11 +20,11 @@
       "request_path": "/admin/users/1/update_abilities",
       "request_body": "abilities[users]=1&abilities[products]=0&abilities[orders]=0&abilities[categories]=0",
       "request_headers": {
-        "Access-Token": "a6moyHaZfRY9lqbGRQTXYQ",
+        "Access-Token": "UYwdEeqF1sInAfEoIbGwvg",
         "Token-Type": "Bearer",
-        "Client": "vkNZZC96AWzebhbrje7FVg",
-        "Expiry": "1475019858",
-        "Uid": "115osvaldo.wehner@greenfelder.io",
+        "Client": "h8-WJp_yotU0HR5hW6EKCg",
+        "Expiry": "1475151428",
+        "Uid": "114myrtice@schillerkeebler.info",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -39,20 +39,20 @@
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
-        "access-token": "a6moyHaZfRY9lqbGRQTXYQ",
+        "access-token": "UYwdEeqF1sInAfEoIbGwvg",
         "token-type": "Bearer",
-        "client": "vkNZZC96AWzebhbrje7FVg",
-        "expiry": "1475019858",
-        "uid": "115osvaldo.wehner@greenfelder.io",
+        "client": "h8-WJp_yotU0HR5hW6EKCg",
+        "expiry": "1475151428",
+        "uid": "114myrtice@schillerkeebler.info",
         "Content-Type": "text/html",
         "Cache-Control": "no-cache",
-        "Set-Cookie": "_session_id=dGdmV1BVSU5CUW5mTnJPRWs1YzBxYkpsZlpPQ1c4RGxDVDdlTDdhWTd4S1BFYUxVdWhVTTJBTWdhMlQ3Qi80OWxwRXpnMW1nODk2Qm85b3FEZUJDWWk5QUFsSzBkM3BsQkdsbFNUUVFmZXlpRTBZR21RTkxzWHowcFcxT0xYNEhhWkpyUlBRUkw3eUtTVFF5S1UvWDlLRFNQNkVLT0FDajRDaFllZkUzaVBCMVo0RVEzV1BKVzdSMTJMZDRFYTF2LS1MQ0NGS2Y5SVJ1dHRxVnkyWjI3NVJBPT0%3D--daa81b5421e3dcc63a4c7110e104c732176e80ee; path=/; HttpOnly",
-        "X-Request-Id": "4c0079a1-1d05-4791-8e99-b271ec1d1ddb",
-        "X-Runtime": "0.091351",
+        "Set-Cookie": "_session_id=UUQ4eDJaZ1RubTlwYnlYKzNDeXdVMVBNak01QityZVAxNGN3TWVMdm5PSllLeGlCZ0hrTGFlMVVGUnNvK3d3WktpeWxXUG9PNHVkdHNSeGh5SW5GdEtrZTNBa09mWmNDdWdrK2ZoaER4ZldMclRWRnFxUUFERDhFVmVOcnIzNk9UWGwrSUNPbnFEK1RWL09FTXFheEtQaDMraEVuK1FVMlpyY1NyMkNhZ3dxVzBIc0htZVBCUXg4cWQyZDM5NWhJLS11YU13eDZzRlNxbEFWckRsRE9lalFBPT0%3D--309e719a02c5d725bfb8b3178ba5ffe4d93c6fd8; path=/; HttpOnly",
+        "X-Request-Id": "7f4fbd3b-db68-498b-8c5a-669f3c8c121e",
+        "X-Runtime": "0.089546",
         "Content-Length": "0"
       },
       "response_content_type": "text/html",
-      "curl": "curl \"http://localhost:3000/admin/users/1/update_abilities\" -d 'abilities[users]=1&abilities[products]=0&abilities[orders]=0&abilities[categories]=0' -X PUT \\\n\t-H \"Access-Token: a6moyHaZfRY9lqbGRQTXYQ\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: vkNZZC96AWzebhbrje7FVg\" \\\n\t-H \"Expiry: 1475019858\" \\\n\t-H \"Uid: 115osvaldo.wehner@greenfelder.io\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/admin/users/1/update_abilities\" -d 'abilities[users]=1&abilities[products]=0&abilities[orders]=0&abilities[categories]=0' -X PUT \\\n\t-H \"Access-Token: UYwdEeqF1sInAfEoIbGwvg\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: h8-WJp_yotU0HR5hW6EKCg\" \\\n\t-H \"Expiry: 1475151428\" \\\n\t-H \"Uid: 114myrtice@schillerkeebler.info\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

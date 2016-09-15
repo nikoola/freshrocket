@@ -5,7 +5,7 @@ module Admin
 
 		# GET /admin/orders
 		def index
-			city_id = params[:city].present? ? JSON.parse(params[:city])['id'] : nil
+			city_id = params[:city_id]#params[:city].present? ? JSON.parse(params[:city])['id'] : nil
 							# binding.pry
 
 			if city_id && Address.get_address_by_city_id(city_id)
@@ -22,7 +22,9 @@ module Admin
 		end
 
 		def create
+			# binding.pry
 			@order = Order.new order_params
+
 			if @order.confirm! and @order.approve!
 				render json: @order, status: :created
 			else
@@ -32,6 +34,7 @@ module Admin
 
 		# PATCH/PUT /admin/orders/1
 		def update
+			# binding.pry
 			if @order.update(order_params)
 				render json: @order, status: 200
 			else

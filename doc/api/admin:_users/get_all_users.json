@@ -27,11 +27,11 @@
       "request_path": "/admin/users?has_ability=users",
       "request_body": null,
       "request_headers": {
-        "Access-Token": "Gylq-fD6aDUr67Qw5Oekmg",
+        "Access-Token": "2RYVXgnkDFt4Q22LlFt_4g",
         "Token-Type": "Bearer",
-        "Client": "T_Slb0HbBmYt9RSKEWMLow",
-        "Expiry": "1475019849",
-        "Uid": "93shanel.kerluke@schoencole.org",
+        "Client": "crriABFo2f_sqrlojsQ97g",
+        "Expiry": "1475151418",
+        "Uid": "92frederik@altenwerthmertz.co",
         "Host": "example.org",
         "Cookie": ""
       },
@@ -41,26 +41,26 @@
       "request_content_type": null,
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "[\n  {\n    \"id\": 2,\n    \"first_name\": \"Hanna\",\n    \"last_name\": \"Braun\",\n    \"email\": \"93shanel.kerluke@schoencole.org\",\n    \"phone\": \"8044095795\",\n    \"is_verified\": false,\n    \"provider\": \"email\",\n    \"uid\": \"93shanel.kerluke@schoencole.org\",\n    \"created_at\": \"2016-09-13T23:44:09.349Z\",\n    \"abilities\": {\n      \"orders\": 0,\n      \"products\": 0,\n      \"users\": 1,\n      \"categories\": 0,\n      \"coupons\": 0,\n      \"settings\": 0,\n      \"cities\": 0,\n      \"delivery_boy\": 0\n    },\n    \"addresses\": [\n\n    ],\n    \"orders\": [\n\n    ]\n  }\n]",
+      "response_body": "[\n  {\n    \"id\": 2,\n    \"first_name\": \"Tina\",\n    \"last_name\": \"Hermann\",\n    \"email\": \"92frederik@altenwerthmertz.co\",\n    \"phone\": \"4687002127\",\n    \"is_verified\": false,\n    \"provider\": \"email\",\n    \"uid\": \"92frederik@altenwerthmertz.co\",\n    \"created_at\": \"2016-09-15T12:16:58.560Z\",\n    \"abilities\": {\n      \"orders\": 0,\n      \"products\": 0,\n      \"users\": 1,\n      \"categories\": 0,\n      \"coupons\": 0,\n      \"settings\": 0,\n      \"cities\": 0,\n      \"delivery_boy\": 0\n    },\n    \"addresses\": [\n\n    ],\n    \"orders\": [\n\n    ]\n  }\n]",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
-        "access-token": "Gylq-fD6aDUr67Qw5Oekmg",
+        "access-token": "2RYVXgnkDFt4Q22LlFt_4g",
         "token-type": "Bearer",
-        "client": "T_Slb0HbBmYt9RSKEWMLow",
-        "expiry": "1475019849",
-        "uid": "93shanel.kerluke@schoencole.org",
+        "client": "crriABFo2f_sqrlojsQ97g",
+        "expiry": "1475151418",
+        "uid": "92frederik@altenwerthmertz.co",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"1c768eadbf59f5aed981efcbc948edbf\"",
+        "ETag": "W/\"2d18b4409ea4e7eabb19a5e35ffd94f0\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=azM4bi9aOUhPRlhXeVZrY09CNFdOeEhQQUxDQnQzZ3YvOFF2djR3TkdNYWdubk1uRjI5WFY3RlpGc0JtcS9FK0o3Nkw3MUoxbkQwUVlpQ1E4RkZwNUpPSWgyaEMwQVlpQ09jSlJPalMrNnp1WUQzenFtaWtKN1JQQnlDR0pFVUdKcG9HUlRrUkdCdG83MWZXVkJFK3VmMDI5QnlwZ0ZjRWVVbjVKbHd2OFk3Y2NFcGF3Z1JVZ25vSWpMbkhxaFNRLS1OcUU5bDlWSUN6dmd3STRZT0ZJVzZRPT0%3D--6e9b4ce93d6191fa67c9ba694ee0e69beaf9e4a6; path=/; HttpOnly",
-        "X-Request-Id": "86a0e0e7-b7a0-4353-b5ac-b7a5b81fb798",
-        "X-Runtime": "0.083944",
-        "Content-Length": "376"
+        "Set-Cookie": "_session_id=Zk9DQ1ZHTk9vNk9nT2JuL2RON2xObXlZb21iZmdJOXcwZGNocXlDMDl3eXVjTGx2NEszUlU3OTVPNWwxL2tkSTBpU3dSUTIxQjRhWE5la3R2eWFmNEMvMWNDMjFLWkdZYVhwRWJONEw4OUZ5TkFUZS94empoeGxBUk1obVpWK2pyL0JlelFHTkNnaW9UTmVXZU0yWEpDbC9za3BQVVdzL0tqUVk5NFpIbmNmL28vWDRwRTRZaytmS1dsTDNkWWZyLS1ISVVta3RTODB2Y2hIcllKcFBUbkVnPT0%3D--72e5b57dfe0c3be0287ccb2c0015ff6ca0480e1a; path=/; HttpOnly",
+        "X-Request-Id": "b98dc1b5-30f1-40ea-b245-48ff55bc98e5",
+        "X-Runtime": "0.082665",
+        "Content-Length": "373"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/admin/users?has_ability=users\" -X GET \\\n\t-H \"Access-Token: Gylq-fD6aDUr67Qw5Oekmg\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: T_Slb0HbBmYt9RSKEWMLow\" \\\n\t-H \"Expiry: 1475019849\" \\\n\t-H \"Uid: 93shanel.kerluke@schoencole.org\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/admin/users?has_ability=users\" -X GET \\\n\t-H \"Access-Token: 2RYVXgnkDFt4Q22LlFt_4g\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: crriABFo2f_sqrlojsQ97g\" \\\n\t-H \"Expiry: 1475151418\" \\\n\t-H \"Uid: 92frederik@altenwerthmertz.co\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

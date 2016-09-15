@@ -16,11 +16,11 @@
       "request_path": "/admin/products/1",
       "request_body": "product[title]=hi",
       "request_headers": {
-        "Access-Token": "kFxkw2Fc3KTtC89bm6Q0jg",
+        "Access-Token": "4a1eZYkvaaRzQKc8TFbWVA",
         "Token-Type": "Bearer",
-        "Client": "ByXjLdDwQDi5MK8nk1otLw",
-        "Expiry": "1475019824",
-        "Uid": "74dangelo.hoppe@vonrueden.net",
+        "Client": "btiNNaHkQAUGifbFk7SSbw",
+        "Expiry": "1475151389",
+        "Uid": "73jerrell.stehr@toy.net",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -30,26 +30,26 @@
       "request_content_type": "application/x-www-form-urlencoded",
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\n  \"id\": 1,\n  \"city_id\": 1,\n  \"title\": \"hi\",\n  \"price\": \"3.0\",\n  \"description\": null,\n  \"created_at\": \"2016-09-13T23:43:44.385Z\",\n  \"updated_at\": \"2016-09-13T23:43:44.549Z\",\n  \"inventory_count\": 20,\n  \"image_url\": \"https://freshrocket-test.s3.amazonaws.com/uploads/product/image/default.png\",\n  \"categories\": [\n\n  ],\n  \"options\": [\n\n  ]\n}",
+      "response_body": "{\n  \"id\": 1,\n  \"city_id\": 1,\n  \"title\": \"hi\",\n  \"price\": \"3.0\",\n  \"description\": null,\n  \"created_at\": \"2016-09-15T12:16:29.133Z\",\n  \"updated_at\": \"2016-09-15T12:16:29.310Z\",\n  \"inventory_count\": 20,\n  \"image_url\": \"https://freshrocket-test.s3.amazonaws.com/uploads/product/image/default.png\",\n  \"categories\": [\n\n  ],\n  \"options\": [\n\n  ]\n}",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
-        "access-token": "kFxkw2Fc3KTtC89bm6Q0jg",
+        "access-token": "4a1eZYkvaaRzQKc8TFbWVA",
         "token-type": "Bearer",
-        "client": "ByXjLdDwQDi5MK8nk1otLw",
-        "expiry": "1475019824",
-        "uid": "74dangelo.hoppe@vonrueden.net",
+        "client": "btiNNaHkQAUGifbFk7SSbw",
+        "expiry": "1475151389",
+        "uid": "73jerrell.stehr@toy.net",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"e28a284305ad45625ceb823f9381a689\"",
+        "ETag": "W/\"df303f9e37cbeabcb942ae2d111f81eb\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=cGh4YUVBT3VwTVpmSDhHYy8wQzdyeGl2UDVQSDVyUUQvTjRXa1NIM1I0ZmNjL2pjTklJeVVyVHI0enlhcVFlM2VYeVppNi85MzJGNXlRbytxVHpDclU5c291S2ZxTExvYm56bDI3bndWc0dzN0YxWjNJbFhtNFhuL2R6Q0NIZDRCaG9zeDRXM1BJaFJmdUFnRkUxNzljTmJkWGhxOEpYM0MwYUVQYkxIQmFFQnlONDVmWjcvODdLM0dpUkQ0UlorLS03RmtlcXM1Tngxa2FnamNYYkNURE53PT0%3D--34a4befbf1146acf8a49d69fc00ccaf5987bc507; path=/; HttpOnly",
-        "X-Request-Id": "b77a21e1-7a00-4ff8-b3f0-bf30ea9a6be2",
-        "X-Runtime": "0.081406",
+        "Set-Cookie": "_session_id=Y0NUcTVWRmFUY0NYbXB5OW9YdUNWWWliQUg1RFVOV1Z1UW5MRWpOUWVIVUw2RUYwUTE1cE40WEhaTFhwOE5XdENUU2hMNzRsUFhubFh2UzlRMFZGWFJmdGdHQUhIcVBUVU1hZjB6RGx1eVNLV0tPLzYyWHhSTFhxa0hDWHBIb2t5RTNJak1oWm8wckZ4KzNsdE5maTBnRWFXT2xGV3JlMTR3RHhJd1FsWFM0cDdCcnZzTThXS0NyMlM0NmNjakpWLS02YTZmZEpCK2NpRmZZTU5mWXpnNDVBPT0%3D--33c138b1c7be7fd32119da0a84938257c1a906f4; path=/; HttpOnly",
+        "X-Request-Id": "e4377d22-0de0-4c04-a18f-30bfdc0c70cf",
+        "X-Runtime": "0.084168",
         "Content-Length": "286"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/admin/products/1\" -d 'product[title]=hi' -X PUT \\\n\t-H \"Access-Token: kFxkw2Fc3KTtC89bm6Q0jg\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: ByXjLdDwQDi5MK8nk1otLw\" \\\n\t-H \"Expiry: 1475019824\" \\\n\t-H \"Uid: 74dangelo.hoppe@vonrueden.net\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/admin/products/1\" -d 'product[title]=hi' -X PUT \\\n\t-H \"Access-Token: 4a1eZYkvaaRzQKc8TFbWVA\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: btiNNaHkQAUGifbFk7SSbw\" \\\n\t-H \"Expiry: 1475151389\" \\\n\t-H \"Uid: 73jerrell.stehr@toy.net\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

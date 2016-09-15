@@ -21,11 +21,11 @@
       "request_path": "/client/orders/3/update_status",
       "request_body": "order[action]=approve",
       "request_headers": {
-        "Access-Token": "TO20O55QdoWBhA8dLyP7Gg",
+        "Access-Token": "L1r0QwrfQX6_QN4cHfNuGA",
         "Token-Type": "Bearer",
-        "Client": "deEb8W-JURyzM2KsQQysWQ",
-        "Expiry": "1475020005",
-        "Uid": "154eddie@gerlachsenger.net",
+        "Client": "bBd77EVrnUDQriuzcfsaxQ",
+        "Expiry": "1475151599",
+        "Uid": "153marina@botsford.biz",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -40,20 +40,20 @@
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
-        "access-token": "TO20O55QdoWBhA8dLyP7Gg",
+        "access-token": "L1r0QwrfQX6_QN4cHfNuGA",
         "token-type": "Bearer",
-        "client": "deEb8W-JURyzM2KsQQysWQ",
-        "expiry": "1475020005",
-        "uid": "154eddie@gerlachsenger.net",
+        "client": "bBd77EVrnUDQriuzcfsaxQ",
+        "expiry": "1475151599",
+        "uid": "153marina@botsford.biz",
         "Content-Type": "application/json; charset=utf-8",
         "Cache-Control": "no-cache",
-        "Set-Cookie": "_session_id=UDgvL2NKLysrSXJTVkVEZXhWeEpkd3VibjkrVE5oMHhyQUNUZmtRVVl6YWdpOG9jaVcvV25IcWNidDhFMEdWMEdDcmlUdlRuR0daNXFlNjJrbzMzRGlEQnZNLzY3WlhzUENQY0phanp6VDROdGlTMk1SNnEyQVQvc1kzUTJWK2xRdEFqU3kxV09UWGxzUkJ1RlBYUklraEltakYvTW9FQzg4RmNHWWNzdVg0dTZMUnc1R1R3SXl0bkdSOUFQZkp0LS1rTWZCckYzaUtEREFrNjJ3ZU1zTlVRPT0%3D--d721c6ca12e27ece736ebdffb9bb8143f8ba7007; path=/; HttpOnly",
-        "X-Request-Id": "cafd0ced-f39b-4b08-8dc6-58f8b8de0618",
-        "X-Runtime": "0.072565",
+        "Set-Cookie": "_session_id=Unh1Y2NrSmdyazBKM2tTNUhvV2pqQ3hndGNwWFFtSk5Ub3ZJSHJrU1FJU3JFdXRFMjBDMGIzNXpIOE9kQW9UWjdLM1I2VzVVU0s1WkNpT2U3SDErNkJROXk5SGliOUt4NGYxSnJ5aUhSaHRWc2ZrdWFXREdlNmt0eDBOb05ORjR6cUFUc2p2cTBIQVVMeUQ5UFZVc0NIRVRib2pzeURnaGl0elJqSWFqeW12ODUvV1RDd096YS9MNDY3VVBiU3M0LS16RGczeUgwZm1qcmRDUHd1WVlPSXF3PT0%3D--e3eb1fd6ed5c6b052dffa992419186bb681887bf; path=/; HttpOnly",
+        "X-Request-Id": "9c74870b-6a04-4f15-a5cf-b6e5a5c36f96",
+        "X-Runtime": "0.071349",
         "Content-Length": "41"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/client/orders/3/update_status\" -d 'order[action]=approve' -X PUT \\\n\t-H \"Access-Token: TO20O55QdoWBhA8dLyP7Gg\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: deEb8W-JURyzM2KsQQysWQ\" \\\n\t-H \"Expiry: 1475020005\" \\\n\t-H \"Uid: 154eddie@gerlachsenger.net\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/client/orders/3/update_status\" -d 'order[action]=approve' -X PUT \\\n\t-H \"Access-Token: L1r0QwrfQX6_QN4cHfNuGA\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: bBd77EVrnUDQriuzcfsaxQ\" \\\n\t-H \"Expiry: 1475151599\" \\\n\t-H \"Uid: 153marina@botsford.biz\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

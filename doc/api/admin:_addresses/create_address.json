@@ -51,11 +51,11 @@
       "request_path": "/admin/addresses",
       "request_body": "address[id]&address[user_id]=1&address[city_id]=3&address[area_id]=1&address[street_and_house]=Hazrataganj+Crossing+Bus+Stop%2C+Ashok+Marg%2C+Hazratganj%2C+Lucknow%2C+Uttar+Pradesh+226001%2C+India&address[door_number]=5&address[coordinate]&address[zip_code]&address[lat]=26.8469631&address[lng]=80.9462034&address[active]=true&address[stringified_coordinate]=%5B26.8469631%2C80.9462034%5D",
       "request_headers": {
-        "Access-Token": "j1hbfAXD8SPN8sZ6oxTcxA",
+        "Access-Token": "0AXAnLORbAR-CqgYeSeklg",
         "Token-Type": "Bearer",
-        "Client": "CkzuNPhosliqEy3mWjxd2A",
-        "Expiry": "1475019662",
-        "Uid": "2estelle@bergnaum.info",
+        "Client": "Rt5cnaYyfF0uSWRBWPgjMQ",
+        "Expiry": "1475151179",
+        "Uid": "2claudia_gottlieb@gutmannjenkins.info",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -70,21 +70,21 @@
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
-        "access-token": "j1hbfAXD8SPN8sZ6oxTcxA",
+        "access-token": "0AXAnLORbAR-CqgYeSeklg",
         "token-type": "Bearer",
-        "client": "CkzuNPhosliqEy3mWjxd2A",
-        "expiry": "1475019662",
-        "uid": "2estelle@bergnaum.info",
+        "client": "Rt5cnaYyfF0uSWRBWPgjMQ",
+        "expiry": "1475151179",
+        "uid": "2claudia_gottlieb@gutmannjenkins.info",
         "Content-Type": "application/json; charset=utf-8",
         "ETag": "W/\"67401bd522e72e311dc5f2a1c8b99e61\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=ZUt5MG53UHI2c2FvMGlVdExLRmIyS0xGak5UQUZOd3FSTFBlYzhqTTY5STFZQlpGTC9kNERna2ZXU1V1WjJRKy94RWxPUXZZRDhOQ211RUIvTFA0akRYaDFpekRzdG9pTC8wUVMvb3hTRnJiTHlTeHJsUGxDaGx2ZytNUTBrWlNaSGFmOWllMjdoL3A3cG9xK1d6RDdkTURXVGtBY0syaWxMUEd1anJDUFlPa2lNdmhwN3hNTVVDd3JEWDlDUHpaLS1OQTJUVndVUTVrcXFMdUQvemRlZXBnPT0%3D--789b50026d4e2ca54dad53b40f0e434b75d1755d; path=/; HttpOnly",
-        "X-Request-Id": "c954caee-94d1-4e24-ab9a-4d064284e132",
-        "X-Runtime": "0.090977",
+        "Set-Cookie": "_session_id=U1VHdm16akhvY054Qk9jUmRaVUVreXdvVGdJQUxVUTVLaTZzRGZlcC9qbHp2RXZBQU8zNVdwYkhMSlZPdFIxY3BOaWovSWhtWDR2N0oya0J1VjRJNDNJOGdMaDI5djNkUVFnb0JBQTJPVFY2V2RlQSttelhLWThuR3NyR0daSlJrdUs5RUg0WXhVMENQdXlaeEpqTWx2MFpSZDVydWpuaVVZV1NNaFQ5V3pQSVdnRzNaT3g4U0h0eG5sajIzN0tqLS1hdkxaUjJoWUJPRmlpTzVPTVorT1d3PT0%3D--0216d3545e9cba3c5687a4ffb1d8d1ba893ed1a1; path=/; HttpOnly",
+        "X-Request-Id": "f20d5c50-8b00-413d-bc32-44f602fae9fc",
+        "X-Runtime": "0.082223",
         "Content-Length": "199"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/admin/addresses\" -d 'address[id]&address[user_id]=1&address[city_id]=3&address[area_id]=1&address[street_and_house]=Hazrataganj+Crossing+Bus+Stop%2C+Ashok+Marg%2C+Hazratganj%2C+Lucknow%2C+Uttar+Pradesh+226001%2C+India&address[door_number]=5&address[coordinate]&address[zip_code]&address[lat]=26.8469631&address[lng]=80.9462034&address[active]=true&address[stringified_coordinate]=%5B26.8469631%2C80.9462034%5D' -X POST \\\n\t-H \"Access-Token: j1hbfAXD8SPN8sZ6oxTcxA\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: CkzuNPhosliqEy3mWjxd2A\" \\\n\t-H \"Expiry: 1475019662\" \\\n\t-H \"Uid: 2estelle@bergnaum.info\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/admin/addresses\" -d 'address[id]&address[user_id]=1&address[city_id]=3&address[area_id]=1&address[street_and_house]=Hazrataganj+Crossing+Bus+Stop%2C+Ashok+Marg%2C+Hazratganj%2C+Lucknow%2C+Uttar+Pradesh+226001%2C+India&address[door_number]=5&address[coordinate]&address[zip_code]&address[lat]=26.8469631&address[lng]=80.9462034&address[active]=true&address[stringified_coordinate]=%5B26.8469631%2C80.9462034%5D' -X POST \\\n\t-H \"Access-Token: 0AXAnLORbAR-CqgYeSeklg\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: Rt5cnaYyfF0uSWRBWPgjMQ\" \\\n\t-H \"Expiry: 1475151179\" \\\n\t-H \"Uid: 2claudia_gottlieb@gutmannjenkins.info\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

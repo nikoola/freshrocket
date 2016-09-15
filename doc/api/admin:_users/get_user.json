@@ -16,11 +16,11 @@
       "request_path": "/admin/users/1",
       "request_body": null,
       "request_headers": {
-        "Access-Token": "Dm-cdmMy9_4C66YkwQV3aw",
+        "Access-Token": "u_7Xujwp-Dj2JYjto8zOgA",
         "Token-Type": "Bearer",
-        "Client": "X-bimqNDjjSRKhUyCxSCjw",
-        "Expiry": "1475019849",
-        "Uid": "98aliya_hauck@white.biz",
+        "Client": "tHmOluUWIuIoLZChKCrrdg",
+        "Expiry": "1475151419",
+        "Uid": "97elian@nienowgoyette.co",
         "Host": "example.org",
         "Cookie": ""
       },
@@ -29,26 +29,26 @@
       "request_content_type": null,
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\n  \"id\": 1,\n  \"first_name\": \"Alex\",\n  \"last_name\": \"Carter\",\n  \"email\": \"97haie@macgyverzemlak.biz\",\n  \"phone\": \"9412526457\",\n  \"is_verified\": false,\n  \"provider\": \"email\",\n  \"uid\": \"97haie@macgyverzemlak.biz\",\n  \"created_at\": \"2016-09-13T23:44:09.755Z\",\n  \"abilities\": {\n    \"orders\": 0,\n    \"products\": 0,\n    \"users\": 0,\n    \"categories\": 1,\n    \"coupons\": 0,\n    \"settings\": 0,\n    \"cities\": 0,\n    \"delivery_boy\": 0\n  },\n  \"addresses\": [\n\n  ],\n  \"orders\": [\n\n  ]\n}",
+      "response_body": "{\n  \"id\": 1,\n  \"first_name\": \"Santos\",\n  \"last_name\": \"Thompson\",\n  \"email\": \"96rosario@greenfelder.biz\",\n  \"phone\": \"2073929347\",\n  \"is_verified\": false,\n  \"provider\": \"email\",\n  \"uid\": \"96rosario@greenfelder.biz\",\n  \"created_at\": \"2016-09-15T12:16:58.967Z\",\n  \"abilities\": {\n    \"orders\": 0,\n    \"products\": 0,\n    \"users\": 0,\n    \"categories\": 1,\n    \"coupons\": 0,\n    \"settings\": 0,\n    \"cities\": 0,\n    \"delivery_boy\": 0\n  },\n  \"addresses\": [\n\n  ],\n  \"orders\": [\n\n  ]\n}",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
-        "access-token": "Dm-cdmMy9_4C66YkwQV3aw",
+        "access-token": "u_7Xujwp-Dj2JYjto8zOgA",
         "token-type": "Bearer",
-        "client": "X-bimqNDjjSRKhUyCxSCjw",
-        "expiry": "1475019849",
-        "uid": "98aliya_hauck@white.biz",
+        "client": "tHmOluUWIuIoLZChKCrrdg",
+        "expiry": "1475151419",
+        "uid": "97elian@nienowgoyette.co",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"4b166d8d34457c4d738ca16a165bf80f\"",
+        "ETag": "W/\"47b62c6da3fbbb9a91ddf7129bfcadf2\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=Mkk5eFpNREloSFpyR2UyRWxGME1zejA5N3p5dnVEZFh6TkhzTCtmNW1zTUt6bDJlYnJ4cTNrMWFNMnZacHFpZmE4YnJQekVoa1R1cEd3dUpFV3hJc2hXSXdwbHZjeFpDaXpSak13Sk42SDhIZEZHUmpnQ1Y3dlFLemhha3A1Ly93b0l0QlAwbmtuUTBiVk1pLzBQd0JsaUZWalJ0RGhaZEtxMXBrN1pnUkIxTm5kRWhtYmRWT2tMR0FyYkRRSVFFLS1SdmYzT2Q5VW9BMWpCM3RUTnZ4OGZBPT0%3D--16d36d50cf22e8cb98236178653e8f4e9f6a882e; path=/; HttpOnly",
-        "X-Request-Id": "34a1ef47-eb39-4dee-8c86-f086bc20e943",
-        "X-Runtime": "0.077842",
-        "Content-Length": "362"
+        "Set-Cookie": "_session_id=THBaUW84TlVHWWV4TW1sT3hlUmhQc3lEcHpCLzBDV1Q0aWFRUERodkx4RFhKaE9mc0NRNmZpczRpalh3czRGWWxhREtCVXYzR0Vzdys0SXhOYzl0eE5pRmVwMHpzY0JsaDFuQUgrVDVkTWVPbEc5SWhPbU9Wa2s3M1VZeVF6S2dIUXpXNTBRYnQydVVqcytBdWFkbFdSLzY4MGdUZUtSR2R4SXBZL3RSTytCYU5VeDg1cVcvR3dNQWZPd3NzQ0NiLS05Szc2S05Iekh2Y01MWXh2TEpFc1ZRPT0%3D--b504dd721f553aff5cdd910548e1896cf57be3ea; path=/; HttpOnly",
+        "X-Request-Id": "9da858c3-b1a4-4019-93ea-e2f143a9325c",
+        "X-Runtime": "0.076257",
+        "Content-Length": "366"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/admin/users/1\" -X GET \\\n\t-H \"Access-Token: Dm-cdmMy9_4C66YkwQV3aw\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: X-bimqNDjjSRKhUyCxSCjw\" \\\n\t-H \"Expiry: 1475019849\" \\\n\t-H \"Uid: 98aliya_hauck@white.biz\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/admin/users/1\" -X GET \\\n\t-H \"Access-Token: u_7Xujwp-Dj2JYjto8zOgA\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: tHmOluUWIuIoLZChKCrrdg\" \\\n\t-H \"Expiry: 1475151419\" \\\n\t-H \"Uid: 97elian@nienowgoyette.co\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

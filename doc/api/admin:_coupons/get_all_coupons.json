@@ -16,11 +16,11 @@
       "request_path": "/admin/coupons",
       "request_body": null,
       "request_headers": {
-        "Access-Token": "nepA63Y130Xo1fthhRqVyg",
+        "Access-Token": "_NYqnZT7k0y12wjoiqVlNw",
         "Token-Type": "Bearer",
-        "Client": "dQQL7c7OhzHbR4qHZIhmxQ",
-        "Expiry": "1475019725",
-        "Uid": "17nichole.grant@schillerkoelpin.com",
+        "Client": "r2bSyIXgkuuQU19V6FoyuQ",
+        "Expiry": "1475151254",
+        "Uid": "16emmie_heaney@kuhlmanbartoletti.net",
         "Host": "example.org",
         "Cookie": ""
       },
@@ -29,26 +29,26 @@
       "request_content_type": null,
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "[\n  {\n    \"id\": 1,\n    \"name\": \"red\",\n    \"code\": \"32081\",\n    \"discount\": 10\n  },\n  {\n    \"id\": 2,\n    \"name\": \"red\",\n    \"code\": \"89182\",\n    \"discount\": 76\n  },\n  {\n    \"id\": 3,\n    \"name\": \"red\",\n    \"code\": \"46563\",\n    \"discount\": 42\n  },\n  {\n    \"id\": 4,\n    \"name\": \"red\",\n    \"code\": \"64024\",\n    \"discount\": 95\n  }\n]",
+      "response_body": "[\n  {\n    \"id\": 1,\n    \"name\": \"red\",\n    \"code\": \"78981\",\n    \"discount\": 69\n  },\n  {\n    \"id\": 2,\n    \"name\": \"red\",\n    \"code\": \"50382\",\n    \"discount\": 31\n  },\n  {\n    \"id\": 3,\n    \"name\": \"red\",\n    \"code\": \"74723\",\n    \"discount\": 31\n  },\n  {\n    \"id\": 4,\n    \"name\": \"red\",\n    \"code\": \"32624\",\n    \"discount\": 22\n  }\n]",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
-        "access-token": "nepA63Y130Xo1fthhRqVyg",
+        "access-token": "_NYqnZT7k0y12wjoiqVlNw",
         "token-type": "Bearer",
-        "client": "dQQL7c7OhzHbR4qHZIhmxQ",
-        "expiry": "1475019725",
-        "uid": "17nichole.grant@schillerkoelpin.com",
+        "client": "r2bSyIXgkuuQU19V6FoyuQ",
+        "expiry": "1475151254",
+        "uid": "16emmie_heaney@kuhlmanbartoletti.net",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"f341c2da31ee1fbaec33b9358e6646b5\"",
+        "ETag": "W/\"649b94e11a8c3169371fb3e5343227a1\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=TzVoREJQMDRtL0lMRHh5SXJTK1dyZFB2bzJKNC80ZDdNbXZEblBJMlNKTm9iVXBwaW41UGxLN2VpUytHZjFJNkN3NlJPSmFjUjhkRGYyTlFOU2RmTlh6QTZyNEFnZWJZSGUzQnRXS25CejVWR1hheGJCV1doZ0NwM0t3ajliR1VxWjU2blpaaVFLTjRZSlRTeVhNd2JmN0c3VlM5WGZhdWdaMlBKeURjcWRMek12WENHTkxOVnY4elZYVytNMXM0LS1JcWw1aVpFQkpKRUlmd0l0QXBFQ0dBPT0%3D--45ba775072e45b5643f1c4b42a913e71b07be4d9; path=/; HttpOnly",
-        "X-Request-Id": "0dc4a48d-1923-46bd-b0c6-7c9758225b53",
-        "X-Runtime": "0.087621",
+        "Set-Cookie": "_session_id=QjkrKzdXZTFHdTJzMHhQcnlkOEJHOW9IV0VTTVRubm1xeVdScUVtUmNmTFczUzdFQlM0alRWWEJlN1lsQlUyZDRnczlOajFNZTJ0TE9tQWRRc2ZkOEdrdmtJVnpsRFJONDRsVDAxTWdFNFVMV3c4WGR2SVN0S0E4ZVdxd0QrT0ZucHUwVWNoUXVJUE5JQWxreDd6TGpvZHdjb3JLalBXbWZsTElPdWZtYUU3R0RtdmRLNjdNb3BPNkN4TkRPbDNGLS0yTTFTdml3SXNadExFTEFzdXI2akhBPT0%3D--82229ad8eb45b33c59186df41770113b3d66b64a; path=/; HttpOnly",
+        "X-Request-Id": "74bf52d5-0b9b-42d4-99a7-c3922c809b9a",
+        "X-Runtime": "0.091206",
         "Content-Length": "205"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/admin/coupons\" -X GET \\\n\t-H \"Access-Token: nepA63Y130Xo1fthhRqVyg\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: dQQL7c7OhzHbR4qHZIhmxQ\" \\\n\t-H \"Expiry: 1475019725\" \\\n\t-H \"Uid: 17nichole.grant@schillerkoelpin.com\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/admin/coupons\" -X GET \\\n\t-H \"Access-Token: _NYqnZT7k0y12wjoiqVlNw\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: r2bSyIXgkuuQU19V6FoyuQ\" \\\n\t-H \"Expiry: 1475151254\" \\\n\t-H \"Uid: 16emmie_heaney@kuhlmanbartoletti.net\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

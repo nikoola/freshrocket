@@ -28,17 +28,17 @@
       "request_content_type": null,
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "[\n  {\n    \"id\": 1,\n    \"name\": \"Karimnagar\",\n    \"active\": true\n  },\n  {\n    \"id\": 2,\n    \"name\": \"Parbhani\",\n    \"active\": true\n  },\n  {\n    \"id\": 3,\n    \"name\": \"Etawah\",\n    \"active\": true\n  },\n  {\n    \"id\": 6,\n    \"name\": \"New Delhi\",\n    \"active\": true\n  },\n  {\n    \"id\": 7,\n    \"name\": \"Chhapra\",\n    \"active\": true\n  },\n  {\n    \"id\": 8,\n    \"name\": \"Kadapa\",\n    \"active\": true\n  },\n  {\n    \"id\": 9,\n    \"name\": \"Ramagundam\",\n    \"active\": true\n  }\n]",
+      "response_body": "[\n  {\n    \"id\": 1,\n    \"name\": \"Naihati\",\n    \"active\": true\n  },\n  {\n    \"id\": 2,\n    \"name\": \"Sambhal\",\n    \"active\": true\n  },\n  {\n    \"id\": 3,\n    \"name\": \"Nadiad\",\n    \"active\": true\n  },\n  {\n    \"id\": 6,\n    \"name\": \"Eluru\",\n    \"active\": true\n  },\n  {\n    \"id\": 7,\n    \"name\": \"Munger\",\n    \"active\": true\n  },\n  {\n    \"id\": 8,\n    \"name\": \"Panchkula\",\n    \"active\": true\n  },\n  {\n    \"id\": 9,\n    \"name\": \"Raayachuru\",\n    \"active\": true\n  }\n]",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"92c5457c8a591369cec7b48dfc5a2b33\"",
+        "ETag": "W/\"85847b02b3e06b6e4699df5858371593\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "X-Request-Id": "0e315509-253a-45f9-9e72-e026a1e080c2",
-        "X-Runtime": "0.025916",
-        "Content-Length": "288"
+        "X-Request-Id": "d59e6f92-7d5f-47e5-9191-354f3cff2da7",
+        "X-Runtime": "0.023651",
+        "Content-Length": "282"
       },
       "response_content_type": "application/json; charset=utf-8",
       "curl": "curl \"http://localhost:3000/cities?active=1\" -X GET \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""

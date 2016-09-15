@@ -16,11 +16,11 @@
       "request_path": "/admin/areas/1",
       "request_body": null,
       "request_headers": {
-        "Access-Token": "ZupfkW_R8FlUtwCDPohjlg",
+        "Access-Token": "11tRkRuGaKmBasiV_1NkvA",
         "Token-Type": "Bearer",
-        "Client": "mHOBDQOfTMUOL2T01Pl_Sg",
-        "Expiry": "1475019723",
-        "Uid": "8tevin@jenkinsfriesen.org",
+        "Client": "XnjRwTDJ3wcggafQo3xkUA",
+        "Expiry": "1475151219",
+        "Uid": "8rosamond@runte.com",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -35,20 +35,20 @@
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
-        "access-token": "ZupfkW_R8FlUtwCDPohjlg",
+        "access-token": "11tRkRuGaKmBasiV_1NkvA",
         "token-type": "Bearer",
-        "client": "mHOBDQOfTMUOL2T01Pl_Sg",
-        "expiry": "1475019723",
-        "uid": "8tevin@jenkinsfriesen.org",
+        "client": "XnjRwTDJ3wcggafQo3xkUA",
+        "expiry": "1475151219",
+        "uid": "8rosamond@runte.com",
         "Content-Type": "text/html",
         "Cache-Control": "no-cache",
-        "Set-Cookie": "_session_id=K1pBclNoeWtYcVFVa2JZZkExVkJJNUhkZ0FOUi9IRmhjUUdzMEVVSFNwNmhRTkt6aVhuSnZ0ZjkzT0Vva2prenFFMFRqUDdUaXdRNmpKMXBTMS83NnRLRTVyTm5oVmlNQ3VDaDIvcGsvV2Q1UTBHaWI5eVNpSEhwT0RTNmNFZ2tmZklWYTljZ1BEZ3BiTWxCNk9PTHhjTXh6ai9OcTNWaURIMFhncHl5QVFjVWN1MmNPT05WajgvN1N5cmFqV1ozLS12RWVvRkV1TXo2VGxWU2pwVzFrZmZRPT0%3D--a56b2602e6d7f842faca522d0d8eec7380f407db; path=/; HttpOnly",
-        "X-Request-Id": "5414b9f5-483a-4bff-b434-944439e9971c",
-        "X-Runtime": "0.115461",
+        "Set-Cookie": "_session_id=TFdnTkkvTUxVdER5UnBDU2R6VmJMbHo3YksvNXhLYzhZb0tDN09kbWJQTE5KdlNBR01SKzVMTG9PVURwcVdoYlRxVldnLzNwSnpvbTIrWEFocEFCNU1tcWJOVEZtWFJ3enNqSzFzeWZsN2pLVjh1cGhBalg3WUphcXBBcCtUdTRicXhlVG1ZNXlYQnVlMTBQOHZLVlQ1V1hyN0hWYklGaEpua29HMXY3QTJINlBzaXZkRlFuQWFjaGowd1dOWnkzLS1lNmtrQ253dDJqYXJ5NGVpN2gzVjRnPT0%3D--aa2d51a77e30a5f78dc6c2701cea7c882f82d3d0; path=/; HttpOnly",
+        "X-Request-Id": "d40ffc2a-804b-4b46-81b1-296c0b4eb568",
+        "X-Runtime": "0.079257",
         "Content-Length": "0"
       },
       "response_content_type": "text/html",
-      "curl": "curl \"http://localhost:3000/admin/areas/1\" -d '' -X DELETE \\\n\t-H \"Access-Token: ZupfkW_R8FlUtwCDPohjlg\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: mHOBDQOfTMUOL2T01Pl_Sg\" \\\n\t-H \"Expiry: 1475019723\" \\\n\t-H \"Uid: 8tevin@jenkinsfriesen.org\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/admin/areas/1\" -d '' -X DELETE \\\n\t-H \"Access-Token: 11tRkRuGaKmBasiV_1NkvA\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: XnjRwTDJ3wcggafQo3xkUA\" \\\n\t-H \"Expiry: 1475151219\" \\\n\t-H \"Uid: 8rosamond@runte.com\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

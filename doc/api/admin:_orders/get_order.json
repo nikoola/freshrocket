@@ -19,11 +19,11 @@
       "request_path": "/admin/orders/1?include[]=address",
       "request_body": null,
       "request_headers": {
-        "Access-Token": "SRgZLMXq_MdEz2NfgSOzaA",
+        "Access-Token": "PeYoteuvhYl343a_NsRSLA",
         "Token-Type": "Bearer",
-        "Client": "zK2Rqx0h3_5jyovAikEexQ",
-        "Expiry": "1475019785",
-        "Uid": "49chelsie.senger@jenkins.net",
+        "Client": "kjG1CJcnouezC6qTLoXMSA",
+        "Expiry": "1475151326",
+        "Uid": "48wyatt@bins.co",
         "Host": "example.org",
         "Cookie": ""
       },
@@ -35,26 +35,26 @@
       "request_content_type": null,
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\n  \"id\": 1,\n  \"user_id\": 1,\n  \"status\": \"unconfirmed\",\n  \"created_at\": \"2016-09-13T23:43:05.599Z\",\n  \"confirmed_at\": null,\n  \"approved_at\": null,\n  \"dispacthed_at\": null,\n  \"delivered_at\": null,\n  \"canceled_at\": null,\n  \"pure_product_price\": \"27.0\",\n  \"tax\": \"1.35\",\n  \"delivery_charge\": \"200.0\",\n  \"total_price\": \"228.35\",\n  \"coupon_code\": null,\n  \"delivery_boy_id\": null,\n  \"delivery_boy_phone\": null,\n  \"wanted_time\": null,\n  \"wanted_date\": null,\n  \"payment_type\": \"cash\",\n  \"is_paid\": false,\n  \"feedback\": null,\n  \"comment\": null,\n  \"source_type\": null,\n  \"admin_comment\": null,\n  \"address\": {\n    \"id\": 1,\n    \"city_id\": 5,\n    \"user_id\": 2,\n    \"street_and_house\": \"Maharashtra 413713, India\",\n    \"door_number\": \"5\",\n    \"active\": true,\n    \"city_name\": \"Loni\"\n  }\n}",
+      "response_body": "{\n  \"id\": 1,\n  \"user_id\": 1,\n  \"status\": \"unconfirmed\",\n  \"created_at\": \"2016-09-15T12:15:26.824Z\",\n  \"confirmed_at\": null,\n  \"approved_at\": null,\n  \"dispacthed_at\": null,\n  \"delivered_at\": null,\n  \"canceled_at\": null,\n  \"pure_product_price\": \"27.0\",\n  \"tax\": \"1.35\",\n  \"delivery_charge\": \"200.0\",\n  \"total_price\": \"228.35\",\n  \"coupon_code\": null,\n  \"delivery_boy_id\": null,\n  \"delivery_boy_phone\": null,\n  \"wanted_time\": null,\n  \"wanted_date\": null,\n  \"payment_type\": \"cash\",\n  \"is_paid\": false,\n  \"feedback\": null,\n  \"comment\": null,\n  \"source_type\": null,\n  \"admin_comment\": null,\n  \"address\": {\n    \"id\": 1,\n    \"city_id\": 1,\n    \"user_id\": 2,\n    \"street_and_house\": \"Belagavi, Karnataka 590009, India\",\n    \"door_number\": \"5\",\n    \"active\": true,\n    \"city_name\": \"Jammu\"\n  }\n}",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
-        "access-token": "SRgZLMXq_MdEz2NfgSOzaA",
+        "access-token": "PeYoteuvhYl343a_NsRSLA",
         "token-type": "Bearer",
-        "client": "zK2Rqx0h3_5jyovAikEexQ",
-        "expiry": "1475019785",
-        "uid": "49chelsie.senger@jenkins.net",
+        "client": "kjG1CJcnouezC6qTLoXMSA",
+        "expiry": "1475151326",
+        "uid": "48wyatt@bins.co",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"930aff8fd4f945ebf8801d4b36f7ce84\"",
+        "ETag": "W/\"fd662a7a9341edf356003e31c68a0995\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=RlpNaVNDNmJSYmxpakFSR3NPZHkzR0paQ3VnL0UraXJPK09haElEaDhIcGpGdzBNVm9FQkh1V1I2Z0xVc0RxSVFHUnRvdGZOVFU3bmpLTWJaT204TVdKR0lvYUhZNEdRVXgramNjUjB1Qzg0U1c4WmVjWjVrNW5PZ2VwdnU4UTNzcm9HUUI0TnQ2clZ5L2VTcWJBK0hQUkhuRE52QVF5M0g2L1VrZGFYMiszaFlYNkhkbytEczIzdEUzTkloMTRVLS0vbmFHaGhzTmF6RFhNVTNVK0N4T3dnPT0%3D--338c4b05a39ac4d91bbf6e53c61edfc42c0c4442; path=/; HttpOnly",
-        "X-Request-Id": "c9cf7c21-32df-473a-aa3b-5edec7e8d981",
-        "X-Runtime": "0.107829",
-        "Content-Length": "628"
+        "Set-Cookie": "_session_id=RTBHNkY4NWFtb01wVmFIdnFoWkdrY0tIcGJOeXl6RmJzSXYyZndpYzRyWHcxejhKbTlWK0Z1eWZPVEd5M3p1OWZHN3BqV0JVWEgxemRkTm9kejFuaktObjNnMnhCaURTNmZ0L05qWmZCOCtuVDFTdjJTOUdoRUhVZXhQdU9GUTluYmszTmhjNzQ3dXRFeHgwbnQzQUNNSUVFbURrUzcraUpmS1Q3R0hrSmxGVXZWbVBzZCs1SkEvaUJzdmtWSFNnLS1zeEZIMGtCeFQ0NG12WGZDR092NUFRPT0%3D--842f736262e0454f5896069939617ceebc0771eb; path=/; HttpOnly",
+        "X-Request-Id": "0d8cb30e-13ed-4611-a10d-be345e30be2e",
+        "X-Runtime": "0.078545",
+        "Content-Length": "637"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/admin/orders/1?include[]=address\" -X GET \\\n\t-H \"Access-Token: SRgZLMXq_MdEz2NfgSOzaA\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: zK2Rqx0h3_5jyovAikEexQ\" \\\n\t-H \"Expiry: 1475019785\" \\\n\t-H \"Uid: 49chelsie.senger@jenkins.net\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/admin/orders/1?include[]=address\" -X GET \\\n\t-H \"Access-Token: PeYoteuvhYl343a_NsRSLA\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: kjG1CJcnouezC6qTLoXMSA\" \\\n\t-H \"Expiry: 1475151326\" \\\n\t-H \"Uid: 48wyatt@bins.co\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

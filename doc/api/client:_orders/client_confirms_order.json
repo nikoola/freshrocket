@@ -1,0 +1,59 @@
+{
+  "resource": "client: orders",
+  "http_method": "PUT",
+  "route": "/client/orders/:id/update_status",
+  "description": "client confirms order",
+  "explanation": null,
+  "parameters": [
+    {
+      "scope": "order",
+      "required": true,
+      "name": "action",
+      "description": "only :confirm is possible for this route (for client)"
+    }
+  ],
+  "response_fields": [
+
+  ],
+  "requests": [
+    {
+      "request_method": "PUT",
+      "request_path": "/client/orders/3/update_status",
+      "request_body": "order[action]=confirm",
+      "request_headers": {
+        "Access-Token": "CFqhJeqg5OF40fdmlSYUGA",
+        "Token-Type": "Bearer",
+        "Client": "RfbZvxoFCmIZLcbcNLipxw",
+        "Expiry": "1475151593",
+        "Uid": "151reanna@spencer.io",
+        "Host": "example.org",
+        "Content-Type": "application/x-www-form-urlencoded",
+        "Cookie": ""
+      },
+      "request_query_parameters": {
+      },
+      "request_content_type": "application/x-www-form-urlencoded",
+      "response_status": 200,
+      "response_status_text": "OK",
+      "response_body": null,
+      "response_headers": {
+        "X-Frame-Options": "SAMEORIGIN",
+        "X-XSS-Protection": "1; mode=block",
+        "X-Content-Type-Options": "nosniff",
+        "access-token": "CFqhJeqg5OF40fdmlSYUGA",
+        "token-type": "Bearer",
+        "client": "RfbZvxoFCmIZLcbcNLipxw",
+        "expiry": "1475151593",
+        "uid": "151reanna@spencer.io",
+        "Content-Type": "text/html",
+        "Cache-Control": "no-cache",
+        "Set-Cookie": "_session_id=NUdndzhLMUdpeGM4SWFLK0k5QUwxalZ0dm9CdHd2ejhnSEQzN3VyRjdEMUJ6V0FIaGJuYWg3bDlnYmVVTFdFdVZyZ0FQc245Q3VnS05tenJTYzFFd1NIUUNuRGVQZkFzdGFPcHVsdXkxV3Q5NEVlc2J4bzlaVjlzc3JLdTZlZHdXTDNYS1BuRVZxelpqUVVJSXNObEZzNC9HOFVoTWRaZDRNZnRmaGVPdjByS3JtU1RwQ21zQjd3WTh5ZXpscTRRLS1XUzlwZVRSNmVPKzhZVFRkZEZ2SE13PT0%3D--7e3c5753bf69372a627a48fc163ea1bc8f7a6aaf; path=/; HttpOnly",
+        "X-Request-Id": "f4ff9627-8d17-4c44-93c4-fad645fafda2",
+        "X-Runtime": "0.101968",
+        "Content-Length": "0"
+      },
+      "response_content_type": "text/html",
+      "curl": "curl \"http://localhost:3000/client/orders/3/update_status\" -d 'order[action]=confirm' -X PUT \\\n\t-H \"Access-Token: CFqhJeqg5OF40fdmlSYUGA\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: RfbZvxoFCmIZLcbcNLipxw\" \\\n\t-H \"Expiry: 1475151593\" \\\n\t-H \"Uid: 151reanna@spencer.io\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+    }
+  ]
+}

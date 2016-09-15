@@ -14,13 +14,13 @@
     {
       "request_method": "PUT",
       "request_path": "/admin/users/1",
-      "request_body": "user[email]=hi%40hi.hey&user[phone]=7423302728",
+      "request_body": "user[email]=hi%40hi.hey&user[phone]=9335122558",
       "request_headers": {
-        "Access-Token": "MaINlYNxTcXQuDY1Pc_pmA",
+        "Access-Token": "Fu-GKBwB1YfQ6J1bMEiTiQ",
         "Token-Type": "Bearer",
-        "Client": "WEjrHp8fpboPCyzjxUMTmQ",
-        "Expiry": "1475019857",
-        "Uid": "108marcelle.kozey@robel.co",
+        "Client": "w_kmAk9TS7qw7RE89iWI-g",
+        "Expiry": "1475151427",
+        "Uid": "107raina@hegmannnikolaus.info",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -30,26 +30,26 @@
       "request_content_type": "application/x-www-form-urlencoded",
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\n  \"id\": 1,\n  \"first_name\": \"Berta\",\n  \"last_name\": \"Marks\",\n  \"email\": \"hi@hi.hey\",\n  \"phone\": \"7423302728\",\n  \"is_verified\": false,\n  \"provider\": \"email\",\n  \"uid\": \"hi@hi.hey\",\n  \"created_at\": \"2016-09-13T23:44:17.393Z\",\n  \"abilities\": {\n    \"orders\": 0,\n    \"products\": 0,\n    \"users\": 0,\n    \"categories\": 1,\n    \"coupons\": 0,\n    \"settings\": 0,\n    \"cities\": 0,\n    \"delivery_boy\": 0\n  },\n  \"addresses\": [\n\n  ],\n  \"orders\": [\n\n  ]\n}",
+      "response_body": "{\n  \"id\": 1,\n  \"first_name\": \"Kathryne\",\n  \"last_name\": \"Price\",\n  \"email\": \"hi@hi.hey\",\n  \"phone\": \"9335122558\",\n  \"is_verified\": false,\n  \"provider\": \"email\",\n  \"uid\": \"hi@hi.hey\",\n  \"created_at\": \"2016-09-15T12:17:07.596Z\",\n  \"abilities\": {\n    \"orders\": 0,\n    \"products\": 0,\n    \"users\": 0,\n    \"categories\": 1,\n    \"coupons\": 0,\n    \"settings\": 0,\n    \"cities\": 0,\n    \"delivery_boy\": 0\n  },\n  \"addresses\": [\n\n  ],\n  \"orders\": [\n\n  ]\n}",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
-        "access-token": "MaINlYNxTcXQuDY1Pc_pmA",
+        "access-token": "Fu-GKBwB1YfQ6J1bMEiTiQ",
         "token-type": "Bearer",
-        "client": "WEjrHp8fpboPCyzjxUMTmQ",
-        "expiry": "1475019857",
-        "uid": "108marcelle.kozey@robel.co",
+        "client": "w_kmAk9TS7qw7RE89iWI-g",
+        "expiry": "1475151427",
+        "uid": "107raina@hegmannnikolaus.info",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"173c3f13070c7fdfbae38c836af16c67\"",
+        "ETag": "W/\"631d38246202fbf2defffa0da9ae0c1e\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=a3prQnU0UFR2Y2RxZ21uOXUwOXd4bE5aeTBpOE92WWNmWEZ3aUZSRmZwck5oY3hDNmt6K0hnbE5WaCtwUWdxdjh3VWh0VW15Y1NpU2RsT1o4SkRqR2NaY2F6d3BqdURRem5YSnFDYW5ybkx3QU05YkI5emU1cjk2RzNHeGEvckhVSHZDWDFSRU9GRGNiMzdPcE44Y3lDbG50bzBXakZ1TGdsRGVQOTJMNElBTjJaUGY1TGl4alBlUS9Hc2dFTEdBLS1IbHBxNE93aldYQVV5d3VFbUhhVDJRPT0%3D--7fc78272c809d3f620cfb83c3cb547536163799d; path=/; HttpOnly",
-        "X-Request-Id": "7d3bb979-ec7b-47ba-9cc2-d22e13d09653",
-        "X-Runtime": "0.085772",
-        "Content-Length": "330"
+        "Set-Cookie": "_session_id=U0NSSDdxRlI1dkR1OHFHVE4ybXpKUVVWZE1sQkZqbHZxejJ6SnUyN0ZvMytrVXMrUysvQ0hLb3hUTDhPQ0RHdXZvbUlhOWphZzJOdGUrYzNuTVBMZ0tpMGdlNlNKUWVlbHVNRWFVVE9vYkRCK1BMTGp3Q3dVUHpIQ2VkQmxYRnpuVGJzZ3IxSlNPbzc3SGRIV2RTWG12RGNBc1pUbmVkOWVTaDk0VHlTZkV6bUYyZnlRVzUxVEo3OXhzODJ4L1pSLS1YTjJvOVprZ21ZSTlleGFkTzJjN1ZnPT0%3D--0ab7ea94d78d624bdcf02b0590c0337d67098936; path=/; HttpOnly",
+        "X-Request-Id": "fb962da6-dd1e-44be-9e2e-eb953e1321b0",
+        "X-Runtime": "0.087056",
+        "Content-Length": "333"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/admin/users/1\" -d 'user[email]=hi%40hi.hey&user[phone]=7423302728' -X PUT \\\n\t-H \"Access-Token: MaINlYNxTcXQuDY1Pc_pmA\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: WEjrHp8fpboPCyzjxUMTmQ\" \\\n\t-H \"Expiry: 1475019857\" \\\n\t-H \"Uid: 108marcelle.kozey@robel.co\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/admin/users/1\" -d 'user[email]=hi%40hi.hey&user[phone]=9335122558' -X PUT \\\n\t-H \"Access-Token: Fu-GKBwB1YfQ6J1bMEiTiQ\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: w_kmAk9TS7qw7RE89iWI-g\" \\\n\t-H \"Expiry: 1475151427\" \\\n\t-H \"Uid: 107raina@hegmannnikolaus.info\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

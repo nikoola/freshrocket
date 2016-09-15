@@ -16,11 +16,11 @@
       "request_path": "/client/addresses/1",
       "request_body": null,
       "request_headers": {
-        "Access-Token": "5FHRESSjdLEIoaXJD-uNcg",
+        "Access-Token": "JCUzU9-MnPXOdbXLFVUoBA",
         "Token-Type": "Bearer",
-        "Client": "5AcVcC2Di5rcL5yKQTQbGw",
-        "Expiry": "1475019925",
-        "Uid": "126sister.gleason@stantonlesch.com",
+        "Client": "siGMx4wWrOynQz_1jTusKA",
+        "Expiry": "1475151508",
+        "Uid": "125esteban@ruel.co",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -35,20 +35,20 @@
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
-        "access-token": "5FHRESSjdLEIoaXJD-uNcg",
+        "access-token": "JCUzU9-MnPXOdbXLFVUoBA",
         "token-type": "Bearer",
-        "client": "5AcVcC2Di5rcL5yKQTQbGw",
-        "expiry": "1475019925",
-        "uid": "126sister.gleason@stantonlesch.com",
+        "client": "siGMx4wWrOynQz_1jTusKA",
+        "expiry": "1475151508",
+        "uid": "125esteban@ruel.co",
         "Content-Type": "text/html",
         "Cache-Control": "no-cache",
-        "Set-Cookie": "_session_id=ZHFLZmdjUUJyNiszcFVTbEJjZUptcnY1UzFnVHovMk1YNFdjSm9JUk8yUjJrUUlLaVczUzZYTVgwRVk4Y2F1TjVZbm5laTdNSFVKUHBaRjFCTTVnSWV0V0hzYndTYTZ3RmtjOCt3V2ZkWkNMZkVuT05ON1VXMFEyUFRiWEF2TllKZlZ1V3hPYzFpcVRZSnp3V2FKM3NUbm1QcDNYNlIyREV2M0xzMFVYMndGTnc1Uk5vdFZmR3VFTmErTHlRS2ZRLS0vUUF4aG9GYklKQXdiSzF3RXA4dFJ3PT0%3D--890c2f2aa37a060cfcc7316021d01a16543d97f4; path=/; HttpOnly",
-        "X-Request-Id": "5d4223b4-4fc0-44ca-9554-6d7a903f2a90",
-        "X-Runtime": "0.071479",
+        "Set-Cookie": "_session_id=SzN4Qkc0V2JUcmRIeUF3WVphdmFiV0ExdnBUdnVsREE5czJyNEdSajB6THNCTy9BUzY0eUxBbjNpSG5uek9uMW15OFhFQjRtMGJNeWxoTnhvZ1ovbjFUQnAwZ0ovbDYwZGlic1NTdzkyUlowYU83R2N3UWFrNnFNMG03NUF4UWJnTm1aZEhIZGlIMkZpSW85TE5EL25uMUJJM2RBdE53eW8zWFEzL2duVU5PTC9DeVhDWHAvbVdONkYwbW8zZWlVLS01OVV3bWNoWUJFK05MaTJZN3RMNE9nPT0%3D--2583ad69c3c383a1bd8815e43def96901f63735c; path=/; HttpOnly",
+        "X-Request-Id": "9668d6f8-bec7-4214-97b0-24207641bf56",
+        "X-Runtime": "0.072889",
         "Content-Length": "0"
       },
       "response_content_type": "text/html",
-      "curl": "curl \"http://localhost:3000/client/addresses/1\" -d '' -X DELETE \\\n\t-H \"Access-Token: 5FHRESSjdLEIoaXJD-uNcg\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: 5AcVcC2Di5rcL5yKQTQbGw\" \\\n\t-H \"Expiry: 1475019925\" \\\n\t-H \"Uid: 126sister.gleason@stantonlesch.com\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/client/addresses/1\" -d '' -X DELETE \\\n\t-H \"Access-Token: JCUzU9-MnPXOdbXLFVUoBA\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: siGMx4wWrOynQz_1jTusKA\" \\\n\t-H \"Expiry: 1475151508\" \\\n\t-H \"Uid: 125esteban@ruel.co\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

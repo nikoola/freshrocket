@@ -16,11 +16,11 @@
       "request_path": "/admin/addresses/1",
       "request_body": null,
       "request_headers": {
-        "Access-Token": "6HW3NBHIj97Rz9VOBRU4hg",
+        "Access-Token": "L01x5wH3FLBtQjOHPZsbhw",
         "Token-Type": "Bearer",
-        "Client": "DKBR-ZoYWUie1Tk3cQ5_hA",
-        "Expiry": "1475019673",
-        "Uid": "4evelyn@runolfsdottir.io",
+        "Client": "Ogezt0rsl1xnMtKVQNFi3Q",
+        "Expiry": "1475151191",
+        "Uid": "4jeffery_lynch@simonisbruen.com",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -35,20 +35,20 @@
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
-        "access-token": "6HW3NBHIj97Rz9VOBRU4hg",
+        "access-token": "L01x5wH3FLBtQjOHPZsbhw",
         "token-type": "Bearer",
-        "client": "DKBR-ZoYWUie1Tk3cQ5_hA",
-        "expiry": "1475019673",
-        "uid": "4evelyn@runolfsdottir.io",
+        "client": "Ogezt0rsl1xnMtKVQNFi3Q",
+        "expiry": "1475151191",
+        "uid": "4jeffery_lynch@simonisbruen.com",
         "Content-Type": "text/html",
         "Cache-Control": "no-cache",
-        "Set-Cookie": "_session_id=OVJVODBvaHdod0d0WVllTjRVRmtFRXJJcEJZejN6N1NrREx5cVEyTE1KSU0zaGpPbGRrVTRvekUyUjloYU93NUYzU2tQcnhyNDdvbERyWW5NbTA1VDV1TkQzMkZGemROSFJaL3k3Umo4cVZtdXRSbURBZVJhdjFJc1JVWTlHY0RpU2FsQ25CTmptTzVjUDlGSzJFaHg5anEyT1JDNDZyV2hMRUYxT0JWOG5JcldEa3RpR2RyR2s5a29iaFVjQ3A4LS1qUFZyaGtNcEJsWXVtaU1weVZvT3JBPT0%3D--8337f337ded7e1e9ad16bdab01a688ee35a83ef0; path=/; HttpOnly",
-        "X-Request-Id": "898d422e-13b1-4e49-8a20-fa7c8c63be5f",
-        "X-Runtime": "0.137310",
+        "Set-Cookie": "_session_id=RVZUQmNxUkp0cnY3TVZhQmhjT3RLSGIvOHJaQSsvWnZ0TkxxT1pvSENYM1Y4UFhQZW1JODg3NWVwVWZnS1I5SzZ5UXdwcVVwNVg2aFdZVmJoMU5qVVA2NzFKQkRBblZYclVkc2U2Zm5kYkNMMVdVSUNpM3RMZXMzYkVSRlRVZmJ4UWdCblJ3dFpra0FMTEJaS1c4Tm1xM3ZtTHEzMjhxUHJ5Q3NUYnN6SnJqNnREVncreXZzcXZjVm8rZ21ndkdrLS1iMzhFTHkzMWVTamg2RCtQL1hwNHJnPT0%3D--0cd8e7bd8b811c610eccf3b1ace3bc54ae0d51a6; path=/; HttpOnly",
+        "X-Request-Id": "79b70e51-864e-472f-8365-6078813a4548",
+        "X-Runtime": "0.097798",
         "Content-Length": "0"
       },
       "response_content_type": "text/html",
-      "curl": "curl \"http://localhost:3000/admin/addresses/1\" -d '' -X DELETE \\\n\t-H \"Access-Token: 6HW3NBHIj97Rz9VOBRU4hg\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: DKBR-ZoYWUie1Tk3cQ5_hA\" \\\n\t-H \"Expiry: 1475019673\" \\\n\t-H \"Uid: 4evelyn@runolfsdottir.io\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/admin/addresses/1\" -d '' -X DELETE \\\n\t-H \"Access-Token: L01x5wH3FLBtQjOHPZsbhw\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: Ogezt0rsl1xnMtKVQNFi3Q\" \\\n\t-H \"Expiry: 1475151191\" \\\n\t-H \"Uid: 4jeffery_lynch@simonisbruen.com\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

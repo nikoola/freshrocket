@@ -58,13 +58,13 @@
     {
       "request_method": "POST",
       "request_path": "/admin/users",
-      "request_body": "user[email]=102anna%40kaulke.org&user[password]=secrety_bickety&user[password_confirmation]=secrety_bickety&user[first_name]=Elmo&user[last_name]=Hahn&user[phone]=9444208085&user[is_verified]=true&user[addresses_attributes][][id]&user[addresses_attributes][][user_id]=1&user[addresses_attributes][][city_id]=3&user[addresses_attributes][][area_id]=1&user[addresses_attributes][][street_and_house]=56%2C+T+M+N+Street%2C+Muthukadai%2C+Navalpur%2C+Ranipet%2C+Tamil+Nadu+632402%2C+India&user[addresses_attributes][][door_number]=5&user[addresses_attributes][][coordinate]&user[addresses_attributes][][zip_code]&user[addresses_attributes][][lat]=12.9322497&user[addresses_attributes][][lng]=79.3327944&user[addresses_attributes][][active]=true",
+      "request_body": "user[email]=101estevan.morar%40gulgowskivolkman.net&user[password]=secrety_bickety&user[password_confirmation]=secrety_bickety&user[first_name]=Benny&user[last_name]=Weissnat&user[phone]=5502440001&user[is_verified]=true&user[addresses_attributes][][id]&user[addresses_attributes][][user_id]=1&user[addresses_attributes][][city_id]=3&user[addresses_attributes][][area_id]=1&user[addresses_attributes][][street_and_house]=Tamil+Nadu+629001%2C+India&user[addresses_attributes][][door_number]=5&user[addresses_attributes][][coordinate]&user[addresses_attributes][][zip_code]&user[addresses_attributes][][lat]=8.1926514&user[addresses_attributes][][lng]=77.4300357&user[addresses_attributes][][active]=true",
       "request_headers": {
-        "Access-Token": "pS-Efh8MT1RvZQ9NnvXCKQ",
+        "Access-Token": "L7-J90mp4Yjx1iYmyd8XPQ",
         "Token-Type": "Bearer",
-        "Client": "zKSjevGCbhKiaI3eqJirHQ",
-        "Expiry": "1475019857",
-        "Uid": "103lia.casper@gottlieb.name",
+        "Client": "mYHPiDCrxCwbNl-sZsKymg",
+        "Expiry": "1475151427",
+        "Uid": "102katlynn_thiel@romaguerabuckridge.org",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -74,27 +74,27 @@
       "request_content_type": "application/x-www-form-urlencoded",
       "response_status": 201,
       "response_status_text": "Created",
-      "response_body": "{\n  \"id\": 3,\n  \"first_name\": \"Elmo\",\n  \"last_name\": \"Hahn\",\n  \"email\": \"102anna@kaulke.org\",\n  \"phone\": \"9444208085\",\n  \"is_verified\": true,\n  \"provider\": \"email\",\n  \"uid\": \"102anna@kaulke.org\",\n  \"created_at\": \"2016-09-13T23:44:17.142Z\",\n  \"abilities\": {\n    \"orders\": 0,\n    \"products\": 0,\n    \"users\": 0,\n    \"categories\": 0,\n    \"coupons\": 0,\n    \"settings\": 0,\n    \"cities\": 0,\n    \"delivery_boy\": 0\n  },\n  \"addresses\": [\n    {\n      \"id\": 1,\n      \"city_id\": 3,\n      \"user_id\": 3,\n      \"street_and_house\": \"56, T M N Street, Muthukadai, Navalpur, Ranipet, Tamil Nadu 632402, India\",\n      \"door_number\": \"5\",\n      \"active\": true,\n      \"city_name\": \"Ranipet\"\n    }\n  ],\n  \"orders\": [\n\n  ]\n}",
+      "response_body": "{\n  \"id\": 3,\n  \"first_name\": \"Benny\",\n  \"last_name\": \"Weissnat\",\n  \"email\": \"101estevan.morar@gulgowskivolkman.net\",\n  \"phone\": \"5502440001\",\n  \"is_verified\": true,\n  \"provider\": \"email\",\n  \"uid\": \"101estevan.morar@gulgowskivolkman.net\",\n  \"created_at\": \"2016-09-15T12:17:07.386Z\",\n  \"abilities\": {\n    \"orders\": 0,\n    \"products\": 0,\n    \"users\": 0,\n    \"categories\": 0,\n    \"coupons\": 0,\n    \"settings\": 0,\n    \"cities\": 0,\n    \"delivery_boy\": 0\n  },\n  \"addresses\": [\n    {\n      \"id\": 1,\n      \"city_id\": 3,\n      \"user_id\": 3,\n      \"street_and_house\": \"Tamil Nadu 629001, India\",\n      \"door_number\": \"5\",\n      \"active\": true,\n      \"city_name\": \"Nagercoil\"\n    }\n  ],\n  \"orders\": [\n\n  ]\n}",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
         "Location": "/admin/users/3",
-        "access-token": "pS-Efh8MT1RvZQ9NnvXCKQ",
+        "access-token": "L7-J90mp4Yjx1iYmyd8XPQ",
         "token-type": "Bearer",
-        "client": "zKSjevGCbhKiaI3eqJirHQ",
-        "expiry": "1475019857",
-        "uid": "103lia.casper@gottlieb.name",
+        "client": "mYHPiDCrxCwbNl-sZsKymg",
+        "expiry": "1475151427",
+        "uid": "102katlynn_thiel@romaguerabuckridge.org",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"ccdabd5428080769891e324dc266ae03\"",
+        "ETag": "W/\"1c0f1d7e98c2c2873a586f611f4fde60\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=YWd3cllLQWhSQmRxeGd1VGFwUXZWWWY3SFBiYkxvZmc1SnVudml5aFhXL0VDY2tFUUt0alRZb1hyYWZ0MFZXSkNNL2tYVEE4Y1pzSUxiN2dzTlZPdzU1YmRzd0Y2eGhXSTE0UmpUclZiN2lmTG9MdWZUcmFFTDhYOWVoVm9CUm5vNVJua3VYNzhLcnNlenNJQmpwSTkyQldlZHY4TGE2SnZoNHpFMTVQT1JYTHU2TWppR1FmN1U1a0NKazh6T0o1LS1kSTBEZE1UbDZzMmowdHZ0cXJ5dkVBPT0%3D--a8a5560b276251985a90081f00991f736f4b3b05; path=/; HttpOnly",
-        "X-Request-Id": "47a50cce-da90-4ce6-9378-1c6447296af0",
-        "X-Runtime": "0.102558",
-        "Content-Length": "526"
+        "Set-Cookie": "_session_id=N01weDM2YUNzS3ZqK0RYZ2pyelVaTS9maGxqTzdhOER1Mi9RUG9qMXhrSmJOTE1ZVis3ODdUMU9TdlVMQWFkWHRHTXpYbFFkNDRKcWtKWnQwTVM4QjlXYnJoakE2TkgvMXdyRlhBUDdJMGNqNkpNS1VCSmpla1o5Tlg5U2lZV1dHZkpnWVFTMWQzb3ZYcWdTZG8vTWRpeU5yelBZT0ZPWFBHNnhIL3NYRWtzcWZsYVMwVXArbWpaQTFZU2lhTmNZLS1EUXdVaHNqUmhjQ2owL3VsOE5GT2dRPT0%3D--6f8cf55b75ea2f256b72ff7225c9031a2ea4a2c4; path=/; HttpOnly",
+        "X-Request-Id": "acc30664-24a9-4b48-b882-5627325687d1",
+        "X-Runtime": "0.091138",
+        "Content-Length": "522"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/admin/users\" -d 'user[email]=102anna%40kaulke.org&user[password]=secrety_bickety&user[password_confirmation]=secrety_bickety&user[first_name]=Elmo&user[last_name]=Hahn&user[phone]=9444208085&user[is_verified]=true&user[addresses_attributes][][id]&user[addresses_attributes][][user_id]=1&user[addresses_attributes][][city_id]=3&user[addresses_attributes][][area_id]=1&user[addresses_attributes][][street_and_house]=56%2C+T+M+N+Street%2C+Muthukadai%2C+Navalpur%2C+Ranipet%2C+Tamil+Nadu+632402%2C+India&user[addresses_attributes][][door_number]=5&user[addresses_attributes][][coordinate]&user[addresses_attributes][][zip_code]&user[addresses_attributes][][lat]=12.9322497&user[addresses_attributes][][lng]=79.3327944&user[addresses_attributes][][active]=true' -X POST \\\n\t-H \"Access-Token: pS-Efh8MT1RvZQ9NnvXCKQ\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: zKSjevGCbhKiaI3eqJirHQ\" \\\n\t-H \"Expiry: 1475019857\" \\\n\t-H \"Uid: 103lia.casper@gottlieb.name\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/admin/users\" -d 'user[email]=101estevan.morar%40gulgowskivolkman.net&user[password]=secrety_bickety&user[password_confirmation]=secrety_bickety&user[first_name]=Benny&user[last_name]=Weissnat&user[phone]=5502440001&user[is_verified]=true&user[addresses_attributes][][id]&user[addresses_attributes][][user_id]=1&user[addresses_attributes][][city_id]=3&user[addresses_attributes][][area_id]=1&user[addresses_attributes][][street_and_house]=Tamil+Nadu+629001%2C+India&user[addresses_attributes][][door_number]=5&user[addresses_attributes][][coordinate]&user[addresses_attributes][][zip_code]&user[addresses_attributes][][lat]=8.1926514&user[addresses_attributes][][lng]=77.4300357&user[addresses_attributes][][active]=true' -X POST \\\n\t-H \"Access-Token: L7-J90mp4Yjx1iYmyd8XPQ\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: mYHPiDCrxCwbNl-sZsKymg\" \\\n\t-H \"Expiry: 1475151427\" \\\n\t-H \"Uid: 102katlynn_thiel@romaguerabuckridge.org\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

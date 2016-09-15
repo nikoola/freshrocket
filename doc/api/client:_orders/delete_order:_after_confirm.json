@@ -16,11 +16,11 @@
       "request_path": "/client/orders/3",
       "request_body": null,
       "request_headers": {
-        "Access-Token": "ecoj2v2uzpjjFjENo1OOWQ",
+        "Access-Token": "wXgdGuZ_aaSgXpQ1CrykiQ",
         "Token-Type": "Bearer",
-        "Client": "IjpPtuWzAxh6t3n0IJaFkA",
-        "Expiry": "1475019992",
-        "Uid": "150lyric.wehner@hermistoncorwin.biz",
+        "Client": "y8URKbnHKed-sY328-LDzA",
+        "Expiry": "1475151584",
+        "Uid": "149lyla_graham@cummeratasauer.net",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -35,20 +35,20 @@
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
-        "access-token": "ecoj2v2uzpjjFjENo1OOWQ",
+        "access-token": "wXgdGuZ_aaSgXpQ1CrykiQ",
         "token-type": "Bearer",
-        "client": "IjpPtuWzAxh6t3n0IJaFkA",
-        "expiry": "1475019992",
-        "uid": "150lyric.wehner@hermistoncorwin.biz",
+        "client": "y8URKbnHKed-sY328-LDzA",
+        "expiry": "1475151584",
+        "uid": "149lyla_graham@cummeratasauer.net",
         "Content-Type": "application/json; charset=utf-8",
         "Cache-Control": "no-cache",
-        "Set-Cookie": "_session_id=dGNDQURQY2Y5SlNybUl0VjFYdkxack1WNWIzc3pHQ0VaQlFZNkwwcHZFeGxwL2lZQ1VlTGdzemRRZEZwYU4zd3R5SkNneFlpVE9DTGp3cmxSelIvN3AxdW1WdldXazJmLzFpQTVXY2ZqMHZLNmFpVlZQdTBYWWk1NkNRK2FLYTBWdTlKSlFSdU5WcDlTbkh2UURham90NGNpSTBDTHhvOWJpWFlweEliRWJ5cEt2VnJDTXIyU2NrRVN5TExLZE1KLS1oUHUwZ3V2OHhBYUQwNVNtZ1VUYmp3PT0%3D--6bd7b341c21370bd5671029cec8f8fd532bf7011; path=/; HttpOnly",
-        "X-Request-Id": "d5fa4e68-a6be-45b4-96f9-f7406e385165",
-        "X-Runtime": "0.090821",
+        "Set-Cookie": "_session_id=bHFodThTZEljR3I2L002M3ErZFQ3UGwzd0xyaytQZzVVYmlOa3BBOUNjT1hIeUF4Ymt5d1VDMzJzai9DdGt0MHJXdHk3Q1IyZ1d2YjJYelptS291MUpwZ3VvQ2Fldlh6SjZJcjBDdWtYVU1HVjg1cHFyZmJCK3NHN3l4R0dGQXVNYWFRYmhNZTlTRU9BNlZTWFIzUmgyWWVRa0ExTXpXMVZ6UDNncXo1ckF6NE5MZ2lwVVJuODRzYWxscUdFOVJSLS1BVFhOQ0lTNVZJSnhINEU1QVg1Zk9nPT0%3D--4fba3f56c29fd7b6ba70d47cdf5345e154c1008f; path=/; HttpOnly",
+        "X-Request-Id": "4a3fd6a7-f854-414c-a754-69cce5fbc8f3",
+        "X-Runtime": "0.071226",
         "Content-Length": "83"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/client/orders/3\" -d '' -X DELETE \\\n\t-H \"Access-Token: ecoj2v2uzpjjFjENo1OOWQ\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: IjpPtuWzAxh6t3n0IJaFkA\" \\\n\t-H \"Expiry: 1475019992\" \\\n\t-H \"Uid: 150lyric.wehner@hermistoncorwin.biz\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/client/orders/3\" -d '' -X DELETE \\\n\t-H \"Access-Token: wXgdGuZ_aaSgXpQ1CrykiQ\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: y8URKbnHKed-sY328-LDzA\" \\\n\t-H \"Expiry: 1475151584\" \\\n\t-H \"Uid: 149lyla_graham@cummeratasauer.net\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

@@ -1,0 +1,58 @@
+{
+  "resource": "deliver: orders",
+  "http_method": "PUT",
+  "route": "deliver/orders/:id",
+  "description": "update order",
+  "explanation": null,
+  "parameters": [
+    {
+      "name": "is_paid",
+      "description": "true/false"
+    }
+  ],
+  "response_fields": [
+
+  ],
+  "requests": [
+    {
+      "request_method": "PUT",
+      "request_path": "deliver/orders/3",
+      "request_body": "order[is_paid]=true",
+      "request_headers": {
+        "Access-Token": "OVuQwGafpAEcZcl8wMnw2A",
+        "Token-Type": "Bearer",
+        "Client": "UNyr-R1Ydb9G_7yEmLMbsw",
+        "Expiry": "1475151693",
+        "Uid": "191joy.boyle@konopelski.name",
+        "Host": "example.org",
+        "Content-Type": "application/x-www-form-urlencoded",
+        "Cookie": ""
+      },
+      "request_query_parameters": {
+      },
+      "request_content_type": "application/x-www-form-urlencoded",
+      "response_status": 200,
+      "response_status_text": "OK",
+      "response_body": "{\n  \"id\": 3,\n  \"user_id\": 6,\n  \"status\": \"unconfirmed\",\n  \"created_at\": \"2016-09-15T12:21:33.069Z\",\n  \"confirmed_at\": null,\n  \"approved_at\": null,\n  \"dispacthed_at\": null,\n  \"delivered_at\": null,\n  \"canceled_at\": null,\n  \"pure_product_price\": \"27.0\",\n  \"tax\": \"1.35\",\n  \"delivery_charge\": \"200.0\",\n  \"total_price\": \"228.35\",\n  \"coupon_code\": null,\n  \"delivery_boy_id\": 1,\n  \"delivery_boy_phone\": \"2614037678\",\n  \"wanted_time\": null,\n  \"wanted_date\": null,\n  \"payment_type\": \"cash\",\n  \"is_paid\": true,\n  \"feedback\": null,\n  \"comment\": null,\n  \"source_type\": null,\n  \"admin_comment\": null,\n  \"line_items\": [\n    {\n      \"id\": 7,\n      \"order_id\": 3,\n      \"amount\": 3,\n      \"fixed_price\": \"9.0\",\n      \"product_id\": 7\n    },\n    {\n      \"id\": 8,\n      \"order_id\": 3,\n      \"amount\": 3,\n      \"fixed_price\": \"9.0\",\n      \"product_id\": 8\n    },\n    {\n      \"id\": 9,\n      \"order_id\": 3,\n      \"amount\": 3,\n      \"fixed_price\": \"9.0\",\n      \"product_id\": 9\n    }\n  ],\n  \"address\": {\n    \"id\": 3,\n    \"city_id\": 13,\n    \"user_id\": 7,\n    \"street_and_house\": \"Haryana 123401, India\",\n    \"door_number\": \"5\",\n    \"active\": true,\n    \"city_name\": \"Malappuram\"\n  },\n  \"delivery_boy\": {\n    \"id\": 1,\n    \"user_id\": 5,\n    \"current_order_id\": null,\n    \"status\": \"unavailable\"\n  }\n}",
+      "response_headers": {
+        "X-Frame-Options": "SAMEORIGIN",
+        "X-XSS-Protection": "1; mode=block",
+        "X-Content-Type-Options": "nosniff",
+        "access-token": "OVuQwGafpAEcZcl8wMnw2A",
+        "token-type": "Bearer",
+        "client": "UNyr-R1Ydb9G_7yEmLMbsw",
+        "expiry": "1475151693",
+        "uid": "191joy.boyle@konopelski.name",
+        "Content-Type": "application/json; charset=utf-8",
+        "ETag": "W/\"69cb483670766ed25538314653839d43\"",
+        "Cache-Control": "max-age=0, private, must-revalidate",
+        "Set-Cookie": "_session_id=K29uTUJCUVhDV3VVb1pQYUk4UEZleVFIUStxVzNaSUZ2WXlCMHhGNEs4Vm1jRDhsK1A5U0NPVlA5SE15TmUxRTFENU02WklJT3F5RjVRcS9FQ2pHbVh5VmxVQ29nUWx3NEd0NnljSzZQTVRFelpaeENnbnZxcW1ROEJJZU13THdiaXQ2UTdjZU9HZ2FMSUVwZHFlK3M3SXl2c3ZYbGlRWm5aY0lWdFJvWXd6RzlneEQvbXlHWmIvUGI4ajZETm9lLS1yak9TVGErekRTeVQ1MVh6eXVvVmhBPT0%3D--0a2959ab0c67953df13d1ec842ac4c5e33e448a0; path=/; HttpOnly",
+        "X-Request-Id": "82489173-e667-4431-b484-8b2b6a9d487a",
+        "X-Runtime": "0.097598",
+        "Content-Length": "937"
+      },
+      "response_content_type": "application/json; charset=utf-8",
+      "curl": "curl \"http://localhost:3000deliver/orders/3\" -d 'order[is_paid]=true' -X PUT \\\n\t-H \"Access-Token: OVuQwGafpAEcZcl8wMnw2A\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: UNyr-R1Ydb9G_7yEmLMbsw\" \\\n\t-H \"Expiry: 1475151693\" \\\n\t-H \"Uid: 191joy.boyle@konopelski.name\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+    }
+  ]
+}

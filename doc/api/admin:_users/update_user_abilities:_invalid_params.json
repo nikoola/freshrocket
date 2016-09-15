@@ -20,11 +20,11 @@
       "request_path": "/admin/users/1/update_abilities",
       "request_body": "abilities[lalala]=1",
       "request_headers": {
-        "Access-Token": "6WbfK8vb9JKsuOrjwl8tyA",
+        "Access-Token": "VTCsNNWNwkLrzJs_Aqi6cA",
         "Token-Type": "Bearer",
-        "Client": "Xt7mW4wXjt8Len0H7ZAQEw",
-        "Expiry": "1475019858",
-        "Uid": "117gerardo@feil.org",
+        "Client": "gdgzUETEVDKXl2uUcIsPnQ",
+        "Expiry": "1475151428",
+        "Uid": "116isabel.stiedemann@conroyerdman.net",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -39,20 +39,20 @@
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
-        "access-token": "6WbfK8vb9JKsuOrjwl8tyA",
+        "access-token": "VTCsNNWNwkLrzJs_Aqi6cA",
         "token-type": "Bearer",
-        "client": "Xt7mW4wXjt8Len0H7ZAQEw",
-        "expiry": "1475019858",
-        "uid": "117gerardo@feil.org",
+        "client": "gdgzUETEVDKXl2uUcIsPnQ",
+        "expiry": "1475151428",
+        "uid": "116isabel.stiedemann@conroyerdman.net",
         "Content-Type": "application/json; charset=utf-8",
         "Cache-Control": "no-cache",
-        "Set-Cookie": "_session_id=TTl3MittSDg2NTNuRTUvMVhKOGFOV2lqNXZtVk1zYVVCZ0lac25qS2dUWXh0YnJPSFlpSHdud1hmQ0U0SjFQdFFvZkxHdmR1ZUtvQ29yM3VSS25odEFxL2dRWno5Nm9tRXRlTUhkek95SHJYWExaRkl6TEFnNCtVRDlMTGpsY2k0V1pvY2NRUWJ5NHRVV3N2bHdMNStVZkJ0Si9GQ05yNGVJck8wcmZVWEovM1dSVnB3K1h1NkZITkZsL2U0QmJXLS1FeTdDaHJxVnluMmRMV3J6Y1B6YUVBPT0%3D--5949a87ba215f837b56e84c651c9387d6a9ae025; path=/; HttpOnly",
-        "X-Request-Id": "5bf99317-96f9-4544-8f11-45a15302fba2",
-        "X-Runtime": "0.082641",
+        "Set-Cookie": "_session_id=MW1hZWlxMlYvalI4U0NNa3krNmdmN3pFSFM0d3k3cEtJR2Y2UHUyeGpUcWNpc2Rjc3RTbGxVVFplcGVVQitCTTlObU12cFdxM0FJYlNKT2gvUXY5aFhFcWtTVnVjZUtnZnBQLzBTeTVJUExKVG5zQm1PR3ZzRnhjZ3ZWeHdxMmxOQ3k4WGdsQWF5OVNPdG94ZHBmcTlBUkNoQzZQam9pOUVuNGJLMUx2bjg4bEo2SVFZQ1NmMU1FYjltdmxqWlpILS1HLzM2N3QxZklPVUtZRjdqR0xhaW5nPT0%3D--c49fedd392db7197a5723b8d7fccbd660a9b1150; path=/; HttpOnly",
+        "X-Request-Id": "53f4f4f5-5b48-4d1f-bac1-15b15c9804ad",
+        "X-Runtime": "0.077783",
         "Content-Length": "47"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/admin/users/1/update_abilities\" -d 'abilities[lalala]=1' -X PUT \\\n\t-H \"Access-Token: 6WbfK8vb9JKsuOrjwl8tyA\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: Xt7mW4wXjt8Len0H7ZAQEw\" \\\n\t-H \"Expiry: 1475019858\" \\\n\t-H \"Uid: 117gerardo@feil.org\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/admin/users/1/update_abilities\" -d 'abilities[lalala]=1' -X PUT \\\n\t-H \"Access-Token: VTCsNNWNwkLrzJs_Aqi6cA\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: gdgzUETEVDKXl2uUcIsPnQ\" \\\n\t-H \"Expiry: 1475151428\" \\\n\t-H \"Uid: 116isabel.stiedemann@conroyerdman.net\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

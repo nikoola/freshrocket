@@ -1,0 +1,59 @@
+{
+  "resource": "admin: orders",
+  "http_method": "PUT",
+  "route": "/admin/orders/:id/update_status",
+  "description": "approve confirmed order",
+  "explanation": null,
+  "parameters": [
+    {
+      "scope": "order",
+      "required": true,
+      "name": "action",
+      "description": ":approve, :dispatch, :deliver, :cancel"
+    }
+  ],
+  "response_fields": [
+
+  ],
+  "requests": [
+    {
+      "request_method": "PUT",
+      "request_path": "/admin/orders/1/update_status",
+      "request_body": "order[action]=approve",
+      "request_headers": {
+        "Access-Token": "foKX9slzvitK4dnh5A2baw",
+        "Token-Type": "Bearer",
+        "Client": "WN7r-aRb-2Zs9BMsK_n-uQ",
+        "Expiry": "1475151350",
+        "Uid": "58andy_okon@schaeferfranecki.co",
+        "Host": "example.org",
+        "Content-Type": "application/x-www-form-urlencoded",
+        "Cookie": ""
+      },
+      "request_query_parameters": {
+      },
+      "request_content_type": "application/x-www-form-urlencoded",
+      "response_status": 200,
+      "response_status_text": "OK",
+      "response_body": null,
+      "response_headers": {
+        "X-Frame-Options": "SAMEORIGIN",
+        "X-XSS-Protection": "1; mode=block",
+        "X-Content-Type-Options": "nosniff",
+        "access-token": "foKX9slzvitK4dnh5A2baw",
+        "token-type": "Bearer",
+        "client": "WN7r-aRb-2Zs9BMsK_n-uQ",
+        "expiry": "1475151350",
+        "uid": "58andy_okon@schaeferfranecki.co",
+        "Content-Type": "text/html",
+        "Cache-Control": "no-cache",
+        "Set-Cookie": "_session_id=LzhKeVRDOGlGVnRtVXZDSkJtMTd1eUdPOTkvditlVXJ0L2g1V3I4S2xqeGJETU5QeXppQlV1UkdKWDlZV1k3bVlGRWpkYzRIZmQyNXVRVTd1QlE2SkJZV01tNDREZURSOXNKZjJmbE5IcWZhcTR2anFQdWxoTDVBUUpWOERsQllOM3loNHBMSTBFT0hHSXJQVG9oVFFYM0tBSEdZNGI4cXZwSHRDVjN4Q29GKzRVVFI5bytBNDhkVDljVFZLbEphLS15M25XZ1VjZldjT2d0VDlxYVV4eXZ3PT0%3D--6c1f1d2bca1cc1187951f015d534e1b6fa95707d; path=/; HttpOnly",
+        "X-Request-Id": "4eb621aa-7305-4ad8-9851-11f47edd183b",
+        "X-Runtime": "0.080086",
+        "Content-Length": "0"
+      },
+      "response_content_type": "text/html",
+      "curl": "curl \"http://localhost:3000/admin/orders/1/update_status\" -d 'order[action]=approve' -X PUT \\\n\t-H \"Access-Token: foKX9slzvitK4dnh5A2baw\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: WN7r-aRb-2Zs9BMsK_n-uQ\" \\\n\t-H \"Expiry: 1475151350\" \\\n\t-H \"Uid: 58andy_okon@schaeferfranecki.co\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+    }
+  ]
+}

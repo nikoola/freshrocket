@@ -13,42 +13,42 @@
   "requests": [
     {
       "request_method": "GET",
-      "request_path": "/auth/validate_token?access-token=vPVrQRmbZBuU1BR_YUghKQ&token-type=Bearer&client=hdAQd0CwTgrPwCmhyyrXPg&expiry=1475019925&uid=129stephan.nolan%40leffler.net",
+      "request_path": "/auth/validate_token?access-token=JCYr0kw50hS5nwW2goPDLw&token-type=Bearer&client=37Xx0NjHh6ibVRNygzwp8A&expiry=1475151509&uid=128anabel%40kuhlman.net",
       "request_body": null,
       "request_headers": {
         "Host": "example.org",
         "Cookie": ""
       },
       "request_query_parameters": {
-        "access-token": "vPVrQRmbZBuU1BR_YUghKQ",
+        "access-token": "JCYr0kw50hS5nwW2goPDLw",
         "token-type": "Bearer",
-        "client": "hdAQd0CwTgrPwCmhyyrXPg",
-        "expiry": "1475019925",
-        "uid": "129stephan.nolan@leffler.net"
+        "client": "37Xx0NjHh6ibVRNygzwp8A",
+        "expiry": "1475151509",
+        "uid": "128anabel@kuhlman.net"
       },
       "request_content_type": null,
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\n  \"success\": true,\n  \"data\": {\n    \"id\": 1,\n    \"first_name\": \"Lamont\",\n    \"last_name\": \"Leuschke\",\n    \"email\": \"129stephan.nolan@leffler.net\",\n    \"phone\": \"2882797914\",\n    \"is_verified\": false,\n    \"provider\": \"email\",\n    \"uid\": \"129stephan.nolan@leffler.net\",\n    \"created_at\": \"2016-09-13T23:45:25.577Z\",\n    \"abilities\": {\n      \"orders\": 0,\n      \"products\": 0,\n      \"users\": 0,\n      \"categories\": 0,\n      \"coupons\": 0,\n      \"settings\": 0,\n      \"cities\": 0,\n      \"delivery_boy\": 0\n    },\n    \"addresses\": [\n\n    ],\n    \"orders\": [\n\n    ]\n  }\n}",
+      "response_body": "{\n  \"success\": true,\n  \"data\": {\n    \"id\": 1,\n    \"first_name\": \"Tracey\",\n    \"last_name\": \"Paucek\",\n    \"email\": \"128anabel@kuhlman.net\",\n    \"phone\": \"2435233740\",\n    \"is_verified\": false,\n    \"provider\": \"email\",\n    \"uid\": \"128anabel@kuhlman.net\",\n    \"created_at\": \"2016-09-15T12:18:29.258Z\",\n    \"abilities\": {\n      \"orders\": 0,\n      \"products\": 0,\n      \"users\": 0,\n      \"categories\": 0,\n      \"coupons\": 0,\n      \"settings\": 0,\n      \"cities\": 0,\n      \"delivery_boy\": 0\n    },\n    \"addresses\": [\n\n    ],\n    \"orders\": [\n\n    ]\n  }\n}",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
-        "access-token": "vPVrQRmbZBuU1BR_YUghKQ",
+        "access-token": "JCYr0kw50hS5nwW2goPDLw",
         "token-type": "Bearer",
-        "client": "hdAQd0CwTgrPwCmhyyrXPg",
-        "expiry": "1475019925",
-        "uid": "129stephan.nolan@leffler.net",
+        "client": "37Xx0NjHh6ibVRNygzwp8A",
+        "expiry": "1475151509",
+        "uid": "128anabel@kuhlman.net",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"1531d013daf562ceab335426076f639f\"",
+        "ETag": "W/\"e5a0604bc3cf9dbac0f4c1374ab48870\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=YkRtNDdrcVZKdzZEbXRZdUhOT3VVU200K05sMzUzZ3RJVnRheUxsVlBwTVpIcS9Qbm1QK3ZPK0xtLzdSSVplTk4vQkg3QjVwQnNtb1hiOGNWUVVHMlpjYlBrRzVoUzFreE94Y0xGaVFoZVR2ajZzRHpzOW9sRW1IWVRUeW10T2tZWWsyTEVXdFJ5dktjaDEwTG1rTDRMRkt3aWJWRERSMkJHZGdtQlU2YUQ3RkpyOHl6c3F4aUNJenhDM2tDenFOLS1LTFRRWC9tRW5GbmJsdlRubU9KSkd3PT0%3D--fe8004a024c9f43669df568446a7c56f2a1a24f2; path=/; HttpOnly",
-        "X-Request-Id": "ef7fbdf7-e152-44c5-8273-dba68f1c43f7",
-        "X-Runtime": "0.074788",
-        "Content-Length": "396"
+        "Set-Cookie": "_session_id=cEZGQVdpNlhPS20zNklHV1ovQWxEYlJyUW9ncmZNMlFHL0VsQUwwOWR3K1pDZ3lMajVPV2IzK09PSitiRGlRK0tueTVrUi9Ib094MlVHUFJEN1ZWR3hNMi9VVmJWd2Qwei9lWFRPSVViWmFoUndrSWZ0YTZCTlpVbWZrWjhXYU9LcFlTWUo0SCtYL2R1K2cra0NYRnZjRnplYjNiNy9RandNY2JmSnZlTnl6REEyL2RzSGI5cklwd01jaHp3OG42LS05b0FOdlVldTlZc0hhZWFDa3V4aVpnPT0%3D--964feb3396238fa4553223b81ab064c33dcaeb43; path=/; HttpOnly",
+        "X-Request-Id": "d25bafc7-1a48-4248-95ca-29529300f3cd",
+        "X-Runtime": "0.076964",
+        "Content-Length": "380"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/auth/validate_token?access-token=vPVrQRmbZBuU1BR_YUghKQ&token-type=Bearer&client=hdAQd0CwTgrPwCmhyyrXPg&expiry=1475019925&uid=129stephan.nolan%40leffler.net\" -X GET \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/auth/validate_token?access-token=JCYr0kw50hS5nwW2goPDLw&token-type=Bearer&client=37Xx0NjHh6ibVRNygzwp8A&expiry=1475151509&uid=128anabel%40kuhlman.net\" -X GET \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

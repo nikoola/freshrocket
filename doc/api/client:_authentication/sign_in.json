@@ -23,7 +23,7 @@
     {
       "request_method": "POST",
       "request_path": "/auth/sign_in",
-      "request_body": "email=127henry.hyatt%40parker.co&password=secrety_bickety",
+      "request_body": "email=126keenan_hartmann%40parisian.io&password=secrety_bickety",
       "request_headers": {
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
@@ -34,25 +34,25 @@
       "request_content_type": "application/x-www-form-urlencoded",
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\n  \"data\": {\n    \"id\": 1,\n    \"first_name\": \"Candace\",\n    \"last_name\": \"Becker\",\n    \"email\": \"127henry.hyatt@parker.co\",\n    \"phone\": \"2571943986\",\n    \"is_verified\": false,\n    \"provider\": \"email\",\n    \"uid\": \"127henry.hyatt@parker.co\",\n    \"created_at\": \"2016-09-13T23:45:25.291Z\",\n    \"abilities\": {\n      \"orders\": 0,\n      \"products\": 0,\n      \"users\": 0,\n      \"categories\": 0,\n      \"coupons\": 0,\n      \"settings\": 0,\n      \"cities\": 0,\n      \"delivery_boy\": 0\n    },\n    \"addresses\": [\n\n    ],\n    \"orders\": [\n\n    ]\n  }\n}",
+      "response_body": "{\n  \"data\": {\n    \"id\": 1,\n    \"first_name\": \"Anne\",\n    \"last_name\": \"Rosenbaum\",\n    \"email\": \"126keenan_hartmann@parisian.io\",\n    \"phone\": \"5677616935\",\n    \"is_verified\": false,\n    \"provider\": \"email\",\n    \"uid\": \"126keenan_hartmann@parisian.io\",\n    \"created_at\": \"2016-09-15T12:18:28.967Z\",\n    \"abilities\": {\n      \"orders\": 0,\n      \"products\": 0,\n      \"users\": 0,\n      \"categories\": 0,\n      \"coupons\": 0,\n      \"settings\": 0,\n      \"cities\": 0,\n      \"delivery_boy\": 0\n    },\n    \"addresses\": [\n\n    ],\n    \"orders\": [\n\n    ]\n  }\n}",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
-        "access-token": "ghkSY5p-E_cXFsARt1MUYA",
+        "access-token": "Gu2Neu1fnPd9Lomjv8RZXQ",
         "token-type": "Bearer",
-        "client": "6LTCjzJF7G_Xj91E3OwhDg",
-        "expiry": "1475019925",
-        "uid": "127henry.hyatt@parker.co",
+        "client": "e0knEEL4h6JpKXNxiKqsuA",
+        "expiry": "1475151509",
+        "uid": "126keenan_hartmann@parisian.io",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"c0c697bb6ec1fa53ab09195cf3ad1666\"",
+        "ETag": "W/\"07e2da854541c4c11d852904213e6d16\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "X-Request-Id": "7a8e8a0b-1daf-4d52-8893-27b1dd527b4f",
-        "X-Runtime": "0.102355",
-        "Content-Length": "372"
+        "X-Request-Id": "1e7077e4-4aa5-4ff2-b7e7-f40648d5fbd2",
+        "X-Runtime": "0.105125",
+        "Content-Length": "384"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/auth/sign_in\" -d 'email=127henry.hyatt%40parker.co&password=secrety_bickety' -X POST \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/auth/sign_in\" -d 'email=126keenan_hartmann%40parisian.io&password=secrety_bickety' -X POST \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

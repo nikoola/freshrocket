@@ -18,6 +18,9 @@ class Address < ActiveRecord::Base
 	def destroy_or_disable
 		self.orders.any? ? disable : destroy
 	end
+	def self.get_address_by_city_id(city_id)
+		self.where(city_id: city_id).first
+	end
 	private
 		def disable
 			update active: false

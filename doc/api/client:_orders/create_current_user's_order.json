@@ -67,13 +67,13 @@
     {
       "request_method": "POST",
       "request_path": "client/orders",
-      "request_body": "order[address_id]=4&order[line_items_attributes][][product_id]=10&order[line_items_attributes][][amount]=1000&order[delivery_attributes][wanted_date]=2016-09-14+01%3A46%3A09+%2B0200",
+      "request_body": "order[address_id]=4&order[line_items_attributes][][product_id]=10&order[line_items_attributes][][amount]=1000&order[delivery_attributes][wanted_date]=2016-09-15+14%3A19%3A17+%2B0200",
       "request_headers": {
-        "Access-Token": "KPd-hGGyqSMIJ6ag6J9B6Q",
+        "Access-Token": "AKBxg_rgMMl5QIrob4dGvw",
         "Token-Type": "Bearer",
-        "Client": "Hg55lEgLahnvXNU3EZbs7A",
-        "Expiry": "1475019969",
-        "Uid": "141jeromy_kovacek@smith.name",
+        "Client": "uaNNLvaFbRrUL95v0R975w",
+        "Expiry": "1475151557",
+        "Uid": "140loraine_morar@bergesmith.org",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -83,27 +83,27 @@
       "request_content_type": "application/x-www-form-urlencoded",
       "response_status": 201,
       "response_status_text": "Created",
-      "response_body": "{\n  \"id\": 4,\n  \"user_id\": 5,\n  \"status\": \"unconfirmed\",\n  \"created_at\": \"2016-09-13T23:46:09.465Z\",\n  \"confirmed_at\": null,\n  \"approved_at\": null,\n  \"dispacthed_at\": null,\n  \"delivered_at\": null,\n  \"canceled_at\": null,\n  \"pure_product_price\": \"3000.0\",\n  \"tax\": \"150.0\",\n  \"delivery_charge\": \"0.0\",\n  \"total_price\": \"3150.0\",\n  \"coupon_code\": null,\n  \"delivery_boy_id\": null,\n  \"delivery_boy_phone\": null,\n  \"wanted_time\": null,\n  \"wanted_date\": null,\n  \"payment_type\": \"cash\",\n  \"is_paid\": false,\n  \"feedback\": null,\n  \"comment\": null,\n  \"source_type\": null,\n  \"admin_comment\": null,\n  \"line_items\": [\n    {\n      \"id\": 10,\n      \"order_id\": 4,\n      \"amount\": 1000,\n      \"fixed_price\": \"3000.0\",\n      \"product_id\": 10\n    }\n  ],\n  \"address\": {\n    \"id\": 4,\n    \"city_id\": 17,\n    \"user_id\": 7,\n    \"street_and_house\": \"Ambedkar Bhavan, Zilla Ct Rd, Edepalli, Srinivas Nagar Colony, Machilipatnam, Andhra Pradesh 521001, India\",\n    \"door_number\": \"5\",\n    \"active\": true,\n    \"city_name\": \"Machilipatnam\"\n  },\n  \"delivery_boy\": null\n}",
+      "response_body": "{\n  \"id\": 4,\n  \"user_id\": 5,\n  \"status\": \"unconfirmed\",\n  \"created_at\": \"2016-09-15T12:19:17.331Z\",\n  \"confirmed_at\": null,\n  \"approved_at\": null,\n  \"dispacthed_at\": null,\n  \"delivered_at\": null,\n  \"canceled_at\": null,\n  \"pure_product_price\": \"3000.0\",\n  \"tax\": \"150.0\",\n  \"delivery_charge\": \"0.0\",\n  \"total_price\": \"3150.0\",\n  \"coupon_code\": null,\n  \"delivery_boy_id\": null,\n  \"delivery_boy_phone\": null,\n  \"wanted_time\": null,\n  \"wanted_date\": null,\n  \"payment_type\": \"cash\",\n  \"is_paid\": false,\n  \"feedback\": null,\n  \"comment\": null,\n  \"source_type\": null,\n  \"admin_comment\": null,\n  \"line_items\": [\n    {\n      \"id\": 10,\n      \"order_id\": 4,\n      \"amount\": 1000,\n      \"fixed_price\": \"3000.0\",\n      \"product_id\": 10\n    }\n  ],\n  \"address\": {\n    \"id\": 4,\n    \"city_id\": 20,\n    \"user_id\": 7,\n    \"street_and_house\": \"Laxmi Vistru Bhawan, NH-18, Thotapalyam, Chittoor, Andhra Pradesh 517001, India\",\n    \"door_number\": \"5\",\n    \"active\": true,\n    \"city_name\": \"Chittoor\"\n  },\n  \"delivery_boy\": null\n}",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
         "Location": "/client/orders/4",
-        "access-token": "KPd-hGGyqSMIJ6ag6J9B6Q",
+        "access-token": "AKBxg_rgMMl5QIrob4dGvw",
         "token-type": "Bearer",
-        "client": "Hg55lEgLahnvXNU3EZbs7A",
-        "expiry": "1475019969",
-        "uid": "141jeromy_kovacek@smith.name",
+        "client": "uaNNLvaFbRrUL95v0R975w",
+        "expiry": "1475151557",
+        "uid": "140loraine_morar@bergesmith.org",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"16a3b30f2d38dfc88eb5338ac9de05ad\"",
+        "ETag": "W/\"17bddcfbe10a97919c4837cdd9d2dcfa\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=eXdMYTF0UyswdlJzVU0vLzI1dXFIR2JIZE53L3RwUFloakM3RHRYNVRhWWFCbzFLN3JLYUlGYUpCZW8rY1AwQTFjWFQzbFQ3eHBvNFBjUDc3djVtOWkzRlNJelFLdThoUFhpdHJTTXpOQ29UVFhKRHhjdk9DZ3dYMVc3ZnZ3c1lNWnRDM0FmS2tNR0ZmSkpPOEYvZjliMmNONFJJUitBQkVDZDhEK25FZjRBenVSakRQakFWb3lsYzFTcVVWQ2tELS1rcFhnaXZaaVY2T25tNmlkVEJZMjBRPT0%3D--95eda53a7a61e853866d8b637d1adc4e99d77ebf; path=/; HttpOnly",
-        "X-Request-Id": "a7877020-b70b-49e1-ba83-4fe76ba9a487",
-        "X-Runtime": "0.165009",
-        "Content-Length": "831"
+        "Set-Cookie": "_session_id=Z1ZXS1pPaEJtbEc1bE11K29kZ2M3U1J1TVVrd0JiWThOQU51VHoxb0x2c2xtRVp5M1NqVGhNbHRMc1l0bWk1QUowNEFPRkhvc3c0Q0J0aEtJZnMrYUJOc0ZsbldNSzZteEIwaHdmMHpwb3UvOGRZOGVOeWp5TFFSb0t0T3NXL1BIcGxNZzRCdkw1akExWTFPMmdIc0h5MVZ2bTQ4WnNHaXc1MW5tbXBYZlN0SWJjUVdndHNXRndnbE5PZklaNlZSLS0zR0x5RmcyQWNjdFYrMkxMQnJ4M2dBPT0%3D--329b5eaaf461cc0d3710e090db5b79942717db48; path=/; HttpOnly",
+        "X-Request-Id": "528718a2-87ea-45a3-8fea-b997a29f955d",
+        "X-Runtime": "0.080568",
+        "Content-Length": "799"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000client/orders\" -d 'order[address_id]=4&order[line_items_attributes][][product_id]=10&order[line_items_attributes][][amount]=1000&order[delivery_attributes][wanted_date]=2016-09-14+01%3A46%3A09+%2B0200' -X POST \\\n\t-H \"Access-Token: KPd-hGGyqSMIJ6ag6J9B6Q\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: Hg55lEgLahnvXNU3EZbs7A\" \\\n\t-H \"Expiry: 1475019969\" \\\n\t-H \"Uid: 141jeromy_kovacek@smith.name\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000client/orders\" -d 'order[address_id]=4&order[line_items_attributes][][product_id]=10&order[line_items_attributes][][amount]=1000&order[delivery_attributes][wanted_date]=2016-09-15+14%3A19%3A17+%2B0200' -X POST \\\n\t-H \"Access-Token: AKBxg_rgMMl5QIrob4dGvw\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: uaNNLvaFbRrUL95v0R975w\" \\\n\t-H \"Expiry: 1475151557\" \\\n\t-H \"Uid: 140loraine_morar@bergesmith.org\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }
