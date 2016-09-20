@@ -37,7 +37,7 @@ group :development do
 	gem 'guard-rspec'
 	gem 'railroady' # RailRoady generates Rails 3/4 model (ActiveRecord, Mongoid, Datamapper) and controller UML diagrams. rake diagram:all
 end
-gem 'parallel_tests', group: [:development, :test]
+# gem 'parallel_tests', group: [:development, :test]
 group :test do
 	gem 'airborne' #expect_json
 	gem 'database_cleaner'

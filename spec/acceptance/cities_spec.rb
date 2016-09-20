@@ -63,7 +63,7 @@ resource 'cities', type: :request do
 	# 	end
 	# end
 
-	get '/cities/:id/recommend_areas' do
+	get '/cities/:id/recommend_areas', focus: true do
 		let(:city)    { FactoryGirl.create :city }
 		parameter :input, "the keyword"
 		parameter :id, "city id"

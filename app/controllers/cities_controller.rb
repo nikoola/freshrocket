@@ -27,7 +27,7 @@ class CitiesController < ApplicationController
 		# unless autocomplete[:predictions].count
 		# 	exit
 		# end
-		# binding.pry
+		binding.pry
 		res = []
 		autocomplete.parsed_response["predictions"].each { |x|
 			# binding.pry
