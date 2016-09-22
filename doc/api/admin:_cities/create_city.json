@@ -15,6 +15,11 @@
       "scope": "city",
       "name": "active",
       "description": "0/1"
+    },
+    {
+      "scope": "city",
+      "name": "stringified_coordinate",
+      "description": "City stringified coordinate"
     }
   ],
   "response_fields": [
@@ -24,13 +29,13 @@
     {
       "request_method": "POST",
       "request_path": "/admin/cities",
-      "request_body": "city[name]=Kalyan-Dombivali",
+      "request_body": "city[id]&city[name]=New+Delhi&city[lat]=28.7040592&city[lng]=77.1024902&city[active]=true&city[stringified_coordinate]=%5B28.7040592%2C77.1024902%5D",
       "request_headers": {
-        "Access-Token": "4Go6tV2SNNa9VbVplM1zsQ",
+        "Access-Token": "RYIfoGYajTBDWftIHs9WZA",
         "Token-Type": "Bearer",
-        "Client": "usyD87A8I8HIvkkKOX25wQ",
-        "Expiry": "1475151253",
-        "Uid": "13else@schummbailey.net",
+        "Client": "dsz4NbTrv7xcBZq0QxCy4Q",
+        "Expiry": "1475772486",
+        "Uid": "1elmer@wittingblock.name",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -40,27 +45,27 @@
       "request_content_type": "application/x-www-form-urlencoded",
       "response_status": 201,
       "response_status_text": "Created",
-      "response_body": "{\n  \"id\": 1,\n  \"name\": \"Kalyan-Dombivali\",\n  \"active\": true\n}",
+      "response_body": "{\n  \"id\": 1,\n  \"name\": \"New Delhi\",\n  \"active\": true,\n  \"products\": [\n\n  ]\n}",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
         "Location": "http://example.org/cities/1",
-        "access-token": "4Go6tV2SNNa9VbVplM1zsQ",
+        "access-token": "RYIfoGYajTBDWftIHs9WZA",
         "token-type": "Bearer",
-        "client": "usyD87A8I8HIvkkKOX25wQ",
-        "expiry": "1475151253",
-        "uid": "13else@schummbailey.net",
+        "client": "dsz4NbTrv7xcBZq0QxCy4Q",
+        "expiry": "1475772486",
+        "uid": "1elmer@wittingblock.name",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"e6b32dc84da4c25b5c15ec14719b9f6f\"",
+        "ETag": "W/\"2ccb9df95004d49dcabd5160152be93a\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=S2c2TVdnVHFiTjBHZTJ0TExYOXRkTjhWVzVNUHZMNVF0UjR0bHdpcGFFdU9qUlc0SlM4RDI0Q0U0QUVrWitOaDhnTWZ2YVE1azN5amo4a3owQlMzL1NJOFVJaXQ5czh4bGY1Ty9yMTRjWjBVV3VHTkRYazlKaEFTc0szNmp6WFQ0WG1iS2tUbUo4YXhVOTJRSjlWNFIvbXhlQzYyam95ZFhaTnpnaGxxbTQ1SmRBVEk3elU1ekUvTXRCM1BHb2VtLS1OZ2JnSGtVYmUrWkE2QjBOMEJZM2dnPT0%3D--003032b7db42860bcbc95d05ffc0e51b9039ae9c; path=/; HttpOnly",
-        "X-Request-Id": "9e4f9dde-73dd-4526-8d93-11abf0321cc6",
-        "X-Runtime": "0.164513",
-        "Content-Length": "48"
+        "Set-Cookie": "_session_id=ZXNkZ3BtMkY4OWhhWEZPVTJiN2c1cVRyWmtJWEo5K3VrcFRtL0FkbjNaZHFUVEdoeDhGNHA5L2QxeHRiUHZESWVZK1hWR0FGY1d3cm5aSXhZN1J0ZkYxc3hyNC93eUdpdlJrUzlmanN3NUVnTUpOdVdMdW9jY2dBRlhyWWhFYmFxck9EWFpDZFg4SXZjbDJZc3dGbndtMUdaZnlrUWttK2V2LzliR0N2eDR6MnVKbmNIeEs3M2pYdHAzY3g2RVZkLS15MHZ3aGFSWWkrQlQ1RG5qbHJtZHB3PT0%3D--475d7c0a04b40bf5dda7fc02f8e94752d6c71615; path=/; HttpOnly",
+        "X-Request-Id": "2f65e441-c037-4a65-ae02-dee7a9c7e87c",
+        "X-Runtime": "0.197420",
+        "Content-Length": "55"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/admin/cities\" -d 'city[name]=Kalyan-Dombivali' -X POST \\\n\t-H \"Access-Token: 4Go6tV2SNNa9VbVplM1zsQ\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: usyD87A8I8HIvkkKOX25wQ\" \\\n\t-H \"Expiry: 1475151253\" \\\n\t-H \"Uid: 13else@schummbailey.net\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/admin/cities\" -d 'city[id]&city[name]=New+Delhi&city[lat]=28.7040592&city[lng]=77.1024902&city[active]=true&city[stringified_coordinate]=%5B28.7040592%2C77.1024902%5D' -X POST \\\n\t-H \"Access-Token: RYIfoGYajTBDWftIHs9WZA\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: dsz4NbTrv7xcBZq0QxCy4Q\" \\\n\t-H \"Expiry: 1475772486\" \\\n\t-H \"Uid: 1elmer@wittingblock.name\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }
