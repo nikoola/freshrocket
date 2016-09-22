@@ -13,17 +13,20 @@ resource 'admin: cities', type: :request do
 		with_options scope: :city do
 			parameter :name,     'city name', required: true
 			parameter :active,   '0/1'
+			parameter :stringified_coordinate
 			#parameter :stringified_polygon, '[[10, 50], ...], where 10 is lat, and 50 is lng of the first point of polygon'
 		end
 
 		example 'create city' do
-			 do_request city: FactoryGirl.attributes_for(:city)#.merge(
-			# 	#stringified_polygon: '[[10, 50], [20, 60], [30, 10]]'
-			# )
-
-			city = City.find(json[:id])
-
-			#expect(city.polygon).to eq [[10, 50], [20, 60], [30, 10]]
+			#################################
+			# add stringified_coordinate to the params
+			#
+			city = FactoryGirl.build(:city)
+			hash = city.attributes
+			hash[:stringified_coordinate] = "["+city.lat.to_s+","+city.lng.to_s+"]"
+			# puts hash
+			#####################################
+			do_request city: hash
 			expect(status).to eq(201)
 		end
 

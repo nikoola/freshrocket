@@ -22,7 +22,7 @@ class Area < ActiveRecord::Base
 		compared_lat, compared_lng = coordinate.map(&:to_f)
 		compared_lat_lng = Geokit::LatLng.new(compared_lat, compared_lng) #to_i because params turn into ['4', '6']
 		# geokited_polygon.contains? geokited_lat_lng
-		area_lat_lng = Geokit::LatLng.new(lat, lng)
+		area_lat_lng = Geokit::LatLng.new(self.lat, self.lng)
 		area_lat_lng.distance_to(compared_lat_lng) < radius
 
 	end

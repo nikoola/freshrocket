@@ -16,6 +16,8 @@ class SetupSchema < ActiveRecord::Migration
 
 	create_table "cities", force: :cascade do |t|
 		t.string  "name"
+		t.decimal :lat
+		t.decimal :lng
 		#t.string  'polygon'
 		t.boolean "active", default: true
 	end

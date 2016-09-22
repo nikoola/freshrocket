@@ -86,13 +86,5 @@ module Client
 
 		end
 
-
-
-
-
-
-
-
-
 	end
 end

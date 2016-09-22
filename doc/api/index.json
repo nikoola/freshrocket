@@ -594,6 +594,18 @@
       ]
     },
     {
+      "name": "users",
+      "examples": [
+        {
+          "description": "sends password recovery email",
+          "link": "users/sends_password_recovery_email.json",
+          "groups": "all",
+          "route": "/users/send_sms_with_recovery_password",
+          "method": "post"
+        }
+      ]
+    },
+    {
       "name": "products",
       "examples": [
         {
@@ -616,18 +628,13 @@
           "groups": "all",
           "route": "/products/:id",
           "method": "get"
-        }
-      ]
-    },
-    {
-      "name": "users",
-      "examples": [
+        },
         {
-          "description": "sends password recovery email",
-          "link": "users/sends_password_recovery_email.json",
+          "description": "get products based on coordinates",
+          "link": "products/get_products_based_on_coordinates.json",
           "groups": "all",
-          "route": "/users/send_sms_with_recovery_password",
-          "method": "post"
+          "route": "/products",
+          "method": "get"
         }
       ]
     }

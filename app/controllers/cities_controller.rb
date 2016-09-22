@@ -19,6 +19,7 @@ class CitiesController < ApplicationController
 	    
 	    render json: res
   	end
+  	
   	def recommend_areas
   		# binding.pry
   		client =  GooglePlacesAutocomplete::Client.new(:api_key => Rails.application.secrets['google_place_api_key'])

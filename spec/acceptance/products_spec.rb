@@ -21,8 +21,10 @@ resource 'products', type: :request do
 
 
 	get '/products' do
-		parameter :city_id
-		parameter :category_id
+		parameter :city_id,''
+		parameter :stringified_coordinate,'use this param to get cities and  products based on coordinate'
+		parameter :radius,'used along with stringified_coordinate'
+		parameter :category_id,''
 		parameter :in_stock, '1/0, if absent will return all'
 
 		example_request 'get all products' do
@@ -34,7 +36,12 @@ resource 'products', type: :request do
 			expect(status).to eq(200)
 		end
 
-
+		it 'get products based on coordinates' , focus: true do
+			explanation "get products in the city based on the coordinate"
+			str = "["+(@city_1.lat + 0.001).to_s+","+(@city_1.lng + 0.0001).to_s+"]"
+			do_request stringified_coordinate: str, radius: 300
+			# binding.pry
+		end
 		it 'get filtered products' do
 			explanation 'returns all products with inventory count > 0, and from specific category'
 			do_request category_id: @category_2.id, in_stock: 1

@@ -52,6 +52,8 @@ ActiveRecord::Schema.define(version: 20160901192421) do
 
   create_table "cities", force: :cascade do |t|
     t.string  "name"
+    t.decimal "lat"
+    t.decimal "lng"
     t.boolean "active", default: true
   end
 

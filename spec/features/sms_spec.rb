@@ -17,9 +17,9 @@ describe 'Sms' do
 	# 	# expect(response[0].keys).to include(:number, :message_id) #works
 	# end
 
-	# it 'msg91' do
-	# 	p Msg91::Client.text(mobile_number, text)
-	# end
+	it 'msg91' do
+		p Msg91::Client.text(mobile_number, text)
+	end
 end
 
 

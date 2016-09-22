@@ -8,7 +8,7 @@ module Filterable
 			# binding.pry
 			results = self.where(nil)
 			filtering_params.each do |key, value|
-				if key == "name"
+				if key.to_s == "name"
 					results = results.public_send(:starts_with, value) # if value.present?					
 				else
 					results = results.public_send(key, value) # if value.present?

@@ -7,11 +7,19 @@
   "parameters": [
     {
       "name": "city_id",
-      "description": " city"
+      "description": ""
+    },
+    {
+      "name": "stringified_coordinate",
+      "description": "use this param to get cities and  products based on coordinate"
+    },
+    {
+      "name": "radius",
+      "description": "used along with stringified_coordinate"
     },
     {
       "name": "category_id",
-      "description": " category"
+      "description": ""
     },
     {
       "name": "in_stock",
@@ -37,17 +45,17 @@
       "request_content_type": null,
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "[\n  {\n    \"id\": 11,\n    \"city_id\": 14,\n    \"title\": \"fish\",\n    \"price\": \"3.0\",\n    \"description\": null,\n    \"created_at\": \"2016-09-15T12:21:54.488Z\",\n    \"updated_at\": \"2016-09-15T12:21:54.488Z\",\n    \"inventory_count\": 20,\n    \"image_url\": \"https://freshrocket-test.s3.amazonaws.com/uploads/product/image/default.png\",\n    \"categories\": [\n      {\n        \"id\": 2,\n        \"name\": \"Category 10\",\n        \"image_url\": \"https://freshrocket-test.s3.amazonaws.com/uploads/category/image/default.png\"\n      }\n    ],\n    \"options\": [\n\n    ]\n  },\n  {\n    \"id\": 12,\n    \"city_id\": 14,\n    \"title\": \"fish\",\n    \"price\": \"3.0\",\n    \"description\": null,\n    \"created_at\": \"2016-09-15T12:21:54.495Z\",\n    \"updated_at\": \"2016-09-15T12:21:54.495Z\",\n    \"inventory_count\": 20,\n    \"image_url\": \"https://freshrocket-test.s3.amazonaws.com/uploads/product/image/default.png\",\n    \"categories\": [\n      {\n        \"id\": 2,\n        \"name\": \"Category 10\",\n        \"image_url\": \"https://freshrocket-test.s3.amazonaws.com/uploads/category/image/default.png\"\n      }\n    ],\n    \"options\": [\n\n    ]\n  },\n  {\n    \"id\": 13,\n    \"city_id\": 14,\n    \"title\": \"fish\",\n    \"price\": \"3.0\",\n    \"description\": null,\n    \"created_at\": \"2016-09-15T12:21:54.499Z\",\n    \"updated_at\": \"2016-09-15T12:21:54.499Z\",\n    \"inventory_count\": 20,\n    \"image_url\": \"https://freshrocket-test.s3.amazonaws.com/uploads/product/image/default.png\",\n    \"categories\": [\n      {\n        \"id\": 2,\n        \"name\": \"Category 10\",\n        \"image_url\": \"https://freshrocket-test.s3.amazonaws.com/uploads/category/image/default.png\"\n      }\n    ],\n    \"options\": [\n\n    ]\n  }\n]",
+      "response_body": "[\n  {\n    \"id\": 5,\n    \"city_id\": 2,\n    \"title\": \"fish\",\n    \"price\": \"3.0\",\n    \"description\": null,\n    \"created_at\": \"2016-09-22T16:42:00.193Z\",\n    \"updated_at\": \"2016-09-22T16:42:00.193Z\",\n    \"inventory_count\": 20,\n    \"image_url\": \"https://freshrocket-test.s3.amazonaws.com/uploads/product/image/default.png\",\n    \"categories\": [\n      {\n        \"id\": 2,\n        \"name\": \"Category 2\",\n        \"image_url\": \"https://freshrocket-test.s3.amazonaws.com/uploads/category/image/default.png\"\n      }\n    ],\n    \"options\": [\n\n    ]\n  },\n  {\n    \"id\": 6,\n    \"city_id\": 2,\n    \"title\": \"fish\",\n    \"price\": \"3.0\",\n    \"description\": null,\n    \"created_at\": \"2016-09-22T16:42:00.196Z\",\n    \"updated_at\": \"2016-09-22T16:42:00.196Z\",\n    \"inventory_count\": 20,\n    \"image_url\": \"https://freshrocket-test.s3.amazonaws.com/uploads/product/image/default.png\",\n    \"categories\": [\n      {\n        \"id\": 2,\n        \"name\": \"Category 2\",\n        \"image_url\": \"https://freshrocket-test.s3.amazonaws.com/uploads/category/image/default.png\"\n      }\n    ],\n    \"options\": [\n\n    ]\n  },\n  {\n    \"id\": 7,\n    \"city_id\": 2,\n    \"title\": \"fish\",\n    \"price\": \"3.0\",\n    \"description\": null,\n    \"created_at\": \"2016-09-22T16:42:00.200Z\",\n    \"updated_at\": \"2016-09-22T16:42:00.200Z\",\n    \"inventory_count\": 20,\n    \"image_url\": \"https://freshrocket-test.s3.amazonaws.com/uploads/product/image/default.png\",\n    \"categories\": [\n      {\n        \"id\": 2,\n        \"name\": \"Category 2\",\n        \"image_url\": \"https://freshrocket-test.s3.amazonaws.com/uploads/category/image/default.png\"\n      }\n    ],\n    \"options\": [\n\n    ]\n  }\n]",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"05c51813f2226ac696b6fcf8fcb6ac0f\"",
+        "ETag": "W/\"334f24ca5b43f49a9b33eaf210bcb7b7\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "X-Request-Id": "c440c0c3-7def-44c6-a1d2-fa36866bcc4b",
-        "X-Runtime": "0.012104",
-        "Content-Length": "1234"
+        "X-Request-Id": "84f8a19c-4494-46f8-815f-cda983540afe",
+        "X-Runtime": "0.020606",
+        "Content-Length": "1225"
       },
       "response_content_type": "application/json; charset=utf-8",
       "curl": "curl \"http://localhost:3000/products?category_id=2&in_stock=1\" -X GET \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""

@@ -13,7 +13,7 @@
   "requests": [
     {
       "request_method": "GET",
-      "request_path": "/products/22",
+      "request_path": "/products/16",
       "request_body": null,
       "request_headers": {
         "Host": "example.org",
@@ -24,20 +24,20 @@
       "request_content_type": null,
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\n  \"id\": 22,\n  \"city_id\": 20,\n  \"title\": \"fish\",\n  \"price\": \"3.0\",\n  \"description\": null,\n  \"created_at\": \"2016-09-15T12:21:54.574Z\",\n  \"updated_at\": \"2016-09-15T12:21:54.574Z\",\n  \"inventory_count\": 20,\n  \"image_url\": \"https://freshrocket-test.s3.amazonaws.com/uploads/product/image/default.png\",\n  \"categories\": [\n\n  ],\n  \"options\": [\n\n  ]\n}",
+      "response_body": "{\n  \"id\": 16,\n  \"city_id\": 8,\n  \"title\": \"fish\",\n  \"price\": \"3.0\",\n  \"description\": null,\n  \"created_at\": \"2016-09-22T16:42:40.203Z\",\n  \"updated_at\": \"2016-09-22T16:42:40.203Z\",\n  \"inventory_count\": 20,\n  \"image_url\": \"https://freshrocket-test.s3.amazonaws.com/uploads/product/image/default.png\",\n  \"categories\": [\n\n  ],\n  \"options\": [\n\n  ]\n}",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"56487ce74846296a120dfd6e5946bb65\"",
+        "ETag": "W/\"3b617dded7ce5abea5d8a32edef4e118\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "X-Request-Id": "6e39c867-2ef7-437e-9542-080c4b1da0f5",
-        "X-Runtime": "0.005316",
-        "Content-Length": "290"
+        "X-Request-Id": "f89c26cc-a8d6-4133-8094-acad761a026b",
+        "X-Runtime": "0.005821",
+        "Content-Length": "289"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/products/22\" -X GET \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/products/16\" -X GET \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
     }
   ]
 }
