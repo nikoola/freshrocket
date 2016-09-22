@@ -1,0 +1,64 @@
+{
+  "resource": "products",
+  "http_method": "GET",
+  "route": "/products",
+  "description": "get products based on coordinates",
+  "explanation": "get products in the city based on the coordinate",
+  "parameters": [
+    {
+      "name": "city_id",
+      "description": ""
+    },
+    {
+      "name": "stringified_coordinate",
+      "description": "use this param to get cities and  products based on coordinate"
+    },
+    {
+      "name": "radius",
+      "description": "used along with stringified_coordinate"
+    },
+    {
+      "name": "category_id",
+      "description": ""
+    },
+    {
+      "name": "in_stock",
+      "description": "1/0, if absent will return all"
+    }
+  ],
+  "response_fields": [
+
+  ],
+  "requests": [
+    {
+      "request_method": "GET",
+      "request_path": "/products?stringified_coordinate=%5B28.7050592%2C77.1025902%5D&radius=300",
+      "request_body": null,
+      "request_headers": {
+        "Host": "example.org",
+        "Cookie": ""
+      },
+      "request_query_parameters": {
+        "stringified_coordinate": "[28.7050592,77.1025902]",
+        "radius": "300"
+      },
+      "request_content_type": null,
+      "response_status": 200,
+      "response_status_text": "OK",
+      "response_body": "[\n  {\n    \"id\": 1,\n    \"name\": \"New Delhi\",\n    \"active\": true,\n    \"products\": [\n      {\n        \"id\": 1,\n        \"city_id\": 1,\n        \"title\": \"fish\",\n        \"price\": \"3.0\",\n        \"description\": null,\n        \"created_at\": \"2016-09-22T16:42:00.149Z\",\n        \"updated_at\": \"2016-09-22T16:42:00.149Z\",\n        \"inventory_count\": 20,\n        \"image_url\": \"https://freshrocket-test.s3.amazonaws.com/uploads/product/image/default.png\"\n      },\n      {\n        \"id\": 2,\n        \"city_id\": 1,\n        \"title\": \"fish\",\n        \"price\": \"3.0\",\n        \"description\": null,\n        \"created_at\": \"2016-09-22T16:42:00.153Z\",\n        \"updated_at\": \"2016-09-22T16:42:00.153Z\",\n        \"inventory_count\": 20,\n        \"image_url\": \"https://freshrocket-test.s3.amazonaws.com/uploads/product/image/default.png\"\n      },\n      {\n        \"id\": 3,\n        \"city_id\": 1,\n        \"title\": \"fish\",\n        \"price\": \"3.0\",\n        \"description\": null,\n        \"created_at\": \"2016-09-22T16:42:00.157Z\",\n        \"updated_at\": \"2016-09-22T16:42:00.157Z\",\n        \"inventory_count\": 20,\n        \"image_url\": \"https://freshrocket-test.s3.amazonaws.com/uploads/product/image/default.png\"\n      },\n      {\n        \"id\": 4,\n        \"city_id\": 1,\n        \"title\": \"fish\",\n        \"price\": \"3.0\",\n        \"description\": null,\n        \"created_at\": \"2016-09-22T16:42:00.160Z\",\n        \"updated_at\": \"2016-09-22T16:42:00.160Z\",\n        \"inventory_count\": 20,\n        \"image_url\": \"https://freshrocket-test.s3.amazonaws.com/uploads/product/image/default.png\"\n      }\n    ]\n  },\n  {\n    \"id\": 8,\n    \"name\": \"Jaipur\",\n    \"active\": true,\n    \"products\": [\n      {\n        \"id\": 16,\n        \"city_id\": 8,\n        \"title\": \"fish\",\n        \"price\": \"3.0\",\n        \"description\": null,\n        \"created_at\": \"2016-09-22T16:42:40.203Z\",\n        \"updated_at\": \"2016-09-22T16:42:40.203Z\",\n        \"inventory_count\": 20,\n        \"image_url\": \"https://freshrocket-test.s3.amazonaws.com/uploads/product/image/default.png\"\n      }\n    ]\n  }\n]",
+      "response_headers": {
+        "X-Frame-Options": "SAMEORIGIN",
+        "X-XSS-Protection": "1; mode=block",
+        "X-Content-Type-Options": "nosniff",
+        "Content-Type": "application/json; charset=utf-8",
+        "ETag": "W/\"f573986bb2178cd1bdd4db613140851f\"",
+        "Cache-Control": "max-age=0, private, must-revalidate",
+        "X-Request-Id": "bbdfa192-9423-4203-9355-2da9833a6588",
+        "X-Runtime": "0.012776",
+        "Content-Length": "1409"
+      },
+      "response_content_type": "application/json; charset=utf-8",
+      "curl": "curl \"http://localhost:3000/products?stringified_coordinate=%5B28.7050592%2C77.1025902%5D&radius=300\" -X GET \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
+    }
+  ]
+}
