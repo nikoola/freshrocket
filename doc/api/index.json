@@ -616,6 +616,13 @@
           "method": "post"
         },
         {
+          "description": "create order with nested address attributes",
+          "link": "admin:_orders/create_order_with_nested_address_attributes.json",
+          "groups": "all",
+          "route": "/admin/orders",
+          "method": "post"
+        },
+        {
           "description": "get filtered orders",
           "link": "admin:_orders/get_filtered_orders.json",
           "groups": "all",
@@ -628,13 +635,6 @@
           "groups": "all",
           "route": "/admin/orders/:id",
           "method": "get"
-        },
-        {
-          "description": "should send confirmation sms and email summary",
-          "link": "admin:_orders/should_send_confirmation_sms_and_email_summary.json",
-          "groups": "all",
-          "route": "/admin/orders/:id/send_confirmation_sms_and_email_summay",
-          "method": "post"
         },
         {
           "description": "update order",

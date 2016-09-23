@@ -81,7 +81,7 @@ Rails.application.routes.draw do
 		resources :orders,        only: [:index, :show, :create, :update] do
 			member {
 				put :update_status     # status: ''
-				post :send_confirmation_sms_and_email_summay
+				post :send_confirmation_sms_and_email_summary
 			}
 		end
 		resources :users,         only: [:index, :show, :create, :update] do

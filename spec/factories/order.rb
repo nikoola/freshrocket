@@ -14,7 +14,7 @@ FactoryGirl.define do
 				li.product.save!
 			end
 
-			order.address = FactoryGirl.create :address, area: area
+			order.address = FactoryGirl.create :address, area: area # use object instead of area_id because evaluator create area object in spite of area_id id given
 		end
 
 

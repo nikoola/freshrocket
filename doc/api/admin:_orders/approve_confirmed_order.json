@@ -21,11 +21,11 @@
       "request_path": "/admin/orders/1/update_status",
       "request_body": "order[action]=approve",
       "request_headers": {
-        "Access-Token": "TRc9iVbm-U9QL7YduKbbnw",
+        "Access-Token": "pGwhKGwqVChj87tNekpMuA",
         "Token-Type": "Bearer",
-        "Client": "ZMB-ihFLG3p7RqoG3eWseg",
-        "Expiry": "1475813681",
-        "Uid": "31brody.doyle@flatleydaugherty.io",
+        "Client": "F5Fg7Ytq_ztrP7bsf0IGig",
+        "Expiry": "1475831723",
+        "Uid": "32jarret@leuschke.net",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -40,20 +40,20 @@
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
-        "access-token": "TRc9iVbm-U9QL7YduKbbnw",
+        "access-token": "pGwhKGwqVChj87tNekpMuA",
         "token-type": "Bearer",
-        "client": "ZMB-ihFLG3p7RqoG3eWseg",
-        "expiry": "1475813681",
-        "uid": "31brody.doyle@flatleydaugherty.io",
+        "client": "F5Fg7Ytq_ztrP7bsf0IGig",
+        "expiry": "1475831723",
+        "uid": "32jarret@leuschke.net",
         "Content-Type": "text/html",
         "Cache-Control": "no-cache",
-        "Set-Cookie": "_session_id=VXRKc2pHUkxSSi81bE8vZWR5ZlBod1VlZDJYeFVkaWFObzlkVmRsRHRiQTdpRjF0ZGpidi93K2QxSTNVSWlWY0svcEk0Z3pGUXA3dXA3SFl3U2w1ZlI0WGFtQWNiSmVuZ2dYRnEzdys5UHdTazBMRFZ1RWtaTGRaL0lydWo5b25QRW5pTFBZWEZwT0VVdkxLb25VYWJSUWNjbzBCTmY3NFl2Zm94ekNoVnlucjFTSHJxd0RjUGhnVEtQTVViN2RXLS1jemx1eFd1RGFLZ1B0b1cvSUx0MUtRPT0%3D--9b0aa3eb33acc3374e7f1ae36924e1f2c8422e04; path=/; HttpOnly",
-        "X-Request-Id": "3d9648c6-ec9c-4617-9647-3cf8036ee311",
-        "X-Runtime": "0.079839",
+        "Set-Cookie": "_session_id=M0xOY05JQ3N2eUl6eWtta2VxeHJrdDdYYTVlckFxRFMraDdOVUF5VmFsYXFRNkMxL2VsdHR6VkNReGwwZUVWbTl5Z2dqNGhYeFRZVTNNNElhN0ZnTEVGN0RXN3lBVFBlTDZiSlNnTHhZQ3NnQXFhMFo5SHUyRlh6NEE2Rmpxb0NqZ0ZsMkp5QjgyMmw2SGZMZ1ZSdWdtTEZML3Nyall1VFlidjdrRWlyTnRwcUphS1JVREtyaElBd1IzbzY0VDh4LS1oMHowUnFiRDBtd2lmbWtwb0c3NHdnPT0%3D--e23189d1cf5b936faedf37ce6d4c31b0fc84b1c8; path=/; HttpOnly",
+        "X-Request-Id": "21b29e73-dee1-4107-99fe-be5804d42b58",
+        "X-Runtime": "0.079426",
         "Content-Length": "0"
       },
       "response_content_type": "text/html",
-      "curl": "curl \"http://localhost:3000/admin/orders/1/update_status\" -d 'order[action]=approve' -X PUT \\\n\t-H \"Access-Token: TRc9iVbm-U9QL7YduKbbnw\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: ZMB-ihFLG3p7RqoG3eWseg\" \\\n\t-H \"Expiry: 1475813681\" \\\n\t-H \"Uid: 31brody.doyle@flatleydaugherty.io\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/admin/orders/1/update_status\" -d 'order[action]=approve' -X PUT \\\n\t-H \"Access-Token: pGwhKGwqVChj87tNekpMuA\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: F5Fg7Ytq_ztrP7bsf0IGig\" \\\n\t-H \"Expiry: 1475831723\" \\\n\t-H \"Uid: 32jarret@leuschke.net\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

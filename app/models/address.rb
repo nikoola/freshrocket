@@ -3,7 +3,7 @@ class Address < ActiveRecord::Base
 	belongs_to :user, :inverse_of => :addresses
 	belongs_to :city#, though: :area
 	belongs_to :area
-	has_many   :orders
+	has_many   :orders, :inverse_of => :address
 
 	validates_presence_of :user,
 		:city, :street_and_house, :door_number, :lat, :lng

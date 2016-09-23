@@ -105,7 +105,7 @@ resource 'admin: orders', type: :request do
 	post '/admin/orders' do
 		with_options :scope => :order do
 			parameter :comment,     'comment to the order'
-			parameter :address_id,  '', required: true
+			parameter :address_id,  ''#, required: true
 			parameter :feedback
 			parameter :source_type, "['web', 'phone', 'mobile']"
 			parameter :coupon_code
@@ -117,6 +117,18 @@ resource 'admin: orders', type: :request do
 		with_options :scope => [:order, :line_items_attributes], :required => true do
 			parameter :product_id, 'id of a product in a cart'
 			parameter :amount, 'amount of this product in a cart'
+		end
+		with_options :scope => [:order, :address_attributes], :required => false do
+			parameter :city_id
+			parameter :street_and_house
+			parameter :door_number
+			parameter :user_id
+			# parameter :area_id
+			# parameter :lat
+			# parameter :lng
+			parameter :stringified_coordinate
+			parameter :zip_code,        required: false
+			parameter :active
 		end
 
 		example 'create order' do
@@ -132,6 +144,29 @@ resource 'admin: orders', type: :request do
 				]
 			)
 
+			do_request order: attributes
+			
+			order = Order.find(json[:id])
+
+			expect(status).to eq(201)
+			expect(order.payment_type).to eq('cash')
+		end
+
+		example 'create order with nested address attributes', focus: true do
+			explanation 'create order along with address attributes'
+			city = FactoryGirl.create :city
+			area  = FactoryGirl.create :area, city_id:  city.id
+			# user = FactoryGirl.create(:user)
+			attributes = FactoryGirl.attributes_for(:order).merge( 
+				address_attributes: FactoryGirl.build(:address, area: area, user_id: user.id).attributes,
+				user_id:    user.id,
+				line_items_attributes: [
+					{
+						product_id: FactoryGirl.create(:product).id, amount: 3
+					}
+				]
+			)
+			# binding.pry
 			do_request order: attributes
 			
 			order = Order.find(json[:id])
@@ -198,7 +233,7 @@ resource 'admin: orders', type: :request do
 
 	end
 
-	post '/admin/orders/:id/send_confirmation_sms_and_email_summay',focus: true do
+	post '/admin/orders/:id/send_confirmation_sms_and_email_summary' do
 		it 'should send confirmation sms and email summary' do
 			order.save
 			# binding.pry

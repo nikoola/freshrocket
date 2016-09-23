@@ -59,7 +59,7 @@ module Admin
 			end
 
 		end
-		def send_confirmation_sms_and_email_summay
+		def send_confirmation_sms_and_email_summary
 			# binding.pry
 			unless @order.present?
 				render json: { errors: 'no Order with such id' }, status: 422
@@ -82,7 +82,9 @@ module Admin
 					:coupon_code,
 					:feedback, :comment, :admin_comment,
 					:wanted_date, :wanted_time,
-					line_items_attributes: [:_destroy, :id, :amount, :product_id]
+					line_items_attributes: [:_destroy, :id, :amount, :product_id],
+					address_attributes: [:_destroy, :id, :city_id, :street_and_house,:door_number,:user_id,
+						:stringified_coordinate,:zip_code,:active,:lat,:lng]
 				])
 
 				# no payment_type (it's set automatically)

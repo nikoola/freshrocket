@@ -78,7 +78,7 @@ module Admin
 					:phone, :email,
 					:first_name, :last_name, 
 					:how_did_you_hear_about_us, 
-					:addresses_attributes => [:street_and_house,:lat, :lng, :door_number, :area_id, :city_id]
+					:addresses_attributes => [:street_and_house,:lat, :lng, :door_number, :area_id, :city_id, :stringified_coordinate]
 				)
 			end
 

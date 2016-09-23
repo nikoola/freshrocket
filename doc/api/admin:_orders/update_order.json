@@ -16,11 +16,11 @@
       "request_path": "/admin/orders/1",
       "request_body": "order[delivery_boy_id]=1",
       "request_headers": {
-        "Access-Token": "V8eYkRMhX-S1RJUzzYHE1g",
+        "Access-Token": "YwWPa9ozAG0k7nLp2j8FGQ",
         "Token-Type": "Bearer",
-        "Client": "xZRGvgAMEQHlutnBJ99kdw",
-        "Expiry": "1475813644",
-        "Uid": "28diana@rippinmertz.net",
+        "Client": "UvzPncOvjqyBVKcQlqDbww",
+        "Expiry": "1475831701",
+        "Uid": "29jana@uptonlarkin.org",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -30,26 +30,26 @@
       "request_content_type": "application/x-www-form-urlencoded",
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\n  \"id\": 1,\n  \"user_id\": 2,\n  \"address_id\": 1,\n  \"status\": \"unconfirmed\",\n  \"created_at\": \"2016-09-23T04:14:04.778Z\",\n  \"confirmed_at\": null,\n  \"approved_at\": null,\n  \"dispacthed_at\": null,\n  \"delivered_at\": null,\n  \"canceled_at\": null,\n  \"pure_product_price\": \"27.0\",\n  \"tax\": \"1.35\",\n  \"delivery_charge\": \"200.0\",\n  \"total_price\": \"228.35\",\n  \"coupon_code\": null,\n  \"delivery_boy_id\": 1,\n  \"delivery_boy_phone\": \"5375109613\",\n  \"wanted_time\": null,\n  \"wanted_date\": null,\n  \"payment_type\": \"cash\",\n  \"is_paid\": false,\n  \"feedback\": null,\n  \"comment\": null,\n  \"source_type\": null,\n  \"admin_comment\": null\n}",
+      "response_body": "{\n  \"id\": 1,\n  \"user_id\": 2,\n  \"address_id\": 1,\n  \"status\": \"unconfirmed\",\n  \"created_at\": \"2016-09-23T09:15:00.954Z\",\n  \"confirmed_at\": null,\n  \"approved_at\": null,\n  \"dispacthed_at\": null,\n  \"delivered_at\": null,\n  \"canceled_at\": null,\n  \"pure_product_price\": \"27.0\",\n  \"tax\": \"1.35\",\n  \"delivery_charge\": \"200.0\",\n  \"total_price\": \"228.35\",\n  \"coupon_code\": null,\n  \"delivery_boy_id\": 1,\n  \"delivery_boy_phone\": \"9613149794\",\n  \"wanted_time\": null,\n  \"wanted_date\": null,\n  \"payment_type\": \"cash\",\n  \"is_paid\": false,\n  \"feedback\": null,\n  \"comment\": null,\n  \"source_type\": null,\n  \"admin_comment\": null\n}",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
-        "access-token": "V8eYkRMhX-S1RJUzzYHE1g",
+        "access-token": "YwWPa9ozAG0k7nLp2j8FGQ",
         "token-type": "Bearer",
-        "client": "xZRGvgAMEQHlutnBJ99kdw",
-        "expiry": "1475813644",
-        "uid": "28diana@rippinmertz.net",
+        "client": "UvzPncOvjqyBVKcQlqDbww",
+        "expiry": "1475831701",
+        "uid": "29jana@uptonlarkin.org",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"f19d035c81b0fda113d8a26c78eca63b\"",
+        "ETag": "W/\"77f7c5d2e323a85a867ae0207246642d\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=NGNrYlkxREJ0VGtKYUhSSXJQYXNyRisrVUZUZDVYZmE0V2FBUVQyTzU2WTBwZEl3K0VKb0hKektySXhja0ZFMjV2eWRYTmVvWXowbEsvbVhYRUM3UVhqR0RpeXA1OE91d1lYQUN6enhwZjhZZzA5OFBnN2pTWUllOEdSbC83Z3ZORE0xanR1SWdwK1hkQ1lNT2MrZzY5akRnUnR6QVdvd29sTmYxekV2UFNQbFk5U1Z4R0xBY1EyRDhabUNaNEVSLS1tdUJQWjV1UE9RVUVGM1VyY0ZPdlFnPT0%3D--5f283fc96b28df640bc6c16d64d4f32028494a80; path=/; HttpOnly",
-        "X-Request-Id": "4d73552c-7c62-4473-8191-d3b1d56dd2bb",
-        "X-Runtime": "0.082457",
+        "Set-Cookie": "_session_id=ZStvMk5iaisxdjBMRE9qSmhHa0M3ekd1R1ZIbEIwN0RPTnc4SVVIVFkyT0k1Ry9HL3dnUmRpek9hK0VFVllQb3QwNGlHOWlaampOaW5tQzBlRW5ldlQwaHBXLzdOWHJ6SHExRG5OSFJZRmtxUWhmazVZcCtkT2JDbWVRckpydjA0Nyt3Qll3eCtUS0dQeWZqS2EwQUV5SWNiVThlckppVGh4UE5qS0daTG10V1ZhRGkvNkVCZTFXeVA5bm40cmtULS16Qm5JUUZhcm5pQ3lmMkd5VS9Td213PT0%3D--5297b868ee400c985d4b47c0820e7fe91ca2a625; path=/; HttpOnly",
+        "X-Request-Id": "b9265744-d8bc-410e-b784-bcbcece87315",
+        "X-Runtime": "0.087141",
         "Content-Length": "507"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/admin/orders/1\" -d 'order[delivery_boy_id]=1' -X PUT \\\n\t-H \"Access-Token: V8eYkRMhX-S1RJUzzYHE1g\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: xZRGvgAMEQHlutnBJ99kdw\" \\\n\t-H \"Expiry: 1475813644\" \\\n\t-H \"Uid: 28diana@rippinmertz.net\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/admin/orders/1\" -d 'order[delivery_boy_id]=1' -X PUT \\\n\t-H \"Access-Token: YwWPa9ozAG0k7nLp2j8FGQ\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: UvzPncOvjqyBVKcQlqDbww\" \\\n\t-H \"Expiry: 1475831701\" \\\n\t-H \"Uid: 29jana@uptonlarkin.org\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

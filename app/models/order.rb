@@ -5,7 +5,8 @@ class Order < ActiveRecord::Base
 
 	belongs_to :user
 	belongs_to :delivery_boy
-	belongs_to :address
+	belongs_to :address, :inverse_of => :orders
+	# attr_accessor :address_id
 
 	has_many :line_items, inverse_of: :order, dependent: :destroy #so that on nested attrs order id in line_item is set
 	has_many :products,   through: :line_items
@@ -13,8 +14,11 @@ class Order < ActiveRecord::Base
 
 	accepts_nested_attributes_for :line_items, allow_destroy: true #Note that the :autosave option is automatically enabled on every association that #accepts_nested_attributes_for is used for
 
+	accepts_nested_attributes_for :address,  allow_destroy: true#reject_if: reject_address
 
-	validates_presence_of :user, :address
+  	
+	validates_presence_of :user,:address
+	# validates_presence_of :address, :if => proc{|attributes| attributes['address_attributes'].nil?}
 	validate              :has_line_items?
 	validate              :coupon_can_be_found?, 
 		if: :coupon_code_changed?, 
@@ -127,7 +131,9 @@ class Order < ActiveRecord::Base
 
 
 
-
+	def reject_address(attributes)
+   		attributes.any? {|key,val| val.blank?}
+  	end
 
 	# Since version 3.0.13 AASM supports ActiveRecord transactions. So whenever a transition callback or the state update fails, all changes to any database record are rolled back. Mongodb does not support transactions.
 	def decrease_stock

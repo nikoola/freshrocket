@@ -2,8 +2,8 @@
   "resource": "admin: orders",
   "http_method": "POST",
   "route": "/admin/orders",
-  "description": "create order",
-  "explanation": "confirm and approve right after",
+  "description": "create order with nested address attributes",
+  "explanation": "create order along with address attributes",
   "parameters": [
     {
       "scope": "order",
@@ -134,13 +134,13 @@
     {
       "request_method": "POST",
       "request_path": "/admin/orders",
-      "request_body": "order[address_id]=1&order[user_id]=2&order[line_items_attributes][][product_id]=1&order[line_items_attributes][][amount]=3",
+      "request_body": "order[address_attributes][id]&order[address_attributes][user_id]=1&order[address_attributes][city_id]=1&order[address_attributes][area_id]=1&order[address_attributes][street_and_house]=Uttar+Pradesh+247001%2C+India&order[address_attributes][door_number]=5&order[address_attributes][coordinate]&order[address_attributes][zip_code]&order[address_attributes][lat]=29.9109993&order[address_attributes][lng]=77.5390127&order[address_attributes][active]=true&order[user_id]=1&order[line_items_attributes][][product_id]=1&order[line_items_attributes][][amount]=3",
       "request_headers": {
-        "Access-Token": "BDUvqAIvFEUgbedqJHmAzQ",
+        "Access-Token": "N-koKBDVfKEOy5MkaF_vuA",
         "Token-Type": "Bearer",
-        "Client": "fEwj9au7SPHELnvqUbi-yw",
-        "Expiry": "1475831651",
-        "Uid": "24christopher@jacobs.info",
+        "Client": "mt5rNKrS-QyMuYRHuWVwNw",
+        "Expiry": "1475831669",
+        "Uid": "25novella@cristwuckert.co",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -150,26 +150,26 @@
       "request_content_type": "application/x-www-form-urlencoded",
       "response_status": 201,
       "response_status_text": "Created",
-      "response_body": "{\n  \"id\": 1,\n  \"user_id\": 2,\n  \"address_id\": 1,\n  \"status\": \"approved\",\n  \"created_at\": \"2016-09-23T09:14:11.926Z\",\n  \"confirmed_at\": \"2016-09-23T09:14:11.929Z\",\n  \"approved_at\": \"2016-09-23T09:14:11.936Z\",\n  \"dispacthed_at\": null,\n  \"delivered_at\": null,\n  \"canceled_at\": null,\n  \"pure_product_price\": null,\n  \"tax\": null,\n  \"delivery_charge\": null,\n  \"total_price\": null,\n  \"coupon_code\": null,\n  \"delivery_boy_id\": null,\n  \"delivery_boy_phone\": null,\n  \"wanted_time\": null,\n  \"wanted_date\": null,\n  \"payment_type\": \"cash\",\n  \"is_paid\": false,\n  \"feedback\": null,\n  \"comment\": null,\n  \"source_type\": null,\n  \"admin_comment\": null\n}",
+      "response_body": "{\n  \"id\": 1,\n  \"user_id\": 1,\n  \"address_id\": 1,\n  \"status\": \"approved\",\n  \"created_at\": \"2016-09-23T09:14:29.157Z\",\n  \"confirmed_at\": \"2016-09-23T09:14:29.159Z\",\n  \"approved_at\": \"2016-09-23T09:14:29.165Z\",\n  \"dispacthed_at\": null,\n  \"delivered_at\": null,\n  \"canceled_at\": null,\n  \"pure_product_price\": null,\n  \"tax\": null,\n  \"delivery_charge\": null,\n  \"total_price\": null,\n  \"coupon_code\": null,\n  \"delivery_boy_id\": null,\n  \"delivery_boy_phone\": null,\n  \"wanted_time\": null,\n  \"wanted_date\": null,\n  \"payment_type\": \"cash\",\n  \"is_paid\": false,\n  \"feedback\": null,\n  \"comment\": null,\n  \"source_type\": null,\n  \"admin_comment\": null\n}",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
-        "access-token": "BDUvqAIvFEUgbedqJHmAzQ",
+        "access-token": "N-koKBDVfKEOy5MkaF_vuA",
         "token-type": "Bearer",
-        "client": "fEwj9au7SPHELnvqUbi-yw",
-        "expiry": "1475831651",
-        "uid": "24christopher@jacobs.info",
+        "client": "mt5rNKrS-QyMuYRHuWVwNw",
+        "expiry": "1475831669",
+        "uid": "25novella@cristwuckert.co",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"12473c3230cfa778bb8582840c548936\"",
+        "ETag": "W/\"1c89a8a76acc2d6ef0e0a3f0bfcb57ee\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=bFA4UE9VZkFSWTFGWElNMUZVdDU5dm9WVUpvQVU4YW00MDhDUGpZNkFZSjF0QktZUTR4R3dCWXhjVUNzQ1p0Y2ZzdUMwLzRnQmUwNW9lWW9MOFVMS1dvS2hnelJ0c2VrSldPdEFCaFJtVW1ic2dEK010dkJiRERJOG0yYmZ5SUJ2d3R2cUtMa3QyQ0IyTmk5WkZudUpXeFAzVmZoOFNuQzJha3Vta0VncW9ERHdBMUMxbjdiM0pDcmdPRGNtYktaLS14bWdJTFE2Q2pTZGF5SVNKR3RVSXZnPT0%3D--6cbbd77fda0d7f7023c82f6a7df36161e5e90bcb; path=/; HttpOnly",
-        "X-Request-Id": "34fbb003-59a1-4f54-bea7-e0fd35b08b75",
-        "X-Runtime": "0.140499",
+        "Set-Cookie": "_session_id=S0IzNHQ3RlVtZmtCeG9VVXF6MUE2NUZadHNiM1JaWjVEcFRRekFPNWZ3QU1RNW1RNm5TWU93bGFIbHQ0WXg1bmFHZXBDNHppamVhQXg2Uk5YeHU2ei9YSlduU09yVXIrM3FHbTg3NkhvZUVCa0Z4ZG1FalY2bDRpWmI2TUxmTThEcVFBOG5oM09LcGZJTW9jT1JSQUVVMXV4SGgwdzlHRVVqY1kwOGZudi9ORmRmT05UZnNhbWthT2xjSnE5U213LS1zdUFhejY4eUpNKzNpSmVLajYxTW53PT0%3D--c2c07b3d618a950515b301dda90f3c58ab59f117; path=/; HttpOnly",
+        "X-Request-Id": "b45d2d2c-b2ac-44ff-ac22-8955e8c2ab91",
+        "X-Runtime": "0.089481",
         "Content-Length": "532"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/admin/orders\" -d 'order[address_id]=1&order[user_id]=2&order[line_items_attributes][][product_id]=1&order[line_items_attributes][][amount]=3' -X POST \\\n\t-H \"Access-Token: BDUvqAIvFEUgbedqJHmAzQ\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: fEwj9au7SPHELnvqUbi-yw\" \\\n\t-H \"Expiry: 1475831651\" \\\n\t-H \"Uid: 24christopher@jacobs.info\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/admin/orders\" -d 'order[address_attributes][id]&order[address_attributes][user_id]=1&order[address_attributes][city_id]=1&order[address_attributes][area_id]=1&order[address_attributes][street_and_house]=Uttar+Pradesh+247001%2C+India&order[address_attributes][door_number]=5&order[address_attributes][coordinate]&order[address_attributes][zip_code]&order[address_attributes][lat]=29.9109993&order[address_attributes][lng]=77.5390127&order[address_attributes][active]=true&order[user_id]=1&order[line_items_attributes][][product_id]=1&order[line_items_attributes][][amount]=3' -X POST \\\n\t-H \"Access-Token: N-koKBDVfKEOy5MkaF_vuA\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: mt5rNKrS-QyMuYRHuWVwNw\" \\\n\t-H \"Expiry: 1475831669\" \\\n\t-H \"Uid: 25novella@cristwuckert.co\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }
