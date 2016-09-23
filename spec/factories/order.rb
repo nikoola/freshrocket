@@ -6,7 +6,7 @@ FactoryGirl.define do
 		
 		before(:create) do |order|
 			city = FactoryGirl.create :city
-			area = FactoryGirl.create :area, city_id: city.id
+			area = FactoryGirl.create :area, city: city
 			order.line_items = create_list(:line_item, 3, order: order)
 
 			order.line_items.each do |li|

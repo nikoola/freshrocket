@@ -637,6 +637,13 @@
           "method": "get"
         },
         {
+          "description": "should send confirmation sms and email summary",
+          "link": "admin:_orders/should_send_confirmation_sms_and_email_summary.json",
+          "groups": "all",
+          "route": "/admin/orders/:id/send_confirmation_sms_and_email_summary",
+          "method": "post"
+        },
+        {
           "description": "update order",
           "link": "admin:_orders/update_order.json",
           "groups": "all",

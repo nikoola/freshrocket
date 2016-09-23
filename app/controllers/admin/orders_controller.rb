@@ -1,6 +1,6 @@
 module Admin
 	class OrdersController < BaseController
-		before_action :set_order, only: [:show, :update, :destroy, :update_status, :send_confirmation_sms_and_email_summay]
+		before_action :set_order, only: [:show, :update, :destroy, :update_status, :send_confirmation_sms_and_email_summary]
 		before_action -> { authorize 'orders' }
 
 		# GET /admin/orders

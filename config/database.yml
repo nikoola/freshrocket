@@ -17,7 +17,7 @@ test:
 
 production:
   adapter:  postgresql
-  database: rivo
+  database: freshrocket-newapi
   username: ENV['database.username']
   password: ENV['database.password']
   host:     localhost
