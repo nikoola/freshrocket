@@ -29,13 +29,13 @@
     {
       "request_method": "POST",
       "request_path": "/admin/cities",
-      "request_body": "city[id]&city[name]=New+Delhi&city[lat]=28.7040592&city[lng]=77.1024902&city[active]=true&city[stringified_coordinate]=%5B28.7040592%2C77.1024902%5D",
+      "request_body": "city[id]&city[name]=New+Delhi&city[lat]=28.7040592&city[lng]=77.1024902&city[active]=true&city[stringified_coordinate]=%5B28.7040592%2C77.1024902%5D&include[]=products",
       "request_headers": {
-        "Access-Token": "RYIfoGYajTBDWftIHs9WZA",
+        "Access-Token": "-UyujBsmdrCn1HfUf7LowA",
         "Token-Type": "Bearer",
-        "Client": "dsz4NbTrv7xcBZq0QxCy4Q",
-        "Expiry": "1475772486",
-        "Uid": "1elmer@wittingblock.name",
+        "Client": "xgyFuiyqEroLzAqzdi8mfg",
+        "Expiry": "1475778965",
+        "Uid": "1kristopher@dickens.name",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -51,21 +51,21 @@
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
         "Location": "http://example.org/cities/1",
-        "access-token": "RYIfoGYajTBDWftIHs9WZA",
+        "access-token": "-UyujBsmdrCn1HfUf7LowA",
         "token-type": "Bearer",
-        "client": "dsz4NbTrv7xcBZq0QxCy4Q",
-        "expiry": "1475772486",
-        "uid": "1elmer@wittingblock.name",
+        "client": "xgyFuiyqEroLzAqzdi8mfg",
+        "expiry": "1475778965",
+        "uid": "1kristopher@dickens.name",
         "Content-Type": "application/json; charset=utf-8",
         "ETag": "W/\"2ccb9df95004d49dcabd5160152be93a\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=ZXNkZ3BtMkY4OWhhWEZPVTJiN2c1cVRyWmtJWEo5K3VrcFRtL0FkbjNaZHFUVEdoeDhGNHA5L2QxeHRiUHZESWVZK1hWR0FGY1d3cm5aSXhZN1J0ZkYxc3hyNC93eUdpdlJrUzlmanN3NUVnTUpOdVdMdW9jY2dBRlhyWWhFYmFxck9EWFpDZFg4SXZjbDJZc3dGbndtMUdaZnlrUWttK2V2LzliR0N2eDR6MnVKbmNIeEs3M2pYdHAzY3g2RVZkLS15MHZ3aGFSWWkrQlQ1RG5qbHJtZHB3PT0%3D--475d7c0a04b40bf5dda7fc02f8e94752d6c71615; path=/; HttpOnly",
-        "X-Request-Id": "2f65e441-c037-4a65-ae02-dee7a9c7e87c",
-        "X-Runtime": "0.197420",
+        "Set-Cookie": "_session_id=dHZmOWRBMnlkeExkeDI0RUxSdVRNRlBmZk1aMURDS3haMGRWamc1TFkwNTl2cTJVSXg4UmVFbnNkY0ZqRmFQUlRXVCsrdWVIbGtTemFNMEt6TGRKeGJqK1JMcjJmZDZUZzJ0dDI1c1ZUWWppN1JmTXAxUUdhV0J5R05Hdlg3QWZGZ2Y5T1RSUndxQXo1WWM2NDlrTHZYUDlHdm9PRVFicS9kQ0xrTUdUYXBrSzNMU1RxbkZyeURDblpsWERjTDEyLS15OFNURFdUYlIrb05iSG91blREem9BPT0%3D--b3aee7796810c1b229ca8f2002841f5fd88255d9; path=/; HttpOnly",
+        "X-Request-Id": "b3dab734-2955-4c7a-9b5a-07c93a2ab668",
+        "X-Runtime": "0.170222",
         "Content-Length": "55"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/admin/cities\" -d 'city[id]&city[name]=New+Delhi&city[lat]=28.7040592&city[lng]=77.1024902&city[active]=true&city[stringified_coordinate]=%5B28.7040592%2C77.1024902%5D' -X POST \\\n\t-H \"Access-Token: RYIfoGYajTBDWftIHs9WZA\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: dsz4NbTrv7xcBZq0QxCy4Q\" \\\n\t-H \"Expiry: 1475772486\" \\\n\t-H \"Uid: 1elmer@wittingblock.name\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/admin/cities\" -d 'city[id]&city[name]=New+Delhi&city[lat]=28.7040592&city[lng]=77.1024902&city[active]=true&city[stringified_coordinate]=%5B28.7040592%2C77.1024902%5D&include[]=products' -X POST \\\n\t-H \"Access-Token: -UyujBsmdrCn1HfUf7LowA\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: xgyFuiyqEroLzAqzdi8mfg\" \\\n\t-H \"Expiry: 1475778965\" \\\n\t-H \"Uid: 1kristopher@dickens.name\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

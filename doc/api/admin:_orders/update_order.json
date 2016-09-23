@@ -16,11 +16,11 @@
       "request_path": "/admin/orders/1",
       "request_body": "order[delivery_boy_id]=1",
       "request_headers": {
-        "Access-Token": "wQaLwh0QRgEUGilNO7pwVQ",
+        "Access-Token": "V8eYkRMhX-S1RJUzzYHE1g",
         "Token-Type": "Bearer",
-        "Client": "ZOL7BFRJrt5pj7jQwIe0Ig",
-        "Expiry": "1475151341",
-        "Uid": "55orval@kemmer.name",
+        "Client": "xZRGvgAMEQHlutnBJ99kdw",
+        "Expiry": "1475813644",
+        "Uid": "28diana@rippinmertz.net",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -30,26 +30,26 @@
       "request_content_type": "application/x-www-form-urlencoded",
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\n  \"id\": 1,\n  \"user_id\": 2,\n  \"status\": \"unconfirmed\",\n  \"created_at\": \"2016-09-15T12:15:41.664Z\",\n  \"confirmed_at\": null,\n  \"approved_at\": null,\n  \"dispacthed_at\": null,\n  \"delivered_at\": null,\n  \"canceled_at\": null,\n  \"pure_product_price\": \"27.0\",\n  \"tax\": \"1.35\",\n  \"delivery_charge\": \"200.0\",\n  \"total_price\": \"228.35\",\n  \"coupon_code\": null,\n  \"delivery_boy_id\": 1,\n  \"delivery_boy_phone\": \"4670122392\",\n  \"wanted_time\": null,\n  \"wanted_date\": null,\n  \"payment_type\": \"cash\",\n  \"is_paid\": false,\n  \"feedback\": null,\n  \"comment\": null,\n  \"source_type\": null,\n  \"admin_comment\": null,\n  \"line_items\": [\n    {\n      \"id\": 1,\n      \"order_id\": 1,\n      \"amount\": 3,\n      \"fixed_price\": \"9.0\",\n      \"product_id\": 1\n    },\n    {\n      \"id\": 2,\n      \"order_id\": 1,\n      \"amount\": 3,\n      \"fixed_price\": \"9.0\",\n      \"product_id\": 2\n    },\n    {\n      \"id\": 3,\n      \"order_id\": 1,\n      \"amount\": 3,\n      \"fixed_price\": \"9.0\",\n      \"product_id\": 3\n    }\n  ],\n  \"address\": {\n    \"id\": 1,\n    \"city_id\": 1,\n    \"user_id\": 3,\n    \"street_and_house\": \"O712, Ravi Nagar, Dwarka Nagri, Akola, Maharashtra 444001, India\",\n    \"door_number\": \"5\",\n    \"active\": true,\n    \"city_name\": \"Kozhikode\"\n  },\n  \"delivery_boy\": {\n    \"id\": 1,\n    \"user_id\": 1,\n    \"current_order_id\": null,\n    \"status\": \"available\"\n  }\n}",
+      "response_body": "{\n  \"id\": 1,\n  \"user_id\": 2,\n  \"address_id\": 1,\n  \"status\": \"unconfirmed\",\n  \"created_at\": \"2016-09-23T04:14:04.778Z\",\n  \"confirmed_at\": null,\n  \"approved_at\": null,\n  \"dispacthed_at\": null,\n  \"delivered_at\": null,\n  \"canceled_at\": null,\n  \"pure_product_price\": \"27.0\",\n  \"tax\": \"1.35\",\n  \"delivery_charge\": \"200.0\",\n  \"total_price\": \"228.35\",\n  \"coupon_code\": null,\n  \"delivery_boy_id\": 1,\n  \"delivery_boy_phone\": \"5375109613\",\n  \"wanted_time\": null,\n  \"wanted_date\": null,\n  \"payment_type\": \"cash\",\n  \"is_paid\": false,\n  \"feedback\": null,\n  \"comment\": null,\n  \"source_type\": null,\n  \"admin_comment\": null\n}",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
-        "access-token": "wQaLwh0QRgEUGilNO7pwVQ",
+        "access-token": "V8eYkRMhX-S1RJUzzYHE1g",
         "token-type": "Bearer",
-        "client": "ZOL7BFRJrt5pj7jQwIe0Ig",
-        "expiry": "1475151341",
-        "uid": "55orval@kemmer.name",
+        "client": "xZRGvgAMEQHlutnBJ99kdw",
+        "expiry": "1475813644",
+        "uid": "28diana@rippinmertz.net",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"7862a7ecbb48ab496b9ac78445a886a9\"",
+        "ETag": "W/\"f19d035c81b0fda113d8a26c78eca63b\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=bms2V1QyYzRWZ0h1Vzl3Nm5OMDRxaE1kajA0NlBmM2NLWWh3SHJPN1hKTk9YcEFRUmdoL09ITUV1U2JVWVhaL3NJMXo0c0VUUk56NzNzV2R5VDNzMUxwbjZZTVVEdjYwNlJWbTlMbFh5Um5LUHZ5WEFUd01zaHhDaVBFYVFNWHZ5NFJKcEtPM2VxMTJlWExld1h0VndMYmlaSnk3NmlOMzdaTGEwREY4eWFMNzA5c2FQR01NTlVKa1dhTGl5NDA4LS1UREpJdXozSXdHL2J0L01nTEVUTlRBPT0%3D--5a78c5ec1efc010461664e2b404ac8b075b76bae; path=/; HttpOnly",
-        "X-Request-Id": "dbada0b2-6318-40f0-8cb0-f8d1e362e994",
-        "X-Runtime": "0.085758",
-        "Content-Length": "977"
+        "Set-Cookie": "_session_id=NGNrYlkxREJ0VGtKYUhSSXJQYXNyRisrVUZUZDVYZmE0V2FBUVQyTzU2WTBwZEl3K0VKb0hKektySXhja0ZFMjV2eWRYTmVvWXowbEsvbVhYRUM3UVhqR0RpeXA1OE91d1lYQUN6enhwZjhZZzA5OFBnN2pTWUllOEdSbC83Z3ZORE0xanR1SWdwK1hkQ1lNT2MrZzY5akRnUnR6QVdvd29sTmYxekV2UFNQbFk5U1Z4R0xBY1EyRDhabUNaNEVSLS1tdUJQWjV1UE9RVUVGM1VyY0ZPdlFnPT0%3D--5f283fc96b28df640bc6c16d64d4f32028494a80; path=/; HttpOnly",
+        "X-Request-Id": "4d73552c-7c62-4473-8191-d3b1d56dd2bb",
+        "X-Runtime": "0.082457",
+        "Content-Length": "507"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/admin/orders/1\" -d 'order[delivery_boy_id]=1' -X PUT \\\n\t-H \"Access-Token: wQaLwh0QRgEUGilNO7pwVQ\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: ZOL7BFRJrt5pj7jQwIe0Ig\" \\\n\t-H \"Expiry: 1475151341\" \\\n\t-H \"Uid: 55orval@kemmer.name\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/admin/orders/1\" -d 'order[delivery_boy_id]=1' -X PUT \\\n\t-H \"Access-Token: V8eYkRMhX-S1RJUzzYHE1g\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: xZRGvgAMEQHlutnBJ99kdw\" \\\n\t-H \"Expiry: 1475813644\" \\\n\t-H \"Uid: 28diana@rippinmertz.net\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

@@ -1,0 +1,54 @@
+{
+  "resource": "admin: orders",
+  "http_method": "POST",
+  "route": "/admin/orders/:id/send_confirmation_sms_and_email_summay",
+  "description": "should send confirmation sms and email summary",
+  "explanation": null,
+  "parameters": [
+
+  ],
+  "response_fields": [
+
+  ],
+  "requests": [
+    {
+      "request_method": "POST",
+      "request_path": "/admin/orders/1/send_confirmation_sms_and_email_summay",
+      "request_body": null,
+      "request_headers": {
+        "Access-Token": "eT0IsGI7Fjp2yCQJ7OK86A",
+        "Token-Type": "Bearer",
+        "Client": "Fc9qVIoR_PbWGDqHTcIYig",
+        "Expiry": "1475813808",
+        "Uid": "44ricky@kautzer.co",
+        "Host": "example.org",
+        "Content-Type": "application/x-www-form-urlencoded",
+        "Cookie": ""
+      },
+      "request_query_parameters": {
+      },
+      "request_content_type": "application/x-www-form-urlencoded",
+      "response_status": 200,
+      "response_status_text": "OK",
+      "response_body": null,
+      "response_headers": {
+        "X-Frame-Options": "SAMEORIGIN",
+        "X-XSS-Protection": "1; mode=block",
+        "X-Content-Type-Options": "nosniff",
+        "access-token": "eT0IsGI7Fjp2yCQJ7OK86A",
+        "token-type": "Bearer",
+        "client": "Fc9qVIoR_PbWGDqHTcIYig",
+        "expiry": "1475813808",
+        "uid": "44ricky@kautzer.co",
+        "Content-Type": "text/html",
+        "Cache-Control": "no-cache",
+        "Set-Cookie": "_session_id=bUdZVXUzL1RodXViblNBNE8yamEzMHJlU1BwcjBMeFBCUXJRNHoycjVuZWk5VTBndzJOUTFxZWxOOVV2NFdDbzJHcmRNT2tGZy9lY0JGdFpiZ1d3NnRpblBKNUxIczRBamRtKzh3ZDk4R3p3UW5rMWFRdlNIeVA0UTEyMXc2eEdzM1N1a1haRTF5YXFwV0hpRW1kSXEyZkhMTlJPT2ozejBFY0JaRUU3Sk5Dd3hmZ3FrTDhVVzZlRk9HMmdzOUdyLS03QTl1Y045NUJDWHlLYTBsS2xUa1N3PT0%3D--5d66785baf9330bb3cc1cb8fc0555adb279c4aac; path=/; HttpOnly",
+        "X-Request-Id": "cede369b-e2f6-4200-8c55-e0500cb6c26b",
+        "X-Runtime": "0.081221",
+        "Content-Length": "0"
+      },
+      "response_content_type": "text/html",
+      "curl": "curl \"http://localhost:3000/admin/orders/1/send_confirmation_sms_and_email_summay\" -d '' -X POST \\\n\t-H \"Access-Token: eT0IsGI7Fjp2yCQJ7OK86A\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: Fc9qVIoR_PbWGDqHTcIYig\" \\\n\t-H \"Expiry: 1475813808\" \\\n\t-H \"Uid: 44ricky@kautzer.co\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+    }
+  ]
+}

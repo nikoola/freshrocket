@@ -74,11 +74,11 @@
       "request_path": "/admin/orders",
       "request_body": "order[address_id]=1&order[user_id]=2&order[line_items_attributes][][product_id]=1&order[line_items_attributes][][amount]=3",
       "request_headers": {
-        "Access-Token": "Vt8ruZW3Fnv2d7MU2P0eGg",
+        "Access-Token": "uYAROJuQKqyUzcQhfhoo8A",
         "Token-Type": "Bearer",
-        "Client": "mtJi595Si1OWzmNwK5-gqg",
-        "Expiry": "1475151334",
-        "Uid": "51giovanni_considine@feest.com",
+        "Client": "3Hcibf8cH-Ea152CY6om_w",
+        "Expiry": "1475813614",
+        "Uid": "24trever_harvey@goldner.co",
         "Host": "example.org",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": ""
@@ -88,26 +88,26 @@
       "request_content_type": "application/x-www-form-urlencoded",
       "response_status": 201,
       "response_status_text": "Created",
-      "response_body": "{\n  \"id\": 1,\n  \"user_id\": 2,\n  \"status\": \"approved\",\n  \"created_at\": \"2016-09-15T12:15:34.239Z\",\n  \"confirmed_at\": \"2016-09-15T12:15:34.241Z\",\n  \"approved_at\": \"2016-09-15T12:15:34.249Z\",\n  \"dispacthed_at\": null,\n  \"delivered_at\": null,\n  \"canceled_at\": null,\n  \"pure_product_price\": null,\n  \"tax\": null,\n  \"delivery_charge\": null,\n  \"total_price\": null,\n  \"coupon_code\": null,\n  \"delivery_boy_id\": null,\n  \"delivery_boy_phone\": null,\n  \"wanted_time\": null,\n  \"wanted_date\": null,\n  \"payment_type\": \"cash\",\n  \"is_paid\": false,\n  \"feedback\": null,\n  \"comment\": null,\n  \"source_type\": null,\n  \"admin_comment\": null,\n  \"line_items\": [\n    {\n      \"id\": 1,\n      \"order_id\": 1,\n      \"amount\": 3,\n      \"fixed_price\": null,\n      \"product_id\": 1\n    }\n  ],\n  \"address\": {\n    \"id\": 1,\n    \"city_id\": 2,\n    \"user_id\": 1,\n    \"street_and_house\": \"Tiruppur, Tamil Nadu 641601, India\",\n    \"door_number\": \"5\",\n    \"active\": true,\n    \"city_name\": \"Tiruppur\"\n  },\n  \"delivery_boy\": null\n}",
+      "response_body": "{\n  \"id\": 1,\n  \"user_id\": 2,\n  \"address_id\": 1,\n  \"status\": \"approved\",\n  \"created_at\": \"2016-09-23T04:13:34.718Z\",\n  \"confirmed_at\": \"2016-09-23T04:13:34.720Z\",\n  \"approved_at\": \"2016-09-23T04:13:34.726Z\",\n  \"dispacthed_at\": null,\n  \"delivered_at\": null,\n  \"canceled_at\": null,\n  \"pure_product_price\": null,\n  \"tax\": null,\n  \"delivery_charge\": null,\n  \"total_price\": null,\n  \"coupon_code\": null,\n  \"delivery_boy_id\": null,\n  \"delivery_boy_phone\": null,\n  \"wanted_time\": null,\n  \"wanted_date\": null,\n  \"payment_type\": \"cash\",\n  \"is_paid\": false,\n  \"feedback\": null,\n  \"comment\": null,\n  \"source_type\": null,\n  \"admin_comment\": null\n}",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
-        "access-token": "Vt8ruZW3Fnv2d7MU2P0eGg",
+        "access-token": "uYAROJuQKqyUzcQhfhoo8A",
         "token-type": "Bearer",
-        "client": "mtJi595Si1OWzmNwK5-gqg",
-        "expiry": "1475151334",
-        "uid": "51giovanni_considine@feest.com",
+        "client": "3Hcibf8cH-Ea152CY6om_w",
+        "expiry": "1475813614",
+        "uid": "24trever_harvey@goldner.co",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"5cfe0f6481d2bbd63b93fed491589cd2\"",
+        "ETag": "W/\"c05715522ae21a65178d3332f37f872c\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "_session_id=NllxUzVUcHFpckprREE0c1M0M1hscWZ6eFRhanAwMEtxSVJ6U1RQTTJOemJ2S1NMTVc5ZWlMcldmdzRmWk5oUkxiR2FWaVRhdnQ4N211dUhrUEpRZzlJY0ZhSDNwY3J4MUpMcWZxY0Y4djlUeE9pV1FpV1dKOTVNQkI1ZjRTblNEQ1dXOEhRbGRhcGlBTHByTFdOZy9MS2tHTFRZVjN0WTdFa1ZGQnZwTzAxM0p2dEhZWnZGbkh3Z1J3eUxYancxLS1TMVdsT2p1VjQ2Z2xCZ1crNlNYQTl3PT0%3D--80b4147d3ef4d4e6a1ce1a50cc3629f5371685c5; path=/; HttpOnly",
-        "X-Request-Id": "5ad53e43-10fe-42c7-b23d-4a92c85205ad",
-        "X-Runtime": "0.141703",
-        "Content-Length": "773"
+        "Set-Cookie": "_session_id=bVFnK3RHMmdUTkFweWVZNXVsWVhoU21RZzRLZStwSkNCUiswc3kwVlZ2U3YwcXJ0ZTR5eVZBaUwwQkd1TGxvNzBQeFRYNUlhZlhOWWlVZ1hBU3hMRHl4dUpGOG1mTWJGb0QzdHBlRjdlTzY2ZzRjVHZJTjNHaVJ1dFFQMXJGbGdqOStuK29tOUI1S2hZeFFBQ3hJanJFMHgvakVRVEVMeHUzTHhuQ21GYWJPMTVCcFlYOTEyRlMzdkpoSURmRWt1LS1jbmpmNDdnMjExMm1KVFhnSTFmUUVBPT0%3D--2c75b627bb5c24e89c215a4eebc6af9f48191f6a; path=/; HttpOnly",
+        "X-Request-Id": "2ae9da7b-d35d-4608-843e-ebd358af614d",
+        "X-Runtime": "0.147609",
+        "Content-Length": "532"
       },
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/admin/orders\" -d 'order[address_id]=1&order[user_id]=2&order[line_items_attributes][][product_id]=1&order[line_items_attributes][][amount]=3' -X POST \\\n\t-H \"Access-Token: Vt8ruZW3Fnv2d7MU2P0eGg\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: mtJi595Si1OWzmNwK5-gqg\" \\\n\t-H \"Expiry: 1475151334\" \\\n\t-H \"Uid: 51giovanni_considine@feest.com\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/admin/orders\" -d 'order[address_id]=1&order[user_id]=2&order[line_items_attributes][][product_id]=1&order[line_items_attributes][][amount]=3' -X POST \\\n\t-H \"Access-Token: uYAROJuQKqyUzcQhfhoo8A\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: 3Hcibf8cH-Ea152CY6om_w\" \\\n\t-H \"Expiry: 1475813614\" \\\n\t-H \"Uid: 24trever_harvey@goldner.co\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Cookie: \""
     }
   ]
 }

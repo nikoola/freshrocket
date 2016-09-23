@@ -1,4 +1,6 @@
 require 'rails_helper'
+include ActiveJob::TestHelper
+ActiveJob::Base.queue_adapter = :test
 
 resource 'admin: orders', type: :request do
 
@@ -195,6 +197,22 @@ resource 'admin: orders', type: :request do
 
 
 	end
+
+	post '/admin/orders/:id/send_confirmation_sms_and_email_summay',focus: true do
+		it 'should send confirmation sms and email summary' do
+			order.save
+			# binding.pry
+			expect {
+				do_request id: order.id
+			}.to have_enqueued_job.on_queue('sms')
+			.and have_enqueued_job.on_queue('mailers')
+
+
+			expect(status).to eq(200)
+			# expect
+		end
+	end
+
 
 
 

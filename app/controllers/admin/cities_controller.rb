@@ -9,7 +9,7 @@ module Admin
 			@city = City.new(city_params)
 
 			if @city.save
-				render json: @city, status: :created, location: @city
+				render json: @city, status: :created, location: @city, include: params[:include]
 			else
 				render json: @city.errors, status: :unprocessable_entity
 			end
@@ -20,7 +20,7 @@ module Admin
 			@city = City.find(params[:id])
 
 			if @city.update(city_params)
-				render json: @city, status: 200
+				render json: @city, status: 200, include: params[:include]
 			else
 				render json: @city.errors, status: :unprocessable_entity #422
 			end

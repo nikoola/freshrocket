@@ -26,7 +26,7 @@ resource 'admin: cities', type: :request do
 			hash[:stringified_coordinate] = "["+city.lat.to_s+","+city.lng.to_s+"]"
 			# puts hash
 			#####################################
-			do_request city: hash
+			do_request city: hash, include: [:products]
 			expect(status).to eq(201)
 		end
 

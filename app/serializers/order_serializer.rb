@@ -1,5 +1,5 @@
 class OrderSerializer < ActiveModel::Serializer
-	attributes :id, :user_id, :status, 
+	attributes :id, :user_id, :address_id, :status, 
 		:created_at, :confirmed_at, :approved_at, :dispacthed_at, :delivered_at, :canceled_at,
 		:pure_product_price, :tax, :delivery_charge, :total_price, :coupon_code,
 		:delivery_boy_id, :delivery_boy_phone,
@@ -9,8 +9,6 @@ class OrderSerializer < ActiveModel::Serializer
 		:source_type
 		
 	attribute :admin_comment, if: :current_user_can_manage_admins
-
-
 
 	has_many   :line_items
 	has_one    :address
@@ -25,7 +23,4 @@ class OrderSerializer < ActiveModel::Serializer
 		db = object.delivery_boy
 		db ? db.user.phone : nil
 	end
-
-
-
 end

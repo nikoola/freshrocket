@@ -148,5 +148,5 @@ body.single-page .docs-section > section.readme article {
 
 .sidebar {
     overflow: auto;
-    max-height: 550px;
+    max-height: 2000px;
 }

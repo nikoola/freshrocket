@@ -1,6 +1,6 @@
 module Admin
 	class OrdersController < BaseController
-		before_action :set_order, only: [:show, :update, :destroy, :update_status]
+		before_action :set_order, only: [:show, :update, :destroy, :update_status, :send_confirmation_sms_and_email_summay]
 		before_action -> { authorize 'orders' }
 
 		# GET /admin/orders
@@ -59,7 +59,15 @@ module Admin
 			end
 
 		end
-
+		def send_confirmation_sms_and_email_summay
+			# binding.pry
+			unless @order.present?
+				render json: { errors: 'no Order with such id' }, status: 422
+			end
+			ClientMailer.order_summary(@order).deliver_later
+			SendConfirmationSmsJob.perform_later @order.user.name, @order.user.phone
+			head 200
+		end
 		private
 
 

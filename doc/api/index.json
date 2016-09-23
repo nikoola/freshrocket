@@ -131,53 +131,6 @@
       ]
     },
     {
-      "name": "admin: orders",
-      "examples": [
-        {
-          "description": "approve confirmed order",
-          "link": "admin:_orders/approve_confirmed_order.json",
-          "groups": "all",
-          "route": "/admin/orders/:id/update_status",
-          "method": "put"
-        },
-        {
-          "description": "cant update to dispatched if delivery has no delivery_boy",
-          "link": "admin:_orders/cant_update_to_dispatched_if_delivery_has_no_delivery_boy.json",
-          "groups": "all",
-          "route": "/admin/orders/:id/update_status",
-          "method": "put"
-        },
-        {
-          "description": "create order",
-          "link": "admin:_orders/create_order.json",
-          "groups": "all",
-          "route": "/admin/orders",
-          "method": "post"
-        },
-        {
-          "description": "get filtered orders",
-          "link": "admin:_orders/get_filtered_orders.json",
-          "groups": "all",
-          "route": "/admin/orders",
-          "method": "get"
-        },
-        {
-          "description": "get order",
-          "link": "admin:_orders/get_order.json",
-          "groups": "all",
-          "route": "/admin/orders/:id",
-          "method": "get"
-        },
-        {
-          "description": "update order",
-          "link": "admin:_orders/update_order.json",
-          "groups": "all",
-          "route": "/admin/orders/:id",
-          "method": "put"
-        }
-      ]
-    },
-    {
       "name": "admin: products",
       "examples": [
         {
@@ -634,6 +587,60 @@
           "link": "admin:_cities/update_city.json",
           "groups": "all",
           "route": "/admin/cities/:id",
+          "method": "put"
+        }
+      ]
+    },
+    {
+      "name": "admin: orders",
+      "examples": [
+        {
+          "description": "approve confirmed order",
+          "link": "admin:_orders/approve_confirmed_order.json",
+          "groups": "all",
+          "route": "/admin/orders/:id/update_status",
+          "method": "put"
+        },
+        {
+          "description": "cant update to dispatched if delivery has no delivery_boy",
+          "link": "admin:_orders/cant_update_to_dispatched_if_delivery_has_no_delivery_boy.json",
+          "groups": "all",
+          "route": "/admin/orders/:id/update_status",
+          "method": "put"
+        },
+        {
+          "description": "create order",
+          "link": "admin:_orders/create_order.json",
+          "groups": "all",
+          "route": "/admin/orders",
+          "method": "post"
+        },
+        {
+          "description": "get filtered orders",
+          "link": "admin:_orders/get_filtered_orders.json",
+          "groups": "all",
+          "route": "/admin/orders",
+          "method": "get"
+        },
+        {
+          "description": "get order",
+          "link": "admin:_orders/get_order.json",
+          "groups": "all",
+          "route": "/admin/orders/:id",
+          "method": "get"
+        },
+        {
+          "description": "should send confirmation sms and email summary",
+          "link": "admin:_orders/should_send_confirmation_sms_and_email_summary.json",
+          "groups": "all",
+          "route": "/admin/orders/:id/send_confirmation_sms_and_email_summay",
+          "method": "post"
+        },
+        {
+          "description": "update order",
+          "link": "admin:_orders/update_order.json",
+          "groups": "all",
+          "route": "/admin/orders/:id",
           "method": "put"
         }
       ]
