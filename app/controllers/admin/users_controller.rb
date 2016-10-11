@@ -2,7 +2,7 @@ module Admin
 	class UsersController < BaseController
 
 		before_action :set_user, only: [:show, :update, :destroy, :update_abilities]
-		before_action -> { authorize 'users' }
+		#before_action -> { authorize 'users' }
 
 		# GET /users
 		def index
@@ -10,7 +10,7 @@ module Admin
 			city_id = params[:city].present? ? JSON.parse(params[:city])['id'] : '*'
 			#city_id filter is not working now
 			# unless city_id
-				users = User.filter params.slice(:has_ability, :city_id)#.merge({:city_id => city_id})
+				users = User.filter params.slice(:has_ability, :city_id, :phone_includes)#.merge({:city_id => city_id})
 				# binding.pry
 				render json: users, include: params[:include] #and return true
 
