@@ -5,7 +5,9 @@ class UserSerializer < ActiveModel::Serializer
 		:provider,
 		:uid,
 		:created_at,
-		:abilities
+		:abilities,
+	  :addresses,
+	  :orders
 
 	has_many :addresses
 	has_many :orders
