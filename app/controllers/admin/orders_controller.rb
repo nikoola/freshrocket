@@ -6,12 +6,12 @@ module Admin
 		# GET /admin/orders
 		def index
 			city_id = params[:city_id]#params[:city].present? ? JSON.parse(params[:city])['id'] : nil
+			status = params[:status]
 							# binding.pry
-
 			if city_id && Address.get_address_by_city_id(city_id)
-				@orders = Address.get_address_by_city_id(city_id).orders
-				render json: @orders, include: params[:include]
-			else
+			  @orders = Address.get_address_by_city_id(city_id).orders.where(status: status)
+			  render json: @orders, include: params[:include]
+		  else
 				render json:[]
 			end
 		end
