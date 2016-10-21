@@ -9,7 +9,11 @@ module Admin
 			status = params[:status]
 							# binding.pry
 			if city_id && Address.get_address_by_city_id(city_id)
-			  @orders = Address.get_address_by_city_id(city_id).orders.where(status: status)
+				if status
+			  	@orders = Address.get_address_by_city_id(city_id).orders.where(status: status)
+				else
+					@orders = Address.get_address_by_city_id(city_id).orders
+				end
 			  render json: @orders, include: params[:include]
 		  else
 				render json:[]
