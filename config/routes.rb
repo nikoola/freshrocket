@@ -60,6 +60,7 @@ Rails.application.routes.draw do
 			collection {
 				post :citrus
 				post :paytm
+        get :discount
 			}
 		end
 

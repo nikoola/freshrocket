@@ -86,5 +86,15 @@ module Client
 
 		end
 
+		def discount
+			cupon_code =  params[:cupon_code]
+			if cupon_code && Coupon.where(code: cupon_code).first
+				@cupon = Coupon.where(code: cupon_code).first
+				render json: @cupon, status: 200
+			else
+				render json:[]
+			end
+		end
+
 	end
 end
