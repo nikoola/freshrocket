@@ -18,7 +18,8 @@ class ImageUploader < CarrierWave::Uploader::Base
 
   # Provide a default URL as a default if there hasn't been a file uploaded:
   def default_url
-    "https://#{ENV['aws.fog_directory']}.s3.amazonaws.com/uploads/#{model.class.to_s.underscore}/#{mounted_as}/default.png"
+    "https://freshrocket.s3.amazonaws.com/uploads/#{model.class.to_s.underscore}/#{mounted_as}/default.png"
+    #"https://#{ENV['aws.fog_directory']}.s3.amazonaws.com/uploads/#{model.class.to_s.underscore}/#{mounted_as}/default.png"
   end
 
   # Process files as they are uploaded:
