@@ -3,7 +3,8 @@ class ProductSerializer < ActiveModel::Serializer
 		:city_id,
 		:title, :price, :description,
 		:created_at, :updated_at,
-		:inventory_count, :image_url
+		:inventory_count, :image_url,
+	  :categories
 
 	has_many :categories
 	has_many :options
