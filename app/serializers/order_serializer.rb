@@ -6,7 +6,8 @@ class OrderSerializer < ActiveModel::Serializer
 		:wanted_time, :wanted_date,
 		:payment_type, :is_paid,
 		:feedback, :comment,
-		:source_type
+		:source_type,
+		:products
 		
 	attribute :admin_comment, if: :current_user_can_manage_admins
 
