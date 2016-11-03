@@ -26,6 +26,18 @@ resource 'client: payments', type: :request do
 		end
 
 
+  end
+
+	get '/client/payments/discount' do
+		parameter :cupon_code, '', required: true
+		example_request "return coupon code if exist" do
+			coupon = FactoryGirl.create :coupon
+
+			do_request cupon_code: coupon.code
+
+			expect(json).to include :id, :name, :code, :discount
+			expect(status).to eq(200)
+		end
 	end
 
 end

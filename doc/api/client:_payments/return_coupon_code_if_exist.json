@@ -1,0 +1,98 @@
+{
+  "resource": "client: payments",
+  "http_method": "GET",
+  "route": "/client/payments/discount",
+  "description": "return coupon code if exist",
+  "explanation": null,
+  "parameters": [
+    {
+      "required": true,
+      "name": "cupon_code",
+      "description": ""
+    }
+  ],
+  "response_fields": [
+
+  ],
+  "requests": [
+    {
+      "request_method": "GET",
+      "request_path": "/client/payments/discount",
+      "request_body": null,
+      "request_headers": {
+        "Access-Token": "2PA3xB3OM8SwbWELyxJbDQ",
+        "Token-Type": "Bearer",
+        "Client": "ww7Y-V6w1LWwxIzalTxgiQ",
+        "Expiry": "1479398979",
+        "Uid": "75gunnar@nolan.biz",
+        "Host": "example.org",
+        "Cookie": ""
+      },
+      "request_query_parameters": {
+      },
+      "request_content_type": null,
+      "response_status": 200,
+      "response_status_text": "OK",
+      "response_body": "[\n\n]",
+      "response_headers": {
+        "X-Frame-Options": "SAMEORIGIN",
+        "X-XSS-Protection": "1; mode=block",
+        "X-Content-Type-Options": "nosniff",
+        "access-token": "2PA3xB3OM8SwbWELyxJbDQ",
+        "token-type": "Bearer",
+        "client": "ww7Y-V6w1LWwxIzalTxgiQ",
+        "expiry": "1479398979",
+        "uid": "75gunnar@nolan.biz",
+        "Content-Type": "application/json; charset=utf-8",
+        "ETag": "W/\"d751713988987e9331980363e24189ce\"",
+        "Cache-Control": "max-age=0, private, must-revalidate",
+        "Set-Cookie": "_session_id=eHpTQUNCTGVVUys0M3JEdUMvMFlWL0lCajdDSWRpNUtmRE8vbU9wSXNtaUNDZmlmNUFSaVZxUG1RYytZQm9OcDFoa3l5WEEzUHpHN2RMakozWlYrMzQ5TnFKZGF0bFFGaWkvbUY1WFNXR3hjdUdSRDNkdlNUMXhxWFJ1MmZLWC9EZDd1WTBGdFFQUW5CWjZZMStXKzVNdnNDNGRJdVJQYUVvM09IUHp5WXNnNm5rQnB0cGJBUzkvNWpIVmdyVHFhLS1UQVRrSFdNNjJmSXk5cnlSU3Nxd2h3PT0%3D--191c951a231a6b4f55fa9961e1ba3f9445479134; path=/; HttpOnly",
+        "X-Request-Id": "1083f8ff-e0e9-4c53-a18e-659f114ff945",
+        "X-Runtime": "0.082933",
+        "Content-Length": "2"
+      },
+      "response_content_type": "application/json; charset=utf-8",
+      "curl": "curl \"http://localhost:3000/client/payments/discount\" -X GET \\\n\t-H \"Access-Token: 2PA3xB3OM8SwbWELyxJbDQ\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: ww7Y-V6w1LWwxIzalTxgiQ\" \\\n\t-H \"Expiry: 1479398979\" \\\n\t-H \"Uid: 75gunnar@nolan.biz\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
+    },
+    {
+      "request_method": "GET",
+      "request_path": "/client/payments/discount?cupon_code=27527",
+      "request_body": null,
+      "request_headers": {
+        "Access-Token": "2PA3xB3OM8SwbWELyxJbDQ",
+        "Token-Type": "Bearer",
+        "Client": "ww7Y-V6w1LWwxIzalTxgiQ",
+        "Expiry": "1479398979",
+        "Uid": "75gunnar@nolan.biz",
+        "Host": "example.org",
+        "Cookie": "_session_id=eHpTQUNCTGVVUys0M3JEdUMvMFlWL0lCajdDSWRpNUtmRE8vbU9wSXNtaUNDZmlmNUFSaVZxUG1RYytZQm9OcDFoa3l5WEEzUHpHN2RMakozWlYrMzQ5TnFKZGF0bFFGaWkvbUY1WFNXR3hjdUdSRDNkdlNUMXhxWFJ1MmZLWC9EZDd1WTBGdFFQUW5CWjZZMStXKzVNdnNDNGRJdVJQYUVvM09IUHp5WXNnNm5rQnB0cGJBUzkvNWpIVmdyVHFhLS1UQVRrSFdNNjJmSXk5cnlSU3Nxd2h3PT0%3D--191c951a231a6b4f55fa9961e1ba3f9445479134"
+      },
+      "request_query_parameters": {
+        "cupon_code": "27527"
+      },
+      "request_content_type": null,
+      "response_status": 200,
+      "response_status_text": "OK",
+      "response_body": "{\n  \"id\": 1,\n  \"name\": \"red\",\n  \"code\": \"27527\",\n  \"discount\": 85\n}",
+      "response_headers": {
+        "X-Frame-Options": "SAMEORIGIN",
+        "X-XSS-Protection": "1; mode=block",
+        "X-Content-Type-Options": "nosniff",
+        "access-token": "2PA3xB3OM8SwbWELyxJbDQ",
+        "token-type": "Bearer",
+        "client": "ww7Y-V6w1LWwxIzalTxgiQ",
+        "expiry": "1479398979",
+        "uid": "75gunnar@nolan.biz",
+        "Content-Type": "application/json; charset=utf-8",
+        "ETag": "W/\"49bd07362d77d9e060b39b818004ee08\"",
+        "Cache-Control": "max-age=0, private, must-revalidate",
+        "Set-Cookie": "_session_id=bEUzOGNvb3kvdjZKTldRSkg0TFRvOEVtRnc2a2JIMVljRURSbE9vQ3ZmMDlLYkZsNDdLanlJQkozaHVVMmRTdDQ4Ny9VRk5rc093ODdNaGJITjMySGRXNG1NaDd1TGFMOHNZNkpBK1JwQXcwM0NiMXFJbFZNY003dTlzZFc0clRUdjlCWklTSUhzbXliWE1STnk0SUk0QStwY0ltS1pEYjM1ZUQ0ZkRyS0Q1SmRLYXB1NEg0SGVna1pMWThkNW8wLS1ydEpHVGdOU3dVUDJSR2FXM1dPZHNRPT0%3D--3d860660a0f3071274dbb3519a99c122430f4bb2; path=/; HttpOnly",
+        "X-Request-Id": "52f3579e-4c6d-43ea-b7ae-f2ad2a79ea12",
+        "X-Runtime": "0.009788",
+        "Content-Length": "50"
+      },
+      "response_content_type": "application/json; charset=utf-8",
+      "curl": "curl \"http://localhost:3000/client/payments/discount?cupon_code=27527\" -X GET \\\n\t-H \"Access-Token: 2PA3xB3OM8SwbWELyxJbDQ\" \\\n\t-H \"Token-Type: Bearer\" \\\n\t-H \"Client: ww7Y-V6w1LWwxIzalTxgiQ\" \\\n\t-H \"Expiry: 1479398979\" \\\n\t-H \"Uid: 75gunnar@nolan.biz\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: _session_id=eHpTQUNCTGVVUys0M3JEdUMvMFlWL0lCajdDSWRpNUtmRE8vbU9wSXNtaUNDZmlmNUFSaVZxUG1RYytZQm9OcDFoa3l5WEEzUHpHN2RMakozWlYrMzQ5TnFKZGF0bFFGaWkvbUY1WFNXR3hjdUdSRDNkdlNUMXhxWFJ1MmZLWC9EZDd1WTBGdFFQUW5CWjZZMStXKzVNdnNDNGRJdVJQYUVvM09IUHp5WXNnNm5rQnB0cGJBUzkvNWpIVmdyVHFhLS1UQVRrSFdNNjJmSXk5cnlSU3Nxd2h3PT0%3D--191c951a231a6b4f55fa9961e1ba3f9445479134\""
+    }
+  ]
+}
