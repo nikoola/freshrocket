@@ -429,6 +429,13 @@
           "groups": "all",
           "route": "/client/payments/new",
           "method": "get"
+        },
+        {
+          "description": "return coupon code if exist",
+          "link": "client:_payments/return_coupon_code_if_exist.json",
+          "groups": "all",
+          "route": "/client/payments/discount",
+          "method": "get"
         }
       ]
     },
